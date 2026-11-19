@@ -1,7 +1,8 @@
 /* Practice Tests — "wow" page style (look only; text, search and cards come from the page / practice-tests.js) */
 body.rsp-practice{background:#FBF9F6!important;position:relative}
-body.rsp-practice::before{content:"";position:absolute;inset:0 0 auto 0;height:900px;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(179,23,31,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(179,23,31,.055) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:linear-gradient(#000 20%,transparent 95%);mask-image:linear-gradient(#000 20%,transparent 95%)}
-body.rsp-practice main,body.rsp-practice .rsh-header,body.rsp-practice .rsh-notice{position:relative;z-index:1}
+body.rsp-practice::before{content:"";position:absolute;inset:0 0 auto 0;height:900px;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(179,23,31,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(179,23,31,.055) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:linear-gradient(#000 20%,transparent 95%);mask-image:linear-gradient(#000 20%,transparent 95%)}
+body.rsp-practice main{position:relative;z-index:0}
+body.rsp-practice .rsh-header{z-index:1000}
 /* ---- hero ---- */
 body.rsp-practice .rsp-hero{background:radial-gradient(700px 420px at 88% 10%,rgba(179,23,31,.16),transparent 70%),radial-gradient(520px 320px at 0% 0%,rgba(250,215,215,.8),transparent 70%)!important;padding:58px 0 40px!important;overflow:hidden}
 body.rsp-practice .rsp-hero-grid{grid-template-columns:1.1fr .9fr!important;gap:30px!important;align-items:center}
