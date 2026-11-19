@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Disallow: /account
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /resend-verification
+Disallow: /admin
+Disallow: /checkout
+Disallow: /payment
+Disallow: /private/
+
+Sitemap: https://www.redsealpractice.ca/sitemap.xml

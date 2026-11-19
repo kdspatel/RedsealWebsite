@@ -1,0 +1,2696 @@
+const sheetMetalWorkerFabricateProductsComponentsQuestions = [
+  {
+    "id": 1,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the main purpose of a Pittsburgh lock?",
+    "options": [
+      "To create a longitudinal seam in rectangular ductwork",
+      "To calculate duct area",
+      "To support duct hangers",
+      "To apply solder to flashing"
+    ],
+    "answer": 0,
+    "explanation": "A Pittsburgh lock is a common longitudinal seam used to join rectangular duct panels securely."
+  },
+  {
+    "id": 2,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the purpose of seam allowance in a flat pattern?",
+    "options": [
+      "To provide material needed for seams, locks, hems, or joints",
+      "To reduce the finished size only",
+      "To remove the need for bending",
+      "To increase sheet metal gauge"
+    ],
+    "answer": 0,
+    "explanation": "Seam allowance is extra material added to the pattern so seams and locks can be formed without making the part undersized."
+  },
+  {
+    "id": 3,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which seam is commonly used at transverse joints in rectangular ductwork?",
+    "options": [
+      "S-cleat and drive cleat",
+      "Standing seam only",
+      "Grooved seam only",
+      "Hemmed lap only"
+    ],
+    "answer": 0,
+    "explanation": "S-cleats and drive cleats are commonly used to connect rectangular duct sections at transverse joints."
+  },
+  {
+    "id": 4,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the main purpose of a hem?",
+    "options": [
+      "To stiffen an edge and reduce sharpness",
+      "To increase duct leakage",
+      "To make metal thinner",
+      "To replace all fasteners"
+    ],
+    "answer": 0,
+    "explanation": "A hem folds the edge over, creating a safer, stiffer, and cleaner finished edge."
+  },
+  {
+    "id": 5,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What does a grooved seam do?",
+    "options": [
+      "Mechanically locks two sheet metal edges together",
+      "Measures air velocity",
+      "Replaces a brake operation",
+      "Cuts notches in sheet metal"
+    ],
+    "answer": 0,
+    "explanation": "A grooved seam is a folded joint that locks two sheet metal edges together mechanically."
+  },
+  {
+    "id": 6,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the purpose of a standing seam?",
+    "options": [
+      "To create a raised locked joint that helps shed water",
+      "To reduce the length of roof panels",
+      "To eliminate expansion movement",
+      "To replace roof underlayment"
+    ],
+    "answer": 0,
+    "explanation": "Standing seams join architectural panels with a raised locked joint that improves weather resistance."
+  },
+  {
+    "id": 7,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which condition can prevent a Pittsburgh seam from closing properly?",
+    "options": [
+      "Crushed pocket or incorrect allowance",
+      "Clean sheet metal surface",
+      "Correct material gauge",
+      "Proper lock-former adjustment"
+    ],
+    "answer": 0,
+    "explanation": "A Pittsburgh seam requires the correct pocket shape and allowance. A distorted pocket or incorrect layout can stop proper engagement."
+  },
+  {
+    "id": 8,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which defect is most likely if a snap-lock seam is not fully engaged?",
+    "options": [
+      "Air leakage and weak seam connection",
+      "Increased duct strength",
+      "Reduced need for sealing",
+      "Improved airflow balancing"
+    ],
+    "answer": 0,
+    "explanation": "A snap-lock seam must be fully locked along its length. Unlocked sections can open, leak, or weaken the duct."
+  },
+  {
+    "id": 9,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the main advantage of a locked seam over a loose lap joint?",
+    "options": [
+      "Better mechanical strength and alignment",
+      "Less need for accurate layout",
+      "Increased material thickness",
+      "Complete elimination of sealing"
+    ],
+    "answer": 0,
+    "explanation": "Locked seams provide stronger mechanical engagement and better alignment than a loose overlapping joint."
+  },
+  {
+    "id": 10,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the purpose of a drive cleat?",
+    "options": [
+      "To lock transverse rectangular duct joints",
+      "To form a round pipe stretch-out",
+      "To solder copper flashing",
+      "To support roof panels"
+    ],
+    "answer": 0,
+    "explanation": "Drive cleats are driven onto compatible duct edges to complete transverse duct connections."
+  },
+  {
+    "id": 11,
+    "category": "F2. Fabricate Components",
+    "question": "Why is bend allowance important?",
+    "options": [
+      "It accounts for material used in the bend",
+      "It replaces seam allowance",
+      "It removes the need for measuring",
+      "It changes the metal alloy"
+    ],
+    "answer": 0,
+    "explanation": "Bend allowance accounts for the material that forms around the bend radius so finished dimensions are accurate."
+  },
+  {
+    "id": 12,
+    "category": "F2. Fabricate Components",
+    "question": "What can result from using the wrong bend deduction?",
+    "options": [
+      "Finished dimensions may be incorrect",
+      "The metal becomes corrosion-proof",
+      "The duct becomes quieter",
+      "Sealant cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Bend deduction affects how flat layout dimensions become finished formed dimensions. Incorrect values cause parts to finish too long or too short."
+  },
+  {
+    "id": 13,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of cross-breaking a large duct panel?",
+    "options": [
+      "To stiffen the panel and reduce drumming",
+      "To make the panel thinner",
+      "To increase leakage",
+      "To eliminate transverse joints"
+    ],
+    "answer": 0,
+    "explanation": "Cross-breaking adds stiffness to large flat panels and helps reduce vibration, drumming, and oil-canning."
+  },
+  {
+    "id": 14,
+    "category": "F2. Fabricate Components",
+    "question": "How is a rectangular fitting commonly checked for squareness?",
+    "options": [
+      "By comparing diagonal measurements",
+      "By counting fasteners",
+      "By checking metal colour",
+      "By measuring sealant thickness"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonal measurements indicate squareness. Unequal diagonals show that the fitting is racked."
+  },
+  {
+    "id": 15,
+    "category": "F2. Fabricate Components",
+    "question": "Why are burrs removed after cutting sheet metal?",
+    "options": [
+      "To reduce injury risk and improve fit-up",
+      "To increase material thickness",
+      "To improve oxidation",
+      "To replace seams"
+    ],
+    "answer": 0,
+    "explanation": "Burrs are sharp and can interfere with seams, locks, and assembly. Deburring improves safety and workmanship."
+  },
+  {
+    "id": 16,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of notching sheet metal before forming a box or pan?",
+    "options": [
+      "To provide clearance where bends meet",
+      "To increase metal thickness",
+      "To reduce material strength intentionally",
+      "To remove all bend allowance"
+    ],
+    "answer": 0,
+    "explanation": "Notches remove excess material at corners so bends can form cleanly without interference or buildup."
+  },
+  {
+    "id": 17,
+    "category": "F2. Fabricate Components",
+    "question": "Why is bend sequence important when fabricating a box or pan?",
+    "options": [
+      "Earlier bends can block later bends",
+      "It changes the metal finish",
+      "It removes the need for a brake",
+      "It eliminates all layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Box and pan fabrication must be sequenced so previously formed sides do not interfere with the brake or later bends."
+  },
+  {
+    "id": 18,
+    "category": "F2. Fabricate Components",
+    "question": "What is the main purpose of a return flange?",
+    "options": [
+      "To add stiffness or provide a fastening surface",
+      "To reduce sheet metal thickness",
+      "To increase air leakage",
+      "To remove the need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Return flanges strengthen components and can provide a surface for fastening, joining, or mounting."
+  },
+  {
+    "id": 19,
+    "category": "F2. Fabricate Components",
+    "question": "Why are templates used for repeated sheet metal parts?",
+    "options": [
+      "To improve consistency and reduce layout errors",
+      "To increase waste",
+      "To avoid checking dimensions",
+      "To replace all measuring tools"
+    ],
+    "answer": 0,
+    "explanation": "Templates allow repeated parts to be fabricated accurately and consistently."
+  },
+  {
+    "id": 20,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition can damage prefinished metal during fabrication?",
+    "options": [
+      "Dirty tooling or metal chips on the brake",
+      "Clean tooling",
+      "Proper material support",
+      "Correct bend radius"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, chips, and rough tooling can scratch, dent, or mark prefinished metal during forming."
+  },
+  {
+    "id": 21,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of protecting prefinished metal during fabrication?",
+    "options": [
+      "To prevent scratches, coating damage, and appearance defects",
+      "To make the metal softer",
+      "To reduce the need for bend allowance",
+      "To increase air velocity"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished metal surfaces are part of the finished product and must be protected from damage during cutting, forming, and handling."
+  },
+  {
+    "id": 22,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if a pattern does not include hem allowance?",
+    "options": [
+      "The finished part may be undersized",
+      "The hem becomes stronger automatically",
+      "The metal becomes thicker",
+      "The duct needs fewer supports"
+    ],
+    "answer": 0,
+    "explanation": "A hem consumes material. If the allowance is missing, the finished dimensions may be too short or the hem may not form correctly."
+  },
+  {
+    "id": 23,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "What is the main purpose of a lock-forming machine?",
+    "options": [
+      "To form seams and locks in sheet metal edges",
+      "To calculate duct pressure",
+      "To weld stainless steel",
+      "To install duct supports"
+    ],
+    "answer": 0,
+    "explanation": "A lock-forming machine forms edges such as Pittsburgh locks and other seam profiles."
+  },
+  {
+    "id": 24,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication error is most likely to cause poor fit-up on site?",
+    "options": [
+      "Incorrect field measurement or missing allowance",
+      "Clean sheet metal",
+      "Proper layout verification",
+      "Correct diagonal measurements"
+    ],
+    "answer": 0,
+    "explanation": "Poor field measurements, incorrect layout, or missing allowances commonly cause fabricated parts to fit poorly during installation."
+  },
+  {
+    "id": 25,
+    "category": "F2. Fabricate Components",
+    "question": "Why should fabricated duct sections be checked before leaving the shop?",
+    "options": [
+      "To confirm size, squareness, seams, and workmanship",
+      "To avoid using drawings",
+      "To reduce material gauge",
+      "To remove all labels"
+    ],
+    "answer": 0,
+    "explanation": "Shop quality checks help catch problems before installation, reducing rework and delays."
+  },
+  {
+    "id": 26,
+    "category": "F2. Fabricate Components",
+    "question": "What is the likely result of an out-of-square rectangular duct section?",
+    "options": [
+      "Poor connection fit-up and possible leakage",
+      "Better airflow",
+      "Reduced installation time",
+      "Stronger transverse joints"
+    ],
+    "answer": 0,
+    "explanation": "Out-of-square duct sections may not align with adjoining sections, causing gaps, stress, and leakage."
+  },
+  {
+    "id": 27,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of layout marks on sheet metal?",
+    "options": [
+      "To guide cutting, bending, forming, and assembly",
+      "To identify worker seniority",
+      "To replace measurements",
+      "To reduce material strength"
+    ],
+    "answer": 0,
+    "explanation": "Accurate layout marks guide the fabrication process and help ensure the part is made to the required size and shape."
+  },
+  {
+    "id": 28,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if layout lines are transferred from the wrong reference edge?",
+    "options": [
+      "Holes, bends, or cuts may be misplaced",
+      "The metal becomes stronger",
+      "Seams become airtight automatically",
+      "Bend allowance becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Layout depends on correct reference edges and baselines. Using the wrong reference can shift the entire pattern."
+  },
+  {
+    "id": 29,
+    "category": "F2. Fabricate Components / H1. Use Drafting Equipment for Geometric Construction",
+    "question": "What is the purpose of a centre line in fabrication layout?",
+    "options": [
+      "To provide a reference for symmetry and positioning",
+      "To mark scrap only",
+      "To indicate metal hardness",
+      "To replace all dimensions"
+    ],
+    "answer": 0,
+    "explanation": "Centre lines are used to locate features evenly and maintain symmetrical layout."
+  },
+  {
+    "id": 30,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "Which factor affects the minimum bend radius for aluminum?",
+    "options": [
+      "Alloy, temper, thickness, and grain direction",
+      "Paint colour only",
+      "Fastener spacing only",
+      "Duct pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Aluminum can crack if bent too tightly, especially depending on alloy, temper, thickness, and grain direction."
+  },
+  {
+    "id": 31,
+    "category": "F2. Fabricate Components",
+    "question": "What is the likely cause of cracking on the outside of an aluminum bend?",
+    "options": [
+      "Bend radius too tight or unsuitable material temper",
+      "Too much duct sealant",
+      "Proper bend radius",
+      "Correct material selection"
+    ],
+    "answer": 0,
+    "explanation": "Aluminum may crack when the bend radius is too tight, the temper is too hard, or the bend is made against unfavourable grain direction."
+  },
+  {
+    "id": 32,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "Why should stainless steel be kept away from carbon steel grinding dust?",
+    "options": [
+      "Carbon steel contamination can cause rust staining",
+      "Stainless steel becomes softer",
+      "Stainless steel becomes galvanized",
+      "Soldering becomes easier"
+    ],
+    "answer": 0,
+    "explanation": "Carbon steel particles can embed into stainless steel and later rust, causing staining and corrosion concerns."
+  },
+  {
+    "id": 33,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition is most likely to cause a formed flashing profile to be inconsistent along its length?",
+    "options": [
+      "Uneven brake setup or poor material positioning",
+      "Correct clamping pressure",
+      "Clean tooling",
+      "Proper layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Inconsistent bending can result from poor setup, uneven clamping, misalignment, or unsupported material."
+  },
+  {
+    "id": 34,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of trial fitting during fabrication?",
+    "options": [
+      "To confirm fit before final fastening, locking, or sealing",
+      "To avoid measuring",
+      "To increase waste",
+      "To replace quality control"
+    ],
+    "answer": 0,
+    "explanation": "Trial fitting helps catch alignment, size, and assembly issues before final closure or installation."
+  },
+  {
+    "id": 35,
+    "category": "F2. Fabricate Components / C3. Communicate with Others",
+    "question": "What is the main reason to label fabricated fittings?",
+    "options": [
+      "To identify orientation, location, size, or installation sequence",
+      "To make them heavier",
+      "To change the material type",
+      "To avoid using drawings"
+    ],
+    "answer": 0,
+    "explanation": "Labels help ensure fittings are installed in the correct location and orientation, reducing errors on site."
+  },
+  {
+    "id": 36,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if airflow direction is not marked on an asymmetrical duct fitting?",
+    "options": [
+      "The fitting may be installed backwards",
+      "The metal will crack",
+      "The fitting will become stronger",
+      "The seam allowance will increase"
+    ],
+    "answer": 0,
+    "explanation": "Some fittings are directional. Marking airflow or orientation helps prevent incorrect installation."
+  },
+  {
+    "id": 37,
+    "category": "F2. Fabricate Components / E1. Identify Systems",
+    "question": "Which fabrication defect can create turbulence inside ductwork?",
+    "options": [
+      "Excessive internal seam protrusion",
+      "Smooth internal surface",
+      "Properly closed seam",
+      "Correct transition length"
+    ],
+    "answer": 0,
+    "explanation": "Internal protrusions disturb airflow and can cause turbulence, noise, pressure loss, and dust buildup."
+  },
+  {
+    "id": 38,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of reinforcing or stiffening large duct panels?",
+    "options": [
+      "To reduce deflection, vibration, and oil-canning",
+      "To increase leakage",
+      "To remove all hangers",
+      "To reduce airflow"
+    ],
+    "answer": 0,
+    "explanation": "Large flat duct panels may need stiffening to resist deflection, vibration, and noise."
+  },
+  {
+    "id": 39,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if a transition is fabricated with one side longer than specified?",
+    "options": [
+      "It may not align with connected duct or equipment",
+      "It will always improve airflow",
+      "It will require fewer supports",
+      "It will reduce turbulence automatically"
+    ],
+    "answer": 0,
+    "explanation": "Transition dimensions must match drawings and field conditions. Incorrect length or offset can cause misalignment and installation problems."
+  },
+  {
+    "id": 40,
+    "category": "F2. Fabricate Components",
+    "question": "Why should sharp inside corners be avoided where cracking is likely?",
+    "options": [
+      "They create stress concentration",
+      "They increase corrosion resistance",
+      "They improve bend strength",
+      "They reduce the need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Sharp inside corners concentrate stress and can lead to cracking, especially in formed or bent components."
+  },
+  {
+    "id": 41,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of relief cuts in sheet metal fabrication?",
+    "options": [
+      "To prevent tearing, bunching, or interference during forming",
+      "To weaken all parts intentionally",
+      "To replace bend allowance",
+      "To remove the need for seams"
+    ],
+    "answer": 0,
+    "explanation": "Relief cuts provide clearance so material can bend or form without tearing, overlapping incorrectly, or bunching."
+  },
+  {
+    "id": 42,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of using clean protective film or paper when forming architectural metal?",
+    "options": [
+      "To protect the visible finish from scratches or marks",
+      "To increase material thickness",
+      "To make the metal softer",
+      "To replace brake tooling"
+    ],
+    "answer": 0,
+    "explanation": "Protective film or paper helps prevent surface damage during fabrication, provided it is approved and used correctly."
+  },
+  {
+    "id": 43,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition can cause poor repeatability when making multiple identical flashings?",
+    "options": [
+      "Using inconsistent reference points",
+      "Using a verified template",
+      "Checking each piece",
+      "Keeping tooling clean"
+    ],
+    "answer": 0,
+    "explanation": "Repeated parts should use consistent reference points and templates. Changing references causes dimension variation."
+  },
+  {
+    "id": 44,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "What is the purpose of checking material grain direction before bending?",
+    "options": [
+      "To reduce risk of cracking or poor bend quality",
+      "To change metal colour",
+      "To increase solder flow",
+      "To eliminate seam allowance"
+    ],
+    "answer": 0,
+    "explanation": "Some materials bend better in one direction than another. Grain direction can affect cracking and bend quality."
+  },
+  {
+    "id": 45,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if sheet metal is dragged across a shop floor?",
+    "options": [
+      "Scratches, dents, or coating damage",
+      "Better corrosion resistance",
+      "Increased material strength",
+      "Improved bend accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Dragging sheet metal can damage edges and surfaces, especially prefinished or architectural materials."
+  },
+  {
+    "id": 46,
+    "category": "F2. Fabricate Components",
+    "question": "Which quality check is most important after forming a duct fitting?",
+    "options": [
+      "Size, squareness, seam engagement, and edge condition",
+      "Worker initials only",
+      "Tool brand",
+      "Weather forecast"
+    ],
+    "answer": 0,
+    "explanation": "Finished fittings should be checked for size, squareness, seam closure, burrs, distortion, and overall workmanship."
+  },
+  {
+    "id": 47,
+    "category": "F2. Fabricate Components",
+    "question": "What is the likely result of poor notch alignment at a folded corner?",
+    "options": [
+      "Open corner, poor fit-up, or distorted bend",
+      "Improved water resistance",
+      "Increased metal thickness",
+      "Reduced need for sealing"
+    ],
+    "answer": 0,
+    "explanation": "Notches must align with bends and allowances. Poor notch layout can create gaps, interference, or poor corner quality."
+  },
+  {
+    "id": 48,
+    "category": "F2. Fabricate Components",
+    "question": "Why is proper material support important during bending?",
+    "options": [
+      "To prevent distortion and keep bends accurate",
+      "To make the metal heavier",
+      "To remove the need for layout",
+      "To reduce the bend radius to zero"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported material can sag, twist, or shift during bending, leading to inaccurate or distorted parts."
+  },
+  {
+    "id": 49,
+    "category": "F2. Fabricate Components",
+    "question": "What is the main reason to keep brake tooling clean?",
+    "options": [
+      "To prevent marks, dents, and scratches on fabricated parts",
+      "To reduce material thickness",
+      "To make bend allowance unnecessary",
+      "To increase duct velocity"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, chips, and debris on tooling can damage the metal surface and affect bend quality."
+  },
+  {
+    "id": 50,
+    "category": "F. Fabricate Products and Components",
+    "question": "Which condition indicates good fabrication workmanship?",
+    "options": [
+      "Accurate dimensions, clean edges, proper seams, and minimal distortion",
+      "Sharp burrs left on all edges",
+      "Random seam placement",
+      "Missing allowances hidden by sealant"
+    ],
+    "answer": 0,
+    "explanation": "Good fabrication includes accurate layout, clean cuts, proper forming, sound seams, correct allowances, and quality finish."
+  },
+  {
+    "id": 51,
+    "category": "F2. Fabricate Components",
+    "question": "A finished duct section is racked and will not connect squarely to the next section. What is the best way to confirm the defect?",
+    "options": [
+      "Measure both diagonals",
+      "Count the screws",
+      "Check the duct label",
+      "Measure the sealant bead"
+    ],
+    "answer": 0,
+    "explanation": "A rectangular duct or fitting is square when both diagonal measurements are equal. Unequal diagonals indicate the part is racked."
+  },
+  {
+    "id": 52,
+    "category": "F2. Fabricate Components",
+    "question": "A formed flashing profile is consistently 6 mm short on one leg. What is the most likely cause?",
+    "options": [
+      "Incorrect bend allowance or bend deduction",
+      "Too many fasteners",
+      "Excessive duct velocity",
+      "Wrong fire extinguisher class"
+    ],
+    "answer": 0,
+    "explanation": "Bend allowance and bend deduction control finished leg dimensions. Incorrect calculations can make formed parts finish short or long."
+  },
+  {
+    "id": 53,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A Pittsburgh seam will not accept the male flange during assembly. What should be checked first?",
+    "options": [
+      "Pocket shape and lock allowance",
+      "Duct hanger spacing",
+      "Roof slope",
+      "Sealant colour"
+    ],
+    "answer": 0,
+    "explanation": "The Pittsburgh pocket must be correctly formed and sized. A crushed pocket or wrong allowance prevents proper seam engagement."
+  },
+  {
+    "id": 54,
+    "category": "F2. Fabricate Components",
+    "question": "A hemmed edge is wavy after forming. What is a likely cause?",
+    "options": [
+      "Uneven forming pressure or poor material support",
+      "Correct brake setup",
+      "Proper bend sequence",
+      "Clean tooling only"
+    ],
+    "answer": 0,
+    "explanation": "Wavy hems can result from uneven pressure, unsupported material, inconsistent forming, or excessive working of the edge."
+  },
+  {
+    "id": 55,
+    "category": "F2. Fabricate Components",
+    "question": "A prefinished panel has long scratches after bending. What is the most likely cause?",
+    "options": [
+      "Dirty brake tooling or metal chips",
+      "Correct bend allowance",
+      "Proper protective handling",
+      "Accurate layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, metal chips, or rough tooling can scratch prefinished surfaces during forming. Tooling should be cleaned before use."
+  },
+  {
+    "id": 56,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A snap-lock seam closes in some areas but not others. What should be inspected?",
+    "options": [
+      "Seam profile consistency and full engagement",
+      "Fire damper access",
+      "Scaffold height",
+      "Roof membrane type"
+    ],
+    "answer": 0,
+    "explanation": "Snap-lock seams require consistent profile and full engagement. Distorted edges or poor forming can prevent proper locking."
+  },
+  {
+    "id": 57,
+    "category": "F2. Fabricate Components",
+    "question": "A box pan cannot be completed because the already-formed sides hit the brake. What was missed?",
+    "options": [
+      "Bend sequence planning",
+      "Sealant selection",
+      "Duct pressure calculation",
+      "Hanger rod sizing"
+    ],
+    "answer": 0,
+    "explanation": "Box and pan fabrication requires a planned bend sequence so formed sides do not interfere with later brake operations."
+  },
+  {
+    "id": 58,
+    "category": "F2. Fabricate Components",
+    "question": "A duct panel drums loudly when tapped. Which fabrication feature would help reduce this?",
+    "options": [
+      "Cross-breaking or stiffening",
+      "Removing seams",
+      "Increasing leakage",
+      "Reducing all reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Large flat duct panels can drum or vibrate. Cross-breaking, beading, or reinforcement helps stiffen the panel."
+  },
+  {
+    "id": 59,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A grooved seam opens during handling. What is the likely issue?",
+    "options": [
+      "Incomplete locking or poor seam forming",
+      "Correct seam closure",
+      "Proper material support",
+      "Too much squareness"
+    ],
+    "answer": 0,
+    "explanation": "Grooved seams must be properly folded and locked. Poor forming or incomplete closure can allow the seam to open."
+  },
+  {
+    "id": 60,
+    "category": "F2. Fabricate Components",
+    "question": "A duct fitting fits in the shop but is reversed on site. What fabrication marking was likely missing?",
+    "options": [
+      "Orientation or airflow direction mark",
+      "Sheet metal gauge label only",
+      "Fastener count",
+      "Worker initials only"
+    ],
+    "answer": 0,
+    "explanation": "Directional or asymmetrical fittings should be marked with orientation, airflow direction, or installation location to prevent reversal."
+  },
+  {
+    "id": 61,
+    "category": "F2. Fabricate Components",
+    "question": "A repeated flashing order has pieces that vary slightly in length. What is the most likely cause?",
+    "options": [
+      "Inconsistent reference points during layout",
+      "Correct template use",
+      "Proper stop gauge setup",
+      "Verified material length"
+    ],
+    "answer": 0,
+    "explanation": "Repeated parts require consistent references, templates, stop gauges, or layout methods. Changing reference points causes variation."
+  },
+  {
+    "id": 62,
+    "category": "F2. Fabricate Components / E1. Identify Systems",
+    "question": "A duct seam has an internal protrusion into the airstream. What can this cause?",
+    "options": [
+      "Turbulence and pressure loss",
+      "Better airflow",
+      "Lower noise",
+      "Improved balancing"
+    ],
+    "answer": 0,
+    "explanation": "Internal protrusions disturb airflow and may cause turbulence, pressure loss, noise, and debris buildup."
+  },
+  {
+    "id": 63,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "Aluminum trim cracks along the outside of the bend. What is the most likely cause?",
+    "options": [
+      "Bend radius too tight or unsuitable temper",
+      "Proper bend radius",
+      "Correct material selection",
+      "Clean brake tooling"
+    ],
+    "answer": 0,
+    "explanation": "Aluminum can crack if the bend radius is too tight, the temper is too hard, or grain direction is unfavourable."
+  },
+  {
+    "id": 64,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "Stainless trim shows rust stains after fabrication. What is a possible cause?",
+    "options": [
+      "Carbon steel contamination",
+      "Stainless steel being naturally rusty",
+      "Too much bend allowance",
+      "Correct storage and handling"
+    ],
+    "answer": 0,
+    "explanation": "Carbon steel particles from brushes, grinders, or storage contact can contaminate stainless steel and later rust."
+  },
+  {
+    "id": 65,
+    "category": "F2. Fabricate Components",
+    "question": "A notch is cut too deep at a bend intersection. What defect may result?",
+    "options": [
+      "Weak corner or visible gap",
+      "Improved strength",
+      "Better water resistance",
+      "More accurate bend allowance"
+    ],
+    "answer": 0,
+    "explanation": "Over-notching removes too much material, which can weaken corners, create openings, or affect appearance and fit-up."
+  },
+  {
+    "id": 66,
+    "category": "F2. Fabricate Components",
+    "question": "A relief cut is missing where two bends meet. What can happen during forming?",
+    "options": [
+      "Material may bunch, tear, or distort",
+      "The part becomes stronger",
+      "The seam becomes airtight",
+      "Bend allowance becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Relief cuts provide clearance where formed material would otherwise bind, overlap, or tear during bending."
+  },
+  {
+    "id": 67,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated transition does not align with the equipment opening. What should be checked?",
+    "options": [
+      "Field dimensions, orientation, and connection details",
+      "Fire extinguisher class",
+      "Soldering flux type",
+      "Ladder inspection tag"
+    ],
+    "answer": 0,
+    "explanation": "Transitions depend on correct field measurements, end sizes, orientation, offsets, and connection details."
+  },
+  {
+    "id": 68,
+    "category": "F2. Fabricate Components",
+    "question": "A formed part has marks across the visible face after using a brake. What is the likely cause?",
+    "options": [
+      "Tooling contamination or lack of surface protection",
+      "Correct protective film use",
+      "Proper tooling cleanliness",
+      "Accurate squareness"
+    ],
+    "answer": 0,
+    "explanation": "Visible marking is commonly caused by dirty tooling, rough dies, metal chips, or lack of protective film/paper where appropriate."
+  },
+  {
+    "id": 69,
+    "category": "F2. Fabricate Components",
+    "question": "A rectangular duct fitting has unequal diagonals. What is the defect?",
+    "options": [
+      "Out of square",
+      "Too much airflow",
+      "Too much sealant",
+      "Correctly fabricated"
+    ],
+    "answer": 0,
+    "explanation": "Unequal diagonals mean the rectangular fitting is racked or out of square."
+  },
+  {
+    "id": 70,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam allowance is added on the wrong side of a pattern. What can happen?",
+    "options": [
+      "The seam may end up in the wrong location or the part may not fit",
+      "The duct becomes stronger",
+      "Bend allowance improves",
+      "Airflow increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "Seam allowance placement affects finished dimensions, seam location, orientation, and assembly. Wrong placement can cause fit-up problems."
+  },
+  {
+    "id": 71,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A standing seam panel edge has been overworked before seaming. What is the concern?",
+    "options": [
+      "The profile may deform and not lock correctly",
+      "The panel becomes thicker",
+      "Expansion movement improves",
+      "Weather resistance always improves"
+    ],
+    "answer": 0,
+    "explanation": "Standing seam profiles require accurate shape. Excessive bending or handling can deform edges and affect seaming quality."
+  },
+  {
+    "id": 72,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated duct section has sharp burrs left on the edges. What is the best correction?",
+    "options": [
+      "Deburr the edges before assembly or handling",
+      "Cover the burrs with paint only",
+      "Ignore them if they are inside the duct",
+      "Add more screws"
+    ],
+    "answer": 0,
+    "explanation": "Burrs are a cut hazard and can interfere with seam closure and fit-up. They should be removed."
+  },
+  {
+    "id": 73,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "A lock-forming machine produces an inconsistent seam profile. What should be checked?",
+    "options": [
+      "Machine setup, material thickness, and feed alignment",
+      "Roof slope",
+      "Duct hanger length",
+      "Fire damper access"
+    ],
+    "answer": 0,
+    "explanation": "Lock-forming accuracy depends on correct machine adjustment, suitable material thickness, clean rolls, and proper feeding."
+  },
+  {
+    "id": 74,
+    "category": "F2. Fabricate Components",
+    "question": "A large flat panel has visible waviness after fabrication. Which factor may contribute?",
+    "options": [
+      "Internal stress, poor support, or improper handling",
+      "Correct handling",
+      "Proper backing during forming",
+      "Adequate stiffening"
+    ],
+    "answer": 0,
+    "explanation": "Waviness can result from trapped material stress, unsupported handling, improper forming, or poor storage."
+  },
+  {
+    "id": 75,
+    "category": "F2. Fabricate Components",
+    "question": "A duct fitting is fabricated without reinforcement shown on the drawing. What is the concern?",
+    "options": [
+      "It may deflect, vibrate, or fail to meet specification",
+      "It will always be quieter",
+      "It will require fewer supports",
+      "It will seal better"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement may be required for strength, pressure class, size, and noise control. Omitting it can affect performance and compliance."
+  },
+  {
+    "id": 76,
+    "category": "F2. Fabricate Components",
+    "question": "A flange is not flat after forming. What should be checked?",
+    "options": [
+      "Bend angle, brake setup, and material support",
+      "Duct airflow only",
+      "Sealant cure time",
+      "Fire extinguisher rating"
+    ],
+    "answer": 0,
+    "explanation": "Flange quality depends on accurate forming, correct brake setup, proper support, and consistent material positioning."
+  },
+  {
+    "id": 77,
+    "category": "F2. Fabricate Components / C1. Interpret Drawings and Specifications",
+    "question": "A pattern is cut before confirming the latest revision. What is the risk?",
+    "options": [
+      "The part may be fabricated to outdated dimensions",
+      "The metal becomes stronger",
+      "The seam becomes airtight",
+      "The bend radius improves"
+    ],
+    "answer": 0,
+    "explanation": "Fabrication must use the current approved revision. Old information can cause rework and installation conflicts."
+  },
+  {
+    "id": 78,
+    "category": "F2. Fabricate Components",
+    "question": "A duct connector frame is assembled out of square. What problem can occur?",
+    "options": [
+      "Poor alignment and leakage at connection",
+      "Better airflow",
+      "Stronger corners",
+      "Easier installation"
+    ],
+    "answer": 0,
+    "explanation": "Connector frames must be square to align correctly with mating duct sections. Out-of-square frames create gaps and stress."
+  },
+  {
+    "id": 79,
+    "category": "F2. Fabricate Components",
+    "question": "A hem requires two folds, but the first fold is made too wide. What is the likely result?",
+    "options": [
+      "Finished dimension or hem shape may be incorrect",
+      "The metal becomes thicker",
+      "The hem always becomes stronger",
+      "Seam allowance is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Hem dimensions must be laid out accurately. If the first fold is wrong, the final hem and finished size may be wrong."
+  },
+  {
+    "id": 80,
+    "category": "F2. Fabricate Components",
+    "question": "A flange cracks at the corner during forming. What may be missing?",
+    "options": [
+      "Proper relief notch or radius",
+      "More sealant",
+      "Smaller layout table",
+      "Extra duct labels"
+    ],
+    "answer": 0,
+    "explanation": "Corners need proper relief and radius to prevent tearing or cracking when multiple bends meet."
+  },
+  {
+    "id": 81,
+    "category": "F2. Fabricate Components / C4. Measure and Sketch Shop Project Components",
+    "question": "A shop-made flashing does not match the wall slope. What should have been recorded?",
+    "options": [
+      "Slope direction and angle/profile details",
+      "Worker name only",
+      "Fastener box size",
+      "Tool brand"
+    ],
+    "answer": 0,
+    "explanation": "Custom flashing must include slope direction and profile details so it drains and fits correctly."
+  },
+  {
+    "id": 82,
+    "category": "F2. Fabricate Components / B1. Use Hand Tools",
+    "question": "A panel edge is distorted after cutting with snips. What is a likely cause?",
+    "options": [
+      "Tool not suitable for the cut or poor cutting technique",
+      "Correct tool selection",
+      "Proper support",
+      "Clean material"
+    ],
+    "answer": 0,
+    "explanation": "Cutting distortion can result from wrong snips, dull tools, poor support, or forcing the cut."
+  },
+  {
+    "id": 83,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A rectangular duct section has correct dimensions but poor seam closure. What should be corrected?",
+    "options": [
+      "Seam forming and lock engagement",
+      "Duct length only",
+      "Panel colour",
+      "Drawing title block"
+    ],
+    "answer": 0,
+    "explanation": "Correct dimensions alone are not enough. Seams must be properly formed and engaged to provide strength and reduce leakage."
+  },
+  {
+    "id": 84,
+    "category": "F2. Fabricate Components",
+    "question": "A repeated part is made from a worn template. What is the risk?",
+    "options": [
+      "All repeated parts may contain the same error",
+      "The parts become more accurate",
+      "The metal becomes more corrosion-resistant",
+      "Bend allowance improves automatically"
+    ],
+    "answer": 0,
+    "explanation": "Templates must be accurate and maintained. A worn or damaged template can repeat the same defect many times."
+  },
+  {
+    "id": 85,
+    "category": "F2. Fabricate Components",
+    "question": "A duct fitting has a twisted appearance after assembly. Which issue is most likely?",
+    "options": [
+      "Incorrect layout, poor squaring, or uneven forming",
+      "Correct diagonal measurements",
+      "Proper seam closure",
+      "Correct bend sequence"
+    ],
+    "answer": 0,
+    "explanation": "Twisting can result from layout error, racking, uneven bends, or poor assembly sequence."
+  },
+  {
+    "id": 86,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam is placed where it will be against a wall after installation. What should have been considered?",
+    "options": [
+      "Seam access for sealing, fastening, and inspection",
+      "Paint colour",
+      "Ladder storage",
+      "Sheet metal supplier"
+    ],
+    "answer": 0,
+    "explanation": "Seam location should allow proper assembly, sealing, inspection, and installation access."
+  },
+  {
+    "id": 87,
+    "category": "F2. Fabricate Components / C3. Communicate with Others",
+    "question": "A part is fabricated correctly but has no identification for location. What is the risk?",
+    "options": [
+      "It may be installed in the wrong location",
+      "It becomes too heavy",
+      "It will leak immediately",
+      "The metal gauge changes"
+    ],
+    "answer": 0,
+    "explanation": "Labels or markings help match fabricated parts to drawings, locations, orientation, and installation sequence."
+  },
+  {
+    "id": 88,
+    "category": "F2. Fabricate Components",
+    "question": "A bend line is marked on the wrong side of prefinished metal. What can happen?",
+    "options": [
+      "The finished face may be wrong or damaged",
+      "The part becomes stronger",
+      "Hem allowance increases",
+      "The metal becomes thicker"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished materials must be laid out with attention to finished face, bend direction, and protective handling."
+  },
+  {
+    "id": 89,
+    "category": "F2. Fabricate Components",
+    "question": "A duct panel is too flexible after fabrication. What should be checked?",
+    "options": [
+      "Gauge, reinforcement, cross-breaking, and specification requirements",
+      "Tool colour",
+      "Worker initials",
+      "Sealant brand only"
+    ],
+    "answer": 0,
+    "explanation": "Duct stiffness depends on material gauge, panel size, reinforcement, pressure class, and cross-breaking or stiffening requirements."
+  },
+  {
+    "id": 90,
+    "category": "F2. Fabricate Components",
+    "question": "A finished fitting has excessive hammer marks. What does this indicate?",
+    "options": [
+      "Poor workmanship or improper forming method",
+      "Correct fabrication",
+      "Improved strength",
+      "Better airflow"
+    ],
+    "answer": 0,
+    "explanation": "Excessive marks indicate poor tool control or forming technique and may affect appearance, finish, and fit-up."
+  },
+  {
+    "id": 91,
+    "category": "F2. Fabricate Components",
+    "question": "A sheet slips during brake forming. What is a likely result?",
+    "options": [
+      "Incorrect bend location or angle",
+      "Better accuracy",
+      "Reduced need for layout",
+      "Improved seam engagement"
+    ],
+    "answer": 0,
+    "explanation": "Material must be properly positioned and clamped. Slippage can shift the bend line and create inaccurate parts."
+  },
+  {
+    "id": 92,
+    "category": "F2. Fabricate Components",
+    "question": "A duct section is fabricated with correct perimeter but no connector allowance. What is the issue?",
+    "options": [
+      "It may not connect properly to adjoining duct",
+      "It will become stronger",
+      "It will require fewer seams",
+      "It will reduce pressure loss"
+    ],
+    "answer": 0,
+    "explanation": "Fabrication must include allowances for connectors, seams, locks, and joints. Correct perimeter alone is not enough."
+  },
+  {
+    "id": 93,
+    "category": "F2. Fabricate Components",
+    "question": "A flange is bent past 90° when a square flange is required. What is the best correction?",
+    "options": [
+      "Adjust carefully if possible and check finished angle",
+      "Leave it because over-bending always improves fit",
+      "Add sealant only",
+      "Cut the flange off"
+    ],
+    "answer": 0,
+    "explanation": "Flanges must be formed to the specified angle. Minor correction may be possible, but overworking can crack or distort metal."
+  },
+  {
+    "id": 94,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam edge is stretched during forming. What can result?",
+    "options": [
+      "Distortion or poor seam alignment",
+      "Better closure",
+      "Increased corrosion resistance",
+      "Reduced material length"
+    ],
+    "answer": 0,
+    "explanation": "Stretching metal along a seam edge can distort the profile and prevent proper alignment or engagement."
+  },
+  {
+    "id": 95,
+    "category": "F2. Fabricate Components / C4. Measure and Sketch Shop Project Components",
+    "question": "A fabricated transition has correct end sizes but wrong offset direction. What was likely missed?",
+    "options": [
+      "Orientation marking or shop sketch detail",
+      "Deburring only",
+      "Cross-breaking",
+      "Soldering flux"
+    ],
+    "answer": 0,
+    "explanation": "Transitions need correct orientation and offset direction. Missing orientation marks or sketch details can cause reversed fabrication."
+  },
+  {
+    "id": 96,
+    "category": "F2. Fabricate Components",
+    "question": "A brake bend has a rounded radius larger than specified. What can be affected?",
+    "options": [
+      "Finished dimensions and profile fit",
+      "Fire damper access",
+      "Duct hanger spacing",
+      "Air velocity only"
+    ],
+    "answer": 0,
+    "explanation": "Bend radius affects material take-up, finished dimensions, and how the profile fits with adjacent components."
+  },
+  {
+    "id": 97,
+    "category": "F2. Fabricate Components",
+    "question": "A panel has small dents after being stored under heavier materials. What was the issue?",
+    "options": [
+      "Improper storage and handling",
+      "Correct stacking",
+      "Proper protection",
+      "Correct material support"
+    ],
+    "answer": 0,
+    "explanation": "Sheet metal and prefinished panels should be stored to prevent dents, scratches, moisture damage, and distortion."
+  },
+  {
+    "id": 98,
+    "category": "F2. Fabricate Components",
+    "question": "A duct fitting has a gap at one corner after assembly. What should be checked?",
+    "options": [
+      "Notch size, bend alignment, and squareness",
+      "Paint colour",
+      "Duct label",
+      "Welding amperage only"
+    ],
+    "answer": 0,
+    "explanation": "Corner gaps often result from incorrect notching, poor bend location, or an out-of-square assembly."
+  },
+  {
+    "id": 99,
+    "category": "F2. Fabricate Components",
+    "question": "A part is cut before verifying material thickness. What problem can occur?",
+    "options": [
+      "The selected material may not meet specification or forming requirements",
+      "The part becomes easier to bend correctly",
+      "The seam always locks better",
+      "The finish improves"
+    ],
+    "answer": 0,
+    "explanation": "Material thickness affects strength, forming, seams, locks, and specification compliance. It should be verified before fabrication."
+  },
+  {
+    "id": 100,
+    "category": "F. Fabricate Products and Components",
+    "question": "Which defect best indicates poor fabrication quality?",
+    "options": [
+      "Inaccurate dimensions, sharp burrs, distorted seams, and visible damage",
+      "Clean edges and square corners",
+      "Proper seam engagement",
+      "Accurate bend lines"
+    ],
+    "answer": 0,
+    "explanation": "Poor fabrication quality includes dimensional errors, burrs, damaged finish, distorted seams, poor squareness, and poor workmanship."
+  },
+  {
+    "id": 101,
+    "category": "F2. Fabricate Components",
+    "question": "A shop is fabricating several identical duct offsets. What is the best way to maintain consistency?",
+    "options": [
+      "Use a verified template or stop setup",
+      "Measure each piece from a different edge",
+      "Change the reference line for each part",
+      "Cut all parts oversized and force them together"
+    ],
+    "answer": 0,
+    "explanation": "A verified template, stop gauge, or consistent reference setup improves repeatability and reduces layout variation."
+  },
+  {
+    "id": 102,
+    "category": "F2. Fabricate Components",
+    "question": "A formed flashing has the correct profile but the finished length is wrong. Which fabrication step should be checked first?",
+    "options": [
+      "Cut length and allowances",
+      "Fastener colour",
+      "Duct hanger spacing",
+      "Soldering temperature"
+    ],
+    "answer": 0,
+    "explanation": "Finished length depends on correct cut length, laps, end conditions, hems, and allowances."
+  },
+  {
+    "id": 103,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which condition most directly affects whether a duct seam closes properly?",
+    "options": [
+      "Correct seam profile and allowance",
+      "Panel colour",
+      "Number of workers",
+      "Weather forecast"
+    ],
+    "answer": 0,
+    "explanation": "Seams require correct layout allowance and properly formed profiles. If either is wrong, the seam may not close or lock."
+  },
+  {
+    "id": 104,
+    "category": "F2. Fabricate Components",
+    "question": "A rectangular duct fitting has one side bowed inward after fabrication. What is the likely concern?",
+    "options": [
+      "Reduced airflow area and poor fit-up",
+      "Better pressure resistance",
+      "Improved balancing",
+      "Reduced need for support"
+    ],
+    "answer": 0,
+    "explanation": "Bowed panels can reduce clear area, interfere with connections, increase turbulence, and indicate inadequate stiffness or handling damage."
+  },
+  {
+    "id": 105,
+    "category": "F2. Fabricate Components / C1. Interpret Drawings and Specifications",
+    "question": "What is the main purpose of checking a fabricated fitting against the shop drawing?",
+    "options": [
+      "To confirm dimensions, connections, orientation, and requirements",
+      "To choose worker tools",
+      "To remove all labels",
+      "To avoid quality control"
+    ],
+    "answer": 0,
+    "explanation": "The shop drawing confirms size, shape, orientation, material, connection type, allowances, and special details."
+  },
+  {
+    "id": 106,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "A lock-forming machine starts marking the visible face of architectural metal. What should be done?",
+    "options": [
+      "Stop and check tooling cleanliness, setup, and material protection",
+      "Continue because marks are normal",
+      "Add more pressure immediately",
+      "Use sealant over the marks"
+    ],
+    "answer": 0,
+    "explanation": "Visible-face damage may be caused by dirty rollers, wrong setup, rough tooling, or poor protection. The cause should be corrected before more material is damaged."
+  },
+  {
+    "id": 107,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication issue can make a duct section difficult to install even if its width and height are correct?",
+    "options": [
+      "The section is out of square",
+      "The duct is clean",
+      "The duct is labelled",
+      "The seams are properly closed"
+    ],
+    "answer": 0,
+    "explanation": "Correct width and height do not guarantee fit. A racked section can create alignment problems at joints."
+  },
+  {
+    "id": 108,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A sheet metal edge is folded over twice to hide the raw edge. What is this called?",
+    "options": [
+      "Hem",
+      "Drive cleat",
+      "Turning vane",
+      "Fire damper"
+    ],
+    "answer": 0,
+    "explanation": "A hem is a folded edge that improves stiffness, appearance, and safety."
+  },
+  {
+    "id": 109,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Why should seam edges be kept straight during fabrication?",
+    "options": [
+      "Straight edges allow proper locking and alignment",
+      "Straight edges reduce material thickness",
+      "Straight edges remove the need for supports",
+      "Straight edges increase duct pressure"
+    ],
+    "answer": 0,
+    "explanation": "Crooked or distorted seam edges may not lock, close, or seal correctly."
+  },
+  {
+    "id": 110,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated part is correct except the finished face is on the wrong side. What was most likely missed?",
+    "options": [
+      "Bend direction and finished-side layout",
+      "Fastener spacing",
+      "Fire damper access",
+      "Duct insulation thickness"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished or directional materials must be laid out with correct face orientation and bend direction."
+  },
+  {
+    "id": 111,
+    "category": "F1. Seams, Locks, Edges and Joints / F2. Fabricate Components",
+    "question": "A seam allowance is included, but the seam appears on the wrong side after forming. What should have been checked?",
+    "options": [
+      "Pattern orientation before cutting and bending",
+      "Sealant cure time",
+      "Duct velocity",
+      "Roof slope"
+    ],
+    "answer": 0,
+    "explanation": "Seam allowance must be placed on the correct side relative to the finished orientation. Incorrect orientation can place seams incorrectly."
+  },
+  {
+    "id": 112,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication practice reduces the risk of damaging prefinished metal?",
+    "options": [
+      "Use clean tooling and protect visible surfaces",
+      "Drag sheets across the floor",
+      "Stack heavy material on top",
+      "Remove protective film before all handling"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished metal should be protected from scratches, dents, chips, and contamination during cutting, forming, and handling."
+  },
+  {
+    "id": 113,
+    "category": "F2. Fabricate Components",
+    "question": "A duct connector frame does not sit flat on the table after assembly. What should be checked?",
+    "options": [
+      "Squareness, twist, and corner assembly",
+      "Worker name",
+      "Paint colour",
+      "Tool storage location"
+    ],
+    "answer": 0,
+    "explanation": "A frame that does not sit flat may be twisted, out of square, or poorly assembled at the corners."
+  },
+  {
+    "id": 114,
+    "category": "F2. Fabricate Components",
+    "question": "What is the main purpose of a relief notch at a bend intersection?",
+    "options": [
+      "Prevent material interference, tearing, or distortion",
+      "Increase material thickness",
+      "Replace seam allowance",
+      "Reduce all bend radius"
+    ],
+    "answer": 0,
+    "explanation": "Relief notches provide clearance where bends meet, preventing tearing, bunching, and poor corner formation."
+  },
+  {
+    "id": 115,
+    "category": "F2. Fabricate Components",
+    "question": "Which issue can occur if a notch is too small?",
+    "options": [
+      "Material may overlap, bunch, or prevent clean forming",
+      "The part becomes too corrosion-resistant",
+      "The duct will need fewer seams",
+      "The bend allowance disappears"
+    ],
+    "answer": 0,
+    "explanation": "Notches must provide enough clearance for bends and corners. Too small a notch can cause interference and distortion."
+  },
+  {
+    "id": 116,
+    "category": "F2. Fabricate Components",
+    "question": "Which issue can occur if a notch is too large?",
+    "options": [
+      "Corner gap or weakened edge",
+      "Better appearance",
+      "Stronger corner",
+      "More accurate bend radius"
+    ],
+    "answer": 0,
+    "explanation": "Over-notching removes too much metal and can leave gaps, weak corners, or poor appearance."
+  },
+  {
+    "id": 117,
+    "category": "F2. Fabricate Components / H1. Use Drafting Equipment for Geometric Construction",
+    "question": "What is the purpose of using consistent baselines during layout?",
+    "options": [
+      "To keep all dimensions referenced accurately",
+      "To make material thicker",
+      "To avoid checking diagonals",
+      "To reduce seam strength"
+    ],
+    "answer": 0,
+    "explanation": "Consistent baselines prevent accumulated layout errors and help keep features correctly positioned."
+  },
+  {
+    "id": 118,
+    "category": "F2. Fabricate Components",
+    "question": "A bend is made on the wrong layout line. What is the best likely result?",
+    "options": [
+      "The part may be unusable or require rework",
+      "The part becomes more accurate",
+      "The seam allowance corrects the error automatically",
+      "The metal becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Bend locations control the final shape and size. A bend on the wrong line can make the part unusable."
+  },
+  {
+    "id": 119,
+    "category": "F2. Fabricate Components",
+    "question": "What should be verified before cutting expensive architectural sheet metal?",
+    "options": [
+      "Dimensions, finished face, grain/protective film direction, and allowances",
+      "Worker lunch time",
+      "Colour of hand tools",
+      "Number of ladders available"
+    ],
+    "answer": 0,
+    "explanation": "Architectural metal should be checked carefully before cutting because errors can be costly and visible in the final installation."
+  },
+  {
+    "id": 120,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated transition has a rough jagged opening. What is the likely concern?",
+    "options": [
+      "Poor fit-up, turbulence, and unsafe edges",
+      "Better airflow",
+      "Stronger seam closure",
+      "Reduced need for sealing"
+    ],
+    "answer": 0,
+    "explanation": "Rough cuts can create sharp edges, poor connections, turbulence, and sealing problems."
+  },
+  {
+    "id": 121,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of trial assembly before final seam closure?",
+    "options": [
+      "To confirm fit, alignment, and orientation",
+      "To avoid using drawings",
+      "To increase distortion",
+      "To replace all fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Trial assembly helps identify errors before final locking, fastening, sealing, or installation."
+  },
+  {
+    "id": 122,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which seam defect is most likely to cause leakage?",
+    "options": [
+      "Incomplete lock engagement",
+      "Proper seam closure",
+      "Clean seam edges",
+      "Correct allowance"
+    ],
+    "answer": 0,
+    "explanation": "Incomplete engagement leaves openings or weak areas where air can escape."
+  },
+  {
+    "id": 123,
+    "category": "F2. Fabricate Components",
+    "question": "A part has correct length and width but the bend angles vary along its length. What should be checked?",
+    "options": [
+      "Brake adjustment, clamping, and material support",
+      "Duct hanger rods",
+      "Sealant temperature",
+      "Fire damper clearance"
+    ],
+    "answer": 0,
+    "explanation": "Uneven bend angle often results from brake setup issues, uneven clamping pressure, or unsupported material."
+  },
+  {
+    "id": 124,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition indicates that a large duct panel may need stiffening?",
+    "options": [
+      "Panel flexes or drums easily",
+      "Panel has clean edges",
+      "Panel dimensions are labelled",
+      "Panel is square"
+    ],
+    "answer": 0,
+    "explanation": "Large flexible panels may require cross-breaking, beading, or reinforcement to reduce drumming and deflection."
+  },
+  {
+    "id": 125,
+    "category": "F2. Fabricate Components / C3. Communicate with Others",
+    "question": "What is the purpose of marking installation location on fabricated pieces?",
+    "options": [
+      "To reduce confusion and installation errors",
+      "To make the part stronger",
+      "To increase material thickness",
+      "To replace all drawings"
+    ],
+    "answer": 0,
+    "explanation": "Location labels help workers match fabricated pieces to the correct area and sequence."
+  },
+  {
+    "id": 126,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam is selected mainly because it must shed water on an architectural panel. Which seam type is most likely appropriate?",
+    "options": [
+      "Standing seam",
+      "Open butt joint",
+      "Loose lap with no fold",
+      "Unlocked edge"
+    ],
+    "answer": 0,
+    "explanation": "Standing seams are used in architectural sheet metal because the raised locked joint helps shed water."
+  },
+  {
+    "id": 127,
+    "category": "F2. Fabricate Components / E1. Identify Systems",
+    "question": "A duct fitting must have minimal internal obstruction. What fabrication detail should be controlled?",
+    "options": [
+      "Seam protrusion into the airstream",
+      "Exterior label colour",
+      "Tool brand",
+      "Number of shop carts"
+    ],
+    "answer": 0,
+    "explanation": "Internal seam protrusions can increase turbulence, noise, and pressure loss."
+  },
+  {
+    "id": 128,
+    "category": "F2. Fabricate Components",
+    "question": "A metal part cracks at an inside corner after forming. What design/fabrication detail may reduce this?",
+    "options": [
+      "Proper radius or relief cut",
+      "Smaller workbench",
+      "More layout lines",
+      "Less material support"
+    ],
+    "answer": 0,
+    "explanation": "Sharp corners concentrate stress. Radii and relief cuts help reduce cracking and tearing."
+  },
+  {
+    "id": 129,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What is the main reason to inspect formed seams before installation?",
+    "options": [
+      "To ensure strength, engagement, and fit-up",
+      "To decide worker pay",
+      "To avoid using fasteners",
+      "To reduce material thickness"
+    ],
+    "answer": 0,
+    "explanation": "Seams should be checked for closure, engagement, distortion, and damage before the component is installed."
+  },
+  {
+    "id": 130,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition can cause a duct fitting to twist during assembly?",
+    "options": [
+      "Uneven bending or poor squaring",
+      "Correct diagonal measurements",
+      "Proper seam allowance",
+      "Clean edges"
+    ],
+    "answer": 0,
+    "explanation": "Twisting can result from inaccurate bends, uneven forming, poor squaring, or improper assembly sequence."
+  },
+  {
+    "id": 131,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of checking finished dimensions after bending?",
+    "options": [
+      "To confirm the part matches required size after material take-up",
+      "To avoid inspection",
+      "To change the material gauge",
+      "To remove all labels"
+    ],
+    "answer": 0,
+    "explanation": "Forming changes flat layout into finished shape. Finished dimensions must be checked after bending."
+  },
+  {
+    "id": 132,
+    "category": "F2. Fabricate Components",
+    "question": "A flashing requires a 20 mm hem, but only 10 mm is laid out. What is likely?",
+    "options": [
+      "The hem may be incomplete or finished size incorrect",
+      "The flashing becomes stronger",
+      "The bend angle improves",
+      "The metal thickness increases"
+    ],
+    "answer": 0,
+    "explanation": "Hem dimensions require enough material to fold correctly. Too little allowance affects the hem and finished dimensions."
+  },
+  {
+    "id": 133,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication practice helps reduce waste on repeated parts?",
+    "options": [
+      "Accurate layout and nesting where appropriate",
+      "Cutting all blanks oversized",
+      "Changing dimensions randomly",
+      "Ignoring templates"
+    ],
+    "answer": 0,
+    "explanation": "Careful layout and nesting can reduce scrap while maintaining accuracy and grain/finish requirements."
+  },
+  {
+    "id": 134,
+    "category": "F2. Fabricate Components",
+    "question": "A duct panel is cut correctly but damaged during handling. What does this affect?",
+    "options": [
+      "Workmanship, fit-up, appearance, or performance",
+      "Only worker timing",
+      "Only tool storage",
+      "Nothing if the size is correct"
+    ],
+    "answer": 0,
+    "explanation": "Fabrication quality includes handling. Dents, crushed seams, and scratches can affect fit, airflow, appearance, or durability."
+  },
+  {
+    "id": 135,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition is most important before using a pattern for production?",
+    "options": [
+      "The pattern has been verified for accuracy",
+      "The pattern is old",
+      "The pattern has no labels",
+      "The pattern is made from scrap only"
+    ],
+    "answer": 0,
+    "explanation": "A production pattern should be checked before repeated use because one wrong pattern can create many wrong parts."
+  },
+  {
+    "id": 136,
+    "category": "F2. Fabricate Components",
+    "question": "A part needs to be symmetrical, but one side is longer after forming. What should be checked?",
+    "options": [
+      "Centre line, layout references, and bend locations",
+      "Sealant brand",
+      "Duct pressure only",
+      "Ladder height"
+    ],
+    "answer": 0,
+    "explanation": "Symmetry depends on correct centre lines, equal layout references, accurate bend locations, and consistent forming."
+  },
+  {
+    "id": 137,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of a fastening flange on a fabricated part?",
+    "options": [
+      "Provide a surface for attachment to another component",
+      "Increase duct leakage",
+      "Remove the need for supports",
+      "Reduce material thickness"
+    ],
+    "answer": 0,
+    "explanation": "A fastening flange provides an attachment surface and can also stiffen the component."
+  },
+  {
+    "id": 138,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication error can cause a finished piece to be mirror-imaged?",
+    "options": [
+      "Pattern laid out on the wrong face or reversed orientation",
+      "Correct finished face layout",
+      "Proper airflow marking",
+      "Accurate shop sketch"
+    ],
+    "answer": 0,
+    "explanation": "Laying out on the wrong face or reversing the pattern can create a mirror-image part that may not fit."
+  },
+  {
+    "id": 139,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A finished duct section has a sharp raw edge where a hem was specified. What is the issue?",
+    "options": [
+      "Safety, stiffness, and specification requirements are not met",
+      "The duct becomes more airtight",
+      "The part becomes stronger",
+      "The edge is acceptable if hidden"
+    ],
+    "answer": 0,
+    "explanation": "A specified hem may be required for safety, appearance, stiffness, or fit. Omitting it fails the intended detail."
+  },
+  {
+    "id": 140,
+    "category": "F2. Fabricate Components",
+    "question": "Why should bend lines be clearly identified before forming?",
+    "options": [
+      "To avoid bending on cut lines, hem lines, or wrong references",
+      "To make the metal thicker",
+      "To replace all dimensions",
+      "To reduce need for PPE"
+    ],
+    "answer": 0,
+    "explanation": "Clear bend lines prevent forming mistakes and help separate cut, bend, hem, and reference lines."
+  },
+  {
+    "id": 141,
+    "category": "F2. Fabricate Components",
+    "question": "A sheet edge becomes stretched after repeated correction. What is the likely effect?",
+    "options": [
+      "Waviness or poor fit-up",
+      "Better straightness",
+      "Increased corrosion resistance",
+      "Reduced seam allowance"
+    ],
+    "answer": 0,
+    "explanation": "Overworking sheet metal can stretch edges and cause waviness, distortion, or poor seam closure."
+  },
+  {
+    "id": 142,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which condition best indicates proper S-cleat/drive-cleat joint preparation?",
+    "options": [
+      "Correct edge formation and compatible cleat size",
+      "Random fold height",
+      "No transverse edge preparation",
+      "Loose edge with no engagement"
+    ],
+    "answer": 0,
+    "explanation": "S-cleats and drive cleats require compatible, properly formed edges for correct engagement and closure."
+  },
+  {
+    "id": 143,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of checking material thickness before forming locks?",
+    "options": [
+      "Lock-forming settings and allowances depend on thickness",
+      "Thickness only affects colour",
+      "Thickness does not affect locks",
+      "Thickness replaces layout"
+    ],
+    "answer": 0,
+    "explanation": "Material thickness affects machine setup, allowances, forming pressure, and seam fit-up."
+  },
+  {
+    "id": 144,
+    "category": "F1. Seams, Locks, Edges and Joints / F2. Fabricate Components",
+    "question": "A fabricated part has a dent near a seam. Why can this be a problem?",
+    "options": [
+      "It may prevent proper seam engagement or sealing",
+      "It improves alignment",
+      "It increases strength",
+      "It reduces air leakage"
+    ],
+    "answer": 0,
+    "explanation": "Damage near seams can distort profiles and prevent proper locking, closure, or sealing."
+  },
+  {
+    "id": 145,
+    "category": "F2. Fabricate Components / C4. Measure and Sketch Shop Project Components",
+    "question": "Which fabrication check is most important for parts that connect to equipment?",
+    "options": [
+      "End size, bolt/flange details, orientation, and clearances",
+      "Worker initials only",
+      "Tool colour",
+      "Material storage location"
+    ],
+    "answer": 0,
+    "explanation": "Equipment connections require accurate size, hole/flange details, orientation, and required clearances."
+  },
+  {
+    "id": 146,
+    "category": "F2. Fabricate Components / B1. Use Hand Tools",
+    "question": "What is the likely result of using a dull cutting tool on sheet metal?",
+    "options": [
+      "Burrs, distortion, and poor edge quality",
+      "Cleaner cuts",
+      "Less force required",
+      "Better seam engagement"
+    ],
+    "answer": 0,
+    "explanation": "Dull tools can tear, distort, or burr sheet metal, making assembly less accurate and less safe."
+  },
+  {
+    "id": 147,
+    "category": "F2. Fabricate Components",
+    "question": "Why is proper blank size important before forming?",
+    "options": [
+      "Finished dimensions depend on correct flat layout",
+      "Blank size does not matter after bending",
+      "Forming corrects all layout errors",
+      "Seam allowance is added automatically"
+    ],
+    "answer": 0,
+    "explanation": "The flat blank must include all required dimensions, allowances, bends, hems, and connections to produce the correct finished part."
+  },
+  {
+    "id": 148,
+    "category": "F2. Fabricate Components",
+    "question": "Which issue can result from forming across damaged protective film?",
+    "options": [
+      "The film or trapped debris may mark the finished surface",
+      "The metal becomes stronger",
+      "The bend allowance improves",
+      "The seam locks better"
+    ],
+    "answer": 0,
+    "explanation": "Damaged film can trap dirt or wrinkle during forming, marking or scratching the visible surface."
+  },
+  {
+    "id": 149,
+    "category": "F2. Fabricate Components",
+    "question": "A duct fitting is fabricated with correct shape but no reinforcement where specified. What is the likely issue?",
+    "options": [
+      "It may not meet strength or pressure requirements",
+      "It will always be lighter and acceptable",
+      "It will be easier to balance",
+      "It will seal better"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement is specified for stiffness, pressure class, noise control, and structural performance. Omitting it can fail requirements."
+  },
+  {
+    "id": 150,
+    "category": "F. Fabricate Products and Components",
+    "question": "Which statement best describes good fabrication quality control?",
+    "options": [
+      "Verify dimensions, allowances, seams, finish, squareness, and labels before release",
+      "Check only that the part looks close",
+      "Add sealant to all mistakes",
+      "Send parts to site before inspection"
+    ],
+    "answer": 0,
+    "explanation": "Quality control should catch errors before installation by checking dimensions, allowances, seams, damage, squareness, orientation, and identification."
+  },
+  {
+    "id": 151,
+    "category": "F2. Fabricate Components",
+    "question": "What is the main purpose of checking diagonal measurements on a rectangular duct section?",
+    "options": [
+      "To confirm squareness",
+      "To calculate duct velocity",
+      "To check solder temperature",
+      "To identify metal alloy"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals show that the rectangular duct section is square. Unequal diagonals mean the section is racked and may not connect properly."
+  },
+  {
+    "id": 152,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which fabrication detail is most important for a Pittsburgh lock to close correctly?",
+    "options": [
+      "Correct pocket and flange allowances",
+      "Extra sealant on the outside",
+      "Wider hanger spacing",
+      "Larger duct label"
+    ],
+    "answer": 0,
+    "explanation": "A Pittsburgh lock depends on correctly formed pockets and mating flanges. Wrong allowances prevent proper engagement."
+  },
+  {
+    "id": 153,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if a sheet metal part is formed without considering bend radius?",
+    "options": [
+      "Finished dimensions and fit may be incorrect",
+      "The metal becomes corrosion-proof",
+      "The part becomes easier to install automatically",
+      "The seam allowance increases by itself"
+    ],
+    "answer": 0,
+    "explanation": "Bend radius affects material take-up and finished dimensions. It also affects cracking risk, especially with harder materials."
+  },
+  {
+    "id": 154,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of adding a hem allowance to a flat pattern?",
+    "options": [
+      "To provide material for the folded hem",
+      "To reduce material waste only",
+      "To increase air velocity",
+      "To replace bend deduction"
+    ],
+    "answer": 0,
+    "explanation": "A hem consumes material when the edge is folded over. Hem allowance must be included to maintain the correct finished size."
+  },
+  {
+    "id": 155,
+    "category": "F2. Fabricate Components",
+    "question": "Which defect is most likely caused by inconsistent brake clamping pressure?",
+    "options": [
+      "Uneven bend angle along the part",
+      "Correct profile along the full length",
+      "Better repeatability",
+      "Reduced need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Uneven clamping can cause bend angles to vary along the part, producing twist or poor fit-up."
+  },
+  {
+    "id": 156,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "Which seam is most appropriate where a raised water-shedding architectural joint is required?",
+    "options": [
+      "Standing seam",
+      "Loose butt joint",
+      "Open lap joint",
+      "Unlocked fold"
+    ],
+    "answer": 0,
+    "explanation": "Standing seams are raised, locked joints commonly used in architectural panels and roofing to help shed water."
+  },
+  {
+    "id": 157,
+    "category": "F2. Fabricate Components / E1. Identify Systems",
+    "question": "What is the risk of leaving excessive internal seam protrusion inside ductwork?",
+    "options": [
+      "Turbulence, pressure loss, and noise",
+      "Improved airflow",
+      "Reduced dust buildup",
+      "Better balancing"
+    ],
+    "answer": 0,
+    "explanation": "Internal protrusions disturb airflow and can increase turbulence, pressure loss, noise, and debris accumulation."
+  },
+  {
+    "id": 158,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if a duct fitting is fabricated from the wrong material gauge?",
+    "options": [
+      "It may not meet strength, pressure, or specification requirements",
+      "It will always be easier to install",
+      "It will automatically seal better",
+      "It will reduce airflow resistance"
+    ],
+    "answer": 0,
+    "explanation": "Gauge affects strength, stiffness, seam performance, and pressure requirements. Wrong gauge can cause failure or non-compliance."
+  },
+  {
+    "id": 159,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition most likely causes poor repeatability when fabricating multiple identical fittings?",
+    "options": [
+      "Changing reference edges between pieces",
+      "Using a verified template",
+      "Checking dimensions regularly",
+      "Using a stop gauge correctly"
+    ],
+    "answer": 0,
+    "explanation": "Repeatability depends on consistent references. Changing reference edges causes dimensional variation."
+  },
+  {
+    "id": 160,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of a relief notch?",
+    "options": [
+      "To prevent tearing, bunching, or interference during forming",
+      "To increase metal thickness",
+      "To remove the need for seams",
+      "To replace all bend allowance"
+    ],
+    "answer": 0,
+    "explanation": "Relief notches provide clearance where bends meet so metal does not tear, overlap poorly, or distort."
+  },
+  {
+    "id": 161,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated part has correct size but sharp burrs along the edges. What is the correct evaluation?",
+    "options": [
+      "The part still requires deburring before proper completion",
+      "The part is acceptable because dimensions are correct",
+      "Burrs improve seam grip",
+      "Burrs reduce cut hazards"
+    ],
+    "answer": 0,
+    "explanation": "Correct size alone is not enough. Burrs create cut hazards and can interfere with seam closure, fit-up, and finish quality."
+  },
+  {
+    "id": 162,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "Which factor is most important when bending hard-temper aluminum?",
+    "options": [
+      "Minimum bend radius and grain direction",
+      "Duct hanger spacing",
+      "Fire damper access",
+      "Sealant cure time"
+    ],
+    "answer": 0,
+    "explanation": "Harder aluminum tempers are more likely to crack if bent too tightly or against an unfavourable grain direction."
+  },
+  {
+    "id": 163,
+    "category": "F2. Fabricate Components",
+    "question": "What is the likely result of overworking a sheet metal edge during repeated corrections?",
+    "options": [
+      "Stretching, waviness, or distortion",
+      "Improved straightness every time",
+      "Increased corrosion resistance",
+      "Reduced need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Repeated bending or correction can stretch metal and cause wavy edges, poor fit-up, or finish damage."
+  },
+  {
+    "id": 164,
+    "category": "F2. Fabricate Components",
+    "question": "Which quality check is most important for a shop-fabricated transition?",
+    "options": [
+      "End sizes, orientation, offset, seam location, and squareness",
+      "Tool brand",
+      "Worker initials only",
+      "Number of screws in storage"
+    ],
+    "answer": 0,
+    "explanation": "A transition must match connected openings and orientation. End sizes, offset, seam location, and squareness affect fit and installation."
+  },
+  {
+    "id": 165,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam is fabricated correctly but placed where it will be inaccessible after installation. What was missed?",
+    "options": [
+      "Seam location planning",
+      "Material thickness check only",
+      "Deburring only",
+      "Tool cleaning only"
+    ],
+    "answer": 0,
+    "explanation": "Seam location must consider assembly, sealing, inspection, access, appearance, and installation orientation."
+  },
+  {
+    "id": 166,
+    "category": "F2. Fabricate Components",
+    "question": "What is the main reason for using a clean soft surface when working with prefinished sheet metal?",
+    "options": [
+      "To protect the visible finish from scratches and dents",
+      "To reduce bend allowance",
+      "To increase metal hardness",
+      "To change the material colour"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished metal is easily marked. Clean, soft work surfaces reduce scratches, dents, and coating damage."
+  },
+  {
+    "id": 167,
+    "category": "F2. Fabricate Components",
+    "question": "Which issue is most likely if a corner notch is not aligned with the bend line?",
+    "options": [
+      "Poor corner closure or distorted bend",
+      "Better fit-up",
+      "Increased seam strength",
+      "Reduced material take-up"
+    ],
+    "answer": 0,
+    "explanation": "Notches must align with bend lines. Poor notch alignment can create gaps, interference, or distorted corners."
+  },
+  {
+    "id": 168,
+    "category": "F2. Fabricate Components",
+    "question": "What can happen if a duct connector frame is twisted?",
+    "options": [
+      "It may not seal or connect properly",
+      "It will improve airflow",
+      "It will need fewer fasteners",
+      "It will increase duct pressure rating"
+    ],
+    "answer": 0,
+    "explanation": "Twisted connector frames create uneven contact and poor alignment, which can cause leaks and installation difficulty."
+  },
+  {
+    "id": 169,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "Which condition is most likely to cause scratches during slip rolling?",
+    "options": [
+      "Dirty rolls or debris on the sheet",
+      "Clean rolls",
+      "Proper material support",
+      "Correct roll adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, chips, or debris on rolls or sheet surfaces can mark or scratch material during rolling."
+  },
+  {
+    "id": 170,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of trial fitting a fabricated assembly?",
+    "options": [
+      "To verify alignment and fit before final locking or fastening",
+      "To avoid checking dimensions",
+      "To replace all quality control",
+      "To increase distortion before installation"
+    ],
+    "answer": 0,
+    "explanation": "Trial fitting identifies problems before final closure, reducing rework and preventing damaged seams or parts."
+  },
+  {
+    "id": 171,
+    "category": "F2. Fabricate Components",
+    "question": "A duct section has proper seams but the transverse edges are not parallel. What problem can occur?",
+    "options": [
+      "Poor connection to adjoining duct sections",
+      "Improved fit-up",
+      "Lower pressure loss",
+      "Better hanger alignment"
+    ],
+    "answer": 0,
+    "explanation": "Transverse edges must be square and parallel for adjoining sections to connect properly."
+  },
+  {
+    "id": 172,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "What is the purpose of checking machine settings before forming locks?",
+    "options": [
+      "To match material thickness and required lock profile",
+      "To determine roof slope",
+      "To choose soldering flux",
+      "To measure duct velocity"
+    ],
+    "answer": 0,
+    "explanation": "Lock-forming settings depend on material thickness and seam profile. Incorrect settings can create poor or unusable locks."
+  },
+  {
+    "id": 173,
+    "category": "F2. Fabricate Components",
+    "question": "Which fabrication error can make a part become a mirror image of what is required?",
+    "options": [
+      "Laying out the pattern on the wrong face",
+      "Deburring the edge",
+      "Checking bend allowance",
+      "Using clean tooling"
+    ],
+    "answer": 0,
+    "explanation": "If the pattern is laid out on the wrong face or reversed, the finished part may be mirrored and not fit the installation."
+  },
+  {
+    "id": 174,
+    "category": "F2. Fabricate Components / C3. Communicate with Others",
+    "question": "What is the main reason to mark airflow direction on fabricated duct fittings?",
+    "options": [
+      "To prevent incorrect orientation during installation",
+      "To calculate duct gauge",
+      "To increase metal thickness",
+      "To replace seam allowance"
+    ],
+    "answer": 0,
+    "explanation": "Some fittings are directional. Airflow markings help ensure they are installed correctly."
+  },
+  {
+    "id": 175,
+    "category": "F1. Seams, Locks, Edges and Joints / F2. Fabricate Components",
+    "question": "Which condition best shows a properly formed hem?",
+    "options": [
+      "Folded edge is straight, tight, and does not distort the part",
+      "Raw sharp edge is exposed",
+      "Edge is cracked and stretched",
+      "Finished dimension is ignored"
+    ],
+    "answer": 0,
+    "explanation": "A proper hem should be straight, consistent, safe, and formed without excessive distortion."
+  },
+  {
+    "id": 176,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "What is the likely result of using a dull shear blade?",
+    "options": [
+      "Burrs, tearing, and distorted edges",
+      "Cleaner cuts",
+      "Reduced cutting force",
+      "Better seam engagement"
+    ],
+    "answer": 0,
+    "explanation": "Dull blades can tear or deform sheet metal, leaving burrs and reducing edge quality."
+  },
+  {
+    "id": 177,
+    "category": "F2. Fabricate Components",
+    "question": "What must be considered when nesting patterns on prefinished metal?",
+    "options": [
+      "Grain/finish direction, visible face, allowances, and waste",
+      "Fire extinguisher class",
+      "Duct balancing only",
+      "Hanger rod length"
+    ],
+    "answer": 0,
+    "explanation": "Nesting saves material but must preserve finish direction, visible face orientation, grain direction, and required allowances."
+  },
+  {
+    "id": 178,
+    "category": "F2. Fabricate Components",
+    "question": "A large duct panel lacks cross-breaking or reinforcement. What is the likely problem?",
+    "options": [
+      "Panel deflection, drumming, or vibration",
+      "Stronger panel surface",
+      "Reduced noise",
+      "Lower leakage risk"
+    ],
+    "answer": 0,
+    "explanation": "Large flat panels need stiffening or reinforcement to reduce vibration, deflection, and drumming."
+  },
+  {
+    "id": 179,
+    "category": "F2. Fabricate Components",
+    "question": "Which condition can cause poor soldered or sealed fit-up later, even before sealant or solder is applied?",
+    "options": [
+      "Inaccurate cut edges and poor joint contact",
+      "Proper joint fit-up",
+      "Clean surfaces",
+      "Correct allowance"
+    ],
+    "answer": 0,
+    "explanation": "Soldering or sealing depends on good mechanical fit-up. Gaps and poor contact create weak or leaking joints."
+  },
+  {
+    "id": 180,
+    "category": "F2. Fabricate Components / C3. Communicate with Others",
+    "question": "What is the purpose of identifying connection type on fabricated duct pieces?",
+    "options": [
+      "To ensure the correct joint or connector is made for installation",
+      "To increase duct weight",
+      "To eliminate shop drawings",
+      "To replace all labels"
+    ],
+    "answer": 0,
+    "explanation": "Different duct connections require different edges, allowances, and fittings. Marking connection type prevents mismatch."
+  },
+  {
+    "id": 181,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "A formed part shows cracking exactly along the bend line. What should be reviewed?",
+    "options": [
+      "Material type, temper, bend radius, and grain direction",
+      "Sealant colour",
+      "Duct hanger spacing",
+      "Fire damper clearance"
+    ],
+    "answer": 0,
+    "explanation": "Cracking at bends often relates to material properties, too-small bend radius, hard temper, or bending against grain direction."
+  },
+  {
+    "id": 182,
+    "category": "F2. Fabricate Components / B4. Use Shop Equipment",
+    "question": "Which defect can occur if material is not supported while feeding through a lock former?",
+    "options": [
+      "Skewed or inconsistent lock profile",
+      "Better seam closure",
+      "More accurate feed",
+      "Reduced edge distortion"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported or misfed material can enter the machine at an angle, causing inconsistent seam profiles."
+  },
+  {
+    "id": 183,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of checking the finished angle after brake forming?",
+    "options": [
+      "To confirm the profile matches required shape",
+      "To calculate CFM",
+      "To identify WHMIS hazards",
+      "To choose hanger spacing"
+    ],
+    "answer": 0,
+    "explanation": "Finished angles affect fit, appearance, drainage, connection, and assembly quality."
+  },
+  {
+    "id": 184,
+    "category": "F2. Fabricate Components / G2. Install Roofing and Wall Components",
+    "question": "Which issue is most likely if a flashing profile is formed with the drip edge missing?",
+    "options": [
+      "Water may track back under the flashing",
+      "The flashing becomes stronger",
+      "Fastener strength increases",
+      "Expansion stops safely"
+    ],
+    "answer": 0,
+    "explanation": "A drip edge breaks surface tension and helps water fall away instead of returning under the flashing."
+  },
+  {
+    "id": 185,
+    "category": "F2. Fabricate Components",
+    "question": "Why should fabricated pieces be protected during transport to the jobsite?",
+    "options": [
+      "To prevent dents, scratches, seam damage, and distortion",
+      "To make them heavier",
+      "To reduce required dimensions",
+      "To remove need for inspection"
+    ],
+    "answer": 0,
+    "explanation": "Fabrication quality can be ruined during transport if pieces are not protected from damage or distortion."
+  },
+  {
+    "id": 186,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "What does poor seam closure usually indicate?",
+    "options": [
+      "Incorrect allowance, poor forming, or incomplete engagement",
+      "Correct fabrication",
+      "Better strength",
+      "Reduced leakage"
+    ],
+    "answer": 0,
+    "explanation": "Poor seam closure is commonly caused by wrong allowance, damaged seam edges, bad machine setup, or incomplete locking."
+  },
+  {
+    "id": 187,
+    "category": "F1. Seams, Locks, Edges and Joints / F2. Fabricate Components",
+    "question": "Which condition can make a fabricated fitting difficult to seal?",
+    "options": [
+      "Gaps, distorted edges, or poor contact surfaces",
+      "Proper fit-up",
+      "Clean straight edges",
+      "Correct seam placement"
+    ],
+    "answer": 0,
+    "explanation": "Sealing requires proper mechanical fit-up and clean contact surfaces. Large gaps or distorted edges reduce seal quality."
+  },
+  {
+    "id": 188,
+    "category": "F2. Fabricate Components",
+    "question": "What is the reason for checking cut direction on prefinished panels?",
+    "options": [
+      "To keep visible finish and grain/orientation consistent",
+      "To reduce all seam allowances",
+      "To eliminate bending",
+      "To increase sheet thickness"
+    ],
+    "answer": 0,
+    "explanation": "Some finishes and grain patterns are directional. Incorrect orientation can cause visible mismatch after installation."
+  },
+  {
+    "id": 189,
+    "category": "F2. Fabricate Components",
+    "question": "A fabricated duct fitting is correct but has excessive dents. What is the best assessment?",
+    "options": [
+      "It may still be unacceptable due to workmanship and performance concerns",
+      "It is acceptable because dimensions are correct",
+      "Dents always improve stiffness",
+      "Dents reduce turbulence"
+    ],
+    "answer": 0,
+    "explanation": "Dents can affect appearance, airflow, fit-up, sealing, and quality standards. Correct dimensions do not excuse damage."
+  },
+  {
+    "id": 190,
+    "category": "F2. Fabricate Components / E7. Examine Specialty System Components/Accessories",
+    "question": "Which detail is most important when fabricating a fitting that connects to a fire damper sleeve?",
+    "options": [
+      "Correct dimensions, connection type, clearance, and orientation",
+      "Panel colour",
+      "Worker initials",
+      "Tool storage"
+    ],
+    "answer": 0,
+    "explanation": "Fire damper-related components must fit properly and maintain required clearances, connections, and installation orientation."
+  },
+  {
+    "id": 191,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of removing protective film at the correct time?",
+    "options": [
+      "To protect finish during work but avoid adhesive residue or trapped moisture",
+      "To make metal thinner",
+      "To improve duct airflow",
+      "To replace surface cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Protective film helps during fabrication, but leaving it too long or exposing it to heat/weather may cause residue or trapped moisture problems."
+  },
+  {
+    "id": 192,
+    "category": "F2. Fabricate Components / C5. Identify Metals and Properties",
+    "question": "A part is fabricated with all dimensions correct but the wrong material type. What is the issue?",
+    "options": [
+      "It may fail specification, corrosion, strength, or compatibility requirements",
+      "It is always acceptable",
+      "Material type does not matter",
+      "It will install faster"
+    ],
+    "answer": 0,
+    "explanation": "Material selection affects corrosion resistance, compatibility, strength, forming, and specification compliance."
+  },
+  {
+    "id": 193,
+    "category": "F2. Fabricate Components",
+    "question": "Which issue can occur if a return flange is omitted?",
+    "options": [
+      "Reduced stiffness or missing fastening surface",
+      "Increased panel strength",
+      "Better installation alignment",
+      "Reduced vibration automatically"
+    ],
+    "answer": 0,
+    "explanation": "Return flanges often provide stiffness, connection area, or fastening surfaces. Omitting them can weaken or prevent installation."
+  },
+  {
+    "id": 194,
+    "category": "F2. Fabricate Components / E1. Identify Systems",
+    "question": "A transition is fabricated with correct end sizes but too short a length. What can happen?",
+    "options": [
+      "Excessive angle, poor fit-up, or airflow disturbance",
+      "Better airflow transition",
+      "Easier installation always",
+      "Reduced turbulence"
+    ],
+    "answer": 0,
+    "explanation": "Transition length affects alignment and airflow. Too short a transition can create steep angles, turbulence, and installation issues."
+  },
+  {
+    "id": 195,
+    "category": "F2. Fabricate Components",
+    "question": "Which defect is most likely from poor material storage before fabrication?",
+    "options": [
+      "Warped sheets, dents, stains, or surface damage",
+      "Improved flatness",
+      "Better bend accuracy",
+      "Increased corrosion resistance"
+    ],
+    "answer": 0,
+    "explanation": "Improper storage can damage sheet metal before fabrication, causing distortion, stains, corrosion, or finish defects."
+  },
+  {
+    "id": 196,
+    "category": "F2. Fabricate Components",
+    "question": "What is the purpose of checking all allowances before cutting a pattern?",
+    "options": [
+      "To ensure seams, hems, bends, and connections have enough material",
+      "To reduce inspection needs",
+      "To avoid using drawings",
+      "To increase waste"
+    ],
+    "answer": 0,
+    "explanation": "Once cut, missing allowances can make the piece unusable. Allowances must be verified before cutting."
+  },
+  {
+    "id": 197,
+    "category": "F1. Seams, Locks, Edges and Joints",
+    "question": "A seam edge is wavy before assembly. What is the likely result?",
+    "options": [
+      "Poor locking, gaps, or leakage",
+      "Better engagement",
+      "Increased strength",
+      "Improved airflow"
+    ],
+    "answer": 0,
+    "explanation": "Seam edges must be straight and consistent. Waviness can prevent proper closure and create gaps."
+  },
+  {
+    "id": 198,
+    "category": "F2. Fabricate Components / G2. Install Roofing and Wall Components",
+    "question": "A fabricated louver flashing has no end dams where required. What is the issue?",
+    "options": [
+      "Water may run off the ends into the wall assembly",
+      "Airflow will improve",
+      "Fasteners become stronger",
+      "Metal thickness increases"
+    ],
+    "answer": 0,
+    "explanation": "End dams keep collected water from escaping sideways into the wall. Missing end dams can cause leaks."
+  },
+  {
+    "id": 199,
+    "category": "F2. Fabricate Components",
+    "question": "Which final check is most important before shipping fabricated architectural trim?",
+    "options": [
+      "Dimensions, profile, finish condition, orientation, and packaging protection",
+      "Number of workers",
+      "Tool brand",
+      "Weather only"
+    ],
+    "answer": 0,
+    "explanation": "Architectural trim must fit, look correct, and arrive undamaged. Final checks should include dimensions, finish, orientation, and protection."
+  },
+  {
+    "id": 200,
+    "category": "F. Fabricate Products and Components",
+    "question": "Which statement best describes a fabrication-ready flat pattern?",
+    "options": [
+      "It includes correct dimensions, bend lines, allowances, orientation, and material information",
+      "It shows only the outside shape",
+      "It does not need seam allowance",
+      "It can ignore finished face direction"
+    ],
+    "answer": 0,
+    "explanation": "A complete flat pattern must include all information required to cut, form, and assemble the part accurately."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerFabricateProductsComponentsQuestions =
+  shuffleArray(sheetMetalWorkerFabricateProductsComponentsQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "architectural-sheet-metal-worker",
+  tradeTitle: "Architectural Sheet Metal Worker",
+  sectionTitle: "F. Fabricate Products and Components",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerFabricateProductsComponentsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerFabricateProductsComponentsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

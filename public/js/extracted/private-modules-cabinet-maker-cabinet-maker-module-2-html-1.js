@@ -1,0 +1,2696 @@
+const cabinetmakerMachiningQuestions = [
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the primary purpose of jointing one face of rough lumber before planing?",
+    "options": [
+      "To create a flat reference surface",
+      "To apply finish evenly",
+      "To reduce glue strength",
+      "To increase moisture content"
+    ],
+    "answer": 0,
+    "explanation": "A planer follows the reference face. One face must be flattened first to remove twist and bow accurately.",
+    "id": 1
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What defect is MOST likely if a board is planed before one face is flattened?",
+    "options": [
+      "Twist may remain in the board",
+      "The board becomes too strong",
+      "The grain disappears",
+      "The finish becomes rough"
+    ],
+    "answer": 0,
+    "explanation": "A planer makes opposite faces parallel but does not remove twist without a flat reference face.",
+    "id": 2
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw rip cut burns on one side of the board. What should be checked first?",
+    "options": [
+      "Fence alignment and blade sharpness",
+      "Finish sheen",
+      "Drawer slide alignment",
+      "Glue spread"
+    ],
+    "answer": 0,
+    "explanation": "Burning usually comes from friction. Fence misalignment or a dull blade commonly causes this problem.",
+    "id": 3
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the safest method for ripping narrow stock on a table saw?",
+    "options": [
+      "Use a push stick or push block",
+      "Use bare hands near the blade",
+      "Remove the guard",
+      "Pull the material backward through the blade"
+    ],
+    "answer": 0,
+    "explanation": "Push devices keep hands away from the blade and improve control during narrow cuts.",
+    "id": 4
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the purpose of a riving knife on a table saw?",
+    "options": [
+      "To reduce kickback by preventing pinching",
+      "To support sanding",
+      "To improve staining",
+      "To hold glue joints together"
+    ],
+    "answer": 0,
+    "explanation": "A riving knife keeps the kerf open behind the blade, reducing the chance of kickback.",
+    "id": 5
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What causes tear-out during planing?",
+    "options": [
+      "Grain lifting ahead of the cutter",
+      "Excess finish thickness",
+      "Too much glue",
+      "Incorrect shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Tear-out occurs when wood fibres lift and break ahead of the cutter, especially with reversing grain.",
+    "id": 6
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Which machine is primarily used to produce one straight edge on rough lumber?",
+    "options": [
+      "Jointer",
+      "Thickness planer",
+      "Drill press",
+      "Band saw"
+    ],
+    "answer": 0,
+    "explanation": "The jointer straightens and flattens one edge or face to create an accurate reference.",
+    "id": 7
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should grain direction be considered when jointing or planing?",
+    "options": [
+      "To reduce tear-out",
+      "To increase glue cure time",
+      "To reduce machine speed",
+      "To prevent shelf sag"
+    ],
+    "answer": 0,
+    "explanation": "Cutting with the grain produces smoother surfaces and reduces fibre tearing.",
+    "id": 8
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the most common cause of snipe in a planer?",
+    "options": [
+      "Improper support entering or leaving the machine",
+      "Too much stain",
+      "Wrong screw length",
+      "Excessive sanding"
+    ],
+    "answer": 0,
+    "explanation": "Snipe occurs when the board lifts slightly at entry or exit. Proper support reduces this defect.",
+    "id": 9
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What should be checked if a table saw cut is not square to the face?",
+    "options": [
+      "Blade angle adjustment",
+      "Finish thickness",
+      "Glue colour",
+      "Drawer reveal"
+    ],
+    "answer": 0,
+    "explanation": "An incorrect blade tilt angle causes cuts that are not square to the workpiece face.",
+    "id": 10
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the main purpose of featherboards during machining?",
+    "options": [
+      "To maintain consistent pressure and control",
+      "To reduce finish drying time",
+      "To increase glue spread",
+      "To replace fences"
+    ],
+    "answer": 0,
+    "explanation": "Featherboards hold stock securely against the fence or table for safer, more accurate cuts.",
+    "id": 11
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should climb cutting generally be avoided on a router table?",
+    "options": [
+      "The workpiece can be pulled uncontrollably",
+      "It improves safety",
+      "It reduces bit wear",
+      "It increases sanding quality"
+    ],
+    "answer": 0,
+    "explanation": "Climb cutting feeds with the cutter rotation and can cause sudden dangerous movement.",
+    "id": 12
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A mortise is wider at the top than at the bottom. What is the likely cause?",
+    "options": [
+      "Loose setup or poor work holding",
+      "Excess finish build",
+      "Proper feed rate",
+      "Correct bit selection"
+    ],
+    "answer": 0,
+    "explanation": "Movement during machining causes tapered or uneven mortises. Secure clamping is essential.",
+    "id": 13
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the primary purpose of a zero-clearance insert on a table saw?",
+    "options": [
+      "To reduce tear-out around the blade",
+      "To reduce motor speed",
+      "To replace push sticks",
+      "To increase blade height"
+    ],
+    "answer": 0,
+    "explanation": "The insert closely supports fibres beside the blade, improving cut quality.",
+    "id": 14
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should sheet goods be properly supported during cutting?",
+    "options": [
+      "To prevent sagging and blade pinching",
+      "To improve finish colour",
+      "To eliminate layout marks",
+      "To increase glue cure time"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported panels can sag and close on the blade, causing unsafe cutting conditions.",
+    "id": 15
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What defect is MOST likely when using a dull router bit?",
+    "options": [
+      "Burning and poor surface quality",
+      "Better finish adhesion",
+      "Improved feed control",
+      "Reduced dust"
+    ],
+    "answer": 0,
+    "explanation": "Dull bits generate heat and tear fibres instead of cutting cleanly.",
+    "id": 16
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A drill press hole repeatedly appears off location. What should be checked first?",
+    "options": [
+      "Fence, stop setup, and reference edge",
+      "Finish sheen",
+      "Glue type",
+      "Shelf support spacing"
+    ],
+    "answer": 0,
+    "explanation": "Repeat accuracy depends on proper reference setup and stops.",
+    "id": 17
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why is a backer board used during crosscutting?",
+    "options": [
+      "To support fibres and reduce tear-out",
+      "To increase blade speed",
+      "To hold stain",
+      "To reduce glue squeeze-out"
+    ],
+    "answer": 0,
+    "explanation": "A backer supports the wood fibres at blade exit, improving edge quality.",
+    "id": 18
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the primary advantage of a band saw for curved cutting?",
+    "options": [
+      "Narrow blade allows tighter radius cuts",
+      "It produces the smoothest finish automatically",
+      "It eliminates sanding",
+      "It prevents all kickback"
+    ],
+    "answer": 0,
+    "explanation": "Thin blades can follow curves more easily than wide blades.",
+    "id": 19
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should portable circular saw blade depth be adjusted correctly?",
+    "options": [
+      "To improve safety and cut quality",
+      "To increase tear-out",
+      "To reduce blade sharpness",
+      "To eliminate layout lines"
+    ],
+    "answer": 0,
+    "explanation": "Excessive blade exposure increases hazard and roughens the cut.",
+    "id": 20
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the MOST common cause of chip-out in melamine panels?",
+    "options": [
+      "Incorrect blade type or dull blade",
+      "Excess clamp pressure",
+      "Too much glue",
+      "Finish incompatibility"
+    ],
+    "answer": 0,
+    "explanation": "Melamine surfaces chip easily without proper scoring or blade geometry.",
+    "id": 21
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why are scoring blades used on panel saws?",
+    "options": [
+      "To reduce chip-out on sheet goods",
+      "To increase feed pressure",
+      "To improve stain penetration",
+      "To support clamps"
+    ],
+    "answer": 0,
+    "explanation": "Scoring blades pre-cut the surface fibres before the main blade cuts through.",
+    "id": 22
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router profile burns along hardwood edges. What should be checked?",
+    "options": [
+      "Feed rate and cutter sharpness",
+      "Finish viscosity",
+      "Shelf depth",
+      "Screw colour"
+    ],
+    "answer": 0,
+    "explanation": "Slow feed or dull cutters create friction and heat buildup.",
+    "id": 23
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should material be fed against cutter rotation on most woodworking machines?",
+    "options": [
+      "For controlled cutting action",
+      "To increase kickback",
+      "To reduce motor load only",
+      "To improve glue curing"
+    ],
+    "answer": 0,
+    "explanation": "Feeding against rotation provides better control and safer cutting.",
+    "id": 24
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the main purpose of a fence on a jointer?",
+    "options": [
+      "To guide edges square to the face",
+      "To support sanding",
+      "To hold glue joints",
+      "To increase spindle speed"
+    ],
+    "answer": 0,
+    "explanation": "The fence keeps the edge at the desired angle during jointing.",
+    "id": 25
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What causes chatter marks during routing?",
+    "options": [
+      "Vibration or unstable cutting",
+      "Too much finish",
+      "Correct feed pressure",
+      "Perfect cutter alignment"
+    ],
+    "answer": 0,
+    "explanation": "Chatter comes from movement or vibration between the cutter and workpiece.",
+    "id": 26
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the safest method to remove small cutoff pieces near a saw blade?",
+    "options": [
+      "Wait until the blade stops completely",
+      "Grab them while the blade spins",
+      "Blow them away by hand",
+      "Pull them backward through the blade"
+    ],
+    "answer": 0,
+    "explanation": "Reaching near a moving blade is dangerous. Material should only be cleared after motion stops.",
+    "id": 27
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "Why should a workpiece be clamped during drill press operations?",
+    "options": [
+      "To prevent spinning or movement",
+      "To improve finish gloss",
+      "To reduce glue squeeze-out",
+      "To eliminate pilot holes"
+    ],
+    "answer": 0,
+    "explanation": "If the bit catches, unsecured material can spin violently and cause injury.",
+    "id": 28
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What machine is BEST suited for resawing thick lumber?",
+    "options": [
+      "Band saw",
+      "Table saw",
+      "Drill press",
+      "Edge sander"
+    ],
+    "answer": 0,
+    "explanation": "Band saws are designed for deep vertical cutting and resawing operations.",
+    "id": 29
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What should be checked if repeated rip cuts vary in width?",
+    "options": [
+      "Fence locking and alignment",
+      "Finish compatibility",
+      "Glue colour",
+      "Shelf pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Loose or misaligned fences create inconsistent cut widths.",
+    "id": 30
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the purpose of establishing a CNC work origin?",
+    "options": [
+      "To define the machine reference location for machining",
+      "To reduce finish drying time",
+      "To support edge banding",
+      "To improve glue spread"
+    ],
+    "answer": 0,
+    "explanation": "The CNC machine needs a defined starting reference point to locate all cuts accurately.",
+    "id": 31
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC program cuts every part 10 mm off location. What should be checked first?",
+    "options": [
+      "Material origin setup",
+      "Finish sheen",
+      "Shelf spacing",
+      "Glue viscosity"
+    ],
+    "answer": 0,
+    "explanation": "Consistent offset errors usually come from incorrect origin or registration setup.",
+    "id": 32
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the purpose of vacuum hold-down on a CNC router?",
+    "options": [
+      "To secure material during machining",
+      "To improve stain penetration",
+      "To reduce sanding scratches",
+      "To align hinges"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum systems prevent movement during cutting and improve machining accuracy.",
+    "id": 33
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Why are tabs sometimes left on CNC-cut parts?",
+    "options": [
+      "To prevent parts from shifting during final cutting",
+      "To improve finish sheen",
+      "To reduce spindle speed",
+      "To support edge sanding only"
+    ],
+    "answer": 0,
+    "explanation": "Tabs keep parts attached to the sheet until machining is complete.",
+    "id": 34
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the MOST likely cause of oversized CNC holes?",
+    "options": [
+      "Tool wear or incorrect tool compensation",
+      "Too much finish",
+      "Excess glue",
+      "Wrong shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Worn tools or incorrect diameter settings change the final hole size.",
+    "id": 35
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the purpose of a spoilboard on a CNC machine?",
+    "options": [
+      "To support cutting through the material safely",
+      "To improve finishing quality",
+      "To increase router speed",
+      "To hold drawer slides"
+    ],
+    "answer": 0,
+    "explanation": "Spoilboards protect the machine bed and support full-depth cutting.",
+    "id": 36
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC machine leaves uncut fibres at the bottom of parts. What should be checked?",
+    "options": [
+      "Cut depth and spoilboard condition",
+      "Finish catalyst ratio",
+      "Shelf support spacing",
+      "Glue cure time"
+    ],
+    "answer": 0,
+    "explanation": "Insufficient cut depth or uneven spoilboards may leave material uncut.",
+    "id": 37
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Why is toolpath simulation important before CNC machining?",
+    "options": [
+      "To identify collisions or programming errors",
+      "To improve stain colour",
+      "To reduce glue squeeze-out",
+      "To eliminate sanding"
+    ],
+    "answer": 0,
+    "explanation": "Simulations help verify machining operations before material is cut.",
+    "id": 38
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the purpose of onion-skinning in CNC machining?",
+    "options": [
+      "Leaving a thin layer to hold parts in place",
+      "Improving finish gloss",
+      "Increasing chip-out",
+      "Supporting glue joints"
+    ],
+    "answer": 0,
+    "explanation": "Onion-skinning keeps parts stable during machining until final removal.",
+    "id": 39
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What can happen if CNC feed speed is too slow?",
+    "options": [
+      "Burning and tool wear",
+      "Better cut quality always",
+      "Reduced heat buildup",
+      "Less dust production"
+    ],
+    "answer": 0,
+    "explanation": "Slow feed rates increase friction and heat, damaging tooling and material.",
+    "id": 40
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Why should CNC spoilboards be resurfaced periodically?",
+    "options": [
+      "To maintain a flat reference surface",
+      "To improve stain absorption",
+      "To strengthen vacuum pressure only",
+      "To reduce glue use"
+    ],
+    "answer": 0,
+    "explanation": "Uneven spoilboards reduce machining accuracy and cut consistency.",
+    "id": 41
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the purpose of cutter compensation in CNC machining?",
+    "options": [
+      "To account for actual tool diameter",
+      "To reduce finish thickness",
+      "To improve glue strength",
+      "To eliminate sanding scratches"
+    ],
+    "answer": 0,
+    "explanation": "Cutter compensation adjusts machining paths based on the tool size.",
+    "id": 42
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC-cut edge shows heavy chipping on melamine. What should be reviewed first?",
+    "options": [
+      "Tool geometry and feed settings",
+      "Finish sheen",
+      "Drawer alignment",
+      "Shelf support type"
+    ],
+    "answer": 0,
+    "explanation": "Proper compression bits and feed rates reduce chip-out on melamine surfaces.",
+    "id": 43
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the main purpose of nesting software in CNC production?",
+    "options": [
+      "To maximize material yield and organize cutting",
+      "To reduce finish cure time",
+      "To increase sanding",
+      "To eliminate vacuum hold-down"
+    ],
+    "answer": 0,
+    "explanation": "Nesting arranges parts efficiently to reduce waste and improve production flow.",
+    "id": 44
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What should be checked if a CNC spindle produces rough cuts?",
+    "options": [
+      "Tool sharpness and spindle condition",
+      "Finish viscosity",
+      "Glue ratio",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Rough cutting often comes from dull tools or spindle vibration.",
+    "id": 45
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Why are compression bits commonly used on laminated panels?",
+    "options": [
+      "To reduce chip-out on both faces",
+      "To increase feed resistance",
+      "To eliminate spoilboards",
+      "To support clamping only"
+    ],
+    "answer": 0,
+    "explanation": "Compression bits cut downward on top and upward on the bottom, protecting both surfaces.",
+    "id": 46
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the risk of poor vacuum hold-down during CNC machining?",
+    "options": [
+      "Material movement and inaccurate cuts",
+      "Better edge quality",
+      "Reduced tool wear",
+      "Improved finish absorption"
+    ],
+    "answer": 0,
+    "explanation": "Movement during machining reduces accuracy and may damage tooling.",
+    "id": 47
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Why should CNC tools be measured accurately before machining?",
+    "options": [
+      "Incorrect tool size affects dimensions and fit",
+      "It changes stain colour",
+      "It reduces sanding time only",
+      "It increases glue cure speed"
+    ],
+    "answer": 0,
+    "explanation": "CNC accuracy depends on correct tool dimensions and compensation values.",
+    "id": 48
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "What is the MOST common cause of visible ridges in CNC pockets?",
+    "options": [
+      "Excessive step-over or poor tool setup",
+      "Too much finish",
+      "Correct feed rate",
+      "Proper spoilboard resurfacing"
+    ],
+    "answer": 0,
+    "explanation": "Large step-over settings leave visible machining lines in the pocket floor.",
+    "id": 49
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Before running a CNC program on expensive material, what is BEST practice?",
+    "options": [
+      "Perform a dry run or simulation first",
+      "Increase spindle speed immediately",
+      "Skip origin setup",
+      "Remove vacuum hold-down"
+    ],
+    "answer": 0,
+    "explanation": "Test runs help catch setup or programming errors before material is damaged.",
+    "id": 50
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A board is jointed flat on one face but rocks after passing through the planer. What is the most likely cause?",
+    "options": [
+      "The reference face was not truly flat",
+      "The planer knives were too sharp",
+      "The board was sanded too fine",
+      "The feed rollers were too clean"
+    ],
+    "answer": 0,
+    "explanation": "The planer copies the reference face. If the jointed face still has twist or bow, the board may remain unstable after planing.",
+    "id": 51
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A jointer produces a slight hollow along the edge of every board. What should be checked first?",
+    "options": [
+      "Outfeed table height",
+      "Finish compatibility",
+      "Drawer slide rating",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect outfeed table height can cause concave or tapered jointed edges. Jointer table setup is critical for straight edges.",
+    "id": 52
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A rip cut burns only between the blade and fence side of the workpiece. What is the most likely problem?",
+    "options": [
+      "Fence is not parallel to the blade",
+      "Sandpaper grit is too coarse",
+      "Glue line is too thick",
+      "Blade guard is too clean"
+    ],
+    "answer": 0,
+    "explanation": "If the fence pinches the stock into the blade, friction increases. This can cause burning and kickback risk.",
+    "id": 53
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A wide panel is crosscut and splinters badly on the bottom face. What setup would best reduce this?",
+    "options": [
+      "Zero-clearance support or scoring method",
+      "More feed pressure",
+      "Dull crosscut blade",
+      "Less panel support"
+    ],
+    "answer": 0,
+    "explanation": "Bottom fibres need support as the blade exits. Zero-clearance inserts, scoring, or backing boards reduce tear-out.",
+    "id": 54
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router table cut pulls the workpiece forward suddenly. What likely caused this?",
+    "options": [
+      "Climb cutting or wrong feed direction",
+      "Correct feed direction",
+      "Proper fence setup",
+      "Sharp cutter only"
+    ],
+    "answer": 0,
+    "explanation": "Feeding with cutter rotation can pull the workpiece from the operator. Most operations require feeding against rotation for control.",
+    "id": 55
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A mortise is clean at the top but angled through the stock. What should be checked?",
+    "options": [
+      "Table, fence, and workpiece clamping",
+      "Stain absorption",
+      "Cabinet reveal",
+      "Laminate grade"
+    ],
+    "answer": 0,
+    "explanation": "An angled mortise usually comes from poor machine alignment or part movement. The stock must be held square and secure.",
+    "id": 56
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A tenon fits the mortise width but shoulders remain open. What is the best first check?",
+    "options": [
+      "Tenon length and mortise depth",
+      "Finish dry time",
+      "Screw length",
+      "Dust collection bag size"
+    ],
+    "answer": 0,
+    "explanation": "The tenon may be bottoming out before shoulders seat. Joint depth and shoulder accuracy must be verified.",
+    "id": 57
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A dado fits tightly on one end of a shelf but loosely on the other. What is the likely cause?",
+    "options": [
+      "Inconsistent material thickness or dado width",
+      "Correct machining",
+      "Proper shelf support",
+      "Good clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sheet material can vary in thickness, or the setup may cut inconsistently. Both joint and material must be checked.",
+    "id": 58
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A band saw blade wanders during resawing even after tensioning. What should be reviewed next?",
+    "options": [
+      "Guides, blade condition, fence drift, and feed pressure",
+      "Finish sheen",
+      "Glue spread",
+      "Drawer overlay"
+    ],
+    "answer": 0,
+    "explanation": "Resaw accuracy depends on complete blade setup. Poor guide setting, dull blade, or forced feed can cause drift.",
+    "id": 59
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A planer leaves deeper cuts at both ends of long boards. What is the defect?",
+    "options": [
+      "Snipe",
+      "Burnishing",
+      "Telegraphing",
+      "Blushing"
+    ],
+    "answer": 0,
+    "explanation": "Snipe is a deeper cut near board ends. Proper infeed/outfeed support and machine adjustment reduce it.",
+    "id": 60
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A shaped profile has chatter marks along the full length. What is the most likely cause?",
+    "options": [
+      "Vibration from poor support, loose setup, or dull cutter",
+      "Proper hold-down pressure",
+      "Correct feed speed only",
+      "Fine sanding grit"
+    ],
+    "answer": 0,
+    "explanation": "Chatter results from vibration during cutting. Tooling, feed, support, and machine setup must be checked.",
+    "id": 61
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A drill press bit burns hardwood while boring deep holes. What should be changed?",
+    "options": [
+      "Clear chips, reduce pressure, and use sharp bit",
+      "Increase pressure continuously",
+      "Use a dull bit",
+      "Remove clamping"
+    ],
+    "answer": 0,
+    "explanation": "Deep holes trap chips and heat. Peck drilling and sharp bits reduce burning.",
+    "id": 62
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router bit burns end grain but cuts long grain cleanly. What should be considered?",
+    "options": [
+      "End grain requires lighter passes and sharp tooling",
+      "End grain needs no support",
+      "More pressure always helps",
+      "Finish should be applied before routing"
+    ],
+    "answer": 0,
+    "explanation": "End grain cuts differently and can heat or tear out. Lighter passes and sharp tooling improve results.",
+    "id": 63
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A panel cut on a sliding table saw is slightly out of square on every sheet. What should be checked?",
+    "options": [
+      "Crosscut fence and sliding table alignment",
+      "Glue viscosity",
+      "Drawer slide finish",
+      "Shelf pin style"
+    ],
+    "answer": 0,
+    "explanation": "Repeated square errors indicate machine setup. The fence and sliding mechanism must be aligned.",
+    "id": 64
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A moulding cutter produces tear-out on one side of a profile only. What is most likely?",
+    "options": [
+      "Grain direction or cutting sequence issue",
+      "Finish incompatibility",
+      "Correct machining setup",
+      "Proper clamping only"
+    ],
+    "answer": 0,
+    "explanation": "Profile cuts may cut with and against grain in different areas. Feed direction and cutter sharpness affect tear-out.",
+    "id": 65
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker cuts a small narrow part on a table saw without a jig. What is the main risk?",
+    "options": [
+      "Loss of control and blade contact",
+      "Better accuracy",
+      "Cleaner edge",
+      "Reduced kickback"
+    ],
+    "answer": 0,
+    "explanation": "Small parts are difficult to control near cutters. Jigs and push blocks improve safety and accuracy.",
+    "id": 66
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A belt sander creates waves in a cabinet side. What caused this?",
+    "options": [
+      "Uneven pressure or poor sanding technique",
+      "Proper sanding support",
+      "Correct grit sequence",
+      "Good panel flatness"
+    ],
+    "answer": 0,
+    "explanation": "Belt sanders remove material quickly. Holding too long or pressing unevenly can create low spots.",
+    "id": 67
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw blade leaves saw marks even though the blade is sharp. What else should be checked?",
+    "options": [
+      "Blade runout, arbor condition, and feed rate",
+      "Stain colour",
+      "Glue type",
+      "Shelf material grade"
+    ],
+    "answer": 0,
+    "explanation": "Saw marks can result from vibration, arbor problems, or poor feed control. Sharpness alone is not the only factor.",
+    "id": 68
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A routed stopped groove is deeper at the start than the end. What likely happened?",
+    "options": [
+      "Router tipped or plunge depth was not controlled",
+      "Bit was too clean",
+      "Finish was too thick",
+      "Workpiece was too dry"
+    ],
+    "answer": 0,
+    "explanation": "Hand routers require stable support and controlled plunge. Tipping changes depth.",
+    "id": 69
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A melamine panel chips on both top and bottom faces. What is most likely wrong?",
+    "options": [
+      "Incorrect blade/tooling for laminated sheet goods",
+      "Proper scoring setup",
+      "Correct compression tooling",
+      "Clean support surface"
+    ],
+    "answer": 0,
+    "explanation": "Laminated panels require suitable scoring or compression cutting. Wrong tooling damages both faces.",
+    "id": 70
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A jointed edge is straight but not square to the face. What should be adjusted?",
+    "options": [
+      "Jointer fence angle",
+      "Planer thickness scale",
+      "Sanding pressure",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "The jointer fence controls the edge angle. It must be set accurately to 90 degrees or required angle.",
+    "id": 71
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A workpiece lifts during a router table cut. What setup would help?",
+    "options": [
+      "Featherboards or hold-downs",
+      "Higher stain concentration",
+      "Less fence support",
+      "More finish thinner"
+    ],
+    "answer": 0,
+    "explanation": "Hold-downs keep material flat and controlled. They improve safety and cut consistency.",
+    "id": 72
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A panel saw produces accurate length but chipped visible faces. What should be checked?",
+    "options": [
+      "Blade condition, scoring, and face orientation",
+      "Glue squeeze-out",
+      "Cabinet back fit",
+      "Hinge adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Accuracy and edge quality are separate issues. Visible faces need suitable cutting setup.",
+    "id": 73
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A mortising bit overheats and leaves dark marks. What should be checked?",
+    "options": [
+      "Bit sharpness, chip clearance, and feed pressure",
+      "Finish sheen",
+      "Shelf-pin location",
+      "Drawer slide type"
+    ],
+    "answer": 0,
+    "explanation": "Heat comes from friction and poor chip removal. Sharp tooling and correct feed reduce burning.",
+    "id": 74
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw rip cut suddenly kicks back. What is a common contributing factor?",
+    "options": [
+      "Stock pinched the blade or twisted during cut",
+      "Correct riving knife use",
+      "Proper feed control",
+      "Clean zero-clearance insert"
+    ],
+    "answer": 0,
+    "explanation": "Kickback often occurs when the workpiece contacts the back of the blade. Riving knives, push devices, and proper support reduce risk.",
+    "id": 75
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A curved cut on the band saw has rough, burned edges. What should be checked?",
+    "options": [
+      "Blade sharpness, width, tension, and feed rate",
+      "Finish dry time",
+      "Glue ratio",
+      "Drawer reveal"
+    ],
+    "answer": 0,
+    "explanation": "Tight curves need a suitable blade and controlled feed. Dull or wrong-width blades burn and roughen the cut.",
+    "id": 76
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A cabinet part becomes undersized after sanding out machine marks. What was likely wrong earlier?",
+    "options": [
+      "Insufficient machining allowance or poor cut quality",
+      "Correct final sizing",
+      "Proper sanding sequence",
+      "Ideal cutter sharpness"
+    ],
+    "answer": 0,
+    "explanation": "Parts need allowance for cleanup. Heavy sanding to remove defects can reduce final size.",
+    "id": 77
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A hand-held circular saw cut drifts off the line. What would best improve accuracy?",
+    "options": [
+      "Use a straightedge guide or track",
+      "Push faster freehand",
+      "Use a dull blade",
+      "Remove support"
+    ],
+    "answer": 0,
+    "explanation": "Guides keep portable saw cuts straight. Freehand cutting is less reliable for cabinet parts.",
+    "id": 78
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A rabbet is too shallow to seat a back panel flush. What should be corrected?",
+    "options": [
+      "Rabbet depth setting",
+      "Finish colour",
+      "Door hinge type",
+      "Sandpaper brand"
+    ],
+    "answer": 0,
+    "explanation": "Rabbets must match panel thickness and desired position. Incorrect depth affects assembly fit.",
+    "id": 79
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker machines multiple matching rails using different setups. What risk increases?",
+    "options": [
+      "Inconsistent dimensions between parts",
+      "Better matching",
+      "Less measuring",
+      "Reduced finishing time"
+    ],
+    "answer": 0,
+    "explanation": "Matching parts should be machined in controlled batches. Different setups increase variation. ## Task 7. Machines Components Using Automated and CNC Equipment",
+    "id": 80
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC machine cuts cabinet parts accurately at one corner of the sheet but not the opposite corner. What should be checked?",
+    "options": [
+      "Spoilboard flatness, sheet hold-down, and machine calibration",
+      "Finish colour",
+      "Glue open time",
+      "Drawer pull style"
+    ],
+    "answer": 0,
+    "explanation": "Accuracy variation across the sheet may come from uneven support or machine calibration. Hold-down and bed condition matter.",
+    "id": 81
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC dadoes are too loose even though the program dimension is correct. What should be checked?",
+    "options": [
+      "Actual tool diameter and compensation settings",
+      "Stain absorption",
+      "Shelf-pin colour",
+      "Glue brand"
+    ],
+    "answer": 0,
+    "explanation": "CNC dimensions depend on actual cutter size and compensation. A worn or incorrectly entered tool can widen cuts.",
+    "id": 82
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC router burns plywood edges after several sheets. What is the most likely issue?",
+    "options": [
+      "Tool dulling or poor chip evacuation",
+      "Improved cutting quality",
+      "Perfect feed rate",
+      "Correct tooling condition"
+    ],
+    "answer": 0,
+    "explanation": "Burning during a run often indicates increasing heat from dull tools or poor chip removal. Tooling should be checked.",
+    "id": 83
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC parts shift slightly during final cut-through. What is the best prevention?",
+    "options": [
+      "Tabs, onion-skinning, or improved vacuum zoning",
+      "More finishing",
+      "Less hold-down",
+      "Higher sanding grit"
+    ],
+    "answer": 0,
+    "explanation": "Parts lose support as they are cut free. Tabs or onion-skinning keep them stable until removal.",
+    "id": 84
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC pocket is too deep across all parts. What should be checked first?",
+    "options": [
+      "Z-zero, tool length, and material thickness setting",
+      "Finish sheen",
+      "Glue ratio",
+      "Door overlay"
+    ],
+    "answer": 0,
+    "explanation": "Z-axis setup controls pocket depth. Incorrect tool length or material thickness causes repeated depth errors.",
+    "id": 85
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC tool breaks during a deep cut. What is a likely cause?",
+    "options": [
+      "Excessive depth of cut or incorrect feed/speed",
+      "Correct chip load",
+      "Proper pass depth",
+      "Sharp tool only"
+    ],
+    "answer": 0,
+    "explanation": "Tools break when overloaded or overheated. Pass depth, feed, spindle speed, and chip removal must match the cutter.",
+    "id": 86
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Holes drilled by CNC are slightly oval. What should be checked?",
+    "options": [
+      "Tool runout, collet condition, and spindle play",
+      "Finish viscosity",
+      "Laminate cleaner",
+      "Shelf thickness"
+    ],
+    "answer": 0,
+    "explanation": "Oval holes indicate movement or runout during cutting. Tool holding and spindle condition affect accuracy.",
+    "id": 87
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC file cuts on the wrong side of prefinished panels. What setup was missed?",
+    "options": [
+      "Panel face orientation and program side",
+      "Tool sharpness only",
+      "Vacuum strength only",
+      "Finish cure time"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished panels must be loaded correctly. Face orientation and mirrored programs must be verified.",
+    "id": 88
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC nested sheet has parts too close to clamps. What should be done before cutting?",
+    "options": [
+      "Move clamps or revise toolpath/nesting",
+      "Run slowly and hope",
+      "Remove simulation checks",
+      "Use shorter screws"
+    ],
+    "answer": 0,
+    "explanation": "Toolpaths must avoid clamps and fixtures. Collisions can damage tooling and machine parts.",
+    "id": 89
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC cut-through leaves a thin uncut layer in some areas. What is likely?",
+    "options": [
+      "Uneven spoilboard or incorrect final depth",
+      "Better hold-down",
+      "Correct Z-zero everywhere",
+      "Proper resurfacing"
+    ],
+    "answer": 0,
+    "explanation": "Variation in bed flatness or depth setting can leave uncut material. Spoilboard condition should be checked.",
+    "id": 90
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC program uses the wrong bit for hinge cup boring. What is the risk?",
+    "options": [
+      "Incorrect hole size or depth",
+      "Better hinge fit",
+      "Stronger door",
+      "Improved finish"
+    ],
+    "answer": 0,
+    "explanation": "CNC operations depend on correct tool assignment. Wrong tools ruin fit and may damage material.",
+    "id": 91
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A vacuum gauge drops during machining. What should the operator do?",
+    "options": [
+      "Stop and correct hold-down before continuing",
+      "Push the sheet by hand",
+      "Increase spindle speed only",
+      "Ignore if cut looks good"
+    ],
+    "answer": 0,
+    "explanation": "Loss of vacuum can cause stock movement and unsafe cutting. Machining should stop until hold-down is restored.",
+    "id": 92
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC-cut parts are undersized by the same amount all around. What is most likely wrong?",
+    "options": [
+      "Cutter diameter compensation",
+      "Finish compatibility",
+      "Sandpaper grit",
+      "Sheet colour"
+    ],
+    "answer": 0,
+    "explanation": "Consistent size errors often come from tool compensation. The actual cutter diameter must match the program setting.",
+    "id": 93
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A compression bit chips the bottom face of laminated panels. What should be checked?",
+    "options": [
+      "Cutting depth and bit engagement",
+      "Stain dry time",
+      "Screw torque",
+      "Drawer front reveal"
+    ],
+    "answer": 0,
+    "explanation": "Compression bits need correct depth so the upcut and downcut sections work properly. Wrong engagement chips faces.",
+    "id": 94
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator hears unusual vibration during cutting. What should be done?",
+    "options": [
+      "Stop and inspect tool, spindle, and work holding",
+      "Increase feed speed immediately",
+      "Stand closer to watch",
+      "Continue until sheet is done"
+    ],
+    "answer": 0,
+    "explanation": "Vibration can indicate loose tooling or material. Continuing can damage the machine or cause unsafe conditions.",
+    "id": 95
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC pocket floor has ridges that are too visible. What should be changed?",
+    "options": [
+      "Step-over, toolpath strategy, or tool condition",
+      "Finish colour",
+      "Glue open time",
+      "Hinge type"
+    ],
+    "answer": 0,
+    "explanation": "Pocket smoothness depends on the path and cutter. Excessive step-over leaves ridges.",
+    "id": 96
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A nested CNC sheet has poor material yield. What should be reviewed?",
+    "options": [
+      "Nesting layout and grain direction requirements",
+      "Finish sample only",
+      "Clamp colour",
+      "Shelf-pin drilling speed"
+    ],
+    "answer": 0,
+    "explanation": "Nesting controls material use. Grain direction or part orientation may limit yield and must be planned.",
+    "id": 97
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC router repeats a positioning error after each tool change. What should be checked?",
+    "options": [
+      "Tool change calibration and offsets",
+      "Stain colour",
+      "Laminate grade",
+      "Door pull style"
+    ],
+    "answer": 0,
+    "explanation": "Errors after tool changes point to tool offset or calibration problems. The tool changer setup must be checked.",
+    "id": 98
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC-cut melamine shows clean top edges but chipped bottom edges. What is likely needed?",
+    "options": [
+      "Correct compression/scoring setup or support",
+      "More glue",
+      "Less vacuum",
+      "Higher finish sheen"
+    ],
+    "answer": 0,
+    "explanation": "Bottom chip-out shows inadequate underside support or tool geometry. Compression bits or scoring reduce it.",
+    "id": 99
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Before cutting a full batch on CNC, what is the best quality control step?",
+    "options": [
+      "Inspect the first part for size, fit, and edge quality",
+      "Run the full batch immediately",
+      "Remove labels",
+      "Skip simulation"
+    ],
+    "answer": 0,
+    "explanation": "First-piece inspection catches setup errors early. Corrections should be made before producing many defective parts.",
+    "id": 100
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A rough maple board is cupped and twisted. The cabinetmaker needs a flat, accurate part. What should be done first?",
+    "options": [
+      "Joint one face flat",
+      "Plane both faces immediately",
+      "Rip to final width",
+      "Sand the board flat"
+    ],
+    "answer": 0,
+    "explanation": "A flat reference face must be created first. A planer will follow the existing twist if the board is not jointed properly.",
+    "id": 101
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A board comes out of the planer with both faces parallel but still bowed. What was likely missed?",
+    "options": [
+      "Flattening the reference face first",
+      "Using enough finish",
+      "Cutting to final length first",
+      "Sanding with fine grit"
+    ],
+    "answer": 0,
+    "explanation": "A planer controls thickness, not flatness by itself. The board needs one true face before planing.",
+    "id": 102
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "While ripping hardwood, the saw begins to burn the cut near the fence side. What should be checked?",
+    "options": [
+      "Fence alignment and blade condition",
+      "Glue type",
+      "Shelf thickness",
+      "Finish sample"
+    ],
+    "answer": 0,
+    "explanation": "Burning near the fence can indicate pinching or friction. A dull blade or misaligned fence increases heat and kickback risk.",
+    "id": 103
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker is cutting narrow strips on a table saw and has hands close to the blade. What should be used?",
+    "options": [
+      "Push stick or push block",
+      "Bare fingers",
+      "More blade height",
+      "Loose gloves"
+    ],
+    "answer": 0,
+    "explanation": "Push devices keep hands away from the blade. They also improve control of narrow stock.",
+    "id": 104
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A panel chips badly on the bottom face during a crosscut. What would help prevent this?",
+    "options": [
+      "Zero-clearance insert or backing support",
+      "Faster feed only",
+      "Dull blade",
+      "Less support"
+    ],
+    "answer": 0,
+    "explanation": "The bottom fibres need support as the blade exits. A zero-clearance insert or backer reduces tear-out.",
+    "id": 105
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router table operation suddenly pulls the workpiece forward. What is the likely cause?",
+    "options": [
+      "Wrong feed direction or climb cutting",
+      "Correct feed direction",
+      "Proper hold-down use",
+      "Sharp cutter only"
+    ],
+    "answer": 0,
+    "explanation": "Feeding with cutter rotation can pull the stock uncontrollably. Most router table cuts should feed against cutter rotation.",
+    "id": 106
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A mortise is wider than planned because the part moved during cutting. What should be improved?",
+    "options": [
+      "Workpiece clamping",
+      "Finish colour",
+      "Drawer pull spacing",
+      "Sanding direction"
+    ],
+    "answer": 0,
+    "explanation": "Loose stock creates inaccurate mortises. Proper clamping keeps the part stable and square.",
+    "id": 107
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A tenon fits side-to-side but will not seat fully in the mortise. What should be checked?",
+    "options": [
+      "Tenon length and mortise depth",
+      "Stain colour",
+      "Screw head type",
+      "Shelf-pin jig"
+    ],
+    "answer": 0,
+    "explanation": "The tenon may be bottoming out before the shoulders close. Joint depth and length must match.",
+    "id": 108
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A dado is cut for a plywood shelf, but the shelf is loose in the groove. What should happen next?",
+    "options": [
+      "Adjust setup and make a test cut",
+      "Cut all remaining dados",
+      "Fill gaps with finish",
+      "Use more screws only"
+    ],
+    "answer": 0,
+    "explanation": "Dados must fit the actual material thickness. Test cuts prevent repeated errors.",
+    "id": 109
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A rabbeted cabinet back sits proud of the cabinet sides. What is likely wrong?",
+    "options": [
+      "Rabbet depth is too shallow",
+      "Glue is too strong",
+      "Cabinet is too clean",
+      "Finish is too dark"
+    ],
+    "answer": 0,
+    "explanation": "The rabbet must be deep enough to accept the back. Incorrect depth affects flush fit and assembly.",
+    "id": 110
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "During resawing, the band saw blade wanders away from the fence. What should be checked?",
+    "options": [
+      "Blade tension, guide setup, and feed pressure",
+      "Finish sheen",
+      "Glue open time",
+      "Drawer slide length"
+    ],
+    "answer": 0,
+    "explanation": "Resawing needs correct blade setup and controlled feed. Forcing the stock can cause drift.",
+    "id": 111
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A planer leaves deeper marks at both ends of a board. What defect is this?",
+    "options": [
+      "Snipe",
+      "Orange peel",
+      "Telegraphing",
+      "Blushing"
+    ],
+    "answer": 0,
+    "explanation": "Snipe is a deeper cut near board ends. Proper support and machine setup help reduce it.",
+    "id": 112
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router profile burns on oak trim. What is the best correction?",
+    "options": [
+      "Sharpen or replace cutter and adjust feed speed",
+      "Feed slower with the same dull bit",
+      "Apply finish first",
+      "Use more clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Burning comes from heat and friction. Sharp cutters and proper feed rate reduce heat buildup.",
+    "id": 113
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A drill press bit grabs a small part and spins it. What was missing?",
+    "options": [
+      "Proper clamping",
+      "More stain",
+      "Less support",
+      "Higher feed pressure"
+    ],
+    "answer": 0,
+    "explanation": "Small parts can spin dangerously if the bit catches. Work must be clamped or secured.",
+    "id": 114
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A cabinetmaker drills repeated shelf-pin holes, but holes on one side do not line up with the other. What caused this?",
+    "options": [
+      "Different reference edges were used",
+      "Finish was too thick",
+      "Glue was applied early",
+      "Shelf material was too hard"
+    ],
+    "answer": 0,
+    "explanation": "Repeated holes need consistent reference edges. Opposite references create misalignment.",
+    "id": 115
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A portable circular saw cut drifts off the layout line on plywood. What should be used?",
+    "options": [
+      "Straightedge guide or track",
+      "More hand pressure only",
+      "Dull blade",
+      "Less panel support"
+    ],
+    "answer": 0,
+    "explanation": "Guides keep portable saw cuts straight. Freehand cutting is less accurate for cabinet work.",
+    "id": 116
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker cuts a large plywood sheet without enough support and the blade binds. What caused the problem?",
+    "options": [
+      "Panel sagging and pinching the blade",
+      "Correct support",
+      "Proper blade height",
+      "Good feed technique"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported sheets can sag during cutting. This closes the kerf and can cause binding or kickback.",
+    "id": 117
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A melamine panel chips badly on the top face. What should be checked?",
+    "options": [
+      "Blade type, scoring, and face orientation",
+      "Glue amount",
+      "Finish colour",
+      "Clamp pad thickness"
+    ],
+    "answer": 0,
+    "explanation": "Melamine needs a sharp suitable blade or scoring. Face orientation also affects which surface chips.",
+    "id": 118
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A curved bracket is cut on the band saw, but the blade binds in the curve. What is likely wrong?",
+    "options": [
+      "Blade is too wide for the radius",
+      "Blade is too narrow",
+      "Finish is too thick",
+      "Glue line is weak"
+    ],
+    "answer": 0,
+    "explanation": "Tight curves require narrower blades. A wide blade cannot turn sharply and may bind.",
+    "id": 119
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A moulding profile has chatter marks along the length. What should be checked?",
+    "options": [
+      "Cutter sharpness, feed rate, and stock support",
+      "Stain dry time",
+      "Drawer overlay",
+      "Shelf-pin depth"
+    ],
+    "answer": 0,
+    "explanation": "Chatter is caused by vibration or unstable cutting. Tooling, support, and feed must be correct.",
+    "id": 120
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A jointed board edge is straight but not square to the face. What should be adjusted?",
+    "options": [
+      "Jointer fence angle",
+      "Planer thickness scale",
+      "Sanding block",
+      "Glue spreader"
+    ],
+    "answer": 0,
+    "explanation": "The jointer fence controls the edge angle. It must be set to the required angle.",
+    "id": 121
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A cabinet part becomes undersized after sanding out saw marks. What should have been allowed?",
+    "options": [
+      "Machining and sanding allowance",
+      "More finish thickness",
+      "Less measuring",
+      "Shorter clamp time"
+    ],
+    "answer": 0,
+    "explanation": "Parts need allowance for cleanup. Poor cut quality can require too much sanding and reduce final size.",
+    "id": 122
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A stopped groove routed by hand is deeper at one end. What likely happened?",
+    "options": [
+      "Router tipped or base was unsupported",
+      "Bit was too sharp",
+      "Finish was applied first",
+      "Glue dried too slowly"
+    ],
+    "answer": 0,
+    "explanation": "Hand routers need full base support. Tipping changes the cutting depth.",
+    "id": 123
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A saw cut produces rough edges even with the correct blade. What else should be checked?",
+    "options": [
+      "Feed rate, blade runout, and material support",
+      "Finish sheen",
+      "Glue colour",
+      "Cabinet hinge type"
+    ],
+    "answer": 0,
+    "explanation": "Cut quality depends on more than blade type. Vibration, poor support, or feed problems can roughen edges.",
+    "id": 124
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker needs several identical rails. What is the best machining practice?",
+    "options": [
+      "Machine matching parts in the same setup",
+      "Change setup for each rail",
+      "Sand each rail to size separately",
+      "Cut by eye"
+    ],
+    "answer": 0,
+    "explanation": "One setup improves consistency. Changing settings between parts increases variation.",
+    "id": 125
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker notices smoke while cutting MDF on a table saw. What should be done?",
+    "options": [
+      "Stop and check blade, feed rate, and dust extraction",
+      "Continue until the cut is complete",
+      "Feed slower with more pressure",
+      "Remove dust collection"
+    ],
+    "answer": 0,
+    "explanation": "Smoke indicates heat and possible fire risk. Tool sharpness, feed rate, and dust extraction should be corrected.",
+    "id": 126
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A routed edge has tear-out at the exit end. What should be used?",
+    "options": [
+      "Backer block or changed cutting sequence",
+      "More force",
+      "Dull cutter",
+      "Less support"
+    ],
+    "answer": 0,
+    "explanation": "Exit fibres need support. A backer block helps prevent blowout.",
+    "id": 127
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A narrow part is difficult to hold safely on a router table. What should be used?",
+    "options": [
+      "Jig or holding fixture",
+      "Bare hands near cutter",
+      "Loose sleeve",
+      "Extra finish"
+    ],
+    "answer": 0,
+    "explanation": "Small parts are unsafe to control by hand near cutters. Jigs keep hands away and improve accuracy.",
+    "id": 128
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A panel saw produces repeated out-of-square cuts. What should be checked?",
+    "options": [
+      "Fence and guide alignment",
+      "Finish pot life",
+      "Glue open time",
+      "Drawer front reveal"
+    ],
+    "answer": 0,
+    "explanation": "Repeated square errors usually indicate machine setup problems. The fence and guide system must be accurate.",
+    "id": 129
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A dado stack cuts a groove with ridges on the bottom. What should be checked?",
+    "options": [
+      "Cutter/chipper setup and condition",
+      "Finish sample",
+      "Cabinet back colour",
+      "Shelf-pin hole spacing"
+    ],
+    "answer": 0,
+    "explanation": "Ridges can come from cutter condition or poor stack setup. Clean joint bottoms require proper tooling. ## Task 7. Machines Components Using Automated and CNC Equipment",
+    "id": 130
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC router cuts all parts 8 mm too far to the right. What is the likely cause?",
+    "options": [
+      "Incorrect work origin or sheet registration",
+      "Wrong finish sheen",
+      "Excess glue spread",
+      "Incorrect sanding grit"
+    ],
+    "answer": 0,
+    "explanation": "A consistent shift usually means origin or material placement is wrong. The physical sheet must match the program reference.",
+    "id": 131
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC machine cuts too deeply into the spoilboard during pocketing. What should be checked?",
+    "options": [
+      "Z-zero, tool length, and material thickness setting",
+      "Stain colour",
+      "Drawer slide length",
+      "Shelf support type"
+    ],
+    "answer": 0,
+    "explanation": "Z settings control cut depth. Wrong tool length or material thickness can cause over-cutting.",
+    "id": 132
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Small CNC parts move after being cut free. What strategy would help?",
+    "options": [
+      "Tabs or onion-skinning",
+      "Less hold-down",
+      "More finish",
+      "Higher sanding grit"
+    ],
+    "answer": 0,
+    "explanation": "Small parts can lose vacuum once separated. Tabs and onion-skinning keep them in place.",
+    "id": 133
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC-cut dado is too loose for the actual panel. What should be checked?",
+    "options": [
+      "Actual material thickness and tool diameter compensation",
+      "Finish dry time",
+      "Hinge screw length",
+      "Laminate cleaner"
+    ],
+    "answer": 0,
+    "explanation": "Sheet goods often vary in thickness. Toolpath settings must match real material and cutter size.",
+    "id": 134
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC holes are slightly oval instead of round. What should be inspected?",
+    "options": [
+      "Tool runout, collet condition, and spindle play",
+      "Finish sheen",
+      "Glue bottle size",
+      "Drawer pull style"
+    ],
+    "answer": 0,
+    "explanation": "Oval holes usually indicate vibration or runout. Tool holding and spindle condition affect accuracy.",
+    "id": 135
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC compression bit chips the bottom of laminated panels. What should be reviewed?",
+    "options": [
+      "Cutting depth and bit engagement",
+      "Finish compatibility",
+      "Cabinet shelf spacing",
+      "Screw torque"
+    ],
+    "answer": 0,
+    "explanation": "Compression bits must cut at the correct depth for both faces. Wrong engagement can chip one side.",
+    "id": 136
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator sees vacuum pressure drop during cutting. What should be done?",
+    "options": [
+      "Stop and correct hold-down issue",
+      "Continue and push the sheet by hand",
+      "Increase spindle speed only",
+      "Ignore if cuts look okay"
+    ],
+    "answer": 0,
+    "explanation": "Loss of hold-down can cause movement and unsafe cutting. The machine should be stopped.",
+    "id": 137
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC pocket bottom has visible ridges. What should be adjusted?",
+    "options": [
+      "Step-over, toolpath strategy, or cutter condition",
+      "Stain colour",
+      "Cabinet door reveal",
+      "Shelf-pin type"
+    ],
+    "answer": 0,
+    "explanation": "Pocket quality depends on toolpath and tool condition. Excessive step-over leaves ridges.",
+    "id": 138
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC sheet is loaded rotated 180 degrees from the program. What can happen?",
+    "options": [
+      "Grain direction and machining locations may be wrong",
+      "Finish cures faster",
+      "Vacuum improves automatically",
+      "Edge quality always improves"
+    ],
+    "answer": 0,
+    "explanation": "CNC programs depend on correct sheet orientation. Rotation can place cuts on the wrong side or direction.",
+    "id": 139
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC melamine parts have clean top edges but chipped bottom edges. What is likely needed?",
+    "options": [
+      "Correct compression tooling, support, or scoring",
+      "More stain",
+      "Less vacuum",
+      "Longer screws"
+    ],
+    "answer": 0,
+    "explanation": "Bottom chip-out means the underside is not being cut cleanly. Tooling and support must be corrected.",
+    "id": 140
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC nested file uses the wrong tool number for hinge cups. What is the risk?",
+    "options": [
+      "Wrong hole diameter or depth",
+      "Stronger hinge fit",
+      "Better finish",
+      "Less machining time only"
+    ],
+    "answer": 0,
+    "explanation": "Tool assignment controls cutter size and operation. Wrong tool numbers can ruin parts.",
+    "id": 141
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC parts are undersized by the same amount all around. What should be checked?",
+    "options": [
+      "Cutter compensation or tool diameter setting",
+      "Finish colour",
+      "Glue ratio",
+      "Drawer handle style"
+    ],
+    "answer": 0,
+    "explanation": "Uniform size error often comes from incorrect cutter diameter settings. Compensation must match the actual tool.",
+    "id": 142
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC cut quality gets worse near the end of a production run. What is likely?",
+    "options": [
+      "Tool dulling or heat buildup",
+      "Better chip load",
+      "Correct tool condition",
+      "Improved dust extraction"
+    ],
+    "answer": 0,
+    "explanation": "Dull tools produce rougher cuts and more heat. Tool condition should be monitored during production.",
+    "id": 143
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator notices unusual vibration during a profile cut. What should be done?",
+    "options": [
+      "Stop and inspect tool, collet, spindle, and hold-down",
+      "Continue slowly",
+      "Stand closer to watch",
+      "Increase depth of cut"
+    ],
+    "answer": 0,
+    "explanation": "Vibration can indicate loose tooling or material. Continuing can damage the machine or part.",
+    "id": 144
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC parts near the sheet edge shift during cutting. What should be checked?",
+    "options": [
+      "Vacuum zone, gasket seal, and part hold-down",
+      "Finish sample",
+      "Sandpaper grit",
+      "Hinge overlay"
+    ],
+    "answer": 0,
+    "explanation": "Edge parts may have less vacuum area. Hold-down strategy must be adjusted.",
+    "id": 145
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC machine repeats a depth error only after tool changes. What should be checked?",
+    "options": [
+      "Tool length measurement and offset calibration",
+      "Glue colour",
+      "Drawer slide rating",
+      "Veneer sequence"
+    ],
+    "answer": 0,
+    "explanation": "Tool changes rely on accurate offsets. Incorrect tool measurement causes depth errors.",
+    "id": 146
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC-cut part has correct shape but poor edge finish. What should be reviewed?",
+    "options": [
+      "Feed rate, spindle speed, tool sharpness, and cut direction",
+      "Finish sheen",
+      "Cabinet back size",
+      "Shelf material colour"
+    ],
+    "answer": 0,
+    "explanation": "Edge quality depends on cutting conditions. Size can be correct while surface quality is poor.",
+    "id": 147
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC program simulation shows the tool crossing a clamp location. What should be done?",
+    "options": [
+      "Move clamp or revise toolpath before cutting",
+      "Run the program carefully",
+      "Remove simulation steps",
+      "Use a shorter screw"
+    ],
+    "answer": 0,
+    "explanation": "Tool collisions can damage equipment and create hazards. Clamp/toolpath conflicts must be corrected first.",
+    "id": 148
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC spoilboard is uneven, and shallow pockets vary in depth. What should be done?",
+    "options": [
+      "Resurface the spoilboard",
+      "Apply more finish",
+      "Change drawer slides",
+      "Reduce sanding"
+    ],
+    "answer": 0,
+    "explanation": "An uneven spoilboard affects Z-depth accuracy. Resurfacing restores a flat reference.",
+    "id": 149
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator skips first-piece inspection and runs a full batch. Holes are wrong on every part. What was missed?",
+    "options": [
+      "First-part quality check",
+      "Finish sanding",
+      "Glue cleanup",
+      "Packaging"
+    ],
+    "answer": 0,
+    "explanation": "First-piece inspection catches setup errors early. It prevents producing an entire batch of defective parts.",
+    "id": 150
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A cabinetmaker needs to machine rough lumber to exact thickness. What is the correct first step?",
+    "options": [
+      "Flatten one face on the jointer",
+      "Plane both faces immediately",
+      "Rip the board to width first",
+      "Sand the board smooth"
+    ],
+    "answer": 0,
+    "explanation": "A planer needs a flat reference face. Jointing one face first helps remove twist and creates accurate stock.",
+    "id": 151
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A jointer creates an edge that is straight but not 90° to the face. What should be adjusted?",
+    "options": [
+      "Jointer fence",
+      "Planer bed",
+      "Table saw blade height",
+      "Drill press depth stop"
+    ],
+    "answer": 0,
+    "explanation": "The jointer fence controls the edge angle. If the fence is not square, the edge will not be square to the face.",
+    "id": 152
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A planer produces tear-out on figured wood. What is the best correction?",
+    "options": [
+      "Use light cuts and sharp knives",
+      "Take heavier cuts",
+      "Feed faster with dull knives",
+      "Skip sanding"
+    ],
+    "answer": 0,
+    "explanation": "Figured grain tears easily. Sharp knives, light passes, and correct feed direction reduce tear-out.",
+    "id": 153
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw cut starts straight but the board pinches the blade. What is the major hazard?",
+    "options": [
+      "Kickback",
+      "Orange peel",
+      "Glue failure",
+      "Veneer bubbling"
+    ],
+    "answer": 0,
+    "explanation": "Pinching can cause the blade to throw the workpiece back. A riving knife and proper support reduce this risk.",
+    "id": 154
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "What is the best reason to use a zero-clearance insert when cutting plywood?",
+    "options": [
+      "To reduce chip-out",
+      "To increase blade speed",
+      "To replace guarding",
+      "To change wood moisture"
+    ],
+    "answer": 0,
+    "explanation": "A zero-clearance insert supports fibres near the cut. This helps produce cleaner edges.",
+    "id": 155
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A dado is too tight for the shelf material. What should be checked?",
+    "options": [
+      "Actual shelf thickness and dado setup",
+      "Finish colour",
+      "Cabinet height",
+      "Screw length"
+    ],
+    "answer": 0,
+    "explanation": "Sheet goods may vary from nominal thickness. Dados should be tested using the actual material.",
+    "id": 156
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A rabbet cut leaves the back panel sitting below the cabinet edge. What is likely wrong?",
+    "options": [
+      "Rabbet depth is too deep",
+      "Glue is too thick",
+      "Blade is too sharp",
+      "Shelf is too long"
+    ],
+    "answer": 0,
+    "explanation": "A rabbet must match the panel position required. Too much depth makes the panel sit too low.",
+    "id": 157
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router bit leaves burn marks on maple. What is the most likely cause?",
+    "options": [
+      "Dull bit or slow feed rate",
+      "Too much dust collection",
+      "Proper chip load",
+      "Correct speed and feed"
+    ],
+    "answer": 0,
+    "explanation": "Burning is caused by heat and friction. Sharp tooling and proper feed reduce heat buildup.",
+    "id": 158
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker routes a small part by hand near the bit. What should be used?",
+    "options": [
+      "Jig or holding fixture",
+      "Loose gloves",
+      "More force",
+      "Shorter fence"
+    ],
+    "answer": 0,
+    "explanation": "Small parts are unsafe to hold close to cutters. Jigs improve control and keep hands away.",
+    "id": 159
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A drill press hole is clean but drilled at an angle. What should be checked?",
+    "options": [
+      "Table squareness to the bit",
+      "Finish sheen",
+      "Glue open time",
+      "Drawer slide rating"
+    ],
+    "answer": 0,
+    "explanation": "The drill press table must be square to the bit. A tilted table produces angled holes.",
+    "id": 160
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A drill bit burns while boring deep holes. What should the operator do?",
+    "options": [
+      "Clear chips frequently and reduce pressure",
+      "Increase pressure continuously",
+      "Use a dull bit",
+      "Remove the clamp"
+    ],
+    "answer": 0,
+    "explanation": "Deep drilling traps chips and heat. Peck drilling and sharp bits prevent burning.",
+    "id": 161
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A band saw blade breaks while cutting a tight curve. What is likely wrong?",
+    "options": [
+      "Blade is too wide for the radius",
+      "Blade is too narrow",
+      "Feed is too slow only",
+      "Wood is too clean"
+    ],
+    "answer": 0,
+    "explanation": "Wide blades cannot turn tight curves easily. Forcing them can twist and break the blade.",
+    "id": 162
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A resaw cut wanders through thick stock. What should be checked?",
+    "options": [
+      "Blade tension, guide setup, and feed pressure",
+      "Finish dry time",
+      "Screw torque",
+      "Cabinet reveal"
+    ],
+    "answer": 0,
+    "explanation": "Resawing requires stable blade tracking. Poor tension, guides, or forcing the feed causes drift.",
+    "id": 163
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A mitre saw repeatedly cuts 45° joints that do not close. What should be checked?",
+    "options": [
+      "Saw angle calibration and fence alignment",
+      "Glue colour",
+      "Sanding sealer",
+      "Shelf support"
+    ],
+    "answer": 0,
+    "explanation": "Mitre joints require accurate angle setup. A small saw calibration error doubles at the joint.",
+    "id": 164
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A hand-held router groove is inconsistent in depth. What is the likely cause?",
+    "options": [
+      "Router base tipping or poor support",
+      "Finish is too thick",
+      "Glue is too strong",
+      "Wood is too dry"
+    ],
+    "answer": 0,
+    "explanation": "Portable routers need stable base support. Tipping changes the depth of cut.",
+    "id": 165
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A panel edge chips while being trimmed with a flush trim bit. What should be checked?",
+    "options": [
+      "Cutter sharpness and feed direction",
+      "Finish sample",
+      "Cabinet back size",
+      "Glue spread"
+    ],
+    "answer": 0,
+    "explanation": "Dull cutters or wrong feed direction can chip edges. Sharp tooling and correct technique improve results.",
+    "id": 166
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A sanding operation removes too much material from one edge. What caused it?",
+    "options": [
+      "Uneven pressure or poor support",
+      "Correct sanding technique",
+      "Proper grit sequence",
+      "Balanced clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sanding can change dimensions if pressure is uneven. Parts should be supported and sanded consistently.",
+    "id": 167
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker uses different setups to machine matching rails. What problem may result?",
+    "options": [
+      "Inconsistent dimensions",
+      "Better fit",
+      "Less setup error",
+      "Faster finishing"
+    ],
+    "answer": 0,
+    "explanation": "Matching parts should be machined under the same setup whenever possible. This improves consistency.",
+    "id": 168
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw fence locks at the front but moves slightly at the back. What can happen?",
+    "options": [
+      "Inaccurate cuts and kickback risk",
+      "Better rip accuracy",
+      "Cleaner finish",
+      "Reduced blade wear"
+    ],
+    "answer": 0,
+    "explanation": "A fence must stay parallel and secure. Movement at the back can pinch the blade or change cut width.",
+    "id": 169
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker notices a saw blade wobble during startup. What should be done?",
+    "options": [
+      "Stop and inspect blade, arbor, and mounting",
+      "Cut slowly",
+      "Raise blade higher",
+      "Push stock faster"
+    ],
+    "answer": 0,
+    "explanation": "Blade wobble indicates a safety and accuracy problem. The machine must be checked before use.",
+    "id": 170
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A crosscut blade is used for ripping thick hardwood and the saw struggles. What is likely wrong?",
+    "options": [
+      "Blade tooth design is unsuitable",
+      "Finish is too heavy",
+      "Stock is too short",
+      "Glue is too dry"
+    ],
+    "answer": 0,
+    "explanation": "Rip blades are designed to clear long grain cuts efficiently. Wrong blade selection causes heat and poor cutting.",
+    "id": 171
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A moulded edge profile is incomplete on one side of the board. What should be checked?",
+    "options": [
+      "Stock thickness and cutter height",
+      "Finish pot life",
+      "Drawer handle size",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Profile cutters must be set relative to the stock. Thickness variation or cutter height error can leave incomplete profiles.",
+    "id": 172
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker machines parts to final size before removing defects. What is the risk?",
+    "options": [
+      "Parts may become undersized after cleanup",
+      "Parts become stronger",
+      "Defects disappear automatically",
+      "Finish hides all defects"
+    ],
+    "answer": 0,
+    "explanation": "Rough stock needs allowance for defect removal and final machining. Cutting final size too early leaves no room for correction.",
+    "id": 173
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A portable saw cut splinters the finished face of plywood. What would help?",
+    "options": [
+      "Correct blade and face orientation",
+      "More feed pressure",
+      "Dull blade",
+      "Less support"
+    ],
+    "answer": 0,
+    "explanation": "Blade direction affects which face chips. Proper face orientation and blade selection protect the visible side.",
+    "id": 174
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A router table cut leaves the part lifting off the table. What should be used?",
+    "options": [
+      "Hold-down or featherboard",
+      "More stain",
+      "Less support",
+      "Larger opening"
+    ],
+    "answer": 0,
+    "explanation": "Hold-downs keep stock flat and controlled. This improves safety and cut consistency.",
+    "id": 175
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A hole pattern is correct on one cabinet side but mirrored incorrectly on the other. What was likely wrong?",
+    "options": [
+      "Reference edge or handed layout was incorrect",
+      "Drill bit was too sharp",
+      "Finish was too glossy",
+      "Clamp pressure was balanced"
+    ],
+    "answer": 0,
+    "explanation": "Opposite cabinet sides require correct handed layout. Reference edges must be clearly controlled.",
+    "id": 176
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A cutter leaves a rough surface only when cutting against grain. What is the best response?",
+    "options": [
+      "Change feed direction or use lighter passes where safe",
+      "Use more force",
+      "Keep same setup always",
+      "Apply finish before cutting"
+    ],
+    "answer": 0,
+    "explanation": "Grain direction affects cut quality. Adjusting method and taking lighter passes reduces tear-out.",
+    "id": 177
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A table saw rip varies in width along the board. What should be checked?",
+    "options": [
+      "Fence lock and board pressure against fence",
+      "Stain colour",
+      "Screw length",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Variable rip width comes from fence movement or poor feeding. Stock must stay consistently against the fence.",
+    "id": 178
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A worker reaches over a moving blade to clear offcuts. What is the correct practice?",
+    "options": [
+      "Wait until the blade stops",
+      "Use fingertips carefully",
+      "Blow with mouth",
+      "Pull stock backward through the blade"
+    ],
+    "answer": 0,
+    "explanation": "Offcuts should not be cleared near moving blades. Waiting prevents contact injuries.",
+    "id": 179
+  },
+  {
+    "category": "Task 6. Machines Components Using Stationary and Portable Power Tools",
+    "question": "A machine produces a poor cut after several hours of use. What should be considered first?",
+    "options": [
+      "Tool dulling or buildup",
+      "Better cutting action",
+      "Stronger material",
+      "Improved calibration"
+    ],
+    "answer": 0,
+    "explanation": "Tooling can dull or collect resin during production. Cut quality should be monitored and tools maintained.",
+    "id": 180
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC router cuts every part correctly shaped but too small. What is likely wrong?",
+    "options": [
+      "Cutter compensation or tool diameter value",
+      "Finish colour",
+      "Sheet grade",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Consistent size error often comes from wrong tool diameter compensation. The machine path must match actual cutter size.",
+    "id": 181
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC dado is located correctly but too shallow. What should be checked?",
+    "options": [
+      "Z-zero and tool length setting",
+      "Veneer sequence",
+      "Cabinet pull style",
+      "Finish sheen"
+    ],
+    "answer": 0,
+    "explanation": "Depth errors are usually related to Z setup. Tool length, zero point, and material thickness must be verified.",
+    "id": 182
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC sheet moves during cutting even though vacuum is on. What should be checked?",
+    "options": [
+      "Vacuum zones, gasket seal, and spoilboard condition",
+      "Stain dry time",
+      "Drawer slide rating",
+      "Glue colour"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum hold-down depends on sealing and support. Leaks or poor spoilboard condition reduce holding power.",
+    "id": 183
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC toolpath cuts into a clamp during a run. What was missed?",
+    "options": [
+      "Toolpath simulation or clamp clearance check",
+      "Finish approval",
+      "Shelf-pin drilling",
+      "Edge sanding"
+    ],
+    "answer": 0,
+    "explanation": "Clamp locations must be checked against the toolpath. Simulation helps prevent collisions.",
+    "id": 184
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC program drills hinge cup holes on the wrong side of a door. What should have been verified?",
+    "options": [
+      "Panel orientation and program side",
+      "Tool sharpness only",
+      "Vacuum pressure only",
+      "Finish dry time"
+    ],
+    "answer": 0,
+    "explanation": "CNC machining requires correct face orientation. Mirrored or flipped parts can ruin finished doors.",
+    "id": 185
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC bit breaks during a cut in hardwood. What is a likely cause?",
+    "options": [
+      "Excessive depth of cut or wrong feed/speed",
+      "Proper chip load",
+      "Correct pass depth",
+      "New sharp tool always"
+    ],
+    "answer": 0,
+    "explanation": "Cutting too deep or too fast overloads the bit. Hardwood requires suitable pass depth and chip load.",
+    "id": 186
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC edge quality is good at first but worsens during production. What is likely happening?",
+    "options": [
+      "Tool wear or heat buildup",
+      "Finish curing",
+      "Better chip evacuation",
+      "Improved hold-down"
+    ],
+    "answer": 0,
+    "explanation": "Tool dulling causes rougher edges and more heat. Tool condition should be checked during long runs.",
+    "id": 187
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC pocket floor has visible tool marks. What can reduce them?",
+    "options": [
+      "Smaller step-over or finishing pass",
+      "More stain",
+      "Less vacuum",
+      "Longer screws"
+    ],
+    "answer": 0,
+    "explanation": "Step-over affects surface smoothness. A finishing pass can improve pocket quality.",
+    "id": 188
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC file is run with the wrong material thickness entered. What can happen?",
+    "options": [
+      "Dados and cut-through depths may be wrong",
+      "Finish becomes darker",
+      "Dust collection improves",
+      "Hardware self-aligns"
+    ],
+    "answer": 0,
+    "explanation": "Material thickness affects machining depths. Wrong values cause poor joinery or overcutting.",
+    "id": 189
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator skips tool measurement after installing a new bit. What is the risk?",
+    "options": [
+      "Incorrect cutting depth",
+      "Better part accuracy",
+      "Less spoilboard wear",
+      "Cleaner finish always"
+    ],
+    "answer": 0,
+    "explanation": "Tool length controls Z depth. New tools must be measured or verified.",
+    "id": 190
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC vacuum table holds large sheets but small parts shift. What method can help?",
+    "options": [
+      "Tabs, onion-skinning, or smaller vacuum zones",
+      "Less sealing",
+      "More chip-out",
+      "No spoilboard"
+    ],
+    "answer": 0,
+    "explanation": "Small parts have less holding area. Tabs or onion-skinning keep them stable.",
+    "id": 191
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A nested CNC program wastes too much material. What should be reviewed?",
+    "options": [
+      "Nesting layout, grain direction, and part rotation rules",
+      "Finish sheen",
+      "Screw head type",
+      "Glue spread rate"
+    ],
+    "answer": 0,
+    "explanation": "Nesting controls material yield. Grain direction and rotation restrictions affect efficiency.",
+    "id": 192
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC cut parts have fuzzy edges in MDF. What should be adjusted?",
+    "options": [
+      "Tool sharpness, feed/speed, and dust extraction",
+      "Finish sample",
+      "Door overlay",
+      "Shelf-pin count"
+    ],
+    "answer": 0,
+    "explanation": "MDF edges depend on proper cutting conditions. Dull tooling or wrong chip load causes fuzzing.",
+    "id": 193
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC holes are correct size but in the wrong location. What is likely wrong?",
+    "options": [
+      "Work origin, sheet registration, or fixture offset",
+      "Tool sharpness",
+      "Finish pot life",
+      "Screw torque"
+    ],
+    "answer": 0,
+    "explanation": "Location errors point to reference setup. The program must align with the material and fixture.",
+    "id": 194
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC operator hears a high-pitched squeal. What does this often indicate?",
+    "options": [
+      "Rubbing from poor chip load or dull tool",
+      "Perfect cutting",
+      "Correct feed speed",
+      "Ideal tool condition"
+    ],
+    "answer": 0,
+    "explanation": "Squealing often means the bit is rubbing instead of cutting. Feed, speed, and tool condition must be checked.",
+    "id": 195
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A compression bit chips the top face of laminated panels. What should be checked?",
+    "options": [
+      "Cut depth and tool engagement",
+      "Glue squeeze-out",
+      "Finish sanding",
+      "Drawer front reveal"
+    ],
+    "answer": 0,
+    "explanation": "Compression bits require correct depth engagement. Wrong setup can chip either face.",
+    "id": 196
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC first part has correct dimensions but rough edges. What should be done?",
+    "options": [
+      "Adjust feed/speed or tooling before batch production",
+      "Run all parts anyway",
+      "Sand every part heavily later",
+      "Ignore edge quality"
+    ],
+    "answer": 0,
+    "explanation": "First-piece inspection includes quality, not only size. Edge defects should be corrected before production.",
+    "id": 197
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "CNC machining leaves parts attached with onion skin that is too thick. What should be adjusted?",
+    "options": [
+      "Final pass depth or onion-skin thickness",
+      "Finish colour",
+      "Clamp pad thickness",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Onion skin should hold parts without making removal difficult. Thickness must be set correctly.",
+    "id": 198
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "A CNC machine loses position during a long program. What should be checked?",
+    "options": [
+      "Drive system, axis movement, and calibration",
+      "Stain colour",
+      "Glue ratio",
+      "Drawer pull style"
+    ],
+    "answer": 0,
+    "explanation": "Losing position indicates machine or drive problems. Continuing may ruin parts or damage equipment.",
+    "id": 199
+  },
+  {
+    "category": "Task 7. Machines Components Using Automated and CNC Equipment",
+    "question": "Before machining expensive veneered panels on CNC, what is the best practice?",
+    "options": [
+      "Verify program, orientation, tooling, and run a test when possible",
+      "Skip simulation",
+      "Use any tool available",
+      "Ignore grain direction"
+    ],
+    "answer": 0,
+    "explanation": "Veneered panels are costly and appearance-sensitive. Setup verification prevents expensive mistakes.",
+    "id": 200
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCabinetmakerMachiningQuestions =
+  shuffleArray(cabinetmakerMachiningQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "cabinetmaker",
+  tradeTitle: "Cabinetmaker",
+  sectionTitle: "B. Performs Machining",
+  questionTimeSeconds: 90,
+  questions: shuffledCabinetmakerMachiningQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCabinetmakerMachiningQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

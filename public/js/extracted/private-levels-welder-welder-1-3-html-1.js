@@ -1,0 +1,1266 @@
+const welderHarmonizedLevel1Set3Questions = [
+  {
+    "id": 1,
+    "category": "A2 — Safe Working Practices",
+    "question": "You are asked to weld near cardboard boxes and oily rags. What should you do first?",
+    "options": [
+      "Weld quickly before they catch fire",
+      "Move or protect combustible materials",
+      "Spray oxygen on the area",
+      "Use a larger electrode"
+    ],
+    "answer": 1,
+    "explanation": "Combustibles must be removed or protected before hot work. Sparks and slag can travel farther than expected. Fire prevention is always done before welding starts."
+  },
+  {
+    "id": 2,
+    "category": "A2 — Safe Working Practices",
+    "question": "A worker nearby complains of “sand in the eyes” after watching you weld. What likely happened?",
+    "options": [
+      "Electric shock",
+      "Arc flash",
+      "Heat exhaustion",
+      "Metal fume fever"
+    ],
+    "answer": 1,
+    "explanation": "Arc flash is eye injury from ultraviolet radiation. It may feel like sand or burning in the eyes. Screens and correct eye protection prevent it."
+  },
+  {
+    "id": 3,
+    "category": "A2 — Safe Working Practices",
+    "question": "You smell fuel gas near an oxy-fuel setup. What is the safest first action?",
+    "options": [
+      "Light the torch to burn off gas",
+      "Shut off gas supply and ventilate",
+      "Increase oxygen flow",
+      "Continue if the flame looks normal"
+    ],
+    "answer": 1,
+    "explanation": "Fuel gas leaks can cause fire or explosion. Shut off the cylinder and ventilate the area. Do not relight until the leak is found and repaired."
+  },
+  {
+    "id": 4,
+    "category": "A2 — Safe Working Practices",
+    "question": "You must weld galvanized steel. What is the major health concern?",
+    "options": [
+      "Zinc fumes",
+      "Extra slag only",
+      "Lower amperage",
+      "Less arc light"
+    ],
+    "answer": 0,
+    "explanation": "Galvanized coating contains zinc. Welding it can produce harmful zinc oxide fumes. Ventilation, respiratory protection, and coating removal may be required."
+  },
+  {
+    "id": 5,
+    "category": "A2 — Safe Working Practices",
+    "question": "Your gloves are wet while SMAW welding. What hazard increases?",
+    "options": [
+      "Electric shock",
+      "Slag removal",
+      "Better arc control",
+      "Less spatter"
+    ],
+    "answer": 0,
+    "explanation": "Water lowers electrical resistance. Wet gloves increase the chance of shock. Dry PPE is important when using electric welding equipment."
+  },
+  {
+    "id": 6,
+    "category": "A2 — Safe Working Practices",
+    "question": "A cylinder is standing unsecured beside your welding table. What is the hazard?",
+    "options": [
+      "It may fall and damage the valve",
+      "It will lose gas faster",
+      "It will change gas type",
+      "It will reduce weld penetration"
+    ],
+    "answer": 0,
+    "explanation": "Falling cylinders can break valves. A broken valve can turn a cylinder into a projectile. Cylinders must be secured upright."
+  },
+  {
+    "id": 7,
+    "category": "A2 — Safe Working Practices",
+    "question": "You are grinding after welding. Which PPE is most important in addition to safety glasses?",
+    "options": [
+      "Face shield",
+      "Cotton hat only",
+      "Welding rod holder",
+      "Measuring tape"
+    ],
+    "answer": 0,
+    "explanation": "Grinding creates sparks and flying fragments. Safety glasses protect the eyes, but a face shield protects the face. Both are commonly used together. --- ## A3. Trade Math — 3 Questions"
+  },
+  {
+    "id": 8,
+    "category": "A3 — Trade Math",
+    "question": "You need four pieces, each 275 mm long. How much material is required before allowing for waste?",
+    "options": [
+      "900 mm",
+      "1000 mm",
+      "1100 mm",
+      "1200 mm"
+    ],
+    "answer": 2,
+    "explanation": "Multiply length by number of pieces. 275 × 4 = 1100 mm. Always add extra later for kerf and trimming."
+  },
+  {
+    "id": 9,
+    "category": "A3 — Trade Math",
+    "question": "A gap is 1/8 in. What is the decimal equivalent?",
+    "options": [
+      "0.0625 in",
+      "0.125 in",
+      "0.1875 in",
+      "0.250 in"
+    ],
+    "answer": 1,
+    "explanation": "Divide 1 by 8. 1 ÷ 8 = 0.125. This is a common root-opening measurement."
+  },
+  {
+    "id": 10,
+    "category": "A3 — Trade Math",
+    "question": "A plate is 600 mm wide. You mark the centreline. What distance from one edge should the line be?",
+    "options": [
+      "150 mm",
+      "200 mm",
+      "300 mm",
+      "450 mm"
+    ],
+    "answer": 2,
+    "explanation": "Centreline is half the total width. 600 ÷ 2 = 300 mm. Accurate centre marks help with layout and fit-up. --- ## A4. Measuring and Layout Tools — 2 Questions"
+  },
+  {
+    "id": 11,
+    "category": "A4 — Measuring and Layout Tools",
+    "question": "You need to transfer the same measurement to several plates. Which tool is best?",
+    "options": [
+      "Dividers",
+      "Chipping hammer",
+      "Electrode holder",
+      "Regulator"
+    ],
+    "answer": 0,
+    "explanation": "Dividers transfer repeated measurements accurately. They are useful in layout work. They reduce repeated measuring errors."
+  },
+  {
+    "id": 12,
+    "category": "A4 — Measuring and Layout Tools",
+    "question": "A soapstone line is too thick for accurate layout. What is the concern?",
+    "options": [
+      "The cut may be inaccurate",
+      "The steel becomes harder",
+      "The weld becomes stainless",
+      "The grinder speed increases"
+    ],
+    "answer": 0,
+    "explanation": "Thick marks reduce accuracy. Fine marks are better for precise cutting and fitting. Good layout improves fabrication quality. --- ## A5. Hand Tools — 3 Questions"
+  },
+  {
+    "id": 13,
+    "category": "A5 — Hand Tools",
+    "question": "A nut is tight and your wrench slips repeatedly. What should you check first?",
+    "options": [
+      "Correct wrench size",
+      "Electrode type",
+      "Gas flow",
+      "Welding polarity"
+    ],
+    "answer": 0,
+    "explanation": "Wrong wrench size can round the nut. It can also cause hand injury. Use the proper fitting tool."
+  },
+  {
+    "id": 14,
+    "category": "A5 — Hand Tools",
+    "question": "You finish cutting a plate and the edge is sharp. What hand tool can remove the burr?",
+    "options": [
+      "File",
+      "Regulator",
+      "Ground clamp",
+      "Welding helmet"
+    ],
+    "answer": 0,
+    "explanation": "Files remove burrs and sharp edges. This makes parts safer to handle. It also improves fit-up."
+  },
+  {
+    "id": 15,
+    "category": "A5 — Hand Tools",
+    "question": "You are removing SMAW slag. Which tool is normally used?",
+    "options": [
+      "Chipping hammer",
+      "Tip cleaner",
+      "Combination square",
+      "Torch striker"
+    ],
+    "answer": 0,
+    "explanation": "Slag is removed with a chipping hammer or wire brush. Cleaning is required between passes. Poor cleaning can cause slag inclusions. --- ## A6. Power Tools — 5 Questions"
+  },
+  {
+    "id": 16,
+    "category": "A6 — Power Tools",
+    "question": "A grinder wheel is rated 8,500 RPM and the grinder runs 11,000 RPM. What should you do?",
+    "options": [
+      "Use it carefully",
+      "Do not use that wheel",
+      "Grind only soft metal",
+      "Remove the guard"
+    ],
+    "answer": 1,
+    "explanation": "Wheel rating must meet or exceed grinder speed. An underrated wheel may explode. Always check RPM before use."
+  },
+  {
+    "id": 17,
+    "category": "A6 — Power Tools",
+    "question": "You are using a grinder and sparks are hitting an oxygen hose. What should you do?",
+    "options": [
+      "Continue if the hose is new",
+      "Reposition the hose or grinding direction",
+      "Cover it with oil",
+      "Increase grinder pressure"
+    ],
+    "answer": 1,
+    "explanation": "Sparks can damage hoses. Damaged gas hoses can leak and cause fire. Keep hoses away from hot work and sparks."
+  },
+  {
+    "id": 18,
+    "category": "A6 — Power Tools",
+    "question": "A drill bit grabs as it breaks through steel. What could reduce this risk?",
+    "options": [
+      "Secure the workpiece properly",
+      "Hold the plate by hand",
+      "Use no cutting pressure",
+      "Remove safety glasses"
+    ],
+    "answer": 0,
+    "explanation": "Loose work can spin or grab. Clamping improves control and safety. Never hold small parts by hand while drilling."
+  },
+  {
+    "id": 19,
+    "category": "A6 — Power Tools",
+    "question": "You notice a cracked extension cord on a power tool. What should you do?",
+    "options": [
+      "Wrap it with tape and continue",
+      "Remove it from service",
+      "Use it only indoors",
+      "Step on the damaged area"
+    ],
+    "answer": 1,
+    "explanation": "Damaged cords can cause shock or fire. They must be repaired or replaced properly. Do not use defective electrical equipment."
+  },
+  {
+    "id": 20,
+    "category": "A6 — Power Tools",
+    "question": "Why should loose clothing be avoided around rotating tools?",
+    "options": [
+      "It can get caught",
+      "It improves cooling",
+      "It reduces sparks",
+      "It increases accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Rotating tools can grab loose clothing. This can pull the operator into the tool. Wear fitted clothing and secure long hair. --- ## A7. Shop Materials — 1 Question"
+  },
+  {
+    "id": 21,
+    "category": "A7 — Shop Materials",
+    "question": "A magnet sticks strongly to a plate. What material is it most likely?",
+    "options": [
+      "Carbon steel",
+      "Aluminum",
+      "Copper",
+      "Brass"
+    ],
+    "answer": 0,
+    "explanation": "Carbon steel is magnetic. Aluminum, copper, and brass are normally non-magnetic. This quick check helps identify shop materials. --- ## A8. Lifting, Hoisting, and Rigging — 5 Questions"
+  },
+  {
+    "id": 22,
+    "category": "A8 — Lifting and Rigging",
+    "question": "A load starts swinging while being lifted. What should workers do?",
+    "options": [
+      "Stand under it to stop it",
+      "Stay clear and control with tag lines",
+      "Grab the chain sling",
+      "Increase lift speed"
+    ],
+    "answer": 1,
+    "explanation": "Workers must stay out from under suspended loads. Tag lines help control movement safely. Never use your body to stop a swinging load."
+  },
+  {
+    "id": 23,
+    "category": "A8 — Lifting and Rigging",
+    "question": "You see broken wires in a wire-rope sling. What should happen?",
+    "options": [
+      "Use it for light lifting only",
+      "Remove it from service",
+      "Oil it and continue",
+      "Wrap it with tape"
+    ],
+    "answer": 1,
+    "explanation": "Broken wires weaken the sling. A weakened sling may fail without warning. Damaged rigging must not be used."
+  },
+  {
+    "id": 24,
+    "category": "A8 — Lifting and Rigging",
+    "question": "Two sling legs are used at a very low angle. What is the danger?",
+    "options": [
+      "Sling tension increases greatly",
+      "Load weight disappears",
+      "Hook becomes stronger",
+      "Crane needs less power"
+    ],
+    "answer": 0,
+    "explanation": "Low sling angles increase force in each leg. This can exceed the sling’s working load limit. Proper sling angle is critical."
+  },
+  {
+    "id": 25,
+    "category": "A8 — Lifting and Rigging",
+    "question": "A plate has a sharp corner where the sling contacts it. What should be used?",
+    "options": [
+      "Edge protection",
+      "Welding flux",
+      "Oxygen hose",
+      "Soapstone"
+    ],
+    "answer": 0,
+    "explanation": "Sharp edges can cut or damage slings. Edge protection spreads the contact. This helps prevent sling failure."
+  },
+  {
+    "id": 26,
+    "category": "A8 — Lifting and Rigging",
+    "question": "Before lifting, why should the load path be checked?",
+    "options": [
+      "To prevent striking people or objects",
+      "To improve weld colour",
+      "To lower amperage",
+      "To reduce slag"
+    ],
+    "answer": 0,
+    "explanation": "The travel path must be clear. Loads can swing or hit equipment. Planning prevents accidents during hoisting. --- # B. Cutting and Gouging Processes — 13 Questions ## B1. OFC Applications — 1 Question"
+  },
+  {
+    "id": 27,
+    "category": "B1 — OFC Applications",
+    "question": "You need to cut mild steel plate on site with no electrical power. Which process is most suitable?",
+    "options": [
+      "Oxy-fuel cutting",
+      "GMAW",
+      "SMAW",
+      "Plasma cutting"
+    ],
+    "answer": 0,
+    "explanation": "OFC does not require electrical welding power. It is commonly used for cutting carbon steel. It works by heating and oxidizing the steel. --- ## B2. OFC Equipment and Operation — 3 Questions"
+  },
+  {
+    "id": 28,
+    "category": "B2 — OFC Equipment and Operation",
+    "question": "A torch makes a popping sound and the flame goes out. What likely occurred?",
+    "options": [
+      "Backfire",
+      "Perfect preheat",
+      "Correct cutting speed",
+      "Normal regulator action"
+    ],
+    "answer": 0,
+    "explanation": "Backfire is a momentary flame recession into the tip. It can be caused by overheating, dirt, or wrong pressure. Check the tip and settings before relighting."
+  },
+  {
+    "id": 29,
+    "category": "B2 — OFC Equipment and Operation",
+    "question": "You open an oxygen cylinder valve. Why should oil never be used on the fitting?",
+    "options": [
+      "Oil and oxygen can react violently",
+      "Oil improves sealing",
+      "Oil lowers pressure safely",
+      "Oil prevents all leaks"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen supports rapid combustion. Oil or grease around oxygen can ignite violently. Keep oxygen fittings clean and oil-free."
+  },
+  {
+    "id": 30,
+    "category": "B2 — OFC Equipment and Operation",
+    "question": "Your preheat flame has excess acetylene feather. What type of flame is it?",
+    "options": [
+      "Carburizing flame",
+      "Neutral flame",
+      "Oxidizing flame",
+      "Plasma flame"
+    ],
+    "answer": 0,
+    "explanation": "A carburizing flame has excess acetylene. It shows a feather beyond the inner cone. A neutral flame is usually preferred for cutting steel. --- ## B3. OFC Cutting Practice — 3 Questions"
+  },
+  {
+    "id": 31,
+    "category": "B3 — OFC Cutting Practice",
+    "question": "You press the cutting oxygen lever too soon and the cut will not start. Why?",
+    "options": [
+      "Steel is not hot enough",
+      "Oxygen is too clean",
+      "Kerf is too narrow",
+      "Torch is too new"
+    ],
+    "answer": 0,
+    "explanation": "Steel must reach kindling temperature first. Cutting oxygen then starts rapid oxidation. Insufficient preheat prevents cutting action."
+  },
+  {
+    "id": 32,
+    "category": "B3 — OFC Cutting Practice",
+    "question": "A cut has a wide kerf and melted top edge. What is the likely cause?",
+    "options": [
+      "Too much heat or slow travel",
+      "Too fast travel only",
+      "No preheat",
+      "Low oxygen purity only"
+    ],
+    "answer": 0,
+    "explanation": "Excessive heat melts the top edge. Slow travel increases heat input. Correct torch speed keeps the cut cleaner."
+  },
+  {
+    "id": 33,
+    "category": "B3 — OFC Cutting Practice",
+    "question": "You want a straight manual cut. What helps most?",
+    "options": [
+      "Guide bar or straightedge",
+      "Longer acetylene hose only",
+      "Dirty cutting tip",
+      "More slag"
+    ],
+    "answer": 0,
+    "explanation": "A guide helps maintain a straight torch path. Steady movement improves kerf quality. Good layout and guiding reduce rework. --- ## B5. CAC-A and PAC Processes — 4 Questions"
+  },
+  {
+    "id": 34,
+    "category": "B5 — CAC-A and PAC Processes",
+    "question": "You must remove a cracked weld before repair. Which process is commonly used?",
+    "options": [
+      "Air carbon arc gouging",
+      "Brazing",
+      "Measuring",
+      "Painting"
+    ],
+    "answer": 0,
+    "explanation": "CAC-A is often used to remove defective weld metal. It melts metal with an arc. Compressed air blows molten metal away."
+  },
+  {
+    "id": 35,
+    "category": "B5 — CAC-A and PAC Processes",
+    "question": "You must cut stainless steel quickly. Which process is better than OFC?",
+    "options": [
+      "Plasma arc cutting",
+      "Oxy-fuel cutting",
+      "Hammering",
+      "Filing"
+    ],
+    "answer": 0,
+    "explanation": "Stainless steel does not oxy-fuel cut well. Plasma cuts electrically conductive metals. It is common for stainless and aluminum."
+  },
+  {
+    "id": 36,
+    "category": "B5 — CAC-A and PAC Processes",
+    "question": "Which hazard is high during CAC-A gouging?",
+    "options": [
+      "Noise and flying molten metal",
+      "Lack of sparks",
+      "No fumes",
+      "No arc light"
+    ],
+    "answer": 0,
+    "explanation": "CAC-A is loud and forceful. It produces sparks, fumes, and molten metal spray. Hearing, eye, face, and body protection are needed."
+  },
+  {
+    "id": 37,
+    "category": "B5 — CAC-A and PAC Processes",
+    "question": "Plasma cutting requires the work clamp because:",
+    "options": [
+      "It completes the electrical circuit",
+      "It holds the oxygen cylinder",
+      "It stores filler metal",
+      "It removes slag manually"
+    ],
+    "answer": 0,
+    "explanation": "Plasma cutting uses an electric arc. The work clamp completes the circuit through the workpiece. Poor connection can cause cutting problems. --- ## B6. CAC-A and PAC Equipment Use — 2 Questions"
+  },
+  {
+    "id": 38,
+    "category": "B6 — CAC-A and PAC Equipment",
+    "question": "During CAC-A, the gouge is shallow and molten metal is not clearing. What should you check?",
+    "options": [
+      "Air supply and electrode angle",
+      "Soapstone colour",
+      "Washer size",
+      "Helmet brand"
+    ],
+    "answer": 0,
+    "explanation": "Air pressure removes molten metal. Incorrect angle also affects gouge shape. Both must be correct for clean gouging."
+  },
+  {
+    "id": 39,
+    "category": "B6 — CAC-A and PAC Equipment",
+    "question": "Plasma consumables wear quickly and cuts become rough. What is a likely cause?",
+    "options": [
+      "Dirty or wet air supply",
+      "Too much measuring",
+      "Correct torch height",
+      "Clean dry air"
+    ],
+    "answer": 0,
+    "explanation": "Moisture and dirt damage plasma consumables. They reduce arc quality and cut accuracy. Clean dry air improves performance. --- # C. Fusion and Braze Welding Using OFW — 4 Questions"
+  },
+  {
+    "id": 40,
+    "category": "C1 — OFW Processes and Applications",
+    "question": "You heat a joint and the filler flows into the gap without melting base metal. What process is this?",
+    "options": [
+      "Brazing",
+      "Fusion welding",
+      "Plasma cutting",
+      "SMAW"
+    ],
+    "answer": 0,
+    "explanation": "Brazing melts filler metal only. The base metal remains solid. Capillary action draws filler into the joint."
+  },
+  {
+    "id": 41,
+    "category": "C2 — OFW Equipment and Operation",
+    "question": "The torch flame changes shape and becomes uneven. What should you inspect first?",
+    "options": [
+      "Torch tip",
+      "Welding cable",
+      "Electrode oven",
+      "Work clamp"
+    ],
+    "answer": 0,
+    "explanation": "Dirty or damaged tips distort flame shape. Poor flame shape affects heating and welding. Tips should be cleaned with proper cleaners."
+  },
+  {
+    "id": 42,
+    "category": "C3 — Filler Metals, Fluxes, and Tips",
+    "question": "In brazing, filler metal balls up instead of flowing. What is a likely cause?",
+    "options": [
+      "Dirty joint or poor flux action",
+      "Too much capillary action",
+      "Correct clearance",
+      "Perfect cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Oxides and contamination prevent wetting. Flux helps clean the surface during heating. Clean metal is required for filler flow."
+  },
+  {
+    "id": 43,
+    "category": "C4 — OFW Joint Design and Positions",
+    "question": "A brazed lap joint has a very large gap. What problem may occur?",
+    "options": [
+      "Weak joint due to poor capillary action",
+      "Stronger joint always",
+      "No need for filler",
+      "Base metal becomes stainless"
+    ],
+    "answer": 0,
+    "explanation": "Brazing needs proper joint clearance. Too wide a gap reduces capillary flow. Correct fit-up improves joint strength. --- # D. Shielded Metal Arc Welding — 26 Questions ## D1. SMAW Process — 5 Questions"
+  },
+  {
+    "id": 44,
+    "category": "D1 — SMAW Process",
+    "question": "Your SMAW arc is long and noisy with heavy spatter. What should you correct first?",
+    "options": [
+      "Arc length",
+      "Plate colour",
+      "Helmet shade only",
+      "Soapstone line"
+    ],
+    "answer": 0,
+    "explanation": "Long arc causes spatter and poor shielding. A shorter controlled arc improves stability. Arc length is a key SMAW skill."
+  },
+  {
+    "id": 45,
+    "category": "D1 — SMAW Process",
+    "question": "You weld over slag without cleaning. What defect may result?",
+    "options": [
+      "Slag inclusion",
+      "Better fusion",
+      "No defects",
+      "Increased tensile rating"
+    ],
+    "answer": 0,
+    "explanation": "Slag trapped inside the weld becomes an inclusion. This weakens the weld. Clean each pass before welding over it."
+  },
+  {
+    "id": 46,
+    "category": "D1 — SMAW Process",
+    "question": "The electrode sticks repeatedly when starting. What may be too low?",
+    "options": [
+      "Amperage",
+      "Welding table height",
+      "Slag thickness",
+      "Plate length"
+    ],
+    "answer": 0,
+    "explanation": "Low amperage makes arc starting difficult. The electrode may freeze to the work. Correct current helps maintain the arc."
+  },
+  {
+    "id": 47,
+    "category": "D1 — SMAW Process",
+    "question": "What protects the molten SMAW weld pool from air?",
+    "options": [
+      "Flux-produced gas and slag",
+      "Oxygen jet",
+      "Bare wire only",
+      "Water spray"
+    ],
+    "answer": 0,
+    "explanation": "Electrode flux produces shielding gas. It also forms slag over the weld. This prevents contamination from air."
+  },
+  {
+    "id": 48,
+    "category": "D1 — SMAW Process",
+    "question": "You use too fast a travel speed. What bead shape is likely?",
+    "options": [
+      "Narrow bead with poor fusion",
+      "Very wide bead only",
+      "No arc",
+      "Perfect penetration always"
+    ],
+    "answer": 0,
+    "explanation": "Fast travel reduces heat input. The bead may be narrow and poorly fused. Proper travel speed controls bead shape. --- ## D2. SMAW Equipment and Operation — 5 Questions"
+  },
+  {
+    "id": 49,
+    "category": "D2 — SMAW Equipment and Operation",
+    "question": "Your electrode holder becomes very hot. What is a likely cause?",
+    "options": [
+      "Loose connection or overload",
+      "Correct cable size",
+      "Too much soapstone",
+      "Clean slag"
+    ],
+    "answer": 0,
+    "explanation": "Loose or poor connections create resistance heat. Overloading equipment can also overheat it. Inspect and repair before continuing."
+  },
+  {
+    "id": 50,
+    "category": "D2 — SMAW Equipment and Operation",
+    "question": "A welding machine is rated 40% duty cycle. What does that mean in 10 minutes?",
+    "options": [
+      "Weld 4 minutes, rest 6 minutes",
+      "Weld 10 minutes nonstop",
+      "Weld 6 minutes, rest 4 minutes",
+      "Weld 1 minute only"
+    ],
+    "answer": 0,
+    "explanation": "Duty cycle is based on a 10-minute period. 40% means 4 minutes welding. The machine needs 6 minutes to cool."
+  },
+  {
+    "id": 51,
+    "category": "D2 — SMAW Equipment and Operation",
+    "question": "You switch from 3.2 mm electrode to 4.0 mm electrode. What usually must increase?",
+    "options": [
+      "Amperage",
+      "Lens shade only",
+      "Plate length",
+      "Slag hammer size"
+    ],
+    "answer": 0,
+    "explanation": "Larger electrodes require more current. More amperage melts the larger core wire properly. Settings depend on electrode type and position."
+  },
+  {
+    "id": 52,
+    "category": "D2 — SMAW Equipment and Operation",
+    "question": "Why must the work clamp contact clean metal?",
+    "options": [
+      "To complete a stable electrical circuit",
+      "To remove all distortion",
+      "To make slag stronger",
+      "To cool the electrode"
+    ],
+    "answer": 0,
+    "explanation": "Paint, rust, or scale can reduce contact. Poor contact causes unstable arc and heating. Clean connection improves welding performance."
+  },
+  {
+    "id": 53,
+    "category": "D2 — SMAW Equipment and Operation",
+    "question": "What does DCEP mean?",
+    "options": [
+      "Direct current electrode positive",
+      "Direct current electrode pressure",
+      "Dry coated electrode procedure",
+      "Dual cable earth positive"
+    ],
+    "answer": 0,
+    "explanation": "DCEP means electrode is connected positive. Polarity affects penetration and electrode operation. Always follow electrode manufacturer recommendations. --- ## D3. SMAW Electrodes — 5 Questions"
+  },
+  {
+    "id": 54,
+    "category": "D3 — SMAW Electrodes",
+    "question": "A job requires low-hydrogen welding. Which electrode is commonly selected?",
+    "options": [
+      "E7018",
+      "E6010",
+      "E6011",
+      "E6013 only"
+    ],
+    "answer": 0,
+    "explanation": "E7018 is a low-hydrogen electrode. It is common for structural welds. It must be kept dry to control hydrogen."
+  },
+  {
+    "id": 55,
+    "category": "D3 — SMAW Electrodes",
+    "question": "An E6010 electrode is chosen for a root pass. Why?",
+    "options": [
+      "Deep penetration",
+      "No arc force",
+      "No slag",
+      "It is non-consumable"
+    ],
+    "answer": 0,
+    "explanation": "E6010 has strong digging action. It provides deep penetration. It is often used for root passes."
+  },
+  {
+    "id": 56,
+    "category": "D3 — SMAW Electrodes",
+    "question": "What does the “1” mean in E7018?",
+    "options": [
+      "All-position electrode",
+      "Flat only",
+      "One inch long",
+      "One amp only"
+    ],
+    "answer": 0,
+    "explanation": "The third digit shows position. “1” means the electrode can be used in all positions. This is important for out-of-position welding."
+  },
+  {
+    "id": 57,
+    "category": "D3 — SMAW Electrodes",
+    "question": "Wet E7018 electrodes are used on a critical weld. What is the concern?",
+    "options": [
+      "Hydrogen cracking",
+      "Better ductility",
+      "No slag",
+      "Lower fume production only"
+    ],
+    "answer": 0,
+    "explanation": "Moisture adds hydrogen to the weld. Hydrogen can cause delayed cracking. Low-hydrogen rods must be stored correctly."
+  },
+  {
+    "id": 58,
+    "category": "D3 — SMAW Electrodes",
+    "question": "The first two digits in E6013 indicate:",
+    "options": [
+      "60,000 psi tensile strength",
+      "60 mm electrode length",
+      "60 volts",
+      "60% duty cycle"
+    ],
+    "answer": 0,
+    "explanation": "Electrode classification shows strength. “60” means 60,000 psi minimum tensile strength. This helps match electrode to job requirements. --- ## D4. SMAW Joint Design and Positions — 5 Questions"
+  },
+  {
+    "id": 59,
+    "category": "D4 — SMAW Joint Design and Positions",
+    "question": "Two plates overlap and are welded along the edge. What joint is this?",
+    "options": [
+      "Lap joint",
+      "Butt joint",
+      "Edge joint only",
+      "Pipe joint only"
+    ],
+    "answer": 0,
+    "explanation": "A lap joint has one member overlapping another. It commonly uses fillet welds. It is common in fabrication."
+  },
+  {
+    "id": 60,
+    "category": "D4 — SMAW Joint Design and Positions",
+    "question": "A 3F weld means:",
+    "options": [
+      "Vertical fillet weld",
+      "Flat groove weld",
+      "Horizontal groove weld",
+      "Overhead groove weld"
+    ],
+    "answer": 0,
+    "explanation": "“3” means vertical position. “F” means fillet weld. Therefore, 3F is vertical fillet."
+  },
+  {
+    "id": 61,
+    "category": "D4 — SMAW Joint Design and Positions",
+    "question": "A root opening is too wide. What can happen?",
+    "options": [
+      "Burn-through",
+      "No penetration",
+      "Less heat input always",
+      "No distortion"
+    ],
+    "answer": 0,
+    "explanation": "Excessive root gap allows too much melt-through. This can cause burn-through. Correct fit-up controls penetration."
+  },
+  {
+    "id": 62,
+    "category": "D4 — SMAW Joint Design and Positions",
+    "question": "Why is bevel angle important on thick plate?",
+    "options": [
+      "It allows access for fusion through the joint",
+      "It replaces welding symbols",
+      "It prevents all heat",
+      "It reduces PPE needs"
+    ],
+    "answer": 0,
+    "explanation": "Thick plate needs joint preparation. A bevel allows the arc to reach deeper areas. This helps achieve full penetration."
+  },
+  {
+    "id": 63,
+    "category": "D4 — SMAW Joint Design and Positions",
+    "question": "You are welding overhead. What adjustment is often needed?",
+    "options": [
+      "Lower amperage and smaller puddle control",
+      "Much larger puddle",
+      "Longer arc always",
+      "No slag removal"
+    ],
+    "answer": 0,
+    "explanation": "Overhead welding is affected by gravity. A smaller controlled puddle helps prevent sagging. Technique and current must be controlled. --- ## D5. Weld Faults and Distortion — 5 Questions"
+  },
+  {
+    "id": 64,
+    "category": "D5 — Weld Faults and Distortion",
+    "question": "A weld has a groove along the toe not filled with weld metal. What is it?",
+    "options": [
+      "Undercut",
+      "Porosity",
+      "Reinforcement",
+      "Root face"
+    ],
+    "answer": 0,
+    "explanation": "Undercut is melted base metal left unfilled. It weakens the weld toe. It may be caused by high current or poor technique."
+  },
+  {
+    "id": 65,
+    "category": "D5 — Weld Faults and Distortion",
+    "question": "You see round holes in the weld surface. What defect is likely?",
+    "options": [
+      "Porosity",
+      "Overlap",
+      "Undercut",
+      "Arc blow"
+    ],
+    "answer": 0,
+    "explanation": "Porosity is trapped gas in the weld metal. It can appear as round holes. Causes include contamination or poor shielding."
+  },
+  {
+    "id": 66,
+    "category": "D5 — Weld Faults and Distortion",
+    "question": "A weld bead sits on the surface and does not blend into the base metal. What defect may this be?",
+    "options": [
+      "Lack of fusion",
+      "Proper penetration",
+      "Good tie-in",
+      "Correct profile"
+    ],
+    "answer": 0,
+    "explanation": "Lack of fusion means poor bonding. It can occur from low heat or wrong angle. It is a serious weld defect."
+  },
+  {
+    "id": 67,
+    "category": "D5 — Weld Faults and Distortion",
+    "question": "A long weld pulls the plate out of square after cooling. What caused it?",
+    "options": [
+      "Weld shrinkage",
+      "Too much measuring",
+      "Correct clamping only",
+      "No heat input"
+    ],
+    "answer": 0,
+    "explanation": "Weld metal shrinks as it cools. Uneven shrinkage causes distortion. Balanced welding and clamping reduce this."
+  },
+  {
+    "id": 68,
+    "category": "D5 — Weld Faults and Distortion",
+    "question": "You find slag trapped at the side of a multipass weld. What likely caused it?",
+    "options": [
+      "Poor cleaning or wrong electrode angle",
+      "Too much washer pressure",
+      "Correct travel always",
+      "Perfect interpass cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Slag can remain if passes are not cleaned. Poor electrode angle can also trap slag. Cleaning and correct technique prevent inclusions. --- ## D7. Hardsurfacing — 1 Question"
+  },
+  {
+    "id": 69,
+    "category": "D7 — Hardsurfacing",
+    "question": "A bucket edge wears down from abrasion. What welding repair may extend its life?",
+    "options": [
+      "Hardsurfacing",
+      "Brazing flux only",
+      "Oxy-fuel preheat only",
+      "Painting"
+    ],
+    "answer": 0,
+    "explanation": "Hardsurfacing adds wear-resistant weld metal. It is used on parts exposed to abrasion. It improves service life of wearing surfaces. --- # E. Semi-Automatic and Automatic Welding — 17 Questions ## E1. GMAW, GMAW-P, FCAW, MCAW, SAW — 4 Questions"
+  },
+  {
+    "id": 70,
+    "category": "E1 — Semi-Automatic and Automatic Processes",
+    "question": "You need continuous wire feed with external shielding gas on mild steel. Which process is it?",
+    "options": [
+      "GMAW",
+      "SMAW",
+      "OFW",
+      "CAC-A"
+    ],
+    "answer": 0,
+    "explanation": "GMAW uses solid wire and shielding gas. Wire feeds continuously through the gun. It is common in semi-automatic welding."
+  },
+  {
+    "id": 71,
+    "category": "E1 — Semi-Automatic and Automatic Processes",
+    "question": "A process uses tubular wire with flux inside. Which process is this?",
+    "options": [
+      "FCAW",
+      "OFC",
+      "PAC",
+      "OFW"
+    ],
+    "answer": 0,
+    "explanation": "FCAW uses flux-cored wire. The flux helps shield and form slag. Some wires need gas, others are self-shielded."
+  },
+  {
+    "id": 72,
+    "category": "E1 — Semi-Automatic and Automatic Processes",
+    "question": "A weld is made under a blanket of granular flux. Which process is this?",
+    "options": [
+      "SAW",
+      "GMAW",
+      "OFW",
+      "SMAW"
+    ],
+    "answer": 0,
+    "explanation": "SAW means submerged arc welding. The arc is hidden under granular flux. It is often used for long flat welds."
+  },
+  {
+    "id": 73,
+    "category": "E1 — Semi-Automatic and Automatic Processes",
+    "question": "You need controlled heat input on thinner material using GMAW. Which variation helps?",
+    "options": [
+      "GMAW-P",
+      "CAC-A",
+      "OFC",
+      "SAW only"
+    ],
+    "answer": 0,
+    "explanation": "GMAW-P uses pulsed current. It controls metal transfer and heat input. It is useful for thinner or out-of-position work. --- ## E2. Semi-Automatic Equipment and Operation — 5 Questions"
+  },
+  {
+    "id": 74,
+    "category": "E2 — Semi-Automatic Equipment and Operation",
+    "question": "The GMAW wire burns back into the contact tip. What is this called?",
+    "options": [
+      "Burnback",
+      "Undercut",
+      "Arc blow",
+      "Slag inclusion"
+    ],
+    "answer": 0,
+    "explanation": "Burnback happens when wire melts into the contact tip. It may be caused by wrong wire speed, voltage, or stickout. It interrupts feeding and welding."
+  },
+  {
+    "id": 75,
+    "category": "E2 — Semi-Automatic Equipment and Operation",
+    "question": "Wire feed is slipping at the drive rolls. What should be checked?",
+    "options": [
+      "Drive roll tension and wire size",
+      "Oxygen pressure",
+      "Electrode oven temperature",
+      "Slag thickness"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect tension causes slipping or wire damage. Drive rolls must match wire type and size. Smooth feeding is essential for stable welding."
+  },
+  {
+    "id": 76,
+    "category": "E2 — Semi-Automatic Equipment and Operation",
+    "question": "A GMAW weld shows porosity. Gas bottle is full. What else should you check?",
+    "options": [
+      "Gas flow, leaks, wind, and nozzle blockage",
+      "Tape measure length",
+      "Hammer handle",
+      "Plate magnetism only"
+    ],
+    "answer": 0,
+    "explanation": "Porosity often comes from poor shielding. Leaks, wind, low flow, or blocked nozzle can cause it. Clean base metal is also important."
+  },
+  {
+    "id": 77,
+    "category": "E2 — Semi-Automatic Equipment and Operation",
+    "question": "The contact tip hole is worn oversize. What problem can result?",
+    "options": [
+      "Poor electrical contact and unstable arc",
+      "Better wire control",
+      "No spatter",
+      "Stronger shielding"
+    ],
+    "answer": 0,
+    "explanation": "The contact tip transfers current to the wire. A worn tip causes poor current transfer. This can create arc instability."
+  },
+  {
+    "id": 78,
+    "category": "E2 — Semi-Automatic Equipment and Operation",
+    "question": "A birdnest forms near the wire feeder. What likely happened?",
+    "options": [
+      "Wire feeding obstruction or poor tension",
+      "Too much slag cleaning",
+      "Correct liner condition",
+      "No wire spool installed"
+    ],
+    "answer": 0,
+    "explanation": "Birdnesting is tangled wire at the feeder. It can be caused by liner blockage, tip blockage, or drive problems. Feeding system checks are required. --- ## E3. Filler Metal and Shielding Gases — 4 Questions"
+  },
+  {
+    "id": 79,
+    "category": "E3 — Filler Metal and Shielding Gases",
+    "question": "Which shielding gas is commonly used for GMAW aluminum?",
+    "options": [
+      "Argon",
+      "Acetylene",
+      "Oxygen only",
+      "Compressed air"
+    ],
+    "answer": 0,
+    "explanation": "Argon is commonly used for aluminum GMAW. It gives stable arc performance. Reactive gases are not used alone for aluminum shielding."
+  },
+  {
+    "id": 80,
+    "category": "E3 — Filler Metal and Shielding Gases",
+    "question": "ER70S-6 is selected for mild steel GMAW. What does “ER” mean?",
+    "options": [
+      "Electrode or rod",
+      "Emergency repair",
+      "Extra resistance",
+      "External regulator"
+    ],
+    "answer": 0,
+    "explanation": "ER means electrode or rod. It identifies filler metal classification. ER70S-6 is common mild steel solid wire."
+  },
+  {
+    "id": 81,
+    "category": "E3 — Filler Metal and Shielding Gases",
+    "question": "Why is 75% argon / 25% CO₂ common for mild steel GMAW?",
+    "options": [
+      "Stable arc with useful penetration",
+      "It eliminates PPE",
+      "It cuts steel without electricity",
+      "It removes all spatter"
+    ],
+    "answer": 0,
+    "explanation": "Argon helps arc stability. CO₂ improves penetration. The mix is common for short-circuit GMAW."
+  },
+  {
+    "id": 82,
+    "category": "E3 — Filler Metal and Shielding Gases",
+    "question": "Self-shielded FCAW does not require external gas because:",
+    "options": [
+      "Flux inside the wire provides shielding",
+      "Air provides perfect shielding",
+      "The wire is non-consumable",
+      "Oxygen protects the weld"
+    ],
+    "answer": 0,
+    "explanation": "Flux ingredients produce shielding gas and slag. This protects the weld pool. It is useful where wind affects gas shielding. --- ## E4. Use GMAW and GMAW-P — 2 Questions"
+  },
+  {
+    "id": 83,
+    "category": "E4 — Use GMAW and GMAW-P",
+    "question": "Your GMAW gun is held too far from the work. What may happen?",
+    "options": [
+      "Unstable arc and poor penetration",
+      "Better fusion always",
+      "No spatter",
+      "No resistance heating"
+    ],
+    "answer": 0,
+    "explanation": "Excessive stickout changes current and arc behaviour. It may reduce penetration and stability. Correct contact-tip-to-work distance is important."
+  },
+  {
+    "id": 84,
+    "category": "E4 — Use GMAW and GMAW-P",
+    "question": "You hear popping and the wire stubs into the plate. What setting may be too low?",
+    "options": [
+      "Voltage",
+      "Gas cylinder height",
+      "Helmet shade",
+      "Work table length"
+    ],
+    "answer": 0,
+    "explanation": "Low voltage creates a short unstable arc. The wire may hit the workpiece. Voltage and wire feed must be balanced. --- ## E5. Use FCAW — 2 Questions"
+  },
+  {
+    "id": 85,
+    "category": "E5 — Use FCAW",
+    "question": "After FCAW, you plan to weld another pass. What must you do first?",
+    "options": [
+      "Remove slag",
+      "Add oil",
+      "Increase oxygen",
+      "Remove work clamp"
+    ],
+    "answer": 0,
+    "explanation": "FCAW commonly creates slag. Slag must be removed between passes. Otherwise slag inclusions may occur."
+  },
+  {
+    "id": 86,
+    "category": "E5 — Use FCAW",
+    "question": "You are welding outdoors with wind. Which wire may be more suitable?",
+    "options": [
+      "Self-shielded FCAW wire",
+      "Solid GMAW wire with low gas flow",
+      "Brazing rod",
+      "Tungsten only"
+    ],
+    "answer": 0,
+    "explanation": "Self-shielded FCAW is more wind tolerant. It does not depend on external gas shielding. It is still affected by extreme conditions. --- # I. Welding Drawings, Layout and Fabrication — 4 Questions ## I1. Welding Symbols and Bolted Connections — 4 Questions"
+  },
+  {
+    "id": 87,
+    "category": "I1 — Welding Symbols and Bolted Connections",
+    "question": "A fillet weld symbol is below the reference line. Where is the weld made?",
+    "options": [
+      "Arrow side",
+      "Other side",
+      "Both sides automatically",
+      "No weld required"
+    ],
+    "answer": 0,
+    "explanation": "Below the reference line means arrow side. Above the line means other side. This is essential for reading weld symbols."
+  },
+  {
+    "id": 88,
+    "category": "I1 — Welding Symbols and Bolted Connections",
+    "question": "A small circle appears at the arrow and reference line junction. What does it mean?",
+    "options": [
+      "Weld all around",
+      "Field weld",
+      "Grind flush",
+      "No weld"
+    ],
+    "answer": 0,
+    "explanation": "The circle means weld all around. The weld continues around the joint. It is common on pipe or frame details."
+  },
+  {
+    "id": 89,
+    "category": "I1 — Welding Symbols and Bolted Connections",
+    "question": "A flag appears at the reference line junction. What does it mean?",
+    "options": [
+      "Field weld",
+      "Shop weld only",
+      "No inspection",
+      "Tack weld only"
+    ],
+    "answer": 0,
+    "explanation": "A flag indicates field welding. The weld is made at the job site. This affects planning and access."
+  },
+  {
+    "id": 90,
+    "category": "I1 — Welding Symbols and Bolted Connections",
+    "question": "A bolted joint keeps loosening under vibration. What part may help prevent loosening?",
+    "options": [
+      "Lock washer or locking nut",
+      "Soapstone",
+      "Welding lens",
+      "Cutting tip"
+    ],
+    "answer": 0,
+    "explanation": "Locking devices help resist vibration loosening. They improve joint reliability. Correct tightening is also important. ---"
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledWelderHarmonizedLevel1Set3Questions =
+  shuffleArray(welderHarmonizedLevel1Set3Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "welder",
+  tradeTitle: "Welder",
+  sectionTitle: "Harmonized Level 1 — Set 3",
+  questionTimeSeconds: 90,
+  questions: shuffledWelderHarmonizedLevel1Set3Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledWelderHarmonizedLevel1Set3Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

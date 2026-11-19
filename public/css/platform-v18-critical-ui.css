@@ -1,0 +1,203 @@
+/* V18 critical UI repair: layout-only, no application logic changes */
+
+/* Login password field: keep the field visible and the toggle compact */
+.auth-screen .field .password-wrap{
+  position:relative!important;
+  display:block!important;
+  width:100%!important;
+  min-height:50px!important;
+}
+.auth-screen .field .password-wrap input#password{
+  display:block!important;
+  width:100%!important;
+  height:50px!important;
+  min-height:50px!important;
+  padding:13px 88px 13px 14px!important;
+  background:#fcfcfb!important;
+  color:#22272d!important;
+  -webkit-text-fill-color:#22272d!important;
+  border:1px solid #f1dadb!important;
+  border-radius:10px!important;
+  line-height:1.3!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+.auth-screen .field .password-wrap input#password::placeholder{
+  color:#939ba6!important;
+  -webkit-text-fill-color:#939ba6!important;
+}
+.auth-screen .field .password-wrap .password-toggle{
+  position:absolute!important;
+  inset:auto 8px 7px auto!important;
+  transform:none!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:68px!important;
+  min-width:68px!important;
+  max-width:68px!important;
+  height:36px!important;
+  min-height:36px!important;
+  margin:0!important;
+  padding:0 10px!important;
+  border:1px solid #eac7c9!important;
+  border-radius:9px!important;
+  background:#fff!important;
+  color:#ca2129!important;
+  box-shadow:none!important;
+  font-size:.86rem!important;
+  font-weight:850!important;
+  line-height:1!important;
+  z-index:10!important;
+}
+
+/* Trade finder: prevent inherited span/text widths from collapsing option copy */
+.finder-question,.finder-options,.finder-option{min-width:0!important;max-width:100%!important}
+.finder-option{
+  display:flex!important;
+  align-items:flex-start!important;
+  gap:12px!important;
+  width:100%!important;
+  padding:15px!important;
+}
+.finder-option>input{
+  flex:0 0 18px!important;
+  width:18px!important;
+  height:18px!important;
+  margin:4px 0 0!important;
+}
+.finder-option>span:nth-of-type(1){
+  display:block!important;
+  flex:0 0 30px!important;
+  width:30px!important;
+  min-width:30px!important;
+  text-align:center!important;
+  font-size:1.2rem!important;
+  line-height:1.3!important;
+}
+.finder-option>span:nth-of-type(2){
+  display:block!important;
+  flex:1 1 auto!important;
+  width:auto!important;
+  min-width:0!important;
+  max-width:none!important;
+}
+.finder-option>span:nth-of-type(2)>strong,
+.finder-option>span:nth-of-type(2)>small{
+  display:block!important;
+  width:100%!important;
+  min-width:0!important;
+  max-width:none!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  writing-mode:horizontal-tb!important;
+  text-orientation:mixed!important;
+  letter-spacing:normal!important;
+}
+.finder-option>span:nth-of-type(2)>strong{font-size:1rem!important;line-height:1.35!important}
+.finder-option>span:nth-of-type(2)>small{font-size:.91rem!important;line-height:1.5!important;margin-top:4px!important}
+
+/* Level exam hero: return to the site's light, readable visual language */
+.page-single-level-exams .sl-hero{
+  color:#22272d!important;
+  background:
+    radial-gradient(circle at 88% 14%,rgba(202,33,41,.14),transparent 28%),
+    linear-gradient(135deg,#ffffff 0%,#faf8f7 62%,#f9f8f6 100%)!important;
+  border:1px solid #f4dedf!important;
+  box-shadow:0 22px 55px rgba(47,55,63,.10)!important;
+}
+.page-single-level-exams .sl-hero h1,
+.page-single-level-exams .sl-hero p,
+.page-single-level-exams .sl-hero strong{color:#22272d!important}
+.page-single-level-exams .sl-kicker{background:#f7f4f1!important;color:#c3272f!important}
+.page-single-level-exams .sl-points span{
+  color:#6d1b1f!important;
+  background:#fff!important;
+  border:1px solid #f5e5e5!important;
+  box-shadow:0 6px 16px rgba(47,55,63,.05)!important;
+}
+
+/* Premium modal: intentional backdrop and stronger desktop/mobile composition */
+.premium-popup{
+  position:fixed!important;
+  inset:0!important;
+  display:none!important;
+  align-items:center!important;
+  justify-content:center!important;
+  padding:24px!important;
+  background:
+    radial-gradient(circle at 18% 16%,rgba(202,33,41,.22),transparent 34%),
+    rgba(21,25,29,.72)!important;
+  backdrop-filter:blur(10px)!important;
+  -webkit-backdrop-filter:blur(10px)!important;
+  z-index:2147483600!important;
+}
+.premium-popup.show{display:flex!important}
+.premium-popup-box.premium-popup-redesign{
+  position:relative!important;
+  width:min(640px,calc(100vw - 36px))!important;
+  max-width:640px!important;
+  max-height:min(86vh,760px)!important;
+  overflow:auto!important;
+  padding:0!important;
+  border:1px solid rgba(255,255,255,.7)!important;
+  border-radius:28px!important;
+  background:#fff!important;
+  box-shadow:0 35px 110px rgba(0,0,0,.46)!important;
+  text-align:left!important;
+}
+.premium-popup-redesign .premium-popup-top{
+  padding:34px 34px 28px!important;
+  background:
+    radial-gradient(circle at 90% 0%,rgba(255,255,255,.22),transparent 34%),
+    linear-gradient(135deg,#6a1116,#ca2129 60%,#ca2129)!important;
+}
+.premium-popup-redesign .premium-popup-label{
+  display:inline-flex!important;
+  background:rgba(255,255,255,.16)!important;
+  color:#fff!important;
+  border:1px solid rgba(255,255,255,.32)!important;
+}
+.premium-popup-redesign h2{color:#fff!important;margin:14px 0 10px!important;font-size:clamp(2rem,4.3vw,3rem)!important;line-height:1.03!important}
+.premium-popup-redesign .premium-subtitle{color:#f7f4f2!important;font-size:1rem!important;line-height:1.6!important;margin:0!important}
+.premium-popup-redesign .premium-popup-body{padding:26px 34px 32px!important;background:linear-gradient(180deg,#fff,#fcfcfb)!important}
+.premium-popup-redesign .premium-popup-price{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:18px!important;
+  padding:16px 18px!important;
+  margin:0 0 18px!important;
+  border:1px solid #f6e5e6!important;
+  border-radius:16px!important;
+  background:#fbfaf8!important;
+}
+.premium-popup-redesign .premium-popup-price strong{color:#2e363e!important;font-size:2.1rem!important;line-height:1!important;white-space:nowrap!important}
+.premium-popup-redesign .premium-popup-price span{color:#697381!important;font-weight:750!important;text-align:right!important}
+.premium-popup-redesign .premium-feature-grid{gap:10px!important}
+.premium-popup-redesign .premium-feature-grid li{background:#fbf9f7!important;border:1px solid #f3e0e1!important;color:#62191c!important}
+.premium-popup-redesign .premium-popup-actions .btn{width:100%!important;min-height:50px!important;border-radius:12px!important}
+.premium-popup-redesign .premium-popup-close{z-index:3!important;color:#fff!important;border:1px solid rgba(255,255,255,.35)!important;background:rgba(255,255,255,.15)!important}
+
+@media(max-width:620px){
+  .auth-screen .field .password-wrap input#password{padding-right:82px!important}
+  .finder-option{gap:10px!important;padding:14px 12px!important}
+  .finder-option>span:nth-of-type(1){flex-basis:26px!important;width:26px!important;min-width:26px!important}
+  .page-single-level-exams .sl-hero{padding:24px 20px!important}
+  .page-single-level-exams .sl-points{display:grid!important;grid-template-columns:1fr!important}
+  .premium-popup{align-items:flex-end!important;padding:10px!important}
+  .premium-popup-box.premium-popup-redesign{
+    width:100%!important;
+    max-width:none!important;
+    max-height:92dvh!important;
+    border-radius:24px 24px 16px 16px!important;
+  }
+  .premium-popup-redesign .premium-popup-top{padding:28px 22px 22px!important}
+  .premium-popup-redesign h2{font-size:2rem!important;padding-right:34px!important}
+  .premium-popup-redesign .premium-popup-body{padding:20px 22px 24px!important}
+  .premium-popup-redesign .premium-popup-price{align-items:flex-start!important;flex-direction:column!important;gap:6px!important}
+  .premium-popup-redesign .premium-popup-price span{text-align:left!important}
+  .premium-popup-redesign .premium-feature-grid{grid-template-columns:1fr!important}
+  .premium-popup-redesign .premium-popup-actions{grid-template-columns:1fr!important}
+}

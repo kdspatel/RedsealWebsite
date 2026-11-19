@@ -1,0 +1,58 @@
+function togglePassword() {
+  const input = document.getElementById('password');
+  const toggle = document.querySelector('.password-toggle');
+  if (!input || !toggle) return;
+  const reveal = input.getAttribute('type') === 'password';
+  input.setAttribute('type', reveal ? 'text' : 'password');
+  input.classList.toggle('password-visible', reveal);
+  input.style.webkitTextSecurity = reveal ? 'none' : '';
+  toggle.textContent = reveal ? 'Hide' : 'Show';
+  toggle.setAttribute('aria-pressed', String(reveal));
+  toggle.setAttribute('aria-label', reveal ? 'Hide password' : 'Show password');
+  input.focus({ preventScroll: true });
+}
+
+
+(function initLoginPage() {
+  const params = new URLSearchParams(window.location.search);
+  const error = params.get('error');
+  const loginForm = document.getElementById('loginForm');
+  const signinToast = document.getElementById('signinToast');
+  const alert = document.getElementById('loginAlert');
+  const nextInput = document.getElementById('loginNext');
+  const nextUrl = params.get('next');
+  const reason = params.get('reason');
+
+  const messages = {
+    invalid: 'The email address or password is incorrect. Please check your details and try again.',
+    verify: 'Please verify your email address before signing in.',
+    server: 'We could not sign you in right now. Please try again shortly.'
+  };
+
+  if (nextInput && nextUrl && nextUrl.startsWith('/') && !nextUrl.startsWith('//')) {
+    nextInput.value = nextUrl;
+  }
+
+  if (reason === 'account-required' && alert && !error) {
+    alert.textContent = 'Create an account or sign in to start a free quiz.';
+    alert.hidden = false;
+  }
+
+  if (error && alert) {
+    alert.textContent = messages[error] || messages.invalid;
+    alert.hidden = false;
+  }
+
+  if (loginForm && signinToast) {
+    loginForm.addEventListener('submit', () => {
+      signinToast.textContent = 'Signing in…';
+      signinToast.classList.add('show');
+    });
+  }
+
+  if (params.get('signedin') === 'true' && signinToast) {
+    signinToast.textContent = '✓ Signed in successfully';
+    signinToast.classList.add('show', 'success');
+    setTimeout(() => signinToast.classList.remove('show'), 3000);
+  }
+})();

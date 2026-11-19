@@ -1,0 +1,1396 @@
+const industrialMechanicMillwrightLevel2Set4Questions = [
+  {
+    "id": 1,
+    "category": "C1 — Use mathematics and science",
+    "question": "A pump shaft runs at 1450 rpm. What is the speed in revolutions per second?",
+    "options": [
+      "14.5 rps",
+      "24.2 rps",
+      "60.4 rps",
+      "87.0 rps"
+    ],
+    "answer": 1,
+    "explanation": "Revolutions per second = rpm ÷ 60. 1450 ÷ 60 = 24.2 rps. This conversion is useful for vibration and rotating equipment work."
+  },
+  {
+    "id": 2,
+    "category": "C1 — Use mathematics and science",
+    "question": "A sprocket has 18 teeth and drives a 72-tooth sprocket. What is the speed ratio?",
+    "options": [
+      "2:1 reduction",
+      "3:1 reduction",
+      "4:1 reduction",
+      "5:1 reduction"
+    ],
+    "answer": 2,
+    "explanation": "Ratio = driven teeth ÷ driver teeth. 72 ÷ 18 = 4. The driven sprocket turns one-quarter of the driver speed."
+  },
+  {
+    "id": 3,
+    "category": "C1 — Use mathematics and science",
+    "question": "A 0.75 m lever has 240 N applied at the end. What torque is produced?",
+    "options": [
+      "80 N·m",
+      "180 N·m",
+      "240 N·m",
+      "320 N·m"
+    ],
+    "answer": 1,
+    "explanation": "Torque = force × distance. 240 × 0.75 = 180 N·m. Longer levers produce more torque for the same force."
+  },
+  {
+    "id": 4,
+    "category": "C1 — Use mathematics and science",
+    "question": "A pulley diameter is 150 mm. What is the approximate circumference?",
+    "options": [
+      "235 mm",
+      "314 mm",
+      "471 mm",
+      "628 mm"
+    ],
+    "answer": 2,
+    "explanation": "Circumference = π × diameter. 3.14 × 150 = 471 mm. This is used for belt speed and travel calculations."
+  },
+  {
+    "id": 5,
+    "category": "C1 — Use mathematics and science",
+    "question": "A machine part is 1.375 inches. What is this as a mixed fraction?",
+    "options": [
+      "1 1/4 in",
+      "1 3/8 in",
+      "1 1/2 in",
+      "1 5/8 in"
+    ],
+    "answer": 1,
+    "explanation": "0.375 equals 3/8. Therefore, 1.375 equals 1 3/8 inches. Fraction-decimal conversion is common in imperial measurements."
+  },
+  {
+    "id": 6,
+    "category": "C1 — Use mathematics and science",
+    "question": "A hydraulic pressure of 3,000,000 Pa acts on an area of 0.01 m². What force is produced?",
+    "options": [
+      "300 N",
+      "3000 N",
+      "30,000 N",
+      "300,000 N"
+    ],
+    "answer": 2,
+    "explanation": "Force = pressure × area. 3,000,000 × 0.01 = 30,000 N. Hydraulic force depends on both pressure and piston area."
+  },
+  {
+    "id": 7,
+    "category": "C1 — Use mathematics and science",
+    "question": "A motor is rated at 5 hp. Approximately how many kilowatts is this? Use 1 hp = 0.746 kW.",
+    "options": [
+      "2.7 kW",
+      "3.7 kW",
+      "5.7 kW",
+      "7.5 kW"
+    ],
+    "answer": 1,
+    "explanation": "Kilowatts = horsepower × 0.746. 5 × 0.746 = 3.73 kW. Motor ratings may be listed in either hp or kW."
+  },
+  {
+    "id": 8,
+    "category": "C1 — Use mathematics and science",
+    "question": "A 40-tooth gear drives a 20-tooth gear. If the driver runs at 600 rpm, what is the driven speed?",
+    "options": [
+      "300 rpm",
+      "600 rpm",
+      "1200 rpm",
+      "2400 rpm"
+    ],
+    "answer": 2,
+    "explanation": "A smaller driven gear turns faster. Driven speed = 600 × 40 ÷ 20 = 1200 rpm. Speed increases when the driven gear has fewer teeth."
+  },
+  {
+    "id": 9,
+    "category": "C1 — Use mathematics and science",
+    "question": "Convert 63.5 mm to inches.",
+    "options": [
+      "1.5 in",
+      "2.0 in",
+      "2.5 in",
+      "3.0 in"
+    ],
+    "answer": 2,
+    "explanation": "One inch equals 25.4 mm. 63.5 ÷ 25.4 = 2.5 inches. This conversion is common for shaft and bearing sizes."
+  },
+  {
+    "id": 10,
+    "category": "C1 — Use mathematics and science",
+    "question": "A load has mass of 400 kg. Approximate weight force is:",
+    "options": [
+      "400 N",
+      "980 N",
+      "3920 N",
+      "40,000 N"
+    ],
+    "answer": 2,
+    "explanation": "Weight force = mass × gravity. 400 × 9.8 = 3920 N. This matters for lifting and support calculations."
+  },
+  {
+    "id": 11,
+    "category": "C1 — Use mathematics and science",
+    "question": "A bearing seat is specified as 75.000 mm. The measured size is 74.970 mm. What is the deviation?",
+    "options": [
+      "+0.030 mm",
+      "-0.030 mm",
+      "+0.300 mm",
+      "-0.300 mm"
+    ],
+    "answer": 1,
+    "explanation": "Deviation = measured size − nominal size. 74.970 − 75.000 = -0.030 mm. A negative value means the part is undersize."
+  },
+  {
+    "id": 12,
+    "category": "C1 — Use mathematics and science",
+    "question": "A cylinder has a radius of 30 mm. What is the approximate area?",
+    "options": [
+      "94 mm²",
+      "188 mm²",
+      "2826 mm²",
+      "3600 mm²"
+    ],
+    "answer": 2,
+    "explanation": "Area = πr². 3.14 × 30² = 2826 mm². Cylinder force depends on pressure acting on area."
+  },
+  {
+    "id": 13,
+    "category": "C1 — Use mathematics and science",
+    "question": "A machine vibrates at 1800 cycles per minute. What is this in Hz?",
+    "options": [
+      "18 Hz",
+      "30 Hz",
+      "60 Hz",
+      "180 Hz"
+    ],
+    "answer": 1,
+    "explanation": "Hertz means cycles per second. 1800 cycles per minute ÷ 60 = 30 Hz. Vibration frequency is often compared with shaft speed."
+  },
+  {
+    "id": 14,
+    "category": "C1 — Use mathematics and science",
+    "question": "A 2:1 belt speed increase is required. If the driver pulley is 300 mm, the driven pulley should be:",
+    "options": [
+      "150 mm",
+      "300 mm",
+      "450 mm",
+      "600 mm"
+    ],
+    "answer": 0,
+    "explanation": "To increase speed, the driven pulley must be smaller. A driven pulley half the driver diameter gives 2:1 speed increase. 300 ÷ 2 = 150 mm."
+  },
+  {
+    "id": 15,
+    "category": "C1 — Use mathematics and science",
+    "question": "A right triangle has a hypotenuse of 25 and one side of 7. What is the other side?",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "26"
+    ],
+    "answer": 2,
+    "explanation": "Use c² − a² = b². 25² − 7² = 625 − 49 = 576. √576 = 24."
+  },
+  {
+    "id": 16,
+    "category": "C3 — Lubricate systems and components",
+    "question": "A gearbox oil level is correct, but the oil appears dark, smells burnt, and the unit runs hot. What should be suspected?",
+    "options": [
+      "Oil degradation from overheating",
+      "Perfect lubrication",
+      "Too much cooling",
+      "Correct oil colour change only"
+    ],
+    "answer": 0,
+    "explanation": "Burnt smell and dark oil suggest heat damage. Oil oxidation reduces lubrication ability. The cause of overheating should be corrected."
+  },
+  {
+    "id": 17,
+    "category": "C3 — Lubricate systems and components",
+    "question": "A grease is selected only because it has the same colour as the old grease. What is wrong?",
+    "options": [
+      "Colour does not prove compatibility or correct specification",
+      "Grease colour controls bearing clearance",
+      "Same colour always means same grease",
+      "Colour is the only selection factor"
+    ],
+    "answer": 0,
+    "explanation": "Different greases can share the same colour. Base oil, thickener, additives, and grade must be verified. Wrong grease can cause bearing failure."
+  },
+  {
+    "id": 18,
+    "category": "C3 — Lubricate systems and components",
+    "question": "What does NLGI grade describe for grease?",
+    "options": [
+      "Grease consistency or stiffness",
+      "Shaft diameter",
+      "Oil pressure",
+      "Gear backlash"
+    ],
+    "answer": 0,
+    "explanation": "NLGI grade describes how firm or soft a grease is. A higher number is generally stiffer. Correct grade depends on application and speed."
+  },
+  {
+    "id": 19,
+    "category": "C3 — Lubricate systems and components",
+    "question": "Why are desiccant breathers used on some gearboxes?",
+    "options": [
+      "To reduce moisture and particle entry",
+      "To increase oil foaming",
+      "To remove all oil",
+      "To change gear ratio"
+    ],
+    "answer": 0,
+    "explanation": "Gearboxes breathe as temperature changes. Desiccant breathers dry incoming air and filter particles. This helps keep lubricant clean."
+  },
+  {
+    "id": 20,
+    "category": "C3 — Lubricate systems and components",
+    "question": "A bearing grease purge contains metal flakes. What does this suggest?",
+    "options": [
+      "Internal wear or damage",
+      "Correct bearing operation",
+      "Too much fresh grease only",
+      "Normal colour change"
+    ],
+    "answer": 0,
+    "explanation": "Metal flakes in grease indicate component wear. Bearings, cages, or races may be failing. The bearing should be inspected and monitored."
+  },
+  {
+    "id": 21,
+    "category": "C7 — Perform material identification",
+    "question": "A part is non-magnetic, reddish-brown, and conducts heat well. It is most likely:",
+    "options": [
+      "Copper",
+      "Cast iron",
+      "Mild steel",
+      "Tool steel"
+    ],
+    "answer": 0,
+    "explanation": "Copper has a reddish colour and is non-magnetic. It is an excellent conductor of heat and electricity. It is softer than steel and requires different cutting methods."
+  },
+  {
+    "id": 22,
+    "category": "C7 — Perform material identification",
+    "question": "A material is hard, brittle, heavy, and gives short dull sparks when ground. It is most likely:",
+    "options": [
+      "Cast iron",
+      "Aluminum",
+      "Copper",
+      "Rubber"
+    ],
+    "answer": 0,
+    "explanation": "Cast iron is hard and brittle compared with mild steel. It commonly gives short, dull spark patterns. It is often used for housings and machine bases."
+  },
+  {
+    "id": 23,
+    "category": "C8 — Perform heat treatment of metal",
+    "question": "A machinist wants to reduce internal stress in a welded steel part. Which heat treatment may be used?",
+    "options": [
+      "Stress relieving",
+      "Quenching only",
+      "Electroplating",
+      "Knurling"
+    ],
+    "answer": 0,
+    "explanation": "Stress relieving uses controlled heating to reduce residual stress. It helps reduce distortion and cracking risk. It does not necessarily fully soften the material like annealing."
+  },
+  {
+    "id": 24,
+    "category": "C8 — Perform heat treatment of metal",
+    "question": "What is case hardening?",
+    "options": [
+      "Hardening the outer surface while keeping the core tougher",
+      "Softening the entire part",
+      "Melting the whole part",
+      "Removing all carbon from steel"
+    ],
+    "answer": 0,
+    "explanation": "Case hardening creates a wear-resistant surface. The core remains tougher and less brittle. It is useful for gears, pins, and wear parts."
+  },
+  {
+    "id": 25,
+    "category": "C9 — Use mechanical drawings and specifications",
+    "question": "A drawing shows a datum symbol on a machined face. What is its purpose?",
+    "options": [
+      "It identifies a reference surface for measurement or layout",
+      "It shows paint colour",
+      "It indicates lubricant type",
+      "It means the part is scrap"
+    ],
+    "answer": 0,
+    "explanation": "Datums establish reference points, lines, or surfaces. Dimensions and tolerances may be measured from them. Correct datum use is critical for accurate inspection."
+  },
+  {
+    "id": 26,
+    "category": "C9 — Use mechanical drawings and specifications",
+    "question": "A drawing specifies “press fit.” What does this normally mean?",
+    "options": [
+      "Interference exists between mating parts",
+      "Parts are loose by design",
+      "No force is needed",
+      "The part must be welded"
+    ],
+    "answer": 0,
+    "explanation": "A press fit means one part is slightly larger than the mating hole. Force, heating, or cooling may be needed for assembly. Press fits are common for bearings, bushings, and hubs."
+  },
+  {
+    "id": 27,
+    "category": "F2 — Weld material using shielded metal arc welding equipment",
+    "question": "A SMAW electrode keeps sticking to the work at arc start. What is a likely cause?",
+    "options": [
+      "Current too low or poor technique",
+      "Current always too high",
+      "Too much shielding gas",
+      "Tungsten contamination"
+    ],
+    "answer": 0,
+    "explanation": "Low amperage can prevent a stable arc. Poor arc starting technique can also make the rod stick. Electrode size and current setting must match the job."
+  },
+  {
+    "id": 28,
+    "category": "F2 — Weld material using shielded metal arc welding equipment",
+    "question": "A weld bead sits high on the surface with poor fusion at the toes. What defect is likely?",
+    "options": [
+      "Cold lap or lack of fusion",
+      "Perfect penetration",
+      "Correct reinforcement",
+      "Proper root fusion"
+    ],
+    "answer": 0,
+    "explanation": "Poor fusion happens when weld metal does not bond properly. Low heat, slow travel, or wrong angle can contribute. This defect weakens the weld."
+  },
+  {
+    "id": 29,
+    "category": "F2 — Weld material using shielded metal arc welding equipment",
+    "question": "Why must low-hydrogen SMAW electrodes be kept dry?",
+    "options": [
+      "Moisture increases hydrogen cracking risk",
+      "Moisture improves arc stability always",
+      "Moisture increases electrode strength",
+      "Moisture removes slag"
+    ],
+    "answer": 0,
+    "explanation": "Moisture introduces hydrogen into the weld. Hydrogen can cause delayed cracking in steel. Electrode storage requirements must be followed."
+  },
+  {
+    "id": 30,
+    "category": "F3 — Weld material with gas metal arc welding equipment",
+    "question": "A GMAW weld has excessive spatter and an erratic arc. Which setting relationship should be checked?",
+    "options": [
+      "Voltage and wire feed speed",
+      "Bearing clearance and shaft fit",
+      "Gear ratio and backlash",
+      "Seal lip pressure"
+    ],
+    "answer": 0,
+    "explanation": "GMAW requires matched wire feed and voltage. Incorrect balance causes spatter, stubbing, or burnback. Settings also depend on wire size and material."
+  },
+  {
+    "id": 31,
+    "category": "F3 — Weld material with gas metal arc welding equipment",
+    "question": "What is the function of shielding gas in GMAW?",
+    "options": [
+      "Protect the molten weld pool from air",
+      "Cut threads",
+      "Cool the bearing",
+      "Increase gear backlash"
+    ],
+    "answer": 0,
+    "explanation": "Air contains oxygen and nitrogen that contaminate welds. Shielding gas protects the weld pool until it solidifies. Poor shielding can cause porosity."
+  },
+  {
+    "id": 32,
+    "category": "F4 — Weld material with gas tungsten arc welding equipment",
+    "question": "Why should GTAW base metal be especially clean?",
+    "options": [
+      "GTAW is sensitive to contamination and weld defects",
+      "Dirt improves arc stability",
+      "Slag covers all contamination",
+      "Cleaning reduces shielding gas need"
+    ],
+    "answer": 0,
+    "explanation": "GTAW produces clean, high-quality welds when preparation is correct. Oil, dirt, or oxide can cause porosity and poor fusion. Cleanliness is critical for stainless and aluminum work."
+  },
+  {
+    "id": 33,
+    "category": "H1 — Select, install and maintain shafts",
+    "question": "A shaft has a raised burr near a bearing seat. What should be done before installing the bearing?",
+    "options": [
+      "Remove the burr carefully",
+      "Force the bearing over it",
+      "Add grease only",
+      "Heat the burr red hot"
+    ],
+    "answer": 0,
+    "explanation": "Burrs can damage the bearing bore or prevent proper seating. They can also create high spots and misalignment. Bearing seats must be clean and smooth."
+  },
+  {
+    "id": 34,
+    "category": "H1 — Select, install and maintain shafts",
+    "question": "What does a shaft shoulder do for a bearing?",
+    "options": [
+      "Provides axial location",
+      "Increases oil viscosity",
+      "Cuts the bearing seal",
+      "Reduces shaft hardness"
+    ],
+    "answer": 0,
+    "explanation": "Shoulders help position bearings, gears, or hubs along a shaft. They resist axial movement when properly designed. Correct shoulder size and squareness are important."
+  },
+  {
+    "id": 35,
+    "category": "H1 — Select, install and maintain shafts",
+    "question": "A shaft key is loose in the hub keyway but tight in the shaft keyway. What can happen?",
+    "options": [
+      "Hub movement and fretting",
+      "Perfect torque transfer",
+      "Better alignment",
+      "Reduced vibration always"
+    ],
+    "answer": 0,
+    "explanation": "A loose key fit allows movement under torque. This causes wear in the hub keyway. The hub, key, and keyway must fit correctly."
+  },
+  {
+    "id": 36,
+    "category": "H1 — Select, install and maintain shafts",
+    "question": "A shaft is bent slightly. What symptom is most likely during operation?",
+    "options": [
+      "Vibration",
+      "Lower bearing temperature always",
+      "Improved coupling life",
+      "No effect on seals"
+    ],
+    "answer": 0,
+    "explanation": "A bent shaft causes rotating runout. Runout creates vibration and uneven loading. It may also damage bearings, seals, and couplings."
+  },
+  {
+    "id": 37,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing is installed cold with heavy hammer blows on the inner ring. What risk remains even if it seats?",
+    "options": [
+      "Race damage from shock",
+      "Improved internal clearance",
+      "Perfect alignment",
+      "Increased bearing hardness"
+    ],
+    "answer": 0,
+    "explanation": "Shock loads can dent raceways. These dents cause noise and premature failure. Proper drivers or controlled heating should be used."
+  },
+  {
+    "id": 38,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "What is the purpose of a bearing cage?",
+    "options": [
+      "Separates and guides rolling elements",
+      "Provides the main shaft seal",
+      "Adjusts gear backlash",
+      "Holds coupling bolts"
+    ],
+    "answer": 0,
+    "explanation": "The cage spaces balls or rollers evenly. It prevents contact between rolling elements. Cage damage can quickly lead to bearing failure."
+  },
+  {
+    "id": 39,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing has blue-black discolouration on the race. What does this usually indicate?",
+    "options": [
+      "Excessive heat",
+      "Correct storage",
+      "Proper lubrication",
+      "Normal new bearing finish"
+    ],
+    "answer": 0,
+    "explanation": "Discolouration can indicate overheating. Heat may reduce hardness and damage lubricant. Overheating causes must be identified."
+  },
+  {
+    "id": 40,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing fit is too loose on a rotating shaft. What can happen?",
+    "options": [
+      "Inner race creep on the shaft",
+      "Better preload",
+      "Lower wear",
+      "Increased shaft diameter"
+    ],
+    "answer": 0,
+    "explanation": "A loose fit allows race movement. This causes fretting, heat, and shaft damage. Rotating rings usually require proper interference fit."
+  },
+  {
+    "id": 41,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "Which bearing is often used where self-alignment is needed due to shaft deflection or mounting error?",
+    "options": [
+      "Spherical roller bearing",
+      "Plain flat washer",
+      "Snap ring",
+      "Rigid coupling"
+    ],
+    "answer": 0,
+    "explanation": "Spherical roller bearings can tolerate some misalignment. They carry heavy radial loads and some axial load. They are common in heavy industrial equipment."
+  },
+  {
+    "id": 42,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing is installed into a blind housing bore. What tool may be needed for removal?",
+    "options": [
+      "Blind bearing puller",
+      "Paint scraper only",
+      "Hacksaw blade only",
+      "Grease pencil"
+    ],
+    "answer": 0,
+    "explanation": "Blind bores do not allow access from behind. Special pullers grip inside the bearing for removal. Using proper tools prevents housing damage."
+  },
+  {
+    "id": 43,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "What is bearing preload?",
+    "options": [
+      "A controlled axial or radial load applied during assembly",
+      "Dirt in the bearing",
+      "Shaft surface rust",
+      "Oil foaming"
+    ],
+    "answer": 0,
+    "explanation": "Preload removes internal looseness in some bearing arrangements. Too much preload causes heat and early failure. Too little preload can allow looseness and vibration."
+  },
+  {
+    "id": 44,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing with shields is selected. What do shields mainly do?",
+    "options": [
+      "Help keep larger contaminants out while not sealing as tightly as contact seals",
+      "Increase shaft torque",
+      "Set gear backlash",
+      "Make the bearing self-lubricating forever"
+    ],
+    "answer": 0,
+    "explanation": "Shields provide non-contact protection. They reduce contamination but do not seal like rubber contact seals. Selection depends on environment and speed."
+  },
+  {
+    "id": 45,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "A bearing is removed with heat from a torch and reused. What is the concern?",
+    "options": [
+      "Heat damage may make reuse unsafe",
+      "Torch heating improves bearing life",
+      "Bearings cannot be affected by heat",
+      "Heat removes all defects"
+    ],
+    "answer": 0,
+    "explanation": "Uncontrolled heat can alter bearing hardness. It can also damage seals, cages, or lubricant. Bearings removed with damaging methods should not be reused."
+  },
+  {
+    "id": 46,
+    "category": "H2 — Select, install and maintain bearings",
+    "question": "What failure is commonly caused by electrical current passing through a bearing?",
+    "options": [
+      "Fluting or electrical pitting",
+      "Belt cracking",
+      "Keyway rollover",
+      "Brake fade"
+    ],
+    "answer": 0,
+    "explanation": "Electrical discharge damages bearing raceways. It can create pitting or washboard-like fluting. Motor grounding and insulated bearings may be used to prevent it."
+  },
+  {
+    "id": 47,
+    "category": "H3 — Select, install and maintain seals",
+    "question": "A seal lip runs without lubrication during startup. What damage may occur?",
+    "options": [
+      "Lip burning or rapid wear",
+      "Improved sealing",
+      "Lower friction forever",
+      "Shaft hardening"
+    ],
+    "answer": 0,
+    "explanation": "Seal lips need lubrication at the contact point. Dry running creates heat and friction. Lubricating the lip during installation prevents early failure."
+  },
+  {
+    "id": 48,
+    "category": "H3 — Select, install and maintain seals",
+    "question": "Why should a seal bore be clean before installation?",
+    "options": [
+      "Dirt can cock the seal or damage the outside diameter",
+      "Dirt improves sealing",
+      "Dirt increases lip pressure",
+      "Dirt reduces shaft speed"
+    ],
+    "answer": 0,
+    "explanation": "Debris prevents the seal from seating squarely. It may also create a leak path around the seal. Clean bores help the seal install correctly."
+  },
+  {
+    "id": 49,
+    "category": "H3 — Select, install and maintain seals",
+    "question": "A double-lip seal has a second lip. What is the common purpose of the extra lip?",
+    "options": [
+      "Exclude contaminants",
+      "Increase gear ratio",
+      "Reduce shaft diameter",
+      "Set bearing preload"
+    ],
+    "answer": 0,
+    "explanation": "The primary lip retains lubricant. The secondary lip often helps keep dust and dirt out. Some applications require grease between lips."
+  },
+  {
+    "id": 50,
+    "category": "H3 — Select, install and maintain seals",
+    "question": "A mechanical seal has two very flat faces. How does it seal?",
+    "options": [
+      "By controlled contact between rotating and stationary faces",
+      "By gear tooth pressure",
+      "By belt wedging",
+      "By chain tension"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical seals use precision faces to control leakage. A thin fluid film lubricates and cools the faces. Dry running can destroy them quickly."
+  },
+  {
+    "id": 51,
+    "category": "H3 — Select, install and maintain seals",
+    "question": "A lip seal is installed too deep and blocks an oil passage. What can happen?",
+    "options": [
+      "Lubrication flow may be restricted",
+      "Gear speed increases",
+      "Seal becomes stronger",
+      "Shaft runout disappears"
+    ],
+    "answer": 0,
+    "explanation": "Seal depth can matter in housings with ports or grooves. Incorrect position may block oil flow or expose the lip to a bad surface. Installation depth should follow specifications."
+  },
+  {
+    "id": 52,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "A coupling allows small angular and parallel misalignment. What type is it generally considered?",
+    "options": [
+      "Flexible coupling",
+      "Rigid coupling",
+      "Solid shaft",
+      "Brake drum"
+    ],
+    "answer": 0,
+    "explanation": "Flexible couplings compensate for limited misalignment. They may use elastomer, grid, gear, or disc elements. They still require alignment within limits."
+  },
+  {
+    "id": 53,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "A gear coupling requires lubrication. What can happen if lubrication is neglected?",
+    "options": [
+      "Tooth wear and overheating",
+      "Perfect operation",
+      "Reduced backlash only",
+      "Stronger gear teeth"
+    ],
+    "answer": 0,
+    "explanation": "Gear couplings have sliding tooth contact. Lubricant reduces friction and wear. Dry operation can damage hubs and sleeves."
+  },
+  {
+    "id": 54,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "A coupling hub bore is too large for the shaft. What is the main concern?",
+    "options": [
+      "Loose fit and fretting",
+      "Easier correct installation",
+      "Higher torque capacity",
+      "Perfect concentricity"
+    ],
+    "answer": 0,
+    "explanation": "A loose bore allows movement under load. Movement causes fretting, wear, and possible key damage. Correct fit is required for reliable torque transmission."
+  },
+  {
+    "id": 55,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "Why should coupling hubs be checked for axial position before tightening?",
+    "options": [
+      "To maintain correct spacing and engagement",
+      "To change lubricant viscosity",
+      "To set chain pitch",
+      "To increase brake drag"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect axial position can cause rubbing or poor engagement. Some couplings require specific shaft gap. Thermal growth must also be considered."
+  },
+  {
+    "id": 56,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "A disc coupling has cracked flexible discs. What should be done?",
+    "options": [
+      "Replace damaged discs and investigate cause",
+      "Weld the discs",
+      "Run until failure",
+      "Add belt dressing"
+    ],
+    "answer": 0,
+    "explanation": "Cracked discs reduce torque capacity and flexibility. Misalignment or overload may be the root cause. The coupling should not run with damaged flexible elements."
+  },
+  {
+    "id": 57,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "What is a common sign of coupling misalignment during operation?",
+    "options": [
+      "Vibration and high bearing temperature",
+      "Lower energy use always",
+      "Perfect seal life",
+      "No noise or heat"
+    ],
+    "answer": 0,
+    "explanation": "Misalignment adds loads to shafts and bearings. This can cause vibration, heat, and coupling wear. Alignment should be checked if these symptoms appear."
+  },
+  {
+    "id": 58,
+    "category": "I1 — Select, install and maintain couplings",
+    "question": "A coupling key is too short and does not fill the hub length. What can happen?",
+    "options": [
+      "Reduced torque contact area and keyway damage",
+      "Improved torque transmission",
+      "Less stress always",
+      "Automatic alignment correction"
+    ],
+    "answer": 0,
+    "explanation": "A short key concentrates load on a smaller area. This can shear the key or damage keyways. Key length must suit the hub and design."
+  },
+  {
+    "id": 59,
+    "category": "I2 — Select, install and maintain clutches and brakes",
+    "question": "A clutch engages suddenly instead of smoothly. What could cause this?",
+    "options": [
+      "Incorrect adjustment or contaminated friction surfaces",
+      "Perfect lubrication on friction plates",
+      "Too much free space in the shop",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "Clutches require controlled friction engagement. Incorrect linkage, wear, or contamination can cause grabbing. Smooth engagement prevents shock loading."
+  },
+  {
+    "id": 60,
+    "category": "I2 — Select, install and maintain clutches and brakes",
+    "question": "Brake lining is worn below the minimum thickness. What is the correct action?",
+    "options": [
+      "Replace or service according to specification",
+      "Add oil to improve contact",
+      "Tighten until it works",
+      "Ignore if it still stops once"
+    ],
+    "answer": 0,
+    "explanation": "Thin lining may overheat or fail. Minimum thickness protects performance and safety. Brakes are critical holding and stopping devices."
+  },
+  {
+    "id": 61,
+    "category": "I2 — Select, install and maintain clutches and brakes",
+    "question": "A brake drum has deep scoring. What is the concern?",
+    "options": [
+      "Reduced contact area and poor braking",
+      "Better friction always",
+      "Lower heat generation",
+      "Improved lining life"
+    ],
+    "answer": 0,
+    "explanation": "Scoring reduces smooth contact with the lining. It can cause noise, heat, and uneven wear. The drum may require machining or replacement."
+  },
+  {
+    "id": 62,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A chain drive has no lubrication because “chains are steel.” What will likely happen?",
+    "options": [
+      "Rapid pin and bushing wear",
+      "Lower friction forever",
+      "No elongation",
+      "Better sprocket alignment"
+    ],
+    "answer": 0,
+    "explanation": "Steel chain joints still need lubrication. Pins and bushings wear without oil film. This causes elongation and poor sprocket engagement."
+  },
+  {
+    "id": 63,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "Why is chain slack usually measured on the slack side?",
+    "options": [
+      "It shows the available chain movement under normal drive tension",
+      "The tight side is always loose",
+      "Slack side has no relation to tension",
+      "It measures sprocket hardness"
+    ],
+    "answer": 0,
+    "explanation": "The driving side is tight under load. Slack side deflection is used to judge adjustment. Correct slack prevents overload and whipping."
+  },
+  {
+    "id": 64,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A sprocket tooth profile is sharp and pointed. What does this indicate?",
+    "options": [
+      "Sprocket wear",
+      "New sprocket condition",
+      "Correct alignment",
+      "Proper lubrication only"
+    ],
+    "answer": 0,
+    "explanation": "Worn sprocket teeth may become pointed or hooked. They no longer mesh correctly with rollers. Worn sprockets shorten chain life."
+  },
+  {
+    "id": 65,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A chain is installed with the wrong pitch sprocket. What will happen?",
+    "options": [
+      "Poor meshing and rapid wear",
+      "Perfect quiet operation",
+      "Improved load sharing",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Chain pitch must match sprocket pitch. Mismatch prevents rollers from seating correctly. This can cause jumping, noise, and failure."
+  },
+  {
+    "id": 66,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "What is the function of an idler sprocket in a chain drive?",
+    "options": [
+      "Adjust tension or guide chain path",
+      "Increase shaft hardness",
+      "Seal lubricant inside a gearbox",
+      "Replace the driver sprocket"
+    ],
+    "answer": 0,
+    "explanation": "Idlers can maintain slack or change chain direction. They must be positioned correctly to avoid excess wear. Improper idler use can overload the chain."
+  },
+  {
+    "id": 67,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A chain drive guard has been removed. When may the drive be run?",
+    "options": [
+      "After the guard is reinstalled or equivalent protection is in place",
+      "Anytime if the chain is lubricated",
+      "Only at half speed with no guard",
+      "If workers stand close and watch"
+    ],
+    "answer": 0,
+    "explanation": "Chain drives create pinch and entanglement hazards. Guarding prevents contact with moving sprockets and chain. Maintenance guards must be restored before operation."
+  },
+  {
+    "id": 68,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A chain is noisy after installation. Sprocket alignment is off. What should be corrected?",
+    "options": [
+      "Sprocket alignment",
+      "Brake air gap",
+      "Gear oil colour",
+      "Seal lip direction"
+    ],
+    "answer": 0,
+    "explanation": "Misalignment causes side loading and noise. It wears sprocket teeth and chain plates. Alignment should be checked before final tensioning."
+  },
+  {
+    "id": 69,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "A chain is cleaned with solvent and then run dry. What is missing?",
+    "options": [
+      "Lubrication after cleaning",
+      "More solvent",
+      "Less guarding",
+      "Wrong gear ratio"
+    ],
+    "answer": 0,
+    "explanation": "Solvent removes old lubricant and dirt. The chain must be relubricated before service. Dry running causes fast joint wear."
+  },
+  {
+    "id": 70,
+    "category": "J1 — Select, install and maintain chain drive systems",
+    "question": "Why should excessive chain slack be avoided?",
+    "options": [
+      "Chain can whip, jump teeth, or derail",
+      "It always reduces wear",
+      "It improves sprocket contact",
+      "It lowers vibration always"
+    ],
+    "answer": 0,
+    "explanation": "Too much slack allows uncontrolled chain movement. This causes impact loading and possible derailment. Correct slack improves smooth power transmission."
+  },
+  {
+    "id": 71,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A V-belt drive has shiny glazed belt sides. What does this suggest?",
+    "options": [
+      "Slipping and heat",
+      "Perfect grip",
+      "Correct new belt condition",
+      "Too much chain oil"
+    ],
+    "answer": 0,
+    "explanation": "Glazing occurs when belts slip and overheat. It reduces friction and increases further slip. Tension, sheave wear, and overload should be checked."
+  },
+  {
+    "id": 72,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A sheave groove is worn wider than normal. What effect does this have?",
+    "options": [
+      "Reduced belt wedging and slip",
+      "Better grip",
+      "Higher belt rating",
+      "No change"
+    ],
+    "answer": 0,
+    "explanation": "V-belts grip on the sheave sidewalls. Worn grooves reduce contact and wedging action. New belts can fail quickly in worn sheaves."
+  },
+  {
+    "id": 73,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "Which condition causes the highest bearing load in a belt drive?",
+    "options": [
+      "Excessive belt tension",
+      "Correct belt tension",
+      "Light load and aligned sheaves",
+      "Proper run-in tension"
+    ],
+    "answer": 0,
+    "explanation": "Over-tight belts pull hard on shafts. This overloads bearings and can cause heat. Belt tension should be measured properly."
+  },
+  {
+    "id": 74,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A belt drive is aligned, tensioned, and guarded. What should be done after a short run-in?",
+    "options": [
+      "Recheck belt tension",
+      "Remove the guard permanently",
+      "Add belt dressing",
+      "Loosen all belts"
+    ],
+    "answer": 0,
+    "explanation": "New belts seat into sheave grooves. Tension may drop after initial operation. Rechecking prevents slip and early belt failure."
+  },
+  {
+    "id": 75,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A synchronous belt is overtightened. What can result?",
+    "options": [
+      "Bearing overload and belt tooth wear",
+      "Better life always",
+      "No pulley load",
+      "Automatic alignment"
+    ],
+    "answer": 0,
+    "explanation": "Synchronous belts need correct tension. Too much tension loads bearings and belt teeth. Manufacturer tension methods should be followed."
+  },
+  {
+    "id": 76,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A V-belt drive loses speed under load but motor speed remains normal. What is likely?",
+    "options": [
+      "Belt slip",
+      "Gear tooth pitting",
+      "Brake release",
+      "Bearing C3 clearance"
+    ],
+    "answer": 0,
+    "explanation": "If motor speed remains normal, power transfer is failing. Loose, worn, or glazed belts can slip under load. Sheave condition and tension should be inspected."
+  },
+  {
+    "id": 77,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "Why should matched belt sets not be mixed with old belts?",
+    "options": [
+      "Uneven load sharing",
+      "Better equal tension",
+      "Less vibration always",
+      "It increases belt rating"
+    ],
+    "answer": 0,
+    "explanation": "Old belts stretch and sit differently than new belts. They do not share the load evenly. This causes early failure of one or more belts."
+  },
+  {
+    "id": 78,
+    "category": "J2 — Select, install and maintain belt drive systems",
+    "question": "A belt shows cracks across the ribs. What is likely?",
+    "options": [
+      "Age, heat, or flex fatigue",
+      "Proper new belt condition",
+      "Correct installation always",
+      "Too much gearbox oil"
+    ],
+    "answer": 0,
+    "explanation": "Cracking shows rubber deterioration. Heat, age, ozone, or small pulley diameters can contribute. Cracked belts should be replaced."
+  },
+  {
+    "id": 79,
+    "category": "K1 — Select and install gear systems",
+    "question": "Which gear type has straight teeth and is used on parallel shafts?",
+    "options": [
+      "Spur gear",
+      "Bevel gear",
+      "Worm gear",
+      "Rack only"
+    ],
+    "answer": 0,
+    "explanation": "Spur gears have straight teeth. They are used between parallel shafts. They are simple but can be noisy at high speed."
+  },
+  {
+    "id": 80,
+    "category": "K1 — Select and install gear systems",
+    "question": "Which gear type changes direction between intersecting shafts, often at 90 degrees?",
+    "options": [
+      "Bevel gear",
+      "Spur gear",
+      "Roller chain",
+      "V-belt"
+    ],
+    "answer": 0,
+    "explanation": "Bevel gears transmit motion between intersecting shafts. They are commonly used for right-angle drives. Correct mounting position is important."
+  },
+  {
+    "id": 81,
+    "category": "K1 — Select and install gear systems",
+    "question": "Why should gears be installed with correct backlash?",
+    "options": [
+      "To allow lubricant film and prevent binding",
+      "To eliminate all clearance",
+      "To increase noise",
+      "To prevent tooth contact"
+    ],
+    "answer": 0,
+    "explanation": "Some clearance is needed between teeth. Too little backlash causes heat and binding. Too much backlash causes impact and noise."
+  },
+  {
+    "id": 82,
+    "category": "K1 — Select and install gear systems",
+    "question": "A gear is mounted on a tapered shaft. What is important during installation?",
+    "options": [
+      "Correct seating and contact on the taper",
+      "Grease on all locking surfaces always",
+      "Loose fit",
+      "No axial location"
+    ],
+    "answer": 0,
+    "explanation": "Tapered fits depend on full contact. Poor seating causes runout or slipping. Installation must follow specification."
+  },
+  {
+    "id": 83,
+    "category": "K1 — Select and install gear systems",
+    "question": "Helical gears run smoother than spur gears because:",
+    "options": [
+      "Tooth engagement is gradual",
+      "They have no thrust load",
+      "They require no lubrication",
+      "They never wear"
+    ],
+    "answer": 0,
+    "explanation": "Helical teeth contact progressively. This makes operation smoother and quieter. They also create axial thrust that must be supported."
+  },
+  {
+    "id": 84,
+    "category": "K1 — Select and install gear systems",
+    "question": "Why is tooth contact pattern checked after gear installation?",
+    "options": [
+      "To confirm correct load distribution",
+      "To measure oil colour",
+      "To set chain pitch",
+      "To choose welding current"
+    ],
+    "answer": 0,
+    "explanation": "Contact pattern shows where teeth mesh. Poor pattern indicates misalignment or wrong positioning. Correct pattern improves gear life."
+  },
+  {
+    "id": 85,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "A gear tooth has severe scoring. What is the most likely cause?",
+    "options": [
+      "Lubrication failure or overload",
+      "Correct gear mesh",
+      "Too much guarding",
+      "Proper oil film"
+    ],
+    "answer": 0,
+    "explanation": "Scoring occurs when surfaces slide without enough oil film. Heat and metal transfer damage the tooth surface. Oil type, level, and load should be checked."
+  },
+  {
+    "id": 86,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "A gearbox sight glass shows low oil level. What is the risk?",
+    "options": [
+      "Gear and bearing damage from starvation",
+      "Improved cooling",
+      "Less wear always",
+      "Better tooth contact"
+    ],
+    "answer": 0,
+    "explanation": "Low oil can starve gears and bearings. Friction and heat increase rapidly. The leak or consumption cause should be found."
+  },
+  {
+    "id": 87,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "A repeated clicking noise occurs once per gear revolution. What is likely?",
+    "options": [
+      "Damaged tooth or debris in gear mesh",
+      "Correct lubrication",
+      "Proper backlash",
+      "Good tooth contact"
+    ],
+    "answer": 0,
+    "explanation": "A once-per-revolution noise often points to a local defect. Damaged teeth or embedded debris can cause clicking. Inspection should be done before running further."
+  },
+  {
+    "id": 88,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "A gearbox oil sample shows water contamination. What problems may result?",
+    "options": [
+      "Rust, poor lubrication, and bearing damage",
+      "Stronger oil film",
+      "Reduced corrosion",
+      "Better gear cooling always"
+    ],
+    "answer": 0,
+    "explanation": "Water reduces oil film strength. It causes rust and can damage bearings and gear teeth. Seals, breathers, and washdown practices should be checked."
+  },
+  {
+    "id": 89,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "A gear contact pattern is too close to the tooth root. What may happen?",
+    "options": [
+      "High stress and poor load distribution",
+      "Perfect operation",
+      "Reduced tooth load",
+      "No wear possible"
+    ],
+    "answer": 0,
+    "explanation": "Poor contact pattern concentrates load. This can lead to pitting, noise, and tooth breakage. Gear position or alignment may need correction."
+  },
+  {
+    "id": 90,
+    "category": "K2 — Diagnose, maintain and repair gear systems",
+    "question": "Why should gearbox oil be changed at recommended intervals?",
+    "options": [
+      "Oil degrades and contamination builds up",
+      "Oil never wears out",
+      "New oil changes gear ratio",
+      "Old oil improves bearing life always"
+    ],
+    "answer": 0,
+    "explanation": "Heat, oxidation, wear particles, and water reduce oil quality. Poor oil causes gear and bearing wear. Scheduled oil changes support reliability."
+  },
+  {
+    "id": 91,
+    "category": "L1 — Perform rough alignment",
+    "question": "A motor and pump are far out of alignment after installation. What is the first alignment step?",
+    "options": [
+      "Rough alignment",
+      "Final dial readings",
+      "Run at full speed",
+      "Remove all shims"
+    ],
+    "answer": 0,
+    "explanation": "Rough alignment corrects large visible errors. It brings the machines close enough for precision alignment. Skipping this step makes final alignment harder."
+  },
+  {
+    "id": 92,
+    "category": "L1 — Perform rough alignment",
+    "question": "A straightedge across coupling rims shows one hub is much higher. What condition exists?",
+    "options": [
+      "Vertical offset misalignment",
+      "Correct angular alignment",
+      "Gear backlash",
+      "Seal wear"
+    ],
+    "answer": 0,
+    "explanation": "Offset means shaft centre lines are parallel but displaced. A height difference shows vertical offset. Shims are commonly used to correct this."
+  },
+  {
+    "id": 93,
+    "category": "L1 — Perform rough alignment",
+    "question": "Before final alignment, why should coupling halves be inspected?",
+    "options": [
+      "Worn or damaged couplings can affect readings and operation",
+      "Couplings do not affect alignment",
+      "Damage improves flexibility",
+      "Inspection changes shaft speed"
+    ],
+    "answer": 0,
+    "explanation": "Damaged couplings may have runout or looseness. This can create false readings and vibration. Coupling condition should be verified before precision work."
+  },
+  {
+    "id": 94,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "In dial alignment, what does TIR mean?",
+    "options": [
+      "Total indicated reading",
+      "Torque inspection ratio",
+      "Thread inside radius",
+      "Thermal input rating"
+    ],
+    "answer": 0,
+    "explanation": "TIR is the full movement shown by the dial indicator. It is used to measure runout or alignment error. Understanding TIR is essential for dial work."
+  },
+  {
+    "id": 95,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "A dial indicator reads +0.20 mm at top and -0.20 mm at bottom during rim readings. What does this indicate?",
+    "options": [
+      "Vertical offset condition",
+      "Oil contamination",
+      "Gear tooth wear only",
+      "Belt slip"
+    ],
+    "answer": 0,
+    "explanation": "Opposite top and bottom readings show vertical position difference. Rim readings are used to evaluate offset. Corrections usually involve shimming or lowering the machine."
+  },
+  {
+    "id": 96,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "Why should indicator tips contact the surface at a proper angle?",
+    "options": [
+      "Poor contact angle causes measurement error",
+      "It increases grease flow",
+      "It changes shaft hardness",
+      "It removes soft foot"
+    ],
+    "answer": 0,
+    "explanation": "Dial indicators measure movement along the plunger direction. Angled contact can create cosine error. Correct setup improves reading accuracy."
+  },
+  {
+    "id": 97,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "A machine is aligned, then piping is connected and readings change. What is the likely problem?",
+    "options": [
+      "Pipe strain",
+      "Correct final alignment",
+      "Bearing preload",
+      "Chain wear"
+    ],
+    "answer": 0,
+    "explanation": "Pipe strain applies external force to the machine. It can move or distort pump casings. Piping should align without forcing equipment."
+  },
+  {
+    "id": 98,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "What is the purpose of checking repeatability during dial alignment?",
+    "options": [
+      "To confirm readings are reliable",
+      "To change the gear ratio",
+      "To increase belt tension",
+      "To heat the bearing"
+    ],
+    "answer": 0,
+    "explanation": "Repeatable readings show the setup is stable. Poor repeatability may mean loose brackets, backlash, or dirty surfaces. Reliable readings are needed before making corrections."
+  },
+  {
+    "id": 99,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "Why should shim packs be kept to a reasonable number of shims?",
+    "options": [
+      "Too many shims can create instability and soft foot",
+      "More shims always improve support",
+      "Shim count does not matter",
+      "Shims replace anchor bolts"
+    ],
+    "answer": 0,
+    "explanation": "Many thin shims can trap dirt and compress unevenly. This can cause soft foot or changing alignment. Use clean, suitable shim combinations."
+  },
+  {
+    "id": 100,
+    "category": "L2 — Perform dial alignment procedures",
+    "question": "After final alignment is complete, what should be documented?",
+    "options": [
+      "Final readings, shim changes, and machine condition",
+      "Only worker name",
+      "Lunch time",
+      "Paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Alignment records help future troubleshooting. They show what corrections were made and final condition. Good documentation supports maintenance history. ---"
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledIndustrialMechanicMillwrightLevel2Set4Questions =
+  shuffleArray(industrialMechanicMillwrightLevel2Set4Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "industrial-mechanic-millwright",
+  tradeTitle: "Industrial Mechanic Millwright",
+  sectionTitle: "Level 2 – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledIndustrialMechanicMillwrightLevel2Set4Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledIndustrialMechanicMillwrightLevel2Set4Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

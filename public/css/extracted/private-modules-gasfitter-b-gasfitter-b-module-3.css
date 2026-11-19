@@ -1,0 +1,37 @@
+
+
+/* Extracted from private/modules/gasfitter-b/gasfitter-b-module-3.html */
+body { font-family: Arial, sans-serif; margin: 0; background: #faf8f7; color: #252b31; }
+    .container { max-width: 1180px; margin: 0 auto; padding: 24px; }
+    .hero-card, .card { background: #fff; border-radius: 16px; padding: 22px; margin-bottom: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+    .hero-card { background: linear-gradient(135deg, #191c20, #8a1e23); color: #fff; }
+    .hero-badges, .top-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .hero-badge, .pill { display: inline-block; padding: 8px 12px; border-radius: 999px; background: rgba(255,255,255,.14); margin: 4px; }
+    .pill { background: #f9f6f4; color: #8a1e23; font-weight: 600; }
+    .space-between { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
+    .muted { color: #6b7280; } .small { font-size: 13px; }
+    .menu-grid { display: grid; gap: 14px; } .grid-2 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    label { display:block; font-weight:700; margin-bottom:6px; }
+    select, input[type="number"], input[type="text"] { width: 100%; padding: 10px; border: 1px solid #e4dcdd; border-radius: 10px; box-sizing: border-box; }
+    .btn { border: 1px solid #e8d8d9; background:#fff; padding:10px 14px; border-radius:10px; cursor:pointer; font-weight:700; }
+    .btn:hover { background:#f7f5f2; } .btn-primary { background:#ca2129; color:#fff; border-color:#ca2129; } .btn-danger { background:#dc2626; color:#fff; border-color:#dc2626; }
+    .hidden { display:none !important; }
+    .quiz-grid { display:grid; }
+    .timer-box { font-weight:800; background:#181c20; color:white; padding:10px 14px; border-radius:10px; }
+    .progress-wrap { height: 10px; background:#ebe5e5; border-radius:999px; overflow:hidden; margin:12px 0; }
+    .progress-bar { height:100%; background:#ca2129; width:0%; }
+    .option { display:block; width:100%; text-align:left; padding:12px; margin:8px 0; border:1px solid #e4dcdd; border-radius:12px; background:#fff; cursor:pointer; }
+    .option.selected { border-color:#ca2129; background:#f9f7f5; }
+    .option.correct { border-color:#16a34a; background:#dcfce7; }
+    .option.wrong { border-color:#dc2626; background:#fee2e2; }
+    .hint-box { padding:12px; border-radius:12px; background:#fff7ed; border:1px solid #fed7aa; margin-bottom:12px; }
+    .hint-title { font-weight:800; margin-bottom:4px; }
+    .nav-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); gap:8px; }
+    .nav-btn { padding:9px; border-radius:10px; border:1px solid #e8d8d9; cursor:pointer; background:#fff; }
+    .nav-btn.answered { background:#f7e2e3; border-color:#ca2129; }
+    .nav-btn.current { background:#181c20; color:#fff; }
+    .stats { display:grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap:12px; }
+    .stat-box { background:#fbfaf9; border:1px solid #ebe5e5; padding:14px; border-radius:12px; font-weight:800; }
+    .review-card { border:1px solid #ebe5e5; border-radius:14px; padding:14px; margin:12px 0; background:#fff; }
+    .ocean-item { border-bottom:1px solid #ebe5e5; padding:14px 0; }
+    @media (max-width: 800px) { .quiz-grid { grid-template-columns: 1fr !important; } }

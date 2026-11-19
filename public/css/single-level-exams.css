@@ -1,0 +1,23 @@
+:root{--sl-blue:#ca2129;--sl-purple:#ca2129;--sl-text:#20252a;--sl-muted:#697380;--sl-border:#f2dcdd;--sl-bg:#faf8f6}
+body{background:var(--sl-bg)}
+.sl-page{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:42px 0 72px}
+.sl-hero{padding:38px;border:1px solid var(--sl-border);border-radius:26px;background:linear-gradient(135deg,#fff 0%,#f9f7f5 58%,#f8f6f4 100%);box-shadow:0 20px 50px rgba(175,30,37,.09)}
+.sl-kicker{display:inline-flex;padding:7px 12px;border-radius:999px;background:#f6f3f1;color:#ca2129;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.sl-hero h1,.sl-price-card h1{margin:14px 0 10px;color:var(--sl-text);font-size:clamp(2rem,5vw,3.6rem);line-height:1.05}
+.sl-hero p,.sl-price-card p{max-width:790px;color:var(--sl-muted);font-size:1.05rem;line-height:1.7}
+.sl-points{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.sl-points span{background:#fff;border:1px solid var(--sl-border);border-radius:12px;padding:10px 13px;font-weight:700;color:#6d1b1f}
+.sl-filter-card{margin:24px 0;padding:20px;background:#fff;border:1px solid var(--sl-border);border-radius:18px;box-shadow:0 10px 25px rgba(25,28,32,.05)}
+.sl-filter-card label{display:block;font-weight:800;margin-bottom:8px}.sl-filter-card input{width:100%;padding:14px 16px;border:1px solid #eed9da;border-radius:12px;font:inherit}.sl-muted{color:var(--sl-muted);margin:10px 0 0}
+.sl-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.sl-trade-card{background:#fff;border:1px solid var(--sl-border);border-radius:20px;padding:22px;box-shadow:0 12px 30px rgba(25,28,32,.06);transition:.2s}.sl-trade-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(25,28,32,.11)}.sl-trade-card h2{margin:0 0 6px;color:var(--sl-text);font-size:1.2rem}.sl-level-list{display:grid;gap:10px;margin-top:18px}.sl-level-link{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:12px;background:#fcfbf9;border:1px solid #f6e2e3;color:#ca2129!important;font-weight:800;text-decoration:none}.sl-level-link:hover{background:#f7f4f2}.sl-level-link strong{color:#ef4444}
+.sl-pricing-wrap{display:grid;place-items:center;min-height:70vh}.sl-price-card{width:min(650px,100%);padding:38px;background:#fff;border:1px solid var(--sl-border);border-radius:26px;box-shadow:0 22px 55px rgba(25,28,32,.12)}.sl-price{font-size:3.4rem;font-weight:900;color:var(--sl-purple);margin:14px 0}.sl-price small{font-size:1rem;color:var(--sl-muted)}.sl-price-card ul{padding-left:22px;color:#4e555f;line-height:1.9}.sl-buy-btn{width:100%;border:0;border-radius:13px;padding:15px 18px;background:linear-gradient(90deg,var(--sl-blue),var(--sl-purple));color:#fff;font-weight:900;font-size:1rem;cursor:pointer;box-shadow:0 12px 25px rgba(202,33,41,.24)}.sl-back{display:inline-block;margin-top:18px;color:#ba2f36!important;font-weight:700;text-decoration:none}.single-level-access-banner{position:relative;z-index:10;margin:0 auto;padding:12px 20px;background:#fff7db;border-bottom:1px solid #f0d477;color:#654d00;text-align:center;font-family:Arial,sans-serif}
+@media(max-width:900px){.sl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.sl-page{width:min(100% - 20px,1180px);padding-top:20px}.sl-hero,.sl-price-card{padding:24px}.sl-grid{grid-template-columns:1fr}}
+.sl-trade-card .premium-access-strip{margin-top:18px}.sl-trade-card{overflow:hidden}
+@media(max-width:620px){.sl-trade-card{padding:18px}.sl-level-link{padding:13px 12px}.premium-price-line{align-items:flex-start;flex-direction:column;gap:2px}}
+
+
+/* Information-only final technical-training level */
+.sl-training-link{background:#fff8e6;border-color:#e8c76c;color:#725300!important}
+.sl-training-link:hover{background:#fff2c9}
+.sl-training-link strong{color:#725300}
+.sl-level-link span{display:grid;gap:4px}
+.sl-level-link small{display:block;color:var(--sl-muted);font-weight:600;line-height:1.35}

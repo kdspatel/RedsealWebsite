@@ -1,0 +1,72 @@
+:root{--rspx-blue:#ca2129;--rspx-blue-dark:#ae1c24;--rspx-navy:#21262b;--rspx-text:#242a30;--rspx-muted:#6c7684;--rspx-line:#f2e3e4;--rspx-soft:#fbfaf8;--rspx-white:#fff;--rspx-shadow:0 10px 28px rgba(40,47,54,.08)}
+#site-navbar,#site-footer{width:100%;display:block;position:relative;z-index:3000;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+#site-navbar * ,#site-footer *{box-sizing:border-box}
+.rspx-notice{min-height:31px;padding:7px 16px;display:flex;align-items:center;justify-content:center;gap:7px;background:#fff8e5;border-bottom:1px solid #f0dda0;color:#604a16;font-size:12px;font-weight:700;text-align:center}
+.rspx-notice a{color:#c82029;text-decoration:underline;font-weight:800}
+.rspx-header{width:100%;background:#fff;border-bottom:1px solid var(--rspx-line);box-shadow:0 5px 18px rgba(42,48,55,.06);position:relative;z-index:3001}
+.rspx-header-inner{width:min(100% - 32px,1400px);min-height:78px;margin:0 auto;padding:0 4px;display:flex;align-items:center;gap:28px;background:#fff}
+.rspx-logo{display:flex;align-items:center;gap:11px;min-width:236px;text-decoration:none;color:var(--rspx-text)}
+.rspx-logo-mark{width:35px;height:42px;display:grid;place-items:center;flex:0 0 auto;color:#fff;font-size:22px;font-weight:900;background:linear-gradient(145deg,#ca2129,#ca2129);clip-path:polygon(50% 0,90% 16%,83% 72%,50% 100%,17% 72%,10% 16%);filter:drop-shadow(0 5px 8px rgba(202,33,41,.2))}
+.rspx-logo-copy{display:flex;flex-direction:column;line-height:1.05}
+.rspx-logo-copy strong{font-size:18px;letter-spacing:-.02em;color:var(--rspx-navy)}
+.rspx-logo-copy small{margin-top:5px;font-size:9px;font-weight:700;color:#7a8492}
+.rspx-nav{margin-left:auto;display:flex;align-items:center;gap:3px;white-space:nowrap}
+.rspx-nav>a,.rspx-dropdown-button{min-height:42px;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;background:transparent;color:var(--rspx-text);font:800 13px/1 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;text-decoration:none;cursor:pointer;transition:background .16s ease,color .16s ease}
+.rspx-nav>a:hover,.rspx-dropdown-button:hover,.rspx-nav>a.rspx-active{background:#f8f6f4;color:#ca2129}
+.rspx-dropdown{position:relative}
+.rspx-dropdown-button span{margin-left:5px;font-size:12px}
+.rspx-dropdown-menu{display:none;position:absolute;top:calc(100% + 10px);left:0;width:235px;padding:9px;background:#fff;border:1px solid var(--rspx-line);border-radius:15px;box-shadow:0 18px 45px rgba(42,48,55,.15);z-index:3100}
+.rspx-dropdown-menu-right{left:auto;right:0}
+.rspx-dropdown.rspx-expanded>.rspx-dropdown-menu{display:grid}
+.rspx-dropdown-menu a{padding:11px 12px;border-radius:9px;color:var(--rspx-text);font-size:13px;font-weight:700;text-decoration:none}
+.rspx-dropdown-menu a:hover,.rspx-dropdown-menu a.rspx-active{background:#f9f8f6;color:#ca2129}
+.rspx-auth{display:flex;align-items:center;gap:8px;margin-left:8px}
+.rspx-login,.rspx-signup,.rspx-user-button{min-height:42px;padding:0 15px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:13px;font-weight:850;text-decoration:none}
+.rspx-login{border:1px solid #eedadb;color:var(--rspx-text);background:#fff}
+.rspx-signup{border:1px solid transparent;color:#fff;background:linear-gradient(135deg,#ca2129,#ca2129);box-shadow:0 8px 20px rgba(202,33,41,.2)}
+.rspx-user{position:relative}.rspx-user-button{border:1px solid #eedadb;background:#fff;color:var(--rspx-text);cursor:pointer}
+.rspx-user-menu{display:none;position:absolute;right:0;top:calc(100% + 10px);width:210px;padding:9px;background:#fff;border:1px solid var(--rspx-line);border-radius:14px;box-shadow:0 18px 45px rgba(42,48,55,.15)}
+.rspx-user.rspx-expanded .rspx-user-menu{display:grid}
+.rspx-user-menu a,.rspx-user-menu button{padding:10px 11px;border:0;border-radius:8px;background:transparent;color:var(--rspx-text);font:700 13px/1.3 Inter,ui-sans-serif,system-ui;text-decoration:none;text-align:left;cursor:pointer}
+.rspx-user-menu a:hover,.rspx-user-menu button:hover{background:#f9f8f6;color:#ca2129}
+.rspx-menu-button,.rspx-overlay{display:none}
+
+.rspx-footer{margin-top:72px;background:#fff;border-top:1px solid var(--rspx-line);color:var(--rspx-text)}
+.rspx-footer-inner{width:min(100% - 40px,1140px);margin:0 auto;padding:58px 0 24px;display:grid;grid-template-columns:1.45fr repeat(3,1fr);gap:54px 44px}
+.rspx-footer-intro p{max-width:330px;margin:18px 0;color:var(--rspx-muted);font-size:14px;line-height:1.75}
+.rspx-footer-logo{display:inline-flex;align-items:center;gap:10px;color:var(--rspx-navy);font-size:18px;font-weight:900;text-decoration:none}
+.rspx-footer-logo .rspx-logo-mark{width:28px;height:34px;font-size:17px}
+.rspx-footer-cta{display:inline-flex;min-height:42px;padding:0 15px;align-items:center;border-radius:10px;background:#f8f6f4;color:#ca2129;font-size:13px;font-weight:850;text-decoration:none}
+.rspx-footer-column{display:flex;flex-direction:column;gap:12px}
+.rspx-footer-column h3{margin:0 0 5px;color:var(--rspx-navy);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.rspx-footer-column a{color:#5d6571;font-size:14px;text-decoration:none}
+.rspx-footer-column a:hover{color:#ca2129}
+.rspx-footer-bottom{grid-column:1/-1;padding-top:20px;border-top:1px solid var(--rspx-line);display:flex;justify-content:space-between;gap:28px;color:#7d8795;font-size:12px;line-height:1.5}
+
+/* Isolated trade cards — page CSS cannot restyle these. */
+#tradesGrid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;align-items:stretch!important}
+.rspx-trade-card{min-width:0;display:flex;flex-direction:column;padding:24px;background:#fff;border:1px solid #f0dfe0;border-radius:18px;box-shadow:0 8px 24px rgba(45,52,59,.06);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;overflow:hidden}
+.rspx-trade-card:hover{transform:translateY(-3px);border-color:#f3d5d7;box-shadow:0 16px 36px rgba(45,52,59,.11)}
+.rspx-trade-head{display:flex;align-items:flex-start;gap:14px}
+.rspx-trade-icon{width:48px;height:48px;display:grid;place-items:center;flex:0 0 auto;border-radius:13px;background:#f9f6f4;border:1px solid #f7e2e3;font-size:24px}
+.rspx-trade-heading{min-width:0}.rspx-trade-category{display:inline-flex;padding:5px 9px;border-radius:999px;background:#faf8f6;color:#5a626d;font-size:10px;font-weight:800;line-height:1.2}.rspx-trade-title{margin:8px 0 0;color:#21262b;font-size:19px;font-weight:900;line-height:1.25}
+.rspx-trade-description{margin:17px 0 16px;color:#6a7482;font-size:13px;line-height:1.65}
+.rspx-trade-features{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin:0 0 18px;color:#565d69;font-size:12px}
+.rspx-trade-features span:before{content:'✓';margin-right:6px;color:#ca2129;font-weight:900}
+.rspx-trade-price{margin-top:auto;padding:13px 14px;border:1px solid #f1e0e1;border-radius:12px;background:#fcfcfb;display:flex;justify-content:space-between;align-items:center;gap:12px}.rspx-trade-price strong{color:#21262b;font-size:15px}.rspx-trade-price span{color:#6f7988;font-size:11px;text-align:right}
+.rspx-trade-primary{margin-top:14px;min-height:44px;display:flex;align-items:center;justify-content:center;border-radius:11px;background:#fff;border:1px solid #f4d8d9;color:#ca2129;font-size:13px;font-weight:900;text-decoration:none;transition:.16s ease}.rspx-trade-primary:hover{background:#f8f6f4;border-color:#e7aeb1}
+.rspx-trade-links{display:flex;gap:8px;margin-top:10px}.rspx-trade-links a{flex:1;min-width:0;padding:9px 6px;border-radius:9px;background:#faf8f6;color:#515964;font-size:11px;font-weight:800;text-align:center;text-decoration:none}.rspx-trade-links a:hover{background:#f7f4f2;color:#c72029}
+.rspx-trade-buy{margin-top:12px;min-height:46px;display:flex;align-items:center;justify-content:center;border-radius:11px;background:linear-gradient(135deg,#ca2129,#ca2129);color:#fff!important;font-size:13px;font-weight:900;text-decoration:none;box-shadow:0 9px 20px rgba(202,33,41,.18)}
+.rspx-trade-buy.rspx-owned{background:linear-gradient(135deg,#13875b,#19aa72)}
+
+@media(max-width:1260px){
+ .rspx-header-inner{width:min(100% - 24px,1400px);gap:16px}.rspx-logo{min-width:205px}.rspx-logo-copy strong{font-size:17px}.rspx-nav>a,.rspx-dropdown-button{padding:0 7px;font-size:12px}.rspx-auth{margin-left:3px}
+}
+@media(max-width:1100px){
+ body.rspx-menu-open{overflow:hidden}.rspx-header-inner{min-height:70px}.rspx-menu-button{margin-left:auto;width:44px;height:44px;border:1px solid #f3e6e6;border-radius:11px;background:#fff;display:grid;place-content:center;gap:5px;cursor:pointer;z-index:3302}.rspx-menu-button span{display:block;width:20px;height:2px;background:#242a30;border-radius:9px}.rspx-overlay{position:fixed;inset:0;background:rgba(24,28,32,.45);z-index:3200}.rspx-header.rspx-open .rspx-overlay{display:block}.rspx-nav{position:fixed;top:0;right:0;bottom:0;width:min(88vw,390px);padding:88px 22px 30px;display:flex;flex-direction:column;align-items:stretch;gap:5px;background:#fff;box-shadow:-18px 0 50px rgba(27,31,35,.22);z-index:3301;overflow-y:auto;transform:translateX(105%);transition:transform .22s ease}.rspx-header.rspx-open .rspx-nav{transform:translateX(0)}.rspx-nav>a,.rspx-dropdown-button{width:100%;min-height:48px;justify-content:flex-start;padding:0 14px;font-size:14px}.rspx-dropdown-menu,.rspx-dropdown-menu-right{position:static;width:100%;margin:4px 0;box-shadow:none;background:#fbfaf8}.rspx-auth{margin:12px 0 0;display:grid}.rspx-login,.rspx-signup,.rspx-user-button{width:100%;min-height:46px}.rspx-footer-inner{grid-template-columns:1.3fr 1fr 1fr}.rspx-footer-intro{grid-column:1/-1}
+ #tradesGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:700px){
+ .rspx-notice{font-size:10px;padding:6px 10px}.rspx-header-inner{width:100%;padding:0 14px}.rspx-logo{min-width:0}.rspx-logo-copy strong{font-size:16px}.rspx-logo-copy small{display:none}.rspx-logo-mark{width:31px;height:38px;font-size:19px}.rspx-footer{margin-top:48px}.rspx-footer-inner{width:min(100% - 32px,1140px);padding:42px 0 22px;grid-template-columns:1fr;gap:30px}.rspx-footer-intro{grid-column:auto}.rspx-footer-bottom{grid-column:auto;flex-direction:column;gap:7px}
+ #tradesGrid{grid-template-columns:1fr!important;gap:16px!important}.rspx-trade-card{padding:20px}.rspx-trade-links{display:grid;grid-template-columns:1fr 1fr}.rspx-trade-features{grid-template-columns:1fr}.rspx-trade-price{align-items:flex-start;flex-direction:column}.rspx-trade-price span{text-align:left}
+}

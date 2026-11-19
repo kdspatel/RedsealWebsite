@@ -1,0 +1,1343 @@
+const concreteFinisherIpExamSet2Questions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Performs safety-related functions",
+    "question": "A worker is dry-cutting concrete in an enclosed area and dust is visible in the air. What is the best control?",
+    "options": [
+      "Use wet cutting or dust extraction with respiratory protection",
+      "Continue cutting because dust is normal",
+      "Sweep the dust after the cut is complete",
+      "Add water to the concrete mix"
+    ],
+    "answer": 0,
+    "explanation": "Dry cutting can create respirable silica dust. Dust must be controlled at the source and workers must use proper PPE."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Performs safety-related functions",
+    "question": "A worker gets wet concrete inside their boot. What should they do?",
+    "options": [
+      "Remove the boot and wash the skin immediately",
+      "Wait until break time",
+      "Add dry cement to absorb moisture",
+      "Keep working if there is no pain"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete can cause chemical burns even before pain is felt. Contaminated clothing or boots should be removed and skin washed."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Performs safety-related functions",
+    "question": "A concrete pump hose plugs and pressure builds. What is the safest action?",
+    "options": [
+      "Keep workers clear and follow pump operator procedure",
+      "Stand in front of the hose to control it",
+      "Hit the hose while it is pressurized",
+      "Disconnect the hose immediately under pressure"
+    ],
+    "answer": 0,
+    "explanation": "Pressurized hoses can whip or discharge suddenly. Only trained workers should clear blockages using safe procedures."
+  },
+  {
+    "id": 4,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A power trowel starts vibrating unusually during finishing. What should the operator do?",
+    "options": [
+      "Stop, shut it down, and inspect it",
+      "Increase speed to smooth it out",
+      "Remove the guard",
+      "Continue until the slab is finished"
+    ],
+    "answer": 0,
+    "explanation": "Unusual vibration may mean loose or damaged parts. Unsafe equipment should be stopped and inspected before use."
+  },
+  {
+    "id": 5,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A concrete saw blade is binding in the cut. What is the main concern?",
+    "options": [
+      "Kickback or blade damage",
+      "Better joint control",
+      "Faster curing",
+      "More accurate slump"
+    ],
+    "answer": 0,
+    "explanation": "Binding can cause the saw to kick back or damage the blade. The cut, blade type, and saw operation should be checked."
+  },
+  {
+    "id": 6,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A worker uses a bull float with a damaged handle connection. What is the risk?",
+    "options": [
+      "Loss of control and poor finish",
+      "Stronger surface paste",
+      "Faster concrete setting",
+      "Better edge finish"
+    ],
+    "answer": 0,
+    "explanation": "Damaged handles can fail during use. Tool condition affects both safety and finish quality."
+  },
+  {
+    "id": 7,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A vibrator is used without checking the head size for the form spacing. What could happen?",
+    "options": [
+      "Poor consolidation or reinforcement displacement",
+      "Better curing",
+      "Lower form pressure",
+      "Automatic joint control"
+    ],
+    "answer": 0,
+    "explanation": "The vibrator must fit between reinforcement and forms. Wrong size can leave voids or disturb reinforcement."
+  },
+  {
+    "id": 8,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "Why should measuring equipment be checked before layout?",
+    "options": [
+      "Damaged equipment can cause wrong elevations or dimensions",
+      "It improves concrete strength directly",
+      "It removes the need for drawings",
+      "It makes curing compound unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Layout depends on accurate measurements. Faulty levels, tapes, or lasers can create costly placement errors."
+  },
+  {
+    "id": 9,
+    "category": "Task 3 — Organizes work",
+    "question": "A slab pour requires 6 m³, but trucks are scheduled with long gaps between loads. What is the main risk?",
+    "options": [
+      "Cold joints and finishing delays",
+      "Better consolidation",
+      "Lower evaporation",
+      "More uniform setting"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must be placed within a workable time. Long delays between loads can create cold joints and poor finish timing."
+  },
+  {
+    "id": 10,
+    "category": "Task 3 — Organizes work",
+    "question": "A crew starts a large pour without checking weather. Hot wind arrives during finishing. What was missed?",
+    "options": [
+      "Planning for evaporation and curing protection",
+      "Rebar tying only",
+      "Form removal timing only",
+      "Tool cleaning after work"
+    ],
+    "answer": 0,
+    "explanation": "Weather affects setting, finishing, and curing. Hot wind can cause rapid moisture loss and plastic shrinkage cracks."
+  },
+  {
+    "id": 11,
+    "category": "Task 3 — Organizes work",
+    "question": "A slab is 12 m × 5 m × 0.125 m thick. What volume of concrete is required before waste allowance?",
+    "options": [
+      "7.5 m³",
+      "17.0 m³",
+      "60.0 m³",
+      "1.5 m³"
+    ],
+    "answer": 0,
+    "explanation": "Volume = length × width × thickness. 12 × 5 × 0.125 = 7.5 m³."
+  },
+  {
+    "id": 12,
+    "category": "Task 3 — Organizes work",
+    "question": "A repair area is 3.5 m × 2 m × 75 mm deep. What volume is required?",
+    "options": [
+      "0.525 m³",
+      "5.25 m³",
+      "7.5 m³",
+      "0.075 m³"
+    ],
+    "answer": 0,
+    "explanation": "Convert 75 mm to 0.075 m. Volume = 3.5 × 2 × 0.075 = 0.525 m³."
+  },
+  {
+    "id": 13,
+    "category": "Task 4 — Uses communication and mentoring techniques",
+    "question": "A new worker does not understand the signal from the pump operator. What should happen?",
+    "options": [
+      "Stop and clarify the signal before continuing",
+      "Guess based on the hose movement",
+      "Ignore the operator",
+      "Move closer to the hose outlet"
+    ],
+    "answer": 0,
+    "explanation": "Miscommunication around pumps can be dangerous. Workers should understand signals before work continues."
+  },
+  {
+    "id": 14,
+    "category": "Task 4 — Uses communication and mentoring techniques",
+    "question": "A lead hand sees a learner adding water to the surface during finishing. What should the lead hand do?",
+    "options": [
+      "Stop the practice and explain the defect risk",
+      "Allow it because it makes finishing easier",
+      "Tell the learner to add more cement too",
+      "Ignore it until the slab hardens"
+    ],
+    "answer": 0,
+    "explanation": "Adding water to the surface weakens the paste. Mentoring includes correcting unsafe or poor-quality practices immediately."
+  },
+  {
+    "id": 15,
+    "category": "Task 5 — Prepares site",
+    "question": "A slab is planned over compacted granular base, but one area pumps under foot pressure. What should be done?",
+    "options": [
+      "Remove or repair the weak area and recompact",
+      "Place concrete quickly over it",
+      "Add dry cement over the base",
+      "Increase troweling pressure later"
+    ],
+    "answer": 0,
+    "explanation": "A soft base can settle and crack the slab. Weak areas must be corrected before placement."
+  },
+  {
+    "id": 16,
+    "category": "Task 5 — Prepares site",
+    "question": "The vapour barrier is punctured in many places before an interior slab pour. What is the concern?",
+    "options": [
+      "Moisture protection may be reduced",
+      "Concrete will not set",
+      "Screeding becomes impossible",
+      "Air entrainment increases"
+    ],
+    "answer": 0,
+    "explanation": "A damaged vapour barrier may allow moisture movement. It should be repaired according to project requirements before pouring."
+  },
+  {
+    "id": 17,
+    "category": "Task 5 — Prepares site",
+    "question": "A drain is set 15 mm higher than the required finished slab elevation. What is the likely result?",
+    "options": [
+      "Water will pond around the drain",
+      "Drainage will improve",
+      "Concrete volume will decrease only",
+      "The slab will cure faster"
+    ],
+    "answer": 0,
+    "explanation": "A drain must be low enough to collect water. If it is too high, water cannot flow into it properly."
+  },
+  {
+    "id": 18,
+    "category": "Task 5 — Prepares site",
+    "question": "Concrete is scheduled on frozen subgrade. Why is this a problem?",
+    "options": [
+      "Thawing can cause settlement and cracking",
+      "Frozen ground improves support permanently",
+      "Concrete will not need curing",
+      "Bleed water disappears faster"
+    ],
+    "answer": 0,
+    "explanation": "Frozen subgrade can thaw and lose bearing. This may lead to slab movement and cracking."
+  },
+  {
+    "id": 19,
+    "category": "Task 5 — Prepares site",
+    "question": "A slab must match an existing doorway threshold. What should be checked before the pour?",
+    "options": [
+      "Finished elevation and transitions",
+      "Trowel colour",
+      "Worker boot size",
+      "Broom bristle length only"
+    ],
+    "answer": 0,
+    "explanation": "Finished elevation affects doorway clearance and transitions. Checking before placement prevents costly corrections."
+  },
+  {
+    "id": 20,
+    "category": "Task 6 — Uses formwork",
+    "question": "A form line bows outward during placement. What is the likely cause?",
+    "options": [
+      "Insufficient bracing or staking",
+      "Too much curing compound",
+      "Proper screeding",
+      "Correct concrete temperature"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete creates pressure on forms. Forms must be braced strongly enough to hold line and grade."
+  },
+  {
+    "id": 21,
+    "category": "Task 6 — Uses formwork",
+    "question": "A form release agent is sprayed heavily and runs onto reinforcement. What is the concern?",
+    "options": [
+      "Bond between concrete and reinforcement may be reduced",
+      "Concrete will gain strength faster",
+      "Forms will be impossible to remove",
+      "Slab will have better traction"
+    ],
+    "answer": 0,
+    "explanation": "Oil or release agent on steel can interfere with bonding. Release agents should be applied carefully."
+  },
+  {
+    "id": 22,
+    "category": "Task 6 — Uses formwork",
+    "question": "Forms are stripped from a vertical face too early. What can happen?",
+    "options": [
+      "Corners or edges may break",
+      "Concrete becomes stronger",
+      "Joints become deeper",
+      "Bleed water increases"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs enough strength before form removal. Early stripping can damage edges and faces."
+  },
+  {
+    "id": 23,
+    "category": "Task 6 — Uses formwork",
+    "question": "Before a pour, a worker notices form stakes are loose. What should be done?",
+    "options": [
+      "Secure the stakes before concrete placement",
+      "Place concrete carefully around them",
+      "Add water to reduce pressure",
+      "Remove all bracing"
+    ],
+    "answer": 0,
+    "explanation": "Loose stakes can allow forms to move. Formwork must be stable before placing concrete."
+  },
+  {
+    "id": 24,
+    "category": "Task 7 — Places concrete",
+    "question": "Concrete is discharged in one large pile and dragged across the slab with rakes. What is the concern?",
+    "options": [
+      "Segregation and uneven thickness",
+      "Better paste distribution",
+      "Faster curing",
+      "Less labour risk only"
+    ],
+    "answer": 0,
+    "explanation": "Concrete should be placed near its final position. Excessive dragging can separate materials and delay finishing."
+  },
+  {
+    "id": 25,
+    "category": "Task 7 — Places concrete",
+    "question": "A worker adds water to the truck because the concrete looks stiff, without approval. What is the main issue?",
+    "options": [
+      "The specified mix may be changed",
+      "Slab thickness increases",
+      "Forms become stronger",
+      "Reinforcement cover improves"
+    ],
+    "answer": 0,
+    "explanation": "Adding water changes the water-cement ratio and may reduce performance. Any adjustment should follow approved procedures."
+  },
+  {
+    "id": 26,
+    "category": "Task 7 — Places concrete",
+    "question": "A wall pour shows honeycombing after stripping. Which placement issue may have contributed?",
+    "options": [
+      "Poor consolidation around reinforcement",
+      "Too many curing blankets",
+      "Saw cuts too deep",
+      "Brooming too late"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must flow around bars and into corners. Poor consolidation can leave voids and rock pockets."
+  },
+  {
+    "id": 27,
+    "category": "Task 7 — Places concrete",
+    "question": "A pump hose outlet is moved too fast across the pour area. What can happen?",
+    "options": [
+      "Uneven placement and poor consolidation",
+      "More uniform finishing",
+      "Better form alignment",
+      "Less need for screeding"
+    ],
+    "answer": 0,
+    "explanation": "Placement rate must allow workers to spread and consolidate concrete. Moving too quickly can leave low areas or voids."
+  },
+  {
+    "id": 28,
+    "category": "Task 7 — Places concrete",
+    "question": "Concrete is placed in a deep form without controlling lift thickness. What is the risk?",
+    "options": [
+      "Incomplete consolidation and form pressure problems",
+      "Easier finishing only",
+      "Lower form pressure always",
+      "No need for vibration"
+    ],
+    "answer": 0,
+    "explanation": "Deep lifts are harder to consolidate properly. Excessive lift height can also increase pressure on forms."
+  },
+  {
+    "id": 29,
+    "category": "Task 7 — Places concrete",
+    "question": "Concrete begins setting before placement is complete. What is the best job-site response?",
+    "options": [
+      "Communicate, prioritize finishing, and avoid adding surface water",
+      "Add water to the surface and continue",
+      "Stop all finishing until the next day",
+      "Ignore timing because curing will fix it"
+    ],
+    "answer": 0,
+    "explanation": "Fast setting requires coordination and timing decisions. Adding water can weaken the surface and cause defects."
+  },
+  {
+    "id": 30,
+    "category": "Task 7 — Places concrete",
+    "question": "A cold joint forms across a slab. What is the concern?",
+    "options": [
+      "Weak plane or visible line in the concrete",
+      "Higher strength at the joint",
+      "Better surface durability",
+      "No effect on performance"
+    ],
+    "answer": 0,
+    "explanation": "Cold joints may reduce bond between placements. They can affect appearance, strength, and water tightness."
+  },
+  {
+    "id": 31,
+    "category": "Task 7 — Places concrete",
+    "question": "A concrete mix separates with stone rolling ahead of mortar. What is this called?",
+    "options": [
+      "Segregation",
+      "Curing",
+      "Hydration",
+      "Edging"
+    ],
+    "answer": 0,
+    "explanation": "Segregation is separation of concrete ingredients. It creates non-uniform concrete and weak areas."
+  },
+  {
+    "id": 32,
+    "category": "Task 8 — Levels concrete",
+    "question": "A screed guide is set 20 mm low along one side. What will likely happen?",
+    "options": [
+      "The finished slab may have incorrect slope or thickness",
+      "Concrete strength will increase",
+      "Bleed water will disappear",
+      "Joints will cut deeper"
+    ],
+    "answer": 0,
+    "explanation": "Screed guides control final elevation. Incorrect guides lead to incorrect slab geometry."
+  },
+  {
+    "id": 33,
+    "category": "Task 8 — Levels concrete",
+    "question": "A floor is required to drain to a trench, but water ponds after finishing. What likely failed?",
+    "options": [
+      "Grade control during leveling",
+      "Too much correct curing",
+      "Proper brooming only",
+      "Rebar tying only"
+    ],
+    "answer": 0,
+    "explanation": "Drainage depends on correct slope. Poor leveling can create low spots that hold water."
+  },
+  {
+    "id": 34,
+    "category": "Task 8 — Levels concrete",
+    "question": "While screeding, workers leave low areas and plan to fix them with dry cement. Why is this wrong?",
+    "options": [
+      "Dry cement can create weak surface patches",
+      "Dry cement improves bonding permanently",
+      "It replaces concrete volume",
+      "It prevents shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Dry cement sprinkled on the surface can make weak, dusty areas. Low spots should be corrected with proper concrete while workable."
+  },
+  {
+    "id": 35,
+    "category": "Task 8 — Levels concrete",
+    "question": "A vibrating screed is held too long in one location. What may happen?",
+    "options": [
+      "Excess paste or water may rise and affect finish",
+      "Concrete becomes stronger everywhere",
+      "Reinforcement cover increases",
+      "Forms become perfectly aligned"
+    ],
+    "answer": 0,
+    "explanation": "Too much vibration can bring paste and water to the surface. Proper screed speed helps maintain uniformity."
+  },
+  {
+    "id": 36,
+    "category": "Task 8 — Levels concrete",
+    "question": "A slab is screeded flat where the drawing requires slope. What is the defect?",
+    "options": [
+      "Incorrect grade",
+      "Proper elevation",
+      "Correct drainage",
+      "Better finish"
+    ],
+    "answer": 0,
+    "explanation": "A flat slab will not drain if slope is required. Grade must match the project documents."
+  },
+  {
+    "id": 37,
+    "category": "Task 8 — Levels concrete",
+    "question": "A laser level is giving inconsistent readings. What should be done?",
+    "options": [
+      "Check setup, calibration, and reference point",
+      "Continue using the lowest reading",
+      "Ignore elevations",
+      "Add more water to the mix"
+    ],
+    "answer": 0,
+    "explanation": "Leveling depends on accurate instruments. Setup or calibration errors can cause incorrect slab elevations."
+  },
+  {
+    "id": 38,
+    "category": "Task 8 — Levels concrete",
+    "question": "A high spot is noticed after the concrete has started to stiffen. What is the challenge?",
+    "options": [
+      "It may be difficult to correct without damaging the surface",
+      "It will disappear during curing",
+      "It improves drainage",
+      "It increases air entrainment"
+    ],
+    "answer": 0,
+    "explanation": "High spots are easiest to correct while concrete is workable. Late correction can tear or mark the surface."
+  },
+  {
+    "id": 39,
+    "category": "Task 8 — Levels concrete",
+    "question": "An interior floor has strict flatness requirements. What is most important during placement?",
+    "options": [
+      "Accurate screeding and timely correction of highs and lows",
+      "Adding water during finishing",
+      "Delaying all floating",
+      "Removing forms early"
+    ],
+    "answer": 0,
+    "explanation": "Flatness depends heavily on placement and screeding. Mistakes are hard to correct after setting."
+  },
+  {
+    "id": 40,
+    "category": "Task 8 — Levels concrete",
+    "question": "Concrete is screeded correctly but workers walk through it before floating. What is the issue?",
+    "options": [
+      "Footprints and surface disturbance",
+      "Better compaction",
+      "Stronger finish",
+      "Faster curing"
+    ],
+    "answer": 0,
+    "explanation": "Fresh leveled concrete is easily disturbed. Workers should avoid damaging the prepared surface."
+  },
+  {
+    "id": 41,
+    "category": "Task 8 — Levels concrete",
+    "question": "A drain area is finished higher than the surrounding floor. What is the result?",
+    "options": [
+      "Water will not flow into the drain",
+      "Water drains faster",
+      "Curing improves",
+      "Surface strength increases"
+    ],
+    "answer": 0,
+    "explanation": "Drains must be lower than surrounding surfaces. Incorrect elevation causes ponding."
+  },
+  {
+    "id": 42,
+    "category": "Task 9 — Floats concrete",
+    "question": "A bull float is used with the leading edge raised too much. What is likely?",
+    "options": [
+      "The float may leave ridges or dig marks",
+      "Concrete becomes stronger",
+      "Slab thickness increases",
+      "Joints are formed automatically"
+    ],
+    "answer": 0,
+    "explanation": "Float angle controls contact with the surface. Incorrect angle can tear or ridge fresh concrete."
+  },
+  {
+    "id": 43,
+    "category": "Task 9 — Floats concrete",
+    "question": "A slab is floated before bleed water has evaporated. What defect can result?",
+    "options": [
+      "Dusting or scaling",
+      "Better abrasion resistance",
+      "Perfect curing",
+      "More traction"
+    ],
+    "answer": 0,
+    "explanation": "Floating bleed water into the paste weakens the surface. This increases risk of later surface defects."
+  },
+  {
+    "id": 44,
+    "category": "Task 9 — Floats concrete",
+    "question": "Why is floating delayed after screeding on some mixes?",
+    "options": [
+      "To allow bleed water to disappear and concrete to firm",
+      "To make concrete dry completely",
+      "To remove need for curing",
+      "To increase segregation"
+    ],
+    "answer": 0,
+    "explanation": "Timing depends on set and bleed conditions. Floating too early can damage the surface."
+  },
+  {
+    "id": 45,
+    "category": "Task 9 — Floats concrete",
+    "question": "A worker over-floats the surface repeatedly. What is the concern?",
+    "options": [
+      "Too much paste may be brought to the surface",
+      "Concrete becomes reinforced",
+      "Subgrade compacts more",
+      "Joints become deeper"
+    ],
+    "answer": 0,
+    "explanation": "Excess floating can overwork the surface. Overworked paste can affect finish quality and durability."
+  },
+  {
+    "id": 46,
+    "category": "Task 9 — Floats concrete",
+    "question": "Hand floating near edges creates depressions. What is likely wrong?",
+    "options": [
+      "Too much pressure or poor timing",
+      "Too much correct curing",
+      "Proper tool angle",
+      "Correct form alignment"
+    ],
+    "answer": 0,
+    "explanation": "Hand tools can dig into fresh concrete if pressure is high. Proper timing and light control are needed."
+  },
+  {
+    "id": 47,
+    "category": "Task 9 — Floats concrete",
+    "question": "Why is floating important before troweling?",
+    "options": [
+      "It prepares and levels the surface for final finish",
+      "It replaces curing",
+      "It cuts contraction joints",
+      "It removes all bleed water by force"
+    ],
+    "answer": 0,
+    "explanation": "Floating smooths and compacts the surface. Troweling is more effective after proper floating."
+  },
+  {
+    "id": 48,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "A tooled joint collapses after the groover passes. What is the likely cause?",
+    "options": [
+      "Concrete is too wet or too early for tooling",
+      "Concrete is fully cured",
+      "Joint is too straight",
+      "Surface is too dry"
+    ],
+    "answer": 0,
+    "explanation": "If concrete is too wet, edges of the joint cannot hold shape. Tooling should be timed when concrete is firm enough."
+  },
+  {
+    "id": 49,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "A joint is tooled crooked across a visible sidewalk panel. What is the issue?",
+    "options": [
+      "Poor appearance and possible crack-control problem",
+      "Higher compressive strength",
+      "Better drainage",
+      "No issue because joints are decorative only"
+    ],
+    "answer": 0,
+    "explanation": "Joint lines affect appearance and crack control. Crooked joints may look poor and may not align with planned crack locations."
+  },
+  {
+    "id": 50,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "An edger is used too late and leaves rough broken edges. What is the likely reason?",
+    "options": [
+      "Concrete was too stiff to shape cleanly",
+      "Concrete was too wet only",
+      "Forms were too clean",
+      "Curing compound was applied perfectly"
+    ],
+    "answer": 0,
+    "explanation": "Edging must be done while concrete is workable. Late edging can tear or break the perimeter."
+  },
+  {
+    "id": 51,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "A hand tool leaves dark marks on the surface. What should be checked?",
+    "options": [
+      "Tool cleanliness, pressure, and timing",
+      "Worker shirt colour",
+      "Form height only",
+      "Concrete truck tire size"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tools or excess pressure can mark concrete. Timing also affects surface appearance."
+  },
+  {
+    "id": 52,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "A tooled control joint is shallower than required. What may happen?",
+    "options": [
+      "Cracks may not form at the joint",
+      "Concrete will not shrink",
+      "Slab will become stronger",
+      "Joint will cure the concrete"
+    ],
+    "answer": 0,
+    "explanation": "Joints must create enough weakness to guide cracking. Shallow joints may fail to control shrinkage cracks."
+  },
+  {
+    "id": 53,
+    "category": "Task 10 — Hand-tools concrete",
+    "question": "Why should perimeter edges be rechecked after floating?",
+    "options": [
+      "Floating can disturb or fill edge lines",
+      "Edges cure before the slab",
+      "Forms always move inward",
+      "Rechecking weakens the concrete"
+    ],
+    "answer": 0,
+    "explanation": "Floating may move paste over finished edges. Rechecking keeps edges clean and uniform."
+  },
+  {
+    "id": 54,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A finisher starts steel troweling while bleed water is still visible. What is the likely defect?",
+    "options": [
+      "Weak surface layer",
+      "Better abrasion resistance",
+      "Stronger hydration",
+      "Improved bond with rebar"
+    ],
+    "answer": 0,
+    "explanation": "Troweling bleed water into the surface raises the water-cement ratio. This weakens the wearing surface."
+  },
+  {
+    "id": 55,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A slab develops blisters under the troweled surface. What caused this most likely?",
+    "options": [
+      "Surface closed before air or bleed water escaped",
+      "Correct broom finish",
+      "Too much joint spacing",
+      "Proper wet curing only"
+    ],
+    "answer": 0,
+    "explanation": "Blisters form when air or water is trapped below a sealed surface. Early or heavy troweling can cause this."
+  },
+  {
+    "id": 56,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A power trowel is used before concrete can support the machine. What is the result?",
+    "options": [
+      "Surface damage and depressions",
+      "Perfect flatness",
+      "Better curing",
+      "No need for floating"
+    ],
+    "answer": 0,
+    "explanation": "Power trowels require firm concrete. Starting too early can tear, rut, or mark the slab."
+  },
+  {
+    "id": 57,
+    "category": "Task 11 — Trowels concrete",
+    "question": "Why is hard steel troweling usually avoided on exterior air-entrained concrete?",
+    "options": [
+      "It can trap air and increase scaling risk",
+      "It improves freeze-thaw durability",
+      "It creates better traction",
+      "It prevents all cracking"
+    ],
+    "answer": 0,
+    "explanation": "Hard troweling can seal the surface and trap air or bleed water. Exterior concrete usually needs a textured finish."
+  },
+  {
+    "id": 58,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A trowel blade angle is raised too steeply too early. What may happen?",
+    "options": [
+      "Gouging, tearing, or dark burn marks",
+      "Better hydration",
+      "More concrete cover",
+      "Lower form pressure"
+    ],
+    "answer": 0,
+    "explanation": "Blade angle increases finishing pressure. Too much pressure too early can damage the surface."
+  },
+  {
+    "id": 59,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A finisher repeatedly sprays water during troweling. What defect is likely?",
+    "options": [
+      "Dusting or scaling",
+      "Better durability",
+      "Improved surface strength",
+      "Less shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Added water weakens surface paste. This often causes powdery or flaking surfaces later."
+  },
+  {
+    "id": 60,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A floor requires a smooth dense finish for forklift traffic. Which finish is most suitable?",
+    "options": [
+      "Steel trowel finish",
+      "Heavy rough broom finish",
+      "Unfinished screed surface",
+      "Raked surface"
+    ],
+    "answer": 0,
+    "explanation": "Forklift floors need a dense, smooth wearing surface. Steel troweling is commonly used for interior industrial floors."
+  },
+  {
+    "id": 61,
+    "category": "Task 11 — Trowels concrete",
+    "question": "A slab is troweled after the surface has become too hard. What is the concern?",
+    "options": [
+      "Poor finish and possible surface marks",
+      "More uniform hydration",
+      "Increased workability",
+      "Better joint depth"
+    ],
+    "answer": 0,
+    "explanation": "Late troweling is difficult and can leave marks. Finishing must be timed with the concrete set."
+  },
+  {
+    "id": 62,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "A ramp is finished smooth instead of textured. What is the main risk?",
+    "options": [
+      "Slip hazard when wet",
+      "Higher compressive strength",
+      "Better drainage",
+      "Less curing required"
+    ],
+    "answer": 0,
+    "explanation": "Ramps need traction for safe use. A broom or textured finish is often required."
+  },
+  {
+    "id": 63,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "Broom marks are inconsistent across a sidewalk. What is the issue?",
+    "options": [
+      "Uneven appearance and traction",
+      "Higher strength in some areas",
+      "Better curing",
+      "More accurate thickness"
+    ],
+    "answer": 0,
+    "explanation": "Surface treatment affects both appearance and slip resistance. Consistent brooming gives uniform performance."
+  },
+  {
+    "id": 64,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "A broom finish is applied after concrete is too stiff. What is likely?",
+    "options": [
+      "Texture will be too light or patchy",
+      "Texture will be too deep",
+      "Concrete becomes wet again",
+      "Joints disappear"
+    ],
+    "answer": 0,
+    "explanation": "Stiff concrete may not accept broom marks. Surface treatments must be applied at the correct time."
+  },
+  {
+    "id": 65,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "A decorative surface treatment is applied before checking specifications. What is the risk?",
+    "options": [
+      "Finish may not match project requirements",
+      "Concrete becomes stronger automatically",
+      "Curing is no longer needed",
+      "Slab slope improves"
+    ],
+    "answer": 0,
+    "explanation": "Surface finish must match drawings and specifications. Wrong finish may require costly correction."
+  },
+  {
+    "id": 66,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "A worker applies a dry shake hardener unevenly. What can happen?",
+    "options": [
+      "Colour, hardness, or wear resistance may vary",
+      "Concrete volume increases evenly",
+      "Reinforcement spacing improves",
+      "Forms become stronger"
+    ],
+    "answer": 0,
+    "explanation": "Surface treatments must be spread uniformly. Uneven application can cause appearance and performance differences."
+  },
+  {
+    "id": 67,
+    "category": "Task 12 — Applies surface treatments to concrete",
+    "question": "A surface treatment is applied while bleed water is present. What is the concern?",
+    "options": [
+      "Poor bond or weak surface",
+      "Better hydration",
+      "Stronger finish",
+      "More uniform curing"
+    ],
+    "answer": 0,
+    "explanation": "Bleed water can interfere with surface treatments. The surface must be ready before application."
+  },
+  {
+    "id": 68,
+    "category": "Task 13 — Cures concrete",
+    "question": "A slab is finished well but not cured. What is the long-term concern?",
+    "options": [
+      "Reduced strength and durability",
+      "Better surface density",
+      "Less shrinkage",
+      "No cracking risk"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs moisture to hydrate and gain strength. Poor curing can reduce long-term performance."
+  },
+  {
+    "id": 69,
+    "category": "Task 13 — Cures concrete",
+    "question": "Curing compound is applied in thin, missed areas. What can result?",
+    "options": [
+      "Uneven curing and possible cracking",
+      "Perfect surface uniformity",
+      "Stronger missed areas",
+      "No change"
+    ],
+    "answer": 0,
+    "explanation": "Missed areas lose moisture faster. Uneven curing can affect colour, strength, and cracking."
+  },
+  {
+    "id": 70,
+    "category": "Task 13 — Cures concrete",
+    "question": "Wet burlap is placed on concrete but dries out during the day. What is wrong?",
+    "options": [
+      "Dry burlap can draw moisture from the concrete",
+      "Dry burlap cures better",
+      "Burlap replaces all water",
+      "Concrete stops shrinking forever"
+    ],
+    "answer": 0,
+    "explanation": "Wet curing materials must remain wet. Dry coverings may pull moisture from the slab."
+  },
+  {
+    "id": 71,
+    "category": "Task 13 — Cures concrete",
+    "question": "Why should curing begin as soon as finishing allows?",
+    "options": [
+      "Early moisture loss can damage the surface",
+      "Concrete must be dried immediately",
+      "Curing prevents all setting",
+      "Curing replaces jointing"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete can lose moisture quickly after finishing. Early curing helps protect strength and durability."
+  },
+  {
+    "id": 72,
+    "category": "Task 13 — Cures concrete",
+    "question": "A curing method causes uneven colour on decorative concrete. What should be considered?",
+    "options": [
+      "The curing method must suit the finish requirements",
+      "Colour changes mean better strength",
+      "Curing is not needed for decorative work",
+      "Decorative concrete cannot be cured"
+    ],
+    "answer": 0,
+    "explanation": "Some curing methods affect appearance. Decorative concrete needs curing that protects both performance and appearance."
+  },
+  {
+    "id": 73,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "A 125 mm slab requires contraction saw cuts. Using the common one-quarter rule, what depth is closest?",
+    "options": [
+      "30 mm",
+      "5 mm",
+      "125 mm",
+      "10 mm"
+    ],
+    "answer": 0,
+    "explanation": "One-quarter of 125 mm is about 31 mm. A 30 mm cut is closest."
+  },
+  {
+    "id": 74,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "A slab cracks randomly before saw cutting begins. What is the likely problem?",
+    "options": [
+      "Saw cutting was delayed too long",
+      "Saw cuts were too deep",
+      "Curing was too uniform",
+      "Forms were too straight"
+    ],
+    "answer": 0,
+    "explanation": "Saw cuts must be made before random shrinkage cracks form. Timing is critical."
+  },
+  {
+    "id": 75,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "A saw cut ravels badly along the edges. What should be checked?",
+    "options": [
+      "Timing of cut and blade type",
+      "Form oil colour",
+      "Worker boot type",
+      "Amount of broom cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Cutting too early or using the wrong blade can chip joint edges. Saw timing and blade selection matter."
+  },
+  {
+    "id": 76,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "A long narrow slab panel is created by poor joint layout. What is the concern?",
+    "options": [
+      "Increased risk of random cracking",
+      "Better crack control",
+      "No shrinkage movement",
+      "Less need for curing"
+    ],
+    "answer": 0,
+    "explanation": "Poor panel shape increases stress and cracking risk. Joint layout should create practical, balanced panels."
+  },
+  {
+    "id": 77,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "A contraction joint is placed directly beside a random crack. What does this suggest?",
+    "options": [
+      "The joint may have been too late or poorly located",
+      "The joint worked perfectly",
+      "Concrete did not shrink",
+      "Curing was unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "If a random crack forms before or beside the joint, the joint did not control cracking properly. Timing, depth, or layout may be wrong."
+  },
+  {
+    "id": 78,
+    "category": "Task 14 — Creates contraction joints",
+    "question": "Why should saw cuts be kept straight?",
+    "options": [
+      "Straight joints improve appearance and crack control",
+      "Curved joints always work better",
+      "Straight joints stop curing",
+      "They increase slab thickness"
+    ],
+    "answer": 0,
+    "explanation": "Straight cuts look professional and guide cracks predictably. Poor cuts may reduce appearance and performance."
+  },
+  {
+    "id": 79,
+    "category": "Task 15 — Protects concrete",
+    "question": "Fresh concrete is exposed to wind, sun, and low humidity. What defect risk increases?",
+    "options": [
+      "Plastic shrinkage cracking",
+      "Honeycombing only",
+      "Better curing",
+      "Lower evaporation"
+    ],
+    "answer": 0,
+    "explanation": "These conditions increase evaporation. Rapid moisture loss can crack plastic concrete."
+  },
+  {
+    "id": 80,
+    "category": "Task 15 — Protects concrete",
+    "question": "Rain begins before the slab has hardened. What should be done?",
+    "options": [
+      "Protect the surface from rain damage",
+      "Trowel rainwater into the slab",
+      "Add dry cement powder",
+      "Remove all forms immediately"
+    ],
+    "answer": 0,
+    "explanation": "Rain can wash paste and mark the surface. Fresh concrete should be protected from weather damage."
+  },
+  {
+    "id": 81,
+    "category": "Task 15 — Protects concrete",
+    "question": "A young slab is opened to heavy equipment traffic too soon. What can happen?",
+    "options": [
+      "Surface damage or cracking",
+      "Faster strength gain",
+      "Better curing",
+      "More accurate joints"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs time to gain strength. Early loading can damage the slab."
+  },
+  {
+    "id": 82,
+    "category": "Task 15 — Protects concrete",
+    "question": "Insulated blankets are removed early in freezing weather. What is the concern?",
+    "options": [
+      "Concrete may freeze or cool too quickly",
+      "Concrete will gain strength faster",
+      "Curing becomes unnecessary",
+      "Surface traction improves"
+    ],
+    "answer": 0,
+    "explanation": "Young concrete must be protected from freezing and rapid temperature drop. Early blanket removal can reduce durability."
+  },
+  {
+    "id": 83,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A crack is repaired without determining if it is active. What is the risk?",
+    "options": [
+      "The repair may crack again",
+      "Bond will always improve",
+      "Concrete will stop moving",
+      "Curing is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Active cracks continue to move. Repair method must match the cause and movement."
+  },
+  {
+    "id": 84,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A repair patch is placed over weak, unsound concrete. What is likely?",
+    "options": [
+      "Repair failure",
+      "Stronger bond",
+      "Less shrinkage",
+      "Better curing"
+    ],
+    "answer": 0,
+    "explanation": "Repair materials need a sound base. Weak concrete can break away and cause patch failure."
+  },
+  {
+    "id": 85,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A repair surface is saturated with puddles before mortar placement. What is the concern?",
+    "options": [
+      "Standing water can weaken bond and dilute material",
+      "Standing water improves all repairs",
+      "Repair mortar needs no mixing water",
+      "Puddles increase compressive strength"
+    ],
+    "answer": 0,
+    "explanation": "Many repairs require SSD condition, not standing water. Pooled water can reduce bond and strength."
+  },
+  {
+    "id": 86,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A repair material is used after its pot life has expired. What may happen?",
+    "options": [
+      "Poor bond and reduced workability",
+      "Better strength",
+      "More placement time",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Pot life is the usable time after mixing. Expired material may not bond or finish properly."
+  },
+  {
+    "id": 87,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "Exposed reinforcing steel is rusty during repair. What should be done?",
+    "options": [
+      "Clean loose rust and prepare steel as required",
+      "Cover it without cleaning",
+      "Add extra water",
+      "Paint the patch only"
+    ],
+    "answer": 0,
+    "explanation": "Loose rust can reduce bond and durability. Steel should be cleaned according to repair requirements."
+  },
+  {
+    "id": 88,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A repair patch is feathered to a very thin edge in a traffic area. What is the concern?",
+    "options": [
+      "The edge may break or debond",
+      "The edge will be strongest",
+      "Traffic will improve curing",
+      "Thin edges reduce shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Thin repair edges are weak under traffic. Squared or saw-cut edges are often more durable."
+  },
+  {
+    "id": 89,
+    "category": "Task 16 — Repairs and restores concrete",
+    "question": "A repaired area is not cured after placement. What is the risk?",
+    "options": [
+      "Shrinkage cracking and weak repair",
+      "Better bond",
+      "Faster strength gain",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Repair materials often need curing like concrete. Poor curing can cause cracks and reduced durability."
+  },
+  {
+    "id": 90,
+    "category": "Task 17 — Applies surface treatments to hardened concrete",
+    "question": "A sealer is applied to a dusty floor. What is likely?",
+    "options": [
+      "Poor adhesion or peeling",
+      "Better penetration",
+      "Stronger concrete",
+      "Improved reinforcement bond"
+    ],
+    "answer": 0,
+    "explanation": "Dust prevents proper bond. Hardened concrete should be cleaned and prepared before sealing."
+  },
+  {
+    "id": 91,
+    "category": "Task 17 — Applies surface treatments to hardened concrete",
+    "question": "A coating is applied outside the manufacturer’s temperature range. What is the risk?",
+    "options": [
+      "Poor curing, bond, or appearance",
+      "Faster guaranteed performance",
+      "No surface preparation needed",
+      "More concrete cover"
+    ],
+    "answer": 0,
+    "explanation": "Temperature affects coating cure and adhesion. Product limits must be followed."
+  },
+  {
+    "id": 92,
+    "category": "Task 17 — Applies surface treatments to hardened concrete",
+    "question": "Why is moisture testing sometimes needed before applying floor coatings?",
+    "options": [
+      "Excess moisture can cause coating failure",
+      "Moisture always improves coating bond",
+      "Testing replaces cleaning",
+      "It increases slab thickness"
+    ],
+    "answer": 0,
+    "explanation": "Moisture vapour can interfere with coatings. Testing helps confirm the surface is suitable."
+  },
+  {
+    "id": 93,
+    "category": "Task 17 — Applies surface treatments to hardened concrete",
+    "question": "A chemical treatment is applied without ventilation indoors. What is the concern?",
+    "options": [
+      "Vapours may harm workers",
+      "Concrete becomes weaker instantly",
+      "Rebar corrodes immediately",
+      "Slab slope changes"
+    ],
+    "answer": 0,
+    "explanation": "Some treatments release fumes. Ventilation and PPE protect workers."
+  },
+  {
+    "id": 94,
+    "category": "Task 17 — Applies surface treatments to hardened concrete",
+    "question": "A sealer is applied unevenly, leaving puddles. What can happen?",
+    "options": [
+      "Blotchy appearance or curing problems",
+      "Better uniform protection",
+      "Increased slab thickness",
+      "No visual difference"
+    ],
+    "answer": 0,
+    "explanation": "Uneven sealer application can leave streaks, puddles, or soft areas. Application rate should follow instructions."
+  },
+  {
+    "id": 95,
+    "category": "Task 18 — Grouts",
+    "question": "A base plate is grouted, but voids remain underneath. What is the concern?",
+    "options": [
+      "Poor load transfer and support",
+      "Better bearing strength",
+      "Faster curing",
+      "No structural issue"
+    ],
+    "answer": 0,
+    "explanation": "Grout must fully support the base plate. Voids can reduce bearing and load transfer."
+  },
+  {
+    "id": 96,
+    "category": "Task 18 — Grouts",
+    "question": "Too much water is added to non-shrink grout. What is the likely result?",
+    "options": [
+      "Lower strength and more shrinkage",
+      "Better performance",
+      "Faster support",
+      "No curing needed"
+    ],
+    "answer": 0,
+    "explanation": "Extra water can reduce grout strength and increase shrinkage. Manufacturer mixing instructions should be followed."
+  },
+  {
+    "id": 97,
+    "category": "Task 18 — Grouts",
+    "question": "Grout is placed after it has started to stiffen in the pail. What is the risk?",
+    "options": [
+      "Poor flow and poor bond",
+      "Better consolidation",
+      "More working time",
+      "Higher strength always"
+    ],
+    "answer": 0,
+    "explanation": "Grout must be placed within its working time. Stiff grout may not flow into voids properly."
+  },
+  {
+    "id": 98,
+    "category": "Task 18 — Grouts",
+    "question": "Why should grout be protected after placement?",
+    "options": [
+      "To maintain curing conditions",
+      "To stop strength gain",
+      "To dry it instantly",
+      "To add dust"
+    ],
+    "answer": 0,
+    "explanation": "Grout needs proper curing to gain strength. Protection prevents rapid moisture loss and damage."
+  },
+  {
+    "id": 99,
+    "category": "Task 19 — Performs cutting and coring",
+    "question": "Before coring a slab, what must be checked?",
+    "options": [
+      "Location of embedded services and reinforcement",
+      "Broom direction only",
+      "Trowel blade angle",
+      "Curing blanket colour"
+    ],
+    "answer": 0,
+    "explanation": "Coring can hit electrical, plumbing, post-tension cables, or rebar. Locations must be verified before cutting."
+  },
+  {
+    "id": 100,
+    "category": "Task 19 — Performs cutting and coring",
+    "question": "A core drill is used without anchoring or control. What is the risk?",
+    "options": [
+      "Tool movement, injury, or poor hole quality",
+      "Better accuracy",
+      "Less vibration",
+      "Faster curing"
+    ],
+    "answer": 0,
+    "explanation": "Core drills must be controlled and secured as required. Poor control can injure workers and damage the work."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledConcreteFinisherIpExamSet2Questions =
+  shuffleArray(concreteFinisherIpExamSet2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "concrete-finisher",
+  tradeTitle: "Concrete Finisher",
+  sectionTitle: "IP Exam — Set 2 Difficult",
+  questionTimeSeconds: 90,
+  questions: shuffledConcreteFinisherIpExamSet2Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

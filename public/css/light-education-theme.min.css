@@ -1,0 +1,802 @@
+/* Light education theme override for Red Seal Practice.
+   Loaded after page CSS/mobile CSS to give the full site a cleaner, brighter look. */
+:root {
+  --rs-bg: #fbfaf8;
+  --rs-bg-soft: #f9f6f4;
+  --rs-surface: #ffffff;
+  --rs-surface-2: #fbfaf9;
+  --rs-text: #1d2126;
+  --rs-muted: #66707d;
+  --rs-border: #f3dbdc;
+  --rs-primary: #ca2129;
+  --rs-primary-dark: #ca2129;
+  --rs-primary-soft: #f7f4f2;
+  --rs-accent: #e11d48;
+  --rs-accent-dark: #be123c;
+  --rs-success: #15803d;
+  --rs-warning: #b45309;
+  --rs-shadow: 0 16px 38px rgba(25,28,32,0.08);
+  --rs-shadow-soft: 0 8px 24px rgba(25,28,32,0.06);
+}
+
+html,
+body {
+  background: var(--rs-bg) !important;
+  color: var(--rs-text) !important;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at top left, rgba(202,33,41,0.10), transparent 32rem),
+    radial-gradient(circle at top right, rgba(225, 29, 72, 0.08), transparent 28rem),
+    linear-gradient(180deg, #ffffff 0%, #fbfaf8 42%, #f9f8f6 100%) !important;
+}
+
+/* Navbar and footer */
+.navbar,
+.site-navbar {
+  background: rgba(255,255,255,0.94) !important;
+  color: var(--rs-text) !important;
+  border-bottom: 1px solid var(--rs-border) !important;
+  box-shadow: 0 10px 30px rgba(25,28,32,0.06) !important;
+  backdrop-filter: blur(16px);
+}
+
+.brand,
+.site-brand,
+.footer-brand {
+  color: var(--rs-text) !important;
+}
+
+.brand::first-letter,
+.site-brand::first-letter,
+.footer-brand::first-letter { color: var(--rs-accent) !important; }
+
+.nav-links a,
+.site-nav-links a,
+.footer-links a,
+.navbar a,
+.site-navbar a {
+  color: var(--rs-text) !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.nav-links a:hover,
+.site-nav-links a:hover,
+.footer-links a:hover,
+.navbar a:hover,
+.site-navbar a:hover {
+  color: var(--rs-primary) !important;
+  background: var(--rs-primary-soft) !important;
+  border-color: #f5dcde !important;
+}
+
+.mobile-menu-toggle {
+  color: var(--rs-text) !important;
+  background: #ffffff !important;
+  border-color: var(--rs-border) !important;
+  box-shadow: var(--rs-shadow-soft) !important;
+}
+
+.footer {
+  background: #ffffff !important;
+  color: var(--rs-muted) !important;
+  border-top: 1px solid var(--rs-border) !important;
+  box-shadow: 0 -10px 32px rgba(25,28,32,0.04) !important;
+}
+
+.footer a,
+.footer-contact-link { color: var(--rs-primary) !important; }
+.footer-text,
+.footer-contact-text { color: var(--rs-muted) !important; }
+
+/* Hero areas: brighten old dark hero blocks without losing brand contrast */
+.home-hero,
+.hero,
+.hero-card,
+.trade-landing-hero,
+.seo-hero,
+.page-hero,
+.pricing-hero,
+.contact-hero,
+.trades-hero,
+.admin-hero,
+.article-hero,
+.auth-hero,
+.level-hero,
+.blog-hero,
+.error-hero,
+[class*="hero"] {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.96), rgba(249,247,245,0.95)) !important;
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border) !important;
+  box-shadow: var(--rs-shadow) !important;
+}
+
+.home-hero::before,
+.home-hero::after,
+.hero::before,
+.hero::after,
+.trade-landing-hero::before,
+.trade-landing-hero::after,
+[class*="hero"]::before,
+[class*="hero"]::after {
+  opacity: 0.22 !important;
+}
+
+.hero-title,
+.hero-title span,
+.hero h1,
+.hero h2,
+.trade-landing-hero h1,
+.seo-hero h1,
+.page-hero h1,
+.pricing-hero h1,
+.contact-hero h1,
+.trades-hero h1,
+.admin-hero h1,
+.article-hero h1,
+.level-hero h1,
+.blog-hero h1,
+.error-hero h1,
+[class*="hero"] h1,
+[class*="hero"] h2,
+[class*="hero"] h3 {
+  color: var(--rs-text) !important;
+}
+
+.hero-text,
+.hero p,
+.trade-landing-hero p,
+.seo-hero p,
+.page-hero p,
+.pricing-hero p,
+.contact-hero p,
+.trades-hero p,
+.admin-hero p,
+.article-hero p,
+.level-hero p,
+.blog-hero p,
+.error-hero p,
+[class*="hero"] p {
+  color: var(--rs-muted) !important;
+}
+
+.eyebrow,
+.section-kicker,
+.kicker,
+.badge,
+.pill,
+.tag,
+.trade-hero-tags span,
+.hero-badge,
+.exam-badge,
+.phase-number {
+  background: var(--rs-primary-soft) !important;
+  color: var(--rs-primary-dark) !important;
+  border: 1px solid #f5dcde !important;
+}
+
+/* Cards/sections */
+.card,
+.trade-section,
+.trade-info-card,
+.blog-card,
+.article-card,
+.stat-card,
+.metric-card,
+.dashboard-card,
+.admin-card,
+.form-card,
+.auth-card,
+.price-card,
+.feature-card,
+.mini-feature,
+.menu-card,
+.featured-card,
+.video-card,
+.quiz-card,
+.question-card,
+.result-card,
+.faq-card,
+.level-card,
+.exam-card,
+.phase-card,
+.study-step,
+.panel,
+.box,
+[class*="card"] {
+  background: var(--rs-surface) !important;
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border) !important;
+  box-shadow: var(--rs-shadow-soft) !important;
+}
+
+.exam-card,
+.phase-card {
+  background: linear-gradient(180deg, #ffffff, #faf8f6) !important;
+}
+
+.card:hover,
+.trade-info-card:hover,
+.blog-card:hover,
+.article-card:hover,
+.price-card:hover,
+.feature-card:hover,
+.level-card:hover,
+.exam-card:hover,
+.phase-card:hover {
+  box-shadow: 0 18px 42px rgba(202,33,41,0.12) !important;
+  transform: translateY(-1px);
+}
+
+h1,h2,h3,h4,h5,h6,
+.menu-title,
+.card-title,
+.section-title,
+.trade-section h2,
+.trade-info-card strong,
+.study-step strong,
+label,
+legend,
+summary {
+  color: var(--rs-text) !important;
+}
+
+p,
+li,
+small,
+.help-text,
+.muted,
+.subtext,
+.card-text,
+.menu-text,
+.trade-section p,
+.trade-info-card p,
+.study-step,
+.article-meta,
+.blog-meta,
+.description {
+  color: var(--rs-muted) !important;
+}
+
+/* Buttons and links */
+.btn,
+.button,
+.dashboard-btn,
+.trade-btn,
+.auth-btn,
+.submit-btn,
+.cta-btn,
+.primary-btn,
+button[type="submit"],
+a.btn,
+a.button {
+  background: var(--rs-primary) !important;
+  color: #ffffff !important;
+  border: 1px solid var(--rs-primary) !important;
+  box-shadow: 0 10px 22px rgba(202,33,41,0.18) !important;
+}
+
+.btn:hover,
+.button:hover,
+.dashboard-btn:hover,
+.trade-btn:hover,
+.auth-btn:hover,
+.submit-btn:hover,
+.cta-btn:hover,
+.primary-btn:hover,
+button[type="submit"]:hover,
+a.btn:hover,
+a.button:hover {
+  background: var(--rs-primary-dark) !important;
+  border-color: var(--rs-primary-dark) !important;
+}
+
+.btn-red,
+.btn-danger,
+.reject-btn,
+.delete-btn,
+.btn.accent {
+  background: var(--rs-accent) !important;
+  color: #ffffff !important;
+  border-color: var(--rs-accent) !important;
+}
+
+.btn-red:hover,
+.btn-danger:hover,
+.reject-btn:hover,
+.delete-btn:hover,
+.btn.accent:hover {
+  background: var(--rs-accent-dark) !important;
+  border-color: var(--rs-accent-dark) !important;
+}
+
+.btn-outline,
+.trade-btn.secondary,
+.trade-btn.ghost,
+.secondary-btn,
+.outline-btn,
+.locked-btn {
+  background: #ffffff !important;
+  color: var(--rs-primary-dark) !important;
+  border: 1px solid #f5dcde !important;
+  box-shadow: none !important;
+}
+
+.btn-outline:hover,
+.trade-btn.secondary:hover,
+.trade-btn.ghost:hover,
+.secondary-btn:hover,
+.outline-btn:hover,
+.locked-btn:hover {
+  background: var(--rs-primary-soft) !important;
+  color: var(--rs-primary-dark) !important;
+}
+
+a { color: var(--rs-primary) !important; }
+a:hover { color: var(--rs-primary-dark) !important; }
+
+/* Forms */
+input,
+select,
+textarea,
+.search-input,
+.trade-search-input,
+.form-control {
+  background: #ffffff !important;
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border) !important;
+  box-shadow: inset 0 1px 0 rgba(25,28,32,0.02) !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.search-input:focus,
+.trade-search-input:focus,
+.form-control:focus {
+  border-color: #ebbabc !important;
+  outline: 3px solid rgba(202,33,41,0.16) !important;
+  outline-offset: 0 !important;
+}
+
+::placeholder { color: #9da5af !important; }
+
+/* Tables/admin dashboard */
+table,
+.table,
+.admin-table {
+  background: #ffffff !important;
+  color: var(--rs-text) !important;
+  border-color: var(--rs-border) !important;
+}
+
+th,
+thead,
+thead tr {
+  background: #f9f6f4 !important;
+  color: var(--rs-text) !important;
+}
+
+td,
+th {
+  border-color: var(--rs-border) !important;
+}
+
+tr:nth-child(even) td { background: #fefdfc !important; }
+
+/* Quiz/private pages */
+.quiz-shell,
+.quiz-wrap,
+.quiz-container,
+.practice-area,
+.private-shell,
+.private-dashboard,
+main {
+  background: transparent !important;
+}
+
+.option,
+.answer-option,
+.quiz-option,
+.choice,
+.question-option {
+  background: #ffffff !important;
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border) !important;
+}
+
+.option:hover,
+.answer-option:hover,
+.quiz-option:hover,
+.choice:hover,
+.question-option:hover {
+  background: var(--rs-primary-soft) !important;
+  border-color: #f5dcde !important;
+}
+
+.correct,
+.is-correct {
+  background: #ecfdf3 !important;
+  color: #166534 !important;
+  border-color: #bbf7d0 !important;
+}
+
+.incorrect,
+.is-wrong {
+  background: #fff1f2 !important;
+  color: #9f1239 !important;
+  border-color: #fecdd3 !important;
+}
+
+/* Alerts/status */
+.alert,
+.notice,
+.info-box,
+.locked-note,
+.request-email {
+  background: #fffdf5 !important;
+  color: #7c4a03 !important;
+  border: 1px solid #fde68a !important;
+}
+
+.success,
+.success-box,
+.approved {
+  background: #ecfdf3 !important;
+  color: #166534 !important;
+  border-color: #bbf7d0 !important;
+}
+
+.error,
+.error-box,
+.rejected {
+  background: #fff1f2 !important;
+  color: #9f1239 !important;
+  border-color: #fecdd3 !important;
+}
+
+/* Loader now matches light theme */
+#page-loader { background: rgba(251,250,248,0.98) !important; }
+#page-loader .loader-box { color: var(--rs-text) !important; }
+#page-loader .loader-text { color: var(--rs-primary-dark) !important; }
+
+/* Keep high-contrast special CTA strips professional instead of fully dark */
+.cta-section,
+.premium-section,
+.upgrade-section,
+.final-cta,
+.dark-section,
+[class*="premium"],
+[class*="upgrade"] {
+  background: linear-gradient(135deg, #ffffff, #f9f6f4) !important;
+  color: var(--rs-text) !important;
+  border: 1px solid var(--rs-border) !important;
+}
+
+/* Mobile menu on light theme */
+@media (max-width: 820px) {
+  .navbar .nav-links,
+  .site-navbar .site-nav-links {
+    background: rgba(255,255,255,0.98) !important;
+    border: 1px solid var(--rs-border) !important;
+    box-shadow: var(--rs-shadow) !important;
+  }
+
+  .navbar.menu-open .nav-links a,
+  .site-navbar.menu-open .site-nav-links a {
+    background: #ffffff !important;
+    border: 1px solid var(--rs-border) !important;
+  }
+}
+
+
+/* 2026 professional education redesign polish
+   Keeps existing routes/features working while improving readability, card hover,
+   section spacing, CTAs, free quiz cards, trade cards, and level pages. */
+:root {
+  --rs-bg: #faf8f7;
+  --rs-bg-soft: #f9f6f4;
+  --rs-surface: #ffffff;
+  --rs-surface-2: #fcfcfb;
+  --rs-text: #1c2126;
+  --rs-muted: #5e6672;
+  --rs-border: #f5dbdd;
+  --rs-primary: #ca2129;
+  --rs-primary-dark: #c01f27;
+  --rs-primary-soft: #f7f4f2;
+  --rs-accent: #ef233c;
+  --rs-accent-dark: #c91832;
+  --rs-shadow: 0 18px 48px rgba(28,33,38,0.10);
+  --rs-shadow-soft: 0 10px 28px rgba(28,33,38,0.075);
+  --rs-radius: 22px;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(202,33,41,0.10), transparent 32rem),
+    radial-gradient(circle at 90% 5%, rgba(239, 35, 60, 0.07), transparent 30rem),
+    linear-gradient(180deg, #ffffff 0%, #faf8f7 45%, #f7f4f2 100%) !important;
+}
+
+main, .page, .content, .seo-page, .quiz-shell, .quiz-wrap, .private-shell {
+  background: transparent !important;
+}
+
+/* Modern sticky navbar. Existing links still work. */
+.navbar {
+  min-height: 78px !important;
+  padding: 0 34px !important;
+  gap: 22px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+.brand {
+  font-size: clamp(1.15rem, 2vw, 1.8rem) !important;
+  font-weight: 950 !important;
+  letter-spacing: -0.05em !important;
+  text-shadow: none !important;
+}
+.nav-links {
+  gap: 8px !important;
+  align-items: center !important;
+}
+.nav-links a,
+.footer-links a,
+.navbar a {
+  border-radius: 999px !important;
+  padding: 10px 14px !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  transition: background .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease !important;
+}
+.nav-links a:hover,
+.footer-links a:hover,
+.navbar a:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 8px 20px rgba(202,33,41,.10) !important;
+}
+.nav-links a[href="/admin/dashboard"] {
+  background: #1c2126 !important;
+  color: #ffffff !important;
+  border-color: #1c2126 !important;
+}
+.nav-links a[href="/login?admin=1"] {
+  background: #fff1f2 !important;
+  color: var(--rs-accent-dark) !important;
+  border-color: #fecdd3 !important;
+}
+
+/* Hero / page headers */
+.home-hero, .hero, .hero-card, .trade-landing-hero, .seo-hero, .page-hero,
+.pricing-hero, .contact-hero, .trades-hero, .admin-hero, .article-hero,
+.auth-hero, .level-hero, .blog-hero, .error-hero, [class*="hero"] {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.98), rgba(249,247,245,.96)) !important;
+  border-radius: 28px !important;
+  border: 1px solid rgba(245,220,222,.95) !important;
+  box-shadow: 0 24px 70px rgba(28,33,38,.10) !important;
+  overflow: hidden !important;
+}
+.seo-hero, .trades-hero, .page-hero, .level-hero, .article-hero {
+  width: min(1180px, calc(100% - 36px)) !important;
+  margin: 32px auto 34px !important;
+  padding: clamp(38px, 5vw, 72px) !important;
+}
+.seo-container, .container, .wrap, .contributor-wrap {
+  width: min(1180px, calc(100% - 36px)) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.seo-section, section {
+  padding-top: clamp(34px, 5vw, 68px) !important;
+  padding-bottom: clamp(34px, 5vw, 68px) !important;
+}
+
+h1, .hero-title, [class*="hero"] h1 {
+  font-size: clamp(2.05rem, 5vw, 4.3rem) !important;
+  line-height: 1.04 !important;
+  letter-spacing: -0.055em !important;
+}
+h2 { font-size: clamp(1.65rem, 3.2vw, 3rem) !important; letter-spacing: -0.045em !important; }
+h3 { font-size: clamp(1.08rem, 1.6vw, 1.35rem) !important; letter-spacing: -0.025em !important; }
+p, li, .card-text, .seo-sub { line-height: 1.75 !important; }
+
+/* Cards: remove odd inner borders and add modern hover. */
+.card, .seo-card, .trade-card, .trade-access-card, .trade-info-card, .blog-card,
+.article-card, .stat-card, .metric-card, .dashboard-card, .admin-card,
+.form-card, .auth-card, .price-card, .feature-card, .mini-feature,
+.menu-card, .featured-card, .video-card, .quiz-card, .question-card,
+.result-card, .faq-card, .level-card, .exam-card, .phase-card, .study-step,
+.panel, .box, [class*="card"] {
+  border-radius: var(--rs-radius) !important;
+  border: 1px solid rgba(245,219,221,.95) !important;
+  box-shadow: var(--rs-shadow-soft) !important;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease !important;
+}
+.card:hover, .seo-card:hover, .trade-card:hover, .trade-access-card:hover,
+.trade-info-card:hover, .blog-card:hover, .article-card:hover, .price-card:hover,
+.feature-card:hover, .level-card:hover, .exam-card:hover, .phase-card:hover,
+.quiz-card:hover, [class*="card"]:hover {
+  transform: translateY(-6px) !important;
+  border-color: #f5dcde !important;
+  box-shadow: 0 24px 58px rgba(202,33,41,.16) !important;
+}
+.card-title, .card-text, .trade-card h3, .trade-card p, .seo-card h3, .seo-card p,
+.card-title *, .card-text * {
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.card-title, .card .card-title {
+  display: block !important;
+  min-height: auto !important;
+  margin-bottom: 12px !important;
+  color: var(--rs-text) !important;
+  font-weight: 950 !important;
+  line-height: 1.18 !important;
+}
+.card-text, .card .card-text {
+  min-height: auto !important;
+  color: var(--rs-muted) !important;
+  margin-bottom: 20px !important;
+}
+.btn-card, a.btn-card {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 46px !important;
+  width: 100% !important;
+  border-radius: 14px !important;
+  background: #ffffff !important;
+  color: var(--rs-text) !important;
+  border: 1px solid #f7e2e3 !important;
+  font-weight: 950 !important;
+  text-decoration: none !important;
+  transition: all .2s ease !important;
+}
+.btn-card:hover, a.btn-card:hover {
+  background: var(--rs-primary) !important;
+  border-color: var(--rs-primary) !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 16px 34px rgba(202,33,41,.22) !important;
+}
+
+/* Better grids. */
+.grid, .cards-grid, .seo-grid, .trade-grid, .trade-access-grid, .features-grid,
+.blog-grid, .article-grid, .level-grid {
+  gap: clamp(18px, 2.6vw, 30px) !important;
+}
+.seo-grid, .trade-grid, .trade-access-grid {
+  align-items: stretch !important;
+}
+
+/* CTA panels: fix unreadable dark text and make them modern. */
+.seo-cta-panel, .cta-panel, .final-cta, .cta-section, .premium-section,
+.upgrade-section, .dark-section {
+  background:
+    linear-gradient(135deg, #1c2126 0%, #85191e 52%, #ca2129 100%) !important;
+  color: #ffffff !important;
+  border: 0 !important;
+  border-radius: 28px !important;
+  box-shadow: 0 26px 70px rgba(28,33,38,.22) !important;
+}
+.seo-cta-panel h1, .seo-cta-panel h2, .seo-cta-panel h3,
+.cta-panel h1, .cta-panel h2, .cta-panel h3,
+.final-cta h1, .final-cta h2, .final-cta h3,
+.cta-section h1, .cta-section h2, .cta-section h3,
+.premium-section h1, .premium-section h2, .premium-section h3,
+.upgrade-section h1, .upgrade-section h2, .upgrade-section h3,
+.dark-section h1, .dark-section h2, .dark-section h3 {
+  color: #ffffff !important;
+}
+.seo-cta-panel p, .cta-panel p, .final-cta p, .cta-section p,
+.premium-section p, .upgrade-section p, .dark-section p {
+  color: rgba(255,255,255,.84) !important;
+}
+.seo-cta-panel .seo-btn.secondary, .cta-panel .seo-btn.secondary,
+.final-cta .seo-btn.secondary, .dark-section .seo-btn.secondary {
+  background: rgba(255,255,255,.12) !important;
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,.36) !important;
+}
+
+/* Buttons */
+.btn, .button, .dashboard-btn, .trade-btn, .auth-btn, .submit-btn, .cta-btn,
+.primary-btn, .seo-btn.primary, button[type="submit"], a.btn, a.button {
+  border-radius: 14px !important;
+  min-height: 44px !important;
+  font-weight: 950 !important;
+  text-decoration: none !important;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease !important;
+}
+.btn:hover, .button:hover, .dashboard-btn:hover, .trade-btn:hover, .auth-btn:hover,
+.submit-btn:hover, .cta-btn:hover, .primary-btn:hover, .seo-btn.primary:hover,
+button[type="submit"]:hover, a.btn:hover, a.button:hover {
+  transform: translateY(-2px) !important;
+}
+
+/* Free quiz pages */
+.hero-card .feature-row, .hero-card .pill-row, .pill-row, .trade-hero-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+.pill, .tag, .badge, .exam-badge {
+  border-radius: 999px !important;
+  padding: 8px 13px !important;
+  line-height: 1.1 !important;
+  font-weight: 850 !important;
+}
+
+/* Footer polish */
+.footer {
+  padding: 34px 18px !important;
+}
+.footer-inner { gap: 12px !important; }
+.footer-brand { font-weight: 950 !important; letter-spacing: -0.04em !important; }
+.footer-links { gap: 8px !important; flex-wrap: wrap !important; }
+
+/* Loader disabled visually in case any cached script creates it. */
+#page-loader { display: none !important; opacity: 0 !important; pointer-events: none !important; }
+
+@media (max-width: 900px) {
+  .navbar { padding: 14px 18px !important; min-height: 70px !important; }
+  .seo-hero, .trades-hero, .page-hero, .level-hero, .article-hero {
+    width: min(100% - 24px, 1180px) !important;
+    margin: 18px auto 22px !important;
+    padding: 30px 20px !important;
+  }
+  .seo-container, .container, .wrap, .contributor-wrap { width: min(100% - 24px, 1180px) !important; }
+  .seo-grid, .trade-grid, .cards-grid, .trade-access-grid, .features-grid,
+  .blog-grid, .article-grid, .level-grid { grid-template-columns: 1fr !important; }
+  .nav-links a, .navbar a { width: 100% !important; justify-content: center !important; text-align: center !important; }
+  .card:hover, .seo-card:hover, .trade-card:hover, [class*="card"]:hover { transform: none !important; }
+}
+
+/* Level exams page: all trades search and action buttons */
+.level-trade-toolbar {
+  display: flex !important;
+  gap: 14px !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin: 22px 0 26px !important;
+}
+.level-trade-toolbar input {
+  flex: 1 1 520px !important;
+  min-height: 52px !important;
+  border-radius: 16px !important;
+  padding: 0 18px !important;
+  font-weight: 750 !important;
+}
+.level-trade-grid .seo-card,
+.level-trade-card {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.level-trade-card p { flex: 1 1 auto !important; }
+.level-card-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  margin-top: 18px !important;
+}
+.level-card-actions .seo-btn {
+  flex: 1 1 130px !important;
+  min-height: 42px !important;
+  padding: 10px 12px !important;
+  text-align: center !important;
+}
+@media (max-width: 760px) {
+  .level-trade-toolbar { flex-direction: column !important; align-items: stretch !important; }
+  .level-card-actions .seo-btn { flex-basis: 100% !important; }
+}

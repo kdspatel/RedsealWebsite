@@ -1,0 +1,2696 @@
+const carpenterPerformsConcreteWorkQuestions = [
+  {
+    "category": "C — Performs Concrete Work",
+    "question": "What is concrete mainly made of?",
+    "options": [
+      "Cement, water, aggregates, and sometimes admixtures",
+      "Wood chips and glue",
+      "Paint and sand only",
+      "Steel and drywall compound"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is made from cement, water, fine aggregate, coarse aggregate, and sometimes admixtures. The cement and water react through hydration. Aggregates give concrete volume and strength.",
+    "id": 1
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is the purpose of cement in concrete?",
+    "options": [
+      "It acts as the binding material",
+      "It replaces reinforcement",
+      "It prevents all cracking",
+      "It makes concrete flexible like rubber"
+    ],
+    "answer": 0,
+    "explanation": "Cement binds the aggregates together. When mixed with water, cement hydrates and hardens. Correct cement content is important for strength.",
+    "id": 2
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What does water do in concrete?",
+    "options": [
+      "Starts hydration and helps workability",
+      "Replaces aggregate",
+      "Makes concrete stronger no matter how much is added",
+      "Stops curing"
+    ],
+    "answer": 0,
+    "explanation": "Water reacts with cement to start hydration. It also helps the mix flow and place. Too much water can weaken concrete.",
+    "id": 3
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is aggregate in concrete?",
+    "options": [
+      "Sand, gravel, or crushed stone",
+      "Paint thinner",
+      "Drywall powder",
+      "Wood blocking"
+    ],
+    "answer": 0,
+    "explanation": "Aggregates make up much of the concrete volume. Fine aggregate is usually sand. Coarse aggregate is usually gravel or crushed stone.",
+    "id": 4
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why is adding extra water to concrete usually a problem?",
+    "options": [
+      "It can reduce strength and increase shrinkage",
+      "It always increases strength",
+      "It replaces curing",
+      "It makes reinforcement unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Extra water increases the water-cement ratio. This usually lowers strength and durability. It can also increase cracking and surface defects.",
+    "id": 5
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is slump used to describe?",
+    "options": [
+      "Concrete workability or consistency",
+      "Lumber grade",
+      "Roof slope",
+      "Door swing"
+    ],
+    "answer": 0,
+    "explanation": "Slump gives an indication of how workable concrete is. A higher slump usually means wetter or more flowable concrete. Slump must match the specification and placement method.",
+    "id": 6
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is an admixture?",
+    "options": [
+      "A material added to concrete to change its properties",
+      "A form tie",
+      "A type of saw blade",
+      "A roof flashing"
+    ],
+    "answer": 0,
+    "explanation": "Admixtures can affect set time, workability, air content, or strength gain. They must be used according to the mix design. Wrong use can create quality problems.",
+    "id": 7
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why is air-entrained concrete used in exterior freeze-thaw conditions?",
+    "options": [
+      "It improves resistance to freezing and thawing damage",
+      "It removes the need for cement",
+      "It makes concrete waterproof in all cases",
+      "It eliminates reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Air entrainment creates tiny air voids. These voids help relieve pressure when water freezes. It improves durability in freeze-thaw exposure.",
+    "id": 8
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is hydration?",
+    "options": [
+      "The chemical reaction between cement and water",
+      "Drying paint",
+      "Cutting concrete",
+      "Mixing wood adhesive"
+    ],
+    "answer": 0,
+    "explanation": "Hydration causes concrete to harden and gain strength. It needs moisture and suitable temperature. Concrete does not gain strength by simply drying.",
+    "id": 9
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why is curing important?",
+    "options": [
+      "It helps concrete retain moisture and gain strength",
+      "It makes concrete dry as fast as possible",
+      "It replaces reinforcement",
+      "It removes aggregate"
+    ],
+    "answer": 0,
+    "explanation": "Curing supports hydration. Good curing improves strength and durability. Poor curing can cause weak surfaces and cracking.",
+    "id": 10
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is formwork used for?",
+    "options": [
+      "To shape and support fresh concrete until it can support itself",
+      "To paint concrete",
+      "To replace reinforcement",
+      "To remove concrete water"
+    ],
+    "answer": 0,
+    "explanation": "Formwork holds concrete in the required shape. It must resist the pressure of fresh concrete. Forms are removed only when concrete has enough strength.",
+    "id": 11
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What does fresh concrete do to vertical wall forms?",
+    "options": [
+      "Pushes sideways against them",
+      "Pulls them inward only",
+      "Makes them stronger automatically",
+      "Has no pressure"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete creates lateral pressure. Taller and faster pours can increase this pressure. Forms, ties, and braces must resist it.",
+    "id": 12
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are form ties used in wall formwork?",
+    "options": [
+      "To hold opposite form faces together",
+      "To cure concrete",
+      "To replace rebar",
+      "To smooth the surface after finishing"
+    ],
+    "answer": 0,
+    "explanation": "Form ties resist sideways concrete pressure. They also help maintain wall thickness. Tie spacing must follow the form design.",
+    "id": 13
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the purpose of bracing forms?",
+    "options": [
+      "To keep forms plumb, straight, and stable",
+      "To increase concrete slump",
+      "To replace form ties",
+      "To make concrete dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Bracing holds forms in position. Forms can move from wind, impact, or concrete pressure. Good bracing prevents misalignment and failure.",
+    "id": 14
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must forms be checked for plumb before pouring?",
+    "options": [
+      "Concrete will harden in the position of the forms",
+      "Concrete corrects leaning forms by itself",
+      "Plumb affects only paint",
+      "Wall forms do not need checking"
+    ],
+    "answer": 0,
+    "explanation": "If forms lean, the finished concrete will lean. Plumb forms help create straight walls. Errors are hard to correct after concrete hardens.",
+    "id": 15
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must slab edge forms be securely staked?",
+    "options": [
+      "Fresh concrete can push them out of line",
+      "Stakes are only decorative",
+      "Concrete becomes lighter after staking",
+      "Staking replaces finishing"
+    ],
+    "answer": 0,
+    "explanation": "Slab forms control the slab edge and elevation. Loose forms can move during placement. Movement creates wrong dimensions or uneven edges.",
+    "id": 16
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is form release agent used for?",
+    "options": [
+      "To help forms separate from hardened concrete",
+      "To increase concrete strength",
+      "To replace curing compound",
+      "To bond concrete to forms permanently"
+    ],
+    "answer": 0,
+    "explanation": "Release agent reduces sticking between concrete and form surfaces. It helps protect reusable forms. It should not contaminate reinforcement.",
+    "id": 17
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What can happen if form joints are not tight?",
+    "options": [
+      "Cement paste can leak out",
+      "Concrete becomes stronger",
+      "Forms become more level",
+      "Rebar cover increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "Leaky forms lose cement paste. This can cause honeycombing or rough edges. Tight joints improve concrete finish and quality.",
+    "id": 18
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is a blockout used for?",
+    "options": [
+      "To create an opening or recess in concrete",
+      "To vibrate concrete",
+      "To replace anchor bolts",
+      "To strengthen drywall"
+    ],
+    "answer": 0,
+    "explanation": "Blockouts form planned holes, pockets, or openings. They must be placed and secured before the pour. Missing blockouts are difficult to fix later.",
+    "id": 19
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are anchor bolts positioned before or during a concrete pour?",
+    "options": [
+      "To connect future wood framing or plates to concrete",
+      "To replace concrete forms",
+      "To increase slump",
+      "To cure concrete faster"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts secure sill plates or other components. They must be correctly located and embedded. Misplaced bolts create framing problems.",
+    "id": 20
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the main purpose of a footing?",
+    "options": [
+      "Spread building loads to the soil",
+      "Hold paint",
+      "Support roof shingles directly",
+      "Replace wall framing"
+    ],
+    "answer": 0,
+    "explanation": "Footings transfer loads from the structure to the ground. They spread loads over a larger area. Footing size depends on load and soil conditions.",
+    "id": 21
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must footing soil be firm and undisturbed?",
+    "options": [
+      "Soft soil can settle under load",
+      "Soft soil makes footings stronger",
+      "Soil condition does not matter",
+      "Footings float above soil"
+    ],
+    "answer": 0,
+    "explanation": "Footings need reliable bearing. Loose or disturbed soil can compress. Settlement can crack or move the structure.",
+    "id": 22
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What can happen if footing forms are set at the wrong elevation?",
+    "options": [
+      "Walls and floors above may be at wrong height",
+      "Concrete becomes stronger",
+      "Rebar disappears",
+      "Forms strip easier"
+    ],
+    "answer": 0,
+    "explanation": "Footing elevation affects the entire foundation system. Errors can affect walls, slabs, stairs, and framing. Elevation must be checked before concrete placement.",
+    "id": 23
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is a slab-on-grade?",
+    "options": [
+      "A concrete slab placed on prepared ground",
+      "A roof slab hanging from rafters",
+      "A wall sheathing panel",
+      "A wood beam"
+    ],
+    "answer": 0,
+    "explanation": "Slab-on-grade rests on the ground. It needs proper base preparation. Moisture control and reinforcement may also be required.",
+    "id": 24
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why is the base under a slab-on-grade compacted?",
+    "options": [
+      "To provide uniform support and reduce settlement",
+      "To make concrete dry instantly",
+      "To replace reinforcement",
+      "To increase roof slope"
+    ],
+    "answer": 0,
+    "explanation": "A compacted base supports the slab evenly. Soft areas can settle and crack the slab. Base preparation is essential.",
+    "id": 25
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What does a vapour barrier under a slab help control?",
+    "options": [
+      "Moisture movement from the ground",
+      "Roof uplift",
+      "Door swing",
+      "Stair nosing"
+    ],
+    "answer": 0,
+    "explanation": "Ground moisture can move through slabs. A vapour barrier helps protect interior spaces and flooring. It must be installed and repaired as required.",
+    "id": 26
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are control joints used in slabs?",
+    "options": [
+      "To control where shrinkage cracks occur",
+      "To stop all cracking forever",
+      "To replace reinforcement",
+      "To increase concrete water content"
+    ],
+    "answer": 0,
+    "explanation": "Concrete shrinks as it cures. Control joints create planned crack locations. They reduce random cracking.",
+    "id": 27
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is suspended slab formwork?",
+    "options": [
+      "Formwork supporting a slab above the ground until it gains strength",
+      "A slab placed directly on soil",
+      "A roofing panel",
+      "A drywall ceiling grid"
+    ],
+    "answer": 0,
+    "explanation": "Suspended slabs need temporary support. Formwork and shoring carry wet concrete loads. The system must stay in place until concrete can support itself.",
+    "id": 28
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why is shoring used for suspended slabs?",
+    "options": [
+      "To support wet concrete, forms, workers, and equipment",
+      "To replace cement",
+      "To increase concrete slump",
+      "To remove the need for reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete is very heavy. Shoring carries temporary construction loads. Poor shoring can collapse.",
+    "id": 29
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is camber in suspended slab formwork?",
+    "options": [
+      "An intentional upward curve to offset deflection",
+      "A crack in concrete",
+      "A type of concrete finish",
+      "A wall anchor"
+    ],
+    "answer": 0,
+    "explanation": "Camber helps compensate for expected sag under load. It helps achieve correct final elevation. It must follow design requirements.",
+    "id": 30
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the first key measurement for concrete stair form layout?",
+    "options": [
+      "Total rise between finished elevations",
+      "Paint colour",
+      "Form board width only",
+      "Number of workers"
+    ],
+    "answer": 0,
+    "explanation": "Stair layout starts with total rise. Finished floor and landing elevations control riser height. Wrong total rise creates unsafe stairs.",
+    "id": 31
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must concrete stair risers be equal?",
+    "options": [
+      "Unequal risers create trip hazards",
+      "Unequal risers make concrete stronger",
+      "Risers do not matter after finishing",
+      "Equal risers reduce curing"
+    ],
+    "answer": 0,
+    "explanation": "Users expect consistent step height. A small difference can cause a fall. Stair forms must be checked before pouring.",
+    "id": 32
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What must concrete stair forms resist during placement?",
+    "options": [
+      "Concrete pressure and vibration",
+      "Paint drying",
+      "Roof uplift",
+      "Cabinet weight"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete is heavy and pushes on forms. Vibration can loosen weak forms. Stair forms must be strong and braced.",
+    "id": 33
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is reinforcement used for in concrete?",
+    "options": [
+      "To help resist tensile forces and cracking",
+      "To make concrete lighter",
+      "To replace cement",
+      "To make forms unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is strong in compression but weaker in tension. Reinforcement helps resist tension and control cracking. It must be placed correctly.",
+    "id": 34
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is rebar cover?",
+    "options": [
+      "The distance between rebar and concrete surface",
+      "Paint on reinforcing steel",
+      "A form tie washer",
+      "A roof panel clip"
+    ],
+    "answer": 0,
+    "explanation": "Cover protects reinforcement from corrosion and fire exposure. It also helps concrete and steel work together. Incorrect cover reduces durability.",
+    "id": 35
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are chairs used under rebar or wire mesh?",
+    "options": [
+      "To keep reinforcement at the correct height",
+      "To make rebar touch the ground",
+      "To replace concrete",
+      "To increase form pressure"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be in the designed position. Chairs maintain proper cover and height. Rebar lying on the ground is usually ineffective.",
+    "id": 36
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must embedded items be secured before concrete placement?",
+    "options": [
+      "Wet concrete can move them",
+      "They automatically align themselves",
+      "They are decorative only",
+      "They replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Embeds must match future connections or services. Concrete pressure and vibration can shift loose items. Securing them prevents costly rework.",
+    "id": 37
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is a sleeve in concrete work?",
+    "options": [
+      "An opening placed for a pipe, duct, or service",
+      "A worker’s clothing part",
+      "A roof flashing strip",
+      "A type of nail"
+    ],
+    "answer": 0,
+    "explanation": "Sleeves create planned openings through concrete. They must be located before the pour. Forgotten sleeves are difficult to add later.",
+    "id": 38
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why is rebar usually tied?",
+    "options": [
+      "To keep it in position during placement",
+      "To make it decorative",
+      "To replace concrete cover",
+      "To increase concrete water content"
+    ],
+    "answer": 0,
+    "explanation": "Concrete flow can move loose reinforcement. Tying helps maintain spacing and position. Correct placement is essential for performance.",
+    "id": 39
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What can happen if rebar is too close to the surface?",
+    "options": [
+      "Corrosion and cracking may occur",
+      "Concrete becomes stronger",
+      "Cover increases",
+      "Rebar becomes waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Insufficient cover exposes steel to moisture and air. Corrosion can expand and crack concrete. Correct cover improves durability.",
+    "id": 40
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why should concrete be placed close to its final position?",
+    "options": [
+      "To reduce segregation and overworking",
+      "To make it dry instantly",
+      "To eliminate finishing",
+      "To increase random cracking"
+    ],
+    "answer": 0,
+    "explanation": "Excessive movement can separate aggregate and paste. Good placement keeps the mix uniform. It improves strength and finish quality.",
+    "id": 41
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is segregation in concrete?",
+    "options": [
+      "Separation of concrete materials",
+      "Proper curing",
+      "Form alignment",
+      "Rebar tying"
+    ],
+    "answer": 0,
+    "explanation": "Segregation happens when aggregate and paste separate. It can weaken concrete and create poor finish. Improper handling or over-vibration can cause it.",
+    "id": 42
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why is concrete vibration used?",
+    "options": [
+      "To consolidate concrete and remove trapped air",
+      "To add water",
+      "To stop hydration",
+      "To replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Vibration helps concrete flow around reinforcement and embeds. It reduces voids and honeycombing. Too much vibration can cause segregation.",
+    "id": 43
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is honeycombing?",
+    "options": [
+      "Voids or rough areas caused by poor consolidation or paste loss",
+      "A roof framing pattern",
+      "A concrete colour finish",
+      "A form release product"
+    ],
+    "answer": 0,
+    "explanation": "Honeycombing leaves visible voids in concrete. It can result from poor vibration, leaking forms, or stiff mix. It may reduce durability and appearance.",
+    "id": 44
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why should concrete not be finished while bleed water is still visible?",
+    "options": [
+      "It can weaken the surface",
+      "It makes the surface stronger",
+      "It improves curing",
+      "It removes shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Finishing too early traps water at the surface. This can cause dusting, scaling, or weak finish. Wait until bleed water disappears.",
+    "id": 45
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is bleed water?",
+    "options": [
+      "Water that rises to the surface of fresh concrete",
+      "Water used to wash tools only",
+      "Water inside a roof drain",
+      "Water in lumber"
+    ],
+    "answer": 0,
+    "explanation": "Bleed water appears as concrete settles. It should evaporate or be handled properly before final finishing. Finishing over bleed water weakens the surface.",
+    "id": 46
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is dusting on a concrete surface?",
+    "options": [
+      "Weak powdery surface condition",
+      "A form bracing method",
+      "A type of rebar",
+      "A roof leak"
+    ],
+    "answer": 0,
+    "explanation": "Dusting is a weak surface that produces powder. It can come from too much water, poor finishing, or poor curing. Good finishing timing and curing reduce dusting.",
+    "id": 47
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Before applying a concrete patching product, what is most important?",
+    "options": [
+      "Clean and prepare the surface",
+      "Paint the surface first",
+      "Add sawdust",
+      "Leave loose material in place"
+    ],
+    "answer": 0,
+    "explanation": "Patching products need a sound surface for bond. Dust, oil, and loose concrete reduce adhesion. Surface preparation controls repair success.",
+    "id": 48
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why must epoxy anchor holes be cleaned?",
+    "options": [
+      "Dust can reduce bond strength",
+      "Dust makes epoxy stronger",
+      "Cleaning replaces cure time",
+      "Cleaning reduces embedment depth"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy must bond to the sides of the drilled hole. Dust and debris interfere with bond. Manufacturer cleaning instructions must be followed.",
+    "id": 49
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why must epoxy anchors cure before loading?",
+    "options": [
+      "Epoxy needs time to develop strength",
+      "Epoxy reaches full strength instantly",
+      "Cure time only affects colour",
+      "Loading early improves bond"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy anchor strength develops during curing. Loading too early can cause anchor failure. Cure time depends on product and temperature.",
+    "id": 50
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the main purpose of formwork?",
+    "options": [
+      "To shape and support fresh concrete until it gains strength",
+      "To replace reinforcement",
+      "To dry concrete faster",
+      "To increase concrete shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Formwork holds fresh concrete in the required shape. It must support concrete weight and pressure. Forms are removed only when concrete can support itself.",
+    "id": 51
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Fresh concrete in a tall wall form creates what type of force?",
+    "options": [
+      "Lateral pressure",
+      "Roof uplift",
+      "Drywall tension",
+      "Flooring vibration"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete pushes sideways on vertical forms. The taller and faster the pour, the greater the pressure. Forms, ties, and braces must resist this force.",
+    "id": 52
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What happens if concrete is placed too quickly in wall forms?",
+    "options": [
+      "Form pressure may exceed design capacity",
+      "Concrete becomes lighter",
+      "Forms become stronger",
+      "Reinforcement is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Fast placement increases lateral pressure. Too much pressure can cause bulging or blowout. Pour rate must match formwork design.",
+    "id": 53
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are form ties used in wall forms?",
+    "options": [
+      "To hold opposite form faces together",
+      "To finish the concrete surface",
+      "To replace concrete curing",
+      "To reduce cement content"
+    ],
+    "answer": 0,
+    "explanation": "Form ties resist sideways concrete pressure. They help maintain correct wall thickness. Tie spacing must follow formwork requirements.",
+    "id": 54
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form is straight but not plumb. What should be done?",
+    "options": [
+      "Correct and brace it before pouring",
+      "Pour and fix it after curing",
+      "Add water to concrete",
+      "Remove form ties"
+    ],
+    "answer": 0,
+    "explanation": "Concrete hardens in the form position. An out-of-plumb form creates an out-of-plumb wall. Plumb must be checked before placement.",
+    "id": 55
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the purpose of bracing in formwork?",
+    "options": [
+      "Keep forms stable, aligned, and plumb",
+      "Increase water-cement ratio",
+      "Replace all form ties",
+      "Make concrete dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Bracing holds forms in position. Forms can move from wind, impact, or concrete pressure. Good bracing prevents unsafe movement.",
+    "id": 56
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form begins to bulge during the pour. What is the safest response?",
+    "options": [
+      "Stop or slow placement and correct the formwork safely",
+      "Continue pouring faster",
+      "Add more water",
+      "Remove braces"
+    ],
+    "answer": 0,
+    "explanation": "Bulging shows formwork is moving under pressure. Continuing can cause blowout or failure. The form must be stabilized before continuing.",
+    "id": 57
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the purpose of walers in wall formwork?",
+    "options": [
+      "Stiffen and align form panels",
+      "Cure concrete",
+      "Replace reinforcement",
+      "Increase slump"
+    ],
+    "answer": 0,
+    "explanation": "Walers keep form faces straight. They distribute pressure to ties and braces. They help prevent bulging.",
+    "id": 58
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must form joints be tight?",
+    "options": [
+      "To prevent cement paste leakage",
+      "To increase shrinkage",
+      "To reduce wall thickness randomly",
+      "To make forms harder to strip"
+    ],
+    "answer": 0,
+    "explanation": "Loose joints leak paste. Paste loss can cause honeycombing and rough surfaces. Tight joints improve concrete quality.",
+    "id": 59
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is form release agent used for?",
+    "options": [
+      "To help forms separate from hardened concrete",
+      "To bond concrete permanently to forms",
+      "To replace curing",
+      "To increase rebar corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Release agent reduces sticking. It protects form surfaces and helps stripping. It should not contaminate reinforcing steel.",
+    "id": 60
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the main purpose of a footing?",
+    "options": [
+      "Spread building loads to the soil",
+      "Hold roof shingles",
+      "Replace wall studs",
+      "Act as a concrete finish coat"
+    ],
+    "answer": 0,
+    "explanation": "Footings transfer structural loads to the ground. They spread the load over a larger area. Footing size depends on load and soil conditions.",
+    "id": 61
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Footing forms are correct width but placed on loose soil. What is the concern?",
+    "options": [
+      "Settlement may occur",
+      "Concrete will gain extra strength",
+      "Rebar becomes unnecessary",
+      "Forms will strip easier"
+    ],
+    "answer": 0,
+    "explanation": "Footings need firm bearing. Loose soil can compress under load. Settlement can crack or move the structure.",
+    "id": 62
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must footing elevations be checked before placing concrete?",
+    "options": [
+      "They affect foundation, slab, stair, and wall elevations",
+      "They only affect concrete colour",
+      "Concrete self-levels to correct elevation",
+      "Elevation does not matter underground"
+    ],
+    "answer": 0,
+    "explanation": "Footing elevation controls work above. Errors can affect walls, floors, stairs, and framing. Concrete errors are difficult to fix later.",
+    "id": 63
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab-on-grade form is not securely staked. What can happen during placement?",
+    "options": [
+      "Edge forms may move outward",
+      "Concrete becomes lighter",
+      "Slab thickness becomes perfect",
+      "Reinforcement rises automatically"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete pushes against edge forms. Loose forms change slab dimensions and elevations. Forms must be staked and braced.",
+    "id": 64
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why is the base under a slab-on-grade compacted?",
+    "options": [
+      "To provide uniform support",
+      "To replace concrete",
+      "To increase random cracking",
+      "To remove need for control joints"
+    ],
+    "answer": 0,
+    "explanation": "A compacted base supports the slab evenly. Soft spots can settle after the pour. Settlement can cause cracks and uneven floors.",
+    "id": 65
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What does a vapour barrier under a slab help control?",
+    "options": [
+      "Ground moisture movement",
+      "Roof uplift",
+      "Form tie spacing",
+      "Stair riser height"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can move from soil into slabs. A vapour barrier protects interior spaces and flooring. Tears should be repaired before placement.",
+    "id": 66
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are control joints used in concrete slabs?",
+    "options": [
+      "To control where shrinkage cracks form",
+      "To stop all cracking forever",
+      "To replace reinforcement",
+      "To make concrete dry instantly"
+    ],
+    "answer": 0,
+    "explanation": "Concrete shrinks as it cures. Control joints create planned crack locations. They reduce random cracking.",
+    "id": 67
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Suspended slab shoring must support:",
+    "options": [
+      "Wet concrete, forms, reinforcement, workers, and equipment",
+      "Paint only",
+      "Roofing materials only",
+      "Finished cabinets only"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete is very heavy. Shoring carries temporary construction loads. Incorrect shoring can collapse.",
+    "id": 68
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab shore is out of plumb. Why is this dangerous?",
+    "options": [
+      "It may buckle or become unstable under load",
+      "It increases slab strength",
+      "It reduces wet concrete weight",
+      "It improves camber"
+    ],
+    "answer": 0,
+    "explanation": "Shores must transfer load vertically. Out-of-plumb shores can buckle or shift. Shoring must follow the approved plan.",
+    "id": 69
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is camber in suspended slab formwork?",
+    "options": [
+      "Intentional upward curve to offset deflection",
+      "Random sag in forms",
+      "Concrete surface dusting",
+      "A type of rebar tie"
+    ],
+    "answer": 0,
+    "explanation": "Camber compensates for expected deflection. It helps the finished slab reach correct elevation. It must match design requirements.",
+    "id": 70
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the main purpose of reinforcement in concrete?",
+    "options": [
+      "Help resist tension and control cracking",
+      "Replace cement",
+      "Make concrete lighter",
+      "Eliminate formwork"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is strong in compression but weak in tension. Reinforcement helps resist tensile forces. Correct placement is essential.",
+    "id": 71
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is concrete cover?",
+    "options": [
+      "Distance between reinforcement and concrete surface",
+      "Paint applied to concrete",
+      "Form plywood thickness",
+      "Slab finish texture"
+    ],
+    "answer": 0,
+    "explanation": "Cover protects reinforcement from corrosion and fire exposure. It also helps steel and concrete work together. Too little cover reduces durability.",
+    "id": 72
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are chairs used under rebar or mesh?",
+    "options": [
+      "To keep reinforcement at correct height",
+      "To make reinforcement touch the ground",
+      "To replace concrete",
+      "To increase form pressure"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be in the designed position. Chairs maintain proper cover and height. Steel lying on the ground may not perform correctly.",
+    "id": 73
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Rebar is placed too close to the surface. What is the risk?",
+    "options": [
+      "Corrosion and cracking",
+      "More concrete cover",
+      "Stronger concrete",
+      "Better curing"
+    ],
+    "answer": 0,
+    "explanation": "Shallow rebar is exposed to moisture and air more easily. Corrosion expands and can crack concrete. Correct cover protects the steel.",
+    "id": 74
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must rebar be tied before placement?",
+    "options": [
+      "To keep bars from shifting during the pour",
+      "To make steel decorative",
+      "To replace chairs",
+      "To reduce concrete strength"
+    ],
+    "answer": 0,
+    "explanation": "Concrete flow can move loose reinforcement. Tying helps maintain spacing and position. Correct location affects structural performance.",
+    "id": 75
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the purpose of rebar lap length?",
+    "options": [
+      "Transfer force between bars",
+      "Make rebar easier to paint",
+      "Reduce concrete thickness",
+      "Replace form ties"
+    ],
+    "answer": 0,
+    "explanation": "Laps allow reinforcement forces to continue through bars. Short laps can weaken the reinforced element. Lap length must follow drawings or code.",
+    "id": 76
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are anchor bolts secured before concrete placement?",
+    "options": [
+      "Wet concrete can move loose bolts",
+      "Bolts always align themselves",
+      "Bolts are only decorative",
+      "Bolts replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts must match plates and future framing. Concrete flow and vibration can shift loose bolts. Templates help maintain location.",
+    "id": 77
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A sleeve is missing before a wall pour. What should be done?",
+    "options": [
+      "Install or clarify it before concrete placement",
+      "Pour and drill randomly later",
+      "Ignore it",
+      "Add water to concrete"
+    ],
+    "answer": 0,
+    "explanation": "Sleeves create planned service openings. Adding them after concrete hardens is difficult. Pre-pour checks prevent expensive rework.",
+    "id": 78
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must embedded plates be secured before pouring?",
+    "options": [
+      "Concrete can shift them out of position",
+      "They float into perfect position",
+      "They replace formwork",
+      "They are only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Embedded plates must align with future connections. Wet concrete and vibration can move loose embeds. They must be fixed before placement.",
+    "id": 79
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "What is the concern if form release agent gets on rebar?",
+    "options": [
+      "It may reduce bond between concrete and steel",
+      "It increases bond strength",
+      "It improves cover",
+      "It cures concrete faster"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must bond with reinforcement. Oil or release agent can interfere with bond. Release agent should stay on form faces.",
+    "id": 80
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is the risk of adding unapproved water to concrete on site?",
+    "options": [
+      "Lower strength and increased shrinkage",
+      "Higher strength always",
+      "Less cracking always",
+      "Better durability always"
+    ],
+    "answer": 0,
+    "explanation": "Extra water raises the water-cement ratio. This weakens concrete and increases shrinkage. Slump changes must follow specifications.",
+    "id": 81
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete placed from too high a drop can cause:",
+    "options": [
+      "Segregation",
+      "Better consolidation",
+      "Stronger surface",
+      "Faster curing only"
+    ],
+    "answer": 0,
+    "explanation": "Excessive drop can separate aggregate from paste. Segregation weakens concrete quality. Concrete should be placed in a controlled manner.",
+    "id": 82
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is segregation?",
+    "options": [
+      "Separation of concrete materials",
+      "Proper curing",
+      "Rebar tying",
+      "Form bracing"
+    ],
+    "answer": 0,
+    "explanation": "Segregation separates coarse aggregate and paste. It causes poor strength and finish. Poor handling or over-vibration can cause it.",
+    "id": 83
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why is concrete vibration used?",
+    "options": [
+      "To consolidate concrete and remove trapped air",
+      "To add water",
+      "To stop hydration",
+      "To replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Vibration helps concrete flow around reinforcement. It removes trapped air and reduces voids. Too much vibration can cause segregation.",
+    "id": 84
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What can over-vibration cause?",
+    "options": [
+      "Segregation",
+      "Stronger concrete always",
+      "No effect",
+      "Faster curing only"
+    ],
+    "answer": 0,
+    "explanation": "Vibration is helpful only when controlled. Too much vibration separates aggregate and paste. This weakens concrete quality.",
+    "id": 85
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is honeycombing?",
+    "options": [
+      "Voids or rough areas in concrete",
+      "A roof framing pattern",
+      "A concrete colour",
+      "A type of form tie"
+    ],
+    "answer": 0,
+    "explanation": "Honeycombing is caused by voids in concrete. It can result from poor consolidation, leaky forms, or stiff mix. It affects durability and appearance.",
+    "id": 86
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why should concrete not be finished while bleed water is visible?",
+    "options": [
+      "It can weaken the surface",
+      "It makes concrete stronger",
+      "It eliminates shrinkage",
+      "It improves curing"
+    ],
+    "answer": 0,
+    "explanation": "Finishing over bleed water traps water at the surface. This can cause dusting or scaling. Wait until bleed water disappears.",
+    "id": 87
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is bleed water?",
+    "options": [
+      "Water that rises to the surface of fresh concrete",
+      "Water inside rebar",
+      "Water used to clean tools only",
+      "Water from roof drainage"
+    ],
+    "answer": 0,
+    "explanation": "Bleed water appears as concrete settles. It must not be trapped under the finished surface. Finishing timing is important.",
+    "id": 88
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "What is the purpose of curing concrete?",
+    "options": [
+      "Maintain moisture and temperature for strength gain",
+      "Dry concrete as fast as possible",
+      "Remove cement paste",
+      "Replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Curing supports hydration. Concrete needs moisture and proper temperature to gain strength. Poor curing reduces durability.",
+    "id": 89
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete placed in hot, dry, windy conditions is at risk of:",
+    "options": [
+      "Rapid moisture loss and plastic shrinkage cracking",
+      "Freezing only",
+      "Becoming stronger instantly",
+      "Not needing curing"
+    ],
+    "answer": 0,
+    "explanation": "Heat and wind increase evaporation. Fast drying can crack the surface early. Protection and curing are important.",
+    "id": 90
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Concrete stair layout should start with:",
+    "options": [
+      "Total rise between finished elevations",
+      "Form board colour",
+      "Number of nails available",
+      "Concrete truck size"
+    ],
+    "answer": 0,
+    "explanation": "Stair risers are based on total rise. Finished floor and landing heights must be used. Wrong layout creates unsafe stairs.",
+    "id": 91
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete stair has uneven riser heights. What is the main concern?",
+    "options": [
+      "Trip hazard",
+      "Better drainage",
+      "Stronger concrete",
+      "Easier finishing"
+    ],
+    "answer": 0,
+    "explanation": "Stair users expect consistent rise. Uneven risers cause falls. Forms must be corrected before pouring.",
+    "id": 92
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why must stair forms be strongly braced?",
+    "options": [
+      "Concrete pressure and vibration can move them",
+      "Bracing reduces strength",
+      "Stairs create no pressure",
+      "Reinforcement holds forms straight"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete is heavy and pushes on forms. Vibration can loosen weak formwork. Movement changes stair dimensions.",
+    "id": 93
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why are ICF walls braced before concrete placement?",
+    "options": [
+      "ICF forms can move, bow, or go out of plumb",
+      "ICF walls do not use concrete",
+      "Bracing reduces insulation value",
+      "ICF blocks align themselves during pouring"
+    ],
+    "answer": 0,
+    "explanation": "ICF blocks are lightweight before filling. Concrete pressure can distort them. Bracing keeps the wall straight and plumb.",
+    "id": 94
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A proprietary formwork system is missing a required locking pin. What should happen?",
+    "options": [
+      "Do not use it until the correct part is installed",
+      "Replace it with wire",
+      "Use it only for a short pour",
+      "Ignore it if the panel looks flat"
+    ],
+    "answer": 0,
+    "explanation": "Proprietary systems depend on rated parts. Missing components can reduce capacity. Manufacturer instructions must be followed.",
+    "id": 95
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Before applying a cement-based patch, what is most important?",
+    "options": [
+      "Clean, sound surface preparation",
+      "Loose dust left in place",
+      "Paint under the patch",
+      "Extra water on all surfaces"
+    ],
+    "answer": 0,
+    "explanation": "Patches need a sound surface for bond. Dust, oil, or loose concrete reduce adhesion. Surface preparation controls repair success.",
+    "id": 96
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why must epoxy anchor holes be cleaned?",
+    "options": [
+      "Dust reduces bond strength",
+      "Dust makes epoxy stronger",
+      "Cleaning replaces cure time",
+      "Cleaning reduces embedment"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy bonds to the sides of the hole. Dust and debris interfere with bond. Follow manufacturer cleaning instructions.",
+    "id": 97
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why must epoxy anchors cure before loading?",
+    "options": [
+      "Epoxy needs time to develop strength",
+      "Epoxy is full strength immediately",
+      "Loading early improves bond",
+      "Cure time only affects colour"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy strength develops over time. Loading too early can cause failure. Cure time depends on product and temperature.",
+    "id": 98
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Why must epoxy anchor embedment depth match specifications?",
+    "options": [
+      "Embedment depth affects anchor capacity",
+      "Depth affects colour only",
+      "Shallow holes are always stronger",
+      "Epoxy does not need embedment"
+    ],
+    "answer": 0,
+    "explanation": "Anchor strength depends on correct embedment. Too shallow a hole reduces capacity. Manufacturer requirements must be followed.",
+    "id": 99
+  },
+  {
+    "category": "C — Performs Concrete Work",
+    "question": "Which statement best describes good concrete work?",
+    "options": [
+      "Correct forms, reinforcement, placement, finishing, and curing all work together",
+      "Only concrete strength matters",
+      "Only finishing matters",
+      "Formwork errors can always be fixed after curing"
+    ],
+    "answer": 0,
+    "explanation": "Concrete quality depends on the whole process. Formwork, reinforcement, placement, consolidation, finishing, and curing all matter. Most concrete mistakes are hard to fix later.",
+    "id": 100
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form is designed for a slow pour, but the crew increases the pour rate to finish before lunch. What is the hidden danger?",
+    "options": [
+      "Concrete may gain strength too slowly",
+      "Lateral pressure may exceed the form design",
+      "Rebar cover will automatically improve",
+      "The concrete will become lighter"
+    ],
+    "answer": 1,
+    "explanation": "Pour rate directly affects pressure on vertical forms. Faster placement can create more pressure before concrete stiffens. This can cause bulging, leakage, or form blowout.",
+    "id": 101
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form wall is perfectly plumb before the pour, but it has weak bracing. Why is it still unsafe?",
+    "options": [
+      "Plumb forms do not need bracing",
+      "Bracing controls movement during wind and concrete pressure",
+      "Concrete pressure only acts downward",
+      "Form ties replace all bracing"
+    ],
+    "answer": 1,
+    "explanation": "A form can start plumb and still move during placement. Bracing keeps forms aligned under pressure and vibration. Ties hold form faces together but do not fully control position.",
+    "id": 102
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A worker says, “The forms are leaking only paste, not stone, so it is not serious.” What is wrong with this statement?",
+    "options": [
+      "Paste loss can cause honeycombing and weak edges",
+      "Paste leakage improves concrete strength",
+      "Aggregate is the only important concrete material",
+      "Leaking forms cure faster"
+    ],
+    "answer": 0,
+    "explanation": "Cement paste bonds the aggregate together. Losing paste can leave voids, rough surfaces, and weak areas. Tight form joints are important for concrete quality.",
+    "id": 103
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A vertical form has the correct number of ties, but all ties are placed too high. What is the likely problem?",
+    "options": [
+      "Lower form pressure may be unsupported",
+      "Wall height will reduce automatically",
+      "Concrete will not need vibration",
+      "Rebar will move to the correct location"
+    ],
+    "answer": 0,
+    "explanation": "Tie spacing must resist pressure over the full form height. Fresh concrete pressure is often greatest near the lower portion. Correct tie location matters, not just tie quantity.",
+    "id": 104
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form tie breaks during a wall pour. The wall has not failed yet. What is the best exam-style response?",
+    "options": [
+      "Continue because one broken tie does not matter",
+      "Stop or control the pour and stabilize the formwork safely",
+      "Add water to reduce pressure",
+      "Remove nearby ties to balance pressure"
+    ],
+    "answer": 1,
+    "explanation": "A broken tie can overload nearby form parts. Form failure may happen suddenly after warning signs. The pour should not continue until the formwork is safe.",
+    "id": 105
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab edge form is low and easy to move, so a worker says bracing is unnecessary. Why is that wrong?",
+    "options": [
+      "Even slab concrete can push edge forms out of line",
+      "Slab concrete has no weight",
+      "Low forms always self-align",
+      "Reinforcement keeps forms straight"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete still exerts pressure on low forms. Loose slab forms can bow, move, or change elevation. Concrete hardens in the shape set by the forms.",
+    "id": 106
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form is built strong enough for concrete pressure, but it is not braced against wind before the pour. What is the issue?",
+    "options": [
+      "Empty forms can move or fall before concrete arrives",
+      "Wind strengthens formwork",
+      "Bracing is needed only after concrete hardens",
+      "Form release prevents wind movement"
+    ],
+    "answer": 0,
+    "explanation": "Tall empty forms can act like sails in wind. They may shift, tip, or become unsafe before placement. Formwork must be stable during setup, pouring, and curing.",
+    "id": 107
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A proprietary form system is missing one manufacturer locking component. A worker suggests replacing it with wire. What is correct?",
+    "options": [
+      "Wire is acceptable if twisted tightly",
+      "Use only approved components or repair methods",
+      "The missing component matters only for appearance",
+      "Pouring slower removes all risk"
+    ],
+    "answer": 1,
+    "explanation": "Proprietary systems are rated as complete assemblies. Substituting parts can reduce strength and safety. Manufacturer instructions must be followed.",
+    "id": 108
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form face is dirty with hardened concrete from a previous pour. Why can this matter beyond appearance?",
+    "options": [
+      "It can affect dimensions, finish, and form fit",
+      "Dirty forms increase concrete strength",
+      "Old concrete acts as release agent",
+      "Dirty forms eliminate curing needs"
+    ],
+    "answer": 0,
+    "explanation": "Buildup can change the form surface and alignment. It can leave defects on the finished concrete. Clean form faces help accuracy and finish quality.",
+    "id": 109
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form is built to the correct width, but the carpenter forgets to allow for a construction joint shown on the drawings. What is the concern?",
+    "options": [
+      "The pour sequence and joint location may be wrong",
+      "Concrete strength always increases at random joints",
+      "Joint locations are only decorative",
+      "Control joints replace all construction joints"
+    ],
+    "answer": 0,
+    "explanation": "Construction joints are planned stopping points. Wrong joint location can affect strength, finish, and water control. Joint details must follow drawings.",
+    "id": 110
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Footing forms are correct in size and elevation, but the excavation bottom has loose disturbed soil. What is the real problem?",
+    "options": [
+      "The footing may settle even if the form is correct",
+      "Loose soil improves bearing",
+      "Form elevation fixes all soil problems",
+      "Rebar will compact the soil"
+    ],
+    "answer": 0,
+    "explanation": "Footings need firm, suitable bearing soil. Loose or disturbed soil can compress under load. Correct formwork cannot compensate for poor bearing.",
+    "id": 111
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A footing is made wider than shown “to be safer.” Why might this still require approval?",
+    "options": [
+      "It may affect design, cost, clearances, excavation, or load assumptions",
+      "Wider is always acceptable without question",
+      "Wider concrete never changes anything",
+      "Footing size is not part of the drawings"
+    ],
+    "answer": 0,
+    "explanation": "Changes to structural concrete should be reviewed. Extra width may interfere with services or adjacent work. Work should follow approved drawings.",
+    "id": 112
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab-on-grade base is level, but one area feels soft underfoot. What should happen before concrete placement?",
+    "options": [
+      "Correct and compact the soft area",
+      "Pour thicker concrete only in that spot",
+      "Ignore it because the top is level",
+      "Add water to help concrete flow"
+    ],
+    "answer": 0,
+    "explanation": "Slabs need uniform support. Soft spots can settle after the concrete hardens. This can lead to cracking or uneven floors.",
+    "id": 113
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A vapour barrier is installed under a slab, but it is punctured in many locations by workers walking on it. What is the concern?",
+    "options": [
+      "Moisture control may be reduced",
+      "Holes improve drying",
+      "Concrete will seal all holes perfectly",
+      "Vapour barriers are only for layout"
+    ],
+    "answer": 0,
+    "explanation": "Vapour barriers control ground moisture movement. Tears and punctures reduce effectiveness. Damaged areas should be repaired as required.",
+    "id": 114
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab shore is tight at installation, but it rests on a small scrap block over soft ground. What is the hidden risk?",
+    "options": [
+      "The shore may settle when loaded",
+      "Tightness proves it is safe",
+      "Soft ground increases shoring strength",
+      "Scrap blocks are always engineered pads"
+    ],
+    "answer": 0,
+    "explanation": "Shoring must have adequate bearing. Wet concrete loads can compress weak bases. Mud sills or proper bearing pads may be required.",
+    "id": 115
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab form deck is level, but shoring spacing is wider than the formwork plan. Why is this unsafe?",
+    "options": [
+      "The deck may be overloaded between supports",
+      "Level formwork means spacing does not matter",
+      "Wet concrete weighs less on wide spacing",
+      "Reinforcement supports the deck during the pour"
+    ],
+    "answer": 0,
+    "explanation": "Shoring spacing controls formwork capacity. Wider spacing can increase deflection or failure risk. The approved shoring layout must be followed.",
+    "id": 116
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab is stripped early because “the surface is hard.” What is the exam concern?",
+    "options": [
+      "Surface hardness does not prove structural strength",
+      "Hard surfaces mean full design strength",
+      "Curing stops once forms are removed",
+      "Early stripping always improves strength"
+    ],
+    "answer": 0,
+    "explanation": "Concrete gains strength over time, not just by surface hardening. Early form removal can cause cracking, deflection, or collapse. Stripping must follow design and strength requirements.",
+    "id": 117
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab requires slope to a drain, but the forms are perfectly level. What is wrong?",
+    "options": [
+      "Level forms may create ponding instead of drainage",
+      "Concrete will slope itself to the drain",
+      "Slopes are controlled only by broom finish",
+      "Drainage does not depend on elevation"
+    ],
+    "answer": 0,
+    "explanation": "Forms and screed guides establish finished elevation. A required slope must be built into the setup. Level concrete can hold water where drainage is needed.",
+    "id": 118
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A control joint is cut too late after the slab has already cracked randomly. What was missed?",
+    "options": [
+      "Timing of joint installation",
+      "Concrete colour selection",
+      "Rebar tying only",
+      "Form release application"
+    ],
+    "answer": 0,
+    "explanation": "Control joints must be installed before random shrinkage cracks form. They create planned weak lines for cracking. Late joints may not control cracks effectively.",
+    "id": 119
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab has reinforcement, so a worker says control joints are unnecessary. What is the correct idea?",
+    "options": [
+      "Reinforcement controls cracking but does not eliminate shrinkage movement",
+      "Reinforcement prevents all cracks",
+      "Control joints replace all reinforcement",
+      "Joints only affect colour"
+    ],
+    "answer": 0,
+    "explanation": "Concrete still shrinks as it cures. Reinforcement and joints serve different purposes. Joint layout may still be required.",
+    "id": 120
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Rebar is tied securely but is sitting directly on the ground in a slab. What is wrong?",
+    "options": [
+      "Correct tying does not fix wrong elevation",
+      "Rebar works best below the slab",
+      "Concrete will lift the rebar automatically",
+      "Ground contact increases cover"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be at the designed height. Tying only holds bars together; chairs hold them in position. Wrong elevation reduces structural performance.",
+    "id": 121
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A rebar chair is placed on soft insulation and sinks during the pour. What is the concern?",
+    "options": [
+      "Reinforcement cover and location may become wrong",
+      "Sinking chairs improve bond",
+      "Rebar will float to the correct height",
+      "Cover is not important in slabs"
+    ],
+    "answer": 0,
+    "explanation": "Chairs must support steel during placement. If they sink, reinforcement may be too low. Correct cover and position are essential.",
+    "id": 122
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A rebar lap is shorter than shown, but the bars are touching tightly. What is the issue?",
+    "options": [
+      "Tight contact does not replace required lap length",
+      "Touching bars transfer all force instantly",
+      "Short laps are always stronger",
+      "Lap length only affects appearance"
+    ],
+    "answer": 0,
+    "explanation": "Lap length provides force transfer between bars. Insufficient lap can weaken reinforcement continuity. Drawings and code requirements must be followed.",
+    "id": 123
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A worker coats form panels heavily with release agent and overspray lands on rebar. Why is this a problem?",
+    "options": [
+      "Rebar bond to concrete may be reduced",
+      "Rebar cover increases",
+      "Concrete cures faster",
+      "Release agent strengthens steel"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must bond to reinforcing steel. Oil or release agent contamination can interfere with bond. Release agent should be applied carefully.",
+    "id": 124
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "An anchor bolt is at the correct spacing but too close to the concrete edge. What is the possible failure?",
+    "options": [
+      "Edge breakout or reduced anchorage capacity",
+      "Better holding strength",
+      "Less need for washers",
+      "Concrete edge becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Anchors need proper edge distance. Too close to an edge can split or break concrete. Bolt layout must meet requirements.",
+    "id": 125
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Anchor bolts are placed after concrete has started to stiffen. Why is this risky?",
+    "options": [
+      "Proper embedment and consolidation around bolts may be poor",
+      "Stiff concrete improves bolt alignment",
+      "Bolts need no embedment",
+      "Late placement always increases bond"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts must be embedded and surrounded by concrete properly. Late placement can leave voids or poor alignment. Templates or supports should be used before placement.",
+    "id": 126
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A sleeve is installed in the right wall but at the wrong elevation. Why is this still a serious error?",
+    "options": [
+      "Services may not align after concrete hardens",
+      "Sleeve elevation does not matter",
+      "Pipes can always bend through concrete",
+      "Wrong sleeves increase wall strength"
+    ],
+    "answer": 0,
+    "explanation": "Sleeves are placed for future pipes, ducts, or services. Wrong elevation creates conflicts after curing. Correction may require drilling or demolition.",
+    "id": 127
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "An embedded steel plate is level, but it is not secured against floating or shifting. What can happen during placement?",
+    "options": [
+      "It may move from concrete flow or vibration",
+      "Concrete will lock it in the right location automatically",
+      "Embed plates do not need accuracy",
+      "Level is the only important factor"
+    ],
+    "answer": 0,
+    "explanation": "Embeds must remain in exact position during the pour. Concrete movement and vibration can shift loose items. They must be firmly secured.",
+    "id": 128
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Rebar has mud and oil on it before the pour. What should be questioned?",
+    "options": [
+      "Whether contaminants will reduce bond",
+      "Whether mud improves concrete strength",
+      "Whether oil increases cover",
+      "Whether dirty rebar cures concrete"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must bond to the steel. Mud, oil, or heavy contamination can interfere with bond. Reinforcement should be clean enough for placement.",
+    "id": 129
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall has correct rebar spacing, but bars are touching the form face. What is the issue?",
+    "options": [
+      "Insufficient cover and possible corrosion risk",
+      "Stronger wall surface",
+      "Better fire protection",
+      "Rebar will move away from the form by itself"
+    ],
+    "answer": 0,
+    "explanation": "Rebar must have proper cover from the concrete surface. Steel too close to the face can corrode and crack concrete. Chairs, spacers, or ties maintain cover.",
+    "id": 130
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A concrete truck arrives with stiff concrete, and a worker adds water without approval. What is the best exam answer?",
+    "options": [
+      "The mix design may be changed, reducing strength and durability",
+      "Extra water always improves concrete",
+      "Water only affects colour",
+      "Water replaces vibration"
+    ],
+    "answer": 0,
+    "explanation": "Adding water changes the water-cement ratio. This can reduce strength and increase shrinkage. Adjustments must follow specifications.",
+    "id": 131
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete is dropped from too high into a congested wall form. What defect is most likely?",
+    "options": [
+      "Segregation and poor consolidation",
+      "Increased air entrainment only",
+      "Stronger concrete at the base",
+      "Better rebar bond always"
+    ],
+    "answer": 0,
+    "explanation": "Excessive drop can separate aggregate and paste. Congested reinforcement makes placement harder. Controlled placement reduces segregation.",
+    "id": 132
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A worker vibrates concrete until water and paste rise heavily to the surface. What is the concern?",
+    "options": [
+      "Over-vibration may cause segregation",
+      "This always means perfect consolidation",
+      "More water on top improves strength",
+      "Vibration replaces curing"
+    ],
+    "answer": 0,
+    "explanation": "Vibration should consolidate, not separate the mix. Over-vibration can bring paste upward and aggregate downward. Segregation weakens concrete quality.",
+    "id": 133
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Honeycombing is discovered after stripping forms. Which combination is a likely cause?",
+    "options": [
+      "Poor consolidation, leaky forms, or obstructed reinforcement",
+      "Proper vibration and tight forms",
+      "Too much curing",
+      "Correct placement only"
+    ],
+    "answer": 0,
+    "explanation": "Honeycombing is caused by voids or paste loss. It often results from poor vibration or leaking joints. Crowded reinforcement can also prevent proper flow.",
+    "id": 134
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab finisher starts troweling while bleed water is still on the surface. What is the hidden risk?",
+    "options": [
+      "A weak, dusty, or scaled surface",
+      "Stronger surface paste",
+      "Elimination of shrinkage cracks",
+      "Better bond for curing compound"
+    ],
+    "answer": 0,
+    "explanation": "Finishing over bleed water traps water in the surface layer. This weakens the top surface. Bleed water should disappear before final finishing.",
+    "id": 135
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab surface becomes powdery after curing. Which earlier mistake may have contributed?",
+    "options": [
+      "Too much water, poor finishing timing, or poor curing",
+      "Correct curing only",
+      "Proper finishing after bleed water disappeared",
+      "Correct water-cement ratio"
+    ],
+    "answer": 0,
+    "explanation": "Dusting is a weak powdery surface condition. It can result from excess water or finishing too early. Poor curing can also weaken the surface.",
+    "id": 136
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete is placed in hot, dry wind and left uncovered. What is the main early-age risk?",
+    "options": [
+      "Rapid moisture loss and plastic shrinkage cracking",
+      "Freeze-thaw damage immediately",
+      "Concrete becoming too strong",
+      "Elimination of curing needs"
+    ],
+    "answer": 0,
+    "explanation": "Hot, dry, windy conditions increase evaporation. The surface can crack before concrete gains strength. Protection and curing are important.",
+    "id": 137
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete placed in cold weather freezes before it gains early strength. What can happen?",
+    "options": [
+      "Permanent strength and durability loss",
+      "Concrete becomes stronger later",
+      "Freezing replaces curing",
+      "Aggregate turns into cement"
+    ],
+    "answer": 0,
+    "explanation": "Early freezing disrupts hydration and concrete structure. Concrete must be protected from freezing when young. Cold-weather protection may be required.",
+    "id": 138
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A curing compound is applied after the surface has already dried badly. What is the issue?",
+    "options": [
+      "Late curing may not reverse early moisture loss damage",
+      "Curing compound repairs all cracks",
+      "Dry surfaces no longer need curing",
+      "Curing compound replaces correct mix design"
+    ],
+    "answer": 0,
+    "explanation": "Curing should begin at the proper time. Early moisture loss can already cause shrinkage cracks or weak surface. Curing prevents damage better than it repairs it.",
+    "id": 139
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A worker says concrete gains strength by “drying out.” What is the correct concept?",
+    "options": [
+      "Concrete gains strength by hydration, which requires moisture",
+      "Concrete gains strength only by evaporation",
+      "Drying and hydration are the same",
+      "Water stops strength gain"
+    ],
+    "answer": 0,
+    "explanation": "Hydration is the cement-water reaction. Concrete needs moisture and proper temperature to gain strength. Drying too quickly can reduce performance.",
+    "id": 140
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete stair total rise is correct, but the carpenter forgets the finished flooring thickness at the top landing. What is the likely result?",
+    "options": [
+      "First or last riser may be unequal",
+      "Concrete strength increases",
+      "Stair width changes automatically",
+      "Reinforcement cover improves"
+    ],
+    "answer": 0,
+    "explanation": "Stair layout must use finished elevations. Flooring thickness changes final walking surfaces. Unequal risers create a trip hazard.",
+    "id": 141
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete stair tread is formed level outdoors where water drainage is required. What should be checked?",
+    "options": [
+      "Required slope and drainage detail",
+      "Wall form tie spacing only",
+      "Rebar lap length only",
+      "Form release brand only"
+    ],
+    "answer": 0,
+    "explanation": "Exterior stair treads may need drainage slope. A level or reverse-sloped tread can hold water. Forms establish the final walking surface.",
+    "id": 142
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A stair form is dimensionally correct but flexes when a worker steps against it. What is the concern?",
+    "options": [
+      "Concrete pressure and vibration may distort the stair",
+      "Flexible forms create smoother stairs",
+      "Stair forms do not carry pressure",
+      "Reinforcement will straighten the forms"
+    ],
+    "answer": 0,
+    "explanation": "Stair forms must be rigid during placement. Flexing can change riser, tread, and width dimensions. Concrete stairs are difficult to correct after curing.",
+    "id": 143
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "An ICF wall is straight before pouring, but concrete is placed too fast in high lifts. What is the risk?",
+    "options": [
+      "Form bulging or blowout",
+      "Lower concrete pressure",
+      "Automatic alignment improvement",
+      "Elimination of bracing needs"
+    ],
+    "answer": 0,
+    "explanation": "ICF forms are lightweight before concrete hardens. Fast high lifts increase pressure. Bracing and lift height must follow system instructions.",
+    "id": 144
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "ICF bracing is removed immediately after the wall is filled because “the wall is full now.” What is the concern?",
+    "options": [
+      "Concrete may not have gained strength to hold alignment",
+      "Full ICF walls need no curing",
+      "Bracing reduces concrete strength",
+      "ICF blocks are removed after filling"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete remains plastic after placement. Bracing keeps the wall aligned while concrete gains strength. Removing it too early can allow movement.",
+    "id": 145
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A cement-based patch is applied over smooth, dusty concrete. What will most likely fail?",
+    "options": [
+      "Bond between patch and substrate",
+      "Rebar cover",
+      "Form pressure",
+      "Air entrainment"
+    ],
+    "answer": 0,
+    "explanation": "Patches need clean, sound, properly prepared surfaces. Dust or smooth weak surfaces reduce adhesion. Surface preparation controls repair performance.",
+    "id": 146
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "An epoxy anchor hole is drilled to the correct depth but not cleaned. Why can the anchor still fail?",
+    "options": [
+      "Dust prevents proper bond to the hole wall",
+      "Correct depth fixes all installation errors",
+      "Dust increases epoxy strength",
+      "Cleaning is only for appearance"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy must bond to clean concrete surfaces. Dust and debris act as a bond breaker. Hole cleaning is part of the tested installation method.",
+    "id": 147
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "An epoxy anchor is installed correctly but loaded before the required cure time. What is the risk?",
+    "options": [
+      "Anchor may not have reached required strength",
+      "Early loading improves bond",
+      "Epoxy cures only after loading",
+      "Cure time affects colour only"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy needs time to develop strength. Temperature and product type affect cure time. Loading too early can cause failure.",
+    "id": 148
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A hole for an epoxy anchor is too shallow, but extra epoxy is added. What is wrong?",
+    "options": [
+      "Extra epoxy does not replace required embedment depth",
+      "More epoxy always increases capacity",
+      "Shallow holes are stronger",
+      "Embedment affects only appearance"
+    ],
+    "answer": 0,
+    "explanation": "Anchor capacity depends on embedment depth. Extra adhesive cannot fully compensate for a short hole. Manufacturer instructions must be followed.",
+    "id": 149
+  },
+  {
+    "category": "C — Performs Concrete Work",
+    "question": "A concrete job has correct mix strength but poor forms, misplaced rebar, bad consolidation, and poor curing. What is the best conclusion?",
+    "options": [
+      "Concrete quality depends on the whole process, not mix strength alone",
+      "Mix strength fixes all workmanship errors",
+      "Rebar location and curing do not matter",
+      "Forms only affect appearance"
+    ],
+    "answer": 0,
+    "explanation": "Concrete performance depends on forming, reinforcement, placement, consolidation, finishing, and curing. A strong mix can still fail if installed poorly. Concrete work must be controlled from preparation to curing.",
+    "id": 150
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "You are setting wall forms and notice the wall thickness is 200 mm on the drawing, but the form ties being used create a 150 mm wall. What should you do?",
+    "options": [
+      "Continue because ties are close enough",
+      "Change the wall thickness to match the ties",
+      "Stop and use the correct tie system or clarify the conflict",
+      "Add more release agent"
+    ],
+    "answer": 2,
+    "explanation": "Form ties help control finished wall thickness. Using the wrong ties can create a wall that does not match the design. Concrete dimensions must be checked before placement.",
+    "id": 151
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form is well braced on one side but has no bracing at the ends. What can happen during the pour?",
+    "options": [
+      "The wall may shorten automatically",
+      "End forms may move or spread under pressure",
+      "Concrete will cure faster at the ends",
+      "Rebar will hold the forms in place"
+    ],
+    "answer": 1,
+    "explanation": "Concrete pressure acts against all form surfaces. End forms and bulkheads must be secured. Weak end closures can cause leakage, movement, or blowout.",
+    "id": 152
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A crew wants to pour a tall wall in one lift instead of several lifts. What must be checked first?",
+    "options": [
+      "Paint colour of form panels",
+      "Whether formwork is rated for the planned pour rate and height",
+      "Number of workers’ hard hats",
+      "Door hardware schedule"
+    ],
+    "answer": 1,
+    "explanation": "Pour height and speed affect lateral pressure. High lifts can overload forms if not designed for them. The pour plan must match formwork capacity.",
+    "id": 153
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form panel is bowed inward before concrete is placed. What is the best action?",
+    "options": [
+      "Pour concrete to push it straight",
+      "Ignore because concrete pressure will fix it",
+      "Replace, straighten, or brace it before pouring",
+      "Add extra water to the concrete"
+    ],
+    "answer": 2,
+    "explanation": "Concrete takes the shape of the forms. A bowed form creates a defective wall or slab edge. Forms must be straight and aligned before the pour.",
+    "id": 154
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall form has proper ties but the walers are loose. What is the concern?",
+    "options": [
+      "Walers may not distribute pressure properly",
+      "Wall thickness will increase automatically",
+      "Concrete strength will double",
+      "Reinforcement cover will improve"
+    ],
+    "answer": 0,
+    "explanation": "Walers stiffen and align the form face. Loose walers allow bulging or uneven wall surfaces. Form components must work together as a system.",
+    "id": 155
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A form release agent is applied unevenly, leaving heavy puddles on the form face. What problem can result?",
+    "options": [
+      "Concrete will become structural steel",
+      "Surface staining, poor finish, or contamination",
+      "Concrete will not need curing",
+      "Form ties will become stronger"
+    ],
+    "answer": 1,
+    "explanation": "Release agent should be applied thinly and evenly. Excess material can stain or affect the concrete surface. It must not contaminate reinforcement or construction joints.",
+    "id": 156
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete wall has a planned construction joint, but the joint surface is left smooth and dirty before the next pour. What is the concern?",
+    "options": [
+      "Poor bond between pours",
+      "Faster curing",
+      "Better water resistance always",
+      "Reduced need for reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Construction joints need proper preparation. A dirty or weak surface reduces bond. The next pour should connect to a clean, sound surface as specified.",
+    "id": 157
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A blockout is installed for a window opening, but it is not checked for square. What can happen?",
+    "options": [
+      "The opening may be twisted or out of fit",
+      "Concrete will automatically square it",
+      "The window will become larger after curing",
+      "Form release will correct the shape"
+    ],
+    "answer": 0,
+    "explanation": "Blockouts shape permanent openings. If out of square, later installation becomes difficult. Openings must be checked for size, elevation, and square before placement.",
+    "id": 158
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A footing trench has water in the bottom before forms are placed. What should be considered?",
+    "options": [
+      "Water may affect soil bearing and concrete placement",
+      "Water always improves footing strength",
+      "Water replaces compaction",
+      "Water makes rebar unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Water can soften soil and hide unsuitable bearing. Concrete placed into uncontrolled water can lose quality. The condition should be corrected or assessed before pouring.",
+    "id": 159
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Footing forms are set correctly, but the rebar is resting directly on the soil. What is wrong?",
+    "options": [
+      "Rebar may not have required cover",
+      "Soil improves rebar strength",
+      "Rebar does not need concrete around it",
+      "Forms will lift the rebar automatically"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement needs proper concrete cover. Bars resting on soil may corrode and may not perform as designed. Chairs or supports should hold rebar in position.",
+    "id": 160
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab-on-grade is poured over a base that has high and low spots. What can this cause?",
+    "options": [
+      "Uneven slab thickness",
+      "Better slab strength everywhere",
+      "Less need for concrete",
+      "Automatic drainage"
+    ],
+    "answer": 0,
+    "explanation": "Base elevation controls slab thickness. Thin areas may be weak, while thick areas affect volume and elevation. The base should be graded and compacted properly.",
+    "id": 161
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab form is correct in length and width, but the diagonal measurements are unequal. What does this indicate?",
+    "options": [
+      "The slab form may be out of square",
+      "Concrete slump is too high",
+      "The reinforcement is too clean",
+      "The slab is too thick"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals help confirm square. A form can have correct side lengths but still be racked. Square should be checked before concrete placement.",
+    "id": 162
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A vapour barrier is installed under a slab but does not overlap at seams. What is the issue?",
+    "options": [
+      "Moisture may pass through gaps",
+      "Concrete will not set",
+      "Rebar cover will increase",
+      "Control joints are no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Vapour barriers must be continuous to work well. Open seams reduce moisture control. Seams should be overlapped and sealed when required.",
+    "id": 163
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab form has proper shoring, but workers stack heavy materials on it before the pour. What is the concern?",
+    "options": [
+      "Extra construction load may exceed formwork capacity",
+      "Materials help the formwork settle evenly",
+      "Heavy loads increase concrete strength",
+      "Stacked material replaces camber"
+    ],
+    "answer": 0,
+    "explanation": "Formwork is designed for specific loads. Extra material storage adds load before concrete is placed. Temporary loads must be controlled.",
+    "id": 164
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A suspended slab shore is installed on a sloped base without a proper bearing plate. What can happen?",
+    "options": [
+      "The shore may slip or load unevenly",
+      "Sloped bases increase support strength",
+      "The slab will need less concrete",
+      "Rebar will support the shore"
+    ],
+    "answer": 0,
+    "explanation": "Shores need firm, level bearing. Sloped or unstable bases can cause slipping or buckling. Shoring must follow the approved layout.",
+    "id": 165
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A slab is designed with thickened edges, but the form layout ignores them. What is the problem?",
+    "options": [
+      "The slab edge may not carry loads as designed",
+      "The slab will dry faster",
+      "The vapour barrier will become stronger",
+      "Control joints will disappear"
+    ],
+    "answer": 0,
+    "explanation": "Thickened edges are part of the structural design. They may support walls, posts, or perimeter loads. Forming must match the slab detail.",
+    "id": 166
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A rebar mat is correctly spaced but has no chairs under it. What is the main risk during concrete placement?",
+    "options": [
+      "The steel may end up too low",
+      "The concrete will become too dry",
+      "The form ties will break",
+      "The slab will become thinner automatically"
+    ],
+    "answer": 0,
+    "explanation": "Correct spacing is not enough. Reinforcement must also be at the correct height. Chairs maintain position during placement.",
+    "id": 167
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A worker steps on reinforcement and pushes it down before the pour. What should happen?",
+    "options": [
+      "Check and reset reinforcement to the required position",
+      "Leave it because concrete will pull it up",
+      "Add water to lift the steel",
+      "Remove all chairs"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be located where designed. Walking on steel can change cover and height. Pre-pour checks should confirm position.",
+    "id": 168
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A rebar lap is correct length but is placed in the wrong location compared with the drawing. What should be checked?",
+    "options": [
+      "Whether lap location is acceptable for the design",
+      "Whether paint will cover the lap",
+      "Whether form release is dry",
+      "Whether the concrete truck is clean"
+    ],
+    "answer": 0,
+    "explanation": "Lap location can matter in structural reinforcement. Some areas have higher stress than others. Drawings should be followed or clarification obtained.",
+    "id": 169
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Anchor bolts are installed at the right spacing, but not deep enough into the concrete. What is the concern?",
+    "options": [
+      "Reduced anchorage strength",
+      "Better plate alignment",
+      "Increased concrete cover",
+      "Faster concrete curing"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts need proper embedment. Shallow embedment reduces holding capacity. Bolt depth must meet the project requirements.",
+    "id": 170
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A pipe sleeve is installed through a wall form, but it is not sealed around the form face. What can happen?",
+    "options": [
+      "Concrete paste may leak around the sleeve",
+      "Sleeve location will improve",
+      "Concrete will cure instantly around it",
+      "Rebar cover increases"
+    ],
+    "answer": 0,
+    "explanation": "Open gaps around sleeves allow paste leakage. This can cause honeycombing or rough surfaces. Sleeves should be secured and sealed as needed.",
+    "id": 171
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "An embedded plate is placed correctly but is covered with oil. What should be considered?",
+    "options": [
+      "Oil may interfere with bond or later connections",
+      "Oil improves concrete bond",
+      "Oil increases plate strength",
+      "Oil replaces grout"
+    ],
+    "answer": 0,
+    "explanation": "Embedded items should be clean enough for concrete bond or future connection requirements. Oil can act as a bond breaker. Surface condition should meet specifications.",
+    "id": 172
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "Why is a pre-pour inspection important?",
+    "options": [
+      "To check forms, rebar, embeds, sleeves, dimensions, and safety before concrete arrives",
+      "To choose paint colour",
+      "To replace curing",
+      "To avoid using drawings"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is difficult to correct after placement. Pre-pour checks catch missing or misplaced items. Inspection reduces rework and safety problems.",
+    "id": 173
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A wall pour is ready, but electrical conduits shown on drawings are missing from the forms. What should be done?",
+    "options": [
+      "Stop and coordinate before pouring",
+      "Pour and hope they can be drilled later",
+      "Ignore the conduits",
+      "Remove reinforcement to make space later"
+    ],
+    "answer": 0,
+    "explanation": "Missing embeds or conduits cause major rework. Drilling later may damage reinforcement or structure. Coordination before pouring is essential.",
+    "id": 174
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete is being placed in a wall with congested rebar. What placement problem is most likely?",
+    "options": [
+      "Concrete may not flow fully around steel",
+      "Rebar will disappear",
+      "Forms will become waterproof",
+      "Concrete will not create pressure"
+    ],
+    "answer": 0,
+    "explanation": "Congested reinforcement makes placement harder. Poor flow can create voids or honeycombing. Controlled placement and vibration are important.",
+    "id": 175
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A vibrator is used like a tool to move concrete long distances in a form. Why is this poor practice?",
+    "options": [
+      "It can cause segregation",
+      "It improves uniformity in every case",
+      "It replaces proper placement",
+      "It removes all form pressure"
+    ],
+    "answer": 0,
+    "explanation": "Vibration is for consolidation, not moving concrete far. Dragging concrete with a vibrator can separate materials. Concrete should be placed close to final position.",
+    "id": 176
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete is placed in layers, but the next layer is delayed too long. What can form?",
+    "options": [
+      "A cold joint",
+      "A vapour barrier",
+      "A form tie",
+      "A stair nosing"
+    ],
+    "answer": 0,
+    "explanation": "Delays can allow the previous layer to stiffen. A cold joint may reduce bond or appearance. Placement should follow the planned sequence.",
+    "id": 177
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab is bull-floated immediately after strike-off. What is the purpose of bull floating?",
+    "options": [
+      "To level ridges and embed aggregate slightly",
+      "To cut control joints only",
+      "To increase water content",
+      "To replace curing"
+    ],
+    "answer": 0,
+    "explanation": "Bull floating smooths the surface after screeding. It helps bring the surface to a more even plane. Final finishing still depends on timing.",
+    "id": 178
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab is broom finished. What is the main purpose?",
+    "options": [
+      "To provide slip resistance",
+      "To remove reinforcement",
+      "To increase form pressure",
+      "To make concrete waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Broom finish creates texture. Texture improves traction, especially on exterior slabs. Timing affects the quality of the broom finish.",
+    "id": 179
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A finisher overworks the surface with repeated troweling. What can be a problem?",
+    "options": [
+      "Weak or sealed surface defects may develop",
+      "Concrete becomes reinforced",
+      "Rebar rises to the surface",
+      "Formwork becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Excessive finishing can trap water or paste at the surface. It can contribute to dusting, scaling, or poor durability. Finishing should match concrete condition and required surface.",
+    "id": 180
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab surface is finished before the concrete has stiffened enough. What is likely?",
+    "options": [
+      "Surface defects such as dusting or scaling",
+      "Better strength",
+      "Reduced shrinkage forever",
+      "No need for curing"
+    ],
+    "answer": 0,
+    "explanation": "Finishing too early can trap bleed water. A weak top surface may result. Timing is critical for durable flatwork.",
+    "id": 181
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Concrete is placed in cold weather, and forms are stripped early. What is the concern?",
+    "options": [
+      "Concrete may not have gained enough strength",
+      "Cold concrete reaches full strength faster",
+      "Forms are never needed in cold weather",
+      "Curing is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Cold temperatures slow strength gain. Early stripping can damage or overload young concrete. Temperature protection and strength requirements must be considered.",
+    "id": 182
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "Fresh concrete is exposed to rain immediately after finishing. What is the concern?",
+    "options": [
+      "Surface damage or weakened finish",
+      "Better curing in every case",
+      "More reinforcement cover",
+      "Faster final strength always"
+    ],
+    "answer": 0,
+    "explanation": "Heavy rain can damage a freshly finished surface. It can wash out cement paste and mark the slab. Protection may be needed after finishing.",
+    "id": 183
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A curing blanket is used in cold weather. What is its purpose?",
+    "options": [
+      "Help maintain temperature for strength gain",
+      "Make concrete dry faster",
+      "Replace cement",
+      "Remove air entrainment"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs suitable temperature for hydration. Cold weather can slow or damage strength gain. Blankets help protect young concrete.",
+    "id": 184
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A curing compound is applied unevenly with missed areas. What can happen?",
+    "options": [
+      "Uneven curing and possible surface defects",
+      "Concrete becomes stronger in missed areas",
+      "Missed areas no longer hydrate",
+      "Rebar cover increases"
+    ],
+    "answer": 0,
+    "explanation": "Curing should be consistent. Missed areas can dry faster than protected areas. Uneven moisture loss can affect surface quality.",
+    "id": 185
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A slab develops random cracks before control joints are cut. What was likely missed?",
+    "options": [
+      "Proper timing or layout of joints",
+      "Form release application",
+      "Wall form bracing",
+      "Anchor bolt spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Control joints must be installed early enough. They guide shrinkage cracking to planned locations. Late joints may not control cracking.",
+    "id": 186
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A patch is applied to cracked concrete without removing loose material. What is likely?",
+    "options": [
+      "Patch may debond or fail",
+      "Patch bond will improve",
+      "Crack will become structural steel",
+      "Surface prep is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Loose material prevents good bond. Repairs need a clean, sound substrate. Surface preparation is essential.",
+    "id": 187
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A concrete repair product requires damp surface-dry condition. What does this generally mean?",
+    "options": [
+      "Surface is damp but has no standing water",
+      "Surface is flooded with water",
+      "Surface is dusty and dry",
+      "Surface is oily"
+    ],
+    "answer": 0,
+    "explanation": "Some cement-based repairs bond best to a damp surface. Standing water can weaken bond or dilute material. Product instructions must be followed.",
+    "id": 188
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A worker patches concrete with a product not suitable for exterior freeze-thaw exposure. What can happen?",
+    "options": [
+      "Repair may deteriorate outdoors",
+      "Repair becomes stronger in freezing weather",
+      "Freeze-thaw exposure never affects patches",
+      "Patch replaces air entrainment"
+    ],
+    "answer": 0,
+    "explanation": "Repair materials must match exposure conditions. Exterior freeze-thaw cycles can damage unsuitable products. Product selection matters.",
+    "id": 189
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A scaling concrete surface is found after winter. What is a common contributing factor?",
+    "options": [
+      "Poor air entrainment, finishing, curing, or de-icing exposure",
+      "Too much structural support",
+      "Correct exterior concrete practice only",
+      "Proper curing always causes scaling"
+    ],
+    "answer": 0,
+    "explanation": "Scaling is surface deterioration. Freeze-thaw exposure, poor finishing, or weak surface can contribute. Durable exterior concrete needs proper mix, finish, and curing.",
+    "id": 190
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete stair form is built using rough floor elevation, and tile will be added later to the top landing. What is the risk?",
+    "options": [
+      "Final riser height may be wrong",
+      "Stair strength will increase",
+      "Tread width will automatically adjust",
+      "Concrete will shrink to match tile"
+    ],
+    "answer": 0,
+    "explanation": "Stair layout must use finished elevations. Tile thickness changes the final walking surface. Uneven risers are a major trip hazard.",
+    "id": 191
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "A concrete stair side form is secure at the bottom but not at the top. What may happen during placement?",
+    "options": [
+      "Stair width or riser alignment may change",
+      "Concrete will align it automatically",
+      "Forms only need bottom support",
+      "Top movement improves drainage"
+    ],
+    "answer": 0,
+    "explanation": "Stair forms must be secured throughout. Concrete pressure can move unsupported areas. Form movement creates permanent stair defects.",
+    "id": 192
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "An exterior stair landing is formed with slope toward the door. Why is this a concern?",
+    "options": [
+      "Water may drain toward the building",
+      "Water drainage improves in all cases",
+      "Door threshold becomes stronger",
+      "Riser height does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Exterior landings should manage water away from vulnerable openings. Slope toward a door can cause leakage or ice hazards. Drainage details must be checked.",
+    "id": 193
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "ICF blocks are stacked correctly, but the wall is not aligned before concrete placement. What will happen?",
+    "options": [
+      "Concrete may lock the wall in the wrong position",
+      "ICF automatically straightens after curing",
+      "Alignment affects only insulation colour",
+      "Bracing is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "ICF forms remain in place. Concrete hardens inside the form shape. Alignment and bracing must be corrected before filling.",
+    "id": 194
+  },
+  {
+    "category": "C8 — Constructs Formwork",
+    "question": "During an ICF pour, concrete is vibrated too aggressively in one area. What could result?",
+    "options": [
+      "Form damage, segregation, or blowout risk",
+      "Less pressure on forms",
+      "Automatic rebar alignment",
+      "No possible issue"
+    ],
+    "answer": 0,
+    "explanation": "ICF systems require controlled placement and consolidation. Too much vibration can increase pressure or damage forms. Manufacturer instructions should be followed.",
+    "id": 195
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "An epoxy anchor hole is cleaned, but the hole is drilled larger than specified. What is the concern?",
+    "options": [
+      "Anchor capacity may not match the tested installation",
+      "Larger holes are always stronger",
+      "Epoxy does not need hole size control",
+      "Cure time becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Epoxy anchors depend on correct hole diameter. Oversized holes can reduce bond or change performance. Manufacturer instructions control drilling size.",
+    "id": 196
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "An epoxy anchor is installed in cold concrete. What should be checked?",
+    "options": [
+      "Product temperature limits and cure time",
+      "Roof slope",
+      "Wall form tie spacing only",
+      "Concrete colour"
+    ],
+    "answer": 0,
+    "explanation": "Temperature affects epoxy flow and curing. Cold conditions can greatly increase cure time. Product instructions must be followed.",
+    "id": 197
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "An epoxy anchor is installed, but the threaded rod is moved after the epoxy begins to set. What is the risk?",
+    "options": [
+      "Bond may be disturbed",
+      "Anchor capacity always increases",
+      "Epoxy cures instantly after movement",
+      "Hole cleaning becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Movement during curing can break the developing bond. Anchors should remain undisturbed until cured. Loading or movement too early can cause failure.",
+    "id": 198
+  },
+  {
+    "category": "C9 — Installs Concrete, Cement-Based and Epoxy Products",
+    "question": "A cement-based self-levelling product is poured over a floor without primer where primer is required. What can happen?",
+    "options": [
+      "Poor bond or pinholing",
+      "Stronger bond",
+      "Faster structural curing always",
+      "Less need for surface prep"
+    ],
+    "answer": 0,
+    "explanation": "Primers help some products bond and flow correctly. Skipping required primer can cause failure or surface defects. Manufacturer instructions must be followed.",
+    "id": 199
+  },
+  {
+    "category": "C — Performs Concrete Work",
+    "question": "Which statement best shows complete concrete-work understanding?",
+    "options": [
+      "Good concrete work depends on preparation, formwork, reinforcement, placement, finishing, curing, and protection",
+      "Only the concrete truck controls final quality",
+      "Finishing can fix all form and rebar mistakes",
+      "Curing is only for appearance"
+    ],
+    "answer": 0,
+    "explanation": "Concrete quality is controlled through the full process. Errors before, during, or after placement can affect durability and strength. Good carpenters check the whole system, not just one step.",
+    "id": 200
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCarpenterPerformsConcreteWorkQuestions =
+  shuffleArray(carpenterPerformsConcreteWorkQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "carpenter",
+  tradeTitle: "Carpenter",
+  sectionTitle: "Performs Concrete Work",
+  questionTimeSeconds: 90,
+  questions: shuffledCarpenterPerformsConcreteWorkQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCarpenterPerformsConcreteWorkQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

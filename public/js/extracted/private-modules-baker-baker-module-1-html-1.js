@@ -1,0 +1,2696 @@
+const redSealBakerFermentedGoodsQuestions = [
+  {
+    "id": 1,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A poolish is ready to use when it:",
+    "options": [
+      "Is dry and firm",
+      "Has expanded, bubbles, and a slightly fermented aroma",
+      "Has no bubbles",
+      "Has turned dark brown"
+    ],
+    "answer": 1,
+    "explanation": "A ripe poolish shows active fermentation through bubbles and expansion. It should smell pleasantly fermented, not rotten or harsh."
+  },
+  {
+    "id": 2,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker uses a poolish after it has completely collapsed and smells strongly alcoholic. What is the likely issue?",
+    "options": [
+      "It is under-fermented",
+      "It is over-fermented",
+      "It has too much flour",
+      "It has no water"
+    ],
+    "answer": 1,
+    "explanation": "A collapsed poolish with a strong alcohol smell is usually overripe. Over-fermented pre-ferment can weaken final dough structure."
+  },
+  {
+    "id": 3,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "What is the usual hydration of a poolish made with equal flour and water by weight?",
+    "options": [
+      "50%",
+      "75%",
+      "100%",
+      "200%"
+    ],
+    "answer": 2,
+    "explanation": "Hydration compares water weight to flour weight. Equal water and flour means 100% hydration."
+  },
+  {
+    "id": 4,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "Why is yeast quantity usually low in a pre-ferment?",
+    "options": [
+      "To allow slow flavour development",
+      "To stop fermentation",
+      "To make dough sweet",
+      "To remove gluten"
+    ],
+    "answer": 0,
+    "explanation": "Small yeast amounts allow longer fermentation. Long fermentation improves flavour and dough quality."
+  },
+  {
+    "id": 5,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A stiff pre-ferment is most likely called:",
+    "options": [
+      "Poolish",
+      "Biga",
+      "Pastry cream",
+      "Ganache"
+    ],
+    "answer": 1,
+    "explanation": "Biga is usually a firmer pre-ferment. Poolish is generally wetter and more fluid."
+  },
+  {
+    "id": 6,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A sourdough starter doubles after feeding. What does this show?",
+    "options": [
+      "It is inactive",
+      "It has active fermentation",
+      "It has been baked",
+      "It contains no yeast"
+    ],
+    "answer": 1,
+    "explanation": "Rising shows gas production from wild yeast and bacteria. This indicates the starter is active."
+  },
+  {
+    "id": 7,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A starter smells rotten and shows no bubbles after feeding. What should the baker do?",
+    "options": [
+      "Use it immediately",
+      "Assess it before use and follow procedure",
+      "Add it to all bread dough",
+      "Bake it as a loaf"
+    ],
+    "answer": 1,
+    "explanation": "A healthy starter should show activity and a normal fermented aroma. Rotten smell and no bubbles may mean the starter is unsafe or inactive."
+  },
+  {
+    "id": 8,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "Why is pre-ferment temperature controlled?",
+    "options": [
+      "To manage fermentation speed",
+      "To increase icing stability",
+      "To make chocolate shine",
+      "To stop gluten forever"
+    ],
+    "answer": 0,
+    "explanation": "Warm temperatures speed fermentation. Cool temperatures slow fermentation and extend ripening time."
+  },
+  {
+    "id": 9,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A pre-ferment is used too early. What is the likely result?",
+    "options": [
+      "Less flavour and weaker fermentation benefit",
+      "More burnt crust",
+      "More sugar bloom",
+      "Stronger chocolate snap"
+    ],
+    "answer": 0,
+    "explanation": "An immature pre-ferment has not developed enough gas or flavour. This can reduce final bread quality."
+  },
+  {
+    "id": 10,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "What is “hooch” on a sourdough starter?",
+    "options": [
+      "A layer of liquid that may form when starter is hungry",
+      "A type of egg wash",
+      "A chocolate defect",
+      "A pastry glaze"
+    ],
+    "answer": 0,
+    "explanation": "Hooch is liquid that can collect on top of a starter. It often means the starter needs feeding."
+  },
+  {
+    "id": 11,
+    "category": "Task 10 — Prepares dough",
+    "question": "Why is desired dough temperature important?",
+    "options": [
+      "It controls fermentation timing",
+      "It controls packaging colour",
+      "It replaces proofing",
+      "It prevents all browning"
+    ],
+    "answer": 0,
+    "explanation": "Dough temperature strongly affects yeast activity. Correct temperature helps keep production timing consistent."
+  },
+  {
+    "id": 12,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough comes out warmer than planned. What is likely to happen?",
+    "options": [
+      "Fermentation may speed up",
+      "Fermentation will stop",
+      "Dough will freeze",
+      "Gluten will disappear immediately"
+    ],
+    "answer": 0,
+    "explanation": "Warm dough increases yeast activity. If not managed, it may over-ferment or proof too quickly."
+  },
+  {
+    "id": 13,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has 2000 g flour and 1200 g water. What is the hydration?",
+    "options": [
+      "40%",
+      "50%",
+      "60%",
+      "80%"
+    ],
+    "answer": 2,
+    "explanation": "Hydration is water divided by flour times 100. 1200 ÷ 2000 × 100 = 60%."
+  },
+  {
+    "id": 14,
+    "category": "Task 10 — Prepares dough",
+    "question": "A formula has 3000 g flour and 60 g salt. What is the salt percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "3%",
+      "6%"
+    ],
+    "answer": 1,
+    "explanation": "Salt percentage is based on flour weight. 60 ÷ 3000 × 100 = 2%."
+  },
+  {
+    "id": 15,
+    "category": "Task 10 — Prepares dough",
+    "question": "What is the main function of gluten in bread dough?",
+    "options": [
+      "To trap gas and provide structure",
+      "To make dough sweet",
+      "To replace yeast",
+      "To stop fermentation"
+    ],
+    "answer": 0,
+    "explanation": "Gluten forms an elastic network. This network traps carbon dioxide produced during fermentation."
+  },
+  {
+    "id": 16,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough tears easily and cannot stretch thin. What may be the cause?",
+    "options": [
+      "Underdeveloped gluten",
+      "Too much cooling after baking",
+      "Too much packaging",
+      "Proper mixing"
+    ],
+    "answer": 0,
+    "explanation": "Weak gluten cannot stretch and hold gas well. More appropriate mixing or hydration may be needed."
+  },
+  {
+    "id": 17,
+    "category": "Task 10 — Prepares dough",
+    "question": "What does the windowpane test check?",
+    "options": [
+      "Gluten development",
+      "Sugar colour",
+      "Chocolate temper",
+      "Oven cleanliness"
+    ],
+    "answer": 0,
+    "explanation": "The windowpane test checks whether dough can stretch thin without tearing. This shows gluten strength and development."
+  },
+  {
+    "id": 18,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed too long and becomes sticky, slack, and weak. What is likely?",
+    "options": [
+      "Overmixing",
+      "Underproofing",
+      "Correct gluten development",
+      "Too little water only"
+    ],
+    "answer": 0,
+    "explanation": "Overmixing can damage gluten structure. The dough may lose strength and become difficult to handle."
+  },
+  {
+    "id": 19,
+    "category": "Task 10 — Prepares dough",
+    "question": "Why is salt added to bread dough?",
+    "options": [
+      "To control fermentation and improve flavour",
+      "To replace flour",
+      "To make yeast multiply instantly",
+      "To stop baking"
+    ],
+    "answer": 0,
+    "explanation": "Salt adds flavour and helps regulate yeast activity. It also supports dough strength."
+  },
+  {
+    "id": 20,
+    "category": "Task 10 — Prepares dough",
+    "question": "If salt is forgotten in bread dough, what may happen?",
+    "options": [
+      "Dough may ferment too fast and taste bland",
+      "Dough will not absorb water",
+      "Dough will become chocolate",
+      "Dough will not bake at all"
+    ],
+    "answer": 0,
+    "explanation": "Salt slows fermentation and improves flavour. Without it, dough may be sticky, fast-fermenting, and bland."
+  },
+  {
+    "id": 21,
+    "category": "Task 10 — Prepares dough",
+    "question": "A hot bakery and high mixer friction require what adjustment?",
+    "options": [
+      "Warmer water",
+      "Cooler water",
+      "More salt only",
+      "Less flour only"
+    ],
+    "answer": 1,
+    "explanation": "Cooler water helps offset warm room and friction temperatures. This helps reach the desired dough temperature."
+  },
+  {
+    "id": 22,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds too much extra flour while mixing a sticky dough. What is the risk?",
+    "options": [
+      "Dough hydration becomes too low",
+      "Dough becomes more liquid",
+      "Salt percentage becomes zero",
+      "Yeast disappears"
+    ],
+    "answer": 0,
+    "explanation": "Extra flour changes the formula balance. The dough may become dry, dense, or tough."
+  },
+  {
+    "id": 23,
+    "category": "Task 10 — Prepares dough",
+    "question": "What does high hydration usually do to dough handling?",
+    "options": [
+      "Makes dough softer and stickier",
+      "Makes dough dry and crumbly",
+      "Stops fermentation",
+      "Removes gluten"
+    ],
+    "answer": 0,
+    "explanation": "More water increases dough softness and stickiness. High-hydration doughs need careful handling."
+  },
+  {
+    "id": 24,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough contains 1000 g flour and 20 g yeast. What is the yeast percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "5%",
+      "20%"
+    ],
+    "answer": 1,
+    "explanation": "Yeast percentage is based on flour weight. 20 ÷ 1000 × 100 = 2%."
+  },
+  {
+    "id": 25,
+    "category": "Task 10 — Prepares dough",
+    "question": "What is the main gas produced by yeast fermentation?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": 1,
+    "explanation": "Yeast produces carbon dioxide during fermentation. The gas is trapped by gluten and expands the dough."
+  },
+  {
+    "id": 26,
+    "category": "Task 10 — Prepares dough",
+    "question": "A sweet dough ferments slowly. Which ingredient may contribute?",
+    "options": [
+      "High sugar",
+      "Low pan height",
+      "More parchment",
+      "Cold oven rack"
+    ],
+    "answer": 0,
+    "explanation": "High sugar ties up water and can slow yeast activity. Sweet enriched doughs often require longer fermentation."
+  },
+  {
+    "id": 27,
+    "category": "Task 10 — Prepares dough",
+    "question": "Fat in enriched dough can:",
+    "options": [
+      "Tenderize and slow gluten development",
+      "Make gluten stronger instantly",
+      "Replace yeast",
+      "Remove all water"
+    ],
+    "answer": 0,
+    "explanation": "Fat coats flour particles and tenderizes crumb. It can also slow gluten development during mixing."
+  },
+  {
+    "id": 28,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds butter too early in brioche mixing. What may happen?",
+    "options": [
+      "Gluten development may be slowed",
+      "Dough will ferment instantly",
+      "Dough becomes lean bread",
+      "Sugar disappears"
+    ],
+    "answer": 0,
+    "explanation": "Butter can interfere with gluten formation. Many rich doughs need some gluten development before full fat addition."
+  },
+  {
+    "id": 29,
+    "category": "Task 10 — Prepares dough",
+    "question": "Why is flour protein level important for bread?",
+    "options": [
+      "It affects gluten strength",
+      "It controls icing colour",
+      "It prevents fermentation",
+      "It replaces salt"
+    ],
+    "answer": 0,
+    "explanation": "Higher protein flour can form stronger gluten. This affects volume, chew, and dough strength."
+  },
+  {
+    "id": 30,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is under-mixed. What defect is likely?",
+    "options": [
+      "Poor gas retention",
+      "Excess chocolate bloom",
+      "Stronger butter layers",
+      "More caramelization"
+    ],
+    "answer": 0,
+    "explanation": "Under-mixed dough may lack gluten strength. Weak dough cannot trap fermentation gas well."
+  },
+  {
+    "id": 31,
+    "category": "Task 11 — Forms dough",
+    "question": "Why is dough divided by weight?",
+    "options": [
+      "To produce consistent size and bake time",
+      "To stop fermentation",
+      "To increase sugar content",
+      "To remove gluten"
+    ],
+    "answer": 0,
+    "explanation": "Equal dough weights proof and bake more consistently. This also supports portion control."
+  },
+  {
+    "id": 32,
+    "category": "Task 11 — Forms dough",
+    "question": "What is the purpose of pre-shaping dough?",
+    "options": [
+      "To organize structure before final shaping",
+      "To fully bake the dough",
+      "To remove all yeast",
+      "To melt fat"
+    ],
+    "answer": 0,
+    "explanation": "Pre-shaping builds light surface tension and organizes the dough. It helps make final shaping easier."
+  },
+  {
+    "id": 33,
+    "category": "Task 11 — Forms dough",
+    "question": "Why is bench rest used after pre-shaping?",
+    "options": [
+      "To relax gluten before final shaping",
+      "To stop fermentation forever",
+      "To dry the dough surface",
+      "To increase crust colour"
+    ],
+    "answer": 0,
+    "explanation": "Bench rest relaxes dough tension. Relaxed dough shapes more easily and tears less."
+  },
+  {
+    "id": 34,
+    "category": "Task 11 — Forms dough",
+    "question": "A dough piece springs back strongly during shaping. What should the baker do?",
+    "options": [
+      "Rest the dough briefly",
+      "Add more yeast",
+      "Bake it immediately",
+      "Roll harder"
+    ],
+    "answer": 0,
+    "explanation": "Spring-back shows gluten tension. Resting allows the gluten to relax before shaping."
+  },
+  {
+    "id": 35,
+    "category": "Task 11 — Forms dough",
+    "question": "A round loaf spreads flat after shaping. What was likely missing?",
+    "options": [
+      "Surface tension",
+      "Egg wash",
+      "Oven steam",
+      "Sugar syrup"
+    ],
+    "answer": 0,
+    "explanation": "Proper shaping builds surface tension. Without it, dough spreads instead of holding height."
+  },
+  {
+    "id": 36,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should shaped dough be covered during proofing?",
+    "options": [
+      "To prevent skin formation",
+      "To dry the crust early",
+      "To stop yeast activity",
+      "To make dough harder"
+    ],
+    "answer": 0,
+    "explanation": "Uncovered dough dries and forms a skin. Skin can restrict expansion and cause tearing."
+  },
+  {
+    "id": 37,
+    "category": "Task 11 — Forms dough",
+    "question": "A pan loaf has a large spiral hole in the centre. What may have caused it?",
+    "options": [
+      "Loose moulding or flour trapped in the roll",
+      "Correct moulding",
+      "Too much cooling after baking",
+      "Proper proofing only"
+    ],
+    "answer": 0,
+    "explanation": "Flour or loose seams can prevent dough layers from bonding. This can create tunnels or spiral holes."
+  },
+  {
+    "id": 38,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should dough pieces be kept in order after dividing?",
+    "options": [
+      "To keep rest times consistent",
+      "To make older pieces heavier",
+      "To stop proofing",
+      "To increase salt percentage"
+    ],
+    "answer": 0,
+    "explanation": "The first pieces divided rest longer than later pieces. Keeping order supports consistent shaping and proofing."
+  },
+  {
+    "id": 39,
+    "category": "Task 11 — Forms dough",
+    "question": "A baguette has thick ends and a thin centre. What should be improved?",
+    "options": [
+      "Hand pressure during rolling",
+      "Egg wash amount",
+      "Cooling rack height",
+      "Chocolate temper"
+    ],
+    "answer": 0,
+    "explanation": "Uneven shaping pressure creates irregular thickness. Consistent rolling pressure gives even baguettes."
+  },
+  {
+    "id": 40,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should seams be sealed properly?",
+    "options": [
+      "To help dough hold shape during proofing and baking",
+      "To stop crust colour",
+      "To remove all gas",
+      "To increase sweetness"
+    ],
+    "answer": 0,
+    "explanation": "Weak seams can open as dough expands. Good sealing helps maintain shape."
+  },
+  {
+    "id": 41,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "What is the purpose of lamination?",
+    "options": [
+      "To create alternating layers of dough and fat",
+      "To remove fat from dough",
+      "To make custard",
+      "To stop steam"
+    ],
+    "answer": 0,
+    "explanation": "Lamination creates dough and fat layers. Steam separates these layers during baking, creating flakiness."
+  },
+  {
+    "id": 42,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Butter breaks into chunks during rolling. What is most likely?",
+    "options": [
+      "Butter is too cold",
+      "Butter is too warm",
+      "Dough has no flour",
+      "Dough is fully baked"
+    ],
+    "answer": 0,
+    "explanation": "Hard butter breaks instead of spreading into sheets. Butter and dough need similar firmness."
+  },
+  {
+    "id": 43,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Butter smears into laminated dough. What is most likely?",
+    "options": [
+      "Butter is too warm",
+      "Butter is too cold",
+      "Dough has too much salt",
+      "Oven is too cold"
+    ],
+    "answer": 0,
+    "explanation": "Soft butter blends into dough and destroys layers. Chilling helps keep butter plastic but firm."
+  },
+  {
+    "id": 44,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Why is laminated dough rested between turns?",
+    "options": [
+      "To relax gluten and firm fat",
+      "To remove layers",
+      "To melt butter",
+      "To stop baking powder"
+    ],
+    "answer": 0,
+    "explanation": "Resting reduces dough tension and shrinkage. Chilling also keeps fat from smearing."
+  },
+  {
+    "id": 45,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Egg wash drips down croissant edges. What defect may result?",
+    "options": [
+      "Layers may seal and rise poorly",
+      "More open honeycomb",
+      "Better flakiness",
+      "Less colour"
+    ],
+    "answer": 0,
+    "explanation": "Egg wash can glue laminated edges together. Sealed edges prevent layers from expanding properly."
+  },
+  {
+    "id": 46,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant has butter pooled on the tray after baking. What may have happened?",
+    "options": [
+      "Butter melted out during proofing or baking",
+      "Dough had no yeast",
+      "Croissant was too cold after baking",
+      "Flour was too strong only"
+    ],
+    "answer": 0,
+    "explanation": "Warm proofing or damaged layers can cause butter leakage. This reduces flakiness and volume."
+  },
+  {
+    "id": 47,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Why should laminated dough be cut with a sharp blade?",
+    "options": [
+      "To avoid crushing layers",
+      "To seal the layers",
+      "To remove butter",
+      "To prevent browning"
+    ],
+    "answer": 0,
+    "explanation": "Sharp cuts keep layers open. Crushed edges prevent proper lift."
+  },
+  {
+    "id": 48,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant unrolls during proofing. What was likely missed?",
+    "options": [
+      "Placing the tip underneath",
+      "Adding more steam",
+      "Using less flour in dough",
+      "Baking longer"
+    ],
+    "answer": 0,
+    "explanation": "The tip should be placed under the croissant. This helps the shape stay closed during proofing and baking."
+  },
+  {
+    "id": 49,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "Why is bread scored before baking?",
+    "options": [
+      "To guide expansion",
+      "To remove yeast",
+      "To stop oven spring",
+      "To cool the dough"
+    ],
+    "answer": 0,
+    "explanation": "Scoring creates controlled weak points. The loaf expands through these cuts during oven spring."
+  },
+  {
+    "id": 50,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf bursts on the side despite scoring. What may be wrong?",
+    "options": [
+      "Scoring was too shallow or proofing was insufficient",
+      "Bread was over-cooled",
+      "Dough had no flour",
+      "Packaging was too tight"
+    ],
+    "answer": 0,
+    "explanation": "Poor scoring or under-proofing can cause uncontrolled expansion. Pressure escapes through the weakest part of the loaf."
+  },
+  {
+    "id": 51,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker prepares a poolish at 8:00 p.m. for use at 6:00 a.m. The bakery is very warm overnight. In the morning, the poolish is collapsed and smells very alcoholic. What should the baker conclude?",
+    "options": [
+      "The poolish likely over-fermented",
+      "The poolish needs more yeast",
+      "The poolish is under-fermented",
+      "The poolish needs more salt"
+    ],
+    "answer": 0,
+    "explanation": "A collapsed poolish with strong alcohol aroma usually indicates over-fermentation. Warm temperature speeds fermentation and can make the pre-ferment ripen too soon."
+  },
+  {
+    "id": 52,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A sourdough starter was fed four hours ago. It has doubled, has bubbles throughout, and smells pleasantly acidic. What is the best use for it?",
+    "options": [
+      "Use it as an active starter in dough",
+      "Discard it because it has bubbles",
+      "Bake it without adding flour",
+      "Store it uncovered at room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Doubling and bubbling show active fermentation. A pleasant acidic aroma is normal for a healthy sourdough starter."
+  },
+  {
+    "id": 53,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker wants to slow down a sponge that is ripening too quickly before production time. What is the best adjustment?",
+    "options": [
+      "Move it to a cooler area or refrigerate it",
+      "Add hot water",
+      "Add more yeast",
+      "Place it near the oven"
+    ],
+    "answer": 0,
+    "explanation": "Cooler temperature slows yeast activity. This helps control ripening time and prevents the sponge from becoming overripe."
+  },
+  {
+    "id": 54,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A biga is mixed too wet by mistake and looks more like a poolish. What has changed most?",
+    "options": [
+      "Hydration",
+      "Salt strength",
+      "Oven spring",
+      "Baking temperature"
+    ],
+    "answer": 0,
+    "explanation": "A biga is usually a stiff pre-ferment. Adding too much water increases hydration and changes handling and fermentation behaviour."
+  },
+  {
+    "id": 55,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker notices a sourdough starter has a layer of liquid on top but still smells normal. What is the most likely meaning?",
+    "options": [
+      "The starter may be hungry and need feeding",
+      "The starter has been baked",
+      "The starter has no water",
+      "The starter is laminated"
+    ],
+    "answer": 0,
+    "explanation": "Liquid on top, often called hooch, can appear when a starter needs feeding. The baker should assess and refresh it before use."
+  },
+  {
+    "id": 56,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A pre-ferment shows no rise after six hours. The bakery temperature is normal. What should the baker check first?",
+    "options": [
+      "Yeast activity or starter strength",
+      "Oven fan speed",
+      "Pan grease",
+      "Bread slicing thickness"
+    ],
+    "answer": 0,
+    "explanation": "No rise may mean the yeast or starter is inactive. Fermentation depends on live microorganisms and proper formula balance."
+  },
+  {
+    "id": 57,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker accidentally adds too much yeast to a pre-ferment that must sit overnight. What is the likely risk?",
+    "options": [
+      "It may ripen too quickly and over-ferment",
+      "It will not ferment",
+      "It will become gluten-free",
+      "It will stop producing gas"
+    ],
+    "answer": 0,
+    "explanation": "More yeast speeds fermentation. For an overnight pre-ferment, too much yeast can cause collapse and strong alcoholic flavour."
+  },
+  {
+    "id": 58,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A poolish is mixed with 1000 g flour and 1000 g water. The baker records it as 60% hydration. What is wrong?",
+    "options": [
+      "It should be recorded as 100% hydration",
+      "It should be recorded as 50% hydration",
+      "It contains no hydration",
+      "Hydration is based on yeast weight"
+    ],
+    "answer": 0,
+    "explanation": "Hydration is water weight compared to flour weight. Equal flour and water by weight equals 100% hydration."
+  },
+  {
+    "id": 59,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker uses an immature sponge in bread dough because production is behind schedule. What quality issue may result?",
+    "options": [
+      "Less flavour and weaker fermentation benefit",
+      "More chocolate flavour",
+      "More sugar bloom",
+      "Stronger pastry lamination"
+    ],
+    "answer": 0,
+    "explanation": "An immature sponge has not developed enough gas and flavour. Using it early reduces the benefit of the pre-ferment."
+  },
+  {
+    "id": 60,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A starter is fed but left in a tightly sealed container with no room for expansion. What may happen?",
+    "options": [
+      "Pressure may build as gas forms",
+      "It will stop fermenting completely",
+      "It will become dry instantly",
+      "It will turn into buttercream"
+    ],
+    "answer": 0,
+    "explanation": "Active starters produce gas during fermentation. Containers should allow expansion and should not create unsafe pressure buildup."
+  },
+  {
+    "id": 61,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker mixes baguette dough and the final dough temperature is 30°C instead of the target 24°C. What is the main concern?",
+    "options": [
+      "Fermentation will likely move too quickly",
+      "Fermentation will stop completely",
+      "Gluten cannot form at all",
+      "Dough will freeze during bulk fermentation"
+    ],
+    "answer": 0,
+    "explanation": "Warm dough increases yeast activity. If not corrected, the dough may over-ferment before scheduled shaping."
+  },
+  {
+    "id": 62,
+    "category": "Task 10 — Prepares dough",
+    "question": "A bread formula uses 5000 g flour and 3250 g water. What is the hydration?",
+    "options": [
+      "55%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "answer": 2,
+    "explanation": "Hydration is water divided by flour times 100. 3250 ÷ 5000 × 100 = 65%."
+  },
+  {
+    "id": 63,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed and feels tight, dry, and difficult to stretch. The baker checks the formula and sees less water was added than required. What has decreased?",
+    "options": [
+      "Hydration",
+      "Salt percentage",
+      "Yeast percentage",
+      "Fermentation temperature"
+    ],
+    "answer": 0,
+    "explanation": "Less water lowers hydration. Low hydration creates stiffer dough that stretches less easily."
+  },
+  {
+    "id": 64,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds sugar and butter to a dough before gluten begins to develop. The dough mixes slowly and stays weak. What is the likely reason?",
+    "options": [
+      "Fat and sugar can slow gluten development",
+      "Butter creates instant gluten",
+      "Sugar removes yeast completely",
+      "Fat increases flour protein"
+    ],
+    "answer": 0,
+    "explanation": "Fat can coat flour proteins, and sugar competes for water. Both can slow gluten development in enriched doughs."
+  },
+  {
+    "id": 65,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough with 2000 g flour contains 40 g salt. What is the salt percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "4%",
+      "20%"
+    ],
+    "answer": 1,
+    "explanation": "Salt percentage is calculated from flour weight. 40 ÷ 2000 × 100 = 2%."
+  },
+  {
+    "id": 66,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker forgets yeast in a straight dough. After one hour, the dough has not expanded. What is the best explanation?",
+    "options": [
+      "No carbon dioxide is being produced by yeast",
+      "The dough has too much steam",
+      "The dough was over-scored",
+      "The dough has too much oven spring"
+    ],
+    "answer": 0,
+    "explanation": "Yeast produces carbon dioxide during fermentation. Without yeast, the dough will not rise normally."
+  },
+  {
+    "id": 67,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker calculates water temperature but forgets to include friction factor. What could happen?",
+    "options": [
+      "Final dough temperature may be inaccurate",
+      "Dough hydration becomes zero",
+      "Salt percentage doubles",
+      "Dough cannot be scaled"
+    ],
+    "answer": 0,
+    "explanation": "Friction from mixing adds heat to the dough. Ignoring it may cause the final dough temperature to be too warm."
+  },
+  {
+    "id": 68,
+    "category": "Task 10 — Prepares dough",
+    "question": "A high-hydration dough sticks badly to the bench. What is the best handling approach?",
+    "options": [
+      "Use controlled folds and light dusting, not excessive flour",
+      "Add flour until the dough becomes stiff",
+      "Mix in icing sugar",
+      "Bake it before bulk fermentation"
+    ],
+    "answer": 0,
+    "explanation": "High-hydration dough is naturally sticky. Excess flour changes the formula, while folds build strength without drying the dough."
+  },
+  {
+    "id": 69,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker mixes dough until it passes the windowpane test. What does this show?",
+    "options": [
+      "Gluten is well developed",
+      "Sugar is caramelized",
+      "Yeast is dead",
+      "Dough is fully baked"
+    ],
+    "answer": 0,
+    "explanation": "The windowpane test shows dough can stretch thin without tearing. This indicates developed gluten strength."
+  },
+  {
+    "id": 70,
+    "category": "Task 10 — Prepares dough",
+    "question": "A sweet dough with high sugar content is proofing slowly. The room temperature is normal. What is a likely cause?",
+    "options": [
+      "Sugar is slowing yeast activity by tying up water",
+      "Sugar is producing too much carbon dioxide",
+      "Sugar has killed all gluten instantly",
+      "Sugar has replaced the yeast"
+    ],
+    "answer": 0,
+    "explanation": "High sugar competes for available water. This can slow yeast activity and lengthen fermentation time."
+  },
+  {
+    "id": 71,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed on high speed for too long and becomes shiny, sticky, and slack. What has likely happened?",
+    "options": [
+      "Gluten has been overmixed and weakened",
+      "Dough is under-mixed",
+      "Dough has too little friction heat",
+      "Dough has become laminated"
+    ],
+    "answer": 0,
+    "explanation": "Overmixing can damage gluten and overheat dough. The dough may lose strength and become sticky or slack."
+  },
+  {
+    "id": 72,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker uses weak flour for pan bread that requires strong structure. What problem may occur?",
+    "options": [
+      "Poor gas retention and low volume",
+      "Too much chocolate bloom",
+      "More caramel flavour",
+      "Faster cooling only"
+    ],
+    "answer": 0,
+    "explanation": "Weak flour has less gluten-forming strength. Bread may not trap gas well and can bake with poor volume."
+  },
+  {
+    "id": 73,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is bland and ferments faster than normal. Which ingredient was most likely under-scaled?",
+    "options": [
+      "Salt",
+      "Water",
+      "Flour",
+      "Fat"
+    ],
+    "answer": 0,
+    "explanation": "Salt improves flavour and controls yeast activity. Too little salt can create bland flavour and faster fermentation."
+  },
+  {
+    "id": 74,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough with 1500 g flour uses 30 g yeast. What is the yeast percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "3%",
+      "30%"
+    ],
+    "answer": 1,
+    "explanation": "Yeast percentage is based on flour weight. 30 ÷ 1500 × 100 = 2%."
+  },
+  {
+    "id": 75,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker holds back part of the water in an artisan dough and adds it later after checking consistency. What is this mainly used for?",
+    "options": [
+      "Adjusting dough hydration and handling",
+      "Removing fermentation",
+      "Increasing salt strength",
+      "Stopping gluten development"
+    ],
+    "answer": 0,
+    "explanation": "Flour absorption can vary between batches. Holding back water lets the baker adjust final dough consistency."
+  },
+  {
+    "id": 76,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed with water that is too cold. What is the likely effect?",
+    "options": [
+      "Fermentation may slow down",
+      "Dough will overproof immediately",
+      "Yeast will produce more gas instantly",
+      "Dough will bake during mixing"
+    ],
+    "answer": 0,
+    "explanation": "Cold dough slows yeast activity. This can delay fermentation and proofing times."
+  },
+  {
+    "id": 77,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds salt directly onto fresh yeast and leaves it sitting before mixing. What is the concern?",
+    "options": [
+      "Direct salt contact may reduce yeast activity",
+      "Salt makes yeast stronger instantly",
+      "Salt turns yeast into sugar",
+      "Salt increases hydration"
+    ],
+    "answer": 0,
+    "explanation": "Salt controls yeast activity and can harm yeast in direct concentrated contact. Ingredients should be distributed properly during mixing."
+  },
+  {
+    "id": 78,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has good stretch but does not spring back or hold shape. What is lacking?",
+    "options": [
+      "Elasticity",
+      "Extensibility",
+      "Hydration",
+      "Fermentation gas"
+    ],
+    "answer": 0,
+    "explanation": "Extensibility means the dough stretches. Elasticity helps it spring back and hold shape."
+  },
+  {
+    "id": 79,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker notices a dough is tearing during mixing and feels dry. Which correction is most likely needed?",
+    "options": [
+      "Check water scaling and absorption",
+      "Add more salt immediately",
+      "Reduce all mixing to zero",
+      "Add egg wash"
+    ],
+    "answer": 0,
+    "explanation": "Dry dough may have low hydration or flour with high absorption. Water scaling and dough consistency should be checked."
+  },
+  {
+    "id": 80,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker uses old yeast and the dough rises very slowly despite correct temperature. What is most likely?",
+    "options": [
+      "Yeast activity is weak",
+      "Dough has too much steam",
+      "Flour has no starch",
+      "Salt has turned into sugar"
+    ],
+    "answer": 0,
+    "explanation": "Old or poorly stored yeast may lose strength. Weak yeast produces gas slowly and delays fermentation."
+  },
+  {
+    "id": 81,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker divides dough pieces unevenly for dinner rolls. What is the likely result?",
+    "options": [
+      "Uneven proofing and baking",
+      "Better consistency",
+      "No effect after baking",
+      "Stronger flavour in all rolls"
+    ],
+    "answer": 0,
+    "explanation": "Different weights proof and bake at different rates. Uniform scaling helps produce consistent rolls."
+  },
+  {
+    "id": 82,
+    "category": "Task 11 — Forms dough",
+    "question": "A dough piece tears during final shaping because it was shaped immediately after dividing. What step was likely skipped?",
+    "options": [
+      "Bench rest",
+      "Egg wash",
+      "Final bake",
+      "Packaging"
+    ],
+    "answer": 0,
+    "explanation": "Bench rest relaxes gluten after dividing and pre-shaping. Without it, dough may resist shaping and tear."
+  },
+  {
+    "id": 83,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker rounds dough pieces loosely before making buns. What defect may result?",
+    "options": [
+      "Poor surface tension and uneven shape",
+      "Stronger structure",
+      "Better symmetry",
+      "More oven colour only"
+    ],
+    "answer": 0,
+    "explanation": "Rounding builds surface tension. Loose rounding can lead to spreading and uneven finished buns."
+  },
+  {
+    "id": 84,
+    "category": "Task 11 — Forms dough",
+    "question": "A shaped loaf has a dry skin before final proof is complete. What should have been done?",
+    "options": [
+      "Covered the dough during proofing",
+      "Added more salt",
+      "Reduced yeast to zero",
+      "Scored it before shaping"
+    ],
+    "answer": 0,
+    "explanation": "Uncovered dough loses surface moisture. A dry skin can restrict expansion and cause cracking."
+  },
+  {
+    "id": 85,
+    "category": "Task 11 — Forms dough",
+    "question": "A pan loaf opens at the side seam during baking. What is the most likely cause?",
+    "options": [
+      "Seam was not sealed or placed correctly",
+      "Dough was cooled too long after baking",
+      "Oven was too clean",
+      "Bread was sliced too early"
+    ],
+    "answer": 0,
+    "explanation": "Weak seams can open under pressure during oven spring. Proper moulding and seam placement help keep the loaf closed."
+  },
+  {
+    "id": 86,
+    "category": "Task 11 — Forms dough",
+    "question": "A baguette is too short and thick after shaping. The dough kept springing back. What should the baker do next time?",
+    "options": [
+      "Allow more rest before final shaping",
+      "Use more pressure and force it longer",
+      "Add less water after baking",
+      "Proof it without shaping"
+    ],
+    "answer": 0,
+    "explanation": "Spring-back shows gluten tension. Additional rest relaxes dough and allows better extension."
+  },
+  {
+    "id": 87,
+    "category": "Task 11 — Forms dough",
+    "question": "A braided loaf bakes with one strand much larger than the others. What should be improved?",
+    "options": [
+      "Scaling and rolling strands evenly",
+      "Egg wash thickness only",
+      "Cooling rack height",
+      "Oven light brightness"
+    ],
+    "answer": 0,
+    "explanation": "Braided products require equal strands. Uneven strands bake unevenly and create poor appearance."
+  },
+  {
+    "id": 88,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker uses heavy flour dust during moulding. Later, sliced bread shows separation lines. What caused this?",
+    "options": [
+      "Flour prevented dough layers from bonding",
+      "The bread was over-glazed",
+      "The dough had too much steam",
+      "The crust cooled too fast"
+    ],
+    "answer": 0,
+    "explanation": "Too much dusting flour can remain between folds. It prevents dough from sealing and creates internal separation."
+  },
+  {
+    "id": 89,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker handles high-hydration dough roughly after bulk fermentation. What is likely to happen?",
+    "options": [
+      "Gas pockets may be lost and crumb may become tighter",
+      "Crumb will always be more open",
+      "Dough will gain more water",
+      "Dough will become laminated"
+    ],
+    "answer": 0,
+    "explanation": "Rough handling can degas fermented dough. Gentle handling preserves gas pockets needed for open crumb."
+  },
+  {
+    "id": 90,
+    "category": "Task 11 — Forms dough",
+    "question": "A boule spreads sideways during final proof. What shaping correction is needed?",
+    "options": [
+      "Build stronger surface tension",
+      "Add more egg wash",
+      "Reduce oven steam only",
+      "Slice it before proofing"
+    ],
+    "answer": 0,
+    "explanation": "A boule needs surface tension to hold height. Loose shaping causes the dough to spread outward."
+  },
+  {
+    "id": 91,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant dough is rolled while the butter is much softer than the dough. What will likely happen?",
+    "options": [
+      "Butter will smear into the dough",
+      "Butter will break into hard pieces",
+      "Dough will become dry",
+      "Yeast will stop immediately"
+    ],
+    "answer": 0,
+    "explanation": "Soft butter blends into the dough instead of forming layers. This damages lamination and reduces flakiness."
+  },
+  {
+    "id": 92,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker tries to sheet laminated dough without resting it between turns. The dough shrinks and tears. What is the best correction?",
+    "options": [
+      "Rest and chill between turns",
+      "Roll faster and harder",
+      "Warm the dough beside the oven",
+      "Add more yeast"
+    ],
+    "answer": 0,
+    "explanation": "Resting relaxes gluten and chilling firms the fat. This prevents tearing and helps maintain even layers."
+  },
+  {
+    "id": 93,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Croissants bake with a dense bread-like texture and little flake. What is the likely cause?",
+    "options": [
+      "Butter layers were absorbed or lost",
+      "Butter stayed separate perfectly",
+      "Dough was cut with a sharp blade",
+      "Croissants were cooled correctly"
+    ],
+    "answer": 0,
+    "explanation": "Laminated products need distinct fat and dough layers. If butter blends into dough, the final texture becomes bread-like."
+  },
+  {
+    "id": 94,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker brushes egg wash heavily over croissants and it runs down the sides. What defect may result?",
+    "options": [
+      "Sealed layers and reduced lift",
+      "Better layer separation",
+      "More honeycomb structure",
+      "No crust colour"
+    ],
+    "answer": 0,
+    "explanation": "Egg wash can glue laminated edges together. Sealed layers cannot expand freely during baking."
+  },
+  {
+    "id": 95,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant has butter leaking during proofing. What should be checked first?",
+    "options": [
+      "Proofing temperature",
+      "Sugar percentage",
+      "Salt weight only",
+      "Cooling rack size"
+    ],
+    "answer": 0,
+    "explanation": "If proofing temperature is too warm, butter melts before baking. Melted butter leaks and weakens layer structure."
+  },
+  {
+    "id": 96,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A butter block is uneven before lock-in. What is the likely result?",
+    "options": [
+      "Uneven lamination and inconsistent layers",
+      "Better flakiness",
+      "No proofing required",
+      "Faster baking only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven butter thickness creates uneven fat distribution. This causes inconsistent lift and texture after baking."
+  },
+  {
+    "id": 97,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker cuts croissant triangles with a dull knife. What can happen?",
+    "options": [
+      "Layers may be crushed and rise poorly",
+      "Layers will rise higher",
+      "Butter becomes tempered",
+      "Dough becomes sweeter"
+    ],
+    "answer": 0,
+    "explanation": "A dull knife compresses laminated layers. Clean sharp cuts keep layers open for expansion."
+  },
+  {
+    "id": 98,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant unrolls during baking even though proofing was correct. What shaping detail was likely wrong?",
+    "options": [
+      "The tip was not placed underneath",
+      "The butter was too cold only",
+      "The oven was too clean",
+      "The dough had too much salt"
+    ],
+    "answer": 0,
+    "explanation": "The croissant tip should be tucked under the roll. This helps the shape stay closed during proofing and baking."
+  },
+  {
+    "id": 99,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A laminated dough feels greasy and soft while being sheeted. What is the best immediate action?",
+    "options": [
+      "Chill the dough before continuing",
+      "Add hot water",
+      "Mix the dough again on high speed",
+      "Proof it right away"
+    ],
+    "answer": 0,
+    "explanation": "Greasy dough means fat is softening. Chilling firms the fat and protects the layer structure."
+  },
+  {
+    "id": 100,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf is scored, but the cuts do not open and the loaf bursts at the side. What is the likely cause?",
+    "options": [
+      "Under-proofing or shallow scoring",
+      "Too much cooling after baking",
+      "Over-packaging",
+      "Too much pan grease"
+    ],
+    "answer": 0,
+    "explanation": "Under-proofed dough expands strongly in the oven. If scoring is too shallow, pressure escapes through another weak spot."
+  },
+  {
+    "id": 101,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A levain is ripe earlier than expected. Which change would most likely slow the next batch?",
+    "options": [
+      "Use cooler water or cooler storage temperature",
+      "Increase the yeast or starter percentage",
+      "Store it beside the oven",
+      "Increase room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Cooler temperatures slow fermentation activity. This helps the levain ripen closer to the planned production time."
+  },
+  {
+    "id": 102,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker wants stronger flavour from a pre-ferment without making it collapse. What is the best control point?",
+    "options": [
+      "Fermentation time and temperature",
+      "Cake pan size",
+      "Egg wash thickness",
+      "Bench scraper shape"
+    ],
+    "answer": 0,
+    "explanation": "Pre-ferment flavour develops through controlled fermentation. Too much time or heat can over-ripen it and weaken dough."
+  },
+  {
+    "id": 103,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A poolish has many bubbles but still smells raw and floury. What is the best interpretation?",
+    "options": [
+      "It may not be fully mature yet",
+      "It is definitely over-fermented",
+      "It has no water",
+      "It is ready for frying"
+    ],
+    "answer": 0,
+    "explanation": "Bubbles show fermentation has started, but aroma also matters. A raw flour smell can mean the poolish needs more ripening time."
+  },
+  {
+    "id": 104,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A sourdough starter is fed with too much water and becomes very liquid. What has changed?",
+    "options": [
+      "Hydration increased",
+      "Salt percentage increased",
+      "Flour protein increased",
+      "Baking temperature increased"
+    ],
+    "answer": 0,
+    "explanation": "Adding more water increases starter hydration. Hydration affects fermentation speed, acidity, and handling."
+  },
+  {
+    "id": 105,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker stores a pre-ferment in a container with no headspace. What is the best reason this is poor practice?",
+    "options": [
+      "Fermentation expansion needs room",
+      "It prevents gluten from forming",
+      "It removes all yeast activity",
+      "It makes the pre-ferment too salty"
+    ],
+    "answer": 0,
+    "explanation": "Pre-ferments expand as gas is produced. Without headspace, they may overflow or create pressure."
+  },
+  {
+    "id": 106,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A levain has a sharp acidic smell, has fallen, and feels very loose. What is most likely?",
+    "options": [
+      "It is over-mature",
+      "It is not fermented",
+      "It contains too much chocolate",
+      "It is frozen"
+    ],
+    "answer": 0,
+    "explanation": "A fallen levain with strong acidity often indicates over-maturity. Over-mature levain may weaken final dough and produce excessive sourness."
+  },
+  {
+    "id": 107,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A formula calls for ripe levain, but the levain is still flat and dense. What should the baker do?",
+    "options": [
+      "Allow more fermentation time or refresh if needed",
+      "Add it immediately and shorten bulk time",
+      "Bake it without mixing",
+      "Replace flour with sugar"
+    ],
+    "answer": 0,
+    "explanation": "Flat dense levain is not showing enough activity. It needs time or refreshment before it can properly leaven dough."
+  },
+  {
+    "id": 108,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "What is the most accurate way to control a pre-ferment formula?",
+    "options": [
+      "Weigh flour, water, and yeast/starter",
+      "Measure by handfuls",
+      "Guess by container size",
+      "Use only colour as a guide"
+    ],
+    "answer": 0,
+    "explanation": "Pre-ferment hydration and inoculation must be accurate. Weighing ingredients gives predictable fermentation and final dough results."
+  },
+  {
+    "id": 109,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A starter is kept too cold and used directly from the refrigerator without refreshing. What is likely?",
+    "options": [
+      "Slow fermentation in final dough",
+      "Instant over-proofing",
+      "Faster oven spring always",
+      "No need for bulk fermentation"
+    ],
+    "answer": 0,
+    "explanation": "Cold, unfed starter may have weak activity. Refreshing helps restore strength before mixing final dough."
+  },
+  {
+    "id": 110,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker wants a mild sourdough flavour. Which approach is most suitable?",
+    "options": [
+      "Use a healthy starter before it becomes overly acidic",
+      "Use only collapsed overripe starter",
+      "Ferment the starter hot for several days",
+      "Skip feeding the starter"
+    ],
+    "answer": 0,
+    "explanation": "A healthy, active starter gives balanced flavour. Overripe starter can create stronger acidity and weaker dough."
+  },
+  {
+    "id": 111,
+    "category": "Task 10 — Prepares dough",
+    "question": "A formula has 6 kg flour and 3.9 kg water. What is the hydration?",
+    "options": [
+      "55%",
+      "60%",
+      "65%",
+      "75%"
+    ],
+    "answer": 2,
+    "explanation": "Hydration = water ÷ flour × 100. 3.9 ÷ 6 × 100 = 65%."
+  },
+  {
+    "id": 112,
+    "category": "Task 10 — Prepares dough",
+    "question": "A formula has 8 kg flour and 160 g salt. What is the salt percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "4%",
+      "8%"
+    ],
+    "answer": 1,
+    "explanation": "160 g is 0.16 kg. 0.16 ÷ 8 × 100 = 2%."
+  },
+  {
+    "id": 113,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker needs 2% yeast for 3500 g flour. How much yeast is required?",
+    "options": [
+      "35 g",
+      "50 g",
+      "70 g",
+      "140 g"
+    ],
+    "answer": 2,
+    "explanation": "2% of 3500 g is 3500 × 0.02. The required yeast amount is 70 g."
+  },
+  {
+    "id": 114,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is 28°C when the target is 24°C. What is the most direct correction for the next mix?",
+    "options": [
+      "Use colder water",
+      "Use warmer water",
+      "Increase proofing temperature",
+      "Add more sugar"
+    ],
+    "answer": 0,
+    "explanation": "Water temperature is the easiest variable to adjust. Colder water helps reduce final dough temperature."
+  },
+  {
+    "id": 115,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker mixes dough with cold preferment and cold flour. What should be adjusted to meet target dough temperature?",
+    "options": [
+      "Water temperature",
+      "Pan size",
+      "Scoring angle",
+      "Egg wash amount"
+    ],
+    "answer": 0,
+    "explanation": "Water temperature balances cold ingredients and friction heat. It is adjusted to reach desired final dough temperature."
+  },
+  {
+    "id": 116,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough feels extensible but too slack after bulk fermentation. What process could strengthen it gently?",
+    "options": [
+      "Stretch and fold",
+      "Heavy degassing only",
+      "Adding icing sugar",
+      "Immediate baking without shaping"
+    ],
+    "answer": 0,
+    "explanation": "Stretch and fold builds dough strength during fermentation. It is especially useful for wet or artisan doughs."
+  },
+  {
+    "id": 117,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker forgets to account for friction factor in a spiral mixer. What will most likely be affected?",
+    "options": [
+      "Final dough temperature",
+      "Crust scoring depth only",
+      "Loaf packaging size",
+      "Salt flavour only"
+    ],
+    "answer": 0,
+    "explanation": "Mixers add heat through friction. Ignoring friction can make dough warmer than planned."
+  },
+  {
+    "id": 118,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has high hydration but low gluten development. What is the likely result?",
+    "options": [
+      "Spreading and poor gas retention",
+      "Very stiff dough",
+      "Faster cooling after baking",
+      "Stronger crust shine"
+    ],
+    "answer": 0,
+    "explanation": "High hydration needs enough gluten strength to hold shape. Without structure, the dough spreads and loses gas."
+  },
+  {
+    "id": 119,
+    "category": "Task 10 — Prepares dough",
+    "question": "Which ingredient most directly strengthens flavour and controls yeast speed?",
+    "options": [
+      "Salt",
+      "Shortening",
+      "Cocoa powder",
+      "Baking paper"
+    ],
+    "answer": 0,
+    "explanation": "Salt improves bread flavour and regulates fermentation. It also contributes to dough strength."
+  },
+  {
+    "id": 120,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is made with very warm water and ferments too quickly. What should be adjusted next time?",
+    "options": [
+      "Lower the water temperature",
+      "Increase mixer friction",
+      "Add more yeast",
+      "Proof in a hotter room"
+    ],
+    "answer": 0,
+    "explanation": "Warm water raises final dough temperature. Cooler water slows fermentation and improves schedule control."
+  },
+  {
+    "id": 121,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker reduces salt because the dough tasted salty last batch. What is a possible side effect?",
+    "options": [
+      "Faster fermentation",
+      "Slower yeast activity only",
+      "Less gas production always",
+      "Stronger salty flavour"
+    ],
+    "answer": 0,
+    "explanation": "Salt slows yeast activity. Reducing salt can make fermentation faster and less controlled."
+  },
+  {
+    "id": 122,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough contains high fat and high sugar. What should the baker expect?",
+    "options": [
+      "Slower fermentation and longer mixing needs",
+      "Instant fermentation",
+      "No need for gluten development",
+      "No effect on dough handling"
+    ],
+    "answer": 0,
+    "explanation": "Fat and sugar affect gluten development and yeast activity. Enriched doughs usually require more controlled mixing and proofing."
+  },
+  {
+    "id": 123,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds flour to a dough during mixing because it is sticky, but the dough is supposed to be high hydration. What is the risk?",
+    "options": [
+      "The final bread may become denser than intended",
+      "The dough will become more hydrated",
+      "Yeast percentage will increase",
+      "Salt will disappear"
+    ],
+    "answer": 0,
+    "explanation": "Extra flour lowers hydration and changes the formula. High-hydration breads may lose their intended open crumb."
+  },
+  {
+    "id": 124,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed with too little water. Which issue is most likely?",
+    "options": [
+      "Poor gluten development and tight crumb",
+      "Excessive extensibility",
+      "Too much steam in the mixer",
+      "Butter leakage"
+    ],
+    "answer": 0,
+    "explanation": "Flour needs water for gluten formation. Low hydration can create stiff dough and tight bread texture."
+  },
+  {
+    "id": 125,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker notices dough temperature rises more in second speed than first speed. What causes this?",
+    "options": [
+      "Increased friction",
+      "Reduced mixing action",
+      "Less mechanical energy",
+      "Lower gluten development always"
+    ],
+    "answer": 0,
+    "explanation": "Higher mixer speed creates more friction heat. This raises dough temperature more quickly."
+  },
+  {
+    "id": 126,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has 4 kg flour and 80 g salt, but the baker accidentally adds 160 g salt. What is the salt percentage added?",
+    "options": [
+      "2%",
+      "4%",
+      "8%",
+      "16%"
+    ],
+    "answer": 1,
+    "explanation": "160 g is 0.16 kg. 0.16 ÷ 4 × 100 = 4%."
+  },
+  {
+    "id": 127,
+    "category": "Task 10 — Prepares dough",
+    "question": "What is the likely effect of too much salt in dough?",
+    "options": [
+      "Slowed fermentation and salty flavour",
+      "Faster fermentation and bland flavour",
+      "More butter leakage",
+      "No effect on dough"
+    ],
+    "answer": 0,
+    "explanation": "Salt slows yeast activity and affects flavour. Too much salt can delay proofing and make bread unpleasantly salty."
+  },
+  {
+    "id": 128,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has 2500 g flour and 1750 g water. What is the hydration?",
+    "options": [
+      "60%",
+      "65%",
+      "70%",
+      "75%"
+    ],
+    "answer": 2,
+    "explanation": "Hydration = water ÷ flour × 100. 1750 ÷ 2500 × 100 = 70%."
+  },
+  {
+    "id": 129,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough does not rise even though yeast was added. Which cause should be checked?",
+    "options": [
+      "Yeast viability and dough temperature",
+      "Cake pan grease",
+      "Chocolate seeding",
+      "Piping pressure"
+    ],
+    "answer": 0,
+    "explanation": "Yeast must be alive and at a suitable temperature to ferment. Cold dough or dead yeast can stop normal rise."
+  },
+  {
+    "id": 130,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is mixed until smooth but has no strength after resting. What should be reviewed?",
+    "options": [
+      "Flour strength, hydration, and mixing quality",
+      "Packaging label size",
+      "Cooling rack height",
+      "Oven door colour"
+    ],
+    "answer": 0,
+    "explanation": "Dough strength depends on flour protein, water balance, and mixing. A smooth appearance alone does not guarantee strong gluten."
+  },
+  {
+    "id": 131,
+    "category": "Task 11 — Forms dough",
+    "question": "A dough piece is rounded too tightly and tears on top. What is the likely cause?",
+    "options": [
+      "Excess surface tension",
+      "Too little gluten tension",
+      "No shaping pressure",
+      "Too much cooling after baking"
+    ],
+    "answer": 0,
+    "explanation": "Rounding should build tension without tearing. Too much pressure can overstretch and damage the surface."
+  },
+  {
+    "id": 132,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker shapes loaves without degassing large gas pockets. What can appear in the crumb?",
+    "options": [
+      "Large irregular holes",
+      "More even crumb always",
+      "No crust colour",
+      "Dense bottom only"
+    ],
+    "answer": 0,
+    "explanation": "Large gas pockets can remain if dough is not handled properly. Controlled degassing helps create more even crumb when required."
+  },
+  {
+    "id": 133,
+    "category": "Task 11 — Forms dough",
+    "question": "A loaf is placed seam-side up in the pan by mistake. What is most likely?",
+    "options": [
+      "The seam may open during proofing or baking",
+      "The loaf will not rise at all",
+      "The crust will be white",
+      "The bread will become sourdough"
+    ],
+    "answer": 0,
+    "explanation": "Pan loaves are usually placed seam-side down. This keeps the seam closed while the dough expands."
+  },
+  {
+    "id": 134,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker wants consistent buns. Which control is most important before rounding?",
+    "options": [
+      "Accurate dividing by weight",
+      "Extra egg wash",
+      "Stronger oven fan",
+      "Darker tray colour"
+    ],
+    "answer": 0,
+    "explanation": "Equal weights produce similar proofing and baking. Rounding cannot correct major scaling differences."
+  },
+  {
+    "id": 135,
+    "category": "Task 11 — Forms dough",
+    "question": "A shaped dough has cracks before baking. What should be checked?",
+    "options": [
+      "Surface drying and shaping tension",
+      "Chocolate temper",
+      "Sugar syrup stage",
+      "Packaging colour"
+    ],
+    "answer": 0,
+    "explanation": "Cracks may come from dry dough skin or excessive shaping tension. Dough should be covered and handled properly."
+  },
+  {
+    "id": 136,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker notices pan loaves are taller on one side. What is a likely forming issue?",
+    "options": [
+      "Uneven moulding or pan placement",
+      "Too much chocolate",
+      "Over-glazing after baking",
+      "Too much cooling time only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven moulding creates uneven dough distribution in the pan. This can cause one side to rise higher."
+  },
+  {
+    "id": 137,
+    "category": "Task 11 — Forms dough",
+    "question": "A baguette is too long for the oven tray. What should have been controlled?",
+    "options": [
+      "Scaling and shaping length",
+      "Butter temperature",
+      "Cake mixing method",
+      "Sugar crystallization"
+    ],
+    "answer": 0,
+    "explanation": "Product size must match equipment and tray capacity. Scaling and final shaping length control finished dimensions."
+  },
+  {
+    "id": 138,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker covers dough with a dry towel that touches the dough and sticks. What is a better method?",
+    "options": [
+      "Use proper covering that prevents drying without sticking",
+      "Leave dough uncovered",
+      "Dust heavily with sugar",
+      "Put dough beside a fan"
+    ],
+    "answer": 0,
+    "explanation": "Dough should be protected from drying. The covering should not stick or damage the surface."
+  },
+  {
+    "id": 139,
+    "category": "Task 11 — Forms dough",
+    "question": "A loaf has uneven crumb because one side was rolled tighter than the other. What caused the defect?",
+    "options": [
+      "Uneven shaping pressure",
+      "Underbaked crust",
+      "Too much oven steam only",
+      "Correct moulding"
+    ],
+    "answer": 0,
+    "explanation": "Uneven shaping changes internal dough structure. This can create uneven grain and slice quality."
+  },
+  {
+    "id": 140,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker shapes sourdough roughly and removes most gas. What final defect is likely?",
+    "options": [
+      "Tighter crumb than intended",
+      "More open crumb",
+      "Better oven spring always",
+      "More laminated layers"
+    ],
+    "answer": 0,
+    "explanation": "Open-crumb sourdough depends on preserving gas. Rough shaping can degas the dough too much."
+  },
+  {
+    "id": 141,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A dough block has rounded corners before folding. Why is squaring important?",
+    "options": [
+      "It keeps folds even and layers aligned",
+      "It melts butter faster",
+      "It removes yeast",
+      "It prevents proofing"
+    ],
+    "answer": 0,
+    "explanation": "Square corners help maintain even layer distribution. Uneven folding causes irregular thickness and poor lamination."
+  },
+  {
+    "id": 142,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker rolls croissant dough aggressively to final thickness in one pass. What is the risk?",
+    "options": [
+      "Tearing dough and damaging layers",
+      "Perfect lamination",
+      "Less gluten tension",
+      "No butter movement"
+    ],
+    "answer": 0,
+    "explanation": "Laminated dough should be rolled gradually. Aggressive rolling can tear dough and cause butter breakthrough."
+  },
+  {
+    "id": 143,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant has one side higher than the other after baking. Which issue is most likely?",
+    "options": [
+      "Uneven sheeting or shaping",
+      "Correct layer thickness",
+      "Perfect proofing",
+      "Proper tray spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven dough thickness or shaping creates uneven lift. Consistent sheeting helps croissants bake evenly."
+  },
+  {
+    "id": 144,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A butter block is soft in the centre but firm at the edges. What is the concern?",
+    "options": [
+      "Uneven butter plasticity will cause uneven layers",
+      "It is ideal for lock-in",
+      "It prevents all butter leakage",
+      "It improves proofing"
+    ],
+    "answer": 0,
+    "explanation": "Butter should have even consistency throughout. Uneven firmness causes smearing in some areas and breaking in others."
+  },
+  {
+    "id": 145,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker sees butter spots on the outside of laminated dough after a turn. What does this suggest?",
+    "options": [
+      "Butter breakthrough",
+      "Proper sealing",
+      "No fat in dough",
+      "Correct proofing"
+    ],
+    "answer": 0,
+    "explanation": "Butter visible on the outside indicates damaged dough layers. The dough should be chilled and handled carefully before continuing."
+  },
+  {
+    "id": 146,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant has very tight rolled layers and a dense centre. What shaping error is likely?",
+    "options": [
+      "Rolled too tightly",
+      "Rolled too loosely only",
+      "Placed tip underneath",
+      "Proofed correctly"
+    ],
+    "answer": 0,
+    "explanation": "Tight rolling restricts expansion. Croissants need room for layers and yeast gas to expand."
+  },
+  {
+    "id": 147,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A laminated dough is over-proofed before baking. What is likely?",
+    "options": [
+      "Collapse and poor layer definition",
+      "Better flakiness always",
+      "No yeast activity",
+      "More butter firmness"
+    ],
+    "answer": 0,
+    "explanation": "Over-proofing weakens dough structure. The product may collapse and lose clear layers."
+  },
+  {
+    "id": 148,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A Danish pastry has filling sliding off during proofing. What should be checked?",
+    "options": [
+      "Dough shape, filling amount, and proofing conditions",
+      "Bread hydration only",
+      "Cake batter temperature",
+      "Chocolate bloom"
+    ],
+    "answer": 0,
+    "explanation": "Filling must be properly placed and portioned. Warm or over-proofed dough can also lose shape."
+  },
+  {
+    "id": 149,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker chills laminated dough too long and it becomes very firm. What should be done before sheeting?",
+    "options": [
+      "Temper briefly until workable",
+      "Roll aggressively while frozen-hard",
+      "Add hot water",
+      "Proof it in high heat"
+    ],
+    "answer": 0,
+    "explanation": "Dough must be firm but workable. If too cold, butter can crack and layers can break."
+  },
+  {
+    "id": 150,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A bread has good volume but pale crust and weak flavour. Which finishing factor should be reviewed first?",
+    "options": [
+      "Bake time and oven temperature",
+      "Packaging colour",
+      "Cooling rack brand",
+      "Pan label"
+    ],
+    "answer": 0,
+    "explanation": "Pale crust often means insufficient bake heat or time. Proper baking develops crust colour and flavour."
+  },
+  {
+    "id": 151,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A levain is built at 100% hydration but the final dough feels weaker and more acidic than expected. The levain had peaked and fallen before mixing. What is the most likely cause?",
+    "options": [
+      "Levain was over-mature",
+      "Levain was under-hydrated",
+      "Flour was over-scaled only",
+      "Dough was shaped too early"
+    ],
+    "answer": 0,
+    "explanation": "A levain that peaks and falls has often passed its strongest point. Over-mature levain can increase acidity and weaken gluten in the final dough."
+  },
+  {
+    "id": 152,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker wants to use a stiff levain instead of a liquid levain in the same formula. What must be considered first?",
+    "options": [
+      "The flour and water balance of the final dough",
+      "The colour of the mixing bowl",
+      "The oven rack spacing only",
+      "The size of the bread lame"
+    ],
+    "answer": 0,
+    "explanation": "Changing levain hydration changes total flour and water in the formula. The final dough hydration must be adjusted to keep the same dough consistency."
+  },
+  {
+    "id": 153,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A poolish is active but smells sharp and has a thin, soupy texture. What is the best interpretation?",
+    "options": [
+      "It may be overripe and proteolytic",
+      "It is definitely under-fermented",
+      "It has too much salt",
+      "It has no fermentation activity"
+    ],
+    "answer": 0,
+    "explanation": "A sharp smell and soupy texture can indicate excessive fermentation and gluten breakdown. This can reduce final dough strength and volume."
+  },
+  {
+    "id": 154,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker increases the percentage of ripe starter in a levain build but keeps the same temperature and time. What is the likely result?",
+    "options": [
+      "Faster ripening",
+      "Slower ripening",
+      "No fermentation",
+      "Lower hydration automatically"
+    ],
+    "answer": 0,
+    "explanation": "More mature starter means more active microorganisms are added. This increases fermentation speed if time and temperature remain unchanged."
+  },
+  {
+    "id": 155,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A sourdough starter is very acidic and final loaves repeatedly have low volume. What adjustment may help?",
+    "options": [
+      "Refresh starter more often or use it younger",
+      "Stop feeding the starter",
+      "Increase storage temperature greatly",
+      "Use only collapsed starter"
+    ],
+    "answer": 0,
+    "explanation": "Excess acidity can weaken gluten and reduce loaf volume. Regular refreshment and using a younger active starter can improve strength."
+  },
+  {
+    "id": 156,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A pre-ferment has good aroma but little visible expansion because it was mixed very stiff. What should the baker rely on besides height?",
+    "options": [
+      "Aroma, texture, time, and internal activity signs",
+      "Icing colour",
+      "Pan weight only",
+      "Cooling rack temperature"
+    ],
+    "answer": 0,
+    "explanation": "Stiff pre-ferments may not rise as dramatically as liquid ones. Maturity should be judged by several signs, not height alone."
+  },
+  {
+    "id": 157,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A formula calls for 30% prefermented flour. What does this percentage refer to?",
+    "options": [
+      "The portion of total flour contained in the pre-ferment",
+      "The amount of yeast in the dough",
+      "The total water in the final dough",
+      "The weight of baked bread crust"
+    ],
+    "answer": 0,
+    "explanation": "Prefermented flour percentage measures how much total flour is in the pre-ferment. It affects flavour, fermentation speed, and dough strength."
+  },
+  {
+    "id": 158,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A levain is under-ripe but the baker extends bulk fermentation to compensate. What problem may still occur?",
+    "options": [
+      "Flavour and fermentation strength may remain unbalanced",
+      "The dough becomes laminated",
+      "Salt percentage becomes zero",
+      "The loaf cannot brown"
+    ],
+    "answer": 0,
+    "explanation": "An under-ripe levain lacks full microbial activity and flavour development. Longer bulk may help gas production, but it may not fully correct levain quality."
+  },
+  {
+    "id": 159,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A baker uses chlorinated water and notices weak starter activity. What is the best concern to investigate?",
+    "options": [
+      "Water quality may be affecting microorganisms",
+      "Flour protein is always too high",
+      "The starter contains too much butter",
+      "Salt has caramelized"
+    ],
+    "answer": 0,
+    "explanation": "Some water treatments can affect yeast and bacteria activity. Water quality should be considered when starters ferment poorly."
+  },
+  {
+    "id": 160,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A pre-ferment is mature at 6 hours, but production needs it at 10 hours. Which adjustment is best for the next batch?",
+    "options": [
+      "Reduce inoculation or lower fermentation temperature",
+      "Increase starter amount and keep it warmer",
+      "Add more yeast and place near oven",
+      "Mix it thinner and hotter automatically"
+    ],
+    "answer": 0,
+    "explanation": "Ripening speed is controlled by starter or yeast amount and temperature. Lower inoculation or cooler conditions extend ripening time."
+  },
+  {
+    "id": 161,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker calculates water temperature for a dough using 4 factors. Desired dough temperature is 24°C. Flour is 21°C, room is 23°C, preferment is 26°C, friction factor is 5°C. What water temperature is required?",
+    "options": [
+      "21°C",
+      "24°C",
+      "26°C",
+      "96°C"
+    ],
+    "answer": 0,
+    "explanation": "24 × 4 = 96 total temperature factor. 96 − 21 − 23 − 26 − 5 = 21°C water temperature."
+  },
+  {
+    "id": 162,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker changes from a planetary mixer to a spiral mixer and uses the same friction factor. The dough is consistently cooler than target. What is most likely?",
+    "options": [
+      "The new mixer has a lower friction factor",
+      "Salt percentage is too high",
+      "Yeast is overproofed",
+      "Hydration is 100%"
+    ],
+    "answer": 0,
+    "explanation": "Different mixers add different amounts of friction heat. If dough is cooler than target, the assumed friction factor may be too high."
+  },
+  {
+    "id": 163,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough contains 10 kg flour, 6.8 kg water, 200 g salt, and 100 g yeast. What are hydration and salt percentage?",
+    "options": [
+      "68% hydration and 2% salt",
+      "58% hydration and 1% salt",
+      "68% hydration and 20% salt",
+      "6.8% hydration and 2% salt"
+    ],
+    "answer": 0,
+    "explanation": "Hydration is 6.8 ÷ 10 × 100 = 68%. Salt is 0.2 ÷ 10 × 100 = 2%."
+  },
+  {
+    "id": 164,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has a short mix, long autolyse, and several folds during bulk. What is the intended benefit?",
+    "options": [
+      "Build strength with less mechanical mixing",
+      "Remove fermentation from the process",
+      "Eliminate gluten development",
+      "Make the dough chemically leavened"
+    ],
+    "answer": 0,
+    "explanation": "Autolyse and folds can develop structure gently over time. This is common in artisan doughs to preserve extensibility and flavour."
+  },
+  {
+    "id": 165,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is very extensible but tears when lifted after bulk fermentation. It also has high acidity. What is the most likely cause?",
+    "options": [
+      "Gluten weakening from excessive fermentation or acidity",
+      "Too little fermentation",
+      "Too much cold water only",
+      "Too much pan grease"
+    ],
+    "answer": 0,
+    "explanation": "Excess fermentation and acidity can weaken gluten structure. The dough may feel extensible but lack strength and tear easily."
+  },
+  {
+    "id": 166,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker increases water in a dough from 65% to 78% hydration. What process change may be needed?",
+    "options": [
+      "More folds or gentler handling to build strength",
+      "Less gluten development always",
+      "No fermentation control",
+      "Immediate baking without bulk fermentation"
+    ],
+    "answer": 0,
+    "explanation": "Higher hydration makes dough softer and harder to handle. Folds and careful handling help develop structure without adding excess flour."
+  },
+  {
+    "id": 167,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough temperature target is met, but fermentation is still much faster than expected. Which factor should be checked next?",
+    "options": [
+      "Yeast or levain percentage",
+      "Pan colour only",
+      "Cooling rack height",
+      "Scoring blade sharpness"
+    ],
+    "answer": 0,
+    "explanation": "Fermentation speed depends on more than temperature. Yeast or levain amount strongly affects gas production and timing."
+  },
+  {
+    "id": 168,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds salt late to an autolysed dough. What is the purpose of adding it after the rest?",
+    "options": [
+      "Allow flour hydration before salt tightens dough",
+      "Stop all gluten development permanently",
+      "Turn dough into pastry cream",
+      "Remove yeast from the formula"
+    ],
+    "answer": 0,
+    "explanation": "Autolyse hydrates flour and begins gluten development. Salt is often added later because it can tighten dough and slow hydration."
+  },
+  {
+    "id": 169,
+    "category": "Task 10 — Prepares dough",
+    "question": "A final dough contains 4000 g flour total. If 1000 g of that flour is in the levain, what percentage of flour is prefermented?",
+    "options": [
+      "20%",
+      "25%",
+      "40%",
+      "100%"
+    ],
+    "answer": 1,
+    "explanation": "Prefermented flour percentage is levain flour divided by total flour. 1000 ÷ 4000 × 100 = 25%."
+  },
+  {
+    "id": 170,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is too elastic and keeps shrinking during shaping. What is the most likely correction?",
+    "options": [
+      "Increase rest time or improve dough relaxation",
+      "Add more salt immediately",
+      "Reduce all fermentation to zero",
+      "Bake without proofing"
+    ],
+    "answer": 0,
+    "explanation": "Excess elasticity or tight gluten causes spring-back. Resting allows gluten to relax and makes shaping easier."
+  },
+  {
+    "id": 171,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker uses very strong flour and intensive mixing for baguettes. The finished bread has tight crumb and excessive chew. What should be reviewed?",
+    "options": [
+      "Flour strength and mixing intensity",
+      "Egg wash thickness",
+      "Cooling rack colour",
+      "Sugar syrup temperature"
+    ],
+    "answer": 0,
+    "explanation": "Very strong flour and overdevelopment can create too much dough strength. Baguettes often need a balance of extensibility and strength for open crumb."
+  },
+  {
+    "id": 172,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough formula uses 2% salt, but the baker adds salt based on total dough weight instead of flour weight. What is the likely issue?",
+    "options": [
+      "Salt amount will be incorrect",
+      "Salt percentage will always be correct",
+      "Yeast percentage becomes hydration",
+      "Dough will not absorb water"
+    ],
+    "answer": 0,
+    "explanation": "Baker’s percentages are based on flour weight. Using total dough weight gives a different and usually excessive salt amount."
+  },
+  {
+    "id": 173,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has good gluten development after mixing, but becomes weak and sticky after extended bulk fermentation. What happened?",
+    "options": [
+      "Over-fermentation weakened the dough",
+      "The dough became under-mixed later",
+      "The flour protein increased",
+      "The hydration dropped suddenly"
+    ],
+    "answer": 0,
+    "explanation": "Dough strength can decline during excessive fermentation. Acids and enzymes may weaken gluten over time."
+  },
+  {
+    "id": 174,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker reduces yeast for a long, cool fermentation. What is the main reason?",
+    "options": [
+      "To prevent over-fermentation during extended time",
+      "To eliminate flavour development",
+      "To stop all gas production permanently",
+      "To increase saltiness"
+    ],
+    "answer": 0,
+    "explanation": "Long fermentation requires lower yeast or cooler temperature. This prevents the dough from ripening too quickly."
+  },
+  {
+    "id": 175,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough has 12 kg flour and 7.8 kg water. The baker wants 70% hydration. How much total water is needed, and how much extra water must be added?",
+    "options": [
+      "8.4 kg total, add 0.6 kg",
+      "7.0 kg total, add none",
+      "8.4 kg total, add 1.2 kg",
+      "9.0 kg total, add 0.6 kg"
+    ],
+    "answer": 0,
+    "explanation": "70% of 12 kg flour is 8.4 kg water. Current water is 7.8 kg, so 0.6 kg more water is needed."
+  },
+  {
+    "id": 176,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker shapes high-hydration sourdough with heavy degassing to make it easier to handle. What is the likely trade-off?",
+    "options": [
+      "Reduced open crumb and lower volume",
+      "More open crumb and higher volume always",
+      "Better lamination",
+      "No effect on final bread"
+    ],
+    "answer": 0,
+    "explanation": "High-hydration sourdough often depends on preserving gas pockets. Heavy degassing can tighten the crumb and reduce volume."
+  },
+  {
+    "id": 177,
+    "category": "Task 11 — Forms dough",
+    "question": "A pan loaf has a major side blowout near the seam. Proofing was correct. What forming defect is most likely?",
+    "options": [
+      "Weak seam closure or seam placement",
+      "Too much steam in oven",
+      "Too much egg wash",
+      "Overbaked top crust"
+    ],
+    "answer": 0,
+    "explanation": "If proofing is correct, a side blowout may come from poor seam closure. The seam must be sealed and placed correctly in the pan."
+  },
+  {
+    "id": 178,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker creates too much surface tension while shaping boules. What defect can appear before baking?",
+    "options": [
+      "Surface tearing",
+      "No gluten development",
+      "Liquid dough texture",
+      "No fermentation aroma"
+    ],
+    "answer": 0,
+    "explanation": "Surface tension is needed, but too much can tear the dough skin. Torn surfaces may bake into cracks or weak spots."
+  },
+  {
+    "id": 179,
+    "category": "Task 11 — Forms dough",
+    "question": "A batch of rolls has consistent weights but inconsistent heights after proofing. What should be checked?",
+    "options": [
+      "Rounding tension and tray placement",
+      "Flour storage label only",
+      "Bread slicing guide",
+      "Ganache temperature"
+    ],
+    "answer": 0,
+    "explanation": "Even weight does not guarantee equal shape. Different rounding tension or tray positions can affect proofing and height."
+  },
+  {
+    "id": 180,
+    "category": "Task 11 — Forms dough",
+    "question": "A bâtard spreads lengthwise and has poor height. Which shaping goal was not achieved?",
+    "options": [
+      "Proper surface tension and structure",
+      "Excess degassing",
+      "Too much crust colour",
+      "Proper cooling"
+    ],
+    "answer": 0,
+    "explanation": "A bâtard needs structure and surface tension to hold height. Loose shaping causes spreading during proof and baking."
+  },
+  {
+    "id": 181,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker shapes dough when it is under-fermented and tight. What problem is likely?",
+    "options": [
+      "Tearing and poor final volume",
+      "Excessive open crumb",
+      "Full flavour development",
+      "Easy extension with no resistance"
+    ],
+    "answer": 0,
+    "explanation": "Under-fermented dough can be tight and less extensible. It may tear during shaping and have poor gas development."
+  },
+  {
+    "id": 182,
+    "category": "Task 11 — Forms dough",
+    "question": "A loaf has an internal seam line where the dough separated after baking. What is a likely cause?",
+    "options": [
+      "Excess dusting flour during moulding",
+      "Too much oven spring only",
+      "Correct seam sealing",
+      "Proper dough bonding"
+    ],
+    "answer": 0,
+    "explanation": "Dusting flour trapped inside prevents dough layers from sticking. This can create separation lines in the crumb."
+  },
+  {
+    "id": 183,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker shapes baguettes with pointed thin ends that burn before the centre is baked. What should be corrected?",
+    "options": [
+      "Tapering and shaping consistency",
+      "Salt percentage only",
+      "Starter feeding only",
+      "Cooling time"
+    ],
+    "answer": 0,
+    "explanation": "Thin ends bake faster and may burn. Even shaping gives more uniform baking and appearance."
+  },
+  {
+    "id": 184,
+    "category": "Task 11 — Forms dough",
+    "question": "A dough piece is rounded, then immediately flattened completely before final shaping. What is the likely effect?",
+    "options": [
+      "Loss of organized structure from pre-shaping",
+      "Improved surface tension always",
+      "Stronger lamination",
+      "No effect on shaping"
+    ],
+    "answer": 0,
+    "explanation": "Pre-shaping organizes dough and builds light structure. Flattening it completely removes much of that benefit."
+  },
+  {
+    "id": 185,
+    "category": "Task 11 — Forms dough",
+    "question": "A shaped loaf is placed too close to another loaf during proofing. What can happen?",
+    "options": [
+      "Loaves may touch, deform, and bake unevenly",
+      "Loaves will score better",
+      "Fermentation will stop",
+      "Crumb will become sweeter"
+    ],
+    "answer": 0,
+    "explanation": "Dough expands during proofing and baking. Insufficient spacing can distort shape and reduce even heat flow."
+  },
+  {
+    "id": 186,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant batch has good exterior colour but poor honeycomb and greasy crumb. What is the most likely process problem?",
+    "options": [
+      "Butter smeared into dough during lamination",
+      "Dough was cut too sharply",
+      "Croissants were spaced correctly",
+      "Flour was brushed off properly"
+    ],
+    "answer": 0,
+    "explanation": "Greasy crumb and poor honeycomb indicate lost fat layers. Butter smearing prevents proper steam separation and flake formation."
+  },
+  {
+    "id": 187,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker notices butter cracking during the first turn but continues rolling. What final defect is likely?",
+    "options": [
+      "Uneven layers and irregular pockets",
+      "Perfect uniform flake",
+      "No butter in finished product",
+      "Complete lack of browning"
+    ],
+    "answer": 0,
+    "explanation": "Cracked butter creates broken, uneven fat layers. This causes irregular crumb and inconsistent lift."
+  },
+  {
+    "id": 188,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant is proofed at high humidity and high temperature until very soft. What is the main risk?",
+    "options": [
+      "Butter leakage and collapse",
+      "No yeast activity",
+      "Dough becoming too cold",
+      "Sugar crystallization"
+    ],
+    "answer": 0,
+    "explanation": "High temperature can melt butter and weaken dough. Over-soft croissants may collapse and lose lamination quality."
+  },
+  {
+    "id": 189,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A Danish dough shrinks after cutting and before baking. What should be reviewed?",
+    "options": [
+      "Resting time after sheeting",
+      "Amount of egg wash only",
+      "Cooling rack type",
+      "Salt flavour"
+    ],
+    "answer": 0,
+    "explanation": "Shrinkage after cutting often comes from gluten tension. Resting after sheeting allows the dough to relax."
+  },
+  {
+    "id": 190,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A laminated dough is rolled with uneven bench flour trapped between folds. What defect can result?",
+    "options": [
+      "Dry streaks and poor layer bonding",
+      "Stronger butter layers",
+      "More even lift",
+      "Better fermentation speed"
+    ],
+    "answer": 0,
+    "explanation": "Excess flour trapped between layers creates dry areas. It can interfere with bonding and layer definition."
+  },
+  {
+    "id": 191,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant triangle is stretched aggressively before rolling. What is the risk?",
+    "options": [
+      "Damaged layers and uneven expansion",
+      "Better honeycomb always",
+      "No effect on layers",
+      "Instant proofing"
+    ],
+    "answer": 0,
+    "explanation": "Aggressive stretching can tear or distort laminated layers. This leads to uneven crumb and poor shape."
+  },
+  {
+    "id": 192,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker chills croissant dough until butter is hard, then sheets it immediately. What will likely happen?",
+    "options": [
+      "Butter may fracture inside the dough",
+      "Butter will smear smoothly",
+      "Dough will become liquid",
+      "Yeast will caramelize"
+    ],
+    "answer": 0,
+    "explanation": "Over-chilled butter lacks plasticity and can crack. Dough should be tempered until firm but workable."
+  },
+  {
+    "id": 193,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A croissant has a raw compressed centre but good outer flake. What shaping or baking issue is likely?",
+    "options": [
+      "Rolled too tightly or underbaked",
+      "Too much sharp cutting",
+      "Too much cooling after baking",
+      "Proper final proof only"
+    ],
+    "answer": 0,
+    "explanation": "Tight rolling can compress the centre and slow baking. Insufficient bake time can also leave the centre doughy."
+  },
+  {
+    "id": 194,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A baker applies egg wash before final proof instead of just before baking. What is the concern?",
+    "options": [
+      "Surface may dry, stick, or lose finish quality",
+      "Croissants will not ferment",
+      "Butter will become stronger",
+      "Layers will automatically improve"
+    ],
+    "answer": 0,
+    "explanation": "Egg wash is usually applied close to baking for best finish. Applying too early can affect surface quality during proofing."
+  },
+  {
+    "id": 195,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf has excellent volume but a very thick, hard crust. What should be reviewed?",
+    "options": [
+      "Bake time, oven temperature, and steam/venting",
+      "Dough rounding only",
+      "Starter feeding only",
+      "Flour bin label"
+    ],
+    "answer": 0,
+    "explanation": "Thick hard crust can result from excessive bake time, high heat, or drying conditions. Steam and venting schedule also affect crust formation."
+  },
+  {
+    "id": 196,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A hearth loaf has a dull crust with limited shine. What may have been insufficient?",
+    "options": [
+      "Steam during early baking",
+      "Salt in the dough only",
+      "Cooling rack height",
+      "Bench rest time"
+    ],
+    "answer": 0,
+    "explanation": "Steam helps gelatinize the crust surface early in baking. This supports shine, expansion, and crust quality."
+  },
+  {
+    "id": 197,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf has deep scores that spread flat instead of opening upward. What is the likely issue?",
+    "options": [
+      "Scores were too deep or dough lacked strength",
+      "Scores were too shallow only",
+      "Oven had too much colour",
+      "Bread was cooled too long"
+    ],
+    "answer": 0,
+    "explanation": "Very deep scoring can weaken the loaf and cause spreading. Weak or over-proofed dough may also flatten instead of springing upward."
+  },
+  {
+    "id": 198,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A crusty loaf is removed from the oven and immediately covered with plastic. What defect is most likely?",
+    "options": [
+      "Soft crust from trapped steam",
+      "Better crispness",
+      "Increased oven spring",
+      "More scoring bloom"
+    ],
+    "answer": 0,
+    "explanation": "Hot bread releases steam after baking. Plastic traps moisture and softens the crust."
+  },
+  {
+    "id": 199,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf has a gummy crumb even though internal temperature was correct. What should be checked next?",
+    "options": [
+      "Cooling time before slicing",
+      "Egg wash thickness",
+      "Bench flour colour",
+      "Basket size only"
+    ],
+    "answer": 0,
+    "explanation": "Bread crumb continues setting as it cools. Slicing too soon can make properly baked bread seem gummy."
+  },
+  {
+    "id": 200,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A croissant has good honeycomb but tastes greasy and leaves butter residue on the fingers. What is the most likely finishing issue?",
+    "options": [
+      "Underbaking",
+      "Too much scoring",
+      "Too little yeast only",
+      "Overcooling"
+    ],
+    "answer": 0,
+    "explanation": "Croissants need a full bake to set layers and cook out moisture. Underbaking can leave the crumb greasy even when lamination looks good."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledRedSealBakerFermentedGoodsQuestions =
+  shuffleArray(redSealBakerFermentedGoodsQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "red-seal-baker",
+  tradeTitle: "Red Seal Baker",
+  sectionTitle: "Major Work Activity B — Prepares Fermented Goods",
+  questionTimeSeconds: 90,
+  questions: shuffledRedSealBakerFermentedGoodsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledRedSealBakerFermentedGoodsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

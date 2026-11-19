@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+npm-debug.log*
+dist/
+build/
+coverage/
+
+.env
+.env.*
+!.env.example
+node_modules/
+.snapshots/
+.vscode/
+*.log

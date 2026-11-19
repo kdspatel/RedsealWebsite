@@ -1,0 +1,136 @@
+/* V19 contrast repair: readability-only overrides. No application logic changes. */
+
+/* Premium modal: prevent inherited paragraph/card styles from washing out copy. */
+.premium-popup-redesign .premium-popup-top,
+.premium-popup-redesign .premium-popup-top *{
+  opacity:1!important;
+  visibility:visible!important;
+}
+.premium-popup-redesign .premium-popup-top h2{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  text-shadow:0 2px 12px rgba(26,30,35,.28)!important;
+}
+.premium-popup-redesign .premium-popup-top .premium-subtitle{
+  display:block!important;
+  width:auto!important;
+  max-width:540px!important;
+  padding:0!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:#f9f6f4!important;
+  -webkit-text-fill-color:#f9f6f4!important;
+  font-size:1.02rem!important;
+  font-weight:600!important;
+  line-height:1.55!important;
+  opacity:1!important;
+}
+.premium-popup-redesign .premium-popup-body,
+.premium-popup-redesign .premium-popup-body *{opacity:1!important;visibility:visible!important}
+
+/* Free quiz upgrade card: force useful copy to stay readable on every trade page. */
+body[class*="page-free-"] .upgrade-card{
+  position:relative!important;
+  overflow:hidden!important;
+  border:1px solid #f4dedf!important;
+  background:
+    radial-gradient(circle at 100% 100%,rgba(202,33,41,.12),transparent 30%),
+    linear-gradient(135deg,#ffffff 0%,#fcfbf9 100%)!important;
+  box-shadow:0 18px 44px rgba(47,55,63,.09)!important;
+}
+body[class*="page-free-"] .upgrade-card::before,
+body[class*="page-free-"] .upgrade-card::after{
+  pointer-events:none!important;
+  opacity:.55!important;
+}
+body[class*="page-free-"] .upgrade-card .space-between{
+  position:relative!important;
+  z-index:2!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  align-items:center!important;
+  gap:28px!important;
+}
+body[class*="page-free-"] .upgrade-card h2{
+  display:block!important;
+  margin:0 0 10px!important;
+  color:#22272d!important;
+  -webkit-text-fill-color:#22272d!important;
+  font-size:clamp(1.45rem,2.3vw,2rem)!important;
+  line-height:1.15!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+body[class*="page-free-"] .upgrade-card p,
+body[class*="page-free-"] .upgrade-card .muted{
+  display:block!important;
+  max-width:760px!important;
+  margin:0!important;
+  color:#5f6875!important;
+  -webkit-text-fill-color:#5f6875!important;
+  font-size:1rem!important;
+  font-weight:500!important;
+  line-height:1.65!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+body[class*="page-free-"] .upgrade-card .top-actions{
+  position:relative!important;
+  z-index:3!important;
+  margin:0!important;
+}
+body[class*="page-free-"] .upgrade-card #upgradeNowBtn{
+  background:linear-gradient(135deg,#ca2129,#ca2129)!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  border:0!important;
+  box-shadow:0 12px 28px rgba(202,33,41,.24)!important;
+  opacity:1!important;
+}
+body[class*="page-free-"] .upgrade-card #upgradeNowBtn:hover{
+  filter:brightness(.96)!important;
+  transform:translateY(-1px)!important;
+}
+
+/* Home preparation-library CTA: visible in default, hover and focus states. */
+.home-resource-library .home-library-main-link,
+.home-resource-library .home-library-main-link:link,
+.home-resource-library .home-library-main-link:visited{
+  background:linear-gradient(135deg,#ca2129,#ca2129)!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  border:1px solid #ca2129!important;
+  opacity:1!important;
+  text-shadow:none!important;
+  box-shadow:0 10px 24px rgba(202,33,41,.22)!important;
+}
+.home-resource-library .home-library-main-link:hover,
+.home-resource-library .home-library-main-link:focus-visible{
+  background:linear-gradient(135deg,#c52028,#c5262e)!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  outline:3px solid rgba(202,33,41,.22)!important;
+  outline-offset:3px!important;
+}
+.home-resource-library .home-library-main-link[aria-disabled="true"],
+.home-resource-library .home-library-main-link:disabled{
+  opacity:1!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+@media(max-width:760px){
+  body[class*="page-free-"] .upgrade-card .space-between{
+    grid-template-columns:1fr!important;
+    gap:18px!important;
+  }
+  body[class*="page-free-"] .upgrade-card .top-actions,
+  body[class*="page-free-"] .upgrade-card #upgradeNowBtn{width:100%!important}
+  .premium-popup-redesign .premium-popup-top .premium-subtitle{
+    font-size:.96rem!important;
+    line-height:1.5!important;
+  }
+}

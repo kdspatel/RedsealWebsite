@@ -1,0 +1,68 @@
+/* V11 creative polish: editorial, FAQ, mobile navigation, and quiz experience */
+:root{--v11-ink:#21262c;--v11-blue:#ca2129;--v11-purple:#ca2129;--v11-soft:#faf8f6;--v11-line:#f2dcdd;--v11-muted:#697381;--v11-shadow:0 24px 70px rgba(93,23,27,.12)}
+
+/* Reliable mobile navigation drawer */
+@media(max-width:1100px){
+ #site-navbar{position:relative!important;z-index:99990!important}
+ .rspx-header{position:relative!important;z-index:99991!important}
+ .rspx-header.rspx-open{position:fixed!important;inset:0 0 auto 0!important}
+ .rspx-header .rspx-overlay{position:fixed!important;inset:0!important;background:rgba(22,26,30,.7)!important;backdrop-filter:blur(5px);z-index:99992!important}
+ .rspx-header .rspx-nav{top:0!important;right:0!important;bottom:0!important;width:min(92vw,390px)!important;max-width:390px!important;padding:96px 20px 32px!important;background:#fff!important;z-index:99993!important;border-radius:22px 0 0 22px!important;box-shadow:-30px 0 80px rgba(21,25,29,.32)!important}
+ .rspx-header .rspx-menu-button{position:relative!important;z-index:99994!important}
+ .rspx-header.rspx-open .rspx-menu-button{position:fixed!important;top:48px!important;right:18px!important;background:#f9f6f4!important}
+ .rspx-header .rspx-nav>a,.rspx-header .rspx-dropdown-button{color:var(--v11-ink)!important;border-radius:12px!important;font-size:15px!important}
+ .rspx-header .rspx-nav>a:hover,.rspx-header .rspx-dropdown-button:hover{background:#f8f6f4!important;color:var(--v11-blue)!important}
+ .rspx-header .rspx-auth{width:100%!important}
+}
+@media(max-width:520px){.rspx-header .rspx-nav{width:100%!important;max-width:none!important;border-radius:0!important}.rspx-header.rspx-open .rspx-menu-button{top:46px!important}}
+
+/* Editorial landing */
+.news-index-page{background:linear-gradient(180deg,#fbfaf9 0,#fff 520px)!important}
+.news-masthead{position:relative;overflow:hidden;border:0!important;padding:78px 24px 82px!important;background:radial-gradient(circle at 85% 20%,rgba(202,33,41,.19),transparent 28%),radial-gradient(circle at 12% 5%,rgba(202,33,41,.17),transparent 34%),linear-gradient(145deg,#fcfcfb,#f9f6f4 58%,#fcfbfa)!important}
+.news-masthead:before{content:"";position:absolute;inset:18px max(20px,calc((100vw - 1240px)/2));border:1px solid rgba(188,47,54,.18);border-radius:34px;pointer-events:none}
+.news-masthead-inner{position:relative;z-index:1;grid-template-columns:minmax(0,1fr) 260px!important;gap:70px!important}
+.news-eyebrow{display:inline-flex!important;padding:8px 12px;border-radius:999px;background:#fff;border:1px solid #f6e0e1;color:var(--v11-blue)!important;box-shadow:0 8px 24px rgba(129,31,36,.08)}
+.news-masthead h1{max-width:760px!important;font-size:clamp(3rem,6vw,5.7rem)!important;line-height:.94!important;color:var(--v11-ink)!important}
+.news-masthead p{max-width:720px!important;font-size:1.16rem!important}
+.news-masthead-badge{width:220px!important;height:220px!important;border-radius:42px!important;transform:rotate(4deg);background:linear-gradient(145deg,#ca2129,#ca2129)!important;border:12px solid rgba(255,255,255,.78)!important;box-shadow:0 34px 70px rgba(188,47,54,.25)!important}
+.news-masthead-badge:before{content:"EDITORIAL";position:absolute;transform:translateY(-58px);font-size:10px;letter-spacing:.18em;font-weight:900;color:#f7e3e4}
+.news-main{margin-top:-28px!important;position:relative;z-index:2}
+.news-feature-card{border:1px solid var(--v11-line)!important;border-radius:26px!important;overflow:hidden;box-shadow:var(--v11-shadow)!important}
+.news-feature-image{min-height:390px!important}.news-feature-content{padding:46px!important}
+.news-card{border-radius:20px!important;overflow:hidden!important;box-shadow:0 12px 35px rgba(92,23,26,.08)!important;transition:transform .2s ease,box-shadow .2s ease}.news-card:hover{transform:translateY(-5px);box-shadow:0 22px 48px rgba(92,23,26,.14)!important}
+
+/* FAQ redesign */
+body.faq-page{background:linear-gradient(180deg,#faf8f7,#fff 860px)!important}
+body.faq-page .faq-hero{padding:54px 20px 30px!important;background:transparent!important;border:0!important}
+body.faq-page .faq-hero-grid{position:relative;overflow:hidden;grid-template-columns:minmax(0,1.35fr) minmax(250px,.65fr)!important;gap:54px!important;padding:58px!important;border:1px solid #f4dbdc;border-radius:30px;background:radial-gradient(circle at 92% 20%,rgba(202,33,41,.16),transparent 30%),linear-gradient(145deg,#fff,#fcfbf9)!important;box-shadow:var(--v11-shadow)}
+body.faq-page .faq-hero-grid:after{content:"?";position:absolute;right:31%;bottom:-120px;font-size:420px;line-height:1;font-weight:950;color:rgba(202,33,41,.035);pointer-events:none}
+body.faq-page .seo-eyebrow{display:inline-flex;padding:8px 12px;border-radius:999px;background:#f7f4f1;color:#c8222b!important;font-size:12px!important}
+body.faq-page .faq-hero h1{font-size:clamp(3rem,6vw,5.5rem)!important;line-height:.94!important;letter-spacing:-.055em!important;max-width:760px;color:var(--v11-ink)!important}
+body.faq-page .faq-hero p{font-size:1.13rem!important;max-width:760px!important;line-height:1.75!important}
+body.faq-page .faq-hero-art{min-height:300px!important;border-radius:26px!important;background:linear-gradient(145deg,#ca2129,#ca2129)!important;box-shadow:0 28px 55px rgba(188,47,54,.25)!important;transform:rotate(2deg);display:grid!important;place-items:center!important}
+body.faq-page .faq-hero-art img{display:none!important}.faq-hero-fallback{display:flex!important;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff!important;padding:32px!important}.faq-support-mark{background:#fff!important;color:#ca2129!important;box-shadow:0 12px 30px rgba(30,34,39,.18)}
+body.faq-page .faq-quick-nav{position:sticky!important;top:102px!important;z-index:20!important;width:min(1080px,calc(100% - 32px))!important;margin:0 auto 18px!important;padding:10px!important;border:1px solid #f3dfe0!important;border-radius:16px!important;background:rgba(255,255,255,.9)!important;backdrop-filter:blur(14px);box-shadow:0 10px 30px rgba(90,23,26,.08)!important}
+body.faq-page .faq-category-heading{margin-bottom:24px!important}.faq-category-heading>span{width:52px!important;height:52px!important;border-radius:16px!important;background:linear-gradient(145deg,#ca2129,#ca2129)!important;color:#fff!important;display:grid!important;place-items:center!important}
+body.faq-page .faq-list{display:grid!important;grid-template-columns:1fr 1fr!important;gap:16px!important;align-items:start!important}
+body.faq-page .faq-item{border-radius:18px!important;box-shadow:0 10px 28px rgba(46,53,61,.07)!important}.faq-item.is-open{grid-column:1/-1!important;border-color:#f0cbcc!important;box-shadow:0 18px 38px rgba(170,35,42,.12)!important}.faq-item>h3{font-size:16px!important}.faq-item.is-open>h3{color:#c92129!important}
+
+/* Unified free and paid quiz surfaces */
+body[class*="page-free-"],body.quiz-page,body[class*="premium"]{background:linear-gradient(180deg,#f9f6f4 0,#fcfcfb 420px,#fff 100%)!important;color:var(--v11-ink)!important}
+body[class*="page-free-"]>.container,body.quiz-page>.container{width:min(1160px,calc(100% - 32px))!important;margin:0 auto!important;padding-top:42px!important}
+body[class*="page-free-"] .hero-card{position:relative!important;overflow:hidden!important;padding:48px!important;border:1px solid #f4dadb!important;border-radius:28px!important;background:radial-gradient(circle at 88% 10%,rgba(202,33,41,.18),transparent 28%),linear-gradient(145deg,#fff,#fbfaf8)!important;box-shadow:var(--v11-shadow)!important}
+body[class*="page-free-"] .hero-card:after{content:"FREE PRACTICE";position:absolute;right:-16px;bottom:18px;font-size:clamp(34px,7vw,84px);font-weight:950;letter-spacing:-.07em;color:rgba(202,33,41,.045);pointer-events:none}
+body[class*="page-free-"] .hero-card h1{font-size:clamp(2.35rem,5vw,4.5rem)!important;line-height:1!important;letter-spacing:-.05em!important;color:var(--v11-ink)!important}
+body[class*="page-free-"] .hero-card p{max-width:760px!important;font-size:1.08rem!important;line-height:1.75!important}
+body[class*="page-free-"] .hero-badges{display:flex!important;flex-wrap:wrap!important;gap:10px!important;margin-top:24px!important}.hero-badge{width:auto!important;min-height:auto!important;padding:10px 14px!important;border:1px solid #f4dadb!important;border-radius:999px!important;background:#fff!important;box-shadow:0 6px 16px rgba(93,23,27,.06)!important}
+body[class*="page-free-"] .card,body.quiz-page .card{border:1px solid #f2dfe0!important;border-radius:22px!important;background:rgba(255,255,255,.96)!important;box-shadow:0 12px 34px rgba(90,23,26,.075)!important;padding:28px!important}
+body[class*="page-free-"] .card+.card{margin-top:20px!important}
+body[class*="page-free-"] #setupSection{border-top:5px solid #ca2129!important}.menu-grid{gap:18px!important}.menu-grid label{font-weight:850!important;color:#5e181b!important;margin-bottom:8px!important;display:block!important}.menu-grid select,.menu-grid input{min-height:50px!important;border:1px solid #f3dedf!important;border-radius:12px!important;background:#fefdfc!important;padding:0 14px!important}
+.top-actions{gap:10px!important;flex-wrap:wrap!important}.btn{min-height:46px!important;border-radius:12px!important;font-weight:850!important}.btn-primary{background:linear-gradient(135deg,#ca2129,#ca2129)!important;border:0!important;box-shadow:0 10px 22px rgba(193,42,49,.22)!important}
+.upgrade-card{background:linear-gradient(145deg,#2f373f,#892227 62%,#c6252d)!important;border:0!important;color:#fff!important}.upgrade-card h2,.upgrade-card p{color:#fff!important}.upgrade-card .btn-primary{background:#fff!important;color:#b81e26!important}
+.quiz-grid>.card:first-child{border-top:5px solid #ca2129!important}.timer-box{border-radius:12px!important;background:#631014!important;color:#fff!important;padding:10px 15px!important}.progress-wrap{height:10px!important;border-radius:99px!important;background:#f7e8e9!important;overflow:hidden!important}.progress-bar{background:linear-gradient(90deg,#ca2129,#ca2129)!important}
+
+@media(max-width:760px){
+ .news-masthead{padding:40px 16px 54px!important}.news-masthead:before{inset:12px}.news-masthead-inner{grid-template-columns:1fr!important;gap:30px!important}.news-masthead-badge{width:110px!important;height:110px!important;border-radius:26px!important}.news-main{margin-top:0!important}.news-feature-content{padding:26px!important}
+ body.faq-page .faq-hero{padding:24px 12px!important}.faq-hero-grid{grid-template-columns:1fr!important;padding:30px 24px!important;border-radius:24px!important}.faq-hero-art{display:none!important}.faq-hero h1{font-size:clamp(2.5rem,13vw,4rem)!important}.faq-quick-nav{top:92px!important;overflow-x:auto!important;justify-content:flex-start!important}.faq-quick-nav a{white-space:nowrap!important}.faq-list{grid-template-columns:1fr!important}.faq-item.is-open{grid-column:auto!important}
+ body[class*="page-free-"]>.container,body.quiz-page>.container{width:min(100% - 20px,1160px)!important;padding-top:20px!important}.hero-card{padding:28px 22px!important;border-radius:22px!important}.hero-card h1{font-size:2.45rem!important}.card{padding:22px 18px!important;border-radius:18px!important}.space-between{align-items:flex-start!important}.hero-badges{display:grid!important;grid-template-columns:1fr 1fr!important}.hero-badge{display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important}.top-actions .btn{width:100%!important}.quiz-grid{grid-template-columns:1fr!important}
+}

@@ -1,0 +1,2696 @@
+const cabinetmakerShopAssemblyQuestions = [
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why is dry fitting important before cabinet assembly?",
+    "options": [
+      "To confirm fit, sequence, and clamping method",
+      "To replace adhesive",
+      "To avoid measuring",
+      "To skip squareness checks"
+    ],
+    "answer": 0,
+    "explanation": "Dry fitting identifies problems before glue or fasteners are used. It helps confirm that the assembly can be completed correctly.",
+    "id": 1
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the main purpose of checking cabinet diagonals?",
+    "options": [
+      "To confirm the case is square",
+      "To select finish colour",
+      "To measure shelf thickness",
+      "To choose glue type"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals usually indicate a square cabinet. Squareness affects doors, drawers, and installation.",
+    "id": 2
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What can happen if a cabinet back is installed out of square?",
+    "options": [
+      "The cabinet may rack or twist",
+      "The finish cures faster",
+      "Doors become thicker",
+      "Shelves become lighter"
+    ],
+    "answer": 0,
+    "explanation": "Cabinet backs help hold the case square. If installed incorrectly, they can distort the cabinet.",
+    "id": 3
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why are pilot holes used near the edge of hardwood?",
+    "options": [
+      "To reduce splitting",
+      "To weaken screws",
+      "To increase sanding time",
+      "To remove grain direction"
+    ],
+    "answer": 0,
+    "explanation": "Screws can split hardwood near edges. Pilot holes guide the screw and reduce stress.",
+    "id": 4
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the purpose of countersinking screws?",
+    "options": [
+      "To seat screw heads flush or below the surface",
+      "To make screws longer",
+      "To reduce holding power",
+      "To replace pilot holes"
+    ],
+    "answer": 0,
+    "explanation": "Countersinking prevents screw heads from protruding. It improves appearance and prevents interference with other parts.",
+    "id": 5
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What indicates a properly fitted mortise-and-tenon joint?",
+    "options": [
+      "Snug fit with shoulders fully seated",
+      "Loose fit with large gaps",
+      "Heavy hammering required",
+      "No shoulder contact"
+    ],
+    "answer": 0,
+    "explanation": "A tenon should fit firmly without forcing. Shoulders should close tightly for strength and appearance.",
+    "id": 6
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should glue squeeze-out be cleaned before finishing?",
+    "options": [
+      "It can block stain or finish absorption",
+      "It improves colour matching",
+      "It strengthens the face surface",
+      "It replaces sanding"
+    ],
+    "answer": 0,
+    "explanation": "Dried glue can leave light spots or finish defects. Cleaning it early prevents appearance problems.",
+    "id": 7
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the purpose of cauls during assembly?",
+    "options": [
+      "To distribute pressure and protect surfaces",
+      "To replace clamps",
+      "To remove all glue",
+      "To increase gaps"
+    ],
+    "answer": 0,
+    "explanation": "Cauls spread clamping force over a wider area. They also prevent dents from clamp jaws.",
+    "id": 8
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should furniture frames be assembled on a flat surface?",
+    "options": [
+      "To prevent twist and rocking",
+      "To improve stain colour",
+      "To increase glue squeeze-out",
+      "To reduce joint strength"
+    ],
+    "answer": 0,
+    "explanation": "A flat reference surface keeps the frame true. Twisted furniture may rock after assembly.",
+    "id": 9
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the risk of over-tightening screws in particleboard?",
+    "options": [
+      "Stripping and reduced holding strength",
+      "Stronger fastening",
+      "Better edge quality",
+      "Faster finish cure"
+    ],
+    "answer": 0,
+    "explanation": "Particleboard can crush or strip when over-tightened. Correct torque and pilot holes are important.",
+    "id": 10
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should cabinet parts be labelled before assembly?",
+    "options": [
+      "To maintain correct orientation and order",
+      "To avoid reading drawings",
+      "To replace clamps",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Many cabinet parts look similar. Labels prevent parts from being installed backward or in the wrong location.",
+    "id": 11
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the function of a cabinet back panel?",
+    "options": [
+      "To add rigidity and help keep the case square",
+      "To replace cabinet sides",
+      "To reduce strength",
+      "To eliminate shelves"
+    ],
+    "answer": 0,
+    "explanation": "The back panel resists racking. It also helps stabilize the cabinet during installation.",
+    "id": 12
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why are drawer openings checked for parallel sides?",
+    "options": [
+      "Drawer slides need parallel support to operate smoothly",
+      "Parallel sides change finish colour",
+      "Drawers do not need alignment",
+      "It reduces cabinet strength"
+    ],
+    "answer": 0,
+    "explanation": "Drawer slides must be mounted square and parallel. Non-parallel openings can cause binding.",
+    "id": 13
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What causes uneven drawer front reveals?",
+    "options": [
+      "Slide misalignment or incorrect front adjustment",
+      "Correct cabinet construction",
+      "Proper drawer operation",
+      "Fully cured finish"
+    ],
+    "answer": 0,
+    "explanation": "Drawer fronts depend on slide position and front placement. Small errors create visible uneven gaps.",
+    "id": 14
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why must solid wood tabletops allow seasonal movement?",
+    "options": [
+      "To prevent cracking, cupping, or splitting",
+      "To stop all wood movement",
+      "To make screws loose randomly",
+      "To avoid finishing"
+    ],
+    "answer": 0,
+    "explanation": "Solid wood expands and contracts across the grain. Attachments must allow this movement.",
+    "id": 15
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the purpose of elongated screw holes in solid wood assembly?",
+    "options": [
+      "To allow wood movement",
+      "To weaken fasteners",
+      "To avoid alignment",
+      "To make screws decorative"
+    ],
+    "answer": 0,
+    "explanation": "Elongated holes let screws move slightly as wood expands or contracts. This prevents stress buildup.",
+    "id": 16
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What can happen if a tenon is too tight?",
+    "options": [
+      "It can split the mortise or distort the frame",
+      "It improves all joints",
+      "It removes the need for glue",
+      "It prevents seasonal movement"
+    ],
+    "answer": 0,
+    "explanation": "A tenon should be snug but not forced. Excessive pressure can damage the surrounding wood.",
+    "id": 17
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What can happen if a tenon is too loose?",
+    "options": [
+      "The joint may be weak or rack",
+      "The joint becomes stronger",
+      "Glue works better in large gaps",
+      "Shoulders close automatically"
+    ],
+    "answer": 0,
+    "explanation": "Structural joints need close contact. Loose tenons reduce strength and alignment.",
+    "id": 18
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why are assembly jigs used in cabinet production?",
+    "options": [
+      "To improve repeatability and accuracy",
+      "To eliminate inspection",
+      "To replace all fasteners",
+      "To make parts random"
+    ],
+    "answer": 0,
+    "explanation": "Jigs locate parts consistently. They reduce layout time and repeated errors.",
+    "id": 19
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the purpose of edge banding cabinet panels?",
+    "options": [
+      "To cover exposed core and protect edges",
+      "To weaken the edge",
+      "To replace cabinet sides",
+      "To increase moisture absorption"
+    ],
+    "answer": 0,
+    "explanation": "Edge banding improves appearance and protects raw panel edges. It also improves durability.",
+    "id": 20
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should finished parts be assembled on clean padded surfaces?",
+    "options": [
+      "To prevent scratches and dents",
+      "To increase clamp pressure",
+      "To reduce assembly accuracy",
+      "To make finish softer"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces are easily damaged. Pads and clean benches protect the product.",
+    "id": 21
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is racking in a cabinet or furniture frame?",
+    "options": [
+      "Distortion out of square",
+      "Applying finish too early",
+      "Sanding across the grain",
+      "Cutting a rabbet"
+    ],
+    "answer": 0,
+    "explanation": "Racking occurs when a rectangular assembly shifts out of square. It affects fit and strength.",
+    "id": 22
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the main purpose of clamps in assembly?",
+    "options": [
+      "To hold parts aligned while glue or fasteners secure them",
+      "To replace accurate machining",
+      "To bend parts randomly",
+      "To apply finish"
+    ],
+    "answer": 0,
+    "explanation": "Clamps maintain pressure and alignment. They should not be used to force poor-fitting joints.",
+    "id": 23
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should fastener length be selected carefully?",
+    "options": [
+      "To avoid weak holding or breaking through surfaces",
+      "To make screws visible",
+      "To reduce joint accuracy",
+      "To eliminate pilot holes"
+    ],
+    "answer": 0,
+    "explanation": "Screws that are too short may not hold. Screws that are too long can damage the opposite face.",
+    "id": 24
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What should be checked before final tightening of furniture fasteners?",
+    "options": [
+      "Alignment, square, and level",
+      "Finish smell",
+      "Tool colour",
+      "Glue bottle size"
+    ],
+    "answer": 0,
+    "explanation": "Final tightening locks parts in position. Alignment should be checked first.",
+    "id": 25
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why should matching furniture parts be kept in order?",
+    "options": [
+      "Fitted joints and grain match may depend on orientation",
+      "Any part always fits anywhere",
+      "It removes the need for clamps",
+      "It stops wood movement"
+    ],
+    "answer": 0,
+    "explanation": "Furniture parts may be individually fitted. Mixing them can cause poor fit or visual mismatch.",
+    "id": 26
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the purpose of shoulder cuts on a tenon?",
+    "options": [
+      "To provide a clean bearing surface and close the joint line",
+      "To reduce joint strength",
+      "To remove glue area",
+      "To prevent assembly"
+    ],
+    "answer": 0,
+    "explanation": "Tenon shoulders help the joint seat squarely. They also create a clean appearance.",
+    "id": 27
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What is the risk of assembling parts with incorrect reference faces?",
+    "options": [
+      "Parts may be offset or misaligned",
+      "Finish becomes stronger",
+      "Glue dries faster",
+      "Wood stops moving"
+    ],
+    "answer": 0,
+    "explanation": "Reference faces control layout and assembly accuracy. Using the wrong reference creates errors.",
+    "id": 28
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "Why is dry assembly important for complex furniture glue-ups?",
+    "options": [
+      "It confirms sequence and clamp access",
+      "It replaces adhesive",
+      "It removes the need for square checks",
+      "It prevents all wood movement"
+    ],
+    "answer": 0,
+    "explanation": "Complex glue-ups must be planned before glue is applied. Dry assembly confirms clamps can reach the correct locations.",
+    "id": 29
+  },
+  {
+    "category": "Set 1 / Task 12. Assembles cabinets and furniture",
+    "question": "What can happen if a chair frame is twisted during glue-up?",
+    "options": [
+      "It may rock after curing",
+      "It becomes stronger",
+      "Finish will correct it",
+      "The joints disappear"
+    ],
+    "answer": 0,
+    "explanation": "Twist is locked in when glue cures. The frame should be checked on a flat surface.  ## Task 13. Assembles architectural millwork products",
+    "id": 30
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why are control lines important in architectural millwork assembly?",
+    "options": [
+      "They maintain consistent alignment and reveals",
+      "They replace fasteners",
+      "They hide all site errors",
+      "They remove the need for drawings"
+    ],
+    "answer": 0,
+    "explanation": "Millwork often spans long distances. Control lines prevent cumulative layout errors.",
+    "id": 31
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is a reveal in millwork?",
+    "options": [
+      "A consistent shadow gap or exposed spacing between parts",
+      "A type of adhesive",
+      "A hidden screw",
+      "A sanding defect"
+    ],
+    "answer": 0,
+    "explanation": "Reveals define the visual spacing between components. Consistent reveals are important for finished appearance.",
+    "id": 32
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should wall panel grain sequence be checked before assembly?",
+    "options": [
+      "To maintain continuous visual flow",
+      "To increase fastening strength",
+      "To reduce panel thickness",
+      "To avoid finishing"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels are designed to look continuous. Wrong order creates a visible defect.",
+    "id": 33
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why are mock-ups used for complex architectural millwork?",
+    "options": [
+      "To confirm appearance, details, and construction before production",
+      "To replace final drawings completely",
+      "To avoid client approval",
+      "To waste extra material"
+    ],
+    "answer": 0,
+    "explanation": "Mock-ups reveal design or construction issues early. They help confirm expectations before full production.",
+    "id": 34
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is a common purpose of biscuits, splines, or dowels in millwork assembly?",
+    "options": [
+      "Alignment and added joint support",
+      "Finish colour control",
+      "Replacing all clamps",
+      "Increasing sanding scratches"
+    ],
+    "answer": 0,
+    "explanation": "These joinery aids help parts line up during assembly. They may also add strength depending on the joint.",
+    "id": 35
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should exposed fasteners be avoided or planned carefully?",
+    "options": [
+      "They affect appearance and may violate specifications",
+      "They always improve appearance",
+      "They stop wood movement",
+      "They replace joinery"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork is highly appearance-focused. Fastener visibility must match design requirements.",
+    "id": 36
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is a scarf joint used for in long trim or moulding runs?",
+    "options": [
+      "Joining lengths with a cleaner, stronger transition than a butt joint",
+      "Applying stain",
+      "Cutting shelf holes",
+      "Removing veneer"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints increase glue area and reduce visible end-to-end joint lines. They are common in long moulding runs.",
+    "id": 37
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should long trim pieces be checked for straightness before assembly?",
+    "options": [
+      "Bowed trim can cause gaps and uneven reveals",
+      "Bowed trim always fits better",
+      "Finish straightens trim",
+      "Fasteners remove all bow"
+    ],
+    "answer": 0,
+    "explanation": "Distorted trim can be difficult to align. Checking before assembly prevents visible defects.",
+    "id": 38
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should prefinished millwork be protected during assembly?",
+    "options": [
+      "To prevent scratches, dents, and finish damage",
+      "To hide poor workmanship",
+      "To reduce accuracy",
+      "To remove the need for inspection"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished surfaces cannot be sanded or repaired easily on site. Protection prevents costly damage.",
+    "id": 39
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What should be verified before assembling millwork that must fit on site?",
+    "options": [
+      "Site dimensions and obstructions",
+      "Spray gun pressure",
+      "Glue bottle size",
+      "Drawer pull colour"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions may differ from drawings. Verification reduces installation problems.",
+    "id": 40
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should millwork parts be labelled before shipping?",
+    "options": [
+      "To identify location, sequence, and orientation",
+      "To make them heavier",
+      "To replace installation drawings",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Custom millwork parts may not be interchangeable. Labels help installers place them correctly.",
+    "id": 41
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is the risk of assembling wall panels out of sequence?",
+    "options": [
+      "Grain or pattern continuity may be broken",
+      "Panels become stronger",
+      "Finish cures faster",
+      "Fasteners hold better"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels rely on correct order. One misplaced panel can ruin the visual layout.",
+    "id": 42
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What should be checked when assembling curved mouldings?",
+    "options": [
+      "Curve accuracy, profile match, and joint alignment",
+      "Drawer slide rating",
+      "Cabinet shelf holes only",
+      "Glue colour"
+    ],
+    "answer": 0,
+    "explanation": "Curved mouldings must align with adjoining parts. Poor curve or profile matching is highly visible.",
+    "id": 43
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why is packaging important for finished millwork?",
+    "options": [
+      "It protects edges and surfaces during transport",
+      "It replaces final inspection",
+      "It hides damage",
+      "It increases installation time"
+    ],
+    "answer": 0,
+    "explanation": "Finished millwork can be damaged during handling. Proper packaging reduces repairs and rework.",
+    "id": 44
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What can happen if architectural millwork is assembled without checking approved drawings?",
+    "options": [
+      "It may not meet design or site requirements",
+      "It becomes more accurate",
+      "It eliminates revisions",
+      "It improves finish quality"
+    ],
+    "answer": 0,
+    "explanation": "Approved drawings define sizes, details, and finish requirements. Ignoring them can cause rejection.",
+    "id": 45
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is the purpose of reveal spacers during millwork assembly?",
+    "options": [
+      "To maintain consistent gaps",
+      "To replace fasteners",
+      "To increase random spacing",
+      "To remove layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Reveal spacers keep gaps uniform. Consistency improves finished appearance.",
+    "id": 46
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should adhesive squeeze-out be controlled in visible millwork joints?",
+    "options": [
+      "It can affect finish and appearance",
+      "It improves stain absorption",
+      "It eliminates sanding",
+      "It strengthens visible faces"
+    ],
+    "answer": 0,
+    "explanation": "Glue residue can block finish or leave marks. Visible joints must remain clean.",
+    "id": 47
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is the risk of forcing a millwork assembly to fit a crooked wall during shop assembly?",
+    "options": [
+      "The unit may distort or not fit properly on site",
+      "The wall becomes straight",
+      "The finish becomes harder",
+      "Fasteners become hidden"
+    ],
+    "answer": 0,
+    "explanation": "Shop assembly should match verified site conditions. Forcing parts can create distortion and installation issues.",
+    "id": 48
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "Why should visible edges in architectural millwork be treated consistently?",
+    "options": [
+      "They affect appearance and durability",
+      "They are never seen",
+      "They replace fastening",
+      "They stop material movement"
+    ],
+    "answer": 0,
+    "explanation": "Exposed edges are part of the finished product. Inconsistent edge treatment lowers quality.",
+    "id": 49
+  },
+  {
+    "category": "Set 1 / Task 13. Assembles architectural millwork products",
+    "question": "What is the purpose of final inspection before releasing shop-assembled products?",
+    "options": [
+      "To check fit, finish, function, damage, and specification compliance",
+      "To avoid packaging",
+      "To skip installation planning",
+      "To remove labels"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection catches issues before delivery. It reduces site repairs and customer complaints.",
+    "id": 50
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet case measures square before the clamps are tightened but becomes out of square afterward. What is the most likely cause?",
+    "options": [
+      "Uneven clamp pressure",
+      "Correct back installation",
+      "Proper joint fit",
+      "Balanced assembly"
+    ],
+    "answer": 0,
+    "explanation": "Clamp pressure can shift parts during glue-up. Squareness should be checked continuously while tightening clamps.",
+    "id": 51
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A drawer fits properly before slides are installed but binds afterward. What should be checked first?",
+    "options": [
+      "Slide alignment and parallel spacing",
+      "Finish sheen",
+      "Drawer pull style",
+      "Cabinet colour"
+    ],
+    "answer": 0,
+    "explanation": "Drawer slides must be mounted square and parallel. Even small alignment errors can cause binding.",
+    "id": 52
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker forces a loose tenon joint together using excessive clamp pressure. What problem may occur?",
+    "options": [
+      "Joint distortion or weak glue line",
+      "Stronger joint automatically",
+      "Better reveal alignment",
+      "Improved grain match"
+    ],
+    "answer": 0,
+    "explanation": "Clamps should hold parts together, not compensate for poor machining. Forced joints may distort or fail later.",
+    "id": 53
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet back panel is installed too tightly into the case. What is likely to happen?",
+    "options": [
+      "The cabinet may rack or twist",
+      "The finish becomes smoother",
+      "Shelf spacing improves",
+      "Door hinges self-adjust"
+    ],
+    "answer": 0,
+    "explanation": "A back panel should reinforce the cabinet without forcing it out of alignment. Oversized backs distort the case.",
+    "id": 54
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A face frame shifts upward while being clamped. What should have been used?",
+    "options": [
+      "Alignment blocks or pins",
+      "More glue",
+      "Less measuring",
+      "Longer screws only"
+    ],
+    "answer": 0,
+    "explanation": "Clamp pressure can move face frames. Alignment aids help maintain position during assembly.",
+    "id": 55
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A chair frame rocks after glue-up even though the diagonal measurements match. What was likely missed?",
+    "options": [
+      "Checking for twist on a flat surface",
+      "Checking finish colour",
+      "Measuring shelf thickness",
+      "Applying enough stain"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals indicate square in one plane only. A twisted frame may still rock.",
+    "id": 56
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker assembles a cabinet using the wrong reference face. What problem may result?",
+    "options": [
+      "Parts may be offset or misaligned",
+      "Finish cures faster",
+      "Glue becomes stronger",
+      "Drawer slides adjust automatically"
+    ],
+    "answer": 0,
+    "explanation": "Reference faces control layout accuracy. Using the wrong face transfers errors through the assembly.",
+    "id": 57
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet drawer front sits flush at the top but protrudes at the bottom. What should be checked?",
+    "options": [
+      "Drawer front alignment and slide installation",
+      "Stain colour",
+      "Shelf support pins",
+      "Cabinet back thickness"
+    ],
+    "answer": 0,
+    "explanation": "Misaligned slides or drawer fronts affect reveal consistency. Adjustment is usually required.",
+    "id": 58
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A screw breaks through the outside face of a finished cabinet side. What caused the problem?",
+    "options": [
+      "Incorrect screw length",
+      "Proper pilot hole size",
+      "Correct assembly sequence",
+      "Balanced clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners must suit material thickness. Excessively long screws can damage visible surfaces.",
+    "id": 59
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "During glue-up, one rail slides sideways out of position. What likely caused this?",
+    "options": [
+      "Clamp pressure and glue lubrication effect",
+      "Proper dry fit",
+      "Correct caul use",
+      "Balanced material moisture"
+    ],
+    "answer": 0,
+    "explanation": "Wet glue reduces friction and allows parts to move. Alignment aids help control shifting.",
+    "id": 60
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A large tabletop cracks near its mounting screws several months after delivery. What was the likely assembly error?",
+    "options": [
+      "Wood movement was not allowed for",
+      "The finish was too glossy",
+      "The screws were too short",
+      "The tabletop was sanded too smooth"
+    ],
+    "answer": 0,
+    "explanation": "Solid wood expands and contracts seasonally. Rigid fastening can cause cracking.",
+    "id": 61
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet side bows inward during assembly. What should be checked first?",
+    "options": [
+      "Clamp pressure and panel support",
+      "Finish thickness",
+      "Drawer pull location",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Excessive or uneven clamp pressure can distort panels. Proper support helps maintain alignment.",
+    "id": 62
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker removes labels from similar cabinet parts before assembly. What risk increases?",
+    "options": [
+      "Incorrect orientation or placement",
+      "Stronger joints",
+      "Better grain continuity",
+      "Improved finish curing"
+    ],
+    "answer": 0,
+    "explanation": "Similar parts may not be interchangeable. Labels prevent assembly mistakes.",
+    "id": 63
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A drawer operates smoothly when empty but binds under load. What should be checked?",
+    "options": [
+      "Slide rating and cabinet rigidity",
+      "Finish sheen",
+      "Stain compatibility",
+      "Shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Loaded drawers place stress on slides and cabinet structure. Hardware must match expected loads.",
+    "id": 64
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinetmaker notices glue squeeze-out inside a visible corner after it has dried. What finishing problem may occur later?",
+    "options": [
+      "Uneven stain absorption",
+      "Stronger colour match",
+      "Better topcoat adhesion",
+      "Reduced sanding scratches"
+    ],
+    "answer": 0,
+    "explanation": "Dried glue blocks stain penetration. It can leave light patches after finishing.",
+    "id": 65
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A mortise-and-tenon frame requires hammering to assemble fully. What is the best correction?",
+    "options": [
+      "Adjust joint fit before glue-up",
+      "Use more clamps",
+      "Add extra finish",
+      "Use thicker adhesive only"
+    ],
+    "answer": 0,
+    "explanation": "Proper joints should fit snugly without excessive force. Tight joints can split the wood.",
+    "id": 66
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Cabinet doors align properly before final tightening but shift afterward. What likely happened?",
+    "options": [
+      "Fastening sequence changed alignment",
+      "Finish caused movement",
+      "Glue dried too quickly",
+      "Drawer slides expanded"
+    ],
+    "answer": 0,
+    "explanation": "Tightening hardware unevenly can shift alignment. Final adjustments should be checked during tightening.",
+    "id": 67
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker assembles finished parts directly on a metal table. What damage is most likely?",
+    "options": [
+      "Scratches or dents",
+      "Improved finish hardness",
+      "Better glue bond",
+      "Reduced clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces are vulnerable during handling. Protective surfaces prevent cosmetic damage.",
+    "id": 68
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet opening is wider at the front than the back. What problem may result?",
+    "options": [
+      "Drawer binding",
+      "Stronger cabinet sides",
+      "Better hinge adjustment",
+      "Improved shelf fit"
+    ],
+    "answer": 0,
+    "explanation": "Drawer slides require parallel openings. Tapered openings affect operation.",
+    "id": 69
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A glued frame is removed from clamps too early. What can happen?",
+    "options": [
+      "Joint movement or weakened bond",
+      "Faster cure",
+      "Better grain alignment",
+      "Increased strength"
+    ],
+    "answer": 0,
+    "explanation": "Adhesive requires sufficient cure time under pressure. Early removal can weaken the assembly.",
+    "id": 70
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A dowel joint repeatedly assembles out of alignment. What should be checked?",
+    "options": [
+      "Dowel hole accuracy and reference edges",
+      "Finish sample",
+      "Drawer pull spacing",
+      "Spray pressure"
+    ],
+    "answer": 0,
+    "explanation": "Dowel joints depend on accurate hole placement. Incorrect reference surfaces cause misalignment.",
+    "id": 71
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet shelf sags under load shortly after installation. What was likely wrong?",
+    "options": [
+      "Inadequate material thickness or support",
+      "Excessive sanding",
+      "Too much finish",
+      "Incorrect stain colour"
+    ],
+    "answer": 0,
+    "explanation": "Shelves must be designed for expected loads. Unsupported spans can sag.",
+    "id": 72
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A furniture leg is installed with the grain pattern facing inward instead of outward. What failed?",
+    "options": [
+      "Orientation control during assembly",
+      "Clamp pressure",
+      "Glue selection",
+      "Finish application"
+    ],
+    "answer": 0,
+    "explanation": "Appearance parts must maintain planned orientation. Grain direction affects finished quality.",
+    "id": 73
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinetmaker notices a small gap at one tenon shoulder during dry fit. What should be done?",
+    "options": [
+      "Correct the joint before glue-up",
+      "Hide it with finish",
+      "Clamp harder",
+      "Ignore the gap"
+    ],
+    "answer": 0,
+    "explanation": "Small gaps often become more visible after finishing. Joint fit should be corrected before assembly.",
+    "id": 74
+  },
+  {
+    "category": "Set 2 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker uses excessive glue in a cabinet joint. What issue may result?",
+    "options": [
+      "Excess squeeze-out and cleanup problems",
+      "Stronger joints automatically",
+      "No need for clamping",
+      "Better staining"
+    ],
+    "answer": 0,
+    "explanation": "Too much glue creates unnecessary cleanup and can affect finishing. Proper glue coverage is sufficient.  ---  ## Task 13. Assembles Architectural Millwork Products",
+    "id": 75
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel run starts accurately but reveals become uneven across the installation. What likely caused this?",
+    "options": [
+      "Lack of control lines or consistent spacers",
+      "Too much finish",
+      "Correct sequencing",
+      "Proper site verification"
+    ],
+    "answer": 0,
+    "explanation": "Small layout errors accumulate across long runs. Control lines help maintain consistent spacing.",
+    "id": 76
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A curved moulding does not match adjacent straight moulding at the transition point. What should be checked?",
+    "options": [
+      "Tangent alignment and profile match",
+      "Drawer slide extension",
+      "Spray gun settings",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Curved mouldings must transition smoothly into straight sections. Tangent points control visual flow.",
+    "id": 77
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Prefinished millwork panels are stacked face-to-face during assembly and become marked. What was missing?",
+    "options": [
+      "Protective pads or spacers",
+      "More clamps",
+      "Additional screws",
+      "Longer cure time"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces require protection during handling and storage. Pads prevent imprinting and scratches.",
+    "id": 78
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork unit fits the drawing dimensions but not the site opening. What process likely failed?",
+    "options": [
+      "Site verification",
+      "Glue spread",
+      "Edge banding",
+      "Sanding sequence"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions may differ from drawings. Verification before production prevents fit problems.",
+    "id": 79
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A sequenced veneer wall panel is installed in the wrong location. What defect results?",
+    "options": [
+      "Broken grain continuity",
+      "Stronger construction",
+      "Better colour balance",
+      "Reduced visibility"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels depend on correct order. Misplacement disrupts the intended appearance.",
+    "id": 80
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A decorative trim run shows inconsistent reveal widths. What should have been used during assembly?",
+    "options": [
+      "Reveal spacers or gauges",
+      "More adhesive",
+      "Extra sanding",
+      "Less measuring"
+    ],
+    "answer": 0,
+    "explanation": "Consistent reveals improve appearance quality. Spacers maintain uniform gaps.",
+    "id": 81
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A large panel bows after being stored leaning against a wall. What caused this?",
+    "options": [
+      "Improper storage support",
+      "Correct acclimatization",
+      "Proper packaging",
+      "Balanced panel construction"
+    ],
+    "answer": 0,
+    "explanation": "Large panels require flat support. Leaning storage can distort the panel over time.",
+    "id": 82
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Exposed fasteners appear in a location intended for concealed fastening. What is the issue?",
+    "options": [
+      "Installation does not meet specification",
+      "The unit becomes stronger",
+      "The finish becomes smoother",
+      "Reveals become more accurate"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork must follow design intent. Visible fasteners can lead to rejection.",
+    "id": 83
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A prefinished moulding splits while being nailed near the end. What should have been done?",
+    "options": [
+      "Predrill or adjust fastener placement",
+      "Use larger nails only",
+      "Hit harder",
+      "Add more finish first"
+    ],
+    "answer": 0,
+    "explanation": "Hardwood mouldings can split near edges or ends. Pilot holes reduce stress.",
+    "id": 84
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel assembly appears level but does not align with ceiling lines. What should have been checked?",
+    "options": [
+      "Datum/control references",
+      "Glue colour",
+      "Spray pattern",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Assemblies must align with surrounding architecture. Datum lines coordinate the installation.",
+    "id": 85
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork installer forces a panel tight to an uneven wall, causing bowing. What principle was ignored?",
+    "options": [
+      "Fit the site without distorting the product",
+      "Use maximum fastener pressure",
+      "Remove all reveals",
+      "Sand the face heavily"
+    ],
+    "answer": 0,
+    "explanation": "Millwork should remain straight and stable. Scribing or shimming is preferable to distortion.",
+    "id": 86
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A long moulding run develops open scarf joints after installation. What should be checked?",
+    "options": [
+      "Joint fit, fastening, and movement allowance",
+      "Finish sheen",
+      "Drawer slide adjustment",
+      "Cabinet squareness"
+    ],
+    "answer": 0,
+    "explanation": "Movement and poor fastening can open joints. Accurate cuts and proper installation reduce this issue.",
+    "id": 87
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A mock-up is rejected because reveals look visually heavy. What should be revised?",
+    "options": [
+      "Proportion and reveal size",
+      "Glue type",
+      "Dust collection",
+      "Shelf support spacing"
+    ],
+    "answer": 0,
+    "explanation": "Mock-ups evaluate appearance as well as construction. Reveal proportions strongly affect visual balance.",
+    "id": 88
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Finished panels are damaged during transport to site. What likely failed?",
+    "options": [
+      "Packaging and handling protection",
+      "Adhesive selection",
+      "Drawer slide installation",
+      "Finish curing"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork requires edge and face protection during transport. Damage increases repair costs.",
+    "id": 89
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker assembles a panel run using random grain direction. What visual issue results?",
+    "options": [
+      "Inconsistent appearance and poor flow",
+      "Stronger joints",
+      "Better finish absorption",
+      "Less sanding"
+    ],
+    "answer": 0,
+    "explanation": "Grain direction affects visual continuity. Random orientation lowers appearance quality.",
+    "id": 90
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A finished reception desk panel is dented by clamp jaws. What should have been used?",
+    "options": [
+      "Protective cauls or pads",
+      "More pressure",
+      "Less alignment checking",
+      "Longer screws"
+    ],
+    "answer": 0,
+    "explanation": "Clamp pressure should be distributed safely. Protective pads prevent damage to finished surfaces.",
+    "id": 91
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A cabinetmaker assembles wall panels before confirming final electrical locations. What risk increases?",
+    "options": [
+      "Rework or field modification",
+      "Better fit",
+      "Faster finishing",
+      "Stronger joints"
+    ],
+    "answer": 0,
+    "explanation": "Services and obstructions affect fit. Final verification reduces costly changes later.",
+    "id": 92
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A decorative feature panel is assembled with mismatched sheen levels. What quality issue results?",
+    "options": [
+      "Inconsistent appearance under light",
+      "Stronger panel structure",
+      "Better grain continuity",
+      "Reduced installation time"
+    ],
+    "answer": 0,
+    "explanation": "Differences in sheen become highly visible. Consistent finishing is important for architectural work.",
+    "id": 93
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork assembly requires excessive force to fit together. What should be done?",
+    "options": [
+      "Stop and correct machining or alignment errors",
+      "Use larger clamps only",
+      "Remove all reveals",
+      "Continue forcing the assembly"
+    ],
+    "answer": 0,
+    "explanation": "Properly machined parts should fit accurately. Excess force can damage components.",
+    "id": 94
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A curved decorative panel does not follow the intended radius during assembly. What should be checked?",
+    "options": [
+      "Form accuracy and alignment references",
+      "Drawer pull location",
+      "Glue bottle size",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Curved assemblies depend on accurate forms and reference points. Misalignment becomes very noticeable.",
+    "id": 95
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel joint is structurally tight but visually uneven. What is the best assessment?",
+    "options": [
+      "It fails appearance standards",
+      "It is fully acceptable",
+      "Finish will hide it",
+      "It improves strength"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork is judged visually as well as structurally. Uneven joints reduce quality.",
+    "id": 96
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker scratches finished panels by dragging them across each other. What handling practice was missing?",
+    "options": [
+      "Proper lifting and surface protection",
+      "More glue coverage",
+      "Faster installation",
+      "Stronger packaging tape"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces should never rub together. Proper handling prevents visible damage.",
+    "id": 97
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A long trim run is assembled without checking wall straightness first. What can result?",
+    "options": [
+      "Gaps and uneven alignment",
+      "Stronger installation",
+      "Better reveals automatically",
+      "Reduced need for scribing"
+    ],
+    "answer": 0,
+    "explanation": "Uneven walls affect trim fit. Straightness should be checked before assembly or installation.",
+    "id": 98
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork unit arrives on site without orientation markings. What issue may occur?",
+    "options": [
+      "Incorrect installation position",
+      "Better flexibility",
+      "Faster assembly",
+      "Reduced transport damage"
+    ],
+    "answer": 0,
+    "explanation": "Large custom units often fit only one location. Orientation labels prevent installation mistakes.",
+    "id": 99
+  },
+  {
+    "category": "Set 2 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A final inspection finds chipped edges on visible millwork components. What should have been controlled during assembly?",
+    "options": [
+      "Handling and edge protection",
+      "Glue squeeze-out",
+      "Spray pressure",
+      "Drawer slide spacing"
+    ],
+    "answer": 0,
+    "explanation": "Exposed edges are vulnerable during assembly and transport. Protection and careful handling reduce damage.",
+    "id": 100
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Which condition is MOST likely to cause cabinet doors to swing open after installation?",
+    "options": [
+      "Cabinet out of plumb",
+      "Thick topcoat",
+      "Oversanded edges",
+      "Excess shelf pins"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets that are not plumb affect hinge alignment and gravity balance. Doors may drift open or closed.  ---",
+    "id": 101
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "During a dry fit, a cabinet diagonal measures 4 mm longer than the opposite diagonal. What does this indicate?",
+    "options": [
+      "The cabinet is out of square",
+      "The cabinet is over-clamped",
+      "The finish is uneven",
+      "The back panel is too thin"
+    ],
+    "answer": 0,
+    "explanation": "Unequal diagonals show the assembly is not square. The case should be corrected before fastening or glue-up.  ---",
+    "id": 102
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "What is the BEST method to prevent damage when clamping prefinished parts?",
+    "options": [
+      "Use padded cauls",
+      "Increase clamp pressure",
+      "Remove finish near clamps",
+      "Clamp directly on corners"
+    ],
+    "answer": 0,
+    "explanation": "Pads and cauls distribute pressure and protect surfaces. Bare clamp jaws can dent or scratch finishes.  ---",
+    "id": 103
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker installs a cabinet back panel before checking the case for square. What is the biggest risk?",
+    "options": [
+      "Locking the cabinet out of square",
+      "Weakening the shelves",
+      "Changing veneer colour",
+      "Increasing glue cure time"
+    ],
+    "answer": 0,
+    "explanation": "Once the back is fastened, it fixes the cabinet shape. If the case is not square first, the defect becomes permanent.  ---",
+    "id": 104
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Which assembly defect MOST commonly causes drawer slide binding?",
+    "options": [
+      "Non-parallel cabinet sides",
+      "Thick edge banding",
+      "Extra shelf pins",
+      "Overfilled nail holes"
+    ],
+    "answer": 0,
+    "explanation": "Drawer slides require parallel alignment. Misaligned cabinet sides create friction and poor operation.  ---",
+    "id": 105
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A mortise-and-tenon joint closes on one shoulder but not the other. What is the MOST likely problem?",
+    "options": [
+      "Tenon shoulder cut is inaccurate",
+      "Glue has dried too quickly",
+      "Clamp pressure is too low",
+      "Finish thickness is uneven"
+    ],
+    "answer": 0,
+    "explanation": "Uneven shoulder cuts prevent full contact. Proper shoulder alignment is critical for tight joints.  ---",
+    "id": 106
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Why should clamps be tightened gradually and evenly during glue-up?",
+    "options": [
+      "To prevent assembly distortion",
+      "To increase glue thickness",
+      "To reduce curing time",
+      "To eliminate squeeze-out"
+    ],
+    "answer": 0,
+    "explanation": "Uneven clamping can twist or rack the assembly. Gradual tightening keeps parts aligned.  ---",
+    "id": 107
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A furniture frame twists during assembly even though the joints fit well. What should be checked FIRST?",
+    "options": [
+      "Flatness of the assembly surface",
+      "Finish sheen",
+      "Drawer pull alignment",
+      "Glue viscosity"
+    ],
+    "answer": 0,
+    "explanation": "A twisted reference surface can transfer twist into the frame. Assembly should occur on a known flat surface.  ---",
+    "id": 108
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Which fastening method BEST allows seasonal movement in a solid wood tabletop?",
+    "options": [
+      "Figure-eight fasteners or elongated holes",
+      "Gluing the top to the apron",
+      "Screwing tightly through fixed holes",
+      "Staples through the centre"
+    ],
+    "answer": 0,
+    "explanation": "Solid wood expands and contracts across grain. Specialized fasteners allow controlled movement.  ---",
+    "id": 109
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker assembles similar cabinet parts in random order. What problem is MOST likely?",
+    "options": [
+      "Grain and fit mismatch",
+      "Stronger joints",
+      "Faster assembly",
+      "Better finish absorption"
+    ],
+    "answer": 0,
+    "explanation": "Parts may be grain matched or individually fitted. Random assembly disrupts appearance and fit.  ---",
+    "id": 110
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "What is the PRIMARY purpose of a cabinet stretcher rail?",
+    "options": [
+      "To reinforce and stabilize the cabinet",
+      "To hold hinges only",
+      "To hide screws",
+      "To support stain absorption"
+    ],
+    "answer": 0,
+    "explanation": "Stretchers add rigidity and support countertops or tops. They help prevent racking.  ---",
+    "id": 111
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker notices one cabinet side is bowed inward during assembly. Which correction is BEST?",
+    "options": [
+      "Reposition clamps and support the panel",
+      "Tighten clamps harder",
+      "Ignore the bow",
+      "Sand the inside edge"
+    ],
+    "answer": 0,
+    "explanation": "Clamp pressure must be balanced. Proper support helps maintain straight alignment.  ---",
+    "id": 112
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Which condition indicates a GOOD dowel joint?",
+    "options": [
+      "Tight alignment without forcing",
+      "Large glue-filled gaps",
+      "Hammering required",
+      "Uneven shoulders"
+    ],
+    "answer": 0,
+    "explanation": "Dowel joints should align accurately and fit snugly. Excessive force indicates machining error.  ---",
+    "id": 113
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Why should pilot holes be used in hardwood cabinet assembly?",
+    "options": [
+      "To reduce splitting and improve screw control",
+      "To increase glue curing speed",
+      "To hide screw heads",
+      "To eliminate countersinking"
+    ],
+    "answer": 0,
+    "explanation": "Hardwood can split under screw pressure. Pilot holes guide the screw safely.  ---",
+    "id": 114
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "What is the MOST likely cause of uneven cabinet reveals after assembly?",
+    "options": [
+      "Poor alignment during fastening",
+      "Too much sanding sealer",
+      "Excess stain absorption",
+      "Incorrect veneer species"
+    ],
+    "answer": 0,
+    "explanation": "Reveal accuracy depends on proper alignment and squareness. Small positioning errors become visible.  ---",
+    "id": 115
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet face frame shifts during clamp-up. Which item would BEST prevent movement?",
+    "options": [
+      "Alignment pins or blocks",
+      "More glue",
+      "Less clamp pressure",
+      "Additional sanding"
+    ],
+    "answer": 0,
+    "explanation": "Glue acts as a lubricant before curing. Alignment aids help keep the frame in position.  ---",
+    "id": 116
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "What is the BEST reason to dry fit a complicated furniture assembly?",
+    "options": [
+      "To verify assembly sequence and clamp access",
+      "To avoid using glue",
+      "To replace final inspection",
+      "To remove measuring steps"
+    ],
+    "answer": 0,
+    "explanation": "Complex glue-ups must be rehearsed before adhesive is applied. This prevents delays and mistakes.  ---",
+    "id": 117
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "Which problem is MOST likely if screws are overtightened in MDF?",
+    "options": [
+      "Stripped holding material",
+      "Stronger fastening",
+      "Reduced shelf sag",
+      "Improved finish adhesion"
+    ],
+    "answer": 0,
+    "explanation": "MDF has limited holding strength. Excess torque crushes the fibres around the screw.  ---",
+    "id": 118
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet drawer fits properly before the front is attached but rubs afterward. What should be checked?",
+    "options": [
+      "Drawer front alignment",
+      "Cabinet finish thickness",
+      "Shelf pin depth",
+      "Topcoat sheen"
+    ],
+    "answer": 0,
+    "explanation": "Misaligned drawer fronts can contact adjacent parts. Front positioning affects operation.  ---",
+    "id": 119
+  },
+  {
+    "category": "Set 3 / Task 12. Assembles Cabinets and Furniture",
+    "question": "What is the MOST common reason to use corner blocks in cabinet assembly?",
+    "options": [
+      "To increase rigidity and fastening support",
+      "To reduce squareness",
+      "To replace backs",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Corner blocks strengthen cabinet corners and provide fastening support for tops or stretchers.  ---  ## Task 13. Assembles Architectural Millwork Products",
+    "id": 120
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A long wall panel installation begins accurately but reveals drift gradually. What should have been used?",
+    "options": [
+      "Datum/control lines",
+      "More glue",
+      "Less measuring",
+      "Larger fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Control lines prevent small layout errors from accumulating across long runs.  ---",
+    "id": 121
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which condition MOST commonly causes visible mismatch in sequenced wall panels?",
+    "options": [
+      "Installing panels out of order",
+      "Using too much adhesive",
+      "Excess clamp pressure",
+      "Sanding too fine"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels rely on correct grain continuity. Wrong order breaks the visual pattern.  ---",
+    "id": 122
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A curved moulding transitions poorly into a straight section. What should be checked?",
+    "options": [
+      "Tangent alignment",
+      "Finish viscosity",
+      "Screw head depth",
+      "Shelf support spacing"
+    ],
+    "answer": 0,
+    "explanation": "Tangent points control smooth visual transition between straight and curved sections.  ---",
+    "id": 123
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "What is the BEST method to maintain consistent reveals during millwork assembly?",
+    "options": [
+      "Use reveal spacers or gauges",
+      "Estimate spacing visually",
+      "Force joints tightly together",
+      "Sand gaps afterward"
+    ],
+    "answer": 0,
+    "explanation": "Spacers create repeatable reveal sizes. Consistency improves appearance quality.  ---",
+    "id": 124
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker forces a millwork unit against a bowed wall, causing panel distortion. What principle was ignored?",
+    "options": [
+      "Fit site conditions without distorting the product",
+      "Use maximum clamp force",
+      "Hide all reveals",
+      "Reduce fastening points"
+    ],
+    "answer": 0,
+    "explanation": "Millwork should remain straight and true. Scribing or shimming is preferable to forcing.  ---",
+    "id": 125
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which defect is MOST likely when finished panels are stacked without spacers?",
+    "options": [
+      "Surface scratches or imprinting",
+      "Better curing",
+      "Stronger finish adhesion",
+      "Reduced moisture movement"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces can rub together during storage. Spacers protect the finish.  ---",
+    "id": 126
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A reception desk seam is structurally tight but visually uneven. How is this BEST evaluated?",
+    "options": [
+      "It fails appearance standards",
+      "It is acceptable because it is strong",
+      "It improves grain flow",
+      "It reduces installation time"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork must meet visual quality standards in addition to structural performance.  ---",
+    "id": 127
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Why should millwork components be labelled before shipping?",
+    "options": [
+      "To identify sequence and location",
+      "To improve glue strength",
+      "To reduce sanding",
+      "To prevent finish cure"
+    ],
+    "answer": 0,
+    "explanation": "Custom components may only fit one location. Labels help installers avoid errors.  ---",
+    "id": 128
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which problem is MOST likely if site dimensions are not verified before assembly?",
+    "options": [
+      "Poor fit during installation",
+      "Better reveal control",
+      "Stronger joints",
+      "Improved packaging"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions often vary from drawings. Verification reduces costly field modifications.  ---",
+    "id": 129
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork installer notices open scarf joints after installation. What should be checked FIRST?",
+    "options": [
+      "Joint fit and fastening support",
+      "Finish colour",
+      "Veneer grain",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Poor joint fit or inadequate support allows movement. Scarf joints require tight cuts and stable fastening.  ---",
+    "id": 130
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "What is the PRIMARY purpose of a mock-up in architectural millwork?",
+    "options": [
+      "To confirm appearance and construction details",
+      "To replace final production",
+      "To eliminate site measuring",
+      "To reduce finishing steps"
+    ],
+    "answer": 0,
+    "explanation": "Mock-ups allow evaluation before full production. They help identify visual or construction problems early.  ---",
+    "id": 131
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which condition MOST commonly damages prefinished trim during assembly?",
+    "options": [
+      "Bare clamp jaws and rough handling",
+      "Excess reveal spacing",
+      "Low glue spread",
+      "Correct caul use"
+    ],
+    "answer": 0,
+    "explanation": "Finished trim requires surface protection. Metal contact can dent or scratch the finish.  ---",
+    "id": 132
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker assembles decorative panels with inconsistent grain direction. What issue results?",
+    "options": [
+      "Poor visual flow",
+      "Stronger structure",
+      "Improved finish absorption",
+      "Faster installation"
+    ],
+    "answer": 0,
+    "explanation": "Grain direction affects appearance continuity. Inconsistent orientation lowers quality.  ---",
+    "id": 133
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which tool is MOST useful for maintaining alignment across long panel runs?",
+    "options": [
+      "Laser or chalk control line",
+      "Random tape measurements",
+      "Sanding block",
+      "Glue roller"
+    ],
+    "answer": 0,
+    "explanation": "Control lines maintain consistent layout reference over long distances.  ---",
+    "id": 134
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "What is the BEST reason to protect visible millwork edges during handling?",
+    "options": [
+      "Edges chip and dent easily",
+      "Edges never show damage",
+      "Finish becomes stronger",
+      "Packaging becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Exposed edges are vulnerable during transport and assembly. Protection reduces costly repairs.  ---",
+    "id": 135
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker uses exposed fasteners where concealed fastening was specified. What is the MOST likely result?",
+    "options": [
+      "Rejection by the client or architect",
+      "Better visual appearance",
+      "Reduced assembly time only",
+      "Improved grain continuity"
+    ],
+    "answer": 0,
+    "explanation": "Visible fasteners may violate design specifications. Architectural millwork is appearance-sensitive.  ---",
+    "id": 136
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which condition MOST likely causes uneven wall panel reveals?",
+    "options": [
+      "Inconsistent spacer use",
+      "Proper datum layout",
+      "Accurate site verification",
+      "Balanced clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Reveal consistency depends on repeatable spacing methods. Small differences become visually noticeable.  ---",
+    "id": 137
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A large wall panel bows after storage in the shop. What was MOST likely incorrect?",
+    "options": [
+      "Storage support method",
+      "Glue type",
+      "Finish sheen",
+      "Shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Large panels should be stored flat or properly supported. Poor storage causes distortion.  ---",
+    "id": 138
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Why should architectural millwork be assembled in the intended installation sequence?",
+    "options": [
+      "To simplify fit and alignment on site",
+      "To eliminate labels",
+      "To reduce finishing quality",
+      "To increase sanding time"
+    ],
+    "answer": 0,
+    "explanation": "Sequence planning improves installation efficiency and reduces alignment mistakes.  ---",
+    "id": 139
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A decorative trim assembly has varying reveal widths under bright lighting. What does this indicate?",
+    "options": [
+      "Poor layout consistency",
+      "Excess adhesive",
+      "Strong fastening",
+      "Balanced moisture content"
+    ],
+    "answer": 0,
+    "explanation": "Lighting highlights reveal inconsistencies. Precision layout is critical in finish work.  ---",
+    "id": 140
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which condition MOST likely causes a wall panel seam to become visible after installation?",
+    "options": [
+      "Poor alignment or uneven reveal",
+      "Correct sequencing",
+      "Proper clamping",
+      "Balanced construction"
+    ],
+    "answer": 0,
+    "explanation": "Panel seams depend on accurate alignment and spacing. Even small errors become noticeable.  ---",
+    "id": 141
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "What is the BEST reason to use protective film on finished millwork during assembly?",
+    "options": [
+      "To reduce scratches and contamination",
+      "To strengthen the substrate",
+      "To improve grain matching",
+      "To eliminate inspection"
+    ],
+    "answer": 0,
+    "explanation": "Protective film shields finished surfaces during handling and installation.  ---",
+    "id": 142
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker assembles a curved panel using uneven clamp pressure. What defect is MOST likely?",
+    "options": [
+      "Distortion or twist",
+      "Improved radius accuracy",
+      "Stronger adhesive bond",
+      "Better finish absorption"
+    ],
+    "answer": 0,
+    "explanation": "Uneven pressure can distort curved assemblies. Balanced clamping is essential.  ---",
+    "id": 143
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which installation problem MOST often results from ignoring site obstructions?",
+    "options": [
+      "Field cutting and rework",
+      "Better reveals",
+      "Stronger joints",
+      "Improved packaging"
+    ],
+    "answer": 0,
+    "explanation": "Plumbing, electrical, and structural obstacles affect fit. Verification reduces costly modifications.  ---",
+    "id": 144
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Why should long moulding runs be checked before fastening permanently?",
+    "options": [
+      "To confirm alignment and reveal consistency",
+      "To reduce finish cure time",
+      "To eliminate measuring",
+      "To improve glue spread"
+    ],
+    "answer": 0,
+    "explanation": "Temporary positioning allows adjustments before final fastening locks the moulding in place.  ---",
+    "id": 145
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A prefinished panel edge chips during handling. Which practice BEST prevents this?",
+    "options": [
+      "Edge padding and careful transport",
+      "Extra sanding",
+      "Removing finish first",
+      "Using larger screws"
+    ],
+    "answer": 0,
+    "explanation": "Finished edges are vulnerable to impact. Padding and careful handling reduce damage.  ---",
+    "id": 146
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which factor is MOST important when assembling matched veneer panels?",
+    "options": [
+      "Maintaining sequence orientation",
+      "Glue colour only",
+      "Shelf spacing",
+      "Fastener brand"
+    ],
+    "answer": 0,
+    "explanation": "Veneer sequence creates visual continuity. Incorrect orientation disrupts the match.  ---",
+    "id": 147
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel system appears level but does not align with ceiling features. What was MOST likely missing?",
+    "options": [
+      "Reference layout lines",
+      "Additional adhesive",
+      "More sanding",
+      "Thicker backing panels"
+    ],
+    "answer": 0,
+    "explanation": "Level installation alone is not enough. Millwork must align visually with surrounding architecture.  ---",
+    "id": 148
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "What is the MOST common reason to reject a finished millwork assembly before shipping?",
+    "options": [
+      "Visible appearance defects",
+      "Excess glue supply",
+      "Overpackaging",
+      "Balanced moisture content"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork is highly appearance-based. Visible defects reduce quality acceptance.  ---",
+    "id": 149
+  },
+  {
+    "category": "Set 3 / Task 13. Assembles Architectural Millwork Products",
+    "question": "Which final check is MOST important before releasing assembled millwork for delivery?",
+    "options": [
+      "Fit, finish, damage, and specification compliance",
+      "Glue bottle quantity",
+      "Clamp storage",
+      "Sandpaper inventory"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection ensures the product meets quality and specification requirements before shipment.",
+    "id": 150
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet case is square after dry fit, but the doors show uneven reveals after assembly. What should be checked first?",
+    "options": [
+      "Case squareness and hinge mounting locations",
+      "Finish colour",
+      "Shelf-pin hole depth",
+      "Glue bottle size"
+    ],
+    "answer": 0,
+    "explanation": "Door reveals depend on a square case and accurate hinge placement. If either is wrong, adjustment may not correct the problem.",
+    "id": 151
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A drawer slide is installed level, but the drawer still binds near the back. What is the likely issue?",
+    "options": [
+      "Slides are not parallel",
+      "Finish is too glossy",
+      "Drawer pull is too heavy",
+      "Cabinet back is too thin"
+    ],
+    "answer": 0,
+    "explanation": "Slides must be level and parallel to each other. If spacing changes from front to back, the drawer can bind.",
+    "id": 152
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A mortise-and-tenon joint fits tightly, but the shoulders do not close. What is the best correction?",
+    "options": [
+      "Check tenon length and mortise depth",
+      "Use more glue",
+      "Clamp harder",
+      "Sand the outside faces only"
+    ],
+    "answer": 0,
+    "explanation": "A tenon may bottom out before the shoulders close. Proper joint depth and length are needed for full seating.",
+    "id": 153
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet side splits when screws are installed near the edge. What was likely missed?",
+    "options": [
+      "Proper pilot hole",
+      "More stain",
+      "Thicker finish",
+      "Extra clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Screws near edges can split wood or panels. Pilot holes reduce stress and guide the screw.",
+    "id": 154
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A face frame is flush at one corner but proud at the opposite corner. What is most likely wrong?",
+    "options": [
+      "Frame alignment during assembly",
+      "Finish compatibility",
+      "Drawer slide rating",
+      "Shelf material colour"
+    ],
+    "answer": 0,
+    "explanation": "Face frames must be positioned evenly before fastening. Misalignment creates proud or recessed edges.",
+    "id": 155
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinetmaker uses clamps to pull a poorly fitting joint closed. What is the risk?",
+    "options": [
+      "Internal stress and later joint failure",
+      "Stronger assembly",
+      "Better finish absorption",
+      "Less need for glue"
+    ],
+    "answer": 0,
+    "explanation": "Clamps should hold accurate joints, not force bad ones. Forced joints can spring open or weaken after curing.",
+    "id": 156
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A furniture frame has equal diagonals but one leg is off the floor. What should be checked?",
+    "options": [
+      "Twist in the frame",
+      "Finish thickness",
+      "Drawer slide length",
+      "Screw colour"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals show square in one plane. A frame can still be twisted and rock on a flat surface.",
+    "id": 157
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A solid wood top is fastened tightly through round holes across its width. What may happen later?",
+    "options": [
+      "Cracking or cupping",
+      "Stronger seasonal stability",
+      "No movement at all",
+      "Better finish curing"
+    ],
+    "answer": 0,
+    "explanation": "Solid wood moves across the grain. Rigid fastening prevents movement and can cause failure.",
+    "id": 158
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A drawer front has even side gaps but rubs the cabinet rail at the top. What should be adjusted?",
+    "options": [
+      "Front height or slide position",
+      "Stain colour",
+      "Back panel thickness",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Drawer front alignment controls top and bottom reveals. Slide position can also affect front location.",
+    "id": 159
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet assembly jig produces the same offset error on every unit. What should be done?",
+    "options": [
+      "Check and recalibrate the jig",
+      "Keep using it because the error is consistent",
+      "Sand all cabinets smaller",
+      "Remove all reference stops"
+    ],
+    "answer": 0,
+    "explanation": "A jig repeats its own errors. If every unit is wrong the same way, the jig setup must be corrected.",
+    "id": 160
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "Glue squeeze-out remains in an inside corner that will be stained. What defect may appear?",
+    "options": [
+      "Light or uneven stain area",
+      "Stronger corner joint",
+      "Darker grain figure",
+      "Better topcoat flow"
+    ],
+    "answer": 0,
+    "explanation": "Dried glue blocks stain absorption. It often shows as a light patch after finishing.",
+    "id": 161
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A chair rail joint is loose during dry fit. What is the best action?",
+    "options": [
+      "Remake or correct the joint",
+      "Use extra glue only",
+      "Apply finish first",
+      "Clamp lightly and continue"
+    ],
+    "answer": 0,
+    "explanation": "Structural furniture joints require close fit. Glue alone cannot reliably fill large gaps.",
+    "id": 162
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A screw strips in MDF during final assembly. What should be reviewed?",
+    "options": [
+      "Pilot hole size, screw type, and torque",
+      "Finish sheen",
+      "Drawer front colour",
+      "Sanding direction"
+    ],
+    "answer": 0,
+    "explanation": "MDF has limited screw-holding strength. Proper screw type, pilot hole, and controlled torque are important.",
+    "id": 163
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinetmaker installs shelf pins, but shelves rock after placement. What is likely wrong?",
+    "options": [
+      "Pin holes are misaligned or uneven",
+      "Finish is too thick",
+      "Door hinges are loose",
+      "Glue type is incorrect"
+    ],
+    "answer": 0,
+    "explanation": "Shelf pins must be level and aligned. Misaligned holes make shelves unstable.",
+    "id": 164
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet back panel is stapled on while the case is slightly racked. What is the result?",
+    "options": [
+      "The cabinet may be locked out of square",
+      "The cabinet becomes self-leveling",
+      "Drawer slides become stronger",
+      "Finish cures faster"
+    ],
+    "answer": 0,
+    "explanation": "The back panel fixes the case shape. It should be installed after squareness is confirmed.",
+    "id": 165
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "During assembly, a finished panel is scratched by dust on the bench. What should have been done?",
+    "options": [
+      "Clean and pad the work surface",
+      "Clamp harder",
+      "Use more glue",
+      "Remove the finish first"
+    ],
+    "answer": 0,
+    "explanation": "Dust and debris can scratch finished surfaces. Clean padded surfaces protect parts during assembly.",
+    "id": 166
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A dowel joint assembles with one face offset from the other. What is the likely cause?",
+    "options": [
+      "Dowel holes were referenced incorrectly",
+      "Glue was too strong",
+      "Finish was too dry",
+      "Clamp pads were too soft"
+    ],
+    "answer": 0,
+    "explanation": "Dowel joints depend on accurate reference edges. Wrong reference points create offsets.",
+    "id": 167
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet door gap is wide at the top and tight at the bottom. What should be checked?",
+    "options": [
+      "Cabinet square and hinge adjustment",
+      "Shelf thickness",
+      "Stain compatibility",
+      "Glue squeeze-out colour"
+    ],
+    "answer": 0,
+    "explanation": "Uneven door gaps often result from case racking or hinge position. Both must be checked.",
+    "id": 168
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A worker tightens one clamp fully before placing the others on a frame. What problem can occur?",
+    "options": [
+      "Parts may shift out of alignment",
+      "Glue becomes stronger",
+      "Finish cures faster",
+      "Screws become shorter"
+    ],
+    "answer": 0,
+    "explanation": "Clamps should be applied and tightened evenly. Uneven pressure can pull assemblies out of position.",
+    "id": 169
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A furniture tabletop is attached with figure-eight fasteners. What is the main advantage?",
+    "options": [
+      "They allow wood movement",
+      "They stop all expansion",
+      "They replace finishing",
+      "They make the top permanent and rigid"
+    ],
+    "answer": 0,
+    "explanation": "Figure-eight fasteners hold the top while allowing seasonal movement. This helps prevent cracking.",
+    "id": 170
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A drawer box is square, but the installed drawer front looks crooked. What is most likely?",
+    "options": [
+      "Front was attached out of alignment",
+      "Drawer box is too strong",
+      "Slides are too clean",
+      "Finish is too thin"
+    ],
+    "answer": 0,
+    "explanation": "Drawer fronts require separate alignment. A square box can still have a crooked front.",
+    "id": 171
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet part is installed with the unfinished edge visible. What process failed?",
+    "options": [
+      "Part orientation and inspection",
+      "Glue selection",
+      "Clamp pressure",
+      "Finish drying"
+    ],
+    "answer": 0,
+    "explanation": "Visible edges must be planned and checked before assembly. Orientation mistakes reduce finished quality.",
+    "id": 172
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A frame-and-panel door has the centre panel glued tightly on all edges. What is the risk?",
+    "options": [
+      "Panel may split or distort the frame",
+      "Door becomes more adjustable",
+      "Finish absorbs better",
+      "Hinges last longer"
+    ],
+    "answer": 0,
+    "explanation": "Solid panels need room to move inside the frame. Gluing all edges can restrict movement and cause damage.",
+    "id": 173
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinetmaker notices a clamp dent on a visible rail after glue-up. What should have prevented this?",
+    "options": [
+      "Cauls or clamp pads",
+      "More clamp pressure",
+      "Less glue",
+      "Longer screws"
+    ],
+    "answer": 0,
+    "explanation": "Clamp jaws can dent visible parts. Cauls and pads distribute pressure safely.",
+    "id": 174
+  },
+  {
+    "category": "  Task 12. Assembles Cabinets and Furniture",
+    "question": "A cabinet bottom is installed backward, placing the finished edge inside. What should have prevented this?",
+    "options": [
+      "Clear part labelling and orientation marks",
+      "More glue",
+      "Stronger screws",
+      "Shorter clamp time"
+    ],
+    "answer": 0,
+    "explanation": "Similar parts can be reversed easily. Labels and orientation marks reduce assembly mistakes.  ---  ## Task 13. Assembles Architectural Millwork Products",
+    "id": 175
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel system has correct panel sizes but inconsistent shadow gaps. What was likely missed?",
+    "options": [
+      "Consistent reveal control",
+      "Strong glue",
+      "Correct material species",
+      "Extra sanding"
+    ],
+    "answer": 0,
+    "explanation": "Shadow gaps depend on layout and spacers. Correct panel size alone does not ensure even reveals.",
+    "id": 176
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A reception desk mock-up is rejected because the front looks too bulky. What should be revised?",
+    "options": [
+      "Proportions and design details",
+      "Glue open time",
+      "Screw pilot hole size",
+      "Dust collection"
+    ],
+    "answer": 0,
+    "explanation": "Mock-ups test appearance and scale. The design may need visual adjustment before production.",
+    "id": 177
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "Sequenced veneer panels are assembled in the wrong order. What is the main issue?",
+    "options": [
+      "Grain flow is interrupted",
+      "Panels become weaker",
+      "Finish dries slower",
+      "Fasteners loosen"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced veneer depends on correct order. Wrong order creates a visible mismatch.",
+    "id": 178
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A long trim run has visible gaps at wall contact points. What should be checked?",
+    "options": [
+      "Wall straightness and scribe requirements",
+      "Finish catalyst",
+      "Drawer slide rating",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Walls are rarely perfectly straight. Trim may need scribing or layout adjustment.",
+    "id": 179
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A curved moulding matches the radius but not the profile of adjacent trim. What is wrong?",
+    "options": [
+      "Cutter or template profile mismatch",
+      "Correct trim setup",
+      "Proper fastening",
+      "Good finish preparation"
+    ],
+    "answer": 0,
+    "explanation": "Curved mouldings must match both curve and profile. A profile mismatch is highly visible.",
+    "id": 180
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A prefinished wall panel is clamped directly with metal clamps and shows marks. What should be used?",
+    "options": [
+      "Protective cauls or pads",
+      "More clamp pressure",
+      "Less support",
+      "Longer fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Finished panels are easily dented. Protective padding prevents clamp damage.",
+    "id": 181
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork assembly is built before checking site obstructions. What is the risk?",
+    "options": [
+      "Rework or poor site fit",
+      "Stronger assembly",
+      "Better finish quality",
+      "Reduced installation time always"
+    ],
+    "answer": 0,
+    "explanation": "Site obstructions affect final fit. Verification should occur before shop assembly when possible.",
+    "id": 182
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A decorative grille has uneven spacing between slats. What should have been used?",
+    "options": [
+      "Spacer jig or layout template",
+      "More adhesive",
+      "Extra sanding sealer",
+      "Random measuring"
+    ],
+    "answer": 0,
+    "explanation": "Repeated decorative spacing must be controlled. Jigs or templates keep spacing consistent.",
+    "id": 183
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A finished millwork panel is damaged at the corner during transport. What likely failed?",
+    "options": [
+      "Edge protection and packaging",
+      "Adhesive mixing",
+      "Reveal spacing",
+      "Finish selection"
+    ],
+    "answer": 0,
+    "explanation": "Corners and edges are vulnerable during transport. Proper packaging prevents damage.",
+    "id": 184
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel reveal aligns at the bottom but not at the top. What should be checked?",
+    "options": [
+      "Panel plumb and wall condition",
+      "Glue colour",
+      "Screw length only",
+      "Finish sheen"
+    ],
+    "answer": 0,
+    "explanation": "Reveals depend on plumb panels and site conditions. An out-of-plumb wall or panel affects alignment.",
+    "id": 185
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork unit is forced into a tight opening and the face panel bows. What is the correct approach?",
+    "options": [
+      "Adjust fit without distorting the unit",
+      "Add more fasteners",
+      "Clamp harder",
+      "Sand the face after installation"
+    ],
+    "answer": 0,
+    "explanation": "Millwork must stay straight and true. Scribing or trimming is better than forcing the unit.",
+    "id": 186
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A scarf joint opens after assembly. What should be checked?",
+    "options": [
+      "Joint angle, adhesive, and fastening support",
+      "Cabinet pull style",
+      "Drawer depth",
+      "Finish colour"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints need accurate cuts and secure fastening. Poor fit or movement opens the joint.",
+    "id": 187
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel system is installed without numbering the panels. What is the likely problem?",
+    "options": [
+      "Panels may be placed in the wrong sequence",
+      "Panels become stronger",
+      "Finish cures faster",
+      "Reveals automatically improve"
+    ],
+    "answer": 0,
+    "explanation": "Custom panels often follow a specific sequence. Numbering prevents misplaced parts.",
+    "id": 188
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A decorative moulding assembly has excess glue at visible joints. What quality issue may occur?",
+    "options": [
+      "Finish defects or visible residue",
+      "Stronger colour match",
+      "Better sanding control",
+      "Improved profile accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Glue residue can affect stain and finish. Visible millwork joints must be kept clean.",
+    "id": 189
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "A panel run appears straight in the shop but does not align with site ceiling features. What was missing?",
+    "options": [
+      "Coordination with site reference lines",
+      "More glue",
+      "Stronger fasteners",
+      "Thicker panels"
+    ],
+    "answer": 0,
+    "explanation": "Millwork must coordinate with surrounding site conditions. Shop accuracy alone may not ensure site alignment.",
+    "id": 190
+  },
+  {
+    "category": "Task 13. Assembles Architectural Millwork Products",
+    "question": "A prefinished part is wrapped before the finish has cured enough. What can happen?",
+    "options": [
+      "Imprinting or blocking",
+      "Stronger finish",
+      "Better protection with no risk",
+      "Faster cure always"
+    ],
+    "answer": 0,
+    "explanation": "Soft finish can stick to packaging or take impressions. Cure time must be respected before wrapping.",
+    "id": 191
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A large architectural panel bows after assembly. What should be reviewed?",
+    "options": [
+      "Panel balance, fastening method, and storage",
+      "Drawer slide type",
+      "Glue bottle size",
+      "Shelf pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Large panels can move if construction is unbalanced or storage is poor. Fastening may also introduce stress.",
+    "id": 192
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork face has one exposed fastener where concealed fasteners were specified. What should happen?",
+    "options": [
+      "Correct it before release",
+      "Leave it because it is small",
+      "Paint over it only",
+      "Ignore if the unit is strong"
+    ],
+    "answer": 0,
+    "explanation": "Specifications include appearance details. Exposed fasteners can cause rejection.",
+    "id": 193
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A worker uses different spacers for the same reveal line. What is likely?",
+    "options": [
+      "Inconsistent reveal widths",
+      "Better visual balance",
+      "Stronger joints",
+      "Faster installation"
+    ],
+    "answer": 0,
+    "explanation": "Reveal consistency depends on using the same spacing reference. Different spacers create visible variation.",
+    "id": 194
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork assembly is too large to move safely after completion. What was missed?",
+    "options": [
+      "Assembly and transport planning",
+      "Finish selection",
+      "Glue spread",
+      "Screw colour"
+    ],
+    "answer": 0,
+    "explanation": "Large assemblies must be planned for handling and access. Sometimes partial assembly is required for transport.",
+    "id": 195
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A curved panel joint is tight at one end and open at the other. What should be checked?",
+    "options": [
+      "Form accuracy and joint machining",
+      "Drawer pull spacing",
+      "Finish sheen",
+      "Shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Curved joints require accurate form and edge preparation. Small errors create uneven gaps.",
+    "id": 196
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A finished panel is rejected because sheen differs from adjacent panels. What quality factor was missed?",
+    "options": [
+      "Finish consistency",
+      "Screw torque",
+      "Dowel length",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork is viewed as a complete system. Sheen differences are visible under light.",
+    "id": 197
+  },
+  {
+    "category": "  / Task 13. Assembles Architectural Millwork Products",
+    "question": "A millwork unit is assembled without confirming hardware clearances. What may happen?",
+    "options": [
+      "Doors or drawers may interfere with adjacent parts",
+      "Finish becomes stronger",
+      "Panels become flatter",
+      "Grain match improves"
+    ],
+    "answer": 0,
+    "explanation": "Hardware operation needs clearance. Assembly should confirm moving parts will function properly.",
+    "id": 198
+  },
+  {
+    "category": " Task 13. Assembles Architectural Millwork Products",
+    "question": "A wall panel edge chips during assembly. What should be improved?",
+    "options": [
+      "Handling method and edge protection",
+      "More clamp pressure",
+      "Less padding",
+      "Random stacking"
+    ],
+    "answer": 0,
+    "explanation": "Exposed edges are easily damaged. Protective handling reduces chips.",
+    "id": 199
+  },
+  {
+    "category": "  Task 13. Assembles Architectural Millwork Products",
+    "question": "Before shipping architectural millwork, what is the most complete final check?",
+    "options": [
+      "Dimensions, finish, labels, protection, and specifications",
+      "Glue container level only",
+      "Sandpaper inventory only",
+      "Tool storage only"
+    ],
+    "answer": 0,
+    "explanation": "Final release requires quality and readiness checks. Labels and protection help ensure correct, damage-free installation.",
+    "id": 200
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCabinetmakerShopAssemblyQuestions =
+  shuffleArray(cabinetmakerShopAssemblyQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "cabinetmaker",
+  tradeTitle: "Cabinetmaker",
+  sectionTitle: "E. Performs Shop Assembly",
+  questionTimeSeconds: 90,
+  questions: shuffledCabinetmakerShopAssemblyQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCabinetmakerShopAssemblyQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

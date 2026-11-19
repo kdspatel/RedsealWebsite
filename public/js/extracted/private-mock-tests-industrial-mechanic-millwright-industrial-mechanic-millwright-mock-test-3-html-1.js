@@ -1,0 +1,1343 @@
+const industrialMechanicMillwrightRedSealSet3Questions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Safety-related functions",
+    "question": "You are asked to replace a jammed conveyor roller. The motor is locked out, but the belt is under tension. What should be done next?",
+    "options": [
+      "Start removing the roller",
+      "Release or control stored belt tension",
+      "Cut the belt immediately",
+      "Stand on the belt to hold it"
+    ],
+    "answer": 1,
+    "explanation": "Stored mechanical energy can move parts after electrical lockout. Belt tension may release suddenly during disassembly. All hazardous energy must be controlled before work."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Safety-related functions",
+    "question": "A mechanic is removing a guard from a machine that was stopped with the normal stop button. What is missing?",
+    "options": [
+      "Lubrication",
+      "Lockout and verification",
+      "More lighting only",
+      "Belt tension check only"
+    ],
+    "answer": 1,
+    "explanation": "A stop button is not an energy-isolation device. Equipment can restart unexpectedly. Lockout and zero-energy verification are required before guarding is removed."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Safety-related functions",
+    "question": "During hydraulic troubleshooting, a pinhole leak is spraying oil mist. What is the safest response?",
+    "options": [
+      "Feel for the leak with your hand",
+      "Shut down, depressurize, and inspect safely",
+      "Wrap tape around the leak while running",
+      "Tighten the fitting under pressure"
+    ],
+    "answer": 1,
+    "explanation": "High-pressure oil can penetrate skin. Injection injuries are medical emergencies. Hydraulic leaks must never be checked by hand."
+  },
+  {
+    "id": 4,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A bearing puller is slipping off the bearing during removal. What should be done?",
+    "options": [
+      "Keep applying force",
+      "Reset the puller correctly or use a proper puller",
+      "Strike the puller harder",
+      "Heat the bearing until red hot"
+    ],
+    "answer": 1,
+    "explanation": "A slipping puller can release suddenly. Correct tool engagement is essential. Improper removal can damage shafts, bearings, and workers."
+  },
+  {
+    "id": 5,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A torque wrench clicks at the specified setting, but the mechanic continues pulling. What is the result?",
+    "options": [
+      "Correct torque is maintained",
+      "Fastener may be over-torqued",
+      "Bolt becomes stronger",
+      "Torque decreases"
+    ],
+    "answer": 1,
+    "explanation": "A click-type torque wrench signals when to stop. Continuing to pull adds more torque. Over-torque can stretch or damage fasteners."
+  },
+  {
+    "id": 6,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A drill bit grabs as it breaks through a plate. What prevention method is best?",
+    "options": [
+      "Hold the plate by hand",
+      "Clamp the work securely and reduce feed near breakthrough",
+      "Increase feed pressure",
+      "Use a dull drill bit"
+    ],
+    "answer": 1,
+    "explanation": "Drill bits often grab at breakthrough. Clamping prevents the work from spinning. Controlled feed reduces tool grabbing."
+  },
+  {
+    "id": 7,
+    "category": "Task 2 — Uses tools and equipment",
+    "question": "A mechanic uses a file without a handle. What is the hazard?",
+    "options": [
+      "Poor surface finish only",
+      "Tang can puncture the hand",
+      "File cuts too fast",
+      "File becomes magnetic"
+    ],
+    "answer": 1,
+    "explanation": "File tangs are sharp and narrow. Without a handle, they can drive into the palm. Files should always have proper handles."
+  },
+  {
+    "id": 8,
+    "category": "Task 3 — Routine trade tasks",
+    "question": "A steel plate is 3 ft long, 2 ft wide, and 0.25 ft thick. Using 490 lb/ft³, what is its weight?",
+    "options": [
+      "245 lb",
+      "367.5 lb",
+      "735 lb",
+      "1470 lb"
+    ],
+    "answer": 2,
+    "explanation": "Volume = 3 × 2 × 0.25 = 1.5 ft³. Weight = 1.5 × 490 = 735 lb. This is useful for rigging and material handling."
+  },
+  {
+    "id": 9,
+    "category": "Task 3 — Routine trade tasks",
+    "question": "A hydraulic cylinder has 1200 psi acting on 7 in². What force is produced?",
+    "options": [
+      "171 lb",
+      "1200 lb",
+      "8400 lb",
+      "12,000 lb"
+    ],
+    "answer": 2,
+    "explanation": "Force = pressure × area. 1200 × 7 = 8400 lb. Pressure and area determine cylinder force."
+  },
+  {
+    "id": 10,
+    "category": "Task 3 — Routine trade tasks",
+    "question": "A shaft rotates at 1000 rpm and has a 3 in diameter. What is surface speed?",
+    "options": [
+      "3000 in/min",
+      "9420 in/min",
+      "12,000 in/min",
+      "31,400 in/min"
+    ],
+    "answer": 1,
+    "explanation": "Surface speed = rpm × π × diameter. 1000 × 3.14 × 3 = 9420 in/min. Surface speed affects cutting and rotating contact conditions."
+  },
+  {
+    "id": 11,
+    "category": "Task 3 — Routine trade tasks",
+    "question": "A gear has 36 teeth and runs at 750 rpm. What is gear pass frequency?",
+    "options": [
+      "20,000 cycles/min",
+      "24,000 cycles/min",
+      "27,000 cycles/min",
+      "36,750 cycles/min"
+    ],
+    "answer": 2,
+    "explanation": "Gear pass frequency = rpm × number of teeth. 750 × 36 = 27,000 cycles/min. This can help identify gear mesh vibration."
+  },
+  {
+    "id": 12,
+    "category": "Task 3 — Routine trade tasks",
+    "question": "A right triangle has one side of 9 and hypotenuse of 15. What is the other side?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "Use c² − a² = b². 15² − 9² = 225 − 81 = 144. √144 = 12."
+  },
+  {
+    "id": 13,
+    "category": "Task 4 — Communication and mentoring",
+    "question": "During a breakdown, two mechanics give opposite instructions to a crane operator. What should happen?",
+    "options": [
+      "Operator follows the loudest person",
+      "Stop and establish one signal person",
+      "Continue slowly",
+      "Let both signal"
+    ],
+    "answer": 1,
+    "explanation": "Conflicting signals create serious lifting hazards. One signal person prevents confusion. Emergency stop signals should still be accepted from anyone."
+  },
+  {
+    "id": 14,
+    "category": "Task 4 — Communication and mentoring",
+    "question": "A repair is temporary and must be checked every shift. What is the best communication method?",
+    "options": [
+      "Tell one worker verbally",
+      "Document it and include it in handover",
+      "Mark it only with chalk",
+      "Assume everyone knows"
+    ],
+    "answer": 1,
+    "explanation": "Temporary repairs can become hidden hazards. Written records and handover communication keep workers informed. Documentation helps prevent missed follow-up."
+  },
+  {
+    "id": 15,
+    "category": "Task 5 — Measuring and layout",
+    "question": "A mechanic measures a shaft with calipers over a burr and gets an oversized reading. What should be done?",
+    "options": [
+      "Accept the reading",
+      "Remove burrs and remeasure",
+      "Sand the caliper jaws",
+      "Heat the shaft"
+    ],
+    "answer": 1,
+    "explanation": "Burrs create false dimensions. Precision measurement requires clean, smooth surfaces. Measuring over damage gives unreliable results."
+  },
+  {
+    "id": 16,
+    "category": "Task 5 — Measuring and layout",
+    "question": "A coupling gap varies around the circumference. What tool can check the gap?",
+    "options": [
+      "Feeler gauge",
+      "Pipe wrench",
+      "Grease gun",
+      "Cold chisel"
+    ],
+    "answer": 0,
+    "explanation": "Feeler gauges measure small gaps. Gap variation can indicate angular misalignment. The gauge should be used with light, consistent feel."
+  },
+  {
+    "id": 17,
+    "category": "Task 5 — Measuring and layout",
+    "question": "A hole pattern is laid out from the wrong datum edge. What is the likely result?",
+    "options": [
+      "Correct part",
+      "Mislocated holes",
+      "Better alignment",
+      "Stronger material"
+    ],
+    "answer": 1,
+    "explanation": "Datums are reference surfaces for layout and inspection. Using the wrong datum shifts all related dimensions. This can make parts unusable."
+  },
+  {
+    "id": 18,
+    "category": "Task 6 — Cutting and welding",
+    "question": "While oxy-fuel cutting, slag is heavy and the cut edge is rough. What is a likely cause?",
+    "options": [
+      "Correct speed and flame",
+      "Wrong travel speed, tip size, or oxygen setting",
+      "Too much guarding",
+      "Proper preheat"
+    ],
+    "answer": 1,
+    "explanation": "Poor cutting conditions produce rough cuts and heavy slag. Tip size, oxygen pressure, flame, and travel speed all matter. Cutting settings should match material thickness."
+  },
+  {
+    "id": 19,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "A gearbox has an off-centre motor mounted on one side. What is the main lift planning concern?",
+    "options": [
+      "Paint damage",
+      "Offset centre of gravity",
+      "Gear ratio",
+      "Oil colour"
+    ],
+    "answer": 1,
+    "explanation": "Uneven weight distribution shifts the centre of gravity. The load may tilt when lifted. Hook position and rigging must account for this."
+  },
+  {
+    "id": 20,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "A 6000 lb load is supported by two vertical slings. What is the load per sling before angle effects?",
+    "options": [
+      "1500 lb",
+      "3000 lb",
+      "6000 lb",
+      "12,000 lb"
+    ],
+    "answer": 1,
+    "explanation": "Two vertical legs share the load equally if balanced. 6000 ÷ 2 = 3000 lb. Sling angle can increase actual tension."
+  },
+  {
+    "id": 21,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "A load must be rolled through a doorway with only 1 in clearance each side. What should be included in the plan?",
+    "options": [
+      "Faster movement",
+      "Guide control, clear communication, and pinch point control",
+      "No spotter",
+      "Remove all tag lines"
+    ],
+    "answer": 1,
+    "explanation": "Tight clearances increase crush and pinch hazards. Workers need controlled movement and clear signals. Hands and feet must stay out of pinch points."
+  },
+  {
+    "id": 22,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "Using sling stress = length ÷ height × weight ÷ legs, find stress per leg for a 5000 lb load, 2 legs, 13 ft sling length, 10 ft height.",
+    "options": [
+      "1923 lb",
+      "2500 lb",
+      "3250 lb",
+      "6500 lb"
+    ],
+    "answer": 2,
+    "explanation": "13 ÷ 10 = 1.3. 1.3 × 5000 ÷ 2 = 3250 lb. Sling angle increases leg stress above half the load."
+  },
+  {
+    "id": 23,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "A lift is planned near energized overhead lines. What is required?",
+    "options": [
+      "Ignore if slings are nylon",
+      "Maintain required clearance and follow electrical hazard procedure",
+      "Lift quickly",
+      "Use a longer chain only"
+    ],
+    "answer": 1,
+    "explanation": "Cranes and loads can contact or arc to power lines. Electrical clearance rules must be followed. A lift plan must include overhead hazards."
+  },
+  {
+    "id": 24,
+    "category": "Task 7 — Plans rigging, hoisting/lifting and moving",
+    "question": "During planning, the load weight is known but lift points are not rated. What should be done?",
+    "options": [
+      "Use them anyway",
+      "Verify approved lifting points or engineer a method",
+      "Wrap chains anywhere",
+      "Lift from guards"
+    ],
+    "answer": 1,
+    "explanation": "Unrated lift points may fail. Guards and covers are not designed for lifting. Approved lifting points or engineered rigging must be used."
+  },
+  {
+    "id": 25,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A load starts swinging while being hoisted. What should the operator do?",
+    "options": [
+      "Speed up",
+      "Stop movement and regain control",
+      "Raise higher",
+      "Let workers grab it"
+    ],
+    "answer": 1,
+    "explanation": "Swinging loads can strike workers or structures. Smooth controlled movement prevents pendulum action. Workers should not place themselves in the swing path."
+  },
+  {
+    "id": 26,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A wire rope is 5/8 in diameter. Using spacing = 6 × diameter, what clip spacing is required?",
+    "options": [
+      "2.5 in",
+      "3.75 in",
+      "5 in",
+      "6.25 in"
+    ],
+    "answer": 1,
+    "explanation": "Clip spacing = 6 × 5/8. 5/8 = 0.625, and 0.625 × 6 = 3.75 in. Correct spacing helps the termination work properly."
+  },
+  {
+    "id": 27,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "Using WLL = diameter² × 8, what is the WLL of 5/8 in 6 × 19 wire rope?",
+    "options": [
+      "2.5 tons",
+      "3.125 tons",
+      "5 tons",
+      "8 tons"
+    ],
+    "answer": 1,
+    "explanation": "0.625² = 0.390625. 0.390625 × 8 = 3.125. The formula gives 3.125 tons."
+  },
+  {
+    "id": 28,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A sling is wrapped around a sharp machine edge. What should be used?",
+    "options": [
+      "Nothing if the sling is strong",
+      "Edge protection or proper lifting attachment",
+      "Extra speed",
+      "Smaller hook"
+    ],
+    "answer": 1,
+    "explanation": "Sharp edges can cut or damage slings. Edge protection spreads contact and prevents cutting. Damaged slings must be removed from service."
+  },
+  {
+    "id": 29,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A shackle pin is replaced with a regular bolt. What is wrong?",
+    "options": [
+      "Nothing",
+      "The bolt is not rated as the shackle pin",
+      "It increases capacity",
+      "It reduces sling stress"
+    ],
+    "answer": 1,
+    "explanation": "Shackle pins are designed and rated for the shackle. A regular bolt may bend, fail, or fit incorrectly. Rigging hardware must not be substituted."
+  },
+  {
+    "id": 30,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A chain hoist brake slips during a test lift. What should be done?",
+    "options": [
+      "Continue slowly",
+      "Remove hoist from service",
+      "Add more load",
+      "Oil the brake"
+    ],
+    "answer": 1,
+    "explanation": "The brake must hold the load safely. Brake slip can drop the load. Faulty hoists must be removed from service and inspected."
+  },
+  {
+    "id": 31,
+    "category": "Task 8 — Rigs, hoists/lifts and moves load",
+    "question": "A tag line is used during a lift mainly to:",
+    "options": [
+      "Carry load weight",
+      "Help control load rotation and position",
+      "Replace slings",
+      "Increase crane capacity"
+    ],
+    "answer": 1,
+    "explanation": "Tag lines help workers control orientation from a safer distance. They do not support load weight. Workers must avoid wrapping tag lines around hands."
+  },
+  {
+    "id": 32,
+    "category": "Task 9 — Services prime movers",
+    "question": "A motor starts normally unloaded but trips when coupled to the pump. What should be checked?",
+    "options": [
+      "Pump binding, alignment, or process load",
+      "Motor paint colour",
+      "Guard label",
+      "Nameplate font"
+    ],
+    "answer": 0,
+    "explanation": "The driven machine may be overloading the motor. Misalignment or internal pump binding increases current. Mechanical load should be checked."
+  },
+  {
+    "id": 33,
+    "category": "Task 9 — Services prime movers",
+    "question": "A gas engine prime mover overheats under load. What should be checked?",
+    "options": [
+      "Cooling system, airflow, load, and lubrication",
+      "Pipe paint",
+      "Belt brand only",
+      "Wire rope clips"
+    ],
+    "answer": 0,
+    "explanation": "Prime movers need cooling and lubrication. Overload can increase heat. Cooling restrictions or low oil can cause damage."
+  },
+  {
+    "id": 34,
+    "category": "Task 9 — Services prime movers",
+    "question": "A motor has excessive vibration at running speed after a new coupling hub was installed. What is possible?",
+    "options": [
+      "Coupling imbalance or poor fit",
+      "Tank overfill",
+      "Air dryer fault",
+      "Correct installation always"
+    ],
+    "answer": 0,
+    "explanation": "A poorly fitted or unbalanced hub creates vibration. Coupling concentricity and balance matter. Alignment should also be verified."
+  },
+  {
+    "id": 35,
+    "category": "Task 9 — Services prime movers",
+    "question": "A prime mover repeatedly shears coupling keys. What should be suspected?",
+    "options": [
+      "Shock load, loose fit, or incorrect key",
+      "Too much paint",
+      "Low air pressure",
+      "Clean oil"
+    ],
+    "answer": 0,
+    "explanation": "Keys fail from overload, poor fit, or repeated impact. Loose hubs cause fretting and key damage. The drive conditions and fit must be inspected."
+  },
+  {
+    "id": 36,
+    "category": "Task 10 — Shafts, bearings and seals",
+    "question": "A bearing is heated on a bearing heater and slides easily onto the shaft. Why is this preferred?",
+    "options": [
+      "It expands the bearing bore without excessive force",
+      "It burns the grease out",
+      "It softens the shaft",
+      "It removes all clearance"
+    ],
+    "answer": 0,
+    "explanation": "Controlled heating expands the inner ring. This reduces installation force. Proper heating prevents brinelling and race damage."
+  },
+  {
+    "id": 37,
+    "category": "Task 10 — Shafts, bearings and seals",
+    "question": "A bearing fails with flaking on the raceway. What is this commonly called?",
+    "options": [
+      "Spalling",
+      "Water hammer",
+      "Belt glazing",
+      "Pipe strain"
+    ],
+    "answer": 0,
+    "explanation": "Spalling is fatigue flaking of bearing surfaces. It can result from overload, contamination, or poor lubrication. Once started, failure usually progresses."
+  },
+  {
+    "id": 38,
+    "category": "Task 10 — Shafts, bearings and seals",
+    "question": "A lip seal leaks after installation over a keyway. What likely happened?",
+    "options": [
+      "Seal lip was cut",
+      "Bearing preload improved",
+      "Gear backlash changed",
+      "Seal got stronger"
+    ],
+    "answer": 0,
+    "explanation": "Keyways have sharp edges that can damage seal lips. Installation sleeves or tape can protect the lip. A cut lip often leaks immediately."
+  },
+  {
+    "id": 39,
+    "category": "Task 10 — Shafts, bearings and seals",
+    "question": "A shaft shows blue discoloration at a bearing seat. What does this suggest?",
+    "options": [
+      "Overheating",
+      "Correct fit",
+      "Low stress",
+      "Normal polishing"
+    ],
+    "answer": 0,
+    "explanation": "Blueing on steel often indicates high temperature exposure. Heat can reduce hardness or damage fit surfaces. The overheating cause must be found."
+  },
+  {
+    "id": 40,
+    "category": "Task 11 — Couplings, clutches and brakes",
+    "question": "A jaw coupling spider turns to powder after short service. What is likely?",
+    "options": [
+      "Misalignment, overload, or wrong insert material",
+      "Perfect operation",
+      "Too much guarding",
+      "Correct coupling selection"
+    ],
+    "answer": 0,
+    "explanation": "Elastomer inserts fail from heat, overload, or misalignment. Replacing the insert alone may not fix the cause. The full drive condition must be checked."
+  },
+  {
+    "id": 41,
+    "category": "Task 11 — Couplings, clutches and brakes",
+    "question": "A clutch slips only under high load. What is likely?",
+    "options": [
+      "Friction capacity is reduced",
+      "Coupling is too guarded",
+      "Brake is too strong",
+      "Shaft is too straight"
+    ],
+    "answer": 0,
+    "explanation": "Clutches must transmit torque through friction. Wear, oil contamination, or weak spring force reduces capacity. Slipping creates heat and damage."
+  },
+  {
+    "id": 42,
+    "category": "Task 11 — Couplings, clutches and brakes",
+    "question": "A brake drags after release and gets hot. What should be checked?",
+    "options": [
+      "Clearance, linkage, release mechanism, or air gap",
+      "Gear ratio only",
+      "Chain pitch",
+      "Oil colour"
+    ],
+    "answer": 0,
+    "explanation": "Brake drag means it is not fully releasing. Drag creates heat and lining wear. Adjustment or release components may be faulty."
+  },
+  {
+    "id": 43,
+    "category": "Task 11 — Couplings, clutches and brakes",
+    "question": "A rigid coupling is installed between two machines with soft foot uncorrected. What is the risk?",
+    "options": [
+      "Bearing overload and vibration",
+      "Better alignment",
+      "Lower shaft load",
+      "No issue"
+    ],
+    "answer": 0,
+    "explanation": "Rigid couplings tolerate very little misalignment. Soft foot changes alignment when bolts are tightened. This loads bearings and shafts."
+  },
+  {
+    "id": 44,
+    "category": "Task 11 — Couplings, clutches and brakes",
+    "question": "A coupling set screw loosens repeatedly. What should be checked?",
+    "options": [
+      "Shaft fit, key fit, vibration, and locking method",
+      "Tank level",
+      "Pneumatic muffler only",
+      "Pipe schedule"
+    ],
+    "answer": 0,
+    "explanation": "Repeated loosening indicates movement or vibration. Poor fit can let hubs work loose. Correct locking and fit are needed."
+  },
+  {
+    "id": 45,
+    "category": "Task 12 — Chain and belt drive systems",
+    "question": "A new chain is installed on hooked sprockets. What will happen?",
+    "options": [
+      "New chain will wear rapidly",
+      "Sprockets will repair themselves",
+      "Chain capacity doubles",
+      "Lubrication is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Worn sprockets do not match new chain pitch. They damage rollers and accelerate elongation. Chain and sprockets should be inspected together."
+  },
+  {
+    "id": 46,
+    "category": "Task 12 — Chain and belt drive systems",
+    "question": "A V-belt squeals only during startup. What is likely?",
+    "options": [
+      "Belt slip from low tension or overload",
+      "Gear pitting",
+      "Bearing spalling only",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Startup requires high torque. Loose, glazed, or worn belts can slip. Tension and sheave condition must be checked."
+  },
+  {
+    "id": 47,
+    "category": "Task 12 — Chain and belt drive systems",
+    "question": "A synchronous belt loses teeth. What is likely?",
+    "options": [
+      "Overload, misalignment, or incorrect tension",
+      "Proper tracking",
+      "Correct load",
+      "Too much oil lubrication"
+    ],
+    "answer": 0,
+    "explanation": "Tooth shear occurs when the belt cannot carry the load properly. Alignment and tension affect tooth loading. Pulleys should also be inspected."
+  },
+  {
+    "id": 48,
+    "category": "Task 12 — Chain and belt drive systems",
+    "question": "A chain drive guard is removed for lubrication. What must happen before operation?",
+    "options": [
+      "Guard must be reinstalled",
+      "Chain speed must be reduced only",
+      "A sign replaces the guard",
+      "Lubricant replaces guarding"
+    ],
+    "answer": 0,
+    "explanation": "Chain drives have nip and entanglement hazards. Guards prevent contact with moving chain and sprockets. Equipment should not run unguarded."
+  },
+  {
+    "id": 49,
+    "category": "Task 13 — Gear systems",
+    "question": "A gear tooth has scoring and smeared metal. What does this indicate?",
+    "options": [
+      "Lubrication film failure",
+      "Proper lubrication",
+      "New gear condition",
+      "Correct contact"
+    ],
+    "answer": 0,
+    "explanation": "Scoring comes from sliding contact without adequate oil film. Heat and metal transfer damage tooth surfaces. Oil type, level, and load should be checked."
+  },
+  {
+    "id": 50,
+    "category": "Task 13 — Gear systems",
+    "question": "A gearbox has low oil level and rising temperature. What is the risk?",
+    "options": [
+      "Gear and bearing damage",
+      "Improved efficiency",
+      "Lower friction",
+      "Better cooling"
+    ],
+    "answer": 0,
+    "explanation": "Low oil starves gears and bearings. Friction and heat increase quickly. The leak or oil loss source must be found."
+  },
+  {
+    "id": 51,
+    "category": "Task 13 — Gear systems",
+    "question": "A bevel gear set is noisy after assembly. What should be checked?",
+    "options": [
+      "Tooth contact pattern and backlash",
+      "Chain clip direction",
+      "Brake lining only",
+      "Air regulator"
+    ],
+    "answer": 0,
+    "explanation": "Bevel gears are sensitive to mounting position. Wrong contact pattern causes noise and wear. Backlash must be set correctly."
+  },
+  {
+    "id": 52,
+    "category": "Task 13 — Gear systems",
+    "question": "A gearbox breather is plugged. What can happen as temperature rises?",
+    "options": [
+      "Pressure buildup and oil leakage",
+      "Lower internal pressure",
+      "Better seal life",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Gearboxes breathe as temperature changes. A plugged breather traps expanding air. Pressure can force oil past seals."
+  },
+  {
+    "id": 53,
+    "category": "Task 14 — Shaft alignment procedures",
+    "question": "A motor is aligned, but readings change after the pump piping is connected. What is the problem?",
+    "options": [
+      "Pipe strain",
+      "Correct alignment",
+      "Too much grease",
+      "Low motor speed"
+    ],
+    "answer": 0,
+    "explanation": "Piping should not force equipment into position. Pipe strain distorts or shifts the pump. Piping support and fit-up must be corrected."
+  },
+  {
+    "id": 54,
+    "category": "Task 14 — Shaft alignment procedures",
+    "question": "A dial alignment setup has a long bracket. Why must sag be checked?",
+    "options": [
+      "Bracket weight can create false readings",
+      "It increases rpm",
+      "It removes soft foot",
+      "It changes oil level"
+    ],
+    "answer": 0,
+    "explanation": "Long brackets can bend under their own weight. This creates indicator sag. Sag correction improves accuracy."
+  },
+  {
+    "id": 55,
+    "category": "Task 14 — Shaft alignment procedures",
+    "question": "A machine is bolt-bound during alignment. What does this mean?",
+    "options": [
+      "It cannot move enough because bolt clearance limits travel",
+      "Bolts are too loose",
+      "Machine is perfectly aligned",
+      "Coupling is too flexible"
+    ],
+    "answer": 0,
+    "explanation": "Bolt-bound machines cannot be moved to the required position. Base holes or mounting arrangement may need correction. Alignment cannot be completed until movement is possible."
+  },
+  {
+    "id": 56,
+    "category": "Task 15 — Robotics and automated equipment",
+    "question": "A robot has been taught a new path. What should be done before full-speed production?",
+    "options": [
+      "Run at full speed immediately",
+      "Test at reduced speed with safeguards",
+      "Disable all interlocks",
+      "Stand inside the cell"
+    ],
+    "answer": 1,
+    "explanation": "New robot paths may have unexpected motion. Reduced-speed testing helps verify clearance and sequence. Safeguards must remain effective."
+  },
+  {
+    "id": 57,
+    "category": "Task 16 — Fans and blowers",
+    "question": "A fan has low airflow and low motor current. What is likely?",
+    "options": [
+      "Blocked inlet or wrong rotation",
+      "Overload",
+      "Bearing seizure",
+      "Too much air movement"
+    ],
+    "answer": 0,
+    "explanation": "Low current can mean the fan is not moving enough air. Wrong rotation or blocked inlet reduces load. Airflow path should be checked."
+  },
+  {
+    "id": 58,
+    "category": "Task 16 — Fans and blowers",
+    "question": "A fan bearing repeatedly fails on the belt side. What should be checked?",
+    "options": [
+      "Belt tension and sheave alignment",
+      "Tank vent",
+      "Pump NPSH",
+      "Air dryer"
+    ],
+    "answer": 0,
+    "explanation": "Over-tensioned or misaligned belts overload bearings. The drive side sees high radial load. Correct belt setup improves bearing life."
+  },
+  {
+    "id": 59,
+    "category": "Task 16 — Fans and blowers",
+    "question": "A roots blower relief valve lifts repeatedly. What is likely?",
+    "options": [
+      "Discharge restriction or high pressure",
+      "Too much inlet air only",
+      "Correct operation always",
+      "Low rotor load"
+    ],
+    "answer": 0,
+    "explanation": "Roots blowers are positive displacement machines. A restricted discharge raises pressure. Relief lifting means the system is exceeding safe pressure."
+  },
+  {
+    "id": 60,
+    "category": "Task 17 — Pumps",
+    "question": "A centrifugal pump loses prime overnight. What should be checked?",
+    "options": [
+      "Foot valve, suction leaks, and liquid level",
+      "Coupling colour",
+      "Motor fan guard only",
+      "Gear backlash"
+    ],
+    "answer": 0,
+    "explanation": "Loss of prime often comes from air entry or drain-back. A leaking foot valve or suction leak allows liquid to leave the casing. Liquid level must also be adequate."
+  },
+  {
+    "id": 61,
+    "category": "Task 17 — Pumps",
+    "question": "A centrifugal pump cavitates only when flow demand is high. What is likely?",
+    "options": [
+      "NPSH available becomes insufficient",
+      "Seal is too cool",
+      "Discharge is too open always safe",
+      "Pump is over-primed"
+    ],
+    "answer": 0,
+    "explanation": "Higher flow increases suction losses. If inlet pressure drops too low, cavitation starts. Suction piping and liquid level should be checked."
+  },
+  {
+    "id": 62,
+    "category": "Task 17 — Pumps",
+    "question": "A gear pump discharge pressure spikes when a valve closes. What component must protect it?",
+    "options": [
+      "Relief valve",
+      "Sight glass",
+      "Fan guard",
+      "Air dryer"
+    ],
+    "answer": 0,
+    "explanation": "Gear pumps are positive displacement pumps. A closed discharge creates rapid pressure rise. Relief protection prevents rupture and overload."
+  },
+  {
+    "id": 63,
+    "category": "Task 17 — Pumps",
+    "question": "A pump bearing runs hot after alignment was skipped. What is likely?",
+    "options": [
+      "Coupling misalignment",
+      "Proper installation",
+      "Too much priming",
+      "Correct pipe support"
+    ],
+    "answer": 0,
+    "explanation": "Misalignment loads bearings and seals. Heat is a common symptom. Alignment should be checked before startup."
+  },
+  {
+    "id": 64,
+    "category": "Task 18 — Compressors",
+    "question": "A compressor runs constantly but system pressure stays low. What should be checked?",
+    "options": [
+      "Leaks, demand, inlet filter, and valves",
+      "Gearbox backlash only",
+      "Tank colour",
+      "Pump prime"
+    ],
+    "answer": 0,
+    "explanation": "Low pressure can result from excess demand or air leaks. A restricted inlet or bad valves reduce capacity. Air system troubleshooting starts with supply and leakage."
+  },
+  {
+    "id": 65,
+    "category": "Task 18 — Compressors",
+    "question": "A reciprocating compressor has water in the receiver every day. What maintenance is required?",
+    "options": [
+      "Drain condensate regularly",
+      "Add oil to receiver",
+      "Plug drain",
+      "Remove relief valve"
+    ],
+    "answer": 0,
+    "explanation": "Compressing air condenses moisture. Receiver drains remove water. Water causes corrosion and downstream problems."
+  },
+  {
+    "id": 66,
+    "category": "Task 18 — Compressors",
+    "question": "A screw compressor discharge temperature rises after cooler fins become dirty. What is the cause?",
+    "options": [
+      "Poor heat rejection",
+      "Too much cooling",
+      "Lower compression heat",
+      "Better airflow"
+    ],
+    "answer": 0,
+    "explanation": "Dirty coolers reduce heat transfer. Compressor oil and air temperatures rise. Cooling surfaces must be kept clean."
+  },
+  {
+    "id": 67,
+    "category": "Task 18 — Compressors",
+    "question": "A compressor intake draws air from a hot room. What happens to capacity?",
+    "options": [
+      "Capacity may drop because hot air is less dense",
+      "Capacity always increases",
+      "Pressure rating doubles",
+      "Moisture disappears completely"
+    ],
+    "answer": 0,
+    "explanation": "Hot air has lower density. Less air mass enters per volume. Cool clean intake air improves compressor performance."
+  },
+  {
+    "id": 68,
+    "category": "Task 19 — Process piping, tanks and containers",
+    "question": "A pipe flange leaks after thermal cycling. What should be checked?",
+    "options": [
+      "Gasket condition, bolt torque, and pipe strain",
+      "Belt tension only",
+      "Fan balance",
+      "Gear tooth count"
+    ],
+    "answer": 0,
+    "explanation": "Thermal expansion can relax bolt load or create pipe strain. Gaskets can crush or degrade. Flange joints need even compression."
+  },
+  {
+    "id": 69,
+    "category": "Task 19 — Process piping, tanks and containers",
+    "question": "A liquid line has high points with no vents. What problem can occur?",
+    "options": [
+      "Air pockets restricting flow",
+      "Better pump suction",
+      "Less maintenance",
+      "Higher pipe strength"
+    ],
+    "answer": 0,
+    "explanation": "Air collects at high points. Trapped air can reduce flow and cause pump problems. Vents allow removal during filling and operation."
+  },
+  {
+    "id": 70,
+    "category": "Task 19 — Process piping, tanks and containers",
+    "question": "A tank level transmitter reads empty, but the sight glass shows full. What should be suspected?",
+    "options": [
+      "Instrument fault or blocked connection",
+      "Tank is empty",
+      "Pump is oversized",
+      "Pipe support failure only"
+    ],
+    "answer": 0,
+    "explanation": "Level instruments can fail or plug. Independent indication helps confirm actual level. Incorrect level readings can cause overflow or dry running."
+  },
+  {
+    "id": 71,
+    "category": "Task 20 — Conveying systems",
+    "question": "A conveyor belt runs centred when empty but tracks off when loaded. What is likely?",
+    "options": [
+      "Off-centre loading or material buildup",
+      "Perfect loading",
+      "Low gearbox oil only",
+      "Too much guarding"
+    ],
+    "answer": 0,
+    "explanation": "Loading affects belt tracking. Material loaded to one side can push the belt off centre. Chutes and loading points should be checked."
+  },
+  {
+    "id": 72,
+    "category": "Task 20 — Conveying systems",
+    "question": "A conveyor pulley lagging is worn smooth and wet. What symptom is likely?",
+    "options": [
+      "Belt slip",
+      "Increased grip",
+      "Lower belt tension requirement",
+      "Better tracking"
+    ],
+    "answer": 0,
+    "explanation": "Lagging increases friction between belt and pulley. Smooth or wet lagging reduces grip. Slip causes heat, wear, and poor drive performance."
+  },
+  {
+    "id": 73,
+    "category": "Task 20 — Conveying systems",
+    "question": "A conveyor idler is seized. What can happen?",
+    "options": [
+      "Belt cover damage and increased drag",
+      "Better belt support",
+      "Lower motor current",
+      "Improved tracking always"
+    ],
+    "answer": 0,
+    "explanation": "A seized idler rubs against the moving belt. This damages the belt cover and increases power draw. Failed idlers should be replaced."
+  },
+  {
+    "id": 74,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A hydraulic actuator moves slowly, but system pressure reaches relief setting. What is likely?",
+    "options": [
+      "Flow restriction or insufficient pump flow",
+      "Too much actuator speed",
+      "Perfect flow",
+      "No load resistance"
+    ],
+    "answer": 0,
+    "explanation": "Speed depends on flow. High pressure with slow movement suggests restricted flow or pump output problem. Filters, valves, and pump condition should be checked."
+  },
+  {
+    "id": 75,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A hydraulic system runs hot only when a cylinder reaches end of stroke. What is likely?",
+    "options": [
+      "Oil is going over relief at end of stroke",
+      "Reservoir is too cold",
+      "Filter is too clean",
+      "Cylinder is weightless"
+    ],
+    "answer": 0,
+    "explanation": "At end of stroke, flow may be blocked. Pressure rises and relief valve opens. Continuous relief flow creates heat."
+  },
+  {
+    "id": 76,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A cylinder rod seal leaks after rod chrome is damaged. What is the correct repair approach?",
+    "options": [
+      "Replace seal and repair rod surface",
+      "Replace seal only every week",
+      "Add thicker oil",
+      "Increase pressure"
+    ],
+    "answer": 0,
+    "explanation": "Damaged rods cut new seals. Seal replacement alone will fail again. The rod surface must be restored or replaced."
+  },
+  {
+    "id": 77,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A hydraulic pump makes a rattling noise at startup and suction strainer is plugged. What is happening?",
+    "options": [
+      "Cavitation/starvation",
+      "Correct operation",
+      "Too much inlet pressure",
+      "Excess cooling"
+    ],
+    "answer": 0,
+    "explanation": "A plugged suction strainer restricts oil supply. Pump inlet pressure drops and cavitation can occur. Cavitation damages pump components."
+  },
+  {
+    "id": 78,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A hydraulic accumulator is removed without bleeding pressure. What is the hazard?",
+    "options": [
+      "Sudden release of stored energy",
+      "Low air pressure",
+      "Belt slip",
+      "Gear pitting"
+    ],
+    "answer": 0,
+    "explanation": "Accumulators store pressurized fluid and gas. Pressure can remain after shutdown. They must be safely discharged before removal."
+  },
+  {
+    "id": 79,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A directional valve spool sticks after contaminated oil enters the system. Why?",
+    "options": [
+      "Tight valve clearances are sensitive to dirt",
+      "Dirt improves valve movement",
+      "Oil pressure disappears",
+      "Valve becomes pneumatic"
+    ],
+    "answer": 0,
+    "explanation": "Hydraulic valves have close clearances. Dirt can jam or score spool surfaces. Filtration and cleanliness are critical."
+  },
+  {
+    "id": 80,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A hydraulic hose is routed near a hot exhaust pipe. What is the concern?",
+    "options": [
+      "Heat damage and hose failure",
+      "Better flexibility",
+      "Increased pressure rating",
+      "Cleaner oil"
+    ],
+    "answer": 0,
+    "explanation": "Excess heat damages rubber and reinforcement. Hose life drops sharply. Hoses should be routed or shielded away from heat."
+  },
+  {
+    "id": 81,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A gauge needle pulses rapidly on a hydraulic press. What can protect the gauge?",
+    "options": [
+      "Snubber or gauge isolator",
+      "Larger tank only",
+      "Belt guard",
+      "Vacuum cup"
+    ],
+    "answer": 0,
+    "explanation": "Pressure pulsations damage gauges. Snubbers dampen rapid pressure changes. Correct gauge rating is also important."
+  },
+  {
+    "id": 82,
+    "category": "Task 21 — Hydraulic systems",
+    "question": "A return line filter plugs after a pump failure. What is required?",
+    "options": [
+      "Filter replacement and system flushing/cleaning",
+      "Remove filter permanently",
+      "Increase contamination",
+      "Use lower pressure hose"
+    ],
+    "answer": 0,
+    "explanation": "Pump failures release debris into the system. Debris can damage replacement components. Cleaning and flushing prevent repeat failures."
+  },
+  {
+    "id": 83,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A pneumatic cylinder extends fast but retracts slowly. What should be checked?",
+    "options": [
+      "Retract flow control, exhaust path, and valve",
+      "Hydraulic pump only",
+      "Gear oil",
+      "Pipe schedule"
+    ],
+    "answer": 0,
+    "explanation": "Direction-specific speed issues relate to flow path. A blocked silencer or flow control can slow one direction. Valve function should also be checked."
+  },
+  {
+    "id": 84,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A vacuum lifter drops porous material but holds metal sheet. Why?",
+    "options": [
+      "Porous material leaks air",
+      "Metal is lighter always",
+      "Vacuum works only above water",
+      "More oil is needed"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum cups need an airtight seal. Porous materials let air through. Special cups or higher vacuum flow may be needed."
+  },
+  {
+    "id": 85,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A pneumatic valve sticks after water contamination. What should be serviced?",
+    "options": [
+      "Filters, dryers, drains, and valve",
+      "Gearbox only",
+      "Hydraulic relief valve",
+      "Conveyor pulley"
+    ],
+    "answer": 0,
+    "explanation": "Water causes corrosion and sticking. Air preparation equipment removes moisture. The contaminated valve may need cleaning or replacement."
+  },
+  {
+    "id": 86,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A pneumatic actuator has low force even though it moves normally. What should be checked first?",
+    "options": [
+      "Supply pressure",
+      "Gear backlash",
+      "Pump NPSH",
+      "Wire rope clips"
+    ],
+    "answer": 0,
+    "explanation": "Pneumatic force depends on pressure and piston area. Low pressure gives low force. Flow affects speed more than force."
+  },
+  {
+    "id": 87,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A pneumatic lubricator is empty on a tool circuit that requires oil mist. What can happen?",
+    "options": [
+      "Tool wear and sticking",
+      "Higher tool life always",
+      "Lower air use",
+      "Better drying"
+    ],
+    "answer": 0,
+    "explanation": "Some pneumatic tools require oil mist. Lack of lubrication causes wear and poor operation. Not all modern components require lubrication, so specifications matter."
+  },
+  {
+    "id": 88,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "A vacuum generator has a plugged exhaust muffler. What can happen?",
+    "options": [
+      "Reduced vacuum performance",
+      "Higher vacuum always",
+      "No air use",
+      "More holding force"
+    ],
+    "answer": 0,
+    "explanation": "Venturi vacuum generators need free air exhaust. Restriction reduces flow and vacuum generation. Mufflers must be kept clean."
+  },
+  {
+    "id": 89,
+    "category": "Task 22 — Pneumatic and vacuum systems",
+    "question": "An air line is disconnected without bleeding pressure. What is the hazard?",
+    "options": [
+      "Hose whip and sudden energy release",
+      "Better pressure control",
+      "Lower noise",
+      "No hazard"
+    ],
+    "answer": 0,
+    "explanation": "Compressed air stores energy. Sudden release can whip hoses and eject fittings. Lines must be isolated and depressurized."
+  },
+  {
+    "id": 90,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A vibration trend shows a sudden increase after a coupling replacement. What should be checked?",
+    "options": [
+      "Alignment, balance, and coupling installation",
+      "Tank paint",
+      "Air dryer drain only",
+      "Pipe label"
+    ],
+    "answer": 0,
+    "explanation": "A sudden vibration change after work suggests installation-related fault. Coupling alignment, fit, and balance are common causes. Trend changes should be investigated quickly."
+  },
+  {
+    "id": 91,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "Oil analysis shows high silicon in a gearbox. What does this often indicate?",
+    "options": [
+      "Dirt contamination",
+      "Perfect oil",
+      "Too much fresh oil",
+      "Low load"
+    ],
+    "answer": 0,
+    "explanation": "Silicon often points to dust or dirt entry. Abrasive contamination accelerates wear. Seals, breathers, and handling practices should be checked."
+  },
+  {
+    "id": 92,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "An infrared scan shows a belt sheave much hotter than others. What could cause this?",
+    "options": [
+      "Belt slip or misalignment",
+      "Perfect drive condition",
+      "Low friction",
+      "Correct belt tension always"
+    ],
+    "answer": 0,
+    "explanation": "Slip creates friction heat. Misalignment also heats belts and sheaves. Infrared findings should lead to mechanical inspection."
+  },
+  {
+    "id": 93,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A 40-tooth gear rotates at 600 rpm. What is gear pass frequency?",
+    "options": [
+      "600 cycles/min",
+      "6000 cycles/min",
+      "24,000 cycles/min",
+      "40,600 cycles/min"
+    ],
+    "answer": 2,
+    "explanation": "Gear pass frequency = rpm × teeth. 600 × 40 = 24,000 cycles/min. This helps identify gear mesh vibration."
+  },
+  {
+    "id": 94,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A PM program keeps replacing bearings every 6 months, but failures still happen early. What is needed?",
+    "options": [
+      "Root cause analysis",
+      "More random replacement",
+      "Less documentation",
+      "Ignore failures"
+    ],
+    "answer": 0,
+    "explanation": "Repeated early failures indicate an unresolved cause. Lubrication, alignment, contamination, load, and installation should be reviewed. PM must address causes, not only symptoms."
+  },
+  {
+    "id": 95,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A grease route shows “two pumps” for a bearing, but different grease guns deliver different amounts. What is the issue?",
+    "options": [
+      "Grease quantity may be inconsistent",
+      "All grease guns are identical",
+      "More grease is always better",
+      "Bearing does not need grease"
+    ],
+    "answer": 0,
+    "explanation": "Grease gun output varies by model. “Pumps” may not equal a precise volume. Critical lubrication should specify amount by volume or weight."
+  },
+  {
+    "id": 96,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A bearing temperature slowly trends upward after a belt was retensioned. What should be checked?",
+    "options": [
+      "Belt over-tension and alignment",
+      "Tank vent only",
+      "Gear tooth count",
+      "Air receiver drain"
+    ],
+    "answer": 0,
+    "explanation": "Over-tensioned belts overload bearings. Misalignment also creates heat. Trending helps connect changes to developing faults."
+  },
+  {
+    "id": 97,
+    "category": "Task 23 — Preventive and predictive maintenance",
+    "question": "A maintenance history shows repeated hydraulic filter plugging after hose failure. What should be done?",
+    "options": [
+      "Clean system and investigate contamination source",
+      "Remove filter",
+      "Ignore indicator",
+      "Increase relief pressure"
+    ],
+    "answer": 0,
+    "explanation": "Hose failure can release particles into oil. Repeated plugging means contamination remains. Cleaning prevents damage to pumps and valves."
+  },
+  {
+    "id": 98,
+    "category": "Task 24 — Commissioning and decommissioning",
+    "question": "A repaired pump is ready for startup. Which check is most important before energizing?",
+    "options": [
+      "Rotation, prime, lubrication, alignment, guards, and valve lineup",
+      "Paint dryness only",
+      "Operator preference",
+      "Room temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning verifies safe operating conditions. Wrong rotation, no prime, or closed valves can damage equipment. Guards and lubrication must be in place."
+  },
+  {
+    "id": 99,
+    "category": "Task 24 — Commissioning and decommissioning",
+    "question": "A decommissioned hydraulic machine still has an accumulator installed. What must happen?",
+    "options": [
+      "Stored pressure must be safely discharged and verified",
+      "Leave it charged",
+      "Cut the lines immediately",
+      "Remove labels"
+    ],
+    "answer": 0,
+    "explanation": "Accumulators retain energy after shutdown. Pressure can release unexpectedly during dismantling. Decommissioning must control stored energy."
+  },
+  {
+    "id": 100,
+    "category": "Task 24 — Commissioning and decommissioning",
+    "question": "During commissioning, a machine shows abnormal vibration during the first run. What should be done?",
+    "options": [
+      "Stop and investigate before continuing",
+      "Run until it smooths out",
+      "Increase speed",
+      "Remove the guard to observe closely while running"
+    ],
+    "answer": 0,
+    "explanation": "Abnormal vibration can indicate misalignment, imbalance, loose parts, or bearing problems. Continuing may cause major damage. Initial startup should be monitored and controlled."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledIndustrialMechanicMillwrightRedSealSet3Questions =
+  shuffleArray(industrialMechanicMillwrightRedSealSet3Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "industrial-mechanic-millwright",
+  tradeTitle: "Industrial Mechanic Millwright",
+  sectionTitle: "Red Seal Practice Exam Set 3 —  Fast Prep",
+  questionTimeSeconds: 90,
+  questions: shuffledIndustrialMechanicMillwrightRedSealSet3Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

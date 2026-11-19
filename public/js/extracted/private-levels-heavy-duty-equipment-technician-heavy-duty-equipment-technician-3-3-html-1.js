@@ -1,0 +1,1135 @@
+const heavyMechanicalTradesCommonCoreLevel3Set3Questions = [
+      {
+            "id": 1,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A dozer engine runs normally, but the tracks barely move under load. Which basic powertrain idea is most important?",
+            "options": [
+                  "Power must be transferred as usable torque",
+                  "Coolant must be colder",
+                  "Batteries must be larger",
+                  "Exhaust must be quieter"
+            ],
+            "answer": 0,
+            "explanation": "The engine may produce power, but that power must reach the tracks. Loss of torque can happen through clutches, transmission, converter, or final drives. Diagnosis should follow the power flow path."
+      },
+      {
+            "id": 2,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A machine has low travel speed but strong pulling force. What does this usually show?",
+            "options": [
+                  "Gear reduction is increasing torque",
+                  "Gear reduction is increasing speed only",
+                  "Battery voltage is low",
+                  "PTO is slipping"
+            ],
+            "answer": 0,
+            "explanation": "Gear reduction lowers speed and increases torque. Heavy equipment uses reduction to move heavy loads. Final drives and low gears are common examples."
+      },
+      {
+            "id": 3,
+            "category": "I1 — Describe power transfer systems",
+            "question": "An operator complains of a loud clunk when changing direction from forward to reverse. What powertrain condition may be excessive?",
+            "options": [
+                  "Backlash or driveline looseness",
+                  "Coolant concentration",
+                  "Alternator ripple",
+                  "Air filter restriction"
+            ],
+            "answer": 0,
+            "explanation": "Backlash is clearance between powertrain parts. Too much clearance can cause clunks during torque reversal. Splines, U-joints, gears, and mounts should be checked."
+      },
+      {
+            "id": 4,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A machine turns tightly on pavement and the tires scrub badly. Which component normally prevents this?",
+            "options": [
+                  "Differential",
+                  "Torque converter",
+                  "Radiator",
+                  "PTO clutch"
+            ],
+            "answer": 0,
+            "explanation": "The differential allows wheels to rotate at different speeds. During turning, the outside wheel travels farther. Without differential action, tire scrub and drivetrain stress increase."
+      },
+      {
+            "id": 5,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A shaft uses splines instead of a smooth round connection. Why?",
+            "options": [
+                  "To transfer torque without slipping",
+                  "To cool the shaft",
+                  "To increase battery output",
+                  "To filter oil"
+            ],
+            "answer": 0,
+            "explanation": "Splines lock rotating parts together. They allow torque transfer between shafts and hubs. Worn splines can cause clunks or loss of drive."
+      },
+      {
+            "id": 6,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A transfer case has high and low range. What is low range mainly used for?",
+            "options": [
+                  "More torque at lower speed",
+                  "More speed with less torque",
+                  "Charging the battery",
+                  "Reducing coolant pressure"
+            ],
+            "answer": 0,
+            "explanation": "Low range provides gear reduction. Reduction increases torque for pulling or climbing. It is useful for heavy loads and rough conditions."
+      },
+      {
+            "id": 7,
+            "category": "I1 — Describe power transfer systems",
+            "question": "A technician is tracing power flow from engine to wheels. Which order is most logical?",
+            "options": [
+                  "Engine, clutch/converter, transmission, driveline, axle/final drive",
+                  "Battery, radiator, axle, cab, tires",
+                  "Fuel tank, alternator, PTO, brakes",
+                  "Winch, seat, coolant, engine"
+            ],
+            "answer": 0,
+            "explanation": "Power flow starts at the engine. It passes through coupling, transmission, shafts, and axle/final drives. Following this path helps diagnose loss of drive."
+      },
+      {
+            "id": 8,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A truck engine speeds up, but road speed does not increase under load. What is likely?",
+            "options": [
+                  "Clutch slipping",
+                  "Clutch dragging",
+                  "Differential locked",
+                  "Driveshaft balanced"
+            ],
+            "answer": 0,
+            "explanation": "Slipping means the clutch cannot hold torque. Engine rpm rises without matching vehicle speed. Worn friction material or weak clamping force may cause it."
+      },
+      {
+            "id": 9,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A machine grinds when selecting gear with the clutch pedal fully depressed. What may be happening?",
+            "options": [
+                  "Clutch is not fully releasing",
+                  "Clutch is slipping under load",
+                  "Axle oil is too clean",
+                  "Final drive has too much torque"
+            ],
+            "answer": 0,
+            "explanation": "A dragging clutch keeps the input shaft turning. This causes gear clash when shifting. Check clutch adjustment, hydraulics, pilot bearing, and linkage."
+      },
+      {
+            "id": 10,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A clutch was replaced, but the pedal has almost no free play. What is the risk?",
+            "options": [
+                  "Premature release bearing wear and clutch slip",
+                  "Better clutch life",
+                  "Lower transmission temperature",
+                  "Higher axle torque"
+            ],
+            "answer": 0,
+            "explanation": "No free play can keep the release bearing loaded. This may reduce pressure plate clamping force. The clutch can slip and overheat."
+      },
+      {
+            "id": 11,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A dry clutch disc is oily after removal. What should be repaired before installing a new disc?",
+            "options": [
+                  "Source of oil leak",
+                  "Battery ground",
+                  "Radiator cap",
+                  "Tire valve stem"
+            ],
+            "answer": 0,
+            "explanation": "Oil contamination causes slipping or chatter. Replacing only the disc may not fix the problem. Rear main seal or transmission input seal should be checked."
+      },
+      {
+            "id": 12,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A clutch pedal feels soft and release travel is low. Which system should be checked?",
+            "options": [
+                  "Hydraulic clutch system for air or leaks",
+                  "Differential carrier preload",
+                  "Final drive backlash",
+                  "Winch brake lining"
+            ],
+            "answer": 0,
+            "explanation": "Air compresses in hydraulic clutch systems. Leaks or air reduce release travel. Bleeding and leak inspection are needed."
+      },
+      {
+            "id": 13,
+            "category": "I2 — Service, diagnose, and repair clutches",
+            "question": "A pilot bearing fails and seizes. What symptom may appear?",
+            "options": [
+                  "Hard shifting even with clutch depressed",
+                  "Automatic transmission overheating",
+                  "Axle seal leakage",
+                  "PTO overspeed"
+            ],
+            "answer": 0,
+            "explanation": "A seized pilot bearing can keep the input shaft spinning. This prevents clean clutch release. Gear clash and difficult shifting can result."
+      },
+      {
+            "id": 14,
+            "category": "I3 — Manual transmissions",
+            "question": "A manual transmission grinds only going into third gear. What is the most likely internal fault?",
+            "options": [
+                  "Third gear synchronizer wear",
+                  "Failed final drive seal",
+                  "Low battery voltage",
+                  "PTO clutch stuck on"
+            ],
+            "answer": 0,
+            "explanation": "A single gear grinding issue often points to its synchronizer. The synchronizer may not match gear speed. Clutch drag and linkage should still be checked."
+      },
+      {
+            "id": 15,
+            "category": "I3 — Manual transmissions",
+            "question": "A manual transmission jumps out of gear on deceleration. What should be inspected?",
+            "options": [
+                  "Engagement teeth, shift fork, detents, and bearings",
+                  "Fuel injectors",
+                  "Brake lights",
+                  "Coolant thermostat"
+            ],
+            "answer": 0,
+            "explanation": "Deceleration reverses torque through the gears. Worn engagement teeth or shaft movement can push the gear out. Shift components and bearing end play matter."
+      },
+      {
+            "id": 16,
+            "category": "I3 — Manual transmissions",
+            "question": "A transmission is noisy in neutral with the clutch released, but quiet with the clutch depressed. What is likely rotating when noisy?",
+            "options": [
+                  "Input shaft/countershaft",
+                  "Drive axle only",
+                  "Wheel bearings only",
+                  "PTO output only"
+            ],
+            "answer": 0,
+            "explanation": "With clutch released, the transmission input shaft turns. Bearings or gears in that section may make noise. Depressing the clutch stops input rotation."
+      },
+      {
+            "id": 17,
+            "category": "I3 — Manual transmissions",
+            "question": "A technician drains manual transmission oil and finds large steel chips. What should be done?",
+            "options": [
+                  "Inspect internal gears and bearings",
+                  "Refill and ignore",
+                  "Add coolant",
+                  "Tighten wheel nuts only"
+            ],
+            "answer": 0,
+            "explanation": "Large steel chips are not normal wear. They can indicate gear or bearing failure. Further inspection prevents complete breakdown."
+      },
+      {
+            "id": 18,
+            "category": "I3 — Manual transmissions",
+            "question": "A shift lever feels loose and does not fully select gears. What should be checked first?",
+            "options": [
+                  "Shift linkage and external controls",
+                  "Engine compression",
+                  "Battery state",
+                  "Winch drum"
+            ],
+            "answer": 0,
+            "explanation": "External linkage wear can mimic internal transmission faults. Incomplete selection can cause gear clash or jumping out. Check external controls before teardown."
+      },
+      {
+            "id": 19,
+            "category": "I3 — Manual transmissions",
+            "question": "A transmission is hard to shift when cold but improves warm. What is a likely cause?",
+            "options": [
+                  "Incorrect or too-thick lubricant",
+                  "Broken axle shaft",
+                  "Low tire pressure",
+                  "Alternator overcharge"
+            ],
+            "answer": 0,
+            "explanation": "Thick oil slows synchronizer action. Cold temperature makes wrong viscosity worse. Use the manufacturer-specified lubricant."
+      },
+      {
+            "id": 20,
+            "category": "I3 — Manual transmissions",
+            "question": "A synchronizer ring is polished smooth and worn. What symptom is expected?",
+            "options": [
+                  "Gear clash during shifting",
+                  "Better shifting",
+                  "Higher clutch pressure",
+                  "Final drive overheating only"
+            ],
+            "answer": 0,
+            "explanation": "Synchronizer rings need friction to match speeds. Worn rings cannot slow or speed gears properly. Gear grinding can result."
+      },
+      {
+            "id": 21,
+            "category": "I3 — Manual transmissions",
+            "question": "A manual transmission bearing is set with too much preload. What can happen?",
+            "options": [
+                  "Bearing overheating",
+                  "Better bearing life always",
+                  "Lower gear temperature",
+                  "More backlash only"
+            ],
+            "answer": 0,
+            "explanation": "Excess preload creates extra friction. Friction creates heat and bearing damage. Preload must match specifications."
+      },
+      {
+            "id": 22,
+            "category": "I3 — Manual transmissions",
+            "question": "A technician finds bronze material in the oil. What component may be wearing?",
+            "options": [
+                  "Synchronizer parts",
+                  "Driveshaft tube",
+                  "Steel ring gear",
+                  "Battery terminal"
+            ],
+            "answer": 0,
+            "explanation": "Bronze or brass debris often comes from synchronizer components. Material colour helps identify wear source. The transmission should be inspected if debris is excessive."
+      },
+      {
+            "id": 23,
+            "category": "I3 — Manual transmissions",
+            "question": "A case crack near a bearing bore can cause what problem?",
+            "options": [
+                  "Shaft misalignment and oil leakage",
+                  "Higher battery voltage",
+                  "Better gear mesh",
+                  "Stronger synchronizer action"
+            ],
+            "answer": 0,
+            "explanation": "The case supports shafts and bearings. Cracks can change alignment or leak lubricant. Structural damage can lead to repeat failure."
+      },
+      {
+            "id": 24,
+            "category": "I4 — Automated transmissions",
+            "question": "An automated transmission will not engage gear, and scan data shows clutch position unknown. What is likely affected?",
+            "options": [
+                  "Clutch position sensor or calibration",
+                  "Final drive oil level",
+                  "Winch cable wrap",
+                  "Axle backlash only"
+            ],
+            "answer": 0,
+            "explanation": "The controller needs clutch position to engage safely. A bad signal can prevent gear selection. Sensor wiring and calibration should be checked."
+      },
+      {
+            "id": 25,
+            "category": "I4 — Automated transmissions",
+            "question": "After clutch actuator replacement, the machine shifts harshly. What may have been missed?",
+            "options": [
+                  "Clutch learn/calibration",
+                  "Axle oil change",
+                  "PTO shaft timing",
+                  "Tire rotation"
+            ],
+            "answer": 0,
+            "explanation": "Automated systems need learned actuator positions. New parts change travel and engagement points. Calibration restores proper shift control."
+      },
+      {
+            "id": 26,
+            "category": "I4 — Automated transmissions",
+            "question": "A TCU has no communication at the DLC. Other modules communicate normally. What should be checked?",
+            "options": [
+                  "TCU power, ground, and data link wiring",
+                  "Radiator pressure",
+                  "Manual clutch disc",
+                  "Winch brake"
+            ],
+            "answer": 0,
+            "explanation": "One module offline often has its own power, ground, or network fault. The DLC is the scan tool access point. Check TCU circuits before replacement."
+      },
+      {
+            "id": 27,
+            "category": "I4 — Automated transmissions",
+            "question": "A transmission actuator works sometimes, but fails on rough ground. What is most likely?",
+            "options": [
+                  "Intermittent wiring or connector issue",
+                  "Final drive gear ratio",
+                  "Coolant concentration",
+                  "Ring gear backlash only"
+            ],
+            "answer": 0,
+            "explanation": "Vibration-sensitive faults usually involve wiring or terminals. Loose connectors can open briefly over bumps. Wiggle testing may reproduce the fault."
+      },
+      {
+            "id": 28,
+            "category": "I4 — Automated transmissions",
+            "question": "A missing output speed sensor signal can cause:",
+            "options": [
+                  "Shift inhibit or limp mode",
+                  "Stronger clutch engagement always",
+                  "Better fuel economy always",
+                  "Higher final drive torque"
+            ],
+            "answer": 0,
+            "explanation": "The TCU uses speed signals to control shifts. Missing data can make gear selection unsafe. The controller may limit operation."
+      },
+      {
+            "id": 29,
+            "category": "I4 — Automated transmissions",
+            "question": "An automated transmission has low air supply pressure. What symptom is likely?",
+            "options": [
+                  "Slow or failed shift actuator movement",
+                  "More engine torque",
+                  "Cleaner transmission oil",
+                  "Higher axle speed"
+            ],
+            "answer": 0,
+            "explanation": "Some automated transmissions use air-operated actuators. Low air pressure prevents full or fast movement. Leaks and supply pressure should be checked."
+      },
+      {
+            "id": 30,
+            "category": "I4 — Automated transmissions",
+            "question": "The TCU commands neutral even though the operator selects drive. Which condition could cause this?",
+            "options": [
+                  "Safety interlock not satisfied",
+                  "Final drive gear reduction too high",
+                  "Manual transmission synchronizer worn",
+                  "Winch cable too loose"
+            ],
+            "answer": 0,
+            "explanation": "The TCU may block engagement for safety. Seat, brake, door, clutch, or neutral inputs may affect logic. Scan data shows interlock status."
+      },
+      {
+            "id": 31,
+            "category": "I4 — Automated transmissions",
+            "question": "A gear position sensor reports two gears selected at once. What may the controller do?",
+            "options": [
+                  "Disable shifting or set fault mode",
+                  "Increase travel speed",
+                  "Apply differential lock",
+                  "Engage PTO automatically"
+            ],
+            "answer": 0,
+            "explanation": "Conflicting gear data is unsafe. The controller may stop shifting to protect the transmission. Sensor and shift rail position must be checked."
+      },
+      {
+            "id": 32,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A machine delays before moving after selecting drive. Fluid level is correct. What may be the cause?",
+            "options": [
+                  "Internal leakage or low apply pressure",
+                  "Differential lock engaged",
+                  "PTO cable too short",
+                  "Winch brake dragging only"
+            ],
+            "answer": 0,
+            "explanation": "Drive engagement requires clutch apply pressure. Seal leakage or pressure control problems can delay engagement. Pressure testing is needed."
+      },
+      {
+            "id": 33,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A torque converter stall test shows rpm higher than specification. What does this suggest?",
+            "options": [
+                  "Transmission slip or converter fault",
+                  "Engine power too low only",
+                  "Final drive oil too thick",
+                  "PTO engaged normally"
+            ],
+            "answer": 0,
+            "explanation": "High stall rpm can mean the load is not being held. Transmission clutch slip may allow rpm to rise. The test must be stopped quickly to prevent overheating."
+      },
+      {
+            "id": 34,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A torque converter stall test shows rpm lower than specification. What may be wrong?",
+            "options": [
+                  "Engine power low or converter stator fault",
+                  "Transmission clutch always slipping",
+                  "Battery overcharged",
+                  "Axle oil low only"
+            ],
+            "answer": 0,
+            "explanation": "Low stall rpm can indicate weak engine output. A stator problem can also reduce converter torque multiplication. Engine performance should be verified."
+      },
+      {
+            "id": 35,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "Automatic transmission fluid is foamy. What problem can this cause?",
+            "options": [
+                  "Unstable hydraulic pressure",
+                  "Better clutch apply",
+                  "More gear reduction",
+                  "Less heat always"
+            ],
+            "answer": 0,
+            "explanation": "Air in fluid compresses and disrupts pressure. Clutches may slip or apply erratically. Low oil level, overfill, or suction leaks may cause foam."
+      },
+      {
+            "id": 36,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A torque converter lock-up clutch shudders during apply. What should be checked?",
+            "options": [
+                  "Fluid condition and lock-up control",
+                  "Manual clutch free play",
+                  "Ring gear backlash only",
+                  "Winch cable strands"
+            ],
+            "answer": 0,
+            "explanation": "Lock-up shudder often involves fluid friction quality. Pressure control or converter clutch issues may also cause it. Correct fluid is critical."
+      },
+      {
+            "id": 37,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "Line pressure is low in all automatic transmission ranges. What is most likely a common cause?",
+            "options": [
+                  "Pump, filter, regulator, or suction problem",
+                  "One axle shaft broken",
+                  "One U-joint worn",
+                  "Winch brake weak"
+            ],
+            "answer": 0,
+            "explanation": "Low pressure in all ranges points to the main pressure source. The pump, filter, regulator, or suction circuit affects all clutches. Start with fluid level and pressure tests."
+      },
+      {
+            "id": 38,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "One gear slips, but other gears are normal. What is most likely?",
+            "options": [
+                  "Specific clutch pack or hydraulic circuit fault",
+                  "Main pump failure only",
+                  "Battery low",
+                  "Transfer case chain loose"
+            ],
+            "answer": 0,
+            "explanation": "Different gears use different clutch combinations. One-gear slip points to the related apply element. Use a clutch application chart."
+      },
+      {
+            "id": 39,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "Transmission overheats during heavy pushing. What should be checked?",
+            "options": [
+                  "Converter load, cooler flow, fluid level, and clutch slip",
+                  "Headlight fuse",
+                  "Seat switch",
+                  "Fuel cap"
+            ],
+            "answer": 0,
+            "explanation": "Heavy load creates heat in the converter and clutches. Poor cooler flow makes overheating worse. Fluid level and pressure must be correct."
+      },
+      {
+            "id": 40,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A transmission cooler has coolant and oil mixing internally. What is the risk?",
+            "options": [
+                  "Transmission clutch and bearing damage",
+                  "Better cooling",
+                  "Higher friction quality",
+                  "Stronger converter lock-up"
+            ],
+            "answer": 0,
+            "explanation": "Coolant contaminates transmission fluid. Contamination damages friction materials and bearings. The cooler and transmission must be serviced properly."
+      },
+      {
+            "id": 41,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A torque converter stator one-way clutch fails to hold. What symptom is likely?",
+            "options": [
+                  "Poor low-speed pulling power",
+                  "Higher torque multiplication",
+                  "Better launch performance",
+                  "Lower fuel use always"
+            ],
+            "answer": 0,
+            "explanation": "The stator must hold to redirect oil flow. If it freewheels, torque multiplication is reduced. The machine feels weak at takeoff."
+      },
+      {
+            "id": 42,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A plugged transmission vent can cause fluid leaks because:",
+            "options": [
+                  "Pressure builds as temperature rises",
+                  "Oil becomes thicker forever",
+                  "Clutches apply harder always",
+                  "Cooler flow doubles"
+            ],
+            "answer": 0,
+            "explanation": "Heat expands air and fluid vapour in the case. A plugged vent traps pressure. Pressure can force oil past seals."
+      },
+      {
+            "id": 43,
+            "category": "I5 — Automatic transmissions and torque converters",
+            "question": "A transmission pressure control solenoid sticks high. What symptom may occur?",
+            "options": [
+                  "Harsh shifts",
+                  "No engine oil pressure",
+                  "Broken axle shaft",
+                  "PTO no engagement only"
+            ],
+            "answer": 0,
+            "explanation": "High apply pressure can make clutch engagement harsh. Solenoids control hydraulic pressure and shift feel. Electrical and hydraulic tests are needed."
+      },
+      {
+            "id": 44,
+            "category": "I6 — Power shift transmissions",
+            "question": "A wheel loader has no forward gears but reverse works. What should be tested?",
+            "options": [
+                  "Forward clutch pressure and control circuit",
+                  "Radiator cap pressure",
+                  "Manual clutch pedal free play",
+                  "Winch brake hold"
+            ],
+            "answer": 0,
+            "explanation": "Reverse operation proves the machine has some power flow. No forward points to the forward clutch system. Check solenoid command and hydraulic pressure."
+      },
+      {
+            "id": 45,
+            "category": "I6 — Power shift transmissions",
+            "question": "A powershift transmission engages harshly after a solenoid replacement. What may be required?",
+            "options": [
+                  "Calibration or modulation check",
+                  "Axle shaft replacement",
+                  "Driveshaft balance only",
+                  "PTO gear replacement"
+            ],
+            "answer": 0,
+            "explanation": "Powershift clutches need controlled apply pressure. Solenoid changes may affect modulation. Calibration and pressure testing confirm proper operation."
+      },
+      {
+            "id": 46,
+            "category": "I6 — Power shift transmissions",
+            "question": "A pressure test shows correct main pressure but low pressure at clutch C2. What is likely?",
+            "options": [
+                  "Leakage or restriction in C2 circuit",
+                  "Main pump failure",
+                  "Battery overcharge",
+                  "Final drive gear failure only"
+            ],
+            "answer": 0,
+            "explanation": "Correct main pressure proves supply pressure exists. Low pressure at one clutch points to a local problem. Seals, valves, solenoids, or passages may leak."
+      },
+      {
+            "id": 47,
+            "category": "I6 — Power shift transmissions",
+            "question": "A powershift machine slips only when hot. What condition may worsen with heat?",
+            "options": [
+                  "Internal leakage",
+                  "Battery size",
+                  "Tire tread depth",
+                  "Coolant colour"
+            ],
+            "answer": 0,
+            "explanation": "Hot oil is thinner. Worn seals or clutch circuits leak more when hot. Hot pressure testing is important."
+      },
+      {
+            "id": 48,
+            "category": "I6 — Power shift transmissions",
+            "question": "A powershift transmission filter has heavy black friction material. What does this suggest?",
+            "options": [
+                  "Clutch pack wear or failure",
+                  "Normal clean oil",
+                  "Final drive water leak only",
+                  "Driveshaft imbalance"
+            ],
+            "answer": 0,
+            "explanation": "Friction material comes from clutch plates. Heavy debris means internal clutch wear. Further inspection is required."
+      },
+      {
+            "id": 49,
+            "category": "I6 — Power shift transmissions",
+            "question": "A speed sensor signal drops out, and the transmission shifts unpredictably. Why?",
+            "options": [
+                  "Controller loses speed information for shift timing",
+                  "Clutches become stronger",
+                  "Oil cooler improves flow",
+                  "PTO disengages mechanically"
+            ],
+            "answer": 0,
+            "explanation": "The controller uses speed data for gear decisions. Missing or erratic data can cause poor shift control. Sensor gap, wiring, and tone wheel should be checked."
+      },
+      {
+            "id": 50,
+            "category": "I6 — Power shift transmissions",
+            "question": "A machine overheats transmission oil while roading, but not while idling. What should be checked?",
+            "options": [
+                  "Clutch slip, converter operation, and cooler performance",
+                  "Battery hold-down",
+                  "Cab heater valve",
+                  "Winch drum wrap"
+            ],
+            "answer": 0,
+            "explanation": "Roading creates sustained powertrain heat. Slip or poor converter efficiency can overheat oil. Cooler flow must also be verified."
+      },
+      {
+            "id": 51,
+            "category": "I6 — Power shift transmissions",
+            "question": "A powershift clutch apply pressure rises slowly. What symptom is likely?",
+            "options": [
+                  "Slipping during engagement",
+                  "Instant full torque",
+                  "Better shift quality always",
+                  "More final drive reduction"
+            ],
+            "answer": 0,
+            "explanation": "Slow pressure rise delays clutch holding force. The clutch may slip while applying. Modulation, leakage, or valve problems are possible."
+      },
+      {
+            "id": 52,
+            "category": "I6 — Power shift transmissions",
+            "question": "The transmission controller commands second gear, but actual ratio indicates first gear. What does this show?",
+            "options": [
+                  "Gear ratio error or shift failure",
+                  "Correct operation",
+                  "Low coolant only",
+                  "Winch brake dragging only"
+            ],
+            "answer": 0,
+            "explanation": "Commanded gear and calculated ratio should match. Mismatch means the commanded clutch combination did not occur. This may set a fault or limp mode."
+      },
+      {
+            "id": 53,
+            "category": "I7 — Drivelines",
+            "question": "A vibration appears only at certain road speed. What should be inspected?",
+            "options": [
+                  "Driveshaft balance, U-joints, and phasing",
+                  "Coolant cap",
+                  "PTO switch only",
+                  "Clutch pedal pad"
+            ],
+            "answer": 0,
+            "explanation": "Speed-related vibration often comes from rotating imbalance. U-joints and phasing affect driveline smoothness. Driveshaft damage or missing weights should be checked."
+      },
+      {
+            "id": 54,
+            "category": "I7 — Drivelines",
+            "question": "A U-joint has red rust powder around the bearing cap. What does this indicate?",
+            "options": [
+                  "Dry or failing joint",
+                  "Proper lubrication",
+                  "New bearing condition",
+                  "Correct phasing only"
+            ],
+            "answer": 0,
+            "explanation": "Rust powder often means needle bearing wear. Lack of lubrication causes heat and metal dust. The U-joint should be replaced."
+      },
+      {
+            "id": 55,
+            "category": "I7 — Drivelines",
+            "question": "A slip yoke does not move freely. What can happen during suspension travel?",
+            "options": [
+                  "Load transferred into transmission or axle bearings",
+                  "Better driveline life",
+                  "More coolant flow",
+                  "PTO output increases"
+            ],
+            "answer": 0,
+            "explanation": "The slip yoke allows driveshaft length changes. If seized, movement loads connected components. This can damage seals, bearings, or mounts."
+      },
+      {
+            "id": 56,
+            "category": "I7 — Drivelines",
+            "question": "A driveshaft is installed out of phase after repair. What is likely?",
+            "options": [
+                  "Driveline vibration",
+                  "Increased gear reduction",
+                  "Lower transmission temperature",
+                  "Stronger U-joints"
+            ],
+            "answer": 0,
+            "explanation": "Phasing aligns U-joint yokes correctly. Incorrect phasing causes speed fluctuation. That creates vibration."
+      },
+      {
+            "id": 57,
+            "category": "I7 — Drivelines",
+            "question": "A clunk occurs when shifting from drive to reverse. Which driveline part should be checked?",
+            "options": [
+                  "U-joints and slip splines",
+                  "Radiator fins",
+                  "Battery case",
+                  "Air cleaner"
+            ],
+            "answer": 0,
+            "explanation": "Direction changes reverse torque through the driveline. Loose joints or splines create clunks. Check for play with the driveline unloaded safely."
+      },
+      {
+            "id": 58,
+            "category": "I8 — Drive axles",
+            "question": "An axle whines on acceleration but is quiet on coast. What is likely involved?",
+            "options": [
+                  "Ring and pinion drive-side contact pattern",
+                  "Battery ground",
+                  "Winch drum",
+                  "Transmission vent only"
+            ],
+            "answer": 0,
+            "explanation": "Acceleration loads the drive side of gear teeth. Noise under drive points to gear contact or bearing setup. Backlash and pattern should be checked."
+      },
+      {
+            "id": 59,
+            "category": "I8 — Drive axles",
+            "question": "An axle whines on coast but not acceleration. What does that suggest?",
+            "options": [
+                  "Coast-side gear contact issue",
+                  "Starter solenoid issue",
+                  "PTO overspeed",
+                  "Clutch disc oil contamination only"
+            ],
+            "answer": 0,
+            "explanation": "Coast noise loads the opposite side of the gear teeth. This can show coast pattern or bearing issues. Gear setup measurements are needed."
+      },
+      {
+            "id": 60,
+            "category": "I8 — Drive axles",
+            "question": "A differential lock is left engaged on dry pavement. What can happen?",
+            "options": [
+                  "Tire scrub and drivetrain wind-up",
+                  "Better turning",
+                  "Lower axle stress",
+                  "Reduced tire wear"
+            ],
+            "answer": 0,
+            "explanation": "Locked wheels cannot rotate at different speeds. Turning on high traction surfaces creates stress. This can damage tires and drivetrain parts."
+      },
+      {
+            "id": 61,
+            "category": "I8 — Drive axles",
+            "question": "A pinion seal is replaced, and the technician over-tightens the pinion nut. What may be affected?",
+            "options": [
+                  "Pinion bearing preload",
+                  "Battery voltage",
+                  "Clutch pedal travel",
+                  "Winch line speed"
+            ],
+            "answer": 0,
+            "explanation": "Pinion nut torque can change bearing preload. Too much preload overheats bearings. Follow the correct seal replacement procedure."
+      },
+      {
+            "id": 62,
+            "category": "I8 — Drive axles",
+            "question": "Axle oil is leaking onto brake shoes. What must be addressed?",
+            "options": [
+                  "Seal leak and brake contamination",
+                  "Battery output only",
+                  "Driveshaft phase only",
+                  "Coolant strength only"
+            ],
+            "answer": 0,
+            "explanation": "Oil leaks reduce axle lubrication. Oil on brake linings reduces friction. Both the leak and brake components require attention."
+      },
+      {
+            "id": 63,
+            "category": "I8 — Drive axles",
+            "question": "A limited-slip differential chatters after an oil change. What is most likely?",
+            "options": [
+                  "Wrong oil or missing friction modifier",
+                  "Too much coolant",
+                  "Bad alternator",
+                  "Manual clutch drag"
+            ],
+            "answer": 0,
+            "explanation": "Limited-slip clutches need correct friction properties. Wrong lubricant causes chatter during turns. Use the specified oil and additive."
+      },
+      {
+            "id": 64,
+            "category": "I8 — Drive axles",
+            "question": "A ring gear backlash is too tight. What can happen?",
+            "options": [
+                  "Heat, noise, and gear damage",
+                  "Better gear life always",
+                  "No lubrication needed",
+                  "Lower bearing load always"
+            ],
+            "answer": 0,
+            "explanation": "Too little backlash causes binding as gears heat. This increases tooth load and temperature. Backlash must be set to specification."
+      },
+      {
+            "id": 65,
+            "category": "I8 — Drive axles",
+            "question": "A carrier bearing has excessive preload. What is the risk?",
+            "options": [
+                  "Bearing overheating and failure",
+                  "More backlash only",
+                  "Lower gear tooth load",
+                  "Better fuel economy always"
+            ],
+            "answer": 0,
+            "explanation": "Too much preload increases friction. Bearings can overheat and fail early. Preload must be measured correctly."
+      },
+      {
+            "id": 66,
+            "category": "I8 — Drive axles",
+            "question": "An axle breather is plugged and seals keep leaking. Why?",
+            "options": [
+                  "Housing pressure builds as oil heats",
+                  "Oil level is always too low",
+                  "Differential lock is always off",
+                  "Ring gear is too small"
+            ],
+            "answer": 0,
+            "explanation": "Heat expands air inside the axle housing. A plugged breather traps pressure. Pressure pushes oil past seals."
+      },
+      {
+            "id": 67,
+            "category": "I9 — Final drives",
+            "question": "A final drive oil sample shows shiny metal flakes. What should be suspected?",
+            "options": [
+                  "Gear or bearing wear",
+                  "Normal oil condition",
+                  "Correct break-in only",
+                  "Battery sulfation"
+            ],
+            "answer": 0,
+            "explanation": "Metal flakes indicate internal wear. Final drives carry heavy torque loads. Inspection is needed before complete failure."
+      },
+      {
+            "id": 68,
+            "category": "I9 — Final drives",
+            "question": "A planetary final drive uses planet gears mainly to:",
+            "options": [
+                  "Provide compact torque multiplication",
+                  "Charge the battery",
+                  "Apply clutch pedal force",
+                  "Filter hydraulic oil"
+            ],
+            "answer": 0,
+            "explanation": "Planetary gears provide strong reduction in compact space. They distribute load through multiple gears. This is common in heavy equipment final drives."
+      },
+      {
+            "id": 69,
+            "category": "I9 — Final drives",
+            "question": "A final drive overheats after repair. Oil level is correct. What should be checked?",
+            "options": [
+                  "Bearing preload, brake drag, and gear setup",
+                  "Headlight switch",
+                  "Seat belt buckle",
+                  "Fuel cap"
+            ],
+            "answer": 0,
+            "explanation": "Correct oil level does not rule out friction. Incorrect preload or dragging brakes create heat. Gear setup may also cause overheating."
+      },
+      {
+            "id": 70,
+            "category": "I9 — Final drives",
+            "question": "Final drive oil is milky. What does that mean?",
+            "options": [
+                  "Water contamination",
+                  "Correct lubrication",
+                  "New oil condition",
+                  "Low gear reduction"
+            ],
+            "answer": 0,
+            "explanation": "Milky oil usually means water mixed with oil. Water damages bearings and gears. The source of water entry must be found."
+      },
+      {
+            "id": 71,
+            "category": "I9 — Final drives",
+            "question": "A final drive seal fails repeatedly. What should also be checked?",
+            "options": [
+                  "Breather restriction and shaft/bearing condition",
+                  "Battery voltage",
+                  "PTO switch",
+                  "Clutch free play only"
+            ],
+            "answer": 0,
+            "explanation": "Seals can fail from pressure buildup. Worn bearings or shaft damage can also destroy seals. Do not replace the seal without finding the cause."
+      },
+      {
+            "id": 72,
+            "category": "I9 — Final drives",
+            "question": "A clicking noise occurs once per track revolution. What may cause it?",
+            "options": [
+                  "Damaged final drive gear tooth or bearing",
+                  "Low battery electrolyte",
+                  "Dirty cab filter",
+                  "Manual clutch wear only"
+            ],
+            "answer": 0,
+            "explanation": "Repeating noise often follows rotating parts. A chipped gear tooth or bearing flaw can click regularly. Inspection should be done before major failure."
+      },
+      {
+            "id": 73,
+            "category": "I9 — Final drives",
+            "question": "A final drive breather is blocked. What happens as temperature rises?",
+            "options": [
+                  "Internal pressure can force oil past seals",
+                  "Oil level increases safely",
+                  "Gear wear stops",
+                  "Torque decreases to zero"
+            ],
+            "answer": 0,
+            "explanation": "Final drive housings need pressure equalization. Blocked breathers trap expanding air. Seal leakage is a common result."
+      },
+      {
+            "id": 74,
+            "category": "I9 — Final drives",
+            "question": "A final drive has low oil and loud growling noise. What is likely damaged?",
+            "options": [
+                  "Bearings or gears",
+                  "Battery cables",
+                  "PTO switch",
+                  "Clutch pedal"
+            ],
+            "answer": 0,
+            "explanation": "Low oil causes poor lubrication. Bearings and gears overheat and wear. Growling usually indicates internal damage."
+      },
+      {
+            "id": 75,
+            "category": "I10 — Drivetrain retarders",
+            "question": "A retarder warning light comes on during a long downhill grade. What should the operator do?",
+            "options": [
+                  "Reduce retarder use and follow safe operating procedure",
+                  "Increase retarder to maximum",
+                  "Shift to neutral",
+                  "Ignore the warning"
+            ],
+            "answer": 0,
+            "explanation": "Retarders create heat while slowing the machine. Overheating can damage the retarder or fluid. Use proper gear, speed, and service brake strategy."
+      },
+      {
+            "id": 76,
+            "category": "I10 — Drivetrain retarders",
+            "question": "A hydraulic retarder does not apply. The switch works. What should be checked next?",
+            "options": [
+                  "Solenoid, control valve, pressure, and enable conditions",
+                  "Tire tread",
+                  "Radiator cap only",
+                  "Manual clutch disc"
+            ],
+            "answer": 0,
+            "explanation": "A working switch only proves the input. The retarder also needs output control and hydraulic operation. Enable conditions may prevent application."
+      },
+      {
+            "id": 77,
+            "category": "I11 — Winches",
+            "question": "A winch load slowly lowers even though the control is neutral. What is likely?",
+            "options": [
+                  "Holding brake or internal leakage fault",
+                  "Alternator overcharge",
+                  "Axle backlash",
+                  "Transmission synchronizer wear"
+            ],
+            "answer": 0,
+            "explanation": "The winch must hold load safely in neutral. Creeping indicates brake or hydraulic/mechanical leakage. This is a safety-critical fault."
+      },
+      {
+            "id": 78,
+            "category": "I11 — Winches",
+            "question": "A wire rope has bird-caging and broken wires. What is correct?",
+            "options": [
+                  "Remove it from service",
+                  "Use only for light loads",
+                  "Grease it heavily and reuse",
+                  "Cut off one wire only"
+            ],
+            "answer": 0,
+            "explanation": "Bird-caging and broken wires reduce rope strength. A failed rope can cause serious injury. Damaged wire rope must be replaced according to standards."
+      },
+      {
+            "id": 79,
+            "category": "I12 — PTOs and transfer cases",
+            "question": "A PTO grinds when engaged. What is likely?",
+            "options": [
+                  "Engagement speed mismatch or clutch drag",
+                  "Battery too large",
+                  "Final drive oil low only",
+                  "Winch cable worn"
+            ],
+            "answer": 0,
+            "explanation": "PTO gears must engage under correct conditions. If shafts are still rotating, grinding can occur. Check engagement procedure and clutch release."
+      },
+      {
+            "id": 80,
+            "category": "I12 — PTOs and transfer cases",
+            "question": "A transfer case pops out of low range under load. What should be inspected?",
+            "options": [
+                  "Shift linkage, detents, forks, and gear engagement teeth",
+                  "Battery posts",
+                  "Radiator fins",
+                  "PTO label"
+            ],
+            "answer": 0,
+            "explanation": "Range engagement must be held mechanically. Worn detents, forks, or teeth can allow disengagement. Linkage adjustment should be checked before teardown."
+      }
+];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledHeavyMechanicalTradesCommonCoreLevel3PowertrainsQuestions =
+      heavyMechanicalTradesCommonCoreLevel3PowertrainsQuestions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "heavy-mechanical-trades",
+      tradeTitle: "Heavy Mechanical Trades",
+      sectionTitle: "Common Core Level 3 – Set 3 Powertrains",
+      questionTimeSeconds: 90,
+      questions: shuffledHeavyMechanicalTradesCommonCoreLevel3PowertrainsQuestions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledHeavyMechanicalTradesCommonCoreLevel3PowertrainsQuestions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

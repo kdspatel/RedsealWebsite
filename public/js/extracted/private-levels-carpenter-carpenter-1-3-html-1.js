@@ -1,0 +1,1396 @@
+const carpenterLevel1Set3Questions = [
+  {
+    "id": 1,
+    "category": "A1 — Apply Shop and Site Safety Practices",
+    "question": "You arrive at a site and notice workers stepping over loose offcuts near the stair opening. What is the best first action?",
+    "options": [
+      "Keep working because offcuts are normal",
+      "Move the offcuts away from the access path",
+      "Tell only the apprentice to be careful",
+      "Cover the offcuts with plywood"
+    ],
+    "answer": 1,
+    "explanation": "Housekeeping prevents slips and trips. Access paths must stay clear. Hazards should be corrected immediately."
+  },
+  {
+    "id": 2,
+    "category": "A1 — Apply Shop and Site Safety Practices",
+    "question": "A circular saw cord has exposed copper but still runs. What should you do?",
+    "options": [
+      "Tape it quickly and keep cutting",
+      "Use it only outside",
+      "Remove it from service and report it",
+      "Hold the damaged part away from your body"
+    ],
+    "answer": 2,
+    "explanation": "Exposed wiring can shock or start a fire. Damaged tools must not be used. Reporting prevents another worker from using it."
+  },
+  {
+    "id": 3,
+    "category": "A1 — Apply Shop and Site Safety Practices",
+    "question": "A worker is cutting material while another worker stands directly behind the saw. What hazard is most likely?",
+    "options": [
+      "Concrete cracking",
+      "Kickback or flying material striking the worker",
+      "Wrong lumber grade",
+      "Low concrete slump"
+    ],
+    "answer": 1,
+    "explanation": "Kickback sends material backward. Workers should stay out of the line of fire. Safe positioning is part of tool safety."
+  },
+  {
+    "id": 4,
+    "category": "A2 — Apply Personal Safety Practices",
+    "question": "You are drilling overhead into concrete. What PPE is most important?",
+    "options": [
+      "Safety glasses only",
+      "Eye protection, hearing protection, hard hat, and respiratory protection as needed",
+      "Cotton gloves only",
+      "Rubber boots only"
+    ],
+    "answer": 1,
+    "explanation": "Overhead drilling creates dust and falling particles. Noise and head hazards are also present. PPE must match the task hazards."
+  },
+  {
+    "id": 5,
+    "category": "A2 — Apply Personal Safety Practices",
+    "question": "A heavy door must be moved through a narrow hallway. What is safest?",
+    "options": [
+      "Carry it alone to save time",
+      "Drag it across finished flooring",
+      "Use team lifting and communicate clearly",
+      "Balance it on one shoulder"
+    ],
+    "answer": 2,
+    "explanation": "Large items are awkward and can block vision. Team lifting reduces strain and impact risk. Clear commands prevent sudden movement."
+  },
+  {
+    "id": 6,
+    "category": "A2 — Apply Personal Safety Practices",
+    "question": "You feel dizzy while working in hot weather. What should you do?",
+    "options": [
+      "Keep working until break",
+      "Drink coffee and continue",
+      "Stop, move to shade, hydrate, and report symptoms",
+      "Remove all PPE permanently"
+    ],
+    "answer": 2,
+    "explanation": "Dizziness can indicate heat stress. Early action prevents serious illness. Symptoms should not be ignored. ---"
+  },
+  {
+    "id": 7,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "The plan shows a wall dimension of 3600 mm, but scaling the drawing gives 3550 mm. What should you use?",
+    "options": [
+      "3550 mm",
+      "3600 mm",
+      "Average of both",
+      "Ask the supplier"
+    ],
+    "answer": 1,
+    "explanation": "Written dimensions usually govern. Scaled dimensions may be distorted. Verify conflicts before building."
+  },
+  {
+    "id": 8,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A door symbol is shown on plan with an arc. What does the arc normally indicate?",
+    "options": [
+      "Door swing direction",
+      "Wall thickness",
+      "Concrete strength",
+      "Joist span"
+    ],
+    "answer": 0,
+    "explanation": "Door arcs show swing path. This helps locate hinges and clearance. Symbols must match the drawing legend."
+  },
+  {
+    "id": 9,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A carpenter needs the exact type of fastener for a hanger. Where is the best place to check?",
+    "options": [
+      "Drawing note, specification, or manufacturer instructions",
+      "Paint schedule",
+      "Window schedule only",
+      "Lunchroom notice board"
+    ],
+    "answer": 0,
+    "explanation": "Structural connectors need specified fasteners. Wrong fasteners reduce capacity. Manufacturer instructions are important."
+  },
+  {
+    "id": 10,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A stair looks comfortable but does not meet minimum code requirements. What is true?",
+    "options": [
+      "It is acceptable if the owner likes it",
+      "It must meet code requirements",
+      "It is acceptable if carpet is added",
+      "It only matters outdoors"
+    ],
+    "answer": 1,
+    "explanation": "Code requirements are minimum legal standards. Stairs are a life-safety concern. Comfort does not replace compliance."
+  },
+  {
+    "id": 11,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A building inspector asks to see work before it is covered. Why?",
+    "options": [
+      "To delay the project",
+      "To inspect hidden work for code compliance",
+      "To choose paint colours",
+      "To count tools"
+    ],
+    "answer": 1,
+    "explanation": "Some work becomes hidden later. Inspection confirms safety and compliance. Covering work too early can cause rework."
+  },
+  {
+    "id": 12,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A homeowner wants a bedroom window made smaller. What code issue might this affect?",
+    "options": [
+      "Egress or emergency escape",
+      "Saw blade size",
+      "Lumber colour",
+      "Nail brand"
+    ],
+    "answer": 0,
+    "explanation": "Bedroom windows may need egress size. Changing openings can affect safety. Code must be checked before alteration."
+  },
+  {
+    "id": 13,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A local bylaw limits building height. Which document or authority controls that requirement?",
+    "options": [
+      "Municipal bylaw or authority having jurisdiction",
+      "Tool manual",
+      "Lumber stamp",
+      "Concrete truck ticket"
+    ],
+    "answer": 0,
+    "explanation": "Bylaws control local land-use rules. The AHJ enforces local requirements. Drawings must comply with them."
+  },
+  {
+    "id": 14,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A fire-rated wall has gaps around a pipe penetration. What is the concern?",
+    "options": [
+      "The wall may not resist fire or smoke as intended",
+      "The wall becomes stronger",
+      "The pipe becomes level",
+      "The concrete cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Fire separations must be continuous. Gaps reduce fire and smoke resistance. Penetrations need approved sealing."
+  },
+  {
+    "id": 15,
+    "category": "B3 — Plan and Organize Work",
+    "question": "You must frame a wall after plumbing rough-in. What should you do first?",
+    "options": [
+      "Cut all studs without checking",
+      "Coordinate layout with openings and services",
+      "Remove plumbing lines",
+      "Guess stud locations"
+    ],
+    "answer": 1,
+    "explanation": "Planning avoids conflicts with other trades. Openings and services affect framing. Coordination reduces rework."
+  },
+  {
+    "id": 16,
+    "category": "B4 — Perform Trade Math",
+    "question": "A room is 4.2 m long and 3.5 m wide. What is its area?",
+    "options": [
+      "7.7 m²",
+      "14.7 m²",
+      "15.4 m²",
+      "17.5 m²"
+    ],
+    "answer": 1,
+    "explanation": "Area = length × width. 4.2 × 3.5 = 14.7. The unit is square metres."
+  },
+  {
+    "id": 17,
+    "category": "B4 — Perform Trade Math",
+    "question": "A circle has radius 5 in. What is its area using π = 3.14?",
+    "options": [
+      "31.4 sq in.",
+      "78.5 sq in.",
+      "100 sq in.",
+      "157 sq in."
+    ],
+    "answer": 1,
+    "explanation": "Area = πr². 3.14 × 5² = 78.5. Radius is squared, not diameter."
+  },
+  {
+    "id": 18,
+    "category": "B4 — Perform Trade Math",
+    "question": "A rectangle is 9 ft by 12 ft. What is the diagonal?",
+    "options": [
+      "15 ft",
+      "18 ft",
+      "21 ft",
+      "24 ft"
+    ],
+    "answer": 0,
+    "explanation": "Use a² + b² = c². 9² + 12² = 225. √225 = 15 ft."
+  },
+  {
+    "id": 19,
+    "category": "B4 — Perform Trade Math",
+    "question": "A footing is 16 ft long, 2 ft wide, and 1 ft deep. What is the volume?",
+    "options": [
+      "19 cu ft",
+      "24 cu ft",
+      "32 cu ft",
+      "64 cu ft"
+    ],
+    "answer": 2,
+    "explanation": "Volume = length × width × height. 16 × 2 × 1 = 32. The answer is cubic feet."
+  },
+  {
+    "id": 20,
+    "category": "B4 — Perform Trade Math",
+    "question": "A triangle has base 14 ft and height 8 ft. What is the area?",
+    "options": [
+      "22 sq ft",
+      "56 sq ft",
+      "112 sq ft",
+      "224 sq ft"
+    ],
+    "answer": 1,
+    "explanation": "Area = 1/2 × base × height. 1/2 × 14 × 8 = 56. The answer is square feet."
+  },
+  {
+    "id": 21,
+    "category": "B4 — Perform Trade Math",
+    "question": "A board is 2.4 m long. How many millimetres is it?",
+    "options": [
+      "24 mm",
+      "240 mm",
+      "2400 mm",
+      "24000 mm"
+    ],
+    "answer": 2,
+    "explanation": "1 m = 1000 mm. 2.4 × 1000 = 2400. Metric conversions are common on drawings."
+  },
+  {
+    "id": 22,
+    "category": "B4 — Perform Trade Math",
+    "question": "A rectangle is 7 m long and 4 m wide. What is the perimeter?",
+    "options": [
+      "11 m",
+      "22 m",
+      "28 m",
+      "44 m"
+    ],
+    "answer": 1,
+    "explanation": "Perimeter = 2(length + width). 2(7 + 4) = 22. Perimeter is a linear measurement. ---"
+  },
+  {
+    "id": 23,
+    "category": "C1 — Use Hand Tools",
+    "question": "You need to mark a line square across a 2×6 quickly. Which tool is best?",
+    "options": [
+      "Speed square",
+      "Pry bar",
+      "Nail set",
+      "Handsaw"
+    ],
+    "answer": 0,
+    "explanation": "A speed square marks 90-degree cuts. It is quick for framing lumber. It can also help mark angles."
+  },
+  {
+    "id": 24,
+    "category": "C1 — Use Hand Tools",
+    "question": "A hammer face is mushroomed and chipped. What should you do?",
+    "options": [
+      "Keep using it carefully",
+      "Grind or replace it before use",
+      "Use it only for finish nails",
+      "Wrap it with tape"
+    ],
+    "answer": 1,
+    "explanation": "Chipped hammer faces can send metal fragments flying. Damaged tools are unsafe. Repair or replacement is required."
+  },
+  {
+    "id": 25,
+    "category": "C1 — Use Hand Tools",
+    "question": "A carpenter uses a dull utility knife and pushes harder. What is the hazard?",
+    "options": [
+      "Cleaner cuts",
+      "Loss of control and injury",
+      "Stronger blade",
+      "Less force required"
+    ],
+    "answer": 1,
+    "explanation": "Dull blades require more force. Extra force increases slipping risk. Sharp blades are safer when used correctly."
+  },
+  {
+    "id": 26,
+    "category": "C1 — Use Hand Tools",
+    "question": "You need to transfer a level mark around a room without a laser. Which tool can help?",
+    "options": [
+      "Water level",
+      "Nail set",
+      "Block plane",
+      "Rip saw"
+    ],
+    "answer": 0,
+    "explanation": "A water level transfers elevation. Water seeks the same level at both ends. It is useful over distance."
+  },
+  {
+    "id": 27,
+    "category": "C1 — Use Hand Tools",
+    "question": "A hand saw binds halfway through a cut. What is a likely reason?",
+    "options": [
+      "Kerf closing on the blade",
+      "Saw is too sharp",
+      "Wood has no grain",
+      "Tape measure is loose"
+    ],
+    "answer": 0,
+    "explanation": "The kerf can pinch the saw. Proper support keeps the cut open. Binding can damage the cut or tool."
+  },
+  {
+    "id": 28,
+    "category": "C2 — Use Portable Power Tools",
+    "question": "A saw blade is installed backward. What is the likely result?",
+    "options": [
+      "Smooth safe cutting",
+      "Poor cutting and increased hazard",
+      "Better dust control",
+      "Correct blade rotation"
+    ],
+    "answer": 1,
+    "explanation": "Blades must match rotation direction. Incorrect installation reduces cutting action. It can create kickback or damage."
+  },
+  {
+    "id": 29,
+    "category": "C2 — Use Portable Power Tools",
+    "question": "You are cutting plywood on sawhorses. What support setup is safest?",
+    "options": [
+      "Let the offcut fall and pinch the blade",
+      "Support both sides so the blade does not bind",
+      "Stand on the plywood",
+      "Hold the sheet with one foot"
+    ],
+    "answer": 1,
+    "explanation": "Unsupported material can pinch the blade. Good support reduces kickback. The cut path must remain clear."
+  },
+  {
+    "id": 30,
+    "category": "C2 — Use Portable Power Tools",
+    "question": "A drill bit overheats and smokes while drilling steel. What should be adjusted?",
+    "options": [
+      "Use correct bit, speed, pressure, and lubricant if needed",
+      "Push harder only",
+      "Use a wood bit",
+      "Remove safety glasses"
+    ],
+    "answer": 0,
+    "explanation": "Metal drilling needs proper bit and speed. Lubrication can reduce heat. Overheating damages bits and material."
+  },
+  {
+    "id": 31,
+    "category": "C2 — Use Portable Power Tools",
+    "question": "A grinder wheel is cracked before use. What should you do?",
+    "options": [
+      "Use it for light grinding",
+      "Install it only at low speed",
+      "Discard it and use an undamaged wheel",
+      "Glue the crack"
+    ],
+    "answer": 2,
+    "explanation": "Cracked wheels can shatter at speed. Grinding wheels must be inspected. Damaged wheels must not be used."
+  },
+  {
+    "id": 32,
+    "category": "C2 — Use Portable Power Tools",
+    "question": "Why should a portable saw reach full speed before entering the cut?",
+    "options": [
+      "It improves control and reduces binding",
+      "It makes the blade dull faster",
+      "It replaces the guard",
+      "It eliminates dust"
+    ],
+    "answer": 0,
+    "explanation": "Full speed gives proper cutting action. Starting in the cut can bind the blade. Control is better when the tool is stable."
+  },
+  {
+    "id": 33,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A board is twisted and does not sit flat on a table saw. What is the risk?",
+    "options": [
+      "It may rock, bind, and kick back",
+      "It becomes stronger",
+      "It cuts more accurately",
+      "It removes the need for a fence"
+    ],
+    "answer": 0,
+    "explanation": "Unstable stock is dangerous. Movement can pinch the blade. Stock should be prepared or controlled safely."
+  },
+  {
+    "id": 34,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A worker reaches over a spinning mitre saw blade to grab offcut. What is wrong?",
+    "options": [
+      "Offcuts must be removed only after blade stops",
+      "It saves time",
+      "It improves accuracy",
+      "It reduces noise"
+    ],
+    "answer": 0,
+    "explanation": "Spinning blades can catch fingers or offcuts. Hands must stay clear until the blade stops. Waiting prevents contact injury."
+  },
+  {
+    "id": 35,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A drill press is being used on a small metal plate. What should be done?",
+    "options": [
+      "Hold the plate by hand",
+      "Clamp the plate securely",
+      "Wear loose gloves near the bit",
+      "Increase speed until it grabs"
+    ],
+    "answer": 1,
+    "explanation": "Drill bits can grab small parts. Clamping prevents spinning material. Hands should stay away from rotating parts."
+  },
+  {
+    "id": 36,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "Which table saw device helps prevent the kerf from closing behind the blade?",
+    "options": [
+      "Riving knife or splitter",
+      "Tape measure",
+      "Nail set",
+      "Paint brush"
+    ],
+    "answer": 0,
+    "explanation": "A riving knife keeps the kerf open. It reduces kickback risk. It should be aligned with the blade."
+  },
+  {
+    "id": 37,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A planer causes snipe at the ends of boards. What can help reduce it?",
+    "options": [
+      "Support boards level entering and leaving",
+      "Feed boards sideways",
+      "Remove guards",
+      "Increase depth cut heavily"
+    ],
+    "answer": 0,
+    "explanation": "Poor support lets boards tip. Tipping changes cutter pressure. Level infeed and outfeed support helps. ---"
+  },
+  {
+    "id": 38,
+    "category": "D1 — Use Levelling Instruments and Equipment",
+    "question": "A benchmark elevation is 50.000 m. Backsight is 1.450 m. What is height of instrument?",
+    "options": [
+      "48.550 m",
+      "50.000 m",
+      "51.450 m",
+      "52.900 m"
+    ],
+    "answer": 2,
+    "explanation": "Add backsight to benchmark. 50.000 + 1.450 = 51.450. This gives height of instrument."
+  },
+  {
+    "id": 39,
+    "category": "D1 — Use Levelling Instruments and Equipment",
+    "question": "Height of instrument is 51.450 m. Foresight is 2.100 m. What is point elevation?",
+    "options": [
+      "49.350 m",
+      "51.450 m",
+      "53.550 m",
+      "48.900 m"
+    ],
+    "answer": 0,
+    "explanation": "Subtract foresight from HI. 51.450 − 2.100 = 49.350. Foresight readings find new elevations."
+  },
+  {
+    "id": 40,
+    "category": "D1 — Use Levelling Instruments and Equipment",
+    "question": "A tripod is set on soft mud and slowly sinks. What happens?",
+    "options": [
+      "Readings become unreliable",
+      "Readings improve",
+      "Elevations become code compliant",
+      "The rod becomes shorter"
+    ],
+    "answer": 0,
+    "explanation": "Instrument movement changes readings. Tripods need stable support. Soft ground must be avoided or stabilized."
+  },
+  {
+    "id": 41,
+    "category": "D1 — Use Levelling Instruments and Equipment",
+    "question": "You use a laser outside in bright sun and cannot see the beam. What is a good solution?",
+    "options": [
+      "Guess the line",
+      "Use a detector or target made for the laser",
+      "Remove eye protection",
+      "Aim at workers’ eyes"
+    ],
+    "answer": 1,
+    "explanation": "Bright light can hide laser lines. Detectors help locate the beam. Laser safety must still be followed."
+  },
+  {
+    "id": 42,
+    "category": "D1 — Use Levelling Instruments and Equipment",
+    "question": "A rod reading is taken from the wrong benchmark. What is the main problem?",
+    "options": [
+      "All following elevations may be wrong",
+      "Only the rod colour changes",
+      "Concrete becomes stronger",
+      "The level self-corrects automatically"
+    ],
+    "answer": 0,
+    "explanation": "Benchmarks are elevation references. Using the wrong one shifts the work. Reference points must be confirmed. ---"
+  },
+  {
+    "id": 43,
+    "category": "E1 — Use Ladders, Scaffolds and Access Equipment",
+    "question": "You need to reach 12 ft vertically with an extension ladder. Using 4:1, base distance should be:",
+    "options": [
+      "2 ft",
+      "3 ft",
+      "4 ft",
+      "6 ft"
+    ],
+    "answer": 1,
+    "explanation": "Divide vertical height by 4. 12 ÷ 4 = 3 ft. This gives the proper ladder angle."
+  },
+  {
+    "id": 44,
+    "category": "E1 — Use Ladders, Scaffolds and Access Equipment",
+    "question": "A scaffold plank has a long split through it. What should happen?",
+    "options": [
+      "Flip it over and use it",
+      "Use it only in the middle",
+      "Remove it from service",
+      "Nail a short block over the split"
+    ],
+    "answer": 2,
+    "explanation": "Split planks can fail under load. Scaffold materials must be sound. Damaged components must be removed."
+  },
+  {
+    "id": 45,
+    "category": "E1 — Use Ladders, Scaffolds and Access Equipment",
+    "question": "A ladder is placed in front of a door. What is required?",
+    "options": [
+      "Nothing if work is quick",
+      "Door must be locked, guarded, or controlled",
+      "Put a cone behind the ladder only",
+      "Stand on the top rung"
+    ],
+    "answer": 1,
+    "explanation": "Doors can knock ladders over. The door must be secured or guarded. Access hazards must be controlled."
+  },
+  {
+    "id": 46,
+    "category": "E1 — Use Ladders, Scaffolds and Access Equipment",
+    "question": "You are on a scaffold and need more height. What is unsafe?",
+    "options": [
+      "Use properly built scaffold access",
+      "Add approved scaffold components",
+      "Stand on a bucket on the scaffold",
+      "Check guardrails before work"
+    ],
+    "answer": 2,
+    "explanation": "Buckets are not work platforms. They can tip and cause falls. Correct platform height must be provided."
+  },
+  {
+    "id": 47,
+    "category": "E1 — Use Ladders, Scaffolds and Access Equipment",
+    "question": "When is a ladder inspection required?",
+    "options": [
+      "Only after a fall",
+      "Before use and after possible damage",
+      "Only once per year",
+      "Only when new"
+    ],
+    "answer": 1,
+    "explanation": "Ladders can be damaged during use or transport. Inspection finds cracks, loose rungs, and missing feet. Unsafe ladders must not be used."
+  },
+  {
+    "id": 48,
+    "category": "E2 — Use Rigging and Hoisting Equipment",
+    "question": "A load starts swinging during hoisting. What should workers do?",
+    "options": [
+      "Grab it with bare hands",
+      "Stand under it and push up",
+      "Stay clear and control it with approved tag lines if safe",
+      "Walk under it quickly"
+    ],
+    "answer": 2,
+    "explanation": "Suspended loads are dangerous. Workers should not stand under loads. Tag lines help control movement from a safe position."
+  },
+  {
+    "id": 49,
+    "category": "E2 — Use Rigging and Hoisting Equipment",
+    "question": "Two slings are used, but one is much tighter than the other. What is the concern?",
+    "options": [
+      "Load may be unevenly shared",
+      "Load becomes weightless",
+      "Slings become stronger",
+      "No concern exists"
+    ],
+    "answer": 0,
+    "explanation": "Unequal tension overloads one sling. Rigging should distribute load properly. The lift must be corrected before continuing. ---"
+  },
+  {
+    "id": 50,
+    "category": "F1 — Lay Out Building Locations",
+    "question": "You set a 6 m by 8 m rectangular layout. What should the diagonal be?",
+    "options": [
+      "10 m",
+      "12 m",
+      "14 m",
+      "16 m"
+    ],
+    "answer": 0,
+    "explanation": "Use 6² + 8² = 10². 36 + 64 = 100. Diagonal is 10 m."
+  },
+  {
+    "id": 51,
+    "category": "F1 — Lay Out Building Locations",
+    "question": "Batter boards are bumped by equipment. What should you do before continuing layout?",
+    "options": [
+      "Ignore them",
+      "Recheck lines and reference points",
+      "Pour concrete immediately",
+      "Shorten all dimensions"
+    ],
+    "answer": 1,
+    "explanation": "Moved batter boards affect layout. Lines may no longer show true building location. References must be verified."
+  },
+  {
+    "id": 52,
+    "category": "F1 — Lay Out Building Locations",
+    "question": "Why are offset lines useful during excavation?",
+    "options": [
+      "They stay clear of disturbed work areas",
+      "They replace all dimensions",
+      "They make concrete dry faster",
+      "They are only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Excavation can remove original marks. Offsets preserve layout references. They help restore actual lines later."
+  },
+  {
+    "id": 53,
+    "category": "F1 — Lay Out Building Locations",
+    "question": "A foundation line is parallel to the property line but too close to it. What issue may exist?",
+    "options": [
+      "Setback violation",
+      "Correct squareness",
+      "Proper concrete cure",
+      "Better framing strength"
+    ],
+    "answer": 0,
+    "explanation": "Setbacks control distance from property lines. Local bylaws may require minimum distances. Location must be confirmed before building."
+  },
+  {
+    "id": 54,
+    "category": "F1 — Lay Out Building Locations",
+    "question": "Which check best confirms a rectangular layout is both correct size and square?",
+    "options": [
+      "Equal diagonals only",
+      "Correct side lengths and equal diagonals",
+      "One side length only",
+      "String colour"
+    ],
+    "answer": 1,
+    "explanation": "Equal diagonals show squareness. Side lengths confirm correct size. Both checks are needed. ---"
+  },
+  {
+    "id": 55,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "A slab surface is drying quickly in hot wind. What is the concern?",
+    "options": [
+      "Plastic shrinkage cracking",
+      "Better curing",
+      "Stronger surface automatically",
+      "No effect on concrete"
+    ],
+    "answer": 0,
+    "explanation": "Rapid moisture loss causes early cracking. Wind and heat increase evaporation. Curing and protection are important."
+  },
+  {
+    "id": 56,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "Concrete is ordered with air entrainment for exterior exposure. Why?",
+    "options": [
+      "Freeze-thaw durability",
+      "Higher saw speed",
+      "Easier nail removal",
+      "Lower form pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Air entrainment improves freeze-thaw resistance. Small air voids relieve ice pressure. It is common for exposed concrete."
+  },
+  {
+    "id": 57,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "A worker wants to add water because concrete is stiff. What should happen?",
+    "options": [
+      "Add water freely",
+      "Follow mix specifications and approval process",
+      "Add sawdust",
+      "Remove cement"
+    ],
+    "answer": 1,
+    "explanation": "Extra water changes concrete strength. Slump adjustments must follow specifications. Unapproved water can damage quality."
+  },
+  {
+    "id": 58,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "A wall pour is 10 ft high and fast-paced. What formwork risk increases?",
+    "options": [
+      "Lateral pressure",
+      "Lumber grade stamp visibility",
+      "Door swing clearance",
+      "Stair tread width"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete pushes sideways. Higher and faster pours increase pressure. Forms, ties, and braces must be adequate."
+  },
+  {
+    "id": 59,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "Why are chamfer strips used on exposed concrete corners?",
+    "options": [
+      "To create bevelled edges and reduce corner damage",
+      "To weaken the wall",
+      "To replace rebar",
+      "To increase water content"
+    ],
+    "answer": 0,
+    "explanation": "Chamfers form bevelled concrete corners. Sharp corners chip more easily. They also improve appearance."
+  },
+  {
+    "id": 60,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "Form release oil is applied too heavily and contaminates rebar. What is the concern?",
+    "options": [
+      "Bond between concrete and steel may be reduced",
+      "Rebar becomes stronger",
+      "Concrete sets instantly",
+      "Form pressure disappears"
+    ],
+    "answer": 0,
+    "explanation": "Rebar needs bond with concrete. Oil contamination can reduce bond. Release agent must be applied properly."
+  },
+  {
+    "id": 61,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "A form system is reused many times. What must be checked?",
+    "options": [
+      "Panel damage, alignment, ties, and load capacity",
+      "Worker lunch schedule",
+      "Paint colour only",
+      "Shoe size of crew"
+    ],
+    "answer": 0,
+    "explanation": "Reuse can damage components. Weak panels or ties can fail. Inspection keeps formwork accurate and safe."
+  },
+  {
+    "id": 62,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A footing trench has soft loose soil at the bottom. What should happen before forming or pouring?",
+    "options": [
+      "Confirm soil is suitable or corrected",
+      "Pour immediately",
+      "Add extra water",
+      "Cover with cardboard"
+    ],
+    "answer": 0,
+    "explanation": "Footings need firm bearing. Soft soil can settle. Unsuitable conditions must be addressed."
+  },
+  {
+    "id": 63,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "Footing forms are 50 mm too narrow. What is the issue?",
+    "options": [
+      "Bearing area may be reduced",
+      "Concrete becomes stronger",
+      "Rebar is no longer needed",
+      "Forms become waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Footing size affects load transfer. Narrow footings may not meet drawings. Dimensions must be checked before pouring."
+  },
+  {
+    "id": 64,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "Wall forms are correctly built but not braced against wind. What can happen?",
+    "options": [
+      "Forms may move before concrete placement",
+      "Concrete will cure faster",
+      "Wall becomes fire-rated",
+      "Rebar spacing improves"
+    ],
+    "answer": 0,
+    "explanation": "Empty forms can move from wind. Bracing controls alignment before and during pour. Movement causes layout errors."
+  },
+  {
+    "id": 65,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A wall form is filled too quickly. What is the danger?",
+    "options": [
+      "Excess pressure causing bulging or failure",
+      "Concrete becoming wood",
+      "Less need for ties",
+      "Lower wall height"
+    ],
+    "answer": 0,
+    "explanation": "Pour rate affects form pressure. Fast filling increases lateral load. Forms must match the planned pour rate."
+  },
+  {
+    "id": 66,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "You notice anchor bolt templates moved before concrete sets. What should happen?",
+    "options": [
+      "Correct them before concrete hardens",
+      "Leave them because bolts can move later",
+      "Cut all bolts off",
+      "Add water to reset concrete"
+    ],
+    "answer": 0,
+    "explanation": "Bolt location matters for framing. Corrections are easier before set. Hardened concrete makes repair difficult."
+  },
+  {
+    "id": 67,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "Why are form corners checked carefully?",
+    "options": [
+      "Corners control building shape and squareness",
+      "Corners do not affect layout",
+      "Corners reduce concrete strength automatically",
+      "Corners replace benchmarks"
+    ],
+    "answer": 0,
+    "explanation": "Corner errors affect the whole structure. Squareness and dimensions depend on corners. They should be checked before pouring."
+  },
+  {
+    "id": 68,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A form tie cone is missing. What is the concern?",
+    "options": [
+      "Wall thickness or tie performance may be affected",
+      "Concrete colour improves",
+      "Tie becomes unnecessary",
+      "Rebar spacing doubles"
+    ],
+    "answer": 0,
+    "explanation": "Tie components work as a system. Missing parts can affect spacing or strength. Forms must be assembled correctly."
+  },
+  {
+    "id": 69,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "A slab form edge is not set to finished elevation. What problem can result?",
+    "options": [
+      "Slab thickness or floor level may be wrong",
+      "Rebar becomes waterproof",
+      "Concrete stops curing",
+      "Door swing changes automatically"
+    ],
+    "answer": 0,
+    "explanation": "Edge forms control slab level. Wrong elevation affects finished floor. Forms must match grade marks."
+  },
+  {
+    "id": 70,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "A suspended slab shore is removed too early. What is the risk?",
+    "options": [
+      "Deflection, cracking, or collapse",
+      "Better curing",
+      "Stronger slab",
+      "Lower concrete pressure"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs time to gain strength. Shoring supports loads temporarily. Early removal can be dangerous."
+  },
+  {
+    "id": 71,
+    "category": "G5 — Install Reinforcement and Embedded Items",
+    "question": "Rebar is lying on the ground instead of supported in the slab. What is wrong?",
+    "options": [
+      "It may not be in the required position",
+      "It improves tensile strength everywhere",
+      "It replaces base compaction",
+      "It reduces concrete thickness"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be positioned correctly. Chairs and supports maintain cover. Wrong placement reduces performance."
+  },
+  {
+    "id": 72,
+    "category": "G5 — Install Reinforcement and Embedded Items",
+    "question": "Why must embedded plates be secured before concrete placement?",
+    "options": [
+      "Concrete movement can shift them",
+      "They float to perfect location automatically",
+      "They are not important after pour",
+      "They replace all forms"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete can move embeds. Accurate placement is important for later connections. They must be tied or fixed securely."
+  },
+  {
+    "id": 73,
+    "category": "G7 — Place and Finish Concrete",
+    "question": "Concrete is dropped from too high into forms. What may happen?",
+    "options": [
+      "Segregation",
+      "Stronger mix",
+      "Better air entrainment",
+      "More accurate forms"
+    ],
+    "answer": 0,
+    "explanation": "Excessive drop can separate aggregate and paste. Segregation weakens concrete quality. Placement should be controlled."
+  },
+  {
+    "id": 74,
+    "category": "G7 — Place and Finish Concrete",
+    "question": "After placing concrete, a worker over-vibrates one area. What is the risk?",
+    "options": [
+      "Segregation or loss of uniformity",
+      "Perfect finish guaranteed",
+      "Forms become stronger",
+      "Rebar disappears"
+    ],
+    "answer": 0,
+    "explanation": "Vibration removes trapped air. Too much vibration can separate materials. Consolidation must be controlled. ---"
+  },
+  {
+    "id": 75,
+    "category": "H1 — Describe Wood Frame Construction",
+    "question": "In a framed house, roof load transfers through rafters/trusses to walls, then to foundation. This is called:",
+    "options": [
+      "Load path",
+      "Paint schedule",
+      "Finish grade",
+      "Kerf line"
+    ],
+    "answer": 0,
+    "explanation": "Load path transfers forces safely. Each member must support the next. Weak links can cause failure."
+  },
+  {
+    "id": 76,
+    "category": "H1 — Describe Wood Frame Construction",
+    "question": "A wall is non-load-bearing. What does that usually mean?",
+    "options": [
+      "It does not carry structural loads from above except its own weight",
+      "It cannot have studs",
+      "It must be concrete",
+      "It supports the roof always"
+    ],
+    "answer": 0,
+    "explanation": "Non-load-bearing walls divide spaces. They may still need proper framing. They usually do not support roof or floor loads."
+  },
+  {
+    "id": 77,
+    "category": "H1 — Describe Wood Frame Construction",
+    "question": "A shear wall is most related to resisting:",
+    "options": [
+      "Lateral loads",
+      "Paint fading",
+      "Sawdust buildup",
+      "Concrete slump"
+    ],
+    "answer": 0,
+    "explanation": "Shear walls resist sideways forces. Wind and seismic loads create lateral force. Sheathing and fastening are critical."
+  },
+  {
+    "id": 78,
+    "category": "H1 — Describe Wood Frame Construction",
+    "question": "Why are connections important in wood framing?",
+    "options": [
+      "They transfer forces between members",
+      "They only improve appearance",
+      "They replace all framing",
+      "They stop moisture completely"
+    ],
+    "answer": 0,
+    "explanation": "Loads must pass through connections. Nails, screws, straps, and hangers matter. Poor connections weaken the structure."
+  },
+  {
+    "id": 79,
+    "category": "H2 — Select Framing Materials",
+    "question": "A wet stud is installed in a wall and later dries. What may happen?",
+    "options": [
+      "Shrinkage, twisting, or movement",
+      "Concrete curing",
+      "Larger lumber size",
+      "Higher moisture forever"
+    ],
+    "answer": 0,
+    "explanation": "Wood changes size with moisture. Drying can cause shrinkage and twist. Material condition affects finished work."
+  },
+  {
+    "id": 80,
+    "category": "H2 — Select Framing Materials",
+    "question": "You find a 2×10 with a large knot at midspan tension edge. Why is this concerning?",
+    "options": [
+      "It may reduce bending strength",
+      "It improves strength",
+      "It makes joist spacing smaller",
+      "It replaces blocking"
+    ],
+    "answer": 0,
+    "explanation": "Defects affect structural capacity. Midspan tension areas are critical in joists. Grade and condition must be acceptable."
+  },
+  {
+    "id": 81,
+    "category": "H2 — Select Framing Materials",
+    "question": "Why are LVL beams commonly specified instead of regular lumber?",
+    "options": [
+      "Predictable strength and ability to span loads",
+      "They are always lighter than air",
+      "They need no support",
+      "They cannot carry structural loads"
+    ],
+    "answer": 0,
+    "explanation": "LVL is engineered for strength. It is useful for beams and headers. Installation must follow specifications."
+  },
+  {
+    "id": 82,
+    "category": "H3 — Build Floor Systems",
+    "question": "A joist is cut short and has very little bearing on the beam. What is the problem?",
+    "options": [
+      "Load transfer may be unsafe",
+      "Floor becomes stronger",
+      "Sheathing fixes all bearing issues",
+      "Blocking is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Joists need proper bearing. Insufficient support can cause failure. Bearing requirements must be followed."
+  },
+  {
+    "id": 83,
+    "category": "H3 — Build Floor Systems",
+    "question": "Subfloor panels are installed tight with no expansion gap. What may happen?",
+    "options": [
+      "Buckling when panels swell",
+      "Stronger floor automatically",
+      "Less moisture movement",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explanation": "Wood panels expand with moisture. Gaps allow movement. Tight panels may buckle or squeak."
+  },
+  {
+    "id": 84,
+    "category": "H3 — Build Floor Systems",
+    "question": "A joist hanger is missing several required nails. What is the concern?",
+    "options": [
+      "Reduced hanger capacity",
+      "More strength",
+      "Better alignment",
+      "No structural effect"
+    ],
+    "answer": 0,
+    "explanation": "Hangers need all specified fasteners. Missing nails reduce load capacity. Connector instructions must be followed."
+  },
+  {
+    "id": 85,
+    "category": "H3 — Build Floor Systems",
+    "question": "A hole is drilled near the bottom edge of a solid joist at midspan. Why is this risky?",
+    "options": [
+      "It may weaken the tension zone",
+      "It makes joist stronger",
+      "It improves bearing",
+      "It replaces bridging"
+    ],
+    "answer": 0,
+    "explanation": "Joist edges carry high stresses. Improper holes can weaken members. Hole rules must be followed."
+  },
+  {
+    "id": 86,
+    "category": "H3 — Build Floor Systems",
+    "question": "Why is construction adhesive sometimes used with subfloor?",
+    "options": [
+      "To reduce squeaks and improve connection",
+      "To replace all nails",
+      "To waterproof concrete",
+      "To increase joist depth"
+    ],
+    "answer": 0,
+    "explanation": "Adhesive bonds subfloor to joists. It helps reduce movement and squeaks. Fasteners are still required."
+  },
+  {
+    "id": 87,
+    "category": "H3 — Build Floor Systems",
+    "question": "A beam pocket in concrete is wet and unprotected. What is a concern for wood beam end?",
+    "options": [
+      "Moisture damage or rot",
+      "Stronger wood",
+      "Faster drying always",
+      "No concern"
+    ],
+    "answer": 0,
+    "explanation": "Wood in damp pockets can decay. Moisture protection is important. Bearing details must prevent damage."
+  },
+  {
+    "id": 88,
+    "category": "H3 — Build Floor Systems",
+    "question": "Why should joists be installed crown up?",
+    "options": [
+      "Load tends to flatten them",
+      "It makes them twist more",
+      "It hides all defects",
+      "It replaces blocking"
+    ],
+    "answer": 0,
+    "explanation": "Crown is slight upward curve. Loads may flatten it over time. Mixed crowns create uneven floors."
+  },
+  {
+    "id": 89,
+    "category": "H4 — Build Wall Systems",
+    "question": "A window opening has no header in a load-bearing wall. What is the issue?",
+    "options": [
+      "Load above may not be transferred around the opening",
+      "Window becomes larger",
+      "Wall becomes nonstructural automatically",
+      "Drywall fixes it"
+    ],
+    "answer": 0,
+    "explanation": "Headers carry loads over openings. Jack studs transfer loads down. Load-bearing openings require proper support."
+  },
+  {
+    "id": 90,
+    "category": "H4 — Build Wall Systems",
+    "question": "A framed wall is out of plumb before fastening. What should happen?",
+    "options": [
+      "Plumb and brace it before continuing",
+      "Hide it with drywall",
+      "Cut random studs",
+      "Add paint"
+    ],
+    "answer": 0,
+    "explanation": "Walls should be plumb before finishes. Out-of-plumb walls cause alignment problems. Bracing holds correct position."
+  },
+  {
+    "id": 91,
+    "category": "H4 — Build Wall Systems",
+    "question": "Why are wall plates anchored to concrete foundations?",
+    "options": [
+      "To resist movement and transfer loads",
+      "To make concrete softer",
+      "To replace studs",
+      "To increase stair rise"
+    ],
+    "answer": 0,
+    "explanation": "Anchors connect wood framing to foundation. They resist lateral and uplift forces. Spacing and placement must meet requirements."
+  },
+  {
+    "id": 92,
+    "category": "H5 — Build Stair Systems",
+    "question": "Total rise is 105 in. You choose 15 risers. What is each riser height?",
+    "options": [
+      "6 in.",
+      "7 in.",
+      "8 in.",
+      "9 in."
+    ],
+    "answer": 1,
+    "explanation": "105 ÷ 15 = 7. Each riser is 7 inches. Riser consistency is critical."
+  },
+  {
+    "id": 93,
+    "category": "H5 — Build Stair Systems",
+    "question": "A stair has 15 risers. How many treads are usually between floors?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "30"
+    ],
+    "answer": 0,
+    "explanation": "Treads are usually one fewer than risers. The upper floor acts as final landing. Actual layout must be checked."
+  },
+  {
+    "id": 94,
+    "category": "H5 — Build Stair Systems",
+    "question": "A bottom stair riser is shorter after flooring is installed. What was likely missed?",
+    "options": [
+      "Finished floor thickness",
+      "Saw blade size",
+      "Concrete air content",
+      "Wall sheathing thickness only"
+    ],
+    "answer": 0,
+    "explanation": "Finished floors change final elevations. Stair layout must account for finishes. Uneven risers create trip hazards."
+  },
+  {
+    "id": 95,
+    "category": "H5 — Build Stair Systems",
+    "question": "A stringer is overcut at the inside corner of a notch. What is the concern?",
+    "options": [
+      "It weakens the stringer",
+      "It improves stair strength",
+      "It makes risers equal",
+      "It replaces landing support"
+    ],
+    "answer": 0,
+    "explanation": "Overcuts reduce remaining wood section. Stringers carry stair loads. Cuts must be accurate and clean."
+  },
+  {
+    "id": 96,
+    "category": "H5 — Build Stair Systems",
+    "question": "Why should stair treads be uniform in run?",
+    "options": [
+      "People expect consistent foot placement",
+      "It changes roof pitch",
+      "It replaces handrails",
+      "It reduces concrete volume"
+    ],
+    "answer": 0,
+    "explanation": "Uneven tread depth causes trips. Uniform stairs are safer to use. Codes control stair dimensions."
+  },
+  {
+    "id": 97,
+    "category": "H5 — Build Stair Systems",
+    "question": "A landing at the top of stairs slopes sharply. What is the main concern?",
+    "options": [
+      "Fall hazard",
+      "Better drainage indoors",
+      "Stronger stairs",
+      "Less need for guardrails"
+    ],
+    "answer": 0,
+    "explanation": "Landings should provide stable footing. A steep slope can cause slipping. Safe transitions are required. ---"
+  },
+  {
+    "id": 98,
+    "category": "J1 — Control the Forces Acting on a Building",
+    "question": "A roof is not tied properly to the walls in a windy area. What force is most concerning?",
+    "options": [
+      "Uplift",
+      "Paint pressure",
+      "Concrete hydration",
+      "Door swing"
+    ],
+    "answer": 0,
+    "explanation": "Wind can lift roof assemblies. Connections transfer uplift into walls and foundation. Continuous load path is essential."
+  },
+  {
+    "id": 99,
+    "category": "J1 — Control the Forces Acting on a Building",
+    "question": "Warm indoor air leaks into a cold wall cavity. What can happen?",
+    "options": [
+      "Condensation and moisture damage",
+      "Stronger insulation",
+      "Better concrete finish",
+      "No possible effect"
+    ],
+    "answer": 0,
+    "explanation": "Warm air can carry moisture. Moisture can condense on cold surfaces. Air sealing helps prevent damage."
+  },
+  {
+    "id": 100,
+    "category": "J1 — Control the Forces Acting on a Building",
+    "question": "Why should exterior wall assemblies allow drying?",
+    "options": [
+      "Trapped moisture can cause rot and mold",
+      "Drying makes framing unnecessary",
+      "Moisture improves untreated wood forever",
+      "Vapour control is never needed"
+    ],
+    "answer": 0,
+    "explanation": "Buildings can get wet from leaks or vapour. Assemblies need a way to dry. Moisture control protects durability. ---"
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCarpenterLevel1Set3Questions =
+  shuffleArray(carpenterLevel1Set3Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "carpenter",
+  tradeTitle: "Carpenter",
+  sectionTitle: "Level 1 – Set 3",
+  questionTimeSeconds: 90,
+  questions: shuffledCarpenterLevel1Set3Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCarpenterLevel1Set3Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

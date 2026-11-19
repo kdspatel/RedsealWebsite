@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+/* ==========================================================================
+   Red Seal Practice - global modern theme (red + charcoal)
+   Loaded LAST on every page so it overrides the older stylesheets.
+   Change the colours in the :root block below to re-colour the whole site.
+   ========================================================================== */
+:root{
+  --seal:#B3171F; --sealdark:#8E1017; --ink:#16191D; --slate:#5A626B; --tint:#FBEAEA; --paper:#FAF8F5; --line:#E6E2DB; --pass:#1F7A4D;
+  --rs-radius-card:20px; --rs-radius-btn:12px;
+  /* map every older variable name to the new palette */
+  --primary:var(--seal); --primary-dark:var(--sealdark); --text:var(--ink); --muted:var(--slate); --border:var(--line); --bg:var(--paper); --card:#fff;
+  --nav:var(--ink); --red:var(--seal); --red-dark:var(--sealdark); --red2:var(--seal);
+  --rs-primary:var(--seal); --rs-primary-dark:var(--sealdark); --rs-primary-soft:var(--tint);
+  --rs-text:var(--ink); --rs-muted:var(--slate); --rs-border:var(--line); --rs-bg:var(--paper); --rs-bg-soft:var(--tint); --rs-surface:#fff; --rs-surface-2:var(--paper);
+  --rs-accent:var(--seal); --rs-accent-dark:var(--sealdark);
+  --rs-shadow:0 8px 24px rgba(22,25,29,.06); --rs-shadow-soft:0 4px 14px rgba(22,25,29,.05); --shadow:0 8px 24px rgba(22,25,29,.07);
+}
+
+/* ---------- base ---------- */
+html body{background:var(--paper)!important;color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+html body::before,html body::after{display:none!important}
+body h1,body h2,body h3,body h4,body .card-title{font-family:"Space Grotesk",Inter,system-ui,sans-serif;color:var(--ink);letter-spacing:-.015em}
+body h1{font-weight:700;letter-spacing:-.025em}
+body a{color:var(--seal)}
+body a:hover{color:var(--sealdark)}
+body p,body li,body .muted,body .sub,body .subtext,body .section-sub{color:var(--slate)}
+body :focus-visible{outline:3px solid var(--seal)!important;outline-offset:2px}
+body ::selection{background:var(--tint);color:var(--sealdark)}
+
+/* ---------- announcement bar, header, footer (markup from layout.js) ---------- */
+#site-navbar .rspx-notice{background:#FFF4DC!important;border-bottom:1px solid #F0DFB4!important;color:#5A4300!important;font-size:14px!important;font-weight:500!important}
+#site-navbar .rspx-notice a{color:#5A4300!important;font-weight:600!important;text-decoration:underline!important}
+#site-navbar .rspx-header{background:var(--paper)!important;border-bottom:1px solid var(--line)!important;box-shadow:none!important;backdrop-filter:none!important}
+#site-navbar .rspx-logo{color:var(--ink)!important}
+#site-navbar .rspx-logo-svg{width:34px;height:38px;flex:none}
+#site-navbar .rspx-logo-mark{display:none!important}
+#site-navbar .rspx-logo-copy strong{font-family:"Space Grotesk",sans-serif!important;font-size:21px!important;font-weight:700!important;color:var(--ink)!important}
+#site-navbar .rspx-logo-copy small{color:var(--slate)!important}
+#site-navbar .rspx-nav>a,#site-navbar .rspx-dropdown-button{color:var(--ink)!important;font-weight:600!important;background:transparent!important;border-radius:10px!important}
+#site-navbar .rspx-nav>a:hover,#site-navbar .rspx-dropdown-button:hover{color:var(--seal)!important;background:transparent!important}
+#site-navbar .rspx-nav>a.rspx-active,#site-navbar .rspx-dropdown-menu a.rspx-active{background:var(--tint)!important;color:var(--seal)!important}
+#site-navbar .rspx-dropdown-menu{background:#fff!important;border:1px solid var(--line)!important;border-radius:12px!important;box-shadow:0 12px 30px rgba(22,25,29,.12)!important}
+#site-navbar .rspx-dropdown-menu a{color:var(--ink)!important;border-radius:8px!important}
+#site-navbar .rspx-dropdown-menu a:hover{background:var(--tint)!important;color:var(--seal)!important}
+#site-navbar .rspx-login,#site-navbar .rspx-user-button{background:#fff!important;color:var(--seal)!important;border:1.5px solid var(--line)!important;border-radius:12px!important;font-weight:600!important;box-shadow:none!important}
+#site-navbar .rspx-signup{background:var(--seal)!important;color:#fff!important;border:1.5px solid var(--seal)!important;border-radius:12px!important;font-weight:600!important;box-shadow:none!important}
+#site-navbar .rspx-signup:hover{background:var(--sealdark)!important}
+#site-navbar .rspx-menu-button{border:1.5px solid var(--line)!important;background:#fff!important;border-radius:12px!important}
+#site-navbar .rspx-menu-button span{background:var(--ink)!important}
+#site-navbar .rspx-nav{background-color:transparent}
+@media (max-width:1279px){#site-navbar .rspx-nav{background:#fff!important}}
+#site-footer .rspx-footer{background:#fff!important;border-top:1px solid var(--line)!important;color:var(--slate)!important}
+#site-footer .rspx-footer h3{font-family:"Space Grotesk",sans-serif!important;color:var(--ink)!important;letter-spacing:.04em;text-transform:uppercase}
+#site-footer .rspx-footer a{color:var(--slate)!important}
+#site-footer .rspx-footer a:hover{color:var(--seal)!important}
+#site-footer .rspx-footer-logo{color:var(--seal)!important;font-family:"Space Grotesk",sans-serif!important;font-weight:700!important}
+#site-footer .rspx-footer-logo .rspx-logo-svg{width:30px;height:34px}
+#site-footer .rspx-footer p{color:var(--slate)!important}
+#site-footer .rspx-footer-cta{background:var(--tint)!important;color:var(--sealdark)!important;border-radius:12px!important;font-weight:600!important}
+#site-footer .rspx-footer-bottom{border-top:1px solid var(--line)!important;color:var(--slate)!important}
+
+/* ---------- breadcrumb ---------- */
+.rsp7-breadcrumb a{color:var(--seal)!important}
+.rsp7-breadcrumb-current{color:var(--slate)!important}
+
+/* ---------- page hero blocks ---------- */
+.hero-card,.hero,.seo-hero,.practice-hero,.news-hero,.trade-hero,.level-hero,.page-hero,.journey-hero,.contact-hero,.faq-hero,.blog-hero{
+  background:#fff!important;background-image:none!important;border:1px solid var(--line)!important;border-radius:24px!important;box-shadow:none!important;color:var(--ink)!important}
+.seo-hero,.faq-hero{border-radius:0!important;border-left:0!important;border-right:0!important}
+.hero-card h1,.hero h1,.seo-hero h1,.practice-hero h1,.news-hero h1{color:var(--ink)!important;font-size:clamp(34px,5vw,52px)!important;line-height:1.08!important}
+.hero-card p,.hero p,.seo-hero p,.practice-hero p{color:var(--slate)!important}
+.hero-card::before,.hero-card::after,.hero::before,.hero::after,.seo-hero::before,.seo-hero::after,.practice-hero::before,.practice-hero::after{display:none!important}
+/* illustration tiles that used a blue gradient */
+.practice-hero-badge,.faq-hero-fallback,.news-art,.hero-art,.faq-hero-art,.news-badge-art{background:var(--seal)!important;background-image:none!important;color:#fff!important;box-shadow:0 16px 36px rgba(179,23,31,.25)!important;border-radius:24px!important}
+.faq-hero-art.image-missing img{display:none}
+
+/* ---------- eyebrows / pills / badges ---------- */
+.pill,.hero-badge,.eyebrow,.seo-eyebrow,.news-eyebrow,.trades-eyebrow,.section-kicker,.trade-section-eyebrow,.library-kicker,.auth-kicker,.exam-badge,.badge,.tag,.chip,.hero-badges span,.faq-quick-nav a,.step-pill{
+  background:var(--tint)!important;color:var(--sealdark)!important;border:0!important;border-radius:999px!important;font-weight:600!important;box-shadow:none!important;text-shadow:none!important}
+.premium-badge{background:var(--seal)!important;color:#fff!important}
+.faq-quick-nav{background:transparent!important;border:0!important;box-shadow:none!important}
+.faq-quick-nav a{background:#fff!important;border:1px solid var(--line)!important;color:var(--ink)!important}
+
+/* ---------- cards ---------- */
+.card,.seo-card,.phase-card,.featured-card,.exam-card,.login-card,.signup-card,.trade-card,.province-card,.journey-card,.library-trade-card,.level-trade-card,.library-category,.stat-box,.finder-stat,.study-step,.faq-item,.menu-grid>*,.practice-grid>*,.trade-tile,.rsp7-panel,.contact-card,.article-card,.news-card,.study-card,.rs-contact-request,.official-resource-note,.practice-note,.upsell,.terms-box,.trust,.locked-note,.trade-search-panel,.practice-toolbar{
+  background:#fff!important;background-image:none!important;border:1px solid var(--line)!important;border-radius:var(--rs-radius-card)!important;box-shadow:none!important;color:var(--ink)}
+.card:hover,.seo-card:hover,.phase-card:hover,.featured-card:hover,.trade-card:hover,.province-card:hover,.trade-tile:hover,.library-trade-card:hover{border-color:var(--seal)!important;transform:none!important;box-shadow:0 8px 24px rgba(22,25,29,.07)!important}
+.card-title{color:var(--ink)!important}
+.card-text{color:var(--slate)!important}
+.icon,.auth-card-icon,.trust-icon,.card-icon,.rsp7-icon{background:var(--tint)!important;color:var(--seal)!important;border-radius:12px!important;box-shadow:none!important}
+.stat-box strong,.finder-stat strong{color:var(--seal)!important}
+
+/* ---------- buttons ---------- */
+.btn,.seo-btn,.btn-card,.trade-btn,.phase-btn,.error-btn,.top-actions button,.top-actions a,button.secondary,a.secondary,.secondary{
+  border-radius:var(--rs-radius-btn)!important;font-weight:600!important;min-height:44px;box-shadow:none!important;text-shadow:none!important}
+.btn,.seo-btn.secondary,a.secondary,button.secondary,.secondary,.btn-outline{background:#fff!important;background-image:none!important;color:var(--ink)!important;border:1.5px solid var(--ink)!important}
+.btn:hover,.seo-btn.secondary:hover,a.secondary:hover,button.secondary:hover{background:var(--ink)!important;color:#fff!important}
+.btn-primary,.btn-red,.primary,.seo-btn,.seo-btn.primary,.btn-card,.trade-btn,.phase-btn,.login-btn,.error-btn,button[type=submit],input[type=submit],.btn.primary,a.primary,button.primary,
+.rspx-force-contrast,.submit-btn,.pay-btn,#startQuizBtn{
+  background:var(--seal)!important;background-image:none!important;color:#fff!important;border:1.5px solid var(--seal)!important}
+.btn-primary:hover,.btn-red:hover,.primary:hover,.seo-btn:hover,.btn-card:hover,.trade-btn:hover,.phase-btn:hover,.login-btn:hover,.error-btn:hover,button[type=submit]:hover,.rspx-force-contrast:hover,#startQuizBtn:hover{
+  background:var(--sealdark)!important;border-color:var(--sealdark)!important;color:#fff!important}
+.seo-btn.secondary,.seo-btn.outline,.seo-btn.light{background:#fff!important;color:var(--ink)!important;border-color:var(--ink)!important}
+.email,a.email{background:var(--tint)!important;color:var(--sealdark)!important;border:0!important}
+
+/* ---------- forms ---------- */
+input:not([type=checkbox]):not([type=radio]):not([type=submit]):not([type=range]),select,textarea{
+  background:#fff!important;border:1.5px solid var(--line)!important;border-radius:12px!important;color:var(--ink)!important;font-family:Inter,system-ui,sans-serif;min-height:48px;box-shadow:none!important}
+input:focus,select:focus,textarea:focus{border-color:var(--seal)!important;outline:3px solid rgba(179,23,31,.18)!important}
+input[type=checkbox],input[type=radio]{accent-color:var(--seal)}
+label{color:var(--ink);font-weight:600}
+.auth-alert.error,.error,.form-error{color:#B3171F}
+
+/* ---------- login / signup split layout ---------- */
+.login-page,.signup-page,.auth-page{background:transparent!important}
+.left-content,.auth-benefits{background:var(--ink)!important;background-image:none!important;color:#fff!important;border-radius:24px 0 0 24px!important}
+.left-content h1,.auth-benefits h1{color:#fff!important}
+.left-content h1 span,.auth-benefits h1 span{color:#F2B8BB!important;-webkit-text-fill-color:#F2B8BB!important;background:none!important}
+.left-content p,.left-content li,.auth-benefits li,.auth-benefits p{color:#E8E5E0!important}
+.left-content .auth-kicker,.auth-benefits .auth-kicker{background:rgba(255,255,255,.12)!important;color:#fff!important}
+.trust-box{background:rgba(255,255,255,.08)!important;border:1px solid rgba(255,255,255,.18)!important;border-radius:16px!important;color:#fff!important}
+.trust-box .trust-icon{background:rgba(255,255,255,.14)!important;color:#fff!important}
+.feature-list li::before{color:#F2B8BB!important}
+.login-card,.signup-card{border-radius:0 24px 24px 0!important}
+@media (max-width:860px){.left-content,.auth-benefits{border-radius:24px 24px 0 0!important}.login-card,.signup-card{border-radius:0 0 24px 24px!important}}
+.helper-links a,.form-row a{color:var(--seal)!important;font-weight:600}
+.signin-toast{background:var(--ink)!important;color:#fff!important}
+
+/* ---------- dark / coloured promo bands (were blue + purple) ---------- */
+.trade-start-help,.journey-banner,.cta-band,.support-strip,.upgrade-card,.finder-hero,.finder-header,.trade-finder-hero,.rs-cta,.premium-cta,.upsell-dark,.faq-cta,.contact-banner{
+  background:var(--ink)!important;background-image:none!important;color:#fff!important;border:0!important;border-radius:24px!important}
+.trade-start-help h2,.trade-start-help p,.upgrade-card h2,.upgrade-card h3,.upgrade-card p,.support-strip *,.finder-hero h1,.finder-hero p{color:#fff!important}
+.trade-start-actions a,.trade-start-help a{border-radius:12px!important}
+.trade-start-help a:not(.email){background:#fff!important;color:var(--sealdark)!important;border:0!important}
+.trade-start-help a.email{background:var(--seal)!important;color:#fff!important}
+.upgrade-card .btn,.upgrade-card a{background:#fff!important;color:var(--sealdark)!important;border-color:#fff!important}
+
+/* ---------- tables ---------- */
+table{border-collapse:collapse}
+th{background:var(--ink)!important;color:#fff!important;border-color:var(--ink)!important}
+td{border-color:var(--line)!important}
+tr:nth-child(even) td{background:transparent!important}
+
+/* ---------- FAQ ---------- */
+.faq-item,.faq-list details{border:1px solid var(--line)!important;background:#fff!important;border-radius:16px!important}
+.faq-tinted-section{background:var(--tint)!important}
+.faq-item summary,.faq-list summary{color:var(--ink)!important;font-family:"Space Grotesk",sans-serif;font-weight:600}
+
+/* ---------- progress / quiz UI ---------- */
+progress,.progress-bar,.progress-fill,.bar-fill,.rsp7-progress span{accent-color:var(--seal);background:var(--seal)!important}
+.progress,.progress-track{background:var(--line)!important}
+.option,.answer,.quiz-option,.premium-option{background:#fff!important;border:1.5px solid var(--line)!important;border-radius:14px!important;color:var(--ink)!important}
+.option:hover,.answer:hover,.quiz-option:hover,.premium-option:hover{border-color:var(--seal)!important;background:var(--tint)!important}
+.option.selected,.answer.selected,.quiz-option.selected,.premium-option.selected{border-color:var(--seal)!important;background:var(--tint)!important}
+.correct,.option.correct,.answer.correct{border-color:var(--pass)!important;background:#E6F4EC!important;color:#14583a!important}
+.incorrect,.wrong,.option.incorrect,.answer.incorrect{border-color:var(--seal)!important;background:var(--tint)!important;color:var(--sealdark)!important}
+.timer,.quiz-timer{background:var(--ink)!important;color:#fff!important;border-radius:999px!important}
+
+/* ---------- price ---------- */
+.price,.price strong{color:var(--seal)!important;font-family:"Space Grotesk",sans-serif!important}
+
+/* ---------- misc blue leftovers ---------- */
+[style*="#2563eb"],[style*="#155eef"],[style*="rgb(37, 99, 235)"]{color:var(--seal)!important}
+body .section-kicker,body .rsp7-kicker{color:var(--sealdark)!important}
+hr{border-color:var(--line)}
+code{background:var(--tint);color:var(--sealdark);border-radius:6px;padding:1px 6px}
+
+/* ---------- phones ---------- */
+@media (max-width:720px){
+  html body{overflow-x:hidden}
+  .hero-card,.hero,.practice-hero{border-radius:20px!important}
+  .btn,.seo-btn,.btn-card,.trade-btn,.phase-btn{min-height:48px}
+  table{display:block;overflow-x:auto}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* badge rows: plain wrapping pills, no inner box */
+.hero-badges,.hero-badges.trade-badges{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;display:flex!important;flex-wrap:wrap!important;gap:8px!important;overflow:visible!important}
+.hero-badges span{flex:0 0 auto!important;max-width:100%;width:auto!important;display:inline-flex!important;padding:6px 14px!important}

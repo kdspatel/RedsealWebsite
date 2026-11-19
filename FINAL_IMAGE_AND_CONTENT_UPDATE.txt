@@ -1,0 +1,13 @@
+FINAL IMAGE AND CONTENT UPDATE
+
+Completed:
+- Homepage now uses public/images/home/home-hero.jpg as the full visual hero with accessible SEO text and clickable action areas.
+- Signup page now uses public/images/auth/auth-background.jpg in a professional split layout.
+- Terms consent redesigned as a clear card with a custom checked state.
+- Blog feature and card images now use consistent responsive sizing.
+- Article detail images use a full 16:9 contained presentation to avoid cropping designed graphics.
+- Replaced unsupported 200,000-workers-per-year claim with the official 80,000–100,000 Red Seal worker objective from Canada’s 2026 economic update.
+- Expanded and fact-checked the housing-construction slowdown article using CMHC 2026 reporting.
+- Expanded the Level Exams vs Red Seal article and clarified eligibility and challenge pathways.
+
+Run with: npm start

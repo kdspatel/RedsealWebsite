@@ -1,0 +1,8 @@
+function showMockRequestMessage(testName) {
+      document.getElementById("mockRequestTitle").textContent = testName + " Request";
+      document.getElementById("mockRequestModal").classList.add("active");
+    }
+
+    function closeMockRequestMessage() {
+      document.getElementById("mockRequestModal").classList.remove("active");
+    }

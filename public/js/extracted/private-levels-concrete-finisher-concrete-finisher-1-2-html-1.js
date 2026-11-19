@@ -1,0 +1,1396 @@
+const concreteFinisherHarmonizedLevel1Set2Questions = [
+  {
+    "id": 1,
+    "category": "Basic Trade Knowledge",
+    "question": "What is concrete mainly made of?",
+    "options": [
+      "Cement, water, aggregate, and sand",
+      "Paint, glue, and water",
+      "Wood, steel, and plastic",
+      "Soil, oil, and lime"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is made from cement, water, sand, and coarse aggregate. These materials harden together to form a strong mass."
+  },
+  {
+    "id": 2,
+    "category": "Basic Trade Knowledge",
+    "question": "What does cement do in concrete?",
+    "options": [
+      "Acts as a binder",
+      "Makes concrete disappear",
+      "Replaces water",
+      "Removes aggregate"
+    ],
+    "answer": 0,
+    "explanation": "Cement binds the materials together. When mixed with water, it reacts and hardens."
+  },
+  {
+    "id": 3,
+    "category": "Basic Trade Knowledge",
+    "question": "What is aggregate in concrete?",
+    "options": [
+      "Sand and stone",
+      "Paint colour",
+      "Steel tool",
+      "Water only"
+    ],
+    "answer": 0,
+    "explanation": "Aggregate includes sand, gravel, or crushed stone. It gives concrete bulk and strength."
+  },
+  {
+    "id": 4,
+    "category": "Basic Trade Knowledge",
+    "question": "What happens if too much water is added to concrete?",
+    "options": [
+      "Concrete may become weaker",
+      "Concrete becomes stronger",
+      "Concrete cures instantly",
+      "Concrete needs no finishing"
+    ],
+    "answer": 0,
+    "explanation": "Too much water lowers strength and durability. It can also cause cracking, dusting, and surface problems."
+  },
+  {
+    "id": 5,
+    "category": "Basic Trade Knowledge",
+    "question": "What is slump used to measure?",
+    "options": [
+      "Workability of concrete",
+      "Concrete colour",
+      "Tool weight",
+      "Rebar size only"
+    ],
+    "answer": 0,
+    "explanation": "Slump shows how wet or workable concrete is. Higher slump usually means the mix flows more easily."
+  },
+  {
+    "id": 6,
+    "category": "Safety",
+    "question": "Why should gloves be worn when working with wet concrete?",
+    "options": [
+      "Wet concrete can burn skin",
+      "Concrete becomes lighter",
+      "Gloves increase slab thickness",
+      "Gloves replace tools"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete is alkaline and can cause chemical burns. Gloves protect the hands from irritation and injury."
+  },
+  {
+    "id": 7,
+    "category": "Safety",
+    "question": "Why is hearing protection used around concrete saws?",
+    "options": [
+      "Saws create loud noise",
+      "Saws improve curing",
+      "Saws reduce dust automatically",
+      "Saws replace PPE"
+    ],
+    "answer": 0,
+    "explanation": "Concrete saws can produce harmful noise levels. Hearing protection helps prevent hearing damage."
+  },
+  {
+    "id": 8,
+    "category": "Safety",
+    "question": "What should be worn when cutting concrete?",
+    "options": [
+      "Eye, hearing, and respiratory protection",
+      "Sandals only",
+      "No PPE",
+      "Cotton gloves only"
+    ],
+    "answer": 0,
+    "explanation": "Cutting creates dust, noise, and flying debris. Proper PPE protects the worker from several hazards."
+  },
+  {
+    "id": 9,
+    "category": "Safety",
+    "question": "Why should silica dust be controlled?",
+    "options": [
+      "It can damage lungs",
+      "It improves breathing",
+      "It strengthens concrete",
+      "It replaces cement"
+    ],
+    "answer": 0,
+    "explanation": "Silica dust is harmful when inhaled. Dust control and respirators help protect workers."
+  },
+  {
+    "id": 10,
+    "category": "Safety",
+    "question": "What is the safest action if a tool guard is missing?",
+    "options": [
+      "Do not use the tool",
+      "Use it faster",
+      "Remove other guards",
+      "Ignore the problem"
+    ],
+    "answer": 0,
+    "explanation": "Guards protect workers from moving parts. A tool without a guard should be removed from service."
+  },
+  {
+    "id": 11,
+    "category": "Tools",
+    "question": "Which tool is used to level fresh concrete?",
+    "options": [
+      "Screed",
+      "Hammer",
+      "Paint brush",
+      "Wrench"
+    ],
+    "answer": 0,
+    "explanation": "A screed levels concrete to the required height. It removes extra concrete from high spots."
+  },
+  {
+    "id": 12,
+    "category": "Tools",
+    "question": "Which tool is used to smooth large slab areas after screeding?",
+    "options": [
+      "Bull float",
+      "Pipe wrench",
+      "Crowbar",
+      "Handsaw"
+    ],
+    "answer": 0,
+    "explanation": "A bull float smooths the surface after screeding. It helps bring paste to the surface and flatten the slab."
+  },
+  {
+    "id": 13,
+    "category": "Tools",
+    "question": "What is a hand float used for?",
+    "options": [
+      "Smoothing small areas",
+      "Cutting steel",
+      "Lifting walls",
+      "Measuring temperature"
+    ],
+    "answer": 0,
+    "explanation": "A hand float is used near edges and tight spots. It smooths and compacts the surface."
+  },
+  {
+    "id": 14,
+    "category": "Tools",
+    "question": "What is a trowel used for?",
+    "options": [
+      "Final smoothing and finishing",
+      "Carrying gravel",
+      "Measuring air",
+      "Mixing asphalt"
+    ],
+    "answer": 0,
+    "explanation": "A trowel makes the concrete surface smooth and dense. It is used after floating."
+  },
+  {
+    "id": 15,
+    "category": "Tools",
+    "question": "What is a concrete vibrator used for?",
+    "options": [
+      "Consolidating concrete",
+      "Painting concrete",
+      "Cutting joints",
+      "Measuring length"
+    ],
+    "answer": 0,
+    "explanation": "A vibrator removes trapped air from concrete. This improves strength and reduces voids."
+  },
+  {
+    "id": 16,
+    "category": "Measuring",
+    "question": "How do you calculate area?",
+    "options": [
+      "Length × width",
+      "Length + water",
+      "Width ÷ cement",
+      "Height × paint"
+    ],
+    "answer": 0,
+    "explanation": "Area is found by multiplying length by width. It is usually measured in square metres or square feet."
+  },
+  {
+    "id": 17,
+    "category": "Measuring",
+    "question": "How do you calculate concrete volume for a slab?",
+    "options": [
+      "Length × width × thickness",
+      "Length + width",
+      "Width ÷ thickness",
+      "Cement × colour"
+    ],
+    "answer": 0,
+    "explanation": "Concrete volume is length times width times thickness. The answer is usually in cubic metres or cubic yards."
+  },
+  {
+    "id": 18,
+    "category": "Measuring",
+    "question": "A slab is 4 m long and 3 m wide. What is the area?",
+    "options": [
+      "12 m²",
+      "7 m²",
+      "9 m²",
+      "16 m²"
+    ],
+    "answer": 0,
+    "explanation": "Area = length × width. 4 × 3 = 12 m²."
+  },
+  {
+    "id": 19,
+    "category": "Measuring",
+    "question": "A slab is 5 m × 2 m × 0.1 m thick. What is the volume?",
+    "options": [
+      "1.0 m³",
+      "10 m³",
+      "7 m³",
+      "0.5 m³"
+    ],
+    "answer": 0,
+    "explanation": "Volume = 5 × 2 × 0.1. The required concrete is 1.0 m³."
+  },
+  {
+    "id": 20,
+    "category": "Measuring",
+    "question": "What does a laser level help check?",
+    "options": [
+      "Elevation and level",
+      "Concrete colour",
+      "Tool brand",
+      "Cement age only"
+    ],
+    "answer": 0,
+    "explanation": "A laser level helps check heights and slopes. It improves accuracy during layout and placement."
+  },
+  {
+    "id": 21,
+    "category": "Site Preparation",
+    "question": "Why is subgrade preparation important?",
+    "options": [
+      "It supports the slab",
+      "It changes concrete colour",
+      "It removes curing needs",
+      "It replaces cement"
+    ],
+    "answer": 0,
+    "explanation": "The subgrade supports the concrete. Poor subgrade can cause settlement and cracking."
+  },
+  {
+    "id": 22,
+    "category": "Site Preparation",
+    "question": "Why is the subgrade compacted?",
+    "options": [
+      "To reduce settlement",
+      "To add water",
+      "To remove forms",
+      "To make concrete weaker"
+    ],
+    "answer": 0,
+    "explanation": "Compaction creates a firm base. A weak base can move and damage the slab."
+  },
+  {
+    "id": 23,
+    "category": "Site Preparation",
+    "question": "What should be removed before placing concrete?",
+    "options": [
+      "Loose soil, debris, and standing water",
+      "All workers",
+      "All tools forever",
+      "Cement from the mix"
+    ],
+    "answer": 0,
+    "explanation": "Debris and soft material weaken support. A clean, stable base helps the slab perform better."
+  },
+  {
+    "id": 24,
+    "category": "Site Preparation",
+    "question": "Why is elevation checked before pouring?",
+    "options": [
+      "To ensure correct slab height",
+      "To reduce PPE",
+      "To change concrete mix",
+      "To remove joints"
+    ],
+    "answer": 0,
+    "explanation": "Elevation controls finished height. Wrong elevation can affect drainage, doors, and surrounding work."
+  },
+  {
+    "id": 25,
+    "category": "Site Preparation",
+    "question": "What can happen if concrete is placed on frozen ground?",
+    "options": [
+      "Settlement and cracking may occur",
+      "Concrete becomes stronger",
+      "Curing becomes unnecessary",
+      "Forms become permanent"
+    ],
+    "answer": 0,
+    "explanation": "Frozen ground can thaw and move later. This may cause the slab to settle or crack."
+  },
+  {
+    "id": 26,
+    "category": "Formwork",
+    "question": "What is the purpose of formwork?",
+    "options": [
+      "To hold concrete in shape",
+      "To replace concrete",
+      "To remove water",
+      "To paint the slab"
+    ],
+    "answer": 0,
+    "explanation": "Forms shape and support fresh concrete. They must stay secure during placement."
+  },
+  {
+    "id": 27,
+    "category": "Formwork",
+    "question": "Why are forms braced?",
+    "options": [
+      "To prevent movement during the pour",
+      "To weaken concrete",
+      "To increase dust",
+      "To remove elevation"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete pushes against forms. Bracing keeps forms aligned and stable."
+  },
+  {
+    "id": 28,
+    "category": "Formwork",
+    "question": "What happens if forms are not level or straight?",
+    "options": [
+      "The finished concrete may be incorrect",
+      "Concrete cures faster",
+      "Rebar becomes unnecessary",
+      "Concrete becomes waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Forms guide the final shape and height. Poor formwork can cause poor appearance and wrong dimensions."
+  },
+  {
+    "id": 29,
+    "category": "Formwork",
+    "question": "Why is form release agent used?",
+    "options": [
+      "To help forms separate from concrete",
+      "To make concrete weaker",
+      "To add reinforcement",
+      "To stop hydration"
+    ],
+    "answer": 0,
+    "explanation": "Release agent reduces sticking. It helps forms come off without damaging the concrete."
+  },
+  {
+    "id": 30,
+    "category": "Formwork",
+    "question": "When should forms be removed?",
+    "options": [
+      "After concrete has enough strength",
+      "Immediately after pouring",
+      "Before concrete is placed",
+      "While concrete is still flowing"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must support itself before forms are stripped. Early removal can damage edges or shape."
+  },
+  {
+    "id": 31,
+    "category": "Reinforcement",
+    "question": "Why is rebar used in concrete?",
+    "options": [
+      "To resist tensile forces",
+      "To make concrete dry instantly",
+      "To replace aggregate",
+      "To add colour"
+    ],
+    "answer": 0,
+    "explanation": "Concrete is weak in tension. Rebar helps control cracking and adds strength."
+  },
+  {
+    "id": 32,
+    "category": "Reinforcement",
+    "question": "Why must rebar be kept at the correct height?",
+    "options": [
+      "To work properly in the slab",
+      "To reduce cement content",
+      "To increase surface dust",
+      "To replace forms"
+    ],
+    "answer": 0,
+    "explanation": "Rebar must be placed where it can resist stresses. Incorrect placement reduces its effectiveness."
+  },
+  {
+    "id": 33,
+    "category": "Reinforcement",
+    "question": "What is concrete cover?",
+    "options": [
+      "Distance from concrete surface to reinforcement",
+      "Amount of paint on forms",
+      "Thickness of water",
+      "Size of trowel handle"
+    ],
+    "answer": 0,
+    "explanation": "Cover protects steel from corrosion and fire. It also helps reinforcement bond with concrete."
+  },
+  {
+    "id": 34,
+    "category": "Reinforcement",
+    "question": "Why are chairs used under rebar or mesh?",
+    "options": [
+      "To hold reinforcement at correct height",
+      "To increase slump",
+      "To reduce concrete volume",
+      "To remove joints"
+    ],
+    "answer": 0,
+    "explanation": "Chairs support reinforcement during placement. They help keep steel in the proper position."
+  },
+  {
+    "id": 35,
+    "category": "Reinforcement",
+    "question": "What can happen if reinforcement is lying on the ground?",
+    "options": [
+      "It may not strengthen the slab properly",
+      "It improves concrete strength",
+      "It replaces compaction",
+      "It removes the need for concrete"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be inside the concrete at the right location. Steel on the ground provides little benefit."
+  },
+  {
+    "id": 36,
+    "category": "Placing Concrete",
+    "question": "What should be avoided when placing concrete?",
+    "options": [
+      "Segregation",
+      "Proper screeding",
+      "Proper PPE",
+      "Correct elevation"
+    ],
+    "answer": 0,
+    "explanation": "Segregation means materials separate in the mix. It can cause weak spots and poor finish."
+  },
+  {
+    "id": 37,
+    "category": "Placing Concrete",
+    "question": "Why should concrete be placed close to its final location?",
+    "options": [
+      "To reduce handling and segregation",
+      "To increase waste",
+      "To remove cement paste",
+      "To avoid finishing"
+    ],
+    "answer": 0,
+    "explanation": "Excessive moving can separate the mix. Placing close to final position improves quality."
+  },
+  {
+    "id": 38,
+    "category": "Placing Concrete",
+    "question": "What is a cold joint?",
+    "options": [
+      "A weak joint from delayed placement",
+      "A decorative colour line",
+      "A type of broom finish",
+      "A form brace"
+    ],
+    "answer": 0,
+    "explanation": "A cold joint forms when fresh concrete is placed against concrete that has started to set. It can reduce strength and appearance."
+  },
+  {
+    "id": 39,
+    "category": "Placing Concrete",
+    "question": "Why should concrete be placed continuously when possible?",
+    "options": [
+      "To reduce cold joints",
+      "To increase delays",
+      "To weaken the slab",
+      "To stop finishing"
+    ],
+    "answer": 0,
+    "explanation": "Continuous placement keeps the slab more uniform. Delays can create weak planes."
+  },
+  {
+    "id": 40,
+    "category": "Placing Concrete",
+    "question": "Why is concrete not dropped from excessive height?",
+    "options": [
+      "It can segregate",
+      "It becomes stronger",
+      "It cures faster",
+      "It removes air naturally"
+    ],
+    "answer": 0,
+    "explanation": "Dropping concrete too far can separate stone from paste. Proper placement keeps the mix uniform."
+  },
+  {
+    "id": 41,
+    "category": "Consolidation",
+    "question": "What is the main purpose of consolidation?",
+    "options": [
+      "Remove trapped air and voids",
+      "Add more water",
+      "Remove cement",
+      "Stop curing"
+    ],
+    "answer": 0,
+    "explanation": "Consolidation helps concrete fill spaces fully. It improves strength and appearance."
+  },
+  {
+    "id": 42,
+    "category": "Consolidation",
+    "question": "What can happen if concrete is not consolidated?",
+    "options": [
+      "Honeycombing may occur",
+      "Concrete becomes transparent",
+      "Forms become stronger",
+      "Rebar disappears"
+    ],
+    "answer": 0,
+    "explanation": "Poor consolidation leaves voids or rock pockets. This is often called honeycombing."
+  },
+  {
+    "id": 43,
+    "category": "Consolidation",
+    "question": "Why should over-vibration be avoided?",
+    "options": [
+      "It can cause segregation",
+      "It improves every mix",
+      "It replaces curing",
+      "It increases form strength"
+    ],
+    "answer": 0,
+    "explanation": "Too much vibration can separate materials. Proper vibration should be controlled."
+  },
+  {
+    "id": 44,
+    "category": "Consolidation",
+    "question": "Where is consolidation especially important?",
+    "options": [
+      "Around reinforcement and forms",
+      "On finished paint",
+      "In empty air",
+      "On dry soil only"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must flow around rebar and into corners. Consolidation reduces voids in these areas."
+  },
+  {
+    "id": 45,
+    "category": "Consolidation",
+    "question": "What is honeycombing?",
+    "options": [
+      "Voids or rock pockets in concrete",
+      "A smooth finish",
+      "A curing blanket",
+      "A type of rebar chair"
+    ],
+    "answer": 0,
+    "explanation": "Honeycombing happens when concrete does not fully fill an area. It can reduce durability and appearance."
+  },
+  {
+    "id": 46,
+    "category": "Screeding",
+    "question": "What is the purpose of screeding?",
+    "options": [
+      "Bring concrete to grade",
+      "Cure the concrete",
+      "Cut reinforcement",
+      "Paint the surface"
+    ],
+    "answer": 0,
+    "explanation": "Screeding levels the concrete surface. It removes excess material and fills low areas."
+  },
+  {
+    "id": 47,
+    "category": "Screeding",
+    "question": "When is screeding done?",
+    "options": [
+      "After placing concrete",
+      "Before forms are built",
+      "After full curing",
+      "Before subgrade preparation"
+    ],
+    "answer": 0,
+    "explanation": "Screeding is done while the concrete is fresh. It is one of the first finishing steps."
+  },
+  {
+    "id": 48,
+    "category": "Screeding",
+    "question": "What may happen if screeding is poor?",
+    "options": [
+      "Uneven slab surface",
+      "Stronger concrete",
+      "Less need for tools",
+      "Better drainage automatically"
+    ],
+    "answer": 0,
+    "explanation": "Poor screeding leaves high and low spots. It can affect drainage and final finish."
+  },
+  {
+    "id": 49,
+    "category": "Screeding",
+    "question": "Why should forms or screed rails be set accurately?",
+    "options": [
+      "They control final elevation",
+      "They change concrete colour",
+      "They replace cement",
+      "They stop all cracking"
+    ],
+    "answer": 0,
+    "explanation": "Screeding follows the forms or rails. Incorrect setup leads to incorrect slab height."
+  },
+  {
+    "id": 50,
+    "category": "Screeding",
+    "question": "What tool may be used for larger slabs?",
+    "options": [
+      "Vibrating screed",
+      "Paint roller",
+      "Screwdriver",
+      "Roofing nailer"
+    ],
+    "answer": 0,
+    "explanation": "A vibrating screed helps level and consolidate the surface. It is useful for larger placements."
+  },
+  {
+    "id": 51,
+    "category": "Floating",
+    "question": "Why is floating done after screeding?",
+    "options": [
+      "To smooth and compact the surface",
+      "To remove all concrete",
+      "To install rebar",
+      "To stop hydration"
+    ],
+    "answer": 0,
+    "explanation": "Floating removes screed marks and smooths the slab. It prepares the surface for later finishing."
+  },
+  {
+    "id": 52,
+    "category": "Floating",
+    "question": "What does a bull float help correct?",
+    "options": [
+      "Small high and low spots",
+      "Rebar corrosion only",
+      "Tool colour",
+      "Truck speed"
+    ],
+    "answer": 0,
+    "explanation": "Bull floating levels minor imperfections. It also helps embed aggregate below the surface."
+  },
+  {
+    "id": 53,
+    "category": "Floating",
+    "question": "Why should floating not be done with bleed water on the surface?",
+    "options": [
+      "It can weaken the surface",
+      "It makes concrete stronger",
+      "It replaces curing",
+      "It improves all finishes"
+    ],
+    "answer": 0,
+    "explanation": "Working bleed water into concrete can cause surface defects. Workers should wait until bleed water disappears."
+  },
+  {
+    "id": 54,
+    "category": "Floating",
+    "question": "What is bleed water?",
+    "options": [
+      "Water that rises to the surface",
+      "Paint on concrete",
+      "Rebar coating",
+      "Dry cement powder only"
+    ],
+    "answer": 0,
+    "explanation": "Bleed water rises as solid materials settle. Finishing too early can trap water in the surface."
+  },
+  {
+    "id": 55,
+    "category": "Floating",
+    "question": "Which tool is often used for initial floating?",
+    "options": [
+      "Magnesium float",
+      "Hacksaw",
+      "Pipe cutter",
+      "Nail set"
+    ],
+    "answer": 0,
+    "explanation": "Magnesium floats are common for early finishing. They smooth the surface without sealing it too soon."
+  },
+  {
+    "id": 56,
+    "category": "Edging",
+    "question": "Why are slab edges edged?",
+    "options": [
+      "To reduce chipping",
+      "To increase random cracking",
+      "To remove curing needs",
+      "To weaken the edge"
+    ],
+    "answer": 0,
+    "explanation": "Edging rounds sharp corners. Rounded edges are less likely to break."
+  },
+  {
+    "id": 57,
+    "category": "Edging",
+    "question": "When should edging be performed?",
+    "options": [
+      "While concrete is workable",
+      "After demolition",
+      "Before concrete is mixed",
+      "Only after 28 days"
+    ],
+    "answer": 0,
+    "explanation": "Edging needs fresh concrete that can be shaped. Waiting too long makes the task difficult."
+  },
+  {
+    "id": 58,
+    "category": "Edging",
+    "question": "What happens if an edger is dirty?",
+    "options": [
+      "It may leave marks",
+      "It improves finish",
+      "It increases strength",
+      "It replaces a trowel"
+    ],
+    "answer": 0,
+    "explanation": "Hardened concrete on the tool can drag across the surface. Clean tools produce cleaner edges."
+  },
+  {
+    "id": 59,
+    "category": "Jointing",
+    "question": "Why are control joints installed?",
+    "options": [
+      "To control cracking",
+      "To stop concrete from hardening",
+      "To remove thickness",
+      "To replace finishing"
+    ],
+    "answer": 0,
+    "explanation": "Concrete shrinks as it dries. Control joints help cracks form in planned locations."
+  },
+  {
+    "id": 60,
+    "category": "Jointing",
+    "question": "How deep should a contraction joint commonly be?",
+    "options": [
+      "About one-quarter of slab thickness",
+      "Full slab height always",
+      "Only 1 mm",
+      "No depth needed"
+    ],
+    "answer": 0,
+    "explanation": "A common guideline is one-quarter slab depth. This helps the joint control cracking."
+  },
+  {
+    "id": 61,
+    "category": "Jointing",
+    "question": "What can happen if joints are cut too late?",
+    "options": [
+      "Random cracking may occur first",
+      "Concrete becomes fresh again",
+      "Rebar disappears",
+      "Slab becomes waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Concrete may crack before late saw cuts are made. Timing is important for crack control."
+  },
+  {
+    "id": 62,
+    "category": "Jointing",
+    "question": "Why should joint layout be planned?",
+    "options": [
+      "To make cracks controlled and neat",
+      "To increase random damage",
+      "To avoid measuring",
+      "To remove forms"
+    ],
+    "answer": 0,
+    "explanation": "Proper layout improves appearance and performance. Poor joint spacing can lead to random cracking."
+  },
+  {
+    "id": 63,
+    "category": "Jointing",
+    "question": "What is an isolation joint used for?",
+    "options": [
+      "Separating slab from fixed objects",
+      "Joining two tools",
+      "Adding water to concrete",
+      "Replacing rebar"
+    ],
+    "answer": 0,
+    "explanation": "Isolation joints allow movement around columns, walls, and drains. They help reduce cracking."
+  },
+  {
+    "id": 64,
+    "category": "Troweling",
+    "question": "When should troweling begin?",
+    "options": [
+      "After bleed water disappears",
+      "Before screeding",
+      "Before placing concrete",
+      "During heavy rain"
+    ],
+    "answer": 0,
+    "explanation": "Troweling too early can trap water. Proper timing improves surface quality."
+  },
+  {
+    "id": 65,
+    "category": "Troweling",
+    "question": "What is the purpose of troweling?",
+    "options": [
+      "Produce a smooth, dense finish",
+      "Add gravel to the slab",
+      "Remove formwork",
+      "Increase air voids"
+    ],
+    "answer": 0,
+    "explanation": "Troweling closes and smooths the surface. It can create a hard, dense finish."
+  },
+  {
+    "id": 66,
+    "category": "Troweling",
+    "question": "What can happen if concrete is over-troweled?",
+    "options": [
+      "Surface defects may develop",
+      "Concrete becomes perfect forever",
+      "Joints are not needed",
+      "Concrete becomes flexible"
+    ],
+    "answer": 0,
+    "explanation": "Over-troweling can trap water or air. This may cause scaling, dusting, or delamination."
+  },
+  {
+    "id": 67,
+    "category": "Troweling",
+    "question": "Why is exterior concrete often broom finished instead of smooth troweled?",
+    "options": [
+      "To improve slip resistance",
+      "To make it slippery",
+      "To remove slope",
+      "To reduce curing"
+    ],
+    "answer": 0,
+    "explanation": "Smooth exterior concrete can be slippery when wet. Broom finishing gives better traction."
+  },
+  {
+    "id": 68,
+    "category": "Troweling",
+    "question": "What does increasing trowel blade angle usually do?",
+    "options": [
+      "Applies more finishing pressure",
+      "Adds water",
+      "Cuts rebar",
+      "Removes forms"
+    ],
+    "answer": 0,
+    "explanation": "A steeper blade angle increases pressure. Too much angle too early can mark the surface."
+  },
+  {
+    "id": 69,
+    "category": "Broom Finish",
+    "question": "What is the purpose of a broom finish?",
+    "options": [
+      "Add texture for traction",
+      "Make concrete invisible",
+      "Remove cement",
+      "Stop curing"
+    ],
+    "answer": 0,
+    "explanation": "A broom finish creates small grooves. These grooves help reduce slipping."
+  },
+  {
+    "id": 70,
+    "category": "Broom Finish",
+    "question": "When is broom finishing done?",
+    "options": [
+      "While concrete is firm but workable",
+      "Before concrete is placed",
+      "After full demolition",
+      "Before subgrade compaction"
+    ],
+    "answer": 0,
+    "explanation": "The concrete must be firm enough to hold texture. If too wet, the broom marks may be messy."
+  },
+  {
+    "id": 71,
+    "category": "Broom Finish",
+    "question": "What happens if brooming is done too early?",
+    "options": [
+      "Marks may be too deep or rough",
+      "Concrete becomes stronger",
+      "Curing stops",
+      "Forms become straight"
+    ],
+    "answer": 0,
+    "explanation": "Wet concrete cannot hold a clean texture. Early brooming can leave poor surface marks."
+  },
+  {
+    "id": 72,
+    "category": "Curing",
+    "question": "Why is concrete cured?",
+    "options": [
+      "To maintain moisture for strength gain",
+      "To dry it as fast as possible",
+      "To remove cement reaction",
+      "To increase dust"
+    ],
+    "answer": 0,
+    "explanation": "Concrete needs moisture for hydration. Proper curing improves strength and durability."
+  },
+  {
+    "id": 73,
+    "category": "Curing",
+    "question": "What can happen with poor curing?",
+    "options": [
+      "Cracking, dusting, or weak surface",
+      "Perfect strength always",
+      "No shrinkage ever",
+      "No need for joints"
+    ],
+    "answer": 0,
+    "explanation": "Poor curing allows moisture loss too soon. This can damage the surface and reduce strength."
+  },
+  {
+    "id": 74,
+    "category": "Curing",
+    "question": "Which is a common curing method?",
+    "options": [
+      "Wet burlap",
+      "Dry sweeping only",
+      "Removing all water",
+      "Painting forms"
+    ],
+    "answer": 0,
+    "explanation": "Wet burlap helps keep concrete moist. It supports proper curing."
+  },
+  {
+    "id": 75,
+    "category": "Curing",
+    "question": "What does curing compound do?",
+    "options": [
+      "Helps reduce moisture loss",
+      "Removes all cement",
+      "Adds rebar",
+      "Increases cracks"
+    ],
+    "answer": 0,
+    "explanation": "Curing compound forms a film on the surface. This slows moisture loss."
+  },
+  {
+    "id": 76,
+    "category": "Curing",
+    "question": "When should curing start?",
+    "options": [
+      "As soon as finishing allows",
+      "After one year",
+      "Before concrete is placed",
+      "Only after cracking"
+    ],
+    "answer": 0,
+    "explanation": "Curing should begin soon after finishing. Early curing helps protect the concrete."
+  },
+  {
+    "id": 77,
+    "category": "Weather Protection",
+    "question": "What is the risk of placing concrete in hot, windy weather?",
+    "options": [
+      "Rapid moisture loss",
+      "Stronger concrete automatically",
+      "No finishing needed",
+      "Less cracking risk"
+    ],
+    "answer": 0,
+    "explanation": "Heat and wind dry concrete quickly. This can cause shrinkage cracks and surface defects."
+  },
+  {
+    "id": 78,
+    "category": "Weather Protection",
+    "question": "How can fresh concrete be protected from hot weather?",
+    "options": [
+      "Shade, windbreaks, and curing",
+      "Add dirt to the surface",
+      "Remove all water",
+      "Stop finishing forever"
+    ],
+    "answer": 0,
+    "explanation": "Shade and windbreaks slow evaporation. Proper curing keeps moisture in the concrete."
+  },
+  {
+    "id": 79,
+    "category": "Weather Protection",
+    "question": "What is the danger of fresh concrete freezing?",
+    "options": [
+      "Strength may be reduced",
+      "Concrete becomes stronger",
+      "Slab becomes thicker",
+      "Joints disappear"
+    ],
+    "answer": 0,
+    "explanation": "Freezing can damage concrete before it gains strength. Cold-weather protection is needed."
+  },
+  {
+    "id": 80,
+    "category": "Weather Protection",
+    "question": "What can protect concrete in cold weather?",
+    "options": [
+      "Insulated blankets",
+      "Extra dust",
+      "Removing forms immediately",
+      "Leaving snow on slab"
+    ],
+    "answer": 0,
+    "explanation": "Insulated blankets help maintain temperature. They protect concrete from freezing."
+  },
+  {
+    "id": 81,
+    "category": "Weather Protection",
+    "question": "Why should fresh concrete be protected from rain?",
+    "options": [
+      "Rain can damage the surface",
+      "Rain makes finishing easier always",
+      "Rain replaces curing compound",
+      "Rain adds reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Heavy rain can wash away cement paste. It can also leave marks and weaken the surface."
+  },
+  {
+    "id": 82,
+    "category": "Defects",
+    "question": "What is concrete scaling?",
+    "options": [
+      "Flaking or peeling of the surface",
+      "Proper curing",
+      "A type of rebar",
+      "A measuring tool"
+    ],
+    "answer": 0,
+    "explanation": "Scaling is surface deterioration. It can be caused by poor curing, freeze-thaw, or finishing problems."
+  },
+  {
+    "id": 83,
+    "category": "Defects",
+    "question": "What is dusting?",
+    "options": [
+      "Powdery weak concrete surface",
+      "A type of strong finish",
+      "Rebar coating",
+      "Form oil"
+    ],
+    "answer": 0,
+    "explanation": "Dusting happens when the surface is weak and powdery. It may result from too much water or poor finishing."
+  },
+  {
+    "id": 84,
+    "category": "Defects",
+    "question": "What is crazing?",
+    "options": [
+      "Fine shallow surface cracks",
+      "Deep structural failure only",
+      "Concrete colour mixing",
+      "Rebar bending"
+    ],
+    "answer": 0,
+    "explanation": "Crazing is a network of fine cracks on the surface. It usually affects appearance more than structure."
+  },
+  {
+    "id": 85,
+    "category": "Defects",
+    "question": "What is delamination?",
+    "options": [
+      "Surface layer separates from concrete below",
+      "Concrete becomes waterproof",
+      "Forms become permanent",
+      "Rebar disappears"
+    ],
+    "answer": 0,
+    "explanation": "Delamination is separation below the surface. It can happen when air or bleed water is trapped."
+  },
+  {
+    "id": 86,
+    "category": "Defects",
+    "question": "What is plastic shrinkage cracking?",
+    "options": [
+      "Cracking while concrete is still fresh",
+      "Cracking after demolition",
+      "Cracking only in steel",
+      "A painted joint"
+    ],
+    "answer": 0,
+    "explanation": "Plastic shrinkage cracks occur before concrete hardens. They often happen during rapid surface drying."
+  },
+  {
+    "id": 87,
+    "category": "Repair",
+    "question": "Before repairing concrete, what should be done first?",
+    "options": [
+      "Inspect the damage",
+      "Paint over it",
+      "Add water only",
+      "Cover it with dirt"
+    ],
+    "answer": 0,
+    "explanation": "Inspection finds the cause and extent of damage. Correct repair depends on proper assessment."
+  },
+  {
+    "id": 88,
+    "category": "Repair",
+    "question": "Why should loose concrete be removed before patching?",
+    "options": [
+      "To provide a sound bonding surface",
+      "To weaken the repair",
+      "To increase dust",
+      "To hide damage"
+    ],
+    "answer": 0,
+    "explanation": "Repair material needs solid concrete to bond to. Loose material can cause repair failure."
+  },
+  {
+    "id": 89,
+    "category": "Repair",
+    "question": "Why should repair surfaces be cleaned?",
+    "options": [
+      "Dust and dirt reduce bonding",
+      "Dirt improves strength",
+      "Cleaning stops curing",
+      "Cleaning replaces repair material"
+    ],
+    "answer": 0,
+    "explanation": "Contaminants can act as bond breakers. Clean surfaces help patches adhere properly."
+  },
+  {
+    "id": 90,
+    "category": "Repair",
+    "question": "Why follow manufacturer instructions for repair products?",
+    "options": [
+      "To get proper performance",
+      "To make repairs fail",
+      "To avoid measuring",
+      "To remove safety rules"
+    ],
+    "answer": 0,
+    "explanation": "Repair products have specific mixing and placing requirements. Following instructions improves results."
+  },
+  {
+    "id": 91,
+    "category": "Repair",
+    "question": "What can happen if too much water is added to repair mortar?",
+    "options": [
+      "It may weaken the repair",
+      "It becomes stronger",
+      "It cures instantly",
+      "It needs no bonding"
+    ],
+    "answer": 0,
+    "explanation": "Extra water can reduce strength and increase shrinkage. Proper mix ratio is important."
+  },
+  {
+    "id": 92,
+    "category": "Communication",
+    "question": "Why is communication important during a concrete pour?",
+    "options": [
+      "Timing and teamwork are critical",
+      "It replaces tools",
+      "It removes safety needs",
+      "It stops concrete from setting"
+    ],
+    "answer": 0,
+    "explanation": "Concrete work must be done in sequence. Good communication prevents delays and mistakes."
+  },
+  {
+    "id": 93,
+    "category": "Communication",
+    "question": "What should a worker do if unsure about instructions?",
+    "options": [
+      "Ask the supervisor or lead hand",
+      "Guess the answer",
+      "Leave the job",
+      "Ignore the task"
+    ],
+    "answer": 0,
+    "explanation": "Asking questions prevents errors. Clear instructions improve safety and quality."
+  },
+  {
+    "id": 94,
+    "category": "Communication",
+    "question": "Why should hand signals be understood around equipment?",
+    "options": [
+      "To communicate safely in noisy areas",
+      "To replace PPE",
+      "To increase dust",
+      "To reduce concrete strength"
+    ],
+    "answer": 0,
+    "explanation": "Equipment areas can be loud and dangerous. Hand signals help workers communicate safely."
+  },
+  {
+    "id": 95,
+    "category": "Housekeeping",
+    "question": "Why should tools be stored properly after use?",
+    "options": [
+      "To prevent damage and tripping hazards",
+      "To increase rust",
+      "To block walkways",
+      "To hide tools"
+    ],
+    "answer": 0,
+    "explanation": "Proper storage keeps tools safe and easy to find. It also reduces job-site hazards."
+  },
+  {
+    "id": 96,
+    "category": "Housekeeping",
+    "question": "Why should waste materials be removed from the work area?",
+    "options": [
+      "To reduce hazards and improve efficiency",
+      "To increase clutter",
+      "To slow work",
+      "To damage concrete"
+    ],
+    "answer": 0,
+    "explanation": "Waste can create trips and block movement. A clean work area is safer and more productive."
+  },
+  {
+    "id": 97,
+    "category": "Quality Control",
+    "question": "Why should the finished surface be inspected?",
+    "options": [
+      "To find defects early",
+      "To remove curing",
+      "To avoid repairs forever",
+      "To increase dust"
+    ],
+    "answer": 0,
+    "explanation": "Early inspection helps identify problems. Defects can often be corrected sooner when found early."
+  },
+  {
+    "id": 98,
+    "category": "Quality Control",
+    "question": "Why should slab thickness be checked?",
+    "options": [
+      "To confirm it meets requirements",
+      "To reduce concrete strength",
+      "To remove reinforcement",
+      "To avoid measuring"
+    ],
+    "answer": 0,
+    "explanation": "Correct thickness affects strength and performance. Thin slabs may crack or fail sooner."
+  },
+  {
+    "id": 99,
+    "category": "Quality Control",
+    "question": "Why should concrete delivery tickets be checked?",
+    "options": [
+      "To confirm mix information",
+      "To decorate the site",
+      "To replace drawings",
+      "To reduce safety"
+    ],
+    "answer": 0,
+    "explanation": "Delivery tickets show mix type, time, and quantity. Checking them helps confirm the correct concrete is delivered."
+  },
+  {
+    "id": 100,
+    "category": "Basic Trade Knowledge",
+    "question": "What is the main goal of a concrete finisher?",
+    "options": [
+      "Place, finish, cure, and protect concrete properly",
+      "Paint walls only",
+      "Install electrical wiring",
+      "Frame roof trusses"
+    ],
+    "answer": 0,
+    "explanation": "Concrete finishers help produce durable, level, and properly finished concrete. Their work affects appearance, safety, and long-term performance."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerLevel1Set1Questions =
+  shuffleArray(concreteFinisherHarmonizedLevel1Set2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "Concrete Finisher",
+  tradeTitle: "Concrete Finisher",
+  sectionTitle: "Level 1 – Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerLevel1Set1Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerLevel1Set1Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

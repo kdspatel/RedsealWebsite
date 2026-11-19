@@ -1,0 +1,1027 @@
+/* ===== legacy bridge part 2 ===== */
+.rsp-legacy .phase-shell {
+    padding-top: 8px;
+    padding-bottom: 40px
+}
+
+.rsp-legacy .phase-shell>.phase-hero {
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 36px;
+    margin: 32px 0 8px
+}
+
+.rsp-legacy .phase-card h2 {
+    font-size: 24px;
+    margin-bottom: 14px
+}
+
+.rsp-legacy .province-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+    overflow-wrap: anywhere
+}
+
+.rsp-legacy .province-card strong {
+    display: block;
+    color: var(--ink);
+    font: 700 18px "Space Grotesk", sans-serif
+}
+
+.rsp-legacy .province-card span {
+    display: block;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 21px
+}
+
+.rsp-legacy .province-card span:last-child {
+    color: var(--seal);
+    font-weight: 600
+}
+
+/* news / blog / article */
+.rsp-legacy .news-masthead-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.rsp-legacy .news-masthead-badge {
+    width: 110px;
+    height: 110px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: 700 28px "Space Grotesk", sans-serif;
+    flex: none
+}
+
+.rsp-legacy .news-masthead-badge small {
+    font-size: 12px;
+    letter-spacing: .14em;
+    opacity: .8
+}
+
+.rsp-legacy .news-main {
+    padding-top: 36px;
+    padding-bottom: 50px
+}
+
+.rsp-legacy .news-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 36px 0 22px
+}
+
+.rsp-legacy .news-section-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--seal)
+}
+
+.rsp-legacy .news-toolbar h2 {
+    font-size: 26px;
+    margin-top: 4px;
+    max-width: 640px
+}
+
+.rsp-legacy .news-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px
+}
+
+.rsp-legacy .news-filter {
+    border: 1.5px solid var(--line);
+    background: #fff;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font: 600 14px Inter, sans-serif;
+    cursor: pointer;
+    color: var(--ink)
+}
+
+.rsp-legacy .news-filter.is-active,
+.rsp-legacy .news-filter:hover {
+    background: var(--seal);
+    border-color: var(--seal);
+    color: #fff
+}
+
+.rsp-legacy .news-card,
+.rsp-legacy .news-feature-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: .15s
+}
+
+.rsp-legacy .news-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(22, 25, 29, .1);
+    border-color: #E8B4B7
+}
+
+.rsp-legacy .news-card-image img,
+.rsp-legacy .news-feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+
+.rsp-legacy .news-card-image {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--tint)
+}
+
+.rsp-legacy .news-card-body,
+.rsp-legacy .news-feature-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1
+}
+
+.rsp-legacy .news-card h3,
+.rsp-legacy .news-feature-content h2 {
+    font-size: 20px;
+    line-height: 1.25
+}
+
+.rsp-legacy .news-feature-card {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr
+}
+
+.rsp-legacy .news-feature-image {
+    min-height: 280px;
+    background: var(--tint)
+}
+
+.rsp-legacy .news-feature-content h2 {
+    font-size: 30px
+}
+
+.rsp-legacy .news-category {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--tint);
+    color: var(--seal);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 999px
+}
+
+.rsp-legacy .news-meta,
+.rsp-legacy .news-card-meta {
+    color: var(--muted);
+    font-size: 13px
+}
+
+.rsp-legacy .news-read-button {
+    display: inline-flex;
+    align-self: flex-start;
+    margin-top: auto;
+    min-height: 42px;
+    align-items: center;
+    padding: 0 18px;
+    border-radius: 12px;
+    background: var(--seal);
+    color: #fff;
+    font-weight: 600
+}
+
+.rsp-legacy .news-no-results {
+    text-align: center;
+    color: var(--muted);
+    padding: 30px
+}
+
+.rsp-legacy .news-breadcrumb,
+.rsp-legacy .trade-breadcrumbs,
+.rsp-legacy .library-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 14px
+}
+
+.rsp-legacy .news-breadcrumb a:hover,
+.rsp-legacy .trade-breadcrumbs a:hover {
+    color: var(--seal)
+}
+
+.rsp-legacy .news-article-main {
+    padding-top: 28px;
+    padding-bottom: 50px;
+    max-width: 1120px
+}
+
+.rsp-legacy .news-article-header {
+    max-width: 860px
+}
+
+.rsp-legacy .news-article-deck {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--muted);
+    margin-bottom: 18px
+}
+
+.rsp-legacy .news-byline {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin: 16px 0 24px
+}
+
+.rsp-legacy .news-byline p {
+    color: var(--muted);
+    font-size: 14px
+}
+
+.rsp-legacy .news-author-mark {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--seal);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 15px "Space Grotesk", sans-serif;
+    flex: none
+}
+
+.rsp-legacy .news-article-hero {
+    margin: 0 0 28px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--tint)
+}
+
+.rsp-legacy .news-article-hero img {
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;
+    display: block
+}
+
+.rsp-legacy .news-article-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 36px;
+    align-items: start
+}
+
+.rsp-legacy .news-article-body {
+    font-size: 18px;
+    line-height: 30px;
+    color: #2a2f36
+}
+
+.rsp-legacy .news-article-body h2 {
+    font-size: 28px;
+    margin: 34px 0 12px
+}
+
+.rsp-legacy .news-article-body h3 {
+    font-size: 22px;
+    margin: 26px 0 10px
+}
+
+.rsp-legacy .news-article-body p,
+.rsp-legacy .news-article-body li {
+    margin: 0 0 16px
+}
+
+.rsp-legacy .news-article-body ul,
+.rsp-legacy .news-article-body ol {
+    padding-left: 24px
+}
+
+.rsp-legacy .news-article-body a {
+    color: var(--seal);
+    text-decoration: underline
+}
+
+.rsp-legacy .news-article-body img {
+    max-width: 100%;
+    border-radius: 14px
+}
+
+.rsp-legacy .news-article-references,
+.rsp-legacy .news-article-disclaimer,
+.rsp-legacy .news-article-tags {
+    margin-top: 26px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    font-size: 15px;
+    line-height: 24px
+}
+
+.rsp-legacy .news-article-sidebar {
+    display: grid;
+    gap: 16px;
+    position: sticky;
+    top: 92px
+}
+
+.rsp-legacy .news-sidebar-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--seal)
+}
+
+.rsp-legacy .news-sidebar-card h2 {
+    font-size: 22px;
+    margin: 6px 0
+}
+
+.rsp-legacy .news-sidebar-card p {
+    color: var(--muted);
+    font-size: 15px;
+    margin-bottom: 12px
+}
+
+.rsp-legacy .news-sidebar-primary,
+.rsp-legacy .news-sidebar-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    border: 1.5px solid var(--seal)
+}
+
+.rsp-legacy .news-sidebar-primary {
+    background: var(--seal);
+    color: #fff
+}
+
+.rsp-legacy .news-sidebar-secondary {
+    background: #fff;
+    color: var(--seal)
+}
+
+.rsp-legacy .news-sidebar-soft {
+    background: var(--tint)
+}
+
+/* trade detail + SEO trade pages */
+.rsp-legacy .trade-resource-bar {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 78px;
+    z-index: 30
+}
+
+.rsp-legacy .trade-resource-bar-inner {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.rsp-legacy .trade-resource-bar a {
+    white-space: nowrap;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--ink)
+}
+
+.rsp-legacy .trade-resource-bar a:hover,
+.rsp-legacy .trade-resource-bar a.active,
+.rsp-legacy .trade-resource-bar a[aria-current] {
+    background: var(--tint);
+    color: var(--seal)
+}
+
+.rsp-legacy .trade-landing-hero .trade-landing-container {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.rsp-legacy .trade-hero-tags span {
+    background: #fff;
+    border: 1px solid #F0C9CB;
+    color: var(--seal);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px 14px;
+    border-radius: 999px
+}
+
+.rsp-legacy .trade-cta,
+.rsp-legacy .mock-test-cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 24px;
+    border-radius: 12px;
+    background: #16191D;
+    color: #fff;
+    font-weight: 600
+}
+
+.rsp-legacy .trade-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 32px;
+    align-items: start;
+    padding-top: 36px;
+    padding-bottom: 50px
+}
+
+.rsp-legacy .trade-section {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 24px
+}
+
+.rsp-legacy .trade-section-heading {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 20px
+}
+
+.rsp-legacy .trade-section-heading h2 {
+    font-size: 26px;
+    margin: 2px 0 6px
+}
+
+.rsp-legacy .trade-section-heading p {
+    color: var(--muted)
+}
+
+.rsp-legacy .trade-section-heading .trade-section-eyebrow {
+    margin: 0 0 6px
+}
+
+.rsp-legacy .trade-section-number {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--seal);
+    color: #fff;
+    font: 700 18px "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none
+}
+
+.rsp-legacy .trade-facts-grid,
+.rsp-legacy .trade-card-grid,
+.rsp-legacy .trade-seo-resource-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.rsp-legacy .trade-topic-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px
+}
+
+.rsp-legacy .trade-topic-grid li {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 15px
+}
+
+.rsp-legacy .trade-fact-card,
+.rsp-legacy .trade-info-card,
+.rsp-legacy .trade-seo-resource-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px
+}
+
+.rsp-legacy .trade-fact-card strong,
+.rsp-legacy .trade-practice-card strong,
+.rsp-legacy .trade-seo-resource-card strong {
+    font-size: 17px
+}
+
+.rsp-legacy .trade-fact-card span,
+.rsp-legacy .trade-fact-card p,
+.rsp-legacy .trade-practice-card p,
+.rsp-legacy .trade-seo-resource-card span {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 23px
+}
+
+.rsp-legacy .trade-seo-resource-card:hover {
+    border-color: var(--seal);
+    background: var(--tint)
+}
+
+.rsp-legacy .trade-fact-icon,
+.rsp-legacy .trade-practice-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--tint);
+    color: var(--seal);
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.rsp-legacy .trade-practice-icon.premium {
+    background: var(--seal);
+    color: #fff
+}
+
+.rsp-legacy .trade-practice-card .trade-btn {
+    margin-top: auto
+}
+
+.rsp-legacy .trade-guide-accordions,
+.rsp-legacy .trade-guide-list {
+    display: grid;
+    gap: 12px
+}
+
+.rsp-legacy .trade-guide-accordion,
+.rsp-legacy details {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 4px 18px
+}
+
+.rsp-legacy summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 14px 0
+}
+
+.rsp-legacy .trade-guide-panel {
+    padding: 0 0 16px;
+    color: #3a4048;
+    line-height: 25px
+}
+
+.rsp-legacy .trade-level-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line)
+}
+
+.rsp-legacy .trade-level-number {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: var(--tint);
+    color: var(--seal);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none
+}
+
+.rsp-legacy .trade-sidebar {
+    display: grid;
+    gap: 16px;
+    position: sticky;
+    top: 140px
+}
+
+.rsp-legacy .trade-side-card-primary {
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    border: 0
+}
+
+.rsp-legacy .trade-side-card-primary p,
+.rsp-legacy .trade-side-card-primary .trade-side-label {
+    color: #F6DCDD
+}
+
+.rsp-legacy .trade-side-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--seal)
+}
+
+.rsp-legacy .trade-side-actions {
+    display: grid;
+    gap: 10px;
+    margin-top: 12px
+}
+
+.rsp-legacy .trade-side-card-primary .trade-btn {
+    background: #fff;
+    color: var(--seal);
+    border-color: #fff
+}
+
+.rsp-legacy .trade-library-more {
+    margin-top: 18px
+}
+
+.rsp-legacy .premium-price-line {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 8px 0 12px
+}
+
+.rsp-legacy .premium-price-main {
+    font: 700 24px "Space Grotesk", sans-serif;
+    color: var(--seal)
+}
+
+.rsp-legacy .premium-price-note {
+    color: var(--muted);
+    font-size: 14px
+}
+
+.rsp-legacy .trade-faq details {
+    margin-bottom: 10px
+}
+
+/* library (trade-resources) */
+.rsp-legacy .library-hero {
+    padding-top: 36px
+}
+
+.rsp-legacy .library-main {
+    padding-top: 36px;
+    padding-bottom: 50px
+}
+
+.rsp-legacy .library-quick-links {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 34px
+}
+
+.rsp-legacy .library-quick-links a {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.rsp-legacy .library-quick-links a:hover {
+    border-color: var(--seal);
+    background: var(--tint)
+}
+
+.rsp-legacy .library-quick-links span {
+    color: var(--muted);
+    font-size: 14px
+}
+
+.rsp-legacy .library-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 20px
+}
+
+.rsp-legacy .library-heading h2 {
+    font-size: 30px
+}
+
+.rsp-legacy .library-heading p {
+    color: var(--muted);
+    max-width: 520px
+}
+
+.rsp-legacy .library-search {
+    margin: 14px 0
+}
+
+.rsp-legacy .library-card-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.rsp-legacy .library-category {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--seal)
+}
+
+.rsp-legacy .library-levels,
+.rsp-legacy .library-action-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px
+}
+
+.rsp-legacy .library-levels a,
+.rsp-legacy .library-action-grid a,
+.rsp-legacy .library-hub-link {
+    padding: 8px 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--paper);
+    font-size: 14px;
+    font-weight: 600
+}
+
+.rsp-legacy .library-levels a:hover,
+.rsp-legacy .library-action-grid a:hover {
+    border-color: var(--seal);
+    color: var(--seal)
+}
+
+.rsp-legacy .library-hub-link {
+    background: var(--seal);
+    color: #fff;
+    border-color: var(--seal)
+}
+
+.rsp-legacy .library-empty {
+    background: #fff;
+    border: 1px dashed #E8B4B7;
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center
+}
+
+/* level exams page (seo-*) */
+.rsp-legacy .seo-hero .seo-container {
+    display: block
+}
+
+.rsp-legacy .seo-section .seo-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr))
+}
+
+.rsp-legacy .level-explainer-section {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line)
+}
+
+.rsp-legacy .level-comparison-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.rsp-legacy .level-comparison-card {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start
+}
+
+.rsp-legacy .level-comparison-card.featured {
+    border-color: var(--seal);
+    background: var(--tint)
+}
+
+.rsp-legacy .level-card-icon {
+    flex: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: var(--seal);
+    color: #fff;
+    font: 700 18px "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.rsp-legacy .level-card-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--seal)
+}
+
+.rsp-legacy .level-comparison-card h2 {
+    font-size: 24px;
+    margin: 4px 0
+}
+
+.rsp-legacy .level-facts-grid {
+    margin-top: 22px;
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.rsp-legacy .level-trade-toolbar {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 16px 0 22px
+}
+
+.rsp-legacy .level-trade-toolbar input {
+    flex: 1 1 280px
+}
+
+.rsp-legacy .level-trade-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.rsp-legacy .level-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto
+}
+
+.rsp-legacy .single-level-promo,
+.rsp-legacy .seo-cta-panel {
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin: 20px 0
+}
+
+.rsp-legacy .single-level-promo p,
+.rsp-legacy .seo-cta-panel p {
+    color: #F6DCDD
+}
+
+.rsp-legacy .seo-cta-panel h2,
+.rsp-legacy .single-level-promo h2 {
+    color: #fff
+}
+
+.rsp-legacy .seo-cta-panel .seo-btn,
+.rsp-legacy .single-level-promo .seo-btn {
+    background: #fff;
+    color: var(--seal);
+    border-color: #fff
+}
+
+.rsp-legacy .rs-contact-request {
+    margin-top: 20px
+}
+
+/* free practice pages + generic quiz shells */
+.rsp-legacy .container {
+    padding-top: 28px;
+    padding-bottom: 50px
+}
+
+.rsp-legacy .space-between {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+.rsp-legacy .pill {
+    margin: 0 6px 6px 0;
+    text-transform: none;
+    letter-spacing: 0
+}
+
+.rsp-legacy .card h2,
+.rsp-legacy .card h3 {
+    margin-bottom: 8px
+}
+
+.rsp-legacy .card {
+    margin-bottom: 22px
+}
+
+.rsp-legacy .seo-info-card ul {
+    padding-left: 22px
+}
+
+.rsp-legacy button:not(.news-filter):not(.password-toggle):not(.rsh-dd-btn):not(.rsh-burger) {
+    font-family: Inter, sans-serif
+}
+
+@media(max-width:1024px) {
+
+    .rsp-legacy .trade-layout,
+    .rsp-legacy .news-article-layout {
+        grid-template-columns: 1fr
+    }
+
+    .rsp-legacy .trade-sidebar,
+    .rsp-legacy .news-article-sidebar {
+        position: static
+    }
+
+    .rsp-legacy .library-quick-links {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .rsp-legacy .seo-section .seo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .rsp-legacy .news-feature-card {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(max-width:640px) {
+
+    .rsp-legacy .trade-facts-grid,
+    .rsp-legacy .trade-card-grid,
+    .rsp-legacy .trade-seo-resource-grid,
+    .rsp-legacy .trade-topic-grid,
+    .rsp-legacy .level-facts-grid,
+    .rsp-legacy .level-comparison-grid,
+    .rsp-legacy .seo-section .seo-grid,
+    .rsp-legacy .library-quick-links {
+        grid-template-columns: 1fr
+    }
+
+    .rsp-legacy .trade-section {
+        padding: 20px 16px
+    }
+
+    .rsp-legacy .news-masthead-badge {
+        display: none
+    }
+
+    .rsp-legacy .phase-shell>.phase-hero {
+        padding: 24px 18px
+    }
+
+    .rsp-legacy .level-comparison-card {
+        flex-direction: column
+    }
+
+    .rsp-legacy .single-level-promo,
+    .rsp-legacy .seo-cta-panel {
+        padding: 24px 18px
+    }
+}

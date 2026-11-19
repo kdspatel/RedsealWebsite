@@ -1,0 +1,1397 @@
+const bakerHarmonizedLevel2Set3Questions = [
+      {
+            id: 1,
+            category: "B1 — Use product and nutritional information",
+            question: "A customer asks which cookie option has the least sugar. What should the baker use to answer?",
+            options: [
+                  "Product nutrition information",
+                  "Cookie colour",
+                  "Baking tray size",
+                  "Oven rack position"
+            ],
+            answer: 0,
+            explanation: "Nutrition information lists sugar content. It provides accurate product details. Visual appearance is not reliable for nutrition."
+      },
+      {
+            id: 2,
+            category: "B3 — Adapt baking practices to meet dietary requirements",
+            question: "A customer asks for a lactose-free dessert. Which ingredient should the baker check carefully?",
+            options: [
+                  "Wheat flour",
+                  "Butter or milk-based cream",
+                  "Baking powder",
+                  "Granulated sugar"
+            ],
+            answer: 1,
+            explanation: "Lactose is found in dairy ingredients. Butter, milk, and cream may not suit lactose-free diets. Ingredient labels must be checked carefully."
+      },
+      {
+            id: 3,
+            category: "B3 — Adapt baking practices to meet dietary requirements",
+            question: "A gluten-free cake is being prepared beside regular flour. What is the main risk?",
+            options: [
+                  "Cross-contact with gluten",
+                  "Too much browning",
+                  "Low cake height only",
+                  "Faster cooling"
+            ],
+            answer: 0,
+            explanation: "Airborne or surface flour can contaminate gluten-free items. Separate clean tools and areas reduce risk. Cross-contact can make the product unsafe."
+      },
+      {
+            id: 4,
+            category: "B3 — Adapt baking practices to meet dietary requirements",
+            question: "A baker replaces eggs in muffins for an egg-free order. What must the replacement help provide?",
+            options: [
+                  "Binding and moisture",
+                  "Oven heat only",
+                  "Pan colour",
+                  "Packaging shine"
+            ],
+            answer: 0,
+            explanation: "Eggs help bind ingredients together. They also add moisture and structure. A replacement should support similar functions."
+      },
+      {
+            id: 5,
+            category: "B3 — Adapt baking practices to meet dietary requirements",
+            question: "A customer needs a nut-free product. Which action is safest?",
+            options: [
+                  "Use verified nut-free ingredients and clean equipment",
+                  "Pick visible nuts off the finished product",
+                  "Bake the product longer",
+                  "Add more icing sugar"
+            ],
+            answer: 0,
+            explanation: "Nut allergies can be severe. Nut traces can transfer through tools or surfaces. Verified ingredients and clean equipment reduce risk."
+      },
+      {
+            id: 6,
+            category: "C1 — Prepare basic doughs and products",
+            question: "A bread dough is sticky and weak after mixing. What should the baker check first?",
+            options: [
+                  "Hydration, flour strength, and mixing development",
+                  "Display case lighting",
+                  "Icing consistency",
+                  "Chocolate temper"
+            ],
+            answer: 0,
+            explanation: "Sticky weak dough may have too much water. It may also lack gluten development. Flour strength and mixing affect dough handling."
+      },
+      {
+            id: 7,
+            category: "C1 — Prepare basic doughs and products",
+            question: "A baker skips bench rest and shapes dough immediately. What problem may occur?",
+            options: [
+                  "Dough may resist shaping and tear",
+                  "Bread will cool faster",
+                  "Crust will become chocolate",
+                  "Dough will not need proofing"
+            ],
+            answer: 0,
+            explanation: "Bench rest relaxes gluten. Tight dough springs back and tears easily. Resting improves final shaping."
+      },
+      {
+            id: 8,
+            category: "C1 — Prepare basic doughs and products",
+            question: "A loaf has a dense crumb and low volume. Which issue is most likely?",
+            options: [
+                  "Under-proofing or weak gluten",
+                  "Too much cooling after baking",
+                  "Proper fermentation",
+                  "Correct oven spring"
+            ],
+            answer: 0,
+            explanation: "Low volume often means gas was not developed or held. Under-proofing limits expansion. Weak gluten cannot trap gas well."
+      },
+      {
+            id: 9,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "While making croissants, butter leaks from the dough during rolling. What is likely wrong?",
+            options: [
+                  "Butter is too warm or dough is overworked",
+                  "Dough is perfectly chilled",
+                  "Butter is fully locked in correctly",
+                  "Layers are too clean"
+            ],
+            answer: 0,
+            explanation: "Warm butter softens and escapes layers. Overworking can damage the dough package. Proper chilling keeps butter enclosed."
+      },
+      {
+            id: 10,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "A croissant has uneven honeycomb structure after baking. What may be the cause?",
+            options: [
+                  "Uneven lamination or proofing",
+                  "Correct rolling only",
+                  "Perfect butter consistency",
+                  "Clean packaging"
+            ],
+            answer: 0,
+            explanation: "Croissant crumb depends on even layers. Uneven proofing also affects internal structure. Consistent rolling and proofing improve honeycomb."
+      },
+      {
+            id: 11,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "A baker proofs croissants in a very hot proofer. What is the risk?",
+            options: [
+                  "Butter melts and layers are lost",
+                  "Croissants become gluten-free",
+                  "Yeast stops forever immediately",
+                  "Dough becomes puff pastry without yeast"
+            ],
+            answer: 0,
+            explanation: "High proofing heat melts butter. Melted butter leaks or absorbs into dough. This reduces flakiness and volume."
+      },
+      {
+            id: 12,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "The dough shrinks every time it is rolled through the sheeter. What should the baker do?",
+            options: [
+                  "Rest and chill the dough",
+                  "Roll it thinner immediately",
+                  "Add hot water",
+                  "Remove yeast"
+            ],
+            answer: 0,
+            explanation: "Shrinkage shows gluten tension. Resting relaxes the dough. Chilling also keeps fat firm."
+      },
+      {
+            id: 13,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "A baker cuts croissant dough with a dull knife. What may happen?",
+            options: [
+                  "Layers may be crushed and rise poorly",
+                  "Layers will rise higher",
+                  "Butter will temper",
+                  "Dough will ferment faster"
+            ],
+            answer: 0,
+            explanation: "Dull cutting compresses laminated layers. Crushed edges cannot expand properly. Sharp cuts support clean lift."
+      },
+      {
+            id: 14,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "A laminated dough feels greasy before shaping. What should be done?",
+            options: [
+                  "Chill it before continuing",
+                  "Add more yeast",
+                  "Warm it beside the oven",
+                  "Mix it until smooth"
+            ],
+            answer: 0,
+            explanation: "Greasy dough means fat is softening. Chilling firms the fat. Firm layers are easier to shape cleanly."
+      },
+      {
+            id: 15,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "A croissant is pale, heavy, and compressed after baking. What may have happened?",
+            options: [
+                  "It was under-proofed or underbaked",
+                  "It was perfectly proofed",
+                  "It had too much shine",
+                  "It was cooled on a rack"
+            ],
+            answer: 0,
+            explanation: "Under-proofed croissants have poor volume. Underbaking leaves them heavy and pale. Proofing and baking must both be controlled."
+      },
+      {
+            id: 16,
+            category: "C2 — Prepare laminated doughs and products",
+            question: "During lamination, flour builds up between folds. Why is this a problem?",
+            options: [
+                  "It can create dry layers and poor bonding",
+                  "It makes butter stronger",
+                  "It improves sweetness",
+                  "It replaces gluten"
+            ],
+            answer: 0,
+            explanation: "Too much bench flour dries the dough. Dry layers may separate incorrectly. Excess flour should be brushed away."
+      },
+      {
+            id: 17,
+            category: "C3 — Prepare specialty doughs and products",
+            question: "A pan of cinnamon buns has uneven sizes after baking. What was likely inconsistent?",
+            options: [
+                  "Dividing, rolling, or cutting",
+                  "Icing sugar brand only",
+                  "Oven light brightness",
+                  "Display tray colour"
+            ],
+            answer: 0,
+            explanation: "Sweet rolls must be rolled evenly. Cuts should be the same size. Uniform pieces bake consistently."
+      },
+      {
+            id: 18,
+            category: "C3 — Prepare specialty doughs and products",
+            question: "A rich dough tears when butter is added too quickly. What should the baker do?",
+            options: [
+                  "Add butter gradually after some gluten development",
+                  "Add all butter before flour",
+                  "Add butter after baking",
+                  "Remove water completely"
+            ],
+            answer: 0,
+            explanation: "Butter can interfere with gluten development. Adding it gradually helps dough absorb it. Strong dough handles enrichment better."
+      },
+      {
+            id: 19,
+            category: "C3 — Prepare specialty doughs and products",
+            question: "A sweet dough is fermenting slowly in a cool room. What are two likely reasons?",
+            options: [
+                  "High sugar formula and low temperature",
+                  "Too much steam and hot oven",
+                  "Too much egg wash and packaging",
+                  "Too much slicing and cooling"
+            ],
+            answer: 0,
+            explanation: "Sugar can slow yeast activity. Cool temperatures also slow fermentation. Rich doughs often need more time."
+      },
+      {
+            id: 20,
+            category: "C3 — Prepare specialty doughs and products",
+            question: "A baker adds chocolate chips early in high-speed mixing and they smear. What is the better method?",
+            options: [
+                  "Add them gently near the end",
+                  "Add them before flour",
+                  "Melt them into the dough first",
+                  "Add them after baking only"
+            ],
+            answer: 0,
+            explanation: "Inclusions can break or smear during long mixing. Adding them late protects appearance. Gentle mixing distributes them evenly."
+      },
+      {
+            id: 21,
+            category: "C4 — Prepare natural ferments and Artisan breads",
+            question: "A sourdough starter smells sharp, bubbles, and rises after feeding. What does this indicate?",
+            options: [
+                  "Active fermentation",
+                  "Complete spoilage always",
+                  "No yeast activity",
+                  "Finished baking"
+            ],
+            answer: 0,
+            explanation: "Bubbles show gas production. Rising shows active yeast and bacteria. A pleasant acidic smell is normal."
+      },
+      {
+            id: 22,
+            category: "C4 — Prepare natural ferments and Artisan breads",
+            question: "An artisan dough is very wet and sticky. Which handling method is helpful?",
+            options: [
+                  "Stretch and fold",
+                  "Heavy dusting with unlimited flour",
+                  "Long high-speed mixing only",
+                  "Rolling with melted butter"
+            ],
+            answer: 0,
+            explanation: "Stretch and fold strengthens wet dough gently. It helps organize gluten structure. It avoids adding too much extra flour."
+      },
+      {
+            id: 23,
+            category: "C4 — Prepare natural ferments and Artisan breads",
+            question: "A sourdough loaf spreads flat before baking. What may be the issue?",
+            options: [
+                  "Weak shaping or over-proofing",
+                  "Too much chocolate",
+                  "Too much egg wash",
+                  "Proper dough strength"
+            ],
+            answer: 0,
+            explanation: "Over-proofed dough loses strength. Weak shaping gives little surface tension. Both can cause spreading."
+      },
+      {
+            id: 24,
+            category: "C4 — Prepare natural ferments and Artisan breads",
+            question: "A baker scores an artisan loaf too shallow. What may happen?",
+            options: [
+                  "The loaf may burst unpredictably",
+                  "The loaf will not brown",
+                  "The loaf becomes cake",
+                  "The crumb turns into custard"
+            ],
+            answer: 0,
+            explanation: "Scoring controls expansion. Shallow cuts may not open properly. Pressure can break through another weak spot."
+      },
+      {
+            id: 25,
+            category: "C4 — Prepare natural ferments and Artisan breads",
+            question: "A high-hydration loaf has an open crumb. What helped create this texture?",
+            options: [
+                  "More water, fermentation, and careful handling",
+                  "Low water and rough degassing",
+                  "No gluten development",
+                  "No fermentation"
+            ],
+            answer: 0,
+            explanation: "High water allows a more open structure. Fermentation creates gas pockets. Gentle handling preserves those pockets."
+      },
+      {
+            id: 26,
+            category: "D1 — Prepare pies and tarts",
+            question: "A baker notices butter melting into pie dough while rolling. What should they do?",
+            options: [
+                  "Chill the dough before continuing",
+                  "Add hot water",
+                  "Mix until elastic",
+                  "Bake it immediately without a pan"
+            ],
+            answer: 0,
+            explanation: "Melted fat reduces flakiness. Chilling firms the fat again. Cold dough is easier to roll cleanly."
+      },
+      {
+            id: 27,
+            category: "D1 — Prepare pies and tarts",
+            question: "A tart shell sides slide down during blind baking. What may help?",
+            options: [
+                  "Resting, chilling, and using weights",
+                  "Stretching dough into the pan",
+                  "Adding extra yeast",
+                  "Baking without support"
+            ],
+            answer: 0,
+            explanation: "Resting reduces gluten tension. Chilling firms the fat. Weights support the shell during baking."
+      },
+      {
+            id: 28,
+            category: "D1 — Prepare pies and tarts",
+            question: "A pie filling boils over in the oven. What could reduce this problem?",
+            options: [
+                  "Proper thickening, venting, and fill level",
+                  "More liquid and no vents",
+                  "Smaller crust only",
+                  "No baking time"
+            ],
+            answer: 0,
+            explanation: "Thickener controls fruit juices. Vents release steam pressure. Correct fill level prevents overflow."
+      },
+      {
+            id: 29,
+            category: "D1 — Prepare pies and tarts",
+            question: "A pie crust is tough and chewy. What is the likely cause?",
+            options: [
+                  "Too much mixing or handling",
+                  "Correct gentle handling",
+                  "Proper cold fat",
+                  "Enough resting"
+            ],
+            answer: 0,
+            explanation: "Overworking pastry develops gluten. Too much gluten creates chewiness. Pastry should be handled lightly."
+      },
+      {
+            id: 30,
+            category: "D1 — Prepare pies and tarts",
+            question: "A lemon tart has a soggy base. What step could improve it?",
+            options: [
+                  "Fully blind bake or seal the tart shell",
+                  "Add more uncooked filling",
+                  "Store it warm overnight",
+                  "Use no crust"
+            ],
+            answer: 0,
+            explanation: "A baked shell resists moisture better. Sealing can add extra protection. Wet fillings need a stable crust."
+      },
+      {
+            id: 31,
+            category: "D1 — Prepare pies and tarts",
+            question: "A baker rolls pie dough thicker on one side. What problem may result?",
+            options: [
+                  "Uneven baking",
+                  "Faster fermentation",
+                  "Better flakiness only",
+                  "No effect at all"
+            ],
+            answer: 0,
+            explanation: "Thick areas bake more slowly. Thin areas may brown too quickly. Even rolling improves crust quality."
+      },
+      {
+            id: 32,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "Puff pastry twists and shrinks badly in the oven. What is likely?",
+            options: [
+                  "Dough tension from rolling without rest",
+                  "Too much custard",
+                  "No steam formation ever",
+                  "Correct relaxation"
+            ],
+            answer: 0,
+            explanation: "Rolling builds tension in pastry dough. Without rest, it shrinks during baking. Resting helps pastry keep shape."
+      },
+      {
+            id: 33,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "A puff pastry item has sealed edges and little lift. What may have caused it?",
+            options: [
+                  "Crushed edges or egg wash on sides",
+                  "Sharp clean cuts",
+                  "Proper chilling",
+                  "Correct high oven heat"
+            ],
+            answer: 0,
+            explanation: "Layers must separate for lift. Sealed edges prevent expansion. Clean cutting and careful egg wash help."
+      },
+      {
+            id: 34,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "A baker uses warm filling in puff pastry turnovers. What can happen?",
+            options: [
+                  "Pastry fat softens and product leaks",
+                  "Layers become stronger",
+                  "Pastry rises perfectly always",
+                  "Filling becomes gluten"
+            ],
+            answer: 0,
+            explanation: "Warm filling melts pastry fat. Soft pastry is harder to seal. Cool filling protects structure."
+      },
+      {
+            id: 35,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "Puff pastry is baked at too low a temperature. What is a likely result?",
+            options: [
+                  "Poor lift and greasy texture",
+                  "Better steam lift",
+                  "More crisp layers always",
+                  "Faster browning only"
+            ],
+            answer: 0,
+            explanation: "Low heat does not create steam quickly. Fat may melt before layers lift. This can produce flat, greasy pastry."
+      },
+      {
+            id: 36,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "A baker kneads puff pastry scraps together. What will this do?",
+            options: [
+                  "Destroy layer structure",
+                  "Improve lamination",
+                  "Create more separate layers",
+                  "Make pastry rise higher"
+            ],
+            answer: 0,
+            explanation: "Kneading blends the layers. Blended scraps lose flakiness. Scraps should be stacked gently if reused."
+      },
+      {
+            id: 37,
+            category: "D2 — Prepare laminated pastry doughs and products",
+            question: "A Danish pastry filling leaks during baking. What should be checked?",
+            options: [
+                  "Filling amount, thickness, and sealing",
+                  "Cake batter temperature",
+                  "Chocolate bloom",
+                  "Ice cream overrun"
+            ],
+            answer: 0,
+            explanation: "Thin fillings can run during baking. Too much filling increases leakage. Good sealing helps contain filling."
+      },
+      {
+            id: 38,
+            category: "D3 — Prepare specialty pastries",
+            question: "A choux paste is stiff and cracks badly after baking. What may be wrong?",
+            options: [
+                  "Not enough egg or moisture",
+                  "Too much steam",
+                  "Too much filling",
+                  "Too much chilling after baking only"
+            ],
+            answer: 0,
+            explanation: "Choux needs moisture for expansion. Egg helps create proper paste consistency. Dry paste may not expand smoothly."
+      },
+      {
+            id: 39,
+            category: "D3 — Prepare specialty pastries",
+            question: "A baker opens the oven early while cream puffs are baking. What may happen?",
+            options: [
+                  "Cream puffs may collapse",
+                  "Cream puffs become stronger",
+                  "Choux paste becomes laminated",
+                  "Steam increases forever"
+            ],
+            answer: 0,
+            explanation: "Choux structure is fragile early in baking. Opening the oven drops heat. Loss of heat can cause collapse."
+      },
+      {
+            id: 40,
+            category: "D3 — Prepare specialty pastries",
+            question: "Choux paste is piping flat instead of holding shape. What is likely?",
+            options: [
+                  "Too much egg or too loose consistency",
+                  "Too little water only",
+                  "It is fully baked",
+                  "It has too much crust colour"
+            ],
+            answer: 0,
+            explanation: "Loose choux cannot hold shape. Too much egg is a common cause. Eggs should be added gradually."
+      },
+      {
+            id: 41,
+            category: "D3 — Prepare specialty pastries",
+            question: "A pastry chef fills éclairs while they are still warm. What problem may occur?",
+            options: [
+                  "Filling may melt or become loose",
+                  "Filling will set faster always",
+                  "Shells become more crisp forever",
+                  "Chocolate will temper automatically"
+            ],
+            answer: 0,
+            explanation: "Warm shells soften cream fillings. Heat can melt or loosen filling. Cooling protects texture and quality."
+      },
+      {
+            id: 42,
+            category: "D3 — Prepare specialty pastries",
+            question: "A choux shell is brown outside but wet inside. What should be adjusted?",
+            options: [
+                  "Bake or dry it longer",
+                  "Add more sugar after baking",
+                  "Remove all eggs next time",
+                  "Fill it immediately hot"
+            ],
+            answer: 0,
+            explanation: "Choux shells need interior drying. Wet interiors weaken structure. Proper baking prevents collapse and sogginess."
+      },
+      {
+            id: 43,
+            category: "D3 — Prepare specialty pastries",
+            question: "A cream puff batch has mixed sizes. What is the best correction?",
+            options: [
+                  "Pipe uniform portions",
+                  "Use hotter filling",
+                  "Skip baking time",
+                  "Add more garnish"
+            ],
+            answer: 0,
+            explanation: "Uniform piping gives consistent size. Same-size shells bake evenly. This improves final presentation."
+      },
+      {
+            id: 44,
+            category: "D4 — Prepare deep fried pastries and products",
+            question: "A doughnut browns too fast but remains doughy inside. What is likely wrong?",
+            options: [
+                  "Oil is too hot",
+                  "Oil is too cool",
+                  "Doughnut was drained correctly",
+                  "Doughnut was proofed perfectly only"
+            ],
+            answer: 0,
+            explanation: "Hot oil darkens the outside quickly. The centre does not cook fully. Correct oil temperature balances colour and doneness."
+      },
+      {
+            id: 45,
+            category: "D4 — Prepare deep fried pastries and products",
+            question: "A fried pastry tastes oily and heavy. What is the likely cause?",
+            options: [
+                  "Oil temperature too low or fryer overloaded",
+                  "Oil temperature perfect",
+                  "Too much draining",
+                  "Correct frying time"
+            ],
+            answer: 0,
+            explanation: "Cool oil increases fat absorption. Overloading lowers oil temperature. Proper batch size improves frying."
+      },
+      {
+            id: 46,
+            category: "E1 — Prepare cookies, squares and bars",
+            question: "A tray of cookies spreads into one sheet. What is a likely cause?",
+            options: [
+                  "Dough too warm or too much fat",
+                  "Dough too cold only",
+                  "Too little sugar always",
+                  "Too much cooling after baking"
+            ],
+            answer: 0,
+            explanation: "Warm dough spreads quickly. High fat can also increase spread. Chilling and formula balance help control shape."
+      },
+      {
+            id: 47,
+            category: "E1 — Prepare cookies, squares and bars",
+            question: "A baker scoops cookies in different sizes. What will likely happen?",
+            options: [
+                  "Some will overbake while others underbake",
+                  "All will bake exactly evenly",
+                  "They will become muffins",
+                  "They will not brown"
+            ],
+            answer: 0,
+            explanation: "Small cookies bake faster. Large cookies need more time. Uniform portioning gives consistent results."
+      },
+      {
+            id: 48,
+            category: "E1 — Prepare cookies, squares and bars",
+            question: "A brownie pan is cut before cooling. What is the result?",
+            options: [
+                  "Messy pieces and poor structure",
+                  "Cleaner cuts",
+                  "More oven spring",
+                  "More fermentation"
+            ],
+            answer: 0,
+            explanation: "Brownies are soft when hot. Cooling lets them set. Set brownies cut more neatly."
+      },
+      {
+            id: 49,
+            category: "E1 — Prepare cookies, squares and bars",
+            question: "A shortbread dough is mixed until elastic. What issue can occur?",
+            options: [
+                  "Tough texture",
+                  "Better tenderness",
+                  "More flakiness",
+                  "No baking needed"
+            ],
+            answer: 0,
+            explanation: "Elastic dough shows gluten development. Shortbread should have limited gluten. Overmixing makes it tough."
+      },
+      {
+            id: 50,
+            category: "E1 — Prepare cookies, squares and bars",
+            question: "A cookie batch has chocolate chips mostly at the bottom of the bowl. What should improve?",
+            options: [
+                  "Bowl scraping and even mixing",
+                  "Higher oven temperature only",
+                  "Longer proofing",
+                  "More fryer oil"
+            ],
+            answer: 0,
+            explanation: "Inclusions can settle or remain unmixed. Scraping helps distribute ingredients. Even mixing gives consistent cookies."
+      },
+      {
+            id: 51,
+            category: "E3 — Prepare cakes",
+            question: "A cake batter looks separated after liquid is added. What is likely the issue?",
+            options: [
+                  "Poor emulsification",
+                  "Too much proofing",
+                  "Correct mixing",
+                  "Fully set structure"
+            ],
+            answer: 0,
+            explanation: "Cake batter needs fat and liquid to blend. Separation means the emulsion is broken. Gradual mixing and proper temperature help."
+      },
+      {
+            id: 52,
+            category: "E3 — Prepare cakes",
+            question: "A cake has a sunken centre. What could cause this?",
+            options: [
+                  "Underbaking or opening oven too early",
+                  "Correct baking time",
+                  "Proper cooling rack use",
+                  "Perfect structure"
+            ],
+            answer: 0,
+            explanation: "Weak unset centres collapse. Opening the oven early can lower heat. Cake structure must set before handling."
+      },
+      {
+            id: 53,
+            category: "E3 — Prepare cakes",
+            question: "A baker fills cake pans almost to the top. What may happen?",
+            options: [
+                  "Batter may overflow during baking",
+                  "Cake will not rise at all",
+                  "Cake becomes a tart",
+                  "Batter will freeze"
+            ],
+            answer: 0,
+            explanation: "Cake batter expands in the oven. Overfilled pans can spill. Correct fill level supports even baking."
+      },
+      {
+            id: 54,
+            category: "E3 — Prepare cakes",
+            question: "A cake sticks and tears when removed from the pan. What was likely missed?",
+            options: [
+                  "Proper greasing or lining",
+                  "More proofing",
+                  "More salt",
+                  "Longer cooling in the mixer"
+            ],
+            answer: 0,
+            explanation: "Pan preparation helps release. Poor release damages cake shape. Parchment or grease prevents sticking."
+      },
+      {
+            id: 55,
+            category: "E3 — Prepare cakes",
+            question: "A cake is dry around the edges but done in the centre. What may be the cause?",
+            options: [
+                  "Overbaking or oven too hot",
+                  "Too much refrigeration before baking",
+                  "Correct baking time always",
+                  "Too much filling after baking only"
+            ],
+            answer: 0,
+            explanation: "Excess heat dries edges quickly. Long baking also removes moisture. Temperature and time should be adjusted."
+      },
+      {
+            id: 56,
+            category: "E3 — Prepare cakes",
+            question: "A cake has large air tunnels. What might explain this?",
+            options: [
+                  "Overmixing or too much leavener",
+                  "Gentle mixing only",
+                  "Correct leavener amount",
+                  "Proper scaling only"
+            ],
+            answer: 0,
+            explanation: "Overmixing can create gluten tunnels. Excess leavener creates too much gas. Both affect crumb structure."
+      },
+      {
+            id: 57,
+            category: "E3 — Prepare cakes",
+            question: "A baker forgets to scrape the bowl while mixing. What can happen?",
+            options: [
+                  "Ingredients may not mix evenly",
+                  "Cake will bake faster automatically",
+                  "Icing will set harder",
+                  "Cake becomes gluten-free"
+            ],
+            answer: 0,
+            explanation: "Butter or flour may stick to bowl sides. Uneven batter creates inconsistent texture. Scraping supports even mixing."
+      },
+      {
+            id: 58,
+            category: "E3 — Prepare cakes",
+            question: "A cake is iced while warm and the buttercream slides. What should be done next time?",
+            options: [
+                  "Cool the cake completely before icing",
+                  "Add more yeast",
+                  "Ice it hotter",
+                  "Place it in the oven after icing"
+            ],
+            answer: 0,
+            explanation: "Warm cake softens buttercream. Soft icing can melt or slide. Cooling gives a stable decorating surface."
+      },
+      {
+            id: 59,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A sponge cake loses height after folding flour. What likely happened?",
+            options: [
+                  "Batter was overfolded or handled roughly",
+                  "Batter was handled gently",
+                  "Eggs were not used at all",
+                  "Cake was chilled after baking"
+            ],
+            answer: 0,
+            explanation: "Sponge relies on trapped air. Rough folding deflates foam. Gentle folding preserves volume."
+      },
+      {
+            id: 60,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A roulade sponge cracks during rolling. What is a likely cause?",
+            options: [
+                  "It was overbaked or too dry",
+                  "It was flexible and moist",
+                  "It was rolled correctly",
+                  "It had enough syrup only"
+            ],
+            answer: 0,
+            explanation: "Dry sponge lacks flexibility. Overbaking makes cracking more likely. Proper baking keeps roulades pliable."
+      },
+      {
+            id: 61,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A mousse cake collapses when sliced. What should be checked?",
+            options: [
+                  "Mousse setting and chilling time",
+                  "Bread fermentation",
+                  "Pie docking",
+                  "Fryer oil level"
+            ],
+            answer: 0,
+            explanation: "Mousse needs enough structure. Chilling allows it to set. Poor setting causes collapse or messy slices."
+      },
+      {
+            id: 62,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A torte layer breaks during assembly. What should the baker do?",
+            options: [
+                  "Support layers and handle gently",
+                  "Add yeast to the baked layer",
+                  "Warm it until melting",
+                  "Throw it into the pan"
+            ],
+            answer: 0,
+            explanation: "Torte layers can be delicate. Support prevents cracking. Gentle handling improves assembly quality."
+      },
+      {
+            id: 63,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A cake layer tastes dry in a specialty cake. What can help?",
+            options: [
+                  "Syrup, suitable filling, or shorter bake time",
+                  "More proofing after baking",
+                  "Extra fryer oil",
+                  "Less filling always"
+            ],
+            answer: 0,
+            explanation: "Syrup adds moisture and flavour. Fillings also improve eating quality. Overbaking should be avoided."
+      },
+      {
+            id: 64,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A layered cake leans after assembly. What is a likely cause?",
+            options: [
+                  "Uneven layers or filling",
+                  "Correct levelling",
+                  "Proper chilling",
+                  "Stable structure"
+            ],
+            answer: 0,
+            explanation: "Uneven layers create imbalance. Uneven filling can make layers slide. Levelling and even filling improve stability."
+      },
+      {
+            id: 65,
+            category: "E4 — Prepare specialty cakes and tortes",
+            question: "A mirror glaze runs off a mousse cake completely. What should be checked?",
+            options: [
+                  "Glaze temperature and cake freezing/setting",
+                  "Bread dough hydration",
+                  "Cookie scoop size",
+                  "Frying oil condition"
+            ],
+            answer: 0,
+            explanation: "Glaze must be at proper pouring temperature. The cake surface must be cold and set. Temperature control affects glaze coverage."
+      },
+      {
+            id: 66,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A meringue collapses after whipping. What may be the cause?",
+            options: [
+                  "Weak foam from fat contamination or overwhipping",
+                  "Proper clean bowl",
+                  "Correct sugar addition",
+                  "Stable foam structure"
+            ],
+            answer: 0,
+            explanation: "Fat prevents egg whites from foaming well. Overwhipping can also weaken structure. Clean tools and proper whipping are important."
+      },
+      {
+            id: 67,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A pastry cream has a burnt flavour. What likely happened?",
+            options: [
+                  "It scorched on the bottom",
+                  "It was cooled too cleanly",
+                  "It was strained properly",
+                  "It was refrigerated safely"
+            ],
+            answer: 0,
+            explanation: "Milk-based mixtures can burn easily. Constant stirring prevents scorching. Moderate heat gives better control."
+      },
+      {
+            id: 68,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A buttercream is too stiff to pipe. What can help?",
+            options: [
+                  "Adjust temperature or consistency",
+                  "Add bread flour",
+                  "Freeze it solid",
+                  "Add raw yeast"
+            ],
+            answer: 0,
+            explanation: "Cold buttercream may become too firm. Piping requires correct consistency. Slight warming or formula adjustment may help."
+      },
+      {
+            id: 69,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A fruit filling is watery and runs out of pastries. What should be improved?",
+            options: [
+                  "Thickening and cooking control",
+                  "More egg wash on top only",
+                  "Less sealing only",
+                  "Warmer display case"
+            ],
+            answer: 0,
+            explanation: "Fruit releases liquid during cooking. Thickener controls the moisture. Proper cooking activates the thickener."
+      },
+      {
+            id: 70,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A glaze sets with a dull, rough surface. What may be wrong?",
+            options: [
+                  "Incorrect temperature or handling",
+                  "Too much proofing",
+                  "Too much yeast",
+                  "Proper glazing temperature"
+            ],
+            answer: 0,
+            explanation: "Glaze finish depends on temperature. Too hot or too cool can affect shine. Smooth handling improves appearance."
+      },
+      {
+            id: 71,
+            category: "F1 — Prepare icings, fillings, glazes, sauces and meringues",
+            question: "A sauce is too thin for plating. What should the baker consider?",
+            options: [
+                  "Reduce it more or adjust thickener",
+                  "Add more water",
+                  "Serve it boiling over the plate",
+                  "Remove all sugar"
+            ],
+            answer: 0,
+            explanation: "Sauce consistency affects plating. Reduction removes water and thickens flavour. Thickener can also improve body."
+      },
+      {
+            id: 72,
+            category: "F3 — Assemble and decorate cakes and sweet and savoury pastries",
+            question: "Crumbs keep appearing in the final icing. What step was probably skipped?",
+            options: [
+                  "Crumb coat",
+                  "Proofing",
+                  "Dough docking",
+                  "Chocolate seeding"
+            ],
+            answer: 0,
+            explanation: "A crumb coat traps loose crumbs. It creates a clean base surface. Final icing looks smoother after it."
+      },
+      {
+            id: 73,
+            category: "F3 — Assemble and decorate cakes and sweet and savoury pastries",
+            question: "A cake slides after stacking because the filling is soft. What should be adjusted?",
+            options: [
+                  "Filling consistency and amount",
+                  "Oven steam",
+                  "Yeast level",
+                  "Pie dough thickness"
+            ],
+            answer: 0,
+            explanation: "Soft filling can make layers unstable. Too much filling increases sliding. Proper consistency supports structure."
+      },
+      {
+            id: 74,
+            category: "F4 — Prepare decorative pastes and garnishes",
+            question: "Fondant tears when covering a cake. What may be the cause?",
+            options: [
+                  "It was rolled too thin or became dry",
+                  "It contained too much yeast",
+                  "It was proofed too long",
+                  "It was deep fried"
+            ],
+            answer: 0,
+            explanation: "Thin fondant tears easily. Dry fondant loses flexibility. Proper rolling and kneading help coverage."
+      },
+      {
+            id: 75,
+            category: "F4 — Prepare decorative pastes and garnishes",
+            question: "A marzipan rose loses its shape in a warm kitchen. What should be considered?",
+            options: [
+                  "Temperature and storage conditions",
+                  "Bread scoring depth",
+                  "Fryer basket size",
+                  "Muffin mixing method"
+            ],
+            answer: 0,
+            explanation: "Decorative pastes soften with warmth. Heat can distort shaped garnishes. Cool storage protects decorations."
+      },
+      {
+            id: 76,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A custard becomes scrambled during cooking. What is the likely cause?",
+            options: [
+                  "Too much heat or poor tempering",
+                  "Too much chilling after setting",
+                  "Correct gentle cooking",
+                  "Proper water bath use"
+            ],
+            answer: 0,
+            explanation: "Egg proteins coagulate quickly with high heat. Poor tempering shocks the eggs. Gentle heating keeps custard smooth."
+      },
+      {
+            id: 77,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A pudding does not thicken after heating. What should be checked?",
+            options: [
+                  "Starch amount and cooking temperature",
+                  "Cookie spread",
+                  "Bread lamination",
+                  "Chocolate mould polish"
+            ],
+            answer: 0,
+            explanation: "Starch thickens only with enough heat. Too little starch gives weak body. Correct formula and cooking are needed."
+      },
+      {
+            id: 78,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A mousse has lumps of gelatin. What likely went wrong?",
+            options: [
+                  "Gelatin was not bloomed or dissolved properly",
+                  "Mousse was folded gently",
+                  "Cream was whipped correctly",
+                  "Chocolate was tempered"
+            ],
+            answer: 0,
+            explanation: "Gelatin must hydrate before dissolving. Poor dissolving leaves lumps. Proper blooming creates smooth texture."
+      },
+      {
+            id: 79,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A chocolate mousse becomes grainy after warm chocolate is mixed with cold cream. Why?",
+            options: [
+                  "Temperature difference caused poor mixing",
+                  "Cream became gluten",
+                  "Chocolate fermented",
+                  "Sugar disappeared"
+            ],
+            answer: 0,
+            explanation: "Chocolate can set suddenly when chilled. This creates grainy bits. Balanced temperatures help smooth mixing."
+      },
+      {
+            id: 80,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A baked custard has bubbles and a rubbery texture. What is likely?",
+            options: [
+                  "It was overbaked",
+                  "It was cooked gently",
+                  "It was removed at the right time",
+                  "It was properly cooled only"
+            ],
+            answer: 0,
+            explanation: "Overbaking tightens egg proteins. This creates rubbery texture. Gentle heat prevents bubbles and curdling."
+      },
+      {
+            id: 81,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A pastry cream skin forms while cooling. How can this be prevented?",
+            options: [
+                  "Cover directly on the surface",
+                  "Leave uncovered in moving air",
+                  "Add yeast",
+                  "Stir in raw flour after cooling"
+            ],
+            answer: 0,
+            explanation: "Skin forms when the surface dries. Plastic wrap touching the surface blocks air. This keeps the cream smooth."
+      },
+      {
+            id: 82,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A mousse is too loose after chilling. What should be checked?",
+            options: [
+                  "Gelatin or stabilizer amount and chilling time",
+                  "Fryer oil level",
+                  "Pie shell docking",
+                  "Bread scoring"
+            ],
+            answer: 0,
+            explanation: "Mousse needs enough setting structure. It also requires proper chilling time. Formula balance affects firmness."
+      },
+      {
+            id: 83,
+            category: "G1 — Prepare custards, puddings and mousses",
+            question: "A custard sauce coats the spoon too thickly and looks curdled. What likely happened?",
+            options: [
+                  "It was overcooked",
+                  "It was underheated only",
+                  "It had perfect texture",
+                  "It was cooled properly"
+            ],
+            answer: 0,
+            explanation: "Too much heat overcoagulates eggs. The sauce becomes thick and grainy. Gentle cooking gives smooth coating texture."
+      },
+      {
+            id: 84,
+            category: "G2 — Prepare plated desserts",
+            question: "A plated dessert has sauce smeared randomly across the rim. What should be done?",
+            options: [
+                  "Clean the rim before service",
+                  "Add more sauce to hide it",
+                  "Serve without checking",
+                  "Cover it with flour"
+            ],
+            answer: 0,
+            explanation: "Clean rims show professional presentation. Smears can look careless. Final plate inspection is important."
+      },
+      {
+            id: 85,
+            category: "G2 — Prepare plated desserts",
+            question: "A dessert plate tastes very sweet with no contrast. What could improve it?",
+            options: [
+                  "Add acidity, bitterness, or texture contrast",
+                  "Add more sugar only",
+                  "Remove all garnish",
+                  "Use a larger plate only"
+            ],
+            answer: 0,
+            explanation: "Balanced desserts need contrast. Acid or bitter notes can reduce sweetness. Texture also improves eating quality."
+      },
+      {
+            id: 86,
+            category: "G2 — Prepare plated desserts",
+            question: "A plated dessert includes hot cake and frozen sorbet. What is most important during service?",
+            options: [
+                  "Fast plating and temperature control",
+                  "Long holding under heat lamps",
+                  "Plating sorbet first and waiting",
+                  "Leaving it at room temperature"
+            ],
+            answer: 0,
+            explanation: "Frozen components melt quickly. Hot items speed melting. Timing protects presentation and texture."
+      },
+      {
+            id: 87,
+            category: "G2 — Prepare plated desserts",
+            question: "A dessert portion looks much larger than the standard plate. What should be corrected?",
+            options: [
+                  "Portion control",
+                  "Proofing time",
+                  "Dough hydration",
+                  "Chocolate seeding"
+            ],
+            answer: 0,
+            explanation: "Portion control ensures consistency. Customers should receive equal value. Standard portions also control cost."
+      },
+      {
+            id: 88,
+            category: "G4 — Apply dessert presentation techniques",
+            question: "A plate looks crowded with too many decorations. What principle should be used?",
+            options: [
+                  "Simplicity and balance",
+                  "Add more garnish",
+                  "Cover every empty space",
+                  "Hide the main dessert"
+            ],
+            answer: 0,
+            explanation: "Too many decorations distract from the dessert. Balanced negative space improves appearance. Simple plating can look more professional."
+      },
+      {
+            id: 89,
+            category: "G4 — Apply dessert presentation techniques",
+            question: "A dessert needs more visual height. Which element could help?",
+            options: [
+                  "A crisp tuile or vertical chocolate garnish",
+                  "More liquid sauce only",
+                  "A flat napkin",
+                  "Extra flour on the plate"
+            ],
+            answer: 0,
+            explanation: "Vertical elements add height. Height makes plating more dynamic. Garnishes should still be edible and suitable."
+      },
+      {
+            id: 90,
+            category: "G4 — Apply dessert presentation techniques",
+            question: "A plated dessert has soft cake, soft cream, and soft sauce only. What is missing?",
+            options: [
+                  "Texture contrast",
+                  "More softness",
+                  "More plate space only",
+                  "More proofing"
+            ],
+            answer: 0,
+            explanation: "Texture contrast improves eating experience. Crisp or crunchy elements can balance softness. Desserts should have varied sensations."
+      },
+      {
+            id: 91,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A baker melts chocolate in a bowl with water droplets inside. What may happen?",
+            options: [
+                  "Chocolate may seize",
+                  "Chocolate will temper perfectly",
+                  "Chocolate becomes laminated",
+                  "Chocolate rises like bread"
+            ],
+            answer: 0,
+            explanation: "Water causes chocolate to thicken and clump. This is called seizing. Dry bowls and tools are essential."
+      },
+      {
+            id: 92,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "Chocolate decorations look dull and bend instead of snapping. What is likely wrong?",
+            options: [
+                  "Chocolate was not tempered correctly",
+                  "Chocolate was perfectly tempered",
+                  "Chocolate was stored dry and cool",
+                  "Chocolate was polished correctly"
+            ],
+            answer: 0,
+            explanation: "Poor temper creates unstable crystals. Chocolate may set soft or dull. Proper temper gives shine and snap."
+      },
+      {
+            id: 93,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A chocolate mould has fingerprints before filling. What will likely happen?",
+            options: [
+                  "Marks may transfer to the finished chocolate",
+                  "Chocolate will rise higher",
+                  "Chocolate becomes gluten-free",
+                  "Tempering is no longer needed"
+            ],
+            answer: 0,
+            explanation: "Chocolate picks up mould surface details. Fingerprints reduce shine and appearance. Clean moulds create better finish."
+      },
+      {
+            id: 94,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A chocolate curl breaks into chips instead of curling. What is likely?",
+            options: [
+                  "Chocolate is too cold or too hard",
+                  "Chocolate is too warm and liquid",
+                  "Chocolate contains too much yeast",
+                  "Chocolate has too much gluten"
+            ],
+            answer: 0,
+            explanation: "Cold chocolate shatters under pressure. Curling needs a workable texture. Correct temperature helps form smooth curls."
+      },
+      {
+            id: 95,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A dipped fruit item causes chocolate to look streaky later. What may be the cause?",
+            options: [
+                  "Moisture from the fruit",
+                  "Too much dry storage",
+                  "Perfect tempering only",
+                  "Clean dry surface"
+            ],
+            answer: 0,
+            explanation: "Fruit contains moisture. Moisture can affect chocolate surface and temper. Items should be dry before dipping."
+      },
+      {
+            id: 96,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A chocolate garnish melts while being placed on a dessert. What should be improved?",
+            options: [
+                  "Handling temperature and timing",
+                  "Bread proofing",
+                  "Tart docking",
+                  "Muffin mixing"
+            ],
+            answer: 0,
+            explanation: "Chocolate softens with hand and room heat. Cool handling prevents melting. Garnishes should be added at the right time."
+      },
+      {
+            id: 97,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A chocolate shell is too thick in a moulded product. What should be adjusted?",
+            options: [
+                  "Draining or moulding technique",
+                  "More yeast",
+                  "Pie dough resting",
+                  "Custard tempering"
+            ],
+            answer: 0,
+            explanation: "Moulded shells depend on chocolate flow and draining. Poor draining leaves thick walls. Good technique creates even shells."
+      },
+      {
+            id: 98,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "Chocolate stored near onions develops an unpleasant flavour. Why?",
+            options: [
+                  "Chocolate absorbs odours",
+                  "Chocolate ferments near vegetables",
+                  "Chocolate creates gluten",
+                  "Chocolate becomes sourdough"
+            ],
+            answer: 0,
+            explanation: "Chocolate can absorb strong smells. Poor storage affects flavour quality. It should be wrapped and stored away from odours."
+      },
+      {
+            id: 99,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A chocolate garnish has white powdery marks after refrigeration. What may have caused it?",
+            options: [
+                  "Moisture or temperature change causing bloom",
+                  "Proper dry storage",
+                  "Perfect cooling",
+                  "Correct handling only"
+            ],
+            answer: 0,
+            explanation: "Condensation can affect chocolate surface. Bloom appears as white or grey marks. Stable dry storage helps prevent it."
+      },
+      {
+            id: 100,
+            category: "H2 — Prepare chocolate products and garnishes",
+            question: "A baker seeds melted chocolate with tempered chocolate pieces. What is the purpose?",
+            options: [
+                  "To encourage stable crystal formation",
+                  "To make chocolate seize",
+                  "To add gluten",
+                  "To create yeast gas"
+            ],
+            answer: 0,
+            explanation: "Seed chocolate contains stable crystals. These guide the melted chocolate into temper. Proper crystals give shine, snap, and release."
+      }
+];
+
+    function shuffleArray(array) {
+  const shuffled = [...array];
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledBakerHarmonizedLevel2Set3Questions =
+      bakerHarmonizedLevel2Set3Questions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "baker",
+      tradeTitle: "Baker",
+      sectionTitle: "Harmonized Level 2 – Set 3",
+      questionTimeSeconds: 90,
+      questions: shuffledBakerHarmonizedLevel2Set3Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledBakerHarmonizedLevel2Set3Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

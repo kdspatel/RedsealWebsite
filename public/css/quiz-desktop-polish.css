@@ -1,0 +1,42 @@
+/* Desktop + mobile quiz polish: compact navigator, balanced layout, sticky site navigation */
+#site-navbar{position:sticky!important;top:0!important;z-index:10000!important;width:100%!important}
+#site-navbar .navbar{min-height:68px;box-shadow:0 8px 26px rgba(25,28,32,.12)}
+
+@media (min-width: 900px){
+  body:has(#quizSection) .container{max-width:1240px!important;padding-left:28px!important;padding-right:28px!important}
+  #quizSection{max-width:1180px!important}
+  #quizSection .quiz-grid{grid-template-columns:minmax(0,1fr) 300px!important;gap:24px!important}
+  #quizSection .quiz-grid>.card:first-child{min-width:0!important;padding:32px!important}
+  #quizSection .quiz-grid>.card:nth-child(2){position:sticky!important;top:92px!important;padding:22px!important;max-height:none!important;overflow:visible!important}
+  #quizQuestionText{font-size:clamp(1.45rem,2vw,2rem)!important;max-width:850px!important}
+}
+
+/* Keep the original question buttons available to JavaScript, but not visually huge. */
+#navigator.rs-compact-source{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;clip-path:inset(50%)!important;white-space:nowrap!important}
+
+.rs-question-jump{display:grid;gap:16px;margin-top:14px}
+.rs-jump-status{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 14px;border:1px solid #f0e2e3;border-radius:14px;background:#fbfaf9}
+.rs-jump-status strong{font-size:1.05rem;color:#191c20}.rs-jump-status span{font-size:.82rem;color:#6c7683;font-weight:700}
+.rs-jump-arrows{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rs-jump-arrows button,.rs-jump-form button,.rs-quick-jumps button{border:0;border-radius:12px;font-weight:800;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease,background .16s ease}
+.rs-jump-arrows button{min-height:44px;background:#f9f6f4;color:#bc2f36}.rs-jump-arrows button:hover{background:#f8e7e8;transform:translateY(-1px)}
+.rs-jump-label{font-size:.83rem;font-weight:850;color:#3d434b;margin-bottom:-8px}
+.rs-jump-form{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px}
+.rs-jump-form input{width:100%;min-width:0;min-height:46px;border:1px solid #e8d8d9;border-radius:12px;padding:0 13px;font:inherit;box-sizing:border-box;outline:none}
+.rs-jump-form input:focus{border-color:#ca2129;box-shadow:0 0 0 4px rgba(202,33,41,.12)}
+.rs-jump-form button{padding:0 17px;background:linear-gradient(135deg,#ca2129,#ca2129);color:#fff;box-shadow:0 8px 20px rgba(202,33,41,.2)}
+.rs-jump-error{min-height:18px;margin:-8px 0 0;color:#b91c1c;font-size:.78rem;font-weight:700}
+.rs-quick-jumps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rs-quick-jumps button{min-height:38px;background:#f7f5f2;color:#3d434b}.rs-quick-jumps button:hover{background:#f0e2e3}.rs-quick-jumps button.is-current{background:#ca2129;color:#fff}
+.rs-jump-help{margin:0!important;font-size:.78rem!important;line-height:1.45!important;color:#6c7683!important}
+
+@media (max-width:899px){
+ #quizSection .quiz-grid{grid-template-columns:1fr!important}
+ #quizSection .quiz-grid>.card:nth-child(2){position:relative!important;top:auto!important}
+ .rs-question-jump{gap:13px}.rs-quick-jumps{grid-template-columns:repeat(4,1fr)}
+}
+@media (max-width:520px){
+ #site-navbar .navbar{min-height:60px}
+ .rs-jump-form{grid-template-columns:1fr 76px}.rs-quick-jumps{grid-template-columns:repeat(3,1fr)}
+ #quizSection .quiz-grid>.card:first-child{padding:17px 14px!important}
+}

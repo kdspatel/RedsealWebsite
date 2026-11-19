@@ -1,0 +1,1395 @@
+const heavyMechanicalTradesCommonCoreLevel2Set2Questions = [
+      {
+            "id": 1,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "A machine has a 12-volt system. With the engine running, battery voltage reads 12.2 V. What is most likely happening?",
+            "options": [
+                  "Charging system is not charging properly",
+                  "Battery is overcharging",
+                  "Starter is drawing too much current",
+                  "Glow plugs are working normally"
+            ],
+            "answer": 0,
+            "explanation": "A running 12-volt system should usually read above battery voltage. Low voltage with the engine running suggests alternator output is weak or missing. Check belt tension, wiring, grounds, and alternator output."
+      },
+      {
+            "id": 2,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "A loose alternator belt can cause:",
+            "options": [
+                  "Low charging output",
+                  "High fuel pressure",
+                  "Low coolant level",
+                  "Excessive engine compression"
+            ],
+            "answer": 0,
+            "explanation": "The alternator must spin at proper speed to charge. A loose belt can slip under load. This reduces charging voltage and may cause a warning light."
+      },
+      {
+            "id": 3,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "A charging system is producing 16 volts on a 12-volt machine. What is the concern?",
+            "options": [
+                  "Overcharging can damage batteries and electronics",
+                  "Starter motor is weak",
+                  "Fuel filter is plugged",
+                  "Engine oil is too thick"
+            ],
+            "answer": 0,
+            "explanation": "Excessive charging voltage overheats batteries. It can cause gassing, electrolyte loss, and electronic damage. The regulator or control circuit should be checked."
+      },
+      {
+            "id": 4,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "A technician performs a voltage drop test on the alternator output cable. A high reading means:",
+            "options": [
+                  "Excess resistance in the cable or connection",
+                  "Alternator is charging perfectly",
+                  "Battery is fully discharged only",
+                  "Starter solenoid is stuck"
+            ],
+            "answer": 0,
+            "explanation": "Voltage drop shows loss in a working circuit. High drop means resistance is present in wiring or terminals. Corroded or loose connections are common causes."
+      },
+      {
+            "id": 5,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "The alternator warning lamp stays on after the engine starts. What should be checked first?",
+            "options": [
+                  "Charging voltage at the battery",
+                  "Tire pressure",
+                  "Air filter restriction",
+                  "Engine coolant colour"
+            ],
+            "answer": 0,
+            "explanation": "The warning lamp indicates a charging fault. Measuring battery voltage with the engine running confirms output. Further tests can then locate wiring, belt, or alternator faults."
+      },
+      {
+            "id": 6,
+            "category": "D6 — Diagnose and repair charging systems",
+            "question": "A battery repeatedly goes dead, but charging voltage is normal. What should be tested?",
+            "options": [
+                  "Parasitic draw",
+                  "Engine compression only",
+                  "Injector spray pattern only",
+                  "Turbocharger boost only"
+            ],
+            "answer": 0,
+            "explanation": "A key-off current draw can drain the battery overnight. Charging voltage may still be normal while running. A parasitic draw test helps locate the circuit causing discharge."
+      },
+      {
+            "id": 7,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "The starter clicks once but does not crank. What is a common cause?",
+            "options": [
+                  "Weak battery or poor connection",
+                  "Plugged air filter",
+                  "Low DEF level",
+                  "Dirty radiator fins"
+            ],
+            "answer": 0,
+            "explanation": "Starting systems require high current. A weak battery or high-resistance cable can prevent cranking. Battery condition and voltage drop should be tested."
+      },
+      {
+            "id": 8,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "A starter motor spins but does not turn the engine. What may be faulty?",
+            "options": [
+                  "Starter drive or ring gear engagement",
+                  "Alternator pulley",
+                  "Fuel return line",
+                  "Exhaust brake valve"
+            ],
+            "answer": 0,
+            "explanation": "The starter must engage the flywheel ring gear. If the drive slips or fails to engage, the motor may spin freely. Inspect the starter drive and ring gear teeth."
+      },
+      {
+            "id": 9,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "A slow cranking complaint is best diagnosed by checking:",
+            "options": [
+                  "Battery condition, cables, voltage drop, and starter draw",
+                  "Tire tread depth",
+                  "Engine paint colour",
+                  "Cab air filter only"
+            ],
+            "answer": 0,
+            "explanation": "Slow cranking can be electrical or mechanical. Voltage drop and current draw tests identify resistance or starter faults. Battery condition must be confirmed first."
+      },
+      {
+            "id": 10,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "A starter solenoid mainly functions as:",
+            "options": [
+                  "A high-current switch",
+                  "A fuel pressure regulator",
+                  "A coolant thermostat",
+                  "An exhaust muffler"
+            ],
+            "answer": 0,
+            "explanation": "The solenoid controls high current to the starter motor. It may also move the starter drive into engagement. Failure can cause clicking, no crank, or intermittent cranking."
+      },
+      {
+            "id": 11,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "A machine will not crank in gear but cranks in neutral. Which component is likely involved?",
+            "options": [
+                  "Neutral safety circuit",
+                  "Fuel injector nozzle",
+                  "Air compressor governor",
+                  "Radiator cap"
+            ],
+            "answer": 0,
+            "explanation": "Neutral safety circuits prevent starting in gear. This protects people and equipment from unexpected movement. Switch adjustment and wiring should be checked if no crank occurs."
+      },
+      {
+            "id": 12,
+            "category": "D7 — Diagnose and repair starting systems",
+            "question": "A starter cable becomes very hot during cranking. What does this usually indicate?",
+            "options": [
+                  "Excess resistance or excessive current draw",
+                  "Correct cable operation",
+                  "Low coolant temperature",
+                  "Proper charging output"
+            ],
+            "answer": 0,
+            "explanation": "Heat is caused by electrical loss. Loose, corroded, or undersized cables create resistance. A failing starter can also draw excessive current."
+      },
+      {
+            "id": 13,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "A sensor has a 5 V reference, ground, and signal wire. The signal never changes. What should be checked?",
+            "options": [
+                  "Sensor signal, reference voltage, ground, and connector condition",
+                  "Tire pressure only",
+                  "Fuel tank cap only",
+                  "Coolant colour only"
+            ],
+            "answer": 0,
+            "explanation": "Electronic sensors need correct supply, ground, and signal operation. A fixed signal may be caused by a failed sensor or wiring fault. Testing all three wires prevents guessing."
+      },
+      {
+            "id": 14,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "PWM stands for:",
+            "options": [
+                  "Pulse-width modulation",
+                  "Power wiring module",
+                  "Pressure warning meter",
+                  "Pump water movement"
+            ],
+            "answer": 0,
+            "explanation": "PWM controls output by changing duty cycle. It is commonly used for solenoids, motors, and actuators. The signal switches rapidly between on and off."
+      },
+      {
+            "id": 15,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "A relay clicks, but the work light does not turn on. What should be checked next?",
+            "options": [
+                  "Load-side power and ground",
+                  "Engine compression",
+                  "Hydraulic oil viscosity",
+                  "Fuel injector timing"
+            ],
+            "answer": 0,
+            "explanation": "A relay click shows the control side may be working. The load circuit still needs power, ground, and good connections. Both sides of the relay must be tested."
+      },
+      {
+            "id": 16,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "CAN stands for:",
+            "options": [
+                  "Controlled area network",
+                  "Coolant air nozzle",
+                  "Current alternator neutral",
+                  "Compression actuator number"
+            ],
+            "answer": 0,
+            "explanation": "CAN is a communication network used by controllers. Modules send data over shared communication wires. Faults can affect multiple electronic systems."
+      },
+      {
+            "id": 17,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "A circuit fuse blows immediately after replacement. What is most likely?",
+            "options": [
+                  "Short to ground",
+                  "Open circuit",
+                  "Normal operation",
+                  "Low current draw"
+            ],
+            "answer": 0,
+            "explanation": "Immediate fuse failure usually means excessive current. A short to ground is a common cause. The circuit should be isolated before installing more fuses."
+      },
+      {
+            "id": 18,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "A potentiometer-type sensor usually changes:",
+            "options": [
+                  "Signal voltage as position changes",
+                  "Engine oil level",
+                  "Tire air pressure",
+                  "Exhaust temperature only"
+            ],
+            "answer": 0,
+            "explanation": "Position sensors often vary signal voltage. The ECM uses this signal to determine movement or position. TPS is a common example of a position sensor."
+      },
+      {
+            "id": 19,
+            "category": "D8 — Diagnose and repair electrical and electronic components and systems",
+            "question": "A connector has green corrosion on terminals. What problem can it cause?",
+            "options": [
+                  "High resistance and intermittent faults",
+                  "Higher current capacity",
+                  "Better signal quality",
+                  "Lower system voltage requirement"
+            ],
+            "answer": 0,
+            "explanation": "Corrosion restricts current and distorts sensor signals. It can cause intermittent or hard-to-find problems. Cleaning, repair, or replacement may be required."
+      },
+      {
+            "id": 20,
+            "category": "D9 — Diagnose and repair vehicle and equipment management systems",
+            "question": "The ECM receives inputs from sensors mainly to:",
+            "options": [
+                  "Make control decisions for outputs",
+                  "Increase tire size",
+                  "Store diesel fuel",
+                  "Lubricate bearings"
+            ],
+            "answer": 0,
+            "explanation": "The ECM monitors sensor inputs. It uses programmed logic to control actuators and systems. Inputs and outputs must both be tested during diagnosis."
+      },
+      {
+            "id": 21,
+            "category": "D9 — Diagnose and repair vehicle and equipment management systems",
+            "question": "A scan tool shows an active fault code. What does active usually mean?",
+            "options": [
+                  "The fault is currently present",
+                  "The fault happened years ago only",
+                  "The code is fake",
+                  "The battery is fully charged"
+            ],
+            "answer": 0,
+            "explanation": "Active codes indicate the system currently detects a problem. Inactive or stored codes may show past faults. Active faults should be diagnosed first."
+      },
+      {
+            "id": 22,
+            "category": "D9 — Diagnose and repair vehicle and equipment management systems",
+            "question": "A controller cannot communicate on the network. What should be checked?",
+            "options": [
+                  "Power, ground, communication wiring, and terminating resistance",
+                  "Engine oil pressure only",
+                  "Fuel cap seal only",
+                  "Fan belt only"
+            ],
+            "answer": 0,
+            "explanation": "Controllers need power and ground before communication. Network wiring problems can stop messages. CAN resistance and wiring integrity are important checks."
+      },
+      {
+            "id": 23,
+            "category": "D9 — Diagnose and repair vehicle and equipment management systems",
+            "question": "VREF usually means:",
+            "options": [
+                  "Voltage reference",
+                  "Valve return exhaust flow",
+                  "Variable radiator electric fan",
+                  "Vehicle rear engine frame"
+            ],
+            "answer": 0,
+            "explanation": "VREF is a regulated reference voltage for sensors. Many sensors use a 5 V reference circuit. A shorted sensor can pull down VREF and affect many sensors."
+      },
+      {
+            "id": 24,
+            "category": "D10 — Service, diagnose, and repair electronic ignition systems",
+            "question": "In a spark-ignition engine, the ignition coil is used to:",
+            "options": [
+                  "Create high voltage for the spark plug",
+                  "Pump fuel to the injector",
+                  "Cool exhaust gases",
+                  "Filter engine oil"
+            ],
+            "answer": 0,
+            "explanation": "Ignition coils step up voltage for spark production. The spark ignites the air-fuel mixture. Coil faults can cause misfires or no-start conditions."
+      },
+      {
+            "id": 25,
+            "category": "D10 — Service, diagnose, and repair electronic ignition systems",
+            "question": "A crankshaft position sensor is important because it helps the ECM determine:",
+            "options": [
+                  "Engine speed and position",
+                  "Tire pressure",
+                  "Coolant freeze point",
+                  "Brake lining thickness"
+            ],
+            "answer": 0,
+            "explanation": "The ECM needs crank position for timing. Ignition and injection events depend on engine position. A failed sensor can cause no-start or stalling."
+      },
+      {
+            "id": 26,
+            "category": "H1 — Describe engine fundamentals",
+            "question": "In a four-stroke diesel engine, which stroke compresses air before fuel injection?",
+            "options": [
+                  "Compression stroke",
+                  "Exhaust stroke",
+                  "Intake stroke",
+                  "Power stroke"
+            ],
+            "answer": 0,
+            "explanation": "Diesel engines compress air to create heat. Fuel is injected near the end of compression. The heat of compression ignites the fuel."
+      },
+      {
+            "id": 27,
+            "category": "H1 — Describe engine fundamentals",
+            "question": "TDC stands for:",
+            "options": [
+                  "Top dead centre",
+                  "Total diesel control",
+                  "Turbo drive circuit",
+                  "Throttle duty cycle"
+            ],
+            "answer": 0,
+            "explanation": "TDC means top dead centre. It is the piston’s highest position in the cylinder. Timing marks and valve adjustment often reference TDC."
+      },
+      {
+            "id": 28,
+            "category": "H1 — Describe engine fundamentals",
+            "question": "What is the main difference between diesel and gasoline ignition?",
+            "options": [
+                  "Diesel uses compression ignition",
+                  "Diesel always uses spark plugs",
+                  "Gasoline uses only compression ignition",
+                  "Diesel has no compression"
+            ],
+            "answer": 0,
+            "explanation": "Diesel engines ignite fuel using heat from compressed air. Gasoline engines usually use spark ignition. This affects fuel system and diagnostic methods."
+      },
+      {
+            "id": 29,
+            "category": "H2 — Service engine support systems",
+            "question": "The cooling system thermostat controls:",
+            "options": [
+                  "Coolant flow to maintain engine temperature",
+                  "Fuel injection timing",
+                  "Battery charge rate",
+                  "Exhaust backpressure"
+            ],
+            "answer": 0,
+            "explanation": "The thermostat opens and closes with temperature. It helps the engine reach and maintain operating temperature. A stuck thermostat can cause overheating or slow warm-up."
+      },
+      {
+            "id": 30,
+            "category": "H2 — Service engine support systems",
+            "question": "The engine oil filter removes:",
+            "options": [
+                  "Contaminants from lubricating oil",
+                  "Air from fuel",
+                  "Heat from exhaust",
+                  "Voltage from battery cables"
+            ],
+            "answer": 0,
+            "explanation": "Oil filters remove particles that cause wear. Clean oil protects bearings, camshafts, and other moving parts. Filters must be changed at service intervals."
+      },
+      {
+            "id": 31,
+            "category": "H2 — Service engine support systems",
+            "question": "A plugged air filter can cause:",
+            "options": [
+                  "Restricted intake airflow",
+                  "Higher compression ratio",
+                  "Better fuel economy always",
+                  "Increased battery voltage"
+            ],
+            "answer": 0,
+            "explanation": "Engines need adequate air for combustion. A restricted filter can reduce power and increase smoke. Air intake restriction should be checked during service."
+      },
+      {
+            "id": 32,
+            "category": "H2 — Service engine support systems",
+            "question": "Why should coolant concentration be tested?",
+            "options": [
+                  "To ensure freeze and corrosion protection",
+                  "To increase fuel pressure",
+                  "To adjust valve clearance",
+                  "To clean injectors"
+            ],
+            "answer": 0,
+            "explanation": "Correct coolant mixture prevents freezing and corrosion. It also helps heat transfer. Wrong concentration can damage engine components."
+      },
+      {
+            "id": 33,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "An engine overheats under load. What should be checked?",
+            "options": [
+                  "Coolant level, radiator airflow, fan operation, and thermostat",
+                  "Cab seat belt",
+                  "Tire tread only",
+                  "Headlight switch"
+            ],
+            "answer": 0,
+            "explanation": "Overheating can be caused by poor coolant flow or poor airflow. Fan, radiator, thermostat, and coolant level are common checks. Load-related overheating may also involve plugged radiators."
+      },
+      {
+            "id": 34,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "Low engine oil pressure may be caused by:",
+            "options": [
+                  "Low oil level or worn bearings",
+                  "Full fuel tank",
+                  "Clean air filter",
+                  "Proper coolant level"
+            ],
+            "answer": 0,
+            "explanation": "Oil pressure depends on oil supply and clearances. Low level, worn pump, or worn bearings can reduce pressure. The engine should not be operated until diagnosed."
+      },
+      {
+            "id": 35,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "White smoke on startup that clears quickly can indicate:",
+            "options": [
+                  "Cold combustion or unburned fuel",
+                  "Engine is overcharging",
+                  "Tire pressure is low",
+                  "Exhaust brake is perfect"
+            ],
+            "answer": 0,
+            "explanation": "Cold cylinders may not burn fuel completely. White smoke can be unburned fuel or coolant depending on conditions. If it continues, further diagnosis is needed."
+      },
+      {
+            "id": 36,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "Black exhaust smoke under load usually indicates:",
+            "options": [
+                  "Too much fuel or not enough air",
+                  "Too much coolant flow",
+                  "Low battery voltage only",
+                  "Excess DEF quality"
+            ],
+            "answer": 0,
+            "explanation": "Black smoke is caused by incomplete combustion. Common causes include restricted air intake, boost leaks, or overfueling. Air and fuel systems should be checked."
+      },
+      {
+            "id": 37,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "A cooling system pressure test is used to find:",
+            "options": [
+                  "Leaks in the cooling system",
+                  "Injector balance",
+                  "Alternator amperage",
+                  "Tire pressure loss only"
+            ],
+            "answer": 0,
+            "explanation": "Pressure testing simulates operating pressure. Leaks may appear at hoses, radiator, water pump, or head gasket. It helps locate coolant loss."
+      },
+      {
+            "id": 38,
+            "category": "H3 — Diagnose and repair engine support systems",
+            "question": "An engine has low power and the turbocharger boost is low. What should be checked?",
+            "options": [
+                  "Intake restriction, exhaust leaks, turbo condition, and charge-air leaks",
+                  "Brake pedal height only",
+                  "Cab door hinges only",
+                  "Wheel bearing preload only"
+            ],
+            "answer": 0,
+            "explanation": "Low boost reduces air available for combustion. Leaks, restrictions, or turbo faults can reduce boost pressure. Air system diagnosis is important before replacing parts."
+      },
+      {
+            "id": 39,
+            "category": "H4 — Service diesel fuel supply systems",
+            "question": "Why should diesel fuel filters be changed at the correct interval?",
+            "options": [
+                  "To prevent contamination from reaching pumps and injectors",
+                  "To increase tire pressure",
+                  "To improve cab suspension",
+                  "To reduce battery voltage"
+            ],
+            "answer": 0,
+            "explanation": "Diesel fuel systems are sensitive to dirt and water. Filters protect pumps and injectors from damage. Restricted filters can also cause low power or no-start."
+      },
+      {
+            "id": 40,
+            "category": "H5 — Diagnose and repair diesel fuel supply systems",
+            "question": "An engine starts, runs briefly, then stalls. Fuel filter is empty. What may be the cause?",
+            "options": [
+                  "Air leak or restriction in fuel supply",
+                  "High alternator output",
+                  "Overfilled coolant",
+                  "Loose fan guard"
+            ],
+            "answer": 0,
+            "explanation": "The fuel system may be losing prime. Air leaks or supply restrictions can starve the injection system. Lines, fittings, filter seals, and pickup tubes should be checked."
+      },
+      {
+            "id": 41,
+            "category": "H5 — Diagnose and repair diesel fuel supply systems",
+            "question": "Water in diesel fuel can cause:",
+            "options": [
+                  "Injector and pump damage",
+                  "Higher engine compression",
+                  "Better lubrication",
+                  "Stronger battery output"
+            ],
+            "answer": 0,
+            "explanation": "Water reduces lubrication in diesel fuel systems. It can corrode and damage precision parts. Water separators should be drained and serviced."
+      },
+      {
+            "id": 42,
+            "category": "H5 — Diagnose and repair diesel fuel supply systems",
+            "question": "A diesel engine has low power and low supply pressure. What should be checked?",
+            "options": [
+                  "Lift pump, filters, tank pickup, and lines",
+                  "Brake linings",
+                  "Radiator cap only",
+                  "Seat switch only"
+            ],
+            "answer": 0,
+            "explanation": "Low fuel supply pressure can starve injectors. Restriction or weak lift pump are common causes. Supply pressure testing helps confirm the fault."
+      },
+      {
+            "id": 43,
+            "category": "H6 — Describe alternative fuel systems",
+            "question": "CNG stands for:",
+            "options": [
+                  "Compressed natural gas",
+                  "Controlled nitrogen governor",
+                  "Common nozzle gear",
+                  "Coolant neutral gas"
+            ],
+            "answer": 0,
+            "explanation": "CNG means compressed natural gas. It is stored under high pressure. Alternative fuel systems require specific safety procedures."
+      },
+      {
+            "id": 44,
+            "category": "H6 — Describe alternative fuel systems",
+            "question": "LPG stands for:",
+            "options": [
+                  "Liquefied petroleum gas",
+                  "Low pressure governor",
+                  "Light power ground",
+                  "Liquid piston grease"
+            ],
+            "answer": 0,
+            "explanation": "LPG means liquefied petroleum gas. It is stored as a pressurized fuel. Leaks and ignition sources must be controlled during service."
+      },
+      {
+            "id": 45,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A compression test is used to check:",
+            "options": [
+                  "Cylinder sealing ability",
+                  "Battery reserve capacity",
+                  "Tire pressure",
+                  "Alternator ripple only"
+            ],
+            "answer": 0,
+            "explanation": "Compression testing checks how well cylinders seal. Low compression may be caused by rings, valves, or head gasket problems. It helps diagnose hard starting and low power."
+      },
+      {
+            "id": 46,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Excessive crankcase pressure may be caused by:",
+            "options": [
+                  "Worn piston rings",
+                  "Clean air filter",
+                  "Full DEF tank",
+                  "New alternator"
+            ],
+            "answer": 0,
+            "explanation": "Worn rings allow combustion gases into the crankcase. This is called blow-by. It can cause oil leaks and poor engine performance."
+      },
+      {
+            "id": 47,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Valve clearance that is too tight can cause:",
+            "options": [
+                  "Valves not fully seating",
+                  "Higher tire pressure",
+                  "Increased coolant freezing point",
+                  "Better compression always"
+            ],
+            "answer": 0,
+            "explanation": "Tight valves may stay slightly open. This can reduce compression and burn valves. Clearance must be adjusted to specification."
+      },
+      {
+            "id": 48,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Valve clearance that is too loose can cause:",
+            "options": [
+                  "Valve train noise and reduced lift",
+                  "Better fuel atomization",
+                  "Higher battery voltage",
+                  "More coolant flow"
+            ],
+            "answer": 0,
+            "explanation": "Loose clearance causes noise and impact wear. It can also reduce valve opening. This affects engine breathing and performance."
+      },
+      {
+            "id": 49,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A head gasket failure may cause:",
+            "options": [
+                  "Coolant in oil or combustion gases in coolant",
+                  "Higher alternator output",
+                  "Perfect compression",
+                  "Better fuel economy always"
+            ],
+            "answer": 0,
+            "explanation": "Head gaskets seal oil, coolant, and combustion pressure. Failure can mix fluids or leak compression. Cooling system pressure and oil condition should be checked."
+      },
+      {
+            "id": 50,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Blue exhaust smoke usually indicates:",
+            "options": [
+                  "Burning engine oil",
+                  "Excess air only",
+                  "Low tire pressure",
+                  "Low alternator voltage"
+            ],
+            "answer": 0,
+            "explanation": "Blue smoke is commonly oil entering the combustion chamber. Worn rings, valve guides, or turbo seals may cause it. Oil consumption should be checked."
+      },
+      {
+            "id": 51,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A turbocharger uses exhaust energy to:",
+            "options": [
+                  "Compress intake air",
+                  "Pump coolant",
+                  "Charge the battery",
+                  "Adjust valve lash"
+            ],
+            "answer": 0,
+            "explanation": "Exhaust gas drives the turbine wheel. The compressor wheel increases intake air pressure. More air allows more efficient combustion."
+      },
+      {
+            "id": 52,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "VGT stands for:",
+            "options": [
+                  "Variable geometry turbo",
+                  "Voltage ground test",
+                  "Valve gear timing",
+                  "Vacuum governor transfer"
+            ],
+            "answer": 0,
+            "explanation": "A VGT changes exhaust flow through the turbo. It improves boost control over different engine speeds. Sticking vanes can cause low power or overboost."
+      },
+      {
+            "id": 53,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "An intercooler or charge air cooler is used to:",
+            "options": [
+                  "Cool compressed intake air",
+                  "Cool brake fluid",
+                  "Heat diesel fuel",
+                  "Store DEF"
+            ],
+            "answer": 0,
+            "explanation": "Compressing air raises its temperature. Cooling the air increases density. Denser air improves combustion and power."
+      },
+      {
+            "id": 54,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A knocking sound from the bottom end may indicate:",
+            "options": [
+                  "Worn connecting rod or main bearings",
+                  "Clean fuel filter",
+                  "Correct tire pressure",
+                  "Working alternator"
+            ],
+            "answer": 0,
+            "explanation": "Bottom-end knocks often come from bearing clearance. Low oil pressure or wear can damage bearings. The engine should be inspected before severe failure."
+      },
+      {
+            "id": 55,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A worn camshaft lobe can cause:",
+            "options": [
+                  "Reduced valve lift",
+                  "Increased battery output",
+                  "Stronger brakes",
+                  "Lower intake restriction"
+            ],
+            "answer": 0,
+            "explanation": "The camshaft controls valve opening. A worn lobe reduces lift and duration. This can cause misfire, low power, or poor breathing."
+      },
+      {
+            "id": 56,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "What does the piston ring set help seal?",
+            "options": [
+                  "Combustion chamber to cylinder wall",
+                  "Radiator cap to radiator",
+                  "Battery post to cable",
+                  "Exhaust pipe to muffler only"
+            ],
+            "answer": 0,
+            "explanation": "Rings seal combustion pressure above the piston. They also control oil on the cylinder wall. Worn rings cause blow-by and oil consumption."
+      },
+      {
+            "id": 57,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "The crankshaft changes piston movement into:",
+            "options": [
+                  "Rotary motion",
+                  "Electrical current",
+                  "Hydraulic pressure only",
+                  "Refrigerant flow"
+            ],
+            "answer": 0,
+            "explanation": "Pistons move up and down. Connecting rods transfer this force to the crankshaft. The crankshaft turns this into rotation."
+      },
+      {
+            "id": 58,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A timing gear or chain problem can cause:",
+            "options": [
+                  "Incorrect valve timing",
+                  "Higher coolant concentration",
+                  "Better fuel filtration",
+                  "Increased tire pressure"
+            ],
+            "answer": 0,
+            "explanation": "Timing components synchronize crankshaft and camshaft movement. Incorrect timing affects compression and combustion. Severe timing faults can damage valves and pistons."
+      },
+      {
+            "id": 59,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A cylinder leak-down test helps locate:",
+            "options": [
+                  "Where compression is escaping",
+                  "Alternator output current",
+                  "Fuel tank level",
+                  "Tire bead leakage only"
+            ],
+            "answer": 0,
+            "explanation": "Leak-down testing applies air to a cylinder. Air escaping through intake, exhaust, crankcase, or coolant shows fault location. It is more detailed than compression testing."
+      },
+      {
+            "id": 60,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A plugged crankcase breather can cause:",
+            "options": [
+                  "Oil leaks from pressure buildup",
+                  "Lower oil temperature only",
+                  "Better ring seal",
+                  "Stronger spark"
+            ],
+            "answer": 0,
+            "explanation": "Crankcase ventilation relieves pressure. A plugged breather can force oil past seals. It may also contribute to smoking or leaks."
+      },
+      {
+            "id": 61,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Engine oil mixed with coolant may look:",
+            "options": [
+                  "Milky",
+                  "Bright red only",
+                  "Clear like water",
+                  "Dry powder"
+            ],
+            "answer": 0,
+            "explanation": "Coolant contamination often makes oil appear milky. This may indicate head gasket, cooler, or internal leakage. Operating the engine can cause bearing damage."
+      },
+      {
+            "id": 62,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "An engine misfire in one cylinder may be caused by:",
+            "options": [
+                  "Low compression or injector fault",
+                  "Perfect combustion",
+                  "Correct valve clearance only",
+                  "Full windshield washer tank"
+            ],
+            "answer": 0,
+            "explanation": "A cylinder needs compression, air, and correct fuel delivery. Low compression or injector problems can cause misfire. Cylinder contribution testing may help isolate the issue."
+      },
+      {
+            "id": 63,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "Why should engine fasteners be tightened in the correct sequence?",
+            "options": [
+                  "To prevent distortion and uneven clamping",
+                  "To save paint",
+                  "To increase battery voltage",
+                  "To cool oil faster"
+            ],
+            "answer": 0,
+            "explanation": "Critical components require even clamping. Incorrect sequence can warp parts or cause leaks. Manufacturer torque procedures must be followed."
+      },
+      {
+            "id": 64,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A connecting rod connects the piston to the:",
+            "options": [
+                  "Crankshaft",
+                  "Radiator",
+                  "Alternator",
+                  "Turbocharger housing"
+            ],
+            "answer": 0,
+            "explanation": "The connecting rod transfers piston force. It moves the crankshaft during the power stroke. Rod bearings support this movement."
+      },
+      {
+            "id": 65,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "The flywheel helps:",
+            "options": [
+                  "Smooth engine rotation",
+                  "Filter fuel",
+                  "Cool exhaust gases",
+                  "Control DEF pressure"
+            ],
+            "answer": 0,
+            "explanation": "The flywheel stores rotating energy. It smooths power pulses between cylinders. It also provides a ring gear for starting."
+      },
+      {
+            "id": 66,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A leaking exhaust manifold gasket before the turbo can cause:",
+            "options": [
+                  "Low boost pressure",
+                  "Higher battery voltage",
+                  "Better turbo response",
+                  "Lower engine noise only"
+            ],
+            "answer": 0,
+            "explanation": "Exhaust leaks reduce energy reaching the turbo. This can lower boost and engine power. Leaks may also create noise and soot marks."
+      },
+      {
+            "id": 67,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A worn water pump impeller may cause:",
+            "options": [
+                  "Poor coolant circulation",
+                  "Higher fuel pressure",
+                  "Better oil pressure",
+                  "Stronger compression"
+            ],
+            "answer": 0,
+            "explanation": "The water pump moves coolant through the engine. A damaged impeller reduces flow. Reduced flow can cause overheating."
+      },
+      {
+            "id": 68,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A radiator cap holds pressure to:",
+            "options": [
+                  "Raise coolant boiling point",
+                  "Lower engine compression",
+                  "Increase alternator output",
+                  "Improve injector timing"
+            ],
+            "answer": 0,
+            "explanation": "Pressure increases coolant boiling point. A weak cap can allow overheating or coolant loss. Cap pressure should match specification."
+      },
+      {
+            "id": 69,
+            "category": "H7 — Service, diagnose, and repair engines and components",
+            "question": "A diesel engine cranks normally but will not start. Which basics should be checked?",
+            "options": [
+                  "Air, compression, fuel delivery, and timing/control signals",
+                  "Tire size and paint colour",
+                  "Seat adjustment and horn volume",
+                  "Wiper blade length only"
+            ],
+            "answer": 0,
+            "explanation": "Diesel engines need air, compression, and fuel at the right time. Electronic engines also require sensor and control signals. A logical no-start diagnosis checks basics first."
+      },
+      {
+            "id": 70,
+            "category": "H8 — Diagnose and repair mechanical fuel injection systems",
+            "question": "A mechanical injection pump must deliver fuel at the correct:",
+            "options": [
+                  "Time and pressure",
+                  "Tire pressure and speed",
+                  "Coolant level and colour",
+                  "Battery voltage only"
+            ],
+            "answer": 0,
+            "explanation": "Mechanical injection depends on correct timing and pressure. Incorrect timing causes smoke, hard starting, or low power. Pump and timing marks must be set accurately."
+      },
+      {
+            "id": 71,
+            "category": "H8 — Diagnose and repair mechanical fuel injection systems",
+            "question": "A leaking mechanical injector nozzle can cause:",
+            "options": [
+                  "Smoke, rough running, or fuel knock",
+                  "Higher coolant pressure only",
+                  "Better fuel economy",
+                  "Stronger alternator output"
+            ],
+            "answer": 0,
+            "explanation": "Injector nozzles must atomize fuel correctly. Leaking or poor spray causes incomplete combustion. Testing may include pop pressure and spray pattern checks."
+      },
+      {
+            "id": 72,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "HPCR stands for:",
+            "options": [
+                  "High pressure common rail",
+                  "Hydraulic pump coolant return",
+                  "High power charging relay",
+                  "Heat pressure control ratio"
+            ],
+            "answer": 0,
+            "explanation": "HPCR means high pressure common rail. It stores high-pressure fuel for electronically controlled injection. Pressure control and injector command are critical."
+      },
+      {
+            "id": 73,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A common rail pressure sensor tells the ECM:",
+            "options": [
+                  "Fuel rail pressure",
+                  "Tire pressure",
+                  "Coolant freeze point",
+                  "Exhaust pipe diameter"
+            ],
+            "answer": 0,
+            "explanation": "The ECM uses rail pressure for injection control. Incorrect pressure signals can cause no-start or derate. Sensor, wiring, and actual pressure should be checked."
+      },
+      {
+            "id": 74,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "An electronically controlled injector is activated by:",
+            "options": [
+                  "ECM electrical command",
+                  "Radiator pressure",
+                  "Tire rotation",
+                  "Manual throttle cable only"
+            ],
+            "answer": 0,
+            "explanation": "Electronic injectors receive signals from the ECM. The ECM controls timing and duration. Electrical faults can disable injection."
+      },
+      {
+            "id": 75,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "EUI stands for:",
+            "options": [
+                  "Electronic unit injector",
+                  "Engine upper intake",
+                  "Exhaust under idle",
+                  "Electric utility indicator"
+            ],
+            "answer": 0,
+            "explanation": "EUI means electronic unit injector. It combines pumping and injection at each cylinder. The ECM controls injection electronically."
+      },
+      {
+            "id": 76,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "HEUI stands for:",
+            "options": [
+                  "Hydraulically activated, electronically controlled, unit injector",
+                  "High exhaust universal inlet",
+                  "Hydraulic engine under inspection",
+                  "Heat energy unit indicator"
+            ],
+            "answer": 0,
+            "explanation": "HEUI injectors use high-pressure oil to intensify fuel pressure. The ECM electronically controls injector operation. Oil pressure problems can affect injection."
+      },
+      {
+            "id": 77,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A poor injector electrical connection can cause:",
+            "options": [
+                  "Misfire or fault code",
+                  "Higher coolant flow",
+                  "Better starting",
+                  "More tire wear"
+            ],
+            "answer": 0,
+            "explanation": "Electronic injectors need reliable electrical control. Loose or corroded connectors interrupt injector operation. The ECM may set cylinder-specific codes."
+      },
+      {
+            "id": 78,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A diesel engine has low rail pressure during cranking. What may result?",
+            "options": [
+                  "No-start condition",
+                  "Stronger engine braking",
+                  "Higher A/C output",
+                  "Faster battery charging"
+            ],
+            "answer": 0,
+            "explanation": "HPCR systems require minimum pressure to start. Low pressure prevents proper injection. Supply pressure, leaks, pump output, and pressure control should be checked."
+      },
+      {
+            "id": 79,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A leaking injector return can cause:",
+            "options": [
+                  "Low rail pressure",
+                  "Higher oil pressure always",
+                  "Better combustion",
+                  "Lower air restriction"
+            ],
+            "answer": 0,
+            "explanation": "Excess return flow can bleed off high-pressure fuel. This may cause hard starting or no-start. Injector return testing can identify the faulty injector."
+      },
+      {
+            "id": 80,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A fuel temperature sensor helps the ECM adjust for:",
+            "options": [
+                  "Fuel density changes",
+                  "Tire load rating",
+                  "Cab temperature only",
+                  "Brake temperature only"
+            ],
+            "answer": 0,
+            "explanation": "Fuel temperature affects density and injection quantity. The ECM uses sensor data to adjust fueling. Faulty readings can affect performance."
+      },
+      {
+            "id": 81,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A camshaft position sensor may be used to identify:",
+            "options": [
+                  "Cylinder position for injection timing",
+                  "Coolant concentration",
+                  "Battery acid level",
+                  "Tire rotation direction only"
+            ],
+            "answer": 0,
+            "explanation": "Electronic diesel systems need engine position information. Cam and crank sensors help control injection timing. Loss of signal can cause no-start or limp mode."
+      },
+      {
+            "id": 82,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A high-pressure diesel fuel leak is dangerous because:",
+            "options": [
+                  "Fuel can penetrate skin",
+                  "Fuel becomes harmless mist",
+                  "Fuel lowers voltage",
+                  "Fuel improves lubrication on hands"
+            ],
+            "answer": 0,
+            "explanation": "High-pressure fuel can cause injection injuries. Never check leaks with bare hands. Follow safe pressure-release procedures."
+      },
+      {
+            "id": 83,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A diesel injector balance test is used to:",
+            "options": [
+                  "Compare cylinder fuel contribution",
+                  "Test tire balance",
+                  "Measure coolant flow only",
+                  "Adjust alternator output"
+            ],
+            "answer": 0,
+            "explanation": "Balance tests compare injector or cylinder performance. They help locate weak or overfueling cylinders. Results should be confirmed with other tests."
+      },
+      {
+            "id": 84,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A fuel pressure control valve stuck open may cause:",
+            "options": [
+                  "Low rail pressure",
+                  "Excessive tire wear",
+                  "Higher coolant temperature only",
+                  "Stronger engine compression"
+            ],
+            "answer": 0,
+            "explanation": "A stuck-open control valve can dump pressure. The rail may not reach commanded pressure. This can cause hard start, no-start, or low power."
+      },
+      {
+            "id": 85,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "Why must electronic diesel fuel systems stay very clean during repair?",
+            "options": [
+                  "Tiny particles can damage injectors and pumps",
+                  "Dirt improves sealing",
+                  "Filters are not used",
+                  "Fuel systems are not sensitive"
+            ],
+            "answer": 0,
+            "explanation": "High-pressure fuel components have very tight clearances. Small dirt particles can score or stick parts. Clean caps, plugs, and procedures are essential."
+      },
+      {
+            "id": 86,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "A commanded rail pressure is high but actual pressure is low. What should be suspected?",
+            "options": [
+                  "Supply problem, high-pressure pump fault, leak, or control valve issue",
+                  "Correct operation",
+                  "Low tire pressure only",
+                  "Exhaust brake stuck on only"
+            ],
+            "answer": 0,
+            "explanation": "The ECM is requesting more pressure but the system cannot achieve it. This may be caused by low supply, pump wear, leakage, or control faults. Compare commanded and actual data during diagnosis."
+      },
+      {
+            "id": 87,
+            "category": "H9 — Service, diagnose, and repair electronic diesel fuel systems",
+            "question": "DEF is not injected into the fuel system because DEF is used in the:",
+            "options": [
+                  "Exhaust aftertreatment system",
+                  "Engine oil pan",
+                  "Intake air filter",
+                  "Battery electrolyte"
+            ],
+            "answer": 0,
+            "explanation": "DEF is diesel exhaust fluid used with SCR systems. It is sprayed into the exhaust, not the fuel. Putting DEF in diesel fuel can cause major fuel system damage."
+      },
+      {
+            "id": 88,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "DPF stands for:",
+            "options": [
+                  "Diesel particulate filter",
+                  "Diesel pressure fuel",
+                  "Drive pulley fan",
+                  "Direct pump flow"
+            ],
+            "answer": 0,
+            "explanation": "A DPF traps soot from diesel exhaust. It must regenerate to burn soot into ash. Restrictions can cause derate or high exhaust backpressure."
+      },
+      {
+            "id": 89,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "SCR stands for:",
+            "options": [
+                  "Selective catalytic reduction",
+                  "Starter control relay",
+                  "Secondary coolant reservoir",
+                  "Sensor current range"
+            ],
+            "answer": 0,
+            "explanation": "SCR uses DEF to reduce NOx emissions. It works in the exhaust aftertreatment system. DEF quality and dosing are important."
+      },
+      {
+            "id": 90,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "DEF stands for:",
+            "options": [
+                  "Diesel exhaust fluid",
+                  "Diesel engine filter",
+                  "Direct electric fuel",
+                  "Drive exhaust fan"
+            ],
+            "answer": 0,
+            "explanation": "DEF is a urea-water solution used in SCR systems. It is injected into exhaust flow. It helps convert NOx into less harmful gases."
+      },
+      {
+            "id": 91,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "DOC stands for:",
+            "options": [
+                  "Diesel oxidation catalyst",
+                  "Diesel oil cooler",
+                  "Direct output controller",
+                  "Drive operating circuit"
+            ],
+            "answer": 0,
+            "explanation": "The DOC helps oxidize hydrocarbons and carbon monoxide. It also helps generate heat for DPF regeneration. A contaminated DOC can reduce aftertreatment performance."
+      },
+      {
+            "id": 92,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "EGR stands for:",
+            "options": [
+                  "Exhaust gas recirculation",
+                  "Engine gear reduction",
+                  "Electronic governor relay",
+                  "Exhaust grid resistor"
+            ],
+            "answer": 0,
+            "explanation": "EGR routes some exhaust gas back into the intake. It lowers combustion temperature. This helps reduce NOx formation."
+      },
+      {
+            "id": 93,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "NOx means:",
+            "options": [
+                  "Nitrogen oxides",
+                  "New oxygen exchange",
+                  "Neutral oil exhaust",
+                  "Nitrogen only"
+            ],
+            "answer": 0,
+            "explanation": "NOx refers to nitrogen oxides. Diesel combustion can create NOx at high temperatures. EGR and SCR are used to reduce it."
+      },
+      {
+            "id": 94,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "A DPF differential pressure sensor measures:",
+            "options": [
+                  "Pressure difference across the DPF",
+                  "Battery voltage only",
+                  "Fuel tank pressure only",
+                  "Tire pressure difference"
+            ],
+            "answer": 0,
+            "explanation": "The sensor helps determine DPF restriction. High differential pressure may indicate soot or ash loading. Readings are used for regeneration and fault detection."
+      },
+      {
+            "id": 95,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "A forced regeneration is used to:",
+            "options": [
+                  "Burn soot from the DPF under controlled conditions",
+                  "Fill the fuel tank",
+                  "Charge the batteries",
+                  "Adjust valve clearance"
+            ],
+            "answer": 0,
+            "explanation": "Regeneration raises exhaust temperature to burn soot. It must be done safely and according to procedure. Excessive soot may prevent successful regeneration."
+      },
+      {
+            "id": 96,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "Poor DEF quality can cause:",
+            "options": [
+                  "SCR system faults and NOx conversion problems",
+                  "Higher tire pressure",
+                  "Stronger engine compression",
+                  "Better fuel lubrication"
+            ],
+            "answer": 0,
+            "explanation": "SCR systems require correct DEF concentration and purity. Poor quality DEF can cause codes or derate. DEF should be tested and stored correctly."
+      },
+      {
+            "id": 97,
+            "category": "H10 — Service, diagnose, and repair diesel emissions systems",
+            "question": "A stuck-open EGR valve may cause:",
+            "options": [
+                  "Rough running, smoke, or low power",
+                  "Higher battery output",
+                  "Better cold starting always",
+                  "Stronger turbo boost always"
+            ],
+            "answer": 0,
+            "explanation": "Too much exhaust gas in the intake reduces oxygen. This can cause poor combustion and smoke. EGR position and control should be checked."
+      },
+      {
+            "id": 98,
+            "category": "H11 — Service, diagnose, and repair engine retarder systems",
+            "question": "An engine retarder is used to:",
+            "options": [
+                  "Help slow the vehicle using the engine",
+                  "Increase engine speed during starting",
+                  "Raise fuel pressure",
+                  "Cool the radiator only"
+            ],
+            "answer": 0,
+            "explanation": "Engine retarders provide auxiliary braking. They reduce service brake use on downhill grades. They help control speed and reduce brake overheating."
+      },
+      {
+            "id": 99,
+            "category": "H11 — Service, diagnose, and repair engine retarder systems",
+            "question": "A compression-release engine brake works by:",
+            "options": [
+                  "Releasing compressed air near the top of compression",
+                  "Adding extra fuel during braking",
+                  "Opening the radiator cap",
+                  "Increasing battery voltage"
+            ],
+            "answer": 0,
+            "explanation": "Compression-release brakes turn the engine into an air compressor. The compressed air energy is released instead of returned to the crankshaft. This slows the vehicle."
+      },
+      {
+            "id": 100,
+            "category": "H11 — Service, diagnose, and repair engine retarder systems",
+            "question": "If an engine retarder does not operate, what should be checked?",
+            "options": [
+                  "Switches, ECM inputs, wiring, oil pressure, and solenoids",
+                  "Tire colour only",
+                  "Fuel tank paint only",
+                  "Cab glass condition only"
+            ],
+            "answer": 0,
+            "explanation": "Retarders require correct electrical and mechanical conditions. Low oil pressure or failed solenoids can stop operation. Inputs such as clutch, throttle, and brake switches may also disable it."
+      }
+];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledHeavyMechanicalTradesCommonCoreLevel2Set2Questions =
+      heavyMechanicalTradesCommonCoreLevel2Set2Questions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "heavy-mechanical-trades",
+      tradeTitle: "Heavy Mechanical Trades",
+      sectionTitle: "Common Core Level 2 – Practice Exam Set 2",
+      questionTimeSeconds: 90,
+      questions: shuffledHeavyMechanicalTradesCommonCoreLevel2Set2Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledHeavyMechanicalTradesCommonCoreLevel2Set2Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

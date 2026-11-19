@@ -1,0 +1,1084 @@
+const electricianLevel2Set3StandardizedQuestions = [
+  {
+    "id": 1,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "You install a 240 V construction heater. The nameplate says 4500 W. What current should you expect?",
+    "options": [
+      "12.5 A",
+      "18.75 A",
+      "24 A",
+      "45 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = P/E). (4500 ÷ 240 = 18.75A). The heater draws about 18.75 amps."
+  },
+  {
+    "id": 2,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A temporary light string has two 60 Ω sections connected in parallel across 120 V. What is total current?",
+    "options": [
+      "1 A",
+      "2 A",
+      "4 A",
+      "60 A"
+    ],
+    "answer": 2,
+    "explanation": "Each branch current is (120 ÷ 60 = 2A). Parallel branch currents add. Total current is (2 + 2 = 4A)."
+  },
+  {
+    "id": 3,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A motor control cabinet has a 120 V pilot light that draws 0.25 A. What is its resistance?",
+    "options": [
+      "30 Ω",
+      "120 Ω",
+      "240 Ω",
+      "480 Ω"
+    ],
+    "answer": 3,
+    "explanation": "Use (R = E/I). (120 ÷ 0.25 = 480Ω). The pilot light resistance is 480 ohms."
+  },
+  {
+    "id": 4,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A 10 Ω resistor and a 20 Ω resistor are in parallel. What is total resistance?",
+    "options": [
+      "3.33 Ω",
+      "6.67 Ω",
+      "10 Ω",
+      "30 Ω"
+    ],
+    "answer": 1,
+    "explanation": "Use product-over-sum. ((10 × 20) ÷ (10 + 20) = 200 ÷ 30). Total resistance is about 6.67 Ω."
+  },
+  {
+    "id": 5,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A junction box splice is loose and adds 0.25 Ω resistance while carrying 16 A. What heat power is produced at the bad splice?",
+    "options": [
+      "4 W",
+      "16 W",
+      "64 W",
+      "256 W"
+    ],
+    "answer": 2,
+    "explanation": "Use (P = I^2R). (16^2 × 0.25 = 256 × 0.25). The bad splice produces 64 W of heat."
+  },
+  {
+    "id": 6,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A 208 V load has resistance of 26 Ω. What current flows?",
+    "options": [
+      "4 A",
+      "6 A",
+      "8 A",
+      "12 A"
+    ],
+    "answer": 2,
+    "explanation": "Use (I = E/R). (208 ÷ 26 = 8A). The load current is 8 amps."
+  },
+  {
+    "id": 7,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "A technician measures 80 V across one series load and 40 V across another. What source voltage is supplying the two loads?",
+    "options": [
+      "40 V",
+      "80 V",
+      "120 V",
+      "240 V"
+    ],
+    "answer": 2,
+    "explanation": "Series voltage drops add. (80V + 40V = 120V). This follows Kirchhoff’s Voltage Law."
+  },
+  {
+    "id": 8,
+    "category": "A1 — Use electrical circuit concepts",
+    "question": "After a cable jacket is damaged, two conductors touch and the breaker trips instantly. What condition occurred?",
+    "options": [
+      "Open circuit",
+      "Short circuit",
+      "Normal load",
+      "High resistance load"
+    ],
+    "answer": 1,
+    "explanation": "Conductors touching create a low-resistance path. Low resistance causes very high current. The breaker trips to clear the fault."
+  },
+  {
+    "id": 9,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A 120 V single-phase fan motor draws 6 A at 0.75 power factor. What is the true power?",
+    "options": [
+      "540 W",
+      "720 W",
+      "900 W",
+      "960 W"
+    ],
+    "answer": 0,
+    "explanation": "Use (P = E × I × pf). (120 × 6 × 0.75 = 540W). True power is measured in watts."
+  },
+  {
+    "id": 10,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A 240 V AC circuit has impedance of 40 Ω. What current flows?",
+    "options": [
+      "4 A",
+      "6 A",
+      "8 A",
+      "10 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = E/Z). (240 ÷ 40 = 6A). Impedance is total AC opposition."
+  },
+  {
+    "id": 11,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A coil is connected to a 60 Hz AC supply. If inductance increases, what happens to inductive reactance?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It becomes capacitance"
+    ],
+    "answer": 0,
+    "explanation": "(X_L = 2πfL). Inductive reactance increases with inductance. More inductance gives more opposition to AC current."
+  },
+  {
+    "id": 12,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A capacitor is used in an AC circuit. If capacitance increases, what happens to capacitive reactance?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes infinite",
+      "It becomes resistance only"
+    ],
+    "answer": 1,
+    "explanation": "(X_C = 1/(2πfC)). Capacitance and capacitive reactance are inversely related. More capacitance means less opposition to AC."
+  },
+  {
+    "id": 13,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A series AC circuit has resistance of 24 Ω and inductive reactance of 32 Ω. What is impedance?",
+    "options": [
+      "8 Ω",
+      "40 Ω",
+      "56 Ω",
+      "768 Ω"
+    ],
+    "answer": 1,
+    "explanation": "Use (Z = \\sqrt{R^2 + X_L^2}). (\\sqrt{24^2 + 32^2} = \\sqrt{1600}). Impedance is 40 Ω."
+  },
+  {
+    "id": 14,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A load has 1500 VA and 1200 W. What is its power factor?",
+    "options": [
+      "0.6",
+      "0.8",
+      "1.0",
+      "1.25"
+    ],
+    "answer": 1,
+    "explanation": "Power factor is (P/S). (1200 ÷ 1500 = 0.8). Power factor is 80%."
+  },
+  {
+    "id": 15,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A 60 Hz AC waveform completes how many cycles in one second?",
+    "options": [
+      "1",
+      "30",
+      "60",
+      "120"
+    ],
+    "answer": 2,
+    "explanation": "Hertz means cycles per second. A 60 Hz supply completes 60 cycles each second. This is standard frequency in Canada."
+  },
+  {
+    "id": 16,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A 120 V RMS supply has a peak voltage closest to:",
+    "options": [
+      "85 V",
+      "120 V",
+      "170 V",
+      "240 V"
+    ],
+    "answer": 2,
+    "explanation": "Peak voltage is (E_{RMS} × 1.414). (120 × 1.414 ≈ 170V). RMS is the effective AC value."
+  },
+  {
+    "id": 17,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "In a pure resistive heater circuit, the power factor is closest to:",
+    "options": [
+      "0",
+      "0.5 lagging",
+      "0.8 leading",
+      "1.0"
+    ],
+    "answer": 3,
+    "explanation": "In a pure resistive circuit, voltage and current are in phase. There is no reactive component. Power factor is unity."
+  },
+  {
+    "id": 18,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A capacitor bank is added to a motor circuit. What is it usually intended to improve?",
+    "options": [
+      "Power factor",
+      "Ground resistance",
+      "Conduit fill",
+      "Fuse colour"
+    ],
+    "answer": 0,
+    "explanation": "Motors are inductive and often have lagging power factor. Capacitors provide leading reactive power. This can improve overall power factor."
+  },
+  {
+    "id": 19,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A single-phase load draws 10 A at 240 V. What is apparent power?",
+    "options": [
+      "24 VA",
+      "240 VA",
+      "1200 VA",
+      "2400 VA"
+    ],
+    "answer": 3,
+    "explanation": "Apparent power is (S = E × I). (240 × 10 = 2400VA). Power factor is not needed for VA."
+  },
+  {
+    "id": 20,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A coil has (X_L = 60 Ω) and resistance of 80 Ω in series. What is impedance?",
+    "options": [
+      "20 Ω",
+      "100 Ω",
+      "140 Ω",
+      "4800 Ω"
+    ],
+    "answer": 1,
+    "explanation": "Use (Z = \\sqrt{R^2 + X_L^2}). (\\sqrt{80^2 + 60^2} = \\sqrt{10000}). Impedance is 100 Ω."
+  },
+  {
+    "id": 21,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "In an inductive load like a motor, current normally:",
+    "options": [
+      "Leads voltage",
+      "Lags voltage",
+      "Is always zero",
+      "Is DC only"
+    ],
+    "answer": 1,
+    "explanation": "Inductors oppose changes in current. This causes current to lag voltage. Motors are common inductive loads."
+  },
+  {
+    "id": 22,
+    "category": "A4 — Analyze single-phase AC circuits",
+    "question": "A capacitor-only circuit has current that:",
+    "options": [
+      "Leads voltage",
+      "Lags voltage",
+      "Is always in phase",
+      "Becomes neutral current only"
+    ],
+    "answer": 0,
+    "explanation": "Capacitors oppose changes in voltage. Current leads voltage in a capacitive circuit. This is opposite to an inductive circuit."
+  },
+  {
+    "id": 23,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A control board has a diode installed across a relay coil. What is its likely purpose?",
+    "options": [
+      "Suppress voltage spike",
+      "Increase coil voltage",
+      "Change coil to AC only",
+      "Increase contact rating"
+    ],
+    "answer": 0,
+    "explanation": "A relay coil stores magnetic energy. When switched off, the collapsing field creates a spike. A diode can protect electronics from that spike."
+  },
+  {
+    "id": 24,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A bridge rectifier has AC input but no DC output. Which component failure is possible?",
+    "options": [
+      "Open diode",
+      "Loose conduit strap",
+      "Oversized box",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Rectifiers depend on diodes conducting properly. An open diode can interrupt output current. Testing diodes helps locate the fault."
+  },
+  {
+    "id": 25,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A capacitor in a DC power supply is swollen. What should be suspected?",
+    "options": [
+      "Capacitor failure",
+      "Perfect condition",
+      "Correct grounding",
+      "Lower ripple than normal"
+    ],
+    "answer": 0,
+    "explanation": "Swelling indicates internal pressure or overheating. Electrolytic capacitors can fail with age or wrong polarity. A failed capacitor can cause ripple or circuit malfunction."
+  },
+  {
+    "id": 26,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A transistor switches a 24 V relay using a 5 V signal from a controller. What is the transistor doing?",
+    "options": [
+      "Acting as an electronic switch",
+      "Acting as a grounding electrode",
+      "Acting as a fuse holder",
+      "Acting as a conduit connector"
+    ],
+    "answer": 0,
+    "explanation": "A small signal controls the transistor. The transistor controls current through the relay coil. This is common in electronic control circuits."
+  },
+  {
+    "id": 27,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "An LED pilot light is connected with reverse polarity on a DC circuit. What is likely?",
+    "options": [
+      "It does not light",
+      "It becomes brighter",
+      "It changes DC to AC",
+      "It lowers resistance to zero safely"
+    ],
+    "answer": 0,
+    "explanation": "LEDs conduct mainly in one direction. Reverse polarity blocks normal current flow. Correct polarity is needed for operation."
+  },
+  {
+    "id": 28,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A diode test shows voltage drop in one direction and OL in the other. What does this indicate?",
+    "options": [
+      "Diode is likely good",
+      "Diode is shorted",
+      "Diode is open both ways",
+      "Diode is a resistor only"
+    ],
+    "answer": 0,
+    "explanation": "A good diode conducts one way. It blocks in reverse direction. This reading is normal for many diodes."
+  },
+  {
+    "id": 29,
+    "category": "A6 — Analyze electronic circuits",
+    "question": "A filter capacitor is installed after a full-wave rectifier. What happens if the capacitor opens?",
+    "options": [
+      "DC ripple increases",
+      "Ripple disappears completely",
+      "Frequency becomes zero",
+      "Output becomes three-phase"
+    ],
+    "answer": 0,
+    "explanation": "The capacitor smooths pulsating DC. If it opens, it cannot store and release charge. The output becomes more rippled."
+  },
+  {
+    "id": 30,
+    "category": "D1 — Interpret plans, drawings and specifications",
+    "question": "A drawing shows “M1 — 1 hp, 120 V, 1Φ.” What does 1Φ mean?",
+    "options": [
+      "Single-phase",
+      "One fuse",
+      "One foot",
+      "One fixture"
+    ],
+    "answer": 0,
+    "explanation": "The symbol Φ means phase. 1Φ means single-phase. This helps identify supply requirements."
+  },
+  {
+    "id": 31,
+    "category": "D1 — Interpret plans, drawings and specifications",
+    "question": "A control drawing shows a coil labeled “CR” and contacts also labeled “CR.” What does this mean?",
+    "options": [
+      "The coil operates those contacts",
+      "The contacts are unrelated",
+      "The contacts are grounding electrodes",
+      "The coil is a transformer secondary"
+    ],
+    "answer": 0,
+    "explanation": "Matching labels identify related relay parts. When the coil energizes, its contacts change state. This is common in ladder diagrams."
+  },
+  {
+    "id": 32,
+    "category": "D1 — Interpret plans, drawings and specifications",
+    "question": "A panel schedule identifies a circuit as “2P 15A.” What does this mean?",
+    "options": [
+      "Two-pole, 15 amp breaker",
+      "Two panels, 15 volts",
+      "Two pipes, 15 metres",
+      "Two phases, 15 watts"
+    ],
+    "answer": 0,
+    "explanation": "2P usually means two-pole. 15A means ampere rating. Panel schedules identify breaker and circuit details."
+  },
+  {
+    "id": 33,
+    "category": "D1 — Interpret plans, drawings and specifications",
+    "question": "A specification says to install equipment according to manufacturer instructions. Why does this matter?",
+    "options": [
+      "Approval may depend on correct installation",
+      "It cancels all electrical code rules",
+      "It allows random field changes",
+      "It only applies to paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Listed equipment must be installed as tested and approved. Manufacturer instructions include required ratings and methods. Ignoring them can create unsafe work."
+  },
+  {
+    "id": 34,
+    "category": "H1 — Install single-phase consumer/supply services and metering equipment",
+    "question": "A 120/240 V service has 25 A on L1 and 10 A on L2 for 120 V loads. What is neutral current?",
+    "options": [
+      "10 A",
+      "15 A",
+      "25 A",
+      "35 A"
+    ],
+    "answer": 1,
+    "explanation": "Neutral current is the imbalance. (25A - 10A = 15A). The neutral carries 15 amps."
+  },
+  {
+    "id": 35,
+    "category": "H1 — Install single-phase consumer/supply services and metering equipment",
+    "question": "A meter base terminal is discoloured and the insulation near it is brittle. What is the most likely issue?",
+    "options": [
+      "Overheating from poor contact",
+      "Correct operation",
+      "Low ambient temperature",
+      "Improved conductivity"
+    ],
+    "answer": 0,
+    "explanation": "Discolouration and brittle insulation indicate heat. Poor contact increases resistance. Resistance under load creates heat."
+  },
+  {
+    "id": 36,
+    "category": "H1 — Install single-phase consumer/supply services and metering equipment",
+    "question": "A residential service has 240 V line-to-line but 0 V line-to-neutral on both legs. What should be suspected?",
+    "options": [
+      "Neutral problem",
+      "Perfect service",
+      "Shorted line conductors",
+      "Correct GFCI operation only"
+    ],
+    "answer": 0,
+    "explanation": "Line-to-neutral readings need a neutral reference. Abnormal neutral readings may indicate an open or bad neutral. Neutral issues can create dangerous voltage conditions."
+  },
+  {
+    "id": 37,
+    "category": "H1 — Install single-phase consumer/supply services and metering equipment",
+    "question": "A service mast is located where it can be struck by vehicles. What is the main installation concern?",
+    "options": [
+      "Physical protection",
+      "Lamp colour temperature",
+      "Data speed",
+      "Thermostat rating"
+    ],
+    "answer": 0,
+    "explanation": "Service equipment can contain high fault current. Physical damage can expose energized parts. Protection from mechanical damage is important."
+  },
+  {
+    "id": 38,
+    "category": "I1 — Install overcurrent protection devices",
+    "question": "A motor circuit breaker trips instantly when the disconnect is closed. What is the most likely problem?",
+    "options": [
+      "Short circuit",
+      "Slight overload",
+      "Normal inrush only always",
+      "Open control fuse"
+    ],
+    "answer": 0,
+    "explanation": "Instant tripping usually indicates high fault current. A short circuit has very low impedance. The circuit should be de-energized and tested safely."
+  },
+  {
+    "id": 39,
+    "category": "I1 — Install overcurrent protection devices",
+    "question": "A 15 A circuit is protected by a 30 A fuse because “it stopped blowing.” Why is this unsafe?",
+    "options": [
+      "Conductors may not be protected",
+      "Voltage becomes too low",
+      "Power factor becomes leading",
+      "Grounding is improved"
+    ],
+    "answer": 0,
+    "explanation": "Overcurrent protection must match conductor and equipment ratings. Oversized fuses can allow overheating. The real cause of blowing must be corrected."
+  },
+  {
+    "id": 40,
+    "category": "I2 — Install ground fault, arc fault and surge protection devices",
+    "question": "A surge protective device has very long leads to the panel. What is the issue?",
+    "options": [
+      "Reduced surge protection effectiveness",
+      "Better voltage control",
+      "Lower impedance path",
+      "Higher data speed"
+    ],
+    "answer": 0,
+    "explanation": "Long leads add impedance. Surge currents rise very quickly. Short, straight connections improve protection."
+  },
+  {
+    "id": 41,
+    "category": "L1 — Install grounding and bonding systems",
+    "question": "A metal disconnect is not bonded. A line conductor touches the case. What is the danger?",
+    "options": [
+      "Case may stay energized",
+      "Breaker always trips instantly",
+      "Voltage becomes zero safely",
+      "Motor speed increases"
+    ],
+    "answer": 0,
+    "explanation": "Bonding provides a low-impedance fault path. Without bonding, fault current may be too low. The metal case can shock someone."
+  },
+  {
+    "id": 42,
+    "category": "L1 — Install grounding and bonding systems",
+    "question": "A bonding jumper is loose at a transformer enclosure. What is the main concern?",
+    "options": [
+      "Poor fault-current path",
+      "Higher lamp brightness",
+      "Lower capacitance",
+      "More accurate thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Bonding must be continuous and low impedance. Loose connections increase impedance. Fault clearing may be delayed or fail."
+  },
+  {
+    "id": 43,
+    "category": "L1 — Install grounding and bonding systems",
+    "question": "Why is the grounding electrode conductor not normally relied on as the main fault-current path?",
+    "options": [
+      "Earth is usually too high resistance",
+      "Earth has zero resistance always",
+      "Ground rods replace breakers",
+      "It carries normal load current"
+    ],
+    "answer": 0,
+    "explanation": "Overcurrent devices need high fault current to trip. Earth paths are often too resistive. Bonding provides the effective fault-current path."
+  },
+  {
+    "id": 44,
+    "category": "N1 — Install renewable energy generating and storage systems",
+    "question": "A solar array is disconnected from the inverter but exposed to sunlight. What should you assume?",
+    "options": [
+      "DC voltage may still be present",
+      "It is completely de-energized",
+      "It becomes AC only",
+      "It has no shock hazard"
+    ],
+    "answer": 0,
+    "explanation": "PV modules produce voltage when illuminated. Disconnecting the inverter does not stop module output. PV conductors must be treated carefully."
+  },
+  {
+    "id": 45,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A 600 V to 120 V transformer has 500 primary turns. How many secondary turns are needed ideally?",
+    "options": [
+      "50",
+      "100",
+      "250",
+      "2500"
+    ],
+    "answer": 1,
+    "explanation": "Voltage ratio equals turns ratio. (120/600 = 0.2). (500 × 0.2 = 100) turns."
+  },
+  {
+    "id": 46,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A 3 kVA transformer has a 120 V secondary. What is secondary full-load current?",
+    "options": [
+      "12.5 A",
+      "25 A",
+      "30 A",
+      "300 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = VA/E). (3000 ÷ 120 = 25A). The secondary can supply 25 amps."
+  },
+  {
+    "id": 47,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A 240 V primary, 24 V secondary control transformer supplies 5 A on the secondary. What is ideal primary current?",
+    "options": [
+      "0.5 A",
+      "2 A",
+      "5 A",
+      "50 A"
+    ],
+    "answer": 0,
+    "explanation": "Secondary VA is (24 × 5 = 120VA). Primary current is (120 ÷ 240). Ideal primary current is 0.5 A."
+  },
+  {
+    "id": 48,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A transformer secondary voltage drops heavily only when a load is connected. What should be checked?",
+    "options": [
+      "Overload or poor connection",
+      "Paint colour",
+      "Ground rod length only",
+      "Open circuit with no load"
+    ],
+    "answer": 0,
+    "explanation": "Voltage sag under load can come from excessive current. Poor connections also create voltage drop. Compare load current with nameplate rating."
+  },
+  {
+    "id": 49,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A transformer is connected to DC instead of AC. What is the major concern?",
+    "options": [
+      "Overheating due to lack of changing flux",
+      "Normal transformer action",
+      "Perfect secondary voltage",
+      "Improved efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Transformers need changing flux to operate. DC does not create continuous induction after switching. Primary current can become excessive."
+  },
+  {
+    "id": 50,
+    "category": "P1 — Install single-phase transformers",
+    "question": "Why are transformer cores laminated?",
+    "options": [
+      "To reduce eddy current losses",
+      "To increase corrosion",
+      "To remove all magnetic flux",
+      "To change AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Changing magnetic fields induce currents in metal cores. Laminations limit those circulating currents. This reduces heating and losses."
+  },
+  {
+    "id": 51,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A transformer nameplate shows “60 Hz.” Why is this important?",
+    "options": [
+      "Frequency affects transformer operation and heating",
+      "It means the transformer is DC only",
+      "It replaces voltage rating",
+      "It gives mounting height"
+    ],
+    "answer": 0,
+    "explanation": "Transformers are designed for a rated frequency. Wrong frequency can cause overheating or poor performance. Nameplate ratings must be followed."
+  },
+  {
+    "id": 52,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A transformer secondary has more turns than the primary. What type is it?",
+    "options": [
+      "Step-up",
+      "Step-down",
+      "Isolation only",
+      "Rectifier"
+    ],
+    "answer": 0,
+    "explanation": "More secondary turns produce higher secondary voltage. Voltage follows turns ratio. This is a step-up transformer."
+  },
+  {
+    "id": 53,
+    "category": "P1 — Install single-phase transformers",
+    "question": "A control transformer secondary fuse opens repeatedly. What is likely?",
+    "options": [
+      "Fault or overload in control circuit",
+      "Correct normal condition",
+      "Higher frequency only",
+      "Open primary always"
+    ],
+    "answer": 0,
+    "explanation": "A fuse opens when current exceeds its rating. Repeated operation means the cause must be found. Control wiring and loads should be checked."
+  },
+  {
+    "id": 54,
+    "category": "Q1 — Install conductors and cables",
+    "question": "During a pull, insulation is damaged at the raceway entrance. What should have been installed or checked?",
+    "options": [
+      "Bushing or smooth raceway entry",
+      "Larger breaker",
+      "Lower voltage",
+      "Smaller box label"
+    ],
+    "answer": 0,
+    "explanation": "Sharp edges can cut insulation. Bushings protect conductors at raceway openings. Conductor insulation must not be damaged."
+  },
+  {
+    "id": 55,
+    "category": "Q1 — Install conductors and cables",
+    "question": "A conductor is installed in a hot mechanical room. What may be required?",
+    "options": [
+      "Ampacity correction for ambient temperature",
+      "Changing AC to DC",
+      "Removing insulation",
+      "Using a smaller conductor automatically"
+    ],
+    "answer": 0,
+    "explanation": "Heat affects conductor ampacity. High ambient temperature may require derating. Code table conditions must be checked."
+  },
+  {
+    "id": 56,
+    "category": "Q1 — Install conductors and cables",
+    "question": "A cable marked NMD90 is requested for an underground wet location. What is the issue?",
+    "options": [
+      "It is dry-rated cable, not suitable for wet underground use",
+      "It is always suitable for direct burial",
+      "It is a transformer only",
+      "It is a grounding electrode"
+    ],
+    "answer": 0,
+    "explanation": "NMD90 is non-metallic dry rated 90°C. Wet underground locations require suitable cable. Cable markings must match the installation."
+  },
+  {
+    "id": 57,
+    "category": "Q2 — Install raceways, boxes and fittings",
+    "question": "A junction box cover is missing in an energized installation. What is the hazard?",
+    "options": [
+      "Exposed live parts and debris entry",
+      "Better cooling by design",
+      "Improved bonding",
+      "Lower circuit voltage"
+    ],
+    "answer": 0,
+    "explanation": "Covers protect people from contact. They also protect wiring from debris and damage. Electrical boxes must be properly closed."
+  },
+  {
+    "id": 58,
+    "category": "R1 — Install luminaires",
+    "question": "A customer wants a luminaire installed in a shower area. What must be checked first?",
+    "options": [
+      "Wet/damp location rating as required",
+      "Lamp colour only",
+      "Switch brand only",
+      "Panel label font"
+    ],
+    "answer": 0,
+    "explanation": "Shower areas expose equipment to moisture. Luminaires must be suitable for the location. Incorrect equipment can create shock hazards."
+  },
+  {
+    "id": 59,
+    "category": "R2 — Install wiring devices",
+    "question": "A receptacle tester shows open ground on a metal box installation. What is the concern?",
+    "options": [
+      "Bonding path may be missing",
+      "Voltage is always too high",
+      "Neutral is oversized",
+      "Lamp circuit is three-phase"
+    ],
+    "answer": 0,
+    "explanation": "Ground indication depends on the bonding path. A missing bond can leave metal parts unsafe. Bonding should be inspected and corrected."
+  },
+  {
+    "id": 60,
+    "category": "R2 — Install wiring devices",
+    "question": "A switch controls the neutral instead of the ungrounded conductor. Why is this dangerous?",
+    "options": [
+      "Load can remain energized when off",
+      "Load becomes safer",
+      "Breaker rating doubles",
+      "Voltage becomes zero everywhere"
+    ],
+    "answer": 0,
+    "explanation": "Switching the neutral can leave the load connected to live voltage. A person may think the load is de-energized. Switches should interrupt the ungrounded conductor."
+  },
+  {
+    "id": 61,
+    "category": "R3 — Install lighting controls",
+    "question": "A motion sensor will not work with an LED load. What should be checked?",
+    "options": [
+      "Sensor compatibility and neutral requirement",
+      "Ground rod diameter only",
+      "Raceway paint colour",
+      "Circuit frequency only"
+    ],
+    "answer": 0,
+    "explanation": "Some electronic sensors need a neutral. Some are not compatible with LED loads. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 62,
+    "category": "R3 — Install lighting controls",
+    "question": "A three-way circuit was rewired and now both switches must be in one position for the light to work. What is likely wrong?",
+    "options": [
+      "Common and traveller wires mixed up",
+      "Ground wire too large",
+      "Lamp wattage too low",
+      "Box cover too tight"
+    ],
+    "answer": 0,
+    "explanation": "Three-way switches require correct common terminal wiring. Mixing common and traveller conductors causes incorrect operation. Terminals should be identified before reconnecting."
+  },
+  {
+    "id": 63,
+    "category": "S1 — Install HVAC systems and controls",
+    "question": "A rooftop unit control circuit uses 24 V. What device most likely supplies this voltage?",
+    "options": [
+      "Control transformer",
+      "Ground rod",
+      "Surge arrester only",
+      "Lighting dimmer"
+    ],
+    "answer": 0,
+    "explanation": "HVAC controls commonly use 24 V. A transformer steps line voltage down. It supplies thermostats, relays, and contactors."
+  },
+  {
+    "id": 64,
+    "category": "S1 — Install HVAC systems and controls",
+    "question": "A thermostat calls for cooling, but the outdoor contactor coil does not energize. What should be checked first?",
+    "options": [
+      "Control voltage path",
+      "Lamp wattage",
+      "Panel paint",
+      "Conduit length only"
+    ],
+    "answer": 0,
+    "explanation": "The contactor coil needs correct control voltage. Thermostats, safeties, and wiring are in the control path. Troubleshooting should follow the control circuit."
+  },
+  {
+    "id": 65,
+    "category": "S1 — Install HVAC systems and controls",
+    "question": "A DDC controller sends a signal to open a damper actuator. What does DDC stand for?",
+    "options": [
+      "Direct digital control",
+      "Double disconnect contactor",
+      "Dry duct conductor",
+      "Direct diode circuit"
+    ],
+    "answer": 0,
+    "explanation": "DDC uses digital controllers. Inputs are processed to control outputs. It is common in HVAC automation."
+  },
+  {
+    "id": 66,
+    "category": "S1 — Install HVAC systems and controls",
+    "question": "An HVAC motor contactor is used because the thermostat cannot directly switch the motor load. Why?",
+    "options": [
+      "The motor current is too high for thermostat contacts",
+      "Thermostats only measure resistance",
+      "Contactors remove all voltage",
+      "Thermostats are grounding electrodes"
+    ],
+    "answer": 0,
+    "explanation": "Thermostats are low-power control devices. Contactors use small coil current to switch larger load current. This protects the control device."
+  },
+  {
+    "id": 67,
+    "category": "S2 — Maintain HVAC systems and controls",
+    "question": "A contactor coil chatters in an HVAC unit. What is a likely cause?",
+    "options": [
+      "Low control voltage",
+      "Correct full voltage",
+      "Perfect connection",
+      "Too much box fill only"
+    ],
+    "answer": 0,
+    "explanation": "Low voltage gives weak magnetic pull. The contactor may not hold closed firmly. Loose control wiring can cause the same symptom."
+  },
+  {
+    "id": 68,
+    "category": "T1 — Install exit and emergency lighting systems",
+    "question": "During testing, emergency lights turn on when AC supply is disconnected. What does this show?",
+    "options": [
+      "Battery backup is operating",
+      "The system is failed",
+      "Grounding is missing",
+      "Breaker is oversized"
+    ],
+    "answer": 0,
+    "explanation": "Emergency lights should operate during normal power failure. Battery backup supplies the lamps. Testing confirms basic function."
+  },
+  {
+    "id": 69,
+    "category": "U1 — Install cathodic protection systems",
+    "question": "A buried steel tank uses a magnesium anode. What is the anode’s purpose?",
+    "options": [
+      "Corrode instead of the tank",
+      "Increase tank voltage to 600 V",
+      "Replace the bonding conductor",
+      "Heat the tank"
+    ],
+    "answer": 0,
+    "explanation": "Magnesium acts as a sacrificial anode. It is more active than steel. It protects the steel from corrosion."
+  },
+  {
+    "id": 70,
+    "category": "V1 — Install motor starters and controls",
+    "question": "A start button is pressed and the motor starts, but stops when the button is released. What is likely missing?",
+    "options": [
+      "Seal-in circuit",
+      "Ground rod",
+      "Overcurrent device only",
+      "Conduit support"
+    ],
+    "answer": 0,
+    "explanation": "The seal-in auxiliary contact maintains coil power. Without it, the coil energizes only while start is pressed. The motor stops when the button is released."
+  },
+  {
+    "id": 71,
+    "category": "V1 — Install motor starters and controls",
+    "question": "A stop button has failed open. What happens to the starter coil circuit?",
+    "options": [
+      "It cannot energize",
+      "It runs faster",
+      "It reverses phase",
+      "It increases voltage"
+    ],
+    "answer": 0,
+    "explanation": "Stop buttons are normally closed in series with the coil. If open, the control circuit is broken. The starter coil cannot pull in."
+  },
+  {
+    "id": 72,
+    "category": "V1 — Install motor starters and controls",
+    "question": "An overload contact opens during motor operation. What happens?",
+    "options": [
+      "Starter coil drops out",
+      "Motor speeds up",
+      "Control voltage doubles",
+      "Transformer becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Overload contacts are wired in series with the coil. When they open, the coil loses power. This stops the motor to protect it."
+  },
+  {
+    "id": 73,
+    "category": "V1 — Install motor starters and controls",
+    "question": "A motor starter coil is rated 120 V but is connected to 24 V. What is likely?",
+    "options": [
+      "Coil will not pull in properly",
+      "Coil will operate stronger",
+      "Contacts will weld immediately always",
+      "Motor horsepower increases"
+    ],
+    "answer": 0,
+    "explanation": "Coils require rated voltage for proper magnetic force. Low voltage can prevent pull-in or cause chatter. Coil voltage must match the control circuit."
+  },
+  {
+    "id": 74,
+    "category": "V1 — Install motor starters and controls",
+    "question": "A motor starter is being selected for a 1 hp, 120 V single-phase motor. What must match the motor?",
+    "options": [
+      "Starter voltage, current, phase, and horsepower rating",
+      "Wall colour and box shape",
+      "Thermostat model only",
+      "Lighting circuit number only"
+    ],
+    "answer": 0,
+    "explanation": "Starters must be rated for the motor load. Wrong ratings can cause overheating or failure. Nameplate data is used for selection."
+  },
+  {
+    "id": 75,
+    "category": "V1 — Install motor starters and controls",
+    "question": "A pilot light connected across the starter coil turns on whenever the coil energizes. What does it indicate?",
+    "options": [
+      "Starter coil is energized",
+      "Motor shaft speed exactly",
+      "Ground resistance value",
+      "Fuse size"
+    ],
+    "answer": 0,
+    "explanation": "A pilot light across the coil sees coil voltage. When the coil energizes, the lamp turns on. It indicates control circuit status, not exact motor speed."
+  },
+  {
+    "id": 76,
+    "category": "V2 — Maintain motor starters and controls",
+    "question": "A motor starter has burned contacts. What condition could cause this?",
+    "options": [
+      "Loose connection, overload, or excessive cycling",
+      "Correct normal operation only",
+      "Perfect contact pressure",
+      "Oversized equipment grounding conductor"
+    ],
+    "answer": 0,
+    "explanation": "Burned contacts come from heat and arcing. Overload, weak pressure, or frequent switching can damage them. The cause should be corrected before replacement."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledElectricianLevel2StandardizedQuestions =
+  shuffleArray(electricianLevel2Set3StandardizedQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "architectural-sheet-metal-worker",
+  tradeTitle: "Electrician",
+  sectionTitle: "Level 2 – Set 3",
+  questionTimeSeconds: 90,
+  questions: shuffledElectricianLevel2StandardizedQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledElectricianLevel2StandardizedQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

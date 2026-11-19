@@ -1,0 +1,1396 @@
+const motorcycleTechnicianLevel2Set4Questions = [
+  {
+    "id": 1,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "A motorcycle has a charging complaint. The service manual says to test stator resistance between three yellow wires. What tool should be used?",
+    "options": [
+      "Digital multimeter on ohms",
+      "Tire pressure gauge",
+      "Compression tester",
+      "Vacuum sync gauge"
+    ],
+    "answer": 0,
+    "explanation": "Ohms measure electrical resistance. A DMM can compare stator resistance to specifications. The circuit should be tested according to the service manual."
+  },
+  {
+    "id": 2,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "A technician finds a diagnostic trouble code for throttle position sensor voltage. What is the best next step?",
+    "options": [
+      "Replace the throttle body immediately",
+      "Check voltage, ground, signal, connector condition, and service data",
+      "Replace the battery only",
+      "Adjust rear suspension preload"
+    ],
+    "answer": 1,
+    "explanation": "A code points to a circuit or system. The sensor, wiring, ECM input, and connections must be tested. Correct diagnosis prevents unnecessary parts replacement."
+  },
+  {
+    "id": 3,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "Which tool is most useful for checking cylinder pressure during cranking?",
+    "options": [
+      "Compression gauge",
+      "Chain breaker",
+      "Fork seal driver",
+      "Belt tension gauge"
+    ],
+    "answer": 0,
+    "explanation": "A compression gauge checks cylinder sealing pressure. Low readings can indicate valve, ring, cylinder, or gasket issues. Results must be compared with specifications."
+  },
+  {
+    "id": 4,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "A technician tightens a clutch hub nut without holding the hub properly. What is the risk?",
+    "options": [
+      "Damage to clutch parts or inaccurate torque",
+      "Higher charging voltage",
+      "Better clutch alignment",
+      "Cleaner carburetor jets"
+    ],
+    "answer": 0,
+    "explanation": "Special holding tools prevent damage and movement. Torque readings can be inaccurate if the part rotates. Correct tools protect components and ensure proper assembly."
+  },
+  {
+    "id": 5,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "When using a DMM to measure VDC at a battery, where should the leads be placed?",
+    "options": [
+      "Red to positive, black to negative",
+      "Both leads on the frame only",
+      "Red to the tire, black to the chain",
+      "Both leads inside the fuel tank"
+    ],
+    "answer": 0,
+    "explanation": "Battery voltage is measured across positive and negative terminals. VDC means volts direct current. Correct lead placement prevents false readings."
+  },
+  {
+    "id": 6,
+    "category": "C1 - Use diagnostic tools and equipment",
+    "question": "A manual lists a fastener torque plus angle specification. What does this mean?",
+    "options": [
+      "Tighten to torque, then rotate the specified angle",
+      "Tighten until it feels good",
+      "Use only an impact gun",
+      "Ignore the torque value"
+    ],
+    "answer": 0,
+    "explanation": "Some fasteners use torque-to-yield or torque-plus-angle methods. The angle provides additional controlled clamping. The procedure must be followed exactly. --- ## E. MAINTAIN CHASSIS AND COMPONENTS — 11 Questions ### E1. Maintain Frames — 2 Questions"
+  },
+  {
+    "id": 7,
+    "category": "E1 - Maintain frames",
+    "question": "A customer complains the motorcycle feels unstable after a low-speed crash. No parts look broken. What should be checked?",
+    "options": [
+      "Frame alignment and chassis reference points",
+      "Spark plug colour only",
+      "Fuel octane only",
+      "Oil filter brand only"
+    ],
+    "answer": 0,
+    "explanation": "Chassis damage may be subtle. Bent frames or mounting points affect tracking and stability. Inspection should follow manufacturer procedures."
+  },
+  {
+    "id": 8,
+    "category": "E1 - Maintain frames",
+    "question": "Why should frame drain holes and enclosed areas be inspected on some motorcycles?",
+    "options": [
+      "Moisture can collect and cause internal corrosion",
+      "They increase horsepower",
+      "They adjust steering preload",
+      "They control fuel injection"
+    ],
+    "answer": 0,
+    "explanation": "Moisture trapped in frame areas can start corrosion. Corrosion weakens structural parts over time. Frame condition is important for safety. --- ### E2. Maintain Steering Heads — 3 Questions"
+  },
+  {
+    "id": 9,
+    "category": "E2 - Maintain steering heads",
+    "question": "A motorcycle has a wobble at speed. Which steering head fault could contribute?",
+    "options": [
+      "Loose or worn steering head bearings",
+      "Clogged pilot jet only",
+      "Weak radiator cap only",
+      "Low CVT belt width only"
+    ],
+    "answer": 0,
+    "explanation": "Steering bearing play can reduce stability. Wobble can also involve tires, suspension, or alignment. Steering components should be inspected carefully."
+  },
+  {
+    "id": 10,
+    "category": "E2 - Maintain steering heads",
+    "question": "During inspection, the front wheel is raised and the fork is pushed forward and backward. A knock is felt. What may this show?",
+    "options": [
+      "Steering stem play",
+      "Rich fuel mixture",
+      "Worn piston skirt only",
+      "Overfilled coolant reservoir"
+    ],
+    "answer": 0,
+    "explanation": "Movement at the steering head can indicate loose bearings. Bearing adjustment affects control and braking stability. Play should be corrected to specification."
+  },
+  {
+    "id": 11,
+    "category": "E2 - Maintain steering heads",
+    "question": "Why should steering head bearings not be over-greased without proper assembly?",
+    "options": [
+      "Excess grease alone does not correct damaged or incorrectly adjusted bearings",
+      "Grease increases battery voltage",
+      "Grease adjusts carburetor float height",
+      "Grease repairs cracked frames"
+    ],
+    "answer": 0,
+    "explanation": "Lubrication helps but does not fix damage. Bearing preload and race condition still matter. Correct service includes cleaning, inspection, lubrication, and adjustment. --- ### E3. Maintain Steering Systems for Multi-Wheeled Motorcycles — 3 Questions"
+  },
+  {
+    "id": 12,
+    "category": "E3 - Maintain steering systems for multi-wheeled motorcycles",
+    "question": "A multi-wheeled motorcycle has steering wheel shake and uneven front tire wear. What should be inspected?",
+    "options": [
+      "Wheel balance, toe, joints, bushings, and tire condition",
+      "Spark plug torque only",
+      "Valve cover gasket only",
+      "Clutch cable routing only"
+    ],
+    "answer": 0,
+    "explanation": "Shake and uneven tire wear can come from chassis faults. Toe and worn joints affect tracking. Tires and wheels should also be checked."
+  },
+  {
+    "id": 13,
+    "category": "E3 - Maintain steering systems for multi-wheeled motorcycles",
+    "question": "Why should steering stops be checked on a multi-wheeled motorcycle?",
+    "options": [
+      "Damaged stops can allow over-travel and component contact",
+      "They set oil pressure",
+      "They control charging output",
+      "They adjust valve clearance"
+    ],
+    "answer": 0,
+    "explanation": "Steering stops limit steering travel. If damaged, hoses, wires, or suspension parts may be stressed. They help protect the steering system."
+  },
+  {
+    "id": 14,
+    "category": "E3 - Maintain steering systems for multi-wheeled motorcycles",
+    "question": "A steering linkage joint has no grease and makes noise during turning. What is the concern?",
+    "options": [
+      "Wear may increase and steering may become loose",
+      "Engine compression will rise",
+      "Fuel pump pressure will increase",
+      "Battery voltage will stabilize"
+    ],
+    "answer": 0,
+    "explanation": "Steering joints need proper lubrication where applicable. Dry joints can wear and develop play. Loose steering components are unsafe. --- ### E4. Maintain Chassis Standard and Accessory Components — 3 Questions"
+  },
+  {
+    "id": 15,
+    "category": "E4 - Maintain chassis standard and accessory components",
+    "question": "After handlebar replacement, the throttle does not snap back at full left lock. What should be checked?",
+    "options": [
+      "Cable routing and throttle free movement",
+      "Rear shock oil only",
+      "Fuel injector spray pattern only",
+      "Piston ring gap only"
+    ],
+    "answer": 0,
+    "explanation": "Throttle must return freely at all steering positions. Cable routing can bind after handlebar or accessory work. A sticking throttle is a serious safety issue."
+  },
+  {
+    "id": 16,
+    "category": "E4 - Maintain chassis standard and accessory components",
+    "question": "Why should accessory electrical loads be compared with charging system capacity?",
+    "options": [
+      "Too much load can discharge the battery while riding",
+      "Accessories always produce extra power",
+      "Electrical load changes tire size",
+      "Load capacity only affects carburetors"
+    ],
+    "answer": 0,
+    "explanation": "Heated grips, lights, and audio systems use current. If demand exceeds charging output, the battery can drain. System capacity must be considered."
+  },
+  {
+    "id": 17,
+    "category": "E4 - Maintain chassis standard and accessory components",
+    "question": "A saddlebag mount is close to the rear tire. What must be verified?",
+    "options": [
+      "Clearance through full suspension travel",
+      "Spark plug resistance only",
+      "Coolant freezing point only",
+      "Main jet size only"
+    ],
+    "answer": 0,
+    "explanation": "Suspension travel changes clearances. Accessories must not contact tires, chains, belts, or exhaust. Clearance should be checked under expected load. --- ## F. MAINTAIN SUSPENSION SYSTEMS — 14 Questions ### F1. Maintain Front Suspension Components — 6 Questions"
+  },
+  {
+    "id": 18,
+    "category": "F1 - Maintain front suspension components",
+    "question": "A fork makes a clunk as it tops out after a bump. What should be inspected?",
+    "options": [
+      "Fork internals, bushings, springs, and oil level",
+      "Fuel tank vent only",
+      "Starter relay only",
+      "Exhaust gasket only"
+    ],
+    "answer": 0,
+    "explanation": "Fork noise can come from internal wear or incorrect assembly. Bushings, springs, damping parts, and oil level affect operation. Service inspection should follow the manual."
+  },
+  {
+    "id": 19,
+    "category": "F1 - Maintain front suspension components",
+    "question": "Why must fork tubes be installed at equal height in the triple clamps unless specified otherwise?",
+    "options": [
+      "Unequal height can affect handling and alignment",
+      "It increases battery charging",
+      "It adjusts coolant temperature",
+      "It changes clutch free play"
+    ],
+    "answer": 0,
+    "explanation": "Fork tube height affects front-end geometry. Unequal installation can twist or misalign the front end. Both sides should match specification."
+  },
+  {
+    "id": 20,
+    "category": "F1 - Maintain front suspension components",
+    "question": "A fork seal driver is used during fork service. What is its purpose?",
+    "options": [
+      "Seat the seal evenly without damage",
+      "Measure battery voltage",
+      "Adjust steering toe",
+      "Clean carburetor jets"
+    ],
+    "answer": 0,
+    "explanation": "Fork seals must be installed squarely. Improper tools can damage the seal or fork tube. Correct installation prevents leaks."
+  },
+  {
+    "id": 21,
+    "category": "F1 - Maintain front suspension components",
+    "question": "What can happen if fork pinch bolts are tightened unevenly or out of sequence?",
+    "options": [
+      "Fork binding or misalignment",
+      "Higher fuel pressure",
+      "Improved clutch release",
+      "Lower engine temperature"
+    ],
+    "answer": 0,
+    "explanation": "Fork alignment depends on correct assembly. Incorrect tightening can twist the fork legs. Binding affects suspension movement and handling."
+  },
+  {
+    "id": 22,
+    "category": "F1 - Maintain front suspension components",
+    "question": "Why should fork springs be measured for free length?",
+    "options": [
+      "Short springs may be worn or sagged",
+      "It checks battery resistance",
+      "It sets carburetor float height",
+      "It measures exhaust pressure"
+    ],
+    "answer": 0,
+    "explanation": "Springs can weaken or shorten with use. Sagged springs affect ride height and bottoming resistance. Measurements are compared to service limits."
+  },
+  {
+    "id": 23,
+    "category": "F1 - Maintain front suspension components",
+    "question": "A fork oil drain shows metallic particles. What does this suggest?",
+    "options": [
+      "Internal wear should be investigated",
+      "Normal new oil condition",
+      "Battery corrosion",
+      "Rich fuel mixture"
+    ],
+    "answer": 0,
+    "explanation": "Metal particles can indicate wear of bushings or internal parts. Contaminated oil reduces suspension performance. Fork components should be inspected. --- ### F2. Maintain Front Suspension Components for Multi-Wheeled Motorcycles — 3 Questions"
+  },
+  {
+    "id": 24,
+    "category": "F2 - Maintain front suspension components for multi-wheeled motorcycles",
+    "question": "A multi-wheeled motorcycle sits lower on one front side. What should be checked?",
+    "options": [
+      "Spring, shock, control arm, tire pressure, and ride height",
+      "Spark plug cap only",
+      "Fuel pump relay only",
+      "Exhaust clamp only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven ride height affects alignment and handling. Suspension damage or tire pressure can change vehicle stance. Both sides should be compared."
+  },
+  {
+    "id": 25,
+    "category": "F2 - Maintain front suspension components for multi-wheeled motorcycles",
+    "question": "Why should suspension bushings be checked before setting toe?",
+    "options": [
+      "Worn bushings allow wheel movement that changes toe",
+      "Bushings control coolant flow",
+      "Bushings adjust spark advance",
+      "Bushings clean the fuel system"
+    ],
+    "answer": 0,
+    "explanation": "Alignment readings are unreliable with worn parts. Bushings hold suspension geometry under load. Repairs should come before alignment."
+  },
+  {
+    "id": 26,
+    "category": "F2 - Maintain front suspension components for multi-wheeled motorcycles",
+    "question": "A multi-wheeled motorcycle has excessive camber on one wheel. What may be suspected?",
+    "options": [
+      "Bent or worn suspension components",
+      "Weak battery only",
+      "Dirty air filter only",
+      "Worn clutch springs only"
+    ],
+    "answer": 0,
+    "explanation": "Wheel angle changes can indicate chassis or suspension damage. Bent arms, worn joints, or incorrect ride height may be involved. Geometry must be inspected. --- ### F3. Maintain Rear Suspension Components — 5 Questions"
+  },
+  {
+    "id": 27,
+    "category": "F3 - Maintain rear suspension components",
+    "question": "A rear shock preload collar is damaged and cannot be adjusted. What is the service concern?",
+    "options": [
+      "Sag cannot be set correctly",
+      "Battery cannot charge",
+      "Fuel pressure increases",
+      "Starter relay fails"
+    ],
+    "answer": 0,
+    "explanation": "Preload adjustment helps set sag for rider and load. Damaged adjusters prevent proper setup. Incorrect sag affects handling and clearance."
+  },
+  {
+    "id": 28,
+    "category": "F3 - Maintain rear suspension components",
+    "question": "A rear shock is dry externally but has no damping resistance when compressed. What does this suggest?",
+    "options": [
+      "Internal shock failure",
+      "Perfect shock condition",
+      "Low fuel level",
+      "Overcharging battery"
+    ],
+    "answer": 0,
+    "explanation": "A shock can fail internally without external leaks. Lack of damping causes bouncing and poor traction. Shock operation should be tested."
+  },
+  {
+    "id": 29,
+    "category": "F3 - Maintain rear suspension components",
+    "question": "Why should rear suspension linkage bolts be lubricated or treated as specified?",
+    "options": [
+      "To prevent corrosion, seizure, or incorrect torque readings",
+      "To increase fuel octane",
+      "To adjust valve timing",
+      "To cool the radiator"
+    ],
+    "answer": 0,
+    "explanation": "Linkage bolts may pass through bearings or sleeves. Corrosion can make service difficult and affect movement. Follow the manual for lubrication or locking compound."
+  },
+  {
+    "id": 30,
+    "category": "F3 - Maintain rear suspension components",
+    "question": "A motorcycle feels unstable when accelerating out of corners. Rear suspension play is found. What is the likely effect?",
+    "options": [
+      "Rear wheel alignment changes under load",
+      "Charging voltage increases",
+      "Carburetor float level rises",
+      "Engine oil pressure improves"
+    ],
+    "answer": 0,
+    "explanation": "Rear suspension play lets the wheel move unpredictably. This affects tracking and traction. Swingarm and linkage condition are safety-critical."
+  },
+  {
+    "id": 31,
+    "category": "F3 - Maintain rear suspension components",
+    "question": "Why should shock mounting bolts be torqued with the correct hardware installed?",
+    "options": [
+      "Incorrect hardware or torque can cause loosening or binding",
+      "It changes piston clearance",
+      "It adjusts headlight voltage",
+      "It cleans the air filter"
+    ],
+    "answer": 0,
+    "explanation": "Shock mounts carry high loads. Wrong washers, spacers, or torque can damage mounts. Correct assembly maintains suspension control. --- ## I. MAINTAIN TWO-STROKE AND FOUR-STROKE ENGINES — 21 Questions ### I1. Apply Principles of Engines and Engine Construction — 8 Questions"
+  },
+  {
+    "id": 32,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "What is the correct order of the four strokes in a four-stroke engine?",
+    "options": [
+      "Intake, compression, power, exhaust",
+      "Exhaust, power, intake, compression",
+      "Compression, exhaust, intake, power",
+      "Power, intake, exhaust, compression"
+    ],
+    "answer": 0,
+    "explanation": "Four-stroke engines complete a cycle in four piston strokes. The order is intake, compression, power, exhaust. Cam timing controls valve events during this cycle."
+  },
+  {
+    "id": 33,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "A two-stroke engine completes a power cycle in how many crankshaft revolutions?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 0,
+    "explanation": "A two-stroke completes its cycle in one crankshaft revolution. A four-stroke requires two revolutions. This affects porting, lubrication, and power characteristics."
+  },
+  {
+    "id": 34,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "What is stroke in engine measurement?",
+    "options": [
+      "Distance the piston travels from TDC to BDC",
+      "Diameter of the piston only",
+      "Width of a drive belt",
+      "Number of clutch plates"
+    ],
+    "answer": 0,
+    "explanation": "Stroke is piston travel distance. Bore is cylinder diameter. Bore and stroke help determine displacement."
+  },
+  {
+    "id": 35,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "A leak-down test sends air into the cooling system bubbles. What is likely?",
+    "options": [
+      "Head gasket or cylinder/head crack issue",
+      "Clutch basket notch",
+      "Low battery capacity",
+      "Worn steering bearing only"
+    ],
+    "answer": 0,
+    "explanation": "Air bubbles in coolant during leak-down show combustion leakage into coolant passages. This can be from gasket failure or cracks. Further inspection is required."
+  },
+  {
+    "id": 36,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "Why are valve clearances checked on four-stroke engines?",
+    "options": [
+      "Incorrect clearance affects valve sealing and timing",
+      "It changes tire pressure",
+      "It adjusts charging voltage",
+      "It controls fork spring rate"
+    ],
+    "answer": 0,
+    "explanation": "Too tight clearance can hold valves open. Too loose clearance creates noise and changes valve action. Clearance must match specifications."
+  },
+  {
+    "id": 37,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "What component seals the crankcase halves on many motorcycle engines?",
+    "options": [
+      "Gasket, sealant, or machined sealing surface",
+      "Fork oil",
+      "Brake fluid",
+      "Tire bead"
+    ],
+    "answer": 0,
+    "explanation": "Crankcase sealing prevents oil leaks and air leaks. Two-stroke crankcase sealing is especially important for mixture flow. Correct sealant and procedure matter."
+  },
+  {
+    "id": 38,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "A crankshaft has excessive runout. What can this cause?",
+    "options": [
+      "Vibration and bearing or seal problems",
+      "Higher fuel pressure",
+      "Better suspension damping",
+      "More stable battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Runout means the shaft does not rotate true. Excess runout causes vibration and component wear. Crankshaft condition affects engine life."
+  },
+  {
+    "id": 39,
+    "category": "I1 - Apply principles of engines and engine construction",
+    "question": "Why should engine mating surfaces not be gouged during gasket removal?",
+    "options": [
+      "Gouges can cause leaks or poor sealing",
+      "Gouges improve compression",
+      "Gouges help coolant flow",
+      "Gouges adjust valve timing"
+    ],
+    "answer": 0,
+    "explanation": "Gaskets need flat, clean surfaces. Scratches or gouges can create leak paths. Use proper cleaning tools and methods. --- ### I3. Maintain Valve Systems on Two-Stroke Engines — 2 Questions"
+  },
+  {
+    "id": 40,
+    "category": "I3 - Maintain valve systems on two-stroke engines",
+    "question": "A reed valve block has a gap between the reed petal and seat. What is the effect?",
+    "options": [
+      "Poor sealing and reduced crankcase pressure",
+      "Higher charging voltage",
+      "Better steering stability",
+      "Increased clutch spring force"
+    ],
+    "answer": 0,
+    "explanation": "Reed petals must close tightly. A gap allows reverse flow and weakens intake charge control. Starting and low-speed performance may suffer."
+  },
+  {
+    "id": 41,
+    "category": "I3 - Maintain valve systems on two-stroke engines",
+    "question": "Why should two-stroke power valves be cleaned at service intervals?",
+    "options": [
+      "Carbon buildup can restrict movement",
+      "Cleaning increases battery capacity",
+      "Power valves control fork rebound",
+      "Carbon improves exhaust timing"
+    ],
+    "answer": 0,
+    "explanation": "Two-stroke exhaust systems create carbon deposits. Power valves must move freely to change exhaust characteristics. Sticking valves reduce performance. --- ### I5. Maintain Cylinders and Pistons — 4 Questions"
+  },
+  {
+    "id": 42,
+    "category": "I5 - Maintain cylinders and pistons",
+    "question": "A piston pin is worn beyond service limit. What can happen?",
+    "options": [
+      "Noise, excessive play, and connecting rod or piston wear",
+      "Higher coolant pressure only",
+      "Better carburetor response",
+      "Improved clutch engagement"
+    ],
+    "answer": 0,
+    "explanation": "The piston pin connects piston and connecting rod. Excess wear creates knocking and misalignment. Related parts should also be inspected."
+  },
+  {
+    "id": 43,
+    "category": "I5 - Maintain cylinders and pistons",
+    "question": "Why should cylinders be measured at different heights and directions?",
+    "options": [
+      "To check taper and out-of-round wear",
+      "To set battery voltage",
+      "To adjust brake fluid level",
+      "To synchronize carburetors"
+    ],
+    "answer": 0,
+    "explanation": "Cylinders do not always wear evenly. Taper and out-of-round affect ring sealing. Measurements determine serviceability."
+  },
+  {
+    "id": 44,
+    "category": "I5 - Maintain cylinders and pistons",
+    "question": "What is piston seizure commonly related to?",
+    "options": [
+      "Excess heat, lack of lubrication, tight clearance, or lean mixture",
+      "Overfilled battery only",
+      "Loose steering stops only",
+      "Low tire pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Seizure happens when parts overheat or lose oil film. Expansion and friction damage piston and cylinder surfaces. The root cause must be corrected."
+  },
+  {
+    "id": 45,
+    "category": "I5 - Maintain cylinders and pistons",
+    "question": "Why is cylinder honing sometimes performed?",
+    "options": [
+      "To restore surface finish for ring seating",
+      "To increase battery charge",
+      "To set fork preload",
+      "To clean exhaust packing"
+    ],
+    "answer": 0,
+    "explanation": "Proper cylinder surface helps rings seat. Glazed or polished bores may not seal well. Honing must stay within service limits. --- ### I9. Maintain Lubrication Systems — 2 Questions"
+  },
+  {
+    "id": 46,
+    "category": "I9 - Maintain lubrication systems",
+    "question": "A dry-sump motorcycle shows low oil on the dipstick immediately after sitting overnight. What should be considered?",
+    "options": [
+      "Follow correct oil-level checking procedure",
+      "Add oil until the tank overflows",
+      "Drain the coolant",
+      "Replace the steering bearings"
+    ],
+    "answer": 0,
+    "explanation": "Some dry-sump systems require checking after running or at a specified temperature. Incorrect checking can lead to overfilling. Always follow the manual."
+  },
+  {
+    "id": 47,
+    "category": "I9 - Maintain lubrication systems",
+    "question": "Why is a blocked oil passage dangerous?",
+    "options": [
+      "It can starve components of lubrication",
+      "It increases suspension travel",
+      "It improves compression",
+      "It charges the battery faster"
+    ],
+    "answer": 0,
+    "explanation": "Oil passages deliver lubrication to bearings and moving parts. A blockage can cause overheating and rapid wear. Cleanliness during assembly is critical. --- ### I10. Maintain Cooling Systems — 5 Questions"
+  },
+  {
+    "id": 48,
+    "category": "I10 - Maintain cooling systems",
+    "question": "A coolant overflow bottle is always empty after riding, but no external leak is obvious. What should be checked?",
+    "options": [
+      "Pressure cap, hoses, internal leaks, and combustion gas leakage",
+      "Clutch free play only",
+      "Chain slack only",
+      "Front tire pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Coolant loss may be external or internal. A weak cap, hose leak, or head gasket issue can cause loss. Pressure testing helps locate leaks."
+  },
+  {
+    "id": 49,
+    "category": "I10 - Maintain cooling systems",
+    "question": "Why should radiator fins be straight and clean?",
+    "options": [
+      "Airflow through the radiator is needed for heat transfer",
+      "Fins adjust fuel pressure",
+      "Fins increase clutch grip",
+      "Fins set valve lash"
+    ],
+    "answer": 0,
+    "explanation": "Radiator fins transfer heat to airflow. Bent or blocked fins reduce cooling efficiency. Cleaning must avoid damaging the fins."
+  },
+  {
+    "id": 50,
+    "category": "I10 - Maintain cooling systems",
+    "question": "A coolant temperature sensor reads incorrectly. What systems may be affected?",
+    "options": [
+      "Fan operation and fuel/ignition control on some motorcycles",
+      "Tire tread only",
+      "Fork oil level only",
+      "Chain lubrication only"
+    ],
+    "answer": 0,
+    "explanation": "Temperature data can control fan operation. The ECM may also adjust mixture or timing based on temperature. Sensor accuracy matters for performance and cooling."
+  },
+  {
+    "id": 51,
+    "category": "I10 - Maintain cooling systems",
+    "question": "Why should coolant hoses be squeezed and inspected when cool?",
+    "options": [
+      "Soft, cracked, swollen, or brittle hoses may fail",
+      "It increases coolant pressure",
+      "It adjusts thermostat opening",
+      "It charges the battery"
+    ],
+    "answer": 0,
+    "explanation": "Hoses age from heat and pressure. Weak hoses can burst or leak. Inspection helps prevent overheating."
+  },
+  {
+    "id": 52,
+    "category": "I10 - Maintain cooling systems",
+    "question": "A thermostat is stuck closed. What symptom is expected?",
+    "options": [
+      "Rapid overheating",
+      "Slow warm-up only",
+      "Low clutch free play",
+      "Weak starter current"
+    ],
+    "answer": 0,
+    "explanation": "A closed thermostat blocks coolant flow to the radiator. Heat cannot be removed properly. The engine can overheat quickly. --- ## J. MAINTAIN CLUTCHES AND PRIMARY DRIVES — 17 Questions ### J1. Maintain Primary Drives and Driven Gears — 3 Questions"
+  },
+  {
+    "id": 53,
+    "category": "J1 - Maintain primary drives and driven gears",
+    "question": "A primary drive gear has blue heat marks. What does this suggest?",
+    "options": [
+      "Overheating from lubrication, load, or clearance problems",
+      "Correct operation only",
+      "Low tire pressure",
+      "Rich idle mixture"
+    ],
+    "answer": 0,
+    "explanation": "Blueing can indicate excessive heat. Heat may come from poor lubrication, binding, or overload. The cause should be found before reassembly."
+  },
+  {
+    "id": 54,
+    "category": "J1 - Maintain primary drives and driven gears",
+    "question": "Why should driven gear thrust clearance be checked where specified?",
+    "options": [
+      "Excess clearance or tightness can affect gear operation",
+      "It changes coolant colour",
+      "It adjusts carburetor choke",
+      "It controls headlight aim"
+    ],
+    "answer": 0,
+    "explanation": "Gears need correct side clearance. Too tight can bind; too loose can create noise or wear. Specifications determine serviceability."
+  },
+  {
+    "id": 55,
+    "category": "J1 - Maintain primary drives and driven gears",
+    "question": "What can happen if primary drive components are assembled without required spacers?",
+    "options": [
+      "Misalignment, binding, or component damage",
+      "Higher compression",
+      "Better gear life automatically",
+      "Stronger spark"
+    ],
+    "answer": 0,
+    "explanation": "Spacers position gears, chains, belts, and shafts. Missing spacers change alignment and clearance. Assembly order is important. --- ### J2. Maintain Primary Drive Chains and Sprockets — 2 Questions"
+  },
+  {
+    "id": 56,
+    "category": "J2 - Maintain primary drive chains and sprockets",
+    "question": "A primary chain tensioner shoe is deeply grooved. What should be done?",
+    "options": [
+      "Inspect and replace if beyond service limits",
+      "File the chain sharper",
+      "Add coolant",
+      "Increase battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Tensioner shoes wear from chain contact. Excess wear can affect chain control. Related chain and sprocket wear should also be checked."
+  },
+  {
+    "id": 57,
+    "category": "J2 - Maintain primary drive chains and sprockets",
+    "question": "Why should primary chain adjustment be checked with the engine positioned as specified?",
+    "options": [
+      "Chain slack can vary through rotation",
+      "It sets spark plug gap",
+      "It measures fuel pressure",
+      "It adjusts fork height"
+    ],
+    "answer": 0,
+    "explanation": "Chains and sprockets may have tight spots. Measurement position affects accuracy. Adjust at the specified point and range. --- ### J3. Maintain Primary Drive Belts and Pulleys/Sprockets — 2 Questions"
+  },
+  {
+    "id": 58,
+    "category": "J3 - Maintain primary drive belts and pulleys/sprockets",
+    "question": "A belt has missing teeth. What is the correct action?",
+    "options": [
+      "Replace the belt and inspect pulleys",
+      "Glue the teeth back on",
+      "Oil the belt heavily",
+      "Tighten until the teeth return"
+    ],
+    "answer": 0,
+    "explanation": "Missing teeth can cause drive loss or skipping. Pulleys may have damage that caused belt failure. Belt drives must be inspected as a system."
+  },
+  {
+    "id": 59,
+    "category": "J3 - Maintain primary drive belts and pulleys/sprockets",
+    "question": "Why should stones or debris be removed from belt pulleys?",
+    "options": [
+      "Debris can cut or damage the belt",
+      "Debris improves traction",
+      "Debris raises compression",
+      "Debris balances the pulley"
+    ],
+    "answer": 0,
+    "explanation": "Belt drives require clean pulley grooves. Foreign material can damage teeth or cords. Regular inspection prevents belt failure. --- ### J4. Maintain Manual Clutches — 6 Questions"
+  },
+  {
+    "id": 60,
+    "category": "J4 - Maintain manual clutches",
+    "question": "A rider cannot find neutral while stopped, but shifting improves when the engine is off. What is likely?",
+    "options": [
+      "Clutch drag",
+      "Overcharging",
+      "Exhaust leak",
+      "Low fork oil"
+    ],
+    "answer": 0,
+    "explanation": "Clutch drag keeps load on transmission gears. This can make neutral hard to select. Adjustment, plates, basket, and release system should be checked."
+  },
+  {
+    "id": 61,
+    "category": "J4 - Maintain manual clutches",
+    "question": "A clutch slips after an oil change. What should be verified first?",
+    "options": [
+      "Oil type and motorcycle clutch compatibility",
+      "Fork tube height",
+      "Radiator fin condition",
+      "Handlebar alignment"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutches are sensitive to oil type. Friction modifiers can reduce clutch grip. Use oil meeting manufacturer requirements."
+  },
+  {
+    "id": 62,
+    "category": "J4 - Maintain manual clutches",
+    "question": "Why are clutch friction plates soaked before installation on some motorcycles?",
+    "options": [
+      "To prevent dry startup and ensure proper oil saturation",
+      "To increase battery voltage",
+      "To cool the radiator",
+      "To clean the exhaust"
+    ],
+    "answer": 0,
+    "explanation": "Some wet clutch plates need oil soaking. Dry plates may grab, glaze, or wear early. Follow service instructions."
+  },
+  {
+    "id": 63,
+    "category": "J4 - Maintain manual clutches",
+    "question": "A clutch pushrod is bent. What can it cause?",
+    "options": [
+      "Poor release or uneven clutch operation",
+      "Higher fuel pressure",
+      "Better starter operation",
+      "Lower charging voltage"
+    ],
+    "answer": 0,
+    "explanation": "The pushrod transfers release force. A bent rod can bind or reduce movement. This can cause drag or inconsistent feel."
+  },
+  {
+    "id": 64,
+    "category": "J4 - Maintain manual clutches",
+    "question": "Why is clutch stack height measured?",
+    "options": [
+      "Incorrect stack height affects engagement and release",
+      "It sets tire pressure",
+      "It adjusts coolant temperature",
+      "It controls headlight brightness"
+    ],
+    "answer": 0,
+    "explanation": "Total clutch pack thickness matters. Too thin can slip; too thick can drag. Stack height must be within specification."
+  },
+  {
+    "id": 65,
+    "category": "J4 - Maintain manual clutches",
+    "question": "A clutch cable is frayed near the lever. What is the best repair?",
+    "options": [
+      "Replace the cable",
+      "Oil it and keep using it",
+      "Wrap it with tape",
+      "Adjust the rear shock"
+    ],
+    "answer": 0,
+    "explanation": "Frayed cables can break suddenly. Clutch control may be lost. Damaged control cables should be replaced. --- ### J5. Maintain Automatic Clutches — 2 Questions"
+  },
+  {
+    "id": 66,
+    "category": "J5 - Maintain automatic clutches",
+    "question": "An automatic clutch has oil contamination on the shoes. What is likely?",
+    "options": [
+      "Slipping, grabbing, or shudder",
+      "Higher coolant pressure",
+      "Stronger charging output",
+      "Better acceleration always"
+    ],
+    "answer": 0,
+    "explanation": "Clutch friction surfaces must be clean. Oil changes friction and can cause poor engagement. The oil source must be repaired."
+  },
+  {
+    "id": 67,
+    "category": "J5 - Maintain automatic clutches",
+    "question": "Why should centrifugal clutch shoe thickness be measured?",
+    "options": [
+      "Worn shoes may not engage correctly",
+      "It measures spark intensity",
+      "It controls fork rebound",
+      "It sets oil pressure"
+    ],
+    "answer": 0,
+    "explanation": "Automatic clutch shoes wear with use. Thin shoes reduce contact area and performance. Compare measurements to service limits. --- ### J6. Maintain Manual Starting Systems — 2 Questions"
+  },
+  {
+    "id": 68,
+    "category": "J6 - Maintain manual starting systems",
+    "question": "A kickstarter lever has excessive side play. What should be inspected?",
+    "options": [
+      "Shaft, bushings, fastener, and lever splines",
+      "Fuel injector only",
+      "Radiator fan only",
+      "Front tire only"
+    ],
+    "answer": 0,
+    "explanation": "Side play can come from worn splines or bushings. A loose lever can damage the shaft. Manual starting parts must engage securely."
+  },
+  {
+    "id": 69,
+    "category": "J6 - Maintain manual starting systems",
+    "question": "A manual starter gear slips under compression load. What is likely?",
+    "options": [
+      "Worn engagement teeth or ratchet mechanism",
+      "Dirty air filter only",
+      "Weak radiator cap only",
+      "Low tire pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Starting gears must lock under load. Worn teeth or pawls can slip suddenly. Damaged parts should be replaced. --- ## K. MAINTAIN TRANSMISSIONS — 3 Questions ### K2. Maintain Continuously Variable Transmissions — 3 Questions"
+  },
+  {
+    "id": 70,
+    "category": "K2 - Maintain continuously variable transmissions CVT",
+    "question": "A CVT belt is glazed and shiny. What does this indicate?",
+    "options": [
+      "Heat, slipping, or wear",
+      "Proper break-in only",
+      "Higher compression",
+      "Better belt grip"
+    ],
+    "answer": 0,
+    "explanation": "Glazing often comes from heat and slip. The belt, pulleys, clutch, and cooling should be inspected. Glazed belts may lose traction."
+  },
+  {
+    "id": 71,
+    "category": "K2 - Maintain continuously variable transmissions CVT",
+    "question": "Why should variator ramps be inspected?",
+    "options": [
+      "Worn ramps can prevent smooth roller movement",
+      "Ramps control coolant flow",
+      "Ramps adjust valve timing",
+      "Ramps set spark plug gap"
+    ],
+    "answer": 0,
+    "explanation": "Rollers move along ramps to change ratio. Wear or damage affects smooth shifting. Variator parts should be clean and within limits."
+  },
+  {
+    "id": 72,
+    "category": "K2 - Maintain continuously variable transmissions CVT",
+    "question": "A CVT cover has a blocked cooling inlet. What can happen?",
+    "options": [
+      "Belt overheating and shortened belt life",
+      "Higher battery charge",
+      "Lower engine compression",
+      "Better clutch cooling always"
+    ],
+    "answer": 0,
+    "explanation": "CVTs need airflow for belt and clutch cooling. Blocked vents raise temperature. Heat damages belts and friction parts. --- ## M. MAINTAIN ELECTRICAL SYSTEMS — 16 Questions ### M4. Maintain Wiring Harness Systems — 5 Questions"
+  },
+  {
+    "id": 73,
+    "category": "M4 - Maintain wiring harness systems",
+    "question": "A harness has been repaired with household twist connectors. What is the concern?",
+    "options": [
+      "Poor vibration resistance and unreliable connection",
+      "Improved waterproofing",
+      "Stronger CAN communication",
+      "Better charging output"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles experience vibration and moisture. Improper connectors can loosen or corrode. Use approved automotive/motorcycle repair methods."
+  },
+  {
+    "id": 74,
+    "category": "M4 - Maintain wiring harness systems",
+    "question": "Why should harness routing allow full steering movement?",
+    "options": [
+      "To prevent stretching, pinching, or broken wires",
+      "To increase compression",
+      "To adjust carburetor idle",
+      "To raise oil pressure"
+    ],
+    "answer": 0,
+    "explanation": "Wires near handlebars flex during steering. Tight routing can damage conductors or insulation. Check harness movement from lock to lock."
+  },
+  {
+    "id": 75,
+    "category": "M4 - Maintain wiring harness systems",
+    "question": "A connector seal is missing. What can result?",
+    "options": [
+      "Water entry, corrosion, and intermittent faults",
+      "Higher battery capacity",
+      "Better spark timing",
+      "Stronger frame alignment"
+    ],
+    "answer": 0,
+    "explanation": "Connector seals keep moisture out. Water causes corrosion and high resistance. Seals should be installed correctly."
+  },
+  {
+    "id": 76,
+    "category": "M4 - Maintain wiring harness systems",
+    "question": "Why should probes not spread connector terminals during testing?",
+    "options": [
+      "Loose terminals can cause intermittent poor contact",
+      "Spread terminals improve current flow",
+      "It lowers engine temperature",
+      "It adjusts sensor calibration perfectly"
+    ],
+    "answer": 0,
+    "explanation": "Oversized probes can damage terminal tension. A loose terminal may pass tests but fail with vibration. Use correct back-probing tools."
+  },
+  {
+    "id": 77,
+    "category": "M4 - Maintain wiring harness systems",
+    "question": "A CAN communication fault appears after accessory installation. What should be suspected?",
+    "options": [
+      "Wiring interference, incorrect tapping, or network disturbance",
+      "Low fork oil only",
+      "Dirty brake rotor only",
+      "Weak clutch spring only"
+    ],
+    "answer": 0,
+    "explanation": "Network wiring is sensitive to resistance and signal quality. Improper accessory connections can disturb communication. Service information should guide repairs. --- ### M6. Maintain Electric Starting Systems — 6 Questions"
+  },
+  {
+    "id": 78,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "A starter motor does not turn, and there is no click from the relay. What should be checked first?",
+    "options": [
+      "Starter control circuit, interlocks, fuse, and switch",
+      "Piston ring end gap only",
+      "Rear shock preload only",
+      "Carburetor main jet only"
+    ],
+    "answer": 0,
+    "explanation": "No relay click may mean the relay is not being commanded. Control power, ground, interlocks, and switch signal must be checked. Wiring diagrams are useful."
+  },
+  {
+    "id": 79,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "A starter relay clicks once, and battery voltage stays strong, but starter does not turn. What may be faulty?",
+    "options": [
+      "Relay contacts, starter cable, ground, or starter motor",
+      "Cooling thermostat only",
+      "Fork bushing only",
+      "Intake boot only"
+    ],
+    "answer": 0,
+    "explanation": "The control side may operate while the power side fails. High-current contacts or cables may be open. The starter motor itself may also be faulty."
+  },
+  {
+    "id": 80,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "Why should the engine be checked for mechanical seizure during starter diagnosis?",
+    "options": [
+      "A locked engine can overload or prevent starter rotation",
+      "It increases charging output",
+      "It improves relay function",
+      "It lowers battery resistance"
+    ],
+    "answer": 0,
+    "explanation": "Starting systems cannot crank a seized engine. High current draw may result. Mechanical and electrical causes must both be considered."
+  },
+  {
+    "id": 81,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "A battery cable ground is loose at the engine case. What symptom may occur?",
+    "options": [
+      "No crank or slow crank",
+      "Higher compression",
+      "Better fuel atomization",
+      "Lower clutch wear"
+    ],
+    "answer": 0,
+    "explanation": "The starter needs a strong ground path. Loose grounds create voltage drop. High-current connections must be clean and tight."
+  },
+  {
+    "id": 82,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "A starter motor has worn brushes. What can happen?",
+    "options": [
+      "Poor current transfer and weak cranking",
+      "Higher coolant flow",
+      "Better charging regulation",
+      "Stronger clutch springs"
+    ],
+    "answer": 0,
+    "explanation": "Brushes transfer current to the armature. Worn brushes cause poor contact and low torque. Starter internal inspection may be needed."
+  },
+  {
+    "id": 83,
+    "category": "M6 - Maintain electric starting systems",
+    "question": "Why should starter relay terminals be checked for heat damage?",
+    "options": [
+      "Heat can indicate resistance and poor current flow",
+      "Heat improves relay operation",
+      "Heat adjusts neutral switch function",
+      "Heat increases battery capacity"
+    ],
+    "answer": 0,
+    "explanation": "High current through poor connections creates heat. Melted or discoloured terminals indicate resistance. Damaged terminals should be repaired properly. --- ### M7. Maintain Charging Systems — 5 Questions"
+  },
+  {
+    "id": 84,
+    "category": "M7 - Maintain charging systems",
+    "question": "A motorcycle charges normally cold but stops charging hot. What should be suspected?",
+    "options": [
+      "Heat-related stator, regulator, connector, or wiring fault",
+      "Fork spring sag only",
+      "Rich pilot circuit only",
+      "Loose saddlebag only"
+    ],
+    "answer": 0,
+    "explanation": "Electrical components can fail when hot. Heat increases resistance and can reveal weak windings or connections. Testing should match the failure condition."
+  },
+  {
+    "id": 85,
+    "category": "M7 - Maintain charging systems",
+    "question": "Why test charging voltage with lights and accessories on?",
+    "options": [
+      "To see if the system maintains voltage under load",
+      "To change spark plug colour",
+      "To adjust chain slack",
+      "To measure compression"
+    ],
+    "answer": 0,
+    "explanation": "Accessories increase electrical demand. A weak charging system may fail under load. Loaded testing gives realistic results."
+  },
+  {
+    "id": 86,
+    "category": "M7 - Maintain charging systems",
+    "question": "A regulator/rectifier connector has burnt pins. What should be done?",
+    "options": [
+      "Repair connector and check for resistance, heat, and component faults",
+      "Install a bigger fuse only",
+      "Paint the pins",
+      "Ignore if charging voltage is okay once"
+    ],
+    "answer": 0,
+    "explanation": "Burnt pins show overheating from resistance or current. A poor connector can damage the regulator or stator. Repair must address the cause."
+  },
+  {
+    "id": 87,
+    "category": "M7 - Maintain charging systems",
+    "question": "Why should a battery be fully charged before charging-system diagnosis?",
+    "options": [
+      "A weak battery can affect test results",
+      "It increases engine displacement",
+      "It adjusts fork rebound",
+      "It synchronizes carburetors"
+    ],
+    "answer": 0,
+    "explanation": "A discharged or defective battery can load the system abnormally. Charging tests depend on battery condition. Battery testing is part of charging diagnosis."
+  },
+  {
+    "id": 88,
+    "category": "M7 - Maintain charging systems",
+    "question": "A stator has correct resistance but low AC output running. What else should be checked?",
+    "options": [
+      "Rotor magnet condition, rpm, wiring, and test procedure",
+      "Tire tread depth only",
+      "Clutch lever angle only",
+      "Exhaust packing only"
+    ],
+    "answer": 0,
+    "explanation": "Resistance alone may not prove output under operation. Rotor magnets, speed, and wiring affect generated voltage. Use complete diagnostic steps. --- ## O. MAINTAIN FUEL AND EXHAUST SYSTEMS — 12 Questions ### O1. Maintain Fuel Tanks and Fuel Delivery Components — 4 Questions"
+  },
+  {
+    "id": 89,
+    "category": "O1 - Maintain fuel tanks and fuel delivery components",
+    "question": "A fuel-injected motorcycle has long crank time after sitting. Fuel pressure drops quickly after shutdown. What should be checked?",
+    "options": [
+      "Injector leakage, pump check valve, regulator, or fuel line leaks",
+      "Fork oil viscosity only",
+      "Steering head preload only",
+      "CVT roller weight only"
+    ],
+    "answer": 0,
+    "explanation": "Fuel pressure should usually hold for a period after shutdown. Rapid pressure loss can cause hard starting. Leakdown testing helps locate the cause."
+  },
+  {
+    "id": 90,
+    "category": "O1 - Maintain fuel tanks and fuel delivery components",
+    "question": "Why should fuel pump electrical supply be tested under load?",
+    "options": [
+      "Voltage may look good unloaded but drop during operation",
+      "Fuel pumps run on tire pressure",
+      "It adjusts coolant mixture",
+      "It changes clutch stack height"
+    ],
+    "answer": 0,
+    "explanation": "Poor wiring or connectors may fail under current demand. Voltage drop can reduce pump speed and pressure. Loaded tests reveal real operating faults."
+  },
+  {
+    "id": 91,
+    "category": "O1 - Maintain fuel tanks and fuel delivery components",
+    "question": "A fuel line is kinked after tank installation. What can happen?",
+    "options": [
+      "Restricted fuel flow and lean running",
+      "Higher oil pressure",
+      "Better fuel economy always",
+      "Increased battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Kinked hoses reduce fuel delivery. The engine may starve under load. Fuel lines must be routed without sharp bends."
+  },
+  {
+    "id": 92,
+    "category": "O1 - Maintain fuel tanks and fuel delivery components",
+    "question": "Why should a fuel tank with rust inside be addressed?",
+    "options": [
+      "Rust particles can clog filters, injectors, or carburetor jets",
+      "Rust improves fuel quality",
+      "Rust increases octane",
+      "Rust cools the fuel pump"
+    ],
+    "answer": 0,
+    "explanation": "Rust contamination damages fuel systems. Small passages are easily blocked. The tank and fuel system may need cleaning or repair. --- ### O2. Maintain Air Delivery Systems — 2 Questions"
+  },
+  {
+    "id": 93,
+    "category": "O2 - Maintain air delivery systems",
+    "question": "An airbox lid is missing after service. What can this affect?",
+    "options": [
+      "Airflow path, mixture, noise, and filtration",
+      "Brake fluid boiling point",
+      "Fork oil height",
+      "Steering head preload"
+    ],
+    "answer": 0,
+    "explanation": "Airboxes are designed for controlled airflow. Missing parts can change mixture and allow dirt entry. Air delivery parts should be installed correctly."
+  },
+  {
+    "id": 94,
+    "category": "O2 - Maintain air delivery systems",
+    "question": "Why is unfiltered air dangerous to an engine?",
+    "options": [
+      "Dirt can wear cylinders, rings, and valves",
+      "Dirt increases compression safely",
+      "Dirt improves fuel atomization",
+      "Dirt cools the piston"
+    ],
+    "answer": 0,
+    "explanation": "Abrasive dirt damages internal engine parts. Air filters protect the intake system. Leaks after the filter must be repaired. --- ### O3. Maintain Carburetor Systems — 5 Questions"
+  },
+  {
+    "id": 95,
+    "category": "O3 - Maintain carburetor systems",
+    "question": "A carbureted engine bogs when the throttle is opened quickly. Which system may be involved?",
+    "options": [
+      "Accelerator pump or transition circuit",
+      "Charging regulator only",
+      "Fork seal only",
+      "Steering bearing only"
+    ],
+    "answer": 0,
+    "explanation": "Quick throttle opening needs extra fuel. A faulty accelerator pump can cause hesitation. Pilot and needle circuits may also affect transition."
+  },
+  {
+    "id": 96,
+    "category": "O3 - Maintain carburetor systems",
+    "question": "Why should float height be set accurately?",
+    "options": [
+      "Fuel level affects mixture across carburetor circuits",
+      "It changes charging voltage",
+      "It controls brake pressure",
+      "It adjusts fork rebound"
+    ],
+    "answer": 0,
+    "explanation": "Float height controls fuel level in the bowl. Too high can cause rich running or overflow. Too low can cause lean running or hesitation."
+  },
+  {
+    "id": 97,
+    "category": "O3 - Maintain carburetor systems",
+    "question": "A carburetor slide diaphragm has a tear. What symptom can occur?",
+    "options": [
+      "Poor throttle response or limited slide lift",
+      "Better acceleration",
+      "Higher coolant pressure",
+      "Stronger starter operation"
+    ],
+    "answer": 0,
+    "explanation": "CV carburetor diaphragms lift the slide using vacuum. A tear prevents proper slide movement. The engine may bog or lack power."
+  },
+  {
+    "id": 98,
+    "category": "O3 - Maintain carburetor systems",
+    "question": "Why should idle mixture screws be set according to procedure?",
+    "options": [
+      "Incorrect setting affects idle quality and emissions",
+      "It controls valve timing",
+      "It sets oil pressure",
+      "It changes belt tension"
+    ],
+    "answer": 0,
+    "explanation": "Idle mixture controls low-speed fuel/air ratio. Incorrect adjustment can cause rough idle or hesitation. Factory procedures and limits should be followed."
+  },
+  {
+    "id": 99,
+    "category": "O3 - Maintain carburetor systems",
+    "question": "A carburetor bowl gasket leaks after cleaning. What is the concern?",
+    "options": [
+      "Fuel leak and fire hazard",
+      "Higher compression",
+      "Better fuel delivery",
+      "Increased stator output"
+    ],
+    "answer": 0,
+    "explanation": "Fuel leaks are dangerous and must be corrected. Old gaskets may not reseal after disassembly. Replace damaged seals and verify no leaks. --- ### O4. Maintain Exhaust Systems — 1 Question"
+  },
+  {
+    "id": 100,
+    "category": "O4 - Maintain exhaust systems",
+    "question": "Why should exhaust fasteners be tightened evenly at the cylinder head?",
+    "options": [
+      "To prevent leaks, flange distortion, and broken studs",
+      "To increase fuel pressure",
+      "To adjust clutch drag",
+      "To set fork sag"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust flanges must clamp gaskets evenly. Uneven tightening can leak or damage studs. Exhaust leaks affect noise, heat, and sensor readings."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledMotorcycleTechnicianLevel2Set2Questions =
+  shuffleArray(motorcycleTechnicianLevel2Set4Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "motorcycle-technician",
+  tradeTitle: "Motorcycle Technician",
+  sectionTitle: "Level 2 – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledMotorcycleTechnicianLevel2Set2Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledMotorcycleTechnicianLevel2Set2Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

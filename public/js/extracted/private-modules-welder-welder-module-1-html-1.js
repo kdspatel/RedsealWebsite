@@ -1,0 +1,2696 @@
+const redSealWelderSectionAQuestions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Before using any welding machine, what should be checked first?",
+    "options": [
+      "Paint colour",
+      "Power cables, connections, and machine condition",
+      "Lunch schedule",
+      "Welder’s boot size"
+    ],
+    "answer": 1,
+    "explanation": "Welding equipment must be safe before use. Damaged cables or loose connections can cause shock, overheating, or poor arc performance."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should welding cables be kept in good condition?",
+    "options": [
+      "To make them look new",
+      "To prevent shock, overheating, and poor current flow",
+      "To reduce weld size",
+      "To increase slag"
+    ],
+    "answer": 1,
+    "explanation": "Damaged insulation or loose cable ends are unsafe. Good cables help maintain a stable welding arc."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What should be done with a cracked grinding wheel?",
+    "options": [
+      "Use it slowly",
+      "Use it only on soft metal",
+      "Remove it from service",
+      "Oil it before use"
+    ],
+    "answer": 2,
+    "explanation": "A cracked wheel can break apart at high speed. It must never be used."
+  },
+  {
+    "id": 4,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why must grinder wheel RPM rating be checked?",
+    "options": [
+      "To match the wheel colour",
+      "To make sure the wheel is safe for the grinder speed",
+      "To reduce sparks completely",
+      "To increase noise"
+    ],
+    "answer": 1,
+    "explanation": "The wheel rating must be equal to or higher than the grinder speed. An underrated wheel may explode."
+  },
+  {
+    "id": 5,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What is the purpose of a grinder guard?",
+    "options": [
+      "To protect the operator from sparks and wheel fragments",
+      "To make the grinder heavier",
+      "To increase wheel speed",
+      "To cool the weld"
+    ],
+    "answer": 0,
+    "explanation": "Guards reduce injury risk from sparks and broken wheel pieces. They should stay installed."
+  },
+  {
+    "id": 6,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welding electrode holder has damaged insulation. What should you do?",
+    "options": [
+      "Keep using it",
+      "Repair or replace it",
+      "Wrap it in wet cloth",
+      "Dip it in water"
+    ],
+    "answer": 1,
+    "explanation": "Damaged insulation can expose the welder to electric shock or burns. Unsafe holders must be fixed or replaced."
+  },
+  {
+    "id": 7,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should oxy-fuel hoses be inspected before use?",
+    "options": [
+      "To check for cracks, leaks, burns, or damage",
+      "To choose electrode size",
+      "To increase amperage",
+      "To reduce welding fumes"
+    ],
+    "answer": 0,
+    "explanation": "Damaged gas hoses can leak and create fire or explosion hazards. Hoses must be safe before lighting the torch."
+  },
+  {
+    "id": 8,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What is the purpose of a pressure regulator?",
+    "options": [
+      "To reduce cylinder pressure to working pressure",
+      "To sharpen electrodes",
+      "To remove slag",
+      "To measure weld length"
+    ],
+    "answer": 0,
+    "explanation": "Gas cylinders hold high pressure. Regulators control that pressure for safe use."
+  },
+  {
+    "id": 9,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should torch tips be cleaned properly?",
+    "options": [
+      "To maintain correct flame shape and gas flow",
+      "To make the torch louder",
+      "To increase cylinder pressure",
+      "To remove the need for PPE"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tips cause poor flames, rough cuts, and possible backfire. Use proper tip cleaners."
+  },
+  {
+    "id": 10,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What should be done if a power tool cord is damaged?",
+    "options": [
+      "Tape it quickly and continue",
+      "Remove the tool from service",
+      "Use it only for small jobs",
+      "Hold the damaged part away from metal"
+    ],
+    "answer": 1,
+    "explanation": "Damaged cords can cause electric shock or fire. The tool must be repaired properly before use."
+  },
+  {
+    "id": 11,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What does WLL mean?",
+    "options": [
+      "Weld Length Limit",
+      "Working Load Limit",
+      "Wire Load Level",
+      "Welding Line Layout"
+    ],
+    "answer": 1,
+    "explanation": "WLL is the maximum load lifting equipment can safely handle. Never exceed it."
+  },
+  {
+    "id": 12,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Before lifting a load, what must be known?",
+    "options": [
+      "Load weight",
+      "Paint colour",
+      "Weld bead shape",
+      "Helmet shade"
+    ],
+    "answer": 0,
+    "explanation": "Rigging must be selected based on load weight. Guessing can overload slings or hoists."
+  },
+  {
+    "id": 13,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should workers never stand under a suspended load?",
+    "options": [
+      "It may fall or shift",
+      "It blocks light",
+      "It cools too slowly",
+      "It increases weld strength"
+    ],
+    "answer": 0,
+    "explanation": "Suspended loads can drop, swing, or shift without warning. Staying clear prevents serious injury."
+  },
+  {
+    "id": 14,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What is a tag line used for?",
+    "options": [
+      "Controlling a suspended load from a safe distance",
+      "Measuring pipe diameter",
+      "Cleaning slag",
+      "Lighting a torch"
+    ],
+    "answer": 0,
+    "explanation": "Tag lines help guide loads while keeping workers away from pinch and crush zones."
+  },
+  {
+    "id": 15,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What happens when sling angle becomes low?",
+    "options": [
+      "Sling tension increases",
+      "Load weight disappears",
+      "Sling becomes stronger",
+      "Crane speed decreases"
+    ],
+    "answer": 0,
+    "explanation": "Lower sling angles increase force in each sling leg. This can overload the rigging."
+  },
+  {
+    "id": 16,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What should be done with a damaged sling?",
+    "options": [
+      "Use it for light loads",
+      "Remove it from service",
+      "Tie a knot in it",
+      "Paint over the damage"
+    ],
+    "answer": 1,
+    "explanation": "Damaged slings can fail under load. They must not be used."
+  },
+  {
+    "id": 17,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should sharp edges be protected when using slings?",
+    "options": [
+      "Sharp edges can cut or damage the sling",
+      "Sharp edges make loads lighter",
+      "Sharp edges improve lifting angle",
+      "Sharp edges reduce WLL"
+    ],
+    "answer": 0,
+    "explanation": "Plate edges can damage slings during lifting. Edge protection helps prevent sling failure."
+  },
+  {
+    "id": 18,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Before using a ladder, what should be checked?",
+    "options": [
+      "Condition, footing, and proper angle",
+      "Welding current",
+      "Rod diameter",
+      "Gas type"
+    ],
+    "answer": 0,
+    "explanation": "A damaged or poorly positioned ladder can slip or collapse. Safe setup prevents falls."
+  },
+  {
+    "id": 19,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What is the main hazard when landing a heavy load?",
+    "options": [
+      "Pinch and crush points",
+      "Arc flash",
+      "Slag peeling",
+      "Porosity"
+    ],
+    "answer": 0,
+    "explanation": "Hands and feet can be crushed if the load shifts. Keep body parts away from pinch points."
+  },
+  {
+    "id": 20,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should a low trial lift be done?",
+    "options": [
+      "To check balance and rigging security",
+      "To increase load weight",
+      "To stretch the sling permanently",
+      "To test weld appearance"
+    ],
+    "answer": 0,
+    "explanation": "A trial lift confirms the load is stable before lifting higher. If it tilts, lower it and adjust rigging."
+  },
+  {
+    "id": 21,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Which PPE protects eyes from arc radiation?",
+    "options": [
+      "Clear glasses only",
+      "Welding helmet with correct shade lens",
+      "Cotton shirt only",
+      "Ear plugs only"
+    ],
+    "answer": 1,
+    "explanation": "Welding arcs produce intense UV and IR radiation. Correct lens shade protects the eyes."
+  },
+  {
+    "id": 22,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why is ventilation important during welding?",
+    "options": [
+      "It removes fumes and gases",
+      "It makes slag thicker",
+      "It increases electrode size",
+      "It changes polarity"
+    ],
+    "answer": 0,
+    "explanation": "Welding fumes can be harmful. Ventilation helps keep fumes out of the breathing zone."
+  },
+  {
+    "id": 23,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should be done before welding near flammable material?",
+    "options": [
+      "Remove or protect combustibles",
+      "Weld faster",
+      "Increase oxygen pressure",
+      "Use a longer arc"
+    ],
+    "answer": 0,
+    "explanation": "Sparks and slag can start fires. Combustibles must be removed or shielded before hot work."
+  },
+  {
+    "id": 24,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What does PPE stand for?",
+    "options": [
+      "Personal Protective Equipment",
+      "Pipe Preparation Electrode",
+      "Positive Polarity Electrode",
+      "Pressure Plate Estimate"
+    ],
+    "answer": 0,
+    "explanation": "PPE protects workers from hazards. Welding PPE includes helmet, gloves, jacket, boots, and respiratory protection when needed."
+  },
+  {
+    "id": 25,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why should oxygen never be used to clean clothing?",
+    "options": [
+      "It supports rapid burning",
+      "It removes all sparks",
+      "It cools clothing",
+      "It reduces fire risk"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen-enriched clothing can ignite violently. Oxygen must only be used for approved purposes."
+  },
+  {
+    "id": 26,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is arc flash?",
+    "options": [
+      "Eye injury from arc radiation",
+      "A type of weld bead",
+      "A cutting tip size",
+      "A grinding wheel defect"
+    ],
+    "answer": 0,
+    "explanation": "Arc flash is caused by UV radiation from the welding arc. It can feel like sand or burning in the eyes."
+  },
+  {
+    "id": 27,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why are welding screens used?",
+    "options": [
+      "To protect nearby workers from arc rays",
+      "To increase amperage",
+      "To clean base metal",
+      "To reduce electrode cost"
+    ],
+    "answer": 0,
+    "explanation": "Screens block harmful arc radiation from reaching nearby workers. They also help control sparks."
+  },
+  {
+    "id": 28,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is the main danger of welding on a closed container?",
+    "options": [
+      "Explosion",
+      "Low slag volume",
+      "Too much penetration",
+      "Poor layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Containers may hold vapours or pressure. They must be cleaned, opened, tested, and approved before hot work."
+  },
+  {
+    "id": 29,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should you do if you smell fuel gas?",
+    "options": [
+      "Shut off gas, ventilate, and find the leak",
+      "Light the torch quickly",
+      "Increase oxygen flow",
+      "Keep welding"
+    ],
+    "answer": 0,
+    "explanation": "Fuel gas leaks can ignite or explode. Shut down and correct the problem before continuing."
+  },
+  {
+    "id": 30,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why is hearing protection needed for grinding or gouging?",
+    "options": [
+      "Noise can damage hearing",
+      "It improves weld shape",
+      "It removes fumes",
+      "It prevents porosity"
+    ],
+    "answer": 0,
+    "explanation": "Grinding and gouging can produce high noise levels. Long exposure can cause permanent hearing loss."
+  },
+  {
+    "id": 31,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is a hot-work permit used for?",
+    "options": [
+      "Controlling fire and safety hazards before hot work",
+      "Choosing lunch time",
+      "Increasing welding speed",
+      "Measuring plate thickness"
+    ],
+    "answer": 0,
+    "explanation": "A hot-work permit confirms safety controls are in place. It may require fire watch, ventilation, and removal of combustibles."
+  },
+  {
+    "id": 32,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should be worn to protect skin from sparks and UV radiation?",
+    "options": [
+      "Flame-resistant clothing",
+      "Nylon jacket",
+      "Polyester shirt",
+      "Plastic apron only"
+    ],
+    "answer": 0,
+    "explanation": "Flame-resistant clothing protects from sparks, heat, and arc radiation. Synthetic clothing can melt onto skin."
+  },
+  {
+    "id": 33,
+    "category": "Task 4 — Organizes Work",
+    "question": "Before starting fabrication, what documents should be reviewed?",
+    "options": [
+      "Drawings and welding procedures",
+      "Music playlist",
+      "Tool brand catalogue",
+      "Coffee order"
+    ],
+    "answer": 0,
+    "explanation": "Drawings and procedures show what must be built and how it must be welded. Reviewing them prevents mistakes."
+  },
+  {
+    "id": 34,
+    "category": "Task 4 — Organizes Work",
+    "question": "What does WPS stand for?",
+    "options": [
+      "Welding Procedure Specification",
+      "Weld Plate Size",
+      "Wire Polarity Setting",
+      "Work Position Standard"
+    ],
+    "answer": 0,
+    "explanation": "A WPS describes how a weld must be made. It gives important welding requirements."
+  },
+  {
+    "id": 35,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should material be checked before cutting?",
+    "options": [
+      "To confirm size, type, and grade",
+      "To increase sparks",
+      "To reduce PPE",
+      "To make welds larger"
+    ],
+    "answer": 0,
+    "explanation": "Wrong material can cause rejected parts or unsafe welds. Always verify material before cutting."
+  },
+  {
+    "id": 36,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why is work sequencing important?",
+    "options": [
+      "It controls access, distortion, and efficiency",
+      "It removes the need for drawings",
+      "It increases rework",
+      "It prevents cleaning"
+    ],
+    "answer": 0,
+    "explanation": "The order of cutting, fitting, and welding affects quality. Good sequence reduces mistakes and distortion."
+  },
+  {
+    "id": 37,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should tools and consumables be prepared before welding?",
+    "options": [
+      "To avoid delays and wrong materials",
+      "To make the arc longer",
+      "To reduce shielding",
+      "To increase defects"
+    ],
+    "answer": 0,
+    "explanation": "Having the correct tools, rods, wire, gas, and abrasives ready improves workflow and prevents errors."
+  },
+  {
+    "id": 38,
+    "category": "Task 4 — Organizes Work",
+    "question": "What should be done if a drawing is unclear?",
+    "options": [
+      "Ask for clarification before working",
+      "Guess and continue",
+      "Ignore the drawing",
+      "Weld all joints larger"
+    ],
+    "answer": 0,
+    "explanation": "Guessing can cause wrong parts or rejected welds. Unclear information must be confirmed."
+  },
+  {
+    "id": 39,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is base metal cleaned before welding?",
+    "options": [
+      "To remove oil, rust, paint, and contamination",
+      "To increase porosity",
+      "To reduce fusion",
+      "To make slag permanent"
+    ],
+    "answer": 0,
+    "explanation": "Contamination can cause porosity, lack of fusion, and cracking. Clean metal improves weld quality."
+  },
+  {
+    "id": 40,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is a tack weld used for?",
+    "options": [
+      "Holding parts in position before final welding",
+      "Replacing all welds",
+      "Cleaning slag",
+      "Measuring amperage"
+    ],
+    "answer": 0,
+    "explanation": "Tack welds hold fit-up and alignment. They must be sound if they become part of the final weld."
+  },
+  {
+    "id": 41,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the purpose of a centre punch?",
+    "options": [
+      "Marking a starting point for drilling",
+      "Removing slag",
+      "Measuring gas flow",
+      "Holding electrodes"
+    ],
+    "answer": 0,
+    "explanation": "A centre punch creates a small mark that helps guide the drill bit accurately."
+  },
+  {
+    "id": 42,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does SDS stand for?",
+    "options": [
+      "Safety Data Sheet",
+      "Shielded Drawing Symbol",
+      "Steel Diameter Size",
+      "Slag Deposit Standard"
+    ],
+    "answer": 0,
+    "explanation": "SDS gives hazard, handling, PPE, storage, and first-aid information for products used in the shop."
+  },
+  {
+    "id": 43,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does NDT stand for?",
+    "options": [
+      "Non-Destructive Testing",
+      "New Drawing Tolerance",
+      "Nickel Deposit Transfer",
+      "No Defect Tack"
+    ],
+    "answer": 0,
+    "explanation": "NDT checks welds or materials without destroying them. Common methods include visual, LPI, MT, UT, and RT."
+  },
+  {
+    "id": 44,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does LPI detect?",
+    "options": [
+      "Surface-breaking defects",
+      "Internal defects only",
+      "Gas flow rate",
+      "Electrode strength"
+    ],
+    "answer": 0,
+    "explanation": "Liquid penetrant inspection finds cracks or pores open to the surface. It does not find deep internal defects."
+  },
+  {
+    "id": 45,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is interpass cleaning important?",
+    "options": [
+      "To prevent slag, oxides, or dirt from being trapped",
+      "To reduce weld strength",
+      "To increase porosity",
+      "To make the weld colder only"
+    ],
+    "answer": 0,
+    "explanation": "Multipass welds must be cleaned between passes. Poor cleaning can cause slag inclusions and lack of fusion."
+  },
+  {
+    "id": 46,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is preheat?",
+    "options": [
+      "Heating base metal before welding",
+      "Cooling metal after welding",
+      "Grinding after welding",
+      "Painting before welding"
+    ],
+    "answer": 0,
+    "explanation": "Preheat slows cooling and reduces cracking risk. It may be required for thick, high-carbon, or restrained joints."
+  },
+  {
+    "id": 47,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is interpass temperature?",
+    "options": [
+      "Temperature of the weld area between passes",
+      "Gas cylinder pressure",
+      "Grinder speed",
+      "Torch tip size"
+    ],
+    "answer": 0,
+    "explanation": "Interpass temperature must sometimes stay within limits. Too much or too little heat can affect weld quality."
+  },
+  {
+    "id": 48,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does HAZ stand for?",
+    "options": [
+      "Heat Affected Zone",
+      "High Arc Zinc",
+      "Hot Air Zero",
+      "Hard Alloy Zone"
+    ],
+    "answer": 0,
+    "explanation": "The HAZ is base metal changed by welding heat but not melted. Its properties can be affected by heat input."
+  },
+  {
+    "id": 49,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why should welds be visually inspected?",
+    "options": [
+      "To check size, shape, defects, and completeness",
+      "To remove all fumes",
+      "To change polarity",
+      "To increase slag"
+    ],
+    "answer": 0,
+    "explanation": "Visual inspection can find undercut, cracks, porosity, missing welds, and poor profile. It is a basic quality check."
+  },
+  {
+    "id": 50,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the main purpose of following shop procedures?",
+    "options": [
+      "To work safely and produce consistent quality",
+      "To slow all jobs down",
+      "To avoid using PPE",
+      "To increase rework"
+    ],
+    "answer": 0,
+    "explanation": "Procedures help control safety, quality, and efficiency. Following them reduces accidents and rejected work."
+  },
+  {
+    "id": 51,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Before using a grinder, what must be checked?",
+    "options": [
+      "Wheel condition, guard, and RPM rating",
+      "Paint colour",
+      "Welding rod brand",
+      "Table height"
+    ],
+    "answer": 0,
+    "explanation": "The wheel must not be cracked or damaged. The RPM rating must match or exceed grinder speed. The guard must be in place for safety."
+  },
+  {
+    "id": 52,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A grinding wheel has a crack. What should you do?",
+    "options": [
+      "Use it lightly",
+      "Use it only on soft metal",
+      "Remove it from service",
+      "Cool it with water"
+    ],
+    "answer": 2,
+    "explanation": "Cracked wheels can break apart at high speed. This can cause serious injury. Damaged abrasive wheels must never be used."
+  },
+  {
+    "id": 53,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should welding cables be inspected before use?",
+    "options": [
+      "To check for damage, loose connections, and exposed conductors",
+      "To choose shielding gas",
+      "To increase slag",
+      "To reduce weld size"
+    ],
+    "answer": 0,
+    "explanation": "Damaged cables can cause shock or burns. Loose connections can overheat. Good cables help maintain stable welding current."
+  },
+  {
+    "id": 54,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welding cable connection is hot and discoloured. What is the likely cause?",
+    "options": [
+      "High resistance from a loose or dirty connection",
+      "Too much ventilation",
+      "Correct current flow",
+      "Good insulation"
+    ],
+    "answer": 0,
+    "explanation": "Loose or dirty connections create resistance. Resistance causes heat and voltage drop. Connections should be cleaned and tightened."
+  },
+  {
+    "id": 55,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What should be done with an electrode holder that has damaged insulation?",
+    "options": [
+      "Keep using it",
+      "Repair or replace it",
+      "Wrap it with wet cloth",
+      "Dip it in oil"
+    ],
+    "answer": 1,
+    "explanation": "Damaged insulation can expose live parts. This increases shock and burn risk. Unsafe holders must be repaired or replaced."
+  },
+  {
+    "id": 56,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What is the main purpose of a pressure regulator on a gas cylinder?",
+    "options": [
+      "Reduce cylinder pressure to safe working pressure",
+      "Increase cylinder pressure",
+      "Clean the torch tip",
+      "Remove slag"
+    ],
+    "answer": 0,
+    "explanation": "Cylinders store gas at high pressure. Regulators reduce pressure for safe use. They also help control gas flow to the equipment."
+  },
+  {
+    "id": 57,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why must torch tips be cleaned with proper tip cleaners?",
+    "options": [
+      "To maintain correct gas flow and flame shape",
+      "To increase acetylene pressure",
+      "To make the tip softer",
+      "To remove PPE requirements"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tips distort flame and oxygen flow. Poor flame shape can cause rough cuts or backfire. Wrong cleaning tools can damage the tip orifices."
+  },
+  {
+    "id": 58,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What should be done if an oxy-fuel hose is cracked or leaking?",
+    "options": [
+      "Tape it and continue",
+      "Use it only outdoors",
+      "Remove it from service",
+      "Increase oxygen flow"
+    ],
+    "answer": 2,
+    "explanation": "Leaking gas hoses can cause fire or explosion. Tape is not a safe repair for fuel-gas leaks. The hose must be repaired or replaced properly."
+  },
+  {
+    "id": 59,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should power tool cords be inspected?",
+    "options": [
+      "Damaged cords can cause electric shock or fire",
+      "Cords control weld penetration",
+      "Cords reduce slag",
+      "Cords set gas flow"
+    ],
+    "answer": 0,
+    "explanation": "Cuts or exposed wires are electrical hazards. Damaged cords can shock the user. Defective tools must be removed from service."
+  },
+  {
+    "id": 60,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What is the purpose of keeping equipment clean and maintained?",
+    "options": [
+      "Safe operation and reliable performance",
+      "More rust",
+      "More porosity",
+      "Less need for PPE"
+    ],
+    "answer": 0,
+    "explanation": "Clean equipment is easier to inspect. Maintenance reduces failures and hazards. Well-maintained tools improve quality and safety."
+  },
+  {
+    "id": 61,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What does WLL mean?",
+    "options": [
+      "Working Load Limit",
+      "Weld Length Limit",
+      "Wire Line Level",
+      "Welding Load Length"
+    ],
+    "answer": 0,
+    "explanation": "WLL is the maximum safe load rating. It applies to slings, shackles, hooks, and hoists. Never exceed the WLL."
+  },
+  {
+    "id": 62,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Before lifting a load, what must be known?",
+    "options": [
+      "Load weight",
+      "Weld bead colour",
+      "Electrode brand",
+      "Grinder size"
+    ],
+    "answer": 0,
+    "explanation": "Rigging must be selected based on weight. Unknown weight can overload equipment. Calculate or confirm the load before lifting."
+  },
+  {
+    "id": 63,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should workers stay clear of suspended loads?",
+    "options": [
+      "Loads may fall, swing, or shift",
+      "Loads become magnetic",
+      "Loads reduce ventilation",
+      "Loads make welds harder"
+    ],
+    "answer": 0,
+    "explanation": "Suspended loads are dangerous. Rigging failure or load movement can cause fatal injury. Never stand under a suspended load."
+  },
+  {
+    "id": 64,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What happens to sling tension when the sling angle decreases?",
+    "options": [
+      "Sling tension increases",
+      "Sling tension decreases",
+      "Load weight becomes zero",
+      "Sling capacity doubles automatically"
+    ],
+    "answer": 0,
+    "explanation": "Low sling angles increase force in each sling leg. This can overload the sling. Sling angle must be considered before lifting."
+  },
+  {
+    "id": 65,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What is a tag line used for?",
+    "options": [
+      "Controlling a load from a safe distance",
+      "Measuring weld size",
+      "Cleaning slag",
+      "Lighting a torch"
+    ],
+    "answer": 0,
+    "explanation": "Tag lines help control swinging or rotation. They keep workers away from pinch points. They are useful for long or awkward loads."
+  },
+  {
+    "id": 66,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A sling tag is missing and the capacity is unknown. What should be done?",
+    "options": [
+      "Use it for light loads",
+      "Remove it from service",
+      "Guess the rating",
+      "Tie a knot in it"
+    ],
+    "answer": 1,
+    "explanation": "Sling capacity must be known. Without a readable tag, WLL cannot be verified. Unknown rigging must not be used."
+  },
+  {
+    "id": 67,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why is edge protection used with slings?",
+    "options": [
+      "To prevent sharp edges from cutting or damaging the sling",
+      "To increase arc length",
+      "To clean base metal",
+      "To reduce shielding gas"
+    ],
+    "answer": 0,
+    "explanation": "Plate edges can damage slings under load. A damaged sling can fail suddenly. Edge protection helps protect the rigging."
+  },
+  {
+    "id": 68,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Before using a ladder, what must be checked?",
+    "options": [
+      "Condition, angle, footing, and secure placement",
+      "Electrode size",
+      "Gas flow",
+      "Weld reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Ladders can slip or collapse if not set correctly. Damage must be checked before use. Safe access prevents falls."
+  },
+  {
+    "id": 69,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why is a low trial lift performed?",
+    "options": [
+      "To check load balance and rigging security",
+      "To increase load weight",
+      "To test weld colour",
+      "To stretch the sling permanently"
+    ],
+    "answer": 0,
+    "explanation": "A trial lift shows if the load is balanced. If it tilts or shifts, lower it and adjust. This prevents uncontrolled movement."
+  },
+  {
+    "id": 70,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What is the main hazard when landing a heavy load?",
+    "options": [
+      "Pinch and crush points",
+      "Arc flash",
+      "Slag peeling",
+      "Porosity"
+    ],
+    "answer": 0,
+    "explanation": "Loads can shift suddenly when landing. Hands and feet can be crushed. Keep clear and use proper blocking."
+  },
+  {
+    "id": 71,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Which PPE protects eyes from arc radiation?",
+    "options": [
+      "Welding helmet with correct shade lens",
+      "Clear glasses only",
+      "Cotton gloves only",
+      "Ear plugs only"
+    ],
+    "answer": 0,
+    "explanation": "Arc welding produces UV and IR radiation. A correct shade lens protects the eyes. Clear glasses alone are not enough for arc welding."
+  },
+  {
+    "id": 72,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is arc flash?",
+    "options": [
+      "Eye injury from welding arc radiation",
+      "A type of grinding wheel",
+      "A weld symbol",
+      "A gas regulator problem"
+    ],
+    "answer": 0,
+    "explanation": "Arc flash is caused by UV exposure. Symptoms may feel like sand or burning in the eyes. Screens and proper eye protection prevent it."
+  },
+  {
+    "id": 73,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why is ventilation important during welding?",
+    "options": [
+      "To remove fumes and gases from the breathing zone",
+      "To increase slag",
+      "To cool electrodes only",
+      "To change polarity"
+    ],
+    "answer": 0,
+    "explanation": "Welding fumes can be harmful. Ventilation lowers exposure. Some materials require extra fume controls."
+  },
+  {
+    "id": 74,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should be done before welding near combustible material?",
+    "options": [
+      "Remove or protect combustibles",
+      "Increase amperage",
+      "Weld faster",
+      "Use a longer arc"
+    ],
+    "answer": 0,
+    "explanation": "Sparks and slag can start fires. Combustibles should be removed or shielded. A fire watch may be required."
+  },
+  {
+    "id": 75,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is the purpose of a hot-work permit?",
+    "options": [
+      "To confirm fire and safety controls are in place",
+      "To choose electrode size",
+      "To measure weld length",
+      "To increase cutting speed"
+    ],
+    "answer": 0,
+    "explanation": "Hot-work permits control hazards. They may require fire watch and ventilation. They are used before welding, cutting, or grinding in controlled areas."
+  },
+  {
+    "id": 76,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why should oxygen never be used to clean clothing?",
+    "options": [
+      "Oxygen supports rapid combustion",
+      "Oxygen removes sparks safely",
+      "Oxygen reduces fire risk",
+      "Oxygen cools clothing"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen-enriched clothing can ignite violently. Oxygen is not compressed air. Use approved cleaning methods only."
+  },
+  {
+    "id": 77,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should you do if you smell fuel gas?",
+    "options": [
+      "Shut off gas, ventilate, and find the leak",
+      "Light the torch quickly",
+      "Increase oxygen pressure",
+      "Continue if the smell is weak"
+    ],
+    "answer": 0,
+    "explanation": "Fuel gas leaks can ignite or explode. Shut down the system safely. Do not relight until the leak is fixed."
+  },
+  {
+    "id": 78,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is the major danger of welding on a sealed container?",
+    "options": [
+      "Explosion",
+      "Excess slag",
+      "Low amperage",
+      "Better penetration"
+    ],
+    "answer": 0,
+    "explanation": "Containers may contain vapours or pressure. Heating can cause explosion. They must be cleaned, opened, tested, and approved."
+  },
+  {
+    "id": 79,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why should synthetic clothing be avoided while welding?",
+    "options": [
+      "It can melt onto skin",
+      "It improves arc stability",
+      "It reduces fumes",
+      "It prevents sparks"
+    ],
+    "answer": 0,
+    "explanation": "Synthetic fabrics can melt from sparks or heat. Melted fabric can cause severe burns. Wear flame-resistant clothing."
+  },
+  {
+    "id": 80,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why is hearing protection used during grinding and gouging?",
+    "options": [
+      "Noise can damage hearing",
+      "It improves bead shape",
+      "It reduces porosity",
+      "It increases gas flow"
+    ],
+    "answer": 0,
+    "explanation": "Grinding and gouging can be very loud. Long exposure can cause permanent hearing loss. Use proper hearing protection."
+  },
+  {
+    "id": 81,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What should be done if a worker feels dizzy while welding in a confined or poorly ventilated area?",
+    "options": [
+      "Stop work, move to fresh air, and report the hazard",
+      "Continue welding slowly",
+      "Use a darker lens",
+      "Hold breath and finish"
+    ],
+    "answer": 0,
+    "explanation": "Dizziness may indicate fume or gas exposure. Fresh air and hazard reporting are required. Ventilation must be corrected before continuing."
+  },
+  {
+    "id": 82,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Which fire extinguisher class is used for ordinary combustibles like wood and paper?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": 0,
+    "explanation": "Class A is for ordinary combustibles. Class B is for flammable liquids. Class C is for electrical fires."
+  },
+  {
+    "id": 83,
+    "category": "Task 4 — Organizes Work",
+    "question": "Before starting a welding job, what should be reviewed?",
+    "options": [
+      "Drawing, WPS/WPDS, and job requirements",
+      "Paint colour",
+      "Lunch schedule",
+      "Helmet brand"
+    ],
+    "answer": 0,
+    "explanation": "Drawings show what must be built. Procedures show how it must be welded. Review prevents mistakes and rework."
+  },
+  {
+    "id": 84,
+    "category": "Task 4 — Organizes Work",
+    "question": "What does WPS stand for?",
+    "options": [
+      "Welding Procedure Specification",
+      "Weld Plate Size",
+      "Wire Polarity Setting",
+      "Work Position Standard"
+    ],
+    "answer": 0,
+    "explanation": "A WPS gives welding requirements. It helps control weld quality. Welders must follow approved procedures."
+  },
+  {
+    "id": 85,
+    "category": "Task 4 — Organizes Work",
+    "question": "What should be done if a drawing and procedure conflict?",
+    "options": [
+      "Stop and ask for clarification",
+      "Guess the answer",
+      "Use the larger weld always",
+      "Ignore the drawing"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting instructions must be resolved. Guessing can cause rejection or unsafe work. Ask supervision or quality control."
+  },
+  {
+    "id": 86,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should material be verified before cutting?",
+    "options": [
+      "To confirm size, grade, and quantity",
+      "To increase sparks",
+      "To lower ventilation",
+      "To avoid measuring"
+    ],
+    "answer": 0,
+    "explanation": "Wrong material can make parts unusable. Material grade may affect weldability and strength. Verify before cutting or welding."
+  },
+  {
+    "id": 87,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why is work sequencing important?",
+    "options": [
+      "It controls access, efficiency, and distortion",
+      "It removes the need for inspection",
+      "It increases rework",
+      "It prevents cleaning"
+    ],
+    "answer": 0,
+    "explanation": "The order of work affects fit-up and access. Welding sequence affects distortion. Good planning saves time and improves quality."
+  },
+  {
+    "id": 88,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should tools and consumables be prepared before starting?",
+    "options": [
+      "To avoid delays and ensure correct materials are used",
+      "To increase porosity",
+      "To reduce safety",
+      "To make welds oversized"
+    ],
+    "answer": 0,
+    "explanation": "Correct rods, wire, gas, and tools are needed. Preparation prevents interruptions. Wrong consumables can cause weld rejection."
+  },
+  {
+    "id": 89,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is base metal cleaned before welding?",
+    "options": [
+      "To remove rust, oil, paint, moisture, and contamination",
+      "To increase porosity",
+      "To reduce fusion",
+      "To make slag permanent"
+    ],
+    "answer": 0,
+    "explanation": "Contamination can cause porosity and lack of fusion. Clean metal improves weld quality. Preparation is a key welding skill."
+  },
+  {
+    "id": 90,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is a tack weld used for?",
+    "options": [
+      "Holding parts in alignment before final welding",
+      "Replacing all final welds",
+      "Removing slag",
+      "Measuring gas flow"
+    ],
+    "answer": 0,
+    "explanation": "Tack welds hold parts during fit-up. They help maintain gap and alignment. Bad tacks can create defects."
+  },
+  {
+    "id": 91,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why should tack welds be inspected before welding over them?",
+    "options": [
+      "Defective tacks can become final weld defects",
+      "Tacks never matter",
+      "Tacks remove need for cleaning",
+      "Tacks always crack safely"
+    ],
+    "answer": 0,
+    "explanation": "Tacks often become part of the weld. Cracked or contaminated tacks can cause defects. Repair bad tacks before final welding."
+  },
+  {
+    "id": 92,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does SDS stand for?",
+    "options": [
+      "Safety Data Sheet",
+      "Steel Diameter Size",
+      "Shielded Drawing Symbol",
+      "Slag Deposit Standard"
+    ],
+    "answer": 0,
+    "explanation": "SDS gives product hazard information. It includes PPE, storage, first aid, and handling. It is important for chemicals, gases, and coatings."
+  },
+  {
+    "id": 93,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does NDT stand for?",
+    "options": [
+      "Non-Destructive Testing",
+      "New Drawing Tolerance",
+      "Nickel Deposit Transfer",
+      "No Defect Tack"
+    ],
+    "answer": 0,
+    "explanation": "NDT checks welds without destroying the part. Methods include visual, LPI, MT, UT, and RT. It supports weld quality control."
+  },
+  {
+    "id": 94,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does LPI detect?",
+    "options": [
+      "Surface-breaking defects",
+      "Deep internal defects only",
+      "Gas pressure",
+      "Electrode moisture"
+    ],
+    "answer": 0,
+    "explanation": "Liquid penetrant inspection finds surface cracks or pores. It works on non-porous materials. It cannot find deep internal flaws."
+  },
+  {
+    "id": 95,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is interpass cleaning important?",
+    "options": [
+      "To prevent slag, oxides, or dirt from being trapped",
+      "To increase defects",
+      "To reduce fusion",
+      "To add moisture"
+    ],
+    "answer": 0,
+    "explanation": "Multipass welds must be cleaned between passes. Slag or oxides can become inclusions. Cleaning improves fusion and soundness."
+  },
+  {
+    "id": 96,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is preheat?",
+    "options": [
+      "Heating base metal before welding",
+      "Cooling the weld after welding",
+      "Grinding after welding",
+      "Painting before welding"
+    ],
+    "answer": 0,
+    "explanation": "Preheat slows the cooling rate. It reduces cracking risk in some materials. It may be required by the WPS."
+  },
+  {
+    "id": 97,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is interpass temperature?",
+    "options": [
+      "Temperature of the weld area between passes",
+      "Gas cylinder pressure",
+      "Grinding wheel RPM",
+      "Torch tip diameter"
+    ],
+    "answer": 0,
+    "explanation": "Interpass temperature affects weld properties. Some procedures set minimum or maximum limits. It must be controlled during multipass welding."
+  },
+  {
+    "id": 98,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What does HAZ stand for?",
+    "options": [
+      "Heat Affected Zone",
+      "High Arc Zinc",
+      "Hot Air Zero",
+      "Hard Alloy Zone"
+    ],
+    "answer": 0,
+    "explanation": "The HAZ is base metal changed by welding heat. It is not melted. Its properties can be affected by heat input."
+  },
+  {
+    "id": 99,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What should visual inspection check?",
+    "options": [
+      "Weld size, profile, cracks, porosity, undercut, and completeness",
+      "Only paint colour",
+      "Only lunch time",
+      "Only gas bottle height"
+    ],
+    "answer": 0,
+    "explanation": "Visual inspection is a basic quality check. It can find many surface defects. It should be done before, during, and after welding."
+  },
+  {
+    "id": 100,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the main reason to follow shop and safety procedures?",
+    "options": [
+      "To work safely and produce consistent quality",
+      "To increase rework",
+      "To avoid PPE",
+      "To make all welds oversized"
+    ],
+    "answer": 0,
+    "explanation": "Procedures control safety and quality. They help workers follow proven methods. Following procedures reduces accidents and rejected work."
+  },
+  {
+    "id": 101,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A grinder wheel is marked 8,500 rpm. The grinder nameplate reads 11,000 rpm. The wheel fits the arbor perfectly. What is the correct decision?",
+    "options": [
+      "Use it because it fits",
+      "Use it only with light pressure",
+      "Do not use it on that grinder",
+      "Use it if the guard is installed"
+    ],
+    "answer": 2,
+    "explanation": "Wheel fit does not make it safe. The wheel rpm rating must meet or exceed grinder speed. An underrated wheel can fail violently."
+  },
+  {
+    "id": 102,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welding lead looks undamaged, but the lug becomes hot during welding. What is the most likely hidden problem?",
+    "options": [
+      "Lens shade is too dark",
+      "High resistance at the connection",
+      "Electrode is too short",
+      "Base metal is too clean"
+    ],
+    "answer": 1,
+    "explanation": "Heat at a lug usually indicates resistance. Resistance is commonly caused by loose, dirty, or damaged contact. The connection must be repaired before use."
+  },
+  {
+    "id": 103,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A cracked electrode holder handle has no exposed copper visible. What is the safest action?",
+    "options": [
+      "Continue using it because copper is not visible",
+      "Use it only with dry gloves",
+      "Repair or replace it",
+      "Wrap it in wet leather"
+    ],
+    "answer": 2,
+    "explanation": "Cracked insulation may fail during use. The holder can expose the welder to shock or burns. Visible copper is not required for the tool to be unsafe."
+  },
+  {
+    "id": 104,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A cutting torch flame is uneven after the tip was cleaned with welding wire. What is the likely issue?",
+    "options": [
+      "Tip orifices may be damaged",
+      "Oxygen cylinder is empty",
+      "Acetylene is too pure",
+      "Flame is automatically neutral"
+    ],
+    "answer": 0,
+    "explanation": "Welding wire can enlarge or damage tip holes. Damaged orifices distort gas flow and flame shape. Only proper tip cleaners should be used."
+  },
+  {
+    "id": 105,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A compressed-air tool works, but the hose coupling is missing its safety clip. What is the main hazard?",
+    "options": [
+      "Less cutting speed",
+      "Coupling separation and hose whip",
+      "Lower weld penetration",
+      "More shielding gas flow"
+    ],
+    "answer": 1,
+    "explanation": "Pressurized hoses can whip if couplings separate. This can injure workers nearby. Air connections must be secured before use."
+  },
+  {
+    "id": 106,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A regulator gauge reads zero after the cylinder valve is opened. The cylinder is full. What should be suspected first?",
+    "options": [
+      "Defective or blocked regulator/gauge system",
+      "The cylinder became oxygen",
+      "The torch tip is too large",
+      "The hose colour is wrong"
+    ],
+    "answer": 0,
+    "explanation": "A full cylinder should show pressure when opened correctly. A zero reading may indicate regulator, valve, or gauge trouble. Do not use defective gas equipment."
+  },
+  {
+    "id": 107,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welding machine shuts down after several minutes at high amperage, then works again after cooling. What is the most likely cause?",
+    "options": [
+      "Duty cycle exceeded",
+      "Electrode coating too thick",
+      "Work clamp too clean",
+      "Lens shade too light"
+    ],
+    "answer": 0,
+    "explanation": "Thermal shutdown often protects the machine from overheating. Duty cycle limits how long it can weld in a time period. Cooling time and correct load must be followed."
+  },
+  {
+    "id": 108,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A GMAW gun feeds wire normally in the air, but stutters while welding. Which item should still be checked?",
+    "options": [
+      "Contact tip condition",
+      "Helmet shell colour",
+      "Soapstone width",
+      "Ladder rating"
+    ],
+    "answer": 0,
+    "explanation": "A worn or dirty contact tip may fail under welding current. Current transfer problems can cause arc instability. Wire feeding in air does not prove the tip is good."
+  },
+  {
+    "id": 109,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A grinding wheel passes visual inspection but gives a dull sound during a ring test. What should be done?",
+    "options": [
+      "Use it for aluminum only",
+      "Use it at half pressure",
+      "Reject it",
+      "Soak it in water"
+    ],
+    "answer": 2,
+    "explanation": "A dull ring may indicate cracking. Cracked wheels can burst at speed. Question wording is tricky because the wheel “looks” good."
+  },
+  {
+    "id": 110,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A torch hose has a burn mark but does not leak during a quick soap test. What is the safest decision?",
+    "options": [
+      "Keep using it until it leaks",
+      "Remove it from service for proper inspection/replacement",
+      "Cover it with tape",
+      "Increase oxygen pressure to test it"
+    ],
+    "answer": 1,
+    "explanation": "Heat damage weakens hose material. A hose may fail later even if it does not leak immediately. Burned gas hoses should not be trusted."
+  },
+  {
+    "id": 111,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A 1000 kg load is lifted using two slings. Each sling is rated 600 kg vertically. Why can this still be unsafe?",
+    "options": [
+      "Sling angle can increase tension above 600 kg per leg",
+      "Two slings always double capacity exactly",
+      "The load becomes heavier near the floor",
+      "Vertical rating only applies to chains"
+    ],
+    "answer": 0,
+    "explanation": "Sling angle changes the force in each leg. Low angles can overload slings even with two legs. Do not assume two slings always divide load equally."
+  },
+  {
+    "id": 112,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A load lifts level at first, then tilts as it clears the floor. What was likely not controlled?",
+    "options": [
+      "Centre of gravity",
+      "Electrode polarity",
+      "Torch tip size",
+      "Weld bead width"
+    ],
+    "answer": 0,
+    "explanation": "Loads rotate until the centre of gravity is below the hook. Tilting indicates poor balance or rigging point selection. A low trial lift helps catch this."
+  },
+  {
+    "id": 113,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A sling has no visible cuts, but the identification tag is unreadable. What is the correct action?",
+    "options": [
+      "Use it because no damage is visible",
+      "Use it only below waist height",
+      "Remove it from service",
+      "Estimate capacity by sling width"
+    ],
+    "answer": 2,
+    "explanation": "Capacity must be known before lifting. An unreadable tag means WLL cannot be verified. Good appearance does not prove safe rating."
+  },
+  {
+    "id": 114,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A worker wants to steady a suspended load by placing one hand between the load and a column. What is the hazard?",
+    "options": [
+      "Arc flash",
+      "Pinch/crush injury",
+      "Low oxygen",
+      "Porosity"
+    ],
+    "answer": 1,
+    "explanation": "Suspended loads can shift suddenly. Hands between fixed objects and loads can be crushed. Use tag lines and stay clear."
+  },
+  {
+    "id": 115,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A hook safety latch is broken, but the hook throat is not stretched. What should happen?",
+    "options": [
+      "Use it if the sling sits deep in the hook",
+      "Tape the latch closed",
+      "Remove or repair before use",
+      "Use it only for straight lifts"
+    ],
+    "answer": 2,
+    "explanation": "A broken latch can allow rigging to come out of the hook. The hook may still be unsafe even if not stretched. All hook safety features must work."
+  },
+  {
+    "id": 116,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "During a lift, the crane operator sees a stop signal from someone who is not the assigned signal person. What should the operator do?",
+    "options": [
+      "Ignore it",
+      "Stop",
+      "Continue until assigned signal person confirms",
+      "Speed up to clear the area"
+    ],
+    "answer": 1,
+    "explanation": "Stop signals must be obeyed from anyone. This is a universal safety rule. The question tests whether “assigned signal person” distracts you."
+  },
+  {
+    "id": 117,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A ladder is in good condition but placed on oily plate. What makes it unsafe?",
+    "options": [
+      "The ladder material",
+      "Poor footing",
+      "Too much ventilation",
+      "Good inspection"
+    ],
+    "answer": 1,
+    "explanation": "A ladder can slip if footing is poor. Good ladder condition alone is not enough. Surface condition and angle also matter."
+  },
+  {
+    "id": 118,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A forklift carries long material with the load raised high for visibility. What is wrong?",
+    "options": [
+      "Loads should generally travel low and stable",
+      "Long material cannot be moved by forklift",
+      "Forklifts require welding current",
+      "High loads reduce tipping risk"
+    ],
+    "answer": 0,
+    "explanation": "Raised loads increase tipping and instability. Travel should be with the load low and controlled. If visibility is blocked, use safe travel methods or a spotter."
+  },
+  {
+    "id": 119,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A chain sling link is stretched but not cracked. What is the correct action?",
+    "options": [
+      "Use it because cracks are absent",
+      "Remove it from service",
+      "Hammer it back to shape",
+      "Heat and straighten it"
+    ],
+    "answer": 1,
+    "explanation": "Stretching indicates overload damage. The chain may fail even without visible cracks. Damaged rigging must not be repaired casually."
+  },
+  {
+    "id": 120,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A heavy load is about to be landed on blocking. The blocking is uneven but close enough. What should be done?",
+    "options": [
+      "Land quickly before it shifts",
+      "Correct the blocking before landing",
+      "Hold the load by hand",
+      "Stand under the load to guide it"
+    ],
+    "answer": 1,
+    "explanation": "Uneven blocking can cause the load to tip or shift. Landing is a high-risk pinch and crush moment. Stable support must be prepared first."
+  },
+  {
+    "id": 121,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A worker says, “I only looked at the arc for a second from across the shop.” Later their eyes burn. What likely happened?",
+    "options": [
+      "Arc flash",
+      "Slag inclusion",
+      "Hydrogen cracking",
+      "Arc blow"
+    ],
+    "answer": 0,
+    "explanation": "Arc flash can happen from brief exposure. Distance does not guarantee safety. Screens and eye protection protect nearby workers."
+  },
+  {
+    "id": 122,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder wears clear safety glasses under a welding helmet. Why are the glasses still not enough by themselves?",
+    "options": [
+      "They do not provide proper arc shade protection",
+      "They increase UV exposure",
+      "They stop all sparks",
+      "They replace ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Clear glasses protect from impact, not arc radiation. A proper welding filter lens is needed. Both impact and radiation protection matter."
+  },
+  {
+    "id": 123,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A tank is “empty” and has been open for a day. Why is welding still unsafe without testing?",
+    "options": [
+      "Vapours may remain or collect in low areas",
+      "Empty tanks cannot conduct electricity",
+      "Open tanks always explode faster",
+      "Oxygen pressure becomes too low"
+    ],
+    "answer": 0,
+    "explanation": "Empty containers can still contain explosive vapours. Opening alone does not prove safe atmosphere. Cleaning, purging, testing, and permits may be required."
+  },
+  {
+    "id": 124,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder uses oxygen to blow dust from clothing because “oxygen does not burn.” What is the correction?",
+    "options": [
+      "Oxygen supports combustion and can make clothing ignite violently",
+      "Oxygen is safe below room temperature",
+      "Oxygen removes fire hazards",
+      "Oxygen works like shop air"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen itself is not fuel, but it supports rapid burning. Oxygen-enriched fabric is extremely dangerous. Never use oxygen for cleaning."
+  },
+  {
+    "id": 125,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A fire watch sees no flames when welding stops. Why might they still need to stay?",
+    "options": [
+      "Hidden sparks can smoulder and ignite later",
+      "Welds grow after cooling",
+      "Gas cylinders refill themselves",
+      "Arc flash starts after welding"
+    ],
+    "answer": 0,
+    "explanation": "Hot slag can fall into cracks or combustible areas. Fires may start after the welder leaves. Fire watch prevents delayed ignition."
+  },
+  {
+    "id": 126,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder becomes dizzy while welding in a corner with poor air movement. What is the best response?",
+    "options": [
+      "Stop work and move to fresh air",
+      "Finish the bead quickly",
+      "Use a darker helmet lens",
+      "Hold breath between rods"
+    ],
+    "answer": 0,
+    "explanation": "Dizziness may indicate fume or oxygen hazard. The worker must leave exposure immediately. Ventilation or respiratory controls must be corrected."
+  },
+  {
+    "id": 127,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A nylon jacket is worn under leathers because it is warm. What is the hidden danger?",
+    "options": [
+      "It can melt onto skin",
+      "It improves flame resistance",
+      "It reduces electric shock",
+      "It prevents UV exposure alone"
+    ],
+    "answer": 0,
+    "explanation": "Synthetic fabric can melt when exposed to sparks or heat. Melted fabric can cause severe burns. Wear flame-resistant materials."
+  },
+  {
+    "id": 128,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A small fuel-gas leak is found, but the torch flame is stable. What should be done?",
+    "options": [
+      "Shut down and repair before use",
+      "Continue because the flame is stable",
+      "Increase oxygen to burn the leak",
+      "Tape over the leak while lit"
+    ],
+    "answer": 0,
+    "explanation": "A stable flame does not make a leak safe. Fuel gas can ignite or explode. Leaking equipment must be removed from service."
+  },
+  {
+    "id": 129,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A Class C fire extinguisher is selected because electrical equipment is involved. What must be remembered after power is disconnected?",
+    "options": [
+      "Fire class may change depending on burning material",
+      "Class C becomes Class D automatically",
+      "Water is always forbidden after power is off",
+      "Welding stops all fires"
+    ],
+    "answer": 0,
+    "explanation": "Class C applies to energized electrical fires. Once de-energized, the burning material determines extinguisher choice. The question tests deeper extinguisher understanding."
+  },
+  {
+    "id": 130,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A worker welds galvanized steel with a fan blowing fumes across another worker. What is wrong?",
+    "options": [
+      "Fumes are being moved into another breathing zone",
+      "Any air movement is always safe",
+      "Galvanized steel creates no fumes",
+      "Fans replace respirators always"
+    ],
+    "answer": 0,
+    "explanation": "Ventilation must remove fumes safely. It should not expose other workers. Fume control requires correct airflow direction."
+  },
+  {
+    "id": 131,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder uses hearing protection during CAC-A but removes face protection because the helmet is uncomfortable. What hazard remains?",
+    "options": [
+      "Arc rays and flying molten metal",
+      "Low travel speed",
+      "Low sling angle",
+      "Excess drawing scale"
+    ],
+    "answer": 0,
+    "explanation": "CAC-A produces intense arc radiation and molten spray. Hearing protection controls only noise. Eye, face, body, and respiratory protection may also be needed."
+  },
+  {
+    "id": 132,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A hot-work area is clear at floor level, but sparks can fall through a floor opening. What must be done?",
+    "options": [
+      "Protect or cover openings and check lower levels",
+      "Ignore it because the floor is clean",
+      "Increase amperage",
+      "Use a longer arc"
+    ],
+    "answer": 0,
+    "explanation": "Sparks can travel through openings. Combustibles below can ignite. Hot-work control includes surrounding and lower areas."
+  },
+  {
+    "id": 133,
+    "category": "Task 4 — Organizes Work",
+    "question": "A drawing revision changed the weld symbol, but the old copy is still at the workstation. What is the safest action?",
+    "options": [
+      "Verify and use the current revision",
+      "Use the old copy if it is clearer",
+      "Average both drawings",
+      "Weld all joints larger"
+    ],
+    "answer": 0,
+    "explanation": "Old revisions may contain incorrect requirements. Fabrication must follow the current approved drawing. Revision control prevents rework."
+  },
+  {
+    "id": 134,
+    "category": "Task 4 — Organizes Work",
+    "question": "A WPS lists preheat, but the drawing does not mention it. What should the welder do?",
+    "options": [
+      "Follow the applicable procedure or ask for clarification",
+      "Ignore preheat because drawing is silent",
+      "Use preheat only if convenient",
+      "Weld cold to save time"
+    ],
+    "answer": 0,
+    "explanation": "Welding procedures may contain requirements not shown on drawings. Preheat can be essential for crack control. Conflicts or uncertainty must be clarified."
+  },
+  {
+    "id": 135,
+    "category": "Task 4 — Organizes Work",
+    "question": "A material looks like mild steel, but the job requires a specific grade. What should be done before cutting?",
+    "options": [
+      "Verify identification or documentation",
+      "Cut it because it looks correct",
+      "Spark test only and proceed always",
+      "Ask the grinder operator"
+    ],
+    "answer": 0,
+    "explanation": "Appearance does not prove material grade. Wrong grade can fail code or strength requirements. Material traceability may be required."
+  },
+  {
+    "id": 136,
+    "category": "Task 4 — Organizes Work",
+    "question": "A large weldment has internal welds that will be hidden after assembly. What is the planning issue?",
+    "options": [
+      "Access and inspection sequence",
+      "Electrode colour",
+      "Gas cylinder height",
+      "Grinder brand"
+    ],
+    "answer": 0,
+    "explanation": "Some welds must be completed before parts close access. Inspection may also need to happen before assembly continues. Work order matters."
+  },
+  {
+    "id": 137,
+    "category": "Task 4 — Organizes Work",
+    "question": "A welder prepares tools but forgets the correct filler metal. What is the main risk?",
+    "options": [
+      "Wrong consumable may cause weld rejection or failure",
+      "More tool organization",
+      "Less paperwork",
+      "Better fit-up"
+    ],
+    "answer": 0,
+    "explanation": "Filler metal must match the procedure and base metal. Wrong consumables can affect strength or corrosion resistance. Preparation includes consumable verification."
+  },
+  {
+    "id": 138,
+    "category": "Task 4 — Organizes Work",
+    "question": "A drawing note says “field weld,” but the shop plan welds it before shipment. What is the concern?",
+    "options": [
+      "The weld may need to be made at installation site for fit/access reasons",
+      "Field weld means no weld required",
+      "Field weld means grind only",
+      "Shop weld is always better and acceptable"
+    ],
+    "answer": 0,
+    "explanation": "Field weld symbols/notes identify weld location requirements. Making it in the shop may cause fit or assembly problems. Drawing notes must be followed or clarified."
+  },
+  {
+    "id": 139,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A tack weld cracks while cooling, but it will be covered by the final weld. What should happen?",
+    "options": [
+      "Remove or repair the tack",
+      "Weld over it to save time",
+      "Grind only the surface smooth",
+      "Increase paint thickness"
+    ],
+    "answer": 0,
+    "explanation": "Cracked tacks can become embedded defects. They may affect final weld integrity. Defective tacks must not be buried."
+  },
+  {
+    "id": 140,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A weld joint is wire brushed, but oil remains in the root. What is the exam trap?",
+    "options": [
+      "Brushing alone may not remove oil contamination",
+      "Oil improves penetration",
+      "Oil prevents porosity",
+      "Oil replaces preheat"
+    ],
+    "answer": 0,
+    "explanation": "Different contaminants require proper cleaning methods. Oil can cause porosity and fumes. The joint must be cleaned completely, not just brushed."
+  },
+  {
+    "id": 141,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A multipass weld looks clean on top, but slag remains in a sidewall groove. What defect may result?",
+    "options": [
+      "Slag inclusion",
+      "Arc flash",
+      "Low WLL",
+      "Correct fusion"
+    ],
+    "answer": 0,
+    "explanation": "Slag hidden at sidewalls can be trapped by the next pass. Surface appearance alone is not enough. Interpass cleaning must reach toes and grooves."
+  },
+  {
+    "id": 142,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Preheat is required, but only the surface is warmed quickly with a torch. What is the concern?",
+    "options": [
+      "The joint may not be uniformly heated to required temperature",
+      "Surface heating always satisfies preheat",
+      "Preheat means heating only the electrode",
+      "Preheat is only for appearance"
+    ],
+    "answer": 0,
+    "explanation": "Preheat must reach the required area and temperature. Thick material may need time for uniform heating. Temperature should be verified when required."
+  },
+  {
+    "id": 143,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Interpass temperature is above the maximum allowed, but the next pass would be easier while hot. What should be done?",
+    "options": [
+      "Wait until temperature is within limits",
+      "Weld immediately",
+      "Quench with oil automatically",
+      "Ignore the WPS"
+    ],
+    "answer": 0,
+    "explanation": "Maximum interpass limits protect weld properties. Too much heat can affect strength, toughness, or corrosion resistance. Procedure limits must be followed."
+  },
+  {
+    "id": 144,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "An SDS is available for a coating, but the coating has already been ground off. Why might the SDS still matter?",
+    "options": [
+      "Residue or dust may still create health hazards",
+      "SDS only applies to full containers",
+      "SDS replaces ventilation",
+      "SDS is only for office staff"
+    ],
+    "answer": 0,
+    "explanation": "Grinding or heating residues can release hazardous material. SDS gives exposure and PPE information. Coatings can remain in pores or adjacent areas."
+  },
+  {
+    "id": 145,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A visual inspection finds a rounded weld profile but no obvious cracks. Why may the weld still be unacceptable?",
+    "options": [
+      "Size, profile, undercut, or fusion requirements may not be met",
+      "Only cracks matter",
+      "Visual inspection cannot reject welds",
+      "Rounded welds are always acceptable"
+    ],
+    "answer": 0,
+    "explanation": "Visual inspection checks more than cracks. Weld size, contour, undercut, overlap, and completeness matter. Acceptance criteria control final decision."
+  },
+  {
+    "id": 146,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "LPI is requested on a weld that may have internal lack of fusion. What is the limitation?",
+    "options": [
+      "LPI detects surface-breaking defects only",
+      "LPI detects all internal defects",
+      "LPI replaces radiography always",
+      "LPI only measures hardness"
+    ],
+    "answer": 0,
+    "explanation": "Liquid penetrant cannot find buried flaws. It reveals defects open to the surface. Internal defects need other NDT methods."
+  },
+  {
+    "id": 147,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "The HAZ is not melted, so why can it still be important?",
+    "options": [
+      "Its properties may change from welding heat",
+      "It is always unaffected",
+      "It is filler metal only",
+      "It is always stronger than base metal"
+    ],
+    "answer": 0,
+    "explanation": "Heat can change microstructure and hardness. The HAZ may become brittle or softened depending on material. Welding heat input affects the HAZ."
+  },
+  {
+    "id": 148,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A centre punch mark is placed after drilling starts. What is wrong?",
+    "options": [
+      "Centre punching should locate the drill before drilling",
+      "Punching after drilling improves accuracy",
+      "Punch marks replace clamps",
+      "Punch marks control amperage"
+    ],
+    "answer": 0,
+    "explanation": "Centre punching prevents the drill from wandering at start. After drilling begins, the location is already established. Correct layout sequence matters."
+  },
+  {
+    "id": 149,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A worker says, “The weld passed NDT, so visual inspection was unnecessary.” What is the best answer?",
+    "options": [
+      "Visual inspection is still part of quality control",
+      "NDT always replaces all visual checks",
+      "Visual inspection only checks paint",
+      "Visual inspection is done only before welding"
+    ],
+    "answer": 0,
+    "explanation": "Visual inspection checks fit-up, profile, size, and surface defects. It is often done before, during, and after welding. Other NDT methods do not replace all visual checks."
+  },
+  {
+    "id": 150,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A shop procedure seems slower than the welder’s usual method. What is the safest exam answer?",
+    "options": [
+      "Follow the approved shop procedure unless changed by authority",
+      "Use personal method if faster",
+      "Skip steps that seem unnecessary",
+      "Follow procedure only when watched"
+    ],
+    "answer": 0,
+    "explanation": "Procedures control safety and consistent quality. Unauthorized changes can cause defects or accidents. Approved procedures must be followed."
+  },
+  {
+    "id": 151,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welder notices the welding machine fan is not running and the machine feels hotter than normal. What should be done?",
+    "options": [
+      "Continue welding until the arc changes",
+      "Stop and have the machine inspected",
+      "Cover the machine to keep dust out",
+      "Increase amperage"
+    ],
+    "answer": 1,
+    "explanation": "Cooling systems prevent overheating. A failed fan can damage the machine. Unsafe equipment should be inspected before use."
+  },
+  {
+    "id": 152,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A GMAW nozzle is filled with spatter. What problem can this cause?",
+    "options": [
+      "Poor shielding gas coverage",
+      "Stronger weld metal",
+      "Lower wire speed automatically",
+      "Better arc stability"
+    ],
+    "answer": 0,
+    "explanation": "Spatter can block or disturb gas flow. Poor shielding can cause porosity. Nozzles should be cleaned regularly."
+  },
+  {
+    "id": 153,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should welding machines be kept dry?",
+    "options": [
+      "To reduce electric shock and equipment damage",
+      "To make the weld colder",
+      "To increase slag coverage",
+      "To reduce metal thickness"
+    ],
+    "answer": 0,
+    "explanation": "Moisture increases electrical hazards. Water can damage electrical components. Dry equipment is safer and more reliable."
+  },
+  {
+    "id": 154,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A regulator is dropped and the gauge glass cracks. What is the correct action?",
+    "options": [
+      "Use it if the needle still moves",
+      "Remove it from service",
+      "Tape the glass",
+      "Increase cylinder pressure slowly"
+    ],
+    "answer": 1,
+    "explanation": "Dropped regulators may be internally damaged. Cracked gauges can fail or read incorrectly. Damaged gas equipment must not be used."
+  },
+  {
+    "id": 155,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "What is the purpose of checking the work clamp before welding?",
+    "options": [
+      "To ensure good electrical contact",
+      "To control shielding gas flow",
+      "To clean the electrode coating",
+      "To measure weld length"
+    ],
+    "answer": 0,
+    "explanation": "Poor work clamp contact causes arc instability. It can also cause overheating at the connection. Clean, tight contact improves welding performance."
+  },
+  {
+    "id": 156,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A portable grinder switch sticks in the “on” position. What should happen?",
+    "options": [
+      "Use it carefully",
+      "Remove it from service",
+      "Pull the cord to stop it each time",
+      "Use it only on light grinding"
+    ],
+    "answer": 1,
+    "explanation": "A defective switch can cause unexpected operation. This creates serious injury risk. Power tools must operate correctly before use."
+  },
+  {
+    "id": 157,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should drive rolls on a wire feeder match the wire type and size?",
+    "options": [
+      "To feed wire smoothly without damage",
+      "To increase gas pressure",
+      "To make slag peel faster",
+      "To reduce PPE needs"
+    ],
+    "answer": 0,
+    "explanation": "Wrong drive rolls can slip or crush wire. Poor wire feeding causes unstable arcs. Correct rolls improve weld consistency."
+  },
+  {
+    "id": 158,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A torch tip overheats and causes repeated popping. What is a possible cause?",
+    "options": [
+      "Tip held too close or dirty tip",
+      "Welding cable too short",
+      "Too much slag removal",
+      "Correct torch operation"
+    ],
+    "answer": 0,
+    "explanation": "Overheating or blocked tip holes can cause backfire. Proper standoff and clean tips are important. The cause should be corrected before continuing."
+  },
+  {
+    "id": 159,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "Why should a damaged face shield be replaced?",
+    "options": [
+      "It may not protect against flying particles",
+      "It increases welding current",
+      "It lowers cylinder pressure",
+      "It improves visibility automatically"
+    ],
+    "answer": 0,
+    "explanation": "Cracked or scratched shields reduce protection. Grinding and chipping create flying particles. Damaged PPE should be replaced."
+  },
+  {
+    "id": 160,
+    "category": "Task 1 — Maintains Tools and Equipment",
+    "question": "A welding cable is too small for the current being used. What can happen?",
+    "options": [
+      "Cable overheating",
+      "Better arc control always",
+      "No electrical resistance",
+      "Lower heat in the cable only"
+    ],
+    "answer": 0,
+    "explanation": "Undersized cables can overheat under high current. Overheating damages insulation and creates hazards. Cable size must match welding current and length."
+  },
+  {
+    "id": 161,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A load is being lifted and one sling leg is much tighter than the other. What does this indicate?",
+    "options": [
+      "Unequal load sharing",
+      "Perfect balance",
+      "Correct rigging always",
+      "Lower sling tension"
+    ],
+    "answer": 0,
+    "explanation": "Unequal sling tension means the load is not shared evenly. One sling may be overloaded. Rigging should be adjusted before lifting higher."
+  },
+  {
+    "id": 162,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should a lifting hook be positioned directly over the load’s centre of gravity?",
+    "options": [
+      "To prevent side pull and load swing",
+      "To increase weld penetration",
+      "To reduce material thickness",
+      "To make the load heavier"
+    ],
+    "answer": 0,
+    "explanation": "Off-centre lifting can cause sudden shifting. The load may swing or tilt. The hook should be above the balance point."
+  },
+  {
+    "id": 163,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A worker uses a scaffold with missing guardrails. What is the hazard?",
+    "options": [
+      "Fall from height",
+      "Arc blow",
+      "Porosity",
+      "Burn-through"
+    ],
+    "answer": 0,
+    "explanation": "Guardrails help prevent falls. Missing fall protection makes elevated work unsafe. Scaffolds must be inspected before use."
+  },
+  {
+    "id": 164,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What should be checked before using a shackle?",
+    "options": [
+      "Rating, pin condition, and body damage",
+      "Electrode angle",
+      "Gas lens size",
+      "Weld bead colour"
+    ],
+    "answer": 0,
+    "explanation": "Shackles must be rated and undamaged. Pins must fit and thread properly. Damaged rigging hardware can fail under load."
+  },
+  {
+    "id": 165,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A load is being moved overhead through a shop. What should happen first?",
+    "options": [
+      "Clear and control the travel path",
+      "Move quickly without warning",
+      "Carry it over workers carefully",
+      "Remove tag lines"
+    ],
+    "answer": 0,
+    "explanation": "Suspended loads must not travel over people. The route should be cleared before moving. Communication prevents struck-by injuries."
+  },
+  {
+    "id": 166,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "Why should chain slings not be knotted to shorten them?",
+    "options": [
+      "Knots weaken and damage the sling",
+      "Knots increase WLL",
+      "Knots improve balance",
+      "Knots reduce load weight"
+    ],
+    "answer": 0,
+    "explanation": "Knots create stress points and reduce capacity. Rigging must be adjusted with approved methods. Improvised shortening is unsafe."
+  },
+  {
+    "id": 167,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A ladder extends only slightly above the landing surface. What is the concern?",
+    "options": [
+      "Unsafe access and poor handhold",
+      "Too much weld heat",
+      "Better stability",
+      "Lower fall risk"
+    ],
+    "answer": 0,
+    "explanation": "Ladders must provide safe access at the top. Insufficient extension makes getting on and off unsafe. Proper setup prevents falls."
+  },
+  {
+    "id": 168,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "When should a spotter be used with material handling equipment?",
+    "options": [
+      "When visibility or clearance is limited",
+      "Only when welding stainless steel",
+      "Only when using SMAW",
+      "When the load is very small only"
+    ],
+    "answer": 0,
+    "explanation": "Spotters help guide movement in tight or blind areas. They reduce collision and struck-by hazards. Clear communication is essential."
+  },
+  {
+    "id": 169,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "A load is suspended while workers take a break. What is wrong?",
+    "options": [
+      "Loads should not be left suspended unattended",
+      "Suspended loads become safer over time",
+      "It reduces hoist strain",
+      "It improves sling angle"
+    ],
+    "answer": 0,
+    "explanation": "Suspended loads can fall or move unexpectedly. Loads should be lowered to a safe position. Never leave a load hanging unattended."
+  },
+  {
+    "id": 170,
+    "category": "Task 2 — Access and Material Handling Equipment",
+    "question": "What is the safest way to move a gas cylinder in the shop?",
+    "options": [
+      "Secure it on a cylinder cart",
+      "Drag it by the cap",
+      "Roll it horizontally",
+      "Carry it by the regulator"
+    ],
+    "answer": 0,
+    "explanation": "Cylinders should be moved upright and secured. Valve protection is important when not connected. Dragging or carrying by the regulator is unsafe."
+  },
+  {
+    "id": 171,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "You are welding inside a small tank. What hazard must be controlled first?",
+    "options": [
+      "Confined space atmosphere",
+      "Weld bead colour",
+      "Grinder wheel shape",
+      "Chipping hammer size"
+    ],
+    "answer": 0,
+    "explanation": "Confined spaces may contain low oxygen or toxic gases. Testing, ventilation, permits, and standby procedures may be required. Entry must not begin until the space is safe."
+  },
+  {
+    "id": 172,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A worker is welding on painted steel. What is one major concern?",
+    "options": [
+      "Toxic fumes from heated coating",
+      "Too much clean metal",
+      "No need for ventilation",
+      "Reduced arc radiation"
+    ],
+    "answer": 0,
+    "explanation": "Paint and coatings can release harmful fumes. Coatings should be removed when required. Ventilation or respiratory protection may be needed."
+  },
+  {
+    "id": 173,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is the main reason for wearing leather gloves while welding?",
+    "options": [
+      "Protection from heat, sparks, and electric contact",
+      "To increase amperage",
+      "To reduce gas flow",
+      "To make slag peel faster"
+    ],
+    "answer": 0,
+    "explanation": "Gloves protect hands from burns and sparks. They also add insulation from electrical contact. Wet or damaged gloves should not be used."
+  },
+  {
+    "id": 174,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder’s sleeves are rolled up while welding. What hazard increases?",
+    "options": [
+      "Skin burns from UV radiation and sparks",
+      "Better ventilation",
+      "Lower heat input",
+      "Less arc light"
+    ],
+    "answer": 0,
+    "explanation": "Arc radiation can burn exposed skin. Sparks and spatter can also cause burns. Arms should be covered with flame-resistant clothing."
+  },
+  {
+    "id": 175,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What is the correct response to a small fire starting during welding?",
+    "options": [
+      "Stop work and use the proper fire extinguisher if safe",
+      "Keep welding and watch it",
+      "Blow oxygen on it",
+      "Cover it with oily rags"
+    ],
+    "answer": 0,
+    "explanation": "Fire must be controlled immediately. Use the correct extinguisher if safe to do so. Report and follow site emergency procedures."
+  },
+  {
+    "id": 176,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A compressed gas cylinder is stored near a heat source. What is the concern?",
+    "options": [
+      "Pressure may increase and create danger",
+      "Gas becomes safer when hot",
+      "Cylinder becomes lighter",
+      "Valve becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Heat can increase cylinder pressure. Cylinders must be protected from heat and damage. Proper storage reduces explosion and release hazards."
+  },
+  {
+    "id": 177,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why should oily gloves not be used around oxygen equipment?",
+    "options": [
+      "Oil and oxygen can react violently",
+      "Oil improves grip safely",
+      "Oxygen removes oil hazards",
+      "Oil prevents combustion"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen supports rapid combustion. Oil or grease near oxygen can ignite violently. Keep oxygen equipment and PPE oil-free."
+  },
+  {
+    "id": 178,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welder is working near others without screens. What is the hazard to nearby workers?",
+    "options": [
+      "Arc radiation exposure",
+      "Lower welding current",
+      "Better visibility",
+      "Reduced spark travel"
+    ],
+    "answer": 0,
+    "explanation": "Nearby workers can receive arc flash. They do not need to be welding to be injured. Screens should protect surrounding workers."
+  },
+  {
+    "id": 179,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "What does “fire watch” mean?",
+    "options": [
+      "A person monitors for fire during and after hot work",
+      "A person checks weld size only",
+      "A person adjusts amperage",
+      "A person cleans slag"
+    ],
+    "answer": 0,
+    "explanation": "Fire watch looks for sparks, smoke, or smouldering material. They may need to stay after welding stops. This helps prevent delayed fires."
+  },
+  {
+    "id": 180,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Which condition increases electric shock risk while welding?",
+    "options": [
+      "Wet clothing or wet gloves",
+      "Dry gloves",
+      "Clean work clamp",
+      "Proper insulation"
+    ],
+    "answer": 0,
+    "explanation": "Water lowers electrical resistance. Wet PPE makes shock more likely. Keep gloves, clothing, and work area dry."
+  },
+  {
+    "id": 181,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "Why should a respirator only be used when properly selected and fitted?",
+    "options": [
+      "Wrong respirator may not protect against the hazard",
+      "Any mask protects against all fumes",
+      "Fit does not matter",
+      "Respirators replace ventilation always"
+    ],
+    "answer": 0,
+    "explanation": "Respirators must match the hazard. Fit testing and correct cartridges are important. Improper respirators give false protection."
+  },
+  {
+    "id": 182,
+    "category": "Task 3 — Safety-Related Activities",
+    "question": "A welding area has poor housekeeping with cables, scrap, and tools on the floor. What is the main hazard?",
+    "options": [
+      "Trips and falls",
+      "Stronger welds",
+      "Better access",
+      "Less fire risk"
+    ],
+    "answer": 0,
+    "explanation": "Clutter causes tripping hazards. Poor housekeeping can also block emergency access. Clean work areas improve safety and productivity."
+  },
+  {
+    "id": 183,
+    "category": "Task 4 — Organizes Work",
+    "question": "A welder starts welding before confirming the electrode classification required by the WPS. What is the risk?",
+    "options": [
+      "Wrong filler metal may be used",
+      "Weld will automatically be stronger",
+      "WPS becomes unnecessary",
+      "Slag will not form"
+    ],
+    "answer": 0,
+    "explanation": "Filler metal must match the procedure. Wrong electrodes can cause rejection or failure. Always verify consumables before welding."
+  },
+  {
+    "id": 184,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should weld symbols be reviewed before fabrication?",
+    "options": [
+      "They tell weld type, size, length, and location",
+      "They set oxygen cylinder pressure",
+      "They replace PPE",
+      "They clean the joint"
+    ],
+    "answer": 0,
+    "explanation": "Weld symbols contain key fabrication information. Misreading them can place the wrong weld. Reviewing drawings prevents rework."
+  },
+  {
+    "id": 185,
+    "category": "Task 4 — Organizes Work",
+    "question": "A job requires inspection after root pass, but the welder completes the entire weld. What was missed?",
+    "options": [
+      "Hold point or inspection sequence",
+      "More amperage",
+      "Larger electrode",
+      "Better grinding"
+    ],
+    "answer": 0,
+    "explanation": "Some jobs require inspection before continuing. Welding past a hold point can cause rejection. Inspection requirements must be planned."
+  },
+  {
+    "id": 186,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why is material traceability important on some jobs?",
+    "options": [
+      "To prove correct material was used",
+      "To make the material lighter",
+      "To avoid cleaning",
+      "To increase cutting speed"
+    ],
+    "answer": 0,
+    "explanation": "Traceability links material to documentation. It may be required for code or quality jobs. Losing traceability can cause rejection."
+  },
+  {
+    "id": 187,
+    "category": "Task 4 — Organizes Work",
+    "question": "A welder notices the required shielding gas cylinder is almost empty before starting. What should be done?",
+    "options": [
+      "Replace or ensure enough gas before welding",
+      "Start anyway and hope it lasts",
+      "Use oxygen instead",
+      "Turn flow very low below procedure"
+    ],
+    "answer": 0,
+    "explanation": "Running out of gas can cause porosity. Gas type and flow must meet procedure. Preparation avoids weld defects and delays."
+  },
+  {
+    "id": 188,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should the workspace be arranged before welding a large assembly?",
+    "options": [
+      "To maintain access, safety, and efficient workflow",
+      "To increase clutter",
+      "To make cables harder to reach",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Large work needs room for movement and tools. Good layout reduces trips and handling hazards. It also improves weld access."
+  },
+  {
+    "id": 189,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A weld joint has moisture from rain. What should be done before welding?",
+    "options": [
+      "Dry the joint completely",
+      "Weld over it quickly",
+      "Add oil to displace water",
+      "Lower lens shade"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can cause porosity and hydrogen problems. It also increases electrical shock risk. The weld area must be dry."
+  },
+  {
+    "id": 190,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why should slag be removed before visual inspection?",
+    "options": [
+      "Slag can hide defects",
+      "Slag improves inspection",
+      "Slag shows exact fusion",
+      "Slag prevents cracks"
+    ],
+    "answer": 0,
+    "explanation": "Slag may cover undercut, cracks, or porosity. The weld surface must be visible. Clean welds can be inspected accurately."
+  },
+  {
+    "id": 191,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A tack weld is too large and blocks the root opening. What can this cause?",
+    "options": [
+      "Lack of root penetration",
+      "More accurate fit-up",
+      "Better root fusion always",
+      "Less grinding only"
+    ],
+    "answer": 0,
+    "explanation": "Oversized tacks can interfere with root welding. They can block access to the root. Tacks should be sized and placed correctly."
+  },
+  {
+    "id": 192,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the purpose of grinding a weld repair area before rewelding?",
+    "options": [
+      "To remove defects and expose sound metal",
+      "To add contamination",
+      "To reduce fusion",
+      "To make cracks invisible"
+    ],
+    "answer": 0,
+    "explanation": "Repairs require clean sound metal. Grinding removes cracks, slag, or gouging marks. Welding over defects is not acceptable."
+  },
+  {
+    "id": 193,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Which NDT method uses magnetic fields to find surface or near-surface defects in ferromagnetic materials?",
+    "options": [
+      "Magnetic particle testing",
+      "Liquid soap test",
+      "Visual only",
+      "Bend testing"
+    ],
+    "answer": 0,
+    "explanation": "Magnetic particle testing is used on ferromagnetic materials. It can reveal surface and near-surface flaws. It is common for weld inspection."
+  },
+  {
+    "id": 194,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the purpose of a soap solution test on gas equipment?",
+    "options": [
+      "Detect leaks by bubbles",
+      "Clean slag from welds",
+      "Measure amperage",
+      "Increase oxygen pressure"
+    ],
+    "answer": 0,
+    "explanation": "Soap solution forms bubbles at leaks. It is used to check gas connections. Never use flame to test for leaks."
+  },
+  {
+    "id": 195,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A weld requires preheat of 100°C. Where should the temperature be checked?",
+    "options": [
+      "In the required area near the joint according to procedure",
+      "Only on the electrode holder",
+      "Only on the gas cylinder",
+      "Only after welding is complete"
+    ],
+    "answer": 0,
+    "explanation": "Preheat applies to the base metal near the joint. Temperature must be verified as required. Procedure tells where and how to check."
+  },
+  {
+    "id": 196,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is post-weld cleaning done?",
+    "options": [
+      "To remove slag, spatter, and surface contamination",
+      "To reduce weld size secretly",
+      "To hide cracks",
+      "To add porosity"
+    ],
+    "answer": 0,
+    "explanation": "Cleaning improves inspection and appearance. It can also prepare for painting or further work. Surface defects are easier to see after cleaning."
+  },
+  {
+    "id": 197,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A weld passes visual inspection but requires UT. What does UT stand for?",
+    "options": [
+      "Ultrasonic testing",
+      "Universal torch",
+      "Under temperature",
+      "Uneven tack"
+    ],
+    "answer": 0,
+    "explanation": "Ultrasonic testing uses sound waves. It can detect internal defects. It is a non-destructive test method."
+  },
+  {
+    "id": 198,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "What is the purpose of marking completed welds on a drawing or checklist?",
+    "options": [
+      "To track progress and inspection status",
+      "To change weld size",
+      "To reduce ventilation",
+      "To remove NDT needs"
+    ],
+    "answer": 0,
+    "explanation": "Tracking prevents missed welds. It also helps inspection and quality records. Documentation is part of organized work."
+  },
+  {
+    "id": 199,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "A welder notices undercut during visual inspection. What should happen?",
+    "options": [
+      "Repair if it exceeds acceptance limits",
+      "Ignore all undercut",
+      "Cover it with paint",
+      "Add oil to the weld toe"
+    ],
+    "answer": 0,
+    "explanation": "Some minor discontinuities may have limits. Defects beyond acceptance criteria must be repaired. Inspection must compare against requirements."
+  },
+  {
+    "id": 200,
+    "category": "Task 5 — Routine Trade Activities",
+    "question": "Why is good housekeeping considered a routine trade activity?",
+    "options": [
+      "It prevents hazards and improves workflow",
+      "It makes welds larger",
+      "It replaces PPE",
+      "It increases fumes"
+    ],
+    "answer": 0,
+    "explanation": "Clean work areas reduce trips, fires, and lost tools. Housekeeping supports safety and efficiency. It is part of daily trade practice."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledRedSealWelderSectionAQuestions =
+  shuffleArray(redSealWelderSectionAQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "red-seal-welder",
+  tradeTitle: "Red Seal Welder",
+  sectionTitle: "Section A – Performs Common Occupational Skills",
+  questionTimeSeconds: 90,
+  questions: shuffledRedSealWelderSectionAQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledRedSealWelderSectionAQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

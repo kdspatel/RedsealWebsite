@@ -1,0 +1,1396 @@
+const painterDecoratorLevel1Set4Questions = [
+  {
+    "id": 1,
+    "category": "A1 - Manage workplace hazards",
+    "question": "A painter is working in a room with poor ventilation and a strong coating smell. What hazard should be controlled first?",
+    "options": [
+      "Colour mismatch",
+      "Vapour exposure",
+      "Brush size",
+      "Wall height"
+    ],
+    "answer": 1,
+    "explanation": "Strong odour can indicate vapours in the work area. Ventilation, product information, and proper PPE may be required. Never rely on smell alone to judge safety."
+  },
+  {
+    "id": 2,
+    "category": "A1 - Manage workplace hazards",
+    "question": "Which action best prevents injuries from poor housekeeping?",
+    "options": [
+      "Keep tools, cords, and materials organized",
+      "Store all tools on the floor",
+      "Leave drop sheets loose in walkways",
+      "Clean only after the job is complete"
+    ],
+    "answer": 0,
+    "explanation": "Good housekeeping prevents trips, slips, and falls. Organized materials also improve efficiency. Walkways and exits should stay clear."
+  },
+  {
+    "id": 3,
+    "category": "A1 - Manage workplace hazards",
+    "question": "You see paint dust collecting near an air return vent. What is the best concern?",
+    "options": [
+      "Dust may spread through the building",
+      "Dust will improve airflow",
+      "Dust makes paint dry faster",
+      "Dust protects the filter forever"
+    ],
+    "answer": 0,
+    "explanation": "Dust can move through ventilation systems. This can expose others and contaminate clean areas. Dust control and isolation may be needed."
+  },
+  {
+    "id": 4,
+    "category": "A1 - Manage workplace hazards",
+    "question": "What is the best example of hazard elimination?",
+    "options": [
+      "Wearing gloves while using a damaged tool",
+      "Replacing a damaged ladder with a safe one",
+      "Warning people about a spill but leaving it",
+      "Working faster around hazards"
+    ],
+    "answer": 1,
+    "explanation": "Elimination removes the hazard completely. Replacing unsafe equipment is stronger than relying on caution. PPE is usually a lower-level control.  ---  ### A2. Interpret OHS Regulations and WorkSafeBC Standards — 3 Questions"
+  },
+  {
+    "id": 5,
+    "category": "A2 - Interpret OHS regulations and WorkSafeBC standards",
+    "question": "What information does an SDS usually provide?",
+    "options": [
+      "Colour trends only",
+      "Product hazards, PPE, handling, storage, and first aid",
+      "Customer paint preferences",
+      "Ladder height calculations only"
+    ],
+    "answer": 1,
+    "explanation": "SDS means Safety Data Sheet. It explains chemical hazards and safe-use requirements. Workers should know where to find it."
+  },
+  {
+    "id": 6,
+    "category": "A2 - Interpret OHS regulations and WorkSafeBC standards",
+    "question": "A worker is not trained to operate a lift but is told to use it. What should they do?",
+    "options": [
+      "Operate it slowly",
+      "Ask for proper training and authorization",
+      "Let another untrained worker explain it",
+      "Use it only indoors"
+    ],
+    "answer": 1,
+    "explanation": "Equipment must be used by trained workers. Untrained operation can cause injury or damage. Workers should ask before doing unfamiliar tasks."
+  },
+  {
+    "id": 7,
+    "category": "A2 - Interpret OHS regulations and WorkSafeBC standards",
+    "question": "Why are safety inspections done before work starts?",
+    "options": [
+      "To delay the job",
+      "To identify and correct hazards early",
+      "To replace all training",
+      "To choose paint colour"
+    ],
+    "answer": 1,
+    "explanation": "Inspections find unsafe conditions before injuries happen. They help confirm equipment and work areas are ready. Prevention is better than reacting after an incident.  ---  ### A3. Apply Confined Space Awareness — 2 Questions"
+  },
+  {
+    "id": 8,
+    "category": "A3 - Apply confined space awareness",
+    "question": "Which condition makes painting inside a small utility vault dangerous?",
+    "options": [
+      "Limited entry and possible poor air quality",
+      "Smooth walls",
+      "Good lighting",
+      "Clean concrete"
+    ],
+    "answer": 0,
+    "explanation": "Limited entry makes escape difficult. Vapours or low oxygen can develop in enclosed spaces. Confined space procedures may be required."
+  },
+  {
+    "id": 9,
+    "category": "A3 - Apply confined space awareness",
+    "question": "Why is rescue planning important for confined space work?",
+    "options": [
+      "Workers may not be able to exit without help",
+      "It improves paint colour",
+      "It replaces ventilation",
+      "It makes the space larger"
+    ],
+    "answer": 0,
+    "explanation": "Confined spaces can become dangerous quickly. Rescue must be planned before entry. Unplanned rescue can endanger more workers.  ---  ### A4. Use Fall Protection Systems and Equipment — 4 Questions"
+  },
+  {
+    "id": 10,
+    "category": "A4 - Use fall protection systems and equipment",
+    "question": "Which item is part of a personal fall-arrest system?",
+    "options": [
+      "Full-body harness",
+      "Paint tray",
+      "Putty knife",
+      "Drop sheet"
+    ],
+    "answer": 0,
+    "explanation": "Fall-arrest systems commonly use a harness, lanyard, and anchor. Each part must be compatible and inspected. The system must be set up correctly."
+  },
+  {
+    "id": 11,
+    "category": "A4 - Use fall protection systems and equipment",
+    "question": "What should be checked before using an anchor point?",
+    "options": [
+      "Whether it is approved and strong enough",
+      "Whether it matches the paint colour",
+      "Whether it is close to the lunchroom",
+      "Whether it is easy to reach only"
+    ],
+    "answer": 0,
+    "explanation": "Anchor points must handle fall forces. Improper anchors can fail during a fall. Only approved anchor points should be used."
+  },
+  {
+    "id": 12,
+    "category": "A4 - Use fall protection systems and equipment",
+    "question": "Why is a rescue plan needed when using fall arrest?",
+    "options": [
+      "A suspended worker may be injured if not rescued quickly",
+      "It helps choose roller size",
+      "It prevents paint from drying",
+      "It replaces the harness"
+    ],
+    "answer": 0,
+    "explanation": "After a fall, suspension can become dangerous. Rescue must be possible and planned. Fall protection includes more than just wearing a harness."
+  },
+  {
+    "id": 13,
+    "category": "A4 - Use fall protection systems and equipment",
+    "question": "A worker ties knots in a lanyard to shorten it. Why is this unsafe?",
+    "options": [
+      "Knots can weaken equipment and change performance",
+      "Knots make the lanyard stronger",
+      "Knots improve certification",
+      "Knots reduce all fall hazards"
+    ],
+    "answer": 0,
+    "explanation": "Fall protection equipment must not be altered. Knots can reduce strength. Use proper adjustable equipment instead.  ---  ### A5. Use Personal Protective Equipment — 4 Questions"
+  },
+  {
+    "id": 14,
+    "category": "A5 - Use personal protective equipment",
+    "question": "Which PPE helps protect hearing during loud sanding or grinding?",
+    "options": [
+      "Earplugs or earmuffs",
+      "Safety glasses only",
+      "Cotton gloves",
+      "Knee pads"
+    ],
+    "answer": 0,
+    "explanation": "Loud tools can damage hearing. Hearing protection reduces noise exposure. PPE should match the hazard."
+  },
+  {
+    "id": 15,
+    "category": "A5 - Use personal protective equipment",
+    "question": "Why should respirator cartridges be changed?",
+    "options": [
+      "They can become saturated and stop protecting properly",
+      "They improve forever with age",
+      "They are only decorative",
+      "They never expire"
+    ],
+    "answer": 0,
+    "explanation": "Cartridges have limited service life. Chemical breakthrough can expose the worker. Change-out schedules and product guidance should be followed."
+  },
+  {
+    "id": 16,
+    "category": "A5 - Use personal protective equipment",
+    "question": "When mixing dry powdered material, what hazard may require respiratory protection?",
+    "options": [
+      "Airborne dust",
+      "Colour reflection",
+      "Wall temperature",
+      "Brush stiffness"
+    ],
+    "answer": 0,
+    "explanation": "Dry powders can become airborne. Inhaling dust may harm lungs. Dust control and suitable PPE may be required."
+  },
+  {
+    "id": 17,
+    "category": "A5 - Use personal protective equipment",
+    "question": "Why should safety glasses fit properly?",
+    "options": [
+      "Gaps can allow particles or splashes into the eyes",
+      "Loose glasses improve protection",
+      "Fit affects paint colour",
+      "Tight fit replaces all PPE"
+    ],
+    "answer": 0,
+    "explanation": "Eye protection must shield the eyes effectively. Poor fit reduces protection. Goggles may be needed for splash hazards.  ---  ### A6. Use Fire Safety Procedures — 2 Questions"
+  },
+  {
+    "id": 18,
+    "category": "A6 - Use fire safety procedures",
+    "question": "Which source can ignite flammable vapours?",
+    "options": [
+      "Spark, flame, heater, or static discharge",
+      "Clean water only",
+      "Drywall compound",
+      "Colour sample"
+    ],
+    "answer": 0,
+    "explanation": "Flammable vapours can ignite easily. Ignition sources must be removed or controlled. Ventilation is also important."
+  },
+  {
+    "id": 19,
+    "category": "A6 - Use fire safety procedures",
+    "question": "Why should flammable liquids be kept in closed containers when not in use?",
+    "options": [
+      "To reduce vapour release and fire risk",
+      "To increase evaporation",
+      "To make spills more likely",
+      "To remove labels"
+    ],
+    "answer": 0,
+    "explanation": "Closed containers reduce vapour escape. They also lower spill and contamination risk. Proper storage protects workers and the site.  ---  ## B. USE TOOLS AND EQUIPMENT — 20 Questions  ### B1. Use Hand Tools and Measuring Equipment — 7 Questions"
+  },
+  {
+    "id": 20,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "Which tool is best for smoothing a fresh caulking bead?",
+    "options": [
+      "Caulking tool or damp finger, depending on product",
+      "Wire wheel",
+      "Hammer",
+      "Chalk line"
+    ],
+    "answer": 0,
+    "explanation": "Caulking should be tooled for adhesion and appearance. Tooling presses it into the joint. Follow product instructions for cleanup and smoothing."
+  },
+  {
+    "id": 21,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "A paint roller frame is bent. What problem can it cause?",
+    "options": [
+      "Uneven pressure and poor finish",
+      "Better coverage",
+      "Faster cleaning",
+      "Stronger paint film"
+    ],
+    "answer": 0,
+    "explanation": "Bent tools apply uneven pressure. This can leave streaks or roller marks. Damaged tools should be repaired or replaced."
+  },
+  {
+    "id": 22,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "Why use a wet film gauge?",
+    "options": [
+      "To check coating thickness while wet",
+      "To measure room temperature",
+      "To test ladder angle",
+      "To identify colour families"
+    ],
+    "answer": 0,
+    "explanation": "Film thickness affects coating performance. Too thin may fail early; too thick may sag or dry poorly. A wet film gauge helps confirm application rate."
+  },
+  {
+    "id": 23,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "A roller cover is shedding lint. What is the best action?",
+    "options": [
+      "Remove lint or replace the cover",
+      "Keep using it on finish surfaces",
+      "Add thinner to the paint",
+      "Press harder"
+    ],
+    "answer": 0,
+    "explanation": "Lint creates finish defects. Quality tools are important for smooth work. Defective covers should not be used for final coats."
+  },
+  {
+    "id": 24,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "What does a moisture meter help determine?",
+    "options": [
+      "Whether a surface may be too wet to coat",
+      "Whether paint is the right colour",
+      "Whether a ladder is tall enough",
+      "Whether a brush is clean"
+    ],
+    "answer": 0,
+    "explanation": "Moisture affects coating adhesion. Wet wood, concrete, or drywall can cause failure. Testing helps avoid painting too soon."
+  },
+  {
+    "id": 25,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "Which tool helps remove paint from narrow corners or profiles?",
+    "options": [
+      "Detail scraper",
+      "Paint tray",
+      "Roller pole",
+      "Measuring tape"
+    ],
+    "answer": 0,
+    "explanation": "Detail scrapers reach small or shaped areas. They help remove loose coatings. Use care to avoid damaging the substrate."
+  },
+  {
+    "id": 26,
+    "category": "B1 - Use hand tools and measuring equipment",
+    "question": "Why should measuring tools be kept clean and undamaged?",
+    "options": [
+      "Accurate measurements depend on readable, straight tools",
+      "Dirty tools measure faster",
+      "Damage improves accuracy",
+      "Measurements do not affect painting work"
+    ],
+    "answer": 0,
+    "explanation": "Estimating depends on accurate measurements. Damaged tape measures can give wrong results. Wrong measurements can waste materials.  ---  ### B2. Use Abrasive Media — 3 Questions"
+  },
+  {
+    "id": 27,
+    "category": "B2 - Use abrasive media",
+    "question": "What is the purpose of sanding glossy enamel before repainting?",
+    "options": [
+      "To create tooth for better adhesion",
+      "To make it more slippery",
+      "To remove all primer",
+      "To add moisture"
+    ],
+    "answer": 0,
+    "explanation": "Glossy surfaces can resist bonding. Sanding creates a mechanical profile. Cleaning is still required before coating."
+  },
+  {
+    "id": 28,
+    "category": "B2 - Use abrasive media",
+    "question": "Why should abrasives be changed when clogged?",
+    "options": [
+      "Clogged abrasives cut poorly and can scratch unevenly",
+      "Clogged abrasives become sharper",
+      "They improve finish quality",
+      "They remove the need for dust control"
+    ],
+    "answer": 0,
+    "explanation": "Loaded sandpaper stops cutting properly. It can drag material across the surface. Fresh abrasive gives better control."
+  },
+  {
+    "id": 29,
+    "category": "B2 - Use abrasive media",
+    "question": "Which grit progression is most logical when smoothing a rough repair?",
+    "options": [
+      "Coarse first, then finer",
+      "Finest first, then coarsest",
+      "Same torn paper forever",
+      "No sanding after filler"
+    ],
+    "answer": 0,
+    "explanation": "Coarse grit shapes quickly. Finer grit removes coarse scratches. Progression helps create a smooth finish.  ---  ### B3. Use Power and Pneumatic Tools — 4 Questions"
+  },
+  {
+    "id": 30,
+    "category": "B3 - Use power and pneumatic tools",
+    "question": "A power tool vibrates unusually during use. What should you do?",
+    "options": [
+      "Stop and inspect it",
+      "Push harder",
+      "Ignore it if it still works",
+      "Use it only at full speed"
+    ],
+    "answer": 0,
+    "explanation": "Unusual vibration may indicate damage or loose parts. Continuing may cause injury or tool failure. Defective tools should be removed from service."
+  },
+  {
+    "id": 31,
+    "category": "B3 - Use power and pneumatic tools",
+    "question": "Why should dust collection be used with power sanding when possible?",
+    "options": [
+      "It reduces airborne dust at the source",
+      "It makes sanding unnecessary",
+      "It changes paint sheen",
+      "It eliminates all cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Source control is an effective dust control method. It protects workers and nearby areas. Respiratory protection may still be required."
+  },
+  {
+    "id": 32,
+    "category": "B3 - Use power and pneumatic tools",
+    "question": "Which condition makes an extension cord unsafe?",
+    "options": [
+      "Exposed wires or damaged insulation",
+      "Proper rating",
+      "Grounded plug",
+      "Good condition"
+    ],
+    "answer": 0,
+    "explanation": "Exposed wires can cause shock or fire. Electrical tools must be inspected before use. Damaged cords should not be used."
+  },
+  {
+    "id": 33,
+    "category": "B3 - Use power and pneumatic tools",
+    "question": "Why should compressed air not be used to clean dust off clothing?",
+    "options": [
+      "It can drive particles into skin or eyes",
+      "It improves PPE",
+      "It is the safest cleaning method",
+      "It removes all chemical hazards"
+    ],
+    "answer": 0,
+    "explanation": "Compressed air can cause injury. It can also spread dust into the breathing zone. Use safer cleanup methods.  ---  ### B4. Use Access Equipment — 6 Questions"
+  },
+  {
+    "id": 34,
+    "category": "B4 - Use access equipment",
+    "question": "What is the safest ladder position rule?",
+    "options": [
+      "Set it at the proper angle on firm level ground",
+      "Place it on boxes to gain height",
+      "Lean it sideways if needed",
+      "Use it on slippery surfaces"
+    ],
+    "answer": 0,
+    "explanation": "Ladder stability depends on angle and footing. Firm, level support prevents slipping and tipping. Improvised supports are unsafe."
+  },
+  {
+    "id": 35,
+    "category": "B4 - Use access equipment",
+    "question": "Why should ladders extend above a landing when used for access?",
+    "options": [
+      "To provide a safe handhold when stepping off",
+      "To make the ladder heavier",
+      "To store paint cans",
+      "To replace guardrails"
+    ],
+    "answer": 0,
+    "explanation": "Extension above the landing helps safe transition. Workers need support while getting on and off. Access ladders must be secured properly."
+  },
+  {
+    "id": 36,
+    "category": "B4 - Use access equipment",
+    "question": "A worker moves a mobile scaffold with someone on it. What is the problem?",
+    "options": [
+      "The worker on it may fall",
+      "It improves efficiency safely",
+      "It reduces need for guardrails",
+      "It makes wheels lock automatically"
+    ],
+    "answer": 0,
+    "explanation": "Moving occupied scaffolds is dangerous unless specifically allowed by procedure. Sudden movement can cause falls. Workers should descend before moving it."
+  },
+  {
+    "id": 37,
+    "category": "B4 - Use access equipment",
+    "question": "Why inspect scaffold components before assembly?",
+    "options": [
+      "Damaged parts can cause collapse or falls",
+      "Inspection changes paint colour",
+      "It makes scaffold lighter",
+      "It replaces training"
+    ],
+    "answer": 0,
+    "explanation": "Scaffolds must support workers and materials. Cracked, bent, or missing parts are unsafe. Inspection prevents using defective equipment."
+  },
+  {
+    "id": 38,
+    "category": "B4 - Use access equipment",
+    "question": "What should you do if your work requires standing on the top cap of a step ladder?",
+    "options": [
+      "Use a taller ladder or proper platform",
+      "Stand carefully on the top cap",
+      "Ask someone to hold your belt",
+      "Use one foot only"
+    ],
+    "answer": 0,
+    "explanation": "Top caps are not standing platforms. Standing there makes the ladder unstable. Correct access equipment must be selected."
+  },
+  {
+    "id": 39,
+    "category": "B4 - Use access equipment",
+    "question": "Why should tools be secured when working from heights?",
+    "options": [
+      "Falling tools can injure people below",
+      "Tools dry faster at height",
+      "It improves colour matching",
+      "It replaces guardrails"
+    ],
+    "answer": 0,
+    "explanation": "Dropped objects are serious hazards. Toe boards, lanyards, and controlled zones may be used. Workers below must be protected.  ---  ## C. ORGANIZE WORK — 9 Questions  ### C1. Use Mathematics — 6 Questions"
+  },
+  {
+    "id": 40,
+    "category": "C1 - Use mathematics",
+    "question": "A wall is 15 ft long and 9 ft high. What is the area?",
+    "options": [
+      "24 sq ft",
+      "54 sq ft",
+      "135 sq ft",
+      "270 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Area equals length × height. 15 × 9 = 135. The wall area is 135 sq ft."
+  },
+  {
+    "id": 41,
+    "category": "C1 - Use mathematics",
+    "question": "A room has a perimeter of 50 ft and wall height of 8 ft. What is total wall area before openings?",
+    "options": [
+      "58 sq ft",
+      "200 sq ft",
+      "400 sq ft",
+      "800 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Wall area can be perimeter × height. 50 × 8 = 400. The total wall area is 400 sq ft."
+  },
+  {
+    "id": 42,
+    "category": "C1 - Use mathematics",
+    "question": "A rectangular wall is 4 m wide and 2.5 m high. What is the area?",
+    "options": [
+      "6.5 m²",
+      "8 m²",
+      "10 m²",
+      "16 m²"
+    ],
+    "answer": 2,
+    "explanation": "Area equals width × height. 4 × 2.5 = 10. The area is 10 m²."
+  },
+  {
+    "id": 43,
+    "category": "C1 - Use mathematics",
+    "question": "A paint covers 350 sq ft per gallon. One coat is needed on 700 sq ft. How many gallons are needed?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Paint needed equals area ÷ coverage. 700 ÷ 350 = 2. Two gallons are needed before waste allowance."
+  },
+  {
+    "id": 44,
+    "category": "C1 - Use mathematics",
+    "question": "A trapezoid has height 4 m, top length 3 m, and bottom length 7 m. What is the area?",
+    "options": [
+      "10 m²",
+      "14 m²",
+      "20 m²",
+      "28 m²"
+    ],
+    "answer": 2,
+    "explanation": "Trapezoid area = H × ((L1 + L2) ÷ 2). 4 × ((3 + 7) ÷ 2) = 4 × 5. The area is 20 m²."
+  },
+  {
+    "id": 45,
+    "category": "C1 - Use mathematics",
+    "question": "A circle has radius 3 ft. What is its area?",
+    "options": [
+      "3π sq ft",
+      "6π sq ft",
+      "9π sq ft",
+      "18π sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Circle area = πr². r = 3, so 3² = 9. Area = 9π sq ft.  ---  ### C3. Communicate with Others — 1 Question"
+  },
+  {
+    "id": 46,
+    "category": "C3 - Communicate with others",
+    "question": "A coworker begins painting the wrong wall because the work area was unclear. What should have prevented this?",
+    "options": [
+      "Clear instructions, markings, and confirmation",
+      "Faster rolling",
+      "More paint thinner",
+      "Ignoring the work order"
+    ],
+    "answer": 0,
+    "explanation": "Clear communication prevents mistakes. Work areas and scope should be confirmed. Good coordination reduces rework.  ---  ### C4. Handle Materials — 2 Questions"
+  },
+  {
+    "id": 47,
+    "category": "C4 - Handle materials",
+    "question": "Why should paint be stored away from freezing temperatures?",
+    "options": [
+      "Freezing can damage some coatings",
+      "Freezing improves paint quality",
+      "Cold paint never changes",
+      "Frozen paint covers better"
+    ],
+    "answer": 0,
+    "explanation": "Some coatings are damaged by freezing. Texture, consistency, and performance can change. Storage instructions should be followed."
+  },
+  {
+    "id": 48,
+    "category": "C4 - Handle materials",
+    "question": "What is the safest way to carry long materials through a busy site?",
+    "options": [
+      "Plan the route and communicate with others",
+      "Spin quickly around corners",
+      "Carry them above people’s heads without warning",
+      "Walk backward alone"
+    ],
+    "answer": 0,
+    "explanation": "Long materials can strike workers or objects. Planning prevents collisions. Communication keeps others aware.  ---  ## D. PREPARE SURFACES — 20 Questions  ### D1. Prepare and Repair Drywall and Plaster Surfaces — 6 Questions"
+  },
+  {
+    "id": 49,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "Why should glossy painted drywall be cleaned before sanding?",
+    "options": [
+      "Grease or dirt can be spread by sanding",
+      "Cleaning makes sanding impossible",
+      "Dirt improves primer adhesion",
+      "Glossy walls never need preparation"
+    ],
+    "answer": 0,
+    "explanation": "Sanding through dirt can push contamination into scratches. Cleaning first gives a better surface. Proper order improves adhesion."
+  },
+  {
+    "id": 50,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "What is the purpose of taping a drywall joint?",
+    "options": [
+      "To reinforce the joint and reduce cracking",
+      "To make paint dry faster",
+      "To replace compound",
+      "To add colour"
+    ],
+    "answer": 0,
+    "explanation": "Tape bridges and strengthens joints. Compound alone may crack at seams. Proper taping creates a smooth, stable surface."
+  },
+  {
+    "id": 51,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "A nail pop appears under old paint. What is the best repair approach?",
+    "options": [
+      "Secure the board if needed, fill, sand, prime, and paint",
+      "Paint directly over the bump",
+      "Cut out the whole wall",
+      "Apply caulking over the entire wall"
+    ],
+    "answer": 0,
+    "explanation": "Nail pops must be corrected before finishing. Filling and sanding level the defect. Primer seals the repair."
+  },
+  {
+    "id": 52,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "Why should patches be allowed to dry fully before sanding?",
+    "options": [
+      "Wet compound can tear, smear, or shrink later",
+      "Wet compound sands smoother",
+      "Wet compound needs no primer",
+      "Drying changes the wall size"
+    ],
+    "answer": 0,
+    "explanation": "Compound must dry before shaping. Sanding too soon damages the repair. Shrinkage may reveal low spots."
+  },
+  {
+    "id": 53,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "A surface has mildew stains before painting. What should happen first?",
+    "options": [
+      "Clean and treat the mildew source",
+      "Paint over it quickly",
+      "Sand it dry without PPE",
+      "Cover it with clear tape"
+    ],
+    "answer": 0,
+    "explanation": "Mildew must be removed before coating. Moisture causes should be corrected. Painting over mildew can lead to failure."
+  },
+  {
+    "id": 54,
+    "category": "D1 - Prepare and repair drywall and plaster surfaces",
+    "question": "Why should repaired areas be checked by touch and sight?",
+    "options": [
+      "Some defects are felt better than seen",
+      "Touching replaces sanding",
+      "Sight is never useful",
+      "Paint hides all defects"
+    ],
+    "answer": 0,
+    "explanation": "Raised edges and ridges may be felt by hand. Visual inspection under light helps too. Good inspection improves final finish.  ---  ### D2. Prepare Wood Surfaces — 2 Questions"
+  },
+  {
+    "id": 55,
+    "category": "D2 - Prepare wood surfaces",
+    "question": "Why should end grain on bare wood be sealed well?",
+    "options": [
+      "It absorbs more coating and moisture",
+      "It rejects all primer",
+      "It never needs paint",
+      "It dries slower than metal only"
+    ],
+    "answer": 0,
+    "explanation": "End grain is very absorbent. Moisture entry can cause swelling and coating failure. Primer or sealer helps protect it."
+  },
+  {
+    "id": 56,
+    "category": "D2 - Prepare wood surfaces",
+    "question": "A painted wood window sill has soft, decayed areas. What should be done before painting?",
+    "options": [
+      "Repair or replace unsound wood",
+      "Paint over it with thick paint",
+      "Sand only the top surface",
+      "Apply caulking as structure"
+    ],
+    "answer": 0,
+    "explanation": "Coatings need a sound substrate. Rotten wood cannot hold paint properly. Structural or substrate repair comes first.  ---  ### D3. Treat and Repair Concrete and Masonry Surfaces — 4 Questions"
+  },
+  {
+    "id": 57,
+    "category": "D3 - Treat and repair concrete and masonry surfaces",
+    "question": "Why is pH important on concrete before coating?",
+    "options": [
+      "High alkalinity can affect coating performance",
+      "pH only affects colour names",
+      "Low pH always means no primer",
+      "pH is only for wood"
+    ],
+    "answer": 0,
+    "explanation": "Concrete can be alkaline, especially when new. High pH may damage some coatings. Testing may be required before coating."
+  },
+  {
+    "id": 58,
+    "category": "D3 - Treat and repair concrete and masonry surfaces",
+    "question": "What is the purpose of profiling concrete before some coatings?",
+    "options": [
+      "To create surface texture for mechanical bond",
+      "To make concrete glossy",
+      "To remove all need for cleaning",
+      "To increase moisture"
+    ],
+    "answer": 0,
+    "explanation": "Some coatings need a roughened profile. Smooth concrete may not hold coatings well. Profiling improves adhesion."
+  },
+  {
+    "id": 59,
+    "category": "D3 - Treat and repair concrete and masonry surfaces",
+    "question": "A masonry wall is dusty after wire brushing. What must happen before paint?",
+    "options": [
+      "Remove dust and loose residue",
+      "Paint over the dust",
+      "Add more dust for texture",
+      "Wet it and paint immediately"
+    ],
+    "answer": 0,
+    "explanation": "Dust prevents coating bond. Residue can cause peeling or roughness. Clean surfaces are required."
+  },
+  {
+    "id": 60,
+    "category": "D3 - Treat and repair concrete and masonry surfaces",
+    "question": "Why are masonry cracks repaired with suitable filler or patching material?",
+    "options": [
+      "To stop water entry and create a sound surface",
+      "To make the crack wider",
+      "To avoid cleaning",
+      "To change the paint sheen"
+    ],
+    "answer": 0,
+    "explanation": "Cracks can allow water and dirt in. They can show through coatings. Suitable repair material improves durability.  ---  ### D4. Prepare and Repair Metal Surfaces — 5 Questions"
+  },
+  {
+    "id": 61,
+    "category": "D4 - Prepare and repair metal surfaces",
+    "question": "Why is surface preparation especially important on metal?",
+    "options": [
+      "Metal coatings often fail if rust, oil, or mill scale remain",
+      "Metal never needs cleaning",
+      "Paint sticks to rust better than steel",
+      "Oil improves corrosion resistance"
+    ],
+    "answer": 0,
+    "explanation": "Metal needs clean and sound surfaces. Rust and oil reduce adhesion. Proper preparation improves corrosion protection."
+  },
+  {
+    "id": 62,
+    "category": "D4 - Prepare and repair metal surfaces",
+    "question": "What does “feathering” paint edges on metal mean?",
+    "options": [
+      "Sanding edges smooth where old coating remains",
+      "Applying feathers to wet paint",
+      "Making rust thicker",
+      "Cutting metal edges"
+    ],
+    "answer": 0,
+    "explanation": "Feathering blends old coating edges. It prevents visible ridges under new paint. It also improves transition between layers."
+  },
+  {
+    "id": 63,
+    "category": "D4 - Prepare and repair metal surfaces",
+    "question": "Why should metal primer be compatible with the finish coat?",
+    "options": [
+      "Incompatible systems can lift, wrinkle, or fail",
+      "Any primer works with any finish",
+      "Compatibility only affects smell",
+      "Primer and finish should always repel"
+    ],
+    "answer": 0,
+    "explanation": "Coating systems must work together. Wrong combinations can cause adhesion or curing problems. Follow product data sheets."
+  },
+  {
+    "id": 64,
+    "category": "D4 - Prepare and repair metal surfaces",
+    "question": "A steel surface is cleaned to bare metal but feels damp. What should happen?",
+    "options": [
+      "Dry it before priming",
+      "Prime over moisture",
+      "Add water-based paint immediately",
+      "Cover it with dust"
+    ],
+    "answer": 0,
+    "explanation": "Moisture causes corrosion and poor adhesion. Bare metal can rust quickly. The surface must be dry and clean."
+  },
+  {
+    "id": 65,
+    "category": "D4 - Prepare and repair metal surfaces",
+    "question": "What is a common reason paint fails around metal fasteners?",
+    "options": [
+      "Rust or movement around the fastener",
+      "Too much colour theory",
+      "Perfect priming",
+      "Smooth sanding only"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners can rust or move. Rust expands and breaks coating film. Fasteners may need cleaning, priming, or replacement.  ---  ### D6. Perform Hydro Cleaning — 3 Questions"
+  },
+  {
+    "id": 66,
+    "category": "D6 - Perform hydro cleaning",
+    "question": "Why should electrical outlets and fixtures be protected during hydro cleaning?",
+    "options": [
+      "Water and electricity create shock hazards",
+      "Water improves electrical safety",
+      "Outlets need pressure washing inside",
+      "Fixtures absorb paint better when wet"
+    ],
+    "answer": 0,
+    "explanation": "Water can enter electrical components. This creates shock or short-circuit hazards. Electrical areas must be protected."
+  },
+  {
+    "id": 67,
+    "category": "D6 - Perform hydro cleaning",
+    "question": "What can happen if pressure washing drives water behind siding?",
+    "options": [
+      "Moisture can be trapped and cause future coating failure",
+      "Paint becomes stronger",
+      "Siding becomes fireproof",
+      "Primer dries faster"
+    ],
+    "answer": 0,
+    "explanation": "Water behind siding may dry slowly. Trapped moisture can cause peeling or rot. Cleaning technique must avoid forcing water into assemblies."
+  },
+  {
+    "id": 68,
+    "category": "D6 - Perform hydro cleaning",
+    "question": "Why is runoff control important during hydro cleaning?",
+    "options": [
+      "Dirty water may contain paint chips or contaminants",
+      "Runoff improves landscaping",
+      "It increases coating adhesion",
+      "It replaces cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Wash water can carry debris, paint, or chemicals. Runoff may need containment. Environmental and site rules should be followed.  ---  ## E. APPLY PAINT AND COATINGS — 22 Questions  ### E1. Apply Paint — 11 Questions"
+  },
+  {
+    "id": 69,
+    "category": "E1 - Apply paint",
+    "question": "Why should paint be applied to a clean, dry, sound surface?",
+    "options": [
+      "Coatings need proper contact to adhere",
+      "Dirty surfaces improve bonding",
+      "Moisture always helps curing",
+      "Loose paint strengthens new paint"
+    ],
+    "answer": 0,
+    "explanation": "Adhesion depends on surface condition. Dirt, moisture, and loose material cause failure. Preparation is as important as application."
+  },
+  {
+    "id": 70,
+    "category": "E1 - Apply paint",
+    "question": "What is the purpose of primer on bare metal?",
+    "options": [
+      "Improve adhesion and corrosion resistance",
+      "Make metal rust faster",
+      "Replace finish coat always",
+      "Add dust to the surface"
+    ],
+    "answer": 0,
+    "explanation": "Metal primer bonds to prepared metal. It helps protect against corrosion. The correct primer depends on the metal and coating system."
+  },
+  {
+    "id": 71,
+    "category": "E1 - Apply paint",
+    "question": "What does “open time” mean in painting?",
+    "options": [
+      "Time paint remains workable before it starts setting",
+      "Time a store opens",
+      "Time before tools are cleaned",
+      "Time needed to remove masking only"
+    ],
+    "answer": 0,
+    "explanation": "Open time affects blending and brushing. Short open time can cause lap marks. Temperature and humidity can change it."
+  },
+  {
+    "id": 72,
+    "category": "E1 - Apply paint",
+    "question": "Why should masking tape be removed at the correct time?",
+    "options": [
+      "To prevent tearing paint or leaving poor edges",
+      "To make primer thicker",
+      "To avoid cleaning brushes",
+      "To increase drying time forever"
+    ],
+    "answer": 0,
+    "explanation": "Removing tape too late can tear film. Removing too early can smear wet paint. Timing depends on tape and coating."
+  },
+  {
+    "id": 73,
+    "category": "E1 - Apply paint",
+    "question": "What is “back brushing”?",
+    "options": [
+      "Brushing over applied coating to work it into the surface",
+      "Painting backward only",
+      "Cleaning a brush handle",
+      "Removing all paint with a brush"
+    ],
+    "answer": 0,
+    "explanation": "Back brushing improves penetration on some surfaces. It can help even out applied coating. It is often used on rough or porous materials."
+  },
+  {
+    "id": 74,
+    "category": "E1 - Apply paint",
+    "question": "Why should finish coats be applied in proper sequence?",
+    "options": [
+      "To avoid missed areas, lap marks, and uneven finish",
+      "Sequence never matters",
+      "It changes wall measurements",
+      "It removes all defects"
+    ],
+    "answer": 0,
+    "explanation": "Organized application keeps a wet edge. It helps maintain consistent coverage. Poor sequence can cause visible defects."
+  },
+  {
+    "id": 75,
+    "category": "E1 - Apply paint",
+    "question": "A finish coat shows brush marks. What could be a cause?",
+    "options": [
+      "Wrong brush, poor technique, or paint drying too fast",
+      "Correct tool and conditions always",
+      "Too much surface cleaning",
+      "Proper wet edge"
+    ],
+    "answer": 0,
+    "explanation": "Brush marks come from tool or application problems. Fast drying reduces leveling. Correct brush, technique, and conditions help."
+  },
+  {
+    "id": 76,
+    "category": "E1 - Apply paint",
+    "question": "Why should paint be strained before spraying?",
+    "options": [
+      "To prevent tip clogs and finish defects",
+      "To make paint unsafe",
+      "To remove pigment permanently",
+      "To increase drying time"
+    ],
+    "answer": 0,
+    "explanation": "Small debris can block spray tips. Clogs distort spray patterns. Straining helps produce a cleaner finish."
+  },
+  {
+    "id": 77,
+    "category": "E1 - Apply paint",
+    "question": "What is the main reason to follow manufacturer drying times?",
+    "options": [
+      "Coatings need time to form a proper film",
+      "Drying times are only suggestions with no purpose",
+      "Faster recoating always improves durability",
+      "Drying time affects only smell"
+    ],
+    "answer": 0,
+    "explanation": "Paint must dry or cure properly between coats. Recoating too early can trap solvents or moisture. This can cause wrinkling or adhesion failure."
+  },
+  {
+    "id": 78,
+    "category": "E1 - Apply paint",
+    "question": "What is the risk of painting in high humidity?",
+    "options": [
+      "Slower drying and possible coating defects",
+      "Instant curing",
+      "No effect on paint",
+      "Automatic mildew removal"
+    ],
+    "answer": 0,
+    "explanation": "Humidity slows water or solvent evaporation. Coatings may stay soft or develop defects. Conditions must meet product requirements."
+  },
+  {
+    "id": 79,
+    "category": "E1 - Apply paint",
+    "question": "Why is a test patch useful before full application?",
+    "options": [
+      "It confirms adhesion, colour, sheen, or compatibility",
+      "It replaces all surface preparation",
+      "It makes the job smaller",
+      "It prevents measuring"
+    ],
+    "answer": 0,
+    "explanation": "A test patch can reveal problems early. It helps confirm the coating system works. This prevents large-scale failure.  ---  ### E3. Identify and Correct Paint/Coating Failures — 3 Questions"
+  },
+  {
+    "id": 80,
+    "category": "E3 - Identify and correct paint/coating failures",
+    "question": "What is “blocking” in paint failure?",
+    "options": [
+      "Painted surfaces sticking together after drying",
+      "White salts on masonry",
+      "Rust on metal",
+      "A colour wheel term"
+    ],
+    "answer": 0,
+    "explanation": "Blocking happens when painted surfaces stick together. It can occur on doors, windows, or shelves. Poor curing or wrong coating may contribute."
+  },
+  {
+    "id": 81,
+    "category": "E3 - Identify and correct paint/coating failures",
+    "question": "What is the best first step before fixing any paint failure?",
+    "options": [
+      "Identify the cause of the failure",
+      "Paint over it immediately",
+      "Add more thinner",
+      "Change only the colour"
+    ],
+    "answer": 0,
+    "explanation": "Failures return if the cause remains. Moisture, contamination, or wrong product may be involved. Diagnosis comes before repair."
+  },
+  {
+    "id": 82,
+    "category": "E3 - Identify and correct paint/coating failures",
+    "question": "Paint wrinkles shortly after application. What is a likely cause?",
+    "options": [
+      "Coat applied too thick or recoated too soon",
+      "Surface was too perfectly prepared",
+      "Primer was completely dry",
+      "Paint was applied too evenly"
+    ],
+    "answer": 0,
+    "explanation": "Heavy coats can skin over while soft underneath. Recoating too soon can trap solvents. This can cause wrinkling.  ---  ### E5. Use Airless Spray Equipment — 7 Questions"
+  },
+  {
+    "id": 83,
+    "category": "E5 - Use airless spray equipment",
+    "question": "What does the first digit in many airless tip numbers usually relate to?",
+    "options": [
+      "Spray fan width",
+      "Paint colour",
+      "Hose length only",
+      "Primer type only"
+    ],
+    "answer": 0,
+    "explanation": "Tip numbers help identify fan width and orifice size. Correct tip choice affects coverage and control. Always follow equipment and product guidance."
+  },
+  {
+    "id": 84,
+    "category": "E5 - Use airless spray equipment",
+    "question": "Why should pressure be set as low as possible while still giving a good pattern?",
+    "options": [
+      "To reduce overspray and equipment wear",
+      "To increase waste",
+      "To make injection safer enough to ignore",
+      "To prevent paint from atomizing"
+    ],
+    "answer": 0,
+    "explanation": "Excess pressure increases overspray. It can also wear tips faster. Pressure should be adjusted to the coating and tip."
+  },
+  {
+    "id": 85,
+    "category": "E5 - Use airless spray equipment",
+    "question": "What is a spray pass overlap commonly used for?",
+    "options": [
+      "To create even coverage between passes",
+      "To make stripes",
+      "To reduce paint on the surface",
+      "To avoid moving the gun"
+    ],
+    "answer": 0,
+    "explanation": "Overlap prevents gaps between passes. Consistent overlap gives uniform film thickness. Poor overlap causes striping."
+  },
+  {
+    "id": 86,
+    "category": "E5 - Use airless spray equipment",
+    "question": "Why must the spray gun safety lock be used when not spraying?",
+    "options": [
+      "To reduce accidental triggering",
+      "To increase fan width",
+      "To clean the tip automatically",
+      "To change paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Accidental trigger pulls can cause injection injuries. The safety lock helps prevent unintended spray. It is part of safe equipment handling."
+  },
+  {
+    "id": 87,
+    "category": "E5 - Use airless spray equipment",
+    "question": "A spray hose has a bulge in it. What should happen?",
+    "options": [
+      "Remove it from service",
+      "Use it at lower pressure only",
+      "Wrap it with tape",
+      "Step on it to flatten it"
+    ],
+    "answer": 0,
+    "explanation": "A bulging hose may burst under pressure. Airless systems operate at high pressure. Damaged hoses are dangerous."
+  },
+  {
+    "id": 88,
+    "category": "E5 - Use airless spray equipment",
+    "question": "Why should filters be cleaned regularly in a spray system?",
+    "options": [
+      "Dirty filters restrict flow and affect spray pattern",
+      "Dirty filters improve atomization",
+      "Filters change paint sheen",
+      "Filters replace surface preparation"
+    ],
+    "answer": 0,
+    "explanation": "Blocked filters reduce material flow. This can cause poor spray patterns. Clean filters help maintain consistent spraying."
+  },
+  {
+    "id": 89,
+    "category": "E5 - Use airless spray equipment",
+    "question": "When spraying, why should the gun start moving before triggering?",
+    "options": [
+      "To avoid heavy buildup at the start point",
+      "To increase runs",
+      "To reduce control",
+      "To make the surface dusty"
+    ],
+    "answer": 0,
+    "explanation": "Triggering while still can overload one spot. Movement before and after triggering gives even coverage. Good technique prevents sags and heavy edges.  ---  ### E9. Apply Caulking — 1 Question"
+  },
+  {
+    "id": 90,
+    "category": "E9 - Apply caulking",
+    "question": "Why should joints be correctly sized before caulking?",
+    "options": [
+      "Caulking must have enough contact and flexibility to perform",
+      "Any gap size works the same",
+      "Bigger gaps always need more paint only",
+      "Joint size affects only colour"
+    ],
+    "answer": 0,
+    "explanation": "Sealants need proper joint design. Too much or too little material can fail. Backing rod may be needed in deep joints.  ---  ## G. APPLY FINISHES — 5 Questions  ### G3. Apply Graphics — 5 Questions"
+  },
+  {
+    "id": 91,
+    "category": "G3 - Apply graphics",
+    "question": "Why should a wall be tested for adhesion before installing large graphics?",
+    "options": [
+      "Poor paint adhesion can cause graphics to lift paint off",
+      "It makes the graphic brighter",
+      "It replaces cleaning",
+      "It changes the graphic size"
+    ],
+    "answer": 0,
+    "explanation": "Graphics pull on the coating underneath. Weak paint may fail under adhesive stress. Testing helps avoid damage."
+  },
+  {
+    "id": 92,
+    "category": "G3 - Apply graphics",
+    "question": "What is the purpose of transfer tape in graphic installation?",
+    "options": [
+      "It helps move and position cut graphics",
+      "It removes wall primer",
+      "It replaces adhesive",
+      "It sands the wall"
+    ],
+    "answer": 0,
+    "explanation": "Transfer tape holds graphic pieces in place. It helps keep spacing and alignment. It is removed after installation."
+  },
+  {
+    "id": 93,
+    "category": "G3 - Apply graphics",
+    "question": "Why should hands and tools be clean when applying graphics?",
+    "options": [
+      "Dirt or oil can affect adhesion and appearance",
+      "Dirt improves bonding",
+      "Oil removes bubbles",
+      "Clean tools make graphics smaller"
+    ],
+    "answer": 0,
+    "explanation": "Adhesives need clean contact. Contamination can show through or cause lifting. Clean handling improves final quality."
+  },
+  {
+    "id": 94,
+    "category": "G3 - Apply graphics",
+    "question": "What is the risk of stretching vinyl during installation?",
+    "options": [
+      "It may shrink back or distort later",
+      "It becomes stronger forever",
+      "It removes adhesive",
+      "It improves alignment automatically"
+    ],
+    "answer": 0,
+    "explanation": "Stretched vinyl can return toward its original shape. This can cause lifting or distortion. Gentle, controlled installation is important."
+  },
+  {
+    "id": 95,
+    "category": "G3 - Apply graphics",
+    "question": "Why should graphics be checked from normal viewing distance?",
+    "options": [
+      "Final appearance is judged from how people will see it",
+      "Close inspection is never useful",
+      "Distance changes adhesive chemistry",
+      "It replaces measuring"
+    ],
+    "answer": 0,
+    "explanation": "Graphics must look correct in real use. Alignment, bubbles, and wrinkles should be checked. Both close and normal-distance inspection are useful.  ---  ## H. APPLY COLOUR THEORY — 5 Questions  ### H1. Use Colour Theory — 3 Questions"
+  },
+  {
+    "id": 96,
+    "category": "H1 - Use colour theory",
+    "question": "What is a monochromatic colour scheme?",
+    "options": [
+      "Different values or intensities of one colour",
+      "Only opposite colours",
+      "Only three primary colours",
+      "Random colours from different families"
+    ],
+    "answer": 0,
+    "explanation": "Monochromatic schemes use one colour family. They may include tints, tones, and shades. They create a unified appearance."
+  },
+  {
+    "id": 97,
+    "category": "H1 - Use colour theory",
+    "question": "What is a tone?",
+    "options": [
+      "A colour mixed with grey",
+      "A colour mixed with only white",
+      "A colour mixed with only black",
+      "A coating failure"
+    ],
+    "answer": 0,
+    "explanation": "A tone is made by adding grey. A tint adds white, and a shade adds black. These terms help with colour adjustment."
+  },
+  {
+    "id": 98,
+    "category": "H1 - Use colour theory",
+    "question": "Why can surrounding colours affect a paint colour?",
+    "options": [
+      "Colours are perceived in relation to nearby colours",
+      "Surrounding colours change the paint formula",
+      "Neighbouring colours remove pigment",
+      "Colour perception never changes"
+    ],
+    "answer": 0,
+    "explanation": "The eye compares colours with nearby colours. A colour can look warmer, cooler, lighter, or darker depending on surroundings. Samples should be viewed in the real space.  ---  ### H2. Mix and Match Colours — 2 Questions"
+  },
+  {
+    "id": 99,
+    "category": "H2 - Mix and match colours",
+    "question": "Why should colour matches be recorded carefully?",
+    "options": [
+      "So the formula can be repeated later",
+      "So the paint dries faster",
+      "So primer is not needed",
+      "So the room becomes larger"
+    ],
+    "answer": 0,
+    "explanation": "Recording tint formulas helps future touch-ups. Unrecorded matches are hard to duplicate. Consistent documentation saves time."
+  },
+  {
+    "id": 100,
+    "category": "H2 - Mix and match colours",
+    "question": "Why should a touch-up paint be from the same batch when possible?",
+    "options": [
+      "Different batches can vary slightly in colour or sheen",
+      "Different batches always match perfectly",
+      "Batch does not affect appearance",
+      "Older paint always matches better"
+    ],
+    "answer": 0,
+    "explanation": "Small manufacturing differences can show after touch-up. Sheen and aging also affect appearance. Same batch improves the chance of a match."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledPainterDecoratorLevel1Set4Questions =
+  shuffleArray(painterDecoratorLevel1Set4Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "painter-and-decorator",
+  tradeTitle: "Painter and Decorator",
+  sectionTitle: "Level 1 – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledPainterDecoratorLevel1Set4Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledPainterDecoratorLevel1Set4Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

@@ -1,0 +1,27 @@
+function scrollRow(id, direction) {
+      const container = document.getElementById(id);
+      container.scrollBy({
+        left: direction * 320,
+        behavior: "smooth"
+      });
+    }
+
+    function showMockRequestMessage() {
+      document.getElementById("mockRequestModal").classList.add("active");
+    }
+
+    function closeMockRequestMessage() {
+      document.getElementById("mockRequestModal").classList.remove("active");
+    }
+
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape") {
+        closeMockRequestMessage();
+      }
+    });
+
+    document.getElementById("mockRequestModal").addEventListener("click", function(event) {
+      if (event.target === this) {
+        closeMockRequestMessage();
+      }
+    });

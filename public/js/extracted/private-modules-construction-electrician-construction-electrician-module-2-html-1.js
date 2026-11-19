@@ -1,0 +1,2696 @@
+const constructionElectricianSectionBGeneratingDistributionServiceQuestions = [
+  {
+    "id": 1,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "What is the main purpose of a service disconnect?",
+    "options": [
+      "To shut off power to the installation",
+      "To increase voltage",
+      "To measure resistance",
+      "To store energy"
+    ],
+    "answer": 0,
+    "explanation": "The service disconnect allows the electrical supply to be turned off. It is important for safety, maintenance, and emergencies."
+  },
+  {
+    "id": 2,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A common three-phase commercial service voltage is:",
+    "options": [
+      "12 V",
+      "24 V",
+      "120 V only",
+      "600Y/347 V"
+    ],
+    "answer": 3,
+    "explanation": "Many commercial systems use 600 V line-to-line and 347 V line-to-neutral. This allows both power and lighting loads."
+  },
+  {
+    "id": 3,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "In a 120/208 V wye system, what voltage is measured line-to-neutral?",
+    "options": [
+      "120 V",
+      "208 V",
+      "347 V",
+      "600 V"
+    ],
+    "answer": 0,
+    "explanation": "In a 120/208 V system, 120 V is line-to-neutral. The 208 V value is line-to-line."
+  },
+  {
+    "id": 4,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A revenue meter measures:",
+    "options": [
+      "Energy use",
+      "Conduit length",
+      "Ground rod depth",
+      "Wire colour"
+    ],
+    "answer": 0,
+    "explanation": "Revenue meters record electrical energy consumed. Utilities use this information for billing."
+  },
+  {
+    "id": 5,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A current transformer is commonly used to:",
+    "options": [
+      "Measure large current indirectly",
+      "Store voltage",
+      "Increase conduit size",
+      "Replace a breaker"
+    ],
+    "answer": 0,
+    "explanation": "CTs reduce high current to a smaller measurable value. This allows meters and relays to monitor large services safely."
+  },
+  {
+    "id": 6,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A CT secondary should not be opened while energized because:",
+    "options": [
+      "Dangerous voltage can develop",
+      "Current becomes safer",
+      "The meter improves accuracy",
+      "The breaker rating increases"
+    ],
+    "answer": 0,
+    "explanation": "CT secondaries must have a safe current path. Opening them under load can create hazardous voltage."
+  },
+  {
+    "id": 7,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "Service equipment must be installed so it is:",
+    "options": [
+      "Accessible",
+      "Hidden permanently",
+      "Unsupported",
+      "Used as storage"
+    ],
+    "answer": 0,
+    "explanation": "Service equipment must be reachable for operation and maintenance. This is especially important during emergencies."
+  },
+  {
+    "id": 8,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "Heat discoloration on a service lug usually suggests:",
+    "options": [
+      "Loose or high-resistance connection",
+      "Better conductivity",
+      "Lower voltage always",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Poor contact creates heat under load. Discoloration is a warning sign that the connection needs inspection."
+  },
+  {
+    "id": 9,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 600Y/347 V system has 600 V measured:",
+    "options": [
+      "Line-to-line",
+      "Line-to-neutral",
+      "Neutral-to-ground only",
+      "Across the bonding conductor"
+    ],
+    "answer": 0,
+    "explanation": "The first value in 600Y/347 V is the line-to-line voltage. The second value is line-to-neutral voltage."
+  },
+  {
+    "id": 10,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "Metering equipment must be connected according to:",
+    "options": [
+      "Utility and manufacturer requirements",
+      "Worker preference",
+      "Paint colour",
+      "Tool size"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect metering connections can cause inaccurate readings or hazards. CT polarity and phase connections matter."
+  },
+  {
+    "id": 11,
+    "category": "Task 8: Protection Devices",
+    "question": "What is the main job of a fuse?",
+    "options": [
+      "Open the circuit during excessive current",
+      "Increase voltage",
+      "Store electricity",
+      "Change AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "A fuse melts when current is too high. This protects conductors and equipment from overheating."
+  },
+  {
+    "id": 12,
+    "category": "Task 8: Protection Devices",
+    "question": "What is the main purpose of a circuit breaker?",
+    "options": [
+      "Protect against overcurrent",
+      "Increase load current",
+      "Store power",
+      "Reduce wire size automatically"
+    ],
+    "answer": 0,
+    "explanation": "Breakers open during overloads or faults. They protect wiring and equipment from damage."
+  },
+  {
+    "id": 13,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker trips instantly when reset. What is most likely?",
+    "options": [
+      "Short circuit or ground fault",
+      "Normal operation",
+      "Open switch only",
+      "Low lamp wattage"
+    ],
+    "answer": 0,
+    "explanation": "Instant tripping usually indicates very high current. The circuit should be checked before resetting again."
+  },
+  {
+    "id": 14,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker trips after several minutes. What is more likely?",
+    "options": [
+      "Overload",
+      "Open circuit",
+      "No load connected",
+      "Correct no-current condition"
+    ],
+    "answer": 0,
+    "explanation": "Delayed tripping often means the circuit is carrying too much current. The breaker heats and trips to protect conductors."
+  },
+  {
+    "id": 15,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker larger than the conductor rating can cause:",
+    "options": [
+      "Conductor overheating",
+      "Lower voltage",
+      "Better protection",
+      "Reduced current"
+    ],
+    "answer": 0,
+    "explanation": "Overcurrent protection must protect the conductor. An oversized breaker may allow unsafe current to flow."
+  },
+  {
+    "id": 16,
+    "category": "Task 8: Protection Devices",
+    "question": "A GFCI protects against:",
+    "options": [
+      "Ground fault shock hazard",
+      "Low lighting level",
+      "Wrong panel label only",
+      "High room temperature"
+    ],
+    "answer": 0,
+    "explanation": "A GFCI trips when current leaks from the intended path. This reduces shock risk."
+  },
+  {
+    "id": 17,
+    "category": "Task 8: Protection Devices",
+    "question": "An AFCI is designed to detect:",
+    "options": [
+      "Arcing faults",
+      "Low water pressure",
+      "Wrong paint colour",
+      "Open cabinet doors only"
+    ],
+    "answer": 0,
+    "explanation": "AFCIs detect electrical arcing that may start fires. Damaged cords and loose connections can cause arcs."
+  },
+  {
+    "id": 18,
+    "category": "Task 8: Protection Devices",
+    "question": "Surge protection devices protect equipment from:",
+    "options": [
+      "Voltage transients",
+      "Low ceiling height",
+      "Loose screws only",
+      "Low room light"
+    ],
+    "answer": 0,
+    "explanation": "Surge devices divert sudden voltage spikes. They help protect sensitive equipment from damage."
+  },
+  {
+    "id": 19,
+    "category": "Task 8: Protection Devices",
+    "question": "A fuse must be replaced with one having the correct:",
+    "options": [
+      "Type and rating",
+      "Colour only",
+      "Length only",
+      "Brand sticker only"
+    ],
+    "answer": 0,
+    "explanation": "Fuse class, voltage, current, and interrupting rating matter. Wrong fuses may not protect safely."
+  },
+  {
+    "id": 20,
+    "category": "Task 8: Protection Devices",
+    "question": "Interrupting rating means the device can safely:",
+    "options": [
+      "Open a fault current up to its rating",
+      "Store energy",
+      "Increase voltage",
+      "Reverse motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "Protective devices must be able to interrupt available fault current. Underrated devices can fail dangerously."
+  },
+  {
+    "id": 21,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panelboard is used to:",
+    "options": [
+      "Distribute power to circuits",
+      "Store tools",
+      "Change AC to water pressure",
+      "Replace all conductors"
+    ],
+    "answer": 0,
+    "explanation": "Panelboards contain overcurrent devices and distribute power. They feed branch circuits and equipment."
+  },
+  {
+    "id": 22,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel deadfront protects workers from:",
+    "options": [
+      "Contact with energized parts",
+      "Low light",
+      "Poor paint",
+      "Dust only"
+    ],
+    "answer": 0,
+    "explanation": "Deadfront covers block access to live bus and terminals. Missing deadfronts create shock and arc-flash hazards."
+  },
+  {
+    "id": 23,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "Missing filler plates in a panel can expose:",
+    "options": [
+      "Energized parts",
+      "Cold air only",
+      "Labels only",
+      "Spare screws"
+    ],
+    "answer": 0,
+    "explanation": "Open breaker spaces can expose live bus parts. Approved filler plates restore the enclosure barrier."
+  },
+  {
+    "id": 24,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel directory identifies:",
+    "options": [
+      "Circuit numbers and loads",
+      "Worker names",
+      "Lunch schedule",
+      "Tool prices"
+    ],
+    "answer": 0,
+    "explanation": "Panel directories help identify circuits safely. Poor labelling makes troubleshooting and isolation harder."
+  },
+  {
+    "id": 25,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A breaker must be suitable for:",
+    "options": [
+      "The panel it is installed in",
+      "The wall colour",
+      "The worker’s toolbox",
+      "The room temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Breakers must be approved for use in the specific panel. Wrong breakers may not connect or trip properly."
+  },
+  {
+    "id": 26,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A loose feeder termination can cause:",
+    "options": [
+      "Heat and arcing",
+      "Better current flow",
+      "Lower resistance",
+      "Higher power factor"
+    ],
+    "answer": 0,
+    "explanation": "Loose terminations create resistance. Under load, resistance produces heat and can lead to arcing."
+  },
+  {
+    "id": 27,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "Phase sequence is important for:",
+    "options": [
+      "Three-phase motor rotation",
+      "Receptacle colour",
+      "Wall height",
+      "Ground rod paint"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motors rotate according to phase sequence. Wrong sequence can make motors run backward."
+  },
+  {
+    "id": 28,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A distribution panel should have covers installed because:",
+    "options": [
+      "Energized parts must be guarded",
+      "It increases voltage",
+      "It reduces conductor size",
+      "It changes frequency"
+    ],
+    "answer": 0,
+    "explanation": "Covers protect workers from accidental contact. They also help contain equipment and keep foreign material out."
+  },
+  {
+    "id": 29,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "Torque specifications are important because they:",
+    "options": [
+      "Ensure proper terminal pressure",
+      "Increase breaker size",
+      "Reduce voltage to zero",
+      "Replace bonding"
+    ],
+    "answer": 0,
+    "explanation": "Proper torque prevents loose or damaged connections. Incorrect torque can cause overheating."
+  },
+  {
+    "id": 30,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A hot spot on one panel connection with normal current usually indicates:",
+    "options": [
+      "High-resistance connection",
+      "Correct operation",
+      "Better conductivity",
+      "Low load only"
+    ],
+    "answer": 0,
+    "explanation": "Heat at one connection often points to poor contact. The connection should be inspected after safe isolation."
+  },
+  {
+    "id": 31,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS is used to:",
+    "options": [
+      "Provide temporary backup power",
+      "Increase conduit size",
+      "Replace grounding",
+      "Measure resistance"
+    ],
+    "answer": 0,
+    "explanation": "UPS systems supply power when normal power fails. They often use batteries and inverters."
+  },
+  {
+    "id": 32,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS output may remain energized when input power is off because:",
+    "options": [
+      "Batteries are supplying power",
+      "The circuit is dead",
+      "The breaker is missing",
+      "The conduit is grounded"
+    ],
+    "answer": 0,
+    "explanation": "UPS batteries can keep the load energized. Stored energy must be considered during service."
+  },
+  {
+    "id": 33,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "Surge protective devices need good bonding because:",
+    "options": [
+      "Surges need a low-impedance path",
+      "Bonding increases room temperature",
+      "Bonding stores voltage",
+      "Surges need open circuits"
+    ],
+    "answer": 0,
+    "explanation": "Surge current must be diverted safely. Long or poor bonding paths reduce protection effectiveness."
+  },
+  {
+    "id": 34,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A failed indicator on a surge device means:",
+    "options": [
+      "Protection may no longer be available",
+      "Voltage is always zero",
+      "Current has stopped safely",
+      "The panel is overloaded only"
+    ],
+    "answer": 0,
+    "explanation": "Many surge devices use indicators to show protection status. A failed indicator means the device should be serviced or replaced."
+  },
+  {
+    "id": 35,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "Bonding connects metal parts together to:",
+    "options": [
+      "Provide a fault-current path",
+      "Increase load current",
+      "Store voltage",
+      "Lower room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Bonding allows fault current to return to the source. This helps protective devices open the circuit."
+  },
+  {
+    "id": 36,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "Grounding connects the electrical system to:",
+    "options": [
+      "Earth",
+      "Paint",
+      "Plastic",
+      "A tool belt"
+    ],
+    "answer": 0,
+    "explanation": "Grounding provides an earth reference. It helps stabilize system voltage."
+  },
+  {
+    "id": 37,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A metal enclosure should be bonded so it:",
+    "options": [
+      "Does not remain energized during a fault",
+      "Can carry normal neutral current",
+      "Increases voltage",
+      "Stores current"
+    ],
+    "answer": 0,
+    "explanation": "Bonding helps clear faults quickly. Without bonding, metal enclosures can become shock hazards."
+  },
+  {
+    "id": 38,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "Neutral current should normally flow on the:",
+    "options": [
+      "Grounded conductor",
+      "Bonding conductor",
+      "Cable tray",
+      "Equipment case"
+    ],
+    "answer": 0,
+    "explanation": "The grounded conductor is the neutral current path. Bonding conductors should carry fault current only."
+  },
+  {
+    "id": 39,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding jumper that is loose can cause:",
+    "options": [
+      "Unreliable fault-current path",
+      "Higher voltage output",
+      "Better grounding",
+      "Reduced load resistance"
+    ],
+    "answer": 0,
+    "explanation": "Bonding connections must be secure. Loose bonding can stop breakers or fuses from clearing faults."
+  },
+  {
+    "id": 40,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "Ground fault detection on an ungrounded system is used to:",
+    "options": [
+      "Warn of a ground fault",
+      "Increase lighting brightness",
+      "Store battery energy",
+      "Reverse motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "Ungrounded systems may keep running with one ground fault. Detection alarms so the fault can be found and repaired."
+  },
+  {
+    "id": 41,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator converts mechanical energy into:",
+    "options": [
+      "Electrical energy",
+      "Water pressure",
+      "Paint colour",
+      "Ground resistance"
+    ],
+    "answer": 0,
+    "explanation": "Generators produce electricity from mechanical rotation. Engine speed and alternator condition affect output."
+  },
+  {
+    "id": 42,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "Generator frequency depends mainly on:",
+    "options": [
+      "Rotational speed",
+      "Conduit size",
+      "Device colour",
+      "Cable tray width"
+    ],
+    "answer": 0,
+    "explanation": "AC generator frequency is tied to speed. If speed drops, frequency drops."
+  },
+  {
+    "id": 43,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A transfer switch is used to:",
+    "options": [
+      "Safely switch between power sources",
+      "Increase conductor size",
+      "Measure current only",
+      "Replace batteries"
+    ],
+    "answer": 0,
+    "explanation": "Transfer switches prevent unsafe source connections. They are important for generator systems."
+  },
+  {
+    "id": 44,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "Backfeeding the utility from a generator is dangerous because it can:",
+    "options": [
+      "Energize utility lines unexpectedly",
+      "Reduce all voltage to zero",
+      "Improve safety",
+      "Eliminate grounding"
+    ],
+    "answer": 0,
+    "explanation": "Backfeed can injure utility workers and damage equipment. Proper transfer equipment prevents this hazard."
+  },
+  {
+    "id": 45,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A rectifier changes:",
+    "options": [
+      "AC to DC",
+      "DC to air pressure",
+      "Resistance to conduit",
+      "Grounding to voltage"
+    ],
+    "answer": 0,
+    "explanation": "Rectifiers use electronic components to convert AC into DC. They are used in power supplies and chargers."
+  },
+  {
+    "id": 46,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "PV modules can produce voltage when:",
+    "options": [
+      "Exposed to light",
+      "Painted black only",
+      "Disconnected from all sunlight",
+      "Covered completely"
+    ],
+    "answer": 0,
+    "explanation": "Solar modules generate electricity from light. Conductors may remain energized even when disconnected from the inverter."
+  },
+  {
+    "id": 47,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "Battery systems are hazardous because they:",
+    "options": [
+      "Store electrical energy",
+      "Have no current capability",
+      "Cannot short circuit",
+      "Remove all shock risk"
+    ],
+    "answer": 0,
+    "explanation": "Batteries can supply current without utility power. They must be isolated and handled carefully."
+  },
+  {
+    "id": 48,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "DC polarity is important in battery systems because:",
+    "options": [
+      "Reversed polarity can damage equipment",
+      "Polarity does not matter",
+      "It changes conduit size",
+      "It removes current"
+    ],
+    "answer": 0,
+    "explanation": "DC systems are polarity-sensitive. Incorrect polarity can damage controls, inverters, and batteries."
+  },
+  {
+    "id": 49,
+    "category": "Task 14: High-Voltage Systems and Task 15: Transformers",
+    "question": "A transformer changes voltage using:",
+    "options": [
+      "Electromagnetic induction",
+      "Water pressure",
+      "Paint thickness",
+      "Box fill"
+    ],
+    "answer": 0,
+    "explanation": "Transformers use changing magnetic fields to transfer energy. They can step voltage up or down."
+  },
+  {
+    "id": 50,
+    "category": "Task 14: High-Voltage Systems and Task 15: Transformers",
+    "question": "A 75 kVA, 600 V three-phase transformer primary current is closest to:",
+    "options": [
+      "43 A",
+      "72 A",
+      "125 A",
+      "208 A"
+    ],
+    "answer": 1,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 75,000 ÷ (1.732 × 600) = about **72 A**. # Section B — Generating, Distribution and Service Systems"
+  },
+  {
+    "id": 51,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 600Y/347 V service is checked. What voltage should be measured line-to-neutral?",
+    "options": [
+      "120 V",
+      "208 V",
+      "347 V",
+      "600 V"
+    ],
+    "answer": 2,
+    "explanation": "In a wye system, line-to-neutral voltage is line voltage divided by √3. 600 V ÷ 1.732 = about **347 V**."
+  },
+  {
+    "id": 52,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 120/208 V three-phase service is checked. What voltage should be measured line-to-line?",
+    "options": [
+      "120 V",
+      "208 V",
+      "347 V",
+      "600 V"
+    ],
+    "answer": 1,
+    "explanation": "In a 120/208 V wye system, 120 V is line-to-neutral. 208 V is measured between two phase conductors."
+  },
+  {
+    "id": 53,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A CT secondary circuit is opened while the primary is energized. What is the main hazard?",
+    "options": [
+      "Dangerous high voltage may develop",
+      "Meter accuracy improves",
+      "Current becomes zero safely",
+      "Voltage becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Current transformer secondary circuits must remain closed or shorted when primary current flows. An open CT secondary can produce hazardous voltage and damage equipment."
+  },
+  {
+    "id": 54,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A meter shows incorrect energy reading after CT replacement. What should be checked first?",
+    "options": [
+      "CT polarity and phase connections",
+      "Wall colour",
+      "Ground rod depth",
+      "Breaker handle size"
+    ],
+    "answer": 0,
+    "explanation": "CT polarity and correct phase matching are critical for metering accuracy. Wrong CT direction or phase association can cause incorrect billing readings."
+  },
+  {
+    "id": 55,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "One service lug is heat-discoloured, but load current is normal. What is most likely?",
+    "options": [
+      "Loose or high-resistance termination",
+      "Correct operation",
+      "Oversized neutral",
+      "Low frequency"
+    ],
+    "answer": 0,
+    "explanation": "Heat at one lug with normal current usually points to poor contact. The connection must be inspected and corrected after safe isolation."
+  },
+  {
+    "id": 56,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A service disconnect is blocked by stored material. What is the issue?",
+    "options": [
+      "It is not accessible for operation",
+      "It increases voltage",
+      "It improves safety",
+      "It reduces load current"
+    ],
+    "answer": 0,
+    "explanation": "Service disconnects must be accessible for emergencies and maintenance. Blocked access can delay safe shutdown."
+  },
+  {
+    "id": 57,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 600Y/347 V service has 600 V from A-B, B-C, and C-A. What does this confirm?",
+    "options": [
+      "Line-to-line voltage is normal",
+      "Neutral is open for sure",
+      "Service is single-phase",
+      "Voltage is DC"
+    ],
+    "answer": 0,
+    "explanation": "A 600Y/347 V system should show about 600 V between phases. Line-to-neutral readings would be about 347 V."
+  },
+  {
+    "id": 58,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A meter socket jaw is pitted and darkened. What is the likely cause?",
+    "options": [
+      "Arcing or overheating from poor contact",
+      "Better contact pressure",
+      "Correct aging only",
+      "Low load current"
+    ],
+    "answer": 0,
+    "explanation": "Pitting and discoloration are signs of heat or arcing. Poor contact can damage metering equipment and create fire risk."
+  },
+  {
+    "id": 59,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A three-phase service has line voltages of 600 V, 598 V, and 575 V. What should be suspected?",
+    "options": [
+      "Voltage imbalance",
+      "Perfect balance",
+      "Correct no-load operation",
+      "Open bonding conductor only"
+    ],
+    "answer": 0,
+    "explanation": "One voltage is noticeably lower than the others. Voltage imbalance can cause motor overheating and equipment problems."
+  },
+  {
+    "id": 60,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "Why must service equipment be clearly identified?",
+    "options": [
+      "To allow correct isolation and operation",
+      "To increase current",
+      "To replace bonding",
+      "To reduce meter accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Clear identification helps workers shut off the correct supply. It reduces mistakes during service, troubleshooting, and emergencies."
+  },
+  {
+    "id": 61,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker trips instantly every time it is reset. What should be done?",
+    "options": [
+      "Troubleshoot for short circuit or ground fault",
+      "Keep resetting it",
+      "Replace it with a larger breaker",
+      "Tape it in the ON position"
+    ],
+    "answer": 0,
+    "explanation": "Instant tripping usually means very high fault current. Repeated resetting can damage equipment and increase danger."
+  },
+  {
+    "id": 62,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker trips after 15 minutes while equipment is running. What is most likely?",
+    "options": [
+      "Overload or heating condition",
+      "Open circuit",
+      "Correct no-load operation",
+      "Reversed polarity only"
+    ],
+    "answer": 0,
+    "explanation": "Delayed tripping often means current is above the rating for a period of time. This is different from an instant short-circuit trip."
+  },
+  {
+    "id": 63,
+    "category": "Task 8: Protection Devices",
+    "question": "A conductor rated for 20 A is protected by a 40 A breaker without proper allowance. What is the hazard?",
+    "options": [
+      "Conductor may overheat before breaker trips",
+      "Breaker trips too early",
+      "Voltage becomes safer",
+      "Current becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Overcurrent protection must protect conductor ampacity. Oversized protection can allow unsafe heating."
+  },
+  {
+    "id": 64,
+    "category": "Task 8: Protection Devices",
+    "question": "A fuse keeps opening when a motor starts. What should be checked before replacing it again?",
+    "options": [
+      "Motor starting current, fault condition, and fuse type",
+      "Paint colour",
+      "Panel label font",
+      "Ground rod depth only"
+    ],
+    "answer": 0,
+    "explanation": "Repeated fuse operation means the cause must be found. Wrong fuse class, overload, short, or high inrush may be involved."
+  },
+  {
+    "id": 65,
+    "category": "Task 8: Protection Devices",
+    "question": "A protective device has an interrupting rating lower than available fault current. What can happen?",
+    "options": [
+      "It may fail violently during a fault",
+      "It will always trip safely",
+      "It lowers system voltage",
+      "It improves coordination"
+    ],
+    "answer": 0,
+    "explanation": "Interrupting rating must be high enough for available fault current. Underrated devices may not safely clear faults."
+  },
+  {
+    "id": 66,
+    "category": "Task 8: Protection Devices",
+    "question": "A GFCI trips when a wet outdoor tool is connected. What is likely?",
+    "options": [
+      "Leakage current to ground",
+      "Perfect dry operation",
+      "Wrong phase sequence",
+      "Low power factor only"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can allow current to leak from the intended path. A GFCI trips when outgoing and returning current are unequal."
+  },
+  {
+    "id": 67,
+    "category": "Task 8: Protection Devices",
+    "question": "An AFCI trips when a damaged cord is moved. What does this suggest?",
+    "options": [
+      "Intermittent arcing",
+      "Correct cord operation",
+      "Open CT secondary",
+      "Low frequency only"
+    ],
+    "answer": 0,
+    "explanation": "Movement can make damaged conductors arc intermittently. AFCIs are designed to detect arcing conditions that may start fires."
+  },
+  {
+    "id": 68,
+    "category": "Task 8: Protection Devices",
+    "question": "Two breakers trip in the wrong order during a fault, shutting down more equipment than necessary. What concept is involved?",
+    "options": [
+      "Selective coordination",
+      "Phase rotation",
+      "Cathodic protection",
+      "Voltage transformation"
+    ],
+    "answer": 0,
+    "explanation": "Selective coordination means the closest protective device should open first. Poor coordination can shut down larger parts of the system."
+  },
+  {
+    "id": 69,
+    "category": "Task 8: Protection Devices",
+    "question": "A surge protective device has long coiled bonding leads. What is the concern?",
+    "options": [
+      "Increased impedance reduces surge protection",
+      "Better surge operation",
+      "Lower load current",
+      "Higher meter accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Surge currents rise very quickly and need a short, low-impedance path. Long coiled leads reduce SPD effectiveness."
+  },
+  {
+    "id": 70,
+    "category": "Task 8: Protection Devices",
+    "question": "A fuse is replaced with the same amp rating but wrong class. What is the concern?",
+    "options": [
+      "Time-current and interrupting performance may be wrong",
+      "Voltage will become zero",
+      "Breaker rating increases",
+      "Grounding improves"
+    ],
+    "answer": 0,
+    "explanation": "Fuse class affects how it responds to faults and overloads. Same amp rating alone does not guarantee correct protection."
+  },
+  {
+    "id": 71,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A distribution panel has missing filler plates. What is the main hazard?",
+    "options": [
+      "Exposed energized bus or terminals",
+      "Lower voltage",
+      "Better ventilation",
+      "Lower current"
+    ],
+    "answer": 0,
+    "explanation": "Empty openings can expose live parts. Approved filler plates keep the panel guarded."
+  },
+  {
+    "id": 72,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A breaker is installed in a panel not listed for that breaker type. What is the issue?",
+    "options": [
+      "Compatibility and approval may be invalid",
+      "It always works better",
+      "Voltage becomes balanced",
+      "Current becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Breakers must be approved for the panel they are installed in. Wrong breakers may not connect, trip, or interrupt safely."
+  },
+  {
+    "id": 73,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A feeder breaker lug is not torqued to manufacturer specification. What is likely under load?",
+    "options": [
+      "Overheating at the termination",
+      "Better voltage regulation",
+      "Lower resistance always",
+      "Reduced fault current only"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect torque can cause poor contact pressure or conductor damage. Poor connections heat under load."
+  },
+  {
+    "id": 74,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panelboard has no accurate circuit directory. What problem does this create?",
+    "options": [
+      "Unsafe circuit identification",
+      "Higher power factor",
+      "Better load balance",
+      "Lower voltage"
+    ],
+    "answer": 0,
+    "explanation": "Accurate directories help workers isolate the correct circuit. Poor labelling increases troubleshooting mistakes and shock risk."
+  },
+  {
+    "id": 75,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel bus connection shows pitting and heat marks. What should be suspected?",
+    "options": [
+      "Arcing or poor contact",
+      "Correct operation",
+      "Better conductivity",
+      "Lower current always"
+    ],
+    "answer": 0,
+    "explanation": "Pitting and heat marks indicate damaged contact surfaces. This can lead to overheating and equipment failure."
+  },
+  {
+    "id": 76,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "Phase sequence is changed in a distribution panel feeding motors. What must be verified?",
+    "options": [
+      "Motor rotation",
+      "Wall colour",
+      "Exit sign arrows only",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor rotation depends on phase sequence. Incorrect sequence can make motors run backward."
+  },
+  {
+    "id": 77,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A neutral bar is bonded to the enclosure where it should be isolated. What can result?",
+    "options": [
+      "Neutral current on metal parts",
+      "Better grounding always",
+      "Lower load current",
+      "No current flow"
+    ],
+    "answer": 0,
+    "explanation": "Improper neutral-to-case bonding creates parallel return paths. This can put normal current on raceways and enclosures."
+  },
+  {
+    "id": 78,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A transformer feeder breaker trips only when the transformer is first energized. What should be considered?",
+    "options": [
+      "Transformer inrush current",
+      "Exit sign battery",
+      "Receptacle polarity",
+      "Ground rod spacing"
+    ],
+    "answer": 0,
+    "explanation": "Transformers can draw high magnetizing inrush at energization. Protection must allow normal inrush while still clearing faults."
+  },
+  {
+    "id": 79,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A distribution panel deadfront is missing. What is the hazard?",
+    "options": [
+      "Workers may contact energized parts",
+      "Voltage decreases safely",
+      "Current becomes balanced",
+      "Breakers become larger"
+    ],
+    "answer": 0,
+    "explanation": "Deadfronts guard live components. Missing covers create shock and arc-flash exposure."
+  },
+  {
+    "id": 80,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A hot spot appears on one panel termination during infrared scan, with similar load current to other phases. What is likely?",
+    "options": [
+      "High-resistance connection",
+      "Perfect operation",
+      "Better contact pressure",
+      "Low voltage only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven heating with similar current points to poor contact. The connection should be corrected after safe shutdown."
+  },
+  {
+    "id": 81,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS output remains energized after normal input power is off. Why?",
+    "options": [
+      "Battery/inverter backup is supplying power",
+      "Circuit is guaranteed dead",
+      "Grounding removed voltage",
+      "Surge protection is off"
+    ],
+    "answer": 0,
+    "explanation": "UPS systems continue supplying loads during input failure. Stored energy must be isolated and verified before service."
+  },
+  {
+    "id": 82,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS battery string is being serviced. What is a major hazard?",
+    "options": [
+      "Stored DC energy and high short-circuit current",
+      "No available current",
+      "No polarity concern",
+      "Zero shock risk"
+    ],
+    "answer": 0,
+    "explanation": "Battery strings can deliver dangerous voltage and current. Tools, PPE, isolation, and polarity control are important."
+  },
+  {
+    "id": 83,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A power conditioner overheats inside a small unventilated room. What is likely?",
+    "options": [
+      "Inadequate ventilation",
+      "Too much bonding",
+      "Low ground resistance",
+      "Correct operation only"
+    ],
+    "answer": 0,
+    "explanation": "Power conditioning equipment produces heat. Poor airflow can cause overheating and equipment failure."
+  },
+  {
+    "id": 84,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A surge protective device indicator shows failed after a storm. What should be done?",
+    "options": [
+      "Replace or service according to instructions",
+      "Ignore it if power is on",
+      "Remove the bonding conductor",
+      "Increase load current"
+    ],
+    "answer": 0,
+    "explanation": "A failed indicator means protection may no longer be active. The SPD should be restored to proper operation."
+  },
+  {
+    "id": 85,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A metal enclosure becomes energized and the breaker does not trip. What should be suspected?",
+    "options": [
+      "Poor bonding/fault-current path",
+      "Correct operation",
+      "Oversized box",
+      "High power factor"
+    ],
+    "answer": 0,
+    "explanation": "Bonding provides a low-impedance fault path. Without a good path, the breaker may not trip."
+  },
+  {
+    "id": 86,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding jumper is loose between metal raceway sections. What is the main concern?",
+    "options": [
+      "Fault-current path may be unreliable",
+      "Voltage automatically doubles",
+      "Circuit becomes DC",
+      "Current becomes zero safely"
+    ],
+    "answer": 0,
+    "explanation": "Bonding continuity must be secure. A loose jumper can prevent protective devices from clearing faults."
+  },
+  {
+    "id": 87,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A ground fault detector alarms on an ungrounded system, but equipment continues running. What should be done?",
+    "options": [
+      "Locate and repair the first ground fault",
+      "Ignore it permanently",
+      "Ground any phase randomly",
+      "Remove the detector"
+    ],
+    "answer": 0,
+    "explanation": "Ungrounded systems may continue after one ground fault. A second fault can become a serious phase-to-phase fault."
+  },
+  {
+    "id": 88,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "Neutral and bonding conductors are connected together downstream where they should be separated. What can happen?",
+    "options": [
+      "Objectionable current on metal parts",
+      "Better operation always",
+      "Lower voltage drop only",
+      "No possible effect"
+    ],
+    "answer": 0,
+    "explanation": "Neutral current should stay on the grounded conductor. Improper downstream bonding creates parallel current paths."
+  },
+  {
+    "id": 89,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding lug is installed over paint. What is the problem?",
+    "options": [
+      "Poor electrical contact",
+      "Better corrosion protection only",
+      "Higher voltage",
+      "Reduced load current"
+    ],
+    "answer": 0,
+    "explanation": "Bonding connections need clean conductive contact unless listed otherwise. Paint can add resistance and weaken the fault-current path."
+  },
+  {
+    "id": 90,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A ground fault relay sensor does not include all current-carrying conductors. What may happen?",
+    "options": [
+      "False tripping or incorrect detection",
+      "Perfect operation always",
+      "Voltage becomes zero",
+      "Neutral current disappears"
+    ],
+    "answer": 0,
+    "explanation": "Ground fault sensors compare current balance. Missing a current-carrying conductor gives the relay incorrect information."
+  },
+  {
+    "id": 91,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A standby generator is connected without proper transfer equipment. What is the major hazard?",
+    "options": [
+      "Backfeeding the utility",
+      "Lower fuel use",
+      "Better grounding",
+      "Reduced voltage"
+    ],
+    "answer": 0,
+    "explanation": "Backfeed can energize utility lines unexpectedly. This can injure utility workers and damage equipment."
+  },
+  {
+    "id": 92,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator output frequency drops to 55 Hz under load. What should be checked?",
+    "options": [
+      "Engine speed and load regulation",
+      "Receptacle polarity",
+      "Box fill",
+      "Exit sign battery"
+    ],
+    "answer": 0,
+    "explanation": "Generator frequency depends on rotational speed. If engine speed drops under load, frequency drops."
+  },
+  {
+    "id": 93,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "Several motors rotate backward after transfer to generator power. What should be checked?",
+    "options": [
+      "Generator phase sequence",
+      "Battery case colour",
+      "Ground rod depth",
+      "Exit sign charger"
+    ],
+    "answer": 0,
+    "explanation": "Generator phase rotation must match the normal source for motor loads. Wrong sequence reverses three-phase motors."
+  },
+  {
+    "id": 94,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A rectifier output is low and has excessive ripple. What should be checked?",
+    "options": [
+      "Diodes and filter capacitors",
+      "Cable tray supports",
+      "Motor bearings",
+      "Ground rods"
+    ],
+    "answer": 0,
+    "explanation": "Diodes rectify AC and capacitors smooth DC output. Failure in either part can reduce DC quality."
+  },
+  {
+    "id": 95,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "PV array conductors remain energized after the inverter is shut off. Why?",
+    "options": [
+      "PV modules produce voltage when illuminated",
+      "The inverter is the only source",
+      "Grounding creates voltage",
+      "Breakers increase voltage"
+    ],
+    "answer": 0,
+    "explanation": "Solar modules can generate voltage whenever exposed to light. Shutting off the inverter does not remove all source-circuit voltage."
+  },
+  {
+    "id": 96,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery bank has exposed terminals during work. What is the main concern?",
+    "options": [
+      "High short-circuit current",
+      "No electrical hazard",
+      "No polarity issue",
+      "Low available energy only"
+    ],
+    "answer": 0,
+    "explanation": "Batteries can deliver very high current into a short. Tools and conductive materials must be controlled."
+  },
+  {
+    "id": 97,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery energy storage system is isolated from AC supply but still has DC voltage present. What does this mean?",
+    "options": [
+      "Stored energy remains present",
+      "It is fully safe to touch",
+      "Batteries cannot supply current",
+      "Voltage is only static"
+    ],
+    "answer": 0,
+    "explanation": "Batteries and DC bus capacitors can remain energized after AC isolation. Stored-energy procedures must be followed."
+  },
+  {
+    "id": 98,
+    "category": "Task 14: High-Voltage Systems and Task 15: Transformers",
+    "question": "Before working near high-voltage equipment, what is essential?",
+    "options": [
+      "Qualified procedure, isolation, testing, and grounding where required",
+      "Removing warning signs",
+      "Using ordinary tools only",
+      "Turning off lights"
+    ],
+    "answer": 0,
+    "explanation": "High-voltage work has severe shock and arc hazards. Only qualified workers using approved procedures should perform it."
+  },
+  {
+    "id": 99,
+    "category": "Task 14: High-Voltage Systems and Task 15: Transformers",
+    "question": "A transformer secondary voltage is low only under load. What should be checked?",
+    "options": [
+      "Overload, loose connections, or excessive voltage drop",
+      "Paint colour",
+      "Panel directory only",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "Normal no-load voltage but low loaded voltage suggests load-related voltage loss. Transformer capacity, conductor run, and terminations should be checked."
+  },
+  {
+    "id": 100,
+    "category": "Task 14: High-Voltage Systems and Task 15: Transformers",
+    "question": "A 150 kVA, 600 V three-phase transformer primary current is closest to:",
+    "options": [
+      "72 A",
+      "108 A",
+      "144 A",
+      "250 A"
+    ],
+    "answer": 2,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 150,000 ÷ (1.732 × 600) = about **144 A**. # Section B — Generating, Distribution and Service Systems"
+  },
+  {
+    "id": 101,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 600Y/347 V service has 347 V from A-N, 347 V from B-N, but 0 V from C-N. What should be suspected first?",
+    "options": [
+      "Lost phase or open connection on C phase",
+      "Normal wye system",
+      "Correct delta operation",
+      "Low power factor only"
+    ],
+    "answer": 0,
+    "explanation": "Each phase should read about 347 V to neutral on a 600Y/347 V system. A zero reading on one phase indicates an open fuse, lost phase, or connection problem."
+  },
+  {
+    "id": 102,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "After replacing CTs, the meter shows negative demand while the building is consuming power. What is the likely issue?",
+    "options": [
+      "CT polarity or phase association is incorrect",
+      "Building load is too low",
+      "Service voltage is too high",
+      "Neutral is oversized"
+    ],
+    "answer": 0,
+    "explanation": "CT polarity and matching to the correct voltage phase are critical. Reversed CTs or crossed phases can cause incorrect metering direction."
+  },
+  {
+    "id": 103,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "Infrared scanning shows the neutral lug hotter than the phase lugs on a service feeding many nonlinear loads. What should be considered?",
+    "options": [
+      "Harmonic neutral current and connection condition",
+      "Low room temperature",
+      "Correct no-load condition",
+      "Open grounding electrode only"
+    ],
+    "answer": 0,
+    "explanation": "Nonlinear loads can create triplen harmonics that add in the neutral. The neutral termination must also be checked for torque and corrosion."
+  },
+  {
+    "id": 104,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A meter socket jaw is badly pitted, and lights flicker when large loads start. What is the most likely concern?",
+    "options": [
+      "Poor meter contact causing voltage drop and heat",
+      "Correct meter operation",
+      "Better contact pressure",
+      "Ground rod too deep"
+    ],
+    "answer": 0,
+    "explanation": "Pitted jaws indicate arcing or overheating. Poor contact can cause voltage drop, flicker, equipment damage, and fire risk."
+  },
+  {
+    "id": 105,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 120/208 V service measures 120 V from A-N, 120 V from B-N, but nearly 0 V from A-B. What is most likely?",
+    "options": [
+      "A and B test points are on the same phase",
+      "Service is operating normally",
+      "Voltage is DC",
+      "Neutral is oversized"
+    ],
+    "answer": 0,
+    "explanation": "Two different phases on a 120/208 V system should read about 208 V line-to-line. Near 0 V means the points are likely the same phase or incorrectly identified."
+  },
+  {
+    "id": 106,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A service disconnect enclosure has moisture tracks and corrosion, but voltage readings are normal during inspection. What is the best action?",
+    "options": [
+      "Correct moisture entry and inspect damage",
+      "Ignore it because voltage is normal",
+      "Increase breaker size",
+      "Remove bonding conductors"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can cause future tracking, corrosion, and faults even if readings look normal now. The source of water entry and damaged components must be corrected."
+  },
+  {
+    "id": 107,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A three-phase service has current readings of 90 A, 88 A, and 40 A with similar connected loads. What should be investigated?",
+    "options": [
+      "Open or high-resistance phase connection/load imbalance",
+      "Perfect service balance",
+      "Correct neutral operation",
+      "Low meter accuracy only"
+    ],
+    "answer": 0,
+    "explanation": "One phase current much lower than the others may indicate load imbalance or a poor phase connection. Service conductors, fuses, lugs, and connected loads should be checked."
+  },
+  {
+    "id": 108,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A CT cabinet is being serviced. Which condition is most dangerous?",
+    "options": [
+      "Opening a CT secondary while primary current flows",
+      "Closing a cabinet door",
+      "Reading a panel schedule",
+      "Measuring room temperature"
+    ],
+    "answer": 0,
+    "explanation": "An energized CT secondary circuit must remain closed or shorted. Opening it can create dangerous voltage and damage equipment."
+  },
+  {
+    "id": 109,
+    "category": "Task 8: Protection Devices",
+    "question": "A feeder breaker trips immediately after a new panel is energized, with no branch loads connected. What is the best first suspicion?",
+    "options": [
+      "Feeder fault or panel internal fault",
+      "Normal overload",
+      "Low lighting load",
+      "Correct energization"
+    ],
+    "answer": 0,
+    "explanation": "Instant tripping with no loads connected suggests a short circuit or ground fault in the feeder or panel. The fault must be found before resetting."
+  },
+  {
+    "id": 110,
+    "category": "Task 8: Protection Devices",
+    "question": "A motor feeder fuse opens only during startup, but the motor runs normally if started unloaded. What should be checked?",
+    "options": [
+      "Starting current, mechanical load, and fuse class",
+      "Exit sign battery",
+      "Receptacle polarity",
+      "Panel paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Motor starting current can be several times running current. Heavy starting load or wrong fuse class can cause nuisance opening."
+  },
+  {
+    "id": 111,
+    "category": "Task 8: Protection Devices",
+    "question": "A downstream branch breaker and upstream main both trip on a small branch fault. What is the issue?",
+    "options": [
+      "Poor selective coordination",
+      "Correct coordination",
+      "Open neutral only",
+      "Low power factor correction"
+    ],
+    "answer": 0,
+    "explanation": "Ideally, the closest device to the fault should trip first. If upstream protection also trips, more of the system is shut down than necessary."
+  },
+  {
+    "id": 112,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker interrupting rating is 10 kA, but available fault current is calculated at 22 kA. What is the hazard?",
+    "options": [
+      "Breaker may fail to interrupt safely",
+      "Breaker will trip at lower current",
+      "Voltage will be reduced",
+      "System becomes safer"
+    ],
+    "answer": 0,
+    "explanation": "Interrupting rating must meet or exceed available fault current. An underrated breaker can fail violently during a short circuit."
+  },
+  {
+    "id": 113,
+    "category": "Task 8: Protection Devices",
+    "question": "A GFCI-protected outdoor pump trips only after heavy rain. Dry insulation readings are acceptable. What is most likely?",
+    "options": [
+      "Moisture-related leakage path",
+      "Wrong phase rotation",
+      "Open CT secondary",
+      "High generator frequency"
+    ],
+    "answer": 0,
+    "explanation": "Some ground faults appear only under wet conditions. Cable glands, motor terminals, seals, and conduits should be inspected for water entry."
+  },
+  {
+    "id": 114,
+    "category": "Task 8: Protection Devices",
+    "question": "A surge protective device is installed with long coiled leads. Why is this poor practice?",
+    "options": [
+      "It increases impedance and reduces surge performance",
+      "It lowers load current",
+      "It improves surge diversion",
+      "It removes transient voltage"
+    ],
+    "answer": 0,
+    "explanation": "Surge current rises quickly and is affected by lead inductance. Short, straight conductors improve surge protection performance."
+  },
+  {
+    "id": 115,
+    "category": "Task 8: Protection Devices",
+    "question": "A fuse is replaced with the same ampere rating but lower voltage rating. What is the concern?",
+    "options": [
+      "It may not safely interrupt circuit voltage",
+      "Current will become zero",
+      "Fuse will last longer",
+      "Voltage rating is not important"
+    ],
+    "answer": 0,
+    "explanation": "Fuse voltage rating must be suitable for the circuit voltage. A lower-rated fuse may not extinguish an arc safely."
+  },
+  {
+    "id": 116,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker trips after 30 minutes on a feeder loaded close to rating in a hot electrical room. What should be considered?",
+    "options": [
+      "Thermal overload and ambient temperature effect",
+      "Short circuit only",
+      "Open control circuit",
+      "Low voltage meter error"
+    ],
+    "answer": 0,
+    "explanation": "Heat affects breaker operation and conductor temperature. A circuit near rating in high ambient conditions may trip from thermal buildup."
+  },
+  {
+    "id": 117,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A breaker plug-on connection shows pitted bus damage. What is the correct concern?",
+    "options": [
+      "Poor contact can cause overheating and arcing",
+      "Bus is improved by pitting",
+      "Voltage becomes safer",
+      "Current becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Pitted bus surfaces indicate heat or arcing. Installing equipment on damaged bus can lead to failure and fire risk."
+  },
+  {
+    "id": 118,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel neutral bar is bonded to the enclosure in a subpanel where neutral should be isolated. What can happen?",
+    "options": [
+      "Neutral current may flow on metal raceways/enclosures",
+      "Voltage becomes zero",
+      "Ground fault protection improves always",
+      "Current stops flowing"
+    ],
+    "answer": 0,
+    "explanation": "Downstream neutral-to-bond connections create parallel neutral paths. This can energize metal parts with normal load current."
+  },
+  {
+    "id": 119,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A transformer feeder breaker trips during energization but holds on the second attempt. What should be considered?",
+    "options": [
+      "Transformer magnetizing inrush",
+      "Open neutral",
+      "Low lighting level",
+      "Wrong receptacle polarity"
+    ],
+    "answer": 0,
+    "explanation": "Transformers can draw high inrush current at the instant of energization. Protective device selection must account for normal inrush without ignoring faults."
+  },
+  {
+    "id": 120,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A newly installed distribution panel feeds several motors, all rotating backward. What is most likely?",
+    "options": [
+      "Phase sequence is reversed at the panel",
+      "All motors are defective",
+      "Neutral is open",
+      "Ground rod is missing"
+    ],
+    "answer": 0,
+    "explanation": "If all three-phase motors rotate backward, the phase order is likely reversed at a common source. Correct phase sequence before operation."
+  },
+  {
+    "id": 121,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A feeder termination is properly sized but has not been torqued. What is the likely failure mode?",
+    "options": [
+      "Heat from poor contact pressure",
+      "Lower resistance forever",
+      "Better current sharing",
+      "Improved grounding"
+    ],
+    "answer": 0,
+    "explanation": "Proper torque creates the contact pressure needed for safe current flow. Loose or over-tightened terminals can overheat."
+  },
+  {
+    "id": 122,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel directory says a circuit is off, but voltage is found at the load. What should be done?",
+    "options": [
+      "Stop and identify the true source",
+      "Trust the directory",
+      "Remove the bonding conductor",
+      "Continue if voltage is low"
+    ],
+    "answer": 0,
+    "explanation": "Directories can be wrong or the circuit may be backfed. The actual source must be found before work continues."
+  },
+  {
+    "id": 123,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panelboard has missing deadfront screws and the cover does not sit properly. What is the concern?",
+    "options": [
+      "Guarding and enclosure integrity are compromised",
+      "Voltage will decrease",
+      "Current will stop",
+      "Breakers will trip faster"
+    ],
+    "answer": 0,
+    "explanation": "Deadfronts must be properly secured to guard live parts. Poor cover fit can expose energized components or allow foreign objects in."
+  },
+  {
+    "id": 124,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A distribution panel is installed in a location where equipment access is blocked by permanent piping. What is wrong?",
+    "options": [
+      "Required working access is compromised",
+      "Voltage becomes unstable",
+      "Breakers become larger",
+      "Neutral current disappears"
+    ],
+    "answer": 0,
+    "explanation": "Distribution equipment must remain accessible for operation and maintenance. Permanent obstructions create unsafe service conditions."
+  },
+  {
+    "id": 125,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS maintenance bypass is operated incorrectly and briefly connects two unsynchronized sources together. What is the risk?",
+    "options": [
+      "Severe equipment damage from circulating current",
+      "Better load sharing",
+      "Lower system voltage safely",
+      "Improved battery life"
+    ],
+    "answer": 0,
+    "explanation": "Unsynchronized sources can force large currents between them. Bypass operation must follow the approved sequence."
+  },
+  {
+    "id": 126,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS battery string reads voltage even after input and output breakers are off. What does this indicate?",
+    "options": [
+      "Stored DC energy remains present",
+      "System is fully de-energized",
+      "Meter is always wrong",
+      "Batteries cannot supply current"
+    ],
+    "answer": 0,
+    "explanation": "Batteries remain energized independently of AC breakers. Stored-energy procedures must be followed before service."
+  },
+  {
+    "id": 127,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "Sensitive electronics keep failing even though a surge protective device is installed. The SPD has long leads and poor bonding. What is likely?",
+    "options": [
+      "Surge protection is ineffective due to high impedance path",
+      "Electronics are immune to surges",
+      "Bonding has no effect",
+      "Surge device increases voltage"
+    ],
+    "answer": 0,
+    "explanation": "SPDs need short, low-impedance connections. Long leads allow voltage rise during surges and reduce protection."
+  },
+  {
+    "id": 128,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A power conditioner overheats only during peak building load. What should be checked?",
+    "options": [
+      "Load level, ventilation, and equipment rating",
+      "Exit sign direction",
+      "Receptacle colour",
+      "Ground rod label"
+    ],
+    "answer": 0,
+    "explanation": "High load increases heat. Poor ventilation or undersized equipment can cause overheating during peak demand."
+  },
+  {
+    "id": 129,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A ground fault alarm appears on an ungrounded system, and later another alarm appears on a different phase. What is the danger?",
+    "options": [
+      "A phase-to-phase fault path may now exist",
+      "System is safer than before",
+      "Neutral current has disappeared",
+      "Frequency becomes higher"
+    ],
+    "answer": 0,
+    "explanation": "One ground fault may not trip an ungrounded system. A second fault on another phase can create a destructive line-to-line fault through ground paths."
+  },
+  {
+    "id": 130,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A transformer secondary neutral is bonded at both the transformer and downstream panel when only one bonding point is intended. What can result?",
+    "options": [
+      "Parallel neutral current paths",
+      "Increased insulation resistance",
+      "Lower fault current only",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "Multiple neutral-to-bond connections can put neutral current on raceways and enclosures. This can cause shock, heating, and interference."
+  },
+  {
+    "id": 131,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding jumper is installed on painted steel without removing paint. What is the concern?",
+    "options": [
+      "Fault-current path may have high resistance",
+      "Paint improves conductivity",
+      "Voltage becomes lower",
+      "Current becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Bonding connections require clean metal contact unless the equipment is listed otherwise. Paint can prevent reliable bonding."
+  },
+  {
+    "id": 132,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A ground fault relay trips with no actual fault found. The sensor surrounds phase conductors but not the neutral. What is likely?",
+    "options": [
+      "Sensor installation is incorrect",
+      "Relay is definitely correct",
+      "Voltage is too low",
+      "Neutral current is zero always"
+    ],
+    "answer": 0,
+    "explanation": "Ground fault sensors must include all intended current-carrying conductors. Leaving out the neutral can cause false imbalance readings."
+  },
+  {
+    "id": 133,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A metal enclosure has voltage to ground during a fault, but protection does not operate. What should be checked?",
+    "options": [
+      "Bonding continuity and fault-current path",
+      "Paint colour",
+      "Panel directory only",
+      "Lighting level"
+    ],
+    "answer": 0,
+    "explanation": "Protective devices require enough fault current to operate. Poor bonding can leave metal energized without tripping protection."
+  },
+  {
+    "id": 134,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding conductor is carrying normal load current. What does this indicate?",
+    "options": [
+      "Neutral and bonding paths are improperly connected",
+      "Correct bonding operation",
+      "Load is disconnected",
+      "Ground rod is too deep"
+    ],
+    "answer": 0,
+    "explanation": "Bonding conductors are not intended for normal load current. Normal current on bonding paths indicates improper neutral-bond connection or parallel path."
+  },
+  {
+    "id": 135,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A standby generator powers the building, but several three-phase motors run backward. What must be checked?",
+    "options": [
+      "Generator phase rotation compared with normal source",
+      "Fuel level only",
+      "Battery charger only",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "Generator phase sequence must match the normal source for motor loads. Incorrect phase sequence reverses motor rotation."
+  },
+  {
+    "id": 136,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "Generator voltage is acceptable, but frequency drops to 54 Hz when a compressor starts. What is likely?",
+    "options": [
+      "Engine speed/governor cannot hold under load",
+      "Voltage is DC",
+      "Neutral is oversized",
+      "Transfer switch is painted wrong"
+    ],
+    "answer": 0,
+    "explanation": "Generator frequency depends on engine speed. A large starting load can pull speed down if the generator or governor cannot respond."
+  },
+  {
+    "id": 137,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator transfer system does not fully isolate the utility source. What is the main hazard?",
+    "options": [
+      "Backfeed to utility lines",
+      "Lower fuel use",
+      "Reduced current",
+      "Better grounding"
+    ],
+    "answer": 0,
+    "explanation": "Backfeeding can energize utility equipment thought to be de-energized. Proper transfer equipment prevents dangerous source interconnection."
+  },
+  {
+    "id": 138,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A DC rectifier has AC input, low DC output, and excessive ripple. What components should be checked?",
+    "options": [
+      "Rectifier diodes and filter capacitors",
+      "Cable tray supports",
+      "Motor bearings",
+      "Exit signs"
+    ],
+    "answer": 0,
+    "explanation": "Diodes produce rectified DC and capacitors smooth it. Failed components can reduce output and increase ripple."
+  },
+  {
+    "id": 139,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator neutral is bonded incorrectly for the transfer switch arrangement. What can occur?",
+    "options": [
+      "Objectionable current or fault-clearing problems",
+      "Higher fuel efficiency",
+      "Lower voltage to zero",
+      "No possible issue"
+    ],
+    "answer": 0,
+    "explanation": "Generator bonding depends on system design and whether the neutral is switched. Incorrect bonding can create parallel neutral paths or poor fault clearing."
+  },
+  {
+    "id": 140,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A PV string has normal open-circuit voltage but much lower current than other strings. What is likely?",
+    "options": [
+      "Shading, failed module, or poor connection",
+      "Correct full output",
+      "Higher irradiance",
+      "Perfect operation"
+    ],
+    "answer": 0,
+    "explanation": "Open-circuit voltage can look normal even when current output is poor. Comparing string current helps locate shading or series-path problems."
+  },
+  {
+    "id": 141,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A PV combiner is opened, but conductors from the array remain energized. Why?",
+    "options": [
+      "Modules continue producing voltage in light",
+      "Grounding creates voltage",
+      "Breakers increase voltage",
+      "Inverter is the only source"
+    ],
+    "answer": 0,
+    "explanation": "PV source circuits are energized whenever illuminated. Opening one disconnect may not eliminate all voltage."
+  },
+  {
+    "id": 142,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery energy storage cabinet is isolated from AC, but DC terminals remain live. What must be followed?",
+    "options": [
+      "Stored-energy isolation and verification procedure",
+      "Assume it is safe",
+      "Short terminals with a screwdriver",
+      "Remove warning labels"
+    ],
+    "answer": 0,
+    "explanation": "Batteries and capacitors can remain energized after AC isolation. Safe work requires proper discharge, isolation, and testing."
+  },
+  {
+    "id": 143,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery bank has exposed terminals and a worker is using metal tools. What is the concern?",
+    "options": [
+      "High short-circuit current and arc hazard",
+      "No electrical hazard",
+      "Low available current",
+      "Polarity does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Battery systems can deliver very high current into a short circuit. Tools, jewelry, and conductive materials must be controlled."
+  },
+  {
+    "id": 144,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "A high-voltage cable is disconnected but may retain charge. What must be done before handling?",
+    "options": [
+      "Test, discharge, and ground as required",
+      "Assume it is safe",
+      "Use only a low-voltage tester",
+      "Remove warning signs"
+    ],
+    "answer": 0,
+    "explanation": "High-voltage cables can store charge. Approved testing, grounding, and discharge procedures protect workers."
+  },
+  {
+    "id": 145,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "A high-voltage bushing has tracking marks and contamination. What is the concern?",
+    "options": [
+      "Insulation failure or flashover",
+      "Better cooling",
+      "Lower voltage stress",
+      "Normal appearance"
+    ],
+    "answer": 0,
+    "explanation": "Tracking creates conductive paths across insulation. This can lead to arcing, flashover, and equipment failure."
+  },
+  {
+    "id": 146,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "A high-voltage compartment door interlock is bypassed for convenience. What is the main issue?",
+    "options": [
+      "Safety system is defeated",
+      "Voltage becomes lower",
+      "Fault current disappears",
+      "Metering improves"
+    ],
+    "answer": 0,
+    "explanation": "Interlocks prevent unsafe access to energized parts. Bypassing them exposes workers to shock and arc-flash hazards."
+  },
+  {
+    "id": 147,
+    "category": "Task 15: Transformers",
+    "question": "A 225 kVA, 600 V three-phase transformer primary current is closest to:",
+    "options": [
+      "125 A",
+      "217 A",
+      "375 A",
+      "649 A"
+    ],
+    "answer": 1,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 225,000 ÷ (1.732 × 600) = **216.5 A**."
+  },
+  {
+    "id": 148,
+    "category": "Task 15: Transformers",
+    "question": "A 150 kVA, 208 V three-phase transformer secondary current is closest to:",
+    "options": [
+      "240 A",
+      "312 A",
+      "416 A",
+      "721 A"
+    ],
+    "answer": 2,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 150,000 ÷ (1.732 × 208) = **416 A**."
+  },
+  {
+    "id": 149,
+    "category": "Task 15: Transformers",
+    "question": "A transformer secondary voltage is high at no load but acceptable at full load. What concept explains this?",
+    "options": [
+      "Voltage regulation",
+      "Phase reversal",
+      "Ground fault detection",
+      "Harmonic cancellation"
+    ],
+    "answer": 0,
+    "explanation": "Transformer voltage can drop from no-load to loaded conditions because of internal impedance. Some no-load rise is normal, but equipment ratings must still be respected."
+  },
+  {
+    "id": 150,
+    "category": "Task 15: Transformers",
+    "question": "A transformer secondary neutral carries current even though phase currents appear balanced and loads are mostly electronic. Why?",
+    "options": [
+      "Triplen harmonics may add in the neutral",
+      "Wye systems cannot carry neutral current",
+      "Transformer is unloaded",
+      "Phase sequence is reversed"
+    ],
+    "answer": 0,
+    "explanation": "Balanced nonlinear loads can still produce harmonic neutral current. Triplen harmonics add in the neutral instead of cancelling like balanced fundamental currents. # Section B — Generating, Distribution and Service Systems"
+  },
+  {
+    "id": 151,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 600Y/347 V service has 600 V from A-B and B-C, but 0 V from A-C. What is the most likely issue?",
+    "options": [
+      "A and C are the same phase or one phase is lost",
+      "Normal three-phase voltage",
+      "Neutral is working perfectly",
+      "Grounding electrode is oversized"
+    ],
+    "answer": 0,
+    "explanation": "A normal three-phase system should show line voltage between every phase pair. A 0 V reading between two supposed phases means the test points are not truly different phases or one phase is missing."
+  },
+  {
+    "id": 152,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A service entrance conductor termination is darkened and insulation nearby is brittle. What should be suspected?",
+    "options": [
+      "Overheating from poor termination",
+      "Correct aging only",
+      "Low load current",
+      "Excessive grounding"
+    ],
+    "answer": 0,
+    "explanation": "Darkened metal and brittle insulation are signs of heat damage. Loose or corroded terminations create resistance and heat under load."
+  },
+  {
+    "id": 153,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A CT-rated meter shows low consumption compared with actual load. What should be checked?",
+    "options": [
+      "CT ratio, polarity, and wiring",
+      "Receptacle colour",
+      "Transformer paint",
+      "Lighting fixture type"
+    ],
+    "answer": 0,
+    "explanation": "CT metering depends on correct ratio and wiring direction. Wrong CT ratio or polarity can make the meter under-register or over-register."
+  },
+  {
+    "id": 154,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A three-phase service has balanced voltage but one phase conductor is warmer than the others. What is the best next check?",
+    "options": [
+      "Current on each phase and termination condition",
+      "Wall colour",
+      "Panel label font",
+      "Exit light battery"
+    ],
+    "answer": 0,
+    "explanation": "Extra heat may be caused by higher current or poor contact. Measuring phase current and inspecting the connection helps identify the cause."
+  },
+  {
+    "id": 155,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A service disconnect handle is accessible, but the equipment nameplate is missing. What is the concern?",
+    "options": [
+      "Equipment ratings may not be verifiable",
+      "Voltage becomes zero",
+      "Breaker always trips safely",
+      "Meter accuracy improves"
+    ],
+    "answer": 0,
+    "explanation": "Nameplates identify voltage, current, interrupting rating, and suitability. Missing identification makes safe verification and maintenance difficult."
+  },
+  {
+    "id": 156,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "During service troubleshooting, voltage is present on the load side with the main service disconnect open. What should be suspected?",
+    "options": [
+      "Backfeed or alternate source",
+      "Correct de-energized condition",
+      "Oversized neutral",
+      "Low meter battery only"
+    ],
+    "answer": 0,
+    "explanation": "Load-side voltage with the main open means another source may be energizing the system. Generators, UPS systems, PV, or control transformers must be considered."
+  },
+  {
+    "id": 157,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A 120/208 V service supplies several motors. Which voltage should be expected between two phase conductors?",
+    "options": [
+      "120 V",
+      "208 V",
+      "240 V",
+      "347 V"
+    ],
+    "answer": 1,
+    "explanation": "In a 120/208 V wye system, 208 V is line-to-line. The 120 V value is line-to-neutral."
+  },
+  {
+    "id": 158,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment",
+    "question": "A meter cabinet bonding connection is loose. What is the main hazard?",
+    "options": [
+      "Fault-current path may be unreliable",
+      "Meter reads faster",
+      "Voltage becomes DC",
+      "Load current becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Meter cabinets and service equipment must be bonded securely. Loose bonding can leave metal parts energized during a fault."
+  },
+  {
+    "id": 159,
+    "category": "Task 8: Protection Devices",
+    "question": "A circuit breaker has correct amp rating but lower voltage rating than the system. What is the problem?",
+    "options": [
+      "It may not safely interrupt the circuit voltage",
+      "It will protect better",
+      "It increases system voltage",
+      "It eliminates short-circuit current"
+    ],
+    "answer": 0,
+    "explanation": "Protective devices must be rated for the system voltage. A device with too low a voltage rating may fail when opening a fault."
+  },
+  {
+    "id": 160,
+    "category": "Task 8: Protection Devices",
+    "question": "A branch breaker trips only when a specific piece of equipment is connected. What should be checked first?",
+    "options": [
+      "Equipment cord, internal fault, or load current",
+      "Panel paint colour",
+      "Meter cabinet size",
+      "Transformer name only"
+    ],
+    "answer": 0,
+    "explanation": "If the breaker trips only with one load, the issue likely follows that equipment. The load may have a fault, overload, or damaged cord."
+  },
+  {
+    "id": 161,
+    "category": "Task 8: Protection Devices",
+    "question": "A fuse holder shows heat damage, but the fuse is the correct rating. What is likely?",
+    "options": [
+      "Poor contact in the fuse clips",
+      "Fuse rating is always wrong",
+      "Voltage is too low",
+      "Load is disconnected"
+    ],
+    "answer": 0,
+    "explanation": "Fuse clips must grip firmly. Loose or damaged clips create resistance and heat even when the fuse size is correct."
+  },
+  {
+    "id": 162,
+    "category": "Task 8: Protection Devices",
+    "question": "A main breaker trips before the smaller feeder breaker during a downstream fault. What does this show?",
+    "options": [
+      "Coordination problem",
+      "Correct selectivity",
+      "Open neutral",
+      "Grounding improvement"
+    ],
+    "answer": 0,
+    "explanation": "The downstream device should normally clear its own fault first. If the main trips first, a larger part of the installation loses power."
+  },
+  {
+    "id": 163,
+    "category": "Task 8: Protection Devices",
+    "question": "A ground fault protection system trips immediately after maintenance. Which installation mistake could cause this?",
+    "options": [
+      "Neutral conductor routed outside the sensor",
+      "Panel cover installed",
+      "Breaker handle labelled",
+      "Correct bonding jumper installed"
+    ],
+    "answer": 0,
+    "explanation": "Ground fault sensors must include all intended current-carrying conductors. If the neutral is outside the sensor, normal neutral current appears as ground fault current."
+  },
+  {
+    "id": 164,
+    "category": "Task 8: Protection Devices",
+    "question": "A surge device is connected with long conductors because the panel space was crowded. What is the expected result?",
+    "options": [
+      "Reduced surge protection effectiveness",
+      "Higher surge protection performance",
+      "Lower system voltage",
+      "Reduced load current"
+    ],
+    "answer": 0,
+    "explanation": "Long conductors add impedance and let voltage rise during fast surges. Surge devices work best with short, straight connections."
+  },
+  {
+    "id": 165,
+    "category": "Task 8: Protection Devices",
+    "question": "An overload condition should usually be corrected by:",
+    "options": [
+      "Reducing load or installing a properly sized circuit",
+      "Installing a larger breaker only",
+      "Taping breaker closed",
+      "Removing the bonding conductor"
+    ],
+    "answer": 0,
+    "explanation": "Overloads mean the circuit is carrying more current than intended. The safe fix is load correction or proper circuit design, not bypassing protection."
+  },
+  {
+    "id": 166,
+    "category": "Task 8: Protection Devices",
+    "question": "A breaker feels hot and trips with current below its rating. What should be considered?",
+    "options": [
+      "High ambient temperature or defective breaker/connection",
+      "Correct operation always",
+      "Low resistance path only",
+      "Breaker is too large"
+    ],
+    "answer": 0,
+    "explanation": "Heat can come from ambient conditions, poor connection, or internal breaker problems. A breaker may nuisance trip if its thermal element is affected."
+  },
+  {
+    "id": 167,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A distribution panel is installed where a door cannot fully open for service access. What is the issue?",
+    "options": [
+      "Working space and access are restricted",
+      "Voltage becomes lower",
+      "Current becomes balanced",
+      "Bonding improves"
+    ],
+    "answer": 0,
+    "explanation": "Electrical equipment needs clear access for safe operation and maintenance. Restricted doors or blocked work space increase risk."
+  },
+  {
+    "id": 168,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A new breaker does not seat fully on the panel bus. What should be done?",
+    "options": [
+      "Stop and verify breaker compatibility and bus condition",
+      "Force it into place",
+      "Tape it down",
+      "Use it if it holds load"
+    ],
+    "answer": 0,
+    "explanation": "A breaker must be properly listed and seated for the panel. Forcing it can damage the bus and create overheating."
+  },
+  {
+    "id": 169,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel is fed from a transformer, and secondary voltage is higher than expected. What should be checked?",
+    "options": [
+      "Transformer tap setting and primary voltage",
+      "Exit sign battery",
+      "Device plate style",
+      "Receptacle colour"
+    ],
+    "answer": 0,
+    "explanation": "Transformer secondary voltage depends on primary voltage and tap selection. Wrong tap settings can cause high or low secondary voltage."
+  },
+  {
+    "id": 170,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "An infrared scan finds several hot branch breakers, all heavily loaded. What should be checked?",
+    "options": [
+      "Load current, breaker loading, and ventilation",
+      "Paint type",
+      "Ground rod depth only",
+      "Phase rotation only"
+    ],
+    "answer": 0,
+    "explanation": "Heat may be caused by high load, poor airflow, or bad connections. Current readings and panel conditions should be reviewed."
+  },
+  {
+    "id": 171,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A neutral conductor in a panel is carrying high current with balanced phase currents from electronic loads. What is likely?",
+    "options": [
+      "Harmonic neutral current",
+      "Correct linear load cancellation",
+      "Open main breaker",
+      "Wrong paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Nonlinear electronic loads can create triplen harmonic currents. These can add in the neutral even when phase currents look balanced."
+  },
+  {
+    "id": 172,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel has water stains at the top and corrosion on bus supports. What is the best action?",
+    "options": [
+      "De-energize as needed, investigate water source, and repair/replace damaged parts",
+      "Ignore it if breakers work",
+      "Spray water-displacing oil and energize",
+      "Increase breaker sizes"
+    ],
+    "answer": 0,
+    "explanation": "Water in distribution equipment can cause tracking, corrosion, and faults. The source and damage must be corrected before safe operation."
+  },
+  {
+    "id": 173,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A panel feeding motors has phase sequence A-C-B instead of A-B-C. What will this affect?",
+    "options": [
+      "Motor rotation direction",
+      "Ground rod resistance",
+      "Exit light battery life",
+      "Fuse voltage rating only"
+    ],
+    "answer": 0,
+    "explanation": "Phase sequence controls three-phase motor rotation. Reversed phase order can cause pumps, fans, and compressors to run backward."
+  },
+  {
+    "id": 174,
+    "category": "Task 9: Power Distribution Equipment",
+    "question": "A conductor is landed under a distribution lug with oxide and debris present. What is the concern?",
+    "options": [
+      "Poor contact and overheating",
+      "Better conductivity",
+      "Lower voltage drop always",
+      "Correct termination"
+    ],
+    "answer": 0,
+    "explanation": "Terminations require clean contact surfaces and proper preparation. Contamination increases resistance and heat."
+  },
+  {
+    "id": 175,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS bypass switch is used during maintenance. What must be confirmed before transfer?",
+    "options": [
+      "Correct source condition and approved switching sequence",
+      "Wall colour",
+      "Receptacle polarity only",
+      "Battery label font"
+    ],
+    "answer": 0,
+    "explanation": "UPS bypass transfers critical loads between sources. Incorrect sequence can drop loads or parallel sources improperly."
+  },
+  {
+    "id": 176,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A UPS battery cabinet has correct voltage but swollen batteries. What should be done?",
+    "options": [
+      "Follow manufacturer replacement and safety procedure",
+      "Continue using until failure",
+      "Short the terminals to discharge",
+      "Remove ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Swollen batteries indicate failure or unsafe condition. Battery systems contain stored energy and must be serviced using proper procedures."
+  },
+  {
+    "id": 177,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A surge protective device repeatedly fails in a facility. What should be investigated?",
+    "options": [
+      "Surge exposure, bonding, grounding, and installation method",
+      "Fixture colour",
+      "Breaker handle size only",
+      "Room paint"
+    ],
+    "answer": 0,
+    "explanation": "Repeated SPD failure may indicate severe transients or poor installation. Bonding, lead length, grounding, and system exposure should be reviewed."
+  },
+  {
+    "id": 178,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems",
+    "question": "A power conditioner output voltage is unstable when large loads start. What should be checked?",
+    "options": [
+      "Input voltage stability, load size, and equipment capacity",
+      "Exit sign direction",
+      "Ground rod paint",
+      "Cable tray colour"
+    ],
+    "answer": 0,
+    "explanation": "Large loads can cause supply dips or overload the conditioner. Input quality and rating must be suitable for the connected loads."
+  },
+  {
+    "id": 179,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A ground fault relay trips after a new neutral conductor is added outside the CT window. What is the likely cause?",
+    "options": [
+      "Sensor no longer surrounds all current-carrying conductors",
+      "Ground fault relay improved",
+      "Load current disappeared",
+      "System voltage changed to DC"
+    ],
+    "answer": 0,
+    "explanation": "Ground fault sensing depends on current balance through the sensor. A neutral outside the sensor causes false imbalance."
+  },
+  {
+    "id": 180,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A bonding conductor is undersized or damaged. What is the main concern?",
+    "options": [
+      "Fault current may not clear protection properly",
+      "Lighting becomes brighter",
+      "Voltage becomes lower",
+      "Load current stops always"
+    ],
+    "answer": 0,
+    "explanation": "Bonding conductors must carry fault current long enough to operate protection. Damage or undersizing can leave equipment energized."
+  },
+  {
+    "id": 181,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "An ungrounded system ground detector indicates one phase grounded. What is the proper response?",
+    "options": [
+      "Locate and repair the first fault",
+      "Ignore it because system still works",
+      "Bond another phase",
+      "Remove the detector"
+    ],
+    "answer": 0,
+    "explanation": "An ungrounded system may continue running with one fault. A second fault on another phase can cause severe fault current."
+  },
+  {
+    "id": 182,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A derived system neutral is not bonded according to design. What can be affected?",
+    "options": [
+      "Fault clearing and voltage reference",
+      "Paint adhesion",
+      "Motor horsepower only",
+      "Surge label colour"
+    ],
+    "answer": 0,
+    "explanation": "Correct grounding and bonding of derived systems supports stable voltage and fault-current return. Incorrect bonding can create shock hazards or failure to trip."
+  },
+  {
+    "id": 183,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A metal cable tray carrying feeders is bonded at one end only, and sections are loose. What is the concern?",
+    "options": [
+      "Bonding continuity may not be reliable through the tray",
+      "Current becomes DC",
+      "Voltage becomes zero",
+      "Tray becomes nonmetallic"
+    ],
+    "answer": 0,
+    "explanation": "Metal cable tray sections must maintain electrical continuity when used in the bonding path. Loose joints can interrupt fault current."
+  },
+  {
+    "id": 184,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems",
+    "question": "A worker measures voltage between neutral and bond downstream under load. What can this indicate?",
+    "options": [
+      "Voltage drop on neutral or improper neutral-bonding condition",
+      "Correct zero-current condition always",
+      "Phase sequence reversal only",
+      "Open CT secondary"
+    ],
+    "answer": 0,
+    "explanation": "Some neutral-to-bond voltage can appear from neutral voltage drop under load. Abnormal readings may indicate loose neutral, shared current paths, or bonding errors."
+  },
+  {
+    "id": 185,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator runs at correct voltage but low frequency. What should be checked first?",
+    "options": [
+      "Engine speed/governor",
+      "Receptacle polarity",
+      "Box fill",
+      "Lighting dimmer"
+    ],
+    "answer": 0,
+    "explanation": "Generator frequency depends on rotation speed. Low frequency usually means the engine is running too slowly or overloaded."
+  },
+  {
+    "id": 186,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A transfer switch is installed without mechanical or electrical interlock between sources. What is the risk?",
+    "options": [
+      "Utility and generator sources may be paralleled unsafely",
+      "Fuel use decreases",
+      "Grounding improves",
+      "Voltage becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Transfer equipment must prevent unsafe source interconnection. Without interlocking, backfeed or source-to-source fault current may occur."
+  },
+  {
+    "id": 187,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A generator voltage collapses when a motor starts but recovers after the motor is running. What should be considered?",
+    "options": [
+      "Motor starting kVA and generator capacity",
+      "Exit sign placement",
+      "Fire alarm device type",
+      "Receptacle polarity only"
+    ],
+    "answer": 0,
+    "explanation": "Motors draw high current during starting. The generator must be sized and regulated to handle starting load."
+  },
+  {
+    "id": 188,
+    "category": "Task 12: Power Generation and Conversion Systems",
+    "question": "A rectifier has normal DC voltage with no load but voltage drops heavily under load. What should be checked?",
+    "options": [
+      "Rectifier capacity, diodes, connections, and load condition",
+      "Panel label only",
+      "Cable tray size",
+      "Wall switch rating"
+    ],
+    "answer": 0,
+    "explanation": "Voltage collapse under load indicates source weakness or excessive load. Diodes, connections, and rating must be checked."
+  },
+  {
+    "id": 189,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A PV inverter is shut down, but DC string conductors still test live. What safety principle applies?",
+    "options": [
+      "Treat PV source circuits as energized when illuminated",
+      "Assume inverter shutdown removes all voltage",
+      "Grounding removes sunlight voltage",
+      "Use AC meter only"
+    ],
+    "answer": 0,
+    "explanation": "PV modules produce voltage when exposed to light. Inverter shutdown does not necessarily de-energize source conductors."
+  },
+  {
+    "id": 190,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery storage system has multiple disconnects, but voltage remains on the DC bus. What should be checked?",
+    "options": [
+      "Stored energy and all isolation points",
+      "Exit signs",
+      "Phase sequence",
+      "Neutral colour"
+    ],
+    "answer": 0,
+    "explanation": "Batteries and capacitors can remain energized after some disconnects open. All energy sources and stored energy must be verified."
+  },
+  {
+    "id": 191,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A PV string has lower current than others but similar open-circuit voltage. What is a likely cause?",
+    "options": [
+      "Partial shading or high-resistance connection",
+      "Perfect full output",
+      "Higher sunlight on that string",
+      "Wrong AC breaker only"
+    ],
+    "answer": 0,
+    "explanation": "Open-circuit voltage can remain normal even with poor current output. Shading, damaged modules, or resistance in the string can reduce current."
+  },
+  {
+    "id": 192,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems",
+    "question": "A battery terminal connection is loose and warm during charge. What is the hazard?",
+    "options": [
+      "High-resistance heating and possible arcing",
+      "Better charging efficiency",
+      "Lower fault current always",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Loose DC connections can heat heavily and arc. Battery systems can supply high current, making poor connections dangerous."
+  },
+  {
+    "id": 193,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "A high-voltage switchgear compartment shows dust tracking across insulation. What is the concern?",
+    "options": [
+      "Possible leakage path and flashover",
+      "Better insulation",
+      "Lower voltage stress",
+      "Correct normal operation"
+    ],
+    "answer": 0,
+    "explanation": "Contamination can create conductive paths across insulation. Tracking can lead to arcing and equipment failure."
+  },
+  {
+    "id": 194,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "A high-voltage cable passes insulation resistance testing but has a damaged outer jacket. What is the concern?",
+    "options": [
+      "Moisture entry and future insulation failure",
+      "Current becomes zero",
+      "Voltage rating increases",
+      "Phase rotation improves"
+    ],
+    "answer": 0,
+    "explanation": "Jacket damage can allow moisture into cable layers. Future failure may occur even if present test readings look acceptable."
+  },
+  {
+    "id": 195,
+    "category": "Task 14: High-Voltage Systems",
+    "question": "High-voltage equipment is isolated but not tested before grounding. What is wrong?",
+    "options": [
+      "Absence of voltage has not been verified",
+      "Grounding is unnecessary",
+      "Testing is only for low voltage",
+      "Equipment is automatically safe"
+    ],
+    "answer": 0,
+    "explanation": "Isolation alone is not proof of de-energization. Approved testing must verify absence of voltage before applying grounds."
+  },
+  {
+    "id": 196,
+    "category": "Task 15: Transformers",
+    "question": "A 112.5 kVA, 600 V three-phase transformer primary current is closest to:",
+    "options": [
+      "65 A",
+      "108 A",
+      "188 A",
+      "312 A"
+    ],
+    "answer": 1,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 112,500 ÷ (1.732 × 600) = about **108 A**."
+  },
+  {
+    "id": 197,
+    "category": "Task 15: Transformers",
+    "question": "A 75 kVA, 480 V three-phase transformer primary current is closest to:",
+    "options": [
+      "52 A",
+      "90 A",
+      "156 A",
+      "208 A"
+    ],
+    "answer": 1,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 75,000 ÷ (1.732 × 480) = about **90 A**."
+  },
+  {
+    "id": 198,
+    "category": "Task 15: Transformers",
+    "question": "A transformer secondary voltage is too high after installation. What is the most likely adjustment point?",
+    "options": [
+      "Primary tap setting",
+      "Ground rod depth",
+      "Panel directory",
+      "Cable tray cover"
+    ],
+    "answer": 0,
+    "explanation": "Transformer taps compensate for actual primary voltage. Incorrect tap setting can cause secondary voltage to be too high or too low."
+  },
+  {
+    "id": 199,
+    "category": "Task 15: Transformers",
+    "question": "A transformer is hot and loud with no secondary load connected. What should be suspected?",
+    "options": [
+      "Incorrect connection, wrong voltage, or internal fault",
+      "Correct full-load operation",
+      "Secondary overload",
+      "Neutral load current only"
+    ],
+    "answer": 0,
+    "explanation": "Some hum is normal, but excessive no-load heat and noise are warning signs. Primary voltage, taps, wiring, and winding condition should be checked."
+  },
+  {
+    "id": 200,
+    "category": "Task 15: Transformers",
+    "question": "A delta-wye transformer supplies many electronic loads. What issue may affect the secondary neutral?",
+    "options": [
+      "Harmonic neutral current",
+      "No neutral current possible",
+      "Phase sequence disappears",
+      "Transformer becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Nonlinear electronic loads can produce triplen harmonics. These can add in the wye secondary neutral and cause heating."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledConstructionElectricianSectionBGeneratingDistributionServiceQuestions =
+  shuffleArray(constructionElectricianSectionBGeneratingDistributionServiceQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "construction-electrician",
+  tradeTitle: "Construction Electrician",
+  sectionTitle: "Section B. Generating, Distribution and Service Systems",
+  questionTimeSeconds: 90,
+  questions: shuffledConstructionElectricianSectionBGeneratingDistributionServiceQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerFabricateProductsComponentsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

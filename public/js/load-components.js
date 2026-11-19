@@ -1,0 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("[data-include]").forEach(async element => {
+    const file = element.getAttribute("data-include");
+    if (!file) return;
+
+    try {
+      const html = await fetch(file).then(res => res.text());
+      element.innerHTML = html;
+    } catch (err) {
+      element.innerHTML = `<div class="component-load-error">Error loading ${file}</div>`;
+    }
+  });
+});

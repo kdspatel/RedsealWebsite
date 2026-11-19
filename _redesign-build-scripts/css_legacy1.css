@@ -1,0 +1,892 @@
+/* ===== legacy-class bridge (original markup, homepage look) ===== */
+.rsp-legacy .seo-container,
+.rsp-legacy .journey-wrap,
+.rsp-legacy .phase-shell,
+.rsp-legacy .page-wrap,
+.rsp-legacy .container,
+.rsp-legacy .wrap,
+.rsp-legacy .library-wrap,
+.rsp-legacy .trade-landing-container,
+.rsp-legacy .section,
+.rsp-legacy .news-main,
+.rsp-legacy .news-article-main,
+.rsp-legacy .hero-inner,
+.rsp-legacy .news-masthead-inner,
+.rsp-legacy .trade-layout,
+.rsp-legacy .trade-resource-bar-inner,
+.rsp-legacy .trade-guide-shell {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box
+}
+
+.rsp-legacy .section {
+    padding-top: 48px;
+    padding-bottom: 16px
+}
+
+.rsp-legacy .section h2,
+.rsp-legacy .seo-section h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 8px
+}
+
+.rsp-legacy .section-sub,
+.rsp-legacy .seo-sub,
+.rsp-legacy .muted {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 18px
+}
+
+/* hero variants */
+.rsp-legacy .seo-hero,
+.rsp-legacy .hero,
+.rsp-legacy .journey-hero,
+.rsp-legacy .phase-hero,
+.rsp-legacy .news-masthead,
+.rsp-legacy .library-hero,
+.rsp-legacy .trade-landing-hero,
+.rsp-legacy .trade-guide-hero,
+.rsp-legacy .hero-card {
+    background: linear-gradient(180deg, var(--tint), var(--paper));
+    border-bottom: 1px solid var(--line);
+    padding-top: 44px;
+    padding-bottom: 44px
+}
+
+.rsp-legacy .hero-card {
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 36px;
+    margin: 32px 0 24px
+}
+
+.rsp-legacy .seo-hero .seo-container,
+.rsp-legacy .hero .hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, .9fr);
+    gap: 36px;
+    align-items: center
+}
+
+.rsp-legacy .seo-hero.faq-hero .faq-hero-grid {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr)
+}
+
+.rsp-legacy .seo-eyebrow,
+.rsp-legacy .journey-kicker,
+.rsp-legacy .news-eyebrow,
+.rsp-legacy .hero-badge,
+.rsp-legacy .library-kicker,
+.rsp-legacy .terms-kicker,
+.rsp-legacy .trade-guide-kicker,
+.rsp-legacy .trade-section-eyebrow,
+.rsp-legacy .exam-badge,
+.rsp-legacy .pill {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #F0C9CB;
+    color: var(--seal);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin-bottom: 14px
+}
+
+.rsp-legacy .seo-hero h1,
+.rsp-legacy .hero h1,
+.rsp-legacy .journey-hero h1,
+.rsp-legacy .phase-hero h1,
+.rsp-legacy .news-masthead h1,
+.rsp-legacy .library-hero h1,
+.rsp-legacy .terms-heading h1,
+.rsp-legacy .trade-landing-hero h1,
+.rsp-legacy .trade-guide-hero h1,
+.rsp-legacy .hero-card h1,
+.rsp-legacy .news-article-header h1 {
+    font-size: clamp(30px, 4.2vw, 46px);
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    text-wrap: balance;
+    margin-bottom: 14px
+}
+
+.rsp-legacy .seo-hero p,
+.rsp-legacy .hero p,
+.rsp-legacy .journey-hero p,
+.rsp-legacy .phase-hero p,
+.rsp-legacy .news-masthead p,
+.rsp-legacy .library-hero p,
+.rsp-legacy .hero-card p,
+.rsp-legacy .trade-landing-hero p {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--muted);
+    max-width: 760px
+}
+
+.rsp-legacy .hero-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.rsp-legacy .hero-badges,
+.rsp-legacy .trade-hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px
+}
+
+.rsp-legacy .hero-badges .hero-badge {
+    margin: 0
+}
+
+.rsp-legacy .hero-badge.premium-badge {
+    background: var(--seal);
+    color: #fff;
+    border-color: var(--seal)
+}
+
+.rsp-legacy .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px
+}
+
+.rsp-legacy .contact-list li {
+    padding: 12px 14px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    font-size: 15px;
+    color: var(--muted)
+}
+
+.rsp-legacy .contact-list strong {
+    display: block;
+    color: var(--ink);
+    margin-bottom: 2px
+}
+
+.rsp-legacy .contact-list a {
+    color: var(--seal);
+    font-weight: 600
+}
+
+.rsp-legacy .hero .hero-card {
+    margin: 0;
+    background: #fff
+}
+
+.rsp-legacy .hero .hero-main {
+    min-width: 0
+}
+
+/* buttons */
+.rsp-legacy .seo-actions,
+.rsp-legacy .journey-actions,
+.rsp-legacy .cta-row,
+.rsp-legacy .trade-actions,
+.rsp-legacy .article-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px
+}
+
+.rsp-legacy .seo-btn,
+.rsp-legacy .journey-btn,
+.rsp-legacy .btn,
+.rsp-legacy .trade-btn,
+.rsp-legacy .phase-btn,
+.rsp-legacy .btn-blue,
+.rsp-legacy .delete-btn,
+.rsp-legacy button.primary,
+.rsp-legacy a.primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 24px;
+    border-radius: 12px;
+    font: 600 16px/1 Inter, sans-serif;
+    background: var(--seal);
+    border: 1.5px solid var(--seal);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+.rsp-legacy .seo-btn:hover,
+.rsp-legacy .journey-btn:hover,
+.rsp-legacy .btn:hover,
+.rsp-legacy .trade-btn:hover,
+.rsp-legacy .phase-btn:hover {
+    background: var(--sealdark);
+    border-color: var(--sealdark)
+}
+
+.rsp-legacy .seo-btn.secondary,
+.rsp-legacy .journey-btn.secondary,
+.rsp-legacy .btn-outline,
+.rsp-legacy .btn.secondary,
+.rsp-legacy .trade-btn.secondary,
+.rsp-legacy .trade-btn.ghost,
+.rsp-legacy .ghost,
+.rsp-legacy a.secondary,
+.rsp-legacy .phase-btn.dark {
+    background: #fff;
+    color: var(--seal);
+    border-color: var(--line)
+}
+
+.rsp-legacy .seo-btn.secondary:hover,
+.rsp-legacy .btn-outline:hover,
+.rsp-legacy .trade-btn.secondary:hover {
+    background: var(--tint);
+    border-color: var(--seal);
+    color: var(--seal)
+}
+
+.rsp-legacy .btn-light {
+    background: #fff;
+    color: var(--seal);
+    border-color: #fff
+}
+
+.rsp-legacy .hero .btn-outline {
+    background: #fff;
+    border-color: var(--seal);
+    color: var(--seal)
+}
+
+.rsp-legacy .hero .btn-light {
+    background: var(--seal);
+    color: #fff;
+    border-color: var(--seal)
+}
+
+/* cards + grids */
+.rsp-legacy .card,
+.rsp-legacy .seo-card,
+.rsp-legacy .journey-card,
+.rsp-legacy .phase-card,
+.rsp-legacy .province-card,
+.rsp-legacy .trade-info-card,
+.rsp-legacy .trade-side-card,
+.rsp-legacy .trade-practice-card,
+.rsp-legacy .library-trade-card,
+.rsp-legacy .rsp7-panel,
+.rsp-legacy .level-trade-card,
+.rsp-legacy .level-comparison-card,
+.rsp-legacy .news-sidebar-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 24px;
+    box-sizing: border-box;
+    margin: 0
+}
+
+.rsp-legacy .grid {
+    display: grid;
+    gap: 22px
+}
+
+.rsp-legacy .grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.rsp-legacy .grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.rsp-legacy .seo-grid,
+.rsp-legacy .journey-grid,
+.rsp-legacy .province-grid,
+.rsp-legacy .phase-grid,
+.rsp-legacy .trade-card-grid,
+.rsp-legacy .trade-facts-grid,
+.rsp-legacy .trade-topic-grid,
+.rsp-legacy .level-facts-grid,
+.rsp-legacy .level-comparison-grid,
+.rsp-legacy .level-trade-grid,
+.rsp-legacy .library-trade-grid,
+.rsp-legacy .news-grid,
+.rsp-legacy .support-duo {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px
+}
+
+.rsp-legacy .journey-grid {
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+.rsp-legacy .province-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px
+}
+
+.rsp-legacy .support-duo {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.rsp-legacy .journey-card h2,
+.rsp-legacy .phase-card h3,
+.rsp-legacy .seo-card h2,
+.rsp-legacy .seo-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px
+}
+
+.rsp-legacy .journey-card p,
+.rsp-legacy .phase-card p,
+.rsp-legacy .seo-card p,
+.rsp-legacy .province-card p,
+.rsp-legacy .feature-text {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 24px
+}
+
+.rsp-legacy .journey-step {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    background: var(--tint);
+    color: var(--seal);
+    font: 700 20px "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px
+}
+
+.rsp-legacy .feature-title {
+    font: 700 19px "Space Grotesk", sans-serif;
+    margin-bottom: 8px
+}
+
+.rsp-legacy .province-card {
+    display: block;
+    transition: .15s
+}
+
+.rsp-legacy .province-card:hover {
+    border-color: var(--seal);
+    transform: translateY(-2px)
+}
+
+.rsp-legacy .province-card h3,
+.rsp-legacy .province-card strong {
+    font-size: 18px
+}
+
+.rsp-legacy .phase-section {
+    padding: 40px 0
+}
+
+.rsp-legacy .phase-section-head {
+    margin-bottom: 20px
+}
+
+.rsp-legacy .phase-section-head h2 {
+    font-size: 30px
+}
+
+.rsp-legacy .journey-contact {
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 64px)
+}
+
+.rsp-legacy .journey-contact h2 {
+    color: #fff
+}
+
+.rsp-legacy .journey-contact p {
+    color: #F6DCDD;
+    margin: 8px 0 16px;
+    max-width: 720px
+}
+
+.rsp-legacy .journey-contact .journey-btn {
+    background: #fff;
+    color: var(--seal);
+    border-color: #fff
+}
+
+.rsp-legacy .notice,
+.rsp-legacy .notice-box,
+.rsp-legacy .phase-note,
+.rsp-legacy .official-disclaimer,
+.rsp-legacy .official-resource-note,
+.rsp-legacy .trade-disclaimer,
+.rsp-legacy .trade-source-notice,
+.rsp-legacy .news-editorial-note {
+    background: var(--tint);
+    border: 1px solid #F0C9CB;
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--ink)
+}
+
+.rsp-legacy .phase-status,
+.rsp-legacy .form-status {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 15px
+}
+
+/* forms (legacy names) */
+.rsp-legacy .form-group {
+    margin-bottom: 16px
+}
+
+.rsp-legacy .form-group label,
+.rsp-legacy .phase-form label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px
+}
+
+.rsp-legacy input:not([type=checkbox]):not([type=radio]),
+.rsp-legacy select,
+.rsp-legacy textarea {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    border: 1.5px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    font: 400 16px/1.4 Inter, sans-serif;
+    color: var(--ink);
+    box-sizing: border-box
+}
+
+.rsp-legacy textarea {
+    min-height: 130px;
+    resize: vertical
+}
+
+.rsp-legacy input:focus,
+.rsp-legacy select:focus,
+.rsp-legacy textarea:focus {
+    outline: none;
+    border-color: var(--seal);
+    box-shadow: 0 0 0 3px rgba(179, 23, 31, .15)
+}
+
+.rsp-legacy .phase-form {
+    display: grid;
+    gap: 14px
+}
+
+.rsp-legacy .g-recaptcha {
+    margin: 14px 0;
+    max-width: 100%;
+    overflow: hidden
+}
+
+/* FAQ */
+.rsp-legacy .faq-quick-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px 32px 0;
+    box-sizing: border-box
+}
+
+.rsp-legacy .faq-quick-nav a {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 9px 16px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.rsp-legacy .faq-quick-nav a:hover {
+    border-color: var(--seal);
+    color: var(--seal)
+}
+
+.rsp-legacy .seo-section {
+    padding: 44px 0
+}
+
+.rsp-legacy .faq-tinted-section {
+    background: #fff;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line)
+}
+
+.rsp-legacy .faq-category-heading {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 22px
+}
+
+.rsp-legacy .faq-category-heading>span {
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    background: var(--seal);
+    color: #fff;
+    font: 700 20px "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none
+}
+
+.rsp-legacy .faq-category-heading h2 {
+    font-size: 28px;
+    margin: 0
+}
+
+.rsp-legacy .faq-category-heading p {
+    color: var(--muted)
+}
+
+.rsp-legacy .faq-list {
+    display: grid;
+    gap: 12px
+}
+
+.rsp-legacy .faq-item {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px
+}
+
+.rsp-legacy .faq-tinted-section .faq-item {
+    background: var(--paper)
+}
+
+.rsp-legacy .faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 8px
+}
+
+.rsp-legacy .faq-item p {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 26px
+}
+
+.rsp-legacy .faq-hero-art {
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    min-height: 220px;
+    display: flex
+}
+
+.rsp-legacy .faq-hero-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.rsp-legacy .faq-hero-fallback {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center
+}
+
+.rsp-legacy .faq-hero-art.image-missing .faq-hero-fallback,
+.rsp-legacy .faq-hero-art img[hidden]+.faq-hero-fallback {
+    display: flex
+}
+
+.rsp-legacy .faq-hero-art:not(.image-missing) .faq-hero-fallback {
+    display: none
+}
+
+.rsp-legacy .faq-support-mark {
+    font: 700 28px "Space Grotesk", sans-serif;
+    background: rgba(255, 255, 255, .15);
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px
+}
+
+.rsp-legacy .faq-hero-fallback strong {
+    font-size: 22px
+}
+
+.rsp-legacy .faq-hero-fallback small {
+    color: #F6DCDD
+}
+
+/* terms */
+.rsp-legacy .terms-shell {
+    max-width: 900px;
+    padding-top: 40px;
+    padding-bottom: 60px
+}
+
+.rsp-legacy .terms-card {
+    padding: 36px
+}
+
+.rsp-legacy .terms-heading {
+    margin-bottom: 20px
+}
+
+.rsp-legacy .terms-heading h1 {
+    font-size: clamp(28px, 4vw, 40px)
+}
+
+.rsp-legacy .terms-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 18px 0
+}
+
+.rsp-legacy .terms-summary a {
+    background: var(--tint);
+    color: var(--seal);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.rsp-legacy .terms-card h2 {
+    font-size: 24px;
+    margin: 30px 0 10px
+}
+
+.rsp-legacy .terms-card p,
+.rsp-legacy .terms-card li {
+    color: #3a4048;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 12px
+}
+
+.rsp-legacy .terms-card ul {
+    padding-left: 22px
+}
+
+/* account */
+.rsp-legacy .rsp7-dashboard-hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    background: linear-gradient(135deg, #8E1017, #16191D);
+    color: #fff;
+    border-radius: 20px;
+    padding: 32px;
+    margin: 32px 0 24px
+}
+
+.rsp-legacy .rsp7-dashboard-hero h1 {
+    color: #fff;
+    font-size: 34px
+}
+
+.rsp-legacy .rsp7-dashboard-hero p {
+    color: #F6DCDD
+}
+
+.rsp-legacy .rsp7-dashboard-hero .pill {
+    background: rgba(255, 255, 255, .14);
+    color: #fff;
+    border-color: rgba(255, 255, 255, .3)
+}
+
+.rsp-legacy .rsp7-readiness {
+    display: flex;
+    gap: 16px;
+    align-items: center
+}
+
+.rsp-legacy .rsp7-readiness-ring {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 22px "Space Grotesk", sans-serif
+}
+
+.rsp-legacy .rsp7-dashboard-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+    gap: 22px
+}
+
+.rsp-legacy .rsp7-dashboard-stack {
+    display: grid;
+    gap: 22px;
+    align-content: start
+}
+
+.rsp-legacy .rsp7-panel h2 {
+    font-size: 22px
+}
+
+.rsp-legacy .rsp7-panel-head {
+    margin-bottom: 14px
+}
+
+.rsp-legacy .loader-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0
+}
+
+.rsp-legacy .spinner {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 4px solid var(--line);
+    border-top-color: var(--seal);
+    animation: rspspin 1s linear infinite;
+    margin: 0 auto 10px
+}
+
+@keyframes rspspin {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.rsp-legacy .danger-card {
+    border-color: #F0B8BB;
+    margin-top: 22px
+}
+
+.rsp-legacy .delete-btn {
+    background: #fff;
+    color: var(--seal)
+}
+
+@media(max-width:1024px) {
+
+    .rsp-legacy .seo-grid,
+    .rsp-legacy .journey-grid,
+    .rsp-legacy .phase-grid,
+    .rsp-legacy .trade-card-grid,
+    .rsp-legacy .trade-facts-grid,
+    .rsp-legacy .trade-topic-grid,
+    .rsp-legacy .level-facts-grid,
+    .rsp-legacy .level-comparison-grid,
+    .rsp-legacy .level-trade-grid,
+    .rsp-legacy .library-trade-grid,
+    .rsp-legacy .news-grid,
+    .rsp-legacy .grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .rsp-legacy .province-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .rsp-legacy .rsp7-dashboard-grid,
+    .rsp-legacy .seo-hero .seo-container,
+    .rsp-legacy .hero .hero-inner {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(max-width:640px) {
+
+    .rsp-legacy .seo-grid,
+    .rsp-legacy .journey-grid,
+    .rsp-legacy .phase-grid,
+    .rsp-legacy .trade-card-grid,
+    .rsp-legacy .trade-facts-grid,
+    .rsp-legacy .trade-topic-grid,
+    .rsp-legacy .level-facts-grid,
+    .rsp-legacy .level-comparison-grid,
+    .rsp-legacy .level-trade-grid,
+    .rsp-legacy .library-trade-grid,
+    .rsp-legacy .news-grid,
+    .rsp-legacy .grid-2,
+    .rsp-legacy .grid-3,
+    .rsp-legacy .support-duo {
+        grid-template-columns: 1fr
+    }
+
+    .rsp-legacy .province-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .rsp-legacy .seo-container,
+    .rsp-legacy .journey-wrap,
+    .rsp-legacy .phase-shell,
+    .rsp-legacy .page-wrap,
+    .rsp-legacy .container,
+    .rsp-legacy .wrap,
+    .rsp-legacy .library-wrap,
+    .rsp-legacy .trade-landing-container,
+    .rsp-legacy .section,
+    .rsp-legacy .news-main,
+    .rsp-legacy .news-article-main,
+    .rsp-legacy .hero-inner,
+    .rsp-legacy .news-masthead-inner,
+    .rsp-legacy .trade-layout,
+    .rsp-legacy .trade-guide-shell,
+    .rsp-legacy .faq-quick-nav {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .rsp-legacy .terms-card {
+        padding: 22px 18px
+    }
+
+    .rsp-legacy .journey-contact {
+        width: calc(100% - 32px);
+        padding: 24px 20px
+    }
+
+    .rsp-legacy .hero-card {
+        padding: 24px 18px
+    }
+}

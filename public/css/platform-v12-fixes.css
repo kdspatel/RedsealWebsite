@@ -1,0 +1,33 @@
+
+/* V12 stability and visual fixes */
+:root{--v12-ink:#252b32;--v12-muted:#6c7683;--v12-line:#f7e7e8;--v12-blue:#ca2129;--v12-violet:#ca2129}
+.blog-page .blog-hero-card,.faq-page .faq-hero-card{isolation:isolate;overflow:hidden}
+.blog-page .blog-hero-card *,.faq-page .faq-hero-card *{position:relative;z-index:2}
+.blog-page .blog-hero-card h1,.faq-page .faq-hero-card h1{color:var(--v12-ink)!important;text-shadow:none!important}
+.blog-page .blog-hero-card p,.faq-page .faq-hero-card p{color:var(--v12-muted)!important;opacity:1!important}
+.faq-page .faq-visual-card,.faq-page .faq-visual-card h2,.faq-page .faq-visual-card p{color:var(--v12-ink)!important;opacity:1!important}
+.faq-page .faq-visual-card{background:linear-gradient(145deg,#fff,#f9f6f4)!important;border:1px solid #f5dcdd!important}
+.page-free-architectural-sheet-metal-worker .upgrade-card,
+body[class^="page-free-"] .upgrade-card{min-height:0!important;background:linear-gradient(135deg,#2f373f,#bc2f36)!important;color:#fff!important;padding:30px!important}
+body[class^="page-free-"] .upgrade-card h2,
+body[class^="page-free-"] .upgrade-card p,
+body[class^="page-free-"] .upgrade-card .muted{color:#fff!important;opacity:1!important}
+body[class^="page-free-"] .upgrade-card .space-between{align-items:center!important;gap:24px}
+body[class^="page-free-"] .upgrade-card .btn{background:#fff!important;color:#bf1f27!important;border-color:#fff!important;box-shadow:0 12px 28px rgba(29,33,38,.2)!important}
+.rsp7-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+.rsp7-stat{min-width:0!important;padding:16px!important}
+.rsp7-stat small{font-size:12px!important;line-height:1.25!important;white-space:normal!important;word-break:normal!important;color:#6e7887!important}
+.rsp7-stat strong{font-size:28px!important;color:#252b32!important}
+.rsp7-next-card>a{display:inline-flex!important;align-items:center!important;min-height:46px!important;padding:0 18px!important;border-radius:12px!important;background:linear-gradient(135deg,#ca2129,#ca2129)!important;color:#fff!important;text-decoration:none!important;font-weight:800!important;opacity:1!important}
+.rsp7-dashboard-grid{grid-template-columns:minmax(0,2fr) minmax(300px,1fr)!important}
+.journey-cta h2,.journey-cta p{color:#fff!important;opacity:1!important}
+.journey-cta h2{font-size:clamp(30px,4vw,54px)!important;line-height:1.05!important}
+.page-pricing .page-wrap{padding-top:40px}
+.v12-province-modal{position:fixed;inset:0;z-index:100000;background:rgba(22,25,29,.58);display:grid;place-items:center;padding:20px}
+.v12-province-dialog{width:min(520px,100%);background:#fff;border-radius:24px;padding:26px;box-shadow:0 32px 90px rgba(22,25,29,.32);border:1px solid #f4dbdc}
+.v12-province-dialog h2{margin:0 0 8px;color:#272d33}.v12-province-dialog p{color:#6d7785}
+.v12-province-dialog select{width:100%;min-height:52px;border:1px solid #f1d8d9;border-radius:12px;padding:0 14px;font:inherit;margin:16px 0}
+.v12-province-actions{display:flex;justify-content:flex-end;gap:10px}.v12-province-actions button{min-height:44px;padding:0 18px;border-radius:11px;border:1px solid #f1dadb;background:#fff;font-weight:800}.v12-province-actions .save{background:linear-gradient(135deg,#ca2129,#ca2129);color:#fff;border:0}
+@media(max-width:900px){.rsp7-dashboard-grid{grid-template-columns:1fr!important}.rsp7-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+.journey-contact,.journey-contact h2,.journey-contact p{color:#fff!important;opacity:1!important}.journey-contact h2{font-size:clamp(30px,4vw,54px)!important;line-height:1.05!important}.journey-contact .journey-btn{background:#fff!important;color:#bf1f27!important}

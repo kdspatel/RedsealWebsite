@@ -1,0 +1,2696 @@
+const sheetMetalWorkerImportantInstallProductsQuestions = [
+  {
+    "id": 1,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What is the main purpose of a motor starter?",
+    "options": [
+      "To control and protect a motor",
+      "To increase building voltage",
+      "To replace the motor shaft",
+      "To measure room temperature"
+    ],
+    "answer": 0,
+    "explanation": "A motor starter switches motor power on and off. It usually includes overload protection. It allows safe control of motor operation."
+  },
+  {
+    "id": 2,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "In a basic three-wire control circuit, the start pushbutton is usually:",
+    "options": [
+      "Normally open",
+      "Normally closed",
+      "Always shorted",
+      "Always grounded"
+    ],
+    "answer": 0,
+    "explanation": "A normally open start button closes when pressed. This allows current to energize the starter coil. When released, it opens again."
+  },
+  {
+    "id": 3,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "In a basic three-wire control circuit, the stop pushbutton is usually:",
+    "options": [
+      "Normally closed",
+      "Normally open",
+      "Always bypassed",
+      "Connected only to ground"
+    ],
+    "answer": 0,
+    "explanation": "A normally closed stop button opens when pressed. Opening the control circuit de-energizes the coil. This stops the motor."
+  },
+  {
+    "id": 4,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What does NO mean on a control diagram?",
+    "options": [
+      "Normally open",
+      "Neutral output",
+      "No overload",
+      "Nominal operation"
+    ],
+    "answer": 0,
+    "explanation": "Normally open means the contact is open in its normal state. It closes when operated. Start buttons commonly use NO contacts."
+  },
+  {
+    "id": 5,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What does NC mean on a control diagram?",
+    "options": [
+      "Normally closed",
+      "Neutral current",
+      "No control",
+      "New conductor"
+    ],
+    "answer": 0,
+    "explanation": "Normally closed means the contact is closed in its normal state. It opens when operated. Stop buttons commonly use NC contacts."
+  },
+  {
+    "id": 6,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What is the purpose of a starter coil?",
+    "options": [
+      "To magnetically close the starter contacts",
+      "To cool the motor",
+      "To store hydraulic pressure",
+      "To measure motor speed"
+    ],
+    "answer": 0,
+    "explanation": "The coil creates a magnetic field when energized. This pulls in the contactor mechanism. The power contacts then close to supply the motor."
+  },
+  {
+    "id": 7,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What is the purpose of a seal-in or holding contact?",
+    "options": [
+      "To keep the coil energized after the start button is released",
+      "To increase motor horsepower",
+      "To replace the overload relay",
+      "To convert AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "The start button is momentary. The seal-in contact bypasses the start button after the coil energizes. The motor keeps running until stop or overload opens the circuit."
+  },
+  {
+    "id": 8,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starts only while the start button is held. What is the likely problem?",
+    "options": [
+      "Seal-in circuit is open",
+      "Ground rod is too short",
+      "Motor has too much horsepower",
+      "Fuse is too large"
+    ],
+    "answer": 0,
+    "explanation": "The seal-in contact should maintain coil power. If it does not close or is wired wrong, the coil drops out. The motor stops when the start button is released."
+  },
+  {
+    "id": 9,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Motor overload relays protect the motor from:",
+    "options": [
+      "Overheating due to excessive current",
+      "Low room temperature",
+      "Incorrect paint colour",
+      "Broken conduit straps"
+    ],
+    "answer": 0,
+    "explanation": "Overloads sense motor current and heating. They trip when excessive current lasts too long. This protects motor windings."
+  },
+  {
+    "id": 10,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Overload contacts are commonly wired:",
+    "options": [
+      "In series with the starter coil",
+      "In parallel with the motor shaft",
+      "Across the grounding electrode",
+      "In series with a light fixture only"
+    ],
+    "answer": 0,
+    "explanation": "If the overload trips, its contact opens. This de-energizes the starter coil. The motor stops."
+  },
+  {
+    "id": 11,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor is mainly used to:",
+    "options": [
+      "Switch power to a load",
+      "Store energy like a battery",
+      "Measure insulation resistance",
+      "Change hydraulic pressure"
+    ],
+    "answer": 0,
+    "explanation": "A contactor uses a coil and contacts. The coil controls the contacts. The contacts switch the motor or other load circuit."
+  },
+  {
+    "id": 12,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A pilot light connected across a starter coil indicates:",
+    "options": [
+      "Coil energized status",
+      "Exact motor RPM",
+      "Bearing temperature",
+      "Motor shaft alignment"
+    ],
+    "answer": 0,
+    "explanation": "A pilot light in parallel with the coil sees coil voltage. It turns on when the coil is energized. It does not prove the motor is mechanically turning."
+  },
+  {
+    "id": 13,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control transformer is used to:",
+    "options": [
+      "Provide the required control voltage",
+      "Increase motor horsepower",
+      "Lubricate the motor",
+      "Measure air pressure"
+    ],
+    "answer": 0,
+    "explanation": "Motor power voltage may be too high for controls. A control transformer steps voltage down. Coils, relays, and pilot lights use the control voltage."
+  },
+  {
+    "id": 14,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A time-delay relay is used to:",
+    "options": [
+      "Delay a control action",
+      "Increase conductor ampacity",
+      "Reverse battery polarity",
+      "Replace all fuses"
+    ],
+    "answer": 0,
+    "explanation": "Time-delay relays operate after a set time. They are used for sequencing. Examples include fan delays and staged starts."
+  },
+  {
+    "id": 15,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A reversing starter changes a three-phase motor direction by:",
+    "options": [
+      "Interchanging two phases",
+      "Removing the ground wire",
+      "Increasing the overload setting",
+      "Changing AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase rotation depends on phase sequence. Swapping any two phases reverses motor direction. Reversing starters use two contactors."
+  },
+  {
+    "id": 16,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Why are interlocks used in reversing starters?",
+    "options": [
+      "To prevent forward and reverse contactors from closing together",
+      "To increase motor speed",
+      "To reduce motor frame size",
+      "To improve lighting brightness"
+    ],
+    "answer": 0,
+    "explanation": "Closing both contactors together can short phases. Interlocks prevent unsafe simultaneous operation. They may be electrical, mechanical, or both."
+  },
+  {
+    "id": 17,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter coil rated 120 V is supplied with 24 V. What will likely happen?",
+    "options": [
+      "Coil may not pull in properly",
+      "Motor speed doubles",
+      "Coil becomes safer forever",
+      "Overloads become unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "A coil needs rated voltage to operate. Low voltage gives weak magnetic pull. The contactor may chatter or fail to close."
+  },
+  {
+    "id": 18,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter coil rated 24 V is supplied with 120 V. What is likely?",
+    "options": [
+      "Coil may burn out",
+      "Motor becomes single-phase",
+      "Current becomes zero",
+      "Phase rotation corrects itself"
+    ],
+    "answer": 0,
+    "explanation": "Overvoltage causes excessive coil current. Excess current creates heat. The coil insulation can fail."
+  },
+  {
+    "id": 19,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A jog button usually operates a motor:",
+    "options": [
+      "Only while the button is held",
+      "Forever after one press",
+      "Only when overloads are removed",
+      "Only during a ground fault"
+    ],
+    "answer": 0,
+    "explanation": "Jogging is momentary control. The motor runs only while the button is pressed. It is used for positioning or testing equipment."
+  },
+  {
+    "id": 20,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control fuse opens when the start button is pressed. What should be suspected?",
+    "options": [
+      "Shorted coil or control wiring fault",
+      "Correct operation",
+      "Low motor speed only",
+      "Too much bearing grease"
+    ],
+    "answer": 0,
+    "explanation": "Pressing start energizes part of the control circuit. If the fuse opens, excessive current is present. The coil and control wiring should be checked."
+  },
+  {
+    "id": 21,
+    "category": "Task 23 — Drives",
+    "question": "What does VFD stand for?",
+    "options": [
+      "Variable frequency drive",
+      "Voltage fuse device",
+      "Vent fan disconnect",
+      "Variable flow detector"
+    ],
+    "answer": 0,
+    "explanation": "A VFD controls AC motor speed. It changes output frequency and voltage. VFDs are common on pumps, fans, and conveyors."
+  },
+  {
+    "id": 22,
+    "category": "Task 23 — Drives",
+    "question": "A VFD mainly controls motor speed by changing:",
+    "options": [
+      "Frequency",
+      "Ground resistance",
+      "Bearing grease",
+      "Conduit length"
+    ],
+    "answer": 0,
+    "explanation": "AC motor speed is related to frequency. Lower frequency reduces speed. Higher frequency increases speed within motor limits."
+  },
+  {
+    "id": 23,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output should normally feed:",
+    "options": [
+      "A suitable motor",
+      "Standard receptacles",
+      "Fire alarm horns only",
+      "Ground rods"
+    ],
+    "answer": 0,
+    "explanation": "A VFD output is not normal utility sine-wave power. It is designed for motor loads. Other loads may be damaged."
+  },
+  {
+    "id": 24,
+    "category": "Task 23 — Drives",
+    "question": "PWM in a drive means:",
+    "options": [
+      "Pulse-width modulation",
+      "Power wire measurement",
+      "Phase watt motor",
+      "Pressure water monitor"
+    ],
+    "answer": 0,
+    "explanation": "PWM switches voltage pulses rapidly. Changing pulse width controls effective output. Drives use PWM to control motors."
+  },
+  {
+    "id": 25,
+    "category": "Task 23 — Drives",
+    "question": "An IGBT in a VFD is used for:",
+    "options": [
+      "High-speed power switching",
+      "Measuring motor vibration",
+      "Lubricating bearings",
+      "Supporting conduit"
+    ],
+    "answer": 0,
+    "explanation": "IGBT means insulated gate bipolar transistor. It switches the DC bus rapidly. This creates the drive output waveform."
+  },
+  {
+    "id": 26,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on overcurrent during acceleration. What simple setting may help?",
+    "options": [
+      "Increase acceleration time",
+      "Remove bonding conductor",
+      "Short motor leads",
+      "Increase load suddenly"
+    ],
+    "answer": 0,
+    "explanation": "Fast acceleration needs high torque. High torque requires high current. A longer ramp can reduce overcurrent trips."
+  },
+  {
+    "id": 27,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on overvoltage during stopping. What may help?",
+    "options": [
+      "Increase deceleration time",
+      "Remove motor grounding",
+      "Short the DC bus",
+      "Decrease enclosure size"
+    ],
+    "answer": 0,
+    "explanation": "A stopping motor can regenerate energy. This energy raises the DC bus voltage. Longer stopping time reduces regeneration stress."
+  },
+  {
+    "id": 28,
+    "category": "Task 23 — Drives",
+    "question": "Why may shielded cable be used between a VFD and motor?",
+    "options": [
+      "To reduce electromagnetic interference",
+      "To increase motor horsepower",
+      "To remove overload protection",
+      "To lower insulation rating"
+    ],
+    "answer": 0,
+    "explanation": "VFD outputs switch rapidly. This can create electrical noise. Shielding and proper bonding reduce interference."
+  },
+  {
+    "id": 29,
+    "category": "Task 23 — Drives",
+    "question": "A VFD has parameters for motor FLA, voltage, and frequency. These should match the:",
+    "options": [
+      "Motor nameplate",
+      "Wall colour",
+      "Panel label font",
+      "Conduit brand"
+    ],
+    "answer": 0,
+    "explanation": "Drives use nameplate data for control and protection. Wrong settings can cause poor operation or nuisance trips. Commissioning includes entering correct motor data."
+  },
+  {
+    "id": 30,
+    "category": "Task 23 — Drives",
+    "question": "A braking resistor on a VFD is used to:",
+    "options": [
+      "Dissipate regenerated energy",
+      "Increase motor voltage permanently",
+      "Store compressed air",
+      "Replace the motor shaft"
+    ],
+    "answer": 0,
+    "explanation": "During deceleration, a motor can act like a generator. Energy returns to the VFD DC bus. A braking resistor turns that energy into heat."
+  },
+  {
+    "id": 31,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output cable is very long. What issue can occur?",
+    "options": [
+      "Reflected wave voltage stress",
+      "Lower room temperature",
+      "More hydraulic pressure",
+      "Better motor bearings always"
+    ],
+    "answer": 0,
+    "explanation": "VFD pulses have fast rise times. Long cables can cause reflected voltage at the motor. Motor insulation may need protection."
+  },
+  {
+    "id": 32,
+    "category": "Task 23 — Drives",
+    "question": "Why should VFD output cables be separated from low-level signal wiring?",
+    "options": [
+      "To reduce electrical noise problems",
+      "To increase ground resistance",
+      "To reverse motor direction",
+      "To reduce transformer kVA"
+    ],
+    "answer": 0,
+    "explanation": "VFD output conductors can produce EMI. Analog and communication signals are sensitive. Separation improves reliability."
+  },
+  {
+    "id": 33,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A float switch is used to detect:",
+    "options": [
+      "Liquid level",
+      "Motor horsepower",
+      "Transformer impedance",
+      "Phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "Float switches change state with liquid level. They are often used for pump control. They may start, stop, or alarm."
+  },
+  {
+    "id": 34,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A pressure switch changes state based on:",
+    "options": [
+      "Pressure",
+      "Cable colour",
+      "Motor frame size",
+      "PLC memory only"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches operate at a set pressure. They can start, stop, or protect equipment. They are common on compressors and hydraulic systems."
+  },
+  {
+    "id": 35,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor pull-cord switch is mainly used for:",
+    "options": [
+      "Emergency stopping along the conveyor",
+      "Increasing belt speed",
+      "Measuring voltage",
+      "Improving power factor"
+    ],
+    "answer": 0,
+    "explanation": "Pull-cords allow workers to stop conveyors quickly. They are safety devices. They should not be bypassed."
+  },
+  {
+    "id": 36,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A guard interlock switch should:",
+    "options": [
+      "Stop or prevent operation when a guard is opened",
+      "Increase machine speed",
+      "Remove overload protection",
+      "Convert AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Guard interlocks protect workers from moving parts. Opening the guard should create a safe condition. Bypassing interlocks is dangerous."
+  },
+  {
+    "id": 37,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A solenoid valve is used to:",
+    "options": [
+      "Electrically control air or fluid flow",
+      "Measure transformer oil temperature only",
+      "Store battery energy",
+      "Test insulation resistance"
+    ],
+    "answer": 0,
+    "explanation": "A solenoid coil moves a valve mechanism. This controls pneumatic or hydraulic flow. PLCs commonly operate solenoid valves."
+  },
+  {
+    "id": 38,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A zero-speed switch on a conveyor detects:",
+    "options": [
+      "Whether the conveyor is moving",
+      "Exact line voltage",
+      "CT ratio",
+      "Battery charge level"
+    ],
+    "answer": 0,
+    "explanation": "Zero-speed switches monitor motion. They can detect stalled or slipping conveyors. This protects equipment and process flow."
+  },
+  {
+    "id": 39,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A low-level switch prevents a pump from running dry. What is its purpose?",
+    "options": [
+      "Protect the pump",
+      "Increase current",
+      "Reverse rotation",
+      "Increase voltage"
+    ],
+    "answer": 0,
+    "explanation": "Pumps can be damaged by running without liquid. A low-level switch prevents dry operation. This is a process protection interlock."
+  },
+  {
+    "id": 40,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A transmitter differs from a switch because a transmitter usually provides:",
+    "options": [
+      "A variable analog signal",
+      "Only open or closed contacts",
+      "Mechanical support only",
+      "No electrical output"
+    ],
+    "answer": 0,
+    "explanation": "Transmitters send proportional signals such as 4–20 mA. Switches usually provide on/off status. Both are used in control systems."
+  },
+  {
+    "id": 41,
+    "category": "Task 25 — Motors",
+    "question": "A three-phase induction motor direction is changed by:",
+    "options": [
+      "Swapping any two phase conductors",
+      "Removing the bonding conductor",
+      "Increasing fuse size",
+      "Changing bearing grease"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor rotation depends on phase sequence. Interchanging two phases reverses rotation. Lockout must be used before changing leads."
+  },
+  {
+    "id": 42,
+    "category": "Task 25 — Motors",
+    "question": "Motor FLA means:",
+    "options": [
+      "Full-load amperes",
+      "Fault-line adjustment",
+      "Fuse load alarm",
+      "Field loss angle"
+    ],
+    "answer": 0,
+    "explanation": "FLA is motor current at rated load. It is used for overload settings. It also helps size circuits."
+  },
+  {
+    "id": 43,
+    "category": "Task 25 — Motors",
+    "question": "Motor LRA means:",
+    "options": [
+      "Locked rotor amperes",
+      "Low resistance alarm",
+      "Line relay action",
+      "Load running adjustment"
+    ],
+    "answer": 0,
+    "explanation": "LRA is current when the rotor is not turning. It is much higher than running current. It matters during starting."
+  },
+  {
+    "id": 44,
+    "category": "Task 25 — Motors",
+    "question": "Motor slip is the difference between:",
+    "options": [
+      "Synchronous speed and rotor speed",
+      "Voltage and current",
+      "Horsepower and watts",
+      "Neutral and ground"
+    ],
+    "answer": 0,
+    "explanation": "Induction motors run slightly below synchronous speed. This difference is called slip. Slip is needed to produce torque."
+  },
+  {
+    "id": 45,
+    "category": "Task 25 — Motors",
+    "question": "What is the synchronous speed of a 4-pole motor on 60 Hz?",
+    "options": [
+      "900 rpm",
+      "1200 rpm",
+      "1800 rpm",
+      "3600 rpm"
+    ],
+    "answer": 2,
+    "explanation": "Use (N_s = 120f/P). (120 × 60 ÷ 4 = 1800rpm). Actual motor speed is slightly lower."
+  },
+  {
+    "id": 46,
+    "category": "Task 25 — Motors",
+    "question": "A motor nameplate shows TEFC. What does it mean?",
+    "options": [
+      "Totally enclosed fan cooled",
+      "Transformer energized field coil",
+      "Three electrical feeder circuit",
+      "Terminal earth fault conductor"
+    ],
+    "answer": 0,
+    "explanation": "TEFC describes motor enclosure and cooling. The motor is enclosed and cooled by an external fan. It is common in industrial locations."
+  },
+  {
+    "id": 47,
+    "category": "Task 25 — Motors",
+    "question": "A motor nameplate shows TENV. What does it mean?",
+    "options": [
+      "Totally enclosed non-ventilated",
+      "Three-phase energized neutral voltage",
+      "Transformer enclosure neutral value",
+      "Thermal electronic voltage"
+    ],
+    "answer": 0,
+    "explanation": "TENV motors are enclosed and have no external fan. They rely on their frame surface for cooling. They are used in suitable applications."
+  },
+  {
+    "id": 48,
+    "category": "Task 25 — Motors",
+    "question": "A motor has low insulation resistance to ground. What should be done?",
+    "options": [
+      "Do not energize until repaired or corrected",
+      "Increase fuse size",
+      "Remove the ground wire",
+      "Reverse two phases"
+    ],
+    "answer": 0,
+    "explanation": "Low insulation resistance indicates leakage risk. Energizing can cause shock or fault. The motor should be dried, repaired, or replaced."
+  },
+  {
+    "id": 49,
+    "category": "Task 25 — Motors",
+    "question": "A motor coupling is misaligned. What can it cause?",
+    "options": [
+      "Vibration and bearing wear",
+      "Improved power factor",
+      "Zero slip",
+      "Better insulation resistance"
+    ],
+    "answer": 0,
+    "explanation": "Misalignment stresses shafts and bearings. It causes vibration and heat. Proper alignment increases motor life."
+  },
+  {
+    "id": 50,
+    "category": "Task 25 — Motors",
+    "question": "A motor hums but does not start. What should be suspected?",
+    "options": [
+      "Single-phasing, locked rotor, or mechanical jam",
+      "Correct operation",
+      "Perfect bearings",
+      "Too much panel labelling"
+    ],
+    "answer": 0,
+    "explanation": "A humming motor may be energized but unable to rotate. This can cause high current and overheating. Power should be removed and the cause checked."
+  },
+  {
+    "id": 51,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "In a three-wire motor control circuit, the stop pushbutton is normally:",
+    "options": [
+      "Normally open",
+      "Normally closed",
+      "Connected across the motor",
+      "Connected only to ground"
+    ],
+    "answer": 1,
+    "explanation": "A stop button must open the control circuit when pressed. Normally closed wiring also helps fail safer if a wire opens. This de-energizes the starter coil."
+  },
+  {
+    "id": 52,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "In a three-wire motor control circuit, the start pushbutton is normally:",
+    "options": [
+      "Normally open",
+      "Normally closed",
+      "Always bypassed",
+      "Always grounded"
+    ],
+    "answer": 0,
+    "explanation": "Pressing the start button closes the control circuit. This energizes the starter coil. The start button is momentary."
+  },
+  {
+    "id": 53,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "What is the purpose of the seal-in auxiliary contact?",
+    "options": [
+      "Maintain coil power after the start button is released",
+      "Increase motor horsepower",
+      "Replace the overload relay",
+      "Convert AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "The start button only closes while pressed. The seal-in contact provides a parallel path around the start button. The stop button or overload opens the circuit to stop the motor."
+  },
+  {
+    "id": 54,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starts only while the start button is held. What is the most likely fault?",
+    "options": [
+      "Open seal-in circuit",
+      "Shorted motor winding",
+      "Reversed phase rotation",
+      "Oversized conduit"
+    ],
+    "answer": 0,
+    "explanation": "The coil energizes while the start button is pressed. If the holding contact does not maintain the circuit, the coil drops out. The motor stops when the button is released."
+  },
+  {
+    "id": 55,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Motor overload contacts are normally wired:",
+    "options": [
+      "In series with the starter coil",
+      "Across the motor shaft",
+      "In parallel with the power fuses",
+      "In the grounding electrode conductor"
+    ],
+    "answer": 0,
+    "explanation": "If the overload trips, its contact opens. This de-energizes the coil. The starter opens and the motor stops."
+  },
+  {
+    "id": 56,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Motor overload relays protect against:",
+    "options": [
+      "Sustained motor overcurrent and overheating",
+      "Lightning only",
+      "Reverse rotation only",
+      "Low room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Overloads respond to heating caused by excessive current. They protect motor windings. They do not replace short-circuit protection."
+  },
+  {
+    "id": 57,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control transformer is used in a motor starter mainly to:",
+    "options": [
+      "Provide proper control voltage",
+      "Increase motor speed",
+      "Lubricate contacts",
+      "Measure shaft alignment"
+    ],
+    "answer": 0,
+    "explanation": "Motor power voltage may be higher than control voltage. A transformer supplies the coil and pilot control circuit. Control components must match the control voltage."
+  },
+  {
+    "id": 58,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter coil rated 120 V is connected to 240 V. What is likely?",
+    "options": [
+      "Coil overheating and failure",
+      "Correct operation forever",
+      "Motor speed reduces by half",
+      "Overloads become unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "A coil must be supplied with its rated voltage. Overvoltage causes excessive current and heat. The coil insulation can fail."
+  },
+  {
+    "id": 59,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter coil rated 120 V receives only 70 V. What is likely?",
+    "options": [
+      "Coil chatter or failure to pull in",
+      "Coil burns from overvoltage",
+      "Motor becomes DC",
+      "Fuses become larger automatically"
+    ],
+    "answer": 0,
+    "explanation": "Low voltage gives weak magnetic pull. The contactor may chatter and damage contacts. Control voltage should be checked under load."
+  },
+  {
+    "id": 60,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A reversing starter reverses a three-phase motor by:",
+    "options": [
+      "Interchanging any two phases",
+      "Reversing neutral and ground",
+      "Increasing overload setting",
+      "Changing the motor frame"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor direction depends on phase sequence. Swapping two phase conductors reverses rotation. Reversing starters use two contactors to do this."
+  },
+  {
+    "id": 61,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "Why are mechanical and electrical interlocks used in reversing starters?",
+    "options": [
+      "To prevent forward and reverse contactors from closing together",
+      "To increase motor full-load current",
+      "To remove overload protection",
+      "To change AC into DC"
+    ],
+    "answer": 0,
+    "explanation": "Closing both contactors together can short phases. Interlocks prevent simultaneous operation. This protects equipment and workers."
+  },
+  {
+    "id": 62,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A pilot light connected in parallel with the starter coil indicates:",
+    "options": [
+      "Coil energized condition",
+      "Exact motor shaft speed",
+      "Pump flow rate",
+      "Bearing temperature"
+    ],
+    "answer": 0,
+    "explanation": "The pilot light receives voltage when the coil does. It shows control circuit status. It does not prove the motor is actually rotating."
+  },
+  {
+    "id": 63,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A time-delay relay is most commonly used to:",
+    "options": [
+      "Delay opening or closing of contacts",
+      "Increase motor horsepower",
+      "Reduce conductor insulation",
+      "Replace mechanical guards"
+    ],
+    "answer": 0,
+    "explanation": "Time-delay relays control when a contact changes state. They are used in sequencing and protection. Examples include fan purge and staged starting."
+  },
+  {
+    "id": 64,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A jog pushbutton usually allows the motor to run:",
+    "options": [
+      "Only while the button is pressed",
+      "Continuously after one press",
+      "Only during overload",
+      "Only when the ground fault relay trips"
+    ],
+    "answer": 0,
+    "explanation": "Jogging is momentary operation. It is used for positioning equipment. It usually bypasses the seal-in function."
+  },
+  {
+    "id": 65,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control fuse opens every time the start button is pressed. What should be checked?",
+    "options": [
+      "Coil and control wiring for a short",
+      "Motor coupling alignment only",
+      "Ground rod depth only",
+      "Emergency light battery only"
+    ],
+    "answer": 0,
+    "explanation": "Pressing start energizes the control circuit. If the fuse opens, excessive current is present. A shorted coil or wire is likely."
+  },
+  {
+    "id": 66,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor pulls in but the motor does not run. Line voltage is present on the line side but missing on the load side. What is likely?",
+    "options": [
+      "Failed contactor contacts",
+      "Wrong panel colour",
+      "Low water level only",
+      "PLC memory fault only"
+    ],
+    "answer": 0,
+    "explanation": "Closed contacts should pass voltage to the load side. Missing load-side voltage suggests burned or open contacts. The power circuit should be tested safely."
+  },
+  {
+    "id": 67,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A normally closed stop button fails open. What happens?",
+    "options": [
+      "The motor cannot start",
+      "The motor runs continuously",
+      "The motor reverses automatically",
+      "The overload setting doubles"
+    ],
+    "answer": 0,
+    "explanation": "The stop button is in series with the coil. If it is open, the coil circuit is incomplete. The starter cannot energize."
+  },
+  {
+    "id": 68,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter contact is blackened and pitted. What is the most likely cause?",
+    "options": [
+      "Arcing and contact wear",
+      "Perfect operation",
+      "Too much grounding",
+      "Low mechanical load only"
+    ],
+    "answer": 0,
+    "explanation": "Contacts arc when switching current. Frequent starts or high current increase wear. Damaged contacts may need replacement."
+  },
+  {
+    "id": 69,
+    "category": "Task 23 — Drives",
+    "question": "A VFD controls an AC motor mainly by varying:",
+    "options": [
+      "Frequency and voltage",
+      "Ground rod resistance",
+      "Cable tray width",
+      "Motor paint colour"
+    ],
+    "answer": 0,
+    "explanation": "AC motor speed depends mainly on frequency. The VFD adjusts voltage with frequency. This allows controlled acceleration, deceleration, and speed."
+  },
+  {
+    "id": 70,
+    "category": "Task 23 — Drives",
+    "question": "PWM in a VFD means:",
+    "options": [
+      "Pulse-width modulation",
+      "Power winding meter",
+      "Phase watt motor",
+      "Pressure water monitor"
+    ],
+    "answer": 0,
+    "explanation": "PWM creates output by switching voltage pulses. Changing pulse width controls effective output. IGBTs commonly create this waveform."
+  },
+  {
+    "id": 71,
+    "category": "Task 23 — Drives",
+    "question": "An IGBT inside a VFD is mainly used for:",
+    "options": [
+      "High-speed power switching",
+      "Measuring bearing temperature",
+      "Grounding the motor frame",
+      "Increasing oil pressure"
+    ],
+    "answer": 0,
+    "explanation": "IGBT stands for insulated gate bipolar transistor. It switches the DC bus rapidly. This produces the VFD output waveform."
+  },
+  {
+    "id": 72,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on overcurrent during acceleration. What setting may help?",
+    "options": [
+      "Increase acceleration time",
+      "Reduce bonding conductor size",
+      "Short the motor leads",
+      "Remove overload protection"
+    ],
+    "answer": 0,
+    "explanation": "Fast acceleration requires high torque. High torque requires high current. A longer ramp can reduce current demand."
+  },
+  {
+    "id": 73,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on overvoltage during deceleration of a high-inertia load. What may help?",
+    "options": [
+      "Increase deceleration time or use braking equipment",
+      "Remove motor grounding",
+      "Increase motor load suddenly",
+      "Short the DC bus"
+    ],
+    "answer": 0,
+    "explanation": "A decelerating motor can regenerate energy. This raises the DC bus voltage. Longer deceleration or a braking resistor can reduce trips."
+  },
+  {
+    "id": 74,
+    "category": "Task 23 — Drives",
+    "question": "Why is shielded motor cable often used with VFDs?",
+    "options": [
+      "To reduce electromagnetic interference",
+      "To increase motor horsepower",
+      "To make overloads unnecessary",
+      "To lower voltage rating"
+    ],
+    "answer": 0,
+    "explanation": "VFD outputs switch rapidly and create electrical noise. Shielding helps control EMI. Proper bonding of the shield is important."
+  },
+  {
+    "id": 75,
+    "category": "Task 23 — Drives",
+    "question": "A VFD motor cable is run beside analog signal wiring for a long distance. What problem may occur?",
+    "options": [
+      "Electrical noise in the signal wiring",
+      "Higher motor efficiency always",
+      "Lower mechanical load",
+      "Better sensor accuracy"
+    ],
+    "answer": 0,
+    "explanation": "VFD output conductors produce EMI. Analog signals are sensitive to noise. Separation and shielding reduce interference."
+  },
+  {
+    "id": 76,
+    "category": "Task 23 — Drives",
+    "question": "A drive is programmed with the wrong motor FLA. What can be affected?",
+    "options": [
+      "Motor protection and current limit",
+      "Cable tray support spacing",
+      "Motor paint colour",
+      "Building lighting level"
+    ],
+    "answer": 0,
+    "explanation": "Drives use motor FLA for protection calculations. Wrong settings can cause nuisance trips or poor protection. Nameplate data should be entered correctly."
+  },
+  {
+    "id": 77,
+    "category": "Task 23 — Drives",
+    "question": "What is the purpose of a braking resistor on a VFD?",
+    "options": [
+      "Dissipate regenerated energy",
+      "Increase motor voltage continuously",
+      "Replace the starter coil",
+      "Measure phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "During deceleration, the motor may act as a generator. Regenerated energy raises the DC bus. A braking resistor converts that energy into heat."
+  },
+  {
+    "id": 78,
+    "category": "Task 23 — Drives",
+    "question": "Long VFD motor leads can cause:",
+    "options": [
+      "Reflected wave voltage stress",
+      "Lower available voltage always",
+      "Better motor insulation",
+      "Reduced need for grounding"
+    ],
+    "answer": 0,
+    "explanation": "VFD output pulses have fast rise times. Long cables can reflect voltage waves. This can stress motor insulation."
+  },
+  {
+    "id": 79,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output should normally be connected to:",
+    "options": [
+      "A suitable motor",
+      "General-purpose receptacles",
+      "Fire alarm circuits",
+      "Standard lighting circuits"
+    ],
+    "answer": 0,
+    "explanation": "VFD output is controlled power for motors. It is not standard utility power. Other loads can be damaged."
+  },
+  {
+    "id": 80,
+    "category": "Task 23 — Drives",
+    "question": "Before replacing a VFD, which information is most important to record?",
+    "options": [
+      "Parameters and motor nameplate data",
+      "Wall paint colour",
+      "Room temperature only",
+      "Conduit brand only"
+    ],
+    "answer": 0,
+    "explanation": "Replacement drives must be programmed correctly. Motor data affects protection and performance. Lost parameters can cause startup problems."
+  },
+  {
+    "id": 81,
+    "category": "Task 23 — Drives",
+    "question": "A VFD set to 30 Hz on a standard 60 Hz motor will generally run the motor at:",
+    "options": [
+      "About half speed",
+      "Double speed",
+      "Zero speed always",
+      "Same speed as 60 Hz"
+    ],
+    "answer": 0,
+    "explanation": "Induction motor speed is roughly proportional to frequency. 30 Hz is half of 60 Hz. Actual speed also depends on slip."
+  },
+  {
+    "id": 82,
+    "category": "Task 23 — Drives",
+    "question": "Why should power-factor capacitors not usually be connected on the output side of a VFD?",
+    "options": [
+      "They can be damaged and may damage the drive",
+      "They always improve VFD operation",
+      "They make the motor DC",
+      "They remove all harmonics safely"
+    ],
+    "answer": 0,
+    "explanation": "VFD output is not a normal sine wave. Capacitors can draw high switching currents. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 83,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A float switch is commonly used to control:",
+    "options": [
+      "Liquid level",
+      "Phase rotation",
+      "Motor insulation resistance",
+      "Transformer impedance"
+    ],
+    "answer": 0,
+    "explanation": "Float switches change state with liquid level. They are often used with pumps. They can start, stop, or alarm."
+  },
+  {
+    "id": 84,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A pressure switch opens at high pressure. What is its purpose?",
+    "options": [
+      "Control or protect equipment based on pressure",
+      "Measure motor RPM",
+      "Convert AC to DC",
+      "Store energy like a battery"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches operate at set pressure points. They can stop equipment or signal alarms. They are common in compressors, pumps, and hydraulic systems."
+  },
+  {
+    "id": 85,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor pull-cord switch is activated. What should normally happen?",
+    "options": [
+      "Conveyor stops",
+      "Conveyor speeds up",
+      "Motor overload is bypassed",
+      "VFD output becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Pull-cords are safety stop devices. They allow stopping from along the conveyor length. The cause should be checked before restart."
+  },
+  {
+    "id": 86,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A guard interlock opens when a machine guard is removed. What should the control system do?",
+    "options": [
+      "Stop or prevent machine operation",
+      "Increase speed",
+      "Disable alarms",
+      "Raise voltage"
+    ],
+    "answer": 0,
+    "explanation": "Guard interlocks protect people from moving parts. Opening a guard should create a safe condition. Bypassing interlocks is dangerous."
+  },
+  {
+    "id": 87,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A solenoid valve coil is energized, but the actuator does not move. What should be checked?",
+    "options": [
+      "Coil voltage, valve condition, and air/fluid pressure",
+      "Paint colour",
+      "CT polarity only",
+      "Lighting level"
+    ],
+    "answer": 0,
+    "explanation": "Electrical operation does not guarantee mechanical movement. The valve may be stuck or pressure may be missing. Both electrical and process conditions must be checked."
+  },
+  {
+    "id": 88,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A zero-speed switch is used to detect:",
+    "options": [
+      "Stalled or non-moving equipment",
+      "Transformer oil level",
+      "Battery polarity",
+      "Ground rod resistance"
+    ],
+    "answer": 0,
+    "explanation": "Zero-speed switches monitor motion. They can detect belt slip or conveyor failure. This protects process equipment."
+  },
+  {
+    "id": 89,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A low-level switch prevents a pump from starting. What is the likely reason?",
+    "options": [
+      "To protect the pump from running dry",
+      "To increase pressure dangerously",
+      "To reverse motor rotation",
+      "To bypass overloads"
+    ],
+    "answer": 0,
+    "explanation": "Pumps can be damaged without liquid. Low-level interlocks protect the pump. The level condition must be corrected before operation."
+  },
+  {
+    "id": 90,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A transmitter usually sends what kind of signal?",
+    "options": [
+      "Variable analog signal",
+      "Only mechanical movement",
+      "No electrical signal",
+      "Grounding signal only"
+    ],
+    "answer": 0,
+    "explanation": "Transmitters provide signals such as 4–20 mA or 0–10 V. They represent pressure, level, temperature, or flow. Switches usually provide simple on/off status."
+  },
+  {
+    "id": 91,
+    "category": "Task 25 — Motors",
+    "question": "A three-phase motor rotates backward. What is the normal correction after lockout?",
+    "options": [
+      "Swap any two phase conductors",
+      "Swap neutral and bond",
+      "Increase fuse size",
+      "Remove overloads"
+    ],
+    "answer": 0,
+    "explanation": "Phase sequence determines motor rotation. Interchanging two phases reverses direction. Lockout is required before changing connections."
+  },
+  {
+    "id": 92,
+    "category": "Task 25 — Motors",
+    "question": "What does FLA on a motor nameplate mean?",
+    "options": [
+      "Full-load amperes",
+      "Fault-line adjustment",
+      "Fuse load alarm",
+      "Field loss angle"
+    ],
+    "answer": 0,
+    "explanation": "FLA is current at rated load. It is used for overload settings. It also helps with circuit sizing."
+  },
+  {
+    "id": 93,
+    "category": "Task 25 — Motors",
+    "question": "What does LRA on a motor nameplate mean?",
+    "options": [
+      "Locked rotor amperes",
+      "Low resistance alarm",
+      "Line relay action",
+      "Load running adjustment"
+    ],
+    "answer": 0,
+    "explanation": "LRA is current when the rotor is not turning. It is much higher than running current. Starting equipment must handle it."
+  },
+  {
+    "id": 94,
+    "category": "Task 25 — Motors",
+    "question": "A 4-pole motor on 60 Hz has synchronous speed of:",
+    "options": [
+      "900 rpm",
+      "1200 rpm",
+      "1800 rpm",
+      "3600 rpm"
+    ],
+    "answer": 2,
+    "explanation": "Use (N_s = 120f/P). (120 × 60 ÷ 4 = 1800rpm). Actual induction motor speed is slightly lower."
+  },
+  {
+    "id": 95,
+    "category": "Task 25 — Motors",
+    "question": "A 6-pole motor on 60 Hz has synchronous speed of:",
+    "options": [
+      "600 rpm",
+      "900 rpm",
+      "1200 rpm",
+      "1800 rpm"
+    ],
+    "answer": 2,
+    "explanation": "Use (N_s = 120f/P). (120 × 60 ÷ 6 = 1200rpm). Actual speed is lower because of slip."
+  },
+  {
+    "id": 96,
+    "category": "Task 25 — Motors",
+    "question": "An induction motor runs below synchronous speed because of:",
+    "options": [
+      "Slip",
+      "Grounding",
+      "CT ratio",
+      "Pilot light voltage"
+    ],
+    "answer": 0,
+    "explanation": "Slip is required for induction motor torque. Rotor speed is slightly less than synchronous speed. Slip increases with load."
+  },
+  {
+    "id": 97,
+    "category": "Task 25 — Motors",
+    "question": "A motor has synchronous speed of 1800 rpm and actual speed of 1746 rpm. What is percent slip?",
+    "options": [
+      "1%",
+      "2%",
+      "3%",
+      "6%"
+    ],
+    "answer": 2,
+    "explanation": "Slip is ((1800 - 1746) ÷ 1800 × 100). (54 ÷ 1800 × 100 = 3%). The motor has 3% slip."
+  },
+  {
+    "id": 98,
+    "category": "Task 25 — Motors",
+    "question": "TEFC on a motor nameplate means:",
+    "options": [
+      "Totally enclosed fan cooled",
+      "Transformer energized field coil",
+      "Three electrical feeder circuit",
+      "Thermal earth fault conductor"
+    ],
+    "answer": 0,
+    "explanation": "TEFC describes motor enclosure and cooling. The motor is enclosed and cooled by an external fan. It is common in industrial locations."
+  },
+  {
+    "id": 99,
+    "category": "Task 25 — Motors",
+    "question": "A motor has low insulation resistance to ground. What should be done?",
+    "options": [
+      "Do not energize until corrected",
+      "Increase fuse size",
+      "Reverse any two phases",
+      "Remove bonding conductor"
+    ],
+    "answer": 0,
+    "explanation": "Low insulation resistance indicates leakage or moisture. Energizing can cause shock or fault. The motor should be repaired, dried, or replaced."
+  },
+  {
+    "id": 100,
+    "category": "Task 25 — Motors",
+    "question": "A motor hums but does not start, and current rises quickly. What should be suspected?",
+    "options": [
+      "Locked rotor, single-phasing, or mechanical jam",
+      "Correct operation",
+      "Perfect phase balance",
+      "Low bearing friction only"
+    ],
+    "answer": 0,
+    "explanation": "A motor that hums without rotating can draw high current. A jammed load or missing phase can cause this. Power should be removed and the cause checked."
+  },
+  {
+    "id": 101,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A three-wire control circuit starts normally, but the motor stops immediately when the operator releases the start button. The stop button is closed and overload contact is reset. What is the most likely fault?",
+    "options": [
+      "Open seal-in auxiliary contact circuit",
+      "Shorted motor winding",
+      "Incorrect phase rotation",
+      "Overload heater too large"
+    ],
+    "answer": 0,
+    "explanation": "The start button only energizes the coil momentarily. The seal-in auxiliary contact must maintain coil power after release. If it is open, the coil drops out when the start button is released."
+  },
+  {
+    "id": 102,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control circuit uses a normally closed stop button. Why is this safer than using a normally open stop button?",
+    "options": [
+      "An open wire can stop or prevent operation",
+      "It increases motor speed",
+      "It removes need for overloads",
+      "It lowers coil voltage automatically"
+    ],
+    "answer": 0,
+    "explanation": "A normally closed stop circuit opens when pressed or when a wire breaks. This creates a fail-safer condition. A normally open stop circuit may not reveal broken wiring."
+  },
+  {
+    "id": 103,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor coil is rated 120 V AC. It is replaced with a 120 V DC coil on the same AC control circuit. What is the concern?",
+    "options": [
+      "Coil may not operate correctly because AC and DC coils are designed differently",
+      "The motor will automatically reverse",
+      "The overload relay will become unnecessary",
+      "The contactor will always operate better"
+    ],
+    "answer": 0,
+    "explanation": "AC and DC coils have different magnetic and impedance characteristics. A wrong coil type can chatter, overheat, or fail. Voltage rating alone is not enough; coil type must match supply."
+  },
+  {
+    "id": 104,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter coil chatters only when the motor is starting. When tested with no load, the coil seems normal. What is the most likely hidden cause?",
+    "options": [
+      "Control voltage drops during motor starting",
+      "Motor bearings are too smooth",
+      "Stop button is too large",
+      "Pilot light is too bright"
+    ],
+    "answer": 0,
+    "explanation": "Motor starting current can cause voltage drop. A coil may chatter if voltage falls below pickup/hold level. Measure coil voltage during the actual start condition."
+  },
+  {
+    "id": 105,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A reversing starter has forward and reverse contactors. Both contactors cannot be mechanically pushed in at the same time. What device is providing this protection?",
+    "options": [
+      "Mechanical interlock",
+      "Pilot light",
+      "Overload heater",
+      "Control transformer fuse"
+    ],
+    "answer": 0,
+    "explanation": "A mechanical interlock physically prevents simultaneous contactor closure. This prevents phase-to-phase faults. Electrical interlocks also provide control circuit protection."
+  },
+  {
+    "id": 106,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A reversing starter has failed electrical interlock contacts, but the mechanical interlock is intact. What is still a concern?",
+    "options": [
+      "Both coils may be energized at the same time, stressing the control circuit",
+      "Motor will lose all overload protection automatically",
+      "Motor can only run in DC",
+      "The motor will always run at half speed"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical interlock prevents both power contactors from closing. Failed electrical interlock may still allow both coils to energize. This can cause coil heating, chatter, or control circuit faults."
+  },
+  {
+    "id": 107,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter overload trips, but the operator repeatedly resets it without checking the motor. What is the main danger?",
+    "options": [
+      "The motor windings may overheat and fail",
+      "The motor will reverse direction",
+      "The supply becomes single-phase automatically",
+      "The pilot light will burn brighter"
+    ],
+    "answer": 0,
+    "explanation": "Overload trips indicate excessive current or heat. Repeated resetting ignores the cause. The motor, load, voltage, and overload setting should be checked."
+  },
+  {
+    "id": 108,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter is controlled by a PLC output. The PLC output light is on, but the starter coil has no voltage. What should be checked first?",
+    "options": [
+      "Output fuse, field power, wiring, and coil circuit",
+      "Motor bearing grease",
+      "Motor shaft alignment only",
+      "Cable tray support spacing"
+    ],
+    "answer": 0,
+    "explanation": "A PLC output indicator does not prove field voltage. The output circuit may be missing power or have an open fuse. Troubleshooting should follow the control circuit path."
+  },
+  {
+    "id": 109,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A pilot light marked “RUN” is connected across the contactor coil. The light is on, but the motor shaft is not turning. What is the correct interpretation?",
+    "options": [
+      "The coil is energized, but motor rotation is not proven",
+      "The motor is definitely running",
+      "The overload relay is definitely correct",
+      "Phase rotation is definitely correct"
+    ],
+    "answer": 0,
+    "explanation": "A coil pilot light only proves coil voltage. Power contacts, overloads, motor wiring, or mechanical load may still prevent rotation. True run feedback requires auxiliary or motion feedback."
+  },
+  {
+    "id": 110,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor pulls in loudly and then drops out repeatedly. The coil voltage measures low only while energized. What is likely?",
+    "options": [
+      "High resistance connection or undersized control transformer",
+      "Correct operation",
+      "Overload relay too cold",
+      "Motor rotation reversed"
+    ],
+    "answer": 0,
+    "explanation": "Low voltage under load indicates voltage drop or weak supply. A loose connection can drop voltage when coil current flows. The control transformer may also be overloaded."
+  },
+  {
+    "id": 111,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A time-delay relay keeps a cooling fan running for 60 seconds after a heater turns off. What type of control purpose is this?",
+    "options": [
+      "Sequencing/purge timing",
+      "Ground fault detection",
+      "Phase loss protection",
+      "CT metering"
+    ],
+    "answer": 0,
+    "explanation": "Time-delay relays control when devices operate after a condition changes. Fan purge removes remaining heat. This protects equipment from overheating."
+  },
+  {
+    "id": 112,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A jog circuit runs the motor only while the jog button is held. Why is a seal-in contact usually not used for jog?",
+    "options": [
+      "Jogging is intended to be momentary operation",
+      "Jogging requires no coil voltage",
+      "Jogging only works on DC motors",
+      "Jogging replaces overload protection"
+    ],
+    "answer": 0,
+    "explanation": "Jog control is used for positioning or inching equipment. The motor should stop when the button is released. A seal-in would make it continue running."
+  },
+  {
+    "id": 113,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor is closed, and line-side voltage is correct. Load-side voltage is missing on one phase only. What is most likely?",
+    "options": [
+      "One contact is open or badly burned",
+      "Stop button is open",
+      "Control transformer is oversized",
+      "Motor has too much service factor"
+    ],
+    "answer": 0,
+    "explanation": "A closed contactor should pass all phases. Missing one load-side phase suggests a failed contact or connection. This can single-phase the motor."
+  },
+  {
+    "id": 114,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter has overload heaters sized far above motor nameplate current. What is the hidden problem?",
+    "options": [
+      "The motor may not be protected against overload heating",
+      "The motor will run at lower speed",
+      "The starter coil will receive less voltage",
+      "Phase rotation will correct itself"
+    ],
+    "answer": 0,
+    "explanation": "Overload protection must match motor current. Oversized overloads may not trip during damaging current. Nameplate FLA and applicable rules guide selection."
+  },
+  {
+    "id": 115,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A machine has a maintained start switch instead of a momentary start button in a three-wire control circuit. What is a possible risk?",
+    "options": [
+      "Unexpected restart after power restoration if circuit design allows it",
+      "Motor cannot start under any condition",
+      "The coil receives DC only",
+      "Overload protection improves"
+    ],
+    "answer": 0,
+    "explanation": "Three-wire control is normally used to prevent automatic restart after power loss. A maintained start device can defeat this intention depending on wiring. Unexpected restart is a safety hazard."
+  },
+  {
+    "id": 116,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter coil burns out repeatedly. Supply voltage is correct. What should be checked next?",
+    "options": [
+      "Coil rating, duty cycle, shading ring, and mechanical binding",
+      "Panel paint colour",
+      "Ground rod depth",
+      "Cable tray width"
+    ],
+    "answer": 0,
+    "explanation": "Correct supply voltage alone does not prove correct operation. Mechanical binding can keep the coil from seating properly. Wrong coil type or duty rating can also cause overheating."
+  },
+  {
+    "id": 117,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor has a broken shading coil/ring. What symptom is most likely on an AC contactor?",
+    "options": [
+      "Loud hum or chatter",
+      "Motor runs at exactly half speed",
+      "Overload current becomes zero",
+      "Fuse rating doubles"
+    ],
+    "answer": 0,
+    "explanation": "Shading rings help maintain magnetic pull during AC zero crossings. If broken, the armature may buzz or chatter. This can damage contacts and coil."
+  },
+  {
+    "id": 118,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control circuit fuse opens only when a specific pilot light is installed. What does this suggest?",
+    "options": [
+      "Pilot light or its wiring may be shorted or wrong voltage",
+      "Motor is mechanically overloaded",
+      "Contactor contacts are perfectly clean",
+      "Phase sequence is reversed"
+    ],
+    "answer": 0,
+    "explanation": "The fault appears when that pilot device is connected. Wrong voltage lamp or shorted wiring can overload the control fuse. Troubleshoot the affected branch."
+  },
+  {
+    "id": 119,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is supplied with correct input voltage but shows DC bus undervoltage during acceleration. Which condition could cause this?",
+    "options": [
+      "Input voltage sag under load",
+      "Motor bearings too new",
+      "Output frequency too low only",
+      "Shielded cable too short"
+    ],
+    "answer": 0,
+    "explanation": "The DC bus depends on input power. Heavy acceleration can draw current and expose supply weakness. Measure input voltage during acceleration."
+  },
+  {
+    "id": 120,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on overvoltage while stopping a large fan. Why can stopping cause overvoltage?",
+    "options": [
+      "The spinning motor can regenerate energy into the DC bus",
+      "The motor becomes a resistor only",
+      "The ground conductor increases voltage",
+      "The input frequency doubles"
+    ],
+    "answer": 0,
+    "explanation": "High-inertia loads continue spinning during deceleration. The motor can act like a generator. Regenerated energy raises DC bus voltage."
+  },
+  {
+    "id": 121,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output is measured with a standard average-reading meter and gives an odd unstable voltage. What is the trap?",
+    "options": [
+      "PWM output may not read correctly on a standard meter",
+      "The drive output is always zero",
+      "The motor must be DC",
+      "The meter proves the drive is failed"
+    ],
+    "answer": 0,
+    "explanation": "VFD output is a switched waveform, not a pure sine wave. Some meters give misleading readings on PWM. Use appropriate test equipment and follow manufacturer procedure."
+  },
+  {
+    "id": 122,
+    "category": "Task 23 — Drives",
+    "question": "A VFD-fed motor has insulation failure after installation with very long motor leads. What drive-related issue may have contributed?",
+    "options": [
+      "Reflected wave voltage stress",
+      "Low mechanical load",
+      "Too much bearing grease",
+      "Correct shield grounding only"
+    ],
+    "answer": 0,
+    "explanation": "Fast PWM rise times can reflect on long cables. This can create high peak voltages at motor terminals. Output filters or inverter-duty motors may be required."
+  },
+  {
+    "id": 123,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is programmed with a motor FLA lower than actual nameplate FLA. What is most likely?",
+    "options": [
+      "Nuisance overcurrent or overload trips",
+      "Motor will be better protected in all conditions",
+      "Motor will run faster than commanded",
+      "Drive will produce pure DC output"
+    ],
+    "answer": 0,
+    "explanation": "The drive uses FLA for protection calculations. A low programmed value makes the drive think normal current is excessive. Correct motor nameplate data is essential."
+  },
+  {
+    "id": 124,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is programmed with motor base frequency at 50 Hz for a 60 Hz motor. What can be affected?",
+    "options": [
+      "Voltage/frequency relationship and motor performance",
+      "Ground rod resistance only",
+      "Cable tray fill only",
+      "Pilot light colour only"
+    ],
+    "answer": 0,
+    "explanation": "Base frequency affects the V/F curve. Wrong base frequency can overflux or underflux the motor. Motor nameplate frequency should be used."
+  },
+  {
+    "id": 125,
+    "category": "Task 23 — Drives",
+    "question": "A disconnect between a VFD and motor is opened while the drive is running. What is a concern?",
+    "options": [
+      "Voltage spikes and possible drive damage",
+      "Better drive protection",
+      "Automatic power factor correction",
+      "Lower DC bus voltage always"
+    ],
+    "answer": 0,
+    "explanation": "Interrupting VFD output under load can create damaging transients. Drive output stages are sensitive to switching events. Follow manufacturer instructions for output disconnects."
+  },
+  {
+    "id": 126,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on ground fault only at higher speeds. Which fault is most likely being exposed?",
+    "options": [
+      "Motor or cable insulation weakness under higher voltage stress",
+      "Incorrect panel directory",
+      "Low battery voltage",
+      "Clean motor windings"
+    ],
+    "answer": 0,
+    "explanation": "Higher speed usually means higher output voltage. Weak insulation may leak or fault only under higher stress. Megger testing of motor and cable may be required."
+  },
+  {
+    "id": 127,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output cable shield is grounded at the wrong point and noise worsens on nearby analog signals. What is the issue?",
+    "options": [
+      "Improper shield bonding can create noise problems",
+      "Shielding always works regardless of termination",
+      "Analog signals cannot be affected by VFDs",
+      "Grounding shields makes cables non-conductive"
+    ],
+    "answer": 0,
+    "explanation": "Shields must be terminated according to design instructions. Incorrect bonding can create ground loops or poor noise control. VFD installations require careful grounding and routing."
+  },
+  {
+    "id": 128,
+    "category": "Task 23 — Drives",
+    "question": "A VFD has a braking resistor installed, but overvoltage trips still occur during rapid deceleration. What should be checked?",
+    "options": [
+      "Resistor rating, wiring, brake chopper, and decel setting",
+      "Exit sign battery",
+      "CT polarity only",
+      "Motor paint colour"
+    ],
+    "answer": 0,
+    "explanation": "The resistor must be connected and rated correctly. The drive’s braking circuit must function. A decel ramp may still be too aggressive."
+  },
+  {
+    "id": 129,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is connected to a standard power-factor capacitor bank on its output. What is the likely danger?",
+    "options": [
+      "Capacitor or drive damage from PWM switching",
+      "Motor always runs smoother",
+      "Drive output becomes utility sine wave",
+      "Harmonics disappear completely"
+    ],
+    "answer": 0,
+    "explanation": "VFD output contains fast switching pulses. Capacitors can draw high charging currents and resonate. Capacitors are not normally installed on VFD outputs."
+  },
+  {
+    "id": 130,
+    "category": "Task 23 — Drives",
+    "question": "A motor controlled by VFD overheats at very low speed while driving a constant-torque load. What is a likely reason?",
+    "options": [
+      "Reduced cooling from shaft-mounted fan at low speed",
+      "Motor voltage is always zero at low speed",
+      "Slip is eliminated",
+      "Motor becomes single-phase automatically"
+    ],
+    "answer": 0,
+    "explanation": "Many motors use shaft-mounted fans. At low speed, cooling airflow is reduced. Separate cooling or motor derating may be required."
+  },
+  {
+    "id": 131,
+    "category": "Task 23 — Drives",
+    "question": "A VFD display shows “external fault,” but the motor and drive power circuit test normal. What should be checked?",
+    "options": [
+      "External interlock/input circuit to the drive",
+      "Motor bearings only",
+      "Transformer oil level only",
+      "CT ratio only"
+    ],
+    "answer": 0,
+    "explanation": "External fault usually comes from a control input. Safety relays, overload contacts, or process interlocks may trigger it. The input wiring and logic should be checked."
+  },
+  {
+    "id": 132,
+    "category": "Task 23 — Drives",
+    "question": "A drive-controlled pump surges because the speed command signal is unstable. What should be checked?",
+    "options": [
+      "Analog reference wiring, shielding, grounding, and signal source",
+      "Motor colour",
+      "Bearing grease type only",
+      "Fire alarm circuit only"
+    ],
+    "answer": 0,
+    "explanation": "Speed command instability causes speed changes. Analog wiring can pick up noise. Signal source and shield termination must be verified."
+  },
+  {
+    "id": 133,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor pull-cord circuit is reset, but the conveyor still will not start. What is the best first check?",
+    "options": [
+      "Verify all pull-cord switches and safety interlocks are reset",
+      "Increase motor fuse size",
+      "Swap any two phases",
+      "Replace the transformer immediately"
+    ],
+    "answer": 0,
+    "explanation": "Conveyor safety circuits may have several devices in series. One unreset device can keep the start circuit open. Always confirm safety devices before bypassing or replacing parts."
+  },
+  {
+    "id": 134,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A level switch is stuck closed on a sump pump system. What is the likely result?",
+    "options": [
+      "Pump may run when it should not",
+      "Pump can never start",
+      "Phase rotation becomes correct",
+      "Motor insulation improves"
+    ],
+    "answer": 0,
+    "explanation": "A stuck closed input gives a false demand signal. The pump may run dry or operate at the wrong level. The switch and wiring should be tested."
+  },
+  {
+    "id": 135,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A pressure switch has a high setpoint that is adjusted too high. What is the risk?",
+    "options": [
+      "Equipment may overpressure before shutdown",
+      "Motor speed will be too low",
+      "Voltage becomes DC",
+      "The PLC loses memory"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switch setpoints protect equipment. If set too high, protection may occur too late. Setpoints must match process limits."
+  },
+  {
+    "id": 136,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A solenoid valve coil is energized and rated voltage is present, but the valve does not shift. What does this prove?",
+    "options": [
+      "The fault may be mechanical or fluid-pressure related",
+      "The coil is definitely open",
+      "The PLC program is definitely wrong",
+      "The motor must be single-phasing"
+    ],
+    "answer": 0,
+    "explanation": "Correct coil voltage does not prove valve movement. The valve spool may be stuck or pressure may be missing. Both electrical and mechanical/fluid checks are needed."
+  },
+  {
+    "id": 137,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A zero-speed switch fails to detect that a conveyor belt has stopped while the motor keeps running. What hazard can result?",
+    "options": [
+      "Belt slip or process jam may continue unnoticed",
+      "Motor voltage becomes zero",
+      "Transformer impedance increases",
+      "Pilot light becomes brighter"
+    ],
+    "answer": 0,
+    "explanation": "Zero-speed switches confirm equipment motion. If they fail, the control system may think the conveyor is moving. This can damage belts, product, or downstream equipment."
+  },
+  {
+    "id": 138,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A safety guard interlock is bypassed to allow adjustment during operation. What is the most serious issue?",
+    "options": [
+      "Worker exposure to moving machine hazards",
+      "Motor runs at lower power factor",
+      "PLC scan time increases",
+      "Pressure switch becomes analog"
+    ],
+    "answer": 0,
+    "explanation": "Guard interlocks are safety devices. Bypassing them defeats the protective function. Safe adjustment procedures must be used instead."
+  },
+  {
+    "id": 139,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A transmitter sends 4–20 mA while a pressure switch gives open/closed contact. What is the key difference?",
+    "options": [
+      "Transmitter gives proportional signal; switch gives discrete status",
+      "Switch is always more accurate",
+      "Transmitter has no wiring",
+      "Switch only works on three-phase AC"
+    ],
+    "answer": 0,
+    "explanation": "A transmitter gives a variable process value. A switch changes state at a setpoint. Both are useful but provide different information."
+  },
+  {
+    "id": 140,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A low-level interlock prevents a pump from starting even though the operator presses start. Why is this normal?",
+    "options": [
+      "The interlock protects the pump from dry running",
+      "The start button is always defective",
+      "The motor must be reversed",
+      "The VFD output is DC"
+    ],
+    "answer": 0,
+    "explanation": "Process interlocks can override operator start commands. Running a pump dry can damage seals or impeller. The low-level condition must be corrected first."
+  },
+  {
+    "id": 141,
+    "category": "Task 25 — Motors",
+    "question": "A 6-pole motor on 60 Hz has a nameplate speed of 1160 rpm. Why is it not exactly 1200 rpm?",
+    "options": [
+      "Slip",
+      "Wrong voltage always",
+      "DC excitation",
+      "Grounding resistance"
+    ],
+    "answer": 0,
+    "explanation": "1200 rpm is synchronous speed for a 6-pole 60 Hz motor. Induction motors run slightly below synchronous speed. The difference is slip."
+  },
+  {
+    "id": 142,
+    "category": "Task 25 — Motors",
+    "question": "A motor has synchronous speed of 1800 rpm and actual speed of 1710 rpm. What is percent slip?",
+    "options": [
+      "2%",
+      "3%",
+      "5%",
+      "10%"
+    ],
+    "answer": 2,
+    "explanation": "Slip percentage is ((N_s - N_r) ÷ N_s × 100). ((1800 - 1710) ÷ 1800 × 100 = 5%). Slip increases as load increases."
+  },
+  {
+    "id": 143,
+    "category": "Task 25 — Motors",
+    "question": "A motor draws high current on all three phases and runs hot. Voltage is correct and balanced. What should be suspected next?",
+    "options": [
+      "Mechanical overload or poor cooling",
+      "Wrong phase rotation only",
+      "Open CT secondary only",
+      "Panel directory error only"
+    ],
+    "answer": 0,
+    "explanation": "Balanced high current suggests the motor is loaded heavily. Poor ventilation can also cause overheating. Check load, bearings, alignment, and cooling."
+  },
+  {
+    "id": 144,
+    "category": "Task 25 — Motors",
+    "question": "A motor draws high current on only one phase. What is more likely?",
+    "options": [
+      "Winding fault, connection issue, or supply imbalance",
+      "Normal balanced motor operation",
+      "Correct motor cooling",
+      "Too much service factor"
+    ],
+    "answer": 0,
+    "explanation": "Phase currents should be reasonably balanced. High current on one phase indicates abnormal condition. Connections, voltage, and windings should be checked."
+  },
+  {
+    "id": 145,
+    "category": "Task 25 — Motors",
+    "question": "A motor is rated TEFC and installed where its external fan guard is packed with dust. What is the concern?",
+    "options": [
+      "Reduced cooling and overheating",
+      "Motor becomes waterproof",
+      "Motor slip becomes zero",
+      "Overload protection is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "TEFC motors rely on an external fan for cooling. Blocked airflow prevents heat removal. Overheating shortens insulation life."
+  },
+  {
+    "id": 146,
+    "category": "Task 25 — Motors",
+    "question": "A motor with low insulation resistance is started “to dry it out.” What is the risk?",
+    "options": [
+      "Ground fault, shock, or winding damage",
+      "Faster safe drying always",
+      "Improved insulation immediately",
+      "Lower starting current"
+    ],
+    "answer": 0,
+    "explanation": "Low insulation resistance indicates leakage or moisture. Energizing can cause failure or shock hazard. Proper drying and retesting should be done first."
+  },
+  {
+    "id": 147,
+    "category": "Task 25 — Motors",
+    "question": "A motor nameplate shows service factor 1.15. What is the exam trap?",
+    "options": [
+      "It does not mean the motor should normally be overloaded",
+      "It means the motor has 15 phases",
+      "It means overload protection can be removed",
+      "It means the motor always runs 15% faster"
+    ],
+    "answer": 0,
+    "explanation": "Service factor allows limited overload under specified conditions. It is not a license for continuous abuse. Overload settings and application must still be correct."
+  },
+  {
+    "id": 148,
+    "category": "Task 25 — Motors",
+    "question": "A motor hums but does not rotate after one supply fuse opens. What condition is likely?",
+    "options": [
+      "Single-phasing",
+      "Correct three-phase operation",
+      "Perfect overload protection only",
+      "DC braking"
+    ],
+    "answer": 0,
+    "explanation": "Losing one phase can leave the motor unable to start. It may hum and draw high current. Single-phasing can quickly damage a motor."
+  },
+  {
+    "id": 149,
+    "category": "Task 25 — Motors",
+    "question": "A motor coupling is badly misaligned, but electrical readings are normal. What failure may still occur?",
+    "options": [
+      "Bearing failure and vibration damage",
+      "CT polarity reversal",
+      "Better motor efficiency always",
+      "Reduced mechanical stress"
+    ],
+    "answer": 0,
+    "explanation": "Electrical readings do not prove mechanical alignment. Misalignment stresses shafts and bearings. Vibration and heat can lead to failure."
+  },
+  {
+    "id": 150,
+    "category": "Task 25 — Motors",
+    "question": "A motor has a locked rotor current much higher than FLA. Why is this expected?",
+    "options": [
+      "At zero speed, counter EMF is low and starting current is high",
+      "Locked rotor current means motor is disconnected",
+      "FLA is always higher than LRA",
+      "Locked rotor current occurs only at no voltage"
+    ],
+    "answer": 0,
+    "explanation": "When the rotor is not turning, motor impedance is low. Starting current can be several times full-load current. Starters and protection must handle this condition."
+  },
+  {
+    "id": 151,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter is energized, but the contactor does not pull in. The control transformer secondary has no voltage. What should be checked first?",
+    "options": [
+      "Control transformer primary supply and secondary fuse",
+      "Motor bearing alignment only",
+      "Pump flow rate only",
+      "Motor coupling guard only"
+    ],
+    "answer": 0,
+    "explanation": "The contactor coil needs control voltage to operate. If the transformer secondary has no voltage, check supply, fuses, and transformer condition. The motor power circuit cannot start until the control circuit is restored."
+  },
+  {
+    "id": 152,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter coil pulls in, but the motor overload trips after a short run time. What should be checked?",
+    "options": [
+      "Motor current, mechanical load, and overload setting",
+      "Pilot light colour",
+      "Panel directory font",
+      "Raceway strap type"
+    ],
+    "answer": 0,
+    "explanation": "Overload trips usually indicate excessive motor heating current. A heavy mechanical load or wrong overload setting can cause trips. Measured current should be compared with motor nameplate FLA."
+  },
+  {
+    "id": 153,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A start button is pressed, but nothing happens. The stop circuit is open. What does this mean?",
+    "options": [
+      "The coil circuit cannot be completed",
+      "The motor must be rotating",
+      "The overload is bypassed",
+      "The motor voltage is too high"
+    ],
+    "answer": 0,
+    "explanation": "The stop button is normally in series with the starter coil. If the stop circuit is open, control current cannot reach the coil. The starter will not energize until the open is corrected."
+  },
+  {
+    "id": 154,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A three-wire control circuit uses a maintained seal-in contact. What opens the circuit during a normal stop?",
+    "options": [
+      "Stop pushbutton",
+      "Start pushbutton",
+      "Motor shaft",
+      "Pilot light lens"
+    ],
+    "answer": 0,
+    "explanation": "The stop button is normally closed during operation. Pressing it opens the coil circuit. This drops out the starter and opens motor power contacts."
+  },
+  {
+    "id": 155,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control relay coil energizes, but its contact does not change state. What is likely?",
+    "options": [
+      "Mechanical relay failure or damaged contact",
+      "Correct operation",
+      "Wrong motor rotation only",
+      "Low hydraulic oil only"
+    ],
+    "answer": 0,
+    "explanation": "A relay coil and contacts are related but separate parts. The coil may energize while the contact mechanism fails. Contacts should be tested electrically and mechanically."
+  },
+  {
+    "id": 156,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter has a 120 V coil and the control transformer output is 120 V with no load, but drops to 60 V when the coil is connected. What is likely?",
+    "options": [
+      "Weak transformer, loose connection, or high resistance in control circuit",
+      "Perfect control voltage",
+      "Motor is oversized only",
+      "Bearing grease is incorrect"
+    ],
+    "answer": 0,
+    "explanation": "Voltage that collapses under load indicates poor supply capacity or high resistance. Loose terminals and undersized control transformers can cause this. The circuit should be checked under operating conditions."
+  },
+  {
+    "id": 157,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor is rated for motor loads. Why is this important?",
+    "options": [
+      "Motor loads have high starting current and switching stress",
+      "Motor loads have no current",
+      "Motor loads are always DC",
+      "Motor loads never arc contacts"
+    ],
+    "answer": 0,
+    "explanation": "Motors draw high current when starting. Contactor contacts must handle motor switching duty. Using the wrong rating can cause contact failure."
+  },
+  {
+    "id": 158,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter overload is reset, but it trips again immediately when the motor starts. What is the best action?",
+    "options": [
+      "Stop and troubleshoot the cause",
+      "Keep resetting until it stays on",
+      "Bypass overload contacts",
+      "Increase fuse size randomly"
+    ],
+    "answer": 0,
+    "explanation": "Immediate repeated trips indicate a real problem. Possible causes include locked rotor, phase loss, overload setting, or motor fault. Bypassing overloads can destroy the motor."
+  },
+  {
+    "id": 159,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor control schematic shows an auxiliary contact labelled M in parallel with the start button. What is its function?",
+    "options": [
+      "Seal-in contact for the M coil",
+      "Motor winding temperature sensor",
+      "Ground fault detector",
+      "Fuse indicator only"
+    ],
+    "answer": 0,
+    "explanation": "Contacts with the same label as a coil are operated by that coil. The M auxiliary contact maintains coil current after the start button is released. This is the holding circuit."
+  },
+  {
+    "id": 160,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A starter control circuit has several normally closed safety contacts in series. What happens if any one opens?",
+    "options": [
+      "The starter coil de-energizes",
+      "The motor speed increases",
+      "The overload rating doubles",
+      "The motor becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Series safety contacts must all be closed for the coil to energize. Opening any one breaks the control circuit. This is common for stop buttons, overloads, and safety devices."
+  },
+  {
+    "id": 161,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A forward contactor energizes, but the reverse contactor coil also receives voltage due to a wiring error. What protection should prevent both contactors closing?",
+    "options": [
+      "Mechanical interlock",
+      "Motor bearing",
+      "Pilot lamp",
+      "Phase tape"
+    ],
+    "answer": 0,
+    "explanation": "A mechanical interlock physically prevents both contactors from closing together. This protects against phase-to-phase faults. The wiring error still must be repaired."
+  },
+  {
+    "id": 162,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control circuit uses a red pilot light marked “TRIP.” It turns on when the overload contact changes state. What does it indicate?",
+    "options": [
+      "Overload trip condition",
+      "Exact motor RPM",
+      "Correct bearing lubrication",
+      "Correct phase sequence always"
+    ],
+    "answer": 0,
+    "explanation": "Pilot lights can be wired to indicate control circuit status. A trip light may show that the overload relay has operated. It does not identify the exact cause of the overload."
+  },
+  {
+    "id": 163,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor has a manual test button. Why should it not be used casually on live equipment?",
+    "options": [
+      "It may energize the load unexpectedly",
+      "It lowers voltage safely",
+      "It removes all stored energy",
+      "It proves overload setting is correct"
+    ],
+    "answer": 0,
+    "explanation": "Manually operating a contactor can close power contacts. This may start motors or moving machinery. Safe procedures and lockout must be followed."
+  },
+  {
+    "id": 164,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter has auxiliary contacts used for PLC feedback. The motor runs, but PLC does not show “running.” What should be checked?",
+    "options": [
+      "Auxiliary contact and feedback wiring",
+      "Motor bearing temperature only",
+      "Transformer oil level",
+      "Emergency light battery"
+    ],
+    "answer": 0,
+    "explanation": "PLC feedback may come from an auxiliary contact. If the motor runs but status is missing, the feedback circuit may be open. The contact, wiring, and PLC input should be checked."
+  },
+  {
+    "id": 165,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A contactor coil is energized continuously in a high-temperature enclosure. What may happen?",
+    "options": [
+      "Coil life may be shortened by heat",
+      "Motor slip becomes zero",
+      "Phase rotation changes automatically",
+      "Overload protection becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Coils generate heat during operation. High ambient temperature adds thermal stress. Ventilation and correct coil rating are important."
+  },
+  {
+    "id": 166,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor control circuit will not restart after a power failure until the start button is pressed again. What type of protection does this provide?",
+    "options": [
+      "Low-voltage release / no automatic restart",
+      "Phase reversal protection only",
+      "Transformer overload only",
+      "Ground rod testing"
+    ],
+    "answer": 0,
+    "explanation": "Three-wire control drops out when control power is lost. The operator must intentionally press start again. This helps prevent unexpected restart."
+  },
+  {
+    "id": 167,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A control transformer secondary is grounded on one side. What is one reason this may be done?",
+    "options": [
+      "To establish a reference point for the control circuit",
+      "To increase motor horsepower",
+      "To make the circuit three-phase",
+      "To remove overload protection"
+    ],
+    "answer": 0,
+    "explanation": "Grounding one side of a control circuit can stabilize voltage to ground. It may also help troubleshooting depending on design. The control circuit must follow approved drawings."
+  },
+  {
+    "id": 168,
+    "category": "Task 22 — Motor starters and control devices",
+    "question": "A motor starter trips after the enclosure door is closed but works with the door open. What should be suspected?",
+    "options": [
+      "Wire or device is being pinched or grounded by door movement",
+      "Correct operation",
+      "Motor has too little load",
+      "Pilot light is too dim"
+    ],
+    "answer": 0,
+    "explanation": "Movement of the door can affect wiring or mounted devices. A pinched wire can short or open the control circuit. Inspect door wiring and clearances carefully."
+  },
+  {
+    "id": 169,
+    "category": "Task 23 — Drives",
+    "question": "A VFD runs a pump smoothly at 60 Hz but the process requires lower flow. What drive adjustment is normally used?",
+    "options": [
+      "Reduce output frequency",
+      "Increase ground resistance",
+      "Reverse CT polarity",
+      "Change motor bearings"
+    ],
+    "answer": 0,
+    "explanation": "Pump speed follows motor speed. VFDs reduce speed by lowering output frequency. Lower speed usually reduces pump flow."
+  },
+  {
+    "id": 170,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is set to “coast stop.” What happens when stop is commanded?",
+    "options": [
+      "The drive stops powering the motor and it slows by load friction",
+      "The drive actively brakes to zero instantly",
+      "The motor reverses direction",
+      "The motor becomes DC permanently"
+    ],
+    "answer": 0,
+    "explanation": "Coast stop removes drive output. The motor slows naturally according to inertia and load. Ramp stop is different because the drive controls deceleration."
+  },
+  {
+    "id": 171,
+    "category": "Task 23 — Drives",
+    "question": "A VFD is set to “ramp stop.” What does this mean?",
+    "options": [
+      "The drive controls deceleration over a programmed time",
+      "The motor is disconnected instantly",
+      "The motor always reverses",
+      "The DC bus is shorted"
+    ],
+    "answer": 0,
+    "explanation": "Ramp stop reduces speed according to a deceleration setting. Too short a ramp can cause overvoltage on high-inertia loads. The correct stop mode depends on the application."
+  },
+  {
+    "id": 172,
+    "category": "Task 23 — Drives",
+    "question": "A VFD receives a 4–20 mA speed reference. The motor stays at minimum speed when the signal is 4 mA. What does 4 mA usually represent?",
+    "options": [
+      "Minimum command / live zero",
+      "Full speed command",
+      "Ground fault",
+      "Locked rotor current"
+    ],
+    "answer": 0,
+    "explanation": "In many control loops, 4 mA represents the low end of range. 20 mA represents the high end. The drive scales the signal to speed command."
+  },
+  {
+    "id": 173,
+    "category": "Task 23 — Drives",
+    "question": "A VFD speed reference wire is open in a 4–20 mA loop. What may the drive read?",
+    "options": [
+      "Fault or below-minimum signal",
+      "Full speed always",
+      "Correct 50% speed",
+      "Phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "An open 4–20 mA loop often drops toward 0 mA. Many drives detect this as a signal loss. The drive response depends on programming."
+  },
+  {
+    "id": 174,
+    "category": "Task 23 — Drives",
+    "question": "A drive trips when a motor cable shield is disconnected. What might the shield have been helping control?",
+    "options": [
+      "High-frequency noise and leakage paths",
+      "Motor shaft alignment",
+      "Hydraulic pressure",
+      "Bearing lubrication only"
+    ],
+    "answer": 0,
+    "explanation": "VFD systems generate high-frequency electrical noise. Proper shielding and bonding help control EMI. Changing shield connections can affect drive performance and interference."
+  },
+  {
+    "id": 175,
+    "category": "Task 23 — Drives",
+    "question": "A VFD display shows “motor overload.” The measured motor current is above nameplate FLA. What is the likely issue?",
+    "options": [
+      "Motor is overloaded or drive/motor data is incorrect",
+      "Drive is working with no load",
+      "Motor voltage is definitely zero",
+      "Grounding is too good"
+    ],
+    "answer": 0,
+    "explanation": "Drives monitor current and protect the motor. High current can be caused by mechanical load or wrong parameters. Nameplate data and load condition should be checked."
+  },
+  {
+    "id": 176,
+    "category": "Task 23 — Drives",
+    "question": "A VFD motor is noisy compared with across-the-line operation. What is a common reason?",
+    "options": [
+      "PWM switching can create audible motor noise",
+      "VFD removes all magnetic fields",
+      "Motor becomes hydraulic",
+      "Bearings stop turning"
+    ],
+    "answer": 0,
+    "explanation": "VFD output is made of switching pulses. These pulses can create magnetic noise in the motor. Carrier frequency settings may affect noise and heating."
+  },
+  {
+    "id": 177,
+    "category": "Task 23 — Drives",
+    "question": "A VFD has a setting called “maximum frequency.” Why is it important?",
+    "options": [
+      "It limits the highest speed command allowed",
+      "It sets ground rod depth",
+      "It changes control voltage to DC",
+      "It measures motor bearing wear"
+    ],
+    "answer": 0,
+    "explanation": "Motor speed follows output frequency. Maximum frequency prevents overspeed beyond programmed limit. It should match motor and machine requirements."
+  },
+  {
+    "id": 178,
+    "category": "Task 23 — Drives",
+    "question": "A motor is rated for inverter duty. What does this generally mean?",
+    "options": [
+      "It is designed to better withstand VFD operation stresses",
+      "It can operate without overload protection",
+      "It runs only on DC",
+      "It does not need bearings"
+    ],
+    "answer": 0,
+    "explanation": "VFD operation can stress insulation and heating. Inverter-duty motors are designed for these conditions. They are often used with drives and long leads."
+  },
+  {
+    "id": 179,
+    "category": "Task 23 — Drives",
+    "question": "A drive input fuse opens, but the motor cable tests normal. What else should be checked?",
+    "options": [
+      "Drive input section, rectifier, and DC bus components",
+      "Motor fan guard only",
+      "Pump impeller only",
+      "Pressure switch setpoint only"
+    ],
+    "answer": 0,
+    "explanation": "Input fuses protect the drive supply side. A fault inside the drive input or DC bus can open fuses. The motor cable is only one possible fault location."
+  },
+  {
+    "id": 180,
+    "category": "Task 23 — Drives",
+    "question": "A VFD output contactor is installed between drive and motor. What is important?",
+    "options": [
+      "It must be applied according to drive manufacturer instructions",
+      "It can be opened anytime under full load",
+      "It removes need for motor cable insulation",
+      "It converts PWM into pure DC"
+    ],
+    "answer": 0,
+    "explanation": "Switching VFD output can cause voltage spikes or drive faults. Some applications use output contactors with interlocking rules. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 181,
+    "category": "Task 23 — Drives",
+    "question": "A VFD trips on “input phase loss.” What should be checked?",
+    "options": [
+      "Incoming supply phases and fuses",
+      "Motor shaft paint",
+      "Pump discharge valve only",
+      "Exit sign battery"
+    ],
+    "answer": 0,
+    "explanation": "Input phase loss means the drive may be missing one supply phase. Blown fuses, loose terminals, or supply issues can cause it. Do not keep resetting without testing."
+  },
+  {
+    "id": 182,
+    "category": "Task 23 — Drives",
+    "question": "A VFD-controlled fan is commanded to 0 Hz, but airflow remains because the fan is windmilling. What does this show?",
+    "options": [
+      "Mechanical airflow can rotate the fan even without drive output",
+      "Drive output must be 60 Hz",
+      "Motor is locked rotor",
+      "Overload setting is too high"
+    ],
+    "answer": 0,
+    "explanation": "Process conditions can move equipment mechanically. Windmilling is possible with airflow through fans. Mechanical energy must be considered during maintenance."
+  },
+  {
+    "id": 183,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A sump pump does not start even though the tank is full. What should be checked first?",
+    "options": [
+      "Float switch, control circuit, and pump starter",
+      "Building paint colour",
+      "Motor nameplate colour",
+      "Fire alarm strobe setting"
+    ],
+    "answer": 0,
+    "explanation": "A full tank should operate the level control. The float switch may be stuck or wiring may be open. The starter and pump circuit should also be tested."
+  },
+  {
+    "id": 184,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A compressor shuts down on high pressure. What device likely caused the shutdown?",
+    "options": [
+      "Pressure switch",
+      "Float switch",
+      "Phase rotation meter",
+      "Megohmmeter"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches monitor pressure conditions. At a setpoint, they can open or close a control circuit. High-pressure shutdown protects equipment."
+  },
+  {
+    "id": 185,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor continues running after a guard is opened. What is the major concern?",
+    "options": [
+      "Guard interlock failure or bypass",
+      "Correct safety operation",
+      "Motor voltage is too low",
+      "Pump is dry running"
+    ],
+    "answer": 0,
+    "explanation": "A guard interlock should stop or prevent operation. If the machine continues, workers may be exposed to moving parts. The safety circuit must be repaired before use."
+  },
+  {
+    "id": 186,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A solenoid coil is open. What will the valve likely do?",
+    "options": [
+      "Fail to shift when commanded",
+      "Always shift faster",
+      "Increase pressure automatically",
+      "Reverse motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "An open coil cannot create a magnetic field. The valve mechanism will not move electrically. The coil should be tested and replaced if faulty."
+  },
+  {
+    "id": 187,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor zero-speed switch trips even though the conveyor is moving. What might cause this?",
+    "options": [
+      "Misalignment, sensor failure, or incorrect target",
+      "Perfect operation",
+      "Higher motor horsepower",
+      "Correct CT ratio"
+    ],
+    "answer": 0,
+    "explanation": "A zero-speed device must sense actual movement. A failed sensor or missing target can create false trip. Alignment and sensor operation should be checked."
+  },
+  {
+    "id": 188,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A pressure transmitter sends a variable signal to a controller. What kind of control information does it provide?",
+    "options": [
+      "Continuous process value",
+      "Only start/stop command",
+      "Motor winding resistance only",
+      "Cable tray fill percentage"
+    ],
+    "answer": 0,
+    "explanation": "A transmitter provides analog information. The controller can use this for display or control. Pressure switches only provide discrete status."
+  },
+  {
+    "id": 189,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A pump has a minimum-flow interlock. Why is it used?",
+    "options": [
+      "To protect the pump from damage at low flow",
+      "To make the motor run backward",
+      "To increase overload trips",
+      "To remove need for grounding"
+    ],
+    "answer": 0,
+    "explanation": "Some pumps require minimum flow for cooling or stability. Low flow can cause overheating or damage. Interlocks protect equipment."
+  },
+  {
+    "id": 190,
+    "category": "Task 24 — Other fixed equipment and associated controls",
+    "question": "A conveyor emergency stop circuit requires manual reset after activation. Why?",
+    "options": [
+      "To prevent automatic restart after an emergency stop",
+      "To increase speed",
+      "To lower line voltage",
+      "To bypass safety checks"
+    ],
+    "answer": 0,
+    "explanation": "Manual reset requires intentional action after a stop. This prevents unexpected restart. The cause of the stop should be checked before reset."
+  },
+  {
+    "id": 191,
+    "category": "Task 25 — Motors",
+    "question": "A motor nameplate says 575 V, 3-phase, 60 Hz. What supply should be used?",
+    "options": [
+      "575 V three-phase, 60 Hz",
+      "120 V single-phase",
+      "24 V DC",
+      "347 V single-phase only"
+    ],
+    "answer": 0,
+    "explanation": "The supply must match nameplate voltage, phase, and frequency. Wrong supply can damage the motor. Nameplate data is essential before installation."
+  },
+  {
+    "id": 192,
+    "category": "Task 25 — Motors",
+    "question": "A motor draws normal current but vibrates badly. What should be checked?",
+    "options": [
+      "Alignment, balance, mounting, and bearings",
+      "CT ratio only",
+      "Control transformer fuse only",
+      "Pilot light lens"
+    ],
+    "answer": 0,
+    "explanation": "Normal current does not rule out mechanical issues. Vibration often comes from alignment, balance, or bearings. Mechanical faults can damage the motor and load."
+  },
+  {
+    "id": 193,
+    "category": "Task 25 — Motors",
+    "question": "A motor draws high current and its driven pump discharge valve is closed. What is possible?",
+    "options": [
+      "Process condition may be overloading the motor",
+      "Motor is definitely unloaded",
+      "Phase sequence is definitely correct",
+      "Insulation is definitely perfect"
+    ],
+    "answer": 0,
+    "explanation": "Driven equipment affects motor load. Pump or process restrictions can change current depending on pump type. Motor current should be evaluated with process conditions."
+  },
+  {
+    "id": 194,
+    "category": "Task 25 — Motors",
+    "question": "A three-phase motor is connected, and rotation is checked before coupling. Why is this done?",
+    "options": [
+      "To avoid damaging the driven equipment",
+      "To increase motor insulation resistance",
+      "To lower full-load current",
+      "To remove need for bearings"
+    ],
+    "answer": 0,
+    "explanation": "Wrong rotation can damage pumps, fans, and conveyors. Checking before coupling prevents mechanical damage. Phase sequence can be corrected before full operation."
+  },
+  {
+    "id": 195,
+    "category": "Task 25 — Motors",
+    "question": "A motor has a nameplate speed of 1760 rpm on 60 Hz. What does this suggest?",
+    "options": [
+      "It is likely a 4-pole induction motor with slip",
+      "It is a 2-pole motor running above synchronous speed",
+      "It has no slip",
+      "It is a DC-only motor"
+    ],
+    "answer": 0,
+    "explanation": "A 4-pole motor on 60 Hz has 1800 rpm synchronous speed. A running speed of 1760 rpm is below synchronous due to slip. This is normal for induction motors."
+  },
+  {
+    "id": 196,
+    "category": "Task 25 — Motors",
+    "question": "A motor has high current during startup but normal current after reaching speed. What does this indicate?",
+    "options": [
+      "Normal starting current may be high",
+      "Motor has no inrush current",
+      "Running current is locked rotor current",
+      "Motor is definitely faulty"
+    ],
+    "answer": 0,
+    "explanation": "Motors draw high current at startup. Current falls as speed increases and counter EMF develops. Protection must allow normal starting without nuisance trips."
+  },
+  {
+    "id": 197,
+    "category": "Task 25 — Motors",
+    "question": "A motor repeatedly fails bearings shortly after installation. What installation issue should be checked?",
+    "options": [
+      "Shaft alignment and coupling condition",
+      "Panel schedule only",
+      "Pilot light voltage only",
+      "Ground rod spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Misalignment places stress on bearings. Coupling problems create vibration and heat. Proper alignment improves motor life."
+  },
+  {
+    "id": 198,
+    "category": "Task 25 — Motors",
+    "question": "A motor has insulation resistance that improves after drying. What was likely present?",
+    "options": [
+      "Moisture in windings",
+      "Wrong phase rotation",
+      "Too much service factor",
+      "Good dry insulation from the start"
+    ],
+    "answer": 0,
+    "explanation": "Moisture lowers insulation resistance. Drying can restore resistance if insulation is not damaged. The motor should be retested before energizing."
+  },
+  {
+    "id": 199,
+    "category": "Task 25 — Motors",
+    "question": "A TEFC motor runs hot because its fan is broken. Why?",
+    "options": [
+      "It has lost forced external cooling",
+      "It has too much line-to-neutral voltage only",
+      "It no longer has windings",
+      "Its overload relay becomes a fan"
+    ],
+    "answer": 0,
+    "explanation": "TEFC motors rely on an external fan moving air over the frame. A broken fan reduces heat removal. Overheating can damage insulation."
+  },
+  {
+    "id": 200,
+    "category": "Task 25 — Motors",
+    "question": "A motor has a service factor of 1.0. What does this mean compared with a higher service factor?",
+    "options": [
+      "It has no extra service factor margin beyond rated load",
+      "It can run 100% overloaded",
+      "It is always single-phase",
+      "It has zero full-load current"
+    ],
+    "answer": 0,
+    "explanation": "Service factor indicates allowable overload margin under specified conditions. A 1.0 service factor means rated load is the normal limit. The motor should not be intentionally overloaded."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerImportantInstallProductsQuestions =
+  shuffleArray(sheetMetalWorkerImportantInstallProductsQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "industrial-electrician",
+  tradeTitle: "Industrial Electrician",
+  sectionTitle: "Section D Practice",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerImportantInstallProductsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerImportantInstallProductsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

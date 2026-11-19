@@ -1,0 +1,2696 @@
+const meatcutterHandlingMeatPoultrySeafoodQuestions = [
+  {
+    "id": 1,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What is marbling?",
+    "options": [
+      "Fat inside the muscle",
+      "Bone dust on meat",
+      "Water on the tray",
+      "Skin on poultry"
+    ],
+    "answer": 0,
+    "explanation": "Marbling is fat within the muscle. It improves flavour and juiciness. It is especially important in beef quality."
+  },
+  {
+    "id": 2,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What is collagen?",
+    "options": [
+      "Connective tissue protein",
+      "A cleaning chemical",
+      "A packaging label",
+      "A type of bone saw"
+    ],
+    "answer": 0,
+    "explanation": "Collagen is found in connective tissue. It can make meat tougher. Slow moist cooking can soften it."
+  },
+  {
+    "id": 3,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What gives meat its red colour?",
+    "options": [
+      "Myoglobin",
+      "Sugar",
+      "Salt",
+      "Starch"
+    ],
+    "answer": 0,
+    "explanation": "Myoglobin is the main meat pigment. More myoglobin usually means darker meat. Oxygen exposure can change meat colour."
+  },
+  {
+    "id": 4,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which meat is usually darker?",
+    "options": [
+      "Chicken thigh",
+      "Chicken breast",
+      "White fish fillet",
+      "Pork fat"
+    ],
+    "answer": 0,
+    "explanation": "Chicken thigh is an active muscle. It has more myoglobin than breast. That is why it is dark meat."
+  },
+  {
+    "id": 5,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut is usually tougher?",
+    "options": [
+      "Shank",
+      "Tenderloin",
+      "Strip loin",
+      "Ribeye"
+    ],
+    "answer": 0,
+    "explanation": "Shank is a heavily used muscle. It contains more connective tissue. It needs slow moist cooking."
+  },
+  {
+    "id": 6,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut is usually most tender?",
+    "options": [
+      "Tenderloin",
+      "Shank",
+      "Brisket",
+      "Hock"
+    ],
+    "answer": 0,
+    "explanation": "Tenderloin does very little work. Less-used muscles are more tender. It is one of the highest-value cuts."
+  },
+  {
+    "id": 7,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Meat is a good source of:",
+    "options": [
+      "Complete protein",
+      "Chlorophyll",
+      "Baking powder",
+      "Table sugar only"
+    ],
+    "answer": 0,
+    "explanation": "Meat provides complete protein. It also supplies iron, zinc, and B vitamins. This is useful basic nutrition knowledge."
+  },
+  {
+    "id": 8,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Fat in meat helps with:",
+    "options": [
+      "Flavour and juiciness",
+      "Chemical cleaning",
+      "Label printing",
+      "Bone cutting"
+    ],
+    "answer": 0,
+    "explanation": "Fat contributes flavour. It can improve juiciness and mouthfeel. Too much fat may reduce saleable yield."
+  },
+  {
+    "id": 9,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Lean meat can become dry because it has:",
+    "options": [
+      "Less fat protection",
+      "More packaging",
+      "More labels",
+      "No protein"
+    ],
+    "answer": 0,
+    "explanation": "Lean cuts have less fat. They lose moisture more easily when overcooked. Careful cooking helps keep them juicy."
+  },
+  {
+    "id": 10,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why does ground meat spoil faster than whole muscle?",
+    "options": [
+      "It has more exposed surface area",
+      "It has no water",
+      "It is always cooked",
+      "It cannot hold bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Grinding increases surface area. Bacteria can spread through the meat. Ground meat needs extra temperature control."
+  },
+  {
+    "id": 11,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What happens to collagen during slow moist cooking?",
+    "options": [
+      "It can turn into gelatin",
+      "It becomes bone",
+      "It turns into packaging",
+      "It disappears before heating"
+    ],
+    "answer": 0,
+    "explanation": "Moist heat breaks down collagen over time. Collagen can convert into gelatin. This makes tough cuts more tender."
+  },
+  {
+    "id": 12,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cooking method suits tender cuts best?",
+    "options": [
+      "Dry heat",
+      "Long boiling only",
+      "Raw storage",
+      "Freezer burn"
+    ],
+    "answer": 0,
+    "explanation": "Tender cuts cook well with dry heat. Examples include grilling and pan-frying. They do not need long moist cooking."
+  },
+  {
+    "id": 13,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cooking method suits tough cuts best?",
+    "options": [
+      "Moist heat",
+      "Quick grilling only",
+      "Raw serving",
+      "Freezing only"
+    ],
+    "answer": 0,
+    "explanation": "Tough cuts have more connective tissue. Moist heat helps break down collagen. Examples include braising and stewing."
+  },
+  {
+    "id": 14,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What is “bloom” in beef?",
+    "options": [
+      "Beef turning red after oxygen exposure",
+      "Meat becoming spoiled instantly",
+      "Meat turning into pork",
+      "Ice forming on fish"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum-packed beef may look purplish. When oxygen contacts myoglobin, it turns red. This colour change is called bloom."
+  },
+  {
+    "id": 15,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why can vacuum-packed beef look purple?",
+    "options": [
+      "Oxygen is limited",
+      "It is always spoiled",
+      "It is cooked",
+      "It has no myoglobin"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum packaging removes most oxygen. Myoglobin looks darker or purplish without oxygen. The beef may bloom red after opening."
+  },
+  {
+    "id": 16,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What does excessive moisture loss affect?",
+    "options": [
+      "Weight, appearance, and juiciness",
+      "Knife colour",
+      "Store music",
+      "Scale batteries only"
+    ],
+    "answer": 0,
+    "explanation": "Moisture loss reduces product weight. It can make meat look dry. It also affects eating quality."
+  },
+  {
+    "id": 17,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A heavily exercised muscle usually has:",
+    "options": [
+      "More connective tissue",
+      "Less structure",
+      "No myoglobin",
+      "No protein"
+    ],
+    "answer": 0,
+    "explanation": "Working muscles need support. They develop more connective tissue. They are usually less tender."
+  },
+  {
+    "id": 18,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which poultry cut is white meat?",
+    "options": [
+      "Breast",
+      "Thigh",
+      "Drumstick",
+      "Whole leg"
+    ],
+    "answer": 0,
+    "explanation": "Breast muscle is used less. It has lower myoglobin. That makes it white meat."
+  },
+  {
+    "id": 19,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which poultry cut is dark meat?",
+    "options": [
+      "Drumstick",
+      "Breast",
+      "Breast tender",
+      "Wing tip only"
+    ],
+    "answer": 0,
+    "explanation": "Drumstick is part of the leg. Leg muscles are more active. They contain more myoglobin."
+  },
+  {
+    "id": 20,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why is pork tenderloin easy to overcook?",
+    "options": [
+      "It is lean and small",
+      "It has many bones",
+      "It is mostly fat",
+      "It is always cured"
+    ],
+    "answer": 0,
+    "explanation": "Pork tenderloin has little fat. It cooks quickly because it is small. Overcooking makes it dry."
+  },
+  {
+    "id": 21,
+    "category": "B2 Inspection and Grading",
+    "question": "What is the main purpose of meat inspection?",
+    "options": [
+      "To check safety and wholesomeness",
+      "To choose tray colour",
+      "To print labels",
+      "To sharpen knives"
+    ],
+    "answer": 0,
+    "explanation": "Inspection checks if meat is fit for food. It protects public health. It is different from grading."
+  },
+  {
+    "id": 22,
+    "category": "B2 Inspection and Grading",
+    "question": "What is the main purpose of grading?",
+    "options": [
+      "To assess quality and yield",
+      "To clean knives",
+      "To cook meat",
+      "To remove labels"
+    ],
+    "answer": 0,
+    "explanation": "Grading looks at quality traits. It may include marbling and yield. It helps determine market value."
+  },
+  {
+    "id": 23,
+    "category": "B2 Inspection and Grading",
+    "question": "Inspection and grading are:",
+    "options": [
+      "Different systems",
+      "Always the same thing",
+      "Both cooking methods",
+      "Both knife types"
+    ],
+    "answer": 0,
+    "explanation": "Inspection focuses on safety. Grading focuses on quality and yield. A product can be inspected without being top grade."
+  },
+  {
+    "id": 24,
+    "category": "B2 Inspection and Grading",
+    "question": "An inspection stamp means:",
+    "options": [
+      "Product was inspected",
+      "Product is always highest grade",
+      "Product is cooked",
+      "Product is boneless"
+    ],
+    "answer": 0,
+    "explanation": "Inspection means safety checks were done. It does not mean highest quality grade. Grade and inspection are separate."
+  },
+  {
+    "id": 25,
+    "category": "B2 Inspection and Grading",
+    "question": "Which factor is important in beef grading?",
+    "options": [
+      "Marbling",
+      "Store music",
+      "Employee height",
+      "Tray colour"
+    ],
+    "answer": 0,
+    "explanation": "Marbling affects beef eating quality. It improves flavour and juiciness. It is a common grading factor."
+  },
+  {
+    "id": 26,
+    "category": "B2 Inspection and Grading",
+    "question": "What is yield grade related to?",
+    "options": [
+      "Amount of saleable meat",
+      "Hairnet colour",
+      "Knife handle shape",
+      "Floor type"
+    ],
+    "answer": 0,
+    "explanation": "Yield grade estimates usable meat. Fat and bone affect yield. Yield affects product value."
+  },
+  {
+    "id": 27,
+    "category": "B2 Inspection and Grading",
+    "question": "Which sign suggests spoilage?",
+    "options": [
+      "Sour odour",
+      "Clean fresh smell",
+      "Firm texture",
+      "Correct cold storage"
+    ],
+    "answer": 0,
+    "explanation": "Sour odour can indicate spoilage. Sliminess is another warning sign. Questionable product should not be sold."
+  },
+  {
+    "id": 28,
+    "category": "B2 Inspection and Grading",
+    "question": "Slimy meat should be:",
+    "options": [
+      "Removed from sale and reported",
+      "Rinsed and sold",
+      "Mixed with fresh meat",
+      "Sold quickly at discount"
+    ],
+    "answer": 0,
+    "explanation": "Slime can indicate spoilage. Unsafe product must not be sold. Follow workplace procedure."
+  },
+  {
+    "id": 29,
+    "category": "B2 Inspection and Grading",
+    "question": "What is freezer burn?",
+    "options": [
+      "Dry surface damage from frozen storage",
+      "A seasoning",
+      "A cooking method",
+      "A meat grade"
+    ],
+    "answer": 0,
+    "explanation": "Freezer burn is dehydration damage. It affects texture and flavour. It is mainly a quality problem."
+  },
+  {
+    "id": 30,
+    "category": "B2 Inspection and Grading",
+    "question": "Which item is a physical hazard?",
+    "options": [
+      "Glass in meat",
+      "Marbling",
+      "Normal fat",
+      "Clean packaging"
+    ],
+    "answer": 0,
+    "explanation": "Glass can injure customers. It is a physical contaminant. The product must not be sold."
+  },
+  {
+    "id": 31,
+    "category": "B2 Inspection and Grading",
+    "question": "Why are lot numbers important?",
+    "options": [
+      "They help with traceability and recalls",
+      "They make meat tender",
+      "They replace refrigeration",
+      "They cook meat"
+    ],
+    "answer": 0,
+    "explanation": "Lot numbers identify batches. They help trace product source. They are important during recalls."
+  },
+  {
+    "id": 32,
+    "category": "B2 Inspection and Grading",
+    "question": "A swollen vacuum package may mean:",
+    "options": [
+      "Possible gas production and spoilage",
+      "Better marbling",
+      "More tenderness",
+      "Higher grade always"
+    ],
+    "answer": 0,
+    "explanation": "Swelling can be a warning sign. Gas may be produced by bacteria. The product should be checked and controlled."
+  },
+  {
+    "id": 33,
+    "category": "B2 Inspection and Grading",
+    "question": "PSE pork means:",
+    "options": [
+      "Pale, soft, exudative pork",
+      "Premium safe extra pork",
+      "Pork steak excellent",
+      "Proper smoked edible pork"
+    ],
+    "answer": 0,
+    "explanation": "PSE pork is pale and watery. It has poor water-holding capacity. It affects quality and appearance."
+  },
+  {
+    "id": 34,
+    "category": "B2 Inspection and Grading",
+    "question": "Dark cutting beef is often connected to:",
+    "options": [
+      "Animal stress before slaughter",
+      "Too much wrap film",
+      "Label errors only",
+      "Cold knives"
+    ],
+    "answer": 0,
+    "explanation": "Stress can affect meat pH. This may create dark, firm, dry beef. It is a quality issue."
+  },
+  {
+    "id": 35,
+    "category": "B2 Inspection and Grading",
+    "question": "Which is mainly a quality problem?",
+    "options": [
+      "Slight freezer burn",
+      "Broken glass in meat",
+      "Raw chicken juice on salad",
+      "Chemical cleaner on food"
+    ],
+    "answer": 0,
+    "explanation": "Freezer burn affects eating quality. It is not the same as physical contamination. The other examples are safety hazards."
+  },
+  {
+    "id": 36,
+    "category": "B3 Handling and Storage",
+    "question": "Fresh meat should be stored:",
+    "options": [
+      "Cold, covered, and rotated",
+      "Warm and uncovered",
+      "On the floor",
+      "Beside chemicals"
+    ],
+    "answer": 0,
+    "explanation": "Cold storage slows bacterial growth. Covering prevents contamination and drying. Rotation keeps stock fresh."
+  },
+  {
+    "id": 37,
+    "category": "B3 Handling and Storage",
+    "question": "Frozen meat should be thawed:",
+    "options": [
+      "In a cooler or approved method",
+      "On the counter overnight",
+      "In sunlight",
+      "Beside garbage"
+    ],
+    "answer": 0,
+    "explanation": "Controlled thawing keeps meat cold. Counter thawing can allow bacteria to grow. Safe thawing protects food safety."
+  },
+  {
+    "id": 38,
+    "category": "B3 Handling and Storage",
+    "question": "The cold chain means:",
+    "options": [
+      "Keeping product cold from receiving to sale",
+      "Tying boxes with chain",
+      "Freezing knives",
+      "Washing meat with ice"
+    ],
+    "answer": 0,
+    "explanation": "The cold chain controls temperature. It must be maintained through storage and display. Breaking it can reduce safety and shelf life."
+  },
+  {
+    "id": 39,
+    "category": "B3 Handling and Storage",
+    "question": "Why should raw poultry be stored lowest?",
+    "options": [
+      "It can drip contaminated juices",
+      "It is always frozen",
+      "It needs warm air",
+      "It is lighter than beef"
+    ],
+    "answer": 0,
+    "explanation": "Poultry juices may contain pathogens. Storing it lowest prevents dripping onto other foods. Leak-proof containers also help."
+  },
+  {
+    "id": 40,
+    "category": "B3 Handling and Storage",
+    "question": "Why should meat be stored off the floor?",
+    "options": [
+      "To prevent contamination and allow cleaning",
+      "To make it warmer",
+      "To increase fat",
+      "To change the grade"
+    ],
+    "answer": 0,
+    "explanation": "Floors are contaminated surfaces. Off-floor storage allows cleaning underneath. It protects food from dirt and pests."
+  },
+  {
+    "id": 41,
+    "category": "B3 Handling and Storage",
+    "question": "What should be checked when receiving meat?",
+    "options": [
+      "Temperature and package condition",
+      "Customer recipes",
+      "Knife sharpness only",
+      "Store music"
+    ],
+    "answer": 0,
+    "explanation": "Receiving checks identify safety problems. Warm product or damaged packaging may be unsafe. Labels and quantity should also be checked."
+  },
+  {
+    "id": 42,
+    "category": "B3 Handling and Storage",
+    "question": "What should happen if meat arrives warm?",
+    "options": [
+      "Hold or reject according to procedure",
+      "Sell it quickly",
+      "Mix it with cold meat",
+      "Leave it on the floor"
+    ],
+    "answer": 0,
+    "explanation": "Warm meat may be temperature abused. Bacteria can grow quickly. Follow receiving and food safety procedure."
+  },
+  {
+    "id": 43,
+    "category": "B3 Handling and Storage",
+    "question": "Why should cooler airflow not be blocked?",
+    "options": [
+      "Airflow keeps product cold evenly",
+      "Airflow makes labels brighter",
+      "Airflow cooks meat",
+      "Airflow increases marbling"
+    ],
+    "answer": 0,
+    "explanation": "Cold air must circulate. Blocked fans create warm spots. Proper airflow protects safety and quality."
+  },
+  {
+    "id": 44,
+    "category": "B3 Handling and Storage",
+    "question": "What can happen if frozen meat is poorly wrapped?",
+    "options": [
+      "Freezer burn",
+      "Better marbling",
+      "More protein",
+      "Cooking"
+    ],
+    "answer": 0,
+    "explanation": "Air exposure dries frozen meat. This causes freezer burn. Good wrapping protects quality."
+  },
+  {
+    "id": 45,
+    "category": "B3 Handling and Storage",
+    "question": "Why should product be processed in small batches?",
+    "options": [
+      "To keep meat cold and safe",
+      "To make cutting slower for no reason",
+      "To avoid labels",
+      "To increase room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Small batches reduce time out of refrigeration. Cold meat stays safer and cuts cleaner. Large batches may warm too much."
+  },
+  {
+    "id": 46,
+    "category": "B3 Handling and Storage",
+    "question": "Which product needs extra care because bacteria can be mixed throughout it?",
+    "options": [
+      "Ground meat",
+      "Whole beef round",
+      "Whole pork loin",
+      "Whole lamb leg"
+    ],
+    "answer": 0,
+    "explanation": "Grinding spreads bacteria through meat. Ground product has higher risk. It needs strict sanitation and temperature control."
+  },
+  {
+    "id": 47,
+    "category": "B3 Handling and Storage",
+    "question": "What should be done with leaking raw meat in the cooler?",
+    "options": [
+      "Contain it and clean/sanitize the spill",
+      "Ignore it",
+      "Store it above cooked foods",
+      "Cover it with cardboard"
+    ],
+    "answer": 0,
+    "explanation": "Leaks can spread bacteria. They also create slip hazards. Clean and sanitize contaminated areas."
+  },
+  {
+    "id": 48,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should meat be cut across the grain when required?",
+    "options": [
+      "To shorten fibres and improve tenderness",
+      "To increase bone weight",
+      "To change meat species",
+      "To remove fat completely"
+    ],
+    "answer": 0,
+    "explanation": "Long fibres can feel chewy. Across-grain slicing shortens them. This improves eating quality."
+  },
+  {
+    "id": 49,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should steaks be cut evenly?",
+    "options": [
+      "They cook evenly and look professional",
+      "They become inspected",
+      "They no longer need labels",
+      "They gain fat"
+    ],
+    "answer": 0,
+    "explanation": "Uniform steaks improve display. They also cook more consistently. Even cuts reduce customer complaints."
+  },
+  {
+    "id": 50,
+    "category": "B5 Cooking Potential",
+    "question": "Which cut is best for slow braising?",
+    "options": [
+      "Beef short ribs",
+      "Tenderloin steak",
+      "Strip loin steak",
+      "Ribeye steak"
+    ],
+    "answer": 0,
+    "explanation": "Short ribs have connective tissue. Braising breaks down collagen. Tender steaks do not need slow moist cooking. # Handling Meat, Poultry, and Seafood — Most Expected Exam Questions ## Practice Set 2: Questions 51–100"
+  },
+  {
+    "id": 51,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which factor most affects tenderness in a meat cut?",
+    "options": [
+      "Muscle use and connective tissue",
+      "Label colour",
+      "Tray size",
+      "Store lighting"
+    ],
+    "answer": 0,
+    "explanation": "Muscles used more have more connective tissue. More connective tissue usually means less tenderness. Tenderness is one of the most tested meat science topics."
+  },
+  {
+    "id": 52,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer asks why brisket takes longer to cook than ribeye. What is the best answer?",
+    "options": [
+      "Brisket has more connective tissue",
+      "Ribeye has no protein",
+      "Brisket is already cooked",
+      "Ribeye is poultry"
+    ],
+    "answer": 0,
+    "explanation": "Brisket is a working muscle area. It contains collagen that needs time to soften. Ribeye is naturally more tender and cooks faster."
+  },
+  {
+    "id": 53,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What does marbling mainly contribute to beef?",
+    "options": [
+      "Flavour, juiciness, and eating quality",
+      "Bone hardness",
+      "Chemical safety",
+      "Package weight"
+    ],
+    "answer": 0,
+    "explanation": "Marbling is fat inside the muscle. It melts during cooking and improves mouthfeel. It is a common beef quality question."
+  },
+  {
+    "id": 54,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut usually has the least connective tissue?",
+    "options": [
+      "Tenderloin",
+      "Shank",
+      "Brisket",
+      "Hock"
+    ],
+    "answer": 0,
+    "explanation": "Tenderloin is a little-used muscle. Less-used muscles usually have less connective tissue. That is why tenderloin is naturally tender."
+  },
+  {
+    "id": 55,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which meat cut would usually need moist heat cooking?",
+    "options": [
+      "Beef shank",
+      "Strip loin steak",
+      "Tenderloin steak",
+      "Ribeye steak"
+    ],
+    "answer": 0,
+    "explanation": "Beef shank has heavy connective tissue. Moist heat helps break collagen down. Tender steaks usually use dry heat."
+  },
+  {
+    "id": 56,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why is chicken breast lighter than chicken thigh?",
+    "options": [
+      "Breast has less myoglobin",
+      "Breast has more collagen",
+      "Breast is always cured",
+      "Breast has no protein"
+    ],
+    "answer": 0,
+    "explanation": "Myoglobin affects muscle colour. Chicken breast is used less than thigh. Less use means less myoglobin and lighter colour."
+  },
+  {
+    "id": 57,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A darker meat muscle usually has:",
+    "options": [
+      "More myoglobin",
+      "No moisture",
+      "No protein",
+      "No fat"
+    ],
+    "answer": 0,
+    "explanation": "Myoglobin is the pigment in muscle. More myoglobin gives darker colour. Active muscles usually contain more myoglobin."
+  },
+  {
+    "id": 58,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why should lean meat not be overcooked?",
+    "options": [
+      "It can lose moisture and become dry",
+      "It becomes more marbled",
+      "It gains fat",
+      "It becomes raw again"
+    ],
+    "answer": 0,
+    "explanation": "Lean meat has less fat protection. Overcooking forces moisture out. This makes meat dry and less tender."
+  },
+  {
+    "id": 59,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which statement about fat cover is correct?",
+    "options": [
+      "Some fat protects meat, but excess fat may reduce saleable yield",
+      "Fat cover makes meat unsafe every time",
+      "Fat cover replaces refrigeration",
+      "Fat cover removes protein"
+    ],
+    "answer": 0,
+    "explanation": "Fat can protect meat from drying. Too much fat may need trimming. Trimming affects yield and cost."
+  },
+  {
+    "id": 60,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Controlled aging of beef mainly improves:",
+    "options": [
+      "Tenderness and flavour",
+      "Chemical contamination",
+      "Bone weight",
+      "Label accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Aging uses natural enzyme action. It can improve tenderness and flavour. It must be controlled by time and temperature."
+  },
+  {
+    "id": 61,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which product has the highest surface-area risk?",
+    "options": [
+      "Ground beef",
+      "Whole beef round",
+      "Whole lamb leg",
+      "Whole pork loin"
+    ],
+    "answer": 0,
+    "explanation": "Grinding increases exposed surface area. Bacteria can be mixed throughout the meat. Ground products require stricter handling."
+  },
+  {
+    "id": 62,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What happens when collagen is cooked slowly with moisture?",
+    "options": [
+      "It can convert to gelatin",
+      "It turns into bone",
+      "It becomes packaging",
+      "It becomes sanitizer"
+    ],
+    "answer": 0,
+    "explanation": "Collagen is connective tissue protein. Slow moist heat breaks it down. Gelatin improves tenderness and mouthfeel."
+  },
+  {
+    "id": 63,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A steak blooms red after opening a vacuum pack because:",
+    "options": [
+      "Oxygen contacts myoglobin",
+      "It becomes cooked",
+      "It becomes spoiled instantly",
+      "It loses all fat"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum packaging limits oxygen. Myoglobin changes colour when exposed to oxygen. This red colour change is called blooming."
+  },
+  {
+    "id": 64,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which nutrient is meat especially known for?",
+    "options": [
+      "Complete protein",
+      "Chlorophyll",
+      "Baking soda",
+      "Table fibre only"
+    ],
+    "answer": 0,
+    "explanation": "Meat provides complete protein. It also supplies iron, zinc, and B vitamins. This is basic nutrition knowledge for the exam."
+  },
+  {
+    "id": 65,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer wants a juicy grilled steak. Which factor helps most?",
+    "options": [
+      "Marbling and proper doneness",
+      "Freezer burn",
+      "Long boiling",
+      "Cutting with the grain"
+    ],
+    "answer": 0,
+    "explanation": "Marbling improves juiciness and flavour. Proper doneness prevents moisture loss. Overcooking makes steak dry."
+  },
+  {
+    "id": 66,
+    "category": "B2 Inspection and Grading",
+    "question": "Which statement best explains inspection and grading?",
+    "options": [
+      "Inspection checks safety; grading checks quality",
+      "Inspection checks price; grading checks knives",
+      "Inspection is only for fish",
+      "Grading means meat is cooked"
+    ],
+    "answer": 0,
+    "explanation": "Inspection focuses on wholesomeness and safety. Grading focuses on quality and yield traits. This difference is highly expected on exams."
+  },
+  {
+    "id": 67,
+    "category": "B2 Inspection and Grading",
+    "question": "A product is inspected but has low marbling. What does that mean?",
+    "options": [
+      "It may be safe but lower in eating quality",
+      "It is automatically spoiled",
+      "It is cooked",
+      "It is boneless"
+    ],
+    "answer": 0,
+    "explanation": "Inspection does not mean top grade. Marbling affects quality, not basic inspection status. Safe meat can still have lower quality."
+  },
+  {
+    "id": 68,
+    "category": "B2 Inspection and Grading",
+    "question": "Which condition should cause meat to be removed from sale?",
+    "options": [
+      "Sour odour and slimy surface",
+      "Correct label",
+      "Firm texture",
+      "Cold temperature"
+    ],
+    "answer": 0,
+    "explanation": "Sour odour and slime suggest spoilage. Questionable product should not be sold. Follow store food safety procedure."
+  },
+  {
+    "id": 69,
+    "category": "B2 Inspection and Grading",
+    "question": "Why is traceability important in meat handling?",
+    "options": [
+      "It helps identify product during recalls",
+      "It tenderizes meat",
+      "It replaces refrigeration",
+      "It increases marbling"
+    ],
+    "answer": 0,
+    "explanation": "Traceability links product to supplier and lot. It helps locate affected product during recalls. This protects customers and the business."
+  },
+  {
+    "id": 70,
+    "category": "B2 Inspection and Grading",
+    "question": "A missing lot code is mainly a problem because of:",
+    "options": [
+      "Poor traceability",
+      "Better tenderness",
+      "Higher quality",
+      "Improved packaging"
+    ],
+    "answer": 0,
+    "explanation": "Lot codes identify product batches. Without them, recalls are harder to manage. Receiving information must be complete."
+  },
+  {
+    "id": 71,
+    "category": "B2 Inspection and Grading",
+    "question": "Which issue is a physical hazard?",
+    "options": [
+      "Bone chip or glass in meat",
+      "Normal marbling",
+      "Correct packaging",
+      "Fresh odour"
+    ],
+    "answer": 0,
+    "explanation": "Physical hazards can injure customers. Glass, metal, or unexpected bone fragments are examples. Affected products must be controlled."
+  },
+  {
+    "id": 72,
+    "category": "B2 Inspection and Grading",
+    "question": "Which condition is mainly a quality issue?",
+    "options": [
+      "Freezer burn",
+      "Raw chicken juice on salad",
+      "Chemical cleaner on meat",
+      "Glass inside a package"
+    ],
+    "answer": 0,
+    "explanation": "Freezer burn damages texture and flavour. It is mainly a quality problem. The other choices are serious safety hazards."
+  },
+  {
+    "id": 73,
+    "category": "B2 Inspection and Grading",
+    "question": "A swollen vacuum package with a sour smell may indicate:",
+    "options": [
+      "Spoilage",
+      "Higher grade",
+      "Better marbling",
+      "More protein"
+    ],
+    "answer": 0,
+    "explanation": "Swelling may come from gas production. A sour smell is a spoilage warning. The product should not be sold."
+  },
+  {
+    "id": 74,
+    "category": "B2 Inspection and Grading",
+    "question": "PSE pork is best described as:",
+    "options": [
+      "Pale, soft, and watery",
+      "Dark, firm, and dry beef",
+      "Fully cooked pork",
+      "Premium smoked pork only"
+    ],
+    "answer": 0,
+    "explanation": "PSE means pale, soft, exudative. It has poor water-holding capacity. It affects appearance and quality."
+  },
+  {
+    "id": 75,
+    "category": "B2 Inspection and Grading",
+    "question": "Dark cutting beef is commonly linked to:",
+    "options": [
+      "Stress before slaughter",
+      "Too much tray wrap",
+      "Cutting across the grain",
+      "Normal poultry handling"
+    ],
+    "answer": 0,
+    "explanation": "Stress affects muscle pH after slaughter. This can cause dark, firm, dry beef. It is a quality defect."
+  },
+  {
+    "id": 76,
+    "category": "B2 Inspection and Grading",
+    "question": "Yield grade is most related to:",
+    "options": [
+      "Saleable lean compared with fat and bone",
+      "Store music",
+      "Knife handle colour",
+      "Customer age"
+    ],
+    "answer": 0,
+    "explanation": "Yield grade estimates usable product. Fat and bone affect yield. Higher saleable yield improves value."
+  },
+  {
+    "id": 77,
+    "category": "B2 Inspection and Grading",
+    "question": "Beef quality grade is strongly affected by:",
+    "options": [
+      "Marbling",
+      "Package tray colour",
+      "Employee schedule",
+      "Floor temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Marbling affects flavour and juiciness. It is a major quality factor in beef. Quality grade is different from inspection."
+  },
+  {
+    "id": 78,
+    "category": "B2 Inspection and Grading",
+    "question": "Which seafood sign should cause concern?",
+    "options": [
+      "Ammonia odour",
+      "Firm flesh",
+      "Clear eyes",
+      "Mild fresh smell"
+    ],
+    "answer": 0,
+    "explanation": "Ammonia odour can indicate spoilage. Fresh seafood should smell mild. Questionable seafood should be rejected or removed."
+  },
+  {
+    "id": 79,
+    "category": "B2 Inspection and Grading",
+    "question": "A package has an inspection mark but later becomes slimy. What should happen?",
+    "options": [
+      "Remove it from sale",
+      "Sell because it was inspected",
+      "Rinse and rewrap it",
+      "Mix it with fresh meat"
+    ],
+    "answer": 0,
+    "explanation": "Inspection does not stop later spoilage. Sliminess is a warning sign. Unsafe or questionable product must be removed."
+  },
+  {
+    "id": 80,
+    "category": "B2 Inspection and Grading",
+    "question": "Which receiving record is most useful during a recall?",
+    "options": [
+      "Supplier and lot information",
+      "Worker lunch time",
+      "Knife brand",
+      "Display case colour"
+    ],
+    "answer": 0,
+    "explanation": "Supplier and lot records identify product origin. They help locate affected product. Traceability is essential during recalls."
+  },
+  {
+    "id": 81,
+    "category": "B3 Handling and Storage",
+    "question": "Which storage order is safest from top to bottom?",
+    "options": [
+      "Ready-to-eat food, raw beef, raw poultry",
+      "Raw poultry, ready-to-eat food, raw beef",
+      "Raw beef, cooked ham, raw poultry",
+      "Raw poultry, raw beef, salad"
+    ],
+    "answer": 0,
+    "explanation": "Ready-to-eat food must be protected. Raw poultry belongs lowest because of drip risk. Storage order prevents cross-contamination."
+  },
+  {
+    "id": 82,
+    "category": "B3 Handling and Storage",
+    "question": "Why should meat be processed in small batches?",
+    "options": [
+      "To keep product cold",
+      "To increase room temperature",
+      "To make labels harder to read",
+      "To avoid cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Small batches reduce time out of refrigeration. Cold product slows bacterial growth. It also improves cutting and grinding quality."
+  },
+  {
+    "id": 83,
+    "category": "B3 Handling and Storage",
+    "question": "A cooler fan is blocked by boxes. What is the main risk?",
+    "options": [
+      "Warm spots from poor air circulation",
+      "Better freezing",
+      "Higher grade",
+      "More marbling"
+    ],
+    "answer": 0,
+    "explanation": "Cold air must move around product. Blocked airflow causes uneven cooling. Warm spots can reduce shelf life and safety."
+  },
+  {
+    "id": 84,
+    "category": "B3 Handling and Storage",
+    "question": "A meat delivery arrives with broken packaging and unknown temperature history. What should happen?",
+    "options": [
+      "Hold or reject according to procedure",
+      "Sell immediately",
+      "Mix with fresh product",
+      "Wash and display"
+    ],
+    "answer": 0,
+    "explanation": "Broken packaging can allow contamination. Unknown temperature history creates risk. Receiving problems must be controlled."
+  },
+  {
+    "id": 85,
+    "category": "B3 Handling and Storage",
+    "question": "Which product should be handled with extra care because bacteria can be mixed throughout?",
+    "options": [
+      "Ground poultry",
+      "Whole beef roast",
+      "Whole pork leg",
+      "Whole lamb rack"
+    ],
+    "answer": 0,
+    "explanation": "Grinding spreads bacteria through the product. Poultry is already high risk. Ground poultry needs strict temperature and sanitation control."
+  },
+  {
+    "id": 86,
+    "category": "B3 Handling and Storage",
+    "question": "Why should raw meat be covered in storage?",
+    "options": [
+      "To prevent contamination and drying",
+      "To make it warmer",
+      "To remove fat",
+      "To change the cut name"
+    ],
+    "answer": 0,
+    "explanation": "Covers protect meat from drips and debris. They also reduce surface drying. Covered storage supports safety and quality."
+  },
+  {
+    "id": 87,
+    "category": "B3 Handling and Storage",
+    "question": "A frozen meat package is torn open. What can happen?",
+    "options": [
+      "Freezer burn",
+      "Better aging",
+      "Higher marbling",
+      "More protein"
+    ],
+    "answer": 0,
+    "explanation": "Air exposure dries frozen meat. This creates freezer burn. Good packaging protects frozen quality."
+  },
+  {
+    "id": 88,
+    "category": "B3 Handling and Storage",
+    "question": "What is the safest method for thawing frozen meat?",
+    "options": [
+      "In a cooler or approved controlled method",
+      "On the counter overnight",
+      "In sunlight",
+      "On the floor"
+    ],
+    "answer": 0,
+    "explanation": "Cooler thawing controls temperature. Unsafe thawing can allow bacteria to grow. Thawing must protect food safety."
+  },
+  {
+    "id": 89,
+    "category": "B3 Handling and Storage",
+    "question": "A raw poultry box leaks in the cooler. What should be done?",
+    "options": [
+      "Contain it and clean/sanitize the spill",
+      "Move it above beef",
+      "Ignore it",
+      "Cover it with cardboard"
+    ],
+    "answer": 0,
+    "explanation": "Poultry juices can carry pathogens. Leaks can contaminate shelves and floors. The area must be cleaned and sanitized."
+  },
+  {
+    "id": 90,
+    "category": "B3 Handling and Storage",
+    "question": "Why should cooler temperatures be checked regularly?",
+    "options": [
+      "To confirm product is held safely",
+      "To change meat colour",
+      "To improve label printing",
+      "To increase marbling"
+    ],
+    "answer": 0,
+    "explanation": "Temperature control slows bacterial growth. Cooler failure can affect many products. Regular checks help detect problems early."
+  },
+  {
+    "id": 91,
+    "category": "B3 Handling and Storage",
+    "question": "What should happen if cooler temperature is above the safe range?",
+    "options": [
+      "Report it and follow product safety procedure",
+      "Ignore it if the door is closed",
+      "Sell everything quickly",
+      "Turn off the thermometer"
+    ],
+    "answer": 0,
+    "explanation": "High cooler temperature can create food safety risk. Product may need evaluation. Equipment problems must be reported."
+  },
+  {
+    "id": 92,
+    "category": "B3 Handling and Storage",
+    "question": "Why should seafood be kept very cold?",
+    "options": [
+      "It spoils quickly",
+      "It cannot spoil",
+      "It becomes marbled",
+      "It becomes cooked"
+    ],
+    "answer": 0,
+    "explanation": "Seafood is highly perishable. Cold temperature slows spoilage. Freshness signs must be checked carefully."
+  },
+  {
+    "id": 93,
+    "category": "B3 Handling and Storage",
+    "question": "Which product should not be stored directly under raw poultry?",
+    "options": [
+      "Cooked ready-to-eat meat",
+      "Raw chicken",
+      "Raw turkey",
+      "Raw poultry trim"
+    ],
+    "answer": 0,
+    "explanation": "Ready-to-eat meat may not be cooked again. Raw poultry juices can contaminate it. Storage order protects ready-to-eat foods."
+  },
+  {
+    "id": 94,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should meat be cut with the correct grain direction?",
+    "options": [
+      "To improve tenderness when eaten",
+      "To increase package weight",
+      "To remove all fat",
+      "To replace cooking"
+    ],
+    "answer": 0,
+    "explanation": "Cutting across grain shortens muscle fibres. Shorter fibres are easier to chew. This is especially important for flank and similar cuts."
+  },
+  {
+    "id": 95,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should portion cuts be uniform?",
+    "options": [
+      "For even cooking, pricing, and display",
+      "To make meat sterile",
+      "To increase bone fragments",
+      "To remove labels"
+    ],
+    "answer": 0,
+    "explanation": "Uniform cuts look professional. They also cook more evenly. Consistent portions support fair pricing."
+  },
+  {
+    "id": 96,
+    "category": "B4 Cutting Procedures",
+    "question": "When cutting steaks, why should the end be squared if needed?",
+    "options": [
+      "To produce even portions",
+      "To increase waste on purpose",
+      "To make meat tougher",
+      "To remove inspection marks"
+    ],
+    "answer": 0,
+    "explanation": "Squaring creates a straight cutting surface. It helps produce uniform steaks. Uniform cuts improve value and appearance."
+  },
+  {
+    "id": 97,
+    "category": "B5 Cooking Potential",
+    "question": "Which cut-and-method pairing is best?",
+    "options": [
+      "Brisket — slow moist cooking",
+      "Tenderloin — long stewing only",
+      "Ribeye — boiling for hours",
+      "Shank — quick rare grilling"
+    ],
+    "answer": 0,
+    "explanation": "Brisket has connective tissue. Slow moist cooking breaks collagen down. Tender cuts suit quicker dry heat."
+  },
+  {
+    "id": 98,
+    "category": "B5 Cooking Potential",
+    "question": "Which cut is best for quick dry-heat cooking?",
+    "options": [
+      "Strip loin steak",
+      "Beef shank",
+      "Pork hock",
+      "Brisket"
+    ],
+    "answer": 0,
+    "explanation": "Strip loin is naturally tender. It works well with grilling or pan-searing. Tough cuts need slow moist heat."
+  },
+  {
+    "id": 99,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants stew. Which meat type is most suitable?",
+    "options": [
+      "Cubes from chuck or other tougher cuts",
+      "Tenderloin medallions only",
+      "Ribeye steaks only",
+      "Fish fillets only"
+    ],
+    "answer": 0,
+    "explanation": "Stew uses moist heat and time. Tougher cuts become tender during cooking. Premium tender steaks are not usually needed."
+  },
+  {
+    "id": 100,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants a lean roast for slicing. What advice is important?",
+    "options": [
+      "Avoid overcooking and slice thinly",
+      "Boil it until dry",
+      "Store it warm before cooking",
+      "Cut with the grain only"
+    ],
+    "answer": 0,
+    "explanation": "Lean roasts dry out easily. Controlled cooking protects moisture. Thin slicing improves tenderness. # Handling Meat, Poultry, and Seafood — Difficult Real-Exam Style Questions ## Practice Set 2: Questions 101–150"
+  },
+  {
+    "id": 101,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer says two beef cuts came from the same animal, but one was tough and one was tender. What best explains this?",
+    "options": [
+      "All cuts from one animal should have identical tenderness",
+      "Different muscles have different use, connective tissue, and fat levels",
+      "Tenderness depends only on package size",
+      "Colour is the only factor affecting tenderness"
+    ],
+    "answer": 1,
+    "explanation": "Muscles used heavily are usually tougher. Connective tissue and marbling affect eating quality. Cuts from the same animal can cook very differently."
+  },
+  {
+    "id": 102,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A vacuum-packed beef primal is purplish when opened, then turns red after several minutes. What is the best interpretation?",
+    "options": [
+      "Normal blooming from oxygen exposure",
+      "Definite spoilage",
+      "Freezer burn",
+      "Chemical contamination"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum packaging limits oxygen around myoglobin. When oxygen contacts the meat, colour can bloom red. Odour, texture, and temperature should still be checked."
+  },
+  {
+    "id": 103,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut would most likely require collagen breakdown for good eating quality?",
+    "options": [
+      "Beef shank",
+      "Tenderloin steak",
+      "Strip loin steak",
+      "Chicken breast cutlet"
+    ],
+    "answer": 0,
+    "explanation": "Beef shank is a heavily used muscle. It contains significant connective tissue. Slow moist cooking changes collagen into gelatin."
+  },
+  {
+    "id": 104,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why does a lean roast lose eating quality faster when overcooked than a well-marbled roast?",
+    "options": [
+      "Lean meat has less fat to support juiciness",
+      "Lean meat has no protein",
+      "Marbling makes meat unsafe",
+      "Lean meat cannot lose moisture"
+    ],
+    "answer": 0,
+    "explanation": "Fat improves juiciness and mouthfeel. Lean meat depends more on moisture retention. Overcooking pushes moisture out and causes dryness."
+  },
+  {
+    "id": 105,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A meatcutter explains that “working muscles are usually tougher.” Which reason is most accurate?",
+    "options": [
+      "They contain more connective tissue",
+      "They contain no myoglobin",
+      "They are always boneless",
+      "They are always spoiled"
+    ],
+    "answer": 0,
+    "explanation": "Working muscles support movement. They develop stronger connective tissue. This increases toughness unless cooked properly."
+  },
+  {
+    "id": 106,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer asks why chicken thighs are darker and more flavourful than breasts. What should you say?",
+    "options": [
+      "Thighs are active muscles with more myoglobin and often more fat",
+      "Thighs are always cured",
+      "Breasts contain no protein",
+      "Thighs are cooked before sale"
+    ],
+    "answer": 0,
+    "explanation": "Active poultry muscles contain more myoglobin. Thighs are dark meat and usually richer in flavour. Breasts are leaner white meat."
+  },
+  {
+    "id": 107,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which statement best describes marbling?",
+    "options": [
+      "Intramuscular fat that affects flavour and juiciness",
+      "External bone dust on meat",
+      "Water inside packaging only",
+      "A sign that meat is spoiled"
+    ],
+    "answer": 0,
+    "explanation": "Marbling is fat within the muscle. It is important in beef quality. It improves flavour, juiciness, and tenderness perception."
+  },
+  {
+    "id": 108,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer asks why ground beef needs careful cooking and handling. What is the best answer?",
+    "options": [
+      "Bacteria may be mixed throughout during grinding",
+      "Ground beef has no moisture",
+      "Ground beef is always ready-to-eat",
+      "Grinding removes all bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Whole muscle bacteria are mostly on surfaces. Grinding can distribute bacteria throughout the product. Ground meats require strict temperature and sanitation control."
+  },
+  {
+    "id": 109,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "During dry aging, why does saleable yield decrease?",
+    "options": [
+      "Moisture evaporates and exterior trim may be removed",
+      "Bone grows inside the meat",
+      "Meat absorbs packaging weight",
+      "Fat turns into labels"
+    ],
+    "answer": 0,
+    "explanation": "Dry aging causes controlled moisture loss. The dried outer surface may need trimming. This improves flavour but lowers saleable yield."
+  },
+  {
+    "id": 110,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which statement about meat protein is correct?",
+    "options": [
+      "Meat provides complete protein with essential amino acids",
+      "Meat contains only sugar",
+      "Meat has no nutritional value",
+      "Meat protein disappears during storage"
+    ],
+    "answer": 0,
+    "explanation": "Meat is a complete protein source. It supplies essential amino acids. It also provides nutrients such as iron, zinc, and B vitamins."
+  },
+  {
+    "id": 111,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A roast with heavy fat cover is being trimmed. What is the best reason not to over-trim?",
+    "options": [
+      "Some fat protects quality and trimming affects yield",
+      "All fat is illegal",
+      "Fat has no value or function",
+      "Trimming fat makes meat unsafe"
+    ],
+    "answer": 0,
+    "explanation": "Fat can protect meat from drying. Excess fat may need removal for sale. Over-trimming reduces yield and profit."
+  },
+  {
+    "id": 112,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which change happens when meat proteins are overheated?",
+    "options": [
+      "They tighten and lose moisture",
+      "They become packaging film",
+      "They turn into bone",
+      "They make meat raw again"
+    ],
+    "answer": 0,
+    "explanation": "Heat firms meat proteins. Excess heat squeezes out juices. This causes dryness and toughness."
+  },
+  {
+    "id": 113,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer wants a cut that will stay juicy on a grill. Which feature should you emphasize?",
+    "options": [
+      "Marbling and correct doneness",
+      "Freezer burn",
+      "Long muscle fibres only",
+      "High bone dust level"
+    ],
+    "answer": 0,
+    "explanation": "Marbling supports flavour and juiciness. Correct cooking prevents moisture loss. Overcooking can ruin even good-quality meat."
+  },
+  {
+    "id": 114,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut would most likely have strong grain and need careful slicing?",
+    "options": [
+      "Flank steak",
+      "Tenderloin",
+      "Ribeye",
+      "Pork tenderloin"
+    ],
+    "answer": 0,
+    "explanation": "Flank has long visible muscle fibres. Slicing with the grain can make it chewy. Across-grain slicing improves tenderness."
+  },
+  {
+    "id": 115,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer asks why slow cooking improves short ribs. What is the correct explanation?",
+    "options": [
+      "Moist heat softens collagen into gelatin",
+      "Slow cooking adds marbling",
+      "Bone becomes tenderloin",
+      "Heat removes all protein"
+    ],
+    "answer": 0,
+    "explanation": "Short ribs contain collagen-rich tissue. Slow moist heat breaks collagen down. Gelatin improves texture and mouthfeel."
+  },
+  {
+    "id": 116,
+    "category": "B2 Inspection and Grading",
+    "question": "A meat product passes inspection but later develops sour odour and slime. What is correct?",
+    "options": [
+      "Remove it from sale because inspection does not prevent later spoilage",
+      "Sell it because it was inspected",
+      "Rinse it and relabel it",
+      "Grind it with fresh product"
+    ],
+    "answer": 0,
+    "explanation": "Inspection confirms wholesomeness at inspection time. Storage or time can still lead to spoilage. Sour odour and slime are warning signs."
+  },
+  {
+    "id": 117,
+    "category": "B2 Inspection and Grading",
+    "question": "Which situation best shows the difference between inspection and grading?",
+    "options": [
+      "Safe beef with low marbling may pass inspection but grade lower",
+      "Inspected meat is always top grade",
+      "Grading is the same as cooking",
+      "Inspection only checks package colour"
+    ],
+    "answer": 0,
+    "explanation": "Inspection checks safety and wholesomeness. Grading measures quality and yield traits. Low marbling affects quality, not necessarily safety."
+  },
+  {
+    "id": 118,
+    "category": "B2 Inspection and Grading",
+    "question": "A supplier case arrives without a lot code. Why is this a serious issue?",
+    "options": [
+      "Recall traceability is weakened",
+      "Meat becomes more tender",
+      "Product becomes cooked",
+      "The case becomes frozen"
+    ],
+    "answer": 0,
+    "explanation": "Lot codes identify affected batches. They support recall control and source tracking. Missing traceability information must be handled by procedure."
+  },
+  {
+    "id": 119,
+    "category": "B2 Inspection and Grading",
+    "question": "Which condition is most likely a safety hazard rather than only a quality defect?",
+    "options": [
+      "Metal fragments in meat",
+      "Slight freezer burn",
+      "Minor colour darkening from oxygen loss",
+      "Uneven steak thickness"
+    ],
+    "answer": 0,
+    "explanation": "Metal fragments can injure customers. They are physical contamination. The product must be removed from sale."
+  },
+  {
+    "id": 120,
+    "category": "B2 Inspection and Grading",
+    "question": "A beef side has good marbling but visible contamination on the surface. What comes first?",
+    "options": [
+      "Safety and contamination control",
+      "Selling it as premium immediately",
+      "Ignoring contamination because marbling is high",
+      "Cutting it into steaks without action"
+    ],
+    "answer": 0,
+    "explanation": "Food safety comes before quality. Marbling does not cancel contamination risk. Contaminated product must be handled according to procedure."
+  },
+  {
+    "id": 121,
+    "category": "B2 Inspection and Grading",
+    "question": "Which statement about freezer burn is most accurate?",
+    "options": [
+      "It is dehydration damage that affects quality",
+      "It proves meat is unsafe every time",
+      "It improves tenderness",
+      "It is a grading stamp"
+    ],
+    "answer": 0,
+    "explanation": "Freezer burn results from air exposure and moisture loss. It causes dry, discoloured surfaces. It is mainly a quality defect."
+  },
+  {
+    "id": 122,
+    "category": "B2 Inspection and Grading",
+    "question": "A vacuum pack is swollen and gives off persistent sour odour when opened. What should be done?",
+    "options": [
+      "Remove it from sale and report it",
+      "Let it air out and sell it",
+      "Mix it into ground meat",
+      "Rinse and repackage it"
+    ],
+    "answer": 0,
+    "explanation": "Swelling can indicate gas production. Persistent sour odour suggests spoilage. Questionable product must not be sold."
+  },
+  {
+    "id": 123,
+    "category": "B2 Inspection and Grading",
+    "question": "Which quality issue is associated with pale, soft, watery pork?",
+    "options": [
+      "PSE",
+      "DFD beef",
+      "Freezer burn only",
+      "Dry-aged beef"
+    ],
+    "answer": 0,
+    "explanation": "PSE stands for pale, soft, exudative. It has poor water-holding capacity. It affects appearance, yield, and customer acceptance."
+  },
+  {
+    "id": 124,
+    "category": "B2 Inspection and Grading",
+    "question": "Which issue is commonly linked to dark, firm, dry beef?",
+    "options": [
+      "High pH from animal stress before slaughter",
+      "Too much package film",
+      "Proper blooming",
+      "Correct knife sharpening"
+    ],
+    "answer": 0,
+    "explanation": "Stress can affect muscle chemistry after slaughter. High pH can cause dark cutting beef. This is mainly a quality defect."
+  },
+  {
+    "id": 125,
+    "category": "B2 Inspection and Grading",
+    "question": "A customer asks what beef yield grade means. Which answer is best?",
+    "options": [
+      "It estimates usable lean compared with fat and bone",
+      "It shows customer cooking preference",
+      "It proves the meat is cooked",
+      "It identifies the employee who cut it"
+    ],
+    "answer": 0,
+    "explanation": "Yield grade estimates saleable meat return. Excess fat and bone reduce usable yield. Yield affects carcass value and pricing."
+  },
+  {
+    "id": 126,
+    "category": "B2 Inspection and Grading",
+    "question": "Which sign is strongest for rejecting seafood at receiving?",
+    "options": [
+      "Strong ammonia smell",
+      "Mild clean smell",
+      "Firm flesh",
+      "Clear eyes"
+    ],
+    "answer": 0,
+    "explanation": "Ammonia odour is a spoilage warning. Fresh seafood should smell mild and clean. Questionable seafood should not be accepted."
+  },
+  {
+    "id": 127,
+    "category": "B2 Inspection and Grading",
+    "question": "A recall notice names a specific product lot. What is the main reason lot records matter?",
+    "options": [
+      "They help locate and control affected product",
+      "They improve marbling",
+      "They replace cooler checks",
+      "They make meat boneless"
+    ],
+    "answer": 0,
+    "explanation": "Lot records identify affected batches. They allow fast removal from sale. Traceability protects customers and the business."
+  },
+  {
+    "id": 128,
+    "category": "B2 Inspection and Grading",
+    "question": "Which package condition is most concerning?",
+    "options": [
+      "Broken seal with unknown temperature history",
+      "Clean sealed package",
+      "Correct label and cold product",
+      "Firm product in intact wrap"
+    ],
+    "answer": 0,
+    "explanation": "Broken seals can expose product to contamination. Unknown temperature history increases risk. The product should be held or rejected according to procedure."
+  },
+  {
+    "id": 129,
+    "category": "B2 Inspection and Grading",
+    "question": "Which issue is most likely a workmanship defect rather than spoilage?",
+    "options": [
+      "Uneven steak thickness",
+      "Sour odour",
+      "Slime",
+      "Gas-swollen package"
+    ],
+    "answer": 0,
+    "explanation": "Uneven thickness comes from cutting technique. Sour odour, slime, and swelling may signal spoilage. Workmanship defects affect presentation and cooking consistency."
+  },
+  {
+    "id": 130,
+    "category": "B2 Inspection and Grading",
+    "question": "Which statement about inspection marks is correct?",
+    "options": [
+      "They show inspection occurred, not that the product is top grade forever",
+      "They prove meat cannot spoil",
+      "They mean the product is cooked",
+      "They replace product labels"
+    ],
+    "answer": 0,
+    "explanation": "Inspection marks relate to official inspection. They do not guarantee future condition after storage. Grade and freshness still must be evaluated."
+  },
+  {
+    "id": 131,
+    "category": "B3 Handling and Storage",
+    "question": "During a long trimming job, a worker brings all product out at once. What is the main risk?",
+    "options": [
+      "Product warms and bacteria can grow faster",
+      "Product becomes inspected again",
+      "Product becomes more marbled",
+      "Product becomes boneless"
+    ],
+    "answer": 0,
+    "explanation": "Large batches can sit too long at room temperature. Temperature abuse increases bacterial growth. Small batches help maintain the cold chain."
+  },
+  {
+    "id": 132,
+    "category": "B3 Handling and Storage",
+    "question": "Which storage order is safest from top to bottom?",
+    "options": [
+      "Ready-to-eat foods, raw beef, raw poultry",
+      "Raw poultry, ready-to-eat foods, raw beef",
+      "Raw beef, cooked ham, raw poultry",
+      "Raw poultry, salad, cooked meat"
+    ],
+    "answer": 0,
+    "explanation": "Ready-to-eat foods must be protected from drips. Raw beef should be below ready-to-eat foods. Raw poultry belongs lowest because of high drip risk."
+  },
+  {
+    "id": 133,
+    "category": "B3 Handling and Storage",
+    "question": "A cooler is packed tightly and boxes block the evaporator fan. What is the most likely problem?",
+    "options": [
+      "Uneven cooling and warm spots",
+      "Better product freezing",
+      "Higher meat grade",
+      "Lower shrink automatically"
+    ],
+    "answer": 0,
+    "explanation": "Air must circulate to keep product cold. Blocked airflow can raise product temperatures. Poor cooling affects safety and shelf life."
+  },
+  {
+    "id": 134,
+    "category": "B3 Handling and Storage",
+    "question": "A raw poultry box leaks onto the cooler shelf. What is the best response?",
+    "options": [
+      "Contain the poultry, clean and sanitize the shelf",
+      "Move cooked foods below it",
+      "Ignore it until closing",
+      "Cover it with paper"
+    ],
+    "answer": 0,
+    "explanation": "Poultry juices can carry pathogens. Contaminated shelves can spread bacteria. Immediate cleaning and sanitizing are required."
+  },
+  {
+    "id": 135,
+    "category": "B3 Handling and Storage",
+    "question": "A meat delivery is cold but the truck is dirty and boxes are wet. What is the concern?",
+    "options": [
+      "Possible contamination during transport",
+      "Product is automatically premium",
+      "Product is cooked",
+      "Product is free from all hazards"
+    ],
+    "answer": 0,
+    "explanation": "Receiving includes transport condition. Dirty or wet boxes may contaminate storage areas. Product should be handled according to receiving procedures."
+  },
+  {
+    "id": 136,
+    "category": "B3 Handling and Storage",
+    "question": "Which product requires the strictest temperature control?",
+    "options": [
+      "Raw ground poultry",
+      "Whole sealed beef round",
+      "Unopened dry pasta",
+      "Clean packaging film"
+    ],
+    "answer": 0,
+    "explanation": "Poultry is high risk. Grinding spreads bacteria throughout the product. Temperature abuse can quickly increase danger."
+  },
+  {
+    "id": 137,
+    "category": "B3 Handling and Storage",
+    "question": "Why should meat not be stored uncovered in a walk-in cooler?",
+    "options": [
+      "It can dry out and become contaminated",
+      "It automatically ages correctly",
+      "It becomes safer",
+      "It loses all bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Uncovered meat is exposed to drips and debris. Air exposure can dry the surface. Covering protects quality and sanitation."
+  },
+  {
+    "id": 138,
+    "category": "B3 Handling and Storage",
+    "question": "A freezer package is torn and the meat surface is dry and grey. What is the likely cause?",
+    "options": [
+      "Freezer burn from air exposure",
+      "Proper wet aging",
+      "Fresh blooming",
+      "Inspection stamping"
+    ],
+    "answer": 0,
+    "explanation": "Torn packaging exposes frozen meat to air. Moisture leaves the surface. This causes freezer burn and quality loss."
+  },
+  {
+    "id": 139,
+    "category": "B3 Handling and Storage",
+    "question": "Why should cooler doors be closed promptly?",
+    "options": [
+      "To maintain cold temperature and reduce condensation",
+      "To make meat cook faster",
+      "To increase warm air movement",
+      "To remove need for thermometers"
+    ],
+    "answer": 0,
+    "explanation": "Open doors let warm air enter. Temperature rise affects product safety and shelf life. Condensation can also create sanitation or slip issues."
+  },
+  {
+    "id": 140,
+    "category": "B3 Handling and Storage",
+    "question": "A product has been left out during cutting, but no one knows how long. What should happen?",
+    "options": [
+      "Follow time-temperature safety procedure before using it",
+      "Put it in display immediately",
+      "Mix it with fresh cold product",
+      "Sell it first without checking"
+    ],
+    "answer": 0,
+    "explanation": "Unknown time at room temperature is a safety concern. Bacterial growth depends on time and temperature. The product must be evaluated according to procedure."
+  },
+  {
+    "id": 141,
+    "category": "B3 Handling and Storage",
+    "question": "Which action best protects shellfish safety and traceability?",
+    "options": [
+      "Keep approved-source records or tags as required",
+      "Remove all labels immediately",
+      "Store warm for faster sale",
+      "Mix with raw poultry"
+    ],
+    "answer": 0,
+    "explanation": "Shellfish can carry serious risks. Source records support traceability. Proper cold storage and records are important."
+  },
+  {
+    "id": 142,
+    "category": "B3 Handling and Storage",
+    "question": "A customer asks why seafood must stay colder than many other foods. What is the best answer?",
+    "options": [
+      "Seafood spoils quickly and quality declines fast",
+      "Seafood never spoils",
+      "Seafood becomes marbled when cold",
+      "Seafood is always cooked"
+    ],
+    "answer": 0,
+    "explanation": "Seafood is highly perishable. Cold temperatures slow spoilage. Freshness signs should be checked carefully."
+  },
+  {
+    "id": 143,
+    "category": "B3 Handling and Storage",
+    "question": "Which receiving issue should cause extra caution with vacuum-packed meat?",
+    "options": [
+      "Package seal broken",
+      "Product cold and sealed",
+      "Correct label present",
+      "Box clean and dry"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum seals protect product quality. Broken seals allow air and possible contamination. Product condition and temperature history must be checked."
+  },
+  {
+    "id": 144,
+    "category": "B4 Cutting Procedures",
+    "question": "A flank steak is sliced with the grain and served. What is the likely customer complaint?",
+    "options": [
+      "It is chewy",
+      "It is too marbled",
+      "It is boneless",
+      "It is too cold from cooking"
+    ],
+    "answer": 0,
+    "explanation": "Slicing with the grain leaves long fibres. Long fibres are harder to chew. Across-grain slicing improves tenderness."
+  },
+  {
+    "id": 145,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should a meatcutter square the end of a primal before portion cutting?",
+    "options": [
+      "To create uniform steaks and reduce uneven portions",
+      "To increase bone fragments",
+      "To remove food safety labels",
+      "To make meat raw"
+    ],
+    "answer": 0,
+    "explanation": "A square end gives a consistent cutting surface. Uniform portions improve display and cooking. It also helps control yield."
+  },
+  {
+    "id": 146,
+    "category": "B4 Cutting Procedures",
+    "question": "Which cutting error can most directly reduce customer satisfaction?",
+    "options": [
+      "Uneven steak thickness within one package",
+      "Correct label placement",
+      "Clean cutting board",
+      "Proper product temperature"
+    ],
+    "answer": 0,
+    "explanation": "Uneven steaks cook at different rates. Customers expect consistent portions. Poor portioning looks unprofessional."
+  },
+  {
+    "id": 147,
+    "category": "B5 Cooking Potential",
+    "question": "Which cooking recommendation best matches a collagen-rich cut?",
+    "options": [
+      "Low, slow moist cooking",
+      "Very quick dry grilling only",
+      "Raw serving",
+      "Freezing after cutting"
+    ],
+    "answer": 0,
+    "explanation": "Collagen needs time and moisture to soften. Braising and stewing are suitable methods. Quick grilling will not tenderize tough cuts."
+  },
+  {
+    "id": 148,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants a quick-cooking lean protein but dislikes dryness. What advice is best?",
+    "options": [
+      "Cook to proper doneness and avoid overcooking",
+      "Boil until all juices leave",
+      "Leave it unrefrigerated before cooking",
+      "Slice only with the grain"
+    ],
+    "answer": 0,
+    "explanation": "Lean cuts dry out easily. Controlled cooking protects moisture. Resting and proper slicing can also help."
+  },
+  {
+    "id": 149,
+    "category": "B5 Cooking Potential",
+    "question": "Which cut-and-method pairing is least appropriate?",
+    "options": [
+      "Beef shank — quick rare grilling",
+      "Tenderloin — quick grilling",
+      "Brisket — slow cooking",
+      "Short ribs — braising"
+    ],
+    "answer": 0,
+    "explanation": "Beef shank has heavy connective tissue. Quick rare grilling will leave it tough. It needs slow moist cooking."
+  },
+  {
+    "id": 150,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants meat for stew but chooses tenderloin because it is “the best.” What should you explain?",
+    "options": [
+      "Tenderloin is tender but not economical or necessary for stew",
+      "Tenderloin must always be stewed",
+      "Stew needs only premium steaks",
+      "Tough cuts cannot be used in stew"
+    ],
+    "answer": 0,
+    "explanation": "Stewing tenderizes tougher cuts. Tenderloin is already tender and expensive. Chuck or similar cuts are more suitable and economical. # Handling Meat, Poultry, and Seafood — New Learning Questions ## Practice Set 2: Questions 151–200"
+  },
+  {
+    "id": 151,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why does a cut from the shoulder usually need more cooking time than a loin cut?",
+    "options": [
+      "Shoulder muscles usually work more and contain more connective tissue",
+      "Shoulder cuts have no protein",
+      "Loin cuts are always cooked before sale",
+      "Shoulder meat cannot absorb heat"
+    ],
+    "answer": 0,
+    "explanation": "Shoulder muscles are used for movement and support. More use usually means more connective tissue. Slow cooking helps make these cuts tender."
+  },
+  {
+    "id": 152,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What is the main reason fat improves the eating quality of meat?",
+    "options": [
+      "It adds flavour, moisture perception, and mouthfeel",
+      "It removes all bacteria",
+      "It replaces protein",
+      "It makes meat safe without cooking"
+    ],
+    "answer": 0,
+    "explanation": "Fat contributes flavour and juiciness. It also improves texture in the mouth. Too much fat may still need trimming for retail sale."
+  },
+  {
+    "id": 153,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which meat is most likely to dry out fastest if overcooked?",
+    "options": [
+      "Skinless chicken breast",
+      "Pork belly",
+      "Beef short ribs",
+      "Lamb shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Skinless chicken breast is very lean. Lean cuts have less fat protection. Overcooking quickly forces moisture out."
+  },
+  {
+    "id": 154,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What does “water-holding capacity” mean in meat?",
+    "options": [
+      "The ability of meat to retain moisture",
+      "The amount of water in a sink",
+      "The weight of packaging film",
+      "The size of a cooler fan"
+    ],
+    "answer": 0,
+    "explanation": "Water-holding capacity affects juiciness and purge. Poor water-holding causes more liquid loss. It affects package appearance and yield."
+  },
+  {
+    "id": 155,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why can meat with poor water-holding capacity look unattractive in a tray?",
+    "options": [
+      "It releases more purge",
+      "It becomes boneless",
+      "It gains marbling",
+      "It becomes cooked"
+    ],
+    "answer": 0,
+    "explanation": "Purge is liquid lost from meat. Too much purge makes packages look watery. It can reduce customer appeal and saleable weight."
+  },
+  {
+    "id": 156,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which statement about bone-in cuts is most accurate?",
+    "options": [
+      "Bone can affect presentation and cooking time",
+      "Bone makes meat unsafe",
+      "Bone removes all flavour",
+      "Bone means the meat is always low quality"
+    ],
+    "answer": 0,
+    "explanation": "Bone-in cuts may take longer to cook. They can also improve appearance for some customers. Bone affects portioning, pricing, and cooking."
+  },
+  {
+    "id": 157,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "A customer asks why a slow-cooked tough cut becomes softer. What is the best answer?",
+    "options": [
+      "Connective tissue breaks down with time, heat, and moisture",
+      "The meat turns into fat",
+      "The bone melts into protein",
+      "The package label tenderizes it"
+    ],
+    "answer": 0,
+    "explanation": "Tough cuts contain collagen. Slow moist cooking converts collagen to gelatin. This makes the meat easier to chew."
+  },
+  {
+    "id": 158,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which meat component is most linked with red colour intensity?",
+    "options": [
+      "Myoglobin",
+      "Starch",
+      "Sugar",
+      "Salt crystals"
+    ],
+    "answer": 0,
+    "explanation": "Myoglobin is the muscle pigment. Higher myoglobin gives darker colour. Active muscles usually have more myoglobin."
+  },
+  {
+    "id": 159,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why is lamb often darker than pork?",
+    "options": [
+      "Lamb generally has more myoglobin than pork",
+      "Pork has no protein",
+      "Lamb is always spoiled",
+      "Pork is always cooked"
+    ],
+    "answer": 0,
+    "explanation": "Colour is affected by myoglobin level. Lamb is usually darker than pork. Species and muscle use both affect colour."
+  },
+  {
+    "id": 160,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which statement about tenderness is most correct?",
+    "options": [
+      "Tenderness depends on muscle use, connective tissue, aging, and cutting direction",
+      "Tenderness depends only on tray colour",
+      "All muscles from one carcass have the same tenderness",
+      "Tenderness is not affected by cooking"
+    ],
+    "answer": 0,
+    "explanation": "Many factors affect tenderness. Muscle use and connective tissue are major factors. Cooking and slicing can also change eating tenderness."
+  },
+  {
+    "id": 161,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why is cutting across the grain helpful?",
+    "options": [
+      "It shortens muscle fibres",
+      "It adds marbling",
+      "It removes bacteria",
+      "It increases bone weight"
+    ],
+    "answer": 0,
+    "explanation": "Long muscle fibres can feel chewy. Cutting across grain makes fibres shorter. This improves tenderness when eating."
+  },
+  {
+    "id": 162,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which cut would usually have the strongest muscle grain?",
+    "options": [
+      "Flank steak",
+      "Tenderloin",
+      "Ribeye",
+      "Chicken breast tender"
+    ],
+    "answer": 0,
+    "explanation": "Flank has long visible fibres. It is known for strong grain. It should be sliced across the grain."
+  },
+  {
+    "id": 163,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Why should meat be rested after cooking when appropriate?",
+    "options": [
+      "To allow juices to redistribute",
+      "To make raw meat safe without cooking",
+      "To add bone weight",
+      "To remove all fat"
+    ],
+    "answer": 0,
+    "explanation": "Resting helps retain juices when sliced. Cutting immediately can release more liquid. Resting improves eating quality in many cooked meats."
+  },
+  {
+    "id": 164,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "What happens when meat is frozen for too long without good packaging?",
+    "options": [
+      "It may dry out and develop freezer burn",
+      "It becomes fresh again",
+      "It gains marbling",
+      "It becomes inspected again"
+    ],
+    "answer": 0,
+    "explanation": "Air exposure causes moisture loss. Frozen surface dehydration is freezer burn. Good wrapping protects frozen meat quality."
+  },
+  {
+    "id": 165,
+    "category": "B1 Meat Science and Nutrition",
+    "question": "Which item is not a normal nutrient supplied by meat?",
+    "options": [
+      "Chlorophyll",
+      "Protein",
+      "Iron",
+      "Zinc"
+    ],
+    "answer": 0,
+    "explanation": "Chlorophyll is a plant pigment. Meat supplies protein and minerals. Iron and zinc are common meat nutrients."
+  },
+  {
+    "id": 166,
+    "category": "B2 Inspection and Grading",
+    "question": "A product looks acceptable but has no required traceability information. What is the issue?",
+    "options": [
+      "It may be difficult to track in a recall",
+      "It becomes more tender",
+      "It has extra marbling",
+      "It is cooked"
+    ],
+    "answer": 0,
+    "explanation": "Traceability identifies source and lot. Recall control depends on accurate records. Missing information must be handled by procedure."
+  },
+  {
+    "id": 167,
+    "category": "B2 Inspection and Grading",
+    "question": "Which situation is most likely to require holding product for supervisor review?",
+    "options": [
+      "Product arrives cold but packaging is badly damaged",
+      "Product is cold, sealed, and correctly labelled",
+      "Product has firm texture and fresh smell",
+      "Product is stored correctly immediately"
+    ],
+    "answer": 0,
+    "explanation": "Damaged packaging may expose meat to contamination. Even cold product can be unsafe if protection is lost. A supervisor or receiving procedure should decide action."
+  },
+  {
+    "id": 168,
+    "category": "B2 Inspection and Grading",
+    "question": "Why can a product pass inspection but still be poor for display?",
+    "options": [
+      "Inspection does not guarantee perfect retail appearance",
+      "Inspection makes meat invisible",
+      "Inspection means the product must be sold",
+      "Inspection removes all quality issues"
+    ],
+    "answer": 0,
+    "explanation": "Inspection focuses on safety and wholesomeness. Retail quality includes colour, purge, trim, and packaging. A safe product can still have poor appearance."
+  },
+  {
+    "id": 169,
+    "category": "B2 Inspection and Grading",
+    "question": "Which problem is most likely caused by poor frozen storage?",
+    "options": [
+      "Freezer burn",
+      "High marbling",
+      "Tenderloin tenderness",
+      "Fresh bloom"
+    ],
+    "answer": 0,
+    "explanation": "Poor wrapping allows frozen dehydration. The surface becomes dry and discoloured. This is known as freezer burn."
+  },
+  {
+    "id": 170,
+    "category": "B2 Inspection and Grading",
+    "question": "A package has a normal odour but contains an unexpected sharp bone fragment. What is the main concern?",
+    "options": [
+      "Physical hazard",
+      "Normal marbling",
+      "Better yield",
+      "Perfect quality"
+    ],
+    "answer": 0,
+    "explanation": "Bone fragments can injure customers. Unexpected fragments are a physical hazard. The package should be corrected or removed."
+  },
+  {
+    "id": 171,
+    "category": "B2 Inspection and Grading",
+    "question": "Which sign is least reliable by itself for judging spoilage?",
+    "options": [
+      "Colour only",
+      "Sour odour",
+      "Slime",
+      "Gas swelling with off smell"
+    ],
+    "answer": 0,
+    "explanation": "Colour can change from oxygen exposure. Odour and texture give stronger spoilage clues. Use several signs before making a decision."
+  },
+  {
+    "id": 172,
+    "category": "B2 Inspection and Grading",
+    "question": "A beef primal has high marbling but excessive external fat. What is the likely concern?",
+    "options": [
+      "Eating quality may be good, but saleable yield may be reduced",
+      "It is automatically unsafe",
+      "It cannot be cut",
+      "It must be poultry"
+    ],
+    "answer": 0,
+    "explanation": "Marbling improves eating quality. Excess external fat may be trimmed away. Trimming lowers saleable yield."
+  },
+  {
+    "id": 173,
+    "category": "B2 Inspection and Grading",
+    "question": "What is the best action when a recalled lot is found in storage?",
+    "options": [
+      "Remove it from sale and follow recall procedure",
+      "Sell it quickly",
+      "Relabel it with a new lot number",
+      "Mix it with other lots"
+    ],
+    "answer": 0,
+    "explanation": "Recalled product must be controlled immediately. It may be unsafe or incorrectly labelled. Mixing or relabeling destroys traceability."
+  },
+  {
+    "id": 174,
+    "category": "B2 Inspection and Grading",
+    "question": "Which condition is most likely connected with poor water-holding in pork?",
+    "options": [
+      "PSE",
+      "Proper dry aging",
+      "Normal bloom",
+      "High freezer temperature only"
+    ],
+    "answer": 0,
+    "explanation": "PSE pork loses liquid easily. It appears pale, soft, and watery. This affects appearance and yield."
+  },
+  {
+    "id": 175,
+    "category": "B2 Inspection and Grading",
+    "question": "What does “wholesomeness” mean in meat inspection?",
+    "options": [
+      "Meat is fit for human food",
+      "Meat is always highest grade",
+      "Meat is fully cooked",
+      "Meat is always boneless"
+    ],
+    "answer": 0,
+    "explanation": "Inspection checks if meat is safe and fit to eat. It does not mean the highest quality grade. Wholesomeness is about suitability as food."
+  },
+  {
+    "id": 176,
+    "category": "B2 Inspection and Grading",
+    "question": "A fish has clear eyes but strong ammonia odour. What should guide your decision?",
+    "options": [
+      "The ammonia odour is a serious warning sign",
+      "Clear eyes mean it is always acceptable",
+      "Odour never matters",
+      "It should be mixed with fresh fish"
+    ],
+    "answer": 0,
+    "explanation": "Freshness must be judged by multiple signs. Ammonia odour can indicate spoilage. Questionable seafood should not be sold."
+  },
+  {
+    "id": 177,
+    "category": "B2 Inspection and Grading",
+    "question": "Why is checking package integrity part of inspection at receiving?",
+    "options": [
+      "Damaged packages may allow contamination or quality loss",
+      "Packages are only decoration",
+      "Package damage improves safety",
+      "It replaces temperature checks"
+    ],
+    "answer": 0,
+    "explanation": "Packaging protects product from contamination. Damaged packaging can also cause dehydration or leaks. Receiving checks must include package condition."
+  },
+  {
+    "id": 178,
+    "category": "B2 Inspection and Grading",
+    "question": "Which condition is most likely a sign of temperature abuse?",
+    "options": [
+      "Warm product with off odour and excessive purge",
+      "Cold product with intact packaging",
+      "Correctly labelled product",
+      "Firm frozen product"
+    ],
+    "answer": 0,
+    "explanation": "Warm temperatures allow bacteria to grow. Off odour and purge may show poor handling. Such product should be controlled."
+  },
+  {
+    "id": 179,
+    "category": "B3 Handling and Storage",
+    "question": "Why is raw poultry stored below raw beef?",
+    "options": [
+      "Poultry has high drip contamination risk",
+      "Beef is always ready-to-eat",
+      "Poultry must be warmer",
+      "Beef cannot spoil"
+    ],
+    "answer": 0,
+    "explanation": "Poultry juices may contain pathogens. Storing poultry below prevents dripping onto beef. Leak-proof containers add protection."
+  },
+  {
+    "id": 180,
+    "category": "B3 Handling and Storage",
+    "question": "What is the best reason to separate raw and ready-to-eat products in storage?",
+    "options": [
+      "Ready-to-eat products may not be cooked again",
+      "Raw meat improves cooked product flavour",
+      "Separation is only for appearance",
+      "Cooked products cannot be contaminated"
+    ],
+    "answer": 0,
+    "explanation": "Ready-to-eat products can go directly to customers. Raw meat juices can carry pathogens. Separation prevents cross-contamination."
+  },
+  {
+    "id": 181,
+    "category": "B3 Handling and Storage",
+    "question": "Which storage practice best protects frozen meat quality?",
+    "options": [
+      "Tight, intact packaging with stable freezer temperature",
+      "Torn packaging and frequent thawing",
+      "Storing beside chemicals",
+      "Leaving boxes open"
+    ],
+    "answer": 0,
+    "explanation": "Stable freezing protects texture. Intact packaging prevents freezer burn. Frequent thawing lowers quality."
+  },
+  {
+    "id": 182,
+    "category": "B3 Handling and Storage",
+    "question": "Why should frozen meat not be repeatedly thawed and refrozen?",
+    "options": [
+      "It damages texture and increases moisture loss",
+      "It improves tenderness every time",
+      "It increases marbling",
+      "It removes all bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Ice crystals damage meat structure. Repeated thawing causes more drip loss. Quality and appearance decline."
+  },
+  {
+    "id": 183,
+    "category": "B3 Handling and Storage",
+    "question": "A raw meat box is stored under a dripping cooler unit. What is the concern?",
+    "options": [
+      "Contamination from condensate or dirty water",
+      "Better aging",
+      "Improved colour",
+      "Higher grade"
+    ],
+    "answer": 0,
+    "explanation": "Drips from equipment can contaminate packaging or food. Condensate is not considered sanitary. Product should be moved and the issue reported."
+  },
+  {
+    "id": 184,
+    "category": "B3 Handling and Storage",
+    "question": "Why should meat be dated when stored?",
+    "options": [
+      "To support rotation and shelf-life control",
+      "To make it cook faster",
+      "To increase weight",
+      "To replace refrigeration"
+    ],
+    "answer": 0,
+    "explanation": "Dates help workers know product age. They support FIFO rotation. They help prevent selling old product."
+  },
+  {
+    "id": 185,
+    "category": "B3 Handling and Storage",
+    "question": "Which receiving condition is most acceptable?",
+    "options": [
+      "Product cold, packaging intact, labels complete",
+      "Product warm and leaking",
+      "Product with unknown source",
+      "Product with broken seals"
+    ],
+    "answer": 0,
+    "explanation": "Cold temperature protects safety. Intact packaging protects the product. Complete labels support traceability."
+  },
+  {
+    "id": 186,
+    "category": "B3 Handling and Storage",
+    "question": "Why is open meat storage near strong-smelling foods a problem?",
+    "options": [
+      "Meat may absorb odours",
+      "Meat becomes safer",
+      "Meat gains protein",
+      "Meat becomes frozen"
+    ],
+    "answer": 0,
+    "explanation": "Meat can absorb strong odours. This affects eating quality. Covered storage helps protect flavour."
+  },
+  {
+    "id": 187,
+    "category": "B3 Handling and Storage",
+    "question": "What should happen if a product’s temperature is questionable at receiving?",
+    "options": [
+      "Follow receiving procedure and hold or reject if needed",
+      "Put it into display immediately",
+      "Warm it to room temperature",
+      "Remove the label"
+    ],
+    "answer": 0,
+    "explanation": "Temperature is a critical safety factor. Questionable product should be controlled. Receiving records and supervisor review may be needed."
+  },
+  {
+    "id": 188,
+    "category": "B3 Handling and Storage",
+    "question": "Why should raw meat not be placed in non-food-grade containers?",
+    "options": [
+      "The container may contaminate the food",
+      "It improves shelf life",
+      "It makes meat inspected",
+      "It adds marbling"
+    ],
+    "answer": 0,
+    "explanation": "Food-contact containers must be safe. Non-food-grade materials can leach chemicals or contaminants. Use only approved storage containers."
+  },
+  {
+    "id": 189,
+    "category": "B3 Handling and Storage",
+    "question": "A cooler shelf is overloaded and bending. What is a concern besides product damage?",
+    "options": [
+      "Worker safety and possible collapse",
+      "Better FIFO",
+      "Improved airflow",
+      "Higher grade"
+    ],
+    "answer": 0,
+    "explanation": "Overloaded shelves may fail. Falling boxes can injure workers. Storage must be safe and organized."
+  },
+  {
+    "id": 190,
+    "category": "B3 Handling and Storage",
+    "question": "Why should raw seafood be separated from raw poultry?",
+    "options": [
+      "To prevent cross-contamination and odour transfer",
+      "To make seafood warmer",
+      "To cook poultry faster",
+      "To improve marbling"
+    ],
+    "answer": 0,
+    "explanation": "Raw products can contaminate each other. Seafood can also absorb odours. Separation supports safety and quality."
+  },
+  {
+    "id": 191,
+    "category": "B4 Cutting Procedures",
+    "question": "A roast is sliced unevenly for a customer order. What is the likely issue?",
+    "options": [
+      "Uneven cooking and poor presentation",
+      "Higher inspection grade",
+      "Better portion control",
+      "More accurate pricing automatically"
+    ],
+    "answer": 0,
+    "explanation": "Uneven slices look unprofessional. They can cook or reheat unevenly. Consistent slicing improves customer satisfaction."
+  },
+  {
+    "id": 192,
+    "category": "B4 Cutting Procedures",
+    "question": "Why should bones be cut cleanly when making bone-in portions?",
+    "options": [
+      "To reduce bone dust and sharp fragments",
+      "To increase hazards",
+      "To make meat tougher",
+      "To remove marbling"
+    ],
+    "answer": 0,
+    "explanation": "Clean bone cuts improve appearance. Bone dust and sharp fragments are customer concerns. Proper saw setup helps create clean cuts."
+  },
+  {
+    "id": 193,
+    "category": "B4 Cutting Procedures",
+    "question": "What is the advantage of portioning meat to consistent weight?",
+    "options": [
+      "Fair pricing and consistent cooking",
+      "More waste always",
+      "Less customer trust",
+      "No need for labels"
+    ],
+    "answer": 0,
+    "explanation": "Consistent weights help pricing accuracy. They also help customers cook portions evenly. Portion control is a key meatcutter skill."
+  },
+  {
+    "id": 194,
+    "category": "B4 Cutting Procedures",
+    "question": "When trimming silver skin, what should be the goal?",
+    "options": [
+      "Remove tough tissue while saving usable lean",
+      "Remove as much lean meat as possible",
+      "Leave all tough tissue on premium cuts",
+      "Cut through the packaging"
+    ],
+    "answer": 0,
+    "explanation": "Silver skin can be tough when cooked. Careful trimming improves eating quality. Saving lean protects yield."
+  },
+  {
+    "id": 195,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants beef for pressure cooking. Which type of cut works well?",
+    "options": [
+      "Tougher cuts with connective tissue",
+      "Only tenderloin steaks",
+      "Only raw fish fillets",
+      "Only chicken breast tenders"
+    ],
+    "answer": 0,
+    "explanation": "Pressure cooking uses heat and moisture. It works well for collagen-rich cuts. Chuck, brisket, and shank are good examples."
+  },
+  {
+    "id": 196,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants to pan-fry thin pork cutlets. Which cut is most suitable?",
+    "options": [
+      "Thin loin or leg cutlets",
+      "Whole pork hock",
+      "Pork belly slab",
+      "Side ribs"
+    ],
+    "answer": 0,
+    "explanation": "Thin cutlets cook quickly. Loin or leg provides lean slices. Whole hocks and ribs need slower cooking."
+  },
+  {
+    "id": 197,
+    "category": "B5 Cooking Potential",
+    "question": "Which advice is best for cooking fish fillets?",
+    "options": [
+      "Cook gently because they are delicate and can overcook quickly",
+      "Boil for many hours",
+      "Treat them like beef shank",
+      "Always cook from frozen without control"
+    ],
+    "answer": 0,
+    "explanation": "Fish fillets are delicate. They cook faster than many meat cuts. Overcooking makes them dry or flaky."
+  },
+  {
+    "id": 198,
+    "category": "B5 Cooking Potential",
+    "question": "A customer wants a roast that will shred after cooking. Which feature should you look for?",
+    "options": [
+      "Connective tissue and enough fat for slow cooking",
+      "Very lean tenderloin only",
+      "White fish texture",
+      "No collagen at all"
+    ],
+    "answer": 0,
+    "explanation": "Shredding cuts need collagen breakdown. Fat helps keep meat moist. Shoulder and chuck are good examples."
+  },
+  {
+    "id": 199,
+    "category": "B5 Cooking Potential",
+    "question": "Which cut is likely best for quick grilling without tenderizing?",
+    "options": [
+      "Ribeye steak",
+      "Beef heel",
+      "Brisket flat",
+      "Pork hock"
+    ],
+    "answer": 0,
+    "explanation": "Ribeye is naturally tender and marbled. It suits dry heat cooking. Heel, brisket, and hock need slow moist heat."
+  },
+  {
+    "id": 200,
+    "category": "B5 Cooking Potential",
+    "question": "Why should customers be told to slice some cooked meats across the grain?",
+    "options": [
+      "It improves tenderness by shortening fibres",
+      "It makes meat raw again",
+      "It adds fat",
+      "It prevents refrigeration"
+    ],
+    "answer": 0,
+    "explanation": "Long fibres feel chewy. Across-grain slicing shortens them. This is important for flank, skirt, and some roasts."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledMeatcutterHandlingMeatPoultrySeafoodQuestions =
+  shuffleArray(meatcutterHandlingMeatPoultrySeafoodQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "meatcutter",
+  tradeTitle: "Meatcutter",
+  sectionTitle: "Handling Meat, Poultry, and Seafood Practice Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledMeatcutterHandlingMeatPoultrySeafoodQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledMeatcutterHandlingMeatPoultrySeafoodQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

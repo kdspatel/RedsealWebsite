@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Free Red Seal Practice Tests by Trade | Red Seal Practice</title><meta name="description" content="Choose a Canadian skilled trade and start a free Red Seal practice test with sample exam-style questions."><link rel="canonical" href="https://www.redsealpractice.ca/practice-tests">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/rs-home.css?release=20261118-redesign" />
+<link rel="stylesheet" href="/css/rs-pages.css?release=20261118-redesign" />
+
+<link rel="stylesheet" href="/css/rs-quiz-lists.css?release=20261119-quiz" />
+</head>
+<body class="rsh rsp rsp-practice">
+<div class="rsh-notice">Independent study platform — not the official Red Seal Program or a Government of Canada website. <a href="/terms-and-conditions">Learn more</a></div>
+<header class="rsh-header" id="rshHeader">
+    <div class="rsh-wrap rsh-header-in">
+      <a class="rsh-logo" href="/" aria-label="Red Seal Practice home">
+        <svg class="rsh-logo-svg" viewBox="0 0 34 38" aria-hidden="true"><path d="M17 2l13 5v10c0 9-6 15-13 19C10 32 4 26 4 17V7z" fill="#B3171F"/><path d="M11 18.5l4.5 4.5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="rsh-logo-copy"><strong>Red Seal Practice</strong><small>Your Path. Your Trade. Your Future.</small></span>
+      </a>
+      <button class="rsh-burger" id="rshBurger" type="button" aria-expanded="false" aria-controls="rshNav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="rsh-nav" id="rshNav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <div class="rsh-dd">
+          <button type="button" class="rsh-dd-btn" aria-expanded="false">Trades <span class="rsh-caret"><svg class="ic ic-14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button>
+          <div class="rsh-dd-menu">
+            <a href="/trades">Browse All Trades</a><a href="/find-my-trade">Find My Trade</a><a class="active" href="/practice-tests">Free Practice Tests</a><a href="/mock-tests">Mock Tests</a><a href="/level-tests">Level Quizzes</a>
+          </div>
+        </div>
+        <a href="/find-my-trade">Find My Trade</a>
+        <a href="/practice-tests">Practice Tests</a>
+        <a href="/mock-tests">Mock Tests</a>
+        <a href="/level-tests">Level Quizzes</a>
+        <a href="/blog">Articles</a>
+        <a href="/pricing">Pricing</a>
+        <div class="rsh-dd">
+          <button type="button" class="rsh-dd-btn" aria-expanded="false">More <span class="rsh-caret"><svg class="ic ic-14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button>
+          <div class="rsh-dd-menu right">
+            <a href="/exam-journey-support">Your Red Seal Journey</a><a href="/provinces">Province Contacts</a><a href="/community">Reviews &amp; Questions</a><a href="/faq">FAQ</a><a href="/contact">Contact</a>
+          </div>
+        </div>
+        <div class="rsh-auth" id="rshAuth">
+          <a class="rsh-btn-login" href="/login">Log In</a>
+          <a class="rsh-btn-signup" href="/signup">Sign Up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+<main id="top">
+<section class="rq-tabs-wrap"><div class="rsh-wrap">
+  <div class="rq-tabs" role="tablist" aria-label="Quiz type">
+    <button type="button" id="rqTabFree" class="on" role="tab" aria-selected="true">Free quiz <small>Open</small></button>
+    <button type="button" id="rqTabPaid" role="tab" aria-selected="false">Paid quiz <small>Locked</small></button>
+  </div>
+</div></section>
+<iframe id="rqFrameFree" class="rq-frame" title="Free quiz" data-src="/quiz-demo-free.html?embed=1"></iframe>
+<iframe id="rqFramePaid" class="rq-frame" title="Paid quiz" data-src="/quiz-demo-paid.html?embed=1" hidden></iframe>
+</main>
+<script>
+(function(){
+  var q=new URLSearchParams(location.search);
+  var slug=q.get('trade')||'',area=q.get('area')||'practice';
+  var source=area==='mock'?'mock':(area==='level'?'level':'practice');
+  var level=q.get('level')||'1';
+  var qs='?embed=1&trade='+encodeURIComponent(slug)+'&source='+source+'&level='+encodeURIComponent(level);
+  document.getElementById('rqFrameFree').src='/quiz-demo-free.html'+qs;
+  document.getElementById('rqFramePaid').src='/quiz-demo-paid.html'+qs;
+  var label={practice:'Practice Test',mock:'Mock Test',level:'Level '+level+' Quiz'}[source];
+  fetch('/data/practice/'+source+'/'+encodeURIComponent(slug)+(source==='level'?'-'+encodeURIComponent(level):'')+'.json').then(function(r){return r.json()}).then(function(d){if(d&&d.title)document.title=d.title+' '+label+' | Red Seal Practice'}).catch(function(){});
+})();
+</script>
+<style>
+.rq-tabs-wrap{background:#FAF8F5;padding:22px 0 4px}
+.rq-tabs{display:inline-flex;gap:6px;background:#F3EFEA;padding:5px;border-radius:999px}
+.rq-tabs button{border:0;background:transparent;font:600 14px Inter,sans-serif;padding:10px 22px;border-radius:999px;color:#5A626B;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.rq-tabs button small{font:600 11px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.rq-tabs button.on{background:#B3171F;color:#fff;box-shadow:0 4px 12px rgba(179,23,31,.3)}
+.rq-frame{display:block;width:100%;border:0;min-height:900px;background:#FAF8F5}
+.rq-frame[hidden]{display:none}
+</style>
+<script>
+(function(){
+  var F={free:document.getElementById('rqFrameFree'),paid:document.getElementById('rqFramePaid')};
+  var T={free:document.getElementById('rqTabFree'),paid:document.getElementById('rqTabPaid')};
+  function fit(k){try{var d=F[k].contentDocument;if(d&&d.documentElement){F[k].style.height=Math.max(900,d.documentElement.scrollHeight)+'px'}}catch(e){}}
+  function watch(k){F[k].addEventListener('load',function(){fit(k);try{new ResizeObserver(function(){fit(k)}).observe(F[k].contentDocument.documentElement)}catch(e){setInterval(function(){fit(k)},700)}})}
+  watch('free');watch('paid');
+  window.show=function(k){for(var n in F){F[n].hidden=(n!==k);T[n].className=(n===k)?'on':'';T[n].setAttribute('aria-selected',n===k)}fit(k);window.scrollTo({top:0,behavior:'smooth'})};
+  T.free.onclick=function(){show('free')};T.paid.onclick=function(){show('paid')};
+  if(location.hash==='#paid')show('paid');
+})();
+</script>
+<footer class="rsh-footer">
+    <div class="rsh-wrap rsh-footer-top">
+      <div class="rsh-footer-intro">
+        <a class="rsh-footer-logo" href="/"><svg class="rsh-logo-svg" viewBox="0 0 34 38" aria-hidden="true"><path d="M17 2l13 5v10c0 9-6 15-13 19C10 32 4 26 4 17V7z" fill="#B3171F"/><path d="M11 18.5l4.5 4.5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Red Seal Practice</span></a>
+        <p>Independent study support for Canadian skilled-trade learners. Practise exam-style questions and understand your next step with confidence.</p>
+        <a class="rsh-footer-cta" href="/exam-journey-support">Get journey help</a>
+        <p class="rsh-footer-note"><b>Independent website:</b> Red Seal Practice is not the official Red Seal Program or a government organization.</p>
+      </div>
+      <div class="rsh-footer-col"><h4>PRACTICE</h4><a href="/trades">Browse trades</a><a href="/practice-tests">Free practice tests</a><a href="/mock-tests">Mock tests</a><a href="/level-tests">Level quizzes</a><a href="/find-my-trade">Find my trade</a></div>
+      <div class="rsh-footer-col"><h4>YOUR JOURNEY</h4><a href="/exam-journey-support">Where to start</a><a href="/provinces">Province contacts</a><a href="/community">Reviews &amp; questions</a><a href="/faq">FAQ</a></div>
+      <div class="rsh-footer-col"><h4>COMPANY</h4><a href="/blog">Articles</a><a href="/pricing">Pricing</a><a href="/contact">Contact</a><a href="/terms-and-conditions">Terms &amp; disclaimer</a></div>
+    </div>
+    <div class="rsh-wrap rsh-footer-bottom"><span>© 2026 Red Seal Practice. All rights reserved.</span><span>Not affiliated with the Red Seal Program, Government of Canada, or provincial/territorial authorities.</span></div>
+  </footer>
+<script src="/js/rs-home.js?release=20261118-redesign" defer></script>
+<script src="/js/rs-icons.js?release=20261118-redesign" defer></script>
+
+</body>
+</html>

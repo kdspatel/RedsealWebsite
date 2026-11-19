@@ -1,0 +1,9 @@
+const resendForm = document.getElementById("resendForm");
+    const sendButton = document.getElementById("sendButton");
+
+    if (resendForm && sendButton) {
+      resendForm.addEventListener("submit", () => {
+        sendButton.disabled = true;
+        sendButton.textContent = "Sending...";
+      });
+    }

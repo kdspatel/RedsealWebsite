@@ -1,0 +1,2696 @@
+const sheetMetalWorkerImportantInstallProductsQuestions = [
+  {
+    "id": 1,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A rectangular duct section is being raised into place with a material lift. Before the lift is lowered away, what must be confirmed?",
+    "options": [
+      "The duct is level only",
+      "The duct is fully supported and secured by approved supports",
+      "The duct joints are sealed with tape",
+      "The duct has been insulated"
+    ],
+    "answer": 1,
+    "explanation": "A load must not be released from lifting equipment until it is safely supported. Temporary or permanent supports must be capable of holding the duct before the lift is removed."
+  },
+  {
+    "id": 2,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct run is supported from threaded rod hangers, but several rods are noticeably angled. What is the main concern?",
+    "options": [
+      "Angled rods improve duct flexibility",
+      "The rods may create side loading and reduce support capacity",
+      "The duct will be easier to balance",
+      "The duct will leak less air"
+    ],
+    "answer": 1,
+    "explanation": "Hanger rods are intended to carry vertical loads. Angled rods can create side loading, stress anchors, distort ductwork, and reduce support reliability."
+  },
+  {
+    "id": 3,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "Which condition must be corrected before installing duct supports into a concrete slab?",
+    "options": [
+      "Anchor type has been approved",
+      "Embedment depth matches manufacturer requirements",
+      "The concrete base material is cracked or unsuitable for the anchor",
+      "Hanger spacing matches the drawing"
+    ],
+    "answer": 2,
+    "explanation": "Anchors must be installed into suitable base material. Cracked or weak concrete may not provide the required holding capacity and must be assessed before installation."
+  },
+  {
+    "id": 4,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct section sags between hangers after installation. What is the most likely cause?",
+    "options": [
+      "Hanger spacing is too far apart or supports are undersized",
+      "Duct sealant has not cured",
+      "The duct has too many access doors",
+      "The duct is too clean"
+    ],
+    "answer": 0,
+    "explanation": "Sagging usually indicates inadequate support, excessive hanger spacing, or undersized support components. Sagging can stress joints and create leakage."
+  },
+  {
+    "id": 5,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct is temporarily supported during installation. What is the most important requirement for the temporary support?",
+    "options": [
+      "It must be easy to remove quickly",
+      "It must be capable of safely supporting the load",
+      "It must be made from leftover sheet metal",
+      "It must be hidden above the ceiling"
+    ],
+    "answer": 1,
+    "explanation": "Temporary supports must safely carry the load until permanent supports are installed. Unsafe temporary supports can fail and cause serious injury or damage."
+  },
+  {
+    "id": 6,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct hanger is attached to an existing pipe support without approval. Why is this unacceptable?",
+    "options": [
+      "Pipe supports are always too flexible",
+      "The pipe support may not be designed for added duct load",
+      "Ductwork cannot be installed near piping",
+      "The duct will expand more quickly"
+    ],
+    "answer": 1,
+    "explanation": "Supports installed by other trades may not be rated for additional loads. Duct hangers must be attached to approved structure or engineered supports."
+  },
+  {
+    "id": 7,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A heavy duct fitting is being lifted and begins to rotate. What was most likely missed?",
+    "options": [
+      "Proper load balance and securement",
+      "Duct sealant application",
+      "Access door installation",
+      "Joint insulation"
+    ],
+    "answer": 0,
+    "explanation": "Loads must be balanced and controlled before lifting. If the load rotates, the lifting point, centre of gravity, or securement may be incorrect."
+  },
+  {
+    "id": 8,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "Which factor is most important when choosing a lifting device for duct installation?",
+    "options": [
+      "The device colour",
+      "Load weight, load size, lift height, and equipment capacity",
+      "Whether the duct is insulated later",
+      "Whether the duct has turning vanes"
+    ],
+    "answer": 1,
+    "explanation": "Lifting equipment must be rated and suitable for the load weight, dimensions, lift height, path, and working conditions."
+  },
+  {
+    "id": 9,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A duct section is being installed above a finished ceiling grid. Which issue must be controlled during lifting?",
+    "options": [
+      "Duct finish colour only",
+      "Damage to ceiling components, overhead conflicts, and safe load control",
+      "Whether the duct is shiny",
+      "The number of screws in the fitting"
+    ],
+    "answer": 1,
+    "explanation": "Overhead installation requires control of the load, protection of finished work, and awareness of conflicts with ceiling systems, lighting, sprinklers, and structure."
+  },
+  {
+    "id": 10,
+    "category": "G4. Install Specialty Components",
+    "question": "During installation, a duct run is found to conflict with an access panel location. What is the best action?",
+    "options": [
+      "Install the duct and block the access panel",
+      "Cut a hole in the duct for future access",
+      "Report and coordinate the conflict before continuing",
+      "Move the access panel without approval"
+    ],
+    "answer": 2,
+    "explanation": "Access panels are required for service, inspection, or code-related access. Conflicts should be reported and resolved through coordination before installation continues."
+  },
+  {
+    "id": 11,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Exterior wall panels are being installed over girts. The first panel is slightly out of plumb. What is the likely result?",
+    "options": [
+      "Only the first panel will be affected",
+      "The error can carry through the entire panel run",
+      "The panels will expand less",
+      "The wall will drain better"
+    ],
+    "answer": 1,
+    "explanation": "Panel installation depends on accurate starting layout. An out-of-plumb first panel can cause progressive misalignment through the whole wall area."
+  },
+  {
+    "id": 12,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal wall panel is fastened tightly through a slotted hole. What problem can occur?",
+    "options": [
+      "The panel may not be able to move thermally",
+      "The panel will drain better",
+      "The fastener will seal permanently",
+      "The panel will become thicker"
+    ],
+    "answer": 0,
+    "explanation": "Slotted holes allow thermal expansion and contraction. Over-tightening can restrict movement and cause buckling, oil-canning, or fastener stress."
+  },
+  {
+    "id": 13,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the main reason for leaving movement allowance in long flashing runs?",
+    "options": [
+      "To reduce the number of fasteners",
+      "To allow expansion and contraction without distortion",
+      "To make flashing easier to carry",
+      "To increase water retention"
+    ],
+    "answer": 1,
+    "explanation": "Sheet metal expands and contracts with temperature change. Without movement allowance, long runs may buckle, tear sealant, or damage fasteners."
+  },
+  {
+    "id": 14,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel side lap is not fully engaged before fastening. What is the most serious concern?",
+    "options": [
+      "The panel may be harder to paint",
+      "Water resistance and wind uplift performance may be reduced",
+      "The panel will be easier to remove",
+      "Thermal movement will improve"
+    ],
+    "answer": 1,
+    "explanation": "Roof panel side laps must be fully engaged to maintain weather resistance, alignment, and wind uplift performance."
+  },
+  {
+    "id": 15,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A fastener with a sealing washer is overdriven on a metal roof panel. What is the likely result?",
+    "options": [
+      "The washer may split or deform and leak",
+      "The roof slope increases",
+      "The panel becomes more flexible",
+      "The joint becomes permanently stronger"
+    ],
+    "answer": 0,
+    "explanation": "Sealing washers must be compressed correctly. Overdriving can damage the washer, deform the panel, and create a leak path."
+  },
+  {
+    "id": 16,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Flashing is installed with the lap facing against the direction of water flow. What is the likely result?",
+    "options": [
+      "Improved drainage",
+      "Water may be directed behind the flashing",
+      "Reduced need for end dams",
+      "Increased thermal movement"
+    ],
+    "answer": 1,
+    "explanation": "Flashing must be lapped in shingle fashion. Reverse laps can direct water into the assembly instead of shedding it outward."
+  },
+  {
+    "id": 17,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the purpose of a drip edge on exterior flashing?",
+    "options": [
+      "To increase sheet thickness",
+      "To break surface tension and direct water away",
+      "To replace counterflashing",
+      "To reduce thermal movement"
+    ],
+    "answer": 1,
+    "explanation": "A drip edge prevents water from tracking back under the flashing and helps water drop away from the building surface."
+  },
+  {
+    "id": 18,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A parapet cap is installed flat with no slope. What is the main concern?",
+    "options": [
+      "Water may pond on the cap and increase leak risk",
+      "The cap will expand less",
+      "The wall will become stronger",
+      "The cap will need fewer fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Parapet caps should shed water. Flat or reverse-sloped caps can hold water and increase the chance of leakage, staining, or deterioration."
+  },
+  {
+    "id": 19,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A parapet cap joint is open at the mitre and has no end dam. What can happen?",
+    "options": [
+      "Water can enter the wall assembly",
+      "The cap will resist movement better",
+      "The joint becomes easier to seal later",
+      "Fastener spacing becomes less important"
+    ],
+    "answer": 0,
+    "explanation": "Open mitres and missing end dams can allow water to enter behind the cap and into the wall or roof assembly."
+  },
+  {
+    "id": 20,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Counterflashing is installed but the top edge is left exposed to water. What is the likely problem?",
+    "options": [
+      "Water can get behind the flashing",
+      "Base flashing becomes unnecessary",
+      "Roof drainage improves",
+      "Expansion stops"
+    ],
+    "answer": 0,
+    "explanation": "Counterflashing protects the top edge of base flashing. If its upper edge is not properly terminated, water can enter behind it."
+  },
+  {
+    "id": 21,
+    "category": "G2. Install Roofing and Wall Components / G3. Prepare Substrate",
+    "question": "A metal panel system shows oil-canning after installation. Which condition is most likely responsible?",
+    "options": [
+      "Uneven substrate or restricted movement",
+      "Correct panel alignment",
+      "Proper fastener tension",
+      "Adequate expansion allowance"
+    ],
+    "answer": 0,
+    "explanation": "Oil-canning may result from uneven backing, trapped stress, over-fastening, restricted movement, or handling damage."
+  },
+  {
+    "id": 22,
+    "category": "G3. Prepare Substrate",
+    "question": "Before installing metal wall panels, which substrate condition must be corrected?",
+    "options": [
+      "Properly installed air barrier",
+      "Straight layout line",
+      "Misaligned girts or backing",
+      "Correct flashing membrane lap"
+    ],
+    "answer": 2,
+    "explanation": "Metal panels follow the plane of the substrate. Misaligned supports can cause distortion, poor appearance, and fastening problems."
+  },
+  {
+    "id": 23,
+    "category": "G3. Prepare Substrate / E3. Identify Building Envelope",
+    "question": "Why must an air/weather barrier be repaired before cladding is installed over it?",
+    "options": [
+      "Cladding depends on barrier continuity for water and air control",
+      "It increases the panel gauge",
+      "It eliminates the need for flashings",
+      "It prevents all thermal movement"
+    ],
+    "answer": 0,
+    "explanation": "Air and weather barriers are control layers. Tears, holes, or poor laps can allow water or air leakage after cladding conceals them."
+  },
+  {
+    "id": 24,
+    "category": "G3. Prepare Substrate",
+    "question": "A metal roof deck has loose or unsupported areas. What is the correct action before panel installation?",
+    "options": [
+      "Install panels and add more screws",
+      "Correct or report the substrate problem before proceeding",
+      "Use sealant to fill gaps",
+      "Reduce panel lap length"
+    ],
+    "answer": 1,
+    "explanation": "Metal roofing requires solid support. Loose or unsupported decking can cause poor fastening, leaks, and panel distortion."
+  },
+  {
+    "id": 25,
+    "category": "G3. Prepare Substrate",
+    "question": "Which condition is most likely to affect the finished appearance of wall panels?",
+    "options": [
+      "Misaligned support framing",
+      "Proper drainage cavity",
+      "Correct air barrier laps",
+      "Clean panel storage"
+    ],
+    "answer": 0,
+    "explanation": "Uneven or misaligned support framing can telegraph through metal panels, creating waviness or misalignment."
+  },
+  {
+    "id": 26,
+    "category": "G3. Prepare Substrate",
+    "question": "A substrate is wet and contaminated before exterior panel installation. Why is this a problem?",
+    "options": [
+      "It may trap moisture and cause corrosion or adhesion problems",
+      "It makes panels easier to align",
+      "It improves drainage",
+      "It reduces fastener stress"
+    ],
+    "answer": 0,
+    "explanation": "Wet or contaminated substrates can affect adhesion, corrosion resistance, drainage, sealing, and long-term performance."
+  },
+  {
+    "id": 27,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "Which condition must be maintained at the base of a drained wall cavity?",
+    "options": [
+      "Open drainage path",
+      "Continuous sealant blocking all weeps",
+      "Loose panel clips",
+      "Exposed insulation"
+    ],
+    "answer": 0,
+    "explanation": "Drained cavities need open paths so incidental water can exit. Blocking the cavity traps moisture behind the wall panels."
+  },
+  {
+    "id": 28,
+    "category": "G4. Install Specialty Components",
+    "question": "Why must balancing dampers remain accessible after installation?",
+    "options": [
+      "For airflow adjustment, inspection, and maintenance",
+      "To reduce sheet metal thickness",
+      "To make ductwork heavier",
+      "To hide controls permanently"
+    ],
+    "answer": 0,
+    "explanation": "Balancing dampers must be accessible so airflow can be adjusted, tested, and maintained after the duct system is installed."
+  },
+  {
+    "id": 29,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door is installed but later covered by insulation without marking or access. What is the issue?",
+    "options": [
+      "The access door cannot be used for service",
+      "The duct becomes stronger",
+      "The insulation becomes airtight automatically",
+      "The duct needs fewer hangers"
+    ],
+    "answer": 0,
+    "explanation": "Access doors must remain usable after insulation is installed. Access should be marked and insulation/vapour barrier continuity maintained."
+  },
+  {
+    "id": 30,
+    "category": "G4. Install Specialty Components / E7. Examine Specialty System Components/Accessories",
+    "question": "A fire damper is installed without accessible inspection access. What requirement has been missed?",
+    "options": [
+      "Service and code-required access",
+      "Panel alignment",
+      "Roof slope",
+      "Bend allowance"
+    ],
+    "answer": 0,
+    "explanation": "Fire dampers require access for inspection, testing, maintenance, and reset. Blocking access can violate code and service requirements."
+  },
+  {
+    "id": 31,
+    "category": "G4. Install Specialty Components",
+    "question": "A branch takeoff with a scoop is installed facing against airflow. What is the likely result?",
+    "options": [
+      "Reduced airflow and increased turbulence",
+      "Improved balancing",
+      "Reduced pressure loss",
+      "Stronger duct support"
+    ],
+    "answer": 0,
+    "explanation": "Directional takeoffs must face the correct airflow direction. Incorrect orientation can reduce airflow and increase turbulence."
+  },
+  {
+    "id": 32,
+    "category": "G4. Install Specialty Components / F1. Seams, Locks, Edges and Joints",
+    "question": "A duct joint is sealed before the mechanical connection is fully engaged. What is the concern?",
+    "options": [
+      "Sealant may hide poor fit-up and leakage may occur",
+      "Joint strength increases",
+      "Duct velocity improves",
+      "The duct needs fewer supports"
+    ],
+    "answer": 0,
+    "explanation": "Joints must be properly assembled before sealing. Sealant should not compensate for poor mechanical fit-up."
+  },
+  {
+    "id": 33,
+    "category": "G4. Install Specialty Components",
+    "question": "A cold supply duct has gaps in the insulation vapour barrier. What problem can occur?",
+    "options": [
+      "Condensation on or within insulation",
+      "Higher duct pressure",
+      "Reduced air leakage automatically",
+      "Increased hanger strength"
+    ],
+    "answer": 0,
+    "explanation": "Gaps in the vapour barrier allow humid air to reach cold surfaces, causing condensation and possible insulation damage."
+  },
+  {
+    "id": 34,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted humidifier is installed above a hard ceiling. Which item is most important?",
+    "options": [
+      "Access, support, drainage, sealing, and manufacturer requirements",
+      "Hidden appearance only",
+      "Reduced hanger spacing only",
+      "No service access"
+    ],
+    "answer": 0,
+    "explanation": "Duct-mounted accessories require proper access, support, sealing, drainage where needed, and installation according to manufacturer instructions."
+  },
+  {
+    "id": 35,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct fitting is forced into alignment using screws. What can result?",
+    "options": [
+      "Distortion, stress, leakage, and poor fit-up",
+      "Better airflow",
+      "Stronger joints",
+      "Reduced turbulence"
+    ],
+    "answer": 0,
+    "explanation": "Forcing misaligned ductwork can distort components, create gaps, stress joints, and cause leakage or vibration."
+  },
+  {
+    "id": 36,
+    "category": "G4. Install Specialty Components / C4. Measure and Sketch Shop Project Components",
+    "question": "Which final check is most important before closing a ceiling below ductwork?",
+    "options": [
+      "Supports, sealing, access, damper position, clearances, and insulation",
+      "Duct colour only",
+      "Number of unused screws",
+      "Whether tools are clean"
+    ],
+    "answer": 0,
+    "explanation": "Before concealment, ductwork must be checked for support, sealing, service access, clearances, insulation, and compliance with drawings."
+  },
+  {
+    "id": 37,
+    "category": "G2. Install Roofing and Wall Components / G3. Prepare Substrate",
+    "question": "Metal roof panels are delivered and stored directly on wet ground. What is the concern?",
+    "options": [
+      "Moisture staining, corrosion, or finish damage",
+      "Improved panel flexibility",
+      "Increased expansion allowance",
+      "Better fastening performance"
+    ],
+    "answer": 0,
+    "explanation": "Panels should be stored to avoid trapped moisture, staining, corrosion, and finish damage."
+  },
+  {
+    "id": 38,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel clip is omitted at a specified location. What is the concern?",
+    "options": [
+      "Reduced wind resistance and panel support",
+      "Improved movement",
+      "Increased drainage",
+      "Reduced corrosion risk"
+    ],
+    "answer": 0,
+    "explanation": "Clips and fasteners contribute to system support and wind resistance. Missing clips can reduce performance and cause movement or failure."
+  },
+  {
+    "id": 39,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the purpose of keeping fasteners aligned on exposed architectural panels?",
+    "options": [
+      "Appearance, load distribution, and specification compliance",
+      "Increased duct velocity",
+      "Reduced roof slope",
+      "Better solder flow"
+    ],
+    "answer": 0,
+    "explanation": "Exposed fastener alignment affects appearance, load distribution, weather resistance, and compliance with approved details."
+  },
+  {
+    "id": 40,
+    "category": "G4. Install Specialty Components / E6. Examine Specialty Products",
+    "question": "A louver is installed with the sill flashing sloped inward. What is the likely result?",
+    "options": [
+      "Water may drain into the wall or building",
+      "Airflow will stop completely",
+      "The louver will become stronger",
+      "The wall panel thickness increases"
+    ],
+    "answer": 0,
+    "explanation": "Louver sill flashing must drain water outward. Inward slope can direct water into the wall assembly or interior."
+  },
+  {
+    "id": 41,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access panel is installed on the wrong side of the duct, against a wall. What is the issue?",
+    "options": [
+      "The access panel is not serviceable",
+      "Airflow will automatically improve",
+      "The duct needs fewer hangers",
+      "The wall becomes fire-rated"
+    ],
+    "answer": 0,
+    "explanation": "Access panels must be installed where workers can open and use them for inspection, cleaning, and maintenance."
+  },
+  {
+    "id": 42,
+    "category": "G4. Install Specialty Components / E1. Identify Systems",
+    "question": "Which installation condition is most likely to cause duct noise?",
+    "options": [
+      "Damper nearly closed near an elbow",
+      "Properly supported duct",
+      "Smooth transition",
+      "Correct balancing access"
+    ],
+    "answer": 0,
+    "explanation": "Restricting airflow near turbulence-producing fittings can cause noise, vibration, and pressure loss."
+  },
+  {
+    "id": 43,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof flashing lap is shorter than specified. Why is this a concern?",
+    "options": [
+      "Wind-driven rain or capillary action may allow water entry",
+      "The metal becomes too stiff",
+      "The roof slope increases",
+      "Thermal expansion stops"
+    ],
+    "answer": 0,
+    "explanation": "Insufficient lap can allow water entry under wind, snow, ice, or capillary conditions."
+  },
+  {
+    "id": 44,
+    "category": "G2. Install Roofing and Wall Components / C5. Identify Metals and Properties",
+    "question": "A wall panel is scratched through the protective coating during installation. Why should it be addressed?",
+    "options": [
+      "Coating damage can affect appearance and corrosion resistance",
+      "Scratches increase panel thickness",
+      "Scratches improve drainage",
+      "Coating damage prevents expansion"
+    ],
+    "answer": 0,
+    "explanation": "Damaged coating may affect appearance and can expose metal to corrosion, especially in exterior or wet environments."
+  },
+  {
+    "id": 45,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A roof curb flashing has no back pan on the uphill side. What is the likely problem?",
+    "options": [
+      "Water may collect or enter behind the curb flashing",
+      "The roof will drain faster",
+      "Counterflashing becomes unnecessary",
+      "The curb height increases"
+    ],
+    "answer": 0,
+    "explanation": "A back pan helps direct water around the uphill side of a curb. Without it, water can pond or enter behind flashing."
+  },
+  {
+    "id": 46,
+    "category": "G2. Install Roofing and Wall Components / E3. Identify Building Envelope",
+    "question": "A wall penetration flashing is not tied into the air/weather barrier. What is the concern?",
+    "options": [
+      "The envelope control layers are not continuous",
+      "The metal becomes stronger",
+      "Fastener spacing improves",
+      "The wall dries faster"
+    ],
+    "answer": 0,
+    "explanation": "Penetrations must integrate with air, water, and vapour control layers as specified. Discontinuity creates leak risk."
+  },
+  {
+    "id": 47,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct branch connection is installed but not sealed around the collar. What can occur?",
+    "options": [
+      "Air leakage and reduced system performance",
+      "Increased fire rating",
+      "Better balancing",
+      "Reduced turbulence"
+    ],
+    "answer": 0,
+    "explanation": "Branch collars must be mechanically secured and sealed where required to reduce air leakage and maintain performance."
+  },
+  {
+    "id": 48,
+    "category": "G4. Install Specialty Components",
+    "question": "What is the most important reason to follow manufacturer instructions when installing specialty components?",
+    "options": [
+      "Tested performance and code/specification compliance may depend on installation method",
+      "Instructions are only for appearance",
+      "It allows random fastener spacing",
+      "It removes the need for access"
+    ],
+    "answer": 0,
+    "explanation": "Specialty components such as dampers, louvers, accessories, and panel systems may depend on approved installation methods for performance and compliance."
+  },
+  {
+    "id": 49,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel is started out of square to the eave. What is likely?",
+    "options": [
+      "Panel alignment errors will accumulate across the roof",
+      "The roof will drain better",
+      "The panels will expand less",
+      "Fasteners will seal better"
+    ],
+    "answer": 0,
+    "explanation": "The first panel sets the line for the rest of the installation. If it starts out of square, errors can accumulate."
+  },
+  {
+    "id": 50,
+    "category": "G4. Install Specialty Components",
+    "question": "Which condition best indicates a quality duct installation?",
+    "options": [
+      "Proper support, sealed joints, maintained access, correct alignment, and clearances",
+      "Duct installed as quickly as possible",
+      "Access panels hidden permanently",
+      "Hangers attached wherever convenient"
+    ],
+    "answer": 0,
+    "explanation": "Quality duct installation requires correct support, alignment, sealing, service access, clearances, and compliance with drawings and specifications."
+  },
+  {
+    "id": 51,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "Which defect most strongly indicates that a duct run has not been supported correctly?",
+    "options": [
+      "Clean transverse joints",
+      "Sagging between hangers",
+      "Proper access door location",
+      "Smooth branch takeoff"
+    ],
+    "answer": 1,
+    "explanation": "Sagging between hangers usually indicates excessive hanger spacing, undersized supports, weak anchors, or poor installation. Sagging can stress joints and cause leakage or vibration."
+  },
+  {
+    "id": 52,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct section is supported by hanger rods, but one anchor is installed too close to the edge of a concrete slab. What is the concern?",
+    "options": [
+      "The anchor may crack or spall the concrete and lose holding strength",
+      "The duct will become easier to balance",
+      "The duct will expand less",
+      "The hanger rod will become corrosion-proof"
+    ],
+    "answer": 0,
+    "explanation": "Anchors require proper edge distance, embedment, spacing, and base material condition. Installing too close to an edge can reduce capacity or damage the concrete."
+  },
+  {
+    "id": 53,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "Which installation condition creates the greatest immediate danger?",
+    "options": [
+      "A duct label facing the wall",
+      "A lifted duct section not yet secured by hangers",
+      "A sealed duct joint",
+      "A marked access door"
+    ],
+    "answer": 1,
+    "explanation": "A lifted duct section must be controlled and supported. If it is not secured, it can shift, fall, or injure workers."
+  },
+  {
+    "id": 54,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "What is the best reason to check the weight of a duct section before lifting?",
+    "options": [
+      "To choose the correct paint",
+      "To select lifting equipment and supports with enough capacity",
+      "To calculate duct velocity",
+      "To decide if sealant is needed"
+    ],
+    "answer": 1,
+    "explanation": "Lifting equipment, rigging, anchors, and temporary supports must be rated for the load. Guessing the weight can lead to overload or failure."
+  },
+  {
+    "id": 55,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "Which condition would require stopping and reassessing a duct lift?",
+    "options": [
+      "The path is clear",
+      "The load begins to swing or rotate unexpectedly",
+      "The lift is rated for the load",
+      "The duct is properly balanced"
+    ],
+    "answer": 1,
+    "explanation": "Unexpected movement means the load is not adequately controlled, balanced, or secured. The lift should be stopped and corrected before continuing."
+  },
+  {
+    "id": 56,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct hanger is fastened to a structural member, but the rod is carrying the duct at an angle. What should be checked?",
+    "options": [
+      "Whether the rod is creating side loading or stressing the anchor",
+      "Whether the duct is shiny",
+      "Whether the duct has a label",
+      "Whether the joint is painted"
+    ],
+    "answer": 0,
+    "explanation": "Hanger rods should generally carry vertical load. Angled rods can create side loads and reduce the reliability of the support system."
+  },
+  {
+    "id": 57,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which installation detail best prevents water from tracking back under flashing?",
+    "options": [
+      "Drip edge",
+      "Turning vane",
+      "Fire damper",
+      "Drive cleat"
+    ],
+    "answer": 0,
+    "explanation": "A drip edge breaks surface tension and directs water away from the underside of flashing or trim."
+  },
+  {
+    "id": 58,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal wall panel system is installed with no allowance for expansion at the ends. What is the most likely long-term result?",
+    "options": [
+      "Buckling or fastener stress",
+      "Better drainage",
+      "Reduced oil-canning risk",
+      "Improved panel alignment"
+    ],
+    "answer": 0,
+    "explanation": "Metal expands and contracts with temperature changes. Without movement allowance, panels can buckle, oil-can, or stress fasteners and joints."
+  },
+  {
+    "id": 59,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which flashing condition is most likely to create a hidden leak?",
+    "options": [
+      "Proper shingle lap",
+      "Top edge protected by counterflashing",
+      "Reverse lap behind cladding",
+      "Sloped sill flashing draining outward"
+    ],
+    "answer": 2,
+    "explanation": "A reverse lap can direct water into the assembly. Because it may be hidden behind cladding, it can cause concealed water damage."
+  },
+  {
+    "id": 60,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A roof panel fastener washer is flattened and split. What is the most likely cause?",
+    "options": [
+      "Under-driving",
+      "Over-driving",
+      "Correct installation",
+      "Correct washer compression"
+    ],
+    "answer": 1,
+    "explanation": "Over-driving can crush or split sealing washers, damaging the seal and creating a leak path."
+  },
+  {
+    "id": 61,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the main purpose of installing panels square to the starter line?",
+    "options": [
+      "To prevent alignment errors from accumulating",
+      "To reduce panel thickness",
+      "To remove the need for clips",
+      "To make sealant cure faster"
+    ],
+    "answer": 0,
+    "explanation": "The starter line controls the panel run. If the first panel is not square or level, the error can multiply across the installation."
+  },
+  {
+    "id": 62,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which condition most likely causes oil-canning after wall panel installation?",
+    "options": [
+      "Correct fastener tension",
+      "Flat substrate",
+      "Restricted thermal movement",
+      "Proper expansion gap"
+    ],
+    "answer": 2,
+    "explanation": "Oil-canning can be caused by trapped stress, over-fastening, uneven substrate, or restricted movement."
+  },
+  {
+    "id": 63,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A parapet cap slopes toward the roof instead of toward the exterior. What is the concern?",
+    "options": [
+      "Water may be directed into the roof assembly",
+      "The cap becomes stronger",
+      "Fastener spacing improves",
+      "Expansion movement increases safely"
+    ],
+    "answer": 0,
+    "explanation": "Parapet caps should be sloped and detailed to shed water as designed. Incorrect slope can direct water into vulnerable joints or assemblies."
+  },
+  {
+    "id": 64,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which installed condition is most likely to reduce wind resistance of a panel system?",
+    "options": [
+      "Correct clip spacing",
+      "Missing clips or incorrect fastener pattern",
+      "Proper substrate preparation",
+      "Correct panel engagement"
+    ],
+    "answer": 1,
+    "explanation": "Panel clips and fasteners are part of the system’s resistance to wind loads. Missing or misplaced fasteners can reduce holding capacity."
+  },
+  {
+    "id": 65,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the best correction when roof panels are not fully engaged at the side lap?",
+    "options": [
+      "Continue and seal over the lap",
+      "Remove or reset panels as required to achieve proper engagement",
+      "Add paint to the lap",
+      "Install fewer clips to allow movement"
+    ],
+    "answer": 1,
+    "explanation": "Roof panel laps must be properly engaged according to system requirements. Sealant alone should not be used to cover poor panel engagement."
+  },
+  {
+    "id": 66,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof curb flashing has a large uphill side with no cricket or back pan where specified. What is the concern?",
+    "options": [
+      "Water can pond or be forced behind the curb flashing",
+      "Airflow will increase",
+      "The curb becomes easier to insulate",
+      "The panel clips become stronger"
+    ],
+    "answer": 0,
+    "explanation": "Crickets and back pans help divert water around roof obstructions. Missing them can increase ponding and leak risk."
+  },
+  {
+    "id": 67,
+    "category": "G3. Prepare Substrate",
+    "question": "Which substrate condition is most likely to show through flat metal wall panels?",
+    "options": [
+      "Aligned girts",
+      "Smooth backing",
+      "Uneven support plane",
+      "Correct membrane lap"
+    ],
+    "answer": 2,
+    "explanation": "Flat architectural panels reflect substrate irregularities. Uneven supports can telegraph through panels and cause visible distortion."
+  },
+  {
+    "id": 68,
+    "category": "G3. Prepare Substrate",
+    "question": "Before wall cladding is installed, a weather barrier has several tears around clips. What is the best action?",
+    "options": [
+      "Cover it quickly with panels",
+      "Repair the tears according to project requirements before covering",
+      "Add extra panel screws only",
+      "Leave the tears to allow drying"
+    ],
+    "answer": 1,
+    "explanation": "Weather and air barriers must remain continuous. Damage should be repaired before it becomes hidden behind cladding."
+  },
+  {
+    "id": 69,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "Which condition at the base of a wall panel system can trap water?",
+    "options": [
+      "Open weep path",
+      "Proper flashing slope",
+      "Sealant blocking the drainage cavity",
+      "Correct starter trim"
+    ],
+    "answer": 2,
+    "explanation": "Drained wall systems need open drainage paths. Blocking weeps or cavities can trap water behind panels."
+  },
+  {
+    "id": 70,
+    "category": "G3. Prepare Substrate / C5. Identify Metals and Properties",
+    "question": "What should be verified before installing panels over wood blocking?",
+    "options": [
+      "Compatibility of fasteners and metal with the wood treatment",
+      "Only the colour of the blocking",
+      "Whether the blocking is hidden",
+      "Whether the panels are shiny"
+    ],
+    "answer": 0,
+    "explanation": "Some treated wood can corrode certain metals or fasteners. Compatibility or isolation may be required."
+  },
+  {
+    "id": 71,
+    "category": "G3. Prepare Substrate",
+    "question": "A roof deck is uneven before installation of metal roofing. What is the likely effect if panels are installed anyway?",
+    "options": [
+      "Panel distortion, poor fastening, or leak risk",
+      "Better drainage",
+      "Less thermal movement",
+      "Stronger side laps"
+    ],
+    "answer": 0,
+    "explanation": "Metal roofing requires a sound and even substrate. Uneven decking can distort panels and compromise fastening and weather resistance."
+  },
+  {
+    "id": 72,
+    "category": "G3. Prepare Substrate",
+    "question": "Which substrate condition is most important for exterior panel fastening?",
+    "options": [
+      "Approved support spacing and secure backing",
+      "Panel colour match",
+      "Weather forecast only",
+      "Number of workers available"
+    ],
+    "answer": 0,
+    "explanation": "Panel fastening depends on solid backing or supports at the correct spacing and locations. Poor backing can reduce holding strength."
+  },
+  {
+    "id": 73,
+    "category": "G4. Install Specialty Components",
+    "question": "A balancing damper handle is above a hard ceiling with no access panel. What is the problem?",
+    "options": [
+      "The damper cannot be adjusted or maintained",
+      "The duct becomes too heavy",
+      "The duct will automatically balance",
+      "The ceiling becomes fire-rated"
+    ],
+    "answer": 0,
+    "explanation": "Balancing dampers require access for adjustment and future service. Concealed inaccessible dampers cannot be properly balanced."
+  },
+  {
+    "id": 74,
+    "category": "G4. Install Specialty Components",
+    "question": "Which condition best shows a duct access door is properly installed?",
+    "options": [
+      "It can be opened and used after insulation and ceiling work",
+      "It is hidden behind permanent drywall",
+      "It is covered completely by insulation",
+      "It is installed on the side against a wall"
+    ],
+    "answer": 0,
+    "explanation": "Access doors must remain usable after other work is complete. Insulation and ceiling finishes must not block required access."
+  },
+  {
+    "id": 75,
+    "category": "G4. Install Specialty Components",
+    "question": "A fire damper sleeve is installed without following the manufacturer’s clearance requirements. What is the concern?",
+    "options": [
+      "Fire-rated assembly performance may be affected",
+      "Duct airflow always improves",
+      "The duct becomes easier to seal",
+      "Hanger spacing becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Fire damper assemblies must be installed according to tested listings, manufacturer instructions, and code requirements."
+  },
+  {
+    "id": 76,
+    "category": "G4. Install Specialty Components",
+    "question": "Which issue can occur when duct insulation vapour barrier is not continuous around an access door?",
+    "options": [
+      "Condensation and moisture damage",
+      "Increased fire rating",
+      "Improved airflow",
+      "Reduced duct leakage automatically"
+    ],
+    "answer": 0,
+    "explanation": "On cold ducts, vapour barrier continuity is needed to prevent humid air from reaching cold surfaces and condensing."
+  },
+  {
+    "id": 77,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted coil or humidifier is installed without proper drainage. What is the likely problem?",
+    "options": [
+      "Water accumulation or leakage",
+      "Lower duct velocity only",
+      "Improved humidity control",
+      "Stronger duct support"
+    ],
+    "answer": 0,
+    "explanation": "Components that produce or collect water need drainage as specified. Poor drainage can cause leaks, corrosion, or contamination."
+  },
+  {
+    "id": 78,
+    "category": "G4. Install Specialty Components",
+    "question": "Which installation error is most likely to reduce airflow into a branch duct?",
+    "options": [
+      "Directional takeoff installed opposite airflow",
+      "Properly sealed collar",
+      "Accessible damper handle",
+      "Smooth transition"
+    ],
+    "answer": 0,
+    "explanation": "Directional takeoffs must be oriented to capture airflow correctly. Reverse installation can reduce branch airflow and increase turbulence."
+  },
+  {
+    "id": 79,
+    "category": "G4. Install Specialty Components / E1. Identify Systems",
+    "question": "A duct fitting is installed with a sharp internal obstruction. What can it cause?",
+    "options": [
+      "Turbulence, noise, and pressure loss",
+      "Reduced resistance",
+      "Better balancing",
+      "Lower maintenance needs"
+    ],
+    "answer": 0,
+    "explanation": "Internal obstructions disturb airflow and can create noise, pressure loss, dust buildup, and poor performance."
+  },
+  {
+    "id": 80,
+    "category": "G4. Install Specialty Components",
+    "question": "Which condition should be corrected before duct insulation is installed?",
+    "options": [
+      "Unsealed joints where sealing is required",
+      "Properly supported duct",
+      "Accessible damper handles",
+      "Correct duct alignment"
+    ],
+    "answer": 0,
+    "explanation": "Duct joints should be inspected and sealed before insulation covers them. Concealed unsealed joints are harder to repair later."
+  },
+  {
+    "id": 81,
+    "category": "G4. Install Specialty Components / E6. Examine Specialty Products",
+    "question": "A louver is installed correctly for airflow but has no drainage path. What is the most likely failure?",
+    "options": [
+      "Water entering the wall or duct system",
+      "Excessive duct support",
+      "Increased solder flow",
+      "Reduced panel movement"
+    ],
+    "answer": 0,
+    "explanation": "Louvers can admit wind-driven rain. Water must be collected and directed outward through sill flashing or drainage details."
+  },
+  {
+    "id": 82,
+    "category": "G4. Install Specialty Components",
+    "question": "Which installed condition best supports future maintenance?",
+    "options": [
+      "Dampers, access doors, and serviceable components are visible or clearly marked",
+      "All access doors are hidden behind permanent finishes",
+      "Insulation permanently covers damper handles",
+      "Components are installed only where easiest to hide"
+    ],
+    "answer": 0,
+    "explanation": "Serviceable components must remain accessible and identifiable for balancing, inspection, cleaning, and maintenance."
+  },
+  {
+    "id": 83,
+    "category": "G4. Install Specialty Components / B6. Use Fasteners and Sealants",
+    "question": "A duct joint leaks after installation even though sealant was applied. What is the most likely installation issue?",
+    "options": [
+      "Poor mechanical fit-up or contaminated sealing surface",
+      "Too many hangers",
+      "Correct joint assembly",
+      "Proper sealant curing conditions"
+    ],
+    "answer": 0,
+    "explanation": "Sealant works only when applied to clean, compatible surfaces and properly fitted joints. Poor fit-up or contamination can cause leakage."
+  },
+  {
+    "id": 84,
+    "category": "G4. Install Specialty Components",
+    "question": "Which final inspection item is most important for a fire damper installation?",
+    "options": [
+      "Access, orientation, clearance, sleeve/firestopping, and manufacturer requirements",
+      "Panel colour",
+      "Duct label direction only",
+      "Number of unused screws"
+    ],
+    "answer": 0,
+    "explanation": "Fire dampers must meet manufacturer instructions and code requirements, including access, sleeve details, clearances, and proper installation."
+  },
+  {
+    "id": 85,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel finish is damaged during installation. What should be done?",
+    "options": [
+      "Report and repair or replace according to project requirements",
+      "Hide it with more fasteners",
+      "Leave it because only appearance is affected",
+      "Scrape the coating around it"
+    ],
+    "answer": 0,
+    "explanation": "Coating damage can affect appearance and corrosion resistance. It should be handled according to manufacturer or project requirements."
+  },
+  {
+    "id": 86,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "Which condition is most likely to cause a roof leak at a fastener?",
+    "options": [
+      "Fastener driven square with proper washer compression",
+      "Fastener installed at an angle",
+      "Correct fastener type",
+      "Proper panel lap"
+    ],
+    "answer": 1,
+    "explanation": "Angled fasteners can distort washers and leave gaps, creating water entry points."
+  },
+  {
+    "id": 87,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel is scratched during installation and bare metal is exposed. Why is this important?",
+    "options": [
+      "It may reduce corrosion resistance",
+      "It improves drainage",
+      "It increases panel thickness",
+      "It reduces expansion"
+    ],
+    "answer": 0,
+    "explanation": "Exposed bare metal can corrode, especially in exterior environments. Coating damage should be addressed as required."
+  },
+  {
+    "id": 88,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A scupper flashing is installed without proper slope. What can happen?",
+    "options": [
+      "Poor drainage and ponding",
+      "Better overflow protection",
+      "Increased roof slope",
+      "Reduced leak risk"
+    ],
+    "answer": 0,
+    "explanation": "Scuppers and their flashings must drain correctly. Poor slope can cause ponding and increase leak risk."
+  },
+  {
+    "id": 89,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel is cut too short at an expansion joint. What should be checked?",
+    "options": [
+      "Required coverage, movement allowance, and weatherproofing detail",
+      "Worker height",
+      "Duct velocity",
+      "Solder flux type"
+    ],
+    "answer": 0,
+    "explanation": "Expansion joints require correct coverage and movement allowance while maintaining weather protection. Incorrect length can expose the joint or restrict movement."
+  },
+  {
+    "id": 90,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which condition is most important before closing a wall panel installation?",
+    "options": [
+      "Flashing integration, drainage path, fasteners, alignment, and finish condition",
+      "Number of pencils used",
+      "Whether panels are difficult to remove",
+      "Tool storage location"
+    ],
+    "answer": 0,
+    "explanation": "Final panel checks should confirm water management, securement, appearance, movement allowance, and compliance with details."
+  },
+  {
+    "id": 91,
+    "category": "G4. Install Specialty Components / G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct run is aligned but vibrates when the fan starts. What should be checked?",
+    "options": [
+      "Support, bracing, flexible connectors, and vibration isolation",
+      "Panel colour",
+      "Roof slope",
+      "Flashing lap direction"
+    ],
+    "answer": 0,
+    "explanation": "Duct vibration can result from inadequate support, missing flexible connectors, poor bracing, or equipment vibration transfer."
+  },
+  {
+    "id": 92,
+    "category": "G4. Install Specialty Components / C3. Communicate with Others",
+    "question": "Which condition indicates poor installation sequence planning?",
+    "options": [
+      "A joint becomes inaccessible before it is sealed",
+      "Duct supports are installed first",
+      "Dampers remain accessible",
+      "Flashing laps are visible for inspection"
+    ],
+    "answer": 0,
+    "explanation": "Installation should be sequenced so joints can be fastened, sealed, inspected, insulated, and accessed before being concealed."
+  },
+  {
+    "id": 93,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct branch collar is loose after installation. What is the concern?",
+    "options": [
+      "Air leakage, vibration, and poor airflow control",
+      "Better balancing",
+      "Increased fire rating",
+      "Improved support strength"
+    ],
+    "answer": 0,
+    "explanation": "Branch collars must be mechanically secured and sealed where required. Loose collars can leak, rattle, or affect airflow."
+  },
+  {
+    "id": 94,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "What is the best sign that roof flashing is properly integrated?",
+    "options": [
+      "It directs water outward through correct laps, slope, terminations, and counterflashing",
+      "It is hidden completely",
+      "It uses the fewest fasteners possible",
+      "It has sealant smeared over all edges"
+    ],
+    "answer": 0,
+    "explanation": "Proper flashing integration manages water using slope, lap direction, termination details, counterflashing, and compatibility with adjacent materials."
+  },
+  {
+    "id": 95,
+    "category": "G2. Install Roofing and Wall Components / G3. Prepare Substrate",
+    "question": "A metal wall panel rattles during wind. Which item should be checked first?",
+    "options": [
+      "Clips, fasteners, engagement, and substrate securement",
+      "Duct air velocity",
+      "Soldering temperature",
+      "Fire damper access"
+    ],
+    "answer": 0,
+    "explanation": "Rattling can indicate loose clips, incomplete engagement, insufficient fastening, or substrate/support problems."
+  },
+  {
+    "id": 96,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct support anchor pulls loose during installation. What is the best next step?",
+    "options": [
+      "Stop and reassess anchor type, base material, load, and installation method",
+      "Install the same anchor beside the failed one without checking",
+      "Wrap wire around nearby pipe",
+      "Add sealant to the anchor hole"
+    ],
+    "answer": 0,
+    "explanation": "Anchor failure indicates a possible load, installation, base material, or anchor selection problem. The support method must be reassessed."
+  },
+  {
+    "id": 97,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "Which condition is most likely to cause water to enter behind counterflashing?",
+    "options": [
+      "Proper reglet installation",
+      "Unsealed or unsecured top termination",
+      "Correct overlap",
+      "Proper slope away from wall"
+    ],
+    "answer": 1,
+    "explanation": "Counterflashing must be properly terminated. An unsecured or open top edge can allow water to enter behind it."
+  },
+  {
+    "id": 98,
+    "category": "G2. Install Roofing and Wall Components / E3. Identify Building Envelope",
+    "question": "Which installation detail protects a wall assembly at the end of sill flashing?",
+    "options": [
+      "End dam",
+      "Turning vane",
+      "Drive cleat",
+      "Snap-lock seam"
+    ],
+    "answer": 0,
+    "explanation": "End dams prevent water from running off the ends of sill flashing into the wall assembly."
+  },
+  {
+    "id": 99,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door opens into a wall with only 25 mm clearance. What is the issue?",
+    "options": [
+      "Access is not usable for maintenance",
+      "Duct pressure increases",
+      "The door improves airflow",
+      "The duct requires fewer hangers"
+    ],
+    "answer": 0,
+    "explanation": "Access doors must have enough clearance to open and allow inspection or service. An inaccessible door does not meet the intent of access requirements."
+  },
+  {
+    "id": 100,
+    "category": "G4. Install Specialty Components",
+    "question": "Which installation issue is most likely to be found during commissioning or balancing?",
+    "options": [
+      "Inaccessible dampers or incorrect branch airflow",
+      "Panel colour mismatch only",
+      "Tool storage problem",
+      "Shop drawing title block error"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning and balancing often reveal airflow problems, inaccessible dampers, incorrect damper positions, or poorly oriented takeoffs."
+  },
+  {
+    "id": 101,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A crew is installing rectangular duct above a corridor ceiling. The first few sections are level, but after several joints the duct run is 35 mm lower than the drawing elevation. What is the best correction?",
+    "options": [
+      "Continue installation and adjust the ceiling height",
+      "Recheck hanger lengths, elevation marks, and support points before continuing",
+      "Force the next section upward with screws",
+      "Remove access doors to reduce duct weight"
+    ],
+    "answer": 1,
+    "explanation": "Small elevation errors can accumulate through a duct run. Hanger lengths, layout marks, support elevations, and installed sections should be checked before more duct is installed."
+  },
+  {
+    "id": 102,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct section is lifted into place, but the hanger rods do not line up with the duct support points. What should be done?",
+    "options": [
+      "Bend the rods until they fit",
+      "Drill random new holes in the duct",
+      "Verify support layout and correct the hanger location",
+      "Attach the duct to nearby ceiling grid wire"
+    ],
+    "answer": 2,
+    "explanation": "Misaligned supports can create side loading, stress, and poor alignment. Hanger locations should match the approved support layout and installation requirements."
+  },
+  {
+    "id": 103,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A large duct fitting is being moved through a congested mechanical room. The travel path has stored material and extension cords in the way. What should happen first?",
+    "options": [
+      "Carry the fitting quickly through the area",
+      "Clear the travel path before moving the fitting",
+      "Push the stored material aside with the fitting",
+      "Lift the fitting higher over the obstruction"
+    ],
+    "answer": 1,
+    "explanation": "Material handling requires a clear travel path. Obstacles increase the risk of trips, impact damage, loss of control, and injury."
+  },
+  {
+    "id": 104,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct support anchor is installed, but the installer notices dust remains in the drilled hole. What is the concern?",
+    "options": [
+      "Dust may reduce anchor holding strength",
+      "Dust improves embedment",
+      "Dust makes the duct quieter",
+      "Dust prevents corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Many anchors require clean holes for proper expansion or bonding. Dust left in the hole can reduce anchor performance."
+  },
+  {
+    "id": 105,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "During duct installation, a hanger is installed on only one side of a wide duct where two supports were specified. What is the likely result?",
+    "options": [
+      "The duct may twist, sag, or overload the single support",
+      "The duct will balance better",
+      "The joint will seal automatically",
+      "The duct will need less clearance"
+    ],
+    "answer": 0,
+    "explanation": "Wide or heavy ductwork often requires support on both sides or a specified support frame. Missing supports can cause distortion, sagging, and failure."
+  },
+  {
+    "id": 106,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel installation begins at one end of the building. After ten panels, the exposed panel ribs are no longer parallel to the roof edge. What was most likely missed?",
+    "options": [
+      "Starter panel squareness and layout control",
+      "Sealant cure time",
+      "Hanger spacing",
+      "Duct pressure class"
+    ],
+    "answer": 0,
+    "explanation": "Roof panel alignment depends on starting square and checking layout as the installation progresses. Small errors can accumulate across the roof."
+  },
+  {
+    "id": 107,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A metal roof fastener is installed straight, but the washer is barely touching the panel. What is the concern?",
+    "options": [
+      "The fastener may be underdriven and allow leakage",
+      "The panel will expand too much",
+      "The roof slope will increase",
+      "The lap will seal better"
+    ],
+    "answer": 0,
+    "explanation": "Sealing washers require proper compression. Underdriven fasteners may not create a watertight seal."
+  },
+  {
+    "id": 108,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel system uses clips designed to allow movement. A few clips are replaced with rigid fasteners through the panel face. What is the main risk?",
+    "options": [
+      "Restricted movement and panel distortion",
+      "Better thermal expansion",
+      "Improved drainage",
+      "Stronger air barrier continuity"
+    ],
+    "answer": 0,
+    "explanation": "Clip systems are designed to control panel movement and loads. Substituting rigid fasteners can restrict movement, cause distortion, and affect warranty or performance."
+  },
+  {
+    "id": 109,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A flashing installer notices that the lower piece overlaps over the upper piece at a wall transition. What is wrong?",
+    "options": [
+      "The lap is reversed and may direct water inward",
+      "The lap is stronger than required",
+      "The flashing will expand better",
+      "The joint needs fewer fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Flashing should be lapped in shingle fashion so water flows over the joint. Reverse laps can create leak paths."
+  },
+  {
+    "id": 110,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A parapet cap is fastened tightly at every joint with no allowance for movement. What problem may appear later?",
+    "options": [
+      "Buckling or joint failure from thermal expansion",
+      "Increased roof drainage",
+      "Reduced metal stress",
+      "Better coating adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Long sheet metal runs need movement allowance. Restricting expansion can cause buckling, oil-canning, torn sealant, or fastener stress."
+  },
+  {
+    "id": 111,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "A wall panel is installed over a substrate that is 12 mm out of plane. What is the likely visible result?",
+    "options": [
+      "Panel waviness or oil-canning",
+      "Improved panel drainage",
+      "Reduced fastener load",
+      "Better panel alignment"
+    ],
+    "answer": 0,
+    "explanation": "Metal panels reflect uneven substrates. Out-of-plane backing can cause waviness, misalignment, or oil-canning."
+  },
+  {
+    "id": 112,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A roof curb flashing is installed without integrating it with the roof membrane. What is the concern?",
+    "options": [
+      "Water can enter at the curb-to-roof interface",
+      "The curb will support more weight",
+      "The duct airflow will improve",
+      "The flashing will expand less"
+    ],
+    "answer": 0,
+    "explanation": "Roof curb flashing must integrate with the roof membrane or roofing system to maintain water control at the penetration."
+  },
+  {
+    "id": 113,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal wall panel is scratched during installation, exposing bare steel. The scratch is small and near the bottom of the wall. What should be done?",
+    "options": [
+      "Ignore it because it is small",
+      "Report and repair or replace according to project requirements",
+      "Cover it with dirt so it is not visible",
+      "Install fewer fasteners nearby"
+    ],
+    "answer": 1,
+    "explanation": "Exposed bare metal can corrode and affect appearance. Damage should be handled according to project, manufacturer, or quality-control requirements."
+  },
+  {
+    "id": 114,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "A drainage cavity behind metal cladding is accidentally blocked with sealant at the bottom. What is the likely result?",
+    "options": [
+      "Water may be trapped behind the cladding",
+      "Airflow through the duct will increase",
+      "The panel will resist wind better",
+      "The wall will need fewer flashings"
+    ],
+    "answer": 0,
+    "explanation": "A drained cavity must have an exit path. Blocking weeps or drainage paths can trap moisture and damage the wall assembly."
+  },
+  {
+    "id": 115,
+    "category": "G4. Install Specialty Components / G2. Install Roofing and Wall Components",
+    "question": "A sill flashing under a louver slopes inward. After rain, water is found inside the wall cavity. What is the most likely cause?",
+    "options": [
+      "Flashing slope directed water inward",
+      "The louver allowed too much air",
+      "The panel finish was too smooth",
+      "The duct was oversized"
+    ],
+    "answer": 0,
+    "explanation": "Sill flashing must direct water to the exterior. Inward slope can carry water into the wall assembly."
+  },
+  {
+    "id": 116,
+    "category": "G4. Install Specialty Components",
+    "question": "A balancing damper is installed above a drywall ceiling with no access panel. The system cannot be balanced properly. What was missed?",
+    "options": [
+      "Required access for adjustment",
+      "Duct perimeter calculation",
+      "Roof slope",
+      "Bend allowance"
+    ],
+    "answer": 0,
+    "explanation": "Balancing dampers must remain accessible for adjustment, testing, and future maintenance."
+  },
+  {
+    "id": 117,
+    "category": "G4. Install Specialty Components",
+    "question": "A fire damper is installed, but the access door is on the opposite side from available service space. What is the problem?",
+    "options": [
+      "Access is not usable for inspection and reset",
+      "The fire damper becomes more effective",
+      "Airflow increases automatically",
+      "The duct no longer needs sealing"
+    ],
+    "answer": 0,
+    "explanation": "Fire damper access must be located where it can be opened and used. Inaccessible access does not meet service or inspection needs."
+  },
+  {
+    "id": 118,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct branch collar is attached with screws but not sealed. During testing, leakage is found around the collar. What is the cause?",
+    "options": [
+      "Missing or incomplete sealing at the branch connection",
+      "Too many hanger rods",
+      "Proper mechanical attachment",
+      "Correct collar orientation"
+    ],
+    "answer": 0,
+    "explanation": "Branch collars must be sealed where required. Mechanical attachment alone does not guarantee air leakage control."
+  },
+  {
+    "id": 119,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted accessory includes a drain connection, but the drain is left unconnected. What is the likely result?",
+    "options": [
+      "Water leakage or accumulation",
+      "Better airflow",
+      "Increased fire rating",
+      "Reduced vibration"
+    ],
+    "answer": 0,
+    "explanation": "Accessories that create or collect moisture need drainage as specified. Failure to connect drains can cause leaks, corrosion, or contamination."
+  },
+  {
+    "id": 120,
+    "category": "G4. Install Specialty Components",
+    "question": "A cold duct is insulated, but the vapour barrier is cut open around hanger rods and left unsealed. What can happen?",
+    "options": [
+      "Condensation can form at the penetrations",
+      "Duct pressure will increase",
+      "Hanger rods become stronger",
+      "Air balancing becomes easier"
+    ],
+    "answer": 0,
+    "explanation": "Vapour barriers must be continuous on cold duct insulation. Open penetrations allow humid air to reach cold surfaces and condense."
+  },
+  {
+    "id": 121,
+    "category": "G4. Install Specialty Components / E1. Identify Systems",
+    "question": "A duct elbow has a damper installed immediately downstream, and the system is noisy at startup. What is the most likely issue?",
+    "options": [
+      "Turbulence and high velocity through a restriction",
+      "Too much insulation",
+      "Correct duct layout",
+      "Over-sized hanger rods"
+    ],
+    "answer": 0,
+    "explanation": "Dampers located too close to elbows or nearly closed dampers can create turbulence, noise, and pressure loss."
+  },
+  {
+    "id": 122,
+    "category": "G4. Install Specialty Components",
+    "question": "A branch duct takeoff is installed without checking airflow direction. The branch receives very little air. What should be inspected first?",
+    "options": [
+      "Takeoff orientation and damper position",
+      "Panel starter trim",
+      "Roof scupper slope",
+      "Solder joint fit-up"
+    ],
+    "answer": 0,
+    "explanation": "Directional takeoffs or scoops must face airflow correctly, and dampers must be positioned correctly for balancing."
+  },
+  {
+    "id": 123,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door is installed before insulation, but after insulation it is impossible to find. What should have been done?",
+    "options": [
+      "Access should have been marked and kept usable",
+      "Access should always be hidden",
+      "The insulation should permanently cover the door",
+      "The access door should be removed"
+    ],
+    "answer": 0,
+    "explanation": "Access doors must remain visible or marked and usable after insulation, ceilings, or finishes are installed."
+  },
+  {
+    "id": 124,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct run is sealed and insulated before inspection. Later, a joint behind insulation is found unfastened. What was wrong with the sequence?",
+    "options": [
+      "Inspection and mechanical completion should occur before concealment",
+      "Insulation should always be installed first",
+      "Fasteners are unnecessary after sealing",
+      "Duct joints cannot be inspected"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical fit-up, fastening, sealing, access, and inspection should be completed before insulation or finishes conceal the work."
+  },
+  {
+    "id": 125,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel installer notices that fastener spacing is wider than the approved detail. What is the concern?",
+    "options": [
+      "Wind resistance and weather performance may be reduced",
+      "Panel colour may fade faster",
+      "The roof slope will change",
+      "Expansion movement will stop completely"
+    ],
+    "answer": 0,
+    "explanation": "Fastener spacing affects wind uplift resistance, water control, panel movement, and compliance with the approved installation detail."
+  },
+  {
+    "id": 126,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "A wall panel clip is installed into backing that is not securely attached to structure. What is the risk?",
+    "options": [
+      "Panel support and wind resistance may be compromised",
+      "The wall will drain faster",
+      "The panel will expand less",
+      "The finish will become brighter"
+    ],
+    "answer": 0,
+    "explanation": "Panel clips depend on solid backing. Weak or loose backing can reduce holding strength and system performance."
+  },
+  {
+    "id": 127,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof flashing termination at masonry has no reglet, counterflashing, or approved seal. What is the concern?",
+    "options": [
+      "Water may enter behind the flashing",
+      "The flashing will expand better",
+      "The roof membrane becomes stronger",
+      "The wall becomes more level"
+    ],
+    "answer": 0,
+    "explanation": "Flashing terminations must be detailed to prevent water from entering behind them, often using reglets, counterflashing, or approved termination bars/details."
+  },
+  {
+    "id": 128,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "A panel system requires an open ventilation/drainage space, but insulation is packed tight behind the panels. What can happen?",
+    "options": [
+      "Drainage and drying performance may be reduced",
+      "Panel strength will increase",
+      "Water will drain faster",
+      "Fasteners become corrosion-proof"
+    ],
+    "answer": 0,
+    "explanation": "Rainscreen and ventilated cavities require open space for water drainage and drying. Blocking the space can trap moisture."
+  },
+  {
+    "id": 129,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A duct hanger rod is cut too short, and the duct is pulled upward to connect it. What can result?",
+    "options": [
+      "Distortion, stress, and alignment problems",
+      "Improved airflow",
+      "Less vibration",
+      "Better sealing"
+    ],
+    "answer": 0,
+    "explanation": "Pulling ductwork out of position to fit supports can distort the duct, stress joints, and create alignment or leakage problems."
+  },
+  {
+    "id": 130,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct run is installed through a rated wall, but the penetration is left open around the duct. What is the issue?",
+    "options": [
+      "Fire-resistance rating may not be maintained",
+      "Duct airflow will increase",
+      "The wall becomes easier to paint",
+      "Duct insulation is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Penetrations through rated assemblies must be protected with approved firestopping, sleeves, or dampers as required."
+  },
+  {
+    "id": 131,
+    "category": "G4. Install Specialty Components",
+    "question": "A fire damper is installed in the wrong orientation compared with the manufacturer label. What is the concern?",
+    "options": [
+      "It may not operate as tested or approved",
+      "It will always close faster",
+      "Airflow balancing improves",
+      "The duct requires fewer supports"
+    ],
+    "answer": 0,
+    "explanation": "Fire dampers must be installed in the correct orientation according to tested listings and manufacturer instructions."
+  },
+  {
+    "id": 132,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel is cut around a pipe penetration with a large uneven gap. What should be considered?",
+    "options": [
+      "Approved flashing/boot detail and weatherproofing requirements",
+      "Duct velocity",
+      "Soldering copper temperature",
+      "Scaffold colour"
+    ],
+    "answer": 0,
+    "explanation": "Roof penetrations must be weatherproofed using approved flashing or boot details. Large gaps can compromise water control and support."
+  },
+  {
+    "id": 133,
+    "category": "G2. Install Roofing and Wall Components / E3. Identify Building Envelope",
+    "question": "A wall flashing has no end dam at an opening. Water stains appear below the opening after rain. What is the likely cause?",
+    "options": [
+      "Water escaped sideways from the flashing into the wall",
+      "The wall panel was too thick",
+      "The duct hanger spacing was too close",
+      "The roof had too much slope"
+    ],
+    "answer": 0,
+    "explanation": "End dams prevent water from running off flashing ends and entering the wall cavity."
+  },
+  {
+    "id": 134,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal roof panel is installed with exposed cut edges facing uphill where water flows. What is the concern?",
+    "options": [
+      "Water may enter or accelerate edge deterioration",
+      "The roof will drain faster",
+      "The seam will be stronger",
+      "Panel movement will improve"
+    ],
+    "answer": 0,
+    "explanation": "Cut edges and laps should be oriented and protected according to the system detail. Poor orientation can increase water entry and corrosion risk."
+  },
+  {
+    "id": 135,
+    "category": "G4. Install Specialty Components / G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct system has vibration after startup even though supports are installed. What should be checked?",
+    "options": [
+      "Flexible connectors, bracing, fan connection, and support spacing",
+      "Panel colour",
+      "Roof slope",
+      "Flashing drip edge"
+    ],
+    "answer": 0,
+    "explanation": "Vibration can come from fan movement, missing flexible connectors, inadequate bracing, or support spacing problems."
+  },
+  {
+    "id": 136,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct section is attached to supports but has no allowance for building movement where required. What can occur?",
+    "options": [
+      "Stress, distortion, or joint failure",
+      "Improved duct alignment",
+      "Reduced support load",
+      "Better balancing"
+    ],
+    "answer": 0,
+    "explanation": "Where movement joints or building movement are expected, ductwork must be detailed to accommodate movement without stress or failure."
+  },
+  {
+    "id": 137,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G2. Install Roofing and Wall Components",
+    "question": "A rooftop duct support rests directly on the roof membrane without approved pads or supports. What is the concern?",
+    "options": [
+      "Roof membrane damage and leak risk",
+      "Higher duct velocity",
+      "Improved support capacity",
+      "Reduced corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Rooftop supports must protect the roof membrane and distribute loads as required. Direct contact can damage the membrane and cause leaks."
+  },
+  {
+    "id": 138,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door gasket is damaged before installation. What is the likely issue if it is installed anyway?",
+    "options": [
+      "Air leakage and poor seal at the access door",
+      "Improved access",
+      "Reduced duct pressure loss",
+      "Stronger door frame"
+    ],
+    "answer": 0,
+    "explanation": "Access door gaskets help seal the opening. Damaged gaskets may leak and reduce system performance."
+  },
+  {
+    "id": 139,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal wall panel system is installed without checking plumb at corners. What may happen?",
+    "options": [
+      "Corner trim and panels may misalign",
+      "Wall drainage will improve",
+      "Fastener load will decrease",
+      "Expansion allowance increases"
+    ],
+    "answer": 0,
+    "explanation": "Corners are visual and layout control points. Out-of-plumb corners can cause misaligned panels and trim."
+  },
+  {
+    "id": 140,
+    "category": "G4. Install Specialty Components / G2. Install Roofing and Wall Components",
+    "question": "A sheet metal rain hood is installed on an exterior wall, but its outlet drains toward the wall. What is the concern?",
+    "options": [
+      "Water can be directed back into the wall assembly",
+      "Airflow will stop completely",
+      "The hood becomes stronger",
+      "The fasteners become unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Exterior hoods must shed water away from the wall and integrate with flashing/weather barriers."
+  },
+  {
+    "id": 141,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct hanger is installed with an anchor that is not fully seated. What is the concern?",
+    "options": [
+      "Reduced support capacity or anchor failure",
+      "Improved duct alignment",
+      "Stronger support",
+      "Lower vibration"
+    ],
+    "answer": 0,
+    "explanation": "Anchors must be installed completely according to manufacturer instructions. Poorly seated anchors may not develop required holding strength."
+  },
+  {
+    "id": 142,
+    "category": "G4. Install Specialty Components / C3. Communicate with Others",
+    "question": "A duct section is installed above electrical equipment, reducing required service clearance. What is the best action?",
+    "options": [
+      "Coordinate and correct the conflict before proceeding",
+      "Leave it because ductwork was installed first",
+      "Add more sealant to the duct",
+      "Paint the duct warning colour"
+    ],
+    "answer": 0,
+    "explanation": "Electrical equipment requires service clearances. Duct installation must maintain required access and clearances through coordination."
+  },
+  {
+    "id": 143,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel end lap is installed facing uphill. What is the likely result?",
+    "options": [
+      "Water can be driven under the lap",
+      "Water will shed better",
+      "Fastener strength increases",
+      "Thermal movement stops"
+    ],
+    "answer": 0,
+    "explanation": "Laps must be oriented to shed water. An uphill-facing end lap can allow water entry, especially under wind-driven rain."
+  },
+  {
+    "id": 144,
+    "category": "G3. Prepare Substrate / E3. Identify Building Envelope",
+    "question": "A wall panel installation has correct panels and fasteners, but the air barrier behind it is discontinuous at penetrations. What is the issue?",
+    "options": [
+      "Building envelope performance may be compromised",
+      "Panel strength increases",
+      "Fastener spacing improves",
+      "Drainage cavity becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Panel systems depend on the full wall assembly. Discontinuous air barriers can cause air leakage, moisture problems, and energy loss."
+  },
+  {
+    "id": 145,
+    "category": "G4. Install Specialty Components / C3. Communicate with Others",
+    "question": "A duct joint is difficult to access after installation because adjacent piping was installed first. What should have happened?",
+    "options": [
+      "Installation sequence should have been coordinated",
+      "Duct should never be sealed",
+      "Piping should support the duct",
+      "Access is not needed after installation"
+    ],
+    "answer": 0,
+    "explanation": "Installation sequencing must allow access for fastening, sealing, inspection, insulation, and maintenance."
+  },
+  {
+    "id": 146,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel is installed with fasteners placed randomly instead of according to the approved layout. What is the concern?",
+    "options": [
+      "Appearance, wind resistance, and system performance may be affected",
+      "The panel becomes easier to clean",
+      "Drainage improves automatically",
+      "Expansion allowance increases"
+    ],
+    "answer": 0,
+    "explanation": "Fastener pattern affects appearance, panel support, wind resistance, movement, and specification compliance."
+  },
+  {
+    "id": 147,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct support is installed correctly, but the duct joint beside it is not aligned. What should be avoided?",
+    "options": [
+      "Forcing the joint together with screws",
+      "Rechecking alignment",
+      "Adjusting support elevation",
+      "Correcting the fit-up before sealing"
+    ],
+    "answer": 0,
+    "explanation": "Forcing misaligned joints can distort ductwork, cause leaks, and create stress. Alignment should be corrected before fastening and sealing."
+  },
+  {
+    "id": 148,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A roof flashing detail calls for compatible fasteners, but ordinary steel fasteners are used on aluminum flashing. What is the concern?",
+    "options": [
+      "Corrosion and premature failure",
+      "Improved holding strength",
+      "Better appearance over time",
+      "Reduced thermal movement"
+    ],
+    "answer": 0,
+    "explanation": "Incompatible metals in exterior moisture exposure can corrode. Fasteners must be compatible with sheet metal and environmental conditions."
+  },
+  {
+    "id": 149,
+    "category": "G4. Install Specialty Components",
+    "question": "A damper is installed correctly but not labelled or marked above a finished ceiling. What is the likely problem?",
+    "options": [
+      "It may be difficult to locate for balancing or maintenance",
+      "It will automatically balance the system",
+      "It will reduce duct leakage",
+      "It will increase fire rating"
+    ],
+    "answer": 0,
+    "explanation": "Dampers and access points should be identifiable so they can be found for balancing, inspection, and service."
+  },
+  {
+    "id": 150,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A final inspection of exterior metal panels shows proper alignment but blocked drainage at several locations. What should be done?",
+    "options": [
+      "Correct the drainage blockage before accepting the installation",
+      "Accept the work because panels are aligned",
+      "Add more fasteners only",
+      "Cover the blockage with sealant"
+    ],
+    "answer": 0,
+    "explanation": "Panel alignment alone is not enough. Exterior wall systems must manage water with proper drainage, flashings, movement allowance, and securement."
+  },
+  {
+    "id": 151,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct run is installed level, but several hangers are attached to light-gauge ceiling framing not designed for duct loads. What is the main problem?",
+    "options": [
+      "The duct may be unsupported by approved structure",
+      "The duct will be easier to balance",
+      "The duct joints will seal better",
+      "The duct will expand less"
+    ],
+    "answer": 0,
+    "explanation": "Duct supports must be attached to approved structure or engineered support systems. Light-gauge ceiling framing may not be rated for duct loads."
+  },
+  {
+    "id": 152,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G2. Install Roofing and Wall Components",
+    "question": "A rooftop duct support is placed directly on the roof membrane. Which detail should be checked?",
+    "options": [
+      "Approved support pad or curb detail to protect the membrane",
+      "Duct label position",
+      "Sealant colour",
+      "Number of access doors"
+    ],
+    "answer": 0,
+    "explanation": "Rooftop supports must distribute load and protect the roof membrane. Direct contact can damage the membrane and create leaks."
+  },
+  {
+    "id": 153,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A heavy duct fitting is lifted with one strap and tilts sharply. What should be corrected?",
+    "options": [
+      "Load balance and lifting points",
+      "Duct colour",
+      "Sealant cure time",
+      "Panel lap direction"
+    ],
+    "answer": 0,
+    "explanation": "Lifting points must control the centre of gravity and keep the load stable. Tilting indicates poor balance or improper securement."
+  },
+  {
+    "id": 154,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct support anchor is installed in hollow block without confirming its rating. What is the concern?",
+    "options": [
+      "The anchor may not be suitable for the base material or load",
+      "The duct becomes quieter",
+      "The anchor becomes corrosion-proof",
+      "The duct will require fewer hangers"
+    ],
+    "answer": 0,
+    "explanation": "Anchor selection depends on base material, load, embedment, spacing, and manufacturer requirements. Hollow block may require specific anchors or engineering approval."
+  },
+  {
+    "id": 155,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct section is being hoisted above workers in an active area. What control is most important?",
+    "options": [
+      "Keep people clear of the load path and drop zone",
+      "Ask workers to move only if the load swings",
+      "Lift faster to reduce exposure time",
+      "Use fewer supports to save time"
+    ],
+    "answer": 0,
+    "explanation": "Workers should not stand under suspended or lifted loads. The load path and drop zone must be controlled."
+  },
+  {
+    "id": 156,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A duct support is installed, but the hanger rod is rubbing against a sharp metal edge. What is the concern?",
+    "options": [
+      "Rod damage, vibration, or reduced support reliability",
+      "Improved duct alignment",
+      "Better duct sealing",
+      "Reduced expansion"
+    ],
+    "answer": 0,
+    "explanation": "Hanger rods should not rub against sharp edges. Contact can damage supports, transfer vibration, and reduce reliability."
+  },
+  {
+    "id": 157,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A parapet cap is installed with correct slope, but no drip edge on the exterior side. What is the likely issue?",
+    "options": [
+      "Water may track back onto the wall surface",
+      "The cap will expand less",
+      "The roof will drain faster",
+      "The fasteners become stronger"
+    ],
+    "answer": 0,
+    "explanation": "A drip edge helps water drop away from the wall. Without it, water can track back and stain or enter the assembly."
+  },
+  {
+    "id": 158,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel is cut around a penetration and the cut edge is left unsupported and exposed. What should be checked?",
+    "options": [
+      "Approved penetration flashing and support detail",
+      "Duct hanger spacing",
+      "Welding amperage",
+      "Damper handle position"
+    ],
+    "answer": 0,
+    "explanation": "Roof penetrations must be supported and flashed according to approved details so water cannot enter and panels are not weakened."
+  },
+  {
+    "id": 159,
+    "category": "G2. Install Roofing and Wall Components / G3. Prepare Substrate",
+    "question": "A wall panel clip is installed into backing that is not aligned with the panel layout. What can result?",
+    "options": [
+      "Panel distortion or incorrect engagement",
+      "Improved drainage",
+      "Better thermal movement",
+      "Stronger solder joints"
+    ],
+    "answer": 0,
+    "explanation": "Clips must align with the panel system and support layout. Misplaced clips can distort panels or prevent proper engagement."
+  },
+  {
+    "id": 160,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A metal roof panel end lap is installed without required sealant tape. What is the concern?",
+    "options": [
+      "Water may enter through the end lap",
+      "Panel thickness increases",
+      "Thermal movement improves",
+      "Fastener spacing becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Some roof panel end laps require sealant tape or gaskets. Omitting specified sealant can create leak paths."
+  },
+  {
+    "id": 161,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A long wall flashing is installed tight between two fixed walls. What is most likely during temperature change?",
+    "options": [
+      "Buckling or distortion",
+      "Improved drainage",
+      "Reduced expansion stress",
+      "Better sealant bonding"
+    ],
+    "answer": 0,
+    "explanation": "Metal expands with heat. If a long flashing run is trapped between fixed points, it may buckle or stress joints and fasteners."
+  },
+  {
+    "id": 162,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A roof curb flashing has correct fasteners but the uphill lap is open. What is the main risk?",
+    "options": [
+      "Water entry at the curb",
+      "Reduced duct velocity",
+      "Increased curb height",
+      "Better drainage"
+    ],
+    "answer": 0,
+    "explanation": "The uphill side of a curb is highly exposed to water. Open laps or poor flashing can allow water into the roof assembly."
+  },
+  {
+    "id": 163,
+    "category": "G2. Install Roofing and Wall Components / B6. Use Fasteners and Sealants",
+    "question": "A wall panel system has correct fastener spacing, but fasteners are driven at an angle. What can result?",
+    "options": [
+      "Poor washer seal, panel damage, or reduced holding strength",
+      "Increased corrosion resistance",
+      "Better movement allowance",
+      "Improved appearance"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners should be driven square to the surface. Angled fasteners can damage washers, distort panels, and reduce holding strength."
+  },
+  {
+    "id": 164,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A flashing termination relies only on surface sealant at the top edge, but the detail calls for counterflashing. What is the problem?",
+    "options": [
+      "The installation does not follow the specified water-control detail",
+      "The flashing becomes stronger",
+      "The wall drains faster",
+      "The metal expands less"
+    ],
+    "answer": 0,
+    "explanation": "Sealant alone may not replace a specified counterflashing or termination detail. The approved water-control system must be followed."
+  },
+  {
+    "id": 165,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall cladding installer notices the starter strip is level but not straight. What is the likely effect?",
+    "options": [
+      "Panel line may wander across the wall",
+      "Drainage cavity improves",
+      "Fasteners become corrosion-proof",
+      "Thermal expansion stops"
+    ],
+    "answer": 0,
+    "explanation": "The starter strip controls the first panel’s engagement and alignment. If it is not straight, the panel run may wander."
+  },
+  {
+    "id": 166,
+    "category": "G3. Prepare Substrate / E3. Identify Building Envelope",
+    "question": "A substrate has correct framing but the weather barrier is reverse-lapped at a horizontal joint. What should happen before cladding?",
+    "options": [
+      "Correct the lap so water drains outward",
+      "Install panels quickly before rain",
+      "Add more fasteners only",
+      "Ignore it because panels will cover it"
+    ],
+    "answer": 0,
+    "explanation": "Weather barrier laps must be installed in shingle fashion. Reverse laps can direct water into the wall assembly."
+  },
+  {
+    "id": 167,
+    "category": "G3. Prepare Substrate",
+    "question": "A panel system requires a ventilated cavity, but blocking fills the cavity at several horizontal locations. What is the concern?",
+    "options": [
+      "Drainage and drying are restricted",
+      "Panel colour changes",
+      "Fastener strength increases",
+      "Metal becomes thicker"
+    ],
+    "answer": 0,
+    "explanation": "Ventilated or drained cavities need continuous paths for air movement and water drainage. Blocking can trap moisture."
+  },
+  {
+    "id": 168,
+    "category": "G3. Prepare Substrate",
+    "question": "A wall panel is installed over backing that moves when pushed by hand. What is the concern?",
+    "options": [
+      "Fasteners may not hold properly and panels may loosen",
+      "The wall will drain better",
+      "Panel alignment improves",
+      "Expansion allowance increases"
+    ],
+    "answer": 0,
+    "explanation": "Backing must be secure and capable of holding fasteners. Loose backing can compromise panel attachment and wind resistance."
+  },
+  {
+    "id": 169,
+    "category": "G3. Prepare Substrate",
+    "question": "A metal roofing substrate is contaminated with loose debris. Why should it be cleaned first?",
+    "options": [
+      "Debris can affect panel seating, fastener seal, and finish",
+      "Debris increases wind resistance",
+      "Debris improves drainage",
+      "Debris reduces thermal movement"
+    ],
+    "answer": 0,
+    "explanation": "Debris under panels can dent panels, prevent proper seating, damage coating, and affect fastening or weather seals."
+  },
+  {
+    "id": 170,
+    "category": "G3. Prepare Substrate / G2. Install Roofing and Wall Components",
+    "question": "A weather barrier around a duct wall penetration is cut oversized and left unsealed. What is the issue?",
+    "options": [
+      "Air and water control layers are compromised",
+      "Duct airflow increases",
+      "Panel fastening improves",
+      "The penetration becomes self-flashing"
+    ],
+    "answer": 0,
+    "explanation": "Penetrations must be integrated with air and weather barriers. Oversized unsealed openings create leakage paths."
+  },
+  {
+    "id": 171,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door is installed, but nearby piping prevents the door from opening fully. What should be done?",
+    "options": [
+      "Coordinate correction so the access door is usable",
+      "Leave it because the door is present",
+      "Remove the door handle",
+      "Cover the access door with insulation"
+    ],
+    "answer": 0,
+    "explanation": "Access is not just the presence of a door; it must be usable. Conflicts should be corrected before the area is concealed."
+  },
+  {
+    "id": 172,
+    "category": "G4. Install Specialty Components",
+    "question": "A balancing damper is installed in a branch duct, but the handle is not visible after insulation. What should have been done?",
+    "options": [
+      "Marked or extended access while maintaining insulation integrity",
+      "Removed the damper handle",
+      "Covered the handle permanently",
+      "Installed no insulation near dampers"
+    ],
+    "answer": 0,
+    "explanation": "Damper handles must remain accessible or clearly identifiable after insulation, while the insulation and vapour barrier are properly sealed."
+  },
+  {
+    "id": 173,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted smoke damper has no service access. What is the main concern?",
+    "options": [
+      "It cannot be inspected, tested, or serviced properly",
+      "It will operate better",
+      "It reduces duct leakage",
+      "It increases duct support capacity"
+    ],
+    "answer": 0,
+    "explanation": "Smoke and fire/smoke dampers require access for inspection, testing, maintenance, and reset according to code and manufacturer requirements."
+  },
+  {
+    "id": 174,
+    "category": "G4. Install Specialty Components / C3. Communicate with Others",
+    "question": "A duct branch takeoff is installed tightly against a structural beam, making sealing impossible on one side. What was missed?",
+    "options": [
+      "Installation access and sequence planning",
+      "Duct colour selection",
+      "Roof slope calculation",
+      "Soldering flux selection"
+    ],
+    "answer": 0,
+    "explanation": "Ductwork must be installed so joints and takeoffs can be fastened, sealed, inspected, and maintained."
+  },
+  {
+    "id": 175,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct collar is installed with too few fasteners before sealing. What is the concern?",
+    "options": [
+      "Mechanical attachment may be weak even if sealed",
+      "Sealant will increase metal gauge",
+      "Airflow will improve",
+      "The collar becomes easier to balance"
+    ],
+    "answer": 0,
+    "explanation": "Sealant does not replace mechanical fastening. Collars must be secured according to requirements before sealing."
+  },
+  {
+    "id": 176,
+    "category": "G4. Install Specialty Components",
+    "question": "A cold duct insulation vapour barrier is continuous except at access-door edges. What should be done?",
+    "options": [
+      "Detail the vapour barrier around the access while keeping the door usable",
+      "Seal the access door shut",
+      "Remove the insulation from the duct",
+      "Ignore it because access doors do not matter"
+    ],
+    "answer": 0,
+    "explanation": "Vapour barrier continuity must be maintained without blocking required access. Poor detailing can cause condensation."
+  },
+  {
+    "id": 177,
+    "category": "G4. Install Specialty Components",
+    "question": "A fire-rated wall penetration is sealed with ordinary duct sealant. What is the concern?",
+    "options": [
+      "It may not be an approved firestopping system",
+      "It will always improve fire rating",
+      "It makes the duct stronger",
+      "It replaces the need for dampers"
+    ],
+    "answer": 0,
+    "explanation": "Rated penetrations require approved firestopping systems and details. Ordinary duct sealant may not maintain the fire-resistance rating."
+  },
+  {
+    "id": 178,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted humidifier is installed without following the required minimum downstream clearance. What can happen?",
+    "options": [
+      "Poor distribution, condensation, or component damage",
+      "Better airflow automatically",
+      "Reduced maintenance",
+      "Stronger duct seam"
+    ],
+    "answer": 0,
+    "explanation": "Manufacturer clearances help ensure proper mixing, drainage, access, and performance. Ignoring them can cause condensation or poor operation."
+  },
+  {
+    "id": 179,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct is installed through a wall with no sleeve where the detail requires one. What is the concern?",
+    "options": [
+      "Movement, firestopping, or wall penetration requirements may not be met",
+      "The duct becomes lighter",
+      "The wall drains better",
+      "Airflow improves"
+    ],
+    "answer": 0,
+    "explanation": "Sleeves may be required for movement, firestopping, protection, or code compliance. Omitting them can compromise the assembly."
+  },
+  {
+    "id": 180,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct run is completed, but turning vane access and damper access are not identified above the finished ceiling. What is the issue?",
+    "options": [
+      "Future balancing and maintenance may be difficult",
+      "Duct airflow will increase",
+      "The ceiling becomes stronger",
+      "Hanger spacing is reduced"
+    ],
+    "answer": 0,
+    "explanation": "Components requiring adjustment or inspection should be locatable after finishes are installed."
+  },
+  {
+    "id": 181,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal roof panel is walked on outside the approved walk path and becomes dented. What is the concern?",
+    "options": [
+      "Panel finish, appearance, and weather performance may be affected",
+      "Panel gauge increases",
+      "Drainage improves",
+      "Side lap engagement becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Walking on unsupported or non-approved areas can dent panels, damage coatings, distort seams, and affect weather resistance."
+  },
+  {
+    "id": 182,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel system has correct clips but the panels are forced into engagement with a hammer. What is the concern?",
+    "options": [
+      "Panel edges, finish, or locks may be damaged",
+      "The panels become stronger",
+      "Expansion allowance improves",
+      "Drainage cavity opens more"
+    ],
+    "answer": 0,
+    "explanation": "Panels should engage according to manufacturer methods. Forcing can damage locks, coatings, or alignment."
+  },
+  {
+    "id": 183,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof flashing is sealed heavily with sealant instead of using the specified lap and counterflashing detail. What is the concern?",
+    "options": [
+      "Sealant may not replace proper water-shedding design",
+      "The flashing becomes permanent and code-compliant",
+      "Water drainage improves automatically",
+      "Thermal movement stops safely"
+    ],
+    "answer": 0,
+    "explanation": "Sealant is not a substitute for proper laps, slope, termination, and counterflashing. Flashing should shed water mechanically."
+  },
+  {
+    "id": 184,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal panel fastener is placed too close to the panel edge. What can happen?",
+    "options": [
+      "Tear-out, reduced holding strength, or panel distortion",
+      "Better wind resistance",
+      "Improved expansion movement",
+      "Stronger coating"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners need proper edge distance. Too close to an edge may reduce strength and damage the panel."
+  },
+  {
+    "id": 185,
+    "category": "G2. Install Roofing and Wall Components / E5. Examine Roof Systems",
+    "question": "A roof scupper is installed, but the surrounding flashing creates a high spot. What is the likely issue?",
+    "options": [
+      "Water may pond instead of draining",
+      "Drainage improves",
+      "The scupper becomes larger",
+      "The roof slope increases"
+    ],
+    "answer": 0,
+    "explanation": "Scupper details must promote drainage. High spots or poor slope around scuppers can cause ponding and leaks."
+  },
+  {
+    "id": 186,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A duct support is installed after ductwork is already forced out of alignment. What is the best correction?",
+    "options": [
+      "Correct alignment and support layout instead of locking in stress",
+      "Add more sealant only",
+      "Leave the duct because it is already hanging",
+      "Cover the joint with insulation"
+    ],
+    "answer": 0,
+    "explanation": "Supports should hold ductwork in correct alignment, not lock in distortion or stress."
+  },
+  {
+    "id": 187,
+    "category": "G4. Install Specialty Components / E6. Examine Specialty Products",
+    "question": "A louver is installed with bird screen, but the screen is blocked by construction debris. What can happen?",
+    "options": [
+      "Reduced airflow and system performance",
+      "Improved filtration",
+      "Increased duct pressure rating",
+      "Better drainage"
+    ],
+    "answer": 0,
+    "explanation": "Screens must remain clear to allow design airflow. Blockage reduces performance and may create pressure issues."
+  },
+  {
+    "id": 188,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct branch is installed with a sharp-edged opening into the main duct. What can result?",
+    "options": [
+      "Turbulence, noise, and airflow disturbance",
+      "Better airflow capture",
+      "Reduced pressure loss",
+      "Stronger branch support"
+    ],
+    "answer": 0,
+    "explanation": "Poorly cut openings or sharp internal edges can disturb airflow, cause noise, and increase pressure loss."
+  },
+  {
+    "id": 189,
+    "category": "G3. Prepare Substrate / C5. Identify Metals and Properties",
+    "question": "A panel system requires isolation from pressure-treated wood, but panels are installed directly against it. What is the concern?",
+    "options": [
+      "Corrosion from chemical incompatibility",
+      "Improved fastening",
+      "Better drainage",
+      "Reduced expansion"
+    ],
+    "answer": 0,
+    "explanation": "Some treated wood chemicals can corrode metals and fasteners. Isolation or compatible materials may be required."
+  },
+  {
+    "id": 190,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof panel side lap has debris trapped inside before seaming. What is the concern?",
+    "options": [
+      "Poor seam engagement, finish damage, or leakage",
+      "Improved drainage",
+      "Stronger seam closure",
+      "Increased roof slope"
+    ],
+    "answer": 0,
+    "explanation": "Debris in laps can prevent full engagement, damage coatings, and create water paths. Laps should be clean before closure."
+  },
+  {
+    "id": 191,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct-mounted component is installed where it blocks removal of a filter downstream. What was missed?",
+    "options": [
+      "Service access and maintenance clearance",
+      "Duct perimeter",
+      "Roof flashing slope",
+      "Soldering temperature"
+    ],
+    "answer": 0,
+    "explanation": "Installation must maintain access for filters, dampers, coils, and other serviceable components."
+  },
+  {
+    "id": 192,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment",
+    "question": "A vertical duct support is carrying load on a connection not designed as a support point. What is the concern?",
+    "options": [
+      "Joint failure or duct distortion",
+      "Better load distribution",
+      "Increased airflow",
+      "Reduced vibration"
+    ],
+    "answer": 0,
+    "explanation": "Supports must be attached to designed support points or frames. Unsupported joints can fail or distort under load."
+  },
+  {
+    "id": 193,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall flashing detail has proper slope but no securement. What can happen?",
+    "options": [
+      "Wind displacement, movement, or leakage",
+      "Improved water resistance",
+      "Reduced thermal expansion",
+      "Stronger weather barrier"
+    ],
+    "answer": 0,
+    "explanation": "Flashings must be secured while allowing required movement. Poor securement can lead to displacement and water entry."
+  },
+  {
+    "id": 194,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A duct riser is installed without checking plumb. What can result?",
+    "options": [
+      "Connection misalignment and support stress",
+      "Better airflow automatically",
+      "Reduced hanger load",
+      "Easier firestopping"
+    ],
+    "answer": 0,
+    "explanation": "Duct risers must be aligned and supported properly. Out-of-plumb installation can create connection and support problems."
+  },
+  {
+    "id": 195,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A metal roof panel is cut with hot sparks landing on adjacent coated panels. What is the concern?",
+    "options": [
+      "Coating damage and corrosion risk",
+      "Improved panel finish",
+      "Reduced expansion",
+      "Better washer sealing"
+    ],
+    "answer": 0,
+    "explanation": "Hot metal particles can burn into coatings and cause rust staining or corrosion. Panels should be protected and cleaned as required."
+  },
+  {
+    "id": 196,
+    "category": "G4. Install Specialty Components",
+    "question": "A duct access door is installed in a high-pressure duct but is not rated for the pressure. What can happen?",
+    "options": [
+      "Leakage or door failure",
+      "Better sealing",
+      "Lower pressure loss",
+      "Increased fire rating"
+    ],
+    "answer": 0,
+    "explanation": "Access doors must be suitable for the duct pressure and service conditions. Incorrect doors can leak or fail."
+  },
+  {
+    "id": 197,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A wall panel clip spacing is changed to avoid a substrate problem without approval. What is the concern?",
+    "options": [
+      "System performance and wind resistance may be affected",
+      "Panel colour will change",
+      "Drainage will improve",
+      "Fasteners become corrosion-proof"
+    ],
+    "answer": 0,
+    "explanation": "Clip spacing is part of the approved system design. Changing it can affect wind load resistance and panel performance."
+  },
+  {
+    "id": 198,
+    "category": "G1. Use Hoisting, Lifting and Rigging Equipment / G4. Install Specialty Components",
+    "question": "A duct branch is installed before the main duct is fully supported. What is the risk?",
+    "options": [
+      "Added weight may distort or shift the main duct",
+      "Airflow improves automatically",
+      "The main duct needs fewer hangers",
+      "Sealant cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Installation sequence should ensure main duct support before adding branches or accessories that create additional load and stress."
+  },
+  {
+    "id": 199,
+    "category": "G2. Install Roofing and Wall Components",
+    "question": "A roof flashing repair covers an existing leak path but blocks the designed drainage route. What is the concern?",
+    "options": [
+      "Water may be trapped and cause another failure",
+      "The repair is always stronger",
+      "Roof slope increases",
+      "Fastener holding strength improves"
+    ],
+    "answer": 0,
+    "explanation": "Repairs must preserve drainage and water management. Blocking drainage can trap water and create new leak paths."
+  },
+  {
+    "id": 200,
+    "category": "G. Install Products",
+    "question": "Which condition best shows that an installed product is ready for inspection?",
+    "options": [
+      "Correct support, alignment, access, sealing, drainage, securement, and finish condition",
+      "Work is hidden quickly",
+      "Sealant covers all visible joints",
+      "Fasteners are installed wherever convenient"
+    ],
+    "answer": 0,
+    "explanation": "A complete installation should meet support, alignment, access, sealing, water control, movement, finish, and specification requirements before inspection."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerImportantInstallProductsQuestions =
+  shuffleArray(sheetMetalWorkerImportantInstallProductsQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "architectural-sheet-metal-worker",
+  tradeTitle: "Architectural Sheet Metal Worker",
+  sectionTitle: "G. Install Products",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerImportantInstallProductsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerImportantInstallProductsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

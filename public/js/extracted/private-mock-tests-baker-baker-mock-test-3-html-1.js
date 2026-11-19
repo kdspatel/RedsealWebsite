@@ -1,0 +1,2045 @@
+const redSealBakerMockTest3Questions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Performs safety- and hygiene-related functions",
+    "question": "A baker is carrying a rack of hot sheet pans through a busy area. What should they do?",
+    "options": [
+      "Move quickly so the pans cool faster",
+      "Call out clearly that hot items are moving",
+      "Carry the rack without warning others",
+      "Leave the rack in the walkway"
+    ],
+    "answer": 1,
+    "explanation": "Clear communication helps prevent burns and collisions. Hot equipment must be moved carefully and with awareness of others nearby."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Performs safety- and hygiene-related functions",
+    "question": "Which action is safest when using a chemical sanitizer?",
+    "options": [
+      "Mix it stronger than the label says",
+      "Use it without checking instructions",
+      "Follow label directions and required concentration",
+      "Store it beside flour bins"
+    ],
+    "answer": 2,
+    "explanation": "Sanitizers must be used at the correct strength to be safe and effective. Incorrect concentration can leave surfaces unsafe or contaminate food."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Performs safety- and hygiene-related functions",
+    "question": "A baker cuts their finger while slicing bread. What should they do first?",
+    "options": [
+      "Continue working slowly",
+      "Wash and cover the wound properly",
+      "Wipe it on a towel",
+      "Put on flour to stop bleeding"
+    ],
+    "answer": 1,
+    "explanation": "Cuts must be cleaned, covered, and protected before returning to food handling. This prevents blood or bacteria from contaminating products."
+  },
+  {
+    "id": 4,
+    "category": "Task 2 — Practices food safety procedures",
+    "question": "Raw eggs are stored above uncovered mousse cakes in a cooler. What is the problem?",
+    "options": [
+      "Eggs may warm the mousse",
+      "Eggs should be stored below ready-to-eat foods",
+      "Mousse cakes need more flour",
+      "Eggs prevent refrigeration"
+    ],
+    "answer": 1,
+    "explanation": "Raw eggs can leak or drip onto ready-to-eat foods. Food storage must prevent cross-contamination from raw ingredients."
+  },
+  {
+    "id": 5,
+    "category": "Task 2 — Practices food safety procedures",
+    "question": "Which practice helps control allergen cross-contact?",
+    "options": [
+      "Using the same scoop for all ingredients",
+      "Cleaning tools and surfaces between allergen and non-allergen products",
+      "Removing visible nuts only",
+      "Baking allergen products longer"
+    ],
+    "answer": 1,
+    "explanation": "Allergen proteins can remain on tools and surfaces. Cleaning and separation reduce the chance of transferring allergens."
+  },
+  {
+    "id": 6,
+    "category": "Task 2 — Practices food safety procedures",
+    "question": "A dairy-based filling is cooled in a deep container. What is the concern?",
+    "options": [
+      "It may cool too slowly",
+      "It will become sweeter",
+      "It will lose all structure",
+      "It will ferment like bread"
+    ],
+    "answer": 0,
+    "explanation": "Deep containers slow cooling and may keep food in the danger zone too long. Perishable fillings should be cooled quickly using safe procedures."
+  },
+  {
+    "id": 7,
+    "category": "Task 3 — Uses and maintains tools and equipment",
+    "question": "A mixer bowl is not locked into place before mixing. What could happen?",
+    "options": [
+      "The dough will proof faster",
+      "The bowl may move and create a hazard",
+      "The flour will become stronger",
+      "The yeast will stop working"
+    ],
+    "answer": 1,
+    "explanation": "Equipment must be assembled correctly before use. An unsecured bowl can move, spill ingredients, or cause injury."
+  },
+  {
+    "id": 8,
+    "category": "Task 3 — Uses and maintains tools and equipment",
+    "question": "Why should knives be stored properly when not in use?",
+    "options": [
+      "To keep them hidden from customers only",
+      "To prevent cuts and protect blade edges",
+      "To make them heavier",
+      "To increase dough strength"
+    ],
+    "answer": 1,
+    "explanation": "Loose knives are a cutting hazard. Proper storage also keeps blades sharp and safe to handle."
+  },
+  {
+    "id": 9,
+    "category": "Task 3 — Uses and maintains tools and equipment",
+    "question": "A convection oven fan is not working. What should the baker expect?",
+    "options": [
+      "More even baking",
+      "No effect on baking",
+      "Uneven heat circulation",
+      "Faster fermentation"
+    ],
+    "answer": 2,
+    "explanation": "Convection ovens rely on fans to move hot air. If the fan fails, products may bake unevenly."
+  },
+  {
+    "id": 10,
+    "category": "Task 4 — Organizes work",
+    "question": "A baker has bread dough fermenting and cookies ready to bake. What should they consider first?",
+    "options": [
+      "Which product needs immediate timing control",
+      "Which product looks nicer",
+      "Which tray is closest",
+      "Which customer arrived last"
+    ],
+    "answer": 0,
+    "explanation": "Fermented products depend heavily on timing and temperature. Organizing work around critical production stages prevents quality loss."
+  },
+  {
+    "id": 11,
+    "category": "Task 4 — Organizes work",
+    "question": "Why are ingredients scaled before mixing begins?",
+    "options": [
+      "To reduce the need for recipes",
+      "To check accuracy and improve workflow",
+      "To increase oven temperature",
+      "To make dough ferment instantly"
+    ],
+    "answer": 1,
+    "explanation": "Pre-scaling helps confirm formula accuracy before production. It also speeds up mixing and reduces mistakes."
+  },
+  {
+    "id": 12,
+    "category": "Task 4 — Organizes work",
+    "question": "A baker is preparing several formulas at once. What prevents ingredient mix-ups?",
+    "options": [
+      "Keeping all ingredients unlabeled",
+      "Using organized mise en place for each product",
+      "Mixing dry ingredients randomly",
+      "Leaving formulas in the office"
+    ],
+    "answer": 1,
+    "explanation": "Separate organized setups reduce confusion. Mise en place keeps ingredients, tools, and formulas clearly arranged."
+  },
+  {
+    "id": 13,
+    "category": "Task 4 — Organizes work",
+    "question": "Why should cooling space be planned before baking large batches?",
+    "options": [
+      "Hot products need space for airflow and safe handling",
+      "Cooling racks make bread rise more",
+      "Cooling space replaces packaging",
+      "Hot products should stay piled together"
+    ],
+    "answer": 0,
+    "explanation": "Products need proper airflow to cool evenly. Planning space prevents damage, condensation, and unsafe clutter."
+  },
+  {
+    "id": 14,
+    "category": "Task 5 — Manages products and information",
+    "question": "A baker receives cream with a damaged seal. What is the best action?",
+    "options": [
+      "Use it first",
+      "Reject or isolate it according to procedure",
+      "Mix it into pastry cream immediately",
+      "Freeze it without checking"
+    ],
+    "answer": 1,
+    "explanation": "Damaged seals can indicate contamination or poor handling. Receiving procedures protect product safety and quality."
+  },
+  {
+    "id": 15,
+    "category": "Task 5 — Manages products and information",
+    "question": "What information is most important on a prepared filling label?",
+    "options": [
+      "Baker’s favourite flavour",
+      "Date, product name, and storage information",
+      "Oven rack number only",
+      "Mixing bowl size"
+    ],
+    "answer": 1,
+    "explanation": "Labels help identify products and manage shelf life. They also support safe storage and proper rotation."
+  },
+  {
+    "id": 16,
+    "category": "Task 5 — Manages products and information",
+    "question": "A customer asks whether a cookie contains sesame. What should the baker use?",
+    "options": [
+      "Guess by looking at the cookie",
+      "Ingredient list or production record",
+      "Colour of the cookie",
+      "Baking time"
+    ],
+    "answer": 1,
+    "explanation": "Allergen questions must be answered from accurate records. Appearance is not reliable for identifying ingredients."
+  },
+  {
+    "id": 17,
+    "category": "Task 5 — Manages products and information",
+    "question": "Why is inventory counted regularly?",
+    "options": [
+      "To avoid ordering supplies",
+      "To know stock levels and reduce shortages",
+      "To increase dough hydration",
+      "To make products sweeter"
+    ],
+    "answer": 1,
+    "explanation": "Inventory counts help plan production and ordering. They also reduce waste, shortages, and expired stock."
+  },
+  {
+    "id": 18,
+    "category": "Task 6 — Performs routine work practices",
+    "question": "Why should flour dust be controlled in the bakery?",
+    "options": [
+      "It can create slipping and breathing hazards",
+      "It improves visibility",
+      "It increases oven spring",
+      "It makes dough safer"
+    ],
+    "answer": 0,
+    "explanation": "Excess flour on floors can cause slips. Airborne flour can also irritate breathing and create sanitation issues."
+  },
+  {
+    "id": 19,
+    "category": "Task 6 — Performs routine work practices",
+    "question": "A baker finishes using a bench. What should they do before starting a different product?",
+    "options": [
+      "Leave scraps for later",
+      "Clean and sanitize the area",
+      "Sprinkle more flour over it",
+      "Cover it with parchment only"
+    ],
+    "answer": 1,
+    "explanation": "Cleaning between products prevents contamination. It also supports allergen control and organized work."
+  },
+  {
+    "id": 20,
+    "category": "Task 6 — Performs routine work practices",
+    "question": "Why are routine quality checks done during production?",
+    "options": [
+      "To catch problems early",
+      "To slow production for no reason",
+      "To replace formulas",
+      "To avoid training"
+    ],
+    "answer": 0,
+    "explanation": "Checking dough feel, proofing, colour, and texture helps catch issues before they worsen. Early correction improves consistency."
+  },
+  {
+    "id": 21,
+    "category": "Task 7 — Adapts bakery practices to meet dietary requirements",
+    "question": "A customer requests an egg-free muffin. What should the baker consider?",
+    "options": [
+      "Egg’s function in binding, moisture, and structure",
+      "Only the muffin liner colour",
+      "Removing all liquids",
+      "Adding more salt only"
+    ],
+    "answer": 0,
+    "explanation": "Eggs affect texture, structure, and moisture. A suitable replacement must support the product’s quality."
+  },
+  {
+    "id": 22,
+    "category": "Task 7 — Adapts bakery practices to meet dietary requirements",
+    "question": "A low-sugar cake formula is being developed. What may need adjustment?",
+    "options": [
+      "Mixing bowl size only",
+      "Moisture, browning, and texture balance",
+      "Customer name spelling",
+      "Oven door handle"
+    ],
+    "answer": 1,
+    "explanation": "Sugar affects more than sweetness. Reducing it can change moisture, tenderness, browning, and shelf life."
+  },
+  {
+    "id": 23,
+    "category": "Task 7 — Adapts bakery practices to meet dietary requirements",
+    "question": "When making dairy-free buttercream, which ingredient should be avoided?",
+    "options": [
+      "Icing sugar",
+      "Plant shortening",
+      "Butter",
+      "Vanilla extract"
+    ],
+    "answer": 2,
+    "explanation": "Butter is dairy-based and unsuitable for dairy-free products. Substitutes must also be checked for hidden milk ingredients."
+  },
+  {
+    "id": 24,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A biga is usually different from a poolish because it is:",
+    "options": [
+      "Stiffer",
+      "Fully baked",
+      "Made only of sugar",
+      "Always dairy-based"
+    ],
+    "answer": 0,
+    "explanation": "Biga is generally a firmer pre-ferment than poolish. Its lower hydration affects flavour, strength, and fermentation rate."
+  },
+  {
+    "id": 25,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "Why is only a small amount of yeast used in many pre-ferments?",
+    "options": [
+      "To allow slow flavour development",
+      "To stop fermentation completely",
+      "To make the dough chemical-leavened",
+      "To remove gluten"
+    ],
+    "answer": 0,
+    "explanation": "Small yeast amounts support slower fermentation. Longer fermentation improves flavour and dough characteristics."
+  },
+  {
+    "id": 26,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A pre-ferment shows no bubbles after several hours. What should be checked?",
+    "options": [
+      "Colour of the bowl",
+      "Yeast activity and temperature",
+      "Packaging material",
+      "Oven rack height"
+    ],
+    "answer": 1,
+    "explanation": "No bubbles may mean inactive yeast or cold conditions. Fermentation needs viable yeast and suitable temperature."
+  },
+  {
+    "id": 27,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "What happens if a pre-ferment is used too early?",
+    "options": [
+      "It may not have developed enough flavour or gas",
+      "It becomes overbaked",
+      "It loses all flour",
+      "It turns into pastry cream"
+    ],
+    "answer": 0,
+    "explanation": "An immature pre-ferment has limited fermentation development. Using it too early may reduce flavour and dough performance."
+  },
+  {
+    "id": 28,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A starter is fed regularly to:",
+    "options": [
+      "Keep yeast and bacteria active",
+      "Add butter layers",
+      "Stop all acid production",
+      "Make chocolate shine"
+    ],
+    "answer": 0,
+    "explanation": "Regular feeding provides fresh food for natural microorganisms. This maintains starter strength and predictable fermentation."
+  },
+  {
+    "id": 29,
+    "category": "Task 9 — Prepares pre-ferment",
+    "question": "A sourdough starter has liquid on top but smells normal. What is this liquid often called?",
+    "options": [
+      "Hooch",
+      "Ganache",
+      "Egg wash",
+      "Fondant"
+    ],
+    "answer": 0,
+    "explanation": "Hooch can form when a starter is hungry or underfed. The starter may need feeding and assessment before use."
+  },
+  {
+    "id": 30,
+    "category": "Task 10 — Prepares dough",
+    "question": "A bread dough is mixed and comes out warmer than desired. What can happen?",
+    "options": [
+      "Fermentation may speed up",
+      "Fermentation stops forever",
+      "Dough becomes frozen",
+      "Gluten disappears instantly"
+    ],
+    "answer": 0,
+    "explanation": "Warm dough increases yeast activity. This can shorten fermentation time and cause over-proofing if not controlled."
+  },
+  {
+    "id": 31,
+    "category": "Task 10 — Prepares dough",
+    "question": "Which factor is included when calculating desired water temperature?",
+    "options": [
+      "Flour temperature",
+      "Cake icing colour",
+      "Display case height",
+      "Cash register total"
+    ],
+    "answer": 0,
+    "explanation": "Flour temperature affects final dough temperature. Water temperature is adjusted based on production variables."
+  },
+  {
+    "id": 32,
+    "category": "Task 10 — Prepares dough",
+    "question": "What is the main function of yeast in bread dough?",
+    "options": [
+      "Producing carbon dioxide through fermentation",
+      "Creating chocolate crystals",
+      "Thickening custard",
+      "Preventing gluten formation"
+    ],
+    "answer": 0,
+    "explanation": "Yeast ferments sugars and releases carbon dioxide. The gas expands dough and helps develop bread flavour."
+  },
+  {
+    "id": 33,
+    "category": "Task 10 — Prepares dough",
+    "question": "A baker adds salt directly on top of fresh yeast before mixing. What is the concern?",
+    "options": [
+      "Salt may slow or damage yeast activity in direct contact",
+      "Salt makes yeast stronger instantly",
+      "Salt turns yeast into flour",
+      "Salt creates steam layers"
+    ],
+    "answer": 0,
+    "explanation": "Salt controls yeast but direct heavy contact can reduce yeast activity. Ingredients should be distributed properly during mixing."
+  },
+  {
+    "id": 34,
+    "category": "Task 10 — Prepares dough",
+    "question": "Which dough is usually easier to handle?",
+    "options": [
+      "Very high-hydration dough",
+      "Lower-hydration dough",
+      "Dough with no flour",
+      "Dough with no salt and no structure"
+    ],
+    "answer": 1,
+    "explanation": "Lower-hydration dough is firmer and less sticky. High-hydration dough is softer and needs more careful handling."
+  },
+  {
+    "id": 35,
+    "category": "Task 10 — Prepares dough",
+    "question": "A formula uses 2000 g flour and 40 g salt. What is the salt percentage?",
+    "options": [
+      "1%",
+      "2%",
+      "4%",
+      "20%"
+    ],
+    "answer": 1,
+    "explanation": "Salt percentage is based on flour weight. 40 ÷ 2000 × 100 = 2%."
+  },
+  {
+    "id": 36,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough with 1500 g flour and 900 g water has what hydration?",
+    "options": [
+      "45%",
+      "60%",
+      "90%",
+      "150%"
+    ],
+    "answer": 1,
+    "explanation": "Hydration equals water divided by flour times 100. 900 ÷ 1500 × 100 = 60%."
+  },
+  {
+    "id": 37,
+    "category": "Task 10 — Prepares dough",
+    "question": "Why is dough sometimes mixed to a windowpane stage?",
+    "options": [
+      "To check gluten development",
+      "To test sugar colour",
+      "To measure oven steam",
+      "To see if chocolate is tempered"
+    ],
+    "answer": 0,
+    "explanation": "A windowpane test shows gluten strength and elasticity. Properly developed dough stretches thin without tearing quickly."
+  },
+  {
+    "id": 38,
+    "category": "Task 10 — Prepares dough",
+    "question": "A dough is overmixed. What may happen?",
+    "options": [
+      "Gluten may become damaged and dough weakens",
+      "Dough becomes perfect forever",
+      "Yeast disappears from the dough",
+      "Dough turns into cake batter"
+    ],
+    "answer": 0,
+    "explanation": "Too much mixing can overheat and weaken dough. Overmixed dough may become sticky, slack, and difficult to shape."
+  },
+  {
+    "id": 39,
+    "category": "Task 10 — Prepares dough",
+    "question": "Why is flour protein level important in bread?",
+    "options": [
+      "It affects gluten strength",
+      "It controls icing colour only",
+      "It prevents fermentation",
+      "It replaces water"
+    ],
+    "answer": 0,
+    "explanation": "Higher protein flour can form stronger gluten. Gluten strength affects volume, chew, and dough handling."
+  },
+  {
+    "id": 40,
+    "category": "Task 10 — Prepares dough",
+    "question": "What is the role of water in yeast dough?",
+    "options": [
+      "Hydrates flour and supports fermentation",
+      "Stops all yeast action",
+      "Turns flour into fat",
+      "Prevents gluten formation completely"
+    ],
+    "answer": 0,
+    "explanation": "Water hydrates proteins and starches. It allows gluten formation and supports yeast activity."
+  },
+  {
+    "id": 41,
+    "category": "Task 11 — Forms dough",
+    "question": "Why is dough pre-shaped before final shaping?",
+    "options": [
+      "To organize dough structure and build light tension",
+      "To fully bake the dough",
+      "To remove all gas",
+      "To add salt after mixing"
+    ],
+    "answer": 0,
+    "explanation": "Pre-shaping prepares the dough for final form. It helps create structure while allowing a rest before final shaping."
+  },
+  {
+    "id": 42,
+    "category": "Task 11 — Forms dough",
+    "question": "A round loaf spreads flat after shaping. What may be missing?",
+    "options": [
+      "Surface tension",
+      "Packaging label",
+      "Egg wash",
+      "Chocolate coating"
+    ],
+    "answer": 0,
+    "explanation": "Good shaping builds surface tension. Without tension, dough spreads instead of holding height."
+  },
+  {
+    "id": 43,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should shaped dough be placed seam-side down when appropriate?",
+    "options": [
+      "To help keep the shape closed",
+      "To make the dough sweeter",
+      "To stop proofing",
+      "To remove crust colour"
+    ],
+    "answer": 0,
+    "explanation": "Seam-side down helps hold the dough shape. Weak seams can open during proofing or baking."
+  },
+  {
+    "id": 44,
+    "category": "Task 11 — Forms dough",
+    "question": "A baguette is too tight after shaping and tears. What should be improved?",
+    "options": [
+      "Shaping pressure and dough relaxation",
+      "Adding more icing",
+      "Baking temperature only",
+      "Packaging timing"
+    ],
+    "answer": 0,
+    "explanation": "Too much pressure can tear dough and force out gas. Proper relaxation and gentle shaping improve structure."
+  },
+  {
+    "id": 45,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should dough pieces be covered during bench rest?",
+    "options": [
+      "To prevent skin from forming",
+      "To make them crusty before baking",
+      "To stop all fermentation",
+      "To freeze the dough"
+    ],
+    "answer": 0,
+    "explanation": "Uncovered dough dries on the surface. A dry skin can tear during shaping and affect finished appearance."
+  },
+  {
+    "id": 46,
+    "category": "Task 11 — Forms dough",
+    "question": "A baker rounds rolls unevenly. What problem can result?",
+    "options": [
+      "Inconsistent proofing and shape",
+      "Stronger oven spring always",
+      "Better display uniformity",
+      "No effect on finished product"
+    ],
+    "answer": 0,
+    "explanation": "Uneven rounding creates different tension and shapes. Rolls may proof and bake unevenly."
+  },
+  {
+    "id": 47,
+    "category": "Task 11 — Forms dough",
+    "question": "Why should excess flour be avoided during shaping?",
+    "options": [
+      "It can dry the dough and affect seams",
+      "It increases fermentation",
+      "It improves every crust",
+      "It replaces proofing"
+    ],
+    "answer": 0,
+    "explanation": "Too much bench flour changes surface texture and can prevent seams from sealing. It may also create dry streaks in the product."
+  },
+  {
+    "id": 48,
+    "category": "Task 11 — Forms dough",
+    "question": "A pan loaf is shaped loosely. What is likely?",
+    "options": [
+      "Poor loaf structure and uneven crumb",
+      "More even slices always",
+      "No proofing required",
+      "Better chocolate finish"
+    ],
+    "answer": 0,
+    "explanation": "Loose shaping may not create enough internal structure. A properly shaped loaf supports uniform crumb and height."
+  },
+  {
+    "id": 49,
+    "category": "Task 11 — Forms dough",
+    "question": "What is the purpose of moulding dough for a loaf pan?",
+    "options": [
+      "To fit the pan and create even structure",
+      "To remove all yeast",
+      "To add lamination",
+      "To make the dough into custard"
+    ],
+    "answer": 0,
+    "explanation": "Moulding shapes dough to fit the pan evenly. It also helps create uniform grain and volume."
+  },
+  {
+    "id": 50,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A butter block is uneven in thickness. What problem can occur?",
+    "options": [
+      "Uneven layers during lamination",
+      "Better puff and shape",
+      "No need for turns",
+      "Faster proofing only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven butter creates uneven fat distribution. This leads to inconsistent layers, rise, and texture."
+  },
+  {
+    "id": 51,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Why should laminated dough be turned 90 degrees between folds when required?",
+    "options": [
+      "To roll evenly and maintain shape",
+      "To stop steam from forming",
+      "To remove butter layers",
+      "To make dough sweeter"
+    ],
+    "answer": 0,
+    "explanation": "Turning helps control dough shape and layer distribution. It also reduces uneven stretching in one direction."
+  },
+  {
+    "id": 52,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "A laminated dough tears and butter shows through. What should the baker do?",
+    "options": [
+      "Rest and chill the dough before continuing",
+      "Roll harder immediately",
+      "Add hot water",
+      "Remove all butter"
+    ],
+    "answer": 0,
+    "explanation": "Tearing can mean the dough is tight or too warm. Resting and chilling protect the layers and make rolling easier."
+  },
+  {
+    "id": 53,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Which condition gives best lamination?",
+    "options": [
+      "Butter and dough with similar firmness",
+      "Butter completely melted",
+      "Dough frozen solid",
+      "Butter much harder than dough"
+    ],
+    "answer": 0,
+    "explanation": "Similar firmness allows butter to roll into even sheets. If butter is too soft or too hard, layers are damaged."
+  },
+  {
+    "id": 54,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "What creates flakiness in croissants?",
+    "options": [
+      "Dough and butter layers separated by steam",
+      "Sugar crystals only",
+      "Gelatin setting",
+      "Custard thickening"
+    ],
+    "answer": 0,
+    "explanation": "Layered fat and dough create separation. Steam expands between layers during baking to create flakiness."
+  },
+  {
+    "id": 55,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Why should laminated dough not be over-floured?",
+    "options": [
+      "Excess flour creates dry layers and poor bonding",
+      "More flour always improves lamination",
+      "Flour melts butter",
+      "Flour replaces yeast"
+    ],
+    "answer": 0,
+    "explanation": "Excess flour between folds can prevent layers from bonding properly. It may also create dry streaks in the baked product."
+  },
+  {
+    "id": 56,
+    "category": "Task 12 — Forms laminated dough",
+    "question": "Croissants are proofed until very fragile and then collapse. What is the likely cause?",
+    "options": [
+      "Over-proofing",
+      "Under-mixing only",
+      "Too much chocolate",
+      "Not enough tray spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Over-proofed laminated dough loses strength. It may collapse during handling or baking."
+  },
+  {
+    "id": 57,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf has a pale crust after full baking time. What should be checked?",
+    "options": [
+      "Oven temperature and bake time",
+      "Ingredient label font",
+      "Cooling rack height",
+      "Packaging colour"
+    ],
+    "answer": 0,
+    "explanation": "Pale crust can come from low oven temperature or short baking. Formula factors may also affect browning."
+  },
+  {
+    "id": 58,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "Why is egg wash applied to some fermented products?",
+    "options": [
+      "To improve colour and shine",
+      "To stop fermentation completely",
+      "To make dough raw",
+      "To remove gluten"
+    ],
+    "answer": 0,
+    "explanation": "Egg wash improves surface colour and shine during baking. It is often used for enriched or decorative breads."
+  },
+  {
+    "id": 59,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A bread crust softens after cooling. What may be the cause?",
+    "options": [
+      "Moisture trapped around the loaf",
+      "Too much scoring",
+      "Strong crust ventilation",
+      "Dry storage only"
+    ],
+    "answer": 0,
+    "explanation": "Trapped steam can soften crust. Bread should cool with airflow before packaging."
+  },
+  {
+    "id": 60,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "Why is internal temperature useful for checking doneness?",
+    "options": [
+      "It confirms the centre has baked sufficiently",
+      "It measures package weight",
+      "It replaces all visual checks",
+      "It measures gluten percentage"
+    ],
+    "answer": 0,
+    "explanation": "Internal temperature helps confirm the crumb has set. It is more reliable than colour alone for some products."
+  },
+  {
+    "id": 61,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A loaf cracks randomly despite scoring. What may be wrong?",
+    "options": [
+      "Scoring was too shallow or poorly placed",
+      "Bread was fully cooled",
+      "Packaging was correct",
+      "Dough had no gas"
+    ],
+    "answer": 0,
+    "explanation": "Scoring must be deep and positioned enough to guide expansion. Poor scoring can cause bursting in uncontrolled areas."
+  },
+  {
+    "id": 62,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "What is the purpose of cooling fermented goods before wrapping?",
+    "options": [
+      "To prevent condensation and quality loss",
+      "To make yeast react again",
+      "To increase dough temperature",
+      "To melt the crust"
+    ],
+    "answer": 0,
+    "explanation": "Hot products release steam. Wrapping too early traps moisture and can make crusts soggy."
+  },
+  {
+    "id": 63,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "A croissant has butter pooled on the tray after baking. What may have happened?",
+    "options": [
+      "Butter melted out during proofing or baking",
+      "Butter was perfectly layered",
+      "Croissant had no fat",
+      "Croissant was over-scored"
+    ],
+    "answer": 0,
+    "explanation": "Butter leakage often comes from warm proofing, poor lamination, or damaged layers. This reduces flakiness and texture quality."
+  },
+  {
+    "id": 64,
+    "category": "Task 13 — Finishes fermented goods",
+    "question": "Why should crusty bread not be sealed in plastic while warm?",
+    "options": [
+      "Steam softens the crust",
+      "Plastic makes it crispier",
+      "It increases oven spring",
+      "It improves scoring"
+    ],
+    "answer": 0,
+    "explanation": "Warm bread gives off moisture. Sealed plastic traps steam, softening crust and encouraging condensation."
+  },
+  {
+    "id": 65,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "A cookie dough is too soft to portion cleanly. What should the baker do?",
+    "options": [
+      "Add boiling water",
+      "Chill the dough briefly",
+      "Bake it in the mixing bowl",
+      "Add yeast"
+    ],
+    "answer": 1,
+    "explanation": "Chilling firms fat and makes soft dough easier to scoop. It can also help control spread during baking."
+  },
+  {
+    "id": 66,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "Cookies have burnt bottoms but pale tops. What should be checked?",
+    "options": [
+      "Pan type and oven rack position",
+      "Proofing temperature",
+      "Chocolate temper",
+      "Gelatin amount"
+    ],
+    "answer": 0,
+    "explanation": "Dark pans or low rack positions can brown bottoms quickly. Oven heat distribution affects cookie colour."
+  },
+  {
+    "id": 67,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "Why should inclusions like nuts be mixed evenly into cookie dough?",
+    "options": [
+      "To ensure consistent flavour and portioning",
+      "To stop baking",
+      "To remove spread",
+      "To create steam"
+    ],
+    "answer": 0,
+    "explanation": "Even mixing gives each cookie similar inclusions. This improves appearance, flavour, and customer consistency."
+  },
+  {
+    "id": 68,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "A bar cookie crumbles when cut. What may help?",
+    "options": [
+      "Cut it while very hot",
+      "Cool it fully before cutting",
+      "Add yeast after baking",
+      "Use no pan liner"
+    ],
+    "answer": 1,
+    "explanation": "Bars need time to set after baking. Cooling allows cleaner cuts and reduces breakage."
+  },
+  {
+    "id": 69,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "A cookie formula has too much flour. What is likely?",
+    "options": [
+      "Dry, thick cookies",
+      "Very thin cookies only",
+      "No browning at all",
+      "Custard texture"
+    ],
+    "answer": 0,
+    "explanation": "Excess flour absorbs moisture and stiffens dough. Cookies may bake dry, thick, or crumbly."
+  },
+  {
+    "id": 70,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "Why are sheet pans lined with parchment for cookies?",
+    "options": [
+      "To help release and reduce sticking",
+      "To make cookies ferment",
+      "To stop heat transfer completely",
+      "To remove sugar"
+    ],
+    "answer": 0,
+    "explanation": "Parchment helps cookies release cleanly. It also protects product shape during removal."
+  },
+  {
+    "id": 71,
+    "category": "Task 14 — Prepares cookies and bars",
+    "question": "A cookie tastes greasy. What could be the cause?",
+    "options": [
+      "Too much fat or underbaking",
+      "Too little fat always",
+      "Too much proofing",
+      "Too much scoring"
+    ],
+    "answer": 0,
+    "explanation": "Excess fat can create greasy mouthfeel. Underbaking may leave the cookie insufficiently set."
+  },
+  {
+    "id": 72,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "A muffin has a peaked top and tunnels. What likely happened?",
+    "options": [
+      "Batter was overmixed",
+      "Batter was under-portioned only",
+      "Batter was baked after cooling",
+      "Batter had no leavener"
+    ],
+    "answer": 0,
+    "explanation": "Overmixing develops gluten and traps gas unevenly. This can create tunnels and peaked tops."
+  },
+  {
+    "id": 73,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "Why is the muffin method mixed only until combined?",
+    "options": [
+      "To limit gluten development",
+      "To create strong elasticity",
+      "To make dough laminated",
+      "To remove all moisture"
+    ],
+    "answer": 0,
+    "explanation": "Quick breads should be tender. Too much mixing creates toughness and uneven crumb."
+  },
+  {
+    "id": 74,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "A biscuit has poor flakiness. What may be the cause?",
+    "options": [
+      "Fat was fully blended or melted",
+      "Fat was kept cold in pieces",
+      "Dough was handled lightly",
+      "Oven was properly preheated"
+    ],
+    "answer": 0,
+    "explanation": "Cold fat pieces create layers in biscuits. If fat is melted or fully blended, flakiness decreases."
+  },
+  {
+    "id": 75,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "A quick bread has a bitter or soapy taste. What is a likely cause?",
+    "options": [
+      "Too much baking soda or powder",
+      "Too little pan grease",
+      "Proper formula balance",
+      "Correct baking temperature"
+    ],
+    "answer": 0,
+    "explanation": "Excess chemical leavener can leave bitter or soapy flavours. Accurate scaling is important for taste and rise."
+  },
+  {
+    "id": 76,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "Why should quick bread pans be filled evenly?",
+    "options": [
+      "To ensure equal baking and portion size",
+      "To increase yeast fermentation",
+      "To remove chemical leavening",
+      "To prevent all browning"
+    ],
+    "answer": 0,
+    "explanation": "Even pan filling helps products bake at the same rate. It also creates consistent finished sizes."
+  },
+  {
+    "id": 77,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "A scone is tough and dense. What may have caused it?",
+    "options": [
+      "Overmixing and heavy handling",
+      "Proper light mixing",
+      "Correct fat temperature",
+      "Gentle shaping"
+    ],
+    "answer": 0,
+    "explanation": "Scones need limited gluten development. Heavy mixing and handling make them tough."
+  },
+  {
+    "id": 78,
+    "category": "Task 15 — Prepares quick breads",
+    "question": "A loaf-style quick bread sinks after baking. What may be the cause?",
+    "options": [
+      "Underbaking or too much leavener",
+      "Proper baking",
+      "Correct formula only",
+      "Enough cooling time"
+    ],
+    "answer": 0,
+    "explanation": "A weak centre can collapse if underbaked. Too much leavener can over-expand and then sink."
+  },
+  {
+    "id": 79,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "A pie dough is mixed until smooth and elastic. What is likely?",
+    "options": [
+      "It will be tender and flaky",
+      "It may become tough",
+      "It will not bake",
+      "It becomes choux paste"
+    ],
+    "answer": 1,
+    "explanation": "Smooth elastic pastry dough usually means too much gluten development. Pie dough should be mixed only enough to come together."
+  },
+  {
+    "id": 80,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "What type of pie dough is often better for bottom crusts with wet fillings?",
+    "options": [
+      "Mealy dough",
+      "Croissant dough",
+      "Sponge batter",
+      "Meringue"
+    ],
+    "answer": 0,
+    "explanation": "Mealy dough has fat mixed more finely into flour. This helps resist moisture better than very flaky dough."
+  },
+  {
+    "id": 81,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "A tart shell sides fall during blind baking. What may help?",
+    "options": [
+      "Resting, chilling, and using weights",
+      "Stretching dough into the pan",
+      "Adding yeast",
+      "Using hot filling"
+    ],
+    "answer": 0,
+    "explanation": "Resting reduces gluten tension and chilling firms fat. Weights support the shell during baking."
+  },
+  {
+    "id": 82,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "Why are vents cut in a double-crust pie?",
+    "options": [
+      "To allow steam to escape",
+      "To stop all browning",
+      "To add yeast",
+      "To remove filling flavour"
+    ],
+    "answer": 0,
+    "explanation": "Vents release steam from the filling. They help prevent bursting and soggy crust."
+  },
+  {
+    "id": 83,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "A fruit filling tastes starchy after baking. What likely happened?",
+    "options": [
+      "Thickener was not cooked fully",
+      "Filling had no fruit",
+      "Crust was too flaky",
+      "Pie was cooled correctly"
+    ],
+    "answer": 0,
+    "explanation": "Starch needs enough heat to thicken and cook out. Undercooked starch can taste raw or pasty."
+  },
+  {
+    "id": 84,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "Why should pie dough not be stretched into the pan?",
+    "options": [
+      "It may shrink during baking",
+      "It prevents gluten relaxation",
+      "It makes the crust sweeter",
+      "It increases filling thickness"
+    ],
+    "answer": 0,
+    "explanation": "Stretched dough pulls back in the oven. The dough should be gently fitted into the pan."
+  },
+  {
+    "id": 85,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "A baked tart shell is pale and soft on the bottom. What may be wrong?",
+    "options": [
+      "It was underbaked",
+      "It was cooled on a rack",
+      "It had proper colour",
+      "It was filled correctly"
+    ],
+    "answer": 0,
+    "explanation": "An underbaked shell lacks structure and crispness. Proper blind baking helps create a firm bottom."
+  },
+  {
+    "id": 86,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "Which ingredient temperature is most important for flaky pie dough?",
+    "options": [
+      "Cold fat",
+      "Hot eggs",
+      "Warm sugar",
+      "Boiling water"
+    ],
+    "answer": 0,
+    "explanation": "Cold fat remains in pieces and creates flakiness. Warm fat blends in and reduces layers."
+  },
+  {
+    "id": 87,
+    "category": "Task 16 — Prepares pastry doughs",
+    "question": "A tart shell cracks while unmoulding. What should be improved?",
+    "options": [
+      "Cooling and careful handling",
+      "More yeast",
+      "Hot unmoulding immediately",
+      "More stretching before baking"
+    ],
+    "answer": 0,
+    "explanation": "Tart shells are fragile when hot. Cooling and gentle support reduce cracking."
+  },
+  {
+    "id": 88,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A baker uses cold butter in the creaming method. What is the issue?",
+    "options": [
+      "It may not aerate properly",
+      "It will trap maximum air",
+      "It will melt instantly",
+      "It will replace sugar"
+    ],
+    "answer": 0,
+    "explanation": "Creaming requires workable fat. Cold butter is too firm to hold air efficiently."
+  },
+  {
+    "id": 89,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A cake batter curdles after adding cold liquid. What is likely?",
+    "options": [
+      "Emulsion broke due to temperature difference",
+      "Cake is fully baked",
+      "Flour has gelatinized",
+      "Sugar has caramelized"
+    ],
+    "answer": 0,
+    "explanation": "Cold liquid can cause fat and liquid to separate. Room-temperature ingredients and gradual addition help maintain emulsion."
+  },
+  {
+    "id": 90,
+    "category": "Task 17 — Prepares cakes",
+    "question": "Why should cake batter be scaled evenly into pans?",
+    "options": [
+      "To create equal layers and even baking",
+      "To make cakes ferment",
+      "To prevent all rising",
+      "To remove need for cooling"
+    ],
+    "answer": 0,
+    "explanation": "Equal batter weights help layers bake consistently. This also improves assembly and presentation."
+  },
+  {
+    "id": 91,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A cake has a gummy centre. What is the likely cause?",
+    "options": [
+      "Underbaking",
+      "Correct cooling",
+      "Proper pan size",
+      "Good structure"
+    ],
+    "answer": 0,
+    "explanation": "A gummy centre means the structure has not fully set. Testing doneness near the centre helps prevent this."
+  },
+  {
+    "id": 92,
+    "category": "Task 17 — Prepares cakes",
+    "question": "What is the purpose of eggs in many cake formulas?",
+    "options": [
+      "Structure, moisture, colour, and emulsification",
+      "Only saltiness",
+      "Only freezing",
+      "Preventing all browning"
+    ],
+    "answer": 0,
+    "explanation": "Eggs contribute protein structure and liquid. They also help emulsify fat and water-based ingredients."
+  },
+  {
+    "id": 93,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A sponge cake deflates after flour is added. What likely happened?",
+    "options": [
+      "Flour was folded too roughly",
+      "Eggs were whipped correctly only",
+      "Pan was prepared",
+      "Oven was preheated"
+    ],
+    "answer": 0,
+    "explanation": "Sponge cakes depend on trapped air. Rough folding knocks out air and reduces volume."
+  },
+  {
+    "id": 94,
+    "category": "Task 17 — Prepares cakes",
+    "question": "Why should oven doors not be opened early during cake baking?",
+    "options": [
+      "Sudden heat loss can cause collapse",
+      "It makes cakes rise higher",
+      "It improves structure instantly",
+      "It prevents browning"
+    ],
+    "answer": 0,
+    "explanation": "Cake structure is fragile before it sets. Opening the door too early can drop temperature and cause sinking."
+  },
+  {
+    "id": 95,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A cake is dry around the edges. What may be the cause?",
+    "options": [
+      "Overbaking or oven too hot",
+      "Too much gentle mixing",
+      "Proper storage only",
+      "Correct moisture balance"
+    ],
+    "answer": 0,
+    "explanation": "Excessive heat or time removes moisture. Oven temperature and bake time must be controlled."
+  },
+  {
+    "id": 96,
+    "category": "Task 17 — Prepares cakes",
+    "question": "Why is a cake cooled on a rack?",
+    "options": [
+      "To allow airflow and prevent soggy bottom",
+      "To restart fermentation",
+      "To melt icing faster",
+      "To increase batter volume"
+    ],
+    "answer": 0,
+    "explanation": "Cooling racks allow steam to escape. This prevents moisture from collecting under the cake."
+  },
+  {
+    "id": 97,
+    "category": "Task 17 — Prepares cakes",
+    "question": "A roulade sponge cracks when rolled. What may be the cause?",
+    "options": [
+      "It was overbaked or too dry",
+      "It was too flexible",
+      "It was rolled correctly",
+      "It had too much moisture only"
+    ],
+    "answer": 0,
+    "explanation": "Overbaked sponge loses flexibility. A moist, properly baked sponge rolls with fewer cracks."
+  },
+  {
+    "id": 98,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "What is tempering eggs in custard production?",
+    "options": [
+      "Slowly adding hot liquid to eggs while mixing",
+      "Freezing eggs before use",
+      "Adding eggs to boiling milk without stirring",
+      "Removing eggs from the formula"
+    ],
+    "answer": 0,
+    "explanation": "Tempering raises egg temperature gradually. This prevents curdling and helps make smooth custard."
+  },
+  {
+    "id": 99,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "Pastry cream has lumps. What may be the cause?",
+    "options": [
+      "Poor stirring or starch not mixed properly",
+      "Correct straining",
+      "Proper cooking only",
+      "Too much cooling rack space"
+    ],
+    "answer": 0,
+    "explanation": "Starch and eggs can form lumps if not mixed and heated evenly. Whisking and straining help create smooth pastry cream."
+  },
+  {
+    "id": 100,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "A Swiss meringue is grainy. What likely happened?",
+    "options": [
+      "Sugar was not fully dissolved",
+      "Egg whites were too clean",
+      "It was whipped too smoothly",
+      "It had too much air only"
+    ],
+    "answer": 0,
+    "explanation": "Undissolved sugar leaves a grainy texture. Proper heating and mixing dissolve the sugar before whipping fully."
+  },
+  {
+    "id": 101,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "A mousse is too loose after chilling. What should be checked?",
+    "options": [
+      "Stabilizer amount and chilling time",
+      "Bread scoring depth",
+      "Pie dough thickness",
+      "Fryer oil temperature"
+    ],
+    "answer": 0,
+    "explanation": "Mousse needs enough structure from gelatin, chocolate, or cream. It also needs enough time to set before service."
+  },
+  {
+    "id": 102,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "Why should pastry cream be cooled quickly?",
+    "options": [
+      "It is perishable and must pass through unsafe temperatures quickly",
+      "It cannot spoil",
+      "It needs yeast fermentation",
+      "It becomes stronger when warm"
+    ],
+    "answer": 0,
+    "explanation": "Pastry cream contains milk and eggs. Quick cooling supports food safety and protects quality."
+  },
+  {
+    "id": 103,
+    "category": "Task 18 — Prepares creams, custards, fillings, decorating pastes and icings",
+    "question": "A gum paste flower breaks easily. What should be considered?",
+    "options": [
+      "Thickness, drying time, and handling",
+      "Bread hydration",
+      "Muffin mixing time",
+      "Fryer basket size"
+    ],
+    "answer": 0,
+    "explanation": "Very thin or overly dry decorations are fragile. Gentle handling and proper thickness reduce breakage."
+  },
+  {
+    "id": 104,
+    "category": "Task 19 — Prepares savoury fillings",
+    "question": "A vegetable filling releases liquid after cooking. What should be done before filling pastry?",
+    "options": [
+      "Drain or thicken it",
+      "Add more water",
+      "Use it boiling hot",
+      "Mix it with raw flour only"
+    ],
+    "answer": 0,
+    "explanation": "Excess liquid can make pastry soggy or cause leaks. Draining or thickening improves filling stability."
+  },
+  {
+    "id": 105,
+    "category": "Task 19 — Prepares savoury fillings",
+    "question": "Why should meat fillings be cooked to safe temperatures?",
+    "options": [
+      "To control food safety risks",
+      "To make pastry rise",
+      "To temper chocolate",
+      "To increase sugar content"
+    ],
+    "answer": 0,
+    "explanation": "Meat fillings can contain harmful bacteria if undercooked. Safe cooking protects customers and product quality."
+  },
+  {
+    "id": 106,
+    "category": "Task 19 — Prepares savoury fillings",
+    "question": "A savoury filling tastes flat. What should be adjusted?",
+    "options": [
+      "Seasoning balance",
+      "Dough lamination",
+      "Cake pan size",
+      "Chocolate seed amount"
+    ],
+    "answer": 0,
+    "explanation": "Savoury fillings need proper salt, herbs, spices, and flavour balance. Seasoning should complement the pastry."
+  },
+  {
+    "id": 107,
+    "category": "Task 20 — Prepares sauces, glazes and garnishes",
+    "question": "A chocolate glaze runs off a cake completely. What should be checked?",
+    "options": [
+      "Glaze temperature and consistency",
+      "Bread proofing",
+      "Cookie scoop size",
+      "Flour protein"
+    ],
+    "answer": 0,
+    "explanation": "Too-warm or too-thin glaze may not coat properly. Correct pouring temperature and viscosity are important."
+  },
+  {
+    "id": 108,
+    "category": "Task 20 — Prepares sauces, glazes and garnishes",
+    "question": "A fruit sauce is too thin for plating. What can be done?",
+    "options": [
+      "Reduce it or adjust thickener",
+      "Add more water",
+      "Serve it boiling over the plate",
+      "Remove all fruit"
+    ],
+    "answer": 0,
+    "explanation": "Reduction removes excess water and concentrates flavour. A suitable thickener can also improve plating consistency."
+  },
+  {
+    "id": 109,
+    "category": "Task 20 — Prepares sauces, glazes and garnishes",
+    "question": "Why should garnishes be prepared consistently?",
+    "options": [
+      "To create uniform presentation",
+      "To make products ferment",
+      "To replace formulas",
+      "To remove flavour"
+    ],
+    "answer": 0,
+    "explanation": "Consistent garnishes make products look professional. Uniform finishing supports customer expectations and display quality."
+  },
+  {
+    "id": 110,
+    "category": "Task 20 — Prepares sauces, glazes and garnishes",
+    "question": "A sauce is too sweet. What could help balance it?",
+    "options": [
+      "Add suitable acidity or bitterness",
+      "Add more sugar only",
+      "Remove all liquid",
+      "Add yeast"
+    ],
+    "answer": 0,
+    "explanation": "Acid or bitter notes can balance excessive sweetness. Good sauces need balanced flavour, not just sweetness."
+  },
+  {
+    "id": 111,
+    "category": "Task 21 — Assembles and bakes sweet and savoury pastries",
+    "question": "A filled pastry bursts open during baking. What should be corrected?",
+    "options": [
+      "Filling amount and sealing",
+      "Icing colour",
+      "Cake cooling time",
+      "Chocolate mould shine"
+    ],
+    "answer": 0,
+    "explanation": "Too much filling creates pressure inside the pastry. Proper sealing helps keep filling enclosed during baking."
+  },
+  {
+    "id": 112,
+    "category": "Task 21 — Assembles and bakes sweet and savoury pastries",
+    "question": "Why should puff pastry products be chilled before baking if they become soft?",
+    "options": [
+      "To firm fat layers",
+      "To remove all steam",
+      "To increase yeast activity",
+      "To make filling watery"
+    ],
+    "answer": 0,
+    "explanation": "Soft fat can leak or blend into dough. Chilling restores structure and helps pastry rise properly."
+  },
+  {
+    "id": 113,
+    "category": "Task 21 — Assembles and bakes sweet and savoury pastries",
+    "question": "A Danish filling sinks into the dough during baking. What may be wrong?",
+    "options": [
+      "Filling too wet or dough under-proofed",
+      "Too much tray spacing",
+      "Correct filling consistency",
+      "Proper baking only"
+    ],
+    "answer": 0,
+    "explanation": "Wet or heavy fillings can sink into dough. Proper proofing and filling consistency support shape."
+  },
+  {
+    "id": 114,
+    "category": "Task 21 — Assembles and bakes sweet and savoury pastries",
+    "question": "Why should pastries of similar size be baked together?",
+    "options": [
+      "To ensure even baking",
+      "To stop colour development",
+      "To reduce filling flavour",
+      "To prevent any expansion"
+    ],
+    "answer": 0,
+    "explanation": "Similar sizes bake at similar rates. Mixed sizes may lead to some products overbaking while others remain underbaked."
+  },
+  {
+    "id": 115,
+    "category": "Task 22 — Assembles cakes and other baked goods",
+    "question": "A cake leans after stacking. What is the likely cause?",
+    "options": [
+      "Uneven layers or filling",
+      "Correct levelling",
+      "Proper chilling",
+      "Strong support"
+    ],
+    "answer": 0,
+    "explanation": "Uneven layers and filling create imbalance. Levelling and even filling help cakes stay straight."
+  },
+  {
+    "id": 116,
+    "category": "Task 22 — Assembles cakes and other baked goods",
+    "question": "Why is a cake chilled after filling before final icing?",
+    "options": [
+      "To firm the layers and filling",
+      "To make the cake rise again",
+      "To melt buttercream",
+      "To create gluten"
+    ],
+    "answer": 0,
+    "explanation": "Chilling stabilizes the cake. Firm layers are easier to ice cleanly."
+  },
+  {
+    "id": 117,
+    "category": "Task 22 — Assembles cakes and other baked goods",
+    "question": "A mousse cake layer is uneven. What should be improved?",
+    "options": [
+      "Scaling and spreading",
+      "Bread scoring",
+      "Fryer oil filtering",
+      "Croissant folding"
+    ],
+    "answer": 0,
+    "explanation": "Even mousse layers depend on accurate portioning and smooth spreading. Chilling between layers can also improve structure."
+  },
+  {
+    "id": 118,
+    "category": "Task 22 — Assembles cakes and other baked goods",
+    "question": "Why are support dowels used in tall cakes?",
+    "options": [
+      "To support weight and prevent collapse",
+      "To add sweetness",
+      "To make cake ferment",
+      "To remove icing"
+    ],
+    "answer": 0,
+    "explanation": "Tall cakes need structural support. Dowels help carry the weight of upper tiers."
+  },
+  {
+    "id": 119,
+    "category": "Task 22 — Assembles cakes and other baked goods",
+    "question": "A cake layer breaks during assembly. What should the baker do?",
+    "options": [
+      "Handle with support and use proper tools",
+      "Throw it onto the bench",
+      "Add yeast",
+      "Warm it until melting"
+    ],
+    "answer": 0,
+    "explanation": "Cake layers can be fragile. Boards, spatulas, and careful handling reduce breakage."
+  },
+  {
+    "id": 120,
+    "category": "Task 23 — Decorates and finishes baked goods",
+    "question": "A buttercream border loses shape after piping. What may be wrong?",
+    "options": [
+      "Buttercream is too soft",
+      "Buttercream is too cold and firm only",
+      "Piping pressure is perfect",
+      "Product is frozen solid"
+    ],
+    "answer": 0,
+    "explanation": "Soft icing cannot hold definition. Temperature and consistency must suit the decoration."
+  },
+  {
+    "id": 121,
+    "category": "Task 23 — Decorates and finishes baked goods",
+    "question": "Why should the final decoration be suitable for storage conditions?",
+    "options": [
+      "Some decorations soften, melt, or bleed",
+      "Decorations stop products from spoiling",
+      "Decorations replace refrigeration",
+      "All decorations behave the same"
+    ],
+    "answer": 0,
+    "explanation": "Humidity, refrigeration, and temperature can affect decorations. Finishes should match the product’s storage and service needs."
+  },
+  {
+    "id": 122,
+    "category": "Task 23 — Decorates and finishes baked goods",
+    "question": "A finished cake has fingerprints on the sides. What should be improved?",
+    "options": [
+      "Handling and use of tools",
+      "Oven temperature",
+      "Dough hydration",
+      "Yeast percentage"
+    ],
+    "answer": 0,
+    "explanation": "Finished products should be moved with clean tools or proper supports. Handling marks reduce professional appearance."
+  },
+  {
+    "id": 123,
+    "category": "Task 23 — Decorates and finishes baked goods",
+    "question": "Why should writing on cakes be centred and spaced evenly?",
+    "options": [
+      "To improve readability and presentation",
+      "To increase fermentation",
+      "To strengthen gluten",
+      "To change flavour"
+    ],
+    "answer": 0,
+    "explanation": "Cake writing is part of the finished decoration. Even spacing and placement improve appearance and customer satisfaction."
+  },
+  {
+    "id": 124,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "A chocolate shell sticks in the mould. What may be the cause?",
+    "options": [
+      "Poor tempering or unclean mould",
+      "Perfect tempering",
+      "Correct contraction",
+      "Proper polishing"
+    ],
+    "answer": 0,
+    "explanation": "Tempered chocolate contracts slightly as it sets. Poor temper or dirty moulds can prevent clean release."
+  },
+  {
+    "id": 125,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "Chocolate decorations are dull and bend instead of snapping. What is likely?",
+    "options": [
+      "Chocolate was not properly tempered",
+      "Chocolate was perfectly seeded",
+      "Chocolate had stable crystals",
+      "Chocolate was stored correctly"
+    ],
+    "answer": 0,
+    "explanation": "Poor temper creates unstable cocoa butter crystals. The chocolate may set soft, dull, or streaky."
+  },
+  {
+    "id": 126,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "Why are chocolate moulds polished?",
+    "options": [
+      "To improve shine on finished chocolate",
+      "To add yeast",
+      "To thicken chocolate",
+      "To create gluten"
+    ],
+    "answer": 0,
+    "explanation": "Chocolate reflects the mould surface. A clean polished mould improves shine and appearance."
+  },
+  {
+    "id": 127,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "A few drops of water fall into melted chocolate. What is the likely result?",
+    "options": [
+      "Seizing",
+      "Proofing",
+      "Laminating",
+      "Fermenting"
+    ],
+    "answer": 0,
+    "explanation": "Water causes sugar particles in chocolate to clump. The chocolate becomes thick, rough, and difficult to use."
+  },
+  {
+    "id": 128,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "What is fat bloom?",
+    "options": [
+      "A dull white appearance caused by cocoa butter movement",
+      "Yeast growth on chocolate",
+      "Caramelized sugar",
+      "Gluten formation"
+    ],
+    "answer": 0,
+    "explanation": "Fat bloom can occur from poor tempering or temperature changes. It appears as dull grey or white streaks."
+  },
+  {
+    "id": 129,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "Why should dipped centres be dry before coating with chocolate?",
+    "options": [
+      "Moisture can damage chocolate coating",
+      "Moisture improves tempering",
+      "Wet centres make chocolate snap more",
+      "Water prevents bloom"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can cause seizing or surface defects. Dry centres help chocolate coat smoothly."
+  },
+  {
+    "id": 130,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "Chocolate curls break into chips instead of curling. What is likely?",
+    "options": [
+      "Chocolate is too cold",
+      "Chocolate is boiling",
+      "Chocolate has too much yeast",
+      "Chocolate is fully liquid"
+    ],
+    "answer": 0,
+    "explanation": "Cold chocolate shatters instead of curling. Correct working temperature allows flexible curls."
+  },
+  {
+    "id": 131,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "Why should chocolate be stored wrapped?",
+    "options": [
+      "To prevent odour absorption and moisture damage",
+      "To increase yeast activity",
+      "To make it ferment",
+      "To add air bubbles"
+    ],
+    "answer": 0,
+    "explanation": "Chocolate absorbs smells and is sensitive to humidity. Wrapping protects flavour and surface quality."
+  },
+  {
+    "id": 132,
+    "category": "Task 24 — Prepares chocolate",
+    "question": "A tempered chocolate test strip sets dull and streaky. What should be done?",
+    "options": [
+      "Recheck temper before continuing",
+      "Use it for moulding anyway",
+      "Add water",
+      "Store it warm overnight"
+    ],
+    "answer": 0,
+    "explanation": "A test strip shows whether chocolate is in temper. Dull streaks mean the temper may need correction."
+  },
+  {
+    "id": 133,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "When boiling sugar syrup, why are pan sides sometimes washed down?",
+    "options": [
+      "To remove sugar crystals that may cause crystallization",
+      "To make syrup salty",
+      "To cool syrup completely",
+      "To add gluten"
+    ],
+    "answer": 0,
+    "explanation": "Sugar crystals on pan sides can seed unwanted crystallization. Washing down helps keep syrup smooth."
+  },
+  {
+    "id": 134,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "A caramel tastes burnt and bitter. What likely happened?",
+    "options": [
+      "Sugar was cooked too far",
+      "Sugar was not heated at all",
+      "Too much gelatin was bloomed",
+      "Chocolate was tempered"
+    ],
+    "answer": 0,
+    "explanation": "Caramel changes quickly from dark to burnt. Overcooked sugar develops bitter flavours."
+  },
+  {
+    "id": 135,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "Why is a heavy-bottomed pot useful for sugar work?",
+    "options": [
+      "It distributes heat more evenly",
+      "It makes syrup ferment",
+      "It prevents all boiling",
+      "It adds colour automatically"
+    ],
+    "answer": 0,
+    "explanation": "Even heat reduces hot spots and scorching. This helps control caramel and syrup cooking."
+  },
+  {
+    "id": 136,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "What is the danger of touching hot sugar?",
+    "options": [
+      "It sticks and causes severe burns",
+      "It is always cool",
+      "It rinses off instantly",
+      "It cannot burn skin"
+    ],
+    "answer": 0,
+    "explanation": "Hot sugar is extremely hot and sticky. It can cause deep burns because it clings to skin."
+  },
+  {
+    "id": 137,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "Why is humidity a problem for pulled sugar decorations?",
+    "options": [
+      "Sugar absorbs moisture and becomes sticky",
+      "Sugar becomes stronger",
+      "Humidity prevents all melting",
+      "Sugar turns into gluten"
+    ],
+    "answer": 0,
+    "explanation": "Sugar is hygroscopic and attracts moisture. Humidity can make decorations sticky, dull, or collapse."
+  },
+  {
+    "id": 138,
+    "category": "Task 25 — Prepares confections and sugar work",
+    "question": "A confection sets grainy instead of smooth. What may have caused it?",
+    "options": [
+      "Uncontrolled crystallization",
+      "Proper interfering sugar use",
+      "Correct cooling only",
+      "Perfect agitation control"
+    ],
+    "answer": 0,
+    "explanation": "Graininess often comes from sugar crystals forming incorrectly. Temperature, agitation, and formula affect crystallization."
+  },
+  {
+    "id": 139,
+    "category": "Task 26 — Prepares plated desserts",
+    "question": "A plated dessert looks crowded and messy. What should be improved?",
+    "options": [
+      "Simplicity, balance, and clean placement",
+      "More random garnish",
+      "More sauce on the rim",
+      "Larger uncontrolled portions"
+    ],
+    "answer": 0,
+    "explanation": "Professional plating uses clean arrangement and balance. Too many elements can distract from the main dessert."
+  },
+  {
+    "id": 140,
+    "category": "Task 26 — Prepares plated desserts",
+    "question": "Why should a plated dessert have a focal point?",
+    "options": [
+      "To guide the customer’s eye to the main component",
+      "To hide the dessert",
+      "To make every part random",
+      "To replace flavour balance"
+    ],
+    "answer": 0,
+    "explanation": "A focal point makes the plate look intentional. Garnishes and sauces should support the main item."
+  },
+  {
+    "id": 141,
+    "category": "Task 26 — Prepares plated desserts",
+    "question": "A dessert plate has only soft textures. What is missing?",
+    "options": [
+      "Texture contrast",
+      "More softness",
+      "More plate space only",
+      "More sugar only"
+    ],
+    "answer": 0,
+    "explanation": "Texture contrast improves the eating experience. Crisp or crunchy elements can balance soft components."
+  },
+  {
+    "id": 142,
+    "category": "Task 26 — Prepares plated desserts",
+    "question": "Why is portion control important for plated desserts?",
+    "options": [
+      "It ensures consistency and controls cost",
+      "It makes desserts ferment",
+      "It replaces recipes",
+      "It removes customer value"
+    ],
+    "answer": 0,
+    "explanation": "Consistent portions give customers equal value. Portion control also helps manage food cost."
+  },
+  {
+    "id": 143,
+    "category": "Task 27 — Prepares ice creams and ices",
+    "question": "Why is ice cream mix often aged before freezing?",
+    "options": [
+      "To improve hydration and texture",
+      "To ferment like bread",
+      "To remove all fat",
+      "To stop freezing"
+    ],
+    "answer": 0,
+    "explanation": "Aging allows ingredients to hydrate and flavours to blend. It can improve body and smoothness after freezing."
+  },
+  {
+    "id": 144,
+    "category": "Task 27 — Prepares ice creams and ices",
+    "question": "A sorbet is too icy. What may be wrong?",
+    "options": [
+      "Sugar balance or freezing process",
+      "Too much gluten",
+      "Too much yeast",
+      "Too much oven heat"
+    ],
+    "answer": 0,
+    "explanation": "Sorbet texture depends on sugar level and ice crystal control. Poor balance can create large crystals and hard texture."
+  },
+  {
+    "id": 145,
+    "category": "Task 27 — Prepares ice creams and ices",
+    "question": "What does churning do in ice cream production?",
+    "options": [
+      "Freezes while incorporating air and controlling crystals",
+      "Bakes the mix",
+      "Removes all sugar",
+      "Creates gluten"
+    ],
+    "answer": 0,
+    "explanation": "Churning adds air and keeps ice crystals smaller. This creates smoother texture and controlled overrun."
+  },
+  {
+    "id": 146,
+    "category": "Task 27 — Prepares ice creams and ices",
+    "question": "Why should ice cream be hardened after churning?",
+    "options": [
+      "To finish freezing and stabilize texture",
+      "To melt it before service",
+      "To make it ferment",
+      "To create bread structure"
+    ],
+    "answer": 0,
+    "explanation": "Ice cream is soft after churning. Hardening completes freezing and improves storage quality."
+  },
+  {
+    "id": 147,
+    "category": "Task 28 — Prepares frozen desserts",
+    "question": "A frozen dessert has freezer burn. What likely happened?",
+    "options": [
+      "Poor wrapping or long storage exposure",
+      "Proper airtight storage",
+      "Correct temperature control",
+      "Fresh production only"
+    ],
+    "answer": 0,
+    "explanation": "Freezer burn happens when frozen food is exposed to air. Proper covering protects texture and flavour."
+  },
+  {
+    "id": 148,
+    "category": "Task 28 — Prepares frozen desserts",
+    "question": "Why should frozen desserts avoid repeated thawing and refreezing?",
+    "options": [
+      "It creates large ice crystals and quality loss",
+      "It improves smoothness",
+      "It removes all water",
+      "It creates gluten strength"
+    ],
+    "answer": 0,
+    "explanation": "Temperature cycling causes melting and refreezing. This grows ice crystals and damages texture."
+  },
+  {
+    "id": 149,
+    "category": "Task 28 — Prepares frozen desserts",
+    "question": "A frozen mousse is difficult to unmould. What may help?",
+    "options": [
+      "Brief warming of the mould surface",
+      "Complete melting of the dessert",
+      "Adding flour after freezing",
+      "Holding at room temperature all day"
+    ],
+    "answer": 0,
+    "explanation": "Brief gentle warming loosens the outside layer. The dessert should remain frozen enough to hold shape."
+  },
+  {
+    "id": 150,
+    "category": "Task 28 — Prepares frozen desserts",
+    "question": "A parfait slice loses shape quickly on the plate. What should be checked?",
+    "options": [
+      "Formula stability and service temperature",
+      "Bread proofing time",
+      "Pie dough rest",
+      "Cookie pan lining"
+    ],
+    "answer": 0,
+    "explanation": "Frozen desserts need proper stabilizing and cold holding. Warm service conditions can cause fast softening and collapse."
+  }
+];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledRedSealBakerMockTest3Questions =
+      shuffleArray(redSealBakerMockTest3Questions).map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "baker",
+      tradeTitle: "Baker",
+      sectionTitle: "Red Seal Mock Test 3",
+      questionTimeSeconds: 90,
+      questions: shuffledRedSealBakerMockTest3Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledRedSealBakerMockTest3Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

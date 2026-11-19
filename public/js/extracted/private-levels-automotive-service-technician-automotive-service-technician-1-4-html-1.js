@@ -1,0 +1,1395 @@
+const automotiveServiceTechnicianLevel1Set4Questions = [
+  {
+    "id": 1,
+    "category": "A1: Maintain a Safe Work Environment",
+    "question": "A technician finishes removing a transmission and leaves tools scattered under the hoist. What is the main concern?",
+    "options": [
+      "The tools may get dirty",
+      "The area creates trip and falling-object hazards",
+      "The hoist will stop working",
+      "The transmission will lose oil pressure"
+    ],
+    "answer": 1,
+    "explanation": "Tools left on the floor can cause slips or trips. Loose tools under a hoist can also fall or be damaged. Good housekeeping is part of shop safety. ---"
+  },
+  {
+    "id": 2,
+    "category": "A1: Maintain a Safe Work Environment",
+    "question": "A vehicle has a fuel leak in the shop. What should be done first?",
+    "options": [
+      "Start the engine to find the leak faster",
+      "Control ignition sources and contain the leak",
+      "Wash the fuel into the floor drain",
+      "Park another vehicle beside it"
+    ],
+    "answer": 1,
+    "explanation": "Fuel leaks create fire and explosion hazards. Sparks, flames, and hot work must be controlled immediately. The leak should be contained and cleaned safely. ---"
+  },
+  {
+    "id": 3,
+    "category": "A2: Use PPE and Safety Equipment",
+    "question": "A technician is using a wire wheel on a bench grinder. Which PPE is most important?",
+    "options": [
+      "Safety glasses and face protection",
+      "Sandals",
+      "Cotton hat only",
+      "Latex gloves only"
+    ],
+    "answer": 0,
+    "explanation": "Wire wheels can throw wires and debris. Eye and face protection help prevent serious injury. Loose gloves or clothing should be avoided near rotating tools. ---"
+  },
+  {
+    "id": 4,
+    "category": "A2: Use PPE and Safety Equipment",
+    "question": "When lifting a heavy brake rotor from a lower shelf, what is the safest method?",
+    "options": [
+      "Bend at the waist and twist",
+      "Use proper lifting posture or get help",
+      "Carry it with oily hands",
+      "Toss it onto the bench"
+    ],
+    "answer": 1,
+    "explanation": "Heavy parts can cause strain injuries. Keeping the load close and using proper posture reduces risk. Help or lifting equipment should be used when needed."
+  },
+  {
+    "id": 5,
+    "category": "B1: Use Tools and Equipment",
+    "question": "A technician needs to measure tire tread depth accurately. Which tool should be used?",
+    "options": [
+      "Vernier caliper only",
+      "Tread depth gauge",
+      "Test light",
+      "Torque wrench"
+    ],
+    "answer": 1,
+    "explanation": "A tread depth gauge measures remaining tread accurately. Tread depth helps determine tire safety and wear condition. Visual inspection alone is not precise enough. ---"
+  },
+  {
+    "id": 6,
+    "category": "B1: Use Tools and Equipment",
+    "question": "What should be done before using an air impact wrench?",
+    "options": [
+      "Check socket type and tool condition",
+      "Remove the safety glasses",
+      "Use chrome sockets only",
+      "Increase air pressure beyond tool rating"
+    ],
+    "answer": 0,
+    "explanation": "Impact tools require impact-rated sockets. Damaged tools or wrong sockets can break under load. Tool pressure and condition should be checked before use. ---"
+  },
+  {
+    "id": 7,
+    "category": "B1: Use Tools and Equipment",
+    "question": "A technician needs to check coolant freeze protection. Which tool is suitable?",
+    "options": [
+      "Hydrometer or refractometer",
+      "Dial indicator",
+      "Ammeter clamp only",
+      "Feeler gauge"
+    ],
+    "answer": 0,
+    "explanation": "Coolant testers measure freeze protection. A refractometer or hydrometer can check mixture strength. Correct mixture protects against freezing and corrosion. ---"
+  },
+  {
+    "id": 8,
+    "category": "B2: Use Fasteners, Tubing, Hoses and Fittings",
+    "question": "A technician installs a bolt with the wrong grade in a suspension component. What is the risk?",
+    "options": [
+      "Bolt may not have correct strength",
+      "Vehicle will charge faster",
+      "Tire pressure will increase",
+      "Brake fluid will boil immediately"
+    ],
+    "answer": 0,
+    "explanation": "Fastener grade relates to strength. Using a weaker bolt in a critical area can cause failure. Correct replacement fasteners must match specifications. ---"
+  },
+  {
+    "id": 9,
+    "category": "B2: Use Fasteners, Tubing, Hoses and Fittings",
+    "question": "A coolant hose is soft, swollen, and oil-soaked. What should be done?",
+    "options": [
+      "Replace the hose and check for oil source",
+      "Tighten the clamp only",
+      "Wrap it with electrical tape",
+      "Ignore it if it does not leak today"
+    ],
+    "answer": 0,
+    "explanation": "Swollen hoses may fail under pressure. Oil contamination can weaken rubber. The cause of contamination should also be corrected. ---"
+  },
+  {
+    "id": 10,
+    "category": "B2: Use Fasteners, Tubing, Hoses and Fittings",
+    "question": "Why should flare nut wrenches be used on brake line fittings?",
+    "options": [
+      "They grip more sides of the fitting",
+      "They increase brake fluid pressure",
+      "They remove rust automatically",
+      "They are only for electrical wiring"
+    ],
+    "answer": 0,
+    "explanation": "Flare nut wrenches reduce the chance of rounding fittings. Brake fittings can be tight or corroded. Using the correct wrench helps prevent damage. ---"
+  },
+  {
+    "id": 11,
+    "category": "B3: Use Hoisting and Lifting Equipment",
+    "question": "A vehicle is raised on a hoist and the doors cannot open without hitting the arms. What should the technician consider?",
+    "options": [
+      "Lower and reposition if access or safety is affected",
+      "Force the door open",
+      "Remove the hoist arm lock",
+      "Work with the door jammed open"
+    ],
+    "answer": 0,
+    "explanation": "Hoist arm placement must support the vehicle safely. It should also allow safe access where possible. Repositioning may be needed before work continues. ---"
+  },
+  {
+    "id": 12,
+    "category": "B3: Use Hoisting and Lifting Equipment",
+    "question": "When using jack stands, where should they be placed?",
+    "options": [
+      "Under approved support points",
+      "Under plastic splash shields",
+      "Under exhaust pipes",
+      "Under fuel lines"
+    ],
+    "answer": 0,
+    "explanation": "Jack stands must support strong structural points. Plastic, exhaust, and fuel lines cannot safely carry vehicle weight. Approved locations prevent damage and collapse. ---"
+  },
+  {
+    "id": 13,
+    "category": "B4: Use Technical Information",
+    "question": "A technician sees two engine options listed for the same vehicle model. What should be verified before using specs?",
+    "options": [
+      "Exact engine and vehicle identification",
+      "Tire colour",
+      "Radio volume",
+      "Seat position"
+    ],
+    "answer": 0,
+    "explanation": "Specifications can differ by engine, trim, and year. Correct vehicle identification prevents wrong procedures. Service information must match the exact vehicle. ---"
+  },
+  {
+    "id": 14,
+    "category": "B4: Use Technical Information",
+    "question": "What is the purpose of a wiring connector view in service information?",
+    "options": [
+      "Shows terminal locations and wire positions",
+      "Shows tire rotation direction only",
+      "Shows brake pad thickness",
+      "Shows engine oil capacity only"
+    ],
+    "answer": 0,
+    "explanation": "Connector views help identify terminal positions. They are useful when testing circuits at connectors. Correct terminal identification prevents misdiagnosis."
+  },
+  {
+    "id": 15,
+    "category": "H1: Diagnose and Repair Drive Shafts and Axles",
+    "question": "A vehicle makes a clunk when shifting from drive to reverse. Which driveline item should be inspected?",
+    "options": [
+      "CV joints, axle splines, or driveshaft joints",
+      "Washer nozzles",
+      "Headlight bulbs",
+      "Cabin filter"
+    ],
+    "answer": 0,
+    "explanation": "Driveline looseness can cause clunks during direction changes. Axle splines and joints may have excessive play. The concern should be confirmed during inspection. ---"
+  },
+  {
+    "id": 16,
+    "category": "H1: Diagnose and Repair Drive Shafts and Axles",
+    "question": "A CV boot clamp is loose but the boot is not torn. What is the concern?",
+    "options": [
+      "Grease can escape and dirt can enter",
+      "Battery voltage will rise",
+      "Brake pedal will get hard",
+      "Tire pressure will drop immediately"
+    ],
+    "answer": 0,
+    "explanation": "A loose clamp can allow grease leakage. Contamination can enter and damage the CV joint. The boot and clamp should be serviced correctly."
+  },
+  {
+    "id": 17,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A parking light works on one side but not the other. The bulbs are good. What should be checked?",
+    "options": [
+      "Power, ground, connector, and wiring on the failed side",
+      "Engine compression",
+      "Tire balance",
+      "Brake fluid type"
+    ],
+    "answer": 0,
+    "explanation": "A good bulb still needs voltage and ground. The fault may be local to one side of the circuit. Testing should follow the wiring diagram. ---"
+  },
+  {
+    "id": 18,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A circuit has high resistance at a connector. What symptom may occur?",
+    "options": [
+      "Component operates weakly or intermittently",
+      "Tire pressure increases",
+      "Brake rotor gets thicker",
+      "Coolant freezes faster"
+    ],
+    "answer": 0,
+    "explanation": "High resistance limits current flow. The component may not receive enough voltage under load. Intermittent faults often occur at poor connections. ---"
+  },
+  {
+    "id": 19,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "What is the safest way to disconnect an electrical connector?",
+    "options": [
+      "Release the lock and pull on the connector body",
+      "Pull hard on the wires",
+      "Pry every connector open with a screwdriver",
+      "Cut the wires first"
+    ],
+    "answer": 0,
+    "explanation": "Connector locks prevent accidental separation. Pulling wires can damage terminals and insulation. Proper handling prevents new electrical faults. ---"
+  },
+  {
+    "id": 20,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A technician needs to identify a circuit fuse. What is the best source?",
+    "options": [
+      "Fuse panel legend and wiring diagram",
+      "Tire pressure sticker",
+      "Oil filter box",
+      "Wheel alignment screen only"
+    ],
+    "answer": 0,
+    "explanation": "Fuse legends identify fuse locations and ratings. Wiring diagrams show which circuit the fuse supplies. Guessing can lead to wrong testing or damage. ---"
+  },
+  {
+    "id": 21,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A 12-volt bulb connected directly to the battery does not light. What is most likely?",
+    "options": [
+      "Open bulb filament",
+      "Bad wheel bearing",
+      "Low brake fluid",
+      "Incorrect alignment"
+    ],
+    "answer": 0,
+    "explanation": "Direct battery connection bypasses the vehicle circuit. If the bulb still does not light, the bulb is likely faulty. The load should be confirmed before circuit diagnosis continues. ---"
+  },
+  {
+    "id": 22,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "Why should a technician avoid piercing wires whenever possible?",
+    "options": [
+      "Piercing can allow corrosion later",
+      "It improves future testing",
+      "It lowers resistance permanently",
+      "It repairs insulation automatically"
+    ],
+    "answer": 0,
+    "explanation": "Piercing damages insulation and exposes copper. Moisture can enter and create corrosion. Back-probing or approved adapters are preferred. ---"
+  },
+  {
+    "id": 23,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A horn works only when the steering wheel is turned. What is likely?",
+    "options": [
+      "Intermittent connection in steering column circuit",
+      "Low tire pressure",
+      "Worn brake pads",
+      "Bad radiator cap"
+    ],
+    "answer": 0,
+    "explanation": "Steering movement changing the symptom suggests a column wiring issue. Clock spring or connector faults may be involved. The circuit should be tested safely. ---"
+  },
+  {
+    "id": 24,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A ground wire is loose at the body. What electrical issue can this create?",
+    "options": [
+      "Multiple circuits may act strangely",
+      "Tire tread becomes uneven immediately",
+      "Engine oil turns dark",
+      "Brake rotors warp instantly"
+    ],
+    "answer": 0,
+    "explanation": "Many circuits may share a body ground. A loose ground can cause dim lights or erratic operation. Ground connections should be clean and tight. ---"
+  },
+  {
+    "id": 25,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "What does a resistor do in an electrical circuit?",
+    "options": [
+      "Limits current flow",
+      "Stores fuel",
+      "Increases tire grip",
+      "Measures brake force"
+    ],
+    "answer": 0,
+    "explanation": "A resistor opposes current flow. It can control voltage or current in a circuit. Resistors are used in many vehicle electrical systems. ---"
+  },
+  {
+    "id": 26,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A technician measures battery voltage at a connector but the component will not run. Why might this reading be misleading?",
+    "options": [
+      "The circuit may fail under load",
+      "Voltage always proves the circuit is good",
+      "Resistance never matters",
+      "Ground is not needed"
+    ],
+    "answer": 0,
+    "explanation": "A meter can show voltage through a weak connection. The circuit may not carry enough current under load. Load testing or voltage drop testing may be required. ---"
+  },
+  {
+    "id": 27,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A customer says the radio resets when the starter is engaged. What should be checked?",
+    "options": [
+      "Battery condition and voltage drop during cranking",
+      "Brake rotor thickness",
+      "Wheel alignment",
+      "Tire date code"
+    ],
+    "answer": 0,
+    "explanation": "Excessive voltage drop during cranking can reset electronics. Battery and cable condition should be tested. Starting system load can reveal weak electrical supply. ---"
+  },
+  {
+    "id": 28,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A switch controls ground instead of power. What does the switch do when closed?",
+    "options": [
+      "Completes the path to ground",
+      "Increases tire pressure",
+      "Opens the battery case",
+      "Charges the alternator"
+    ],
+    "answer": 0,
+    "explanation": "Some circuits switch the ground side. Closing the switch completes the return path. The load operates when the circuit is complete. ---"
+  },
+  {
+    "id": 29,
+    "category": "I1: Basic Wiring and Electrical Systems",
+    "question": "A connector terminal is pushed back and does not contact the mating pin. What fault occurs?",
+    "options": [
+      "Open or intermittent circuit",
+      "Higher coolant pressure",
+      "Improved current flow",
+      "Lower brake temperature"
+    ],
+    "answer": 0,
+    "explanation": "A backed-out terminal may not make contact. This can create an open or intermittent connection. Terminal fit and lock should be inspected. ---"
+  },
+  {
+    "id": 30,
+    "category": "I2: Batteries, Starting and Charging Systems",
+    "question": "A battery has 12.6 volts but fails a load test. What does this mean?",
+    "options": [
+      "It cannot supply enough current under load",
+      "It is definitely perfect",
+      "The alternator is always faulty",
+      "The starter is new"
+    ],
+    "answer": 0,
+    "explanation": "Open-circuit voltage does not prove battery capacity. A weak battery may show normal voltage without load. Load testing checks actual performance. ---"
+  },
+  {
+    "id": 31,
+    "category": "I2: Batteries, Starting and Charging Systems",
+    "question": "A starter spins but the engine does not crank. What may be faulty?",
+    "options": [
+      "Starter drive or engagement mechanism",
+      "Brake booster",
+      "Tire pressure sensor",
+      "Radiator fan only"
+    ],
+    "answer": 0,
+    "explanation": "The motor may spin without engaging the flywheel. A faulty starter drive can prevent engine rotation. The starter and ring gear should be inspected. ---"
+  },
+  {
+    "id": 32,
+    "category": "I2: Batteries, Starting and Charging Systems",
+    "question": "A charging system warning light comes on with a broken serpentine belt. Why?",
+    "options": [
+      "The alternator is no longer being driven",
+      "The battery becomes larger",
+      "The starter stays engaged",
+      "The brake fluid overheats"
+    ],
+    "answer": 0,
+    "explanation": "The belt drives the alternator on many vehicles. If the belt breaks, charging output stops. Other belt-driven systems may also be affected. ---"
+  },
+  {
+    "id": 33,
+    "category": "I2: Batteries, Starting and Charging Systems",
+    "question": "What is the purpose of the starter solenoid?",
+    "options": [
+      "Engages the starter drive and connects high current",
+      "Measures tire speed",
+      "Cools the alternator",
+      "Adjusts brake pressure"
+    ],
+    "answer": 0,
+    "explanation": "The solenoid moves the starter drive into engagement. It also closes contacts for starter motor current. Solenoid faults can cause no-crank symptoms. ---"
+  },
+  {
+    "id": 34,
+    "category": "I2: Batteries, Starting and Charging Systems",
+    "question": "A technician jump-starts a vehicle with reversed polarity. What can happen?",
+    "options": [
+      "Electrical components can be damaged",
+      "Tire tread increases",
+      "Brake pads become thicker",
+      "Fuel tank fills automatically"
+    ],
+    "answer": 0,
+    "explanation": "Reversed polarity can damage modules, fuses, and wiring. Correct cable connection is critical when boosting. Battery service must follow proper procedure."
+  },
+  {
+    "id": 35,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "A tire has more wear in the center than on the shoulders. What is a common cause?",
+    "options": [
+      "Overinflation",
+      "Low battery voltage",
+      "Brake fluid leak",
+      "Bad thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Overinflation can make the center carry more load. This causes faster center tread wear. Tire pressure should be set to vehicle specification. ---"
+  },
+  {
+    "id": 36,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "A tire is worn on both shoulders but not the center. What is a likely cause?",
+    "options": [
+      "Underinflation",
+      "Alternator overcharge",
+      "Excessive coolant concentration",
+      "New brake pads"
+    ],
+    "answer": 0,
+    "explanation": "Underinflation causes the shoulders to carry more load. It also creates extra heat in the tire. Correct tire pressure improves safety and tire life. ---"
+  },
+  {
+    "id": 37,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "A wheel has corrosion on the hub mounting surface. What can this cause?",
+    "options": [
+      "Wheel not seating properly",
+      "Battery drain",
+      "Low oil pressure",
+      "Spark plug fouling"
+    ],
+    "answer": 0,
+    "explanation": "Rust can prevent the wheel from sitting flat. This can cause vibration or wheel looseness. Mounting surfaces should be cleaned before installation. ---"
+  },
+  {
+    "id": 38,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "When checking wheel bearing play, the technician should also watch for:",
+    "options": [
+      "Movement between hub and knuckle",
+      "Radio station changes",
+      "Engine oil colour",
+      "Coolant smell"
+    ],
+    "answer": 0,
+    "explanation": "Bearing play can appear as hub movement. Movement should be separated from steering or suspension looseness. Accurate inspection prevents wrong diagnosis. ---"
+  },
+  {
+    "id": 39,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "What does the tire load index indicate?",
+    "options": [
+      "Maximum load capacity rating",
+      "Tire colour code",
+      "Wheel bolt pattern only",
+      "Brake rotor size"
+    ],
+    "answer": 0,
+    "explanation": "Load index relates to how much weight a tire can carry. Replacement tires must meet vehicle requirements. Incorrect load rating can create safety issues. ---"
+  },
+  {
+    "id": 40,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "A customer reports vibration after new tires. Balance is correct. What should be checked next?",
+    "options": [
+      "Tire runout or shifted belt",
+      "Brake fluid colour only",
+      "Battery ground strap",
+      "Coolant level"
+    ],
+    "answer": 0,
+    "explanation": "A tire can be balanced but still out of round. Internal belt problems can also cause vibration. Runout and road-force checks may help. ---"
+  },
+  {
+    "id": 41,
+    "category": "K1: Tires, Wheels, Hubs and Wheel Bearings",
+    "question": "A TPMS sensor is damaged during tire service. What is the proper repair?",
+    "options": [
+      "Replace or service sensor components as specified",
+      "Remove the warning bulb",
+      "Install any rubber valve stem",
+      "Ignore it if the tire holds air"
+    ],
+    "answer": 0,
+    "explanation": "TPMS sensors are part of the safety monitoring system. Damaged sensors may not report tire pressure correctly. Replacement and relearn procedures may be required. ---"
+  },
+  {
+    "id": 42,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A vehicle bounces three or four times after being pushed down at one corner. What does this suggest?",
+    "options": [
+      "Weak shock or strut",
+      "Strong brake booster",
+      "Good damping",
+      "Low alternator output"
+    ],
+    "answer": 0,
+    "explanation": "Excessive bouncing shows poor damping control. A good shock or strut should control spring movement quickly. Further inspection or replacement may be needed. ---"
+  },
+  {
+    "id": 43,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A lower control arm is bent after an impact. What is the likely effect?",
+    "options": [
+      "Alignment angles will change",
+      "Battery CCA will increase",
+      "Coolant flow will improve",
+      "Brake fluid will become cleaner"
+    ],
+    "answer": 0,
+    "explanation": "Control arms locate the wheel assembly. A bent arm changes wheel position and alignment. The part should be replaced, not adjusted around. ---"
+  },
+  {
+    "id": 44,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A technician hears a squeak from suspension bushings. What may help confirm the source?",
+    "options": [
+      "Bounce or move suspension while listening carefully",
+      "Disconnect the battery only",
+      "Remove the radiator cap",
+      "Change the radio station"
+    ],
+    "answer": 0,
+    "explanation": "Moving the suspension can reproduce the noise. Listening near components helps locate the source. Inspection should confirm worn or dry bushings. ---"
+  },
+  {
+    "id": 45,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A strut is leaking and the tire on that corner is cupped. What is the relationship?",
+    "options": [
+      "Poor damping can cause irregular tire contact",
+      "Leak makes tire pressure rise",
+      "Tire causes battery drain",
+      "Coolant causes cupping"
+    ],
+    "answer": 0,
+    "explanation": "A weak strut allows wheel bounce. The tire may contact the road unevenly. This can create cupped or scalloped tread wear. ---"
+  },
+  {
+    "id": 46,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A stabilizer bar bushing is worn. What symptom may occur?",
+    "options": [
+      "Clunking or knocking over bumps",
+      "No crank condition",
+      "Brake fluid contamination",
+      "Low charging voltage"
+    ],
+    "answer": 0,
+    "explanation": "Stabilizer bar bushings hold the bar securely. Wear allows bar movement and noise. They should be inspected with related links. ---"
+  },
+  {
+    "id": 47,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A vehicle has excessive body roll in corners. Which component group should be checked?",
+    "options": [
+      "Stabilizer bar, links, and bushings",
+      "Battery cables only",
+      "Fuel injectors",
+      "Exhaust hangers only"
+    ],
+    "answer": 0,
+    "explanation": "Stabilizer systems reduce body roll. Broken links or worn bushings reduce their effect. Suspension inspection should include these parts. ---"
+  },
+  {
+    "id": 48,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A spring seat is rusted and cracked. Why is this serious?",
+    "options": [
+      "It supports spring load",
+      "It controls battery voltage",
+      "It filters engine oil",
+      "It seals the fuel cap"
+    ],
+    "answer": 0,
+    "explanation": "Spring seats carry suspension spring force. A failed seat can let the spring move or detach. Structural rust in suspension areas is safety-related. ---"
+  },
+  {
+    "id": 49,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A customer complains of a knocking noise only on rough roads. What should the technician inspect first?",
+    "options": [
+      "Loose suspension and steering components",
+      "Radio speakers",
+      "Fuel cap seal",
+      "Headliner clips only"
+    ],
+    "answer": 0,
+    "explanation": "Rough-road knocks commonly come from loose joints or bushings. Steering and suspension parts should be checked for play. The concern should be road-tested when safe. ---"
+  },
+  {
+    "id": 50,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A suspension component has a grease fitting. What is the purpose?",
+    "options": [
+      "Allows lubrication of the joint",
+      "Drains brake fluid",
+      "Measures tire pressure",
+      "Adjusts alternator output"
+    ],
+    "answer": 0,
+    "explanation": "Grease fittings allow lubricant to enter joints. Lubrication reduces wear and noise. Only correct grease and procedure should be used. ---"
+  },
+  {
+    "id": 51,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A vehicle has uneven rear tire wear and damaged rear suspension bushings. What should be done before alignment?",
+    "options": [
+      "Repair worn parts first",
+      "Adjust toe only",
+      "Inflate tires to maximum",
+      "Replace the battery"
+    ],
+    "answer": 0,
+    "explanation": "Alignment cannot stay correct with worn parts. Loose bushings allow wheel movement. Mechanical repairs should come before alignment adjustment. ---"
+  },
+  {
+    "id": 52,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A strut tower shows mushrooming after a hard impact. What does this indicate?",
+    "options": [
+      "Possible structural damage",
+      "Normal wear",
+      "Low battery voltage",
+      "Correct suspension operation"
+    ],
+    "answer": 0,
+    "explanation": "Strut tower deformation changes suspension geometry. It can affect alignment and component fit. Structural damage should be inspected carefully. ---"
+  },
+  {
+    "id": 53,
+    "category": "K2: Suspension and Control Systems",
+    "question": "Why should suspension parts be compared to service specifications?",
+    "options": [
+      "Visual inspection may not reveal all faults",
+      "Specs only apply to radios",
+      "It changes brake fluid type",
+      "It increases tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Some wear or damage requires measurement. Specifications define acceptable limits. This improves accuracy and safety. ---"
+  },
+  {
+    "id": 54,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A technician replaces a control arm but leaves the alignment unchecked. What may happen?",
+    "options": [
+      "Tire wear and poor handling",
+      "Battery overcharge",
+      "Engine oil leak always",
+      "Fuel tank pressure increase"
+    ],
+    "answer": 0,
+    "explanation": "Control arm replacement can alter wheel alignment. Incorrect alignment affects handling and tire life. An alignment check is usually required. ---"
+  },
+  {
+    "id": 55,
+    "category": "K2: Suspension and Control Systems",
+    "question": "A broken bump stop may allow:",
+    "options": [
+      "Suspension bottoming and component damage",
+      "Better ride comfort always",
+      "Increased battery reserve",
+      "Lower engine temperature"
+    ],
+    "answer": 0,
+    "explanation": "Bump stops limit extreme suspension travel. Without them, parts may hit metal-to-metal. Damage and noise can result. ---"
+  },
+  {
+    "id": 56,
+    "category": "K3: Steering and Control Systems",
+    "question": "A customer says steering assist is normal cold but weak when hot. What could be suspect?",
+    "options": [
+      "Power steering pump or fluid condition",
+      "Tire valve cap",
+      "Brake light bulb",
+      "Cabin air filter"
+    ],
+    "answer": 0,
+    "explanation": "Heat can reduce weak hydraulic pump performance. Fluid condition can also affect assist. Pressure testing may be needed when the symptom occurs. ---"
+  },
+  {
+    "id": 57,
+    "category": "K3: Steering and Control Systems",
+    "question": "A torn outer tie rod boot is found. Why is it a concern?",
+    "options": [
+      "Joint contamination and wear can occur",
+      "It raises tire pressure",
+      "It improves alignment",
+      "It cools the brake rotor"
+    ],
+    "answer": 0,
+    "explanation": "The boot protects grease and joint surfaces. A torn boot allows dirt and water inside. The joint may fail inspection or require replacement. ---"
+  },
+  {
+    "id": 58,
+    "category": "K3: Steering and Control Systems",
+    "question": "A steering rack has excessive inner tie rod movement. What symptom can result?",
+    "options": [
+      "Clunking and steering looseness",
+      "High battery voltage",
+      "Hard brake pedal only",
+      "Coolant leak"
+    ],
+    "answer": 0,
+    "explanation": "Inner tie rod wear creates play in steering. This can cause noise, wander, and tire wear. The part should be repaired before alignment. ---"
+  },
+  {
+    "id": 59,
+    "category": "K3: Steering and Control Systems",
+    "question": "A vehicle pulls after alignment, but alignment readings are correct. What should be checked?",
+    "options": [
+      "Tire pull, brake drag, and suspension damage",
+      "Radio presets",
+      "Engine oil brand",
+      "Seatbelt buckle"
+    ],
+    "answer": 0,
+    "explanation": "Pull is not always caused by alignment. Tires, brakes, and damaged parts can create pull. Diagnosis should not stop at alignment readings. ---"
+  },
+  {
+    "id": 60,
+    "category": "K3: Steering and Control Systems",
+    "question": "An electric power steering motor overheats after repeated parking maneuvers. What may happen?",
+    "options": [
+      "Assist may reduce temporarily",
+      "Tire pressure increases",
+      "Brake fluid boils instantly",
+      "Engine oil level rises"
+    ],
+    "answer": 0,
+    "explanation": "EPS systems may reduce assist to protect components. High steering demand at low speed creates heat. Codes or warnings may be stored. ---"
+  },
+  {
+    "id": 61,
+    "category": "K3: Steering and Control Systems",
+    "question": "A steering column has a loose tilt mechanism. Why is this unsafe?",
+    "options": [
+      "It can affect steering control",
+      "It improves driver comfort only",
+      "It increases charging voltage",
+      "It changes brake fluid type"
+    ],
+    "answer": 0,
+    "explanation": "Steering column security is safety-critical. Loose movement can affect driver control. The column should be inspected and repaired properly. ---"
+  },
+  {
+    "id": 62,
+    "category": "K3: Steering and Control Systems",
+    "question": "A vehicle shows uneven steering effort left versus right. What should be checked?",
+    "options": [
+      "Steering gear, linkage, alignment, and tire condition",
+      "Fuel level only",
+      "Radio antenna",
+      "Battery label"
+    ],
+    "answer": 0,
+    "explanation": "Unequal effort can come from mechanical or hydraulic faults. Alignment and tire problems can also affect steering feel. A complete steering inspection is needed. ---"
+  },
+  {
+    "id": 63,
+    "category": "K3: Steering and Control Systems",
+    "question": "A technician clears an ABS code without testing. The code returns during the road test. What should be done?",
+    "options": [
+      "Diagnose the stored code and related circuit",
+      "Keep clearing it",
+      "Remove the ABS fuse permanently",
+      "Ignore it if brakes feel normal"
+    ],
+    "answer": 0,
+    "explanation": "Returning codes indicate an active or repeat fault. Clearing codes does not repair the cause. Circuit and component testing should follow service information. ---"
+  },
+  {
+    "id": 64,
+    "category": "K3: Steering and Control Systems",
+    "question": "A wheel speed sensor harness is stretched tight after suspension repair. What is the risk?",
+    "options": [
+      "Harness may break during suspension travel",
+      "Tire will inflate more",
+      "Brakes will self-bleed",
+      "Battery will charge faster"
+    ],
+    "answer": 0,
+    "explanation": "Sensor harnesses need enough slack for movement. Suspension travel can pull or break tight wiring. Harness routing must be restored correctly. ---"
+  },
+  {
+    "id": 65,
+    "category": "K3: Steering and Control Systems",
+    "question": "An ABS sensor tip is covered with metal debris. What can this cause?",
+    "options": [
+      "Poor or incorrect sensor signal",
+      "Increased engine compression",
+      "Lower tire temperature",
+      "Stronger brake pads"
+    ],
+    "answer": 0,
+    "explanation": "Magnetic sensor tips can collect metal particles. Debris may disturb the wheel speed signal. Cleaning and inspection may restore proper operation. ---"
+  },
+  {
+    "id": 66,
+    "category": "K3: Steering and Control Systems",
+    "question": "A stability control system uses brake application to help correct:",
+    "options": [
+      "Oversteer or understeer",
+      "Low oil level",
+      "Battery sulfation",
+      "Coolant leaks"
+    ],
+    "answer": 0,
+    "explanation": "Stability control compares intended direction with actual movement. It may apply individual brakes to correct vehicle path. Sensor data must be accurate for proper operation. ---"
+  },
+  {
+    "id": 67,
+    "category": "K3: Steering and Control Systems",
+    "question": "A customer complains of traction control activation on snowy roads. What is most likely?",
+    "options": [
+      "Normal operation if wheels are slipping",
+      "Guaranteed ABS module failure",
+      "Low washer fluid",
+      "Incorrect engine oil level"
+    ],
+    "answer": 0,
+    "explanation": "Traction control limits wheel spin on slippery surfaces. Snow can cause drive wheels to lose traction. Operation may be normal depending on conditions. ---"
+  },
+  {
+    "id": 68,
+    "category": "K3: Steering and Control Systems",
+    "question": "A vehicle has an ABS light after wheel bearing replacement. What should be checked?",
+    "options": [
+      "Correct bearing orientation and sensor connection",
+      "Brake pedal pad colour",
+      "Fuel octane",
+      "Cabin temperature"
+    ],
+    "answer": 0,
+    "explanation": "Some bearings have magnetic encoder rings. Incorrect installation can prevent wheel speed signal. Sensor wiring should also be checked. ---"
+  },
+  {
+    "id": 69,
+    "category": "K3: Steering and Control Systems",
+    "question": "A yaw sensor must be mounted correctly because it measures:",
+    "options": [
+      "Vehicle rotation movement",
+      "Battery temperature only",
+      "Tire tread depth",
+      "Brake fluid level"
+    ],
+    "answer": 0,
+    "explanation": "Yaw sensors detect vehicle rotation. Incorrect mounting can give false stability control data. Sensor installation must follow service information. ---"
+  },
+  {
+    "id": 70,
+    "category": "K3: Steering and Control Systems",
+    "question": "A steering angle sensor shows 15 degrees while the wheels are straight. What may be needed?",
+    "options": [
+      "Calibration or centering procedure",
+      "Coolant flush",
+      "Tire replacement always",
+      "Brake shoe adjustment only"
+    ],
+    "answer": 0,
+    "explanation": "The sensor should match actual steering position. Incorrect readings can affect stability control. Calibration may be needed after repairs or alignment. ---"
+  },
+  {
+    "id": 71,
+    "category": "K3: Steering and Control Systems",
+    "question": "A vehicle has bump steer after suspension modification. What does bump steer mean?",
+    "options": [
+      "Toe changes as suspension moves",
+      "Battery voltage changes with bumps",
+      "Brake fluid moves in the reservoir",
+      "Tires inflate over bumps"
+    ],
+    "answer": 0,
+    "explanation": "Bump steer occurs when wheel direction changes with suspension travel. It can make the vehicle feel unstable. Steering geometry must be checked. ---"
+  },
+  {
+    "id": 72,
+    "category": "K3: Steering and Control Systems",
+    "question": "A steering wheel vibration is present even after balancing. What else should be checked?",
+    "options": [
+      "Wheel runout, tire defects, and front-end looseness",
+      "Fuel level",
+      "Coolant cap pressure",
+      "Wiper blade length"
+    ],
+    "answer": 0,
+    "explanation": "Balance does not correct all vibration causes. Bent wheels, tire defects, and loose parts can shake. Further inspection is needed. ---"
+  },
+  {
+    "id": 73,
+    "category": "K3: Steering and Control Systems",
+    "question": "A loose wheel bearing affects ABS because it can:",
+    "options": [
+      "Change sensor gap or signal quality",
+      "Increase brake fluid level",
+      "Improve wheel speed readings",
+      "Stop tire wear"
+    ],
+    "answer": 0,
+    "explanation": "Bearing movement can alter sensor-to-tone-ring spacing. This can create inaccurate wheel speed data. ABS faults may result from mechanical looseness. ---"
+  },
+  {
+    "id": 74,
+    "category": "K3: Steering and Control Systems",
+    "question": "A technician replaces an ABS sensor but the code remains. What should be checked?",
+    "options": [
+      "Wiring, connector, tone ring, and module data",
+      "Tire colour",
+      "Washer fluid level",
+      "Engine air filter only"
+    ],
+    "answer": 0,
+    "explanation": "A sensor code does not always mean the sensor is bad. The circuit or signal source may still be faulty. Complete diagnosis prevents unnecessary part replacement. ---"
+  },
+  {
+    "id": 75,
+    "category": "K3: Steering and Control Systems",
+    "question": "A vehicle’s ESC light flashes briefly during a sharp turn on loose gravel. What does this usually indicate?",
+    "options": [
+      "System intervention due to reduced traction",
+      "Engine failure",
+      "Brake fluid leak always",
+      "Dead battery"
+    ],
+    "answer": 0,
+    "explanation": "ESC may activate when the vehicle begins to slide. Loose gravel reduces traction and can trigger intervention. A brief flashing light may be normal operation. ---"
+  },
+  {
+    "id": 76,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake pedal feels low after rear drum brake service. What may be incorrect?",
+    "options": [
+      "Shoe adjustment",
+      "Alternator output",
+      "Tire balance",
+      "Coolant level"
+    ],
+    "answer": 0,
+    "explanation": "Excessive shoe clearance increases pedal travel. Rear drum brakes often require correct adjustment. Low pedal should be diagnosed before vehicle release. ---"
+  },
+  {
+    "id": 77,
+    "category": "K4: Braking and Control Systems",
+    "question": "A disc brake pad is tapered from top to bottom. What may cause this?",
+    "options": [
+      "Caliper hardware or mounting problem",
+      "Low battery voltage",
+      "Tire overinflation",
+      "Engine oil leak only"
+    ],
+    "answer": 0,
+    "explanation": "Tapered pad wear indicates uneven pad contact. Sticking slides or hardware issues can cause it. Caliper movement should be inspected. ---"
+  },
+  {
+    "id": 78,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake rotor has deep scoring. What is the concern?",
+    "options": [
+      "Reduced contact area and noise",
+      "Higher battery charge",
+      "Improved brake performance",
+      "Lower tire wear"
+    ],
+    "answer": 0,
+    "explanation": "Deep grooves reduce smooth pad contact. They can cause noise, wear, and poor braking. Rotor condition must meet service limits. ---"
+  },
+  {
+    "id": 79,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake pedal is hard and the engine runs rough when the brake is applied. What may be leaking?",
+    "options": [
+      "Brake booster vacuum diaphragm",
+      "Tire valve stem",
+      "Coolant hose",
+      "Alternator bearing"
+    ],
+    "answer": 0,
+    "explanation": "A leaking booster can create a vacuum leak. Vacuum leaks can affect engine idle quality. The booster and vacuum hose should be tested. ---"
+  },
+  {
+    "id": 80,
+    "category": "K4: Braking and Control Systems",
+    "question": "A caliper dust boot is torn. What is the risk?",
+    "options": [
+      "Dirt may damage piston seal area",
+      "Battery may overcharge",
+      "Tire tread may grow",
+      "Coolant may leak into brake fluid"
+    ],
+    "answer": 0,
+    "explanation": "Dust boots protect the piston area from contamination. Dirt and moisture can cause corrosion or sticking. The caliper should be inspected or serviced. ---"
+  },
+  {
+    "id": 81,
+    "category": "K4: Braking and Control Systems",
+    "question": "Brake shoes are contaminated with axle grease. What is the correct repair?",
+    "options": [
+      "Replace contaminated shoes and repair leak",
+      "Wipe them with a rag only",
+      "Sand them and reuse always",
+      "Add more brake fluid"
+    ],
+    "answer": 0,
+    "explanation": "Grease reduces brake friction. Contaminated shoes can grab, slip, or pull. The leak source must also be repaired. ---"
+  },
+  {
+    "id": 82,
+    "category": "K4: Braking and Control Systems",
+    "question": "A vehicle has brake pull after a caliper replacement. What should be checked?",
+    "options": [
+      "Air, hose restriction, slide movement, and pad condition",
+      "Radio volume",
+      "Cabin light operation",
+      "Oil filter size"
+    ],
+    "answer": 0,
+    "explanation": "Brake pull can come from hydraulic or mechanical imbalance. New parts do not guarantee correct operation. Both sides should be compared. ---"
+  },
+  {
+    "id": 83,
+    "category": "K4: Braking and Control Systems",
+    "question": "Why should the master cylinder reservoir cap area be cleaned before opening?",
+    "options": [
+      "Prevents dirt from entering brake fluid",
+      "Makes the cap easier to paint",
+      "Raises brake pressure",
+      "Lowers tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Dirt in brake fluid can damage hydraulic parts. Cleaning around the cap reduces contamination. Brake systems must be kept clean. ---"
+  },
+  {
+    "id": 84,
+    "category": "K4: Braking and Control Systems",
+    "question": "A parking brake pedal travels too far before holding. What may need service?",
+    "options": [
+      "Parking brake adjustment or rear brake condition",
+      "Battery cables",
+      "Engine air filter",
+      "Coolant thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Excessive travel suggests too much cable or brake clearance. Rear brake wear or adjustment can affect holding. The system should be inspected and adjusted properly. ---"
+  },
+  {
+    "id": 85,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake hose has cracks in the outer rubber. What should be done?",
+    "options": [
+      "Replace the hose",
+      "Tape the hose",
+      "Paint the hose",
+      "Leave it until it bursts"
+    ],
+    "answer": 0,
+    "explanation": "Cracked rubber indicates hose deterioration. Brake hoses must withstand pressure and movement. Replacement is required for safety. ---"
+  },
+  {
+    "id": 86,
+    "category": "K4: Braking and Control Systems",
+    "question": "A vehicle’s brake pedal pulsates only when ABS activates on slippery roads. What does this usually mean?",
+    "options": [
+      "Normal ABS feedback",
+      "Rotor failure always",
+      "Battery failure",
+      "Low coolant"
+    ],
+    "answer": 0,
+    "explanation": "ABS modulation can be felt as pedal pulsation. On slippery roads, ABS may activate normally. The condition is different from pulsation during normal braking. ---"
+  },
+  {
+    "id": 87,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake fluid reservoir is overfilled before pushing caliper pistons back. What may happen?",
+    "options": [
+      "Fluid may overflow",
+      "Tires may deflate",
+      "Rotor thickness may increase",
+      "Battery voltage may drop"
+    ],
+    "answer": 0,
+    "explanation": "Pushing pistons back returns fluid to the reservoir. If overfilled, brake fluid can spill. Brake fluid can damage paint and should be handled carefully. ---"
+  },
+  {
+    "id": 88,
+    "category": "K4: Braking and Control Systems",
+    "question": "A vehicle has no brake lights, but the brakes work normally. What should be checked?",
+    "options": [
+      "Brake light switch, fuse, bulbs, and wiring",
+      "Brake pads only",
+      "Wheel bearings only",
+      "Tire balance"
+    ],
+    "answer": 0,
+    "explanation": "Brake lamps are an electrical circuit. Hydraulic braking can work while lights fail. The switch and circuit should be tested. ---"
+  },
+  {
+    "id": 89,
+    "category": "K4: Braking and Control Systems",
+    "question": "A caliper piston boot is melted from heat. What should the technician suspect?",
+    "options": [
+      "Brake overheating or dragging",
+      "Normal operation",
+      "Low tire pressure only",
+      "Weak battery"
+    ],
+    "answer": 0,
+    "explanation": "Excessive heat can damage rubber boots. Dragging brakes or severe overheating may be involved. The cause of heat must be diagnosed. ---"
+  },
+  {
+    "id": 90,
+    "category": "K4: Braking and Control Systems",
+    "question": "A rotor minimum thickness is stamped on the rotor. What does this specification mean?",
+    "options": [
+      "Rotor must not be used below that thickness",
+      "Rotor must always be machined below it",
+      "Tire pressure setting",
+      "Wheel nut torque"
+    ],
+    "answer": 0,
+    "explanation": "Minimum thickness is a safety limit. Below this, heat capacity and strength are reduced. Rotors below specification must be replaced. ---"
+  },
+  {
+    "id": 91,
+    "category": "K4: Braking and Control Systems",
+    "question": "A customer reports a grinding noise when braking. What is the likely immediate concern?",
+    "options": [
+      "Friction material may be worn out",
+      "Battery is fully charged",
+      "Tire pressure is perfect",
+      "Coolant is too strong"
+    ],
+    "answer": 0,
+    "explanation": "Grinding often means metal-to-metal contact. Brake pads or shoes may be severely worn. The brake system should be inspected immediately. ---"
+  },
+  {
+    "id": 92,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake system uses DOT 3 fluid. Why should mineral oil not be added?",
+    "options": [
+      "It damages rubber brake components",
+      "It improves seal life",
+      "It increases rotor thickness",
+      "It balances wheels"
+    ],
+    "answer": 0,
+    "explanation": "Mineral oil is not compatible with DOT brake systems. It can swell and destroy seals. Only specified brake fluid should be used. ---"
+  },
+  {
+    "id": 93,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake caliper bleeder is positioned at the bottom after installation. What is wrong?",
+    "options": [
+      "Air may not bleed out properly",
+      "Brake pads will last longer",
+      "Tire pressure will decrease",
+      "ABS will work better"
+    ],
+    "answer": 0,
+    "explanation": "Air rises in brake fluid. Bleeders must be positioned to release trapped air. Incorrect caliper installation can cause a soft pedal. ---"
+  },
+  {
+    "id": 94,
+    "category": "K4: Braking and Control Systems",
+    "question": "A brake pad wear sensor wire is broken. What may happen?",
+    "options": [
+      "Warning system may not operate correctly",
+      "Rotor becomes thicker",
+      "Battery charges faster",
+      "Tire pressure increases"
+    ],
+    "answer": 0,
+    "explanation": "Wear sensors warn when pads are worn. A broken wire can cause false warning or no warning. The sensor circuit should be repaired correctly. ---"
+  },
+  {
+    "id": 95,
+    "category": "K4: Braking and Control Systems",
+    "question": "A vehicle pulls to the right while braking and the left front rotor is cool after a test drive. What is likely?",
+    "options": [
+      "Left front brake may not be applying properly",
+      "Right brake is definitely perfect",
+      "Battery is weak",
+      "Tire pressure is too high only"
+    ],
+    "answer": 0,
+    "explanation": "A cool rotor may indicate little braking action. Unequal braking can cause pull. Hydraulic, caliper, and pad problems should be checked."
+  },
+  {
+    "id": 96,
+    "category": "L4: Diagnose and Repair Latches, Locks and Movable Glass",
+    "question": "A power window motor runs, but the glass does not move. What is likely?",
+    "options": [
+      "Regulator or glass attachment failure",
+      "Dead battery",
+      "Low brake fluid",
+      "Bad wheel bearing"
+    ],
+    "answer": 0,
+    "explanation": "Motor operation means electrical power is reaching the motor. If glass does not move, the mechanical linkage may be faulty. The regulator and glass mounts should be inspected. ---"
+  },
+  {
+    "id": 97,
+    "category": "L4: Diagnose and Repair Latches, Locks and Movable Glass",
+    "question": "A hood does not latch fully after being closed. What should be inspected?",
+    "options": [
+      "Hood latch alignment, cable, and striker",
+      "Alternator belt only",
+      "Rear brake shoes",
+      "Tire balance"
+    ],
+    "answer": 0,
+    "explanation": "Hood latch problems are safety-related. Misalignment, cable issues, or latch damage can prevent locking. The hood must latch securely before driving."
+  },
+  {
+    "id": 98,
+    "category": "M1: Hybrid and EV Safety Protocols",
+    "question": "Before servicing an EV cooling system near high-voltage components, what should be checked?",
+    "options": [
+      "Manufacturer high-voltage safety procedure",
+      "Radio station memory",
+      "Tire shine level",
+      "Exhaust backpressure"
+    ],
+    "answer": 0,
+    "explanation": "EV cooling systems may be near high-voltage parts. High-voltage disable steps may be required before service. Manufacturer procedures protect the technician. ---"
+  },
+  {
+    "id": 99,
+    "category": "M1: Hybrid and EV Safety Protocols",
+    "question": "A technician sees a high-voltage service plug. What is the correct approach?",
+    "options": [
+      "Remove or handle it only according to service procedure",
+      "Pull it immediately with bare hands",
+      "Cut it out permanently",
+      "Paint it black"
+    ],
+    "answer": 0,
+    "explanation": "Service plugs are part of high-voltage safety systems. Incorrect handling can create shock or arc hazards. Proper PPE and procedure may be required. ---"
+  },
+  {
+    "id": 100,
+    "category": "M1: Hybrid and EV Safety Protocols",
+    "question": "Why should high-voltage components be clearly identified before work begins?",
+    "options": [
+      "To avoid accidental contact with dangerous voltage",
+      "To improve tire balancing",
+      "To increase fuel pressure",
+      "To reset the radio"
+    ],
+    "answer": 0,
+    "explanation": "Hybrid and EV systems can contain dangerous voltage. Identifying components helps plan safe work. Technicians must avoid unapproved contact with high-voltage parts."
+  }
+];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledSheetMetalWorkerLevel1Set2Questions =
+      automotiveServiceTechnicianLevel1Set4Questions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "sheet-metal-worker",
+      tradeTitle: "Automotive Service Technician",
+      sectionTitle: "Level 1 Practice Quiz – Quiz 4",
+      questionTimeSeconds: 90,
+      questions: shuffledSheetMetalWorkerLevel1Set2Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledSheetMetalWorkerLevel1Set2Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

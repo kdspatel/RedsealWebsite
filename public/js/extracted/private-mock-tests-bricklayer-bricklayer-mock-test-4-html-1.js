@@ -1,0 +1,1668 @@
+const bricklayerRedSealInterProvincialPracticeExamSet4Questions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "A worker is using a masonry saw and water is pooling near electrical cords. What should be done first?",
+    "options": [
+      "Keep cutting carefully",
+      "Stop and remove the electrical hazard",
+      "Cover the water with dust",
+      "Move the cords with wet gloves"
+    ],
+    "answer": 1,
+    "explanation": "Water and electricity create shock hazards. The work area must be made safe before continuing. Electrical hazards should be reported and corrected immediately."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "Which hazard is most likely when lifting concrete blocks repeatedly without proper technique?",
+    "options": [
+      "Back strain",
+      "Fire explosion",
+      "Electrical burn",
+      "Chemical spill only"
+    ],
+    "answer": 0,
+    "explanation": "Concrete blocks are heavy and repetitive lifting is stressful. Poor posture increases muscle and back injury risk. Proper lifting or mechanical assistance should be used."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "A worker notices mortar splashed into another worker’s eye. What is the best action?",
+    "options": [
+      "Wait until break",
+      "Rinse the eye immediately and get help",
+      "Wipe it with a dry cloth",
+      "Cover the eye and continue working"
+    ],
+    "answer": 1,
+    "explanation": "Mortar is alkaline and can damage eyes. Immediate flushing reduces the chance of serious injury. Medical help should be obtained according to site procedure."
+  },
+  {
+    "id": 4,
+    "category": "Task 2 — Uses and Maintains Tools and Equipment",
+    "question": "A brick hammer handle is cracked. What should be done?",
+    "options": [
+      "Tape it and continue",
+      "Remove it from service",
+      "Use it only lightly",
+      "Soak it in water"
+    ],
+    "answer": 1,
+    "explanation": "A cracked handle can fail while striking. Tool failure can injure the user or nearby workers. Damaged tools should be repaired or replaced."
+  },
+  {
+    "id": 5,
+    "category": "Task 2 — Uses and Maintains Tools and Equipment",
+    "question": "Why should a masonry saw blade match the material being cut?",
+    "options": [
+      "To reduce risk of blade failure and poor cutting",
+      "To change the brick colour",
+      "To avoid using PPE",
+      "To make the saw heavier"
+    ],
+    "answer": 0,
+    "explanation": "Blades are designed for specific materials. Wrong blades can bind, overheat, or break. Correct selection improves safety and cutting quality."
+  },
+  {
+    "id": 6,
+    "category": "Task 2 — Uses and Maintains Tools and Equipment",
+    "question": "Which tool is used to mark a long straight line on a slab?",
+    "options": [
+      "Chalk line",
+      "Jointer",
+      "Mortar hoe",
+      "Brick set only"
+    ],
+    "answer": 0,
+    "explanation": "A chalk line creates a straight layout reference. It is useful for wall lines and long measurements. Accurate layout reduces construction errors."
+  },
+  {
+    "id": 7,
+    "category": "Task 3 — Uses Scaffolding",
+    "question": "A scaffold plank is cracked near the middle. What should happen?",
+    "options": [
+      "Use it only near the wall",
+      "Remove it from service",
+      "Turn it upside down",
+      "Cover the crack with mortar"
+    ],
+    "answer": 1,
+    "explanation": "Cracked planks may fail under load. A plank failure can cause falls or material drops. Defective scaffold components must not be used."
+  },
+  {
+    "id": 8,
+    "category": "Task 3 — Uses Scaffolding",
+    "question": "Why must toe boards be used where required on scaffolds?",
+    "options": [
+      "To prevent tools or materials from falling",
+      "To replace guardrails",
+      "To support brick pallets",
+      "To increase scaffold height"
+    ],
+    "answer": 0,
+    "explanation": "Toe boards help keep objects on the platform. Falling tools or materials can injure workers below. They are part of overhead hazard control."
+  },
+  {
+    "id": 9,
+    "category": "Task 3 — Uses Scaffolding",
+    "question": "What is the danger of climbing scaffold cross braces?",
+    "options": [
+      "They are not designed as safe access",
+      "They are too soft",
+      "They improve balance",
+      "They replace ladders"
+    ],
+    "answer": 0,
+    "explanation": "Cross braces are structural parts, not ladders. Climbing them increases the chance of falling. Proper ladders or stair access should be used."
+  },
+  {
+    "id": 10,
+    "category": "Task 4 — Organizes Work",
+    "question": "Why should mortar, units, and tools be staged before laying starts?",
+    "options": [
+      "To reduce delays and unnecessary movement",
+      "To block walkways",
+      "To hide damaged materials",
+      "To avoid reading drawings"
+    ],
+    "answer": 0,
+    "explanation": "Proper staging improves workflow. It reduces handling and saves time. It also helps keep the work area safer."
+  },
+  {
+    "id": 11,
+    "category": "Task 4 — Organizes Work",
+    "question": "A mason realizes the required wall ties are not on site. What should happen?",
+    "options": [
+      "Start building and add them later",
+      "Report the shortage before work continues",
+      "Replace them with nails",
+      "Leave the cavity empty"
+    ],
+    "answer": 1,
+    "explanation": "Missing materials can affect wall performance. Wall ties must be installed at the proper time. Shortages should be reported before incorrect work is built."
+  },
+  {
+    "id": 12,
+    "category": "Task 4 — Organizes Work",
+    "question": "What is the purpose of reviewing the work sequence with other trades?",
+    "options": [
+      "To avoid conflicts and improve coordination",
+      "To slow everyone down",
+      "To replace drawings",
+      "To remove safety rules"
+    ],
+    "answer": 0,
+    "explanation": "Trades often share access and work areas. Coordination prevents interference and unsafe overlap. Good planning reduces delays and rework."
+  },
+  {
+    "id": 13,
+    "category": "Task 5 — Uses Communication and Mentoring Techniques",
+    "question": "A worker does not understand a hand signal during a lift. What should they do?",
+    "options": [
+      "Guess the signal",
+      "Stop and clarify the signal",
+      "Walk under the load",
+      "Signal randomly back"
+    ],
+    "answer": 1,
+    "explanation": "Misunderstood signals can cause unsafe load movement. Lifting work needs clear communication. Clarification is safer than guessing."
+  },
+  {
+    "id": 14,
+    "category": "Task 5 — Uses Communication and Mentoring Techniques",
+    "question": "What is the best way to correct an apprentice’s repeated mistake?",
+    "options": [
+      "Explain the mistake, demonstrate the correct method, and supervise practice",
+      "Ignore it until the exam",
+      "Let the apprentice keep doing it wrong",
+      "Only criticize without instruction"
+    ],
+    "answer": 0,
+    "explanation": "Effective mentoring includes explanation and demonstration. Practice with feedback builds skill. This improves safety, quality, and confidence."
+  },
+  {
+    "id": 15,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "A substrate has loose concrete laitance before masonry installation. What should be done?",
+    "options": [
+      "Remove loose material and prepare the surface",
+      "Install over it quickly",
+      "Cover it with oil",
+      "Ignore it if dry"
+    ],
+    "answer": 0,
+    "explanation": "Loose laitance can prevent proper bond. The surface must be sound before masonry work. Preparation affects durability and quality."
+  },
+  {
+    "id": 16,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "Why should a substrate be checked for correct elevation?",
+    "options": [
+      "Wall height and coursing depend on the base level",
+      "It changes mortar colour",
+      "It removes the need for layout",
+      "It makes units waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect elevation affects course layout. Openings, sills, and wall heights may not line up. Checking early prevents major rework."
+  },
+  {
+    "id": 17,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "A bonding surface has grease contamination. What is the correct action?",
+    "options": [
+      "Clean it before installation",
+      "Apply mortar thicker",
+      "Wet it more",
+      "Cover it with sand only"
+    ],
+    "answer": 0,
+    "explanation": "Grease prevents bonding materials from adhering. Mortar or adhesive may fail on contaminated surfaces. The surface must be cleaned as required."
+  },
+  {
+    "id": 18,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "Why is substrate strength important before installing heavy veneer?",
+    "options": [
+      "The substrate must support the veneer system",
+      "Weak substrate improves bond",
+      "Veneer needs no support",
+      "Mortar carries all loads alone"
+    ],
+    "answer": 0,
+    "explanation": "Heavy veneer depends on the backing support. Weak substrates can lead to cracking or failure. Unsuitable surfaces must be corrected before work."
+  },
+  {
+    "id": 19,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "A wall is prepared for veneer, but the air barrier is torn. What should be done?",
+    "options": [
+      "Repair the damaged barrier as required",
+      "Cover it with stone immediately",
+      "Ignore it because it is hidden",
+      "Fill the tear with dry sand"
+    ],
+    "answer": 0,
+    "explanation": "Air and moisture barriers are part of the wall system. Tears can allow air or water leakage. Damage should be repaired before covering."
+  },
+  {
+    "id": 20,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "Why should control lines be marked clearly before masonry begins?",
+    "options": [
+      "They guide wall location and alignment",
+      "They replace mortar joints",
+      "They make units lighter",
+      "They are only decoration"
+    ],
+    "answer": 0,
+    "explanation": "Control lines show where work must be placed. Clear marks help keep the wall accurate. Poor layout can affect the entire project."
+  },
+  {
+    "id": 21,
+    "category": "Task 6 — Performs Substrate Preparation",
+    "question": "What should be done if a prepared surface is exposed to dust again before installation?",
+    "options": [
+      "Clean it again before applying materials",
+      "Continue because it was cleaned once",
+      "Add more water only",
+      "Cover it with paint"
+    ],
+    "answer": 0,
+    "explanation": "Dust can return after preparation. Bonding requires a clean surface at installation time. Final cleaning helps prevent adhesion failure."
+  },
+  {
+    "id": 22,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "Why should masonry units be placed, not slid excessively, into mortar?",
+    "options": [
+      "Excessive sliding can disturb the mortar bed",
+      "Sliding always improves bond",
+      "Sliding removes the need for joints",
+      "Sliding makes the unit lighter"
+    ],
+    "answer": 0,
+    "explanation": "Units should be set carefully into mortar. Too much movement can reduce bedding quality. Good placement improves bond and alignment."
+  },
+  {
+    "id": 23,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "A mason notices the bed joint is too thick in one course. What can this affect?",
+    "options": [
+      "Coursing and appearance",
+      "Worker gloves",
+      "Tool colour",
+      "Scaffold tag"
+    ],
+    "answer": 0,
+    "explanation": "Thick joints change course height. They can make the wall look uneven. Consistent joints help maintain layout."
+  },
+  {
+    "id": 24,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "What is the purpose of a story pole?",
+    "options": [
+      "To mark and check course heights",
+      "To mix mortar",
+      "To lift pallets",
+      "To clean scaffold planks"
+    ],
+    "answer": 0,
+    "explanation": "A story pole records course layout. It helps maintain correct heights. It is useful around openings and corners."
+  },
+  {
+    "id": 25,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "Why should masonry units be checked for absorption conditions?",
+    "options": [
+      "Very dry or wet units can affect mortar bond",
+      "Absorption changes scaffold strength",
+      "Wet units need no mortar",
+      "Dry units are always best"
+    ],
+    "answer": 0,
+    "explanation": "Unit moisture affects mortar performance. Excessive suction can dry mortar too quickly. Too much moisture can also reduce bond."
+  },
+  {
+    "id": 26,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "A mason lays a corner out of plumb. What is the result?",
+    "options": [
+      "The wall lines may follow the error",
+      "The wall becomes stronger",
+      "Mortar dries faster",
+      "The joint size corrects itself"
+    ],
+    "answer": 0,
+    "explanation": "Corners guide the wall between them. An out-of-plumb corner affects wall alignment. Corners must be checked frequently."
+  },
+  {
+    "id": 27,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "Why should joint finish be consistent across the wall?",
+    "options": [
+      "It affects appearance and weather resistance",
+      "It makes walls weaker",
+      "It removes the need for cleaning",
+      "It changes brick size"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile is visible in finished masonry. Consistent tooling improves appearance. Proper profiles also help shed water."
+  },
+  {
+    "id": 28,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "What is the purpose of cleaning mortar from cavities during construction?",
+    "options": [
+      "To prevent drainage blockage",
+      "To store more mortar",
+      "To stop air movement completely",
+      "To replace flashing"
+    ],
+    "answer": 0,
+    "explanation": "Mortar droppings can block cavities and weeps. Blocked drainage traps water. Clean cavities support moisture control."
+  },
+  {
+    "id": 29,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "A unit is too high after placement. What should be done while mortar is fresh?",
+    "options": [
+      "Reset it to the correct height",
+      "Leave it and adjust all future courses",
+      "Grind the top next week",
+      "Hide it with sealer"
+    ],
+    "answer": 0,
+    "explanation": "High units affect level and joint thickness. Fresh mortar allows correction. Accurate course height prevents layout problems."
+  },
+  {
+    "id": 30,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "Why are clean, accurate cuts important around openings?",
+    "options": [
+      "Openings are visible and require proper fit",
+      "Rough cuts improve quality",
+      "Cuts replace lintels",
+      "Cuts remove the need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Door and window areas are highly visible. Poor cuts affect appearance and fit. Accurate cuts reduce gaps and rework."
+  },
+  {
+    "id": 31,
+    "category": "Task 7 — Performs Fundamental Masonry Tasks",
+    "question": "What should be done if fresh masonry is exposed to strong hot wind?",
+    "options": [
+      "Protect it from rapid drying",
+      "Leave it uncovered always",
+      "Add dry cement to joints",
+      "Wash out the mortar"
+    ],
+    "answer": 0,
+    "explanation": "Hot wind can dry mortar too quickly. Rapid drying can reduce bond and curing quality. Protection helps fresh masonry gain strength."
+  },
+  {
+    "id": 32,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "Why should mortar be mixed for the correct amount of time?",
+    "options": [
+      "To produce uniform consistency",
+      "To remove cement",
+      "To make sand disappear",
+      "To avoid workability"
+    ],
+    "answer": 0,
+    "explanation": "Proper mixing distributes ingredients evenly. Uniform mortar improves workability and bond. Under-mixing can create weak or inconsistent batches."
+  },
+  {
+    "id": 33,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "What is a risk of adding dry cement to stiff mortar on the board?",
+    "options": [
+      "It can create an improper, inconsistent mix",
+      "It always restores original strength",
+      "It makes mortar self-leveling",
+      "It replaces sand"
+    ],
+    "answer": 0,
+    "explanation": "Field-adjusting stiff mortar incorrectly affects quality. Mortar proportions may become inconsistent. Mortar should be mixed and used according to requirements."
+  },
+  {
+    "id": 34,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "Why should grout placement be monitored during a pour?",
+    "options": [
+      "To confirm cells are filling properly",
+      "To change block colour",
+      "To avoid consolidation",
+      "To reduce reinforcement cover"
+    ],
+    "answer": 0,
+    "explanation": "Grout can bridge or leave voids. Monitoring helps ensure proper fill. Complete grouting is important for reinforced masonry."
+  },
+  {
+    "id": 35,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "A worker uses adhesive on a frozen surface. What is the concern?",
+    "options": [
+      "Adhesion and curing may fail",
+      "Freezing improves bond",
+      "Ice acts as primer",
+      "Adhesive needs cold to cure"
+    ],
+    "answer": 0,
+    "explanation": "Frozen surfaces prevent proper bonding. Many adhesives need specific temperature conditions. Work should follow product requirements."
+  },
+  {
+    "id": 36,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "Why should mortar colour be controlled on exposed masonry?",
+    "options": [
+      "Colour variation affects finished appearance",
+      "Colour affects scaffold strength",
+      "Mortar colour is never visible",
+      "Colour replaces tooling"
+    ],
+    "answer": 0,
+    "explanation": "Exposed joints are part of the finished wall. Different batches can dry with different colours. Consistent materials and mixing improve appearance."
+  },
+  {
+    "id": 37,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "What is the purpose of using the specified grout strength?",
+    "options": [
+      "To meet structural design requirements",
+      "To make grout decorative only",
+      "To avoid reinforcement",
+      "To reduce wall stability"
+    ],
+    "answer": 0,
+    "explanation": "Grout strength is part of the structural design. Using the wrong grout may reduce performance. Specifications must be followed."
+  },
+  {
+    "id": 38,
+    "category": "Task 8 — Uses Mortars, Grouts and Adhesives",
+    "question": "Why should adhesive containers be kept closed when not in use?",
+    "options": [
+      "To prevent contamination or drying",
+      "To make them harder to open",
+      "To increase waste",
+      "To change the product colour"
+    ],
+    "answer": 0,
+    "explanation": "Open containers can collect dust or debris. Some products may skin over or dry out. Proper storage maintains product performance."
+  },
+  {
+    "id": 39,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "What is the purpose of a vertical control joint in a long concrete block wall?",
+    "options": [
+      "To manage shrinkage and movement",
+      "To carry scaffold loads",
+      "To replace bed joints",
+      "To store mortar"
+    ],
+    "answer": 0,
+    "explanation": "Long masonry walls can shrink or move. Control joints help prevent random cracking. They must be installed as shown or specified."
+  },
+  {
+    "id": 40,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "A wall has no lintel over a doorway. What is the concern?",
+    "options": [
+      "Masonry above the opening lacks proper support",
+      "The doorway becomes stronger",
+      "Mortar will support everything alone",
+      "The wall becomes lighter"
+    ],
+    "answer": 0,
+    "explanation": "Openings need structural support above them. Lintels transfer loads to each side. Missing support can cause cracking or collapse."
+  },
+  {
+    "id": 41,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "Why should the cavity behind veneer not be filled with mortar?",
+    "options": [
+      "It must allow drainage and air space",
+      "It should store mortar waste",
+      "It replaces insulation",
+      "It makes weeps unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Cavities manage moisture behind veneer. Mortar filling can trap water and block drainage. Clean cavities improve wall performance."
+  },
+  {
+    "id": 42,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "A reinforced block wall has cells that do not line up vertically. What problem can result?",
+    "options": [
+      "Rebar and grout may not fit or flow properly",
+      "Mortar becomes stronger",
+      "Wall colour improves",
+      "Control joints are unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Reinforced cells must align. Misalignment can block reinforcement or grout. Proper unit placement is important in structural masonry."
+  },
+  {
+    "id": 43,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "Why should wall ties be embedded in mortar joints correctly?",
+    "options": [
+      "To secure veneer to the backing wall",
+      "To hold scaffold platforms",
+      "To replace flashing",
+      "To clean cavities"
+    ],
+    "answer": 0,
+    "explanation": "Wall ties anchor veneer to the structure. Incorrect embedment reduces support. Tie spacing and placement must meet requirements."
+  },
+  {
+    "id": 44,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "A flashing membrane is punctured during construction. What should be done?",
+    "options": [
+      "Repair it before it is covered",
+      "Ignore it because it is hidden",
+      "Cover it with mortar droppings",
+      "Remove weep holes"
+    ],
+    "answer": 0,
+    "explanation": "Damaged flashing can allow water entry. Once covered, repair becomes difficult. Flashing should be continuous and functional."
+  },
+  {
+    "id": 45,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "Why is a bond beam often grouted and reinforced?",
+    "options": [
+      "To tie the wall horizontally",
+      "To replace all vertical joints",
+      "To make the wall hollow",
+      "To avoid inspections"
+    ],
+    "answer": 0,
+    "explanation": "Bond beams provide horizontal reinforcement. They help distribute loads and tie sections together. They must be built according to drawings."
+  },
+  {
+    "id": 46,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "A mason forgets to install weep holes at the bottom of veneer. What may happen?",
+    "options": [
+      "Water may remain trapped in the wall",
+      "Drainage improves",
+      "Wall ties become unnecessary",
+      "Mortar becomes waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Weep holes allow collected water to escape. Without them, moisture can stay in the cavity. Trapped moisture can damage the wall system."
+  },
+  {
+    "id": 47,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "What should be checked before placing masonry above a fresh opening support?",
+    "options": [
+      "Lintel bearing and temporary support requirements",
+      "Worker phone battery",
+      "Mortar board size",
+      "Brick colour only"
+    ],
+    "answer": 0,
+    "explanation": "Lintels must be properly supported. Fresh masonry above openings adds load. Incorrect support may cause settlement or failure."
+  },
+  {
+    "id": 48,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "Why should structural masonry follow the current drawing revision?",
+    "options": [
+      "Old drawings may show outdated requirements",
+      "Old drawings are always correct",
+      "Revision dates do not matter",
+      "Drawings are optional"
+    ],
+    "answer": 0,
+    "explanation": "Revisions can change dimensions or reinforcement. Using old information can create unsafe work. Current documents should be confirmed before building."
+  },
+  {
+    "id": 49,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "A wall is built with several cracked blocks in a high-load area. What is the concern?",
+    "options": [
+      "Load-bearing capacity may be reduced",
+      "Cracks improve grout flow",
+      "The wall becomes more flexible",
+      "Mortar replaces block strength fully"
+    ],
+    "answer": 0,
+    "explanation": "Structural areas require sound units. Cracked blocks may not carry loads properly. Damaged units should be rejected where strength matters."
+  },
+  {
+    "id": 50,
+    "category": "Task 9 — Builds Masonry Walls",
+    "question": "Why should expansion joint material be installed as specified?",
+    "options": [
+      "To allow movement without hard restraint",
+      "To make the joint solid",
+      "To replace reinforcement",
+      "To block all movement"
+    ],
+    "answer": 0,
+    "explanation": "Expansion joints accommodate movement. Hard material in the joint can restrict movement. Restriction can lead to cracking."
+  },
+  {
+    "id": 51,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "A patio is built without compacting the base. What is likely to happen?",
+    "options": [
+      "Settlement and uneven surface",
+      "Stronger paver lock",
+      "Better drainage always",
+      "No movement forever"
+    ],
+    "answer": 0,
+    "explanation": "A weak base cannot support pavers evenly. Uncompacted material can settle over time. Compaction is essential for durability."
+  },
+  {
+    "id": 52,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "Why should a coping overhang the wall below?",
+    "options": [
+      "To help shed water away from the face",
+      "To make the wall shorter",
+      "To remove need for mortar",
+      "To store water"
+    ],
+    "answer": 0,
+    "explanation": "Overhangs help water drip clear of the wall. This reduces staining and moisture absorption. Coping details protect masonry below."
+  },
+  {
+    "id": 53,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "A paver edge begins spreading outward. What was likely missing or weak?",
+    "options": [
+      "Edge restraint",
+      "Joint colour",
+      "Glass block spacer",
+      "Chimney cap"
+    ],
+    "answer": 0,
+    "explanation": "Edge restraints hold pavers in position. Without them, pavers can move under traffic. A stable edge is part of the paving system."
+  },
+  {
+    "id": 54,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "Why should horizontal masonry surfaces be protected during curing?",
+    "options": [
+      "Weather can damage fresh joints or bedding",
+      "Rain always improves fresh mortar",
+      "Protection removes slope",
+      "Protection replaces compaction"
+    ],
+    "answer": 0,
+    "explanation": "Fresh materials can be washed or dried too quickly. Weather damage affects bond and appearance. Protection helps the work cure properly."
+  },
+  {
+    "id": 55,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "A stone step is uneven and creates a trip hazard. What should be done?",
+    "options": [
+      "Reset or correct it before use",
+      "Leave it if it looks natural",
+      "Add dust around it",
+      "Paint a line only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven walking surfaces are safety hazards. Steps must be stable and properly aligned. Correcting the stone prevents trips and injuries."
+  },
+  {
+    "id": 56,
+    "category": "Task 10 — Builds Horizontal Masonry Surfaces",
+    "question": "Why should joints in pavers be refilled after initial compaction if needed?",
+    "options": [
+      "Joint material settles during compaction",
+      "Empty joints improve interlock",
+      "Sand removes edge restraints",
+      "Compaction makes joints unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Compaction vibrates sand deeper into joints. More sand may be needed to fill the joints completely. Full joints improve interlock."
+  },
+  {
+    "id": 57,
+    "category": "Task 11 — Builds and Installs Prefabricated Masonry",
+    "question": "A prefabricated masonry unit is installed in the wrong location. What can happen?",
+    "options": [
+      "Connections and dimensions may not fit",
+      "It always fits better",
+      "It becomes lighter",
+      "It no longer needs support"
+    ],
+    "answer": 0,
+    "explanation": "Prefabricated units are often location-specific. Wrong placement can cause connection and alignment problems. Unit numbers and drawings should be checked."
+  },
+  {
+    "id": 58,
+    "category": "Task 11 — Builds and Installs Prefabricated Masonry",
+    "question": "Why should tag lines be used when required during panel hoisting?",
+    "options": [
+      "To control movement from a safer position",
+      "To pull workers under the load",
+      "To replace rigging inspection",
+      "To lift more than capacity"
+    ],
+    "answer": 0,
+    "explanation": "Tag lines help control swinging loads. They allow workers to stay clear of danger areas. They must be used safely."
+  },
+  {
+    "id": 59,
+    "category": "Task 11 — Builds and Installs Prefabricated Masonry",
+    "question": "A panel connection hole does not align with the structure. What is the correct action?",
+    "options": [
+      "Stop and get direction before modifying",
+      "Drill randomly",
+      "Force the bolt through",
+      "Leave the connection incomplete"
+    ],
+    "answer": 0,
+    "explanation": "Connection details are part of the design. Field modification can affect safety. Direction should be obtained before changes."
+  },
+  {
+    "id": 60,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "Why should dry-stacked units be seated firmly before coating?",
+    "options": [
+      "Loose units can move and weaken the wall",
+      "Loose units improve coating bond",
+      "Coating removes all movement",
+      "Firm seating is only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Surface-bonded systems still need stable units. Movement before coating affects alignment. Proper seating supports the system."
+  },
+  {
+    "id": 61,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "What can happen if surface bonding cement is applied over standing water?",
+    "options": [
+      "Bond and curing may be affected",
+      "Strength always increases",
+      "Water replaces mixing",
+      "Coating becomes waterproof instantly"
+    ],
+    "answer": 0,
+    "explanation": "Excess water can interfere with adhesion. Surface bonding materials need proper surface condition. Manufacturer requirements should be followed."
+  },
+  {
+    "id": 62,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "Why should surface-bonded walls be checked for plumb before coating?",
+    "options": [
+      "Coating locks in the wall appearance",
+      "Coating makes walls self-align",
+      "Plumb is never required",
+      "Coating replaces layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Once coated, correction is harder. Out-of-plumb walls remain visibly incorrect. Alignment should be corrected first."
+  },
+  {
+    "id": 63,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "A surface bonding mix is very watery. What is the concern?",
+    "options": [
+      "It may not reach required thickness or strength",
+      "It improves all performance",
+      "It makes units disappear",
+      "It removes curing needs"
+    ],
+    "answer": 0,
+    "explanation": "Too much water weakens cement-based products. It may sag or fail to cover properly. Mix ratios must follow instructions."
+  },
+  {
+    "id": 64,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "Why is surface texture important before applying bonding cement?",
+    "options": [
+      "It can affect mechanical bond",
+      "Texture changes worker safety boots",
+      "Smooth dust improves adhesion",
+      "Texture replaces curing"
+    ],
+    "answer": 0,
+    "explanation": "Surface bonding needs good contact and grip. Loose or unsuitable surfaces reduce adhesion. Preparation must match system requirements."
+  },
+  {
+    "id": 65,
+    "category": "Task 12 — Installs Surface-Bonded Masonry Units",
+    "question": "What should be done if fresh surface bonding cement begins to crack during curing?",
+    "options": [
+      "Review curing conditions and repair as directed",
+      "Ignore all cracks",
+      "Add oil to the surface",
+      "Remove all units immediately"
+    ],
+    "answer": 0,
+    "explanation": "Cracking can indicate poor curing or application. The cause should be checked before continuing. Repairs should follow product instructions."
+  },
+  {
+    "id": 66,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "Why should stones be laid with the largest face stable in the wall where possible?",
+    "options": [
+      "To improve bearing and stability",
+      "To make the wall weaker",
+      "To reduce contact area",
+      "To remove mortar"
+    ],
+    "answer": 0,
+    "explanation": "Stable bearing reduces rocking. Good contact helps transfer load. Stone placement affects wall strength."
+  },
+  {
+    "id": 67,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "A stone wall has many small chips used as main face stones. What is the concern?",
+    "options": [
+      "Poor stability and appearance",
+      "Better bonding",
+      "Stronger wall base",
+      "Less need for mortar"
+    ],
+    "answer": 0,
+    "explanation": "Small chips may not provide stable face support. They can create weak or unattractive work. Face stones should be selected properly."
+  },
+  {
+    "id": 68,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "What is the purpose of breaking vertical joints in natural stone work?",
+    "options": [
+      "To improve interlock between stones",
+      "To create one continuous crack",
+      "To weaken the wall",
+      "To avoid bonding"
+    ],
+    "answer": 0,
+    "explanation": "Broken joints prevent continuous weak lines. They help stones interlock. This improves wall stability."
+  },
+  {
+    "id": 69,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "Why should stone wall hearting be tightly fitted, not loose rubble?",
+    "options": [
+      "Loose hearting can settle and reduce stability",
+      "Loose hearting always strengthens the wall",
+      "The core should remain empty",
+      "Hearting replaces face stones"
+    ],
+    "answer": 0,
+    "explanation": "Hearting supports the inside of the wall. Loose rubble can shift over time. Properly fitted stones improve stability."
+  },
+  {
+    "id": 70,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "A stone is placed with a visible stained face outward. What should be considered?",
+    "options": [
+      "Use a cleaner face in visible work",
+      "Stains always improve appearance",
+      "Face selection does not matter",
+      "Hide it with thick joints only"
+    ],
+    "answer": 0,
+    "explanation": "Face selection affects finished appearance. Visible stones should be suitable and clean. Sorting before laying improves quality."
+  },
+  {
+    "id": 71,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "Why should thick mortar beds under stone be avoided when possible?",
+    "options": [
+      "Stones should be well fitted and stable",
+      "Thick mortar always improves strength",
+      "Mortar should replace stone fitting",
+      "Thick beds prevent all movement"
+    ],
+    "answer": 0,
+    "explanation": "Stone walls rely on good fitting and bearing. Excessively thick mortar beds can shrink or weaken. Proper stone selection reduces heavy bedding."
+  },
+  {
+    "id": 72,
+    "category": "Task 13 — Builds Natural Stone Walls",
+    "question": "A natural stone wall is exposed to freeze-thaw conditions. Why is proper drainage important?",
+    "options": [
+      "Water trapped in the wall can freeze and damage it",
+      "Water makes stone stronger",
+      "Drainage removes the need for joints",
+      "Freeze-thaw improves mortar"
+    ],
+    "answer": 0,
+    "explanation": "Water expands when it freezes. Trapped moisture can crack stone or mortar. Drainage improves wall durability."
+  },
+  {
+    "id": 73,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "What is the purpose of kerfs or slots in mechanically fastened stone?",
+    "options": [
+      "To receive anchors or supports",
+      "To collect water",
+      "To weaken the stone intentionally",
+      "To replace joints"
+    ],
+    "answer": 0,
+    "explanation": "Kerfs and slots connect stone to anchors. They must be cut accurately. Damaged slots can reduce support."
+  },
+  {
+    "id": 74,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "A cladding anchor is installed into weak backing material. What is the danger?",
+    "options": [
+      "The anchor may not hold the stone safely",
+      "The stone becomes lighter",
+      "Rust stops completely",
+      "Joint sealant becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Anchors depend on sound backing. Weak backing can lead to cladding failure. Support conditions must be verified."
+  },
+  {
+    "id": 75,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "Why must stone cladding have proper joint sealant where specified?",
+    "options": [
+      "To manage water and movement",
+      "To glue scaffold to stone",
+      "To replace anchors",
+      "To make joints solid stone"
+    ],
+    "answer": 0,
+    "explanation": "Sealant can help control moisture entry. It also allows movement at joints. Sealant must be compatible and correctly installed."
+  },
+  {
+    "id": 76,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "A stone panel is chipped at an anchor slot. What should be done?",
+    "options": [
+      "Report it before installation",
+      "Install it and hope it holds",
+      "Fill the chip with dirt",
+      "Remove all anchors nearby"
+    ],
+    "answer": 0,
+    "explanation": "Anchor slot damage can affect load support. The stone may not be safe to install. Damaged panels must be reviewed."
+  },
+  {
+    "id": 77,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "Why is shimming sometimes used in stone cladding installation?",
+    "options": [
+      "To align and support panels correctly",
+      "To replace all anchors",
+      "To make joints disappear",
+      "To weaken the stone"
+    ],
+    "answer": 0,
+    "explanation": "Shims can help achieve correct alignment. They must be suitable and approved. Improper shimming can create stress points."
+  },
+  {
+    "id": 78,
+    "category": "Task 14 — Performs Mechanically-Fastened Natural Stone Cladding Procedures",
+    "question": "What can happen if final cladding connections are tightened unevenly?",
+    "options": [
+      "Stone may be stressed or misaligned",
+      "Stone becomes stronger every time",
+      "Joints become perfectly uniform",
+      "Anchors become decorative only"
+    ],
+    "answer": 0,
+    "explanation": "Uneven tightening can twist or stress panels. Stone is brittle and may crack. Connections should be completed according to procedure."
+  },
+  {
+    "id": 79,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "What is the function of a chimney liner?",
+    "options": [
+      "To provide a safe passage for combustion gases",
+      "To decorate the outside wall",
+      "To support scaffold",
+      "To hold roof insulation"
+    ],
+    "answer": 0,
+    "explanation": "A liner protects the chimney and building. It carries smoke and gases to the outside. It must be sound and continuous."
+  },
+  {
+    "id": 80,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "A chimney crown is flat and holds water. What should be corrected?",
+    "options": [
+      "It should slope to shed water",
+      "It should hold more water",
+      "It should be removed completely",
+      "It should drain into the flue"
+    ],
+    "answer": 0,
+    "explanation": "Crowns protect chimneys from weather. Slope helps drain water away. Standing water can lead to cracking and leaks."
+  },
+  {
+    "id": 81,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "Why should chimney mortar joints be well tooled?",
+    "options": [
+      "To improve weather resistance",
+      "To trap rainwater",
+      "To remove bond",
+      "To reduce stability"
+    ],
+    "answer": 0,
+    "explanation": "Chimneys are exposed to weather. Compacted joints resist water better. Poor joints can deteriorate quickly."
+  },
+  {
+    "id": 82,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "A chimney cleanout door is missing. What is the concern?",
+    "options": [
+      "Maintenance access may be limited",
+      "Smoke draft improves",
+      "The chimney becomes stronger",
+      "The flue disappears"
+    ],
+    "answer": 0,
+    "explanation": "Cleanouts allow soot and debris removal. Without access, maintenance is harder. Blocked chimneys can become unsafe."
+  },
+  {
+    "id": 83,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "Why is chimney height above the roof important?",
+    "options": [
+      "It affects draft and safe venting",
+      "It changes brick colour",
+      "It replaces flashing",
+      "It reduces mortar strength"
+    ],
+    "answer": 0,
+    "explanation": "Chimney height influences draft. Improper height can cause smoke problems. Height must meet code and design requirements."
+  },
+  {
+    "id": 84,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "A flue liner joint is misaligned and creates a ledge inside the flue. What may happen?",
+    "options": [
+      "Soot buildup and poor flow",
+      "Better draft",
+      "Less maintenance",
+      "Stronger liner"
+    ],
+    "answer": 0,
+    "explanation": "Ledges can catch soot and restrict gases. Flues should be smooth and aligned. Proper flow is needed for safe operation."
+  },
+  {
+    "id": 85,
+    "category": "Task 15 — Builds Chimneys",
+    "question": "Why should chimney flashing be installed in correct sequence with roofing?",
+    "options": [
+      "To prevent water entry",
+      "To support the chimney",
+      "To make smoke colder",
+      "To replace the crown"
+    ],
+    "answer": 0,
+    "explanation": "Flashing directs water away from roof joints. Incorrect sequence can cause leaks. Coordination with roofing is important."
+  },
+  {
+    "id": 86,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "Why is firebox depth important?",
+    "options": [
+      "It affects draft and heat reflection",
+      "It changes scaffold height",
+      "It replaces the flue",
+      "It removes need for firebrick"
+    ],
+    "answer": 0,
+    "explanation": "Fireplace proportions affect performance. Incorrect depth can cause smoke or poor heat output. Design dimensions must be followed."
+  },
+  {
+    "id": 87,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "A firebox is built with regular mortar instead of refractory mortar where specified. What is the risk?",
+    "options": [
+      "Mortar may fail under heat",
+      "It becomes stronger in fire",
+      "It improves draft",
+      "It replaces firebrick"
+    ],
+    "answer": 0,
+    "explanation": "Fireboxes experience high temperatures. Refractory mortar is designed for heat. Ordinary mortar may crack or deteriorate."
+  },
+  {
+    "id": 88,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "What is the purpose of the smoke chamber slope?",
+    "options": [
+      "To guide smoke smoothly toward the flue",
+      "To trap smoke in the room",
+      "To hold firewood",
+      "To reduce chimney height"
+    ],
+    "answer": 0,
+    "explanation": "Smooth smoke chamber shape improves draft. Rough or incorrect slopes can cause turbulence. Poor smoke flow can lead to smoking."
+  },
+  {
+    "id": 89,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "Why should a fireplace opening not be changed without checking design?",
+    "options": [
+      "Opening size affects draft and safety",
+      "Any opening size works",
+      "Bigger is always better",
+      "Opening size affects only appearance"
+    ],
+    "answer": 0,
+    "explanation": "Fireplace opening size must match flue and throat. Incorrect proportions can cause smoke spillage. Design requirements should be followed."
+  },
+  {
+    "id": 90,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "What is the purpose of non-combustible hearth material?",
+    "options": [
+      "To protect against heat and sparks",
+      "To hold water",
+      "To reduce chimney draft",
+      "To replace the damper"
+    ],
+    "answer": 0,
+    "explanation": "Hearths are exposed to heat and sparks. Non-combustible material reduces fire risk. Proper dimensions and materials are required."
+  },
+  {
+    "id": 91,
+    "category": "Task 16 — Builds Fireplaces",
+    "question": "A damper does not open fully after installation. What can result?",
+    "options": [
+      "Poor draft and smoke spillage",
+      "Better airflow",
+      "Stronger firebrick",
+      "Less maintenance forever"
+    ],
+    "answer": 0,
+    "explanation": "The damper controls flue opening. Restricted opening can reduce draft. It should be checked for proper operation."
+  },
+  {
+    "id": 92,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "Why should refractory brick be laid with correct joint thickness?",
+    "options": [
+      "Heat performance and durability depend on it",
+      "Wide joints are always stronger",
+      "Joints are only decorative",
+      "Joint thickness does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Refractory joints are exposed to high heat. Incorrect thickness can lead to failure. Specifications must be followed."
+  },
+  {
+    "id": 93,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "A refractory wall has no allowance for thermal movement. What is likely?",
+    "options": [
+      "Cracking during heating",
+      "Better heat resistance",
+      "Less stress",
+      "Automatic expansion control"
+    ],
+    "answer": 0,
+    "explanation": "Refractory materials expand with heat. Movement must be allowed. Without allowance, stress can crack the lining."
+  },
+  {
+    "id": 94,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "Why should refractory materials be kept dry before installation when required?",
+    "options": [
+      "Excess moisture can affect installation and dry-out",
+      "Water always improves refractories",
+      "Wet materials need no curing",
+      "Moisture prevents expansion"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can create problems during heating. Dry-out procedures must be controlled. Material storage affects final performance."
+  },
+  {
+    "id": 95,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "A refractory lining is exposed to chemicals as well as heat. What should be checked?",
+    "options": [
+      "Chemical and temperature compatibility",
+      "Worker boot colour",
+      "Scaffold size only",
+      "Mortar smell"
+    ],
+    "answer": 0,
+    "explanation": "Some refractories resist heat but not certain chemicals. Service conditions determine material choice. Specifications and product data are important."
+  },
+  {
+    "id": 96,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "Why is controlled heat-up important after refractory installation?",
+    "options": [
+      "It removes moisture safely and reduces damage",
+      "Fast heating is always best",
+      "It replaces expansion joints",
+      "It makes cracks disappear"
+    ],
+    "answer": 0,
+    "explanation": "New refractory work may contain moisture. Rapid heating can create steam pressure. Controlled heat-up reduces spalling and cracking."
+  },
+  {
+    "id": 97,
+    "category": "Task 17 — Installs and Maintains Refractories",
+    "question": "A refractory anchor is installed incorrectly. What can happen?",
+    "options": [
+      "Lining support may fail",
+      "Heat resistance improves",
+      "Mortar joints become stronger",
+      "Expansion stops completely"
+    ],
+    "answer": 0,
+    "explanation": "Anchors hold refractory linings in place. Incorrect installation can lead to movement or failure. Anchor layout must follow the design."
+  },
+  {
+    "id": 98,
+    "category": "Task 18 — Installs and Maintains Corrosion Resistant Materials",
+    "question": "Why should chemical exposure be known before selecting corrosion-resistant materials?",
+    "options": [
+      "Materials resist different chemicals differently",
+      "All materials resist all chemicals",
+      "Chemicals improve ordinary mortar",
+      "Exposure affects only colour"
+    ],
+    "answer": 0,
+    "explanation": "Corrosion resistance depends on compatibility. Wrong materials may deteriorate quickly. Product data and specifications must be checked."
+  },
+  {
+    "id": 99,
+    "category": "Task 18 — Installs and Maintains Corrosion Resistant Materials",
+    "question": "A corrosion-resistant lining has pinholes. What is the concern?",
+    "options": [
+      "Chemicals may reach the substrate",
+      "Pinholes improve drainage",
+      "The lining becomes stronger",
+      "Pinholes are always required"
+    ],
+    "answer": 0,
+    "explanation": "Pinholes are pathways for chemical attack. They reduce protection of the substrate. Lining quality must be inspected."
+  },
+  {
+    "id": 100,
+    "category": "Task 18 — Installs and Maintains Corrosion Resistant Materials",
+    "question": "Why should mixing ratios be followed for chemical-resistant mortar?",
+    "options": [
+      "Incorrect ratios can reduce resistance and strength",
+      "Extra liquid always improves it",
+      "Ratios affect only colour",
+      "Mixing is not required"
+    ],
+    "answer": 0,
+    "explanation": "Chemical-resistant products are designed for exact ratios. Wrong mixing can reduce performance. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 101,
+    "category": "Task 18 — Installs and Maintains Corrosion Resistant Materials",
+    "question": "What should be done if a corrosion-resistant product is past its shelf life?",
+    "options": [
+      "Do not use it unless approved by the manufacturer or supervisor",
+      "Use it faster",
+      "Mix it with water only",
+      "Apply it thicker without checking"
+    ],
+    "answer": 0,
+    "explanation": "Expired products may not perform correctly. Chemical resistance or bond may be reduced. Product condition must be verified before use."
+  },
+  {
+    "id": 102,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason rebuilds a wall section but does not match the original joint profile. What is the issue?",
+    "options": [
+      "The repair may look different from existing work",
+      "The wall becomes stronger automatically",
+      "Joint profile does not affect appearance",
+      "Mortar no longer cures"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile is visible in restoration. Matching existing work helps the repair blend in. Poor matching reduces finished quality."
+  },
+  {
+    "id": 103,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should deteriorated units be removed only as far as necessary?",
+    "options": [
+      "To preserve sound existing masonry",
+      "To make the repair larger",
+      "To increase demolition time",
+      "To remove all original material"
+    ],
+    "answer": 0,
+    "explanation": "Restoration aims to keep sound original work. Unnecessary removal can cause extra damage. Careful removal preserves the structure."
+  },
+  {
+    "id": 104,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt area uses units with a different absorption rate from the original. What can this affect?",
+    "options": [
+      "Mortar bond and moisture behaviour",
+      "Scaffold access",
+      "Tool sharpening",
+      "Worker communication"
+    ],
+    "answer": 0,
+    "explanation": "Different absorption changes how units interact with mortar. It can affect bond and durability. Replacement materials should be compatible."
+  },
+  {
+    "id": 105,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should hidden cavities be inspected during rebuilding?",
+    "options": [
+      "They may contain moisture damage or debris",
+      "They are always perfect",
+      "They replace repair work",
+      "They make mortar unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Hidden areas can show the cause of failure. Debris or moisture may need correction. Inspection improves repair quality."
+  },
+  {
+    "id": 106,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall is rebuilt without tying into the existing masonry properly. What may happen?",
+    "options": [
+      "Weak connection between old and new work",
+      "Better bond automatically",
+      "Stronger colour match",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "New work must connect properly to existing masonry. Poor bonding can create cracks or separation. Tie-in methods should match the repair design."
+  },
+  {
+    "id": 107,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement stones be shaped before final setting?",
+    "options": [
+      "To fit properly with stable joints",
+      "To make joints random",
+      "To avoid bedding",
+      "To remove all bond"
+    ],
+    "answer": 0,
+    "explanation": "Stone repairs need good fit and bearing. Poorly shaped stones create wide or weak joints. Preparation improves appearance and stability."
+  },
+  {
+    "id": 108,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A damaged parapet is rebuilt without correcting failed flashing. What is likely?",
+    "options": [
+      "Moisture damage may return",
+      "The parapet becomes waterproof",
+      "Mortar will solve all leaks",
+      "Flashing is never needed"
+    ],
+    "answer": 0,
+    "explanation": "Failed flashing can be the source of damage. Rebuilding alone does not stop water entry. Moisture control must be repaired."
+  },
+  {
+    "id": 109,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be done if the wall begins shifting during rebuilding?",
+    "options": [
+      "Stop and stabilize the work",
+      "Continue quickly",
+      "Push it back by hand",
+      "Cover it with mortar"
+    ],
+    "answer": 0,
+    "explanation": "Movement indicates instability. Continuing could cause collapse or injury. The work must be supported before proceeding."
+  },
+  {
+    "id": 110,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should mortar joints be cleaned after raking out?",
+    "options": [
+      "Dust and debris reduce new mortar bond",
+      "Dust improves repointing",
+      "Cleaning removes joint depth",
+      "Debris makes joints stronger"
+    ],
+    "answer": 0,
+    "explanation": "Repointing requires clean joint surfaces. Dust prevents proper contact. Cleaning improves durability."
+  },
+  {
+    "id": 111,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointing mortar is much darker after curing than expected. What should have been done?",
+    "options": [
+      "Prepare and approve a test sample",
+      "Use it everywhere first",
+      "Add paint to the wall",
+      "Skip colour checks"
+    ],
+    "answer": 0,
+    "explanation": "Mortar colour changes as it cures. Test panels show the final appearance. Approval prevents mismatched work."
+  },
+  {
+    "id": 112,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the risk of repointing joints too shallow?",
+    "options": [
+      "New mortar may fail early",
+      "The repair becomes stronger",
+      "Mortar never dries",
+      "Brick units disappear"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs enough depth to bond. Shallow pointing may detach. Proper joint preparation improves life of repair."
+  },
+  {
+    "id": 113,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should surrounding glass and metal be protected during masonry cleaning?",
+    "options": [
+      "Cleaners may stain or damage them",
+      "Cleaners only affect mortar",
+      "Protection weakens masonry",
+      "Glass improves cleaner strength"
+    ],
+    "answer": 0,
+    "explanation": "Some cleaners react with nearby materials. Glass, metal, plants, and finishes can be damaged. Protection should be installed before cleaning."
+  },
+  {
+    "id": 114,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A sealer is applied over damp masonry. What is the risk?",
+    "options": [
+      "Moisture may be trapped or bond may fail",
+      "Sealer always works better wet",
+      "Dampness repairs cracks",
+      "Mortar becomes stronger instantly"
+    ],
+    "answer": 0,
+    "explanation": "Many sealers require dry surfaces. Moisture can prevent penetration or adhesion. Trapped moisture may cause future problems."
+  },
+  {
+    "id": 115,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should masonry cleaning begin with the gentlest effective method?",
+    "options": [
+      "To reduce risk of damage",
+      "To make cleaning slower only",
+      "To avoid testing",
+      "To remove all mortar joints"
+    ],
+    "answer": 0,
+    "explanation": "Aggressive cleaning can damage masonry. Gentle methods protect original surfaces. Testing confirms the safest effective approach."
+  },
+  {
+    "id": 116,
+    "category": "Task 21 — Installs Glass Blocks",
+    "question": "Why should glass block panels have proper reinforcement where specified?",
+    "options": [
+      "To help stabilize the panel",
+      "To make glass load-bearing",
+      "To block all light",
+      "To replace expansion material"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement helps panel stability. It must be placed according to system requirements. It does not make the panel structural."
+  },
+  {
+    "id": 117,
+    "category": "Task 21 — Installs Glass Blocks",
+    "question": "A glass block panel has uneven perimeter gaps. What is the concern?",
+    "options": [
+      "Movement allowance and appearance may be affected",
+      "The panel becomes stronger",
+      "Glass blocks shrink to fit",
+      "Mortar replaces all gaps"
+    ],
+    "answer": 0,
+    "explanation": "Perimeter gaps allow movement and sealing. Uneven gaps can stress the panel. Accurate layout improves performance."
+  },
+  {
+    "id": 118,
+    "category": "Task 22 — Installs Ornamental and Sculpted Masonry",
+    "question": "Why should ornamental pieces be stored carefully before installation?",
+    "options": [
+      "Detailed edges can chip or break",
+      "They cannot be damaged",
+      "Storage does not matter",
+      "Damage improves appearance"
+    ],
+    "answer": 0,
+    "explanation": "Ornamental masonry often has delicate details. Improper storage can chip visible surfaces. Careful handling protects finished quality."
+  },
+  {
+    "id": 119,
+    "category": "Task 22 — Installs Ornamental and Sculpted Masonry",
+    "question": "A sculpted unit does not match the drawing orientation. What should be done?",
+    "options": [
+      "Reposition it correctly before setting",
+      "Install it anyway",
+      "Cut off the detail",
+      "Hide it with mortar"
+    ],
+    "answer": 0,
+    "explanation": "Sculpted units often have specific orientation. Wrong placement affects the pattern. Drawing and layout should be followed."
+  },
+  {
+    "id": 120,
+    "category": "Task 23 — Builds Arches",
+    "question": "What is the extrados of an arch?",
+    "options": [
+      "The outer curved surface",
+      "The inner underside",
+      "The springing joint only",
+      "The scaffold plank"
+    ],
+    "answer": 0,
+    "explanation": "The extrados is the outside curve of the arch. It is opposite the intrados. Knowing arch terms helps with layout and drawings."
+  },
+  {
+    "id": 121,
+    "category": "Task 23 — Builds Arches",
+    "question": "A segmental arch is best described as:",
+    "options": [
+      "An arch formed from part of a circle",
+      "A full circular wall",
+      "A straight vertical joint",
+      "A glass block panel"
+    ],
+    "answer": 0,
+    "explanation": "Segmental arches use a circular segment. They have a lower rise than semicircular arches. They are common above openings."
+  },
+  {
+    "id": 122,
+    "category": "Task 23 — Builds Arches",
+    "question": "Why should a keystone fit tightly but not be forced?",
+    "options": [
+      "For proper arch fit without disturbing units",
+      "To break nearby units",
+      "To remove mortar joints",
+      "To make the arch crooked"
+    ],
+    "answer": 0,
+    "explanation": "The keystone completes the arch. Forcing it can move voussoirs or centering. Accurate cutting gives proper fit."
+  },
+  {
+    "id": 123,
+    "category": "Task 23 — Builds Arches",
+    "question": "What is the span of an arch used to determine?",
+    "options": [
+      "Width of the opening and arch layout",
+      "Mortar colour",
+      "Scaffold load only",
+      "Joint finish style"
+    ],
+    "answer": 0,
+    "explanation": "Span is the distance between supports. It helps determine the arch shape and centering. Incorrect span affects the entire arch."
+  },
+  {
+    "id": 124,
+    "category": "Task 23 — Builds Arches",
+    "question": "Why should arch centering be strong and stable?",
+    "options": [
+      "It supports arch units until completion",
+      "It replaces the permanent arch",
+      "It removes compression",
+      "It is only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Centering carries the arch during construction. Weak centering can sag or collapse. Stable support keeps the arch shape accurate."
+  },
+  {
+    "id": 125,
+    "category": "Task 23 — Builds Arches",
+    "question": "A finished arch has uneven joint widths near the crown. What was likely wrong?",
+    "options": [
+      "Layout, cutting, or spacing was inaccurate",
+      "The arch was too clean",
+      "Mortar was too white",
+      "The span was not visible"
+    ],
+    "answer": 0,
+    "explanation": "Arch joints depend on accurate layout. Poor cuts or spacing create uneven joints. Careful templates and centering improve results."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledBricklayerRedSealInterProvincialPracticeExamSet4Questions =
+  shuffleArray(bricklayerRedSealInterProvincialPracticeExamSet4Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "bricklayer",
+  tradeTitle: "Bricklayer",
+  sectionTitle: "Red Seal / Inter-Provincial Practice Exam – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledBricklayerRedSealInterProvincialPracticeExamSet4Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

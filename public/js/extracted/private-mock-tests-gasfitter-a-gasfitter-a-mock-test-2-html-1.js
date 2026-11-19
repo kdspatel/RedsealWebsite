@@ -1,0 +1,1343 @@
+const sheetMetalWorkerLevel1Set1Questions = [
+  {
+    "id": 1,
+    "category": "A — Task 1: Safety-related functions",
+    "question": "You arrive to service a boiler that has locked out three times. The customer says, “Just reset it.” What is the safest response?",
+    "options": [
+      "Reset repeatedly until it runs",
+      "Bypass the safety causing lockout",
+      "Investigate the cause before returning it to service",
+      "Increase thermostat setting"
+    ],
+    "answer": 2,
+    "explanation": "Repeated lockout means the equipment is detecting an unsafe or abnormal condition. Resetting without diagnosis can allow fuel, ignition, venting, or airflow problems to continue. A gasfitter must verify safe operation before leaving equipment running."
+  },
+  {
+    "id": 2,
+    "category": "A — Task 2: Tools and equipment",
+    "question": "A technician uses a manometer with cracked tubing while checking manifold pressure. What is the most likely problem?",
+    "options": [
+      "Reading may be inaccurate",
+      "Gas pressure will automatically increase",
+      "The burner will become more efficient",
+      "Vent draft will improve"
+    ],
+    "answer": 0,
+    "explanation": "Damaged manometer tubing can leak or fail to transmit pressure correctly. An inaccurate pressure reading can lead to wrong burner adjustment. Test instruments must be inspected before use."
+  },
+  {
+    "id": 3,
+    "category": "A — Task 2: Tools and equipment",
+    "question": "A combustion analyzer is exposed to flue gas before fresh-air zeroing is complete. What can happen?",
+    "options": [
+      "It may give unreliable O₂ and CO readings",
+      "It will increase flame current",
+      "It will clean the burner",
+      "It will reduce manifold pressure"
+    ],
+    "answer": 0,
+    "explanation": "Analyzer sensors must be zeroed according to instructions. Contaminated zeroing can shift the baseline and distort readings. Incorrect combustion data can lead to unsafe adjustments."
+  },
+  {
+    "id": 4,
+    "category": "A — Task 3: Plans and prepares work",
+    "question": "A replacement appliance has the same BTU input as the old one but is a different vent category. What must be checked first?",
+    "options": [
+      "Whether the old venting is still suitable",
+      "Whether the appliance colour matches",
+      "Whether the thermostat is digital",
+      "Whether the old gas valve looks clean"
+    ],
+    "answer": 0,
+    "explanation": "Same input does not mean same venting requirements. Different vent categories may require different materials, pressure rating, slope, or condensate handling. Venting compatibility must be verified before installation."
+  },
+  {
+    "id": 5,
+    "category": "A — Task 3: Plans and prepares work",
+    "question": "Before starting a major repair, why should the technician confirm parts ratings?",
+    "options": [
+      "Wrong-rated parts may create unsafe operation",
+      "Any part that fits physically is acceptable",
+      "Ratings only matter for new installations",
+      "Ratings are only used for pricing"
+    ],
+    "answer": 0,
+    "explanation": "Components must match voltage, pressure, temperature, fuel type, and capacity. Incorrect ratings can cause failure, leakage, overheating, or unsafe burner operation. Part selection is a safety-critical step."
+  },
+  {
+    "id": 6,
+    "category": "A — Task 3: Plans and prepares work",
+    "question": "A service report from last month shows “high CO corrected by opening mechanical room door.” What should this suggest?",
+    "options": [
+      "Possible combustion air or depressurization problem",
+      "Appliance is permanently safe",
+      "Gas valve is definitely oversized",
+      "Thermostat is faulty"
+    ],
+    "answer": 0,
+    "explanation": "CO changing with door position often indicates room pressure or air supply issues. Opening a door may temporarily provide air or relieve negative pressure. The root cause must be diagnosed, not ignored."
+  },
+  {
+    "id": 7,
+    "category": "B — Task 4: Fits tube and tubing",
+    "question": "A flare nut is tightened but the joint still leaks. What is the best next action?",
+    "options": [
+      "Add pipe dope to the flare face",
+      "Inspect the flare for cracks, uneven seat, or poor forming",
+      "Hit the tubing with a hammer",
+      "Use electrical tape around the joint"
+    ],
+    "answer": 1,
+    "explanation": "Flare joints seal at the metal-to-metal flare surface. Sealant on the flare face is not the proper repair. A damaged or poorly formed flare must be remade."
+  },
+  {
+    "id": 8,
+    "category": "B — Task 4: Fits tube and tubing",
+    "question": "Copper tubing is routed where it may rub against metal framing. What should be done?",
+    "options": [
+      "Protect and support the tubing to prevent abrasion",
+      "Leave it because copper is flexible",
+      "Paint it only",
+      "Reduce gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Vibration or movement can cause tubing to rub and wear through. Abrasion damage can eventually cause gas leakage. Proper protection and support are required."
+  },
+  {
+    "id": 9,
+    "category": "B — Task 4: Fits tube and tubing",
+    "question": "A tubing bend is flattened during installation. Why is this unacceptable?",
+    "options": [
+      "It restricts flow and weakens the tubing",
+      "It increases BTU content",
+      "It improves pressure regulation",
+      "It makes leak testing unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Flattened tubing reduces internal area and increases pressure drop. It can also create stress and weaken the tubing wall. Damaged tubing should be replaced or properly rebent."
+  },
+  {
+    "id": 10,
+    "category": "B — Task 5: Fits plastic pipe",
+    "question": "Plastic gas pipe is scratched deeply during backfilling. What is the concern?",
+    "options": [
+      "Wall strength may be reduced",
+      "Gas pressure will become higher",
+      "Tracer wire will repair it",
+      "It improves flexibility"
+    ],
+    "answer": 0,
+    "explanation": "Deep scratches or gouges can weaken plastic pipe. Damaged pipe may fail under pressure or soil movement. Backfilling must protect the piping from sharp objects."
+  },
+  {
+    "id": 11,
+    "category": "B — Task 5: Fits plastic pipe",
+    "question": "Why must plastic gas pipe transitions to metal be installed with approved transition fittings?",
+    "options": [
+      "To ensure mechanical strength and gas-tight sealing",
+      "To increase electrical current",
+      "To allow soldering plastic directly to steel",
+      "To remove need for pressure testing"
+    ],
+    "answer": 0,
+    "explanation": "Plastic and metal piping require approved transition methods. Improper joining can leak or fail mechanically. Approved fittings maintain system integrity."
+  },
+  {
+    "id": 12,
+    "category": "B — Task 6: Fits steel pipe",
+    "question": "A threaded steel joint bottoms out before becoming tight. What is likely wrong?",
+    "options": [
+      "Thread length or fitting engagement is improper",
+      "Gas pressure is too low",
+      "Venting is oversized",
+      "Flame sensor is dirty"
+    ],
+    "answer": 0,
+    "explanation": "Proper tapered threads tighten by wedging before bottoming. If the joint bottoms out, sealing engagement may be poor. The thread or fitting should be inspected."
+  },
+  {
+    "id": 13,
+    "category": "B — Task 6: Fits steel pipe",
+    "question": "Why must pipe chips and cutting oil be removed after threading?",
+    "options": [
+      "Debris can enter regulators, valves, and burner orifices",
+      "It increases oxygen content",
+      "It improves draft",
+      "It prevents electrical grounding"
+    ],
+    "answer": 0,
+    "explanation": "Metal chips and oil can contaminate gas controls. Contamination may cause valves to stick or orifices to block. Clean piping helps protect downstream components."
+  },
+  {
+    "id": 14,
+    "category": "B — Task 6: Fits steel pipe",
+    "question": "A steel gas pipe is installed through masonry without protection. What is the risk?",
+    "options": [
+      "Corrosion or physical damage at the penetration",
+      "Higher gas heating value",
+      "Stronger flame signal",
+      "Reduced need for support"
+    ],
+    "answer": 0,
+    "explanation": "Masonry can hold moisture and damage pipe coatings. Pipe passing through walls may need sleeves or protection. Unprotected pipe can corrode or be stressed."
+  },
+  {
+    "id": 15,
+    "category": "B — Task 6: Fits steel pipe",
+    "question": "A pipe wrench is used on the body of a gas valve instead of the wrench flats. What can happen?",
+    "options": [
+      "Valve body may be distorted or damaged",
+      "Valve capacity increases",
+      "Regulator outlet pressure improves",
+      "Leak testing becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Gas valves can be damaged by improper wrenching. Distortion may cause internal leakage or external cracks. Tools should be applied only where designed."
+  },
+  {
+    "id": 16,
+    "category": "B — Task 6: Fits steel pipe",
+    "question": "During pressure testing, a newly assembled pipe system loses pressure slowly. What should the technician do?",
+    "options": [
+      "Locate and correct the leak or test issue before use",
+      "Open the gas valve and try the burner",
+      "Ignore slow pressure loss",
+      "Add more pipe dope externally"
+    ],
+    "answer": 0,
+    "explanation": "Pressure loss can indicate leakage or test setup problems. A gas system must not be placed in service until tightness is proven. The cause must be found and corrected."
+  },
+  {
+    "id": 17,
+    "category": "C — Task 7: Installs venting",
+    "question": "A fan-assisted appliance is connected to an unsealed vent joint that leaks under operation. What is the concern?",
+    "options": [
+      "Positive pressure may force flue gas into the space",
+      "Draft will always improve",
+      "Gas pressure will decrease safely",
+      "Flame signal will increase"
+    ],
+    "answer": 0,
+    "explanation": "Fan-assisted or positive-pressure venting can push gases outward. Leaking joints may release CO into occupied areas. Approved sealed venting is required where specified."
+  },
+  {
+    "id": 18,
+    "category": "C — Task 7: Installs venting",
+    "question": "A condensing vent is installed with no provision for condensate drainage. What can happen?",
+    "options": [
+      "Water can collect and restrict vent flow",
+      "Gas pressure will increase",
+      "Combustion air will double",
+      "Flame safeguard becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Condensing appliances produce acidic condensate. If it cannot drain, it may block the vent or damage components. Proper slope and drainage are essential."
+  },
+  {
+    "id": 19,
+    "category": "C — Task 7: Installs venting",
+    "question": "A common vent is proposed for appliances with incompatible vent categories. What is the safest response?",
+    "options": [
+      "Do not common vent unless specifically permitted",
+      "Common vent them because inputs are similar",
+      "Use duct tape on joints",
+      "Reduce both appliance inputs"
+    ],
+    "answer": 0,
+    "explanation": "Vent categories have different pressure and temperature requirements. Improper common venting can cause spillage, condensation, or leakage. Manufacturer and code requirements must permit the arrangement."
+  },
+  {
+    "id": 20,
+    "category": "C — Task 7: Installs venting",
+    "question": "A vent connector passes through a storage area where boxes can touch it. What must be considered?",
+    "options": [
+      "Clearance from combustibles and protection from damage",
+      "Colour of the boxes",
+      "Gas meter location only",
+      "Thermostat setting"
+    ],
+    "answer": 0,
+    "explanation": "Vent connectors can become hot and ignite combustibles. They can also be damaged by stored materials. Required clearances and protection must be maintained."
+  },
+  {
+    "id": 21,
+    "category": "C — Task 7: Installs venting",
+    "question": "A vent terminal is installed where prevailing winds cause frequent flame failure. What should be checked?",
+    "options": [
+      "Termination location and manufacturer wind requirements",
+      "Pipe thread depth only",
+      "Boiler water hardness only",
+      "Transformer VA only"
+    ],
+    "answer": 0,
+    "explanation": "Wind can affect vent pressure and burner stability. Termination location must meet clearance and performance requirements. Repeated wind-related failures require correction."
+  },
+  {
+    "id": 22,
+    "category": "C — Task 8: Installs air supply system",
+    "question": "A combustion air duct is the correct size but has a motorized damper that fails closed. What is the hazard?",
+    "options": [
+      "Appliance may operate without required air",
+      "Manifold pressure becomes perfect",
+      "CO production becomes impossible",
+      "Venting improves"
+    ],
+    "answer": 0,
+    "explanation": "A closed damper blocks air supply even if duct size is correct. Burners may produce CO or fail to vent safely. Dampers may require interlocks to prove open."
+  },
+  {
+    "id": 23,
+    "category": "C — Task 8: Installs air supply system",
+    "question": "A louver is sized by gross opening only, with no free-area allowance. What is the likely problem?",
+    "options": [
+      "Actual airflow opening may be too small",
+      "Airflow will be double required",
+      "Gas pressure will fall to zero",
+      "Draft control will not be needed"
+    ],
+    "answer": 0,
+    "explanation": "Louvers and screens reduce usable open area. Sizing must be based on free area, not just frame size. Undersized openings can starve combustion."
+  },
+  {
+    "id": 24,
+    "category": "C — Task 8: Installs air supply system",
+    "question": "A boiler room becomes smoky only when the kitchen exhaust fan runs. What does this suggest?",
+    "options": [
+      "Exhaust fan is causing negative pressure",
+      "Gas valve is wired backward",
+      "Flame rod is too long",
+      "Water pressure is too high"
+    ],
+    "answer": 0,
+    "explanation": "Large exhaust fans can depressurize a building. Negative pressure may pull flue gases out of the venting system. Make-up air and pressure balance must be checked."
+  },
+  {
+    "id": 25,
+    "category": "C — Task 8: Installs air supply system",
+    "question": "Why should air intakes be located away from contaminants like solvents or chlorine?",
+    "options": [
+      "Contaminants can form corrosive combustion products",
+      "Contaminants increase flame current",
+      "Contaminants improve efficiency",
+      "Contaminants reduce gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Contaminated combustion air can create acids in flue gases. These acids corrode heat exchangers, burners, and vents. Clean combustion air is required."
+  },
+  {
+    "id": 26,
+    "category": "C — Task 9: Installs draft control systems",
+    "question": "A barometric damper is installed in a room under negative pressure. What can happen?",
+    "options": [
+      "It may admit room air incorrectly or allow spillage",
+      "It will always solve draft problems",
+      "It increases gas input",
+      "It proves flame"
+    ],
+    "answer": 0,
+    "explanation": "Barometric dampers depend on stable room pressure. Negative pressure can interfere with proper draft control. Room air problems must be corrected."
+  },
+  {
+    "id": 27,
+    "category": "C — Task 9: Installs draft control systems",
+    "question": "A draft regulator is adjusted to create very strong draft. Why is this not always good?",
+    "options": [
+      "Excessive draft can disturb flame and reduce efficiency",
+      "Strong draft always means safest operation",
+      "Strong draft eliminates combustion air need",
+      "Strong draft increases gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Too much draft can pull heat out and affect flame stability. It may also interfere with burner operation. Draft must be set within the required range."
+  },
+  {
+    "id": 28,
+    "category": "D — Task 10: Electronic components",
+    "question": "A flame safeguard shows flame signal before ignition trial starts. What should happen?",
+    "options": [
+      "It should prevent start or lock out due to false flame",
+      "It should open main gas immediately",
+      "It should ignore the signal",
+      "It should increase gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Flame signal before ignition may indicate false flame or sensor fault. Starting with a false flame signal can be unsafe. Controls must verify proper sequence."
+  },
+  {
+    "id": 29,
+    "category": "D — Task 10: Electronic components",
+    "question": "A flame rod system has weak signal even though the rod is clean and in the flame. What else should be checked?",
+    "options": [
+      "Burner ground path and polarity if applicable",
+      "Chimney height only",
+      "Pipe support spacing only",
+      "Propane tank colour"
+    ],
+    "answer": 0,
+    "explanation": "Flame rectification requires a reliable electrical return path. Poor grounding can prevent flame current from reaching the control. Polarity may also matter on some systems."
+  },
+  {
+    "id": 30,
+    "category": "D — Task 10: Electronic components",
+    "question": "A UV scanner is installed where it can see another burner flame. What is the risk?",
+    "options": [
+      "It may falsely prove flame",
+      "It will lower gas pressure",
+      "It will increase water flow",
+      "It will reduce electrical noise"
+    ],
+    "answer": 0,
+    "explanation": "Flame detectors must prove the correct flame. Seeing another flame can keep fuel enabled unsafely. Scanner sighting and shielding are critical."
+  },
+  {
+    "id": 31,
+    "category": "D — Task 10: Electronic components",
+    "question": "A pressure transducer is rated for 0–5 psi but installed on a 15 psi line. What is likely?",
+    "options": [
+      "Sensor damage or inaccurate signal",
+      "Better control accuracy",
+      "Lower pressure drop",
+      "Improved combustion"
+    ],
+    "answer": 0,
+    "explanation": "Instrument ranges must match system conditions. Overpressure can damage the sensor or create false readings. Incorrect readings can mislead controls."
+  },
+  {
+    "id": 32,
+    "category": "D — Task 10: Electronic components",
+    "question": "A thermistor temperature sensor changes resistance with temperature. What must the controller know?",
+    "options": [
+      "The correct sensor curve or type",
+      "Pipe size only",
+      "Burner orifice size only",
+      "Vent slope only"
+    ],
+    "answer": 0,
+    "explanation": "Different thermistors have different resistance-temperature curves. Wrong sensor type can display or control wrong temperature. Controller and sensor must match."
+  },
+  {
+    "id": 33,
+    "category": "D — Task 10: Electronic components",
+    "question": "A control board is replaced, but DIP switch settings are left at factory default. What is the concern?",
+    "options": [
+      "Appliance sequence or configuration may be wrong",
+      "Gas pressure automatically corrects",
+      "Venting becomes approved",
+      "Flame sensor cleans itself"
+    ],
+    "answer": 0,
+    "explanation": "Control boards may require setup for fuel, fan timing, ignition, or appliance size. Default settings may not match the appliance. Configuration must be verified after replacement."
+  },
+  {
+    "id": 34,
+    "category": "D — Task 10: Electronic components",
+    "question": "An electronic ignition control is repeatedly damaged after storms. What should be investigated?",
+    "options": [
+      "Grounding, bonding, surge protection, and power quality",
+      "Pipe thread compound only",
+      "Vent connector slope only",
+      "Combustion air grille size only"
+    ],
+    "answer": 0,
+    "explanation": "Electronic controls are sensitive to surges and poor grounding. Lightning or utility disturbances can damage boards. Electrical protection and bonding should be checked."
+  },
+  {
+    "id": 35,
+    "category": "D — Task 11: Electrical components",
+    "question": "A 240 V motor is supplied with 208 V and overheats under load. What is the concern?",
+    "options": [
+      "Low voltage may increase current and heating",
+      "Low voltage always protects motors",
+      "Motor speed will become zero only",
+      "Gas pressure will rise"
+    ],
+    "answer": 0,
+    "explanation": "Motors can draw excessive current when voltage is low. Higher current causes winding heat and overload trips. Voltage must match motor rating and load conditions."
+  },
+  {
+    "id": 36,
+    "category": "D — Task 11: Electrical components",
+    "question": "A contactor is chattering during burner start. Which cause is most likely?",
+    "options": [
+      "Low coil voltage or poor control connection",
+      "Excess draft only",
+      "High propane density",
+      "Oversized vent terminal"
+    ],
+    "answer": 0,
+    "explanation": "Chattering contactors often result from insufficient coil voltage. Loose wiring or transformer overload can cause voltage drop. Chatter can damage contacts and loads."
+  },
+  {
+    "id": 37,
+    "category": "D — Task 11: Electrical components",
+    "question": "A conductor is too small for the motor load. What is the hazard?",
+    "options": [
+      "Overheating and insulation damage",
+      "Higher gas input",
+      "Improved motor efficiency",
+      "Stronger flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Undersized conductors cannot safely carry load current. Heat can damage insulation or start a fire. Wire size must meet ampacity requirements."
+  },
+  {
+    "id": 38,
+    "category": "D — Task 11: Electrical components",
+    "question": "A replacement fuse has the correct amperage but wrong voltage rating. Why is this unsafe?",
+    "options": [
+      "It may not interrupt fault current safely",
+      "It increases combustion air",
+      "It reduces gas pressure",
+      "It improves draft"
+    ],
+    "answer": 0,
+    "explanation": "Fuse voltage rating affects its ability to clear a fault. A wrong-rated fuse may arc or fail during interruption. Both voltage and current ratings matter."
+  },
+  {
+    "id": 39,
+    "category": "D — Task 11: Electrical components",
+    "question": "A motor overload is reset repeatedly without checking motor current. What is wrong?",
+    "options": [
+      "The cause of overheating is not being corrected",
+      "Overloads are only decorative",
+      "Resetting improves motor life",
+      "Gas pressure will stabilize"
+    ],
+    "answer": 0,
+    "explanation": "Overload trips indicate excessive current or heat. Repeated reset can damage the motor or create fire risk. Current, voltage, and mechanical load must be checked."
+  },
+  {
+    "id": 40,
+    "category": "D — Task 11: Electrical components",
+    "question": "A disconnect switch is installed but cannot be locked off. What safety issue exists?",
+    "options": [
+      "Lockout may not be secure during service",
+      "Gas flow will increase",
+      "Draft will be excessive",
+      "Flame signal will weaken"
+    ],
+    "answer": 0,
+    "explanation": "Service work requires reliable energy isolation. If a disconnect cannot be secured, accidental energizing is possible. Lockout provisions are critical for safety."
+  },
+  {
+    "id": 41,
+    "category": "D — Task 11: Electrical components",
+    "question": "A neutral conductor is loose in a control panel. What type of problem can result?",
+    "options": [
+      "Intermittent control operation or incorrect voltages",
+      "Higher gas heating value",
+      "Improved bonding",
+      "Safer operation"
+    ],
+    "answer": 0,
+    "explanation": "A loose neutral can interrupt return current. Controls may chatter, drop out, or receive abnormal voltage. Loose conductors must be corrected."
+  },
+  {
+    "id": 42,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A 4–20 mA transmitter reads 20 mA when the process is at minimum. What should be checked?",
+    "options": [
+      "Calibration, range, wiring, or sensor configuration",
+      "Gas pipe slope only",
+      "Draft hood size only",
+      "Burner paint colour"
+    ],
+    "answer": 0,
+    "explanation": "20 mA normally represents full-scale signal. A minimum process value showing 20 mA suggests calibration or setup error. Loop configuration must match the process range."
+  },
+  {
+    "id": 43,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A BAS starts a burner remotely, but local safeties are open. What should happen?",
+    "options": [
+      "Burner must not fire until safeties are satisfied",
+      "BAS command should override all safeties",
+      "Main gas should open anyway",
+      "Flame detection becomes optional"
+    ],
+    "answer": 0,
+    "explanation": "Remote automation cannot override safety interlocks. Burner management must maintain safe sequence. Local safeties control final permission to fire."
+  },
+  {
+    "id": 44,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A temperature sensor wire is extended using the wrong type of cable near high-voltage wiring. What may occur?",
+    "options": [
+      "Inaccurate readings or electrical noise problems",
+      "Gas pressure increase",
+      "Better combustion",
+      "Stronger draft"
+    ],
+    "answer": 0,
+    "explanation": "Instrument wiring can be affected by resistance and noise. Cable type and routing affect signal accuracy. Low-level signals require proper installation."
+  },
+  {
+    "id": 45,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A VFD-controlled combustion fan is replaced, but minimum speed is not programmed. What is the risk?",
+    "options": [
+      "Fan may run too slowly for safe combustion or purge",
+      "Gas pressure becomes perfect",
+      "Flame safeguard is unnecessary",
+      "CO cannot form"
+    ],
+    "answer": 0,
+    "explanation": "Minimum fan speed is a safety-related setup value. Too little airflow can cause rich combustion or failed purge. Drive parameters must be commissioned."
+  },
+  {
+    "id": 46,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A networked controller has duplicate address with another device. What is likely?",
+    "options": [
+      "Communication conflict or loss of control data",
+      "Better signal quality",
+      "Higher gas input",
+      "Correct flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Network devices usually require unique addresses. Duplicate addressing can cause data collisions or wrong device response. Addressing must be verified during setup."
+  },
+  {
+    "id": 47,
+    "category": "D — Task 12: Automation and instrumentation",
+    "question": "A control valve actuator moves opposite to the command signal. What should be checked?",
+    "options": [
+      "Direct/reverse action setup and wiring",
+      "Vent material only",
+      "Pipe thread compound only",
+      "Combustion air opening colour"
+    ],
+    "answer": 0,
+    "explanation": "Actuators may be configured for direct or reverse action. Wrong setup can open when it should close. This can cause unsafe or unstable process control."
+  },
+  {
+    "id": 48,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A new appliance has a higher minimum inlet pressure than the old unit. What must be verified?",
+    "options": [
+      "Supply pressure under full load",
+      "Appliance colour",
+      "Floor drain size only",
+      "Thermostat battery"
+    ],
+    "answer": 0,
+    "explanation": "The gas supply must meet the appliance’s inlet pressure range. Pressure must be checked while the appliance operates. Low pressure can cause poor ignition or combustion."
+  },
+  {
+    "id": 49,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A gas connector passes through a wall to reach the appliance. What is the concern?",
+    "options": [
+      "Flexible connectors are generally not used through walls unless specifically approved",
+      "It improves service access",
+      "It reduces leak risk",
+      "It increases draft"
+    ],
+    "answer": 0,
+    "explanation": "Flexible connectors have strict use limitations. Passing through walls can conceal damage or leakage. Approved piping methods must be used."
+  },
+  {
+    "id": 50,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A drip leg is installed horizontally instead of vertically below the gas flow. What is the issue?",
+    "options": [
+      "It may not collect debris effectively",
+      "It increases flame signal",
+      "It improves pressure regulation",
+      "It replaces a gas valve"
+    ],
+    "answer": 0,
+    "explanation": "Sediment traps work by allowing debris to fall out of the gas stream. Incorrect orientation reduces effectiveness. Gas controls may be exposed to contamination."
+  },
+  {
+    "id": 51,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A boiler is installed on an uneven base and vibrates during firing. What can happen?",
+    "options": [
+      "Piping, venting, or components may be stressed",
+      "Efficiency always increases",
+      "CO becomes impossible",
+      "Flame safeguard is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Equipment must be properly supported and level. Vibration can loosen joints, damage controls, or stress piping. Installation stability affects long-term safety."
+  },
+  {
+    "id": 52,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A gas appliance is installed before verifying fuel type. What is the hazard?",
+    "options": [
+      "Natural gas and propane require different setup/components",
+      "Fuel type does not matter",
+      "Propane needs no regulator",
+      "Natural gas burns without air"
+    ],
+    "answer": 0,
+    "explanation": "Appliances are fuel-specific unless properly converted. Wrong fuel can cause overfiring, delayed ignition, or CO. Fuel type must match rating plate and setup."
+  },
+  {
+    "id": 53,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "An appliance is installed so the service panels cannot be removed. Why is this unacceptable?",
+    "options": [
+      "Required maintenance and safety testing may be blocked",
+      "It increases appliance efficiency",
+      "It improves combustion air",
+      "It reduces gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Service access is required for safe maintenance and repair. Blocked access may prevent inspection of burners, controls, or heat exchangers. Clearance requirements must be maintained."
+  },
+  {
+    "id": 54,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A gas-fired water heater is installed without considering drainage. What problem can occur?",
+    "options": [
+      "Relief discharge or condensate may not be safely handled",
+      "Gas input automatically lowers",
+      "Draft always improves",
+      "Flame rod current increases"
+    ],
+    "answer": 0,
+    "explanation": "Appliances may require condensate, relief, or drain handling. Improper drainage can cause water damage or unsafe discharge. Installation must include all service connections."
+  },
+  {
+    "id": 55,
+    "category": "E — Task 13: Gas-fired system piping and equipment",
+    "question": "A gas appliance is installed in a dusty process area. What should be considered?",
+    "options": [
+      "Combustion air cleanliness and maintenance frequency",
+      "Thermostat colour",
+      "Pipe label font",
+      "Gas meter paint"
+    ],
+    "answer": 0,
+    "explanation": "Dust can clog burners, filters, or air openings. Contaminated air can affect combustion and reliability. Location and maintenance schedule matter."
+  },
+  {
+    "id": 56,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A regulator vent is piped with a low spot that can collect water. What is the danger?",
+    "options": [
+      "Vent blockage can affect regulator operation",
+      "It improves pressure control",
+      "It increases gas capacity",
+      "It proves flame"
+    ],
+    "answer": 0,
+    "explanation": "Regulator vents must remain open and functional. Water or ice blockage can prevent diaphragm movement or relief. Vent piping must drain or be protected as required."
+  },
+  {
+    "id": 57,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A safety shutoff valve is installed with flow arrow reversed. What can happen?",
+    "options": [
+      "Valve may not operate or seal correctly",
+      "Flame current increases",
+      "Draft improves",
+      "Air supply increases"
+    ],
+    "answer": 0,
+    "explanation": "Automatic valves are designed for flow in a specific direction. Reverse installation can cause leakage or malfunction. Flow arrows must be followed."
+  },
+  {
+    "id": 58,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A flame scanner is installed without cooling air where required. What can result?",
+    "options": [
+      "Scanner overheating and failure",
+      "Higher gas pressure",
+      "Better flame detection",
+      "No need for purge"
+    ],
+    "answer": 0,
+    "explanation": "Some scanners require cooling or purging air. Excessive heat can damage electronics or lens assemblies. Manufacturer installation requirements must be followed."
+  },
+  {
+    "id": 59,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A pressure switch tube is connected to the wrong side of a fan housing. What is the likely result?",
+    "options": [
+      "Incorrect proof of airflow or nuisance lockout",
+      "Better combustion",
+      "Increased gas volume",
+      "Lower CO always"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches depend on correct pressure differential. Wrong connection can prevent proper proving or falsely prove airflow. Tubing must match the pressure source."
+  },
+  {
+    "id": 60,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A low-water cutoff is installed but not functionally tested. What is missing?",
+    "options": [
+      "Proof that it will stop firing during low-water condition",
+      "Proof of gas pressure only",
+      "Proof of flame colour",
+      "Proof of vent slope"
+    ],
+    "answer": 0,
+    "explanation": "Installing a safety device is not enough. It must be tested to confirm it performs its safety function. Low-water protection prevents boiler damage."
+  },
+  {
+    "id": 61,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A temperature limit control has its sensing bulb loosely hanging in air instead of the required well. What is the risk?",
+    "options": [
+      "It may not sense appliance temperature correctly",
+      "It increases limit accuracy",
+      "It improves flame signal",
+      "It lowers gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Limit controls must sense the protected medium or surface. Improper placement delays or prevents shutdown. The sensing element must be installed as designed."
+  },
+  {
+    "id": 62,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A vent damper end switch is bypassed. What unsafe condition can occur?",
+    "options": [
+      "Burner may fire with damper closed",
+      "Gas pressure becomes stable",
+      "Flame sensor becomes cleaner",
+      "Condensate stops forming"
+    ],
+    "answer": 0,
+    "explanation": "The end switch proves damper position. Bypassing it defeats protection against blocked venting. Combustion products could spill indoors."
+  },
+  {
+    "id": 63,
+    "category": "E — Task 14: Gas-fired system components",
+    "question": "A relief valve replacement has the wrong pressure rating. What is the hazard?",
+    "options": [
+      "It may fail to protect the system properly",
+      "It improves pressure control",
+      "It reduces need for expansion tank",
+      "It increases combustion efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Relief valves must match system pressure and capacity requirements. Wrong rating may open too late or too early. Incorrect relief protection is dangerous."
+  },
+  {
+    "id": 64,
+    "category": "E — Task 15: Propane storage and handling",
+    "question": "A propane regulator is installed where snow can bury the vent. What is the concern?",
+    "options": [
+      "Vent blockage can cause unsafe pressure regulation",
+      "Snow improves regulator cooling",
+      "Propane becomes non-flammable",
+      "Tank pressure becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Regulator vents must stay clear. Snow or ice can block breathing or relief action. Regulators need protection without blocking ventilation."
+  },
+  {
+    "id": 65,
+    "category": "E — Task 15: Propane storage and handling",
+    "question": "A propane tank is placed near a building opening. Why is this hazardous?",
+    "options": [
+      "Leaked vapour may enter the building",
+      "It improves appliance input",
+      "It lowers explosion risk",
+      "It increases oxygen concentration"
+    ],
+    "answer": 0,
+    "explanation": "Propane is heavier than air and can migrate into openings. Accumulated vapour can ignite explosively. Required clearances reduce this risk."
+  },
+  {
+    "id": 66,
+    "category": "E — Task 15: Propane storage and handling",
+    "question": "A propane system is converted from vapour withdrawal to higher load without checking tank vaporization capacity. What may happen?",
+    "options": [
+      "Pressure drop and fuel starvation during demand",
+      "Higher pressure always",
+      "No change in operation",
+      "CO becomes impossible"
+    ],
+    "answer": 0,
+    "explanation": "Propane tanks can only vaporize fuel at a limited rate. High demand, low temperature, or small tank size can reduce pressure. System capacity must match the connected load."
+  },
+  {
+    "id": 67,
+    "category": "E — Task 15: Propane storage and handling",
+    "question": "A propane storage area lacks vehicle barriers near traffic. What is the major concern?",
+    "options": [
+      "Impact damage causing fuel release",
+      "Lower flame signal",
+      "Reduced vent temperature",
+      "Increased wire resistance"
+    ],
+    "answer": 0,
+    "explanation": "Vehicle impact can damage tanks, piping, or regulators. A major propane release can create fire or explosion hazard. Physical protection may be required."
+  },
+  {
+    "id": 68,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A gas piping test is done with an appliance gas valve connected when it should be isolated. What is the risk?",
+    "options": [
+      "Test pressure may damage appliance controls",
+      "Combustion efficiency improves",
+      "Venting is verified",
+      "Flame signal increases"
+    ],
+    "answer": 0,
+    "explanation": "Appliance controls may not be rated for piping test pressure. They can be damaged or made unsafe. Test setup must protect equipment."
+  },
+  {
+    "id": 69,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A leak detection solution bubbles at a threaded joint. What should be done?",
+    "options": [
+      "Shut off, repair joint, and retest",
+      "Wipe it and ignore",
+      "Light a match to confirm",
+      "Paint over the joint"
+    ],
+    "answer": 0,
+    "explanation": "Bubbling indicates gas leakage. The joint must be repaired before operation. After repair, leak testing must be repeated."
+  },
+  {
+    "id": 70,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A pressure test rises slightly during the test period. What could cause this?",
+    "options": [
+      "Temperature increase in the test medium",
+      "Large leak",
+      "Open pipe end",
+      "Broken gauge always"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure changes with temperature. A warming test medium can increase pressure. Temperature effects must be considered during testing."
+  },
+  {
+    "id": 71,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A technician tests inlet pressure with only one appliance operating, but the system has multiple appliances. What is missing?",
+    "options": [
+      "Verification under maximum expected load",
+      "Flame sensor cleaning",
+      "Vent termination inspection only",
+      "Thermostat calibration only"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure may be adequate with partial load. Full-load operation can reveal undersized piping or regulator capacity. Testing should represent worst-case demand."
+  },
+  {
+    "id": 72,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A flame signal is below manufacturer minimum. What should be checked?",
+    "options": [
+      "Sensor position, cleanliness, grounding, wiring, and flame quality",
+      "Paint thickness",
+      "Propane tank colour",
+      "Pipe thread length only"
+    ],
+    "answer": 0,
+    "explanation": "Low flame signal can come from sensing, grounding, or combustion problems. Weak signal causes nuisance lockout or unsafe proving issues. The cause must be corrected before operation."
+  },
+  {
+    "id": 73,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A three-phase motor current is 8 A, 8.2 A, and 13 A. What does this indicate?",
+    "options": [
+      "Current imbalance needing investigation",
+      "Perfect balance",
+      "Correct no-load operation",
+      "Natural draft problem only"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase currents should be reasonably balanced. High current on one phase suggests supply, winding, or load problem. Imbalance can overheat the motor."
+  },
+  {
+    "id": 74,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A safety control opens but the burner keeps firing. What does this mean?",
+    "options": [
+      "Safety circuit is miswired, bypassed, or failed",
+      "Safety is working correctly",
+      "Gas pressure is too low only",
+      "Vent slope is excessive"
+    ],
+    "answer": 0,
+    "explanation": "Safety controls must stop burner operation when opened. If firing continues, the safety function is defeated. The system must be shut down and corrected."
+  },
+  {
+    "id": 75,
+    "category": "F — Task 16: Tests gas-fired systems",
+    "question": "A voltage drop test across a closed contact reads 3 V in a 24 V circuit. What does this suggest?",
+    "options": [
+      "Excess resistance at the contact",
+      "Perfect closed contact",
+      "Gas pressure problem only",
+      "Normal flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Closed contacts should have very low voltage drop. A 3 V drop in a 24 V circuit is significant. Poor contacts can prevent controls from energizing."
+  },
+  {
+    "id": 76,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "During commissioning, high fire CO is acceptable but low fire CO is high. What is required?",
+    "options": [
+      "Adjust and verify combustion at low fire and across range",
+      "Accept high-fire result only",
+      "Disable combustion analyzer",
+      "Increase thermostat setting"
+    ],
+    "answer": 0,
+    "explanation": "Modulating burners must be safe at all operating rates. Low fire can have different air-fuel mixing problems. Final commissioning must verify the full firing range."
+  },
+  {
+    "id": 77,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "A burner lights reliably with the panel removed but fails with the panel installed. What does this suggest?",
+    "options": [
+      "Airflow or pressure conditions change with panel installed",
+      "Panel colour is wrong",
+      "Gas valve is always defective",
+      "Thermostat is too small"
+    ],
+    "answer": 0,
+    "explanation": "Panels affect combustion air, burner pressure, and draft paths. Testing must be done in normal operating configuration. Failure with panel installed indicates a real operating problem."
+  },
+  {
+    "id": 78,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "Why should start-up documentation include setpoints?",
+    "options": [
+      "Future service needs a baseline",
+      "Setpoints are only decorative",
+      "It replaces all safety testing",
+      "It proves pipe threading"
+    ],
+    "answer": 0,
+    "explanation": "Setpoints show how the equipment was left operating. They help future troubleshooting and confirm intended control settings. Documentation supports safe maintenance."
+  },
+  {
+    "id": 79,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "A newly installed appliance has correct manifold pressure but poor combustion readings. What does this prove?",
+    "options": [
+      "Gas pressure alone does not prove safe combustion",
+      "Combustion analyzer is unnecessary",
+      "Venting is always correct",
+      "Air supply cannot be a problem"
+    ],
+    "answer": 0,
+    "explanation": "Safe combustion depends on gas, air, venting, and burner condition. Correct manifold pressure is only one requirement. Combustion analysis confirms actual operation."
+  },
+  {
+    "id": 80,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "After commissioning, the technician should leave the system:",
+    "options": [
+      "Operating safely with safeties tested and results documented",
+      "Running with bypass jumpers installed",
+      "Locked out without explanation",
+      "With venting disconnected"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning includes functional and safety verification. Temporary bypasses must be removed before operation. Records should show final safe condition."
+  },
+  {
+    "id": 81,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "A direct-fired make-up air unit is commissioned without checking discharge temperature rise. What is missing?",
+    "options": [
+      "Verification that firing rate and airflow are properly matched",
+      "Proof of pipe colour",
+      "Proof of thermostat style",
+      "Confirmation of building address"
+    ],
+    "answer": 0,
+    "explanation": "Direct-fired equipment depends on correct airflow and input. Temperature rise helps confirm safe and proper operation. Poor setup can create comfort or combustion problems."
+  },
+  {
+    "id": 82,
+    "category": "F — Task 17: Commissions gas-fired systems",
+    "question": "A propane appliance conversion label is not applied after conversion. Why is this a problem?",
+    "options": [
+      "Future technicians may not know the fuel conversion status",
+      "Flame signal will disappear",
+      "Gas pressure becomes zero",
+      "Venting becomes blocked"
+    ],
+    "answer": 0,
+    "explanation": "Conversion labels identify fuel type and conversion details. Missing labels can cause future service errors. Documentation is part of safe commissioning."
+  },
+  {
+    "id": 83,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "A burner has rust flakes partially blocking ports. What can this cause?",
+    "options": [
+      "Poor flame pattern and incomplete combustion",
+      "Higher efficiency always",
+      "Lower CO risk",
+      "Better flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Blocked burner ports disturb gas-air flow. Poor flame pattern can cause delayed ignition, rollout, or CO. Burners must be cleaned and inspected."
+  },
+  {
+    "id": 84,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "A condensate neutralizer is exhausted and no longer neutralizes acidic water. What is the concern?",
+    "options": [
+      "Drain system corrosion may occur",
+      "Gas pressure increases",
+      "Flame rod improves",
+      "Draft becomes perfect"
+    ],
+    "answer": 0,
+    "explanation": "Condensing appliances produce acidic condensate. Neutralizers protect drains and piping materials. Media must be maintained or replaced."
+  },
+  {
+    "id": 85,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "A heat exchanger inspection shows heavy soot. What does this indicate?",
+    "options": [
+      "Previous or current incomplete combustion",
+      "Perfect air-fuel mixture",
+      "Too much clean excess air only",
+      "Normal new equipment condition"
+    ],
+    "answer": 0,
+    "explanation": "Soot forms when fuel does not burn completely. It can block heat transfer and vent passages. Combustion causes must be corrected."
+  },
+  {
+    "id": 86,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "During maintenance, a vent cap is found blocked by debris. What is the hazard?",
+    "options": [
+      "Flue gases may not discharge safely",
+      "Gas pressure improves",
+      "CO production becomes impossible",
+      "Flame current rises"
+    ],
+    "answer": 0,
+    "explanation": "Blocked vent terminals restrict combustion product discharge. This can cause spillage, pressure switch trips, or CO hazards. Vent terminals must be kept clear."
+  },
+  {
+    "id": 87,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "A fan wheel is dirty and airflow is reduced. What can this affect?",
+    "options": [
+      "Combustion air, heat transfer, or vent proving",
+      "Gas heating value",
+      "Propane density",
+      "Pipe thread sealing only"
+    ],
+    "answer": 0,
+    "explanation": "Dirty fan wheels reduce air movement. Reduced airflow can cause overheating, poor combustion, or safety trips. Fan maintenance is important."
+  },
+  {
+    "id": 88,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "Why should safety controls be tested during maintenance, not just inspected visually?",
+    "options": [
+      "A control can look normal but fail to operate",
+      "Visual inspection proves operation",
+      "Testing lowers gas pressure",
+      "Testing replaces combustion analysis"
+    ],
+    "answer": 0,
+    "explanation": "Functional testing confirms shutdown or proving action. A stuck or miswired safety may look intact. Safety devices must perform their intended function."
+  },
+  {
+    "id": 89,
+    "category": "G — Task 18: Maintains gas-fired systems",
+    "question": "A pilot assembly is dirty and flame is small. What problem can result?",
+    "options": [
+      "Main burner ignition failure or weak flame signal",
+      "Higher gas pressure",
+      "Stronger draft",
+      "Lower voltage drop"
+    ],
+    "answer": 0,
+    "explanation": "A weak pilot may not ignite the main burner reliably. It may also fail to heat or prove the sensor properly. Pilot assemblies must be cleaned and adjusted."
+  },
+  {
+    "id": 90,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A gas valve is replaced, but manifold pressure is not adjusted. What is the risk?",
+    "options": [
+      "Burner may be overfired or underfired",
+      "Combustion automatically becomes perfect",
+      "Venting is verified",
+      "Flame sensor is cleaned"
+    ],
+    "answer": 0,
+    "explanation": "Replacement valves may not be factory-set for the appliance. Manifold pressure affects input and combustion. Pressure and combustion must be checked."
+  },
+  {
+    "id": 91,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A technician replaces an ignition module without correcting poor grounding. What may happen?",
+    "options": [
+      "The same ignition or flame-proving fault may return",
+      "Gas pressure will double",
+      "Venting will improve",
+      "Burner input will become correct"
+    ],
+    "answer": 0,
+    "explanation": "Poor grounding affects ignition and flame rectification. Replacing parts without fixing root cause leads to repeat failures. Electrical basics must be verified."
+  },
+  {
+    "id": 92,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A cracked heat exchanger is confirmed. What is the correct response?",
+    "options": [
+      "Do not operate until repaired or replaced according to requirements",
+      "Increase blower speed only",
+      "Seal it with tape",
+      "Ignore if flame is blue"
+    ],
+    "answer": 0,
+    "explanation": "Cracked heat exchangers can allow combustion products into air streams. This creates possible CO exposure. Unsafe equipment must not remain in service."
+  },
+  {
+    "id": 93,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A pressure switch is stuck closed. Why is replacing it with a jumper unsafe?",
+    "options": [
+      "It permanently defeats airflow proving",
+      "It improves reliability",
+      "It lowers CO risk",
+      "It increases draft measurement accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches prove safe airflow or venting conditions. A jumper allows operation without proof. The switch or cause must be repaired properly."
+  },
+  {
+    "id": 94,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A burner orifice is enlarged with a drill to “get more heat.” What is the danger?",
+    "options": [
+      "Overfiring and unsafe combustion",
+      "Lower gas input",
+      "Improved certification",
+      "Better venting"
+    ],
+    "answer": 0,
+    "explanation": "Orifice size controls fuel input. Drilling changes approved firing rate and can cause CO, overheating, or damage. Only approved parts and settings should be used."
+  },
+  {
+    "id": 95,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A repair is completed on a gas train. What must be done before returning to service?",
+    "options": [
+      "Leak test, operational test, and safety verification",
+      "Only wipe the pipe",
+      "Only reset thermostat",
+      "Only check appliance colour"
+    ],
+    "answer": 0,
+    "explanation": "Gas train repairs involve fuel safety. Leaks, pressure, valve action, and controls must be verified. Returning untested equipment to service is unsafe."
+  },
+  {
+    "id": 96,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A VFD is replaced but motor rotation is not checked. What can go wrong?",
+    "options": [
+      "Fan or pump may run backward",
+      "Gas valve will not close",
+      "CO cannot form",
+      "Regulator vent will block"
+    ],
+    "answer": 0,
+    "explanation": "VFD output phase sequence can affect motor rotation. Wrong rotation reduces airflow or pump flow. Rotation must be verified after replacement."
+  },
+  {
+    "id": 97,
+    "category": "G — Task 19: Repairs gas-fired systems",
+    "question": "A refractory repair is fired immediately at full input without curing. What can happen?",
+    "options": [
+      "Refractory may crack or fail",
+      "Gas pressure will stabilize",
+      "Flame sensor improves",
+      "Draft becomes perfect"
+    ],
+    "answer": 0,
+    "explanation": "Some refractory materials require controlled curing. Rapid heating can trap moisture and crack the repair. Manufacturer curing instructions should be followed."
+  },
+  {
+    "id": 98,
+    "category": "G — Task 20: Decommissions gas-fired systems",
+    "question": "A gas line to a removed appliance is shut off but not capped. What is wrong?",
+    "options": [
+      "Valve leakage could release gas from open piping",
+      "Shutoff valve always guarantees no leak",
+      "Open piping improves ventilation",
+      "It is acceptable if labelled"
+    ],
+    "answer": 0,
+    "explanation": "Shutoff valves can leak or be accidentally opened. Unused gas outlets must be properly capped or plugged. The capped line must be leak tested."
+  },
+  {
+    "id": 99,
+    "category": "G — Task 20: Decommissions gas-fired systems",
+    "question": "A decommissioned appliance vent is left connected to a common vent. What is the concern?",
+    "options": [
+      "Vent sizing and draft for remaining appliances may be affected",
+      "Gas pressure increases",
+      "Flame signal improves",
+      "Propane becomes lighter"
+    ],
+    "answer": 0,
+    "explanation": "Removing an appliance changes venting conditions. Open or unused connections can disturb draft or allow leakage. The vent system must be made safe for remaining equipment."
+  },
+  {
+    "id": 100,
+    "category": "G — Task 20: Decommissions gas-fired systems",
+    "question": "When decommissioning equipment, why should documentation be completed?",
+    "options": [
+      "It records what was isolated, removed, capped, and tested",
+      "It replaces leak testing",
+      "It proves the appliance still operates",
+      "It increases pipe capacity"
+    ],
+    "answer": 0,
+    "explanation": "Decommissioning records show the system was left safe. They help future technicians understand what was removed or isolated. Documentation supports accountability and safety."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerLevel1Set1Questions =
+  shuffleArray(sheetMetalWorkerLevel1Set1Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "gasfitter-class-a",
+  tradeTitle: "Gasfitter Class A",
+  sectionTitle: "Practice Exam Set 2 – Hard Level",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerLevel1Set1Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

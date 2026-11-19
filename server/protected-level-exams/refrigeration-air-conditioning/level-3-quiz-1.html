@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refrigeration and Air Conditioning Mechanic Level 3 Quiz 1 | Red Seal Practice</title>
+  <link rel="stylesheet" href="/public/css/premium-quiz.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/extracted/inline-utilities.min.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/mobile-responsive.min.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/light-education-theme.min.css?release=20260724-mobile-fix" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Red Seal Practice" />
+  <meta property="og:title" content="Refrigeration And Air Conditioning Level Three – Set One" />
+  <meta property="og:description" content="Prepare for Canadian Red Seal and apprenticeship level exams with trade-specific practice questions, study guides, and exam prep tools." />
+  <meta property="og:url" content="https://www.redsealpractice.ca/" />
+  <meta property="og:image" content="https://www.redsealpractice.ca/images/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Refrigeration And Air Conditioning Level Three – Set One" />
+  <meta name="twitter:description" content="Prepare for Canadian Red Seal and apprenticeship level exams with trade-specific practice questions, study guides, and exam prep tools." />
+  <meta name="twitter:image" content="https://www.redsealpractice.ca/images/og-image.png" />
+  <link rel="stylesheet" href="/css/modern-education-ui.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/single-level-exams.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/reference-pro-theme.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/reference-pro-theme-v2.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/quiz-desktop-polish.css?release=20260724-mobile-fix" />
+  <link rel="stylesheet" href="/css/final-responsive-fixes.css?release=20260724-mobile-fix" />
+<link rel="stylesheet" href="/css/rs-theme.css?release=20261117-redesign">
+<link rel="stylesheet" href="/css/rs-quiz.css?release=20261119-quiz" />
+</head>
+<body class="page-level-3-quiz-1">
+  <div class="single-level-access-banner"><strong>Purchased Level Exam:</strong> Refrigeration and Air Conditioning Mechanic — Level 3, Quiz 1. You can retake this Quiz 1 throughout your 30-day access period. Upgrade to premium for additional level quizzes, complete exam practice, detailed explanations, and progress tracking.</div>
+  <div id="site-navbar"></div>
+
+  <div class="container">
+    <div class="hero-card">
+      <h1>Refrigeration And Air Conditioning Practice Exam Level Three – Set One</h1>
+      <p>
+        Practice by category, run timed quizzes, review explanations, retake incorrect questions,
+        resume saved quizzes, and build real exam confidence.
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge">100 Questions</span>
+        <span class="hero-badge">Timed Quiz</span>
+        <span class="hero-badge">Review Answers</span>
+        <span class="hero-badge">Retake Incorrect</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="space-between">
+        <div>
+          <h1 id="tradeTitle">RACM Harmonized Level 3 – Set 3</h1>
+          <p class="muted">
+            Level up your exam prep with immersive quizzes, detailed solutions, resume-anytime progress, and focused mistake review
+          </p>
+        </div>
+        <div>
+          <span class="pill" id="tradePill">Trade: RACM</span>
+          <span class="pill" id="sectionPill">Level 3 – Set 1</span>
+          <span class="pill" id="totalQuestionsPill">Questions: 100</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="setupSection">
+      <h2>Practice Setup</h2>
+      <div class="menu-grid grid-2">
+        <div>
+          <label for="practiceCategory">Practice category</label>
+          <select id="practiceCategory"></select>
+        </div>
+        <div>
+          <label for="quizMode">Quiz mode</label>
+          <select id="quizMode">
+            <option value="all">All questions in selected category</option>
+            <option value="section">Section test</option>
+          </select>
+        </div>
+        <div>
+          <label for="sectionSize">Questions in section test</label>
+          <input id="sectionSize" type="number" min="1" value="100" />
+        </div>
+      </div>
+
+      <div class="top-actions rs-inline-0001">
+        <button class="btn" id="showOceanBtn" type="button">Show Ocean of Questions</button>
+        <button class="btn btn-primary" id="startQuizBtn" type="button">Start Timed Quiz</button>
+        <button class="btn rs-inline-0002" id="resumeQuizBtn" type="button">Resume Quiz</button>
+        <button class="btn" id="unansweredOnlyBtn" type="button">Unanswered Only</button>
+        <button class="btn" id="incorrectOnlyBtn" type="button">Retake Incorrect</button>
+      </div>
+    </div>
+
+    <div class="card hidden" id="oceanSection">
+      <div class="space-between">
+        <div>
+          <h2>Ocean of Questions</h2>
+          <p class="muted">Filter by category or search by keyword.</p>
+        </div>
+        <div class="top-actions">
+          <input id="searchQuestions" type="text" placeholder="Search questions..." / class="rs-inline-0003">
+          <button class="btn" id="hideOceanBtn" type="button">Hide List</button>
+        </div>
+      </div>
+      <div id="oceanQuestionCount" class="muted small"></div>
+      <div id="oceanQuestions"></div>
+    </div>
+
+    <div class="hidden" id="quizSection">
+      <div class="menu-grid quiz-grid rs-inline-0004">
+        <div class="card">
+          <div class="space-between">
+            <h2 id="quizQuestionTitle">Question 1</h2>
+            <div class="timer-box" id="timerBox">01:30</div>
+          </div>
+
+          <div class="muted" id="quizMeta"></div>
+          <div class="progress-wrap"><div class="progress-bar" id="quizProgress"></div></div>
+
+          <h3 id="quizQuestionText"></h3>
+
+          <div class="top-actions rs-inline-0005">
+            <button class="btn" id="hintBtn" type="button">Show Hint</button>
+          </div>
+
+          <div id="hintBox" class="hint-box hidden">
+            <div class="hint-title">Hint</div>
+            <div id="hintText" class="muted"></div>
+          </div>
+
+          <div id="quizOptions"></div>
+
+          <div class="top-actions">
+            <button class="btn" id="prevBtn" type="button">Previous</button>
+            <button class="btn" id="nextBtn" type="button">Next</button>
+            <button class="btn btn-danger" id="submitQuizBtn" type="button">Submit Quiz</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Question Navigator</h3>
+          <p class="muted small">Blue = answered. Dark = current.</p>
+          <div class="nav-grid" id="navigator"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="resultSection">
+      <div class="card">
+        <h2>Quiz Result</h2>
+        <div class="stats">
+          <div class="stat-box"><div class="muted small">Category</div><div id="resultCategory"></div></div>
+          <div class="stat-box"><div class="muted small">Score</div><div id="resultScore"></div></div>
+          <div class="stat-box"><div class="muted small">Percentage</div><div id="resultPercentage"></div></div>
+          <div class="stat-box"><div class="muted small">Performance</div><div id="resultPerformance"></div></div>
+          <div class="stat-box"><div class="muted small">Pass Probability</div><div id="passPrediction"></div></div>
+        </div>
+
+        <div class="top-actions rs-inline-0001">
+          <button class="btn" id="restartSameBtn" type="button">New Quiz</button>
+          <button class="btn" id="backSetupBtn" type="button">Back to Setup</button>
+        </div>
+
+        <div class="top-actions rs-inline-0001">
+          <button class="btn" id="reviewAllBtn" type="button">Review All</button>
+          <button class="btn" id="reviewUnansweredBtn" type="button">Review Unanswered</button>
+          <button class="btn" id="reviewIncorrectBtn" type="button">Review Incorrect</button>
+        </div>
+      </div>
+
+      <div id="reviewSection"></div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="/public/js/layout.js?release=20260724-mobile-fix"></script>
+  <script src="/public/js/premium-quiz.js?release=20260724-mobile-fix"></script>
+
+  <script src="/level-exam-asset/refrigeration-air-conditioning/level-3-quiz-1.js?release=20260724-mobile-fix" defer></script>
+  <script src="/js/modern-education-ui.js?release=20260724-mobile-fix" defer></script>
+  <script src="/js/reference-pro-theme.js?release=20260724-mobile-fix" defer></script>
+  <script src="/js/quiz-compact-navigator.js?release=20260724-mobile-fix" defer></script>
+<script src="/js/rs-quiz.js?release=20261119-quiz" defer></script>
+</body>
+</html>
+

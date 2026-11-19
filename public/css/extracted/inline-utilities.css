@@ -1,0 +1,33 @@
+/* Generated from inline style attributes during cleanup. */
+.rs-inline-0001 { margin-top:16px; }
+.rs-inline-0002 { display:none; }
+.rs-inline-0003 { width:240px; margin-top:0; }
+.rs-inline-0004 { grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap:16px; }
+.rs-inline-0005 { margin-bottom:12px; }
+.rs-inline-0006 { text-align:center; }
+.rs-inline-0007 { justify-content:center; }
+.rs-inline-0008 { margin-top:0; margin-bottom:8px; }
+.rs-inline-0009 { width:auto;margin-right:8px; }
+.rs-inline-0010 { color:#ca2129;font-weight:bold; }
+
+.rs-inline-0011 { display:inline; font-weight:bold; }
+
+.rs-inline-0012 { display:block;margin:18px 0;font-size:14px;line-height:1.6;color:#3d434b; }
+.rs-inline-0013 { margin-top:0; }
+.rs-inline-0014 { margin-top:0; }
+/* Shared classes replacing inline styles from JavaScript-rendered HTML. */
+.footer-contact-block { margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.15); }
+.footer-contact-heading { margin: 0; font-size: 18px; }
+.footer-contact-text { margin: 6px 0; font-size: 14px; color: #f6dfe0; }
+.footer-contact-link { color: white; font-weight: 700; text-decoration: none; }
+.footer-contact-link:hover { color: #eec4c6; text-decoration: underline; }
+.component-load-error { color: red; }
+.question-category-line { margin-bottom: 8px; }
+.review-status-correct { color: green; }
+.review-status-incorrect { color: red; }
+.review-detail-line { margin-top: 8px; }
+/* Server-rendered status pages. */
+.status-page-body { font-family: Arial, Helvetica, sans-serif; background: #f9f8f6; color: #191c20; }
+.status-page-card { padding: 40px; max-width: 700px; margin: 48px auto; background: #ffffff; border: 1px solid #f5e9e9; border-radius: 18px; box-shadow: 0 16px 40px rgba(25,28,32,0.08); }
+.status-page-button { display: inline-block; padding: 12px 18px; background: #ca2129; color: white; text-decoration: none; border-radius: 8px; font-weight: 700; }
+.status-page-button:hover { background: #ca2129; }

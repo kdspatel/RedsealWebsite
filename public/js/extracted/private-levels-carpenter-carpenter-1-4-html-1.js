@@ -1,0 +1,1396 @@
+const carpenterHarmonizedLevel1Set4Questions = [
+  {
+    "id": 1,
+    "category": "A1. Apply Shop and Site Safety Practices",
+    "question": "You are about to start cutting lumber in a shared work area. What should be checked first?",
+    "options": [
+      "Whether the lumber is painted",
+      "Whether the area is clean, clear, and safe to work in",
+      "Whether the radio is on",
+      "Whether the cut is difficult"
+    ],
+    "answer": 1,
+    "explanation": "A safe work area prevents trips, slips, and contact injuries. Before using tools, hazards around the work area must be controlled. Good housekeeping is a basic jobsite safety practice."
+  },
+  {
+    "id": 2,
+    "category": "A1. Apply Shop and Site Safety Practices",
+    "question": "A worker leaves a circular saw plugged in on the floor with the blade exposed. What is the safest correction?",
+    "options": [
+      "Step over it carefully",
+      "Place material over it",
+      "Unplug it and store it safely with guard working",
+      "Push it under a bench"
+    ],
+    "answer": 2,
+    "explanation": "Tools should not be left energized or exposed. The blade guard must protect the blade when not cutting. Safe storage prevents accidental contact and startup."
+  },
+  {
+    "id": 3,
+    "category": "A1. Apply Shop and Site Safety Practices",
+    "question": "Which action best reduces the chance of falling objects injuring workers below?",
+    "options": [
+      "Tossing tools down carefully",
+      "Storing materials near open edges",
+      "Securing tools and materials when working above others",
+      "Wearing soft shoes"
+    ],
+    "answer": 2,
+    "explanation": "Tools and materials can fall from height. Securing items and using toe boards or tool lanyards reduces risk. Workers below must also be protected from overhead hazards."
+  },
+  {
+    "id": 4,
+    "category": "A2. Apply Personal Safety Practices",
+    "question": "You are cutting fibre cement board. Which protection is most important?",
+    "options": [
+      "Eye, hearing, and respiratory protection",
+      "Cotton gloves only",
+      "Safety vest only",
+      "Rubber boots only"
+    ],
+    "answer": 0,
+    "explanation": "Fibre cement cutting creates harmful dust and noise. Respiratory protection and dust control are important. Eye and hearing protection also match the cutting hazards."
+  },
+  {
+    "id": 5,
+    "category": "A2. Apply Personal Safety Practices",
+    "question": "A carpenter must kneel for a long period while fastening subfloor. What helps prevent injury?",
+    "options": [
+      "Kneeling on bare concrete",
+      "Using knee pads and changing body position",
+      "Working faster without breaks",
+      "Twisting while kneeling"
+    ],
+    "answer": 1,
+    "explanation": "Knee pads reduce pressure on joints. Changing posture helps prevent strain. Ergonomic habits reduce long-term injury."
+  },
+  {
+    "id": 6,
+    "category": "A2. Apply Personal Safety Practices",
+    "question": "If you are unsure how to use a new powder-actuated tool, what should you do?",
+    "options": [
+      "Try it on scrap first",
+      "Use it only when no one is watching",
+      "Get proper training and follow manufacturer instructions",
+      "Use a stronger charge to be safe"
+    ],
+    "answer": 2,
+    "explanation": "Specialized tools require training. Incorrect use can cause serious injury. Manufacturer instructions and site rules must be followed."
+  },
+  {
+    "id": 7,
+    "category": "B1. Use Construction Drawings and Specifications",
+    "question": "A drawing revision cloud surrounds a wall detail. What does it usually mean?",
+    "options": [
+      "That area has changed from a previous version",
+      "That area is decorative only",
+      "That wall is not required",
+      "That the drawing is not approved"
+    ],
+    "answer": 0,
+    "explanation": "Revision clouds highlight changes. The carpenter must check updated details before building. Working from old information can cause rework."
+  },
+  {
+    "id": 8,
+    "category": "B1. Use Construction Drawings and Specifications",
+    "question": "Which drawing would most likely show joist direction and beam locations?",
+    "options": [
+      "Reflected ceiling plan",
+      "Structural framing plan",
+      "Paint schedule",
+      "Door hardware schedule"
+    ],
+    "answer": 1,
+    "explanation": "Structural framing plans show load-carrying members. They identify joists, beams, posts, and sometimes connections. Carpenters use them for structural layout."
+  },
+  {
+    "id": 9,
+    "category": "B1. Use Construction Drawings and Specifications",
+    "question": "A section drawing is mainly used to show:",
+    "options": [
+      "A cut-through view of construction details",
+      "Only the north direction",
+      "The colour of paint",
+      "The contractor’s phone number"
+    ],
+    "answer": 0,
+    "explanation": "Sections show vertical relationships through the building. They help understand heights, layers, and assemblies. They are important for details not clear on plans."
+  },
+  {
+    "id": 10,
+    "category": "B2. Interpret Building Codes and Bylaws",
+    "question": "What is the best reason to follow code requirements even when no inspector is present?",
+    "options": [
+      "Codes are optional",
+      "Codes protect safety, health, and building performance",
+      "Codes only affect taxes",
+      "Codes are only for large buildings"
+    ],
+    "answer": 1,
+    "explanation": "Codes are minimum legal safety standards. They protect occupants and workers. Compliance is required even if inspection is not immediate."
+  },
+  {
+    "id": 11,
+    "category": "B2. Interpret Building Codes and Bylaws",
+    "question": "A guardrail is required around an elevated floor opening. Why?",
+    "options": [
+      "To improve appearance",
+      "To prevent falls",
+      "To support concrete curing",
+      "To reduce lumber shrinkage"
+    ],
+    "answer": 1,
+    "explanation": "Open edges and floor openings are fall hazards. Guardrails, covers, or barriers protect workers. Fall prevention is a major safety requirement."
+  },
+  {
+    "id": 12,
+    "category": "B2. Interpret Building Codes and Bylaws",
+    "question": "A drawing shows a beam size smaller than required by the structural notes. What should happen?",
+    "options": [
+      "Use the smaller beam to save money",
+      "Clarify the conflict before installation",
+      "Install both beams side by side randomly",
+      "Ignore structural notes"
+    ],
+    "answer": 1,
+    "explanation": "Structural conflicts must be resolved before work. Beam size affects load capacity. Clarification prevents unsafe construction and rework."
+  },
+  {
+    "id": 13,
+    "category": "B2. Interpret Building Codes and Bylaws",
+    "question": "Which situation may require checking local bylaws?",
+    "options": [
+      "Location of a garage near a property line",
+      "Sharpening a chisel",
+      "Choosing hammer weight",
+      "Measuring board thickness"
+    ],
+    "answer": 0,
+    "explanation": "Local bylaws can control setbacks and building placement. Property-line distances are regulated. Layout must comply before construction begins."
+  },
+  {
+    "id": 14,
+    "category": "B2. Interpret Building Codes and Bylaws",
+    "question": "Why are fireblocking or draftstopping details important in wood-frame buildings?",
+    "options": [
+      "They slow hidden fire and smoke spread",
+      "They increase window size",
+      "They replace insulation",
+      "They make walls lighter"
+    ],
+    "answer": 0,
+    "explanation": "Concealed spaces can allow fire to spread quickly. Fireblocking helps interrupt hidden pathways. These details must be installed as required."
+  },
+  {
+    "id": 15,
+    "category": "B3. Plan and Organize Work",
+    "question": "You have limited time to frame a wall. What is the best work sequence?",
+    "options": [
+      "Cut randomly, then read drawings",
+      "Review drawings, mark layout, cut material, assemble, check square",
+      "Nail first, measure later",
+      "Install sheathing before framing"
+    ],
+    "answer": 1,
+    "explanation": "Good sequencing saves time and reduces mistakes. Layout and measurement come before cutting. Checking square before fastening prevents rework."
+  },
+  {
+    "id": 16,
+    "category": "B4. Perform Trade Math",
+    "question": "Convert 7 ft 6 in. to inches.",
+    "options": [
+      "76 in.",
+      "84 in.",
+      "90 in.",
+      "96 in."
+    ],
+    "answer": 2,
+    "explanation": "7 ft × 12 = 84 in. 84 + 6 = 90 in. The correct length is 90 inches."
+  },
+  {
+    "id": 17,
+    "category": "B4. Perform Trade Math",
+    "question": "A rectangle is 11 ft long and 9 ft wide. What is the area?",
+    "options": [
+      "20 sq ft",
+      "40 sq ft",
+      "99 sq ft",
+      "198 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Area of rectangle = length × width. 11 × 9 = 99. The answer is 99 square feet."
+  },
+  {
+    "id": 18,
+    "category": "B4. Perform Trade Math",
+    "question": "Using π = 3.14, what is the circumference of a circle with radius 4 in.?",
+    "options": [
+      "12.56 in.",
+      "25.12 in.",
+      "50.24 in.",
+      "16 in."
+    ],
+    "answer": 1,
+    "explanation": "Circumference = 2πr. 2 × 3.14 × 4 = 25.12. The radius must be doubled in this formula."
+  },
+  {
+    "id": 19,
+    "category": "B4. Perform Trade Math",
+    "question": "A rectangular footing is 10 m long, 0.6 m wide, and 0.3 m deep. What is the volume?",
+    "options": [
+      "1.8 m³",
+      "3.0 m³",
+      "6.0 m³",
+      "18.0 m³"
+    ],
+    "answer": 0,
+    "explanation": "Volume = length × width × depth. 10 × 0.6 × 0.3 = 1.8. The answer is cubic metres."
+  },
+  {
+    "id": 20,
+    "category": "B4. Perform Trade Math",
+    "question": "A right triangle has one side 5 ft and hypotenuse 13 ft. What is the other side?",
+    "options": [
+      "8 ft",
+      "10 ft",
+      "12 ft",
+      "18 ft"
+    ],
+    "answer": 2,
+    "explanation": "Use a² + b² = c². 13² − 5² = 169 − 25 = 144. √144 = 12 ft."
+  },
+  {
+    "id": 21,
+    "category": "B4. Perform Trade Math",
+    "question": "A sheet is 1220 mm wide. Approximately how many metres is that?",
+    "options": [
+      "0.122 m",
+      "1.22 m",
+      "12.2 m",
+      "122 m"
+    ],
+    "answer": 1,
+    "explanation": "1000 mm = 1 m. 1220 mm ÷ 1000 = 1.22 m. This is a common metric conversion."
+  },
+  {
+    "id": 22,
+    "category": "B4. Perform Trade Math",
+    "question": "A room is 13 ft by 15 ft. What is the perimeter?",
+    "options": [
+      "28 ft",
+      "43 ft",
+      "56 ft",
+      "195 ft"
+    ],
+    "answer": 2,
+    "explanation": "Perimeter = 2(length + width). 2(13 + 15) = 56. Perimeter is measured in linear feet."
+  },
+  {
+    "id": 23,
+    "category": "C1. Use Hand Tools",
+    "question": "Which tool is best for checking whether a wall is vertical?",
+    "options": [
+      "Level",
+      "Chalk line",
+      "Nail set",
+      "Handsaw"
+    ],
+    "answer": 0,
+    "explanation": "A level checks plumb and level. Plumb means vertical. It is essential for wall and post alignment."
+  },
+  {
+    "id": 24,
+    "category": "C1. Use Hand Tools",
+    "question": "What is the main purpose of a pry bar?",
+    "options": [
+      "Driving screws",
+      "Pulling, lifting, or prying materials",
+      "Measuring angles",
+      "Marking level lines"
+    ],
+    "answer": 1,
+    "explanation": "A pry bar provides leverage. It is used for demolition, adjustment, and nail pulling. It should be used carefully to avoid damage."
+  },
+  {
+    "id": 25,
+    "category": "C1. Use Hand Tools",
+    "question": "A carpenter wants to mark repeated 45-degree cuts on blocking. Which tool is useful?",
+    "options": [
+      "Speed square",
+      "Nail set",
+      "Clamps only",
+      "Sledgehammer"
+    ],
+    "answer": 0,
+    "explanation": "Speed squares commonly mark 45 and 90 degrees. They are fast layout tools for framing. They improve consistency on repeated cuts."
+  },
+  {
+    "id": 26,
+    "category": "C1. Use Hand Tools",
+    "question": "Why should a chisel never be used as a pry bar?",
+    "options": [
+      "It is too sharp and may break or become damaged",
+      "It makes wood stronger",
+      "It improves leverage",
+      "It replaces all nail pullers"
+    ],
+    "answer": 0,
+    "explanation": "Chisels are cutting tools, not prying tools. Prying can break the blade or handle. Using tools for the wrong purpose is unsafe."
+  },
+  {
+    "id": 27,
+    "category": "C1. Use Hand Tools",
+    "question": "A clamp is used mainly to:",
+    "options": [
+      "Hold work securely",
+      "Cut wood",
+      "Measure elevation",
+      "Sharpen blades"
+    ],
+    "answer": 0,
+    "explanation": "Clamps hold material during cutting, drilling, or assembly. They improve accuracy and safety. Loose workpieces can shift unexpectedly."
+  },
+  {
+    "id": 28,
+    "category": "C2. Use Portable Power Tools",
+    "question": "Before plugging in a portable saw, what should be checked?",
+    "options": [
+      "That the trigger is off and guard works",
+      "That the blade is touching the floor",
+      "That the cord is stretched across a walkway",
+      "That the blade guard is tied back"
+    ],
+    "answer": 0,
+    "explanation": "The tool must not start accidentally. Guards must move freely and cover the blade. Pre-use checks prevent injuries."
+  },
+  {
+    "id": 29,
+    "category": "C2. Use Portable Power Tools",
+    "question": "A screw head strips while being driven. What is a likely cause?",
+    "options": [
+      "Wrong bit size or poor alignment",
+      "Correct bit and pressure",
+      "Screw is too clean",
+      "Drill is unplugged"
+    ],
+    "answer": 0,
+    "explanation": "Wrong bits damage screw heads. Poor alignment causes slipping and stripping. Correct pressure and bit fit improve fastening."
+  },
+  {
+    "id": 30,
+    "category": "C2. Use Portable Power Tools",
+    "question": "When using a jigsaw, why should the shoe stay flat on the material?",
+    "options": [
+      "To control vibration and keep the cut accurate",
+      "To remove the need for a blade",
+      "To increase kickback intentionally",
+      "To make the motor quieter only"
+    ],
+    "answer": 0,
+    "explanation": "The shoe supports the saw. Keeping it flat improves control and accuracy. A lifted shoe can cause blade bending or rough cuts."
+  },
+  {
+    "id": 31,
+    "category": "C2. Use Portable Power Tools",
+    "question": "What is the best way to reduce dust while cutting indoors?",
+    "options": [
+      "Blow dust into the room",
+      "Use dust extraction, ventilation, and proper respiratory protection",
+      "Cut faster",
+      "Close all windows and doors"
+    ],
+    "answer": 1,
+    "explanation": "Dust control reduces breathing hazards. Collection and ventilation help keep air cleaner. Respiratory protection may still be required."
+  },
+  {
+    "id": 32,
+    "category": "C2. Use Portable Power Tools",
+    "question": "A portable power tool vibrates unusually. What should you do?",
+    "options": [
+      "Keep using it until it stops",
+      "Stop using it and inspect or report the tool",
+      "Hold it tighter only",
+      "Remove the guard"
+    ],
+    "answer": 1,
+    "explanation": "Unusual vibration may mean damage or loose parts. Continuing use can be dangerous. The tool should be checked before reuse."
+  },
+  {
+    "id": 33,
+    "category": "C3. Use Stationary Power Tools",
+    "question": "What is the main purpose of a mitre saw?",
+    "options": [
+      "Crosscutting material accurately at set angles",
+      "Planing boards thinner",
+      "Drilling vertical holes",
+      "Sanding concrete"
+    ],
+    "answer": 0,
+    "explanation": "A mitre saw makes crosscuts and angle cuts. It is common for trim and framing cuts. Material must be held firmly against the fence."
+  },
+  {
+    "id": 34,
+    "category": "C3. Use Stationary Power Tools",
+    "question": "Why should long stock be supported when cutting on a mitre saw?",
+    "options": [
+      "To prevent tipping, binding, or inaccurate cuts",
+      "To increase blade speed",
+      "To make the saw lighter",
+      "To remove the need for eye protection"
+    ],
+    "answer": 0,
+    "explanation": "Long pieces can tip or shift. Movement may bind the blade or ruin the cut. Proper support improves safety and accuracy."
+  },
+  {
+    "id": 35,
+    "category": "C3. Use Stationary Power Tools",
+    "question": "A table saw blade height is set far above the material. What is the concern?",
+    "options": [
+      "More blade is exposed than necessary",
+      "The saw will not cut",
+      "It prevents kickback completely",
+      "It makes the wood waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Excess blade exposure increases injury severity. Blade height should suit the cut. Only the needed amount of blade should be exposed."
+  },
+  {
+    "id": 36,
+    "category": "C3. Use Stationary Power Tools",
+    "question": "A worker tries to clear sawdust near a moving blade by hand. What is correct?",
+    "options": [
+      "Use hands carefully",
+      "Shut the machine off and wait for motion to stop",
+      "Blow hard with mouth",
+      "Reach from the back side"
+    ],
+    "answer": 1,
+    "explanation": "Hands must stay away from moving blades. Cleaning should happen only after motion stops. Brushes or vacuums are safer than hands."
+  },
+  {
+    "id": 37,
+    "category": "C3. Use Stationary Power Tools",
+    "question": "A band saw blade is tracking off the wheel. What should be done?",
+    "options": [
+      "Keep cutting slowly",
+      "Stop and adjust or service the machine",
+      "Push material harder",
+      "Remove blade guards"
+    ],
+    "answer": 1,
+    "explanation": "Poor blade tracking can cause breakage. The machine must be adjusted before use. Guards and proper tension are important."
+  },
+  {
+    "id": 38,
+    "category": "D1. Use Levelling Instruments and Equipment",
+    "question": "What does a backsight reading establish?",
+    "options": [
+      "Height of instrument from a known point",
+      "Door swing direction",
+      "Concrete mix ratio",
+      "Stair run only"
+    ],
+    "answer": 0,
+    "explanation": "A backsight is taken on a known elevation. It helps calculate height of instrument. Then other elevations can be found."
+  },
+  {
+    "id": 39,
+    "category": "D1. Use Levelling Instruments and Equipment",
+    "question": "If the benchmark is 20.000 m and the backsight is 0.875 m, what is the height of instrument?",
+    "options": [
+      "19.125 m",
+      "20.875 m",
+      "21.750 m",
+      "0.875 m"
+    ],
+    "answer": 1,
+    "explanation": "HI = benchmark + backsight. 20.000 + 0.875 = 20.875. This is used for elevation calculations."
+  },
+  {
+    "id": 40,
+    "category": "D1. Use Levelling Instruments and Equipment",
+    "question": "If HI is 20.875 m and foresight is 1.325 m, what is the elevation?",
+    "options": [
+      "19.550 m",
+      "20.875 m",
+      "22.200 m",
+      "18.675 m"
+    ],
+    "answer": 0,
+    "explanation": "Elevation = HI − foresight. 20.875 − 1.325 = 19.550. A foresight finds the new point elevation."
+  },
+  {
+    "id": 41,
+    "category": "D1. Use Levelling Instruments and Equipment",
+    "question": "Why should a laser level be checked against a known reference?",
+    "options": [
+      "To confirm accuracy before layout",
+      "To change its colour",
+      "To increase battery size",
+      "To avoid using measurements"
+    ],
+    "answer": 0,
+    "explanation": "Instruments can be bumped or out of calibration. Checking against a known point prevents layout errors. Accurate references are essential."
+  },
+  {
+    "id": 42,
+    "category": "D1. Use Levelling Instruments and Equipment",
+    "question": "A grade stake mark shows the top of footing elevation. What is its purpose?",
+    "options": [
+      "To guide excavation or form height",
+      "To show paint colour",
+      "To mark lunch area",
+      "To identify tool storage"
+    ],
+    "answer": 0,
+    "explanation": "Grade marks guide elevations. Forms and excavation must match required heights. Wrong grade affects the whole structure."
+  },
+  {
+    "id": 43,
+    "category": "E1. Use Ladders, Scaffolds and Access Equipment",
+    "question": "What is the safest ladder choice for a task?",
+    "options": [
+      "The shortest ladder available",
+      "A ladder that reaches safely without standing on top steps",
+      "Any ladder if someone holds it",
+      "A damaged ladder for short work"
+    ],
+    "answer": 1,
+    "explanation": "The ladder must suit the height and task. Standing too high on a ladder is unsafe. Damaged ladders must not be used."
+  },
+  {
+    "id": 44,
+    "category": "E1. Use Ladders, Scaffolds and Access Equipment",
+    "question": "What should be checked before using a stepladder?",
+    "options": [
+      "Spreaders locked and feet stable",
+      "Paint colour",
+      "Number of nearby workers only",
+      "Whether it is leaning closed against a wall"
+    ],
+    "answer": 0,
+    "explanation": "Stepladders must be fully opened and locked. Feet must sit on stable ground. Using them incorrectly can cause tipping."
+  },
+  {
+    "id": 45,
+    "category": "E1. Use Ladders, Scaffolds and Access Equipment",
+    "question": "A scaffold platform is missing a plank. What is the hazard?",
+    "options": [
+      "Fall-through or unstable footing",
+      "Improved access",
+      "Better load distribution",
+      "Less need for guardrails"
+    ],
+    "answer": 0,
+    "explanation": "Missing planks create openings and poor footing. Scaffold platforms must be properly decked. Workers need stable walking and working surfaces."
+  },
+  {
+    "id": 46,
+    "category": "E1. Use Ladders, Scaffolds and Access Equipment",
+    "question": "Why should materials not be overloaded on a scaffold?",
+    "options": [
+      "The scaffold has load limits",
+      "Heavy loads make guardrails stronger",
+      "Load limits only apply to ladders",
+      "More weight prevents falls"
+    ],
+    "answer": 0,
+    "explanation": "Scaffolds are rated for specific loads. Overloading can cause failure or collapse. Workers, tools, and materials all count as load."
+  },
+  {
+    "id": 47,
+    "category": "E1. Use Ladders, Scaffolds and Access Equipment",
+    "question": "When climbing onto a roof from a ladder, why should the ladder be secured?",
+    "options": [
+      "To prevent movement during transition",
+      "To make it harder to use",
+      "To replace fall protection",
+      "To change roof pitch"
+    ],
+    "answer": 0,
+    "explanation": "The transition point is high risk. A secured ladder prevents sliding or tipping. The ladder should also extend above the landing."
+  },
+  {
+    "id": 48,
+    "category": "E2. Use Rigging and Hoisting Equipment",
+    "question": "What is the safest rule around suspended loads?",
+    "options": [
+      "Never stand under a suspended load",
+      "Stand under it only if wearing a hard hat",
+      "Walk under quickly",
+      "Hold the hook by hand"
+    ],
+    "answer": 0,
+    "explanation": "Suspended loads can fall or swing. Workers must stay clear of the danger zone. A hard hat does not make standing below safe."
+  },
+  {
+    "id": 49,
+    "category": "E2. Use Rigging and Hoisting Equipment",
+    "question": "Why is the centre of gravity important when rigging a load?",
+    "options": [
+      "It affects balance and stability during lifting",
+      "It changes the colour of straps",
+      "It removes the need for slings",
+      "It makes the load lighter"
+    ],
+    "answer": 0,
+    "explanation": "A load lifts from its centre of gravity. Wrong pick points can make it tilt or swing. Balanced rigging improves control and safety."
+  },
+  {
+    "id": 50,
+    "category": "F1. Lay Out Building Locations",
+    "question": "What is the purpose of checking diagonals in a rectangular layout?",
+    "options": [
+      "Confirm squareness",
+      "Measure concrete strength",
+      "Check lumber grade",
+      "Set ladder angle"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals help confirm square corners. This works when opposite sides are equal. It is a key building layout check."
+  },
+  {
+    "id": 51,
+    "category": "F1. Lay Out Building Locations",
+    "question": "A building corner stake is knocked out. What should be used to restore it?",
+    "options": [
+      "Reference lines, offsets, or control points",
+      "Guesswork",
+      "Nearest tree only",
+      "Chalk colour"
+    ],
+    "answer": 0,
+    "explanation": "Control points and offsets allow layout recovery. Single stakes can be disturbed. Reliable references protect accuracy."
+  },
+  {
+    "id": 52,
+    "category": "F1. Lay Out Building Locations",
+    "question": "Why should layout lines be checked before concrete placement?",
+    "options": [
+      "Concrete errors are difficult and expensive to correct",
+      "Concrete automatically fixes layout",
+      "Layout does not matter after forms are built",
+      "Only paint layout matters"
+    ],
+    "answer": 0,
+    "explanation": "Once concrete hardens, mistakes are costly. Form location, size, and square must be confirmed. Checking before the pour prevents major rework."
+  },
+  {
+    "id": 53,
+    "category": "F1. Lay Out Building Locations",
+    "question": "A 3-4-5 triangle is enlarged to 6-8-10. What is it used for?",
+    "options": [
+      "Checking a right angle",
+      "Measuring concrete volume",
+      "Choosing nail size",
+      "Marking paint lines"
+    ],
+    "answer": 0,
+    "explanation": "6-8-10 is proportional to 3-4-5. It creates a right triangle. This helps lay out square corners."
+  },
+  {
+    "id": 54,
+    "category": "F1. Lay Out Building Locations",
+    "question": "Why should string lines be kept clear of workers and material?",
+    "options": [
+      "They can be moved, causing layout errors",
+      "They improve ladder strength",
+      "They are used for lifting loads",
+      "They cure concrete"
+    ],
+    "answer": 0,
+    "explanation": "String lines are layout references. If bumped or sagging, measurements become wrong. They must stay tight and undisturbed."
+  },
+  {
+    "id": 55,
+    "category": "G1. Use Concrete Types, Materials, Additives and Treatments",
+    "question": "Which ingredient chemically reacts with water to bind concrete?",
+    "options": [
+      "Cement",
+      "Gravel only",
+      "Sand only",
+      "Air only"
+    ],
+    "answer": 0,
+    "explanation": "Cement hydrates when mixed with water. This reaction binds the aggregates together. Concrete strength depends on proper mix and curing."
+  },
+  {
+    "id": 56,
+    "category": "G1. Use Concrete Types, Materials, Additives and Treatments",
+    "question": "Why should fresh concrete be protected from freezing?",
+    "options": [
+      "Freezing can stop proper strength development",
+      "Freezing makes concrete stronger instantly",
+      "Freezing replaces curing",
+      "Freezing improves reinforcement bond always"
+    ],
+    "answer": 0,
+    "explanation": "Early freezing can damage concrete. Concrete needs proper temperature for hydration. Cold-weather protection may be required."
+  },
+  {
+    "id": 57,
+    "category": "G1. Use Concrete Types, Materials, Additives and Treatments",
+    "question": "What does slump generally measure?",
+    "options": [
+      "Concrete workability or consistency",
+      "Rebar strength",
+      "Form height",
+      "Lumber moisture"
+    ],
+    "answer": 0,
+    "explanation": "Slump shows how fluid or workable concrete is. Too much or too little slump can cause problems. The mix must match specifications."
+  },
+  {
+    "id": 58,
+    "category": "G2. Select Concrete Forming Systems",
+    "question": "What must formwork safely support?",
+    "options": [
+      "Fresh concrete pressure, workers, equipment, and construction loads",
+      "Paint cans only",
+      "Door hardware only",
+      "Air pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Forms carry heavy temporary loads. Fresh concrete can create strong lateral pressure. Failure can be dangerous and costly."
+  },
+  {
+    "id": 59,
+    "category": "G2. Select Concrete Forming Systems",
+    "question": "Why are walers used in wall formwork?",
+    "options": [
+      "To align and support form panels",
+      "To cut concrete",
+      "To replace all ties",
+      "To measure stair rise"
+    ],
+    "answer": 0,
+    "explanation": "Walers stiffen and align form faces. They help distribute pressure to ties or braces. They are part of many wall-form systems."
+  },
+  {
+    "id": 60,
+    "category": "G2. Select Concrete Forming Systems",
+    "question": "What can happen if form joints are not tight?",
+    "options": [
+      "Cement paste leakage and poor surface finish",
+      "Stronger concrete always",
+      "Better rebar bond automatically",
+      "Less need for vibration"
+    ],
+    "answer": 0,
+    "explanation": "Loose joints allow paste to escape. This can cause honeycombing or rough edges. Forms should be tight before placement."
+  },
+  {
+    "id": 61,
+    "category": "G2. Select Concrete Forming Systems",
+    "question": "Why is formwork sometimes cambered?",
+    "options": [
+      "To allow for expected deflection under load",
+      "To make forms crooked permanently",
+      "To reduce concrete strength",
+      "To eliminate shoring"
+    ],
+    "answer": 0,
+    "explanation": "Camber is intentional upward curve. It offsets deflection from concrete weight. It helps achieve correct final elevation."
+  },
+  {
+    "id": 62,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "Why must footing forms be level and straight?",
+    "options": [
+      "They control footing shape, size, and elevation",
+      "They only affect appearance",
+      "They replace soil bearing",
+      "They remove the need for concrete"
+    ],
+    "answer": 0,
+    "explanation": "Footings support the structure. Incorrect forms create wrong footing dimensions. Errors can affect the foundation above."
+  },
+  {
+    "id": 63,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "A footing is poured on loose organic soil. What is the concern?",
+    "options": [
+      "Settlement or poor bearing",
+      "Better load transfer",
+      "Stronger concrete",
+      "More accurate layout"
+    ],
+    "answer": 0,
+    "explanation": "Footings need stable bearing soil. Organic or loose material can compress. Poor support can cause cracking or settlement."
+  },
+  {
+    "id": 64,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "What is the purpose of bracing vertical wall forms?",
+    "options": [
+      "Keep forms plumb, straight, and stable",
+      "Add colour to concrete",
+      "Replace anchor bolts",
+      "Reduce concrete volume"
+    ],
+    "answer": 0,
+    "explanation": "Bracing resists movement from wind and concrete pressure. It holds formwork in position. Poor bracing can cause wall defects or failure."
+  },
+  {
+    "id": 65,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "Why are form ties spaced according to design?",
+    "options": [
+      "To resist concrete pressure safely",
+      "To make walls decorative",
+      "To reduce code requirements",
+      "To replace walers completely"
+    ],
+    "answer": 0,
+    "explanation": "Ties hold opposite form faces together. Spacing affects strength and wall thickness. Improper spacing can cause bulging or failure."
+  },
+  {
+    "id": 66,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "Before a wall pour, which item is most important to confirm?",
+    "options": [
+      "Forms, bracing, ties, embeds, openings, and alignment",
+      "Paint colour",
+      "Lunch schedule",
+      "Weather forecast only"
+    ],
+    "answer": 0,
+    "explanation": "Wall forms must be ready before concrete arrives. Missing embeds or weak bracing cause serious problems. Final checks prevent pour failures."
+  },
+  {
+    "id": 67,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "Why should formwork be stripped only when concrete has enough strength?",
+    "options": [
+      "Early stripping can damage concrete or cause failure",
+      "Forms are not needed at any time",
+      "Concrete gains full strength immediately",
+      "Stripping makes concrete cure faster always"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete needs time to gain strength. Forms support and protect it during early curing. Removing forms too soon can damage edges or structure."
+  },
+  {
+    "id": 68,
+    "category": "G3. Build Footing and Vertical Formwork",
+    "question": "A concrete wall form is out of line by 25 mm before pouring. What should be done?",
+    "options": [
+      "Correct alignment before placing concrete",
+      "Pour and hope pressure fixes it",
+      "Add more water",
+      "Hide it with paint later"
+    ],
+    "answer": 0,
+    "explanation": "Concrete follows the form shape. Misaligned forms create misaligned walls. Corrections must be made before the pour."
+  },
+  {
+    "id": 69,
+    "category": "G4. Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "Why is vapour barrier sometimes placed under a slab-on-grade?",
+    "options": [
+      "To reduce moisture movement from the ground",
+      "To increase saw blade life",
+      "To replace concrete curing",
+      "To make rebar unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Ground moisture can move into slabs. Vapour barriers help protect interior finishes. Placement depends on project requirements."
+  },
+  {
+    "id": 70,
+    "category": "G4. Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "What must be checked before placing concrete on suspended slab forms?",
+    "options": [
+      "Shoring, decking, bracing, elevation, and load support",
+      "Door colour",
+      "Window glass type only",
+      "Tool brand"
+    ],
+    "answer": 0,
+    "explanation": "Suspended slab forms carry heavy wet concrete. Shoring must be stable and properly installed. Elevation and support must be verified."
+  },
+  {
+    "id": 71,
+    "category": "G5. Install Reinforcement and Embedded Items",
+    "question": "Why should rebar be tied securely?",
+    "options": [
+      "To keep it in correct position during concrete placement",
+      "To make it visible after finishing",
+      "To replace concrete",
+      "To reduce form strength"
+    ],
+    "answer": 0,
+    "explanation": "Concrete placement can move loose rebar. Ties help maintain spacing and cover. Correct position is essential for structural performance."
+  },
+  {
+    "id": 72,
+    "category": "G5. Install Reinforcement and Embedded Items",
+    "question": "What is the purpose of anchor bolts in concrete foundations?",
+    "options": [
+      "Attach wood plates or structural members to concrete",
+      "Make concrete set faster",
+      "Replace footing forms",
+      "Measure wall height"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts connect framing to foundation. They help resist movement, lateral force, and uplift. Accurate placement is important."
+  },
+  {
+    "id": 73,
+    "category": "G7. Place and Finish Concrete",
+    "question": "Why should concrete be placed as close as possible to its final location?",
+    "options": [
+      "To reduce segregation and extra handling",
+      "To increase falling distance",
+      "To dry it faster",
+      "To remove need for forms"
+    ],
+    "answer": 0,
+    "explanation": "Excess movement can separate materials. Controlled placement preserves mix quality. Concrete should not be pushed long distances unnecessarily."
+  },
+  {
+    "id": 74,
+    "category": "G7. Place and Finish Concrete",
+    "question": "What is the purpose of curing concrete?",
+    "options": [
+      "Maintain moisture and temperature for strength gain",
+      "Make it dry immediately",
+      "Remove all water instantly",
+      "Replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Curing supports cement hydration. Concrete needs moisture and proper temperature. Poor curing can reduce durability and strength."
+  },
+  {
+    "id": 75,
+    "category": "H1. Describe Wood Frame Construction",
+    "question": "Which members commonly carry roof loads to walls?",
+    "options": [
+      "Rafters or trusses",
+      "Baseboards",
+      "Drywall tape",
+      "Floor finish"
+    ],
+    "answer": 0,
+    "explanation": "Rafters and trusses support roof loads. Loads transfer to walls, beams, and foundation. The load path must be continuous."
+  },
+  {
+    "id": 76,
+    "category": "H1. Describe Wood Frame Construction",
+    "question": "What is dead load?",
+    "options": [
+      "Permanent weight of the building materials",
+      "Temporary weight of people only",
+      "Wind pressure only",
+      "Moisture in air only"
+    ],
+    "answer": 0,
+    "explanation": "Dead load is permanent structural weight. Examples include framing, sheathing, roofing, and finishes. Live load is temporary or movable load."
+  },
+  {
+    "id": 77,
+    "category": "H1. Describe Wood Frame Construction",
+    "question": "What is live load?",
+    "options": [
+      "Temporary loads such as people, furniture, or stored items",
+      "Weight of foundation concrete only",
+      "Paint colour",
+      "Lumber species"
+    ],
+    "answer": 0,
+    "explanation": "Live loads change during building use. Floors are designed to support expected live loads. Dead and live loads both affect framing design."
+  },
+  {
+    "id": 78,
+    "category": "H1. Describe Wood Frame Construction",
+    "question": "Why is sheathing nailed with a specified pattern?",
+    "options": [
+      "Fastener spacing affects structural performance",
+      "Random nailing is always stronger",
+      "Nails are only decorative",
+      "Sheathing does not carry any load"
+    ],
+    "answer": 0,
+    "explanation": "Sheathing can resist lateral loads. Nailing pattern controls strength and stiffness. Incorrect fastening can reduce wall or floor performance."
+  },
+  {
+    "id": 79,
+    "category": "H2. Select Framing Materials",
+    "question": "What does a grade stamp on lumber identify?",
+    "options": [
+      "Grade, species group, moisture condition, and certification information",
+      "Paint colour",
+      "Tool size",
+      "Worker name"
+    ],
+    "answer": 0,
+    "explanation": "Grade stamps provide structural information. They help confirm lumber meets specifications. Carpenters should not cut off needed stamps before inspection."
+  },
+  {
+    "id": 80,
+    "category": "H2. Select Framing Materials",
+    "question": "Which material is commonly used for subfloor sheathing?",
+    "options": [
+      "Plywood or OSB rated panels",
+      "Glass only",
+      "Drywall only",
+      "Roofing felt only"
+    ],
+    "answer": 0,
+    "explanation": "Rated panels are designed for structural sheathing. They support floor loads and tie framing together. Panel thickness and rating must match joist spacing."
+  },
+  {
+    "id": 81,
+    "category": "H2. Select Framing Materials",
+    "question": "Why should pressure-treated wood be used where required?",
+    "options": [
+      "It resists decay in moisture-prone locations",
+      "It is always lighter",
+      "It replaces fasteners",
+      "It never needs safety precautions"
+    ],
+    "answer": 0,
+    "explanation": "Treated wood resists rot and insects. It is used near concrete or exterior exposure where required. Proper fasteners and dust precautions are important."
+  },
+  {
+    "id": 82,
+    "category": "H3. Build Floor Systems",
+    "question": "What is the function of floor joists?",
+    "options": [
+      "Support floor loads and transfer them to beams or walls",
+      "Hold paint only",
+      "Replace foundations",
+      "Make concrete cure"
+    ],
+    "answer": 0,
+    "explanation": "Joists span between supports. They carry subfloor, live load, and dead load. Spacing and size affect floor strength."
+  },
+  {
+    "id": 83,
+    "category": "H3. Build Floor Systems",
+    "question": "Why are joist ends required to have proper bearing?",
+    "options": [
+      "Loads must transfer safely to supports",
+      "Bearing only affects paint",
+      "Bearing makes joists decorative",
+      "Joists do not carry loads"
+    ],
+    "answer": 0,
+    "explanation": "Bearing supports joist reactions. Too little bearing can crush or slip. The support detail must match requirements."
+  },
+  {
+    "id": 84,
+    "category": "H3. Build Floor Systems",
+    "question": "Why are subfloor panels often installed perpendicular to joists?",
+    "options": [
+      "For strength and proper panel performance",
+      "To make cutting harder",
+      "To reduce joist bearing",
+      "To eliminate fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Structural panels are designed for a span direction. Perpendicular installation improves stiffness. Panel markings usually show the correct orientation."
+  },
+  {
+    "id": 85,
+    "category": "H3. Build Floor Systems",
+    "question": "A floor squeaks after construction. What is a common cause?",
+    "options": [
+      "Movement between subfloor and joists",
+      "Too much concrete curing",
+      "Correct adhesive use",
+      "Perfect fastener spacing"
+    ],
+    "answer": 0,
+    "explanation": "Squeaks often come from movement. Proper adhesive and fastening reduce this problem. Loose panels or missed joists can cause noise."
+  },
+  {
+    "id": 86,
+    "category": "H3. Build Floor Systems",
+    "question": "What is bridging or blocking used for in floor framing?",
+    "options": [
+      "Reduce joist twisting and improve load sharing",
+      "Replace beams completely",
+      "Make floors weaker",
+      "Increase stair rise"
+    ],
+    "answer": 0,
+    "explanation": "Blocking stabilizes joists. It can help distribute loads. It may also support panel edges."
+  },
+  {
+    "id": 87,
+    "category": "H3. Build Floor Systems",
+    "question": "Why should holes in joists be located carefully?",
+    "options": [
+      "Incorrect holes can weaken the joist",
+      "Holes always make joists stronger",
+      "Hole location does not matter",
+      "Holes replace hangers"
+    ],
+    "answer": 0,
+    "explanation": "Joists carry bending and shear forces. Improper holes or notches reduce capacity. Code or manufacturer rules must be followed."
+  },
+  {
+    "id": 88,
+    "category": "H3. Build Floor Systems",
+    "question": "What is a rim board or rim joist used for?",
+    "options": [
+      "Close and support the perimeter of a floor system",
+      "Replace all interior joists",
+      "Support roof shingles only",
+      "Mix concrete"
+    ],
+    "answer": 0,
+    "explanation": "Rim members close joist ends. They transfer edge loads and support sheathing edges. They also provide attachment for walls or cladding."
+  },
+  {
+    "id": 89,
+    "category": "H4. Build Wall Systems",
+    "question": "What is the role of a jack stud?",
+    "options": [
+      "Support a header beside an opening",
+      "Replace the top plate",
+      "Act as exterior siding",
+      "Hold insulation only"
+    ],
+    "answer": 0,
+    "explanation": "Jack studs carry header loads. They transfer loads down to the floor or foundation. Openings need correct support framing."
+  },
+  {
+    "id": 90,
+    "category": "H4. Build Wall Systems",
+    "question": "What is the purpose of a sill plate on a foundation?",
+    "options": [
+      "Connect wall framing to the foundation",
+      "Replace floor joists",
+      "Support roof shingles directly",
+      "Finish drywall corners"
+    ],
+    "answer": 0,
+    "explanation": "Sill plates sit on the foundation. They anchor the wood structure to concrete. They must be properly fastened and protected."
+  },
+  {
+    "id": 91,
+    "category": "H4. Build Wall Systems",
+    "question": "Why are walls checked for square before sheathing?",
+    "options": [
+      "Sheathing locks the wall shape",
+      "Sheathing always fixes crooked walls",
+      "Square does not matter",
+      "Paint will correct it"
+    ],
+    "answer": 0,
+    "explanation": "Once sheathing is fastened, the wall becomes rigid. A racked wall may stay out of square. Checking diagonals helps square the wall."
+  },
+  {
+    "id": 92,
+    "category": "H5. Build Stair Systems",
+    "question": "A stair has a total rise of 96 in. and 12 risers. What is each riser height?",
+    "options": [
+      "6 in.",
+      "7 in.",
+      "8 in.",
+      "9 in."
+    ],
+    "answer": 2,
+    "explanation": "Riser height = total rise ÷ number of risers. 96 ÷ 12 = 8. Risers must be consistent and code-compliant."
+  },
+  {
+    "id": 93,
+    "category": "H5. Build Stair Systems",
+    "question": "If each tread run is 10 in. and there are 11 treads, what is total run?",
+    "options": [
+      "100 in.",
+      "110 in.",
+      "121 in.",
+      "220 in."
+    ],
+    "answer": 1,
+    "explanation": "Total run = tread run × number of treads. 10 × 11 = 110. This helps locate the stair footprint."
+  },
+  {
+    "id": 94,
+    "category": "H5. Build Stair Systems",
+    "question": "What is the purpose of a handrail?",
+    "options": [
+      "Provide support and balance for stair users",
+      "Hold drywall only",
+      "Replace stair stringers",
+      "Increase concrete volume"
+    ],
+    "answer": 0,
+    "explanation": "Handrails improve stair safety. They help users maintain balance. Height and shape may be code regulated."
+  },
+  {
+    "id": 95,
+    "category": "H5. Build Stair Systems",
+    "question": "What is the vertical board between stair treads called?",
+    "options": [
+      "Riser",
+      "Stringer",
+      "Joist",
+      "Header"
+    ],
+    "answer": 0,
+    "explanation": "A riser is the vertical face of a step. The tread is the horizontal walking surface. Stringers support the stair parts."
+  },
+  {
+    "id": 96,
+    "category": "H5. Build Stair Systems",
+    "question": "Why should stair layout be checked before cutting stringers?",
+    "options": [
+      "Mistakes waste material and create unsafe stairs",
+      "Stringers cannot carry loads",
+      "Cutting first improves accuracy",
+      "Layout does not affect stairs"
+    ],
+    "answer": 0,
+    "explanation": "Stair geometry must be accurate. Wrong cuts can create uneven risers or weak stringers. Careful layout prevents costly errors."
+  },
+  {
+    "id": 97,
+    "category": "H5. Build Stair Systems",
+    "question": "What is the main problem with uneven stair risers?",
+    "options": [
+      "Increased trip hazard",
+      "Stronger stair structure",
+      "Better appearance",
+      "Less need for handrails"
+    ],
+    "answer": 0,
+    "explanation": "People expect consistent step height. Uneven risers disrupt walking rhythm. This is one of the most common stair safety issues."
+  },
+  {
+    "id": 98,
+    "category": "J1. Control the Forces Acting on a Building",
+    "question": "Which force acts sideways on a wall during strong wind?",
+    "options": [
+      "Lateral load",
+      "Dead load only",
+      "Concrete slump",
+      "Saw kerf"
+    ],
+    "answer": 0,
+    "explanation": "Wind can push sideways on walls. This creates lateral loads. Shear walls, bracing, and connections resist them."
+  },
+  {
+    "id": 99,
+    "category": "J1. Control the Forces Acting on a Building",
+    "question": "Why must water be directed away from a building?",
+    "options": [
+      "To prevent moisture damage to materials and foundation areas",
+      "To increase indoor humidity",
+      "To weaken drainage",
+      "To replace roof framing"
+    ],
+    "answer": 0,
+    "explanation": "Water is a major cause of building damage. Good drainage protects foundations and wood framing. Flashing, slopes, and gutters help manage water."
+  },
+  {
+    "id": 100,
+    "category": "J1. Control the Forces Acting on a Building",
+    "question": "What is the purpose of insulation in a building envelope?",
+    "options": [
+      "Reduce heat transfer",
+      "Stop all structural loads",
+      "Replace framing",
+      "Cure concrete"
+    ],
+    "answer": 0,
+    "explanation": "Insulation slows heat movement. It improves comfort and energy performance. It must work with air, vapour, and moisture control systems."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCarpenterHarmonizedLevel1Set4Questions =
+  shuffleArray(carpenterHarmonizedLevel1Set4Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "carpenter-harmonized",
+  tradeTitle: "Carpenter Harmonized",
+  sectionTitle: "Level 1 – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledCarpenterHarmonizedLevel1Set4Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCarpenterHarmonizedLevel1Set4Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

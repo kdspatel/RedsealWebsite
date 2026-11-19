@@ -1,0 +1,298 @@
+const painterDecoratorFreePracticeQuestions = [
+  {
+    id: 1,
+    category: "Safety",
+    question: "What PPE is most important when sanding painted surfaces?",
+    options: ["Respirator or dust mask and eye protection", "Rubber boots only", "Cotton apron only", "No PPE is required"],
+    answer: 0,
+    explanation: "Sanding creates dust that can irritate lungs and eyes. Respiratory and eye protection are important."
+  },
+  {
+    id: 2,
+    category: "Safety",
+    question: "Why is ventilation important when using solvent-based coatings?",
+    options: ["To reduce vapour exposure and fire risk", "To make paint thicker", "To slow drying forever", "To replace PPE"],
+    answer: 0,
+    explanation: "Solvent vapours can be harmful and flammable. Good ventilation reduces exposure and ignition risk."
+  },
+  {
+    id: 3,
+    category: "Surface Preparation",
+    question: "Why must surfaces be cleaned before painting?",
+    options: ["Dirt, grease, and dust can prevent adhesion", "Paint sticks better to oil", "Cleaning removes primer", "Cleaning makes paint expire"],
+    answer: 0,
+    explanation: "Clean surfaces help paint and coatings bond properly."
+  },
+  {
+    id: 4,
+    category: "Surface Preparation",
+    question: "What is the purpose of sanding before painting?",
+    options: ["Smooth the surface and improve adhesion", "Remove all colour permanently", "Make paint dry slower", "Increase wall moisture"],
+    answer: 0,
+    explanation: "Sanding removes roughness and creates a surface that helps coatings bond."
+  },
+  {
+    id: 5,
+    category: "Surface Preparation",
+    question: "What should be done with loose or peeling paint before repainting?",
+    options: ["Scrape and sand it until sound edges remain", "Paint directly over it", "Wet it only", "Cover it with tape"],
+    answer: 0,
+    explanation: "Loose paint must be removed so the new coating bonds to a solid surface."
+  },
+  {
+    id: 6,
+    category: "Primers",
+    question: "What is the main purpose of primer?",
+    options: ["Improve adhesion and seal the surface", "Replace all finish coats", "Make paint thinner", "Clean brushes"],
+    answer: 0,
+    explanation: "Primer helps coatings bond, seals porous surfaces, and can improve finish appearance."
+  },
+  {
+    id: 7,
+    category: "Primers",
+    question: "When is a stain-blocking primer useful?",
+    options: ["When stains may bleed through the finish coat", "Only after the final coat", "When no stain exists", "To remove wallpaper glue without washing"],
+    answer: 0,
+    explanation: "Stain-blocking primer helps prevent marks such as water stains, smoke, or tannins from bleeding through."
+  },
+  {
+    id: 8,
+    category: "Tools",
+    question: "What tool is commonly used to cut in along edges and corners?",
+    options: ["Paint brush", "Putty knife only", "Hammer", "Pipe wrench"],
+    answer: 0,
+    explanation: "Brushes are commonly used for cutting in around trim, corners, ceilings, and edges."
+  },
+  {
+    id: 9,
+    category: "Tools",
+    question: "What is the purpose of a paint roller?",
+    options: ["Apply paint efficiently over large flat areas", "Remove wallpaper only", "Measure wall height", "Scrape rust"],
+    answer: 0,
+    explanation: "Rollers cover large surfaces faster and more evenly than brushes."
+  },
+  {
+    id: 10,
+    category: "Paint Application",
+    question: "Why should paint be stirred before use?",
+    options: ["To evenly mix pigments and solids", "To make the can lighter", "To remove the need for primer", "To stop drying"],
+    answer: 0,
+    explanation: "Pigments and solids can settle, so stirring helps ensure consistent colour and performance."
+  },
+  {
+    id: 11,
+    category: "Paint Application",
+    question: "What can happen if paint is applied too thick?",
+    options: ["Runs, sags, slow drying, and poor finish", "Better finish every time", "No drying required", "Primer becomes unnecessary"],
+    answer: 0,
+    explanation: "Heavy coats can sag, run, wrinkle, or dry poorly."
+  },
+  {
+    id: 12,
+    category: "Paint Application",
+    question: "Why is maintaining a wet edge important when rolling paint?",
+    options: ["To reduce lap marks", "To increase peeling", "To make paint dry before blending", "To stop adhesion"],
+    answer: 0,
+    explanation: "A wet edge helps new paint blend into recently applied paint and reduces visible lap marks."
+  },
+  {
+    id: 13,
+    category: "Coatings",
+    question: "What does paint sheen describe?",
+    options: ["How shiny or reflective the dried paint film is", "How heavy the paint can is", "How old the brush is", "How much dust is on the wall"],
+    answer: 0,
+    explanation: "Sheen refers to the gloss level, such as flat, eggshell, satin, semi-gloss, or gloss."
+  },
+  {
+    id: 14,
+    category: "Coatings",
+    question: "Where is semi-gloss paint commonly used?",
+    options: ["Trim, doors, kitchens, and bathrooms", "Only ceilings", "Only unfinished concrete", "Only drop cloths"],
+    answer: 0,
+    explanation: "Semi-gloss is durable and easier to clean, making it common on trim, doors, and high-use areas."
+  },
+  {
+    id: 15,
+    category: "Defects",
+    question: "What is a common cause of paint peeling?",
+    options: ["Poor surface preparation or moisture", "Correct primer", "Clean dry surface", "Proper curing"],
+    answer: 0,
+    explanation: "Peeling often occurs when paint cannot bond properly or moisture pushes the coating away."
+  },
+  {
+    id: 16,
+    category: "Defects",
+    question: "What can cause lap marks in paint?",
+    options: ["Painting over partially dried edges", "Maintaining a wet edge", "Proper roller loading", "Correct lighting"],
+    answer: 0,
+    explanation: "Lap marks occur when wet paint is applied over areas that have already started to dry."
+  },
+  {
+    id: 17,
+    category: "Wallpaper",
+    question: "Why should walls be properly prepared before wallpaper installation?",
+    options: ["To improve adhesion and prevent defects", "To make paste dry unevenly", "To increase bubbles", "To avoid measuring"],
+    answer: 0,
+    explanation: "Clean, smooth, sealed surfaces help wallpaper bond and look even."
+  },
+  {
+    id: 18,
+    category: "Cleanup",
+    question: "How should brushes used with water-based paint usually be cleaned?",
+    options: ["With soap and water", "With gasoline", "With dry sand", "By leaving paint to harden"],
+    answer: 0,
+    explanation: "Water-based paints are commonly cleaned from brushes with soap and water before drying."
+  },
+  {
+    id: 19,
+    category: "Trade Math",
+    question: "A wall is 12 ft long and 8 ft high. What is the area?",
+    options: ["20 sq. ft.", "48 sq. ft.", "96 sq. ft.", "120 sq. ft."],
+    answer: 2,
+    explanation: "Area = length × height = 12 × 8 = 96 square feet."
+  },
+  {
+    id: 20,
+    category: "Trade Knowledge",
+    question: "Why should manufacturer's instructions be followed for paint products?",
+    options: ["They provide correct mixing, drying, coverage, and application requirements", "They replace safety rules", "They make all paints identical", "They stop colour changes forever"],
+    answer: 0,
+    explanation: "Product instructions help ensure proper application, drying, safety, and coating performance."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledPainterandDecoratorFreePracticeQuestions =
+  shuffleArray(painterDecoratorFreePracticeQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "painter-and-decorator",
+  tradeTitle: "Painter and Decorator",
+  sectionTitle: "Free Practice Set",
+  questionTimeSeconds: 90,
+  questions: shuffledPainterandDecoratorFreePracticeQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledPainterandDecoratorFreePracticeQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+
+  const premiumPopup = document.getElementById("premiumPopup");
+  const premiumPopupClose = document.getElementById("premiumPopupClose");
+  const premiumPopupLater = document.getElementById("premiumPopupLaterBtn");
+  const premiumPopupBuy = document.getElementById("premiumPopupBuyBtn");
+  const upgradeNowBtn = document.getElementById("upgradeNowBtn");
+  const premiumTradeSlug = window.location.pathname.split("/").filter(Boolean).pop() || "";
+  const premiumTradesPage = `/pricing?trade=${encodeURIComponent(premiumTradeSlug)}`;
+
+  function showPremiumPopup() {
+    if (!premiumPopup) return;
+    premiumPopup.classList.add("show");
+    premiumPopup.setAttribute("aria-hidden", "false");
+  }
+
+  function hidePremiumPopup() {
+    if (!premiumPopup) return;
+    premiumPopup.classList.remove("show");
+    premiumPopup.setAttribute("aria-hidden", "true");
+  }
+
+  function goToPremiumTrades() {
+    window.location.href = premiumTradesPage;
+  }
+
+  if (premiumPopupClose) premiumPopupClose.addEventListener("click", hidePremiumPopup);
+  if (premiumPopupLater) premiumPopupLater.addEventListener("click", hidePremiumPopup);
+  if (premiumPopupBuy) premiumPopupBuy.addEventListener("click", goToPremiumTrades);
+  if (upgradeNowBtn) upgradeNowBtn.addEventListener("click", showPremiumPopup);
+
+  // Show premium popup after 1 minute
+  setTimeout(showPremiumPopup, 60000);
+
+  // Show premium popup again after user submits quiz
+  const premiumSubmitQuizBtn = document.getElementById("submitQuizBtn");
+  if (premiumSubmitQuizBtn) {
+    premiumSubmitQuizBtn.addEventListener("click", () => {
+      setTimeout(showPremiumPopup, 800);
+    });
+  }
+
+
+  resetHint();
+});

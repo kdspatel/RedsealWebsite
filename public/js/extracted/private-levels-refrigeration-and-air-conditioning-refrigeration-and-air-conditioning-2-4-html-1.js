@@ -1,0 +1,1396 @@
+const racmHarmonizedLevel2MockSleQuestions = [
+  {
+    "id": 1,
+    "category": "B5 — Use Diagnostic and Measuring Tools and Equipment",
+    "question": "A walk-in cooler is warm. Suction pressure is low, superheat is high, and subcooling is low. What is the most likely condition?",
+    "options": [
+      "Overcharge",
+      "Low charge or starved evaporator",
+      "Dirty condenser only",
+      "Flooded compressor"
+    ],
+    "answer": 1,
+    "explanation": "Low suction and high superheat show the evaporator is starved. Low subcooling often supports low refrigerant charge. Always confirm with leak check and full system readings."
+  },
+  {
+    "id": 2,
+    "category": "B5 — Use Diagnostic and Measuring Tools and Equipment",
+    "question": "You suspect a restricted liquid-line filter drier. Which measurement best confirms it?",
+    "options": [
+      "Temperature drop across the drier",
+      "Room thermostat setting",
+      "Blower belt size",
+      "Condensate drain slope"
+    ],
+    "answer": 0,
+    "explanation": "A restriction causes pressure drop. Pressure drop can cause flashing and a temperature difference across the drier. A cold outlet side is a common clue."
+  },
+  {
+    "id": 3,
+    "category": "B5 — Use Diagnostic and Measuring Tools and Equipment",
+    "question": "A system will not hold below 1,500 microns after repeated evacuation. What should be checked?",
+    "options": [
+      "Air filter colour",
+      "Vacuum pump oil, leaks, moisture, and hose connections",
+      "Thermostat display brightness",
+      "Fan blade pitch only"
+    ],
+    "answer": 1,
+    "explanation": "Poor vacuum can come from moisture, leaks, bad pump oil, or leaking hoses. Vacuum quality depends on the whole evacuation setup. A micron gauge must be connected properly."
+  },
+  {
+    "id": 4,
+    "category": "B5 — Use Diagnostic and Measuring Tools and Equipment",
+    "question": "A compressor trips on overload. Voltage is correct with the compressor off but drops badly when it starts. What should be suspected?",
+    "options": [
+      "Loose connection or voltage-drop problem",
+      "Dirty evaporator only",
+      "Correct operation",
+      "Low thermostat battery"
+    ],
+    "answer": 0,
+    "explanation": "Voltage under load is more useful than no-load voltage. Loose connections, weak supply, or undersized wiring can cause voltage drop. Low voltage causes high current and overheating."
+  },
+  {
+    "id": 5,
+    "category": "B8 — Use Digital Technology",
+    "question": "A connected HVAC unit reports “high pressure lockout.” What should the technician do?",
+    "options": [
+      "Replace the board immediately",
+      "Verify pressures, condenser airflow, charge, and sensor data",
+      "Clear the code and leave",
+      "Add refrigerant automatically"
+    ],
+    "answer": 1,
+    "explanation": "Fault codes guide troubleshooting but do not prove the root cause. High pressure can be airflow, overcharge, non-condensables, or sensor error. Actual readings must confirm the fault."
+  },
+  {
+    "id": 6,
+    "category": "C2 — Interpret Drawings and Specifications",
+    "question": "A diagram shows a liquid-line solenoid valve controlled by the thermostat. What is likely system operation?",
+    "options": [
+      "Pump-down control",
+      "Gas ignition control",
+      "Fan speed control only",
+      "Humidifier control"
+    ],
+    "answer": 0,
+    "explanation": "The thermostat can close the liquid solenoid when cooling is satisfied. The compressor then pumps the low side down. A low-pressure control stops the compressor."
+  },
+  {
+    "id": 7,
+    "category": "C3 — Use Codes, Regulations and Standards",
+    "question": "A customer asks you to reuse an unlabelled refrigerant cylinder. What should you do?",
+    "options": [
+      "Use it if the pressure looks normal",
+      "Do not use it until the contents are properly identified",
+      "Mix it with recovered refrigerant",
+      "Vent a small amount to test smell"
+    ],
+    "answer": 1,
+    "explanation": "Unknown refrigerant is a contamination and safety risk. Refrigerants must not be guessed or mixed. Identification and proper handling are required."
+  },
+  {
+    "id": 8,
+    "category": "C3 — Use Codes, Regulations and Standards",
+    "question": "A gas-fired appliance is installed in a jurisdiction with inspection requirements. Who has authority to enforce local requirements?",
+    "options": [
+      "AHJ",
+      "Refrigerant wholesaler",
+      "Customer only",
+      "Thermostat manufacturer"
+    ],
+    "answer": 0,
+    "explanation": "AHJ means authority having jurisdiction. The AHJ enforces applicable codes and local requirements. Gas work must follow code, manufacturer instructions, and local rules."
+  },
+  {
+    "id": 9,
+    "category": "C4 — Use Manufacturer and Supplier Documentation",
+    "question": "A replacement compressor has the same horsepower but different refrigerant and oil rating. What should you do?",
+    "options": [
+      "Install it if the mounting holes match",
+      "Use it only for one season",
+      "Select the compressor specified for the refrigerant, oil, voltage, and application",
+      "Add extra oil to compensate"
+    ],
+    "answer": 2,
+    "explanation": "Compressor selection is not based on horsepower alone. Refrigerant, oil, voltage, capacity, and application must match. Wrong selection can cause failure."
+  },
+  {
+    "id": 10,
+    "category": "C5 — Organize Work and Maintain Records",
+    "question": "After repairing a leak and recharging a system, what should be documented?",
+    "options": [
+      "Refrigerant type, amount added, leak location, readings, and repair details",
+      "Only customer name",
+      "Only outdoor weather",
+      "Only tool brand"
+    ],
+    "answer": 0,
+    "explanation": "Service records help future troubleshooting and compliance. Refrigerant handling should be accurately recorded. Readings prove the repair was verified."
+  },
+  {
+    "id": 11,
+    "category": "C6 — Select Refrigerants, Compressed Gases and Oils",
+    "question": "A POE oil system is left open during a long repair. What is the biggest concern?",
+    "options": [
+      "Moisture absorption",
+      "Loss of electrical resistance",
+      "High airflow",
+      "Gas valve failure"
+    ],
+    "answer": 0,
+    "explanation": "POE oil absorbs moisture quickly. Moisture can create acid, corrosion, and restrictions. Keep systems sealed and evacuate properly."
+  },
+  {
+    "id": 12,
+    "category": "C6 — Select Refrigerants, Compressed Gases and Oils",
+    "question": "Why should dry nitrogen be used when brazing refrigeration tubing?",
+    "options": [
+      "To increase compressor amperage",
+      "To prevent internal oxidation",
+      "To replace evacuation",
+      "To cool the thermostat"
+    ],
+    "answer": 1,
+    "explanation": "Nitrogen displaces oxygen inside the tubing. This prevents black scale from forming. Scale can plug TXVs, strainers, and compressors."
+  },
+  {
+    "id": 13,
+    "category": "C6 — Select Refrigerants, Compressed Gases and Oils",
+    "question": "A blend refrigerant is charged as vapour from the cylinder when liquid charging is required. What can happen?",
+    "options": [
+      "Fractionation",
+      "Better system efficiency",
+      "Lower moisture level",
+      "Correct blend ratio always"
+    ],
+    "answer": 0,
+    "explanation": "Some blends can separate if removed as vapour. This changes the refrigerant composition. Liquid charging keeps the blend ratio correct when done safely."
+  },
+  {
+    "id": 14,
+    "category": "C8 — Select HVAC/R Components and Accessories",
+    "question": "A refrigeration system has high suction pressure during hot pull-down and compressor amps are high. Which accessory may protect the compressor?",
+    "options": [
+      "CPR valve",
+      "Sight glass only",
+      "Humidifier",
+      "Air filter"
+    ],
+    "answer": 0,
+    "explanation": "A crankcase pressure regulator limits suction pressure entering the compressor. This prevents overload during high-load pull-down. It protects the compressor motor."
+  },
+  {
+    "id": 15,
+    "category": "C8 — Select HVAC/R Components and Accessories",
+    "question": "A multi-temperature refrigeration system needs one evaporator warmer than the others. Which control may be used?",
+    "options": [
+      "EPR valve",
+      "Start capacitor",
+      "Gas regulator",
+      "Flame sensor"
+    ],
+    "answer": 0,
+    "explanation": "An evaporator pressure regulator maintains evaporator pressure. Higher evaporator pressure means higher evaporator temperature. It allows different box temperatures."
+  },
+  {
+    "id": 16,
+    "category": "C8 — Select HVAC/R Components and Accessories",
+    "question": "A receiver is nearly full and head pressure is high after charging. What is a concern?",
+    "options": [
+      "Overcharge or insufficient receiver volume",
+      "Low voltage only",
+      "Dirty evaporator only",
+      "Thermostat error only"
+    ],
+    "answer": 0,
+    "explanation": "Receivers store liquid refrigerant, but they have limits. Too much refrigerant can flood the condenser and raise head pressure. Charge must match system design."
+  },
+  {
+    "id": 17,
+    "category": "C10 — Install Valves",
+    "question": "A TXV sensing bulb is loose and not insulated. What is the likely result?",
+    "options": [
+      "Incorrect superheat control",
+      "Correct valve operation always",
+      "Lower voltage",
+      "Better defrost"
+    ],
+    "answer": 0,
+    "explanation": "The bulb must sense suction line temperature accurately. Loose or exposed bulbs give false readings. This causes overfeeding or underfeeding."
+  },
+  {
+    "id": 18,
+    "category": "E1 — Use Principles of Electricity and Electronics",
+    "question": "A 240 V compressor circuit draws 18 A. Approximate power is:",
+    "options": [
+      "1,320 W",
+      "4,320 W",
+      "240 W",
+      "18 W"
+    ],
+    "answer": 1,
+    "explanation": "Power equals volts times amps. 240 × 18 = 4,320 watts. This is approximate because power factor is ignored."
+  },
+  {
+    "id": 19,
+    "category": "E1 — Use Principles of Electricity and Electronics",
+    "question": "An NTC sensor is reading very high resistance. What temperature condition does that usually indicate?",
+    "options": [
+      "Warmer temperature",
+      "Colder temperature",
+      "No relationship to temperature",
+      "Higher pressure only"
+    ],
+    "answer": 1,
+    "explanation": "NTC means negative temperature coefficient. Resistance rises as temperature drops. Controls use this resistance to calculate temperature."
+  },
+  {
+    "id": 20,
+    "category": "E1 — Use Principles of Electricity and Electronics",
+    "question": "A circuit breaker trips instantly when reset. What is most likely?",
+    "options": [
+      "Short circuit or ground fault",
+      "Normal running load",
+      "Correct amperage",
+      "Low refrigerant charge only"
+    ],
+    "answer": 0,
+    "explanation": "Instant tripping usually means very high current. A short or ground fault should be suspected. Do not keep resetting without finding the cause."
+  },
+  {
+    "id": 21,
+    "category": "E2 — Use Electrical Wiring Diagrams and Schematics",
+    "question": "A safety switch has 24 V across it during a call. What does that usually mean?",
+    "options": [
+      "The switch is open",
+      "The switch is closed",
+      "The transformer is dead",
+      "The compressor is running normally"
+    ],
+    "answer": 0,
+    "explanation": "A closed switch has little voltage drop across it. Voltage across a switch usually means it is open and stopping the circuit. The reason it opened must be found."
+  },
+  {
+    "id": 22,
+    "category": "E2 — Use Electrical Wiring Diagrams and Schematics",
+    "question": "A ladder diagram shows several safeties in series with the contactor coil. Why are they in series?",
+    "options": [
+      "Any one safety can stop the compressor",
+      "All safeties must fail before shutdown",
+      "They increase voltage",
+      "They control duct size"
+    ],
+    "answer": 0,
+    "explanation": "Series safeties interrupt the control circuit if any unsafe condition occurs. This protects the equipment. Bypassing safeties is unsafe."
+  },
+  {
+    "id": 23,
+    "category": "E3 — Apply Motor and Motor Control Theory",
+    "question": "A PSC motor starts slowly, runs hot, and has a weak capacitor reading. What is the likely cause?",
+    "options": [
+      "Failed or weak run capacitor",
+      "Low refrigerant charge only",
+      "Dirty gas burner",
+      "Blocked vent only"
+    ],
+    "answer": 0,
+    "explanation": "PSC motors depend on the run capacitor for proper phase shift. A weak capacitor reduces torque and efficiency. The motor can overheat."
+  },
+  {
+    "id": 24,
+    "category": "E3 — Apply Motor and Motor Control Theory",
+    "question": "A three-phase compressor is noisy and not pumping after installation. What should be checked immediately?",
+    "options": [
+      "Phase rotation",
+      "Filter drier colour",
+      "Thermostat brand",
+      "Gas manifold pressure"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect phase rotation can make some compressors run backward. A backward scroll may be noisy and not pump correctly. Correct phasing before continuing."
+  },
+  {
+    "id": 25,
+    "category": "E3 — Apply Motor and Motor Control Theory",
+    "question": "A motor draws locked rotor amps and does not turn. What does this mean?",
+    "options": [
+      "Rotor is not rotating while current is very high",
+      "Motor is operating normally",
+      "Thermostat is open",
+      "Suction pressure is perfect"
+    ],
+    "answer": 0,
+    "explanation": "Locked rotor amperage occurs when the motor cannot start. Current is very high because there is no rotation. Causes include mechanical lock, bad capacitor, or low voltage."
+  },
+  {
+    "id": 26,
+    "category": "E4 — Select Control Systems",
+    "question": "A pressure control turns the compressor off at 10 psig and back on at 30 psig. What is the differential?",
+    "options": [
+      "10 psig",
+      "20 psig",
+      "30 psig",
+      "40 psig"
+    ],
+    "answer": 1,
+    "explanation": "Differential is the difference between cut-in and cut-out. 30 − 10 = 20 psig. Correct differential prevents short cycling."
+  },
+  {
+    "id": 27,
+    "category": "E4 — Select Control Systems",
+    "question": "A walk-in freezer defrost termination sensor falls off the coil. What may happen?",
+    "options": [
+      "Incorrect defrost termination",
+      "Better frost removal always",
+      "Compressor voltage doubles",
+      "Gas pressure rises only"
+    ],
+    "answer": 0,
+    "explanation": "The control needs accurate coil temperature. A loose sensor can end defrost too early or too late. Sensor placement is critical."
+  },
+  {
+    "id": 28,
+    "category": "E4 — Select Control Systems",
+    "question": "A low ambient control is installed on an air conditioner. What does it help maintain?",
+    "options": [
+      "Head pressure",
+      "Gas manifold pressure",
+      "Condensate pH only",
+      "Filter size"
+    ],
+    "answer": 0,
+    "explanation": "Low outdoor temperature can lower condenser pressure too much. Low ambient controls maintain head pressure. This helps metering devices feed correctly."
+  },
+  {
+    "id": 29,
+    "category": "E5 — Apply Wiring Practices",
+    "question": "A wire passes through sheet metal without a bushing. What is the hazard?",
+    "options": [
+      "Insulation damage and short circuit",
+      "Better grounding",
+      "Lower amperage",
+      "Cleaner refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Sharp sheet metal can cut wire insulation. This can cause shorts, blown fuses, or shock hazards. Bushings and strain reliefs protect wiring."
+  },
+  {
+    "id": 30,
+    "category": "F1 — Analyze Heat Pumps and Air Conditioning Systems",
+    "question": "In heating mode, a heat pump has low supply-air temperature and the outdoor coil is iced solid. What is likely?",
+    "options": [
+      "Defrost or outdoor airflow problem",
+      "Normal operation always",
+      "Overheated indoor coil",
+      "Low gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Heavy ice blocks outdoor coil heat absorption. Defrost, sensor, board, fan, or refrigerant problems may be involved. Heat pump capacity drops."
+  },
+  {
+    "id": 31,
+    "category": "F1 — Analyze Heat Pumps and Air Conditioning Systems",
+    "question": "A heat pump blows cool air during defrost because auxiliary heat does not energize. Why?",
+    "options": [
+      "Defrost temporarily reverses the refrigeration cycle",
+      "The thermostat is always wrong",
+      "The compressor is off in all defrosts",
+      "The indoor coil becomes a gas valve"
+    ],
+    "answer": 0,
+    "explanation": "During defrost, the outdoor coil is warmed by reversing operation. Indoor air may feel cool unless auxiliary heat tempers it. This is a control/sequence issue."
+  },
+  {
+    "id": 32,
+    "category": "F1 — Analyze Heat Pumps and Air Conditioning Systems",
+    "question": "A system has poor cooling and very low indoor airflow. What happens to evaporator temperature?",
+    "options": [
+      "It may drop below freezing",
+      "It must rise above outdoor temperature",
+      "It has no relationship to airflow",
+      "It becomes equal to line voltage"
+    ],
+    "answer": 0,
+    "explanation": "Low airflow means less heat enters the evaporator. The coil can become too cold and freeze. Airflow must be corrected before charging decisions."
+  },
+  {
+    "id": 33,
+    "category": "F1 — Analyze Heat Pumps and Air Conditioning Systems",
+    "question": "A reversing valve is suspected of leaking internally. What symptom may appear?",
+    "options": [
+      "Poor capacity and abnormal pressure difference",
+      "Perfect heating and cooling",
+      "No compressor operation at all",
+      "High gas draft only"
+    ],
+    "answer": 0,
+    "explanation": "Internal bypass reduces effective compression. Capacity drops because discharge gas leaks to the wrong side. Pressure and temperature checks help confirm."
+  },
+  {
+    "id": 34,
+    "category": "F1 — Analyze Heat Pumps and Air Conditioning Systems",
+    "question": "A customer complains of cold rooms even though air temperature drop across the coil is good. What else should be checked?",
+    "options": [
+      "Air distribution and total airflow",
+      "Refrigerant cylinder colour",
+      "Gas burner flame only",
+      "Vacuum pump oil only"
+    ],
+    "answer": 0,
+    "explanation": "Good coil temperature split does not prove correct comfort. Air may not be distributed properly. Ducts, dampers, registers, and airflow balance matter."
+  },
+  {
+    "id": 35,
+    "category": "F2 — Analyze Refrigeration Systems",
+    "question": "A system has high superheat and high subcooling. What is the best likely diagnosis?",
+    "options": [
+      "Liquid-line restriction",
+      "Low charge only",
+      "Flooded evaporator",
+      "Open transformer"
+    ],
+    "answer": 0,
+    "explanation": "High subcooling shows liquid backed up in the condenser. High superheat shows the evaporator is starved. Together they strongly suggest restriction."
+  },
+  {
+    "id": 36,
+    "category": "F2 — Analyze Refrigeration Systems",
+    "question": "A compressor discharge line is extremely hot. What could cause this?",
+    "options": [
+      "High compression ratio or high superheat",
+      "Perfect suction cooling",
+      "Low head pressure only",
+      "Too much indoor airflow always"
+    ],
+    "answer": 0,
+    "explanation": "High compression ratio makes the compressor work harder. High superheat reduces compressor cooling. Both increase discharge temperature."
+  },
+  {
+    "id": 37,
+    "category": "F2 — Analyze Refrigeration Systems",
+    "question": "A system has low superheat and the compressor is sweating heavily. What is the concern?",
+    "options": [
+      "Floodback",
+      "Undercharge",
+      "Open fuse",
+      "Dirty condenser only"
+    ],
+    "answer": 0,
+    "explanation": "Low superheat means refrigerant may not be fully vaporized. Liquid can return to the compressor. Floodback can damage valves and bearings."
+  },
+  {
+    "id": 38,
+    "category": "F2 — Analyze Refrigeration Systems",
+    "question": "An EPR is set too low on a medium-temperature cooler. What may happen?",
+    "options": [
+      "Evaporator may run too cold",
+      "Compressor voltage rises",
+      "Gas draft improves",
+      "Condenser fan stops permanently"
+    ],
+    "answer": 0,
+    "explanation": "Lower evaporator pressure means lower saturation temperature. If set too low, the coil may get too cold. Product freezing or coil frost may result."
+  },
+  {
+    "id": 39,
+    "category": "F3 — Apply Food Storage Theory",
+    "question": "A cooler air temperature is correct, but product temperature is still high after a large delivery. Why?",
+    "options": [
+      "Product load needs time to pull down",
+      "Air temperature means product is instantly safe",
+      "Evaporator fans should be blocked",
+      "Door gaskets do not matter"
+    ],
+    "answer": 0,
+    "explanation": "Product temperature changes slower than air temperature. Warm product adds large heat load. Storage coolers are mainly designed to hold temperature."
+  },
+  {
+    "id": 40,
+    "category": "F3 — Apply Food Storage Theory",
+    "question": "A freezer has heavy frost near the door and damaged gaskets. What is the cause?",
+    "options": [
+      "Warm moist air infiltration",
+      "Too much subcooling only",
+      "Low compressor voltage only",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Warm air carries moisture into the freezer. Moisture freezes on cold surfaces. Door gaskets, closers, and usage must be checked."
+  },
+  {
+    "id": 41,
+    "category": "F3 — Apply Food Storage Theory",
+    "question": "Boxes are stacked tightly against the evaporator fan outlet. What is the risk?",
+    "options": [
+      "Poor air circulation and uneven product temperature",
+      "Better product cooling",
+      "Lower frost formation",
+      "Higher refrigerant purity"
+    ],
+    "answer": 0,
+    "explanation": "Product needs air circulation around it. Blocked airflow creates warm spots and long pull-down. Storage layout affects food safety."
+  },
+  {
+    "id": 42,
+    "category": "G1 — Perform Work Site Preparation",
+    "question": "Before lifting a condensing unit to a roof, what must be verified?",
+    "options": [
+      "Lift plan, roof support, access, weather, and clearances",
+      "Thermostat font size",
+      "Refrigerant smell only",
+      "Filter brand only"
+    ],
+    "answer": 0,
+    "explanation": "Rooftop installation requires safe lifting and proper support. Wind, access, rigging, and landing area matter. Poor planning creates major hazards."
+  },
+  {
+    "id": 43,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A suction riser is too large for the load. What is the concern?",
+    "options": [
+      "Poor oil return",
+      "Higher voltage",
+      "Less pressure drop always",
+      "Better compressor lubrication always"
+    ],
+    "answer": 0,
+    "explanation": "Suction gas must move fast enough to carry oil. Oversized risers reduce velocity. Oil can collect and starve the compressor."
+  },
+  {
+    "id": 44,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A condenser is planned in a small mechanical room with poor ventilation. What problem may occur?",
+    "options": [
+      "High ambient air and high head pressure",
+      "Lower compressor load always",
+      "Better heat rejection",
+      "Lower condensing temperature"
+    ],
+    "answer": 0,
+    "explanation": "Condensers reject heat into surrounding air. Poor ventilation raises room temperature. Head pressure and compressor load increase."
+  },
+  {
+    "id": 45,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A walk-in evaporator is located directly above the door. Why is this not ideal?",
+    "options": [
+      "Warm moist air can cause frost and extra load",
+      "It improves defrost",
+      "It stops air infiltration",
+      "It reduces product load"
+    ],
+    "answer": 0,
+    "explanation": "Door openings bring warm, moist air into the box. An evaporator near the door may frost heavily. Placement affects performance."
+  },
+  {
+    "id": 46,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "Why must service access be planned around rooftop units?",
+    "options": [
+      "Maintenance and repairs require safe working space",
+      "It increases refrigerant charge",
+      "It lowers gas pressure",
+      "It changes phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "Technicians need safe access to panels, coils, fans, and controls. Poor access causes unsafe service. Manufacturer clearances should be followed."
+  },
+  {
+    "id": 47,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A condensate drain from an air handler runs uphill. What will likely happen?",
+    "options": [
+      "Water backup or overflow",
+      "Better drainage",
+      "Higher refrigerant pressure",
+      "Lower static pressure"
+    ],
+    "answer": 0,
+    "explanation": "Condensate usually needs proper slope. Uphill sections trap water. Backup can trip float switches or cause water damage."
+  },
+  {
+    "id": 48,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "Why should fresh-air intakes be kept away from exhaust vents?",
+    "options": [
+      "To prevent contamination or flue gas re-entry",
+      "To raise compressor amps",
+      "To improve refrigerant oil return",
+      "To lower airflow"
+    ],
+    "answer": 0,
+    "explanation": "Intake air must be clean and safe. Exhaust or flue gas near intakes can enter the building. Placement must meet code and design rules."
+  },
+  {
+    "id": 49,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A replacement unit has higher airflow than the existing ductwork can handle. What may occur?",
+    "options": [
+      "High static pressure and airflow problems",
+      "Better comfort always",
+      "Lower blower load always",
+      "Perfect humidity control"
+    ],
+    "answer": 0,
+    "explanation": "Ductwork must match equipment airflow. Undersized ducts create high static pressure, noise, and low delivered airflow. Equipment performance suffers."
+  },
+  {
+    "id": 50,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "Why is vibration isolation used on some refrigeration equipment?",
+    "options": [
+      "To reduce noise and piping stress",
+      "To increase head pressure",
+      "To remove refrigerant moisture",
+      "To replace electrical grounding"
+    ],
+    "answer": 0,
+    "explanation": "Compressors and fans create vibration. Isolation reduces noise transfer and pipe fatigue. It helps prevent leaks and structural issues."
+  },
+  {
+    "id": 51,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A system will have long refrigerant lines. What must be considered?",
+    "options": [
+      "Pressure drop, oil return, insulation, and extra charge",
+      "Thermostat colour",
+      "Gas flame shape only",
+      "Drain pan material only"
+    ],
+    "answer": 0,
+    "explanation": "Long lines affect refrigerant velocity and pressure drop. Oil return and additional charge may be needed. Manufacturer long-line rules must be followed."
+  },
+  {
+    "id": 52,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "A condensing unit is installed where snow can pile around it. What should be planned?",
+    "options": [
+      "Elevation and clear airflow path",
+      "Smaller wire size",
+      "Less refrigerant",
+      "No defrost control"
+    ],
+    "answer": 0,
+    "explanation": "Snow can block condenser airflow. Units may need stands or clearance. Local weather must be considered."
+  },
+  {
+    "id": 53,
+    "category": "G2 — Plan HVAC/R System Installation",
+    "question": "Why must equipment capacity match the cooling load?",
+    "options": [
+      "To avoid short cycling, poor humidity control, or inability to maintain temperature",
+      "To change refrigerant type",
+      "To reduce need for wiring",
+      "To eliminate filters"
+    ],
+    "answer": 0,
+    "explanation": "Oversized equipment can short cycle. Undersized equipment may not meet load. Correct sizing improves comfort, humidity, and reliability."
+  },
+  {
+    "id": 54,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "After installing refrigerant piping, what is the correct sequence before startup?",
+    "options": [
+      "Pressure test, leak check, evacuate, charge, verify operation",
+      "Charge, leak check, braze, evacuate",
+      "Start compressor, then pressure test",
+      "Add oil, then vent air"
+    ],
+    "answer": 0,
+    "explanation": "Leak testing and evacuation come before charging. Charging before evacuation leaves air and moisture. Startup requires verified operation."
+  },
+  {
+    "id": 55,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A technician pressure tests through a control that has a lower pressure rating than the test pressure. What is the danger?",
+    "options": [
+      "Control damage or rupture",
+      "Better leak testing",
+      "Faster evacuation",
+      "Lower nitrogen pressure"
+    ],
+    "answer": 0,
+    "explanation": "All components must be rated for test pressure. Low-rated controls may need isolation. Exceeding ratings is unsafe."
+  },
+  {
+    "id": 56,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "Why should oxygen never be used for pressure testing?",
+    "options": [
+      "It can react violently with oil",
+      "It removes moisture better",
+      "It lowers fire risk",
+      "It is the same as nitrogen"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen under pressure with oil can explode or burn violently. Refrigeration systems contain oil residue. Dry nitrogen is used instead."
+  },
+  {
+    "id": 57,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A vacuum pump cannot pull below 1,000 microns. Pump oil is dark and cloudy. What should be done?",
+    "options": [
+      "Change pump oil",
+      "Add refrigerant oil to the pump",
+      "Increase oxygen pressure",
+      "Ignore the reading"
+    ],
+    "answer": 0,
+    "explanation": "Contaminated pump oil limits vacuum performance. Clean oil is needed for deep evacuation. Pump maintenance matters."
+  },
+  {
+    "id": 58,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A technician installs a filter drier without checking the arrow. What problem can occur?",
+    "options": [
+      "Restriction or improper filtration",
+      "Better flow",
+      "Lower amperage always",
+      "Improved thermostat response"
+    ],
+    "answer": 0,
+    "explanation": "Many driers have a required flow direction. Backwards installation may restrict flow. Correct orientation protects the system."
+  },
+  {
+    "id": 59,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A zeotropic blend must be charged into a system. What is the safest correct method?",
+    "options": [
+      "Remove from cylinder as liquid and meter carefully into system",
+      "Always dump liquid into compressor suction",
+      "Charge vapour only from top of cylinder",
+      "Mix with another refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Many blends must be removed as liquid to avoid fractionation. Liquid must be controlled to avoid compressor slugging. Use proper charging tools."
+  },
+  {
+    "id": 60,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A system is charged by weight. The line set is longer than factory standard. What must be done?",
+    "options": [
+      "Add manufacturer-specified extra charge for line length",
+      "Ignore line length",
+      "Charge until suction line frosts",
+      "Use gas pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Long lines may require additional refrigerant. Manufacturer data gives the amount. Accurate weighing avoids undercharge or overcharge."
+  },
+  {
+    "id": 61,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "Why should airflow be corrected before final refrigerant charging?",
+    "options": [
+      "Airflow affects pressure, superheat, subcooling, and temperature split",
+      "Airflow has no effect on refrigeration",
+      "Airflow only changes noise",
+      "Airflow replaces evacuation"
+    ],
+    "answer": 0,
+    "explanation": "Refrigerant readings depend on heat load. Low or high airflow changes evaporator performance. Charging with wrong airflow causes misdiagnosis."
+  },
+  {
+    "id": 62,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A new system has high head pressure immediately after startup. Which installation issue could cause it?",
+    "options": [
+      "Non-condensables left from poor evacuation",
+      "Too much filter access",
+      "Correct charge always",
+      "Low gas draft only"
+    ],
+    "answer": 0,
+    "explanation": "Air left in the system collects in the condenser. Non-condensables raise head pressure. Proper evacuation prevents this."
+  },
+  {
+    "id": 63,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A compressor service valve is left front-seated during startup. What may happen?",
+    "options": [
+      "Compressor damage or pressure fault",
+      "Better pumping",
+      "Lower current always",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Closed service valves can block refrigerant flow. The compressor may pull vacuum or build dangerous pressure. Valve positions must be checked before startup."
+  },
+  {
+    "id": 64,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "Why should suction line insulation be sealed at joints?",
+    "options": [
+      "To prevent heat gain and condensation",
+      "To increase voltage",
+      "To improve gas combustion",
+      "To replace leak testing"
+    ],
+    "answer": 0,
+    "explanation": "Gaps allow heat and moisture to reach the cold pipe. Condensation and efficiency loss can occur. Proper insulation protects performance."
+  },
+  {
+    "id": 65,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A TXV bulb is installed after an external equalizer connection and close to a heat source. What is the concern?",
+    "options": [
+      "False temperature sensing and poor superheat control",
+      "Correct operation always",
+      "Higher airflow",
+      "Better subcooling"
+    ],
+    "answer": 0,
+    "explanation": "Bulb location affects valve response. Heat sources give false readings. Follow manufacturer bulb placement instructions."
+  },
+  {
+    "id": 66,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A scroll compressor in a three-phase unit is loud and has poor pressure difference. What should be checked first?",
+    "options": [
+      "Phase rotation",
+      "Condensate trap",
+      "Door gasket",
+      "Flame rollout switch"
+    ],
+    "answer": 0,
+    "explanation": "Wrong phase rotation can run a scroll backward. It may be noisy and not pump properly. Correct phase rotation immediately."
+  },
+  {
+    "id": 67,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A pump-down system is installed. What confirms proper operation?",
+    "options": [
+      "Solenoid closes, compressor pumps down, low-pressure control stops compressor",
+      "Fan runs backward",
+      "Gas valve closes",
+      "Condensate drain dries"
+    ],
+    "answer": 0,
+    "explanation": "Pump-down depends on solenoid and low-pressure control sequence. The compressor must stop at the correct pressure. This prevents migration and short cycling."
+  },
+  {
+    "id": 68,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "After compressor burnout replacement, what is especially important?",
+    "options": [
+      "Acid cleanup, drier replacement, evacuation, and contamination control",
+      "Skip filter drier",
+      "Reuse contaminated oil",
+      "Charge with unknown refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Burnouts leave acid and debris. Cleanup protects the new compressor. Proper driers and testing reduce repeat failure."
+  },
+  {
+    "id": 69,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "Why should panels be installed before taking final readings?",
+    "options": [
+      "Panels affect airflow and operating pressure",
+      "Panels only affect appearance",
+      "Panels lower refrigerant charge",
+      "Panels increase gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Equipment is designed to run with panels in place. Open panels can change airflow. Final readings must reflect normal operation."
+  },
+  {
+    "id": 70,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A liquid receiver is installed. Why must it not be overfilled?",
+    "options": [
+      "Liquid expansion can create dangerous pressure",
+      "It improves safety",
+      "It lowers all pressures",
+      "It stops compressor operation correctly"
+    ],
+    "answer": 0,
+    "explanation": "Liquid refrigerant expands with temperature. Overfilled vessels can become dangerously pressurized. Receiver capacity and charge limits matter."
+  },
+  {
+    "id": 71,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "A new evaporator fan is wired wrong and rotates backward. What is likely?",
+    "options": [
+      "Low airflow and poor heat transfer",
+      "Better cooling",
+      "Less frost always",
+      "Higher voltage automatically"
+    ],
+    "answer": 0,
+    "explanation": "Fan rotation controls airflow direction and volume. Wrong rotation reduces performance. It can cause icing or temperature problems."
+  },
+  {
+    "id": 72,
+    "category": "H2 — Install HVAC/R Systems",
+    "question": "Why are startup readings important after installation?",
+    "options": [
+      "They prove operation and create a future baseline",
+      "They replace all maintenance",
+      "They avoid need for customer explanation",
+      "They change refrigerant type"
+    ],
+    "answer": 0,
+    "explanation": "Startup readings confirm pressures, temperatures, voltage, amperage, and airflow. They help future diagnosis. They also support warranty documentation."
+  },
+  {
+    "id": 73,
+    "category": "H3 — Install Control Systems",
+    "question": "A heat pump thermostat is installed but O/B is configured wrong. What happens?",
+    "options": [
+      "Heating and cooling operation may be reversed",
+      "Refrigerant becomes contaminated",
+      "Gas pressure rises",
+      "Blower wheel gets clean"
+    ],
+    "answer": 0,
+    "explanation": "O/B controls reversing valve logic. Some systems energize in cooling, others in heating. Wrong setup causes wrong mode operation."
+  },
+  {
+    "id": 74,
+    "category": "H3 — Install Control Systems",
+    "question": "A pressure transducer has correct wiring but wrong pressure range. What is the problem?",
+    "options": [
+      "Controller receives inaccurate pressure information",
+      "Compressor oil improves",
+      "Airflow increases",
+      "Defrost is always correct"
+    ],
+    "answer": 0,
+    "explanation": "Controllers interpret signal based on expected range. Wrong range creates false pressure readings. Controls may respond incorrectly."
+  },
+  {
+    "id": 75,
+    "category": "H3 — Install Control Systems",
+    "question": "A control board replacement has DIP switches left at default. What could happen?",
+    "options": [
+      "Incorrect airflow, staging, or system type operation",
+      "Better operation always",
+      "Refrigerant pressure becomes correct",
+      "Gas line size changes"
+    ],
+    "answer": 0,
+    "explanation": "DIP switches configure equipment options. Defaults may not match the unit. Setup must follow manufacturer instructions."
+  },
+  {
+    "id": 76,
+    "category": "H3 — Install Control Systems",
+    "question": "A low-voltage wire is damaged where it enters a metal cabinet. What should be installed?",
+    "options": [
+      "Bushing or grommet",
+      "Larger refrigerant line",
+      "Gas regulator",
+      "Condensate trap only"
+    ],
+    "answer": 0,
+    "explanation": "Metal edges can cut insulation. Bushings protect the cable. This prevents shorts and transformer fuse failures."
+  },
+  {
+    "id": 77,
+    "category": "H3 — Install Control Systems",
+    "question": "A freeze stat is installed on an air handler. What should be verified?",
+    "options": [
+      "Correct location, setpoint, wiring, and shutdown function",
+      "Refrigerant cylinder colour",
+      "Gas flame colour",
+      "Door gasket compression only"
+    ],
+    "answer": 0,
+    "explanation": "Freeze stats protect coils from freezing. Placement and setpoint must be correct. Functional testing confirms protection."
+  },
+  {
+    "id": 78,
+    "category": "I1 — Apply Combustion Theory",
+    "question": "A furnace flame is yellow and lazy. What should be suspected?",
+    "options": [
+      "Poor combustion",
+      "Perfect operation",
+      "Low refrigerant charge",
+      "High subcooling"
+    ],
+    "answer": 0,
+    "explanation": "Yellow lazy flames can indicate incomplete combustion. Causes include dirty burners, wrong air mixture, or pressure problems. Carbon monoxide risk must be considered."
+  },
+  {
+    "id": 79,
+    "category": "I2 — Apply Draft Theory",
+    "question": "A natural draft appliance spills flue gas at the draft hood. What is the hazard?",
+    "options": [
+      "Combustion products entering the space",
+      "Low superheat",
+      "Bad TXV bulb",
+      "Dirty condenser coil"
+    ],
+    "answer": 0,
+    "explanation": "Flue gas spillage can release carbon monoxide. Draft must safely remove combustion products. Venting problems are serious safety issues."
+  },
+  {
+    "id": 80,
+    "category": "I2 — Apply Draft Theory",
+    "question": "What can cause poor draft?",
+    "options": [
+      "Blocked vent, negative building pressure, or inadequate combustion air",
+      "Clean heat exchanger",
+      "Proper vent size",
+      "Correct chimney temperature always"
+    ],
+    "answer": 0,
+    "explanation": "Draft depends on pressure, temperature, and clear venting. Blockage or negative pressure can reverse or stop draft. Combustion air must be adequate."
+  },
+  {
+    "id": 81,
+    "category": "I4 — Apply Knowledge of Mechanical Safety Devices",
+    "question": "A rollout switch is tripped. What should be done?",
+    "options": [
+      "Investigate cause before resetting or replacing",
+      "Bypass it permanently",
+      "Add refrigerant",
+      "Replace thermostat only"
+    ],
+    "answer": 0,
+    "explanation": "Rollout indicates flame or heat where it should not be. Possible causes include blocked heat exchanger, venting issue, or burner problem. Never bypass it."
+  },
+  {
+    "id": 82,
+    "category": "I4 — Apply Knowledge of Mechanical Safety Devices",
+    "question": "A high-limit switch opens during furnace operation. What is it responding to?",
+    "options": [
+      "Excessive temperature",
+      "Low refrigerant pressure",
+      "Low humidity",
+      "Low condenser airflow"
+    ],
+    "answer": 0,
+    "explanation": "The high limit protects against overheating. Causes include dirty filter, blower fault, or restricted airflow. Repeated trips require diagnosis."
+  },
+  {
+    "id": 83,
+    "category": "J3 — Install Gas Piping and Tubing Systems",
+    "question": "A new gas appliance is added to an existing gas line. What must be checked?",
+    "options": [
+      "Total connected load and pipe capacity",
+      "Refrigerant superheat",
+      "Condenser airflow only",
+      "Defrost sensor location only"
+    ],
+    "answer": 0,
+    "explanation": "Gas piping must supply all connected appliances. Undersized piping causes pressure drop. Poor pressure affects combustion and appliance operation."
+  },
+  {
+    "id": 84,
+    "category": "J3 — Install Gas Piping and Tubing Systems",
+    "question": "What is the safest way to check gas piping for leaks?",
+    "options": [
+      "Approved leak solution or approved pressure test",
+      "Open flame",
+      "Smell only",
+      "Refrigerant leak detector only"
+    ],
+    "answer": 0,
+    "explanation": "Open flame testing is dangerous. Approved solution or code-approved pressure test must be used. Gas leaks can cause fire or explosion."
+  },
+  {
+    "id": 85,
+    "category": "J3 — Install Gas Piping and Tubing Systems",
+    "question": "Why is a sediment trap used where required?",
+    "options": [
+      "To collect debris before it enters appliance controls",
+      "To raise refrigerant pressure",
+      "To measure superheat",
+      "To increase airflow"
+    ],
+    "answer": 0,
+    "explanation": "Gas piping can contain debris or moisture. A sediment trap helps protect gas valves and burners. Installation must follow code and manufacturer instructions."
+  },
+  {
+    "id": 86,
+    "category": "J9 — Install Gas-Fired Appliances and Ancillary Equipment",
+    "question": "A condensing furnace vent is sloped incorrectly. What problem may occur?",
+    "options": [
+      "Condensate may not drain properly",
+      "Refrigerant charge increases",
+      "Compressor starts backward",
+      "Evaporator freezes only"
+    ],
+    "answer": 0,
+    "explanation": "Condensing appliances produce condensate in venting. Improper slope can trap water or affect venting. Manufacturer vent instructions must be followed."
+  },
+  {
+    "id": 87,
+    "category": "J9 — Install Gas-Fired Appliances and Ancillary Equipment",
+    "question": "Why must combustion air openings remain clear?",
+    "options": [
+      "Burners need oxygen for safe combustion",
+      "They cool refrigerant only",
+      "They increase duct static pressure",
+      "They replace gas regulators"
+    ],
+    "answer": 0,
+    "explanation": "Gas combustion needs enough air. Blocked air openings can cause incomplete combustion. This may create carbon monoxide."
+  },
+  {
+    "id": 88,
+    "category": "J9 — Install Gas-Fired Appliances and Ancillary Equipment",
+    "question": "A furnace is installed too close to combustibles. What is the hazard?",
+    "options": [
+      "Fire or overheating",
+      "Low refrigerant pressure",
+      "Low superheat",
+      "Better efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Gas appliances generate heat. Clearances prevent nearby materials from overheating. Manufacturer and code clearances must be followed."
+  },
+  {
+    "id": 89,
+    "category": "L1 — Maintain HVAC/R Systems",
+    "question": "During maintenance, head pressure is high and condenser coil is dirty. What should be done first?",
+    "options": [
+      "Clean condenser coil and recheck readings",
+      "Replace compressor immediately",
+      "Add refrigerant",
+      "Bypass high-pressure switch"
+    ],
+    "answer": 0,
+    "explanation": "Dirty condenser coils reduce heat rejection. Cleaning may lower head pressure. Always recheck operation after correction."
+  },
+  {
+    "id": 90,
+    "category": "L1 — Maintain HVAC/R Systems",
+    "question": "A walk-in cooler door gasket is torn. What problem can it cause?",
+    "options": [
+      "Frost, moisture entry, and longer run time",
+      "Lower load",
+      "Better temperature control",
+      "Less defrost need"
+    ],
+    "answer": 0,
+    "explanation": "Damaged gaskets allow warm moist air in. This increases frost and load. Product temperature and efficiency suffer."
+  },
+  {
+    "id": 91,
+    "category": "L1 — Maintain HVAC/R Systems",
+    "question": "Why should evaporator drain pans and drains be cleaned?",
+    "options": [
+      "To prevent water damage and drain backups",
+      "To increase voltage",
+      "To lower gas pressure",
+      "To increase superheat"
+    ],
+    "answer": 0,
+    "explanation": "Blocked drains can overflow. Water damage and float switch trips may result. Drain maintenance is basic service work."
+  },
+  {
+    "id": 92,
+    "category": "L1 — Maintain HVAC/R Systems",
+    "question": "A blower wheel is packed with dirt. What is the effect?",
+    "options": [
+      "Reduced airflow",
+      "Higher airflow",
+      "Better cooling",
+      "Lower motor load always"
+    ],
+    "answer": 0,
+    "explanation": "Dirt changes blade shape and reduces air movement. Low airflow affects heat transfer. It can cause coil freezing or overheating."
+  },
+  {
+    "id": 93,
+    "category": "L2 — Service HVAC/R Systems",
+    "question": "A system has low suction, high superheat, and high subcooling. What is most likely?",
+    "options": [
+      "Liquid-line restriction",
+      "Low charge only",
+      "Flooded evaporator",
+      "Normal operation"
+    ],
+    "answer": 0,
+    "explanation": "High subcooling shows liquid backing up. High superheat shows the evaporator is starved. This combination points to restriction."
+  },
+  {
+    "id": 94,
+    "category": "L2 — Service HVAC/R Systems",
+    "question": "A system has low superheat and compressor noise. What should be suspected?",
+    "options": [
+      "Floodback",
+      "Undercharge",
+      "Dirty condenser only",
+      "Bad thermostat only"
+    ],
+    "answer": 0,
+    "explanation": "Low superheat can allow liquid refrigerant to return to compressor. Liquid is not compressible. Compressor damage can occur."
+  },
+  {
+    "id": 95,
+    "category": "L2 — Service HVAC/R Systems",
+    "question": "A compressor has failed twice in one year. What should be done before replacing it again?",
+    "options": [
+      "Find root cause: oil return, airflow, charge, electrical, contamination",
+      "Replace only the thermostat",
+      "Add refrigerant and leave",
+      "Install a larger breaker"
+    ],
+    "answer": 0,
+    "explanation": "Repeat compressor failures usually mean a system fault remains. Root cause must be corrected. Otherwise the next compressor may fail too."
+  },
+  {
+    "id": 96,
+    "category": "L2 — Service HVAC/R Systems",
+    "question": "A system trips high pressure after running 10 minutes. What should be checked?",
+    "options": [
+      "Condenser airflow, fan operation, overcharge, non-condensables, restriction",
+      "Thermostat colour",
+      "Door handle only",
+      "Low-voltage fuse only"
+    ],
+    "answer": 0,
+    "explanation": "High pressure can come from poor heat rejection, overcharge, air, or restriction. The safety is doing its job. Never bypass it permanently."
+  },
+  {
+    "id": 97,
+    "category": "L3 — Maintain Control Systems",
+    "question": "During maintenance, a sensor is loose on the suction line. What should be done?",
+    "options": [
+      "Secure it correctly and verify readings",
+      "Ignore it if system runs",
+      "Remove insulation forever",
+      "Add refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Loose sensors give inaccurate readings. Controls may make wrong decisions. Sensor mounting and insulation matter."
+  },
+  {
+    "id": 98,
+    "category": "L3 — Maintain Control Systems",
+    "question": "Why check contactor contacts during maintenance?",
+    "options": [
+      "Pitted contacts cause voltage drop and overheating",
+      "They control refrigerant type",
+      "They clean the condenser",
+      "They raise suction pressure"
+    ],
+    "answer": 0,
+    "explanation": "Damaged contacts increase resistance. This can cause heat and low voltage to loads. Contactors are common failure points."
+  },
+  {
+    "id": 99,
+    "category": "L4 — Service Control Systems",
+    "question": "A contactor coil has correct voltage across it but does not pull in. What is likely?",
+    "options": [
+      "Failed coil or stuck contactor mechanism",
+      "No control call",
+      "Low refrigerant charge only",
+      "Dirty air filter only"
+    ],
+    "answer": 0,
+    "explanation": "Correct voltage across the coil means the control signal is present. If it does not pull in, the coil or mechanism may have failed. Confirm coil resistance and mechanical movement."
+  },
+  {
+    "id": 100,
+    "category": "L4 — Service Control Systems",
+    "question": "A control board output is missing, but the required safety input is also missing. What should be done?",
+    "options": [
+      "Diagnose the missing input before replacing the board",
+      "Replace the board immediately",
+      "Bypass all safeties",
+      "Add refrigerant first"
+    ],
+    "answer": 0,
+    "explanation": "Boards only send outputs when required inputs and safeties are satisfied. Missing input can make a good board appear bad. Always verify power, inputs, and safeties first. ---"
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerLevel1Set1Questions =
+  shuffleArray(racmHarmonizedLevel2MockSleQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "racm",
+  tradeTitle: "RACM",
+  sectionTitle: "Harmonized Level 2 – Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerLevel1Set1Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerLevel1Set1Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

@@ -1,0 +1,2696 @@
+const drywallFinisherPlastererCommonOccupationalSkills200Questions = [
+  {
+    "id": 1,
+    "category": "Safety – PPE",
+    "question": "What is the purpose of personal protective equipment (PPE)?",
+    "options": [
+      "Increase drywall drying speed",
+      "Protect workers from hazards",
+      "Replace safe work practices",
+      "Improve paint colour"
+    ],
+    "answer": 1,
+    "explanation": "PPE helps reduce injuries from dust, noise, impacts, and other workplace hazards."
+  },
+  {
+    "id": 2,
+    "category": "Safety – PPE",
+    "question": "Which PPE is commonly used during sanding?",
+    "options": [
+      "Respirator or dust mask",
+      "Welding shield",
+      "Rubber boots only",
+      "Ear plugs only"
+    ],
+    "answer": 0,
+    "explanation": "Sanding creates fine dust that can irritate or damage the respiratory system."
+  },
+  {
+    "id": 3,
+    "category": "Safety – PPE",
+    "question": "Why should safety glasses be worn during drywall work?",
+    "options": [
+      "Protect eyes from dust and debris",
+      "Improve sanding speed",
+      "Replace respirators",
+      "Prevent paint flashing"
+    ],
+    "answer": 0,
+    "explanation": "Cutting, sanding, and mixing materials can send particles into the eyes."
+  },
+  {
+    "id": 4,
+    "category": "Safety – PPE",
+    "question": "What is the purpose of hearing protection?",
+    "options": [
+      "Reduce exposure to loud noise",
+      "Improve drywall bonding",
+      "Make sanding smoother",
+      "Increase ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Loud tools and equipment can damage hearing over time."
+  },
+  {
+    "id": 5,
+    "category": "Safety – PPE",
+    "question": "Why should gloves sometimes be worn during drywall work?",
+    "options": [
+      "Protect hands from cuts and irritation",
+      "Increase paint drying speed",
+      "Reduce primer absorption",
+      "Replace safe lifting methods"
+    ],
+    "answer": 0,
+    "explanation": "Gloves help protect against sharp edges, chemicals, and skin irritation."
+  },
+  {
+    "id": 6,
+    "category": "Safety – Housekeeping",
+    "question": "Why is good housekeeping important on a jobsite?",
+    "options": [
+      "Reduces slips, trips, and falls",
+      "Makes drywall heavier",
+      "Eliminates sanding",
+      "Replaces PPE"
+    ],
+    "answer": 0,
+    "explanation": "Clean worksites improve safety and efficiency."
+  },
+  {
+    "id": 7,
+    "category": "Safety – Housekeeping",
+    "question": "What should be done with scrap drywall pieces on the floor?",
+    "options": [
+      "Remove or stack safely",
+      "Leave them in walkways",
+      "Cover them with dust",
+      "Ignore them until painting"
+    ],
+    "answer": 0,
+    "explanation": "Loose debris creates tripping hazards."
+  },
+  {
+    "id": 8,
+    "category": "Safety – Ladders",
+    "question": "Before using a ladder, what should be checked?",
+    "options": [
+      "Stability and condition",
+      "Paint colour",
+      "Brand only",
+      "Tool storage nearby"
+    ],
+    "answer": 0,
+    "explanation": "Damaged or unstable ladders create serious fall hazards."
+  },
+  {
+    "id": 9,
+    "category": "Safety – Ladders",
+    "question": "Why should workers avoid overreaching from ladders?",
+    "options": [
+      "It can cause falls",
+      "It improves balance",
+      "It makes sanding easier",
+      "It increases productivity safely"
+    ],
+    "answer": 0,
+    "explanation": "Overreaching shifts the center of balance and increases fall risk."
+  },
+  {
+    "id": 10,
+    "category": "Safety – Ladders",
+    "question": "What should be done if a ladder is damaged?",
+    "options": [
+      "Remove it from service",
+      "Use it carefully anyway",
+      "Paint it brighter",
+      "Lean it against drywall only"
+    ],
+    "answer": 0,
+    "explanation": "Damaged ladders should not be used because they can fail unexpectedly."
+  },
+  {
+    "id": 11,
+    "category": "Safety – Scaffolds",
+    "question": "Why must scaffolds be stable before use?",
+    "options": [
+      "To prevent collapse or falls",
+      "To improve paint finish",
+      "To reduce sanding dust",
+      "To increase drywall strength"
+    ],
+    "answer": 0,
+    "explanation": "Stable scaffolds reduce fall hazards and support workers safely."
+  },
+  {
+    "id": 12,
+    "category": "Safety – Scaffolds",
+    "question": "What should workers check before using scaffolding?",
+    "options": [
+      "Guardrails, planks, and stability",
+      "Paint sheen only",
+      "Texture pattern only",
+      "Bucket size only"
+    ],
+    "answer": 0,
+    "explanation": "Proper setup helps prevent falls and injuries."
+  },
+  {
+    "id": 13,
+    "category": "Safety – Lifting",
+    "question": "What is the safest way to lift heavy materials?",
+    "options": [
+      "Lift with the legs and keep load close",
+      "Twist while lifting",
+      "Lift quickly with the back",
+      "Carry with one hand only"
+    ],
+    "answer": 0,
+    "explanation": "Proper lifting reduces back strain and injury risk."
+  },
+  {
+    "id": 14,
+    "category": "Safety – Lifting",
+    "question": "Why should workers avoid twisting while lifting?",
+    "options": [
+      "It increases risk of injury",
+      "It improves balance",
+      "It strengthens the back",
+      "It reduces weight"
+    ],
+    "answer": 0,
+    "explanation": "Twisting while carrying loads puts stress on the spine."
+  },
+  {
+    "id": 15,
+    "category": "Safety – Material Handling",
+    "question": "Why should drywall sheets be carried carefully?",
+    "options": [
+      "To prevent injury and material damage",
+      "To make them heavier",
+      "To improve texture",
+      "To reduce primer use"
+    ],
+    "answer": 0,
+    "explanation": "Drywall sheets are awkward and can break or injure workers if mishandled."
+  },
+  {
+    "id": 16,
+    "category": "Safety – Dust Control",
+    "question": "Why is drywall dust control important?",
+    "options": [
+      "Protect worker health and visibility",
+      "Make sanding rougher",
+      "Replace ventilation",
+      "Increase texture bonding"
+    ],
+    "answer": 0,
+    "explanation": "Drywall dust affects breathing, cleanliness, and jobsite safety."
+  },
+  {
+    "id": 17,
+    "category": "Safety – Ventilation",
+    "question": "Why is ventilation important when using compounds or sprays?",
+    "options": [
+      "Reduce dust and airborne particles",
+      "Make materials heavier",
+      "Eliminate cleanup",
+      "Replace respirators"
+    ],
+    "answer": 0,
+    "explanation": "Ventilation improves air quality and worker safety."
+  },
+  {
+    "id": 18,
+    "category": "Safety – Electrical",
+    "question": "Why should damaged extension cords not be used?",
+    "options": [
+      "Risk of electric shock or fire",
+      "Improve tool speed",
+      "Reduce sanding dust",
+      "Increase voltage safely"
+    ],
+    "answer": 0,
+    "explanation": "Damaged electrical cords are dangerous and should be replaced."
+  },
+  {
+    "id": 19,
+    "category": "Safety – Electrical",
+    "question": "What should be done before repairing electrical tools?",
+    "options": [
+      "Disconnect power source",
+      "Wet the tool first",
+      "Sand the cord",
+      "Paint the tool"
+    ],
+    "answer": 0,
+    "explanation": "Disconnecting power reduces shock and injury risk."
+  },
+  {
+    "id": 20,
+    "category": "Safety – Work Area",
+    "question": "Why should walkways be kept clear?",
+    "options": [
+      "Prevent trips and falls",
+      "Improve paint adhesion",
+      "Increase drying speed",
+      "Replace scaffolds"
+    ],
+    "answer": 0,
+    "explanation": "Clear walkways improve safety and movement on site."
+  },
+  {
+    "id": 21,
+    "category": "Tools – Hand Tools",
+    "question": "What is a taping knife mainly used for?",
+    "options": [
+      "Applying and smoothing compound",
+      "Cutting lumber",
+      "Mixing paint",
+      "Installing screws"
+    ],
+    "answer": 0,
+    "explanation": "Taping knives spread and feather drywall compound."
+  },
+  {
+    "id": 22,
+    "category": "Tools – Hand Tools",
+    "question": "Why should taping knives be kept clean?",
+    "options": [
+      "Dirty tools leave ridges and scratches",
+      "Dirty tools strengthen compound",
+      "Dirt improves feathering",
+      "Dirt reduces sanding"
+    ],
+    "answer": 0,
+    "explanation": "Clean tools help create smooth finishes."
+  },
+  {
+    "id": 23,
+    "category": "Tools – Hand Tools",
+    "question": "What is a hawk used for?",
+    "options": [
+      "Holding plaster or compound",
+      "Carrying drywall sheets",
+      "Cutting corner bead",
+      "Mixing texture only"
+    ],
+    "answer": 0,
+    "explanation": "Hawks allow workers to hold material while applying it."
+  },
+  {
+    "id": 24,
+    "category": "Tools – Measuring",
+    "question": "Why are measuring tools important?",
+    "options": [
+      "Ensure accuracy and proper layout",
+      "Reduce paint flashing",
+      "Replace sanding",
+      "Prevent drying"
+    ],
+    "answer": 0,
+    "explanation": "Accurate measurements reduce waste and fitting problems."
+  },
+  {
+    "id": 25,
+    "category": "Tools – Cutting Tools",
+    "question": "Why should utility knife blades be sharp?",
+    "options": [
+      "Cleaner cuts and safer control",
+      "Dull blades cut better",
+      "Sharp blades remove sanding",
+      "Sharp blades replace tape"
+    ],
+    "answer": 0,
+    "explanation": "Sharp blades reduce tearing and require less force."
+  },
+  {
+    "id": 26,
+    "category": "Tools – Power Tools",
+    "question": "Why should power tools be inspected before use?",
+    "options": [
+      "To check for damage or defects",
+      "To improve paint colour",
+      "To eliminate PPE",
+      "To increase drywall weight"
+    ],
+    "answer": 0,
+    "explanation": "Faulty tools can cause injury or poor-quality work."
+  },
+  {
+    "id": 27,
+    "category": "Tools – Power Tools",
+    "question": "What should be done before changing a power tool attachment?",
+    "options": [
+      "Disconnect the power source",
+      "Add water to the tool",
+      "Increase speed first",
+      "Hold the trigger down"
+    ],
+    "answer": 0,
+    "explanation": "Disconnecting power prevents accidental startup."
+  },
+  {
+    "id": 28,
+    "category": "Materials – Compound",
+    "question": "Why should drywall compound be mixed smoothly?",
+    "options": [
+      "Easier application and fewer defects",
+      "To increase lumps",
+      "To make sanding harder",
+      "To prevent drying completely"
+    ],
+    "answer": 0,
+    "explanation": "Smooth compound spreads evenly and reduces drag marks."
+  },
+  {
+    "id": 29,
+    "category": "Materials – Compound",
+    "question": "What can dried lumps in compound cause?",
+    "options": [
+      "Scratches and ridges",
+      "Better finish",
+      "Faster drying",
+      "Stronger tape bond"
+    ],
+    "answer": 0,
+    "explanation": "Dried material drags through fresh compound and damages finish quality."
+  },
+  {
+    "id": 30,
+    "category": "Materials – Storage",
+    "question": "Why should drywall materials be stored properly?",
+    "options": [
+      "Prevent damage and moisture exposure",
+      "Increase weight",
+      "Eliminate sanding",
+      "Improve paint sheen"
+    ],
+    "answer": 0,
+    "explanation": "Moisture and improper storage can damage drywall products."
+  },
+  {
+    "id": 31,
+    "category": "Communication",
+    "question": "Why is communication important on jobsites?",
+    "options": [
+      "Improve coordination and safety",
+      "Replace measurements",
+      "Eliminate inspections",
+      "Reduce drywall weight"
+    ],
+    "answer": 0,
+    "explanation": "Clear communication helps prevent mistakes and accidents."
+  },
+  {
+    "id": 32,
+    "category": "Communication",
+    "question": "What should workers do if they are unsure about instructions?",
+    "options": [
+      "Ask for clarification",
+      "Guess the task",
+      "Ignore the instructions",
+      "Leave the site immediately"
+    ],
+    "answer": 0,
+    "explanation": "Clarifying instructions reduces errors and improves safety."
+  },
+  {
+    "id": 33,
+    "category": "Safety – WHMIS",
+    "question": "What is the purpose of WHMIS labels?",
+    "options": [
+      "Provide hazard information about products",
+      "Improve sanding speed",
+      "Replace PPE",
+      "Measure drywall thickness"
+    ],
+    "answer": 0,
+    "explanation": "WHMIS labels help workers understand hazards and safe handling procedures."
+  },
+  {
+    "id": 34,
+    "category": "Safety – WHMIS",
+    "question": "Where can workers find detailed safety information about materials?",
+    "options": [
+      "Safety Data Sheets (SDS)",
+      "Paint cans only",
+      "Drywall labels only",
+      "Tape boxes only"
+    ],
+    "answer": 0,
+    "explanation": "SDS documents provide safety, handling, and emergency information."
+  },
+  {
+    "id": 35,
+    "category": "Safety – Fire Prevention",
+    "question": "Why should combustible materials be stored safely?",
+    "options": [
+      "Reduce fire risk",
+      "Improve drywall finishing",
+      "Increase drying speed",
+      "Replace ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Proper storage helps prevent fires and workplace hazards."
+  },
+  {
+    "id": 36,
+    "category": "Safety – Emergency",
+    "question": "What should workers know before starting work?",
+    "options": [
+      "Emergency procedures and exits",
+      "Paint colour schedule",
+      "Tool brand preferences",
+      "Texture patterns only"
+    ],
+    "answer": 0,
+    "explanation": "Workers should know how to respond during emergencies."
+  },
+  {
+    "id": 37,
+    "category": "Safety – Reporting Hazards",
+    "question": "What should workers do if they notice unsafe conditions?",
+    "options": [
+      "Report them immediately",
+      "Ignore them",
+      "Hide the problem",
+      "Continue working unsafely"
+    ],
+    "answer": 0,
+    "explanation": "Reporting hazards helps prevent injuries and accidents."
+  },
+  {
+    "id": 38,
+    "category": "Safety – Fall Protection",
+    "question": "Why is fall protection important at heights?",
+    "options": [
+      "Prevent serious injuries or death",
+      "Improve sanding speed",
+      "Replace scaffolds",
+      "Reduce drywall dust"
+    ],
+    "answer": 0,
+    "explanation": "Falls are one of the leading causes of workplace injuries."
+  },
+  {
+    "id": 39,
+    "category": "Safety – Respiratory Protection",
+    "question": "Why may respirators be required during spraying operations?",
+    "options": [
+      "Airborne particles may be hazardous",
+      "Spray improves breathing",
+      "Paint eliminates dust",
+      "Ventilation is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Spraying can create airborne particles harmful to lungs."
+  },
+  {
+    "id": 40,
+    "category": "Safety – Cleanup",
+    "question": "Why should tools be cleaned after use?",
+    "options": [
+      "Improve performance and lifespan",
+      "Make them heavier",
+      "Reduce drywall strength",
+      "Replace sanding"
+    ],
+    "answer": 0,
+    "explanation": "Clean tools work better and last longer."
+  },
+  {
+    "id": 41,
+    "category": "Safety – Material Disposal",
+    "question": "Why should waste materials be disposed of properly?",
+    "options": [
+      "Maintain safety and cleanliness",
+      "Improve paint colour",
+      "Increase drying speed",
+      "Replace PPE"
+    ],
+    "answer": 0,
+    "explanation": "Proper disposal reduces hazards and keeps worksites organized."
+  },
+  {
+    "id": 42,
+    "category": "Safety – Slips and Falls",
+    "question": "What commonly causes slips on jobsites?",
+    "options": [
+      "Dust, debris, or spills",
+      "Smooth feathering",
+      "Correct sanding",
+      "Proper cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Slippery or cluttered surfaces increase fall risks."
+  },
+  {
+    "id": 43,
+    "category": "Safety – Lighting",
+    "question": "Why is good lighting important during drywall finishing?",
+    "options": [
+      "Helps identify defects and hazards",
+      "Makes compound dry instantly",
+      "Eliminates sanding",
+      "Replaces inspections"
+    ],
+    "answer": 0,
+    "explanation": "Good visibility improves both quality and safety."
+  },
+  {
+    "id": 44,
+    "category": "Safety – Team Lifting",
+    "question": "When should team lifting be used?",
+    "options": [
+      "For heavy or awkward materials",
+      "Only during painting",
+      "Only outdoors",
+      "Never on drywall jobs"
+    ],
+    "answer": 0,
+    "explanation": "Team lifting reduces injury risk with large materials like drywall sheets."
+  },
+  {
+    "id": 45,
+    "category": "Safety – Ergonomics",
+    "question": "Why are repetitive motions a concern?",
+    "options": [
+      "They may cause strain injuries",
+      "They strengthen joints permanently",
+      "They eliminate fatigue",
+      "They improve ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Repeated movements can lead to long-term injuries."
+  },
+  {
+    "id": 46,
+    "category": "Safety – Work Practices",
+    "question": "Why should workers follow manufacturer instructions?",
+    "options": [
+      "Ensure safe and proper use of products",
+      "Replace safety rules",
+      "Eliminate inspections",
+      "Improve texture automatically"
+    ],
+    "answer": 0,
+    "explanation": "Manufacturers provide important guidance for safe handling and use."
+  },
+  {
+    "id": 47,
+    "category": "Safety – Chemical Exposure",
+    "question": "Why should workers avoid prolonged skin contact with compounds?",
+    "options": [
+      "Some materials may irritate skin",
+      "Compound improves skin condition",
+      "Skin contact strengthens compound",
+      "It replaces gloves"
+    ],
+    "answer": 0,
+    "explanation": "Some drywall and plaster materials can dry or irritate skin."
+  },
+  {
+    "id": 48,
+    "category": "Safety – Awareness",
+    "question": "Why should workers stay aware of surroundings?",
+    "options": [
+      "Avoid accidents and hazards",
+      "Improve paint texture",
+      "Reduce drywall thickness",
+      "Eliminate cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Awareness helps workers respond to changing conditions safely."
+  },
+  {
+    "id": 49,
+    "category": "Safety – Inspection",
+    "question": "Why should equipment be inspected regularly?",
+    "options": [
+      "Identify damage before failure occurs",
+      "Improve texture matching",
+      "Replace repairs",
+      "Reduce primer use"
+    ],
+    "answer": 0,
+    "explanation": "Regular inspection improves safety and tool reliability."
+  },
+  {
+    "id": 50,
+    "category": "Safety – Professionalism",
+    "question": "What is part of professional jobsite behavior?",
+    "options": [
+      "Safe work practices and cleanup",
+      "Ignoring hazards",
+      "Leaving debris behind",
+      "Damaging tools carelessly"
+    ],
+    "answer": 0,
+    "explanation": "Professional workers maintain safety, quality, and cleanliness on site."
+  },
+  {
+    "id": 51,
+    "category": "Safety – Dust Control",
+    "question": "A worker is sanding in a small room and dust is building up quickly. What is the BEST action?",
+    "options": [
+      "Keep sanding until finished",
+      "Improve ventilation and use proper respiratory protection",
+      "Remove safety glasses",
+      "Sweep while sanding only"
+    ],
+    "answer": 1,
+    "explanation": "Dust can harm breathing and reduce visibility. Ventilation and PPE help control exposure."
+  },
+  {
+    "id": 52,
+    "category": "Safety – Housekeeping",
+    "question": "A hallway has drywall scraps, cords, and buckets on the floor. What is the main hazard?",
+    "options": [
+      "Poor paint colour",
+      "Trip and fall hazard",
+      "Faster drying",
+      "Better tool storage"
+    ],
+    "answer": 1,
+    "explanation": "Walkways must be clear. Debris and cords can cause slips, trips, and falls."
+  },
+  {
+    "id": 53,
+    "category": "Safety – Electrical",
+    "question": "A cord has exposed wire near the plug. What should be done?",
+    "options": [
+      "Use it carefully",
+      "Wrap it with drywall tape",
+      "Remove it from service and report it",
+      "Place it under cardboard"
+    ],
+    "answer": 2,
+    "explanation": "Damaged cords can cause shock or fire. They must not be used."
+  },
+  {
+    "id": 54,
+    "category": "Safety – WHMIS",
+    "question": "A chemical container has no label. What should the worker do?",
+    "options": [
+      "Smell it to identify it",
+      "Use it if it looks safe",
+      "Do not use it until properly identified",
+      "Mix it with water"
+    ],
+    "answer": 2,
+    "explanation": "Unknown products can be hazardous. WHMIS requires proper product identification."
+  },
+  {
+    "id": 55,
+    "category": "Safety – SDS",
+    "question": "What information is found on a Safety Data Sheet?",
+    "options": [
+      "Product hazards, PPE, first aid, and handling",
+      "Wall square footage only",
+      "Drywall screw spacing only",
+      "Paint colour chart only"
+    ],
+    "answer": 0,
+    "explanation": "SDS documents give detailed safety information for hazardous products."
+  },
+  {
+    "id": 56,
+    "category": "Safety – Respirators",
+    "question": "A respirator does not seal properly. What is the concern?",
+    "options": [
+      "It may not protect the worker from dust",
+      "It improves airflow safely",
+      "It replaces eye protection",
+      "It makes sanding faster"
+    ],
+    "answer": 0,
+    "explanation": "Respirators must seal correctly. Air leaks allow dust or particles to enter."
+  },
+  {
+    "id": 57,
+    "category": "Safety – Ladders",
+    "question": "A worker cannot reach the work area from a ladder. What is the safest action?",
+    "options": [
+      "Lean farther sideways",
+      "Stand on the top cap",
+      "Move the ladder or use proper access equipment",
+      "Ask someone to hold the worker’s belt"
+    ],
+    "answer": 2,
+    "explanation": "Overreaching causes falls. Use proper access instead of stretching."
+  },
+  {
+    "id": 58,
+    "category": "Safety – Scaffolds",
+    "question": "A scaffold wheel brake does not lock. What should happen?",
+    "options": [
+      "Use it only on flat floors",
+      "Do not use it until corrected",
+      "Put a bucket behind the wheel",
+      "Work quickly before it moves"
+    ],
+    "answer": 1,
+    "explanation": "Scaffold wheels must lock securely. Movement can cause falls."
+  },
+  {
+    "id": 59,
+    "category": "Safety – Stilts",
+    "question": "A worker wants to use stilts on a floor with cords and scraps. What should be done first?",
+    "options": [
+      "Walk carefully over the cords",
+      "Clear the floor completely",
+      "Carry a bucket for balance",
+      "Use stilts only for a short time"
+    ],
+    "answer": 1,
+    "explanation": "Stilts require a clean, dry, level surface. Obstacles create fall hazards."
+  },
+  {
+    "id": 60,
+    "category": "Safety – Fire Prevention",
+    "question": "A flammable product is stored beside a heater. What is the main concern?",
+    "options": [
+      "Faster drying",
+      "Fire hazard",
+      "Better ventilation",
+      "Stronger compound"
+    ],
+    "answer": 1,
+    "explanation": "Flammable products must be kept away from ignition or heat sources."
+  },
+  {
+    "id": 61,
+    "category": "Safety – Emergency Access",
+    "question": "Drywall sheets are blocking an emergency exit. What should be done?",
+    "options": [
+      "Leave them because they will be used later",
+      "Clear the exit or report it immediately",
+      "Put a warning sign only",
+      "Use another exit if needed"
+    ],
+    "answer": 1,
+    "explanation": "Emergency exits must always remain clear and accessible."
+  },
+  {
+    "id": 62,
+    "category": "Safety – Lifting",
+    "question": "A worker must carry a large drywall sheet through a tight area. What is the safest choice?",
+    "options": [
+      "Carry it alone quickly",
+      "Plan the route and ask for help if needed",
+      "Twist while lifting",
+      "Drag it across the floor"
+    ],
+    "answer": 1,
+    "explanation": "Planning and team lifting reduce injury and material damage."
+  },
+  {
+    "id": 63,
+    "category": "Safety – Ergonomics",
+    "question": "A worker sands overhead for a long time. What risk is increased?",
+    "options": [
+      "Shoulder and neck strain",
+      "Better paint adhesion",
+      "Faster drying",
+      "Less dust exposure"
+    ],
+    "answer": 0,
+    "explanation": "Overhead work can cause muscle strain. Breaks and proper access reduce risk."
+  },
+  {
+    "id": 64,
+    "category": "Tools – Power Tools",
+    "question": "Before changing a sanding pad on a power sander, what should be done?",
+    "options": [
+      "Disconnect power",
+      "Increase tool speed",
+      "Hold the trigger",
+      "Wet the tool"
+    ],
+    "answer": 0,
+    "explanation": "Disconnecting power prevents accidental startup and injury."
+  },
+  {
+    "id": 65,
+    "category": "Tools – Inspection",
+    "question": "A power tool has a missing guard. What should the worker do?",
+    "options": [
+      "Use it carefully",
+      "Remove it from service",
+      "Use it only for small jobs",
+      "Cover the guard area with tape"
+    ],
+    "answer": 1,
+    "explanation": "Safety guards protect workers. Tools with missing guards should not be used."
+  },
+  {
+    "id": 66,
+    "category": "Tools – Maintenance",
+    "question": "A taping knife leaves repeated lines in compound. What is the most likely cause?",
+    "options": [
+      "Dirty or damaged knife edge",
+      "Proper feathering",
+      "Clean compound",
+      "Correct pressure"
+    ],
+    "answer": 0,
+    "explanation": "Dried compound or nicks on the blade leave scratches and ridges."
+  },
+  {
+    "id": 67,
+    "category": "Tools – Mixing",
+    "question": "A mixing drill splashes compound out of the bucket. What should the worker do?",
+    "options": [
+      "Increase speed",
+      "Reduce speed and keep paddle submerged",
+      "Lift the paddle higher",
+      "Add drywall dust"
+    ],
+    "answer": 1,
+    "explanation": "Proper speed and paddle position prevent splashing and air bubbles."
+  },
+  {
+    "id": 68,
+    "category": "Materials – Storage",
+    "question": "Drywall is stored directly on a wet concrete floor. What is the main risk?",
+    "options": [
+      "Moisture damage",
+      "Faster installation",
+      "Better finishing",
+      "Stronger board edges"
+    ],
+    "answer": 0,
+    "explanation": "Drywall absorbs moisture and can weaken, warp, or grow mold."
+  },
+  {
+    "id": 69,
+    "category": "Materials – Handling",
+    "question": "Drywall sheets have crushed edges from poor storage. What problem can this cause?",
+    "options": [
+      "Difficult taping and joint defects",
+      "Faster sanding",
+      "Stronger joints",
+      "Less compound needed"
+    ],
+    "answer": 0,
+    "explanation": "Damaged edges create gaps and weak areas that are harder to finish."
+  },
+  {
+    "id": 70,
+    "category": "Trade Math",
+    "question": "A wall is 16 ft long and 9 ft high. What is the area?",
+    "options": [
+      "25 sq ft",
+      "72 sq ft",
+      "144 sq ft",
+      "160 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Area = length × height. 16 × 9 = 144 square feet."
+  },
+  {
+    "id": 71,
+    "category": "Trade Math",
+    "question": "A ceiling is 18 ft by 12 ft. What is the area?",
+    "options": [
+      "30 sq ft",
+      "108 sq ft",
+      "216 sq ft",
+      "360 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Area = length × width. 18 × 12 = 216 square feet."
+  },
+  {
+    "id": 72,
+    "category": "Trade Math",
+    "question": "A 4 ft × 8 ft drywall sheet covers 32 sq ft. How many sheets are needed for 160 sq ft, not including waste?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "160 ÷ 32 = 5 sheets."
+  },
+  {
+    "id": 73,
+    "category": "Trade Math",
+    "question": "A room has two walls 12 ft × 8 ft and two walls 10 ft × 8 ft. What is the total wall area?",
+    "options": [
+      "176 sq ft",
+      "256 sq ft",
+      "352 sq ft",
+      "960 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Two 12×8 walls = 192 sq ft. Two 10×8 walls = 160 sq ft. Total = 352 sq ft."
+  },
+  {
+    "id": 74,
+    "category": "Trade Math",
+    "question": "If half of 3/4 inch is needed, what is the measurement?",
+    "options": [
+      "1/8 inch",
+      "3/8 inch",
+      "1/2 inch",
+      "1 inch"
+    ],
+    "answer": 1,
+    "explanation": "Half of 3/4 is 3/8."
+  },
+  {
+    "id": 75,
+    "category": "Plans and Specifications",
+    "question": "Why should specifications be checked before finishing drywall?",
+    "options": [
+      "Different areas may need different finish levels",
+      "Specifications replace safety rules",
+      "Specs are only for painters",
+      "Finish levels do not matter"
+    ],
+    "answer": 0,
+    "explanation": "Finish requirements depend on room use, lighting, and paint type."
+  },
+  {
+    "id": 76,
+    "category": "Finish Levels",
+    "question": "A lobby will receive gloss paint and strong lighting. What should be expected?",
+    "options": [
+      "Higher finish level may be required",
+      "No primer is needed",
+      "Rough finish is acceptable",
+      "Only one coat is needed"
+    ],
+    "answer": 0,
+    "explanation": "Gloss paint and critical lighting reveal defects, so better finishing is often required."
+  },
+  {
+    "id": 77,
+    "category": "Planning",
+    "question": "Why should ceiling work often be completed before wall finishing?",
+    "options": [
+      "Ceiling dust and compound can fall onto walls",
+      "Walls must always dry first",
+      "Ceilings never need sanding",
+      "Wall work protects ceilings"
+    ],
+    "answer": 0,
+    "explanation": "Proper sequence helps prevent damage to finished surfaces."
+  },
+  {
+    "id": 78,
+    "category": "Jobsite Protection",
+    "question": "Before sanding near finished cabinets, what should be done?",
+    "options": [
+      "Protect cabinets and nearby surfaces",
+      "Sand toward cabinets",
+      "Store compound on cabinets",
+      "Leave cabinets uncovered"
+    ],
+    "answer": 0,
+    "explanation": "Dust, tools, and compound can damage finished surfaces."
+  },
+  {
+    "id": 79,
+    "category": "Communication",
+    "question": "A worker does not understand the required finish level. What should they do?",
+    "options": [
+      "Guess based on room size",
+      "Confirm with supervisor or specifications",
+      "Use the lowest finish level",
+      "Skip sanding"
+    ],
+    "answer": 1,
+    "explanation": "Confirming instructions prevents rework and quality issues."
+  },
+  {
+    "id": 80,
+    "category": "Communication",
+    "question": "Why is it important to report damaged materials?",
+    "options": [
+      "Damaged materials can affect safety and quality",
+      "Damaged materials always work better",
+      "Reporting slows the job for no reason",
+      "Paint fixes all damage"
+    ],
+    "answer": 0,
+    "explanation": "Damaged drywall, bead, or tools can cause defects or hazards."
+  },
+  {
+    "id": 81,
+    "category": "Trade Documents",
+    "question": "What is the purpose of manufacturer instructions?",
+    "options": [
+      "Explain correct use, mixing, limits, and safety",
+      "Replace all training",
+      "Show only product price",
+      "Avoid inspections"
+    ],
+    "answer": 0,
+    "explanation": "Product instructions help ensure proper performance and safe use."
+  },
+  {
+    "id": 82,
+    "category": "Trade Documents",
+    "question": "A compound label says not to apply below a certain temperature. Why is this important?",
+    "options": [
+      "Low temperature can affect drying and bond",
+      "Cold always improves finish",
+      "Temperature only affects colour",
+      "Labels are optional"
+    ],
+    "answer": 0,
+    "explanation": "Temperature affects drying, setting, and adhesion."
+  },
+  {
+    "id": 83,
+    "category": "Trade Documents",
+    "question": "What should be checked before using a new chemical product?",
+    "options": [
+      "Label and Safety Data Sheet",
+      "Bucket colour only",
+      "Room size only",
+      "Tool brand only"
+    ],
+    "answer": 0,
+    "explanation": "Labels and SDS provide hazard and safe-use information."
+  },
+  {
+    "id": 84,
+    "category": "Quality Control",
+    "question": "Why is side lighting useful during inspection?",
+    "options": [
+      "It reveals ridges, waves, and scratches",
+      "It dries compound faster",
+      "It replaces sanding",
+      "It hides defects"
+    ],
+    "answer": 0,
+    "explanation": "Angled light makes surface defects easier to see."
+  },
+  {
+    "id": 85,
+    "category": "Quality Control",
+    "question": "What should be checked before primer is applied?",
+    "options": [
+      "Smoothness, dust, and visible defects",
+      "Paint colour only",
+      "Lunch schedule",
+      "Tool price"
+    ],
+    "answer": 0,
+    "explanation": "Defects should be corrected before primer and paint."
+  },
+  {
+    "id": 86,
+    "category": "Quality Control",
+    "question": "Why should sanding dust be removed before coating?",
+    "options": [
+      "Dust reduces adhesion and finish quality",
+      "Dust improves primer",
+      "Dust replaces sealer",
+      "Dust hides all defects"
+    ],
+    "answer": 0,
+    "explanation": "Coatings bond best to clean surfaces."
+  },
+  {
+    "id": 87,
+    "category": "Work Sequencing",
+    "question": "What is the advantage of planning work sequence?",
+    "options": [
+      "Reduces rework and improves efficiency",
+      "Eliminates safety rules",
+      "Removes need for tools",
+      "Makes measurements unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Proper sequencing prevents damage to completed work and saves time."
+  },
+  {
+    "id": 88,
+    "category": "Material Waste",
+    "question": "Why should measurements be checked before cutting?",
+    "options": [
+      "To reduce waste and improve fit",
+      "To increase scrap",
+      "To avoid layout",
+      "To make drywall heavier"
+    ],
+    "answer": 0,
+    "explanation": "Accurate measuring reduces mistakes and material waste."
+  },
+  {
+    "id": 89,
+    "category": "Material Waste",
+    "question": "What is a common result of poor material handling?",
+    "options": [
+      "Broken edges and wasted material",
+      "Better finish quality",
+      "Faster installation",
+      "Stronger joints"
+    ],
+    "answer": 0,
+    "explanation": "Careless handling can damage drywall sheets and increase waste."
+  },
+  {
+    "id": 90,
+    "category": "Professional Practice",
+    "question": "What is the best reason to clean tools during the day?",
+    "options": [
+      "Dried compound can contaminate fresh compound",
+      "Dirty tools improve finish",
+      "Cleaning weakens tools",
+      "Clean tools are only for painters"
+    ],
+    "answer": 0,
+    "explanation": "Clean tools help prevent scratches, lumps, and poor finish quality."
+  },
+  {
+    "id": 91,
+    "category": "Professional Practice",
+    "question": "A worker notices another trade has created a hazard in the work area. What should be done?",
+    "options": [
+      "Ignore it",
+      "Report or correct it if safe to do so",
+      "Hide it under drywall",
+      "Work around it without saying anything"
+    ],
+    "answer": 1,
+    "explanation": "Safety is everyone’s responsibility on site."
+  },
+  {
+    "id": 92,
+    "category": "Professional Practice",
+    "question": "Why is final cleanup part of professional work?",
+    "options": [
+      "It leaves the area safe and ready for next steps",
+      "It replaces inspection",
+      "It hides defects with dust",
+      "It removes need for primer"
+    ],
+    "answer": 0,
+    "explanation": "Cleanup improves safety, appearance, and workflow."
+  },
+  {
+    "id": 93,
+    "category": "Safety – Emergency",
+    "question": "A worker sees smoke near stored materials. What is the best first action?",
+    "options": [
+      "Ignore it",
+      "Follow emergency procedure and report it",
+      "Cover it with drywall",
+      "Keep working"
+    ],
+    "answer": 1,
+    "explanation": "Fire or smoke must be handled immediately using site emergency procedures."
+  },
+  {
+    "id": 94,
+    "category": "Safety – Chemical Handling",
+    "question": "Why should chemical containers be kept closed when not in use?",
+    "options": [
+      "To reduce spills and exposure",
+      "To make them dry faster",
+      "To hide labels",
+      "To increase fumes"
+    ],
+    "answer": 0,
+    "explanation": "Closed containers reduce vapor, spill, and contamination risks."
+  },
+  {
+    "id": 95,
+    "category": "Safety – PPE Selection",
+    "question": "Which PPE is most important when cutting metal bead?",
+    "options": [
+      "Safety glasses and gloves",
+      "Sandals",
+      "Dust mask only",
+      "Cotton shirt only"
+    ],
+    "answer": 0,
+    "explanation": "Metal bead has sharp edges and may create flying particles."
+  },
+  {
+    "id": 96,
+    "category": "Safety – Site Awareness",
+    "question": "Why should workers stay aware of other trades nearby?",
+    "options": [
+      "To avoid conflicts, hazards, and accidents",
+      "To avoid communication",
+      "To increase clutter",
+      "To ignore safety zones"
+    ],
+    "answer": 0,
+    "explanation": "Shared sites require awareness and communication to stay safe."
+  },
+  {
+    "id": 97,
+    "category": "Safety – Manual Handling",
+    "question": "What should a worker do if a material is too heavy or awkward?",
+    "options": [
+      "Ask for help or use lifting equipment",
+      "Lift it alone quickly",
+      "Twist while carrying",
+      "Drag it over finished floors"
+    ],
+    "answer": 0,
+    "explanation": "Safe lifting prevents injury and material damage."
+  },
+  {
+    "id": 98,
+    "category": "Quality – Defect Prevention",
+    "question": "What is the best way to prevent many finish defects?",
+    "options": [
+      "Prepare surfaces properly before applying material",
+      "Apply paint early",
+      "Ignore dust",
+      "Use thicker coats only"
+    ],
+    "answer": 0,
+    "explanation": "Good preparation prevents poor bonding, bubbles, ridges, and flashing."
+  },
+  {
+    "id": 99,
+    "category": "Quality – Manufacturer Instructions",
+    "question": "A worker adds extra water beyond product instructions. What may happen?",
+    "options": [
+      "Product performance may be reduced",
+      "Product becomes stronger",
+      "Drying becomes unnecessary",
+      "Tape is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Over-thinning can reduce strength, increase shrinkage, and affect finish quality."
+  },
+  {
+    "id": 100,
+    "category": "Common Occupational Skills – Final Review",
+    "question": "What best describes good trade practice?",
+    "options": [
+      "Safe, accurate, clean, and quality-focused work",
+      "Fast work with no inspection",
+      "Ignoring instructions",
+      "Leaving cleanup for others"
+    ],
+    "answer": 0,
+    "explanation": "Common occupational skills include safety, communication, measuring, tool care, and professional workmanship."
+  },
+  {
+    "id": 101,
+    "category": "Safety – Hazard Control",
+    "question": "A worker is sanding in a small closed room. Dust is spreading into the hallway where other trades are working. What is the BEST action?",
+    "options": [
+      "Keep sanding because the room must be finished",
+      "Stop and improve dust control, ventilation, and PPE",
+      "Ask other workers to walk around the dust",
+      "Sweep the dust after the job is complete"
+    ],
+    "answer": 1,
+    "explanation": "Dust exposure affects everyone nearby. The safest action is to control dust before continuing."
+  },
+  {
+    "id": 102,
+    "category": "Safety – Electrical Hazards",
+    "question": "A worker finds an extension cord with a cracked outer jacket but the tool still runs. What should be done?",
+    "options": [
+      "Use it carefully",
+      "Wrap it with paper tape",
+      "Remove it from service and report it",
+      "Use it only for low-power tools"
+    ],
+    "answer": 2,
+    "explanation": "Damaged cords can cause shock or fire. They should not be used."
+  },
+  {
+    "id": 103,
+    "category": "Safety – Fall Prevention",
+    "question": "A worker on a ladder must reach 2 feet sideways to finish a joint. What is the safest choice?",
+    "options": [
+      "Lean carefully",
+      "Move the ladder closer",
+      "Stand on one foot",
+      "Have someone hold the ladder while leaning"
+    ],
+    "answer": 1,
+    "explanation": "Overreaching causes falls. Move the ladder or use proper access equipment."
+  },
+  {
+    "id": 104,
+    "category": "Safety – Scaffolding",
+    "question": "A scaffold feels unstable when the worker steps onto it. What should the worker do?",
+    "options": [
+      "Continue carefully",
+      "Add more weight to the scaffold",
+      "Stop using it until inspected/corrected",
+      "Work faster before it moves"
+    ],
+    "answer": 2,
+    "explanation": "Unstable scaffolds are a serious fall hazard and must not be used."
+  },
+  {
+    "id": 105,
+    "category": "Safety – Stilts",
+    "question": "A worker using stilts notices small drywall scraps ahead on the floor. What is the BEST action?",
+    "options": [
+      "Step over them slowly",
+      "Kick them aside while walking",
+      "Stop and have the path cleared",
+      "Walk faster to keep balance"
+    ],
+    "answer": 2,
+    "explanation": "Stilts require clean, level walking surfaces. Small debris can cause serious falls."
+  },
+  {
+    "id": 106,
+    "category": "Safety – WHMIS",
+    "question": "A cleaner is transferred into a smaller spray bottle. What must happen?",
+    "options": [
+      "Leave it unmarked if used the same day",
+      "Label the new container properly",
+      "Mix it with water to make it safer",
+      "Store it beside heat"
+    ],
+    "answer": 1,
+    "explanation": "Secondary containers must be identified so workers know the contents and hazards."
+  },
+  {
+    "id": 107,
+    "category": "Safety – SDS",
+    "question": "A worker splashes a chemical cleaner on their skin. Where should they find first-aid information?",
+    "options": [
+      "Safety Data Sheet",
+      "Drywall board label",
+      "Paint colour chart",
+      "Screw box"
+    ],
+    "answer": 0,
+    "explanation": "SDS information includes first aid, hazards, PPE, and emergency procedures."
+  },
+  {
+    "id": 108,
+    "category": "Safety – Fire Prevention",
+    "question": "Combustible packaging is stored near a portable heater. What is the main concern?",
+    "options": [
+      "Fire risk",
+      "Faster drywall drying",
+      "Better ventilation",
+      "Cleaner work area"
+    ],
+    "answer": 0,
+    "explanation": "Combustible materials should be kept away from heat and ignition sources."
+  },
+  {
+    "id": 109,
+    "category": "Safety – Emergency Procedures",
+    "question": "A worker sees an emergency exit blocked by drywall sheets. What is the correct action?",
+    "options": [
+      "Leave it if another exit exists",
+      "Clear it or report it immediately",
+      "Mark it with caution tape only",
+      "Use the blocked exit only during emergency"
+    ],
+    "answer": 1,
+    "explanation": "Emergency exits must always be clear and accessible."
+  },
+  {
+    "id": 110,
+    "category": "Safety – Respiratory Protection",
+    "question": "A respirator leaks around the face seal. What is the problem?",
+    "options": [
+      "It may not protect against airborne dust",
+      "It improves airflow",
+      "It replaces eye protection",
+      "It makes sanding easier"
+    ],
+    "answer": 0,
+    "explanation": "A respirator must seal properly to protect the worker."
+  },
+  {
+    "id": 111,
+    "category": "Material Handling",
+    "question": "A drywall sheet must be moved through a narrow hallway. What is the BEST practice?",
+    "options": [
+      "Carry it quickly alone",
+      "Plan the route and use help if needed",
+      "Drag it on finished flooring",
+      "Bend it around corners"
+    ],
+    "answer": 1,
+    "explanation": "Planning prevents injury, damage, and broken drywall edges."
+  },
+  {
+    "id": 112,
+    "category": "Material Storage",
+    "question": "Drywall sheets are stored leaning loosely in a busy walkway. What is the main hazard?",
+    "options": [
+      "They may fall or block movement",
+      "They dry faster",
+      "They become stronger",
+      "They reduce waste"
+    ],
+    "answer": 0,
+    "explanation": "Materials should be stored securely and away from walkways."
+  },
+  {
+    "id": 113,
+    "category": "Material Storage",
+    "question": "Drywall sheets are stored on damp concrete. What problem may occur?",
+    "options": [
+      "Moisture damage",
+      "Better finish quality",
+      "Faster installation",
+      "Stronger paper face"
+    ],
+    "answer": 0,
+    "explanation": "Drywall can absorb moisture, weaken, warp, or grow mold."
+  },
+  {
+    "id": 114,
+    "category": "Trade Math",
+    "question": "A room has four walls: two are 14 ft × 9 ft and two are 10 ft × 9 ft. What is the total wall area?",
+    "options": [
+      "216 sq ft",
+      "324 sq ft",
+      "432 sq ft",
+      "504 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Two 14×9 walls = 252 sq ft. Two 10×9 walls = 180 sq ft. Total = 432 sq ft."
+  },
+  {
+    "id": 115,
+    "category": "Trade Math",
+    "question": "A ceiling is 20 ft long and 13 ft wide. What is the ceiling area?",
+    "options": [
+      "33 sq ft",
+      "130 sq ft",
+      "260 sq ft",
+      "330 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Area = length × width. 20 × 13 = 260 square feet."
+  },
+  {
+    "id": 116,
+    "category": "Trade Math",
+    "question": "A 4 ft × 8 ft drywall sheet covers 32 sq ft. How many sheets are needed for 224 sq ft, not including waste?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "224 ÷ 32 = 7 sheets."
+  },
+  {
+    "id": 117,
+    "category": "Trade Math",
+    "question": "A worker cuts 5/8 inch off a 48-inch board width. What width remains?",
+    "options": [
+      "47 1/8 in",
+      "47 3/8 in",
+      "47 5/8 in",
+      "48 5/8 in"
+    ],
+    "answer": 1,
+    "explanation": "48 − 5/8 = 47 3/8 inches."
+  },
+  {
+    "id": 118,
+    "category": "Trade Math",
+    "question": "A wall is 15 ft long and 8 ft high. There is a 3 ft × 7 ft door opening. What is the net wall area?",
+    "options": [
+      "99 sq ft",
+      "120 sq ft",
+      "141 sq ft",
+      "21 sq ft"
+    ],
+    "answer": 0,
+    "explanation": "Wall area = 15×8 = 120 sq ft. Door = 3×7 = 21 sq ft. Net = 99 sq ft."
+  },
+  {
+    "id": 119,
+    "category": "Plans and Specifications",
+    "question": "A drawing shows a Level 5 finish in the lobby and Level 4 in storage rooms. What should the worker do?",
+    "options": [
+      "Finish all areas as Level 4",
+      "Follow the specified finish level for each area",
+      "Use Level 5 only where convenient",
+      "Ask the painter to decide after sanding"
+    ],
+    "answer": 1,
+    "explanation": "Different areas can require different finish levels. Specifications must be followed."
+  },
+  {
+    "id": 120,
+    "category": "Plans and Specifications",
+    "question": "A worker is unsure whether a wall is fire-rated. What is the BEST action?",
+    "options": [
+      "Guess based on wall thickness",
+      "Check drawings/specifications or ask supervisor",
+      "Finish it like a regular wall",
+      "Skip finishing until paint"
+    ],
+    "answer": 1,
+    "explanation": "Fire-rated assemblies have specific requirements and must be confirmed before work proceeds."
+  },
+  {
+    "id": 121,
+    "category": "Quality Control",
+    "question": "A wall looks smooth by touch but wavy under side lighting. What does this show?",
+    "options": [
+      "Touch alone is not enough for inspection",
+      "The wall is automatically acceptable",
+      "Paint will remove all waves",
+      "Sanding dust is the only issue"
+    ],
+    "answer": 0,
+    "explanation": "Light reveals surface waves and defects that may not be felt by hand."
+  },
+  {
+    "id": 122,
+    "category": "Quality Control",
+    "question": "A worker notices ridges before primer. What is the correct action?",
+    "options": [
+      "Correct the ridges before primer",
+      "Prime over them",
+      "Use darker paint",
+      "Ignore them if small"
+    ],
+    "answer": 0,
+    "explanation": "Primer and paint can make ridges more visible, so defects should be fixed first."
+  },
+  {
+    "id": 123,
+    "category": "Quality Control",
+    "question": "Why should sanding dust be removed before primer?",
+    "options": [
+      "It can reduce adhesion and create rough finish",
+      "It strengthens primer",
+      "It hides surface defects",
+      "It replaces sealer"
+    ],
+    "answer": 0,
+    "explanation": "Dust prevents primer from bonding properly and may affect appearance."
+  },
+  {
+    "id": 124,
+    "category": "Quality Control",
+    "question": "A finished repair flashes after painting. What is the likely cause?",
+    "options": [
+      "Different surface texture or porosity",
+      "Correct priming",
+      "Proper sanding",
+      "Uniform finish"
+    ],
+    "answer": 0,
+    "explanation": "Flashing is caused by surface differences that affect paint absorption or sheen."
+  },
+  {
+    "id": 125,
+    "category": "Work Sequencing",
+    "question": "Why should ceiling sanding often be completed before final wall finishing?",
+    "options": [
+      "Dust and debris can fall onto walls",
+      "Walls must always be finished first",
+      "Ceiling sanding has no dust",
+      "It eliminates primer"
+    ],
+    "answer": 0,
+    "explanation": "Proper sequencing prevents damage and contamination of finished work."
+  },
+  {
+    "id": 126,
+    "category": "Work Sequencing",
+    "question": "Finished flooring has been installed before drywall repairs. What should the worker do?",
+    "options": [
+      "Protect the floor before starting",
+      "Sand directly over the floor",
+      "Store compound on the floor",
+      "Drag drywall across it"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces must be protected from scratches, dust, and compound."
+  },
+  {
+    "id": 127,
+    "category": "Communication",
+    "question": "A worker receives unclear instructions about texture matching. What should they do?",
+    "options": [
+      "Guess the pattern",
+      "Confirm the required texture before starting",
+      "Spray the heaviest texture",
+      "Skip texture matching"
+    ],
+    "answer": 1,
+    "explanation": "Clarifying expectations prevents rework and poor-quality repairs."
+  },
+  {
+    "id": 128,
+    "category": "Communication",
+    "question": "A worker notices another trade damaged completed drywall. What is the best response?",
+    "options": [
+      "Repair it without telling anyone",
+      "Report the damage using site procedure",
+      "Ignore it",
+      "Cover it with tools"
+    ],
+    "answer": 1,
+    "explanation": "Damage should be documented and communicated so responsibility and repair scope are clear."
+  },
+  {
+    "id": 129,
+    "category": "Manufacturer Instructions",
+    "question": "A product label says maximum water can be added. Why should this limit be followed?",
+    "options": [
+      "Too much water can weaken performance",
+      "Extra water always improves strength",
+      "Instructions only apply to painters",
+      "Water amount does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Over-thinning can reduce strength, increase shrinkage, and affect finish quality."
+  },
+  {
+    "id": 130,
+    "category": "Manufacturer Instructions",
+    "question": "A setting compound bag says “45-minute.” What does this refer to?",
+    "options": [
+      "Approximate working/setting time",
+      "Time before painting every wall",
+      "Required sanding time",
+      "Time to install drywall sheets"
+    ],
+    "answer": 0,
+    "explanation": "Setting compound numbers usually indicate approximate set time, affected by conditions."
+  },
+  {
+    "id": 131,
+    "category": "Tool Use",
+    "question": "A utility knife blade is dull and requires extra force. What is the risk?",
+    "options": [
+      "Increased chance of slipping and injury",
+      "Cleaner cuts",
+      "Safer cutting",
+      "Less waste always"
+    ],
+    "answer": 0,
+    "explanation": "Dull blades need more force and are more likely to slip."
+  },
+  {
+    "id": 132,
+    "category": "Tool Use",
+    "question": "A worker is changing a mixer paddle on a plugged-in drill. What is wrong?",
+    "options": [
+      "Tool should be disconnected from power first",
+      "Paddle changes require water",
+      "Drill must be running",
+      "Gloves are not allowed"
+    ],
+    "answer": 0,
+    "explanation": "Disconnecting power prevents accidental startup and injury."
+  },
+  {
+    "id": 133,
+    "category": "Tool Maintenance",
+    "question": "A mud pan has dried compound inside. Why should it be cleaned?",
+    "options": [
+      "Dried pieces can contaminate fresh compound",
+      "It makes compound stronger",
+      "It removes need for sanding",
+      "It improves texture match"
+    ],
+    "answer": 0,
+    "explanation": "Dried compound causes scratches, ridges, and drag marks."
+  },
+  {
+    "id": 134,
+    "category": "Tool Maintenance",
+    "question": "A power sander produces unusual noise and vibration. What should the worker do?",
+    "options": [
+      "Stop and inspect/report the tool",
+      "Press harder",
+      "Use it until it stops",
+      "Add water to it"
+    ],
+    "answer": 0,
+    "explanation": "Unusual noise or vibration may indicate damage or unsafe operation."
+  },
+  {
+    "id": 135,
+    "category": "Material Handling",
+    "question": "A worker carries drywall alone in windy conditions outdoors. What is the concern?",
+    "options": [
+      "Sheet can catch wind and cause loss of control",
+      "Wind makes drywall lighter safely",
+      "Wind improves carrying balance",
+      "Drywall becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Large sheets can act like sails and cause injury or damage."
+  },
+  {
+    "id": 136,
+    "category": "Material Handling",
+    "question": "Why should damaged drywall edges be reported or corrected?",
+    "options": [
+      "They can create finishing problems",
+      "They reduce need for compound",
+      "They improve taping",
+      "They always disappear under paint"
+    ],
+    "answer": 0,
+    "explanation": "Crushed edges create gaps, weak spots, and visible defects."
+  },
+  {
+    "id": 137,
+    "category": "Site Protection",
+    "question": "Why should HVAC vents sometimes be covered during sanding?",
+    "options": [
+      "To prevent dust from spreading through the system",
+      "To improve airflow of dust",
+      "To make vents stronger",
+      "To replace respirators"
+    ],
+    "answer": 0,
+    "explanation": "Dust can travel through vents and contaminate other areas."
+  },
+  {
+    "id": 138,
+    "category": "Site Protection",
+    "question": "Why should finished trim be masked before nearby repairs?",
+    "options": [
+      "To protect it from compound, dust, and scratches",
+      "To make trim absorb paint faster",
+      "To avoid cleaning tools",
+      "To increase sanding speed"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces can be damaged during repairs and sanding."
+  },
+  {
+    "id": 139,
+    "category": "Hazard Recognition",
+    "question": "A floor has fine drywall dust on smooth concrete. What hazard may exist?",
+    "options": [
+      "Slip hazard",
+      "Better traction",
+      "Fireproofing",
+      "Improved cleanliness"
+    ],
+    "answer": 0,
+    "explanation": "Fine dust can make surfaces slippery and unsafe."
+  },
+  {
+    "id": 140,
+    "category": "Hazard Recognition",
+    "question": "A worker leaves a utility knife blade exposed on a bench. What is the main hazard?",
+    "options": [
+      "Cut injury",
+      "Faster work",
+      "Better tool storage",
+      "Cleaner cuts later"
+    ],
+    "answer": 0,
+    "explanation": "Exposed blades can easily injure workers."
+  },
+  {
+    "id": 141,
+    "category": "Professional Practice",
+    "question": "A worker makes a mistake in layout. What is the best professional action?",
+    "options": [
+      "Report and correct it before continuing",
+      "Hide it with compound",
+      "Keep working and hope it fits",
+      "Blame another trade"
+    ],
+    "answer": 0,
+    "explanation": "Addressing mistakes early reduces waste, rework, and quality problems."
+  },
+  {
+    "id": 142,
+    "category": "Professional Practice",
+    "question": "Why is documentation important for extra repair work?",
+    "options": [
+      "It clarifies scope, responsibility, and approval",
+      "It replaces safe work practice",
+      "It avoids communication",
+      "It reduces quality requirements"
+    ],
+    "answer": 0,
+    "explanation": "Extra work should be communicated and documented to avoid disputes."
+  },
+  {
+    "id": 143,
+    "category": "Professional Practice",
+    "question": "A worker is asked to rush and skip final inspection. What is the best response?",
+    "options": [
+      "Complete inspection because quality defects may remain",
+      "Skip inspection to save time",
+      "Paint over all defects",
+      "Leave cleanup for others"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection ensures work meets quality requirements and prevents rework."
+  },
+  {
+    "id": 144,
+    "category": "Environmental Conditions",
+    "question": "Why should temperature and humidity be considered before finishing?",
+    "options": [
+      "They affect drying, setting, and bonding",
+      "They only affect worker comfort",
+      "They replace manufacturer instructions",
+      "They do not matter indoors"
+    ],
+    "answer": 0,
+    "explanation": "Environmental conditions strongly affect product performance and drying time."
+  },
+  {
+    "id": 145,
+    "category": "Environmental Conditions",
+    "question": "A worker applies compound in a very cold room. What may happen?",
+    "options": [
+      "Slow drying and poor performance",
+      "Instant drying",
+      "Stronger compound automatically",
+      "Less shrinkage always"
+    ],
+    "answer": 0,
+    "explanation": "Cold conditions slow evaporation and may affect product performance."
+  },
+  {
+    "id": 146,
+    "category": "Quality and Defects",
+    "question": "A repaired wall looks different after paint even though it was sanded smooth. What might be missing?",
+    "options": [
+      "Primer/sealer or texture match",
+      "More heavy sanding only",
+      "Less surface preparation",
+      "Dirt on the surface"
+    ],
+    "answer": 0,
+    "explanation": "Smoothness alone does not prevent flashing; porosity and texture must also match."
+  },
+  {
+    "id": 147,
+    "category": "Quality and Defects",
+    "question": "A finish coat has many small drag marks. What should be checked first?",
+    "options": [
+      "Tool cleanliness and compound consistency",
+      "Paint colour",
+      "Wall height",
+      "Floor protection"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tools or poor compound consistency commonly cause drag marks."
+  },
+  {
+    "id": 148,
+    "category": "Safety – Confined Work Area",
+    "question": "A worker is applying material in a small enclosed space. What should be considered?",
+    "options": [
+      "Ventilation, PPE, and product safety information",
+      "Paint colour only",
+      "Tool storage only",
+      "Drywall thickness only"
+    ],
+    "answer": 0,
+    "explanation": "Enclosed spaces can increase exposure to dust or vapours."
+  },
+  {
+    "id": 149,
+    "category": "Trade Responsibility",
+    "question": "Who is responsible for maintaining a safe work area?",
+    "options": [
+      "Every worker on site",
+      "Only the supervisor",
+      "Only new workers",
+      "Only the safety officer"
+    ],
+    "answer": 0,
+    "explanation": "Safety is a shared responsibility. Everyone must help identify and control hazards."
+  },
+  {
+    "id": 150,
+    "category": "Final Quality",
+    "question": "What best describes high-quality common occupational practice?",
+    "options": [
+      "Safe, planned, clean, accurate, and specification-based work",
+      "Fast work with no inspection",
+      "Guessing when unsure",
+      "Ignoring product directions"
+    ],
+    "answer": 0,
+    "explanation": "Good trade practice includes safety, planning, communication, tool care, and quality control."
+  },
+  {
+    "id": 151,
+    "category": "Safety – Dust Exposure",
+    "question": "A worker is sanding in a room beside an occupied hallway. Dust is escaping under the door. What is the BEST action?",
+    "options": [
+      "Keep sanding and clean later",
+      "Control dust, improve ventilation, and protect nearby workers",
+      "Open the hallway door wider",
+      "Remove the respirator to breathe easier"
+    ],
+    "answer": 1,
+    "explanation": "Dust can affect other workers too. Control methods must reduce exposure beyond the immediate work area."
+  },
+  {
+    "id": 152,
+    "category": "Safety – Hazard Recognition",
+    "question": "A worker notices a wet patch of compound on a smooth concrete floor near a doorway. What should be done?",
+    "options": [
+      "Leave it until break time",
+      "Cover it with drywall dust",
+      "Clean it immediately",
+      "Walk around it only"
+    ],
+    "answer": 2,
+    "explanation": "Wet compound on smooth floors creates a slip hazard, especially near doorways."
+  },
+  {
+    "id": 153,
+    "category": "Safety – Electrical",
+    "question": "A power sander trips the breaker twice. What is the BEST response?",
+    "options": [
+      "Keep resetting the breaker",
+      "Use a larger breaker",
+      "Stop using the tool and report/check the issue",
+      "Tape the switch on"
+    ],
+    "answer": 2,
+    "explanation": "Repeated breaker trips can indicate tool, cord, or circuit problems. Continuing may create shock or fire risk."
+  },
+  {
+    "id": 154,
+    "category": "Safety – WHMIS",
+    "question": "A worker finds an unlabeled bottle of solvent on site. The worker thinks it is harmless because it is clear. What should be done?",
+    "options": [
+      "Use it carefully",
+      "Do not use it until identified and labeled",
+      "Mix it with water",
+      "Smell it closely"
+    ],
+    "answer": 1,
+    "explanation": "Clear liquids can still be hazardous. Unknown products must not be used."
+  },
+  {
+    "id": 155,
+    "category": "Safety – PPE",
+    "question": "A worker’s respirator fogs their glasses, so they loosen the straps. What is the problem?",
+    "options": [
+      "It may break the respirator seal",
+      "It improves protection",
+      "It reduces dust exposure",
+      "It replaces ventilation"
+    ],
+    "answer": 0,
+    "explanation": "A respirator must seal properly to protect the worker. Loose straps allow dust to enter."
+  },
+  {
+    "id": 156,
+    "category": "Safety – Ladder Use",
+    "question": "A worker places a ladder on stacked drywall scraps to gain extra height. What is the safest correction?",
+    "options": [
+      "Use the ladder carefully",
+      "Have another worker hold it",
+      "Use proper access equipment of correct height",
+      "Stand on the top cap instead"
+    ],
+    "answer": 2,
+    "explanation": "Ladders must be placed on stable surfaces. Scrap material is unsafe and can shift."
+  },
+  {
+    "id": 157,
+    "category": "Safety – Scaffold",
+    "question": "A scaffold has guardrails on one side only because the other side faces a wall. What should be checked?",
+    "options": [
+      "Whether fall protection requirements are still met",
+      "Paint colour of the scaffold",
+      "Drywall thickness",
+      "Worker’s tool belt weight"
+    ],
+    "answer": 0,
+    "explanation": "Scaffold protection must meet safety requirements. Missing guardrails can create fall hazards."
+  },
+  {
+    "id": 158,
+    "category": "Safety – Stilts",
+    "question": "A worker wearing stilts needs to pick up a dropped taping knife from the floor. What is safest?",
+    "options": [
+      "Bend down carefully",
+      "Step down or ask someone to pass the tool",
+      "Kick the tool closer",
+      "Balance on one stilt"
+    ],
+    "answer": 1,
+    "explanation": "Bending on stilts can cause loss of balance. Use a safer method."
+  },
+  {
+    "id": 159,
+    "category": "Fire Safety",
+    "question": "A worker stores paper tape boxes beside a temporary heater. What is the concern?",
+    "options": [
+      "Paper products are combustible",
+      "Tape will dry faster",
+      "Heater improves tape strength",
+      "This prevents moisture damage"
+    ],
+    "answer": 0,
+    "explanation": "Combustible materials should be kept away from heat sources."
+  },
+  {
+    "id": 160,
+    "category": "Emergency Procedures",
+    "question": "A fire extinguisher is blocked by drywall sheets. What is the issue?",
+    "options": [
+      "It cannot be reached quickly in an emergency",
+      "It protects the sheets",
+      "It improves storage",
+      "It prevents dust buildup"
+    ],
+    "answer": 0,
+    "explanation": "Emergency equipment must remain accessible at all times."
+  },
+  {
+    "id": 161,
+    "category": "Material Handling",
+    "question": "Two workers carry drywall through a doorway. One worker turns without warning. What is the main problem?",
+    "options": [
+      "Poor communication can cause injury or damage",
+      "Turning improves balance",
+      "Drywall becomes lighter",
+      "Doorways are never hazards"
+    ],
+    "answer": 0,
+    "explanation": "Team lifting requires clear communication to coordinate movement safely."
+  },
+  {
+    "id": 162,
+    "category": "Material Handling",
+    "question": "A worker lifts a full box of compound from the floor while twisting. What injury risk increases?",
+    "options": [
+      "Back strain",
+      "Eye irritation only",
+      "Paint flashing",
+      "Faster drying"
+    ],
+    "answer": 0,
+    "explanation": "Lifting while twisting stresses the back. Proper lifting uses legs and avoids twisting."
+  },
+  {
+    "id": 163,
+    "category": "Material Storage",
+    "question": "Drywall sheets are leaning loosely against a wall in a walkway. What should be done?",
+    "options": [
+      "Secure and store them away from traffic areas",
+      "Leave them because they are temporary",
+      "Cover them with plastic only",
+      "Stack tools in front of them"
+    ],
+    "answer": 0,
+    "explanation": "Leaning sheets can fall or block movement. Materials must be stored safely."
+  },
+  {
+    "id": 164,
+    "category": "Tool Safety",
+    "question": "A utility knife blade is left open on top of a scaffold plank. What is the hazard?",
+    "options": [
+      "Cut injury",
+      "Faster cutting later",
+      "Better tool access",
+      "Improved scaffold safety"
+    ],
+    "answer": 0,
+    "explanation": "Exposed blades can cut workers, especially when tools are left on shared platforms."
+  },
+  {
+    "id": 165,
+    "category": "Tool Maintenance",
+    "question": "A finishing knife has a small nick in the edge and leaves lines on every pass. What should be done?",
+    "options": [
+      "Repair or replace the knife",
+      "Press harder",
+      "Use thicker compound only",
+      "Ignore the marks until paint"
+    ],
+    "answer": 0,
+    "explanation": "Damaged tool edges create repeated defects and should be corrected."
+  },
+  {
+    "id": 166,
+    "category": "Power Tools",
+    "question": "A drill mixer suddenly jerks strongly during mixing. What should the worker do?",
+    "options": [
+      "Keep a firm grip, reduce speed, and use proper stance",
+      "Increase speed immediately",
+      "Remove the side handle",
+      "Stand on the bucket"
+    ],
+    "answer": 0,
+    "explanation": "Mixing tools create torque. Proper grip and speed control reduce injury risk."
+  },
+  {
+    "id": 167,
+    "category": "Dust Control",
+    "question": "A worker dry-sands near an operating HVAC return. What is the concern?",
+    "options": [
+      "Dust can spread through the building",
+      "HVAC improves finish quality",
+      "Dust makes filters stronger",
+      "Ventilation is never needed"
+    ],
+    "answer": 0,
+    "explanation": "HVAC systems can carry dust into other areas. Returns may need protection or dust control."
+  },
+  {
+    "id": 168,
+    "category": "Site Protection",
+    "question": "A repair is being done above finished hardwood flooring. What is the best practice?",
+    "options": [
+      "Protect the floor before starting",
+      "Sand directly over the floor",
+      "Sweep dust into corners",
+      "Store wet compound on the floor"
+    ],
+    "answer": 0,
+    "explanation": "Finished flooring must be protected from scratches, dust, and compound spills."
+  },
+  {
+    "id": 169,
+    "category": "Trade Math",
+    "question": "A wall is 22 ft long and 9 ft high. There are two window openings, each 3 ft × 4 ft. What is the net wall area?",
+    "options": [
+      "174 sq ft",
+      "186 sq ft",
+      "198 sq ft",
+      "222 sq ft"
+    ],
+    "answer": 0,
+    "explanation": "Wall area = 22×9 = 198 sq ft. Windows = 2×12 = 24 sq ft. Net = 174 sq ft."
+  },
+  {
+    "id": 170,
+    "category": "Trade Math",
+    "question": "A room ceiling is 24 ft × 16 ft. Each 4 ft × 8 ft sheet covers 32 sq ft. How many sheets are needed, not including waste?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "Ceiling area = 384 sq ft. 384 ÷ 32 = 12 sheets."
+  },
+  {
+    "id": 171,
+    "category": "Trade Math",
+    "question": "A worker needs three coats on 75 linear feet of joint. How many linear feet of coating passes are required?",
+    "options": [
+      "75 ft",
+      "150 ft",
+      "225 ft",
+      "300 ft"
+    ],
+    "answer": 2,
+    "explanation": "75 ft × 3 coats = 225 total linear feet of coating passes."
+  },
+  {
+    "id": 172,
+    "category": "Trade Math",
+    "question": "A worker cuts 7/8 inch off a 48-inch panel width. What width remains?",
+    "options": [
+      "47 1/8 in",
+      "47 3/8 in",
+      "47 7/8 in",
+      "48 7/8 in"
+    ],
+    "answer": 0,
+    "explanation": "48 − 7/8 = 47 1/8 inches."
+  },
+  {
+    "id": 173,
+    "category": "Specifications",
+    "question": "The specification calls for Level 5 finish on one wall only. What should the worker do?",
+    "options": [
+      "Apply Level 5 only where specified",
+      "Apply Level 5 nowhere",
+      "Apply Level 5 to hidden closets only",
+      "Use Level 3 because it is faster"
+    ],
+    "answer": 0,
+    "explanation": "Specifications control finish requirements. Workers should follow the documents or ask for clarification."
+  },
+  {
+    "id": 174,
+    "category": "Specifications",
+    "question": "A fire-rated assembly has gaps around penetrations. What should the worker understand?",
+    "options": [
+      "Fire-rated systems must be finished according to specifications",
+      "Paint alone restores fire rating",
+      "Gaps do not matter if hidden",
+      "Any compound is always acceptable"
+    ],
+    "answer": 0,
+    "explanation": "Fire-rated assemblies rely on proper materials and methods to perform correctly."
+  },
+  {
+    "id": 175,
+    "category": "Manufacturer Instructions",
+    "question": "A product label gives a maximum thickness per coat. Why is this important?",
+    "options": [
+      "Too thick may crack, shrink, or fail",
+      "Thicker always performs better",
+      "Labels are only suggestions for painters",
+      "Thickness does not affect finish"
+    ],
+    "answer": 0,
+    "explanation": "Product limits help prevent failure and poor drying."
+  },
+  {
+    "id": 176,
+    "category": "Manufacturer Instructions",
+    "question": "A worker mixes compound much thinner than recommended. What can happen?",
+    "options": [
+      "Reduced strength, sagging, or shrinkage",
+      "Better strength every time",
+      "No sanding required",
+      "Faster chemical setting always"
+    ],
+    "answer": 0,
+    "explanation": "Over-thinning can affect compound performance and finish quality."
+  },
+  {
+    "id": 177,
+    "category": "Environmental Conditions",
+    "question": "A room is cold and humid, and compound is drying slowly. What is the best correction?",
+    "options": [
+      "Improve heat and ventilation within product limits",
+      "Apply thicker coats",
+      "Close all air movement",
+      "Paint before drying"
+    ],
+    "answer": 0,
+    "explanation": "Drying improves with proper temperature and air movement. Product limits should be followed."
+  },
+  {
+    "id": 178,
+    "category": "Environmental Conditions",
+    "question": "A worker applies material below the product’s minimum temperature. What may result?",
+    "options": [
+      "Poor drying, bonding, or performance",
+      "Stronger finish",
+      "Less shrinkage always",
+      "Instant sanding readiness"
+    ],
+    "answer": 0,
+    "explanation": "Temperature affects material performance and should follow manufacturer limits."
+  },
+  {
+    "id": 179,
+    "category": "Communication",
+    "question": "A supervisor gives verbal instructions that conflict with the drawings. What is the best response?",
+    "options": [
+      "Ask for clarification before proceeding",
+      "Follow whichever is easier",
+      "Ignore both and guess",
+      "Finish quickly before anyone notices"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting instructions should be clarified to avoid rework or mistakes."
+  },
+  {
+    "id": 180,
+    "category": "Communication",
+    "question": "A worker finds damage caused by another trade after finishing is complete. What should be done?",
+    "options": [
+      "Report and document it according to site procedure",
+      "Hide it with tools",
+      "Repair it without telling anyone",
+      "Ignore it until paint"
+    ],
+    "answer": 0,
+    "explanation": "Damage should be communicated so repair responsibility and scope are clear."
+  },
+  {
+    "id": 181,
+    "category": "Quality Control",
+    "question": "A wall passes by touch but fails under critical lighting. What does this show?",
+    "options": [
+      "Inspection should include proper lighting conditions",
+      "Touch is always enough",
+      "Paint will repair lighting defects",
+      "Sanding dust improves inspection"
+    ],
+    "answer": 0,
+    "explanation": "Visual inspection under good lighting reveals waves, ridges, and shadows."
+  },
+  {
+    "id": 182,
+    "category": "Quality Control",
+    "question": "A worker notices sanding scratches after primer. What most likely caused them?",
+    "options": [
+      "Coarse abrasive or heavy pressure",
+      "Proper fine sanding",
+      "Correct primer only",
+      "Good feathering"
+    ],
+    "answer": 0,
+    "explanation": "Scratches often show after primer when grit is too coarse or sanding pressure is too heavy."
+  },
+  {
+    "id": 183,
+    "category": "Quality Control",
+    "question": "A final coat has many drag marks. What should be checked first?",
+    "options": [
+      "Tool cleanliness and compound consistency",
+      "Wall height",
+      "Door size",
+      "Paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tools and poor compound consistency commonly cause drag marks."
+  },
+  {
+    "id": 184,
+    "category": "Quality Control",
+    "question": "A finished area looks different after paint even though it was smooth. What is likely missing?",
+    "options": [
+      "Uniform texture/porosity or proper primer",
+      "Extra drywall screws",
+      "More sanding dust",
+      "Less inspection"
+    ],
+    "answer": 0,
+    "explanation": "Smoothness alone does not prevent flashing. Surface absorption and texture must be controlled."
+  },
+  {
+    "id": 185,
+    "category": "Work Sequencing",
+    "question": "A painter is scheduled before final sanding is complete. What should happen?",
+    "options": [
+      "Final sanding and cleanup should be completed first",
+      "Painter should paint over dust",
+      "Sanding can happen after paint",
+      "Primer will remove all ridges"
+    ],
+    "answer": 0,
+    "explanation": "Paint should not be applied until surfaces are finished, clean, and ready."
+  },
+  {
+    "id": 186,
+    "category": "Work Sequencing",
+    "question": "A finisher completes walls before overhead ceiling repairs. What problem may occur?",
+    "options": [
+      "Ceiling work may damage or dirty finished walls",
+      "Walls become stronger",
+      "Ceiling repairs need no sanding",
+      "Paint will protect all walls"
+    ],
+    "answer": 0,
+    "explanation": "Overhead work can drop dust or compound onto finished surfaces. Sequencing matters."
+  },
+  {
+    "id": 187,
+    "category": "Professional Practice",
+    "question": "A worker sees a co-worker using unsafe equipment. What is the best action?",
+    "options": [
+      "Ignore it",
+      "Speak up or report according to site policy",
+      "Hide the equipment",
+      "Continue working nearby"
+    ],
+    "answer": 1,
+    "explanation": "Safety is a shared responsibility. Unsafe equipment can injure anyone nearby."
+  },
+  {
+    "id": 188,
+    "category": "Professional Practice",
+    "question": "A worker is unsure how to operate a texture sprayer. What should they do?",
+    "options": [
+      "Ask for training or supervision",
+      "Try it on the finished wall",
+      "Remove controls to simplify it",
+      "Use it without PPE"
+    ],
+    "answer": 0,
+    "explanation": "Workers should be trained before using unfamiliar equipment."
+  },
+  {
+    "id": 189,
+    "category": "Professional Practice",
+    "question": "A worker accidentally damages finished trim. What is the professional response?",
+    "options": [
+      "Report the damage and follow site procedure",
+      "Hide it with compound",
+      "Leave without saying anything",
+      "Blame another trade automatically"
+    ],
+    "answer": 0,
+    "explanation": "Professional conduct includes honesty, communication, and correcting issues properly."
+  },
+  {
+    "id": 190,
+    "category": "Jobsite Planning",
+    "question": "A worker starts sanding before masking nearby finished surfaces. What problem may occur?",
+    "options": [
+      "Dust contamination or surface damage",
+      "Faster cleanup",
+      "Better primer adhesion",
+      "Less need for protection"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces should be protected before dusty or messy work."
+  },
+  {
+    "id": 191,
+    "category": "Jobsite Planning",
+    "question": "A worker begins a task without checking material quantities. What risk increases?",
+    "options": [
+      "Delays or inconsistent materials",
+      "Faster completion",
+      "Better finish quality",
+      "Less waste always"
+    ],
+    "answer": 0,
+    "explanation": "Planning materials helps avoid interruptions and product mismatch."
+  },
+  {
+    "id": 192,
+    "category": "Product Compatibility",
+    "question": "A worker applies a product over an incompatible surface. What may happen?",
+    "options": [
+      "Bond failure or finish defects",
+      "Better adhesion",
+      "No effect",
+      "Faster inspection"
+    ],
+    "answer": 0,
+    "explanation": "Products must be compatible with the surface and conditions."
+  },
+  {
+    "id": 193,
+    "category": "Product Compatibility",
+    "question": "Why should old paint condition be checked before repairs?",
+    "options": [
+      "Loose or glossy paint can affect bond",
+      "Paint colour controls drywall thickness",
+      "Old paint always improves adhesion",
+      "Repairs never bond to paint"
+    ],
+    "answer": 0,
+    "explanation": "Surface condition affects whether compound or coating will stick."
+  },
+  {
+    "id": 194,
+    "category": "Waste Control",
+    "question": "A worker cuts several panels incorrectly. What common occupational skill was likely missed?",
+    "options": [
+      "Measuring and planning before cutting",
+      "Sanding technique",
+      "Primer selection",
+      "Ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Accurate measurement and planning reduce waste and errors."
+  },
+  {
+    "id": 195,
+    "category": "Waste Control",
+    "question": "Why should leftover compound be protected from contamination?",
+    "options": [
+      "Dirt or dried pieces can ruin finish quality",
+      "Contamination makes compound stronger",
+      "Dirty compound sands better",
+      "It prevents drying forever"
+    ],
+    "answer": 0,
+    "explanation": "Contaminated compound leaves marks and defects in finish coats."
+  },
+  {
+    "id": 196,
+    "category": "Final Inspection",
+    "question": "Before turning over work, what should be checked?",
+    "options": [
+      "Safety, cleanliness, surface quality, and specification requirements",
+      "Only tool storage",
+      "Only paint colour",
+      "Only lunch schedule"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection includes both quality and jobsite condition."
+  },
+  {
+    "id": 197,
+    "category": "Final Inspection",
+    "question": "A worker finds small defects after cleanup. What should be done?",
+    "options": [
+      "Correct defects before final approval",
+      "Leave them for paint",
+      "Hide them with dust",
+      "Ignore them if small"
+    ],
+    "answer": 0,
+    "explanation": "Defects should be repaired before the work is accepted or painted."
+  },
+  {
+    "id": 198,
+    "category": "Safety Culture",
+    "question": "Why should near-misses be reported?",
+    "options": [
+      "To help prevent future incidents",
+      "To blame workers only",
+      "To stop all work forever",
+      "To avoid paperwork"
+    ],
+    "answer": 0,
+    "explanation": "Near-miss reporting helps identify hazards before someone is injured."
+  },
+  {
+    "id": 199,
+    "category": "Safety Culture",
+    "question": "A worker feels rushed and starts skipping safety steps. What is the best mindset?",
+    "options": [
+      "Safety and quality must still be maintained",
+      "Speed is more important than safety",
+      "PPE is optional when behind schedule",
+      "Inspection can always be skipped"
+    ],
+    "answer": 0,
+    "explanation": "Rushing increases injury and rework risk. Safe work practices remain required."
+  },
+  {
+    "id": 200,
+    "category": "Common Occupational Skills – Final Scenario",
+    "question": "A professional finisher is preparing to leave a completed job area. What final actions are best?",
+    "options": [
+      "Inspect work, clean area, store tools safely, and report issues",
+      "Leave tools and dust for the next trade",
+      "Skip inspection if the job looks close enough",
+      "Hide defects with poor lighting"
+    ],
+    "answer": 0,
+    "explanation": "Professional work includes final quality check, cleanup, safety, and clear communication."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledDrywallFinisherPlastererCommonOccupationalSkills200Questions =
+  shuffleArray(drywallFinisherPlastererCommonOccupationalSkills200Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "drywall-finisher-plasterer-common-occupational-skills-200",
+  tradeTitle: "Drywall Finisher & Plasterer",
+  sectionTitle: "Common Occupational Skills Section A-200",
+  questionTimeSeconds: 90,
+  questions: shuffledDrywallFinisherPlastererCommonOccupationalSkills200Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledDrywallFinisherPlastererCommonOccupationalSkills200Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

@@ -1,0 +1,2696 @@
+const cabinetmakerCommonOccupationalSkillsQuestions = [
+  {
+    "id": 1,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What is the first step before changing blades on a table saw?",
+    "options": [
+      "Lock out and isolate power",
+      "Raise the blade fully",
+      "Remove the fence",
+      "Clean the tabletop"
+    ],
+    "answer": 0,
+    "explanation": "Lockout prevents accidental startup. Blade changes must only be done after energy is isolated."
+  },
+  {
+    "id": 2,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why is wood dust considered a major shop hazard?",
+    "options": [
+      "It can affect breathing and may be combustible",
+      "It improves visibility",
+      "It reduces fire risk",
+      "It sharpens tools"
+    ],
+    "answer": 0,
+    "explanation": "Fine dust can harm lungs and create fire or explosion risk. Dust collection and PPE are important controls."
+  },
+  {
+    "id": 3,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What PPE is most important when machining MDF?",
+    "options": [
+      "Respirator and eye protection",
+      "Cotton gloves only",
+      "Apron only",
+      "Rubber boots only"
+    ],
+    "answer": 0,
+    "explanation": "MDF creates fine dust that should not be inhaled. Eye protection also protects from chips and dust."
+  },
+  {
+    "id": 4,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker sees a damaged power cord on a portable saw. What should be done?",
+    "options": [
+      "Remove it from service and report it",
+      "Tape it and continue",
+      "Use it only for short cuts",
+      "Hold the cord away from the blade"
+    ],
+    "answer": 0,
+    "explanation": "Damaged cords can cause shock or fire. The tool should not be used until repaired."
+  },
+  {
+    "id": 5,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should flammable finishes be stored in approved containers or cabinets?",
+    "options": [
+      "To reduce fire risk",
+      "To make them dry faster",
+      "To improve stain colour",
+      "To increase shelf life only"
+    ],
+    "answer": 0,
+    "explanation": "Many finishing products are flammable. Proper storage reduces ignition and spill hazards."
+  },
+  {
+    "id": 6,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What should be done before using a machine with a missing guard?",
+    "options": [
+      "Do not use it until the guard is restored",
+      "Use it carefully",
+      "Ask another worker to watch",
+      "Cut only small parts"
+    ],
+    "answer": 0,
+    "explanation": "Guards are part of the machine safety system. Missing guards increase injury risk."
+  },
+  {
+    "id": 7,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should hearing protection be used around planers and saws?",
+    "options": [
+      "To reduce noise exposure",
+      "To improve measuring accuracy",
+      "To prevent glue failure",
+      "To reduce dust buildup"
+    ],
+    "answer": 0,
+    "explanation": "Many woodworking machines produce harmful noise levels. Hearing protection helps prevent long-term hearing loss."
+  },
+  {
+    "id": 8,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What is the safest action if a fire extinguisher is blocked by materials?",
+    "options": [
+      "Move materials and keep access clear",
+      "Leave it if no fire exists",
+      "Cover it to protect from dust",
+      "Store tools in front of it"
+    ],
+    "answer": 0,
+    "explanation": "Emergency equipment must be visible and accessible. Blocked extinguishers delay emergency response. ## Task 2. Maintains Tools and Equipment"
+  },
+  {
+    "id": 9,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should cutting tools be kept sharp?",
+    "options": [
+      "They cut cleaner and require less force",
+      "They increase burning",
+      "They reduce accuracy",
+      "They make sanding unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Sharp tools are safer and more accurate. Dull tools require more force and can cause poor cuts."
+  },
+  {
+    "id": 10,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A router bit slips during use. What should be checked?",
+    "options": [
+      "Collet condition and bit seating",
+      "Finish colour",
+      "Glue open time",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "A dirty or worn collet may not grip properly. Bits must be seated and tightened correctly."
+  },
+  {
+    "id": 11,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should table saw blades be cleaned regularly?",
+    "options": [
+      "Resin buildup can cause heat and poor cuts",
+      "Cleaning changes tooth count",
+      "It makes the blade larger",
+      "It replaces sharpening"
+    ],
+    "answer": 0,
+    "explanation": "Pitch and resin increase friction. Cleaning improves cut quality and reduces burning."
+  },
+  {
+    "id": 12,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "What should be checked if a mitre saw repeatedly cuts inaccurate angles?",
+    "options": [
+      "Fence and angle calibration",
+      "Finish sheen",
+      "Glue spread",
+      "Drawer pull size"
+    ],
+    "answer": 0,
+    "explanation": "Repeated angle errors usually come from setup. The saw and fence must be calibrated."
+  },
+  {
+    "id": 13,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should pneumatic tools use clean, regulated air?",
+    "options": [
+      "To prevent damage and inconsistent firing",
+      "To increase dust",
+      "To make nails longer",
+      "To reduce tool control"
+    ],
+    "answer": 0,
+    "explanation": "Moisture, dirt, or incorrect pressure can damage pneumatic tools. Regulated air improves performance and safety."
+  },
+  {
+    "id": 14,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why are measuring tools checked for accuracy?",
+    "options": [
+      "Damaged tools can cause repeated layout errors",
+      "They improve finish curing",
+      "They replace drawings",
+      "They prevent wood movement"
+    ],
+    "answer": 0,
+    "explanation": "Cabinetmaking depends on accurate measurement. A damaged square or tape can affect many parts."
+  },
+  {
+    "id": 15,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "What maintenance is important for a spray gun after use?",
+    "options": [
+      "Clean fluid passages, tip, and air cap",
+      "Leave finish inside",
+      "Increase air pressure",
+      "Store it dirty"
+    ],
+    "answer": 0,
+    "explanation": "Finish can harden inside spray equipment. Cleaning prevents clogs and poor spray patterns."
+  },
+  {
+    "id": 16,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should machine tables be kept clean and smooth?",
+    "options": [
+      "To allow accurate and safe material movement",
+      "To increase friction randomly",
+      "To hide defects",
+      "To reduce measuring"
+    ],
+    "answer": 0,
+    "explanation": "Dirty or rough tables can affect feed control and accuracy. Clean surfaces also reduce damage to workpieces. ## Task 3. Organizes Work"
+  },
+  {
+    "id": 17,
+    "category": "Task 3. Organizes Work",
+    "question": "What is the purpose of reading drawings before starting work?",
+    "options": [
+      "To understand dimensions, materials, and details",
+      "To avoid measuring",
+      "To replace safety checks",
+      "To choose music in the shop"
+    ],
+    "answer": 0,
+    "explanation": "Drawings guide fabrication and assembly. Misreading drawings can cause incorrect parts."
+  },
+  {
+    "id": 18,
+    "category": "Task 3. Organizes Work",
+    "question": "What is a cut list used for?",
+    "options": [
+      "Listing part sizes, quantities, and materials",
+      "Selecting PPE only",
+      "Cleaning machines",
+      "Mixing finish"
+    ],
+    "answer": 0,
+    "explanation": "A cut list organizes production. It helps reduce waste and missing parts."
+  },
+  {
+    "id": 19,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should material defects be marked before cutting?",
+    "options": [
+      "To avoid using defects in visible or critical areas",
+      "To make defects stronger",
+      "To improve finish colour",
+      "To reduce measuring"
+    ],
+    "answer": 0,
+    "explanation": "Defect marking helps plan yield and quality. Visible parts should use suitable material."
+  },
+  {
+    "id": 20,
+    "category": "Task 3. Organizes Work",
+    "question": "What should be confirmed before ordering cabinet hardware?",
+    "options": [
+      "Size, function, finish, and load requirements",
+      "Dust collector colour",
+      "Sandpaper brand",
+      "Shop temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Hardware must match the design and use. Wrong hardware can cause fit or performance problems."
+  },
+  {
+    "id": 21,
+    "category": "Task 3. Organizes Work",
+    "question": "Why is work sequencing important?",
+    "options": [
+      "It prevents rework and damage",
+      "It eliminates inspection",
+      "It makes parts random",
+      "It replaces drawings"
+    ],
+    "answer": 0,
+    "explanation": "Some steps must happen before others. Poor sequencing can damage finished parts or slow production."
+  },
+  {
+    "id": 22,
+    "category": "Task 3. Organizes Work",
+    "question": "A shop drawing and site measurement do not match. What should be done?",
+    "options": [
+      "Clarify before cutting",
+      "Use the smaller number",
+      "Guess from experience",
+      "Cut all parts oversized"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting information must be resolved. Cutting before clarification can waste material."
+  },
+  {
+    "id": 23,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should similar parts be grouped during production?",
+    "options": [
+      "To improve efficiency and consistency",
+      "To increase setup changes",
+      "To confuse assembly",
+      "To reduce accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Batch processing reduces repeated setup. It also helps matching parts stay consistent."
+  },
+  {
+    "id": 24,
+    "category": "Task 3. Organizes Work",
+    "question": "What should be done when a drawing revision is issued?",
+    "options": [
+      "Use the latest approved revision",
+      "Keep using the old drawing",
+      "Mix both revisions",
+      "Ignore revision notes"
+    ],
+    "answer": 0,
+    "explanation": "Revisions may change critical details. The latest approved version controls the work. ## Task 4. Performs Routine Work Practices"
+  },
+  {
+    "id": 25,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should parts be labelled during fabrication?",
+    "options": [
+      "To maintain order, orientation, and location",
+      "To replace glue",
+      "To hide defects",
+      "To avoid sanding"
+    ],
+    "answer": 0,
+    "explanation": "Many parts look similar. Labels prevent wrong assembly and orientation errors."
+  },
+  {
+    "id": 26,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "How should sheet goods be stored to reduce warping?",
+    "options": [
+      "Flat or properly supported in stable conditions",
+      "Leaning unsupported against a damp wall",
+      "Outside in direct rain",
+      "On uneven blocks only"
+    ],
+    "answer": 0,
+    "explanation": "Poor support or moisture can warp panels. Stable storage protects material quality."
+  },
+  {
+    "id": 27,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should adhesives be used within open time?",
+    "options": [
+      "Bond strength may fail if open time is exceeded",
+      "Glue becomes stronger forever",
+      "Clamps are no longer needed",
+      "Wood movement stops"
+    ],
+    "answer": 0,
+    "explanation": "Adhesive must still be active when joined. Late assembly can create weak joints."
+  },
+  {
+    "id": 28,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What should be done before applying glue to a joint?",
+    "options": [
+      "Ensure surfaces are clean and fit properly",
+      "Wet the joint with dust",
+      "Apply finish first",
+      "Leave gaps for glue"
+    ],
+    "answer": 0,
+    "explanation": "Good bonds require clean, close-fitting surfaces. Glue cannot fix poor joint preparation."
+  },
+  {
+    "id": 29,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should finished parts be handled with clean hands or gloves?",
+    "options": [
+      "To prevent contamination and marks",
+      "To increase glue squeeze-out",
+      "To reduce finish quality",
+      "To make sanding harder"
+    ],
+    "answer": 0,
+    "explanation": "Oils and dirt can mark finished surfaces. Clean handling helps protect the product."
+  },
+  {
+    "id": 30,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What is the proper response to damaged material found before production?",
+    "options": [
+      "Report, mark, or plan use only where acceptable",
+      "Use it in visible areas",
+      "Ignore it",
+      "Finish it first"
+    ],
+    "answer": 0,
+    "explanation": "Damaged material may not meet specifications. It must be controlled before cutting."
+  },
+  {
+    "id": 31,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should tools be returned to proper storage after use?",
+    "options": [
+      "To prevent damage, loss, and unsafe conditions",
+      "To reduce tool life",
+      "To make work slower",
+      "To hide tools from others"
+    ],
+    "answer": 0,
+    "explanation": "Organized tool storage improves safety and efficiency. It also protects tools from damage."
+  },
+  {
+    "id": 32,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should glue squeeze-out be cleaned before finishing?",
+    "options": [
+      "It can block stain or finish absorption",
+      "It improves stain colour",
+      "It replaces sanding",
+      "It makes joints invisible"
+    ],
+    "answer": 0,
+    "explanation": "Dried glue can leave light spots. Cleanup prevents finish defects. ## Task 5. Uses Communication and Mentoring Techniques"
+  },
+  {
+    "id": 33,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What should a cabinetmaker do if instructions are unclear?",
+    "options": [
+      "Ask for clarification",
+      "Guess the meaning",
+      "Ignore the unclear detail",
+      "Use any method"
+    ],
+    "answer": 0,
+    "explanation": "Clarification prevents mistakes. Communication is part of quality work."
+  },
+  {
+    "id": 34,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why is it important to document client-approved changes?",
+    "options": [
+      "To avoid disputes and control scope",
+      "To make work slower only",
+      "To eliminate drawings",
+      "To increase confusion"
+    ],
+    "answer": 0,
+    "explanation": "Changes can affect cost, design, and schedule. Documentation protects the client and shop."
+  },
+  {
+    "id": 35,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What is the best way to correct an apprentice’s unsafe tool use?",
+    "options": [
+      "Stop the task, explain, and demonstrate correct method",
+      "Wait until the job is done",
+      "Ignore it if no injury occurs",
+      "Tell them to work faster"
+    ],
+    "answer": 0,
+    "explanation": "Unsafe habits should be corrected immediately. Demonstration helps the apprentice learn safely."
+  },
+  {
+    "id": 36,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should feedback to an apprentice be specific?",
+    "options": [
+      "It helps correct the exact behaviour or technique",
+      "It makes drawings unnecessary",
+      "It replaces supervision",
+      "It avoids training"
+    ],
+    "answer": 0,
+    "explanation": "Specific feedback is easier to act on. General criticism does not teach the correct method."
+  },
+  {
+    "id": 37,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker notices another person has misunderstood a drawing. What should be done?",
+    "options": [
+      "Discuss and correct the issue before cutting",
+      "Let them continue",
+      "Hide the mistake",
+      "Change the drawing secretly"
+    ],
+    "answer": 0,
+    "explanation": "Early communication prevents waste and rework. Drawing errors should be corrected before production continues."
+  },
+  {
+    "id": 38,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why are clear verbal instructions important in a shop?",
+    "options": [
+      "They reduce errors and improve safety",
+      "They replace PPE",
+      "They eliminate quality checks",
+      "They make tools sharper"
+    ],
+    "answer": 0,
+    "explanation": "Clear communication helps workers understand expectations. It supports safety and efficiency."
+  },
+  {
+    "id": 39,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What should be included when handing off work to another worker?",
+    "options": [
+      "Status, concerns, drawings, and next steps",
+      "Only the tool brand",
+      "Only the finish colour",
+      "Nothing if the parts are labelled"
+    ],
+    "answer": 0,
+    "explanation": "A proper handoff prevents missed details. It keeps the next worker informed."
+  },
+  {
+    "id": 40,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What is the purpose of mentoring in the trade?",
+    "options": [
+      "To build skill, safety, and trade knowledge",
+      "To avoid training",
+      "To replace supervision entirely",
+      "To make apprentices work alone"
+    ],
+    "answer": 0,
+    "explanation": "Mentoring develops practical skill and safe habits. It supports long-term trade competency. ## Mixed Exam-Style Review"
+  },
+  {
+    "id": 41,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker uses a dull chisel because it “feels safer.” What is correct?",
+    "options": [
+      "A sharp chisel is safer and easier to control",
+      "Dull tools are always safer",
+      "Sharp tools are only for finishing",
+      "Chisels do not need maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Dull tools require more force and can slip. Sharp tools cut predictably."
+  },
+  {
+    "id": 42,
+    "category": "Mixed Exam-Style Review",
+    "question": "A cabinetmaker starts cutting before checking material thickness. What may happen?",
+    "options": [
+      "Joinery may not fit correctly",
+      "Finish improves",
+      "Tools become sharper",
+      "Dust decreases"
+    ],
+    "answer": 0,
+    "explanation": "Actual material thickness can differ from nominal size. Joinery must match real material."
+  },
+  {
+    "id": 43,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should PPE be selected for the specific task?",
+    "options": [
+      "Different tasks create different hazards",
+      "One PPE item covers all risks",
+      "PPE is only for inspectors",
+      "PPE replaces machine guards"
+    ],
+    "answer": 0,
+    "explanation": "Cutting, sanding, and finishing create different risks. PPE must match the hazard."
+  },
+  {
+    "id": 44,
+    "category": "Mixed Exam-Style Review",
+    "question": "What is the best reason to keep walkways clear in the shop?",
+    "options": [
+      "To prevent trips and allow safe movement",
+      "To store extra materials",
+      "To hide scrap",
+      "To block dust flow"
+    ],
+    "answer": 0,
+    "explanation": "Cluttered walkways cause trips and slow emergency response. Good housekeeping is a safety practice."
+  },
+  {
+    "id": 45,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker finds a missing part during assembly. What should be checked first?",
+    "options": [
+      "Cut list and labelled parts",
+      "Finish sample",
+      "Tool storage",
+      "Dust collector"
+    ],
+    "answer": 0,
+    "explanation": "The cut list and labels help track parts. They show whether the part was cut, misplaced, or omitted."
+  },
+  {
+    "id": 46,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should shop waste be managed properly?",
+    "options": [
+      "To reduce fire hazards and keep work areas safe",
+      "To increase dust",
+      "To hide defects",
+      "To slow production"
+    ],
+    "answer": 0,
+    "explanation": "Scrap and dust increase hazards. Regular cleanup supports safety and efficiency."
+  },
+  {
+    "id": 47,
+    "category": "Mixed Exam-Style Review",
+    "question": "What should be done if a machine makes an unusual noise?",
+    "options": [
+      "Stop and investigate before continuing",
+      "Continue until it fails",
+      "Increase feed speed",
+      "Ignore it if the cut is good"
+    ],
+    "answer": 0,
+    "explanation": "Unusual noise may indicate mechanical problems or unsafe conditions. It should be checked before use continues."
+  },
+  {
+    "id": 48,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should finish products be checked before use?",
+    "options": [
+      "To confirm type, compatibility, and condition",
+      "To change cabinet size",
+      "To reduce sanding accuracy",
+      "To eliminate ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Wrong or contaminated finish can cause defects. Product compatibility matters."
+  },
+  {
+    "id": 49,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should workers report near-miss incidents?",
+    "options": [
+      "To prevent future accidents",
+      "To blame someone",
+      "To slow production only",
+      "To avoid safety meetings"
+    ],
+    "answer": 0,
+    "explanation": "Near misses show hazards before injuries occur. Reporting helps improve safety controls."
+  },
+  {
+    "id": 50,
+    "category": "Mixed Exam-Style Review",
+    "question": "What is the best practice before starting unfamiliar equipment?",
+    "options": [
+      "Get instruction and review safe operation",
+      "Try it slowly without training",
+      "Remove guards for visibility",
+      "Ask someone to watch from far away"
+    ],
+    "answer": 0,
+    "explanation": "Unfamiliar equipment requires training. Safe operation prevents injury and damage."
+  },
+  {
+    "id": 51,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What should be done before servicing any powered woodworking machine?",
+    "options": [
+      "Lock out and isolate energy",
+      "Turn off shop lights",
+      "Remove the fence only",
+      "Sweep the floor first"
+    ],
+    "answer": 0,
+    "explanation": "Lockout prevents accidental startup. Machines may still be dangerous if only the switch is turned off."
+  },
+  {
+    "id": 52,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What is the main purpose of machine guarding?",
+    "options": [
+      "To protect workers from moving parts and cutting tools",
+      "To make machines louder",
+      "To replace training",
+      "To improve stain colour"
+    ],
+    "answer": 0,
+    "explanation": "Guards reduce contact with blades, cutters, and pinch points. They are an important safety control."
+  },
+  {
+    "id": 53,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should dust collection be used during sanding and machining?",
+    "options": [
+      "To reduce airborne dust and fire risk",
+      "To increase dust buildup",
+      "To replace respirators completely",
+      "To make tools dull faster"
+    ],
+    "answer": 0,
+    "explanation": "Wood dust affects breathing and can be combustible. Dust collection improves safety and visibility."
+  },
+  {
+    "id": 54,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker sees sparks near solvent containers. What should be done first?",
+    "options": [
+      "Remove ignition hazard and report immediately",
+      "Continue working carefully",
+      "Cover the containers with sawdust",
+      "Open more finish cans"
+    ],
+    "answer": 0,
+    "explanation": "Solvent vapours can ignite easily. Ignition sources must be controlled immediately."
+  },
+  {
+    "id": 55,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should PPE not be used as the only safety control?",
+    "options": [
+      "Hazards should be controlled at the source when possible",
+      "PPE makes all machines safe",
+      "PPE replaces guards",
+      "PPE eliminates training"
+    ],
+    "answer": 0,
+    "explanation": "PPE is important but should not replace guarding, ventilation, and safe procedures. Hazards should be reduced before relying only on PPE."
+  },
+  {
+    "id": 56,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What is the safest response to a blocked emergency exit?",
+    "options": [
+      "Clear the exit immediately",
+      "Leave it until cleanup time",
+      "Use it only if needed",
+      "Mark it with tape only"
+    ],
+    "answer": 0,
+    "explanation": "Emergency exits must remain accessible. Blocked exits slow evacuation and increase risk."
+  },
+  {
+    "id": 57,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should loose clothing and jewellery be avoided around machinery?",
+    "options": [
+      "They can be caught in moving parts",
+      "They improve grip",
+      "They reduce dust exposure",
+      "They protect against cuts"
+    ],
+    "answer": 0,
+    "explanation": "Loose items can catch in rotating cutters or shafts. This can pull the worker into the machine."
+  },
+  {
+    "id": 58,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What should be done if a worker is unsure how to use a machine safely?",
+    "options": [
+      "Get instruction before using it",
+      "Use it slowly without training",
+      "Watch another worker from a distance",
+      "Remove guards for better visibility"
+    ],
+    "answer": 0,
+    "explanation": "Proper training is required before machine use. Guessing creates risk of injury and damage."
+  },
+  {
+    "id": 59,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "What is a sign that a saw blade needs maintenance or replacement?",
+    "options": [
+      "Burning, rough cuts, or increased feed effort",
+      "Cleaner cuts",
+      "Less heat",
+      "Easier feeding"
+    ],
+    "answer": 0,
+    "explanation": "Dull or dirty blades create heat and poor cut quality. They also require more force, increasing risk."
+  },
+  {
+    "id": 60,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should router collets be inspected regularly?",
+    "options": [
+      "Worn collets can cause bit slipping or runout",
+      "They control finish sheen",
+      "They replace bearings",
+      "They prevent all kickback"
+    ],
+    "answer": 0,
+    "explanation": "Collets hold router bits securely. Wear or dirt can affect safety and accuracy."
+  },
+  {
+    "id": 61,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "What should be checked if a drill press depth varies between repeated holes?",
+    "options": [
+      "Depth stop and workpiece seating",
+      "Finish compatibility",
+      "Glue colour",
+      "Dust collector bag"
+    ],
+    "answer": 0,
+    "explanation": "Repeated depth depends on the stop and consistent work support. Chips or poor seating can change depth."
+  },
+  {
+    "id": 62,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should clamps be kept clean and in good condition?",
+    "options": [
+      "To apply even pressure without damaging work",
+      "To increase glue open time",
+      "To make joints loose",
+      "To replace cauls"
+    ],
+    "answer": 0,
+    "explanation": "Dirty or damaged clamps can mark parts or apply uneven pressure. Good clamps improve assembly quality."
+  },
+  {
+    "id": 63,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should spray equipment seals and tips be maintained?",
+    "options": [
+      "To keep spray pattern and fluid flow consistent",
+      "To increase overspray",
+      "To make finish thicker",
+      "To reduce ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Worn seals or tips can cause leaks and poor atomization. Maintenance improves finish quality and safety."
+  },
+  {
+    "id": 64,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A table saw fence does not lock securely. What should be done?",
+    "options": [
+      "Remove machine from use until corrected",
+      "Hold the fence by hand",
+      "Use it only for short cuts",
+      "Push the board harder"
+    ],
+    "answer": 0,
+    "explanation": "A loose fence can cause inaccurate cuts or kickback. It must be repaired before use."
+  },
+  {
+    "id": 65,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should hand tools be sharpened correctly?",
+    "options": [
+      "To improve control, safety, and cut quality",
+      "To make them more dangerous only",
+      "To reduce accuracy",
+      "To increase sanding time"
+    ],
+    "answer": 0,
+    "explanation": "Sharp tools cut predictably with less force. Dull tools are more likely to slip."
+  },
+  {
+    "id": 66,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should machine manuals or manufacturer instructions be followed?",
+    "options": [
+      "They provide correct setup, maintenance, and safety procedures",
+      "They replace PPE",
+      "They reduce need for training",
+      "They are only for new machines"
+    ],
+    "answer": 0,
+    "explanation": "Manufacturer instructions give proper operating limits and maintenance steps. Ignoring them can cause unsafe use or damage."
+  },
+  {
+    "id": 67,
+    "category": "Task 3. Organizes Work",
+    "question": "What information is usually found on a shop drawing?",
+    "options": [
+      "Dimensions, materials, details, and construction requirements",
+      "Employee schedule only",
+      "Lunch break times",
+      "Tool purchase cost"
+    ],
+    "answer": 0,
+    "explanation": "Shop drawings guide fabrication and installation. They show how the product must be built."
+  },
+  {
+    "id": 68,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should actual material thickness be checked before machining joinery?",
+    "options": [
+      "Nominal and actual thickness may differ",
+      "Thickness never changes",
+      "It improves finish smell",
+      "It removes need for drawings"
+    ],
+    "answer": 0,
+    "explanation": "Joinery must fit the real material. Sheet goods and lumber may not match nominal dimensions."
+  },
+  {
+    "id": 69,
+    "category": "Task 3. Organizes Work",
+    "question": "What is the main purpose of a material takeoff?",
+    "options": [
+      "To determine required materials and quantities",
+      "To sand finished parts",
+      "To replace safety checks",
+      "To install hardware"
+    ],
+    "answer": 0,
+    "explanation": "A takeoff helps order and organize materials. It reduces shortages and waste."
+  },
+  {
+    "id": 70,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should hardware specifications be reviewed before fabrication?",
+    "options": [
+      "Hardware may affect hole locations, clearances, and construction",
+      "Hardware never affects cabinets",
+      "It replaces assembly",
+      "It changes wood species"
+    ],
+    "answer": 0,
+    "explanation": "Hinges, slides, and pulls require specific boring and clearance. Fabrication must account for them."
+  },
+  {
+    "id": 71,
+    "category": "Task 3. Organizes Work",
+    "question": "A cabinetmaker starts production using an unapproved drawing. What is the risk?",
+    "options": [
+      "Work may not meet current requirements",
+      "The job becomes faster with no risk",
+      "Finish improves",
+      "Material becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Unapproved drawings may contain outdated or incorrect details. Only approved documents should control work."
+  },
+  {
+    "id": 72,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should a job be broken into logical work stages?",
+    "options": [
+      "To improve workflow and reduce mistakes",
+      "To make work random",
+      "To avoid inspection",
+      "To increase material handling"
+    ],
+    "answer": 0,
+    "explanation": "Staging organizes machining, assembly, finishing, and installation. It improves efficiency and quality."
+  },
+  {
+    "id": 73,
+    "category": "Task 3. Organizes Work",
+    "question": "What is the purpose of checking site conditions before fabrication?",
+    "options": [
+      "To confirm fit and identify obstructions",
+      "To avoid drawings",
+      "To choose sandpaper only",
+      "To reduce material quality"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions may differ from drawings. Checking them prevents fit problems and rework."
+  },
+  {
+    "id": 74,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should long-lead items be identified early?",
+    "options": [
+      "To prevent schedule delays",
+      "To reduce quality checks",
+      "To avoid ordering materials",
+      "To make hardware optional"
+    ],
+    "answer": 0,
+    "explanation": "Some materials and hardware take time to arrive. Early planning keeps the project on schedule."
+  },
+  {
+    "id": 75,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should workpieces be acclimatized before machining or installation?",
+    "options": [
+      "To reduce movement caused by moisture differences",
+      "To change the wood species",
+      "To make glue unnecessary",
+      "To eliminate sanding"
+    ],
+    "answer": 0,
+    "explanation": "Wood and panels respond to humidity. Acclimatization helps reduce warping or gaps later."
+  },
+  {
+    "id": 76,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should parts be stacked with support across their length?",
+    "options": [
+      "To prevent bowing or distortion",
+      "To make them dry unevenly",
+      "To increase scratches",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported parts can sag or bow. Proper stacking protects accuracy."
+  },
+  {
+    "id": 77,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What should be done when using two-part adhesives?",
+    "options": [
+      "Measure and mix according to instructions",
+      "Mix by eye",
+      "Add extra hardener always",
+      "Use after any amount of time"
+    ],
+    "answer": 0,
+    "explanation": "Two-part adhesives depend on correct ratio. Wrong mixing can cause weak or uncured joints."
+  },
+  {
+    "id": 78,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should finished surfaces be protected during assembly?",
+    "options": [
+      "To prevent scratches, dents, and contamination",
+      "To hide defects",
+      "To increase clamp marks",
+      "To reduce quality"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces are easy to damage. Pads, clean benches, and careful handling protect them."
+  },
+  {
+    "id": 79,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why is good housekeeping important in a cabinet shop?",
+    "options": [
+      "It reduces trip, fire, and dust hazards",
+      "It replaces machine guarding",
+      "It makes tools sharper",
+      "It eliminates PPE"
+    ],
+    "answer": 0,
+    "explanation": "Scrap and dust create hazards. Clean work areas support safety and efficiency."
+  },
+  {
+    "id": 80,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What should be done with oily rags used for finishing?",
+    "options": [
+      "Store or dispose of them according to safety procedure",
+      "Leave them in a pile",
+      "Put them near heaters",
+      "Store them with sawdust"
+    ],
+    "answer": 0,
+    "explanation": "Some oily rags can self-heat and ignite. Proper disposal prevents fires."
+  },
+  {
+    "id": 81,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should parts be checked before moving to the next production stage?",
+    "options": [
+      "To catch errors before they multiply",
+      "To slow work only",
+      "To avoid labels",
+      "To eliminate drawings"
+    ],
+    "answer": 0,
+    "explanation": "Early inspection prevents defects from carrying forward. It reduces wasted labour and materials."
+  },
+  {
+    "id": 82,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What is the purpose of using protective packaging for completed work?",
+    "options": [
+      "To prevent damage during storage and transport",
+      "To hide problems",
+      "To replace final inspection",
+      "To make products heavier"
+    ],
+    "answer": 0,
+    "explanation": "Completed products are vulnerable to scratches and dents. Packaging protects them until installation."
+  },
+  {
+    "id": 83,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What should be done when giving instructions to an apprentice?",
+    "options": [
+      "Explain the task, hazards, expected result, and check understanding",
+      "Give only a tool name",
+      "Avoid explaining hazards",
+      "Let them guess the process"
+    ],
+    "answer": 0,
+    "explanation": "Good instructions include safety and quality expectations. Confirming understanding helps prevent mistakes."
+  },
+  {
+    "id": 84,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why is it important to report damaged tools?",
+    "options": [
+      "Others may be injured or produce poor work",
+      "It makes tools disappear",
+      "It slows all work permanently",
+      "It replaces maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Damaged tools create safety and quality risks. Reporting ensures they are repaired or removed."
+  },
+  {
+    "id": 85,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker discovers an error made earlier in production. What should be done?",
+    "options": [
+      "Report it and correct the process",
+      "Hide the error",
+      "Continue and hope it fits",
+      "Blame another worker only"
+    ],
+    "answer": 0,
+    "explanation": "Early reporting reduces waste and prevents repeated mistakes. Correcting the process protects quality."
+  },
+  {
+    "id": 86,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should written information be used for important job changes?",
+    "options": [
+      "It creates a clear record of the change",
+      "It makes drawings unnecessary",
+      "It avoids communication",
+      "It prevents all mistakes automatically"
+    ],
+    "answer": 0,
+    "explanation": "Written records prevent confusion about scope, cost, and responsibility. They are important for job control."
+  },
+  {
+    "id": 87,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What is the best response when an apprentice makes a repeated layout error?",
+    "options": [
+      "Review the method and supervise the next attempt",
+      "Ignore the issue",
+      "Take away all tools permanently",
+      "Tell them only to work faster"
+    ],
+    "answer": 0,
+    "explanation": "Repeated errors show a training need. Demonstration and supervision help correct the habit."
+  },
+  {
+    "id": 88,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should workers communicate hazards found in the shop?",
+    "options": [
+      "To prevent injury to others",
+      "To make work slower only",
+      "To avoid cleanup",
+      "To replace safety equipment"
+    ],
+    "answer": 0,
+    "explanation": "Shared hazards can affect anyone in the shop. Reporting helps control risk."
+  },
+  {
+    "id": 89,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What should be included in a clear work handoff?",
+    "options": [
+      "Work status, issues, documents, and next steps",
+      "Only the worker’s opinion",
+      "Nothing if the job is simple",
+      "Only the material colour"
+    ],
+    "answer": 0,
+    "explanation": "A clear handoff prevents missed information. It helps the next worker continue accurately."
+  },
+  {
+    "id": 90,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should mentoring include safe work habits, not only speed?",
+    "options": [
+      "Unsafe speed can lead to injury and poor quality",
+      "Speed is the only trade skill",
+      "Safety slows learning completely",
+      "Quality does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Competent trade work combines safety, quality, and efficiency. Speed without safety is unacceptable."
+  },
+  {
+    "id": 91,
+    "category": "Mixed Most Important Review",
+    "question": "A worker notices a strong burning smell from a machine motor. What should be done?",
+    "options": [
+      "Stop the machine and report it",
+      "Continue until the task is done",
+      "Feed material faster",
+      "Cover the motor"
+    ],
+    "answer": 0,
+    "explanation": "Burning smells may indicate electrical or mechanical failure. Continuing can cause fire or damage."
+  },
+  {
+    "id": 92,
+    "category": "Mixed Most Important Review",
+    "question": "Why should blades and cutters be matched to the material?",
+    "options": [
+      "Different materials require different cutting geometry",
+      "All cutters work the same",
+      "Material does not affect cutting",
+      "Cutter choice only affects colour"
+    ],
+    "answer": 0,
+    "explanation": "Hardwood, MDF, plywood, and laminate cut differently. Proper tooling improves safety and quality."
+  },
+  {
+    "id": 93,
+    "category": "Mixed Most Important Review",
+    "question": "What is the best reason to review installation requirements before fabrication?",
+    "options": [
+      "Fabrication details may depend on site fastening and clearances",
+      "Installation never affects shop work",
+      "It replaces material ordering",
+      "It removes need for labels"
+    ],
+    "answer": 0,
+    "explanation": "Installation method can affect cabinet construction, blocking, fillers, and hardware. Planning avoids site problems."
+  },
+  {
+    "id": 94,
+    "category": "Mixed Most Important Review",
+    "question": "A worker uses the wrong revision of a drawing and cuts parts incorrectly. What process failed?",
+    "options": [
+      "Document control",
+      "Tool sharpening",
+      "Finish testing",
+      "Packaging"
+    ],
+    "answer": 0,
+    "explanation": "Document control ensures workers use current information. Old drawings can cause incorrect work."
+  },
+  {
+    "id": 95,
+    "category": "Mixed Most Important Review",
+    "question": "Why should high-value materials be inspected before cutting?",
+    "options": [
+      "To confirm quality and plan yield",
+      "To reduce care",
+      "To make defects visible later",
+      "To increase waste"
+    ],
+    "answer": 0,
+    "explanation": "Expensive material should be checked for defects and grain. Good planning improves quality and reduces waste."
+  },
+  {
+    "id": 96,
+    "category": "Mixed Most Important Review",
+    "question": "A shop floor has cords across the main walkway. What hazard is present?",
+    "options": [
+      "Trip hazard",
+      "Finish defect",
+      "Glue failure",
+      "Tool dulling"
+    ],
+    "answer": 0,
+    "explanation": "Cords in walkways can cause falls. They should be routed safely or removed."
+  },
+  {
+    "id": 97,
+    "category": "Mixed Most Important Review",
+    "question": "What is the best response to a near miss involving kickback?",
+    "options": [
+      "Report and review the cause",
+      "Ignore it because no one was hurt",
+      "Remove the riving knife",
+      "Work faster next time"
+    ],
+    "answer": 0,
+    "explanation": "Near misses reveal hazards before injuries occur. Reviewing the cause helps prevent accidents."
+  },
+  {
+    "id": 98,
+    "category": "Mixed Most Important Review",
+    "question": "Why should material be kept organized by job?",
+    "options": [
+      "To prevent mix-ups between projects",
+      "To increase confusion",
+      "To make defects harder to see",
+      "To reduce tracking"
+    ],
+    "answer": 0,
+    "explanation": "Similar materials may belong to different jobs. Organization prevents wrong material use."
+  },
+  {
+    "id": 99,
+    "category": "Mixed Most Important Review",
+    "question": "What should be checked before using a ladder or platform in a shop or site?",
+    "options": [
+      "Condition, stability, and correct setup",
+      "Finish colour",
+      "Glue spread",
+      "Drawer adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Work platforms must be stable and undamaged. Poor setup creates fall hazards."
+  },
+  {
+    "id": 100,
+    "category": "Mixed Most Important Review",
+    "question": "Why should workers understand WHMIS/SDS information for finishes and adhesives?",
+    "options": [
+      "To know hazards, PPE, handling, and emergency procedures",
+      "To choose cabinet hardware",
+      "To replace ventilation",
+      "To avoid reading labels"
+    ],
+    "answer": 0,
+    "explanation": "Safety data explains chemical hazards and safe handling. It supports proper storage, PPE, and emergency response."
+  },
+  {
+    "id": 101,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker is about to use a jointer with a loose guard. What is the correct action?",
+    "options": [
+      "Repair or report before use",
+      "Hold the guard by hand",
+      "Use the machine slowly",
+      "Remove the guard completely"
+    ],
+    "answer": 0,
+    "explanation": "A loose guard may not protect the operator properly. The machine should not be used until the guard works correctly."
+  },
+  {
+    "id": 102,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should compressed air not be used to clean dust from clothing?",
+    "options": [
+      "It can drive dust into skin or eyes",
+      "It makes clothing cleaner safely",
+      "It sharpens tools",
+      "It reduces noise"
+    ],
+    "answer": 0,
+    "explanation": "Compressed air can force dust and particles into the body. Vacuuming or proper cleaning methods are safer."
+  },
+  {
+    "id": 103,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What is the main hazard of using solvents near open flames?",
+    "options": [
+      "Fire or explosion",
+      "Slower drying",
+      "Poor sanding",
+      "Weak drawer slides"
+    ],
+    "answer": 0,
+    "explanation": "Many solvents release flammable vapours. Ignition sources must be kept away from finishing products."
+  },
+  {
+    "id": 104,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker is sanding overhead. What PPE is especially important?",
+    "options": [
+      "Eye and respiratory protection",
+      "Knee pads only",
+      "Cotton gloves only",
+      "Steel ruler"
+    ],
+    "answer": 0,
+    "explanation": "Dust falls toward the face during overhead sanding. Eye and respiratory protection reduce exposure."
+  },
+  {
+    "id": 105,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "What should be done if a machine starts unexpectedly during setup?",
+    "options": [
+      "Stop, report, and investigate before reuse",
+      "Continue using it carefully",
+      "Hold the switch down",
+      "Remove the warning label"
+    ],
+    "answer": 0,
+    "explanation": "Unexpected startup indicates a serious safety issue. The machine must be checked before work continues."
+  },
+  {
+    "id": 106,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why is good ventilation important in finishing areas?",
+    "options": [
+      "It controls vapours and overspray",
+      "It makes wood thicker",
+      "It replaces respirators completely",
+      "It increases dust buildup"
+    ],
+    "answer": 0,
+    "explanation": "Finishing products can release harmful vapours. Ventilation improves worker safety and finish quality."
+  },
+  {
+    "id": 107,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker spills finish thinner on the floor. What should be done first?",
+    "options": [
+      "Control ignition sources and clean according to procedure",
+      "Cover it with sawdust and keep working",
+      "Leave it to evaporate",
+      "Spray more thinner over it"
+    ],
+    "answer": 0,
+    "explanation": "Spilled solvents can be flammable and slippery. Cleanup must follow shop safety procedure."
+  },
+  {
+    "id": 108,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Why should long hair be tied back around machinery?",
+    "options": [
+      "It can be caught in moving parts",
+      "It improves hearing protection",
+      "It reduces finish odour",
+      "It helps sanding"
+    ],
+    "answer": 0,
+    "explanation": "Loose hair can be pulled into rotating tools. It must be secured before machine operation."
+  },
+  {
+    "id": 109,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A hand plane leaves torn grain even after adjustment. What should be checked?",
+    "options": [
+      "Blade sharpness and cutting angle",
+      "Glue open time",
+      "Cabinet height",
+      "Finish colour"
+    ],
+    "answer": 0,
+    "explanation": "Torn grain can result from dull blades or poor setup. Sharp tools and proper cutting angle improve the surface."
+  },
+  {
+    "id": 110,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should bearings on router bits be inspected?",
+    "options": [
+      "Worn bearings can affect cut accuracy and safety",
+      "Bearings control stain colour",
+      "Bearings replace fences",
+      "Bearings stop all tear-out"
+    ],
+    "answer": 0,
+    "explanation": "A bad bearing can wobble, seize, or damage the workpiece. It can also create unsafe cutting conditions."
+  },
+  {
+    "id": 111,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A clamp jaw is dirty with dried glue. What problem can result?",
+    "options": [
+      "It can mark or misalign the workpiece",
+      "It increases finish quality",
+      "It improves pressure",
+      "It makes glue dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Dried glue on clamps can dent or contaminate surfaces. Clean clamps improve assembly quality."
+  },
+  {
+    "id": 112,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should extension cords be inspected before use?",
+    "options": [
+      "Damaged cords can cause shock or fire",
+      "They improve tool sharpness",
+      "They replace grounding",
+      "They reduce dust"
+    ],
+    "answer": 0,
+    "explanation": "Cuts, exposed wire, or damaged plugs are electrical hazards. Unsafe cords should be removed from service."
+  },
+  {
+    "id": 113,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A spray gun leaks around the needle packing. What should be done?",
+    "options": [
+      "Clean, adjust, or replace packing as required",
+      "Increase pressure only",
+      "Ignore the leak",
+      "Thin the finish more"
+    ],
+    "answer": 0,
+    "explanation": "Leaks affect control and can create finishing defects. Worn packing should be serviced."
+  },
+  {
+    "id": 114,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "What should be checked if a table saw blade leaves a rough cut on one side only?",
+    "options": [
+      "Blade condition, alignment, or runout",
+      "Glue type",
+      "Finish sheen",
+      "Shelf-pin size"
+    ],
+    "answer": 0,
+    "explanation": "Uneven cut quality can come from blade damage or misalignment. The blade and arbor should be inspected."
+  },
+  {
+    "id": 115,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "Why should jigs and templates be stored flat and dry?",
+    "options": [
+      "To prevent warping and accuracy loss",
+      "To increase moisture absorption",
+      "To make them flexible",
+      "To reduce repeatability"
+    ],
+    "answer": 0,
+    "explanation": "Jigs must stay accurate. Moisture or poor storage can distort them and create repeated errors."
+  },
+  {
+    "id": 116,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A pneumatic hose leaks air at a fitting. What should be done?",
+    "options": [
+      "Repair or replace the fitting",
+      "Increase air pressure",
+      "Tape it temporarily and ignore it",
+      "Use a larger nail"
+    ],
+    "answer": 0,
+    "explanation": "Air leaks reduce tool performance and waste energy. Damaged fittings can also fail suddenly."
+  },
+  {
+    "id": 117,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should grain direction be considered when planning visible parts?",
+    "options": [
+      "It affects appearance and consistency",
+      "It changes glue colour",
+      "It replaces hardware",
+      "It stops all movement"
+    ],
+    "answer": 0,
+    "explanation": "Grain direction is part of the finished look. Poor planning can make a project appear mismatched."
+  },
+  {
+    "id": 118,
+    "category": "Task 3. Organizes Work",
+    "question": "A job requires special-order hinges. What should be done early?",
+    "options": [
+      "Confirm availability and lead time",
+      "Wait until final assembly",
+      "Order random hinges",
+      "Drill hinge holes first"
+    ],
+    "answer": 0,
+    "explanation": "Special hardware can delay production. Confirming early helps protect the schedule."
+  },
+  {
+    "id": 119,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should material yield be planned before cutting sheet goods?",
+    "options": [
+      "To reduce waste and avoid shortage",
+      "To increase offcuts",
+      "To make parts random",
+      "To avoid labels"
+    ],
+    "answer": 0,
+    "explanation": "Sheet layout affects cost and efficiency. Planning helps avoid wasting expensive material."
+  },
+  {
+    "id": 120,
+    "category": "Task 3. Organizes Work",
+    "question": "What is the purpose of checking hardware templates before drilling?",
+    "options": [
+      "To confirm hole spacing and reference edges",
+      "To choose finish colour",
+      "To reduce glue time",
+      "To increase dust"
+    ],
+    "answer": 0,
+    "explanation": "Hardware holes must match the actual hardware. Wrong references can ruin finished parts."
+  },
+  {
+    "id": 121,
+    "category": "Task 3. Organizes Work",
+    "question": "A cabinetmaker receives material with a different core than specified. What should be done?",
+    "options": [
+      "Confirm acceptability before use",
+      "Use it anywhere",
+      "Cut it into visible parts",
+      "Ignore the difference"
+    ],
+    "answer": 0,
+    "explanation": "Core type affects strength, machining, and finish quality. Substitutions need approval."
+  },
+  {
+    "id": 122,
+    "category": "Task 3. Organizes Work",
+    "question": "Why should installation access be considered during shop planning?",
+    "options": [
+      "Large units may not fit through doors or stairs",
+      "It changes stain colour",
+      "It reduces tool maintenance",
+      "It replaces packaging"
+    ],
+    "answer": 0,
+    "explanation": "Assemblies must be transportable and installable. Planning prevents oversized units from failing to reach the site."
+  },
+  {
+    "id": 123,
+    "category": "Task 3. Organizes Work",
+    "question": "What is the benefit of grouping parts by machining operation?",
+    "options": [
+      "It reduces setup changes and improves consistency",
+      "It increases confusion",
+      "It prevents quality checks",
+      "It changes material thickness"
+    ],
+    "answer": 0,
+    "explanation": "Batch machining saves time and reduces variation. It supports repeatable accuracy."
+  },
+  {
+    "id": 124,
+    "category": "Task 3. Organizes Work",
+    "question": "A project has tight tolerances for inset doors. What should be planned carefully?",
+    "options": [
+      "Door sizes, case square, and hinge layout",
+      "Glue bottle colour",
+      "Dust bin size",
+      "Shop radio volume"
+    ],
+    "answer": 0,
+    "explanation": "Inset doors have little room for error. Careful planning prevents reveal and clearance problems."
+  },
+  {
+    "id": 125,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should matching parts be kept together during production?",
+    "options": [
+      "To preserve fit, colour, and grain match",
+      "To slow assembly",
+      "To hide defects",
+      "To reduce quality"
+    ],
+    "answer": 0,
+    "explanation": "Matching parts may be selected for appearance or fitted together. Mixing them can create poor results."
+  },
+  {
+    "id": 126,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What should be done before clamping a glue-up?",
+    "options": [
+      "Prepare clamps, cauls, and parts in advance",
+      "Apply glue first and look for clamps later",
+      "Leave parts unmarked",
+      "Skip dry fit"
+    ],
+    "answer": 0,
+    "explanation": "Glue working time is limited. Preparation prevents delays and weak joints."
+  },
+  {
+    "id": 127,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should offcuts be stored or disposed of properly?",
+    "options": [
+      "To reduce clutter, trip, and fire hazards",
+      "To block exits",
+      "To hide mistakes",
+      "To increase dust"
+    ],
+    "answer": 0,
+    "explanation": "Scrap material can create hazards and reduce efficiency. Clean work areas are safer."
+  },
+  {
+    "id": 128,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A finished door is leaned against a rough wall. What is the risk?",
+    "options": [
+      "Surface damage or warping",
+      "Stronger finish",
+      "Better hinge alignment",
+      "Faster curing"
+    ],
+    "answer": 0,
+    "explanation": "Finished parts need clean, padded support. Poor storage can scratch or distort them."
+  },
+  {
+    "id": 129,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What should be checked before moving parts to finishing?",
+    "options": [
+      "Sanding quality, glue residue, defects, and damage",
+      "Only package colour",
+      "Only screw length",
+      "Only tool storage"
+    ],
+    "answer": 0,
+    "explanation": "Finishing highlights defects. Parts should be inspected before coating."
+  },
+  {
+    "id": 130,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should adhesive shelf life be checked?",
+    "options": [
+      "Expired adhesive may not bond properly",
+      "Old adhesive is always stronger",
+      "It reduces sanding time",
+      "It improves stain colour"
+    ],
+    "answer": 0,
+    "explanation": "Adhesives can degrade over time. Using expired products can cause bond failure."
+  },
+  {
+    "id": 131,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Why should work areas be cleaned between different materials?",
+    "options": [
+      "To prevent contamination and defects",
+      "To increase dust mixing",
+      "To avoid measuring",
+      "To make parts heavier"
+    ],
+    "answer": 0,
+    "explanation": "Dust or chips from one material can contaminate another. Clean areas help protect surface quality."
+  },
+  {
+    "id": 132,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "What is the purpose of final part count before assembly?",
+    "options": [
+      "To confirm all components are ready",
+      "To avoid labels",
+      "To reduce accuracy",
+      "To increase missing parts"
+    ],
+    "answer": 0,
+    "explanation": "A part count prevents assembly delays. Missing parts are easier to address before glue-up or installation."
+  },
+  {
+    "id": 133,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker notices a drawing note that conflicts with a dimension. What should be done?",
+    "options": [
+      "Ask for clarification before proceeding",
+      "Use whichever is faster",
+      "Ignore the note",
+      "Cut both sizes"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting information must be resolved. Guessing can cause rework."
+  },
+  {
+    "id": 134,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should apprentices be taught the reason behind procedures?",
+    "options": [
+      "It helps them apply knowledge to new situations",
+      "It wastes time only",
+      "It replaces practice",
+      "It removes need for supervision"
+    ],
+    "answer": 0,
+    "explanation": "Understanding why improves judgment. It helps apprentices solve problems safely."
+  },
+  {
+    "id": 135,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What is the best way to confirm a worker understood instructions?",
+    "options": [
+      "Ask them to repeat key steps or demonstrate",
+      "Assume they know",
+      "Give no details",
+      "Write nothing down"
+    ],
+    "answer": 0,
+    "explanation": "Confirming understanding prevents mistakes. It is useful for complex or safety-related tasks."
+  },
+  {
+    "id": 136,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A client verbally approves a material substitution. What should happen next?",
+    "options": [
+      "Document the approval",
+      "Use it without record",
+      "Tell no one",
+      "Change all drawings secretly"
+    ],
+    "answer": 0,
+    "explanation": "Substitutions affect appearance, cost, and performance. Written approval protects the job."
+  },
+  {
+    "id": 137,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why is respectful communication important in the shop?",
+    "options": [
+      "It supports teamwork and reduces errors",
+      "It replaces technical skill",
+      "It avoids safety checks",
+      "It makes tools sharper"
+    ],
+    "answer": 0,
+    "explanation": "Good communication improves coordination. Respectful workplaces are safer and more productive."
+  },
+  {
+    "id": 138,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker sees an apprentice using the wrong PPE. What should be done?",
+    "options": [
+      "Stop and correct PPE use immediately",
+      "Wait until break time",
+      "Ignore it",
+      "Remove all PPE"
+    ],
+    "answer": 0,
+    "explanation": "PPE mistakes expose workers to hazards. Immediate correction prevents injury."
+  },
+  {
+    "id": 139,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "Why should job changes be communicated to the whole team?",
+    "options": [
+      "To prevent old information being used",
+      "To increase confusion",
+      "To slow work only",
+      "To avoid documentation"
+    ],
+    "answer": 0,
+    "explanation": "If only one person knows the change, others may continue with outdated information. Team communication prevents errors."
+  },
+  {
+    "id": 140,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "What is the best mentoring approach for a new task?",
+    "options": [
+      "Explain, demonstrate, supervise, then review",
+      "Assign it without instruction",
+      "Give only criticism afterward",
+      "Remove all responsibility"
+    ],
+    "answer": 0,
+    "explanation": "This method builds skill safely. It gives the apprentice support while they learn."
+  },
+  {
+    "id": 141,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker notices the dust collector bag is overfull. What should be done?",
+    "options": [
+      "Empty it according to procedure",
+      "Continue until suction stops",
+      "Remove the bag during use",
+      "Blow dust into the shop"
+    ],
+    "answer": 0,
+    "explanation": "Overfilled collectors reduce airflow and increase dust hazards. Maintenance keeps the system effective."
+  },
+  {
+    "id": 142,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should cabinet components be checked against drawings before assembly?",
+    "options": [
+      "To confirm size, quantity, and details",
+      "To avoid labels",
+      "To replace dry fit",
+      "To make parts random"
+    ],
+    "answer": 0,
+    "explanation": "Checking parts early prevents wrong assemblies. It catches missing or incorrect components."
+  },
+  {
+    "id": 143,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker stores finish containers without labels. What is the risk?",
+    "options": [
+      "Misuse, incompatibility, or safety hazard",
+      "Better organization",
+      "Faster finishing",
+      "Less need for SDS"
+    ],
+    "answer": 0,
+    "explanation": "Unlabelled chemicals are unsafe. Workers must know product identity and hazards."
+  },
+  {
+    "id": 144,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should lifting technique be considered when moving cabinets?",
+    "options": [
+      "To prevent strain and product damage",
+      "To reduce accuracy",
+      "To make cabinets heavier",
+      "To avoid teamwork"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets can be heavy and awkward. Proper lifting protects workers and finished products."
+  },
+  {
+    "id": 145,
+    "category": "Mixed Exam-Style Review",
+    "question": "What should be done if finished parts arrive from another department with defects?",
+    "options": [
+      "Report and resolve before continuing",
+      "Assemble them anyway",
+      "Hide defects inside visible areas",
+      "Ignore small damage"
+    ],
+    "answer": 0,
+    "explanation": "Defects should not be passed forward. Early correction prevents bigger problems."
+  },
+  {
+    "id": 146,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker uses the wrong abrasive grit sequence. What may result?",
+    "options": [
+      "Visible scratches or uneven finish",
+      "Stronger joints",
+      "Better hardware fit",
+      "Less dust"
+    ],
+    "answer": 0,
+    "explanation": "Skipping grits can leave scratches. Finish often makes sanding defects more visible."
+  },
+  {
+    "id": 147,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should clamps be placed before glue application in complex glue-ups?",
+    "options": [
+      "To avoid delays during adhesive open time",
+      "To reduce joint accuracy",
+      "To increase panic",
+      "To eliminate dry fit"
+    ],
+    "answer": 0,
+    "explanation": "Glue working time is limited. Having clamps ready prevents rushed or weak assembly."
+  },
+  {
+    "id": 148,
+    "category": "Mixed Exam-Style Review",
+    "question": "What does a clear production label normally include?",
+    "options": [
+      "Part name, job, orientation, and location",
+      "Only worker name",
+      "Only sandpaper grit",
+      "Only finish smell"
+    ],
+    "answer": 0,
+    "explanation": "Useful labels guide assembly and installation. They reduce confusion with similar parts."
+  },
+  {
+    "id": 149,
+    "category": "Mixed Exam-Style Review",
+    "question": "A worker finds a near-miss involving a falling panel. What should happen?",
+    "options": [
+      "Report and review storage or handling method",
+      "Ignore because no one was hurt",
+      "Stack panels higher",
+      "Remove supports"
+    ],
+    "answer": 0,
+    "explanation": "Near misses show unsafe conditions. Reviewing the cause helps prevent injury."
+  },
+  {
+    "id": 150,
+    "category": "Mixed Exam-Style Review",
+    "question": "Why should quality checks be done throughout production, not only at the end?",
+    "options": [
+      "Early errors are easier and cheaper to correct",
+      "Final inspection is never useful",
+      "It slows work with no benefit",
+      "It replaces drawings"
+    ],
+    "answer": 0,
+    "explanation": "Intermediate checks prevent repeated defects. They protect material, labour, and schedule."
+  },
+  {
+    "id": 151,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker locks out a table saw but leaves stored air pressure connected to a pneumatic hold-down system. What safety step was missed?",
+    "options": [
+      "Controlling all energy sources",
+      "Cleaning the tabletop",
+      "Checking blade tooth count",
+      "Measuring fence distance"
+    ],
+    "answer": 0,
+    "explanation": "Lockout must control all hazardous energy, not only electrical power. Pneumatic, hydraulic, gravity, and stored energy can still cause injury."
+  },
+  {
+    "id": 152,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A finishing booth has correct airflow, but workers smell strong solvent vapours outside the booth. What should be checked first?",
+    "options": [
+      "Booth balance, filters, ducting, and product handling",
+      "Drawer slide alignment",
+      "Table saw blade height",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Vapours outside the booth may indicate poor capture or leakage. Ventilation, filters, and handling procedures must be verified."
+  },
+  {
+    "id": 153,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A dust collector is running, but fine dust remains suspended near a wide-belt sander. What is the most likely concern?",
+    "options": [
+      "Airflow or capture is inadequate",
+      "The sander is too clean",
+      "The abrasive grit is too fine only",
+      "The wood is too dry"
+    ],
+    "answer": 0,
+    "explanation": "Running equipment does not guarantee effective dust control. Hood position, duct blockage, filter loading, and airflow must be checked."
+  },
+  {
+    "id": 154,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker wears loose gloves while operating a drill press. What is the main hazard?",
+    "options": [
+      "Gloves can be caught by rotating parts",
+      "Gloves improve tool control",
+      "Gloves reduce machine speed",
+      "Gloves prevent all splinters safely"
+    ],
+    "answer": 0,
+    "explanation": "Loose gloves can catch in rotating tools and pull the hand into the machine. Gloves are not always safe around rotating equipment."
+  },
+  {
+    "id": 155,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker reports eye irritation after mixing finish products. What should be reviewed first?",
+    "options": [
+      "SDS, PPE, ventilation, and mixing procedure",
+      "Cabinet door overlay",
+      "Dado depth",
+      "Screw length"
+    ],
+    "answer": 0,
+    "explanation": "Chemical irritation suggests exposure control problems. The SDS gives required PPE, ventilation, and first-aid information."
+  },
+  {
+    "id": 156,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A machine guard is in place but does not return automatically after a cut. What is the correct action?",
+    "options": [
+      "Remove the machine from service until repaired",
+      "Hold the guard by hand while cutting",
+      "Use the machine only for short cuts",
+      "Increase feed speed"
+    ],
+    "answer": 0,
+    "explanation": "A guard must function correctly, not just be present. A defective guard can expose the cutter unexpectedly."
+  },
+  {
+    "id": 157,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "Oily finishing rags are left in an open pile at the end of the day. What is the most serious risk?",
+    "options": [
+      "Spontaneous combustion",
+      "Slower sanding",
+      "Lower humidity",
+      "Better stain colour"
+    ],
+    "answer": 0,
+    "explanation": "Some oil-soaked rags can self-heat and ignite. They must be stored or disposed of according to safety procedures."
+  },
+  {
+    "id": 158,
+    "category": "Task 1. Performs Safety-Related Functions",
+    "question": "A worker uses compressed air to clean MDF dust from a bench. What problem does this create?",
+    "options": [
+      "It makes fine dust airborne",
+      "It removes all respiratory risk",
+      "It improves dust collection",
+      "It sharpens tools"
+    ],
+    "answer": 0,
+    "explanation": "Blowing dust spreads it through the breathing zone. Vacuuming or proper dust collection is safer."
+  },
+  {
+    "id": 159,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A router bit is sharp, but the cut shows vibration marks on every pass. What should be checked?",
+    "options": [
+      "Collet condition, bearing, and router spindle runout",
+      "Stain colour",
+      "Glue open time",
+      "Door pull finish"
+    ],
+    "answer": 0,
+    "explanation": "Sharp cutters still chatter if tool holding is poor. Worn collets, bearings, or spindle runout affect cut quality and safety."
+  },
+  {
+    "id": 160,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A table saw produces accurate cuts but has a grinding noise during coast-down. What should be done?",
+    "options": [
+      "Stop using it and inspect bearings or arbor assembly",
+      "Keep cutting because accuracy is acceptable",
+      "Raise the blade higher",
+      "Wax the tabletop only"
+    ],
+    "answer": 0,
+    "explanation": "Unusual noise may indicate mechanical failure. Accuracy does not mean the machine is safe to continue using."
+  },
+  {
+    "id": 161,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A spray gun fan pattern is heavy on one side after cleaning. What is the most likely cause?",
+    "options": [
+      "Damaged or partially blocked air cap/fluid tip",
+      "Correct spray setup",
+      "Good finish strain",
+      "Proper gun distance"
+    ],
+    "answer": 0,
+    "explanation": "Uneven fan patterns usually come from blocked or damaged gun parts. The cap, needle, and fluid tip must be inspected."
+  },
+  {
+    "id": 162,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A measuring square gives correct 90° on one edge but not when flipped. What does this indicate?",
+    "options": [
+      "The square is inaccurate",
+      "The wood is too dry",
+      "The bench is too clean",
+      "The pencil line is too dark"
+    ],
+    "answer": 0,
+    "explanation": "Flipping a square is a common accuracy check. If lines do not match, the square should not be used for precision layout."
+  },
+  {
+    "id": 163,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A pneumatic nailer drives fasteners inconsistently at the same air pressure. What should be checked?",
+    "options": [
+      "Fastener type, tool wear, air supply, and driver condition",
+      "Stain absorption",
+      "Hinge overlay",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Inconsistent driving can come from the tool, air system, or wrong fasteners. All must match manufacturer requirements."
+  },
+  {
+    "id": 164,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A planer leaves repeating ridges across every board. What maintenance issue is likely?",
+    "options": [
+      "Nicked knives or cutterhead damage",
+      "Correct knife condition",
+      "Proper sanding sequence",
+      "Ideal feed support"
+    ],
+    "answer": 0,
+    "explanation": "A nick in planer knives repeats at the same position. Knives must be sharpened, shifted, or replaced."
+  },
+  {
+    "id": 165,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A clamp applies pressure unevenly because the bar is bent. What is the best action?",
+    "options": [
+      "Remove or repair the clamp before precision glue-up",
+      "Use more glue",
+      "Clamp harder",
+      "Use it only on finished faces"
+    ],
+    "answer": 0,
+    "explanation": "Bent clamps can misalign parts and damage surfaces. Accurate glue-ups require reliable clamping tools."
+  },
+  {
+    "id": 166,
+    "category": "Task 2. Maintains Tools and Equipment",
+    "question": "A CNC spoilboard is deeply cut in several areas and vacuum is weak. What maintenance is needed?",
+    "options": [
+      "Resurface or replace spoilboard and check seals",
+      "Increase finish thickness",
+      "Change drawer hardware",
+      "Reduce sanding grit"
+    ],
+    "answer": 0,
+    "explanation": "Damaged spoilboards leak vacuum and reduce support. A flat, sealed surface improves hold-down and accuracy."
+  },
+  {
+    "id": 167,
+    "category": "Task 3. Organizes Work",
+    "question": "Two approved drawings show different hinge boring dimensions for the same cabinet. What is the best action?",
+    "options": [
+      "Resolve the conflict before machining",
+      "Use the dimension that is easier",
+      "Drill between both dimensions",
+      "Let the installer adjust it later"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting approved information must be clarified before work starts. Guessing can ruin doors or hardware fit."
+  },
+  {
+    "id": 168,
+    "category": "Task 3. Organizes Work",
+    "question": "A job requires matched veneer fronts, but the cut list is prepared without grain sequence notes. What is the risk?",
+    "options": [
+      "Visual sequence may be destroyed",
+      "Parts become stronger",
+      "Adhesive cures faster",
+      "Hardware fits better"
+    ],
+    "answer": 0,
+    "explanation": "Matched veneer depends on part order and orientation. The cut list must preserve visual layout requirements."
+  },
+  {
+    "id": 169,
+    "category": "Task 3. Organizes Work",
+    "question": "A project requires site installation through a narrow stairwell. What should be planned before shop assembly?",
+    "options": [
+      "Assembly size, transport path, and breakdown method",
+      "Finish colour only",
+      "Sandpaper type",
+      "Nail length only"
+    ],
+    "answer": 0,
+    "explanation": "Large work must fit through site access. Planning may require sectional construction or on-site assembly."
+  },
+  {
+    "id": 170,
+    "category": "Task 3. Organizes Work",
+    "question": "A material substitution has the same appearance but a weaker core. What must be considered?",
+    "options": [
+      "Structural performance and fastening strength",
+      "Only colour match",
+      "Only stain time",
+      "Only packaging size"
+    ],
+    "answer": 0,
+    "explanation": "Appearance does not prove suitability. Core material affects screw holding, machining, and durability."
+  },
+  {
+    "id": 171,
+    "category": "Task 3. Organizes Work",
+    "question": "A hardware order is delayed, but machining for that hardware is scheduled today. What is the best action?",
+    "options": [
+      "Confirm actual hardware/template before boring",
+      "Drill from memory",
+      "Use another brand’s template",
+      "Bore oversized holes"
+    ],
+    "answer": 0,
+    "explanation": "Hardware dimensions vary by model. Boring without confirmed hardware risks unusable parts."
+  },
+  {
+    "id": 172,
+    "category": "Task 3. Organizes Work",
+    "question": "A shop begins production before checking actual plywood thickness. What high-risk problem may result?",
+    "options": [
+      "Dados and joinery may not fit",
+      "Finish dries too quickly",
+      "Labels become unnecessary",
+      "Tools become dull immediately"
+    ],
+    "answer": 0,
+    "explanation": "Sheet goods often vary from nominal thickness. Joinery must be based on actual material."
+  },
+  {
+    "id": 173,
+    "category": "Task 3. Organizes Work",
+    "question": "A cut list maximizes sheet yield but reverses grain direction on visible doors. What was missed?",
+    "options": [
+      "Appearance and grain direction requirements",
+      "Material quantity only",
+      "Dust collection planning",
+      "Clamp storage"
+    ],
+    "answer": 0,
+    "explanation": "Yield is not the only goal. Visible parts must respect grain direction and design intent."
+  },
+  {
+    "id": 174,
+    "category": "Task 3. Organizes Work",
+    "question": "A client approves a change that affects cabinet depth after parts are cut. What should be updated?",
+    "options": [
+      "Drawings, cut lists, schedule, and affected parts",
+      "Only the invoice",
+      "Only the finish sample",
+      "Only the shop radio"
+    ],
+    "answer": 0,
+    "explanation": "Design changes affect multiple production documents and parts. Updating all information prevents old dimensions from being used."
+  },
+  {
+    "id": 175,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A worker applies glue before checking clamps, cauls, and part orientation. What is the main risk?",
+    "options": [
+      "Open time is wasted and assembly errors increase",
+      "Glue becomes stronger",
+      "Parts become more stable",
+      "Finish cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Glue-up must be organized before adhesive is applied. Delays and confusion can weaken bonds or misalign parts."
+  },
+  {
+    "id": 176,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "Finished cabinet doors are stacked before the finish has cured enough. What defect is likely?",
+    "options": [
+      "Blocking or imprinting",
+      "Better sheen consistency",
+      "Faster hardening",
+      "Stronger hinges"
+    ],
+    "answer": 0,
+    "explanation": "Soft finish can stick or take impressions from spacers or other parts. Proper cure time and stacking method are required."
+  },
+  {
+    "id": 177,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A batch of parts is labelled only with part names, not orientation. What problem can occur?",
+    "options": [
+      "Parts may be flipped or installed backward",
+      "Glue cures faster",
+      "Dust collection improves",
+      "Hardware becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Similar parts need orientation marks as well as names. Finished edges, grain, and machining may depend on direction."
+  },
+  {
+    "id": 178,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A worker uses expired adhesive on a structural assembly. What is the main concern?",
+    "options": [
+      "Bond strength may be unreliable",
+      "Joint fit improves",
+      "Clamp time is eliminated",
+      "Finish absorbs better"
+    ],
+    "answer": 0,
+    "explanation": "Adhesives can lose performance after shelf life. Structural work requires reliable bonding materials."
+  },
+  {
+    "id": 179,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A finished panel is stored near a heater overnight. What could happen?",
+    "options": [
+      "Warping, checking, or finish damage",
+      "Better acclimatization",
+      "Stronger glue joints",
+      "More accurate machining"
+    ],
+    "answer": 0,
+    "explanation": "Heat can dry one side unevenly or soften finishes. Storage conditions must be stable."
+  },
+  {
+    "id": 180,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A worker cleans glue from veneer with excessive water. What is the risk?",
+    "options": [
+      "Raised grain, staining, or veneer damage",
+      "Better finish quality",
+      "Stronger veneer bond",
+      "Less sanding needed"
+    ],
+    "answer": 0,
+    "explanation": "Thin veneer reacts to moisture easily. Cleanup must remove glue without swelling or damaging the face."
+  },
+  {
+    "id": 181,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A shop keeps parts from several jobs on the same cart without labels. What is the main risk?",
+    "options": [
+      "Parts may be mixed between jobs",
+      "Parts become easier to track",
+      "Assembly becomes faster with no risk",
+      "Finish becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Similar parts can be mistaken for each other. Job and part labels prevent mix-ups."
+  },
+  {
+    "id": 182,
+    "category": "Task 4. Performs Routine Work Practices",
+    "question": "A final quality check is skipped because the product “looks fine.” What is the risk?",
+    "options": [
+      "Hidden fit or function problems may reach site",
+      "Packaging improves automatically",
+      "Installation becomes easier",
+      "Defects disappear during transport"
+    ],
+    "answer": 0,
+    "explanation": "Visual checks alone are not enough. Fit, dimensions, hardware, finish, and function should be verified."
+  },
+  {
+    "id": 183,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "An apprentice says they understand a task but repeatedly uses the wrong reference edge. What should the mentor do?",
+    "options": [
+      "Demonstrate the reference system and supervise practice",
+      "Tell them to work faster",
+      "Let them continue until all parts are cut",
+      "Remove all markings"
+    ],
+    "answer": 0,
+    "explanation": "Repeated errors show the concept is not understood. Demonstration and supervised correction build proper habits."
+  },
+  {
+    "id": 184,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A verbal site change contradicts the approved drawing. What should the cabinetmaker do?",
+    "options": [
+      "Get written confirmation before changing work",
+      "Follow the verbal instruction only",
+      "Ignore the client",
+      "Change hidden parts only"
+    ],
+    "answer": 0,
+    "explanation": "Changes must be documented to control scope and responsibility. Verbal instructions can be misunderstood later."
+  },
+  {
+    "id": 185,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker discovers a repeated machining error from the previous shift. What communication is required?",
+    "options": [
+      "Report the issue and stop affected production until corrected",
+      "Continue producing parts quietly",
+      "Hide defective parts",
+      "Correct only one part without telling anyone"
+    ],
+    "answer": 0,
+    "explanation": "Repeated errors can create many defective parts. Reporting protects quality and prevents more waste."
+  },
+  {
+    "id": 186,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "An apprentice is shown a task once but is not checked afterward. What mentoring step is missing?",
+    "options": [
+      "Follow-up observation and feedback",
+      "Tool storage",
+      "Material ordering",
+      "Finish approval"
+    ],
+    "answer": 0,
+    "explanation": "Mentoring includes confirming performance after instruction. Feedback corrects mistakes before they become habits."
+  },
+  {
+    "id": 187,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A drawing note says “typical,” but an apprentice applies it to the wrong area. What should be explained?",
+    "options": [
+      "Scope and meaning of drawing notes",
+      "Only pencil sharpness",
+      "Finish mixing ratio",
+      "Dust collector speed"
+    ],
+    "answer": 0,
+    "explanation": "Drawing notes must be interpreted correctly. “Typical” applies to repeated conditions only where intended."
+  },
+  {
+    "id": 188,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A quality issue is found after a product leaves the shop. What information helps prevent recurrence?",
+    "options": [
+      "Clear feedback to the team about cause and correction",
+      "Blaming only the installer",
+      "Ignoring the issue",
+      "Removing labels from future parts"
+    ],
+    "answer": 0,
+    "explanation": "Quality feedback helps improve process. Sharing cause and correction prevents repeated defects."
+  },
+  {
+    "id": 189,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A worker is assigned to finish a job started by someone else. What should the handoff include?",
+    "options": [
+      "Current status, drawings, changes, issues, and next steps",
+      "Only the project name",
+      "Only the tool list",
+      "Nothing if parts are visible"
+    ],
+    "answer": 0,
+    "explanation": "Good handoffs prevent missed details. They are especially important when changes or problems already exist."
+  },
+  {
+    "id": 190,
+    "category": "Task 5. Uses Communication and Mentoring Techniques",
+    "question": "A supervisor gives instructions that conflict with safety procedure. What should a worker do?",
+    "options": [
+      "Stop and clarify the safe procedure",
+      "Follow the instruction without question",
+      "Remove PPE",
+      "Work faster to reduce exposure"
+    ],
+    "answer": 0,
+    "explanation": "Safety procedures must not be bypassed. Conflicts should be clarified before work continues."
+  },
+  {
+    "id": 191,
+    "category": "Mixed Most Difficult Review",
+    "question": "A machine is locked out electrically, but the cutterhead continues spinning from momentum. What should the worker do?",
+    "options": [
+      "Wait until all motion stops before servicing",
+      "Touch it lightly to stop it",
+      "Start removing guards immediately",
+      "Use compressed air on it"
+    ],
+    "answer": 0,
+    "explanation": "Lockout controls startup, but moving parts can still injure. Stored motion must stop before contact."
+  },
+  {
+    "id": 192,
+    "category": "Mixed Most Difficult Review",
+    "question": "A shop uses the same sanding schedule for solid maple and open-grain oak, but stain results differ greatly. What principle applies?",
+    "options": [
+      "Species and surface preparation affect finishing results",
+      "All woods stain the same",
+      "Sanding has no effect",
+      "Finish always hides differences"
+    ],
+    "answer": 0,
+    "explanation": "Wood species absorb finish differently. Preparation must match the desired result and approved sample."
+  },
+  {
+    "id": 193,
+    "category": "Mixed Most Difficult Review",
+    "question": "A worker finds a hidden defect in a part already machined to final size. What planning error may have occurred?",
+    "options": [
+      "Defects were not marked and allowed for before machining",
+      "Finish was applied too early",
+      "Hardware was too strong",
+      "Labels were too clear"
+    ],
+    "answer": 0,
+    "explanation": "Material inspection before cutting helps avoid defects in finished parts. Final-size machining leaves little room for correction."
+  },
+  {
+    "id": 194,
+    "category": "Mixed Most Difficult Review",
+    "question": "A product is damaged because packaging tape was applied directly to fresh finish. What should have been checked?",
+    "options": [
+      "Finish cure and packaging compatibility",
+      "Drawer slide rating",
+      "Saw blade tooth count",
+      "Dado width"
+    ],
+    "answer": 0,
+    "explanation": "Packaging can react with or mark uncured finishes. Protection methods must suit the finish condition."
+  },
+  {
+    "id": 195,
+    "category": "Mixed Most Difficult Review",
+    "question": "A worker continues using a machine after several near misses because no injury occurred. What is wrong?",
+    "options": [
+      "Near misses must be reported and investigated",
+      "Near misses prove the machine is safe",
+      "Reporting is only needed after injury",
+      "Faster work solves the issue"
+    ],
+    "answer": 0,
+    "explanation": "Near misses indicate uncontrolled hazards. Investigation can prevent serious accidents."
+  },
+  {
+    "id": 196,
+    "category": "Mixed Most Difficult Review",
+    "question": "A job has high-value matched veneer, tight hardware tolerances, and site-fit requirements. What is the best work approach?",
+    "options": [
+      "Plan sequencing, labels, approvals, and quality checks carefully",
+      "Start cutting immediately",
+      "Leave labels until after installation only",
+      "Use standard assumptions for all dimensions"
+    ],
+    "answer": 0,
+    "explanation": "Complex work requires controlled information and process. Careful planning prevents expensive errors."
+  },
+  {
+    "id": 197,
+    "category": "Mixed Most Difficult Review",
+    "question": "A worker uses an unlabelled solvent to clean a surface before finishing. What is the main issue?",
+    "options": [
+      "Unknown chemical hazard and possible finish incompatibility",
+      "Faster drying",
+      "Better adhesion guaranteed",
+      "Less need for PPE"
+    ],
+    "answer": 0,
+    "explanation": "Unlabelled chemicals are unsafe and unpredictable. They may also contaminate or damage the finish system."
+  },
+  {
+    "id": 198,
+    "category": "Mixed Most Difficult Review",
+    "question": "A cabinetmaker receives conflicting verbal instructions from two people. What is the best response?",
+    "options": [
+      "Clarify authority and confirm the final instruction in writing",
+      "Follow the last person heard",
+      "Choose the faster option",
+      "Do both changes halfway"
+    ],
+    "answer": 0,
+    "explanation": "Conflicting instructions create scope and quality risks. Written confirmation prevents disputes and rework."
+  },
+  {
+    "id": 199,
+    "category": "Mixed Most Difficult Review",
+    "question": "A dust collector has good suction at the main trunk but poor pickup at one machine. What should be checked?",
+    "options": [
+      "Branch duct blockage, blast gate, hose leaks, and hood position",
+      "Finish colour",
+      "Saw blade angle",
+      "Clamp pressure"
+    ],
+    "answer": 0,
+    "explanation": "Main suction does not guarantee capture at each machine. Branch restrictions or leaks reduce local performance."
+  },
+  {
+    "id": 200,
+    "category": "Mixed Most Difficult Review",
+    "question": "A finished cabinet is ready to ship, but the latest drawing revision changed the handle location. What should happen?",
+    "options": [
+      "Compare revision status and correct/approve before shipping",
+      "Ship because the cabinet is finished",
+      "Ignore the revision",
+      "Let the client drill new holes"
+    ],
+    "answer": 0,
+    "explanation": "Final products must match current approved documents. Revision control is critical before release."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCabinetmakerCommonOccupationalSkillsQuestions =
+  shuffleArray(cabinetmakerCommonOccupationalSkillsQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "cabinetmaker",
+  tradeTitle: "Cabinetmaker",
+  sectionTitle: "A. Performs Common Occupational Skills",
+  questionTimeSeconds: 90,
+  questions: shuffledCabinetmakerCommonOccupationalSkillsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCabinetmakerMachiningQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

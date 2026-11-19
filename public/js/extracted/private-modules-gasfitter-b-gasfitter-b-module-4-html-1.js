@@ -1,0 +1,2184 @@
+const gasfitterBlockFTestingCommissioningQuestions = [
+  {
+    "id": 1,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What is the main purpose of pressure testing a new gas piping system?",
+    "options": [
+      "To verify the system is leak-free before use",
+      "To increase pipe strength",
+      "To clean burner ports",
+      "To adjust thermostat temperature"
+    ],
+    "answer": 0,
+    "explanation": "Pressure testing checks piping integrity. Leaks must be found before gas is placed into service. This is one of the most important safety tests."
+  },
+  {
+    "id": 2,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas piping pressure test shows a pressure drop. What should the technician do?",
+    "options": [
+      "Find the leak or test problem, repair it, and retest",
+      "Ignore it if no gas smell is present",
+      "Lower the test pressure and approve it",
+      "Open the appliance gas valve"
+    ],
+    "answer": 0,
+    "explanation": "A pressure drop indicates possible leakage. The cause must be found before operation. The system must pass the required test after repair."
+  },
+  {
+    "id": 3,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why is smell alone not an acceptable leak test?",
+    "options": [
+      "Odour may not detect all leaks accurately",
+      "Gas has no odour in any system",
+      "Odour proves pressure is correct",
+      "Smell only works on steel pipe"
+    ],
+    "answer": 0,
+    "explanation": "Odour detection is not precise. Small leaks or poor airflow may hide smell. Approved leak testing methods must be used."
+  },
+  {
+    "id": 4,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Which method is acceptable for checking gas joints after gas is turned on?",
+    "options": [
+      "Approved leak detection solution or approved gas detector",
+      "Open flame",
+      "Cigarette lighter",
+      "Listening only"
+    ],
+    "answer": 0,
+    "explanation": "Leak solution can show bubbles at leaking joints. Approved electronic detectors can also be used. Open flames must never be used for leak testing."
+  },
+  {
+    "id": 5,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A leak solution forms bubbles at a fitting. What does this mean?",
+    "options": [
+      "Gas is leaking from the fitting",
+      "The fitting is clean",
+      "The pressure is too low to matter",
+      "The joint is approved"
+    ],
+    "answer": 0,
+    "explanation": "Bubbles indicate gas escaping. The joint must be repaired. After repair, it must be leak tested again."
+  },
+  {
+    "id": 6,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why should appliance gas valves be protected during high-pressure piping tests?",
+    "options": [
+      "They may not be rated for the test pressure",
+      "They clean the piping during tests",
+      "They increase pressure safely",
+      "They replace test gauges"
+    ],
+    "answer": 0,
+    "explanation": "Appliance controls have maximum pressure ratings. Excess test pressure can damage gas valves. Appliances must be isolated or disconnected when required."
+  },
+  {
+    "id": 7,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What instrument is commonly used to measure low appliance gas pressure?",
+    "options": [
+      "Manometer",
+      "Tachometer",
+      "Thermometer only",
+      "Megohmmeter"
+    ],
+    "answer": 0,
+    "explanation": "Appliance gas pressure is usually low. A manometer accurately measures inches water column. Correct pressure is needed for safe combustion."
+  },
+  {
+    "id": 8,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What does “inches water column” measure in gas work?",
+    "options": [
+      "Low gas pressure",
+      "Electrical resistance",
+      "Flame colour",
+      "Pipe length"
+    ],
+    "answer": 0,
+    "explanation": "Inches water column is a pressure unit. It is commonly used for appliance inlet and manifold pressure. Gasfitter exams often test this unit."
+  },
+  {
+    "id": 9,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Where is inlet gas pressure measured?",
+    "options": [
+      "At the appliance gas supply inlet before the appliance regulator or valve",
+      "At the thermostat",
+      "At the chimney cap",
+      "At the blower wheel"
+    ],
+    "answer": 0,
+    "explanation": "Inlet pressure shows supply pressure to the appliance. It must be within the appliance rating limits. Low inlet pressure can cause ignition and combustion problems."
+  },
+  {
+    "id": 10,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Where is manifold pressure measured?",
+    "options": [
+      "Downstream of the gas valve at the burner manifold",
+      "At the air filter",
+      "At the vent termination",
+      "At the electrical disconnect"
+    ],
+    "answer": 0,
+    "explanation": "Manifold pressure is pressure delivered to burners. It affects appliance input and flame condition. It must match manufacturer specifications."
+  },
+  {
+    "id": 11,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A manometer hose is kinked during testing. What can happen?",
+    "options": [
+      "The pressure reading may be incorrect",
+      "Gas pressure will become perfect",
+      "Flame signal will improve",
+      "Burner ports will clean themselves"
+    ],
+    "answer": 0,
+    "explanation": "A kinked hose restricts pressure transmission. This can cause delayed or false readings. Test equipment must be set up correctly."
+  },
+  {
+    "id": 12,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why should gas pressure be checked while the appliance is firing?",
+    "options": [
+      "Operating pressure under load is what matters",
+      "Static pressure is always enough",
+      "Pressure cannot change during firing",
+      "Burners do not need pressure"
+    ],
+    "answer": 0,
+    "explanation": "Pressure can drop when gas is flowing. A system may appear good at no load but fail under load. Operating pressure proves supply performance."
+  },
+  {
+    "id": 13,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas pressure is correct with one appliance firing but low when all appliances fire. What does this suggest?",
+    "options": [
+      "Supply, meter, regulator, or piping capacity may be insufficient",
+      "Thermostat is too close to a window",
+      "Flame rod is too clean",
+      "Vent pipe is too short"
+    ],
+    "answer": 0,
+    "explanation": "Full-load demand creates the greatest pressure drop. Low pressure under load suggests capacity problems. The gas supply system must be evaluated."
+  },
+  {
+    "id": 14,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What is meter clocking used to check?",
+    "options": [
+      "Appliance gas input rate",
+      "Thermostat accuracy only",
+      "Vent slope",
+      "Electrical polarity"
+    ],
+    "answer": 0,
+    "explanation": "Meter clocking measures gas flow rate. Flow rate can be converted to input. It helps verify overfiring or underfiring."
+  },
+  {
+    "id": 15,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 1 ft³ gas meter dial rotates once in 60 seconds. Pressure factor is 1.0. What is the gas flow?",
+    "options": [
+      "60 ft³/hr",
+      "90 ft³/hr",
+      "120 ft³/hr",
+      "180 ft³/hr"
+    ],
+    "answer": 0,
+    "explanation": "Flow = dial size ÷ seconds × 3600. 1 ÷ 60 × 3600 = 60 ft³/hr. This is a basic meter clocking calculation."
+  },
+  {
+    "id": 16,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 2 ft³ gas meter dial rotates once in 60 seconds. Pressure factor is 1.0. What is the gas flow?",
+    "options": [
+      "60 ft³/hr",
+      "120 ft³/hr",
+      "180 ft³/hr",
+      "240 ft³/hr"
+    ],
+    "answer": 1,
+    "explanation": "Flow = 2 ÷ 60 × 3600. This equals 120 ft³/hr. Larger test dial size increases calculated flow."
+  },
+  {
+    "id": 17,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What information is needed to calculate appliance input from meter clocking?",
+    "options": [
+      "Gas flow rate and heating value",
+      "Thermostat brand and filter size",
+      "Vent colour and pipe support type",
+      "Blower rotation and cabinet size"
+    ],
+    "answer": 0,
+    "explanation": "Input depends on gas volume used and gas energy content. Heating value is usually given in Btu per cubic foot. Flow multiplied by heating value gives Btu/hr."
+  },
+  {
+    "id": 18,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "If a gas appliance uses 100 ft³/hr and gas heating value is 1,000 Btu/ft³, what is the input?",
+    "options": [
+      "10,000 Btu/hr",
+      "100,000 Btu/hr",
+      "1,000,000 Btu/hr",
+      "1,100 Btu/hr"
+    ],
+    "answer": 1,
+    "explanation": "Input = gas flow × heating value. 100 × 1,000 = 100,000 Btu/hr. This checks if appliance input matches the rating plate."
+  },
+  {
+    "id": 19,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What instrument is used to measure carbon monoxide in flue gas?",
+    "options": [
+      "Combustion analyzer",
+      "Pipe wrench",
+      "Tape measure",
+      "Vacuum pump only"
+    ],
+    "answer": 0,
+    "explanation": "A combustion analyzer measures flue gas values. It can measure CO, O₂, temperature, and efficiency data. CO testing is critical for safety."
+  },
+  {
+    "id": 20,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why is carbon monoxide testing important?",
+    "options": [
+      "CO is poisonous and can be produced by poor combustion",
+      "CO improves appliance efficiency",
+      "CO proves gas pressure is correct",
+      "CO is the same as oxygen"
+    ],
+    "answer": 0,
+    "explanation": "Carbon monoxide is toxic. Poor combustion, blocked venting, or lack of air can produce CO. Unsafe CO levels must be corrected."
+  },
+  {
+    "id": 21,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A blue flame always means combustion is safe.",
+    "options": [
+      "True",
+      "False",
+      "Only on propane",
+      "Only on old appliances"
+    ],
+    "answer": 1,
+    "explanation": "Flame colour alone is not a complete safety test. CO can still be high with a mostly blue flame. Combustion instruments provide reliable information."
+  },
+  {
+    "id": 22,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer must be zeroed according to manufacturer instructions because:",
+    "options": [
+      "Incorrect setup can give false readings",
+      "It increases gas pressure",
+      "It cleans burner ports",
+      "It changes natural gas to propane"
+    ],
+    "answer": 0,
+    "explanation": "Analyzer accuracy depends on proper setup. Zeroing in clean air is commonly required. Bad setup can lead to unsafe conclusions."
+  },
+  {
+    "id": 23,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "When should final combustion readings usually be taken?",
+    "options": [
+      "After appliance reaches stable operating condition",
+      "Before ignition only",
+      "With gas shut off",
+      "Before the analyzer warms up"
+    ],
+    "answer": 0,
+    "explanation": "Combustion readings can change during warm-up. Final readings should reflect normal operating conditions. Stable readings are more useful for commissioning."
+  },
+  {
+    "id": 24,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What can high CO indicate?",
+    "options": [
+      "Incomplete combustion",
+      "Perfect combustion",
+      "Correct airflow always",
+      "Low electrical resistance"
+    ],
+    "answer": 0,
+    "explanation": "CO is produced when fuel does not burn completely. Causes may include poor air supply, burner problems, or venting issues. High CO must be investigated."
+  },
+  {
+    "id": 25,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What can low O₂ with high CO suggest?",
+    "options": [
+      "Fuel-rich combustion or insufficient air",
+      "Too much excess air only",
+      "No gas flow",
+      "Perfect draft"
+    ],
+    "answer": 0,
+    "explanation": "Low oxygen means little excess air remains. High CO shows combustion is incomplete. This combination often points to insufficient air or poor mixing."
+  },
+  {
+    "id": 26,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What can high O₂ in flue gas usually indicate?",
+    "options": [
+      "Excess air",
+      "No combustion air",
+      "Blocked gas valve",
+      "Flame rectification failure"
+    ],
+    "answer": 0,
+    "explanation": "High oxygen means extra air is passing through combustion. Too much excess air can reduce efficiency. Combustion must be adjusted within manufacturer limits."
+  },
+  {
+    "id": 27,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What does temperature rise refer to on a forced-air furnace?",
+    "options": [
+      "Supply air temperature minus return air temperature",
+      "Gas pressure minus air pressure",
+      "Outdoor temperature minus indoor temperature",
+      "Stack temperature minus room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Temperature rise measures air heating through the furnace. It is compared to the rating plate range. It helps identify airflow or input problems."
+  },
+  {
+    "id": 28,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has high temperature rise. What is a common cause?",
+    "options": [
+      "Low airflow or overfiring",
+      "Too much thermostat wire",
+      "Oversized vent cap only",
+      "Low flame signal only"
+    ],
+    "answer": 0,
+    "explanation": "High rise means air is getting too hot. Low airflow or high input can cause this. Filter, blower, ducts, and input should be checked."
+  },
+  {
+    "id": 29,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has low temperature rise. What is a common cause?",
+    "options": [
+      "Too much airflow or underfiring",
+      "Dirty filter only",
+      "Closed supply registers only",
+      "High gas pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Low rise means air is not heating enough. Excess airflow or low input can cause it. Both airflow and fuel input must be checked."
+  },
+  {
+    "id": 30,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What is the basic airflow formula using furnace output and temperature rise?",
+    "options": [
+      "CFM = Btuh output ÷ 1.08 ÷ temperature rise",
+      "CFM = gas pressure × pipe length",
+      "CFM = volts ÷ amps",
+      "CFM = CO × O₂"
+    ],
+    "answer": 0,
+    "explanation": "This formula estimates airflow from heat output. It uses sensible heat transfer in air. It is common in heating airflow questions."
+  },
+  {
+    "id": 31,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace output is 54,000 Btuh and temperature rise is 50°F. What is airflow?",
+    "options": [
+      "500 cfm",
+      "1,000 cfm",
+      "1,250 cfm",
+      "2,700 cfm"
+    ],
+    "answer": 1,
+    "explanation": "CFM = 54,000 ÷ 1.08 ÷ 50. This equals 1,000 cfm. This is a common exam-style airflow calculation."
+  },
+  {
+    "id": 32,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why is draft testing important on natural draft appliances?",
+    "options": [
+      "To confirm combustion products are leaving safely",
+      "To measure thermostat voltage",
+      "To increase gas pressure",
+      "To clean the chimney"
+    ],
+    "answer": 0,
+    "explanation": "Natural draft depends on buoyancy and vent condition. Poor draft can cause spillage into the building. Draft and spillage testing protect occupants."
+  },
+  {
+    "id": 33,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What is spillage?",
+    "options": [
+      "Combustion products entering the room instead of venting",
+      "Gas pressure rising above rating",
+      "Water leaking from a trap only",
+      "Flame rod current increasing"
+    ],
+    "answer": 0,
+    "explanation": "Spillage means flue gases are not leaving properly. This may expose occupants to carbon monoxide. Venting and combustion air must be checked."
+  },
+  {
+    "id": 34,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A draft hood appliance spills when exhaust fans operate. What does this suggest?",
+    "options": [
+      "Building depressurization may be affecting draft",
+      "Gas valve is oversized",
+      "Flame sensor is dirty",
+      "Filter is too clean"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust fans remove air from the building. This can create negative pressure. Negative pressure can cause backdrafting or spillage."
+  },
+  {
+    "id": 35,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Why should combustion air openings be checked during testing?",
+    "options": [
+      "Blocked openings can cause poor combustion and CO",
+      "They control thermostat voltage",
+      "They increase gas pipe size",
+      "They replace venting"
+    ],
+    "answer": 0,
+    "explanation": "Appliances need enough air to burn fuel safely. Blocked openings can create incomplete combustion. CO and flame problems may result."
+  },
+  {
+    "id": 36,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "What is commissioning?",
+    "options": [
+      "Final testing, adjustment, and verification before placing equipment in service",
+      "Painting the appliance cabinet",
+      "Removing the rating plate",
+      "Guessing the gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning confirms the installation is safe and operational. It includes pressure, combustion, safety, and performance checks. It should be documented."
+  },
+  {
+    "id": 37,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "What should be verified before starting a new appliance?",
+    "options": [
+      "Fuel type, rating plate, venting, wiring, and gas pressure requirements",
+      "Customer music preference",
+      "Wall paint colour",
+      "Service truck location"
+    ],
+    "answer": 0,
+    "explanation": "Fuel type and rating plate data must match installation. Venting and wiring must be correct before startup. Starting without checks can create unsafe operation."
+  },
+  {
+    "id": 38,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why must the appliance rating plate be checked during commissioning?",
+    "options": [
+      "It gives certified input, fuel, and pressure information",
+      "It replaces combustion testing",
+      "It shows filter colour",
+      "It sets thermostat location"
+    ],
+    "answer": 0,
+    "explanation": "The rating plate gives approved operating data. Commissioning readings are compared to rating requirements. Wrong fuel or pressure can be dangerous."
+  },
+  {
+    "id": 39,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance is designed for natural gas but is connected to propane without conversion. What is the hazard?",
+    "options": [
+      "Unsafe overfiring or improper combustion",
+      "Better heating efficiency",
+      "Automatic self-conversion",
+      "No effect on operation"
+    ],
+    "answer": 0,
+    "explanation": "Propane has different energy content and pressure needs. Orifices and regulators may need conversion. Using the wrong fuel setup is dangerous."
+  },
+  {
+    "id": 40,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "During commissioning, why should ignition be observed?",
+    "options": [
+      "To confirm smooth, safe light-off",
+      "To measure paint thickness",
+      "To size the gas meter",
+      "To avoid leak testing"
+    ],
+    "answer": 0,
+    "explanation": "Ignition should occur smoothly without delay or rollout. Delayed ignition can damage equipment or create hazards. Burner carryover and flame establishment must be verified."
+  },
+  {
+    "id": 41,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "What is delayed ignition?",
+    "options": [
+      "Gas accumulates before lighting",
+      "Flame lights instantly",
+      "Air filter becomes dirty",
+      "Blower starts too early only"
+    ],
+    "answer": 0,
+    "explanation": "Delayed ignition happens when gas does not ignite promptly. Accumulated gas can ignite suddenly with a boom. Pressure, burner condition, and ignition source must be checked."
+  },
+  {
+    "id": 42,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should safety controls be tested during commissioning?",
+    "options": [
+      "To prove the appliance shuts down during unsafe conditions",
+      "To increase gas pressure",
+      "To reduce appliance weight",
+      "To clean heat exchanger surfaces"
+    ],
+    "answer": 0,
+    "explanation": "Safety controls protect against hazards. They must operate before the appliance is approved. Testing confirms the safety sequence works."
+  },
+  {
+    "id": 43,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Which safety function must be verified on flame failure?",
+    "options": [
+      "Gas valve shuts off",
+      "Thermostat display brightens",
+      "Blower belt tightens",
+      "Gas pressure increases"
+    ],
+    "answer": 0,
+    "explanation": "If flame is lost, fuel must stop. This prevents unburned gas accumulation. Flame failure shutdown is a key commissioning test."
+  },
+  {
+    "id": 44,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should final commissioning results be recorded?",
+    "options": [
+      "To document safe operating conditions and provide a service baseline",
+      "To avoid future maintenance",
+      "To increase appliance input",
+      "To replace manufacturer instructions"
+    ],
+    "answer": 0,
+    "explanation": "Records show actual measured startup data. Future technicians can compare changes over time. Good documentation supports safety and troubleshooting."
+  },
+  {
+    "id": 45,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Which readings should commonly be recorded during commissioning?",
+    "options": [
+      "Inlet pressure, manifold pressure, combustion readings, and safety tests",
+      "Wall colour, shoe size, and filter brand",
+      "Customer age and outdoor paint type",
+      "Truck mileage only"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning records should include key performance data. Gas pressure and combustion readings prove safe setup. Safety test results confirm protective controls work."
+  },
+  {
+    "id": 46,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new furnace is commissioned with temperature rise outside rating plate range. What should happen?",
+    "options": [
+      "Correct airflow or input before approval",
+      "Approve if the customer is warm",
+      "Increase thermostat temperature",
+      "Ignore if the flame is blue"
+    ],
+    "answer": 0,
+    "explanation": "Temperature rise must be within rating plate limits. Too high or too low can indicate airflow or input problems. The furnace should not be approved until corrected."
+  },
+  {
+    "id": 47,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning report says “all good” but lists no readings. What is wrong?",
+    "options": [
+      "It lacks measurable proof of safe operation",
+      "It is more professional",
+      "It replaces pressure testing",
+      "It proves all safeties worked"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning should include actual measured data. Vague notes do not prove pressure, combustion, or safety checks. Recorded values help future service."
+  },
+  {
+    "id": 48,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should the customer be shown the gas shutoff valve?",
+    "options": [
+      "So they can isolate fuel in an emergency",
+      "So they can adjust manifold pressure",
+      "So they can bypass safeties",
+      "So they can clean burner orifices"
+    ],
+    "answer": 0,
+    "explanation": "Customers should know basic emergency shutoff location. They should not adjust technical settings. Safe handover is part of commissioning."
+  },
+  {
+    "id": 49,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should operating instructions be left with the owner?",
+    "options": [
+      "To support safe operation and maintenance",
+      "To replace all future inspections",
+      "To allow owner gas pressure adjustment",
+      "To remove need for service labels"
+    ],
+    "answer": 0,
+    "explanation": "Owners need to understand normal operation and warning signs. Instructions help them know when to call for service. They also support proper maintenance."
+  },
+  {
+    "id": 50,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A newly installed appliance operates but produces high CO. Can it be commissioned?",
+    "options": [
+      "No, unsafe combustion must be corrected first",
+      "Yes, if it heats the space",
+      "Yes, if the flame is blue",
+      "Yes, if the customer accepts it"
+    ],
+    "answer": 0,
+    "explanation": "High CO is a serious safety hazard. Operating normally does not prove safe combustion. The appliance must not be approved until corrected. # Block F — Testing and Commissioning of Gas-Fired Systems ## Practice Set — Questions 51–100 ### Most Expected Real Exam Style **Gasfitter Class B IP**"
+  },
+  {
+    "id": 51,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A new gas line passes the pressure test, but one appliance connector was installed after the test. What must be done?",
+    "options": [
+      "Leak test the new connector and disturbed joints",
+      "Ignore it because the main line passed",
+      "Check only by smell",
+      "Start the appliance immediately"
+    ],
+    "answer": 0,
+    "explanation": "Any new or disturbed gas joint must be checked. A pressure test before the connector was installed does not prove the connector is leak-free. Final leak testing must include all completed connections."
+  },
+  {
+    "id": 52,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A technician uses an open flame to check a suspected leak. What is the correct exam answer?",
+    "options": [
+      "It is unsafe and prohibited",
+      "It is acceptable if the leak is small",
+      "It is acceptable outdoors only",
+      "It is acceptable on natural gas only"
+    ],
+    "answer": 0,
+    "explanation": "Open flame can ignite leaking gas. Approved leak solution or approved detectors must be used. Leak testing must never create an ignition hazard."
+  },
+  {
+    "id": 53,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A pressure test gauge drops during the required test period. What is the safest conclusion?",
+    "options": [
+      "The system has a leak or test setup problem until proven otherwise",
+      "The system automatically passes if no odour is present",
+      "A small drop is always acceptable",
+      "The test pressure was too high, so it can be ignored"
+    ],
+    "answer": 0,
+    "explanation": "A pressure drop indicates loss of pressure from the system or test equipment. The cause must be located and corrected. The test must be repeated until the system passes."
+  },
+  {
+    "id": 54,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A pressure test is performed before all joints are accessible for inspection. What is the problem?",
+    "options": [
+      "Leaks may be difficult to locate and repair",
+      "Concealed joints are safer",
+      "Pressure tests only apply to visible pipe",
+      "Inspection is not part of testing"
+    ],
+    "answer": 0,
+    "explanation": "Testing should allow leak location and correction. Concealed piping can make repairs difficult. Proper testing sequence is part of safe installation."
+  },
+  {
+    "id": 55,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A manometer shows 7 in. w.c. inlet pressure with the appliance off, but 4 in. w.c. while firing. What does this show?",
+    "options": [
+      "Operating pressure drops under load",
+      "Static pressure is the only pressure that matters",
+      "The manometer is always wrong",
+      "The appliance is overfiring"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure must be checked while gas is flowing. A large drop under load may indicate undersized piping, regulator, or meter. Operating pressure must remain within appliance requirements."
+  },
+  {
+    "id": 56,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A manometer is connected to the wrong pressure tap. What is the likely result?",
+    "options": [
+      "Incorrect diagnosis from wrong pressure reading",
+      "Higher gas pressure",
+      "Improved combustion",
+      "Better flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Test points are located for specific measurements. Using the wrong tap may confuse inlet pressure with manifold pressure. Correct test location is essential."
+  },
+  {
+    "id": 57,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "An appliance rating plate specifies manifold pressure. Why must this be verified?",
+    "options": [
+      "It affects input and combustion",
+      "It only affects thermostat display",
+      "It replaces leak testing",
+      "It controls air filter size"
+    ],
+    "answer": 0,
+    "explanation": "Manifold pressure determines burner gas delivery. Incorrect pressure can cause overfiring, underfiring, or high CO. It must match manufacturer specifications."
+  },
+  {
+    "id": 58,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas valve regulator is adjusted without checking combustion. What is missing?",
+    "options": [
+      "Verification that the appliance burns safely after adjustment",
+      "Pipe support spacing",
+      "Thermostat battery voltage only",
+      "Cabinet colour inspection"
+    ],
+    "answer": 0,
+    "explanation": "Pressure adjustment changes fuel input. Combustion may become unsafe even if pressure seems correct. Final combustion readings should be verified."
+  },
+  {
+    "id": 59,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 1 ft³ test dial rotates once in 45 seconds. Pressure factor is 1.0. What is the gas flow?",
+    "options": [
+      "60 ft³/hr",
+      "80 ft³/hr",
+      "90 ft³/hr",
+      "120 ft³/hr"
+    ],
+    "answer": 1,
+    "explanation": "Flow = dial size ÷ seconds × 3600. 1 ÷ 45 × 3600 = 80 ft³/hr. This is a common meter clocking exam calculation."
+  },
+  {
+    "id": 60,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 2 ft³ test dial rotates once in 90 seconds. Pressure factor is 1.0. What is the gas flow?",
+    "options": [
+      "60 ft³/hr",
+      "80 ft³/hr",
+      "90 ft³/hr",
+      "120 ft³/hr"
+    ],
+    "answer": 1,
+    "explanation": "Flow = 2 ÷ 90 × 3600. This equals 80 ft³/hr. The test dial size and time must both be used."
+  },
+  {
+    "id": 61,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 1 ft³ test dial rotates once in 30 seconds. Pressure factor is 1.1. What is corrected gas flow?",
+    "options": [
+      "108 ft³/hr",
+      "120 ft³/hr",
+      "132 ft³/hr",
+      "144 ft³/hr"
+    ],
+    "answer": 2,
+    "explanation": "Uncorrected flow = 1 ÷ 30 × 3600 = 120 ft³/hr. Corrected flow = 120 × 1.1 = 132 ft³/hr. Pressure factor adjusts the meter clocking result."
+  },
+  {
+    "id": 62,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas appliance uses 85 ft³/hr. Gas heating value is 1,050 Btu/ft³. What is the input?",
+    "options": [
+      "80,952 Btu/hr",
+      "85,000 Btu/hr",
+      "89,250 Btu/hr",
+      "105,000 Btu/hr"
+    ],
+    "answer": 2,
+    "explanation": "Input = gas flow × heating value. 85 × 1,050 = 89,250 Btu/hr. This value is compared with the appliance rating plate."
+  },
+  {
+    "id": 63,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Meter clocking shows an appliance is overfiring. What should be checked?",
+    "options": [
+      "Manifold pressure, orifice size, fuel type, and input rating",
+      "Thermostat colour only",
+      "Filter brand only",
+      "Vent pipe paint only"
+    ],
+    "answer": 0,
+    "explanation": "Overfiring means input is above rating. Wrong orifices, wrong fuel setup, or excessive pressure can cause it. The appliance must be corrected before approval."
+  },
+  {
+    "id": 64,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "Meter clocking shows underfiring. What is a likely cause?",
+    "options": [
+      "Low manifold pressure, low supply pressure, or incorrect orifice",
+      "Too much pipe support",
+      "Flame sensor too clean",
+      "Correct full input"
+    ],
+    "answer": 0,
+    "explanation": "Underfiring means the appliance is receiving less fuel than required. It can be caused by pressure, orifice, or supply restrictions. Underfiring can affect performance and venting."
+  },
+  {
+    "id": 65,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer shows high CO and low O₂. What is the most expected interpretation?",
+    "options": [
+      "Fuel-rich combustion or insufficient air",
+      "Too much excess air only",
+      "Perfect combustion",
+      "No gas is flowing"
+    ],
+    "answer": 0,
+    "explanation": "Low oxygen means very little excess air remains. High CO indicates incomplete combustion. Air supply, burner adjustment, venting, and input must be checked."
+  },
+  {
+    "id": 66,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer shows high O₂ and low CO₂. What is most likely?",
+    "options": [
+      "Excess air",
+      "Fuel-rich condition",
+      "Blocked air opening only",
+      "Overfiring only"
+    ],
+    "answer": 0,
+    "explanation": "High oxygen in flue gas usually means extra air is passing through. Low CO₂ often accompanies excess air. Air adjustment and draft conditions should be reviewed."
+  },
+  {
+    "id": 67,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer shows CO increasing steadily during operation. What is the correct response?",
+    "options": [
+      "Stop and investigate unsafe combustion conditions",
+      "Ignore it if the appliance is heating",
+      "Reduce analyzer sensitivity",
+      "Increase thermostat temperature"
+    ],
+    "answer": 0,
+    "explanation": "Rising CO indicates combustion is becoming unsafe. Possible causes include poor air supply, venting failure, or burner problems. The appliance should not be approved until corrected."
+  },
+  {
+    "id": 68,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A draft hood appliance spills after several minutes of operation. What should be checked?",
+    "options": [
+      "Chimney draft, vent sizing, blockage, and combustion air",
+      "Flame rod microamps only",
+      "Thermostat batteries only",
+      "Gas pipe support only"
+    ],
+    "answer": 0,
+    "explanation": "Spillage means combustion products are entering the space. It may be caused by poor draft, blockage, or insufficient air. CO risk must be controlled."
+  },
+  {
+    "id": 69,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A draft hood appliance spills only when clothes dryer and kitchen fan are operating. What does this indicate?",
+    "options": [
+      "Depressurization affecting venting",
+      "Manifold pressure too high",
+      "Flame signal too weak",
+      "Gas valve stuck closed"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust appliances can remove air from the building. This can cause negative pressure and backdrafting. Testing should consider worst-case operating conditions."
+  },
+  {
+    "id": 70,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "What is the purpose of checking ambient CO during testing?",
+    "options": [
+      "To verify combustion products are not entering occupied space",
+      "To measure gas pipe size",
+      "To calculate transformer VA",
+      "To adjust thermostat anticipator"
+    ],
+    "answer": 0,
+    "explanation": "Ambient CO checks help identify spillage or leakage into the space. Flue readings alone do not always prove room air safety. Occupant safety is the main concern."
+  },
+  {
+    "id": 71,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace return air temperature is 68°F and supply air temperature is 123°F. What is the temperature rise?",
+    "options": [
+      "45°F",
+      "55°F",
+      "68°F",
+      "123°F"
+    ],
+    "answer": 1,
+    "explanation": "Temperature rise = supply temperature minus return temperature. 123°F − 68°F = 55°F. Compare this value with the rating plate range."
+  },
+  {
+    "id": 72,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has output of 72,000 Btuh and temperature rise of 60°F. What is airflow?",
+    "options": [
+      "900 cfm",
+      "1,000 cfm",
+      "1,111 cfm",
+      "1,333 cfm"
+    ],
+    "answer": 2,
+    "explanation": "CFM = output ÷ 1.08 ÷ temperature rise. 72,000 ÷ 1.08 ÷ 60 = about 1,111 cfm. This formula is commonly tested."
+  },
+  {
+    "id": 73,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has output of 60,000 Btuh and airflow of 1,000 cfm. What is temperature rise?",
+    "options": [
+      "40.6°F",
+      "55.6°F",
+      "60°F",
+      "64.8°F"
+    ],
+    "answer": 1,
+    "explanation": "Temperature rise = output ÷ 1.08 ÷ cfm. 60,000 ÷ 1.08 ÷ 1,000 = 55.6°F. This checks if airflow matches furnace output."
+  },
+  {
+    "id": 74,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A temperature rise is above rating plate range. What should be checked first?",
+    "options": [
+      "Airflow restriction, blower speed, filter, ductwork, and input",
+      "Thermostat colour",
+      "Gas pipe paint",
+      "Pilot tubing length only"
+    ],
+    "answer": 0,
+    "explanation": "High rise usually means low airflow or overfiring. Filters, ducts, blower speed, and gas input affect rise. Operating outside rating range can damage equipment."
+  },
+  {
+    "id": 75,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A temperature rise is below rating plate range. What should be checked?",
+    "options": [
+      "Excessive airflow or underfiring",
+      "Blocked filter only",
+      "Low blower speed only",
+      "Overfiring only"
+    ],
+    "answer": 0,
+    "explanation": "Low rise can result from too much airflow. It can also occur if the appliance is underfired. Both air side and gas input must be tested."
+  },
+  {
+    "id": 76,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Before commissioning a gas appliance, what must be verified?",
+    "options": [
+      "Installation matches manufacturer instructions and code requirements",
+      "Appliance cabinet colour matches the room",
+      "Customer knows the thermostat brand",
+      "Filter packaging is removed only"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning confirms the appliance was installed correctly. Manufacturer instructions and code requirements are the baseline. Unsafe installation defects must be corrected before operation."
+  },
+  {
+    "id": 77,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance starts normally but has high CO. What should happen?",
+    "options": [
+      "Do not approve operation until the cause is corrected",
+      "Approve because ignition is normal",
+      "Increase thermostat setpoint",
+      "Disable the analyzer alarm"
+    ],
+    "answer": 0,
+    "explanation": "Smooth ignition does not prove safe combustion. High CO indicates a safety hazard. The cause must be diagnosed and corrected before commissioning."
+  },
+  {
+    "id": 78,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "During commissioning, a burner lights with rollout. What is the correct response?",
+    "options": [
+      "Shut down and investigate immediately",
+      "Continue if flame becomes blue later",
+      "Remove the rollout switch",
+      "Increase gas input"
+    ],
+    "answer": 0,
+    "explanation": "Rollout is a serious unsafe condition. It can indicate burner, heat exchanger, or venting problems. Commissioning must stop until corrected."
+  },
+  {
+    "id": 79,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A safety limit does not open when tested under required conditions. Can commissioning continue?",
+    "options": [
+      "No, the safety control must be repaired or replaced",
+      "Yes, if the burner lights",
+      "Yes, if customer signs off",
+      "Yes, if gas pressure is correct"
+    ],
+    "answer": 0,
+    "explanation": "Safety controls must operate properly. A failed safety cannot protect the appliance. The appliance should not be approved until corrected."
+  },
+  {
+    "id": 80,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should flame failure shutdown be tested during commissioning?",
+    "options": [
+      "To prove gas shuts off if flame is lost",
+      "To increase gas pressure",
+      "To check pipe support spacing",
+      "To reduce temperature rise"
+    ],
+    "answer": 0,
+    "explanation": "Flame failure can release unburned gas if not controlled. Fuel must stop when flame is not proven. This is a key burner safety test."
+  },
+  {
+    "id": 81,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A modulating burner is tested only at high fire. Why is this incomplete?",
+    "options": [
+      "Low and mid-fire combustion may still be unsafe",
+      "High fire proves every firing rate",
+      "Low fire cannot produce CO",
+      "Modulation does not affect combustion"
+    ],
+    "answer": 0,
+    "explanation": "Air-fuel ratio changes through the firing range. Unsafe combustion can occur at low or intermediate fire. Commissioning should verify required firing points."
+  },
+  {
+    "id": 82,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A two-stage furnace is tested only on first stage. What is missing?",
+    "options": [
+      "Second-stage operation and combustion verification",
+      "Thermostat colour check",
+      "Gas pipe painting",
+      "Filter brand recording only"
+    ],
+    "answer": 0,
+    "explanation": "Each operating stage must be verified. Second stage may have different pressure, airflow, and combustion conditions. Commissioning must confirm safe operation in all modes."
+  },
+  {
+    "id": 83,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A direct-vent appliance works with the vent disconnected but fails when the vent is connected. What should be checked?",
+    "options": [
+      "Vent restriction, slope, termination, sizing, and manufacturer instructions",
+      "Thermostat display only",
+      "Gas meter paint only",
+      "Air filter brand only"
+    ],
+    "answer": 0,
+    "explanation": "The appliance must operate with its complete vent system. Failure with vent connected suggests venting restriction or installation defect. Venting must be corrected before approval."
+  },
+  {
+    "id": 84,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning report has gas pressure readings but no safety test results. What is missing?",
+    "options": [
+      "Proof that protective controls operate correctly",
+      "Proof that cabinet paint is dry",
+      "Proof that the thermostat is new",
+      "Proof that pipe is oversized"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure readings alone do not prove safety controls work. Commissioning should include flame failure, limits, and interlocks where required. Safety test results should be documented."
+  },
+  {
+    "id": 85,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A newly installed appliance has inlet pressure below minimum while firing. What should be done?",
+    "options": [
+      "Correct supply problem before commissioning approval",
+      "Approve if manifold pressure seems close",
+      "Increase thermostat setpoint",
+      "Ignore if flame is blue"
+    ],
+    "answer": 0,
+    "explanation": "Inlet pressure must remain within manufacturer limits during operation. Low inlet pressure can cause poor combustion or ignition failure. Supply, piping, meter, or regulator issues must be corrected."
+  },
+  {
+    "id": 86,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new furnace has correct gas input but high temperature rise. What should be adjusted or corrected?",
+    "options": [
+      "Airflow side of the system",
+      "Gas type conversion only",
+      "Manifold pressure higher",
+      "Flame sensor location only"
+    ],
+    "answer": 0,
+    "explanation": "If input is correct, high rise usually points to low airflow. Blower speed, duct restriction, filter, or coil blockage may be involved. Temperature rise must be within rating plate range."
+  },
+  {
+    "id": 87,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new furnace has correct airflow but is underfiring. What should be checked?",
+    "options": [
+      "Gas pressure, orifices, supply capacity, and fuel type",
+      "Blower speed only",
+      "Filter restriction only",
+      "Duct insulation only"
+    ],
+    "answer": 0,
+    "explanation": "Underfiring is related to gas input. Pressure, orifice size, and fuel setup affect input. Supply capacity must also be verified under load."
+  },
+  {
+    "id": 88,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should final checks be done with all appliance panels installed?",
+    "options": [
+      "Panels affect airflow, pressure zones, and combustion conditions",
+      "Panels only improve appearance",
+      "Panels are not part of operation",
+      "Panels reduce need for testing"
+    ],
+    "answer": 0,
+    "explanation": "Many appliances depend on panels for proper airflow paths. Testing with panels removed may hide combustion or pressure problems. Final commissioning must reflect normal operation."
+  },
+  {
+    "id": 89,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A burner flame is stable at startup but unstable after the blower starts. What should be investigated?",
+    "options": [
+      "Pressure changes, heat exchanger leakage, flame disturbance, and airflow effects",
+      "Wall colour",
+      "Gas meter dial colour",
+      "Filter packaging only"
+    ],
+    "answer": 0,
+    "explanation": "Blower operation can change pressure relationships. Flame disturbance after blower starts may indicate serious conditions. The appliance must be tested through the complete cycle."
+  },
+  {
+    "id": 90,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A customer is instructed how to turn the thermostat up but not shown emergency shutoff. What commissioning step is incomplete?",
+    "options": [
+      "Safety handover",
+      "Pipe threading",
+      "Regulator sizing",
+      "Flame rod cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Customers should know basic emergency shutoff location. They should also understand warning signs and when to call service. Safe handover is part of commissioning."
+  },
+  {
+    "id": 91,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "Why should commissioning documentation include model and serial number?",
+    "options": [
+      "To identify the exact equipment tested",
+      "To increase gas input",
+      "To replace combustion readings",
+      "To measure pipe length"
+    ],
+    "answer": 0,
+    "explanation": "Model and serial identify the appliance and rating data. They help future service and warranty work. Documentation should connect readings to the exact equipment."
+  },
+  {
+    "id": 92,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning technician adjusts burner air without retesting CO. What is wrong?",
+    "options": [
+      "Combustion must be verified after adjustment",
+      "Air adjustment only changes cabinet temperature",
+      "CO cannot change after adjustment",
+      "Retesting is only needed on propane"
+    ],
+    "answer": 0,
+    "explanation": "Air adjustment changes the air-fuel mixture. CO can rise if combustion becomes incorrect. Combustion readings must be checked after any burner adjustment."
+  },
+  {
+    "id": 93,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A newly installed appliance is noisy and vibrates excessively. What should commissioning include?",
+    "options": [
+      "Investigate fan, burner, mounting, venting, and gas pressure conditions",
+      "Ignore if it heats",
+      "Increase thermostat setpoint",
+      "Remove service panels permanently"
+    ],
+    "answer": 0,
+    "explanation": "Noise and vibration can indicate mechanical or combustion problems. They may also stress gas or vent connections. Commissioning must confirm safe and stable operation."
+  },
+  {
+    "id": 94,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A boiler is commissioned without checking relief valve discharge piping. What is the issue?",
+    "options": [
+      "Discharge must be safely directed",
+      "Relief piping only affects appearance",
+      "Boiler pressure cannot rise",
+      "Gas pressure controls relief discharge"
+    ],
+    "answer": 0,
+    "explanation": "Relief valves protect against unsafe pressure. Discharge piping prevents injury and property damage. Boiler commissioning includes safety discharge verification."
+  },
+  {
+    "id": 95,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A hydronic boiler pressure rises rapidly during warm-up. What should be checked?",
+    "options": [
+      "Expansion tank, fill valve, system pressure, and air removal",
+      "Flame rod only",
+      "Gas meter paint",
+      "Vent pipe colour"
+    ],
+    "answer": 0,
+    "explanation": "Water expands as it heats. The expansion tank controls pressure rise. Rapid pressure increase can lead to relief valve discharge."
+  },
+  {
+    "id": 96,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance is installed with a condensate neutralizer but no drain test is performed. What is missing?",
+    "options": [
+      "Verification that condensate drains properly",
+      "Gas input calculation only",
+      "Flame rod resistance only",
+      "Filter airflow only"
+    ],
+    "answer": 0,
+    "explanation": "Condensing appliances must drain safely and continuously. Blocked or poorly sloped drains can cause shutdown or leakage. Commissioning should include drain operation verification."
+  },
+  {
+    "id": 97,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A direct-vent termination is too close to a building opening. What is the commissioning concern?",
+    "options": [
+      "Exhaust gases may enter the building",
+      "Gas pressure will automatically drop",
+      "Flame signal will increase",
+      "Air filter will clog faster"
+    ],
+    "answer": 0,
+    "explanation": "Vent termination clearances prevent flue gas entry. Exhaust near openings can expose occupants to combustion products. Termination location must meet instructions and code."
+  },
+  {
+    "id": 98,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning checklist is completed before the appliance is fired. What is incomplete?",
+    "options": [
+      "Actual operating readings and safety performance",
+      "Customer name only",
+      "Appliance colour only",
+      "Installer signature only"
+    ],
+    "answer": 0,
+    "explanation": "Pre-start checks are only part of commissioning. Actual operation must be measured and verified. Final approval requires operating data."
+  },
+  {
+    "id": 99,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance is operating within gas pressure limits but outside combustion limits. What is correct?",
+    "options": [
+      "It cannot be approved until combustion is corrected",
+      "Gas pressure limits are the only requirement",
+      "Combustion readings can be ignored",
+      "Customer comfort decides approval"
+    ],
+    "answer": 0,
+    "explanation": "Correct pressure does not guarantee safe combustion. Combustion limits protect against CO and poor performance. The appliance must meet all required operating criteria."
+  },
+  {
+    "id": 100,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "After commissioning, why should the technician explain maintenance requirements?",
+    "options": [
+      "Poor maintenance can lead to unsafe operation later",
+      "It allows the customer to adjust gas pressure",
+      "It replaces service records",
+      "It reduces the need for safety controls"
+    ],
+    "answer": 0,
+    "explanation": "Filters, vents, drains, and burners need regular attention. Lack of maintenance can cause CO, overheating, or shutdowns. Owner instruction supports long-term safe operation. # Block F — Testing and Commissioning of Gas-Fired Systems ## Practice Set — Questions 101–150 ### Most Difficult +  Real Exam Style **Gasfitter Class B IP**"
+  },
+  {
+    "id": 101,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A new branch gas line passes a pressure test before the appliance is connected. After the appliance is installed, a union and connector are added. What is the correct final test requirement?",
+    "options": [
+      "Leak test the union, connector, and all disturbed joints",
+      "No further testing is needed because the branch line passed",
+      "Check only by smell after lighting the burner",
+      "Test only the appliance manifold pressure"
+    ],
+    "answer": 0,
+    "explanation": "The original pressure test did not include the new final joints. Any new or disturbed gas connection must be leak tested. The appliance should not be operated until final leak testing is complete."
+  },
+  {
+    "id": 102,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas piping pressure test drops slightly during the test period. The room temperature also dropped during the test. What is the best conclusion?",
+    "options": [
+      "Temperature effect must be considered, but leakage must still be ruled out",
+      "The system automatically passes because temperature changed",
+      "The system automatically fails and cannot be retested",
+      "The gauge should be ignored if no gas smell is present"
+    ],
+    "answer": 0,
+    "explanation": "Temperature changes can affect pressure readings. However, pressure drop can also indicate leakage or test setup failure. The technician must stabilize conditions, inspect, repair if needed, and retest."
+  },
+  {
+    "id": 103,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A technician pressure-tests a fuel gas piping system through an appliance gas valve. Later, the appliance valve will not close fully. What was the likely mistake?",
+    "options": [
+      "Appliance valve was exposed to pressure above its rating",
+      "Test pressure was too low to prove piping",
+      "Leak solution was used instead of flame",
+      "The manometer hose was too short"
+    ],
+    "answer": 0,
+    "explanation": "Appliance gas valves have maximum pressure ratings. Excess test pressure can damage internal seats and regulators. Appliances must be isolated or disconnected when test pressure exceeds their rating."
+  },
+  {
+    "id": 104,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A manometer shows correct manifold pressure at low fire, but pressure drops below specification at high fire. What does this indicate?",
+    "options": [
+      "Gas supply, regulator, valve, or piping cannot maintain pressure at higher flow",
+      "The appliance is operating correctly at all firing rates",
+      "The flame rod is dirty",
+      "The thermostat is short cycling"
+    ],
+    "answer": 0,
+    "explanation": "High fire requires greater gas flow. Pressure must remain within specification at required operating rates. Low high-fire pressure can cause underfiring, poor combustion, or flame failure."
+  },
+  {
+    "id": 105,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 2 ft³ meter dial completes one revolution in 50 seconds. The pressure factor is 1.08. What is the corrected gas flow?",
+    "options": [
+      "144.0 ft³/hr",
+      "155.5 ft³/hr",
+      "166.7 ft³/hr",
+      "216.0 ft³/hr"
+    ],
+    "answer": 1,
+    "explanation": "Uncorrected flow = 2 ÷ 50 × 3600 = 144 ft³/hr. Corrected flow = 144 × 1.08 = 155.52 ft³/hr. Meter clocking must include dial size, time, and correction factor."
+  },
+  {
+    "id": 106,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 1 ft³ meter dial rotates once in 36 seconds. Gas heating value is 1,030 Btu/ft³ and pressure factor is 1.0. What is the approximate input?",
+    "options": [
+      "85,800 Btu/hr",
+      "103,000 Btu/hr",
+      "123,600 Btu/hr",
+      "185,400 Btu/hr"
+    ],
+    "answer": 1,
+    "explanation": "Flow = 1 ÷ 36 × 3600 = 100 ft³/hr. Input = 100 × 1,030 = 103,000 Btu/hr. This confirms whether input matches the rating plate."
+  },
+  {
+    "id": 107,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A 5 ft³ meter dial takes 180 seconds for one revolution. Pressure factor is 1.2. What is corrected gas flow?",
+    "options": [
+      "83.3 ft³/hr",
+      "100 ft³/hr",
+      "120 ft³/hr",
+      "150 ft³/hr"
+    ],
+    "answer": 2,
+    "explanation": "Uncorrected flow = 5 ÷ 180 × 3600 = 100 ft³/hr. Corrected flow = 100 × 1.2 = 120 ft³/hr. Large meter dials require the same flow formula."
+  },
+  {
+    "id": 108,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace output is 80,000 Btuh and measured temperature rise is 50°F. What is the approximate airflow?",
+    "options": [
+      "1,111 cfm",
+      "1,296 cfm",
+      "1,481 cfm",
+      "1,852 cfm"
+    ],
+    "answer": 2,
+    "explanation": "CFM = output ÷ 1.08 ÷ temperature rise. 80,000 ÷ 1.08 ÷ 50 = about 1,481 cfm. This helps confirm airflow against heating performance."
+  },
+  {
+    "id": 109,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace output is 72,000 Btuh and airflow is 1,200 cfm. What is the expected temperature rise?",
+    "options": [
+      "45.6°F",
+      "55.6°F",
+      "60.0°F",
+      "72.0°F"
+    ],
+    "answer": 1,
+    "explanation": "Temperature rise = output ÷ 1.08 ÷ CFM. 72,000 ÷ 1.08 ÷ 1,200 = 55.6°F. Compare calculated rise to actual and rating plate values."
+  },
+  {
+    "id": 110,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer shows high CO, low O₂, and high stack temperature on a newly fired appliance. What is the best interpretation?",
+    "options": [
+      "Rich or poorly mixed combustion with unsafe heat loss",
+      "Perfect combustion because stack temperature is high",
+      "Too much excess air only",
+      "Flame signal failure only"
+    ],
+    "answer": 0,
+    "explanation": "Low O₂ with high CO often indicates insufficient air or poor mixing. High stack temperature may indicate poor heat transfer or overfiring. Input, burner setup, air supply, and venting must be checked."
+  },
+  {
+    "id": 111,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer shows acceptable CO with the cabinet panel removed, but high CO with the panel installed. What does this prove?",
+    "options": [
+      "Final assembled condition changes combustion air or burner pressure conditions",
+      "The appliance is safe if tested with the panel removed",
+      "The analyzer is unnecessary",
+      "The thermostat is wired incorrectly"
+    ],
+    "answer": 0,
+    "explanation": "Appliance panels often control air paths and pressure zones. Testing with panels removed can hide unsafe combustion. Final readings must be taken in normal operating condition."
+  },
+  {
+    "id": 112,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A natural draft water heater spills flue gas only after a clothes dryer and kitchen exhaust fan start. What condition is most likely?",
+    "options": [
+      "Building depressurization causing backdrafting",
+      "Manifold pressure is too high",
+      "Burner orifice is oversized",
+      "Pilot flame is too strong"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust appliances remove indoor air. This can overcome natural draft and pull flue gases into the space. Worst-case depressurization testing is important."
+  },
+  {
+    "id": 113,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A draft hood appliance vents correctly at startup but spills after 10 minutes. Which issue is most likely?",
+    "options": [
+      "Venting, chimney sizing, blockage, or building pressure changes during operation",
+      "Thermostat heat anticipator setting only",
+      "Flame rod microamp signal only",
+      "Gas valve coil resistance only"
+    ],
+    "answer": 0,
+    "explanation": "Draft can change as the system warms or other equipment starts. Delayed spillage can indicate vent sizing, obstruction, or depressurization. Testing must include enough run time to detect operating problems."
+  },
+  {
+    "id": 114,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A manometer reads unstable manifold pressure with the burner firing. The hose is routed near a hot draft inducer and is softening. What should be corrected first?",
+    "options": [
+      "Replace or reroute the test hose so the reading is reliable",
+      "Increase gas pressure immediately",
+      "Replace the thermostat",
+      "Approve the appliance because it lights"
+    ],
+    "answer": 0,
+    "explanation": "Test equipment setup must be reliable. A softened or restricted hose can create false readings. Pressure diagnosis should not continue using damaged test setup."
+  },
+  {
+    "id": 115,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A direct-vent appliance has acceptable combustion with calm weather but flame failure during wind gusts. What should be tested or inspected?",
+    "options": [
+      "Vent termination location, clearances, wind effects, and manufacturer installation requirements",
+      "Thermostat calibration only",
+      "Gas meter paint only",
+      "Heat anticipator only"
+    ],
+    "answer": 0,
+    "explanation": "Wind can disturb intake and exhaust pressure at terminations. Incorrect termination location can cause recirculation or pressure switch faults. The appliance must operate safely under expected outdoor conditions."
+  },
+  {
+    "id": 116,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas detector alarms near a newly installed union, but leak solution shows no bubbles because the fitting is oily. What is the correct action?",
+    "options": [
+      "Clean the joint area and retest using approved leak detection methods",
+      "Ignore the gas detector because bubbles did not form",
+      "Light the burner and observe flame colour",
+      "Paint the union to seal it"
+    ],
+    "answer": 0,
+    "explanation": "Oil or dirt can prevent leak solution from working properly. A detector alarm must be investigated seriously. The joint should be cleaned, tested, repaired if needed, and retested."
+  },
+  {
+    "id": 117,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has rating plate temperature rise of 35°F to 65°F. Measured return is 70°F and supply is 142°F. What is correct?",
+    "options": [
+      "Rise is 72°F and is above rating range",
+      "Rise is 35°F and is acceptable",
+      "Rise is 65°F and is exactly maximum",
+      "Rise cannot be calculated from these readings"
+    ],
+    "answer": 0,
+    "explanation": "Temperature rise = 142 − 70 = 72°F. This is above the 65°F maximum. Airflow restriction or overfiring must be investigated."
+  },
+  {
+    "id": 118,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A furnace has correct temperature rise but high CO. What does this mean?",
+    "options": [
+      "Temperature rise alone does not prove safe combustion",
+      "High CO is acceptable if temperature rise is correct",
+      "Airflow formula replaces combustion analysis",
+      "The appliance is automatically underfired"
+    ],
+    "answer": 0,
+    "explanation": "Temperature rise verifies air-side performance. Combustion safety still requires flue gas testing. Burner condition, air supply, venting, and input must be evaluated."
+  },
+  {
+    "id": 119,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A technician measures inlet pressure only with the appliance off and approves the installation. What is the testing error?",
+    "options": [
+      "Static pressure does not prove pressure under operating load",
+      "Static pressure is always lower than operating pressure",
+      "Inlet pressure is not part of gas testing",
+      "Manifold pressure is measured with the appliance off only"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure can drop when the appliance fires. Operating pressure shows supply capacity under demand. Pressure should be checked with appliances firing as required."
+  },
+  {
+    "id": 120,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A pressure factor is calculated using atmospheric pressure 14.3 psi, gauge pressure 2.5 psi, and base pressure 14.7 psi. What is the approximate pressure factor?",
+    "options": [
+      "0.97",
+      "1.00",
+      "1.14",
+      "1.25"
+    ],
+    "answer": 2,
+    "explanation": "Pressure factor = atmospheric plus gauge pressure divided by base pressure. 14.3 + 2.5 = 16.8; 16.8 ÷ 14.7 ≈ 1.14. This correction can be used in meter clocking calculations."
+  },
+  {
+    "id": 121,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A combustion analyzer was last calibrated beyond its recommended date. What is the concern?",
+    "options": [
+      "Readings may not be reliable for safety decisions",
+      "It will always read CO higher than actual",
+      "It can still replace all pressure testing",
+      "Calibration affects only display brightness"
+    ],
+    "answer": 0,
+    "explanation": "Combustion decisions depend on accurate instrument readings. Out-of-calibration analyzers can give unsafe false results. Calibration and bump checks must follow manufacturer requirements."
+  },
+  {
+    "id": 122,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A gas appliance has normal manifold pressure, but meter clocking shows higher-than-rated input. What is the best next check?",
+    "options": [
+      "Orifice size, gas heating value, pressure factor, and timing accuracy",
+      "Thermostat batteries only",
+      "Blower belt colour only",
+      "Vent cap paint only"
+    ],
+    "answer": 0,
+    "explanation": "Manifold pressure alone does not prove correct input. Wrong orifices or calculation factors can cause overinput. Meter clocking must be calculated carefully and compared to rating."
+  },
+  {
+    "id": 123,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A burner flame signal is acceptable before the blower starts but drops below minimum after blower operation begins. What should be tested?",
+    "options": [
+      "Flame stability, grounding, cabinet pressure changes, and heat exchanger effects",
+      "Gas meter dial size only",
+      "Thermostat setpoint only",
+      "Filter brand only"
+    ],
+    "answer": 0,
+    "explanation": "Blower operation can disturb flame or change pressure conditions. A poor ground or heat exchanger issue may affect flame signal. Testing must follow the full appliance sequence."
+  },
+  {
+    "id": 124,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "During combustion testing, CO is acceptable at high fire but excessive at low fire. What is the correct conclusion?",
+    "options": [
+      "The appliance is unsafe at low fire and must be corrected",
+      "High fire results prove the appliance is safe",
+      "Low fire does not need testing",
+      "CO at low fire is always ignored"
+    ],
+    "answer": 0,
+    "explanation": "Multi-stage or modulating appliances must be safe at each operating rate. Low fire may have poor mixing or unstable flame. The appliance cannot be approved with excessive CO at any required firing point."
+  },
+  {
+    "id": 125,
+    "category": "Block F / Task 16 — Tests Gas-Fired Systems",
+    "question": "A draft reading is acceptable at the appliance, but ambient CO rises in the room during operation. What should be suspected?",
+    "options": [
+      "Spillage, leakage, recirculation, or another combustion source",
+      "Correct operation because draft is acceptable",
+      "Low thermostat voltage",
+      "Oversized electrical conductor"
+    ],
+    "answer": 0,
+    "explanation": "One draft reading does not prove all combustion products are contained. Ambient CO rising means CO is entering the space from somewhere. The source must be identified before the area is considered safe."
+  },
+  {
+    "id": 126,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new furnace passes leak test and lights smoothly, but temperature rise is 10°F above nameplate range. What should happen before approval?",
+    "options": [
+      "Correct airflow or input condition and retest",
+      "Approve because ignition is smooth",
+      "Increase thermostat setting",
+      "Ignore because leak test passed"
+    ],
+    "answer": 0,
+    "explanation": "Smooth ignition and leak-tight piping do not prove air-side performance. High temperature rise can damage the heat exchanger. The furnace must operate within the rating plate range."
+  },
+  {
+    "id": 127,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A newly installed boiler fires normally, but system pressure rises close to relief valve setting during warm-up. What should be checked?",
+    "options": [
+      "Expansion tank, fill pressure, air removal, and relief valve piping",
+      "Flame rod microamps only",
+      "Gas pipe paint only",
+      "Thermostat colour only"
+    ],
+    "answer": 0,
+    "explanation": "Water expands as temperature rises. The expansion tank must absorb this expansion. Boiler commissioning includes both gas-side and water-side safety checks."
+  },
+  {
+    "id": 128,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A direct-vent appliance is commissioned with temporary vent fittings because the final termination has not arrived. What is correct?",
+    "options": [
+      "Final commissioning cannot be completed until the approved vent system is installed",
+      "Temporary fittings are acceptable if the burner lights",
+      "Vent termination does not affect combustion",
+      "Only gas pressure matters for commissioning"
+    ],
+    "answer": 0,
+    "explanation": "Venting affects combustion air, exhaust removal, and pressure proving. Temporary venting may not represent final operation. Final commissioning must use approved final vent components."
+  },
+  {
+    "id": 129,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A modulating burner is tuned at low and high fire, but not checked through mid-fire. What risk remains?",
+    "options": [
+      "Linkage or control curve may produce unsafe combustion between endpoints",
+      "Mid-fire is always automatically safe",
+      "High fire proves every point",
+      "Low fire proves every point"
+    ],
+    "answer": 0,
+    "explanation": "Modulating burners can have air-fuel errors between endpoints. Worn linkage or poor cam adjustment can cause high CO mid-range. Combustion should be verified at required firing positions."
+  },
+  {
+    "id": 130,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "During commissioning, flame failure is simulated but the gas valve remains energized. What is the correct action?",
+    "options": [
+      "Shut down and repair the flame safeguard system",
+      "Approve because flame was present earlier",
+      "Increase gas pressure",
+      "Remove the flame sensor"
+    ],
+    "answer": 0,
+    "explanation": "Fuel must shut off when flame is lost. A gas valve staying energized after flame failure is a critical safety defect. The appliance must not operate until corrected."
+  },
+  {
+    "id": 131,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A burner lights smoothly on the first cycle, but delayed ignition occurs after several hot restarts. What should be done?",
+    "options": [
+      "Diagnose hot-restart ignition conditions before approval",
+      "Approve because the first cycle was smooth",
+      "Increase thermostat setting",
+      "Disable restart testing"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning must verify reliable operation through expected cycles. Heat can affect gas pressure, burner carryover, or igniter position. Delayed ignition on restart is still unsafe."
+  },
+  {
+    "id": 132,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance has correct inlet pressure when firing alone, but pressure falls below minimum when all building appliances operate. Can it be commissioned?",
+    "options": [
+      "No, supply must maintain pressure under expected full load",
+      "Yes, because it works alone",
+      "Yes, if manifold pressure is close",
+      "Yes, if customer accepts"
+    ],
+    "answer": 0,
+    "explanation": "Gas supply must support the expected connected load. Low pressure under full demand can cause poor combustion or flame failure. Meter, regulator, and piping capacity must be corrected."
+  },
+  {
+    "id": 133,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning sheet lists “CO OK” without actual analyzer readings. What is the weakness?",
+    "options": [
+      "There is no measurable proof or future comparison value",
+      "It is better than recording numbers",
+      "It replaces instrument calibration",
+      "CO readings are never recorded"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning records should include actual measured values. Numbers provide evidence of safe operation and a service baseline. Vague notes reduce troubleshooting value."
+  },
+  {
+    "id": 134,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new furnace has correct heating temperature rise, but cooling airflow is not checked even though the furnace uses the same blower for A/C. What is missing?",
+    "options": [
+      "Verification of all required operating modes",
+      "Gas valve lock-up pressure only",
+      "Flame rod cleaning",
+      "Vent connector sealing only"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning should verify equipment performance in all required modes. Cooling airflow affects coil performance and compressor safety. Heating-only checks may miss blower setup problems."
+  },
+  {
+    "id": 135,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A gas valve regulator is adjusted during commissioning. What must be done after adjustment?",
+    "options": [
+      "Recheck pressure, input, combustion, and safety operation as required",
+      "Approve immediately because adjustment was made",
+      "Check thermostat colour",
+      "Remove test ports permanently"
+    ],
+    "answer": 0,
+    "explanation": "Regulator adjustment changes fuel input. Pressure and combustion must be verified after adjustment. Safety and operating sequence should remain correct."
+  },
+  {
+    "id": 136,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A newly installed appliance has an intake termination located where snow can block it. What is the commissioning concern?",
+    "options": [
+      "Future blockage can cause shutdown or unsafe combustion",
+      "Snow improves combustion air cooling",
+      "Termination location does not matter after startup",
+      "Gas pressure will compensate"
+    ],
+    "answer": 0,
+    "explanation": "Intake blockage restricts combustion air. Snow can cause pressure switch trips or high CO. Termination location must account for expected site conditions."
+  },
+  {
+    "id": 137,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commercial burner high-fire switch proves position, but low-fire proving switch is bypassed. What is the issue?",
+    "options": [
+      "Safe light-off position may not be proven",
+      "High-fire proof replaces all low-fire safeties",
+      "Burner will always light smoother",
+      "Gas pressure becomes self-regulating"
+    ],
+    "answer": 0,
+    "explanation": "Many burners require low-fire proving before ignition. Bypassing a proving switch can allow unsafe light-off. All required interlocks must be functional."
+  },
+  {
+    "id": 138,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new boiler is commissioned without checking circulator rotation. What can happen?",
+    "options": [
+      "Poor flow, overheating, or high-limit trips",
+      "Stronger flame signal",
+      "Higher gas heating value",
+      "Lower relief valve rating"
+    ],
+    "answer": 0,
+    "explanation": "Boiler operation depends on water circulation. Wrong rotation or poor flow can cause overheating. Commissioning must verify hydronic circulation."
+  },
+  {
+    "id": 139,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A direct-vent appliance produces acceptable CO with the mechanical room door open but high CO with the door closed. What is correct?",
+    "options": [
+      "It must be corrected because final operating condition is unsafe",
+      "It is acceptable because one test passed",
+      "Door position does not matter",
+      "Only manifold pressure matters"
+    ],
+    "answer": 0,
+    "explanation": "Appliances must operate safely under normal installed conditions. Door closure may affect combustion air or room pressure. Commissioning readings must reflect actual use."
+  },
+  {
+    "id": 140,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning technician verifies manifold pressure but does not clock the meter or verify input. What possible issue may be missed?",
+    "options": [
+      "Wrong orifice or gas heating value causing incorrect input",
+      "Thermostat location only",
+      "Filter cleanliness only",
+      "Flame sensor wire colour only"
+    ],
+    "answer": 0,
+    "explanation": "Manifold pressure alone may not prove input. Orifice size, gas type, and heating value affect actual Btu/hr. Input verification helps detect overfiring or underfiring."
+  },
+  {
+    "id": 141,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A furnace has acceptable combustion readings but repeated high-limit trips during commissioning. What does this mean?",
+    "options": [
+      "Combustion safety is not the only commissioning requirement",
+      "High-limit trips are acceptable if CO is low",
+      "The appliance can be approved if it heats",
+      "Limit switches should be bypassed"
+    ],
+    "answer": 0,
+    "explanation": "Safe combustion does not prove proper airflow or temperature rise. Repeated limit trips indicate overheating or airflow issues. All safety and performance problems must be corrected."
+  },
+  {
+    "id": 142,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A customer asks to skip final safety testing because they need heat immediately. What is the correct response?",
+    "options": [
+      "Safety testing must be completed before placing equipment in service",
+      "Customer approval overrides safety testing",
+      "Only leak testing is needed",
+      "Testing can be done weeks later after use"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning protects occupants and property. Urgency does not justify operating unsafe or unverified equipment. Required safety tests must be completed first."
+  },
+  {
+    "id": 143,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance has a condensate trap that was left dry during startup. Why is this a concern?",
+    "options": [
+      "Flue gases may pass through the drain path until trap is primed",
+      "Dry traps increase efficiency",
+      "Condensate traps only matter in summer",
+      "Gas pressure will drop to zero"
+    ],
+    "answer": 0,
+    "explanation": "Condensate traps can act as seals against flue gas leakage. A dry trap may not seal properly. Trap priming and drainage must be verified during commissioning."
+  },
+  {
+    "id": 144,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commissioning report records readings but not the test conditions, such as firing rate and panels installed. What is the problem?",
+    "options": [
+      "The readings may not represent final operating condition",
+      "Test conditions never matter",
+      "It improves documentation",
+      "It replaces manufacturer instructions"
+    ],
+    "answer": 0,
+    "explanation": "Readings depend on operating condition. Firing rate, panel position, and vent configuration affect results. Good documentation states the conditions under which readings were taken."
+  },
+  {
+    "id": 145,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A commercial burner air damper linkage slips after adjustment. What commissioning step prevents this from being missed?",
+    "options": [
+      "Stroke actuator, secure linkage, and verify combustion through firing range",
+      "Check thermostat batteries only",
+      "Paint the linkage",
+      "Increase gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Linkage slippage can change air-fuel ratio. Actuator travel and combustion must be verified after adjustment. Settings must be secured before approval."
+  },
+  {
+    "id": 146,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance is installed in a room with other fuel-burning appliances. What full-load commissioning check is important?",
+    "options": [
+      "Gas pressure, combustion air, draft, and venting with expected appliances operating",
+      "Wall colour and lighting",
+      "Only the new appliance in isolation",
+      "Thermostat logo"
+    ],
+    "answer": 0,
+    "explanation": "Other appliances affect gas demand and air pressure. Full-load and worst-case conditions can reveal problems. Commissioning should reflect real operating conditions."
+  },
+  {
+    "id": 147,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A furnace is commissioned in mild weather, but the outdoor intake is located where freezing rain can block it. What should the technician consider?",
+    "options": [
+      "Site conditions may create future unsafe intake restriction",
+      "Mild-weather operation proves all seasons",
+      "Freezing rain improves intake air density",
+      "Gas pressure will prevent blockage"
+    ],
+    "answer": 0,
+    "explanation": "Commissioning includes checking installation suitability. Future weather conditions can block intakes or exhausts. Termination location and protection must meet manufacturer and site requirements."
+  },
+  {
+    "id": 148,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A safety interlock is installed but not functionally tested. What is missing?",
+    "options": [
+      "Proof that the interlock actually prevents unsafe operation",
+      "Proof that pipe size is correct",
+      "Proof that cabinet colour is correct",
+      "Proof that gas heating value is high"
+    ],
+    "answer": 0,
+    "explanation": "Installed safety devices can be miswired or defective. Functional testing confirms the control sequence responds correctly. Commissioning requires more than visual inspection."
+  },
+  {
+    "id": 149,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A new appliance is approved without showing the owner warning signs such as gas smell, CO alarm activation, or abnormal operation. What is incomplete?",
+    "options": [
+      "Customer safety instruction",
+      "Pipe threading",
+      "Meter clocking calculation",
+      "Regulator spring selection"
+    ],
+    "answer": 0,
+    "explanation": "Owner handover includes safety information. Customers should know when to shut equipment off and call for service. This reduces risk after commissioning."
+  },
+  {
+    "id": 150,
+    "category": "Block F / Task 17 — Commissions Gas-Fired Systems",
+    "question": "A technician completes commissioning but leaves test ports loose after removing the manometer. What is the hazard?",
+    "options": [
+      "Gas leakage from test ports",
+      "Lower CO automatically",
+      "Better future service access",
+      "Reduced gas pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Test ports are part of the gas system. They must be tightened or capped after testing. They must be leak tested before leaving the appliance in service."
+  }
+];
+window.quizQuestions = gasfitterBlockFTestingCommissioningQuestions;
+
+(function() {
+  const questions = window.quizQuestions;
+  const storageKey = "gasfitter_block_f_testing_commissioning_quiz_state_v1";
+  const historyKey = "gasfitter_block_f_testing_commissioning_quiz_history_v1";
+  let activeQuestions = [];
+  let currentIndex = 0;
+  let answers = [];
+  let timer = null;
+  let secondsLeft = 90;
+
+  const $ = (id) => document.getElementById(id);
+  const shuffle = (arr) => arr.map(v => [Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(v=>v[1]);
+  const categories = ["All Questions", ...Array.from(new Set(questions.map(q => q.category)))];
+
+  function init() {
+    $("totalQuestionsPill").textContent = `Questions: ${questions.length}`;
+    $("practiceCategory").innerHTML = categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
+    $("resumeQuizBtn").style.display = localStorage.getItem(storageKey) ? "inline-block" : "none";
+    bind();
+    renderOcean();
+  }
+
+  function bind() {
+    $("showOceanBtn").onclick = () => { $("oceanSection").classList.remove("hidden"); renderOcean(); };
+    $("hideOceanBtn").onclick = () => $("oceanSection").classList.add("hidden");
+    $("searchQuestions").oninput = renderOcean;
+    $("startQuizBtn").onclick = () => startQuiz();
+    $("resumeQuizBtn").onclick = resumeQuiz;
+    $("unansweredOnlyBtn").onclick = () => startSpecial("unanswered");
+    $("incorrectOnlyBtn").onclick = () => startSpecial("incorrect");
+    $("prevBtn").onclick = () => { if (currentIndex > 0) { currentIndex--; renderQuestion(); } };
+    $("nextBtn").onclick = () => { if (currentIndex < activeQuestions.length - 1) { currentIndex++; renderQuestion(); } };
+    $("submitQuizBtn").onclick = submitQuiz;
+    $("hintBtn").onclick = () => $("hintBox").classList.toggle("hidden");
+    $("restartSameBtn").onclick = () => startQuiz();
+    $("backSetupBtn").onclick = backToSetup;
+    $("reviewAllBtn").onclick = () => renderReview("all");
+    $("reviewUnansweredBtn").onclick = () => renderReview("unanswered");
+    $("reviewIncorrectBtn").onclick = () => renderReview("incorrect");
+  }
+
+  function getSelectedPool() {
+    const cat = $("practiceCategory").value;
+    return cat === "All Questions" ? questions.slice() : questions.filter(q => q.category === cat);
+  }
+
+  function startQuiz(poolOverride) {
+    let pool = poolOverride || getSelectedPool();
+    if ($("quizMode").value === "section" && !poolOverride) {
+      const size = Math.max(1, Math.min(parseInt($("sectionSize").value || "50", 10), pool.length));
+      pool = shuffle(pool).slice(0, size);
+    }
+    activeQuestions = pool;
+    currentIndex = 0;
+    answers = new Array(activeQuestions.length).fill(null);
+    showQuiz();
+    saveState();
+    renderQuestion();
+  }
+
+  function startSpecial(type) {
+    const history = JSON.parse(localStorage.getItem(historyKey) || "{}");
+    let pool = getSelectedPool();
+    if (type === "incorrect") pool = pool.filter(q => history[q.id] === false);
+    if (type === "unanswered") pool = pool.filter(q => history[q.id] === undefined);
+    if (!pool.length) {
+      alert(type === "incorrect" ? "No incorrect questions saved yet." : "No unanswered questions found.");
+      return;
+    }
+    startQuiz(pool);
+  }
+
+  function resumeQuiz() {
+    const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+    if (!saved) return;
+    activeQuestions = saved.ids.map(id => questions.find(q => q.id === id)).filter(Boolean);
+    currentIndex = saved.currentIndex || 0;
+    answers = saved.answers || new Array(activeQuestions.length).fill(null);
+    showQuiz();
+    renderQuestion();
+  }
+
+  function showQuiz() {
+    $("setupSection").classList.add("hidden");
+    $("oceanSection").classList.add("hidden");
+    $("resultSection").classList.add("hidden");
+    $("quizSection").classList.remove("hidden");
+    startTimer();
+  }
+
+  function backToSetup() {
+    clearInterval(timer);
+    $("quizSection").classList.add("hidden");
+    $("resultSection").classList.add("hidden");
+    $("setupSection").classList.remove("hidden");
+    $("resumeQuizBtn").style.display = localStorage.getItem(storageKey) ? "inline-block" : "none";
+  }
+
+  function startTimer() {
+    clearInterval(timer);
+    secondsLeft = 90;
+    updateTimer();
+    timer = setInterval(() => {
+      secondsLeft--;
+      updateTimer();
+      if (secondsLeft <= 0) {
+        if (currentIndex < activeQuestions.length - 1) {
+          currentIndex++;
+          renderQuestion();
+        } else {
+          submitQuiz();
+        }
+      }
+    }, 1000);
+  }
+
+  function updateTimer() {
+    const m = String(Math.floor(secondsLeft / 60)).padStart(2, "0");
+    const s = String(secondsLeft % 60).padStart(2, "0");
+    $("timerBox").textContent = `${m}:${s}`;
+  }
+
+  function renderQuestion() {
+    startTimer();
+    const q = activeQuestions[currentIndex];
+    $("quizQuestionTitle").textContent = `Question ${currentIndex + 1} of ${activeQuestions.length}`;
+    $("quizMeta").textContent = q.category;
+    $("quizProgress").style.width = `${((currentIndex + 1) / activeQuestions.length) * 100}%`;
+    $("quizQuestionText").textContent = q.question;
+    $("hintBox").classList.add("hidden");
+    $("hintText").textContent = makeHint(q);
+    $("quizOptions").innerHTML = q.options.map((opt, i) => 
+      `<button class="option ${answers[currentIndex] === i ? "selected" : ""}" data-idx="${i}" type="button">${String.fromCharCode(65+i)}. ${escapeHtml(opt)}</button>`
+    ).join("");
+    document.querySelectorAll(".option").forEach(btn => {
+      btn.onclick = () => {
+        answers[currentIndex] = parseInt(btn.dataset.idx, 10);
+        saveState();
+        renderQuestion();
+      };
+    });
+    renderNavigator();
+  }
+
+  function renderNavigator() {
+    $("navigator").innerHTML = activeQuestions.map((q, i) => 
+      `<button class="nav-btn ${answers[i] !== null ? "answered" : ""} ${i === currentIndex ? "current" : ""}" data-i="${i}" type="button">${i+1}</button>`
+    ).join("");
+    document.querySelectorAll(".nav-btn").forEach(btn => btn.onclick = () => {
+      currentIndex = parseInt(btn.dataset.i, 10);
+      renderQuestion();
+    });
+  }
+
+  function submitQuiz() {
+    clearInterval(timer);
+    let correct = 0;
+    const history = JSON.parse(localStorage.getItem(historyKey) || "{}");
+    activeQuestions.forEach((q, i) => {
+      const isCorrect = answers[i] === q.answer;
+      if (isCorrect) correct++;
+      history[q.id] = isCorrect;
+    });
+    localStorage.setItem(historyKey, JSON.stringify(history));
+    localStorage.removeItem(storageKey);
+    $("quizSection").classList.add("hidden");
+    $("resultSection").classList.remove("hidden");
+    const percent = Math.round((correct / activeQuestions.length) * 100);
+    $("resultCategory").textContent = $("practiceCategory").value;
+    $("resultScore").textContent = `${correct} / ${activeQuestions.length}`;
+    $("resultPercentage").textContent = `${percent}%`;
+    $("resultPerformance").textContent = percent >= 80 ? "Strong" : percent >= 70 ? "Passing Range" : "Needs Review";
+    $("passPrediction").textContent = percent >= 80 ? "High" : percent >= 70 ? "Moderate" : "Low";
+    renderReview("incorrect");
+  }
+
+  function renderReview(type) {
+    let rows = activeQuestions.map((q, i) => ({ q, i, chosen: answers[i] }));
+    if (type === "incorrect") rows = rows.filter(r => r.chosen !== r.q.answer);
+    if (type === "unanswered") rows = rows.filter(r => r.chosen === null);
+    $("reviewSection").innerHTML = rows.length ? rows.map(r => reviewCard(r.q, r.i, r.chosen)).join("") : `<div class="card">Nothing to review here.</div>`;
+  }
+
+  function reviewCard(q, i, chosen) {
+    return `<div class="review-card">
+      <div class="muted small">${escapeHtml(q.category)}</div>
+      <h3>${i+1}. ${escapeHtml(q.question)}</h3>
+      <div>${q.options.map((o, idx) => {
+        const cls = idx === q.answer ? "correct" : (chosen === idx ? "wrong" : "");
+        return `<div class="option ${cls}">${String.fromCharCode(65+idx)}. ${escapeHtml(o)}</div>`;
+      }).join("")}</div>
+      <p><strong>Your answer:</strong> ${chosen === null ? "Unanswered" : String.fromCharCode(65+chosen)}</p>
+      <p><strong>Correct answer:</strong> ${String.fromCharCode(65+q.answer)}</p>
+      <p><strong>Explanation:</strong> ${escapeHtml(q.explanation)}</p>
+    </div>`;
+  }
+
+  function renderOcean() {
+    const term = ($("searchQuestions")?.value || "").toLowerCase();
+    const cat = $("practiceCategory")?.value || "All Questions";
+    let pool = cat === "All Questions" ? questions : questions.filter(q => q.category === cat);
+    if (term) pool = pool.filter(q => (q.question + " " + q.category + " " + q.explanation).toLowerCase().includes(term));
+    $("oceanQuestionCount").textContent = `${pool.length} question(s) shown`;
+    $("oceanQuestions").innerHTML = pool.map(q => `<div class="ocean-item">
+      <div class="muted small">${escapeHtml(q.category)}</div>
+      <strong>${q.id}. ${escapeHtml(q.question)}</strong>
+      <div class="small muted">Answer: ${String.fromCharCode(65+q.answer)} — ${escapeHtml(q.options[q.answer])}</div>
+    </div>`).join("");
+  }
+
+  function makeHint(q) {
+    const correct = q.options[q.answer];
+    return `Focus on: ${correct.split(" ").slice(0, 6).join(" ")}...`;
+  }
+
+  function saveState() {
+    localStorage.setItem(storageKey, JSON.stringify({
+      ids: activeQuestions.map(q => q.id),
+      currentIndex,
+      answers
+    }));
+    $("resumeQuizBtn").style.display = "inline-block";
+  }
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, s => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[s]));
+  }
+
+  init();
+})();

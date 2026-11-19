@@ -1,0 +1,298 @@
+const gasfittergasfitterBFreePracticeQuestions = [
+  {
+    id: 1,
+    category: "Safety",
+    question: "What should you do if you smell gas on a job site?",
+    options: ["Stop work, avoid ignition sources, ventilate if safe, and report it", "Light a match to find the leak", "Keep working until break time", "Cover the smell with a fan only"],
+    answer: 0,
+    explanation: "A gas smell must be treated as a hazard. Stop work, avoid sparks or flames, and follow emergency procedures."
+  },
+  {
+    id: 2,
+    category: "Safety",
+    question: "Why is carbon monoxide dangerous?",
+    options: ["It is colourless, odourless, and can be deadly", "It smells like rotten eggs", "It only damages tools", "It improves combustion"],
+    answer: 0,
+    explanation: "Carbon monoxide cannot be seen or smelled and can cause serious poisoning or death."
+  },
+  {
+    id: 3,
+    category: "Tools",
+    question: "What is a manometer used for in gas work?",
+    options: ["Measuring gas pressure", "Cutting copper pipe", "Tightening bolts", "Measuring room temperature only"],
+    answer: 0,
+    explanation: "A manometer is used to measure gas pressure, often in inches of water column."
+  },
+  {
+    id: 4,
+    category: "Tools",
+    question: "What tool is commonly used to check for gas leaks?",
+    options: ["Approved leak detection solution or gas detector", "Hammer", "Wood chisel", "Paint brush only"],
+    answer: 0,
+    explanation: "Leaks should be checked with approved leak detection methods, never with an open flame."
+  },
+  {
+    id: 5,
+    category: "Gas Piping",
+    question: "Why must gas piping be properly supported?",
+    options: ["To prevent stress, sagging, and damage to joints", "To make it harder to inspect", "To reduce pipe size", "To increase appliance noise"],
+    answer: 0,
+    explanation: "Proper support helps protect piping and fittings from movement and damage."
+  },
+  {
+    id: 6,
+    category: "Gas Piping",
+    question: "What should be done before placing a gas piping system into service?",
+    options: ["Pressure test and leak check it according to requirements", "Paint it any colour", "Heat it with a torch", "Remove all shutoff valves"],
+    answer: 0,
+    explanation: "Gas piping must be tested and checked for leaks before it is used."
+  },
+  {
+    id: 7,
+    category: "Combustion",
+    question: "What three things are needed for combustion?",
+    options: ["Fuel, oxygen, and heat", "Water, oil, and sand", "Copper, steel, and plastic", "Pressure, paint, and glue"],
+    answer: 0,
+    explanation: "Combustion requires fuel, oxygen, and enough heat to ignite."
+  },
+  {
+    id: 8,
+    category: "Combustion",
+    question: "What can poor combustion produce?",
+    options: ["Carbon monoxide", "Clean drinking water", "More oxygen", "Lower gas pressure only"],
+    answer: 0,
+    explanation: "Poor combustion can produce carbon monoxide and other unsafe combustion products."
+  },
+  {
+    id: 9,
+    category: "Venting",
+    question: "What is the purpose of a venting system on a gas appliance?",
+    options: ["Remove combustion products safely outdoors", "Bring fuel into the appliance", "Increase room humidity", "Store gas pressure"],
+    answer: 0,
+    explanation: "Venting carries combustion products away from the appliance and occupied space."
+  },
+  {
+    id: 10,
+    category: "Venting",
+    question: "What can happen if a vent is blocked?",
+    options: ["Combustion products may spill into the building", "The appliance becomes more efficient", "Gas pressure always increases", "The pilot becomes waterproof"],
+    answer: 0,
+    explanation: "Blocked vents can cause dangerous flue gas spillage, including carbon monoxide."
+  },
+  {
+    id: 11,
+    category: "Appliances",
+    question: "What is the purpose of a gas appliance rating plate?",
+    options: ["Provide important appliance information such as input rating and gas type", "Decorate the appliance", "Replace the manual", "Hold the burner in place"],
+    answer: 0,
+    explanation: "The rating plate lists key information needed for safe installation and service."
+  },
+  {
+    id: 12,
+    category: "Appliances",
+    question: "Why must the correct gas type be used for an appliance?",
+    options: ["Using the wrong gas can create unsafe operation", "It changes the appliance colour", "It reduces the need for venting", "It makes leak checks unnecessary"],
+    answer: 0,
+    explanation: "Appliances are designed for specific fuels such as natural gas or propane."
+  },
+  {
+    id: 13,
+    category: "Regulators",
+    question: "What is the purpose of a gas pressure regulator?",
+    options: ["Control gas pressure to a safe usable level", "Filter dust from the room", "Increase water temperature", "Support the vent pipe"],
+    answer: 0,
+    explanation: "A regulator reduces or controls gas pressure for safe appliance operation."
+  },
+  {
+    id: 14,
+    category: "Controls",
+    question: "What is the purpose of a manual shutoff valve?",
+    options: ["Allow gas to be turned off to equipment", "Increase burner flame size only", "Clean the gas line", "Measure carbon monoxide"],
+    answer: 0,
+    explanation: "A shutoff valve lets the gas supply be isolated for service or emergencies."
+  },
+  {
+    id: 15,
+    category: "Electrical Basics",
+    question: "Why should electrical power be disconnected before servicing a gas appliance?",
+    options: ["To reduce shock and unexpected start-up hazards", "To increase gas pressure", "To clean the burner", "To make the vent shorter"],
+    answer: 0,
+    explanation: "Disconnecting power helps protect the technician from electrical and mechanical hazards."
+  },
+  {
+    id: 16,
+    category: "Maintenance",
+    question: "Why should burners be kept clean?",
+    options: ["Dirty burners can cause poor combustion", "Clean burners use no gas", "Dirty burners increase oxygen", "Burners do not need inspection"],
+    answer: 0,
+    explanation: "Dust, rust, or debris can affect flame quality and combustion."
+  },
+  {
+    id: 17,
+    category: "Codes",
+    question: "Why must gas installations follow code requirements?",
+    options: ["To protect people, property, and equipment", "To make work slower only", "To avoid using tools", "To increase pipe weight"],
+    answer: 0,
+    explanation: "Gas codes set minimum safety requirements for installation and service."
+  },
+  {
+    id: 18,
+    category: "Trade Math",
+    question: "An appliance uses 40,000 BTU/h and another uses 60,000 BTU/h. What is the total input?",
+    options: ["100,000 BTU/h", "20,000 BTU/h", "60,000 BTU/h", "240,000 BTU/h"],
+    answer: 0,
+    explanation: "Total input is 40,000 + 60,000 = 100,000 BTU/h."
+  },
+  {
+    id: 19,
+    category: "Customer Service",
+    question: "What should a technician do after completing service work?",
+    options: ["Explain the work performed and leave the area safe", "Hide the service results", "Leave tools behind", "Disable all safety controls"],
+    answer: 0,
+    explanation: "Good service includes clear communication and safe clean-up."
+  },
+  {
+    id: 20,
+    category: "Trade Knowledge",
+    question: "What is one major difference between natural gas and propane?",
+    options: ["Propane is heavier than air, while natural gas is lighter than air", "They are always stored the same way", "Natural gas is heavier than water", "Propane cannot burn"],
+    answer: 0,
+    explanation: "Propane tends to collect in low areas, while natural gas tends to rise."
+  }
+]
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledGasfitterBFreePracticeQuestions =
+  shuffleArray(gasfittergasfitterBFreePracticeQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "gasfitter-b",
+  tradeTitle: "Gasfitter B",
+  sectionTitle: "Free Practice Set",
+  questionTimeSeconds: 90,
+  questions: shuffledGasfitterBFreePracticeQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledGasfitterBFreePracticeQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+
+  const premiumPopup = document.getElementById("premiumPopup");
+  const premiumPopupClose = document.getElementById("premiumPopupClose");
+  const premiumPopupLater = document.getElementById("premiumPopupLaterBtn");
+  const premiumPopupBuy = document.getElementById("premiumPopupBuyBtn");
+  const upgradeNowBtn = document.getElementById("upgradeNowBtn");
+  const premiumTradeSlug = window.location.pathname.split("/").filter(Boolean).pop() || "";
+  const premiumTradesPage = `/pricing?trade=${encodeURIComponent(premiumTradeSlug)}`;
+
+  function showPremiumPopup() {
+    if (!premiumPopup) return;
+    premiumPopup.classList.add("show");
+    premiumPopup.setAttribute("aria-hidden", "false");
+  }
+
+  function hidePremiumPopup() {
+    if (!premiumPopup) return;
+    premiumPopup.classList.remove("show");
+    premiumPopup.setAttribute("aria-hidden", "true");
+  }
+
+  function goToPremiumTrades() {
+    window.location.href = premiumTradesPage;
+  }
+
+  if (premiumPopupClose) premiumPopupClose.addEventListener("click", hidePremiumPopup);
+  if (premiumPopupLater) premiumPopupLater.addEventListener("click", hidePremiumPopup);
+  if (premiumPopupBuy) premiumPopupBuy.addEventListener("click", goToPremiumTrades);
+  if (upgradeNowBtn) upgradeNowBtn.addEventListener("click", showPremiumPopup);
+
+  // Show premium popup after 1 minute
+  setTimeout(showPremiumPopup, 60000);
+
+  // Show premium popup again after user submits quiz
+  const premiumSubmitQuizBtn = document.getElementById("submitQuizBtn");
+  if (premiumSubmitQuizBtn) {
+    premiumSubmitQuizBtn.addEventListener("click", () => {
+      setTimeout(showPremiumPopup, 800);
+    });
+  }
+
+
+  resetHint();
+});

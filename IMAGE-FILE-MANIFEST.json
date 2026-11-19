@@ -1,0 +1,29 @@
+{
+  "homepage": {
+    "file": "public/images/home/home-hero.jpg",
+    "recommended": "1600x1100",
+    "ratio": "approximately 3:2"
+  },
+  "faq": {
+    "file": "public/images/ui/faq-support.jpg",
+    "recommended": "900x700",
+    "ratio": "approximately 4:3"
+  },
+  "social": {
+    "file": "public/images/social/og-image.jpg",
+    "recommended": "1200x630",
+    "ratio": "1.91:1"
+  },
+  "articles": [
+    "public/images/articles/red-seal-exam-preparation-guide.jpg",
+    "public/images/articles/why-skilled-trades-are-a-strong-career-choice.jpg",
+    "public/images/articles/workplace-safety-skilled-trades.jpg",
+    "public/images/articles/essential-skills-successful-tradesperson.jpg",
+    "public/images/articles/canada-skilled-trades-workforce-growth.jpg",
+    "public/images/articles/canada-housing-construction-slowdown-unsold-inventory.jpg",
+    "public/images/articles/canada-needs-200000-skilled-trades-workers-per-year.jpg",
+    "public/images/articles/canada-express-entry-crs-points-trade-apprentices.jpg",
+    "public/images/articles/difference-between-level-exam-and-red-seal.jpg"
+  ],
+  "trade_images_optional": "public/images/trades/<trade-slug>.jpg"
+}

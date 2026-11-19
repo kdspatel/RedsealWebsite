@@ -1,0 +1,1598 @@
+const cabinetmakerIPRedSealSet3Questions = [
+  {
+    "id": 1,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A worker must clear a jam from a CNC dust collection hood while the machine is paused. What is the safest procedure?",
+    "options": [
+      "Reach in quickly while the spindle is stopped",
+      "Lock out the machine and dust system before clearing",
+      "Ask another worker to hold the emergency stop",
+      "Clear the jam with compressed air only"
+    ],
+    "answer": 1,
+    "explanation": "Paused equipment can still restart or contain stored energy. Lockout protects the worker from accidental motion, suction, or rotating components."
+  },
+  {
+    "id": 2,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A finishing room has strong solvent odour and poor air movement. What is the greatest immediate concern?",
+    "options": [
+      "Uneven stain colour",
+      "Fire, explosion, and inhalation hazard",
+      "Slower sanding",
+      "Weak drawer slides"
+    ],
+    "answer": 1,
+    "explanation": "Solvent vapours can be flammable and harmful to breathe. Ventilation, ignition control, and proper PPE must be addressed before continuing."
+  },
+  {
+    "id": 3,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A jointer produces a slightly concave edge on every board. What should be checked first?",
+    "options": [
+      "Outfeed table height and knife setting",
+      "Wood stain compatibility",
+      "Cabinet door overlay",
+      "Sandpaper grit"
+    ],
+    "answer": 0,
+    "explanation": "Jointer edge errors often come from table or knife setup. Incorrect outfeed height can create tapered or concave cuts."
+  },
+  {
+    "id": 4,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A router bit leaves vibration marks even though it is sharp. What is the most likely maintenance issue?",
+    "options": [
+      "Collet wear, bearing wear, or poor bit seating",
+      "Glue open time",
+      "Veneer colour",
+      "Finish sheen"
+    ],
+    "answer": 0,
+    "explanation": "A sharp bit can still chatter if it is not held securely. Worn collets or bearings allow movement and reduce cut quality."
+  },
+  {
+    "id": 5,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A pneumatic nailer double-fires occasionally during production. What should be checked?",
+    "options": [
+      "Trigger mechanism, safety contact, air pressure, and technique",
+      "Cabinet back thickness only",
+      "Stain dry time",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Double-firing can come from tool condition, pressure, or contact-trip technique. The tool should be inspected before further use."
+  },
+  {
+    "id": 6,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A tape measure hook is loose and gives inconsistent inside and outside measurements. What should be done?",
+    "options": [
+      "Repair or replace the tape measure",
+      "Use it only for finished parts",
+      "Bend the hook tighter by hand and continue",
+      "Ignore small differences"
+    ],
+    "answer": 0,
+    "explanation": "Measuring tools must be reliable. Inconsistent measurements can create repeated fabrication errors."
+  },
+  {
+    "id": 7,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A shop must build a large veneer wall panel set with sequenced grain. What is the most important planning step before cutting?",
+    "options": [
+      "Create a cutting and sequencing plan for all panels",
+      "Cut panels randomly to save time",
+      "Finish each panel before numbering",
+      "Mix veneer leaves for better yield"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels depend on controlled layout and order. Cutting without a plan can destroy the grain match."
+  },
+  {
+    "id": 8,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A project includes CNC machining, edge banding, finishing, and hardware installation. What is the main purpose of sequencing these operations?",
+    "options": [
+      "To prevent rework and damage to finished parts",
+      "To avoid checking drawings",
+      "To use hardware first every time",
+      "To eliminate inspection"
+    ],
+    "answer": 0,
+    "explanation": "Some operations must happen before finishing or assembly. Poor sequencing can damage parts or make later work difficult."
+  },
+  {
+    "id": 9,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A site measurement conflicts with the approved shop drawing. What is the best action?",
+    "options": [
+      "Stop and request clarification or revised approval",
+      "Follow the smaller dimension automatically",
+      "Build to the original drawing only",
+      "Let the installer solve it later"
+    ],
+    "answer": 0,
+    "explanation": "Conflicts must be resolved before fabrication. Proceeding without approval can cause costly rework or responsibility disputes."
+  },
+  {
+    "id": 10,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A material list calls for prefinished maple plywood, but unfinished maple plywood is delivered. What should be done first?",
+    "options": [
+      "Verify specification before accepting or using it",
+      "Use it and apply finish later without approval",
+      "Cut hidden parts only",
+      "Mix both materials randomly"
+    ],
+    "answer": 0,
+    "explanation": "Material substitutions affect cost, appearance, and schedule. They must be confirmed before production."
+  },
+  {
+    "id": 11,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A batch of cabinet doors is stacked face-to-face without protection after finishing. What is the likely risk?",
+    "options": [
+      "Blocking, imprinting, or surface damage",
+      "Improved finish hardness",
+      "Better grain match",
+      "Reduced curing time"
+    ],
+    "answer": 0,
+    "explanation": "Finishes can be damaged if stacked too soon or without protection. Pads and proper cure time protect surfaces."
+  },
+  {
+    "id": 12,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A worker removes orientation marks from matched cabinet parts before assembly. What is the main risk?",
+    "options": [
+      "Grain sequence or fitted joint order may be lost",
+      "Adhesive becomes weaker immediately",
+      "Sanding becomes unnecessary",
+      "Hardware becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Orientation marks preserve order, grain flow, and joint fit. Removing them too early can cause mismatched assembly."
+  },
+  {
+    "id": 13,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A two-part adhesive is mixed by eye instead of measured. What is the most serious concern?",
+    "options": [
+      "Incorrect cure or bond failure",
+      "Better open time",
+      "Stronger bond automatically",
+      "Less need for clamping"
+    ],
+    "answer": 0,
+    "explanation": "Two-part adhesives depend on correct ratio. Incorrect mixing can leave joints weak or uncured."
+  },
+  {
+    "id": 14,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A sheet of expensive veneer core plywood has a damaged corner. What is the best production response?",
+    "options": [
+      "Mark the damage and plan parts to avoid or hide it where acceptable",
+      "Ignore it and cut visible parts first",
+      "Use the damaged corner for a door face",
+      "Reject all sheets automatically without checking"
+    ],
+    "answer": 0,
+    "explanation": "Damage must be controlled during layout. Good planning may allow use in hidden or waste areas without reducing quality."
+  },
+  {
+    "id": 15,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "An apprentice repeatedly measures from different reference edges and produces inconsistent parts. What mentoring action is best?",
+    "options": [
+      "Demonstrate reference-edge layout and check their next parts",
+      "Tell them to work faster",
+      "Remove the measuring tools",
+      "Let them continue until all parts are cut"
+    ],
+    "answer": 0,
+    "explanation": "The problem is process-based. Demonstration and supervised correction help build accurate habits."
+  },
+  {
+    "id": 16,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A client verbally changes the reveal size on a custom cabinet run during installation. What should the cabinetmaker do?",
+    "options": [
+      "Document and confirm the change before modifying work",
+      "Make the change immediately without record",
+      "Refuse all changes automatically",
+      "Change only one cabinet as a test without approval"
+    ],
+    "answer": 0,
+    "explanation": "Field changes affect design, cost, and responsibility. Written confirmation prevents disputes."
+  },
+  {
+    "id": 17,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A board is jointed with the crown down and rocks less after one pass but still twists. What should be done?",
+    "options": [
+      "Continue controlled face jointing until a stable reference face is created",
+      "Plane the opposite face immediately without a reference",
+      "Rip it to final width first",
+      "Sand the high corners only"
+    ],
+    "answer": 0,
+    "explanation": "A planer copies the reference face. Twisted material needs a properly flattened face before thicknessing."
+  },
+  {
+    "id": 18,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A thickness planer leaves tear-out on reversing grain even with sharp knives. What may improve the result?",
+    "options": [
+      "Lighter cuts and alternate machining method or direction",
+      "Heavier cuts",
+      "Faster feed with dull knives",
+      "No dust collection"
+    ],
+    "answer": 0,
+    "explanation": "Reversing grain is difficult to plane cleanly. Light passes, changing feed direction, or sanding/scraping may be needed."
+  },
+  {
+    "id": 19,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A table saw rip cut shows burn marks only on the fence side. What is the most likely cause?",
+    "options": [
+      "Fence alignment or blade parallelism issue",
+      "Finish contamination",
+      "Wrong glue ratio",
+      "Poor drawer slide rating"
+    ],
+    "answer": 0,
+    "explanation": "Burning on one side suggests pinching or rubbing. Fence and blade alignment should be checked."
+  },
+  {
+    "id": 20,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A cope-and-stick rail joint has a small step at the profile. What should be checked?",
+    "options": [
+      "Cutter setup, stock thickness consistency, and reference face",
+      "Spray gun pressure",
+      "Veneer tape type",
+      "Stair riser height"
+    ],
+    "answer": 0,
+    "explanation": "Profile joints require matching stock and setup. Thickness variation or wrong reference face causes misalignment."
+  },
+  {
+    "id": 21,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A panel edge chips badly when cut on a portable saw. What combination gives the best correction?",
+    "options": [
+      "Correct blade, support, scoring/tape, and face orientation",
+      "More force and dull blade",
+      "Cut unsupported to reduce friction",
+      "Finish before cutting"
+    ],
+    "answer": 0,
+    "explanation": "Chip-out is controlled by blade choice, support, and surface orientation. Finished faces need extra protection."
+  },
+  {
+    "id": 22,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A mortise is square at the top but angled through the workpiece. What should be checked?",
+    "options": [
+      "Workpiece clamping and machine alignment",
+      "Stain open time",
+      "Drawer pull location",
+      "Laminate cleaner"
+    ],
+    "answer": 0,
+    "explanation": "Angled mortises often come from poor work holding or table/bit misalignment. Secure setup is required."
+  },
+  {
+    "id": 23,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A tenon fits well in width but shoulders do not close. What is the likely cause?",
+    "options": [
+      "Tenon too long, mortise too shallow, or shoulder not square",
+      "Finish too glossy",
+      "Correct tenon fit",
+      "Proper shoulder cut"
+    ],
+    "answer": 0,
+    "explanation": "A tenon can fit side-to-side but still bottom out. Shoulder and depth accuracy must be checked."
+  },
+  {
+    "id": 24,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A dado stack creates a groove with a rough bottom and slight ridges. What should be checked?",
+    "options": [
+      "Cutter setup, chippers, and feed rate",
+      "Finish sample",
+      "Veneer grain direction",
+      "Handrail bracket spacing"
+    ],
+    "answer": 0,
+    "explanation": "Dado quality depends on cutter condition and setup. Damaged chippers or poor feed create ridges."
+  },
+  {
+    "id": 25,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A router profile tears out at the end of a long grain cut. What is the best prevention?",
+    "options": [
+      "Use a backer block or change sequence to support exit fibres",
+      "Push harder through the end",
+      "Use a dull bit",
+      "Remove the fence"
+    ],
+    "answer": 0,
+    "explanation": "Exit fibres need support. Backer blocks or cutting end grain first can reduce blowout."
+  },
+  {
+    "id": 26,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A band saw resaw cut wanders even with a sharp blade. What should be checked?",
+    "options": [
+      "Blade tension, guide setting, feed pressure, and fence drift",
+      "Glue colour",
+      "Cabinet hinge overlay",
+      "Finish catalyst ratio"
+    ],
+    "answer": 0,
+    "explanation": "Resawing requires stable blade tracking and correct feed. Poor guide setup or drift causes wandering."
+  },
+  {
+    "id": 27,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A drill press produces clean holes but inconsistent depth. What should be checked?",
+    "options": [
+      "Depth stop and workpiece seating",
+      "Finish sheen",
+      "Door reveal only",
+      "Veneer sequence"
+    ],
+    "answer": 0,
+    "explanation": "Depth accuracy depends on the stop and consistent stock position. Chips under the work can change depth."
+  },
+  {
+    "id": 28,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A hand-held router cuts deeper at one end of a stopped groove. What is the likely issue?",
+    "options": [
+      "Router base tipped or work was not supported evenly",
+      "Cutter was too sharp",
+      "Glue was applied early",
+      "Dust collection was too strong"
+    ],
+    "answer": 0,
+    "explanation": "Portable routers need stable base support. Tipping changes depth and ruins stopped cuts."
+  },
+  {
+    "id": 29,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A moulder produces chatter marks on long trim. What should be inspected?",
+    "options": [
+      "Cutter sharpness, feed rollers, hold-downs, and stock support",
+      "Finish compatibility",
+      "Stair baluster code",
+      "Contact cement flash time"
+    ],
+    "answer": 0,
+    "explanation": "Chatter can come from vibration, poor feed, or loose stock. Tooling and machine pressure must be correct."
+  },
+  {
+    "id": 30,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A sander leaves cross-grain scratches that show after stain. What caused the problem?",
+    "options": [
+      "Wrong sanding direction or skipped grit progression",
+      "Correct final sanding",
+      "Proper dust removal",
+      "Good finishing sequence"
+    ],
+    "answer": 0,
+    "explanation": "Stain highlights scratches. Final sanding should follow grain and progress through appropriate grits."
+  },
+  {
+    "id": 31,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "CNC parts are accurate in X direction but consistently short in Y direction. What should be checked?",
+    "options": [
+      "Axis calibration, drive components, and program scaling",
+      "Finish viscosity",
+      "Veneer balancing",
+      "Stair nosing size"
+    ],
+    "answer": 0,
+    "explanation": "Direction-specific errors point to machine calibration or axis movement. Scaling and drive issues can shorten parts."
+  },
+  {
+    "id": 32,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "CNC pocket bottoms show ridges after machining. What should be checked?",
+    "options": [
+      "Tool condition, step-over, toolpath strategy, and spindle tram",
+      "Contact cement residue",
+      "Cabinet back fit",
+      "Finish dry time"
+    ],
+    "answer": 0,
+    "explanation": "Pocket quality depends on toolpath and machine setup. Excessive step-over or poor tram leaves ridges."
+  },
+  {
+    "id": 33,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A CNC compression bit chips the top face of melamine. What is likely wrong?",
+    "options": [
+      "Cutting depth or bit geometry engagement",
+      "Proper compression use",
+      "Correct sheet orientation always",
+      "Too much finishing"
+    ],
+    "answer": 0,
+    "explanation": "Compression bits must engage both upcut and downcut portions correctly. Incorrect depth can chip the top or bottom face."
+  },
+  {
+    "id": 34,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "During CNC cutting, vacuum drops after several parts are cut free. What should be planned?",
+    "options": [
+      "Onion-skinning, tabs, gasketing, or cut sequence changes",
+      "Higher finish sheen",
+      "More stain",
+      "Less material support"
+    ],
+    "answer": 0,
+    "explanation": "As parts are released, vacuum holding area decreases. Workholding strategy must maintain control throughout machining."
+  },
+  {
+    "id": 35,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A CNC file is correct, but holes are drilled on the wrong face of prefinished panels. What setup error occurred?",
+    "options": [
+      "Panel orientation or face-up/face-down setting was wrong",
+      "Tool was too sharp",
+      "Dust collection was too strong",
+      "Adhesive open time was exceeded"
+    ],
+    "answer": 0,
+    "explanation": "CNC machining depends on correct material orientation. Finished faces and mirrored parts must be verified before running."
+  },
+  {
+    "id": 36,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A curved lamination has correct radius but the ends are not tangent to adjoining straight rails. What was missed?",
+    "options": [
+      "Tangent reference points on the form",
+      "Extra glue squeeze-out",
+      "More finish thinner",
+      "Random clamp order"
+    ],
+    "answer": 0,
+    "explanation": "Curved work must align with adjacent straight parts. Tangent points and trim references should be controlled on the form."
+  },
+  {
+    "id": 37,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A curved form deflects slightly under clamp pressure. Why is this unacceptable?",
+    "options": [
+      "The lamination cures to the distorted shape",
+      "It improves springback compensation",
+      "It reduces glue-line stress",
+      "It makes sanding easier"
+    ],
+    "answer": 0,
+    "explanation": "The form defines the part while adhesive cures. Any form movement can be copied into the final component."
+  },
+  {
+    "id": 38,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A steam-bent rail develops compression wrinkles on the inside radius. What is the likely cause?",
+    "options": [
+      "Bend too tight, poor stock selection, or inadequate support",
+      "Too much finish sanding",
+      "Correct bending strap use",
+      "Proper steaming only"
+    ],
+    "answer": 0,
+    "explanation": "Inside fibres compress during bending. Tight bends and unsupported stock can wrinkle or buckle."
+  },
+  {
+    "id": 39,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A vacuum-pressed curved panel shows good edges but centre voids. What should be checked?",
+    "options": [
+      "Bag contact, cauls, breather material, and pressure distribution",
+      "Stain colour",
+      "Screw length",
+      "Router bit profile"
+    ],
+    "answer": 0,
+    "explanation": "Edge contact does not prove centre pressure. Vacuum pressing must deliver pressure to the full surface."
+  },
+  {
+    "id": 40,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 1. Performs safety-related functions — 2",
+    "question": "A curved component made from thick laminations repeatedly cracks. What is the best correction?",
+    "options": [
+      "Use thinner laminations or a more suitable material",
+      "Clamp faster and harder",
+      "Use less form support",
+      "Apply finish before bending"
+    ],
+    "answer": 0,
+    "explanation": "Thick layers resist bending and create stress. Thin laminations reduce cracking and improve bond quality."
+  },
+  {
+    "id": 41,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A wide laminated panel is flat when removed from clamps but cups overnight. What is the most likely cause?",
+    "options": [
+      "Unequal moisture content or unbalanced board arrangement",
+      "Correct acclimatization",
+      "Perfect grain orientation",
+      "Proper storage conditions"
+    ],
+    "answer": 0,
+    "explanation": "Moisture imbalance and poor stock arrangement can create internal stress. The panel may move after clamp pressure is released."
+  },
+  {
+    "id": 42,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A glue-up has good squeeze-out along the edges but fails in the centre. What should be reviewed?",
+    "options": [
+      "Pressure distribution and adhesive transfer across the full width",
+      "Edge colour only",
+      "Finish sheen",
+      "Screw length"
+    ],
+    "answer": 0,
+    "explanation": "Edge squeeze-out does not guarantee centre bonding. Wide glue-ups need cauls or pressure systems that reach the middle."
+  },
+  {
+    "id": 43,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminated beam shows a dark glue line after machining. What is the likely cause?",
+    "options": [
+      "Poor joint fit, excess glue, or uneven pressure",
+      "Perfect edge jointing",
+      "Correct clamp pressure",
+      "Ideal adhesive spread"
+    ],
+    "answer": 0,
+    "explanation": "Visible glue lines often indicate gaps or poor pressure. Accurate machining and controlled clamping reduce this defect."
+  },
+  {
+    "id": 44,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A worker applies glue to all laminations before preparing clamps and cauls. What risk increases?",
+    "options": [
+      "Adhesive open time may be exceeded",
+      "The joint becomes stronger",
+      "The panel becomes flatter",
+      "Springback disappears"
+    ],
+    "answer": 0,
+    "explanation": "Glue-up must be planned before adhesive is applied. Delays can reduce bond strength if the adhesive skins or sets."
+  },
+  {
+    "id": 45,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A panel joint opens after unclamping even though the clamps were tight. What was likely wrong?",
+    "options": [
+      "Joint edges were not accurately prepared",
+      "Clamps were labelled",
+      "Adhesive was compatible",
+      "Parts were clean"
+    ],
+    "answer": 0,
+    "explanation": "Clamps should not force poorly fitted edges together. When pressure is removed, stressed joints can open."
+  },
+  {
+    "id": 46,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminated part fails when machined, and the glue line appears dry. What was likely insufficient?",
+    "options": [
+      "Adhesive spread or bonding pressure",
+      "Sanding after curing",
+      "Finish compatibility",
+      "Drawer adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Dry glue lines show poor adhesive transfer. Good bonds require proper spread, pressure, and surface preparation."
+  },
+  {
+    "id": 47,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A shop changes from PVA to a rigid adhesive for laminating curved work. What must be considered?",
+    "options": [
+      "Adhesive creep, stiffness, open time, and clamp requirements",
+      "Door hinge overlay only",
+      "Stain colour",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Adhesives behave differently under stress and time. Changing adhesive can affect springback, strength, and working method."
+  },
+  {
+    "id": 48,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A veneer sequence looks correct on the bench but appears reversed after pressing. What was likely missed?",
+    "options": [
+      "Face orientation and pressing layout control",
+      "Extra sanding time",
+      "More adhesive only",
+      "Better spray pattern"
+    ],
+    "answer": 0,
+    "explanation": "Veneer must be tracked for face side and orientation. Flipping or rotating leaves can break the intended match."
+  },
+  {
+    "id": 49,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A veneered panel bows after pressing, even though the face veneer bonded well. What construction issue should be checked?",
+    "options": [
+      "Balance veneer or backing on the opposite face",
+      "Drawer slide length",
+      "Stair baluster spacing",
+      "Router bearing size"
+    ],
+    "answer": 0,
+    "explanation": "Veneering one face can create unequal stress. Balanced construction helps keep panels flat."
+  },
+  {
+    "id": 50,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A veneer seam is visible after finishing but felt tight before pressing. What may have caused this?",
+    "options": [
+      "Seam movement, poor edge jointing, or glue contamination",
+      "Correct taping",
+      "Perfect press pressure",
+      "Proper leaf sequencing"
+    ],
+    "answer": 0,
+    "explanation": "Veneer seams must remain tight through pressing. Small gaps or glue contamination become more visible after finishing."
+  },
+  {
+    "id": 51,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Small ridges show through a veneer face after topcoating. What should have been done before pressing?",
+    "options": [
+      "Flatten and clean the substrate completely",
+      "Use more topcoat",
+      "Sand the veneer through",
+      "Increase hinge adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Veneer telegraphs defects underneath. Substrates must be flat, smooth, and free of debris."
+  },
+  {
+    "id": 52,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A worker sands a veneer panel after pressing and creates a light patch near an edge. What likely happened?",
+    "options": [
+      "Veneer was sanded too thin or through",
+      "Adhesive cured perfectly",
+      "Grain matching improved",
+      "Substrate became thicker"
+    ],
+    "answer": 0,
+    "explanation": "Veneer is thin, especially near edges. Excessive sanding can expose substrate or weaken the face."
+  },
+  {
+    "id": 53,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Veneer bubbles appear only near the edges of a large panel. What should be checked?",
+    "options": [
+      "Edge pressure, adhesive coverage, and press setup",
+      "Door pull style",
+      "Finish smell",
+      "CNC tool number"
+    ],
+    "answer": 0,
+    "explanation": "Edge areas can lose pressure or adhesive contact. Proper press setup and glue spread are required across the whole panel."
+  },
+  {
+    "id": 54,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A flitch-matched panel set has one leaf with noticeably different colour. What should be done before pressing?",
+    "options": [
+      "Re-sort or reposition the leaf to maintain visual match",
+      "Press it and hide it with clear coat",
+      "Sand the colour away",
+      "Use it in the centre automatically"
+    ],
+    "answer": 0,
+    "explanation": "Veneer selection controls final appearance. Colour variation should be managed before bonding."
+  },
+  {
+    "id": 55,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminate sheet is bonded successfully but later shows bumps across the surface. What was the likely error?",
+    "options": [
+      "Dust or debris left on the substrate",
+      "Correct substrate preparation",
+      "Proper rolling pressure",
+      "Approved adhesive use"
+    ],
+    "answer": 0,
+    "explanation": "Laminate follows the substrate surface. Dirt or debris trapped underneath can telegraph as bumps."
+  },
+  {
+    "id": 56,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Contact cement was applied heavily and bonded before proper flash-off. What failure is likely?",
+    "options": [
+      "Trapped solvent, weak bond, or bubbles",
+      "Better adhesion",
+      "Cleaner edge trimming",
+      "Stronger substrate"
+    ],
+    "answer": 0,
+    "explanation": "Contact cement must flash off before bonding. Wet adhesive can trap solvent and reduce bond strength."
+  },
+  {
+    "id": 57,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A post-formed laminate cracks at the bend. What should be checked?",
+    "options": [
+      "Laminate grade, heat, radius, and forming method",
+      "Drawer slide extension",
+      "Cabinet back thickness",
+      "Veneer tape type"
+    ],
+    "answer": 0,
+    "explanation": "Post-forming requires suitable laminate and controlled heating. Wrong grade or radius can cause cracking."
+  },
+  {
+    "id": 58,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminate edge chips during flush trimming. What is the most likely cause?",
+    "options": [
+      "Dull bit, wrong feed direction, or poor support",
+      "Proper trimming setup",
+      "Correct cutter sharpness",
+      "Smooth substrate only"
+    ],
+    "answer": 0,
+    "explanation": "Laminate edges chip easily. Sharp tooling, correct feed, and support reduce damage."
+  },
+  {
+    "id": 59,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminate panel is slightly misaligned after contact. Why is this difficult to fix?",
+    "options": [
+      "Contact cement bonds immediately when surfaces touch",
+      "Laminate can slide freely for hours",
+      "Rolling removes all alignment errors",
+      "Adhesive does not bond until clamped overnight"
+    ],
+    "answer": 0,
+    "explanation": "Contact cement grabs on contact. Spacer sticks help position laminate before the surfaces touch."
+  },
+  {
+    "id": 60,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "After cleanup, a glossy laminate surface appears scratched and dull. What was likely wrong?",
+    "options": [
+      "Abrasive or incompatible cleaner was used",
+      "Manufacturer-approved cleaner was used",
+      "Correct cloth and solvent were used",
+      "Laminate grade improved"
+    ],
+    "answer": 0,
+    "explanation": "Decorative laminate can be damaged by harsh cleaning. Cleanup must use approved methods."
+  },
+  {
+    "id": 61,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A laminate countertop edge feels sharp after trimming. What finishing step is needed?",
+    "options": [
+      "Lightly ease or dress the edge",
+      "Apply more contact cement",
+      "Leave it because it is cleaner",
+      "Sand through the laminate face"
+    ],
+    "answer": 0,
+    "explanation": "Sharp laminate edges can chip and cut users. Easing improves safety and durability."
+  },
+  {
+    "id": 62,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A cabinet case is square before the back is installed, but racks afterward. What should be checked?",
+    "options": [
+      "Back panel size, fit, and fastening sequence",
+      "Finish sample colour",
+      "Drawer pull shape",
+      "Shelf-pin jig colour"
+    ],
+    "answer": 0,
+    "explanation": "A back panel should hold the case square, not distort it. Oversized or forced backs can rack the cabinet."
+  },
+  {
+    "id": 63,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A concealed hinge door cannot be adjusted enough to achieve even reveals. What should be checked first?",
+    "options": [
+      "Hinge boring location and case squareness",
+      "Finish cure only",
+      "Drawer slide rating",
+      "Edge banding colour"
+    ],
+    "answer": 0,
+    "explanation": "Hinges have limited adjustment range. Incorrect boring or an out-of-square case may exceed that range."
+  },
+  {
+    "id": 64,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A drawer works smoothly before the front is attached but binds afterward. What is the likely issue?",
+    "options": [
+      "Drawer front alignment or clearance interference",
+      "Correct slide installation",
+      "Good cabinet square",
+      "Proper hardware selection"
+    ],
+    "answer": 0,
+    "explanation": "A misaligned front can contact nearby components. Function should be checked after fronts are installed."
+  },
+  {
+    "id": 65,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A furniture frame has tight joints but racks under side pressure. What is likely wrong?",
+    "options": [
+      "Joint geometry, shoulder contact, or mechanical strength",
+      "Finish sheen",
+      "Drawer front size",
+      "Contact cement flash time"
+    ],
+    "answer": 0,
+    "explanation": "Tight does not always mean strong. Furniture joints must resist racking forces through proper geometry and fit."
+  },
+  {
+    "id": 66,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A solid wood tabletop splits near fastener locations after seasonal change. What assembly error is most likely?",
+    "options": [
+      "Fastening did not allow wood movement",
+      "Top was sanded too fine",
+      "Finish was clear",
+      "Screws were decorative"
+    ],
+    "answer": 0,
+    "explanation": "Solid wood moves across the grain. Rigid fastening concentrates stress and can cause splitting."
+  },
+  {
+    "id": 67,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A chair frame has equal diagonal measurements but still rocks on a flat floor. What was not checked?",
+    "options": [
+      "Twist in the assembly",
+      "Glue colour",
+      "Drawer slide alignment",
+      "Veneer sequence"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals check square in one plane. The frame can still be twisted and unstable."
+  },
+  {
+    "id": 68,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Cabinet parts are assembled with the best face toward the inside. What process failed?",
+    "options": [
+      "Orientation marking and final part inspection",
+      "Adhesive mixing only",
+      "Dust collection",
+      "Clamp pressure calculation"
+    ],
+    "answer": 0,
+    "explanation": "Visible faces must be identified before assembly. Orientation errors reduce finished quality."
+  },
+  {
+    "id": 69,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Screws strip out in MDF during final assembly. What should be reviewed?",
+    "options": [
+      "Pilot hole size, screw type, torque, and edge distance",
+      "Finish sheen",
+      "Stair rise",
+      "Laminate colour"
+    ],
+    "answer": 0,
+    "explanation": "MDF has limited screw holding strength. Fastener preparation and installation method are critical."
+  },
+  {
+    "id": 70,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A dry assembly shows a small gap at a cabinet joint. What should be done before glue-up?",
+    "options": [
+      "Correct the joint fit",
+      "Clamp harder and continue",
+      "Fill with finish later",
+      "Hide it with dust"
+    ],
+    "answer": 0,
+    "explanation": "Glue and clamps do not replace accurate joinery. Gaps should be corrected before adhesive is applied."
+  },
+  {
+    "id": 71,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A face frame shifts during clamping and dries out of alignment. What should have been used?",
+    "options": [
+      "Alignment blocks, pins, or controlled clamp sequence",
+      "More stain",
+      "Less inspection",
+      "More random pressure"
+    ],
+    "answer": 0,
+    "explanation": "Clamp pressure can move parts. Alignment aids keep components positioned until cure."
+  },
+  {
+    "id": 72,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Drawer slides are installed parallel, but the drawer still binds when loaded. What should be checked?",
+    "options": [
+      "Slide load rating, drawer box rigidity, and cabinet deflection",
+      "Door hinge finish",
+      "Veneer tape residue",
+      "Countertop colour"
+    ],
+    "answer": 0,
+    "explanation": "Loaded drawers can deflect weak components. Slides and case construction must support the expected load."
+  },
+  {
+    "id": 73,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A wall panel assembly has consistent panel sizes but inconsistent reveals. What is the likely cause?",
+    "options": [
+      "Layout or spacer inconsistency during assembly",
+      "Correct control lines",
+      "Proper sequencing",
+      "Good panel sizing"
+    ],
+    "answer": 0,
+    "explanation": "Equal panels can still have uneven reveals if spacing is inconsistent. Layout control is critical in millwork."
+  },
+  {
+    "id": 74,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A long moulding run has open mitres after assembly. What should be checked?",
+    "options": [
+      "Cut accuracy, material movement, and fastening method",
+      "Drawer slide rating",
+      "Spray booth filter",
+      "CNC tool number"
+    ],
+    "answer": 0,
+    "explanation": "Mitres require accurate angles and stable material. Movement or poor fastening can open joints."
+  },
+  {
+    "id": 75,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A curved architectural moulding does not align with adjacent straight moulding. What was likely missed?",
+    "options": [
+      "Tangent point and profile alignment",
+      "Finish pot life",
+      "Hinge adjustment",
+      "Sandpaper storage"
+    ],
+    "answer": 0,
+    "explanation": "Curved and straight mouldings must transition smoothly. Tangent and profile references should be controlled."
+  },
+  {
+    "id": 76,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A prefinished millwork panel is damaged by clamp pressure during assembly. What should have been used?",
+    "options": [
+      "Protective cauls or pads",
+      "More clamp force",
+      "Bare metal jaws",
+      "No support"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished surfaces need protection. Cauls distribute pressure and prevent bruising."
+  },
+  {
+    "id": 77,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A sequenced wall panel set is assembled out of order. What is the main defect?",
+    "options": [
+      "Broken grain or figure continuity",
+      "Stronger joints",
+      "Faster installation",
+      "Better balance"
+    ],
+    "answer": 0,
+    "explanation": "Sequenced panels are designed to read as a continuous surface. Wrong order creates a visible quality defect."
+  },
+  {
+    "id": 78,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A shop-built millwork unit does not fit around site columns. What process likely failed?",
+    "options": [
+      "Site verification and coordination before assembly",
+      "Spray finishing",
+      "Edge banding",
+      "Glue-up clamping"
+    ],
+    "answer": 0,
+    "explanation": "Millwork often depends on site conditions. Obstructions and dimensions must be confirmed before fabrication."
+  },
+  {
+    "id": 79,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "Decorative exposed fasteners are unevenly spaced on a millwork face. What should have controlled this?",
+    "options": [
+      "Layout template or story pole",
+      "Random measuring",
+      "Finish sample",
+      "Adhesive spreader"
+    ],
+    "answer": 0,
+    "explanation": "Visible fasteners are part of the design. A layout aid ensures consistent spacing."
+  },
+  {
+    "id": 80,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 9. Laminates wood and composite materials — 7",
+    "question": "A large assembled panel bows after being stored leaning in the shop. What practice was wrong?",
+    "options": [
+      "Storage support and environmental control",
+      "Correct stacking",
+      "Proper balancing only",
+      "Good packaging"
+    ],
+    "answer": 0,
+    "explanation": "Large panels need proper support and stable conditions. Poor storage can distort finished assemblies."
+  },
+  {
+    "id": 81,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A millwork assembly fits in the shop but the finished edges are damaged during loading. What was missing?",
+    "options": [
+      "Proper packaging and handling protection",
+      "More glue squeeze-out",
+      "Stronger drawer slides",
+      "Extra sanding only"
+    ],
+    "answer": 0,
+    "explanation": "Finished millwork needs edge and face protection before transport. Damage during handling can require costly repair or replacement."
+  },
+  {
+    "id": 82,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A reception desk panel joint is structurally strong but visibly misaligned. What is the best assessment?",
+    "options": [
+      "It fails appearance quality requirements",
+      "It is acceptable because it is strong",
+      "It will be hidden by finish",
+      "It improves durability"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork must meet both structural and visual standards. Visible misalignment is a quality defect."
+  },
+  {
+    "id": 83,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A catalyzed finish is mixed correctly but used after its pot life expired. What is the likely result?",
+    "options": [
+      "Poor cure, poor flow, or adhesion problems",
+      "Stronger finish film",
+      "Faster sanding with no defects",
+      "Better colour matching"
+    ],
+    "answer": 0,
+    "explanation": "Pot life is the usable time after mixing. Once exceeded, the finish may not cure or apply correctly."
+  },
+  {
+    "id": 84,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finish system works on oak but fails on oily exotic wood. What should be checked?",
+    "options": [
+      "Species compatibility and surface preparation",
+      "Drawer slide length",
+      "Cabinet square only",
+      "Stair baluster layout"
+    ],
+    "answer": 0,
+    "explanation": "Some woods contain oils that interfere with adhesion. Cleaning, sealing, or a compatible finish system may be required."
+  },
+  {
+    "id": 85,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A stained maple panel appears blotchy even though the stain was wiped evenly. What is the likely cause?",
+    "options": [
+      "Uneven absorption by the wood",
+      "Correct conditioner use",
+      "Perfect sanding process",
+      "Too much hinge adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Dense woods like maple often absorb stain unevenly. Conditioner, toner, or alternative finishing methods may be needed."
+  },
+  {
+    "id": 86,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A clear topcoat wrinkles over a stained surface. What should be investigated?",
+    "options": [
+      "Compatibility and dry time between products",
+      "Drawer front overlay",
+      "CNC feed rate",
+      "Baluster spacing"
+    ],
+    "answer": 0,
+    "explanation": "Wrinkling can occur when products react or when stain is not dry enough. Finish systems must be compatible and properly timed."
+  },
+  {
+    "id": 87,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A sprayed finish shows fisheyes across several panels. What is the most likely cause?",
+    "options": [
+      "Surface, material, or air-line contamination",
+      "Correct surface cleaning",
+      "Proper air filtration",
+      "Ideal coating compatibility"
+    ],
+    "answer": 0,
+    "explanation": "Fisheyes are caused by contaminants such as oil, wax, or silicone. The surface, air supply, and shop environment must be checked."
+  },
+  {
+    "id": 88,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finish sample was approved, but production colour is lighter. What process difference could cause this?",
+    "options": [
+      "Different sanding grit, stain time, or wood batch",
+      "Correct matching process",
+      "Same surface preparation",
+      "Same stain application time"
+    ],
+    "answer": 0,
+    "explanation": "Finish colour is affected by preparation and material variation. Production must match the approved sample process."
+  },
+  {
+    "id": 89,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A spray finish has dry, rough texture at panel edges but acceptable centre coverage. What is the likely technique issue?",
+    "options": [
+      "Poor overlap, distance, or edge pass control",
+      "Excessive wet film in the centre only",
+      "Correct spray technique",
+      "Perfect atomization"
+    ],
+    "answer": 0,
+    "explanation": "Edges often receive less wet film if gun distance or overlap changes. Spray technique must keep coverage consistent."
+  },
+  {
+    "id": 90,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "End grain stains much darker than face grain on visible parts. What preparation should be considered?",
+    "options": [
+      "End-grain sealing or controlled sanding",
+      "More stain dwell time",
+      "Less cleaning",
+      "Wider drawer reveals"
+    ],
+    "answer": 0,
+    "explanation": "End grain absorbs more stain than face grain. Sealing or careful sanding helps reduce colour difference."
+  },
+  {
+    "id": 91,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finish sands into gummy rolls between coats. What does this usually indicate?",
+    "options": [
+      "Finish has not cured enough for sanding",
+      "Finish is fully cured",
+      "Sandpaper is too fine only",
+      "The surface is too clean"
+    ],
+    "answer": 0,
+    "explanation": "Dry-to-touch does not always mean ready to sand. Insufficient cure causes clogging and surface damage."
+  },
+  {
+    "id": 92,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A polished tabletop shows witness lines from uneven sanding between coats. What caused this?",
+    "options": [
+      "Uneven film levelling or cutting through layers",
+      "Correct rubbing technique",
+      "Proper film build",
+      "Good sanding block control"
+    ],
+    "answer": 0,
+    "explanation": "High-end finishes require controlled levelling. Uneven sanding can expose layer transitions or create visible witness lines."
+  },
+  {
+    "id": 93,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finish peels from sharp outside edges first. What surface preparation was likely missed?",
+    "options": [
+      "Lightly easing sharp edges before finishing",
+      "Increasing stain thickness",
+      "Leaving dust on edges",
+      "Applying fewer coats only"
+    ],
+    "answer": 0,
+    "explanation": "Sharp edges do not hold finish well. Easing edges gives the coating better coverage and durability."
+  },
+  {
+    "id": 94,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A clear coat traps dust nibs because parts were left uncovered in the shop. What should be improved?",
+    "options": [
+      "Cleaning, tack-off, and finishing environment control",
+      "Screw length",
+      "Dado width",
+      "Cabinet back thickness"
+    ],
+    "answer": 0,
+    "explanation": "Dust control is critical for finishing. Parts and the spray area must be clean before coating."
+  },
+  {
+    "id": 95,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A sprayed surface has orange peel even though the material is clean. What should be adjusted?",
+    "options": [
+      "Viscosity, air pressure, spray distance, or gun setup",
+      "Door overlay",
+      "Veneer sequence",
+      "Stair rise"
+    ],
+    "answer": 0,
+    "explanation": "Orange peel is caused by poor flow or atomization. It is usually corrected through material and spray setup changes."
+  },
+  {
+    "id": 96,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finish has good appearance but poor adhesion after cross-hatch testing. What should be checked?",
+    "options": [
+      "Surface preparation and finish compatibility",
+      "Drawer slide adjustment",
+      "Stair handrail height",
+      "Laminate edge trimming"
+    ],
+    "answer": 0,
+    "explanation": "Finish appearance does not guarantee adhesion. Surface contamination, sanding, or incompatible products can cause failure."
+  },
+  {
+    "id": 97,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A cabinet must be cut on site for plumbing, but the pipe location is close to a finished edge. What is the best approach?",
+    "options": [
+      "Verify location, protect surface, support cut, and use appropriate tooling",
+      "Cut quickly with a dull blade",
+      "Make the hole oversized without approval",
+      "Pry out the waste piece"
+    ],
+    "answer": 0,
+    "explanation": "Site cuts near finished edges require careful control. Verification and support reduce damage and prevent unnecessary oversized openings."
+  },
+  {
+    "id": 98,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A scribed filler fits the wall but creates an uneven reveal beside the door. What should be corrected?",
+    "options": [
+      "Scribe fit while maintaining the intended reveal",
+      "Door hinge colour",
+      "Finish sheen",
+      "Countertop adhesive"
+    ],
+    "answer": 0,
+    "explanation": "A scribe must fit the wall and preserve design lines. Good installation balances wall fit with visual alignment."
+  },
+  {
+    "id": 99,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "An installer finds electrical wiring where an access hole was planned. What should happen?",
+    "options": [
+      "Stop and coordinate before cutting",
+      "Cut carefully around it without notifying anyone",
+      "Push the wire aside",
+      "Make the opening larger"
+    ],
+    "answer": 0,
+    "explanation": "Hidden services create safety and liability risks. Cutting should stop until the location and method are approved."
+  },
+  {
+    "id": 100,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finished panel chips during field modification despite careful measuring. What should be reviewed?",
+    "options": [
+      "Blade type, cut support, tape/scoring, and cutting direction",
+      "Cabinet pull style",
+      "Veneer species only",
+      "Finish colour sample"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces need chip-control methods. Sharp tooling, backing, and proper technique reduce damage."
+  },
+  {
+    "id": 101,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Base cabinets are level at the front but unsupported at the back due to a low floor area. What is the correct action?",
+    "options": [
+      "Shim and support the cabinet fully before fastening",
+      "Fasten only the front rail",
+      "Let the countertop pull it down",
+      "Ignore if doors close"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets need stable support across the base. Unsupported areas can twist the case and affect countertop support."
+  },
+  {
+    "id": 102,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Wall cabinets are fastened securely but out of plumb. What problem can result?",
+    "options": [
+      "Doors may swing or reveals may be uneven",
+      "Finish cures faster",
+      "Shelves become thicker",
+      "Countertops become lighter"
+    ],
+    "answer": 0,
+    "explanation": "Plumb affects door operation and alignment. Secure fastening alone does not mean correct installation."
+  },
+  {
+    "id": 103,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A countertop seam closes tightly when dry-fit, but opens after fastening to uneven cabinets. What caused this?",
+    "options": [
+      "Cabinet support or alignment was not corrected first",
+      "Seam adhesive was too clean",
+      "Finish was too glossy",
+      "Drawer pulls were too heavy"
+    ],
+    "answer": 0,
+    "explanation": "Countertop seams depend on flat, aligned support. Uneven cabinets can stress or open a seam."
+  },
+  {
+    "id": 104,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A dishwasher will not fit after adjacent cabinets are installed. What was likely missed?",
+    "options": [
+      "Appliance opening clearance and manufacturer requirements",
+      "Finish pot life",
+      "Veneer sequence",
+      "Stair stringer layout"
+    ],
+    "answer": 0,
+    "explanation": "Appliance openings must be confirmed before fastening cabinets. Manufacturer clearances are part of installation planning."
+  },
+  {
+    "id": 105,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Wall cabinets are installed into studs, but the wall is badly bowed. What should be done?",
+    "options": [
+      "Shim or adjust installation to keep cabinets aligned without distorting them",
+      "Pull cabinets tight to the wall everywhere",
+      "Ignore the bow",
+      "Remove cabinet backs"
+    ],
+    "answer": 0,
+    "explanation": "Bowed walls can twist cabinets if they are forced tight. Cabinets should remain level, plumb, and aligned."
+  },
+  {
+    "id": 106,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "After installation, drawers rub only when countertop weight is added. What should be checked?",
+    "options": [
+      "Cabinet deflection, support, and slide alignment",
+      "Finish sample colour",
+      "Door pull finish",
+      "Veneer tape residue"
+    ],
+    "answer": 0,
+    "explanation": "Countertop load can change cabinet alignment if support is inadequate. Drawer operation should be checked after final loading."
+  },
+  {
+    "id": 107,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Wall panels are installed from one end without control lines, and reveals drift. What should have been used?",
+    "options": [
+      "Datum/control lines and consistent spacers",
+      "Random panel spacing",
+      "More caulking only",
+      "Shorter fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Long millwork runs require layout control. Datum lines and spacers prevent cumulative error."
+  },
+  {
+    "id": 108,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A crown moulding run has tight joints in the shop but opens on site. What should be considered?",
+    "options": [
+      "Site conditions, movement, installation support, and joint method",
+      "Drawer slide rating",
+      "Spray gun needle size",
+      "CNC toolpath nesting"
+    ],
+    "answer": 0,
+    "explanation": "Temperature, humidity, wall/ceiling irregularities, and fastening affect moulding joints. Site conditions must be accounted for."
+  },
+  {
+    "id": 109,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Prefinished trim splits when nailed near the end. What should have been done?",
+    "options": [
+      "Predrill or adjust fastener type and placement",
+      "Use a larger nail",
+      "Nail closer to the end",
+      "Ignore the split"
+    ],
+    "answer": 0,
+    "explanation": "Trim can split near ends, especially hardwoods. Pilot holes and proper fastener placement reduce damage."
+  },
+  {
+    "id": 110,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A wall panel is forced tight to an uneven wall and the face bows. What installation principle was missed?",
+    "options": [
+      "Fit to site without distorting the product",
+      "Use more fasteners to flatten everything",
+      "Ignore wall conditions",
+      "Sand the face after installation"
+    ],
+    "answer": 0,
+    "explanation": "Millwork should not be forced into distortion. Scribing, shimming, or correcting the substrate may be needed."
+  },
+  {
+    "id": 111,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A finished millwork panel is installed before the site is climate controlled. What is the risk?",
+    "options": [
+      "Movement, warping, joint opening, or finish issues",
+      "Better acclimatization",
+      "Stronger adhesive",
+      "No change to the product"
+    ],
+    "answer": 0,
+    "explanation": "Wood products respond to temperature and humidity. Installation conditions should meet product requirements."
+  },
+  {
+    "id": 112,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A stair has one riser slightly different after finished flooring is installed. Why is this critical?",
+    "options": [
+      "It creates a trip hazard and may fail code",
+      "It improves walking rhythm",
+      "It strengthens the stair",
+      "It reduces handrail need"
+    ],
+    "answer": 0,
+    "explanation": "Stair safety depends on consistent riser heights. Finished floor elevations must be included in layout."
+  },
+  {
+    "id": 113,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A balustrade appears evenly spaced, but the clear opening exceeds code. What was checked incorrectly?",
+    "options": [
+      "Centre spacing instead of maximum clear opening",
+      "Finish sheen only",
+      "Handrail colour",
+      "Glue open time"
+    ],
+    "answer": 0,
+    "explanation": "Codes limit the clear space between components. Visual equal spacing is not enough."
+  },
+  {
+    "id": 114,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A handrail is anchored only into drywall but feels firm at first. What is the concern?",
+    "options": [
+      "It may fail under load because backing is inadequate",
+      "It will become stronger with use",
+      "Drywall is always sufficient",
+      "Finish will hold it in place"
+    ],
+    "answer": 0,
+    "explanation": "Handrails must be fastened to structural backing. Initial tightness does not prove load capacity."
+  },
+  {
+    "id": 115,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A solid surface seam is located at a sink cutout corner. What is the main problem?",
+    "options": [
+      "Stress concentration can cause cracking or seam failure",
+      "It improves seam strength",
+      "It reduces need for support",
+      "It hides the seam permanently"
+    ],
+    "answer": 0,
+    "explanation": "Cutout corners are high-stress areas. Seams should be planned away from stress points where possible."
+  },
+  {
+    "id": 116,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A solid surface seam remains visible after fabrication. What should be checked?",
+    "options": [
+      "Edge preparation, adhesive colour match, and clamping method",
+      "Stair rise calculation",
+      "Veneer sequence",
+      "Spray booth airflow"
+    ],
+    "answer": 0,
+    "explanation": "Solid surface seams require accurate edges, matching adhesive, and proper pressure. Any of these can make a seam visible."
+  },
+  {
+    "id": 117,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A solid surface top cracks near a heat-producing appliance. What should be reviewed?",
+    "options": [
+      "Heat clearance, support, and manufacturer requirements",
+      "Drawer reveal only",
+      "Veneer glue spread",
+      "Stair baluster spacing"
+    ],
+    "answer": 0,
+    "explanation": "Heat and poor support can stress solid surface materials. Installation must follow manufacturer specifications."
+  },
+  {
+    "id": 118,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A decorative inlay is tight but visually uneven around the border. What is the likely defect?",
+    "options": [
+      "Inconsistent reveal or layout error",
+      "Too much structural support",
+      "Correct pattern control",
+      "Better glue bond"
+    ],
+    "answer": 0,
+    "explanation": "Decorative work is judged by visual precision. Even small reveal differences are noticeable."
+  },
+  {
+    "id": 119,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "A restored moulding repair matches the profile but not the wood grain or finish. What is the issue?",
+    "options": [
+      "The repair does not match the original character",
+      "It is acceptable because profile matches",
+      "Grain direction is never important",
+      "Finish mismatch will disappear automatically"
+    ],
+    "answer": 0,
+    "explanation": "Restoration requires matching profile, material, grain, and finish. Profile alone is not enough for quality restoration."
+  },
+  {
+    "id": 120,
+    "category": "A. PERFORMS COMMON OCCUPATIONAL SKILLS — 16 — Task 13. Assembles architectural millwork products — continued",
+    "question": "Before stripping finish from historic woodwork, what should be done?",
+    "options": [
+      "Identify existing finish, substrate, and appropriate restoration method",
+      "Sand aggressively immediately",
+      "Apply any chemical stripper",
+      "Replace all woodwork automatically"
+    ],
+    "answer": 0,
+    "explanation": "Historic materials can be damaged by wrong methods. Assessment protects original woodwork and guides proper repair."
+  }
+];
+
+function shuffleArray(array) {
+  return [...array].sort(() => Math.random() - 0.5);
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCabinetmakerIPRedSealSet3Questions =
+  shuffleArray(cabinetmakerIPRedSealSet3Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "cabinetmaker",
+  tradeTitle: "Cabinetmaker",
+  sectionTitle: "IP Red Seal Quiz — Set 3",
+  questionTimeSeconds: 90,
+  questions: shuffledCabinetmakerIPRedSealSet3Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

@@ -1,0 +1,1668 @@
+const racmInterprovincialSet2HardestQuestions = [
+  {
+    "id": 1,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "A technician must replace a contactor in a rooftop unit. The disconnect is off, but the unit has a separate low-voltage transformer feed. What is the safest action?",
+    "options": [
+      "Replace the contactor because the disconnect is off",
+      "Verify all energy sources are isolated and test for zero voltage",
+      "Remove only the thermostat wire",
+      "Wear gloves and work live"
+    ],
+    "answer": 1,
+    "explanation": "HVAC/R equipment can have more than one power source. Lock-out/tag-out must include all hazardous energy sources. Testing for zero voltage confirms the circuit is safe."
+  },
+  {
+    "id": 2,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "A recovery cylinder is sitting in direct sunlight during recovery. Why is this unsafe?",
+    "options": [
+      "The cylinder may lose colour",
+      "Cylinder pressure can rise as temperature increases",
+      "Refrigerant becomes non-flammable",
+      "Recovery speed always decreases"
+    ],
+    "answer": 1,
+    "explanation": "Refrigerant expands and pressure rises with heat. Overfilled or heated cylinders can become dangerous. Cylinders must be handled within rated limits."
+  },
+  {
+    "id": 3,
+    "category": "Task 1 — Performs Safety-Related Functions",
+    "question": "While brazing, insulation behind the wall begins to smell hot. What should the technician do?",
+    "options": [
+      "Continue brazing faster",
+      "Stop, cool/check the area, and maintain fire watch",
+      "Add refrigerant to cool the pipe",
+      "Cover the smell with tape"
+    ],
+    "answer": 1,
+    "explanation": "Hidden combustibles can smolder and ignite later. Brazing must stop if fire risk appears. Fire watch and inspection prevent delayed fire."
+  },
+  {
+    "id": 4,
+    "category": "Task 2 — Uses Tools and Equipment",
+    "question": "A technician wants to check voltage drop across a running contactor. Which meter setting is required?",
+    "options": [
+      "DC amps",
+      "AC volts",
+      "Ohms on energized circuit",
+      "Microns"
+    ],
+    "answer": 1,
+    "explanation": "Voltage drop is measured with an AC voltmeter on energized circuits. Ohm testing must only be done de-energized. Voltage drop helps find high-resistance contacts."
+  },
+  {
+    "id": 5,
+    "category": "Task 2 — Uses Tools and Equipment",
+    "question": "A micron gauge is connected at the vacuum pump instead of the system. What is the problem?",
+    "options": [
+      "It may read pump vacuum instead of true system vacuum",
+      "It will always read too high",
+      "It measures refrigerant weight",
+      "It prevents evacuation"
+    ],
+    "answer": 0,
+    "explanation": "Vacuum readings should represent the system. Restrictions in hoses or cores can hide poor vacuum. A system-side micron reading is more reliable."
+  },
+  {
+    "id": 6,
+    "category": "Task 2 — Uses Tools and Equipment",
+    "question": "A technician uses a combustion analyzer on a furnace. What must be done before trusting readings?",
+    "options": [
+      "Confirm proper analyzer setup, calibration/zeroing, and probe placement",
+      "Add refrigerant",
+      "Close all combustion air openings",
+      "Measure compressor amperage only"
+    ],
+    "answer": 0,
+    "explanation": "Analyzer readings depend on correct preparation. Wrong probe location or poor setup gives false results. Combustion testing is safety-critical."
+  },
+  {
+    "id": 7,
+    "category": "Task 2 — Uses Tools and Equipment",
+    "question": "A nitrogen regulator creeps upward after adjustment. What is the safest conclusion?",
+    "options": [
+      "It is normal and should be ignored",
+      "The regulator may be defective or unsafe",
+      "The system is fully evacuated",
+      "Refrigerant is overcharged"
+    ],
+    "answer": 1,
+    "explanation": "Regulator creep can over-pressurize equipment. Pressure test equipment must control pressure safely. A defective regulator should not be used."
+  },
+  {
+    "id": 8,
+    "category": "Task 2 — Uses Tools and Equipment",
+    "question": "A technician measures temperature on an insulated suction line without removing insulation. What is the risk?",
+    "options": [
+      "Reading may not reflect actual pipe temperature",
+      "Reading becomes more accurate",
+      "Superheat becomes zero",
+      "Meter will measure pressure"
+    ],
+    "answer": 0,
+    "explanation": "Pipe temperature must be taken on clean metal contact. Insulation blocks accurate sensing. Wrong temperature gives wrong superheat."
+  },
+  {
+    "id": 9,
+    "category": "Task 3 — Organizes Work",
+    "question": "A compressor replacement job requires recovery, electrical isolation, brazing, evacuation, and startup. What should be planned first?",
+    "options": [
+      "Only the invoice total",
+      "Sequence of work, safety controls, parts, tools, and documentation",
+      "Thermostat colour",
+      "Customer’s preferred filter brand"
+    ],
+    "answer": 1,
+    "explanation": "Complex repairs need correct work sequence. Planning prevents unsafe shortcuts and missing materials. Documentation supports final verification."
+  },
+  {
+    "id": 10,
+    "category": "Task 3 — Organizes Work",
+    "question": "A technician finds a system with no service history and several parts recently replaced. What should be done?",
+    "options": [
+      "Replace all parts again",
+      "Establish baseline readings and document condition",
+      "Add refrigerant immediately",
+      "Ignore previous work"
+    ],
+    "answer": 1,
+    "explanation": "Baseline readings create a starting point. Unknown history makes diagnosis harder. Good records reduce repeated guesswork."
+  },
+  {
+    "id": 11,
+    "category": "Task 3 — Organizes Work",
+    "question": "A job requires shutdown of a walk-in freezer serving a restaurant. What should be coordinated?",
+    "options": [
+      "Product protection, timing, customer approval, and service plan",
+      "Only tool storage",
+      "Only thermostat batteries",
+      "Only roof access"
+    ],
+    "answer": 0,
+    "explanation": "Food storage downtime can damage product. Customer operations must be considered. Planning prevents loss and conflict."
+  },
+  {
+    "id": 12,
+    "category": "Task 4 — Uses Communication and Mentoring Techniques",
+    "question": "An apprentice wants to bypass a pressure switch “just for testing.” What is the best mentoring response?",
+    "options": [
+      "“Do it quickly.”",
+      "“Only bypass if needed for controlled testing, never leave it bypassed, and first find why it opened.”",
+      "“Safeties are optional.”",
+      "“Replace the compressor instead.”"
+    ],
+    "answer": 1,
+    "explanation": "Safety controls protect equipment and people. Temporary bypassing requires control and understanding. Mentoring should reinforce safe diagnostic habits."
+  },
+  {
+    "id": 13,
+    "category": "Task 4 — Uses Communication and Mentoring Techniques",
+    "question": "A customer says, “The last technician just kept adding refrigerant.” What is the best professional response?",
+    "options": [
+      "“That technician was useless.”",
+      "“I’ll diagnose the system with readings before deciding if refrigerant is needed.”",
+      "“I’ll add more now.”",
+      "“Refrigerant fixes everything.”"
+    ],
+    "answer": 1,
+    "explanation": "Professional communication avoids blaming others. Diagnosis should be based on evidence. Adding refrigerant without cause can damage systems. --- ## B. Performs Routine Trade Activities — 19 Questions"
+  },
+  {
+    "id": 14,
+    "category": "Task 5 — Performs Work Site Preparation",
+    "question": "A split system condenser is being replaced beside a narrow walkway. What must be considered?",
+    "options": [
+      "Public access, working clearance, lifting route, and trip hazards",
+      "Thermostat schedule only",
+      "Refrigerant colour",
+      "Filter drier brand only"
+    ],
+    "answer": 0,
+    "explanation": "Work site safety includes workers and public. Equipment movement creates access and trip hazards. Planning prevents injury and property damage."
+  },
+  {
+    "id": 15,
+    "category": "Task 5 — Performs Work Site Preparation",
+    "question": "Before working in a ceiling space with suspected mould and insulation dust, what is required?",
+    "options": [
+      "Appropriate PPE and hazard assessment",
+      "No protection if work is short",
+      "Refrigerant scale only",
+      "Higher blower speed"
+    ],
+    "answer": 0,
+    "explanation": "Ceiling spaces may contain respiratory hazards. PPE must match the hazard. A site assessment prevents exposure."
+  },
+  {
+    "id": 16,
+    "category": "Task 5 — Performs Work Site Preparation",
+    "question": "A rooftop job is scheduled during high winds. What should the technician do?",
+    "options": [
+      "Proceed because rooftop work is normal",
+      "Reassess lifting, ladder, fall, and material hazards",
+      "Carry lighter tools only",
+      "Work faster"
+    ],
+    "answer": 1,
+    "explanation": "Weather changes rooftop risk. Wind affects lifting, balance, and falling objects. The job may need delay or extra controls."
+  },
+  {
+    "id": 17,
+    "category": "Task 5 — Performs Work Site Preparation",
+    "question": "A technician must recover refrigerant from a system with unknown refrigerant. What is the correct preparation?",
+    "options": [
+      "Use a clean recovery cylinder for identified refrigerant only",
+      "Mix it with any recovered refrigerant",
+      "Vent a small amount",
+      "Guess from pressure"
+    ],
+    "answer": 0,
+    "explanation": "Unknown refrigerant can contaminate cylinders. Identification and proper recovery prevent mixing. Pressure alone does not identify refrigerant."
+  },
+  {
+    "id": 18,
+    "category": "Task 5 — Performs Work Site Preparation",
+    "question": "Before servicing gas equipment in a mechanical room, what should be checked?",
+    "options": [
+      "Combustion air, gas shutoff access, ventilation, and ignition hazards",
+      "Refrigerant superheat",
+      "Condenser coil split",
+      "TXV bulb position"
+    ],
+    "answer": 0,
+    "explanation": "Gas equipment has combustion and fuel hazards. Shutoff access and ventilation are safety priorities. Ignition sources must be controlled."
+  },
+  {
+    "id": 19,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A suction pressure corresponds to 2°C saturation, and suction line temperature is 14°C. What is superheat?",
+    "options": [
+      "7°C",
+      "12°C",
+      "16°C",
+      "28°C"
+    ],
+    "answer": 1,
+    "explanation": "Superheat equals actual suction line temperature minus saturation temperature. 14°C − 2°C = 12°C. Correct refrigerant PT data must be used."
+  },
+  {
+    "id": 20,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A condensing saturation temperature is 48°C and liquid line temperature is 39°C. What is subcooling?",
+    "options": [
+      "5°C",
+      "9°C",
+      "39°C",
+      "87°C"
+    ],
+    "answer": 1,
+    "explanation": "Subcooling equals saturated condensing temperature minus liquid line temperature. 48°C − 39°C = 9°C. Subcooling helps evaluate charge and liquid condition."
+  },
+  {
+    "id": 21,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A 24 V control coil has 8 ohms resistance. What current should it draw?",
+    "options": [
+      "1 A",
+      "2 A",
+      "3 A",
+      "8 A"
+    ],
+    "answer": 2,
+    "explanation": "Current equals voltage divided by resistance. 24 ÷ 8 = 3 amps. This is Ohm’s Law."
+  },
+  {
+    "id": 22,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A system has high superheat and low subcooling. What should be suspected first?",
+    "options": [
+      "Low charge or starved evaporator",
+      "Overcharge only",
+      "Flooded compressor",
+      "Dirty gas burner"
+    ],
+    "answer": 0,
+    "explanation": "High superheat means the evaporator is starved. Low subcooling suggests little liquid reserve. Leak and charge condition should be checked."
+  },
+  {
+    "id": 23,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A system has high superheat and high subcooling. What is most likely?",
+    "options": [
+      "Floodback",
+      "Liquid-line restriction",
+      "Low airflow only",
+      "Open thermostat"
+    ],
+    "answer": 1,
+    "explanation": "High subcooling shows liquid backed up in the high side. High superheat shows poor feed to the evaporator. Together they strongly suggest restriction."
+  },
+  {
+    "id": 24,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A fixed-orifice air conditioner has low indoor airflow. How does that affect charging diagnosis?",
+    "options": [
+      "It can make suction pressure and superheat misleading",
+      "It has no effect",
+      "It always proves overcharge",
+      "It increases gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Airflow affects evaporator heat load. Low airflow can lower suction pressure and coil temperature. Airflow must be corrected before charging."
+  },
+  {
+    "id": 25,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A technician sees bubbles in a sight glass. What is the best interpretation?",
+    "options": [
+      "Always undercharged",
+      "It may indicate flashing, low charge, restriction, or operating condition",
+      "Always normal",
+      "It proves compressor failure"
+    ],
+    "answer": 1,
+    "explanation": "Sight glass bubbles are not a complete diagnosis. Flashing can have multiple causes. Pressures, subcooling, and restrictions must be checked."
+  },
+  {
+    "id": 26,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "Why should POE oil exposure to air be minimized?",
+    "options": [
+      "It absorbs moisture",
+      "It repels moisture",
+      "It becomes nitrogen",
+      "It prevents acid formation"
+    ],
+    "answer": 0,
+    "explanation": "POE oil is hygroscopic. Moisture can form acids and restrictions. Keep systems sealed and evacuate properly."
+  },
+  {
+    "id": 27,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A brazed joint is leaking at startup. What likely caused it?",
+    "options": [
+      "Poor cleaning, heat control, fit, or brazing technique",
+      "Correct brazing",
+      "Too much airflow",
+      "High thermostat setting"
+    ],
+    "answer": 0,
+    "explanation": "Brazed joints need clean surfaces and proper clearance. Heat must draw filler into the joint. Poor technique causes weak or leaking joints."
+  },
+  {
+    "id": 28,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A condenser fan motor is drawing high amperage. Which trade activity is appropriate?",
+    "options": [
+      "Compare amperage to nameplate and check voltage/load",
+      "Add refrigerant immediately",
+      "Replace thermostat first",
+      "Ignore if fan spins"
+    ],
+    "answer": 0,
+    "explanation": "Motor current must be compared to rating. High current may be electrical or mechanical. Voltage, capacitor, bearings, and blade load matter."
+  },
+  {
+    "id": 29,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A refrigerant blend is removed from the cylinder as vapour when liquid charging is required. What can happen?",
+    "options": [
+      "Fractionation",
+      "Better blend accuracy",
+      "Lower system moisture",
+      "Perfect charge always"
+    ],
+    "answer": 0,
+    "explanation": "Some blends separate when removed as vapour. Fractionation changes refrigerant composition. Liquid charging must be controlled safely."
+  },
+  {
+    "id": 30,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A pressure test drops overnight, but ambient temperature also dropped significantly. What should be done?",
+    "options": [
+      "Consider temperature effect and continue leak verification",
+      "Assume no leak",
+      "Charge immediately",
+      "Add oxygen"
+    ],
+    "answer": 0,
+    "explanation": "Gas pressure changes with temperature. A pressure drop may be temperature-related or a leak. Further leak checking is required."
+  },
+  {
+    "id": 31,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A technician calculates compressor apparent power using 600 V and 9 A. Ignoring power factor, what is it?",
+    "options": [
+      "609 VA",
+      "5,400 VA",
+      "54,000 VA",
+      "66.7 VA"
+    ],
+    "answer": 1,
+    "explanation": "Apparent power equals volts times amps. 600 × 9 = 5,400 VA. Real power depends on power factor."
+  },
+  {
+    "id": 32,
+    "category": "Task 6 — Performs Trade Activities",
+    "question": "A refrigeration system has very low superheat and compressor noise. What is the concern?",
+    "options": [
+      "Liquid floodback",
+      "Low charge",
+      "Dirty condenser only",
+      "Open fuse only"
+    ],
+    "answer": 0,
+    "explanation": "Low superheat may mean liquid is returning. Compressors are designed for vapour, not liquid. Floodback can damage valves and bearings. --- ## C. Plans Installation — 18 Questions"
+  },
+  {
+    "id": 33,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A long suction line is planned for a refrigeration system. What must be considered?",
+    "options": [
+      "Oil return, pressure drop, insulation, and manufacturer limits",
+      "Thermostat colour",
+      "Gas flame pattern only",
+      "Door handle style"
+    ],
+    "answer": 0,
+    "explanation": "Long piping affects velocity and pressure drop. Oil must return to the compressor. Manufacturer long-line instructions are critical."
+  },
+  {
+    "id": 34,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A condenser will be installed below a deck. What is the main concern?",
+    "options": [
+      "Restricted airflow and hot air recirculation",
+      "Lower head pressure always",
+      "Better sound control only",
+      "Less maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Condensers need free airflow. Restricted discharge air raises condensing pressure. Clearances must be maintained."
+  },
+  {
+    "id": 35,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A walk-in freezer evaporator drain exits through a cold area. What must be planned?",
+    "options": [
+      "Heat trace or freeze protection where required",
+      "No slope",
+      "Smaller pipe to keep water warm",
+      "No drain trap ever"
+    ],
+    "answer": 0,
+    "explanation": "Freezer drains can freeze. Frozen drains cause ice buildup and water problems. Drain heat and slope must be planned."
+  },
+  {
+    "id": 36,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "Why should a replacement unit’s weight be checked before rooftop installation?",
+    "options": [
+      "Roof and curb must support the load",
+      "It changes refrigerant type",
+      "It sets thermostat calibration",
+      "It determines gas pressure only"
+    ],
+    "answer": 0,
+    "explanation": "New equipment may be heavier than old equipment. Structural support must be adequate. Unsafe support can cause damage or collapse."
+  },
+  {
+    "id": 37,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A refrigeration system serves multiple evaporators at different temperatures. What must be planned?",
+    "options": [
+      "Separate control strategy, solenoids, EPRs, and defrost as required",
+      "One thermostat for all loads only",
+      "No metering devices",
+      "No pressure controls"
+    ],
+    "answer": 0,
+    "explanation": "Different loads need different evaporator conditions. Controls must prevent temperature conflicts. Defrost and pressure regulation may differ."
+  },
+  {
+    "id": 38,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "An indoor air handler is planned in a tight closet. What must be confirmed?",
+    "options": [
+      "Filter, coil, motor, drain, and control access",
+      "Paint colour",
+      "Refrigerant cylinder storage",
+      "Outdoor coil height only"
+    ],
+    "answer": 0,
+    "explanation": "Equipment must be serviceable after installation. Poor access causes maintenance neglect. Access requirements must be planned."
+  },
+  {
+    "id": 39,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A duct system has high expected static pressure. What should be considered?",
+    "options": [
+      "Blower capability and duct redesign",
+      "More refrigerant",
+      "Smaller filter only",
+      "Higher gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "High static reduces airflow. Blower performance must match duct resistance. Duct issues should be corrected before startup."
+  },
+  {
+    "id": 40,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "Why should outdoor-air intake placement be planned carefully?",
+    "options": [
+      "To avoid exhaust, contaminants, and flue gas re-entry",
+      "To increase compressor pressure",
+      "To reduce electrical grounding",
+      "To change refrigerant oil"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor air must be safe and clean. Poor intake placement can draw contaminants indoors. Code and design clearances apply."
+  },
+  {
+    "id": 41,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A condensing unit will be installed in a corrosive coastal environment. What should be considered?",
+    "options": [
+      "Coil protection, materials, clearances, and maintenance access",
+      "Smaller refrigerant lines only",
+      "No filter drier",
+      "No service valves"
+    ],
+    "answer": 0,
+    "explanation": "Corrosion shortens equipment life. Protected materials and maintenance access improve reliability. Environment affects equipment selection."
+  },
+  {
+    "id": 42,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A line set will pass through occupied space. What must be planned?",
+    "options": [
+      "Support, insulation, noise/vibration control, and firestopping where required",
+      "Leaving pipes loose",
+      "No insulation",
+      "Running beside sharp metal"
+    ],
+    "answer": 0,
+    "explanation": "Piping must be supported and protected. Noise and vibration can affect occupants. Penetrations may need approved sealing."
+  },
+  {
+    "id": 43,
+    "category": "Task 7 — Plans Installation of HVAC/R Systems",
+    "question": "A customer wants oversized equipment “for faster cooling.” What is the risk?",
+    "options": [
+      "Short cycling and poor dehumidification",
+      "Always better comfort",
+      "Lower cost always",
+      "No airflow requirements"
+    ],
+    "answer": 0,
+    "explanation": "Oversized equipment may cool air quickly but run briefly. Short run time reduces moisture removal. Proper load calculation is needed."
+  },
+  {
+    "id": 44,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A control sensor will be installed in a supply duct near a heating coil. What is the concern?",
+    "options": [
+      "It may not sense mixed air accurately",
+      "It improves control always",
+      "It reduces voltage",
+      "It increases refrigerant charge"
+    ],
+    "answer": 0,
+    "explanation": "Sensor location must represent controlled conditions. Air near coils can be stratified or unstable. Poor location causes hunting."
+  },
+  {
+    "id": 45,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A VFD will control a supply fan. What must be planned?",
+    "options": [
+      "Motor compatibility, drive sizing, control signal, bypass needs, and parameters",
+      "Refrigerant colour",
+      "Gas orifice only",
+      "Drain trap size only"
+    ],
+    "answer": 0,
+    "explanation": "Drives must match motor and load. Controls and parameters affect operation and protection. Improper planning causes faults."
+  },
+  {
+    "id": 46,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A pressure switch is used to prove airflow before heat. Why?",
+    "options": [
+      "To prevent heat operation without required airflow",
+      "To increase gas pressure",
+      "To lower refrigerant charge",
+      "To measure humidity"
+    ],
+    "answer": 0,
+    "explanation": "Heat without airflow can overheat equipment. Proof switches verify required conditions. They protect systems and occupants."
+  },
+  {
+    "id": 47,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A BAS will use 4–20 mA pressure sensors. What must be planned?",
+    "options": [
+      "Loop power, scaling, wiring polarity, and controller input type",
+      "Flame colour",
+      "Filter drier direction",
+      "Duct insulation thickness only"
+    ],
+    "answer": 0,
+    "explanation": "Analog inputs require correct signal setup. Wrong scaling or polarity causes false readings. Controller input must match sensor type."
+  },
+  {
+    "id": 48,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "Why should control wiring routes avoid high-voltage conductors where required?",
+    "options": [
+      "To reduce noise, interference, and safety hazards",
+      "To increase motor current",
+      "To improve refrigerant oil return",
+      "To lower airflow"
+    ],
+    "answer": 0,
+    "explanation": "Control wiring can pick up electrical noise. Separation also improves safety. Manufacturer and code requirements apply."
+  },
+  {
+    "id": 49,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A heat pump has electric auxiliary heat. What control planning is important?",
+    "options": [
+      "Staging, lockouts, balance point, and airflow proof",
+      "Receiver size only",
+      "Gas vent slope",
+      "Sight glass position only"
+    ],
+    "answer": 0,
+    "explanation": "Auxiliary heat must operate at the right time. Poor staging wastes energy or reduces comfort. Safety interlocks must be included."
+  },
+  {
+    "id": 50,
+    "category": "Task 8 — Plans Installation of Control Systems",
+    "question": "A condensate overflow safety is planned. Where should it be connected?",
+    "options": [
+      "In a control circuit that stops cooling before overflow damage",
+      "Across line voltage without rating",
+      "Only to a light with no shutdown",
+      "To refrigerant piping"
+    ],
+    "answer": 0,
+    "explanation": "Overflow safeties should prevent water damage. They must be rated and wired correctly. Alarm-only may not protect property. --- ## D. Performs Installation — 26 Questions"
+  },
+  {
+    "id": 51,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A technician installs a suction-line accumulator. What must be verified?",
+    "options": [
+      "Correct sizing, orientation, oil return, and application",
+      "Thermostat colour",
+      "Gas pipe slope",
+      "Blower belt only"
+    ],
+    "answer": 0,
+    "explanation": "Accumulators protect compressors from liquid. Wrong sizing can affect oil return. Installation must follow manufacturer instructions."
+  },
+  {
+    "id": 52,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A system has a receiver. Why must the refrigerant charge not exceed design limits?",
+    "options": [
+      "Liquid expansion and loss of condenser volume can create unsafe high pressure",
+      "It improves safety",
+      "It lowers head pressure always",
+      "It prevents liquid storage"
+    ],
+    "answer": 0,
+    "explanation": "Excess liquid can fill receiver/condenser space. Pressure rises as temperature changes. Overcharge is dangerous and inefficient."
+  },
+  {
+    "id": 53,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A new compressor is installed after burnout. What must be added to the repair process?",
+    "options": [
+      "Acid/debris cleanup, drier replacement, evacuation, and follow-up checks",
+      "Skip evacuation",
+      "Reuse the old drier",
+      "Add unknown refrigerant"
+    ],
+    "answer": 0,
+    "explanation": "Burnouts leave contamination. Cleanup protects the replacement compressor. Ignoring acid can cause repeat failure."
+  },
+  {
+    "id": 54,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A technician uses small hoses with Schrader cores left in during evacuation. What is the effect?",
+    "options": [
+      "Slower evacuation due to restriction",
+      "Faster evacuation always",
+      "More accurate charging",
+      "Lower moisture load"
+    ],
+    "answer": 0,
+    "explanation": "Small openings restrict vacuum flow. Core removal tools and large hoses improve evacuation. Evacuation speed depends on conductance."
+  },
+  {
+    "id": 55,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "Why should a liquid-line solenoid be installed with correct flow direction?",
+    "options": [
+      "Internal design may require one-way flow for proper sealing",
+      "Flow direction never matters",
+      "It changes voltage",
+      "It replaces a TXV"
+    ],
+    "answer": 0,
+    "explanation": "Many valves are directional. Wrong direction can leak, chatter, or restrict flow. Always follow arrow markings."
+  },
+  {
+    "id": 56,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A TXV external equalizer is connected to the wrong location. What can happen?",
+    "options": [
+      "Incorrect superheat control",
+      "Better feeding",
+      "Lower voltage",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "Equalizer pressure must represent evaporator outlet pressure. Wrong pressure signal affects valve response. Superheat can become unstable or incorrect."
+  },
+  {
+    "id": 57,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A technician charges liquid refrigerant directly into the compressor suction without metering. What is the risk?",
+    "options": [
+      "Liquid slugging",
+      "Better lubrication",
+      "Lower pressure only",
+      "Improved superheat"
+    ],
+    "answer": 0,
+    "explanation": "Compressors cannot compress liquid. Liquid entering the compressor can break valves or scrolls. Liquid charging must be controlled."
+  },
+  {
+    "id": 58,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A system pressure test is performed above the lowest-rated component. What is the issue?",
+    "options": [
+      "Component damage or rupture risk",
+      "Better leak detection only",
+      "Faster evacuation",
+      "Lower safety risk"
+    ],
+    "answer": 0,
+    "explanation": "Test pressure must not exceed component ratings. Controls and vessels may have different ratings. Overpressure creates hazards."
+  },
+  {
+    "id": 59,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A service valve is left mid-seated incorrectly after startup. What can happen?",
+    "options": [
+      "Incorrect service access or restricted operation",
+      "Better operation",
+      "Lower amperage always",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Service valve position affects ports and flow. Wrong position can mislead readings. Valve positions must be confirmed."
+  },
+  {
+    "id": 60,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A new evaporator fan motor is installed with wrong rotation. What will likely happen?",
+    "options": [
+      "Reduced airflow and poor heat transfer",
+      "Better cooling",
+      "Less frost always",
+      "Correct airflow always"
+    ],
+    "answer": 0,
+    "explanation": "Fan rotation controls air direction and volume. Wrong rotation reduces coil performance. Temperature control can fail."
+  },
+  {
+    "id": 61,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A technician installs refrigerant piping touching sharp sheet metal. What is required?",
+    "options": [
+      "Protect piping from abrasion and vibration",
+      "Leave it if copper is thick",
+      "Add refrigerant",
+      "Reduce airflow"
+    ],
+    "answer": 0,
+    "explanation": "Vibration can rub tubing through. Sharp edges create leak risk. Piping must be supported and protected."
+  },
+  {
+    "id": 62,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A system will not reach deep vacuum and pump oil is milky. What should be done?",
+    "options": [
+      "Change pump oil and continue proper evacuation diagnosis",
+      "Add refrigerant",
+      "Use oxygen",
+      "Ignore the micron gauge"
+    ],
+    "answer": 0,
+    "explanation": "Milky oil indicates moisture. Contaminated oil limits vacuum performance. Pump maintenance is part of evacuation."
+  },
+  {
+    "id": 63,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A line set is installed without suction insulation in a hot ceiling space. What is the result?",
+    "options": [
+      "Heat gain and possible condensation issues",
+      "Better capacity",
+      "Lower superheat always",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Suction lines absorb heat if uninsulated. This reduces efficiency and may affect compressor cooling. Cold surfaces may sweat."
+  },
+  {
+    "id": 64,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A system is started before opening service valves. What can occur?",
+    "options": [
+      "Compressor damage or abnormal pressure condition",
+      "Better pump-down",
+      "Correct operation",
+      "Lower pressure safely"
+    ],
+    "answer": 0,
+    "explanation": "Closed valves can block flow. The compressor may run into vacuum or high pressure. Valve positions are startup checks."
+  },
+  {
+    "id": 65,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "Why must final readings be taken after the system stabilizes?",
+    "options": [
+      "Early readings may not represent normal operation",
+      "Readings are unnecessary",
+      "Stabilization changes wire colour",
+      "Refrigerant type changes after 5 minutes"
+    ],
+    "answer": 0,
+    "explanation": "Pressures and temperatures change during startup. Stable operation gives meaningful values. Final readings support correct charging and commissioning."
+  },
+  {
+    "id": 66,
+    "category": "Task 9 — Installs HVAC/R Systems",
+    "question": "A duct connection leaks at the air handler. Why is this an installation problem?",
+    "options": [
+      "Air leakage affects airflow, efficiency, and comfort",
+      "It improves ventilation always",
+      "It lowers refrigerant pressure correctly",
+      "It replaces filters"
+    ],
+    "answer": 0,
+    "explanation": "Air leaks waste capacity. They can create pressure and comfort issues. Duct connections must be sealed."
+  },
+  {
+    "id": 67,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A 24 V control relay is installed in a 120 V circuit. What happens?",
+    "options": [
+      "Coil likely burns out",
+      "It operates better",
+      "It lowers gas pressure",
+      "It improves airflow"
+    ],
+    "answer": 0,
+    "explanation": "Coil voltage must match supply voltage. Wrong voltage damages components. Electrical ratings are required."
+  },
+  {
+    "id": 68,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A BAS temperature sensor is installed on an exterior wall in direct sun. What is likely?",
+    "options": [
+      "False temperature reading",
+      "Perfect space control",
+      "Lower refrigerant charge",
+      "Higher gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sensor location affects accuracy. Sun and exterior heat/cold distort readings. Poor placement causes control errors."
+  },
+  {
+    "id": 69,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A VFD is installed but motor nameplate data is not entered. What is the risk?",
+    "options": [
+      "Incorrect motor protection and control",
+      "Better drive operation",
+      "Lower fan load always",
+      "Correct setup automatically"
+    ],
+    "answer": 0,
+    "explanation": "Drives use motor data for protection. Wrong parameters can trip or under-protect. Setup is part of installation."
+  },
+  {
+    "id": 70,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A float switch is wired to shut off only the blower, not cooling. What is the concern?",
+    "options": [
+      "Condensate may continue forming and overflow",
+      "Better protection",
+      "Lower head pressure",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "Overflow safety must stop the source of water. Stopping only blower may not stop condensate. Control design must match intent."
+  },
+  {
+    "id": 71,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A damper actuator is installed without verifying spring-return direction. What is the risk?",
+    "options": [
+      "Damper may fail to unsafe position",
+      "Better freeze protection",
+      "Lower motor current",
+      "More refrigerant flow"
+    ],
+    "answer": 0,
+    "explanation": "Fail position matters for smoke, freeze, or ventilation. Spring return must match design. Testing confirms safe failure mode."
+  },
+  {
+    "id": 72,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A pressure sensor uses 0–5 V, but controller input is configured for 0–10 V. What happens?",
+    "options": [
+      "Incorrect displayed pressure",
+      "Correct readings always",
+      "Higher voltage output",
+      "Sensor becomes a switch"
+    ],
+    "answer": 0,
+    "explanation": "Signal scaling must match controller setup. Wrong range gives false values. Control decisions become incorrect."
+  },
+  {
+    "id": 73,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "An airflow proving switch is installed on the wrong pressure tap. What is the problem?",
+    "options": [
+      "It may not prove actual airflow correctly",
+      "It improves safety",
+      "It increases airflow",
+      "It lowers voltage"
+    ],
+    "answer": 0,
+    "explanation": "Proving switches need correct pressure reference. Wrong tap gives false proof or nuisance trips. Installation location is critical."
+  },
+  {
+    "id": 74,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A safety control is installed in parallel with another safety instead of series. What is the risk?",
+    "options": [
+      "One safety may be unable to stop equipment",
+      "Better safety",
+      "Lower current always",
+      "Correct shutdown"
+    ],
+    "answer": 0,
+    "explanation": "Safeties are often series devices. Parallel wiring can defeat one safety. Wiring must match the safety sequence."
+  },
+  {
+    "id": 75,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "After installing a control board, DIP switches are left at default. What may happen?",
+    "options": [
+      "Wrong staging, airflow, or equipment type operation",
+      "Perfect configuration",
+      "More refrigerant",
+      "Better sensor accuracy"
+    ],
+    "answer": 0,
+    "explanation": "DIP switches configure equipment options. Defaults may not match installation. Setup must follow the manual."
+  },
+  {
+    "id": 76,
+    "category": "Task 10 — Installs Control Systems",
+    "question": "A thermostat common wire is omitted on a control that requires it. What is likely?",
+    "options": [
+      "Power or communication problems",
+      "Better battery life always",
+      "Lower compressor amps",
+      "Higher gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Some controls need common for power. Communicating systems may fail without proper wiring. Control requirements must be followed. --- ## E. Performs Commissioning — 21 Questions"
+  },
+  {
+    "id": 77,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A new system cools, but static pressure is above manufacturer maximum. What should happen?",
+    "options": [
+      "Correct airflow/duct issue before accepting",
+      "Accept because cooling works",
+      "Add refrigerant",
+      "Increase blower speed without checking"
+    ],
+    "answer": 0,
+    "explanation": "High static can reduce airflow and damage equipment. Cooling alone does not prove proper operation. Commissioning must verify design limits."
+  },
+  {
+    "id": 78,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A TXV system has correct airflow but low subcooling after startup. What should be checked?",
+    "options": [
+      "Charge, liquid-line restrictions, and manufacturer charging data",
+      "Gas pressure only",
+      "Flame signal only",
+      "Drain slope only"
+    ],
+    "answer": 0,
+    "explanation": "Subcooling helps verify liquid condition. Low subcooling can indicate low charge or flashing. Manufacturer data guides final charge."
+  },
+  {
+    "id": 79,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A heat pump operates in cooling during a heat call. What commissioning check was missed?",
+    "options": [
+      "Thermostat O/B setup and reversing valve sequence",
+      "Filter drier direction only",
+      "Gas pressure only",
+      "Condensate drain pitch"
+    ],
+    "answer": 0,
+    "explanation": "Heat pump controls depend on O/B configuration. Wrong setup reverses mode operation. Sequence must be tested."
+  },
+  {
+    "id": 80,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A refrigeration case reaches temperature but product temperature remains high. What should be understood?",
+    "options": [
+      "Product pull-down takes time and depends on load mass",
+      "Air temperature means product is safe instantly",
+      "Compressor must be replaced",
+      "Defrost must be disabled"
+    ],
+    "answer": 0,
+    "explanation": "Product cools slower than air. Large warm loads require time and capacity. Commissioning should consider product load."
+  },
+  {
+    "id": 81,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "During commissioning, condenser air discharge recirculates into the inlet. What is likely?",
+    "options": [
+      "High head pressure and poor efficiency",
+      "Low head pressure always",
+      "Better cooling",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Hot air recirculation reduces heat rejection. Head pressure and compressor load increase. Clearance or ducting must be corrected."
+  },
+  {
+    "id": 82,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A hydronic coil has design water temperature but low heat output. What should be checked?",
+    "options": [
+      "Water flow, air flow, valve position, and air in coil",
+      "Refrigerant charge",
+      "Flame rod only",
+      "Compressor phase only"
+    ],
+    "answer": 0,
+    "explanation": "Heat transfer requires water and air flow. Air locks or closed valves reduce output. Commissioning verifies complete operation."
+  },
+  {
+    "id": 83,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A gas-fired unit is commissioned. Which readings are important?",
+    "options": [
+      "Inlet gas pressure, manifold pressure, combustion, draft/venting, and temperature rise",
+      "Refrigerant subcooling only",
+      "Suction pressure only",
+      "Liquid-line temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Gas equipment must be checked for safe combustion. Pressure, draft, and temperature rise verify setup. Visual flame alone is not enough."
+  },
+  {
+    "id": 84,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A compressor starts six times in ten minutes after commissioning. What should be checked?",
+    "options": [
+      "Control differential, anti-short-cycle timing, load, and sensor location",
+      "Paint colour",
+      "Recovery cylinder size only",
+      "Gas vent label only"
+    ],
+    "answer": 0,
+    "explanation": "Short cycling damages compressors. Controls and load must be stable. Commissioning should catch this."
+  },
+  {
+    "id": 85,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A system’s refrigerant charge is correct by weight but operating readings are abnormal. What should be done?",
+    "options": [
+      "Check airflow, restrictions, non-condensables, metering, and installation conditions",
+      "Ignore readings",
+      "Add more refrigerant",
+      "Remove refrigerant randomly"
+    ],
+    "answer": 0,
+    "explanation": "Correct weight does not eliminate all faults. Airflow or restrictions can still cause abnormal readings. Full commissioning is required."
+  },
+  {
+    "id": 86,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "An economizer minimum outdoor-air position is set too high. What can happen?",
+    "options": [
+      "Excess ventilation load and comfort problems",
+      "Better efficiency always",
+      "Less heating/cooling load",
+      "Lower filter load"
+    ],
+    "answer": 0,
+    "explanation": "Too much outdoor air adds heating/cooling load. Comfort and energy use suffer. Minimum position must match design."
+  },
+  {
+    "id": 87,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "Why should defrost termination be tested on a freezer?",
+    "options": [
+      "To prevent incomplete defrost or excessive heat",
+      "To increase refrigerant charge",
+      "To lower compressor voltage",
+      "To remove need for drains"
+    ],
+    "answer": 0,
+    "explanation": "Defrost must remove frost without overheating. Termination failure causes ice or product warming. Commissioning verifies sequence."
+  },
+  {
+    "id": 88,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "A pump is noisy during hydronic commissioning. What should be checked?",
+    "options": [
+      "Air, cavitation, flow rate, pump rotation, and inlet pressure",
+      "Refrigerant colour",
+      "Gas burner only",
+      "Door gasket"
+    ],
+    "answer": 0,
+    "explanation": "Pump noise can indicate air or cavitation. Flow and pressure conditions matter. Incorrect rotation also reduces performance."
+  },
+  {
+    "id": 89,
+    "category": "Task 11 — Commissions HVAC/R Systems",
+    "question": "Why should commissioning results be compared to design documents?",
+    "options": [
+      "To verify the installed system meets intended performance",
+      "To avoid testing",
+      "To increase charge",
+      "To skip customer training"
+    ],
+    "answer": 0,
+    "explanation": "Design values define expected operation. Commissioning confirms actual performance. Differences reveal setup problems."
+  },
+  {
+    "id": 90,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A BAS point shows “fan on,” but the fan status proof is off. What should be checked?",
+    "options": [
+      "Fan operation, proof switch, wiring, and BAS point mapping",
+      "Refrigerant charge only",
+      "Gas pressure only",
+      "Drain line only"
+    ],
+    "answer": 0,
+    "explanation": "Command and proof are different. Status must reflect actual operation. Point mapping and switches must be verified."
+  },
+  {
+    "id": 91,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A 0–10 V damper actuator only moves from 0% to 50%. What should be checked?",
+    "options": [
+      "Signal voltage, actuator range, setup, linkage, and end stops",
+      "Refrigerant oil",
+      "Gas vent slope",
+      "Condenser coil only"
+    ],
+    "answer": 0,
+    "explanation": "Partial movement can be signal or mechanical. Actuator configuration may limit stroke. Commissioning verifies full range."
+  },
+  {
+    "id": 92,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A BAS alarm appears locally but does not notify the operator. What should be verified?",
+    "options": [
+      "Alarm routing, priority, communication, and front-end setup",
+      "Compressor superheat",
+      "Gas pressure",
+      "Hydronic pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Alarm generation is not enough. Operators must receive the alarm. Routing and communication are part of commissioning."
+  },
+  {
+    "id": 93,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A control sequence calls for pump proof before boiler firing. What must be tested?",
+    "options": [
+      "Boiler remains off until flow proof is made",
+      "Boiler fires with no water flow",
+      "Pump proof is bypassed",
+      "Gas pressure is ignored"
+    ],
+    "answer": 0,
+    "explanation": "Flow proof protects boilers and heat exchangers. The interlock must stop unsafe firing. Testing proves the sequence."
+  },
+  {
+    "id": 94,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A sensor displays correct temperature but controls the wrong zone. What is likely?",
+    "options": [
+      "BAS point mapping error",
+      "Sensor is perfect and no issue exists",
+      "Refrigerant is low",
+      "Gas pressure is high"
+    ],
+    "answer": 0,
+    "explanation": "Correct value can still be assigned to wrong point. Point-to-zone mapping must be verified. Wrong mapping causes comfort problems."
+  },
+  {
+    "id": 95,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A VFD remains in hand mode after commissioning. What is the risk?",
+    "options": [
+      "BAS automatic control is defeated",
+      "Control improves",
+      "Motor current becomes zero",
+      "Refrigerant charge increases"
+    ],
+    "answer": 0,
+    "explanation": "Hand mode overrides automatic sequence. Systems must be returned to automatic mode. Overrides can hide faults."
+  },
+  {
+    "id": 96,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A freeze stat trips during commissioning when outdoor air damper opens. What does this indicate?",
+    "options": [
+      "Freeze protection is responding to a real or false low-temperature condition",
+      "It should be permanently bypassed",
+      "Refrigerant is definitely low",
+      "Gas valve is oversized"
+    ],
+    "answer": 0,
+    "explanation": "The trip must be investigated. Outdoor air, sensor placement, water flow, or control sequence may be wrong. Bypassing freeze protection is unsafe."
+  },
+  {
+    "id": 97,
+    "category": "Task 12 — Commissions Control Systems",
+    "question": "A control system should prevent simultaneous heating and cooling. What confirms this?",
+    "options": [
+      "Testing sequence through all modes and verifying interlocks",
+      "Looking at thermostat colour",
+      "Checking refrigerant weight only",
+      "Leaving it to the customer"
+    ],
+    "answer": 0,
+    "explanation": "Interlocks must be function-tested. Heating and cooling overlap wastes energy. Commissioning proves correct sequence. --- ## F. Performs Maintenance and Service — 28 Questions"
+  },
+  {
+    "id": 98,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A condenser coil looks clean outside, but head pressure is high. What should be done?",
+    "options": [
+      "Inspect inside coil, airflow path, fan operation, and recirculation",
+      "Replace compressor immediately",
+      "Add refrigerant",
+      "Ignore it"
+    ],
+    "answer": 0,
+    "explanation": "Coils may be dirty inside. Airflow problems can also raise head pressure. Maintenance requires complete inspection."
+  },
+  {
+    "id": 99,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A walk-in cooler has ice on the floor near the evaporator. What should be checked?",
+    "options": [
+      "Drain pan, drain line, trap, heat trace, and defrost drainage",
+      "Thermostat colour",
+      "Gas pressure only",
+      "Compressor paint"
+    ],
+    "answer": 0,
+    "explanation": "Ice near evaporator often indicates drainage failure. Defrost water must leave the box. Blocked or frozen drains create hazards."
+  },
+  {
+    "id": 100,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A belt-driven blower has black dust near pulleys. What does this suggest?",
+    "options": [
+      "Belt wear or misalignment",
+      "Refrigerant leak",
+      "Perfect belt condition",
+      "Gas valve failure"
+    ],
+    "answer": 0,
+    "explanation": "Belt dust indicates wear. Misalignment or wrong tension may cause it. Belts and pulleys should be inspected."
+  },
+  {
+    "id": 101,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A freezer door heater is failed. What may happen?",
+    "options": [
+      "Frost or ice at the door frame",
+      "Lower box humidity always",
+      "Compressor stops immediately",
+      "Better gasket seal"
+    ],
+    "answer": 0,
+    "explanation": "Door heaters prevent condensation and ice. Failure can freeze gaskets and frames. Door sealing suffers."
+  },
+  {
+    "id": 102,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "Why should evaporator fan guards and blades be cleaned?",
+    "options": [
+      "Dirt reduces airflow and can imbalance fan operation",
+      "Dirt improves airflow",
+      "Dirt lowers refrigerant charge",
+      "Dirt increases gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Dirty fans move less air. Imbalance can damage motors or bearings. Cleaning supports performance."
+  },
+  {
+    "id": 103,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A maintenance technician finds loose compressor terminals. What is the risk?",
+    "options": [
+      "Heat, arcing, and compressor electrical failure",
+      "Better current flow",
+      "Lower voltage drop always",
+      "Correct operation"
+    ],
+    "answer": 0,
+    "explanation": "Loose terminals create resistance. Resistance causes heat and arcing. Electrical failures may result."
+  },
+  {
+    "id": 104,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "A hydronic system has air noise after maintenance. What should be done?",
+    "options": [
+      "Purge air and check system pressure/air separator",
+      "Add refrigerant",
+      "Replace thermostat",
+      "Increase gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Air causes noise and poor flow. Proper fill pressure helps air removal. Air separators and vents must function."
+  },
+  {
+    "id": 105,
+    "category": "Task 13 — Maintains HVAC/R Systems",
+    "question": "Why check crankcase heater operation during maintenance?",
+    "options": [
+      "To reduce refrigerant migration into oil",
+      "To increase airflow",
+      "To clean condenser coils",
+      "To lower gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Refrigerant can migrate to compressor oil. Crankcase heat helps protect lubrication. Failure can lead to startup damage."
+  },
+  {
+    "id": 106,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A system has high head pressure and low subcooling. Which issue may be present?",
+    "options": [
+      "Non-condensables or poor heat rejection",
+      "Perfect operation",
+      "Open thermostat",
+      "Flame sensor fault only"
+    ],
+    "answer": 0,
+    "explanation": "High head with low subcooling is not simple overcharge. Air/non-condensables can raise pressure. Condenser airflow must also be checked."
+  },
+  {
+    "id": 107,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A system has high head pressure and high subcooling. What should be checked?",
+    "options": [
+      "Overcharge, restricted liquid path, or condenser flooding",
+      "Low charge only",
+      "Open contactor coil",
+      "Low gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "High subcooling means liquid is stored in the high side. Head pressure rises when condenser space is reduced. Restrictions or overcharge are possible."
+  },
+  {
+    "id": 108,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A compressor has low amps, high suction, and low discharge pressure. What is likely?",
+    "options": [
+      "Weak compressor pumping",
+      "Locked rotor",
+      "High load",
+      "Dirty filter only"
+    ],
+    "answer": 0,
+    "explanation": "Low amperage can mean low compressor work. High suction and low head show poor compression. Internal bypass or valve damage may exist."
+  },
+  {
+    "id": 109,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A TXV bulb loses charge. What would likely happen?",
+    "options": [
+      "Valve may close or underfeed evaporator",
+      "Valve always overfeeds",
+      "Compressor becomes three-phase",
+      "Gas pressure rises"
+    ],
+    "answer": 0,
+    "explanation": "Bulb pressure helps open the TXV. Loss of charge reduces opening force. Evaporator may starve."
+  },
+  {
+    "id": 110,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A compressor is noisy at startup and oil level foams. What is possible?",
+    "options": [
+      "Refrigerant migration or liquid refrigerant in oil",
+      "Correct operation always",
+      "Low voltage only",
+      "Dirty thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Refrigerant in oil can foam at startup. Lubrication becomes poor. Crankcase heat and migration controls should be checked."
+  },
+  {
+    "id": 111,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A liquid-line drier has a temperature drop across it. What should be done?",
+    "options": [
+      "Confirm restriction with pressure/temperature readings and replace if restricted",
+      "Ignore it",
+      "Add refrigerant only",
+      "Remove the drier permanently"
+    ],
+    "answer": 0,
+    "explanation": "Temperature drop may indicate flashing. Pressure drop confirms restriction. A restricted drier starves the evaporator."
+  },
+  {
+    "id": 112,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A walk-in cooler runs continuously, but product temperature is high and evaporator fans are blocked by boxes. What is the fault?",
+    "options": [
+      "Air circulation problem",
+      "Low gas pressure",
+      "Compressor always failed",
+      "Correct storage practice"
+    ],
+    "answer": 0,
+    "explanation": "Product cooling requires airflow. Blocked fans create warm zones. Storage layout affects refrigeration performance."
+  },
+  {
+    "id": 113,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A heat pump has poor heating and outdoor coil is iced solid. What should be checked?",
+    "options": [
+      "Defrost system, outdoor fan, coil airflow, refrigerant operation",
+      "Gas regulator only",
+      "Hydronic pump only",
+      "Filter drier colour only"
+    ],
+    "answer": 0,
+    "explanation": "Ice blocks heat transfer. Defrost must initiate and terminate correctly. Airflow and refrigerant faults can contribute."
+  },
+  {
+    "id": 114,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A fixed-orifice system has low superheat. What is the concern?",
+    "options": [
+      "Overfeeding/floodback risk",
+      "Starved evaporator",
+      "Low charge always",
+      "Open transformer"
+    ],
+    "answer": 0,
+    "explanation": "Low superheat means refrigerant may not fully vaporize. Liquid return can damage compressors. Charge and airflow must be checked."
+  },
+  {
+    "id": 115,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A system trips low pressure only at night. What may be involved?",
+    "options": [
+      "Low ambient/head pressure control, load change, or refrigerant feed issue",
+      "Always bad compressor",
+      "Gas pressure too high",
+      "Dirty burner only"
+    ],
+    "answer": 0,
+    "explanation": "Night conditions change load and condenser pressure. Metering devices need proper pressure difference. Controls must match operating conditions."
+  },
+  {
+    "id": 116,
+    "category": "Task 14 — Services HVAC/R Systems",
+    "question": "A hydronic coil is cold on entering pipe but warm on leaving pipe during heating call. What is likely?",
+    "options": [
+      "Flow direction or control valve/piping issue",
+      "Perfect heating",
+      "Refrigerant overcharge",
+      "Flame sensor failure"
+    ],
+    "answer": 0,
+    "explanation": "Heating coil supply should normally be hotter than return. Reversed piping or control problems may exist. Flow and valve position must be checked."
+  },
+  {
+    "id": 117,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A BAS temperature sensor is drifting slowly over months. What should be done?",
+    "options": [
+      "Verify calibration and replace or recalibrate if required",
+      "Ignore it",
+      "Add refrigerant",
+      "Increase gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sensor drift causes poor control. Independent measurement confirms accuracy. Calibration or replacement restores reliability."
+  },
+  {
+    "id": 118,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A relay contact welds closed. What can happen?",
+    "options": [
+      "Load may continue running without command",
+      "Load will never run",
+      "Voltage becomes zero",
+      "Refrigerant charge changes"
+    ],
+    "answer": 0,
+    "explanation": "Welded contacts stay closed. The load may remain energized. This can create unsafe operation."
+  },
+  {
+    "id": 119,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A pressure switch tube has water trapped in it. What may result?",
+    "options": [
+      "False pressure switch operation",
+      "Better proving",
+      "More accurate draft",
+      "Lower voltage"
+    ],
+    "answer": 0,
+    "explanation": "Water blocks pressure signal. Switch may fail to open or close correctly. Tubing must be clear and routed properly."
+  },
+  {
+    "id": 120,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A control transformer secondary voltage drops only when a field device connects. What is likely?",
+    "options": [
+      "Field device or wiring fault drawing excessive current",
+      "Low refrigerant charge",
+      "Dirty condenser only",
+      "Normal operation always"
+    ],
+    "answer": 0,
+    "explanation": "Load-related voltage drop indicates excessive current or resistance. The connected device/circuit must be isolated. Transformer capacity should also be checked."
+  },
+  {
+    "id": 121,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A control board is replaced twice, but the same fuse blows. What should be suspected?",
+    "options": [
+      "External wiring or device fault",
+      "Both boards were always defective",
+      "Refrigerant overcharge",
+      "Dirty air filter only"
+    ],
+    "answer": 0,
+    "explanation": "Repeated board fuse failure points to a field fault. Shorted wiring or coils can damage boards. Root cause must be found."
+  },
+  {
+    "id": 122,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A communication cable is run beside high-voltage wiring and communication faults occur. What should be checked?",
+    "options": [
+      "Routing, shielding, grounding, termination, and manufacturer requirements",
+      "Refrigerant level only",
+      "Gas manifold pressure only",
+      "Drain slope only"
+    ],
+    "answer": 0,
+    "explanation": "Electrical noise can corrupt communication. Shielding and termination matter. Cable routing must follow specifications."
+  },
+  {
+    "id": 123,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A control actuator receives signal but linkage is loose. What will happen?",
+    "options": [
+      "Controlled device may not move correctly",
+      "Control becomes more accurate",
+      "Refrigerant pressure lowers",
+      "Gas valve opens more"
+    ],
+    "answer": 0,
+    "explanation": "Electrical signal does not prove mechanical movement. Loose linkage prevents correct damper/valve position. Physical inspection is needed."
+  },
+  {
+    "id": 124,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A safety limit opens repeatedly after reset. What should the technician do?",
+    "options": [
+      "Diagnose the cause of the repeated limit trip",
+      "Reset until it stays closed",
+      "Bypass it",
+      "Replace thermostat only"
+    ],
+    "answer": 0,
+    "explanation": "Repeated limit trips indicate a real fault. Resetting without diagnosis is unsafe. The cause must be corrected."
+  },
+  {
+    "id": 125,
+    "category": "Task 15 — Maintains and Services Control Systems",
+    "question": "A control enclosure heater has failed in a cold damp location. What is the risk?",
+    "options": [
+      "Condensation, corrosion, and control failures",
+      "Better control cooling",
+      "Lower refrigerant pressure",
+      "Higher gas pressure"
+    ],
+    "answer": 0,
+    "explanation": "Moisture damages electrical controls. Panel heaters prevent condensation. Failed heaters can cause intermittent faults."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerLevel1Set1Questions =
+  shuffleArray(racmInterprovincialSet2HardestQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "refrigeration-and-air-conditioning-mechanic",
+  tradeTitle: "Refrigeration and Air Conditioning Mechanic",
+  sectionTitle: "Inter-Provincial Mock Exam Set 2 Hardest",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerLevel1Set1Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

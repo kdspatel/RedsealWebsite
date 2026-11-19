@@ -1,0 +1,2696 @@
+const motorcycleTechnicianPowerTransferQuestions = [
+  {
+    "id": 1,
+    "category": "F — Power Transfer",
+    "question": "What is the main purpose of the clutch?",
+    "options": [
+      "Connect and disconnect engine power to the transmission",
+      "Cool the engine",
+      "Charge the battery",
+      "Control tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "The clutch lets the rider start, stop, and shift smoothly. It connects engine torque to the transmission. It also disconnects power when the lever is pulled. ---"
+  },
+  {
+    "id": 2,
+    "category": "F — Power Transfer",
+    "question": "Engine rpm rises, but road speed does not increase properly. What is this called?",
+    "options": [
+      "Clutch slip",
+      "Clutch drag",
+      "Gear backlash",
+      "Brake fade"
+    ],
+    "answer": 0,
+    "explanation": "Clutch slip means the clutch is not holding engine torque. Worn plates, weak springs, wrong oil, or poor adjustment can cause it. Slip is often worse under load. ---"
+  },
+  {
+    "id": 3,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle creeps forward with the clutch lever pulled in. What is this called?",
+    "options": [
+      "Clutch drag",
+      "Clutch slip",
+      "Detonation",
+      "Overcharging"
+    ],
+    "answer": 0,
+    "explanation": "Clutch drag means the clutch does not fully disengage. The bike may creep or shift hard. Adjustment, hydraulic release, warped plates, or basket notching may be involved. ---"
+  },
+  {
+    "id": 4,
+    "category": "F — Power Transfer",
+    "question": "What can cause clutch slip?",
+    "options": [
+      "Worn friction plates or weak springs",
+      "High tire pressure",
+      "Clean brake fluid",
+      "Correct coolant level"
+    ],
+    "answer": 0,
+    "explanation": "Friction plates and springs create clutch holding force. If plates are worn or springs weak, the clutch may slip. Wrong oil can also reduce clutch friction. ---"
+  },
+  {
+    "id": 5,
+    "category": "F — Power Transfer",
+    "question": "What can cause clutch drag?",
+    "options": [
+      "Warped plates, incorrect adjustment, or hydraulic air",
+      "Overcharged battery",
+      "Clogged air filter only",
+      "Worn headlight bulb"
+    ],
+    "answer": 0,
+    "explanation": "Drag happens when plates do not separate fully. Hydraulic or cable problems can reduce release travel. Warped plates or basket notches can also cause drag. ---"
+  },
+  {
+    "id": 6,
+    "category": "F — Power Transfer",
+    "question": "Why is clutch free play important on a cable clutch?",
+    "options": [
+      "It allows full engagement and release",
+      "It increases engine compression",
+      "It adjusts fuel pressure",
+      "It changes tire size"
+    ],
+    "answer": 0,
+    "explanation": "Too little free play can cause clutch slip. Too much free play can prevent full release. Free play must be set to specification. ---"
+  },
+  {
+    "id": 7,
+    "category": "F — Power Transfer",
+    "question": "A clutch cable has no free play. What can happen?",
+    "options": [
+      "Clutch slip",
+      "Better clutch life",
+      "Lower engine temperature",
+      "Stronger final drive gears"
+    ],
+    "answer": 0,
+    "explanation": "No free play may hold the clutch partly released. This reduces clamping force. The clutch can slip and overheat. ---"
+  },
+  {
+    "id": 8,
+    "category": "F — Power Transfer",
+    "question": "A clutch cable has too much free play. What can happen?",
+    "options": [
+      "Clutch may not fully disengage",
+      "Clutch will always slip",
+      "Battery will overcharge",
+      "Tire pressure will rise"
+    ],
+    "answer": 0,
+    "explanation": "Too much free play reduces release movement. The clutch may drag when the lever is pulled. This can cause creeping or hard shifting. ---"
+  },
+  {
+    "id": 9,
+    "category": "F — Power Transfer",
+    "question": "Why should wet clutch plates be soaked before installation when specified?",
+    "options": [
+      "To prevent dry startup and improve initial lubrication",
+      "To make them permanently larger",
+      "To increase battery voltage",
+      "To clean brake fluid"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutches operate in oil. Dry plates can grab or wear during first use. Follow the manufacturer procedure. ---"
+  },
+  {
+    "id": 10,
+    "category": "F — Power Transfer",
+    "question": "Why is motorcycle-compatible oil important for wet clutches?",
+    "options": [
+      "Wrong oil can cause clutch slip",
+      "It increases tire pressure",
+      "It improves brake friction",
+      "It changes spark timing"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutches share oil with the engine or primary system. Some oils contain friction modifiers. These additives can reduce clutch grip. ---"
+  },
+  {
+    "id": 11,
+    "category": "F — Power Transfer",
+    "question": "Why measure clutch friction plate thickness?",
+    "options": [
+      "To check for wear below service limit",
+      "To measure coolant pressure",
+      "To adjust tire balance",
+      "To set ignition timing"
+    ],
+    "answer": 0,
+    "explanation": "Friction plates wear thinner during use. Thin plates can reduce clutch holding ability. Measurements must be compared to specifications. ---"
+  },
+  {
+    "id": 12,
+    "category": "F — Power Transfer",
+    "question": "Why measure clutch steel plates for warpage?",
+    "options": [
+      "Warped plates can cause clutch drag",
+      "Warped plates improve release",
+      "Warpage increases battery voltage",
+      "Warpage reduces fuel consumption"
+    ],
+    "answer": 0,
+    "explanation": "Steel plates must remain flat. Warped plates may not separate evenly. This can cause drag and poor shifting. ---"
+  },
+  {
+    "id": 13,
+    "category": "F — Power Transfer",
+    "question": "What does a clutch spring do?",
+    "options": [
+      "Applies pressure to hold the clutch pack together",
+      "Pumps coolant",
+      "Opens valves",
+      "Charges the battery"
+    ],
+    "answer": 0,
+    "explanation": "Springs create clamping force. Weak springs can allow clutch slip. Spring free length and tension should be checked. ---"
+  },
+  {
+    "id": 14,
+    "category": "F — Power Transfer",
+    "question": "A clutch basket has deep notches. What problem can occur?",
+    "options": [
+      "Plates may hang up and cause drag",
+      "Battery may discharge",
+      "Tire may lose air",
+      "Radiator may leak"
+    ],
+    "answer": 0,
+    "explanation": "Clutch plate tabs slide in the basket. Notches stop smooth plate movement. This can cause drag, grabbing, or poor release. ---"
+  },
+  {
+    "id": 15,
+    "category": "F — Power Transfer",
+    "question": "What is clutch stack height?",
+    "options": [
+      "Total thickness of the clutch plate pack",
+      "Tire diameter",
+      "Battery height",
+      "Brake rotor thickness"
+    ],
+    "answer": 0,
+    "explanation": "Stack height affects clutch engagement and release. Too thin may cause slip. Too thick may cause drag. ---"
+  },
+  {
+    "id": 16,
+    "category": "F — Power Transfer",
+    "question": "A hydraulic clutch feels spongy and does not release fully. What is likely?",
+    "options": [
+      "Air in the hydraulic system",
+      "Overfilled fuel tank",
+      "Worn tire tread",
+      "Strong battery"
+    ],
+    "answer": 0,
+    "explanation": "Air compresses in hydraulic systems. This reduces release movement. Bleeding restores firm clutch operation. ---"
+  },
+  {
+    "id": 17,
+    "category": "F — Power Transfer",
+    "question": "What is the purpose of the primary drive?",
+    "options": [
+      "Transfer power from crankshaft to clutch/transmission",
+      "Inflate the tire",
+      "Pump brake fluid",
+      "Control headlight brightness"
+    ],
+    "answer": 0,
+    "explanation": "The primary drive connects the engine crankshaft to the clutch. It may use gears, a chain, or a belt. It must be correctly adjusted and lubricated where required. ---"
+  },
+  {
+    "id": 18,
+    "category": "F — Power Transfer",
+    "question": "A primary chain is too loose. What can happen?",
+    "options": [
+      "Noise and shock loading",
+      "Higher compression",
+      "Better shifting always",
+      "Lower fuel use guaranteed"
+    ],
+    "answer": 0,
+    "explanation": "Excess slack can create noise and jerky power transfer. It can shock-load sprockets and bearings. Slack should be adjusted to specification. ---"
+  },
+  {
+    "id": 19,
+    "category": "F — Power Transfer",
+    "question": "A primary chain is too tight. What can happen?",
+    "options": [
+      "Bearing and shaft overload",
+      "More engine power",
+      "Better lubrication",
+      "Stronger battery charging"
+    ],
+    "answer": 0,
+    "explanation": "Too little slack places constant load on shafts and bearings. It can cause noise and premature wear. Correct slack is important. ---"
+  },
+  {
+    "id": 20,
+    "category": "F — Power Transfer",
+    "question": "A primary belt has missing teeth. What should be done?",
+    "options": [
+      "Replace belt and inspect pulleys",
+      "Glue the teeth back on",
+      "Lubricate the belt with engine oil",
+      "Ignore if the bike moves"
+    ],
+    "answer": 0,
+    "explanation": "Missing teeth can cause belt skipping or loss of drive. Pulley damage or misalignment may have caused the failure. The belt drive system should be inspected. ---"
+  },
+  {
+    "id": 21,
+    "category": "F — Power Transfer",
+    "question": "Why should a primary or final drive belt not be oiled unless specified?",
+    "options": [
+      "Oil can damage the belt or cause slipping",
+      "Oil always improves belts",
+      "Oil increases belt teeth",
+      "Oil charges the battery"
+    ],
+    "answer": 0,
+    "explanation": "Many belts are designed to run dry. Oil contamination can damage rubber and reduce grip. The source of oil contamination should be repaired. ---"
+  },
+  {
+    "id": 22,
+    "category": "F — Power Transfer",
+    "question": "A belt shows wear on one edge. What is likely?",
+    "options": [
+      "Misalignment or incorrect tension",
+      "Correct operation always",
+      "Rich fuel mixture",
+      "Low brake fluid"
+    ],
+    "answer": 0,
+    "explanation": "Edge wear suggests the belt is tracking incorrectly. Pulley alignment and tension should be checked. Worn pulleys may also contribute. ---"
+  },
+  {
+    "id": 23,
+    "category": "F — Power Transfer",
+    "question": "What type of transmission is common in many motorcycles?",
+    "options": [
+      "Constant mesh transmission",
+      "Steam transmission",
+      "Hydraulic-only transmission",
+      "Air pressure transmission"
+    ],
+    "answer": 0,
+    "explanation": "In a constant mesh transmission, gear pairs stay meshed. Power flow changes when gears lock to shafts. Shift dogs or sliding collars select gears. ---"
+  },
+  {
+    "id": 24,
+    "category": "F — Power Transfer",
+    "question": "What is the purpose of shift dogs?",
+    "options": [
+      "Lock selected gears to transmit power",
+      "Pump oil to the radiator",
+      "Cool the clutch",
+      "Inflate tires"
+    ],
+    "answer": 0,
+    "explanation": "Shift dogs engage with slots to lock gears or collars. They allow power to flow through the selected gear. Worn dogs can cause jumping out of gear. ---"
+  },
+  {
+    "id": 25,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle jumps out of gear under acceleration. What is commonly worn?",
+    "options": [
+      "Shift dogs, engagement slots, or shift fork",
+      "Brake pads",
+      "Fuel cap seal",
+      "Fork seals"
+    ],
+    "answer": 0,
+    "explanation": "Load can force worn dogs apart. A bent or worn shift fork can prevent full engagement. Transmission inspection may be required. ---"
+  },
+  {
+    "id": 26,
+    "category": "F — Power Transfer",
+    "question": "What is a false neutral?",
+    "options": [
+      "A position between gears where no gear is fully engaged",
+      "A low tire pressure condition",
+      "A weak battery condition",
+      "A cooling system leak"
+    ],
+    "answer": 0,
+    "explanation": "False neutral occurs when gears do not fully engage. It may be caused by shift linkage, drum, fork, detent, or dog wear. Correct shifting mechanism operation is important. ---"
+  },
+  {
+    "id": 27,
+    "category": "F — Power Transfer",
+    "question": "Hard shifting only when the engine is running is often caused by:",
+    "options": [
+      "Clutch drag",
+      "Low tire pressure",
+      "Weak headlight",
+      "Radiator leak"
+    ],
+    "answer": 0,
+    "explanation": "A dragging clutch keeps load on transmission gears. This makes shifts difficult while running. Check clutch adjustment and release before transmission teardown. ---"
+  },
+  {
+    "id": 28,
+    "category": "F — Power Transfer",
+    "question": "Why should shift forks be checked for wear and straightness?",
+    "options": [
+      "They position gears for proper engagement",
+      "They charge the battery",
+      "They control fuel mixture",
+      "They cool the radiator"
+    ],
+    "answer": 0,
+    "explanation": "Shift forks move gears or collars. Bent or worn forks can prevent full engagement. This can cause missed shifts or gear jumping. ---"
+  },
+  {
+    "id": 29,
+    "category": "F — Power Transfer",
+    "question": "A shift fork is blue from heat. What does this suggest?",
+    "options": [
+      "Excess friction or constant side load",
+      "Correct normal wear",
+      "Better lubrication",
+      "Stronger metal"
+    ],
+    "answer": 0,
+    "explanation": "Blue colour usually indicates overheating. The fork may be rubbing due to gear engagement problems. Related gear, drum, and lubrication should be checked. ---"
+  },
+  {
+    "id": 30,
+    "category": "F — Power Transfer",
+    "question": "Why should transmission gears be inspected for chipped teeth?",
+    "options": [
+      "Chipped teeth can cause noise, debris, and failure",
+      "Chips improve oil flow",
+      "Chips increase gear strength",
+      "Chips lower engine temperature"
+    ],
+    "answer": 0,
+    "explanation": "Gear teeth carry heavy loads. Chips can grow into cracks or breakage. Metal debris can damage bearings and other parts. ---"
+  },
+  {
+    "id": 31,
+    "category": "F — Power Transfer",
+    "question": "Why are thrust washers and spacers important in a transmission?",
+    "options": [
+      "They control gear spacing and end play",
+      "They adjust fuel pressure",
+      "They set tire pressure",
+      "They control coolant temperature"
+    ],
+    "answer": 0,
+    "explanation": "Washers and spacers locate gears on shafts. Incorrect placement can cause binding or poor engagement. Transmission assembly order must be followed. ---"
+  },
+  {
+    "id": 32,
+    "category": "F — Power Transfer",
+    "question": "Excessive transmission shaft end play can cause:",
+    "options": [
+      "Poor gear engagement or noise",
+      "Higher battery output",
+      "Better shifting always",
+      "Increased coolant flow"
+    ],
+    "answer": 0,
+    "explanation": "Shaft position affects gear and dog engagement. Too much movement can create noise or jumping out of gear. End play must meet specification. ---"
+  },
+  {
+    "id": 33,
+    "category": "F — Power Transfer",
+    "question": "A shift lever does not return to centre after shifting. What should be checked?",
+    "options": [
+      "Shift shaft return spring and linkage",
+      "Radiator cap",
+      "Tire valve stem",
+      "Fuel tank vent"
+    ],
+    "answer": 0,
+    "explanation": "Return springs centre the shift mechanism. External linkage can also bind. Check simple external causes before internal teardown. ---"
+  },
+  {
+    "id": 34,
+    "category": "F — Power Transfer",
+    "question": "What does the shift drum do?",
+    "options": [
+      "Moves shift forks to select gears",
+      "Pumps coolant",
+      "Spins the rear wheel directly",
+      "Controls battery charge"
+    ],
+    "answer": 0,
+    "explanation": "The shift drum has grooves that guide shift forks. Rotating the drum moves gears or collars. Wear in the drum can affect shifting. ---"
+  },
+  {
+    "id": 35,
+    "category": "F — Power Transfer",
+    "question": "A shift drum detent spring is weak. What symptom may occur?",
+    "options": [
+      "False neutrals or vague shifting",
+      "Overheating coolant",
+      "Weak fork damping",
+      "Low fuel pressure"
+    ],
+    "answer": 0,
+    "explanation": "The detent helps hold the shift drum in position. Weak detent force can cause poor indexing. This may lead to missed shifts or false neutrals. ---"
+  },
+  {
+    "id": 36,
+    "category": "F — Power Transfer",
+    "question": "A gear is noisy only in one gear position. What is most likely?",
+    "options": [
+      "Wear in that gear pair or related bushing/bearing",
+      "Weak battery only",
+      "Dirty air filter only",
+      "Loose mirror only"
+    ],
+    "answer": 0,
+    "explanation": "One-gear noise points to parts loaded in that gear. Gear teeth, bushings, and bearings should be inspected. Noise in all gears suggests a broader issue. ---"
+  },
+  {
+    "id": 37,
+    "category": "F — Power Transfer",
+    "question": "What is the final drive system?",
+    "options": [
+      "System that transfers power from transmission to rear wheel",
+      "System that cools the engine",
+      "System that charges the battery",
+      "System that controls headlights"
+    ],
+    "answer": 0,
+    "explanation": "Final drive sends power to the rear wheel. It may use chain, belt, or shaft drive. Correct adjustment and lubrication are important. ---"
+  },
+  {
+    "id": 38,
+    "category": "F — Power Transfer",
+    "question": "A drive chain is too loose. What can happen?",
+    "options": [
+      "Chain slap, poor power transfer, or derailment risk",
+      "Higher compression",
+      "Better braking",
+      "Stronger battery"
+    ],
+    "answer": 0,
+    "explanation": "Too much slack allows chain movement. The chain can slap, wear sprockets, or jump teeth. Slack must be adjusted correctly. ---"
+  },
+  {
+    "id": 39,
+    "category": "F — Power Transfer",
+    "question": "A drive chain is too tight. What can happen?",
+    "options": [
+      "Bearing and suspension load increases",
+      "Chain lasts forever",
+      "More engine oil pressure",
+      "Better fork action"
+    ],
+    "answer": 0,
+    "explanation": "Chain tension changes with suspension movement. Too tight can overload output shaft and wheel bearings. Slack must be set at the specified position. ---"
+  },
+  {
+    "id": 40,
+    "category": "F — Power Transfer",
+    "question": "Why should a chain be lubricated?",
+    "options": [
+      "To reduce wear and friction",
+      "To increase tire pressure",
+      "To cool brake pads",
+      "To change ignition timing"
+    ],
+    "answer": 0,
+    "explanation": "Chains need lubrication between moving parts. Lubrication reduces wear and heat. Correct chain maintenance extends service life. ---"
+  },
+  {
+    "id": 41,
+    "category": "F — Power Transfer",
+    "question": "Hooked sprocket teeth indicate:",
+    "options": [
+      "Sprocket wear",
+      "Correct new condition",
+      "Stronger chain engagement",
+      "Better fuel economy"
+    ],
+    "answer": 0,
+    "explanation": "Sprocket teeth wear into a hooked shape over time. Worn sprockets accelerate chain wear. Chains and sprockets are often replaced together. ---"
+  },
+  {
+    "id": 42,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive motorcycle clunks when throttle is applied after coasting. What should be checked?",
+    "options": [
+      "Splines, U-joints, backlash, and mounts",
+      "Brake fluid type",
+      "Spark plug gap",
+      "Fork oil level"
+    ],
+    "answer": 0,
+    "explanation": "Torque reversal reveals driveline lash. Wear in splines, joints, or gears can create clunks. Mounts should also be inspected. ---"
+  },
+  {
+    "id": 43,
+    "category": "F — Power Transfer",
+    "question": "Final drive oil is low in a shaft-drive unit. What can happen?",
+    "options": [
+      "Bearing and gear damage",
+      "Better lubrication",
+      "Stronger spark",
+      "Higher tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Gears and bearings need oil film. Low oil causes heat and wear. Leaks should be repaired and oil level corrected. ---"
+  },
+  {
+    "id": 44,
+    "category": "F — Power Transfer",
+    "question": "Final drive oil is milky. What does this indicate?",
+    "options": [
+      "Water contamination",
+      "Perfect oil condition",
+      "High fuel octane",
+      "Correct brake operation"
+    ],
+    "answer": 0,
+    "explanation": "Milky oil usually means water has mixed with lubricant. Water reduces lubrication and causes corrosion. Seals and venting should be checked. ---"
+  },
+  {
+    "id": 45,
+    "category": "F — Power Transfer",
+    "question": "Why lubricate final drive splines as specified?",
+    "options": [
+      "To reduce fretting and wear",
+      "To increase compression",
+      "To adjust brake pressure",
+      "To change spark timing"
+    ],
+    "answer": 0,
+    "explanation": "Splines transmit torque and can move slightly. Without proper lubricant, fretting corrosion can occur. Severe spline wear can cause loss of drive. ---"
+  },
+  {
+    "id": 46,
+    "category": "F — Power Transfer",
+    "question": "Red-brown powder on drive splines usually indicates:",
+    "options": [
+      "Fretting corrosion",
+      "Correct lubrication",
+      "Rich fuel mixture",
+      "Coolant contamination"
+    ],
+    "answer": 0,
+    "explanation": "Fretting creates reddish wear debris. It occurs from small movement under load without proper lubrication. Spline condition and lubricant must be checked. ---"
+  },
+  {
+    "id": 47,
+    "category": "F — Power Transfer",
+    "question": "A U-joint feels rough when moved by hand. What should be done?",
+    "options": [
+      "Replace/service as required",
+      "Reuse if it still turns",
+      "Paint it",
+      "Fill it with coolant"
+    ],
+    "answer": 0,
+    "explanation": "U-joints should move smoothly without roughness or play. Roughness means bearing damage or wear. Failure can cause vibration or loss of drive. ---"
+  },
+  {
+    "id": 48,
+    "category": "F — Power Transfer",
+    "question": "Why is final drive backlash checked?",
+    "options": [
+      "Incorrect backlash causes noise, heat, and gear wear",
+      "It adjusts battery voltage",
+      "It sets tire pressure",
+      "It controls brake fluid level"
+    ],
+    "answer": 0,
+    "explanation": "Backlash is clearance between gear teeth. Too little or too much affects gear contact. Gear setup must match specification. ---"
+  },
+  {
+    "id": 49,
+    "category": "F — Power Transfer",
+    "question": "A final drive seal leaks. What else should be checked?",
+    "options": [
+      "Shaft surface, bearing play, venting, and oil level",
+      "Spark plug colour only",
+      "Carburetor float only",
+      "Fork spring rate only"
+    ],
+    "answer": 0,
+    "explanation": "A seal leak may be caused by more than the seal. Bearing play, worn shaft surface, or blocked vent can cause repeat leaks. The root cause should be repaired. ---"
+  },
+  {
+    "id": 50,
+    "category": "F — Power Transfer",
+    "question": "After power transfer service, what should be verified before road testing?",
+    "options": [
+      "Correct adjustment, fastener torque, lubrication, and safe operation",
+      "Seat colour",
+      "Mirror brand",
+      "Fuel tank shape"
+    ],
+    "answer": 0,
+    "explanation": "Clutches, transmissions, chains, belts, and final drives are safety-critical. Incorrect assembly can cause loss of drive or wheel lock. Final inspection prevents serious failures."
+  },
+  {
+    "id": 51,
+    "category": "F — Power Transfer",
+    "question": "A clutch slips mostly in higher gears under hard acceleration. What is the most likely reason?",
+    "options": [
+      "Clutch cannot hold torque under load",
+      "Front brake is dragging",
+      "Battery is undercharged",
+      "Cooling fan is running"
+    ],
+    "answer": 0,
+    "explanation": "Higher gears place more load on the clutch. Slip shows the clutch is not transmitting full engine torque. Check plates, springs, adjustment, and oil type. ---"
+  },
+  {
+    "id": 52,
+    "category": "F — Power Transfer",
+    "question": "A clutch drags after hydraulic clutch service. The lever feels spongy. What is most likely?",
+    "options": [
+      "Air remains in the hydraulic system",
+      "Final drive oil is low",
+      "Shift dogs are rounded",
+      "Sprockets are hooked"
+    ],
+    "answer": 0,
+    "explanation": "Air compresses in hydraulic systems. This reduces clutch release travel. Bleeding is required to restore proper release. ---"
+  },
+  {
+    "id": 53,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle shifts easily with the engine off but hard with the engine running. What should be checked first?",
+    "options": [
+      "Clutch drag",
+      "Rear tire pressure",
+      "Headlight fuse",
+      "Radiator cap"
+    ],
+    "answer": 0,
+    "explanation": "A dragging clutch keeps torque on the transmission. This makes shifting hard only when the engine is running. Check adjustment and release before internal transmission teardown. ---"
+  },
+  {
+    "id": 54,
+    "category": "F — Power Transfer",
+    "question": "A clutch lever has excessive free play. What symptom can result?",
+    "options": [
+      "Clutch drag",
+      "Clutch slip only",
+      "Overcharging",
+      "Final drive overheating only"
+    ],
+    "answer": 0,
+    "explanation": "Too much free play reduces release movement. The clutch may not fully disengage. This can cause creeping and hard shifting. ---"
+  },
+  {
+    "id": 55,
+    "category": "F — Power Transfer",
+    "question": "A clutch lever has no free play. What symptom can result?",
+    "options": [
+      "Clutch slip",
+      "Better engagement",
+      "Transmission lockup",
+      "Higher oil pressure"
+    ],
+    "answer": 0,
+    "explanation": "No free play can hold the clutch slightly released. This reduces spring clamping force. The clutch may slip and overheat. ---"
+  },
+  {
+    "id": 56,
+    "category": "F — Power Transfer",
+    "question": "After an oil change, a wet clutch begins slipping. What should be verified first?",
+    "options": [
+      "Correct motorcycle-rated oil specification",
+      "Rear wheel alignment only",
+      "Spark plug gap only",
+      "Fork oil level only"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutches operate in oil. Some oils contain friction modifiers that reduce clutch grip. Oil specification must match the motorcycle. ---"
+  },
+  {
+    "id": 57,
+    "category": "F — Power Transfer",
+    "question": "Clutch friction plates are below service limit. What is the likely problem?",
+    "options": [
+      "Reduced clutch holding ability",
+      "Increased coolant flow",
+      "Stronger battery output",
+      "Lower tire temperature"
+    ],
+    "answer": 0,
+    "explanation": "Thin friction plates reduce clutch stack height and grip. This can cause slipping under load. Plates should be replaced if below limit. ---"
+  },
+  {
+    "id": 58,
+    "category": "F — Power Transfer",
+    "question": "A steel clutch plate is warped. What symptom is most likely?",
+    "options": [
+      "Clutch drag or grabbing",
+      "Stronger charging output",
+      "Rich fuel mixture",
+      "Low tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Warped plates do not separate evenly. They can keep the clutch partially engaged. This causes drag, grabbing, and hard shifting. ---"
+  },
+  {
+    "id": 59,
+    "category": "F — Power Transfer",
+    "question": "Weak clutch springs will usually cause:",
+    "options": [
+      "Clutch slip",
+      "No spark",
+      "Low coolant level",
+      "Excess chain slack"
+    ],
+    "answer": 0,
+    "explanation": "Springs provide clutch clamping force. Weak springs cannot hold torque well. Slip may be worse during acceleration. ---"
+  },
+  {
+    "id": 60,
+    "category": "F — Power Transfer",
+    "question": "A clutch basket has notches where friction plates contact it. What happens?",
+    "options": [
+      "Plates may stick and not release smoothly",
+      "Battery voltage rises",
+      "Gear teeth become stronger",
+      "Coolant temperature drops"
+    ],
+    "answer": 0,
+    "explanation": "Friction plate tabs slide in basket slots. Notches prevent smooth plate movement. This can cause drag, grabbing, or poor release. ---"
+  },
+  {
+    "id": 61,
+    "category": "F — Power Transfer",
+    "question": "Why is clutch stack height measured?",
+    "options": [
+      "Total pack thickness affects slip and drag",
+      "It checks valve timing",
+      "It measures brake rotor runout",
+      "It adjusts tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Stack height affects spring pressure and release clearance. Too thin can slip; too thick can drag. It must match service specifications. ---"
+  },
+  {
+    "id": 62,
+    "category": "F — Power Transfer",
+    "question": "A clutch pushrod end is worn. What can this cause?",
+    "options": [
+      "Reduced release travel or poor clutch feel",
+      "Increased fuel pressure",
+      "More spark advance",
+      "Stronger rear brake"
+    ],
+    "answer": 0,
+    "explanation": "The pushrod transfers release force. Wear creates lost motion or uneven movement. This can cause drag or poor lever feel. ---"
+  },
+  {
+    "id": 63,
+    "category": "F — Power Transfer",
+    "question": "A primary chain makes noise during acceleration and deceleration. What should be checked?",
+    "options": [
+      "Chain slack, tensioner, sprockets, and bearings",
+      "Brake fluid colour only",
+      "Tire date code only",
+      "Fuel cap seal only"
+    ],
+    "answer": 0,
+    "explanation": "Load changes reveal primary drive wear or slack. Tensioner and sprockets can also cause noise. Bearings and lubrication must be inspected. ---"
+  },
+  {
+    "id": 64,
+    "category": "F — Power Transfer",
+    "question": "Primary chain adjustment is done at the tightest point because:",
+    "options": [
+      "Chain slack may vary around rotation",
+      "The chain becomes shorter at idle",
+      "Oil pressure changes chain length",
+      "Tire pressure changes chain slack"
+    ],
+    "answer": 0,
+    "explanation": "Chains and sprockets can wear unevenly. Slack may differ at different positions. Adjustment should prevent over-tightness at the tightest point. ---"
+  },
+  {
+    "id": 65,
+    "category": "F — Power Transfer",
+    "question": "A primary chain tensioner shoe is worn through. What should be inspected?",
+    "options": [
+      "Chain, sprockets, debris, and tensioner alignment",
+      "Brake pads only",
+      "Headlight only",
+      "Tire valve stem only"
+    ],
+    "answer": 0,
+    "explanation": "A worn shoe can release debris into the primary case. The chain or alignment may have caused abnormal wear. The whole primary system should be checked. ---"
+  },
+  {
+    "id": 66,
+    "category": "F — Power Transfer",
+    "question": "A primary belt shows cracks across the ribs. What is the correct action?",
+    "options": [
+      "Replace the belt",
+      "Oil the belt heavily",
+      "Heat it with a torch",
+      "Ignore if tension is correct"
+    ],
+    "answer": 0,
+    "explanation": "Cracks indicate belt deterioration. Belt failure can cause loss of drive. Pulleys and alignment should also be inspected. ---"
+  },
+  {
+    "id": 67,
+    "category": "F — Power Transfer",
+    "question": "A drive belt tracks to one side of the pulley. What should be checked?",
+    "options": [
+      "Alignment, pulley wear, and belt tension",
+      "Fuel injector wiring",
+      "Brake fluid type",
+      "Radiator cap pressure"
+    ],
+    "answer": 0,
+    "explanation": "Belt tracking depends on alignment and pulley condition. Incorrect tension can also affect tracking. Edge wear confirms the need for inspection. ---"
+  },
+  {
+    "id": 68,
+    "category": "F — Power Transfer",
+    "question": "A rider reports false neutrals between gears. What should be diagnosed?",
+    "options": [
+      "Shift linkage, detent, shift drum, forks, and gear dogs",
+      "Fuel cap vent only",
+      "Coolant thermostat only",
+      "Brake hose only"
+    ],
+    "answer": 0,
+    "explanation": "False neutrals happen when gears do not fully engage. External linkage or internal shift parts may cause this. Diagnosis should start with accessible linkage and adjustment. ---"
+  },
+  {
+    "id": 69,
+    "category": "F — Power Transfer",
+    "question": "A transmission jumps out of gear under load. Which parts are commonly responsible?",
+    "options": [
+      "Rounded shift dogs, worn slots, bent fork, or excessive end play",
+      "Weak radiator cap only",
+      "Low tire pressure only",
+      "Dirty headlight lens only"
+    ],
+    "answer": 0,
+    "explanation": "Load can force worn engagement parts apart. A bent fork may prevent full dog engagement. Shaft end play can also reduce engagement depth. ---"
+  },
+  {
+    "id": 70,
+    "category": "F — Power Transfer",
+    "question": "A gear dog has rounded edges. What is the concern?",
+    "options": [
+      "Gear may disengage under load",
+      "Coolant may boil",
+      "Battery may overcharge",
+      "Tire may lose air"
+    ],
+    "answer": 0,
+    "explanation": "Dogs must hold engagement under torque. Rounded edges can push apart when loaded. This often causes jumping out of gear. ---"
+  },
+  {
+    "id": 71,
+    "category": "F — Power Transfer",
+    "question": "A shift fork is worn on one side. What does this suggest?",
+    "options": [
+      "Constant side load or poor gear engagement",
+      "Correct fork operation",
+      "Higher fuel pressure",
+      "Better shifting"
+    ],
+    "answer": 0,
+    "explanation": "Shift forks should not carry heavy continuous side load. One-sided wear shows rubbing or misalignment. Related gear dogs, drum, and end play should be checked. ---"
+  },
+  {
+    "id": 72,
+    "category": "F — Power Transfer",
+    "question": "A shift fork pin is worn where it rides in the drum groove. What can happen?",
+    "options": [
+      "Incorrect fork travel",
+      "Higher spark output",
+      "Lower coolant pressure",
+      "Better clutch release"
+    ],
+    "answer": 0,
+    "explanation": "The shift drum moves forks through the pins. Wear changes fork movement and gear position. This can cause poor engagement or missed shifts. ---"
+  },
+  {
+    "id": 73,
+    "category": "F — Power Transfer",
+    "question": "A shift drum groove is worn. What symptom may occur?",
+    "options": [
+      "Poor fork control and missed shifts",
+      "Higher battery voltage",
+      "Stronger compression",
+      "Less tire wear"
+    ],
+    "answer": 0,
+    "explanation": "Drum grooves guide shift fork movement. Wear can prevent accurate fork positioning. This affects gear engagement. ---"
+  },
+  {
+    "id": 74,
+    "category": "F — Power Transfer",
+    "question": "A shift drum stopper roller has a flat spot. What can result?",
+    "options": [
+      "Vague shifting or poor drum indexing",
+      "Better shift feel",
+      "More oil pressure",
+      "Lower fuel use"
+    ],
+    "answer": 0,
+    "explanation": "The stopper roller helps hold drum positions. A flat spot reduces smooth positive indexing. This can cause poor shift feel. ---"
+  },
+  {
+    "id": 75,
+    "category": "F — Power Transfer",
+    "question": "A shift return spring breaks. What is the likely symptom?",
+    "options": [
+      "Shift lever does not return to centre",
+      "Engine overheats",
+      "Battery will not charge",
+      "Final drive oil becomes milky"
+    ],
+    "answer": 0,
+    "explanation": "Return springs centre the shift lever mechanism. Without spring return, the next shift may not be possible. External mechanism should be inspected first. ---"
+  },
+  {
+    "id": 76,
+    "category": "F — Power Transfer",
+    "question": "A transmission shaft is bent. What can occur?",
+    "options": [
+      "Gear misalignment, noise, and hard shifting",
+      "Better gear mesh",
+      "Higher fuel economy",
+      "Stronger clutch grip"
+    ],
+    "answer": 0,
+    "explanation": "Shafts must rotate true. A bent shaft changes gear mesh and bearing load. Transmission wear and shift problems can result. ---"
+  },
+  {
+    "id": 77,
+    "category": "F — Power Transfer",
+    "question": "A gear bushing has excessive clearance. What can happen?",
+    "options": [
+      "Gear wobble and poor engagement",
+      "Higher oil pressure",
+      "Better transmission alignment",
+      "Stronger brake feel"
+    ],
+    "answer": 0,
+    "explanation": "Bushings support gears on shafts. Excess clearance allows gear movement. This can cause noise and engagement faults. ---"
+  },
+  {
+    "id": 78,
+    "category": "F — Power Transfer",
+    "question": "Gear teeth show pitting. What does this indicate?",
+    "options": [
+      "Surface fatigue and possible future failure",
+      "Correct break-in only",
+      "Better oil retention always",
+      "Stronger gear teeth"
+    ],
+    "answer": 0,
+    "explanation": "Pitting is surface damage under load. It can grow into larger gear tooth failure. Lubrication and load conditions should be checked. ---"
+  },
+  {
+    "id": 79,
+    "category": "F — Power Transfer",
+    "question": "A transmission bearing feels rough by hand. What should be done?",
+    "options": [
+      "Replace it and inspect related parts",
+      "Reuse it if it has no colour change",
+      "Add thicker coolant",
+      "Polish the outer race only"
+    ],
+    "answer": 0,
+    "explanation": "Bearings should rotate smoothly. Roughness indicates wear, pitting, or contamination. Failure can damage shafts and gears. ---"
+  },
+  {
+    "id": 80,
+    "category": "F — Power Transfer",
+    "question": "During transmission assembly, washers are mixed up. What is the risk?",
+    "options": [
+      "Incorrect spacing, binding, or poor gear engagement",
+      "Higher engine compression",
+      "More charging output",
+      "Better shifting always"
+    ],
+    "answer": 0,
+    "explanation": "Washers locate gears and control clearance. Wrong placement can cause binding or gear jump-out. Parts must be organized during disassembly. ---"
+  },
+  {
+    "id": 81,
+    "category": "F — Power Transfer",
+    "question": "A transmission is noisy in all gears except when the clutch is pulled. What should be considered?",
+    "options": [
+      "Input shaft, clutch, primary, or transmission bearing noise",
+      "Turn signal switch only",
+      "Fork seal only",
+      "Fuel tank vent only"
+    ],
+    "answer": 0,
+    "explanation": "Pulling the clutch changes which parts are rotating under load. Noise change helps identify rotating components involved. Clutch, primary, and input-side parts should be inspected. ---"
+  },
+  {
+    "id": 82,
+    "category": "F — Power Transfer",
+    "question": "A chain has tight spots and loose spots. What does this indicate?",
+    "options": [
+      "Uneven wear or damaged chain/sprockets",
+      "Correct chain condition",
+      "Perfect sprocket alignment",
+      "Higher engine power"
+    ],
+    "answer": 0,
+    "explanation": "Chain wear may not be uniform. Tight spots can cause over-tight adjustment if ignored. Chain and sprockets should be inspected together. ---"
+  },
+  {
+    "id": 83,
+    "category": "F — Power Transfer",
+    "question": "Chain slack is adjusted with the rear suspension unloaded, but the manual specifies loaded position. What can happen?",
+    "options": [
+      "Chain may become too tight during suspension travel",
+      "Chain becomes self-lubricating",
+      "Brake pressure increases",
+      "Gear ratio changes automatically"
+    ],
+    "answer": 0,
+    "explanation": "Chain slack changes as suspension moves. The tightest point often occurs near sprocket alignment. Follow the specified checking position. ---"
+  },
+  {
+    "id": 84,
+    "category": "F — Power Transfer",
+    "question": "A drive chain is adjusted correctly but rear wheel alignment marks are uneven. What is the concern?",
+    "options": [
+      "Wheel misalignment and chain/sprocket wear",
+      "Battery undercharging",
+      "Low compression",
+      "Fork oil contamination"
+    ],
+    "answer": 0,
+    "explanation": "Rear wheel alignment affects chain tracking. Misalignment accelerates chain and sprocket wear. Alignment should be verified accurately. ---"
+  },
+  {
+    "id": 85,
+    "category": "F — Power Transfer",
+    "question": "A chain master link clip is installed with the open end facing chain travel. Why is this wrong?",
+    "options": [
+      "The clip can be forced off by contact during travel",
+      "It increases lubrication",
+      "It improves chain strength",
+      "It reduces sprocket wear"
+    ],
+    "answer": 0,
+    "explanation": "Clip orientation prevents the open end from catching. If dislodged, the master link can fail. Install clips according to chain manufacturer instructions. ---"
+  },
+  {
+    "id": 86,
+    "category": "F — Power Transfer",
+    "question": "A chain is rusty and kinked. What is the correct action?",
+    "options": [
+      "Replace the chain and inspect sprockets",
+      "Lubricate once and ignore",
+      "Tighten it until straight",
+      "Heat it with a torch"
+    ],
+    "answer": 0,
+    "explanation": "Kinked links do not articulate correctly. Rust indicates poor lubrication or corrosion damage. A worn chain can damage sprockets or fail. ---"
+  },
+  {
+    "id": 87,
+    "category": "F — Power Transfer",
+    "question": "Hooked sprocket teeth are found. What should be replaced?",
+    "options": [
+      "Chain and sprockets as a set when worn",
+      "Only engine oil",
+      "Only brake fluid",
+      "Only the tire valve cap"
+    ],
+    "answer": 0,
+    "explanation": "Worn sprockets quickly wear a new chain. A worn chain can also damage new sprockets. They are commonly serviced together. ---"
+  },
+  {
+    "id": 88,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive bike vibrates with road speed, not engine rpm. What should be inspected?",
+    "options": [
+      "Shaft, U-joints, splines, final drive, wheel, and tire",
+      "Spark plug heat range only",
+      "Valve clearance only",
+      "Fuel injector only"
+    ],
+    "answer": 0,
+    "explanation": "Road-speed vibration points to rotating driveline or wheel parts. Shaft drive components rotate with rear wheel speed. Wheels and tires should also be checked. ---"
+  },
+  {
+    "id": 89,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive U-joint has play. What can happen?",
+    "options": [
+      "Vibration, clunking, or driveline failure",
+      "Better torque transfer",
+      "Lower final drive temperature",
+      "Stronger clutch release"
+    ],
+    "answer": 0,
+    "explanation": "U-joints must move smoothly without looseness. Play can create noise and vibration. Severe wear can lead to failure. ---"
+  },
+  {
+    "id": 90,
+    "category": "F — Power Transfer",
+    "question": "Final drive splines have sharp, thin teeth. What does this indicate?",
+    "options": [
+      "Advanced spline wear",
+      "Correct new condition",
+      "Better lubrication",
+      "Stronger teeth"
+    ],
+    "answer": 0,
+    "explanation": "Worn splines lose tooth thickness. Sharp teeth can strip under load. Spline lubrication and alignment should be checked. ---"
+  },
+  {
+    "id": 91,
+    "category": "F — Power Transfer",
+    "question": "A final drive vent is blocked. What can happen?",
+    "options": [
+      "Pressure buildup and seal leakage",
+      "Lower gear temperature always",
+      "Better oil control",
+      "Stronger battery charge"
+    ],
+    "answer": 0,
+    "explanation": "Final drive oil and air expand with heat. A blocked vent traps pressure. Pressure can force oil past seals. ---"
+  },
+  {
+    "id": 92,
+    "category": "F — Power Transfer",
+    "question": "A final drive seal is replaced, but it leaks again soon. What should be checked?",
+    "options": [
+      "Shaft surface, bearing play, venting, and seal installation depth",
+      "Spark plug gap only",
+      "Brake lever angle only",
+      "Fuel cap colour only"
+    ],
+    "answer": 0,
+    "explanation": "Seal leaks can be caused by shaft wear or movement. Blocked vents can also force oil past the seal. The root cause must be found. ---"
+  },
+  {
+    "id": 93,
+    "category": "F — Power Transfer",
+    "question": "A final drive gear set makes a howl on deceleration. What should be checked?",
+    "options": [
+      "Gear contact pattern, backlash, preload, and bearings",
+      "Air filter only",
+      "Brake fluid only",
+      "Fork oil only"
+    ],
+    "answer": 0,
+    "explanation": "Gear noise often changes with load direction. Backlash and contact pattern affect gear sound and wear. Bearing condition also matters. ---"
+  },
+  {
+    "id": 94,
+    "category": "F — Power Transfer",
+    "question": "Final drive gears are replaced. What setup is required?",
+    "options": [
+      "Backlash, preload, contact pattern, and shim selection",
+      "Tire balancing only",
+      "Valve clearance only",
+      "Brake bleeding only"
+    ],
+    "answer": 0,
+    "explanation": "Final drive gears must mesh precisely. Incorrect setup causes heat, noise, and failure. Shims and preload are critical. ---"
+  },
+  {
+    "id": 95,
+    "category": "F — Power Transfer",
+    "question": "Wrong final drive lubricant is used. What can happen?",
+    "options": [
+      "Gear wear, overheating, or seal problems",
+      "More engine compression",
+      "Better gear protection always",
+      "Stronger clutch release"
+    ],
+    "answer": 0,
+    "explanation": "Final drive gears require specific viscosity and pressure additives. Wrong oil may fail under load. Use manufacturer-specified lubricant. ---"
+  },
+  {
+    "id": 96,
+    "category": "F — Power Transfer",
+    "question": "A CVT scooter belt is worn narrow. What symptom can occur?",
+    "options": [
+      "Poor acceleration or reduced top speed",
+      "Better ratio control",
+      "Stronger charging",
+      "Higher coolant pressure"
+    ],
+    "answer": 0,
+    "explanation": "Belt width affects variator ratio range. A worn belt rides lower in pulleys. Performance and speed can be reduced. ---"
+  },
+  {
+    "id": 97,
+    "category": "F — Power Transfer",
+    "question": "Flat spots on CVT rollers can cause:",
+    "options": [
+      "Jerky or poor ratio change",
+      "Better acceleration always",
+      "More brake pressure",
+      "Higher battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Rollers move the variator sheave. Flat spots stop smooth movement. CVT shift feel and acceleration suffer. ---"
+  },
+  {
+    "id": 98,
+    "category": "F — Power Transfer",
+    "question": "A CVT clutch shoe is glazed. What symptom is likely?",
+    "options": [
+      "Slipping or shudder during takeoff",
+      "No spark",
+      "Low tire pressure",
+      "Rich mixture only"
+    ],
+    "answer": 0,
+    "explanation": "Glazed shoes reduce friction. The clutch may slip or chatter on engagement. Shoes and drum should be inspected. ---"
+  },
+  {
+    "id": 99,
+    "category": "F — Power Transfer",
+    "question": "After replacing a chain, why should slack be rechecked after initial use?",
+    "options": [
+      "Components may seat and adjustment can change",
+      "Chain becomes shorter from heat permanently",
+      "Sprockets change tooth count",
+      "Battery voltage affects slack"
+    ],
+    "answer": 0,
+    "explanation": "New chains and adjusted parts can settle slightly. Initial bedding may change slack. Rechecking prevents over-tight or loose operation. ---"
+  },
+  {
+    "id": 100,
+    "category": "F — Power Transfer",
+    "question": "After servicing any power transfer component, what final inspection is most important?",
+    "options": [
+      "Verify fastener torque, adjustment, lubrication, and safe operation",
+      "Check seat colour",
+      "Check mirror style",
+      "Check fuel tank decal"
+    ],
+    "answer": 0,
+    "explanation": "Power transfer failures can cause loss of drive or lockup. Fasteners, adjustment, and lubrication are safety-critical. Final functional checks reduce comeback and failure risk."
+  },
+  {
+    "id": 101,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle slips in 5th gear under hard acceleration but does not slip in 1st gear. Which test best confirms clutch slip?",
+    "options": [
+      "Compare engine rpm rise to road speed increase under load",
+      "Measure coolant temperature at idle",
+      "Check headlight voltage drop",
+      "Inspect front brake lever free play"
+    ],
+    "answer": 0,
+    "explanation": "Clutch slip shows as rpm rising without matching road speed. Higher gears load the clutch more heavily. This symptom points to plates, springs, adjustment, or oil type. ---"
+  },
+  {
+    "id": 102,
+    "category": "F — Power Transfer",
+    "question": "A hydraulic clutch was bled, but the motorcycle still creeps forward in gear with the lever pulled. Lever feel is firm. What should be checked next?",
+    "options": [
+      "Warped plates, clutch basket notching, and release travel",
+      "Battery ground cable only",
+      "Fork oil level only",
+      "Fuel injector resistance only"
+    ],
+    "answer": 0,
+    "explanation": "Firm lever feel suggests air may not be the main issue. Mechanical clutch parts may still prevent full separation. Warped plates or basket notches commonly cause drag. ---"
+  },
+  {
+    "id": 103,
+    "category": "F — Power Transfer",
+    "question": "A clutch slips after an oil change. The plates and springs are within specification. What is the most likely cause?",
+    "options": [
+      "Oil contains friction modifiers not suitable for wet clutches",
+      "Shift drum grooves are worn",
+      "Final drive backlash is excessive",
+      "Rear brake rotor is warped"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutches depend on oil friction compatibility. Wrong oil can make good plates slip. Always verify manufacturer oil specification. ---"
+  },
+  {
+    "id": 104,
+    "category": "F — Power Transfer",
+    "question": "A cable clutch has correct lever free play when cold, but free play disappears when the engine becomes hot. What can result?",
+    "options": [
+      "Clutch slip when hot",
+      "More clutch drag when cold only",
+      "Final drive seal leak",
+      "Gear tooth pitting only"
+    ],
+    "answer": 0,
+    "explanation": "If free play disappears, the clutch may be held partly released. Heat expansion can change cable and clutch dimensions. Hot free play should be checked if symptoms occur hot. ---"
+  },
+  {
+    "id": 105,
+    "category": "F — Power Transfer",
+    "question": "A rider reports clutch drag after installing aftermarket levers. What should be checked first?",
+    "options": [
+      "Lever geometry, master cylinder pushrod free play, and release travel",
+      "Final drive oil type",
+      "Transmission shaft runout",
+      "Rear wheel bearing torque"
+    ],
+    "answer": 0,
+    "explanation": "Aftermarket levers can change hydraulic or cable movement. Insufficient release travel causes drag. The fault appeared after lever installation, so start there. ---"
+  },
+  {
+    "id": 106,
+    "category": "F — Power Transfer",
+    "question": "A clutch pack is assembled with one steel plate missing. What is the most likely effect?",
+    "options": [
+      "Incorrect stack height causing slip or poor engagement",
+      "Increased coolant pressure",
+      "Stronger primary chain tension",
+      "Better transmission indexing"
+    ],
+    "answer": 0,
+    "explanation": "Stack height determines clutch clamp and release geometry. Missing plates reduce the total pack thickness. The clutch may slip or operate incorrectly. ---"
+  },
+  {
+    "id": 107,
+    "category": "F — Power Transfer",
+    "question": "A clutch hub nut is not torqued correctly. What can happen?",
+    "options": [
+      "Hub movement, spline wear, noise, or clutch failure",
+      "Better shift quality",
+      "Higher oil pressure",
+      "Lower final drive temperature"
+    ],
+    "answer": 0,
+    "explanation": "The hub must be securely clamped to its shaft. Loose hub movement can damage splines and plates. Torque and locking method must follow specification. ---"
+  },
+  {
+    "id": 108,
+    "category": "F — Power Transfer",
+    "question": "A wet clutch has chatter during takeoff. Friction plates are within thickness specification. What else should be inspected?",
+    "options": [
+      "Steel plate warpage, basket grooves, oil type, and hub condition",
+      "Tire valve cap",
+      "Headlight switch",
+      "Radiator cap pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Thickness alone does not prove clutch condition. Warped steels, notched baskets, or wrong oil can cause chatter. The full clutch assembly should be inspected. ---"
+  },
+  {
+    "id": 109,
+    "category": "F — Power Transfer",
+    "question": "A primary chain is noisy only at certain crankshaft positions. What is the likely reason for checking slack at multiple positions?",
+    "options": [
+      "Chain or sprockets may have tight and loose spots",
+      "Oil pressure changes gear ratio",
+      "Brake drag changes chain length",
+      "Clutch springs change crank timing"
+    ],
+    "answer": 0,
+    "explanation": "Wear may be uneven around the chain or sprockets. Slack can vary as parts rotate. Adjustment must prevent over-tightness at the tightest point. ---"
+  },
+  {
+    "id": 110,
+    "category": "F — Power Transfer",
+    "question": "A primary chain tensioner shoe is worn unevenly on one side. What should be checked?",
+    "options": [
+      "Chain alignment, sprocket alignment, tensioner position, and bearings",
+      "Brake fluid level",
+      "Fuel tank venting",
+      "Valve clearance"
+    ],
+    "answer": 0,
+    "explanation": "Uneven shoe wear suggests chain tracking or alignment problems. Replacing only the shoe may not fix the cause. Inspect sprockets, bearings, and tensioner alignment. ---"
+  },
+  {
+    "id": 111,
+    "category": "F — Power Transfer",
+    "question": "A primary belt is replaced, but the new belt quickly develops edge wear. What was likely missed?",
+    "options": [
+      "Pulley alignment, pulley wear, or belt tracking setup",
+      "Spark plug gap",
+      "Coolant mixture",
+      "Tire pressure sensor"
+    ],
+    "answer": 0,
+    "explanation": "Edge wear means the belt is not tracking correctly. Pulley alignment or damage can destroy a new belt. Tension and tracking must be verified. ---"
+  },
+  {
+    "id": 112,
+    "category": "F — Power Transfer",
+    "question": "A primary drive gear has pitting on its loaded tooth face. What is the concern?",
+    "options": [
+      "Surface fatigue that can progress to gear failure",
+      "Improved oil retention only",
+      "Correct gear break-in",
+      "Reduced engine vibration"
+    ],
+    "answer": 0,
+    "explanation": "Pitting is gear surface fatigue. It can grow under load and release metal debris. Lubrication and mating gear condition should be checked. ---"
+  },
+  {
+    "id": 113,
+    "category": "F — Power Transfer",
+    "question": "A transmission shifts normally on a stand but misses shifts during a road test under load. What should be considered?",
+    "options": [
+      "Load-related gear dog engagement, shift fork wear, or linkage movement",
+      "Cooling fan relay only",
+      "Battery acid level only",
+      "Front brake fluid type only"
+    ],
+    "answer": 0,
+    "explanation": "No-load testing may not reveal engagement problems. Worn dogs can disengage only under torque. Road-test symptoms must guide internal inspection. ---"
+  },
+  {
+    "id": 114,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle repeatedly jumps out of 3rd gear. Gear dogs are rounded and the shift fork is worn blue. What should be replaced or inspected?",
+    "options": [
+      "Gear pair, shift fork, shift drum, shaft end play, and lubrication cause",
+      "Only the shift lever rubber",
+      "Only engine coolant",
+      "Only the battery"
+    ],
+    "answer": 0,
+    "explanation": "Rounded dogs and overheated fork are related failures. The fork may have been side-loaded by poor engagement. The complete affected gear-selection system must be inspected. ---"
+  },
+  {
+    "id": 115,
+    "category": "F — Power Transfer",
+    "question": "A shift fork is replaced, but the transmission still jumps out of gear. Which missed fault is most likely?",
+    "options": [
+      "Rounded gear dogs or worn engagement slots",
+      "Low tire pressure",
+      "Dirty air filter",
+      "Loose mirror"
+    ],
+    "answer": 0,
+    "explanation": "Shift forks position gears but do not hold worn dogs engaged. Rounded dogs can force the gear out under load. Mating gear engagement surfaces must be inspected. ---"
+  },
+  {
+    "id": 116,
+    "category": "F — Power Transfer",
+    "question": "A gear dog undercut is worn away. What happens under acceleration load?",
+    "options": [
+      "Gear engagement may push apart and disengage",
+      "Gear engagement becomes stronger",
+      "Oil pressure increases",
+      "Clutch free play increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "Undercut helps gears stay engaged under torque. Wear removes the holding angle. This can cause jump-out under load. ---"
+  },
+  {
+    "id": 117,
+    "category": "F — Power Transfer",
+    "question": "A transmission shaft has excessive end play. Which symptom is most likely?",
+    "options": [
+      "Incomplete dog engagement or gear noise",
+      "Higher battery voltage",
+      "Stronger braking",
+      "Rich idle mixture"
+    ],
+    "answer": 0,
+    "explanation": "Shaft movement changes gear and dog position. Excess end play can reduce engagement depth. End play must be measured with correct washers/spacers. ---"
+  },
+  {
+    "id": 118,
+    "category": "F — Power Transfer",
+    "question": "A thrust washer is installed on the wrong side of a gear. The shaft rotates freely on the bench but binds when cases are torqued. Why?",
+    "options": [
+      "Gear spacing and end clearance are incorrect",
+      "Battery voltage is too low",
+      "Clutch cable is too loose",
+      "Final drive vent is blocked"
+    ],
+    "answer": 0,
+    "explanation": "Washers control gear position and clearance. Wrong placement may only show after cases clamp the shafts. Transmission layout must match service information. ---"
+  },
+  {
+    "id": 119,
+    "category": "F — Power Transfer",
+    "question": "A shift drum groove is worn, and the fork pin is also worn. What is the likely result?",
+    "options": [
+      "Incorrect fork travel and poor gear engagement",
+      "Better shift accuracy",
+      "Stronger final drive splines",
+      "Lower clutch temperature"
+    ],
+    "answer": 0,
+    "explanation": "The drum groove controls fork movement. Wear in both parts reduces accurate positioning. This can cause missed shifts or false neutrals. ---"
+  },
+  {
+    "id": 120,
+    "category": "F — Power Transfer",
+    "question": "A rider complains of false neutrals after replacing rearsets. What should be checked before opening the transmission?",
+    "options": [
+      "Shift linkage angle, travel, binding, and adjustment",
+      "Gear tooth pitting first",
+      "Final drive preload first",
+      "Crankshaft runout first"
+    ],
+    "answer": 0,
+    "explanation": "Rearsets change external shift linkage geometry. Poor linkage travel can prevent full shifts. External causes should be checked before teardown. ---"
+  },
+  {
+    "id": 121,
+    "category": "F — Power Transfer",
+    "question": "A shift lever returns slowly after washing the motorcycle. What should be checked?",
+    "options": [
+      "External linkage pivots, corrosion, lubrication, and return spring",
+      "Piston ring gap",
+      "Radiator cap",
+      "Fuel pump screen"
+    ],
+    "answer": 0,
+    "explanation": "Water can enter linkage pivots and cause corrosion or stiffness. A slow return can prevent the next shift. Inspect and lubricate external parts before internal repair. ---"
+  },
+  {
+    "id": 122,
+    "category": "F — Power Transfer",
+    "question": "A transmission bearing is rough and the matching gear has abnormal wear. What is the best repair approach?",
+    "options": [
+      "Replace bearing and inspect shaft alignment, gear, oil supply, and debris",
+      "Replace the tire only",
+      "Polish the bearing balls and reuse",
+      "Add brake fluid to transmission oil"
+    ],
+    "answer": 0,
+    "explanation": "Bearing wear can misalign gears. Gear wear may also create debris that damages bearings. The related system must be inspected together. ---"
+  },
+  {
+    "id": 123,
+    "category": "F — Power Transfer",
+    "question": "A transmission is noisy in neutral with the clutch released but quiet when the clutch is pulled. What is most likely involved?",
+    "options": [
+      "Input shaft, clutch, primary drive, or related bearing rotation",
+      "Rear brake switch only",
+      "Front tire balance only",
+      "Coolant thermostat only"
+    ],
+    "answer": 0,
+    "explanation": "Releasing the clutch allows input-side parts to rotate. Pulling the clutch stops or unloads those parts. Noise change helps locate the rotating component group. ---"
+  },
+  {
+    "id": 124,
+    "category": "F — Power Transfer",
+    "question": "A gearbox was assembled dry and started immediately. Which failure is most likely?",
+    "options": [
+      "Bushing, gear, or bearing damage from lack of initial lubrication",
+      "More accurate shifting",
+      "Lower gear noise",
+      "Better bearing life"
+    ],
+    "answer": 0,
+    "explanation": "Transmission parts need oil film at startup. Dry bushings and gears can scuff quickly. Assembly lubrication protects parts until oil circulates. ---"
+  },
+  {
+    "id": 125,
+    "category": "F — Power Transfer",
+    "question": "A chain-drive motorcycle has correct slack on the stand, but becomes extremely tight when the rider sits on it. What was missed?",
+    "options": [
+      "Chain slack changes with suspension position",
+      "Chain tension is controlled by battery voltage",
+      "Brake pads are too thick",
+      "Sprocket tooth count changes under load"
+    ],
+    "answer": 0,
+    "explanation": "Countershaft, swingarm pivot, and axle alignment changes slack. Many manuals specify checking slack in a specific position. Too-tight chains overload bearings and suspension. ---"
+  },
+  {
+    "id": 126,
+    "category": "F — Power Transfer",
+    "question": "A new chain is installed on hooked sprockets. What is the likely result?",
+    "options": [
+      "Rapid chain wear and poor engagement",
+      "Longer chain life",
+      "Lower final drive load",
+      "Stronger clutch springs"
+    ],
+    "answer": 0,
+    "explanation": "Worn sprockets do not match the new chain pitch well. They accelerate chain wear. Chain and sprockets should be replaced as a matched set when worn. ---"
+  },
+  {
+    "id": 127,
+    "category": "F — Power Transfer",
+    "question": "A chain has a tight spot. The technician adjusts slack at the loosest point. What can happen?",
+    "options": [
+      "Chain becomes too tight at the tight spot",
+      "Chain becomes self-adjusting",
+      "Final drive oil overheats",
+      "Clutch slips automatically"
+    ],
+    "answer": 0,
+    "explanation": "Adjustment must account for the tightest spot. If set at the loose point, the tight section may overload components. Rotate the wheel and check slack at several positions. ---"
+  },
+  {
+    "id": 128,
+    "category": "F — Power Transfer",
+    "question": "A master link clip is installed backward. What is the risk?",
+    "options": [
+      "Clip may be knocked off during chain travel",
+      "Chain lubrication improves",
+      "Chain becomes stronger than riveted link",
+      "Sprocket alignment becomes perfect"
+    ],
+    "answer": 0,
+    "explanation": "The closed end of the clip should face chain travel direction. The open end can catch and be removed if installed incorrectly. Follow chain manufacturer instructions. ---"
+  },
+  {
+    "id": 129,
+    "category": "F — Power Transfer",
+    "question": "A rear wheel is adjusted unevenly after chain service. What can result?",
+    "options": [
+      "Chain misalignment, tire tracking issue, and sprocket wear",
+      "Higher compression",
+      "Better clutch engagement",
+      "Lower oil temperature"
+    ],
+    "answer": 0,
+    "explanation": "Rear wheel alignment affects chain line. Misalignment increases wear and can affect handling. Alignment should be checked accurately, not only by marks if suspect. ---"
+  },
+  {
+    "id": 130,
+    "category": "F — Power Transfer",
+    "question": "A chain makes a rhythmic clicking noise after replacement. What should be checked?",
+    "options": [
+      "Master link, tight links, sprocket condition, and alignment",
+      "Coolant level only",
+      "Brake fluid colour only",
+      "Spark plug gap only"
+    ],
+    "answer": 0,
+    "explanation": "A clicking chain can come from one stiff or incorrectly assembled link. Worn sprockets can also create noise. Check chain articulation and alignment. ---"
+  },
+  {
+    "id": 131,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive motorcycle has vibration only during acceleration, not coasting. What should be suspected?",
+    "options": [
+      "Worn U-joint, spline wear, or driveline angle/load issue",
+      "Headlight ground only",
+      "Brake light switch only",
+      "Fuel tank vent only"
+    ],
+    "answer": 0,
+    "explanation": "Acceleration loads the driveline. Worn joints or splines may vibrate only under torque. Inspect the shaft drive system under load symptoms. ---"
+  },
+  {
+    "id": 132,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive rear wheel is removed and the splines are dry with red-brown powder. What does this show?",
+    "options": [
+      "Fretting corrosion from poor lubrication or movement",
+      "Correct spline condition",
+      "Coolant contamination",
+      "Brake pad dust only"
+    ],
+    "answer": 0,
+    "explanation": "Red-brown powder is typical fretting debris. Dry splines wear under torque movement. Clean, inspect, and lubricate with specified spline grease. ---"
+  },
+  {
+    "id": 133,
+    "category": "F — Power Transfer",
+    "question": "A final drive pinion seal leaks again after replacement. Bearing play is found at the pinion shaft. What caused the repeat leak?",
+    "options": [
+      "Shaft movement damaged the seal lip",
+      "Wrong tire pressure",
+      "Rich fuel mixture",
+      "Clutch cable free play"
+    ],
+    "answer": 0,
+    "explanation": "Seals require stable shaft support. Bearing play lets the shaft move and opens the seal path. The bearing issue must be repaired. ---"
+  },
+  {
+    "id": 134,
+    "category": "F — Power Transfer",
+    "question": "A final drive vent is plugged and oil is pushed past the seal after a long ride. Why?",
+    "options": [
+      "Heat caused pressure buildup inside the housing",
+      "Gear backlash became zero from tire heat",
+      "Brake fluid pressure entered the final drive",
+      "Battery voltage expanded the oil"
+    ],
+    "answer": 0,
+    "explanation": "Air and oil expand as final drive temperature rises. A blocked vent prevents pressure release. Pressure can force oil past seals. ---"
+  },
+  {
+    "id": 135,
+    "category": "F — Power Transfer",
+    "question": "Final drive oil contains shiny metal flakes. What is the correct response?",
+    "options": [
+      "Inspect gears, bearings, preload, and contact pattern",
+      "Refill oil and ignore",
+      "Add engine coolant to dilute oil",
+      "Lower tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Metal flakes indicate internal wear. Gears and bearings can shed metal before failure. Further inspection is required. ---"
+  },
+  {
+    "id": 136,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive final drive howls during deceleration only. What should be checked?",
+    "options": [
+      "Gear contact pattern, backlash, and bearing preload",
+      "Fuel filter only",
+      "Spark plug cap only",
+      "Clutch lever grip only"
+    ],
+    "answer": 0,
+    "explanation": "Gear loading changes between drive and coast. Noise on coast often points to gear setup or bearing support. Backlash and contact pattern are important. ---"
+  },
+  {
+    "id": 137,
+    "category": "F — Power Transfer",
+    "question": "A final drive gear set is replaced without checking contact pattern. What is the risk?",
+    "options": [
+      "Gear noise, heat, and premature failure",
+      "Better gear life",
+      "Lower oil temperature guaranteed",
+      "Stronger clutch engagement"
+    ],
+    "answer": 0,
+    "explanation": "Gear sets must mesh in the correct contact area. Incorrect contact concentrates load. Pattern, backlash, shims, and preload must be set. ---"
+  },
+  {
+    "id": 138,
+    "category": "F — Power Transfer",
+    "question": "A final drive has too little backlash. What can happen?",
+    "options": [
+      "Gear heat, noise, and binding",
+      "More free play",
+      "Lower gear temperature",
+      "Better oil flow only"
+    ],
+    "answer": 0,
+    "explanation": "Too little backlash reduces clearance between gear teeth. Heat expansion can make the gears bind. Gear damage can result. ---"
+  },
+  {
+    "id": 139,
+    "category": "F — Power Transfer",
+    "question": "A final drive has excessive backlash. What can happen?",
+    "options": [
+      "Clunking, impact loading, and gear tooth wear",
+      "No driveline lash",
+      "More accurate gear mesh",
+      "Stronger braking"
+    ],
+    "answer": 0,
+    "explanation": "Excess backlash creates driveline play. Torque changes cause clunks and shock loads. Gear tooth wear can accelerate. ---"
+  },
+  {
+    "id": 140,
+    "category": "F — Power Transfer",
+    "question": "A CVT scooter engine rpm rises high, but road speed increases slowly. Belt width is below specification. What is likely?",
+    "options": [
+      "Worn belt reducing ratio range and drive efficiency",
+      "Battery overcharging",
+      "Brake light switch stuck",
+      "Coolant thermostat stuck open"
+    ],
+    "answer": 0,
+    "explanation": "CVT belt width affects how it rides in the pulleys. A narrow belt can reduce acceleration and top speed. The belt should be replaced if below limit. ---"
+  },
+  {
+    "id": 141,
+    "category": "F — Power Transfer",
+    "question": "A CVT has jerky acceleration and flat spots on the rollers. What is the best repair focus?",
+    "options": [
+      "Replace rollers and inspect variator ramps and belt",
+      "Replace brake fluid only",
+      "Adjust valve clearance only",
+      "Replace final drive oil only"
+    ],
+    "answer": 0,
+    "explanation": "Rollers control variator movement. Flat spots prevent smooth ratio change. The variator and belt should be inspected together. ---"
+  },
+  {
+    "id": 142,
+    "category": "F — Power Transfer",
+    "question": "A CVT clutch shudders on takeoff and the clutch shoes are glazed. What should be inspected?",
+    "options": [
+      "Clutch shoes, clutch bell/drum surface, springs, and contamination",
+      "Fuel pump relay only",
+      "Tire sidewall only",
+      "Headlight switch only"
+    ],
+    "answer": 0,
+    "explanation": "Glazing reduces friction and causes chatter. The clutch drum may also be polished or overheated. Oil contamination and spring condition should be checked. ---"
+  },
+  {
+    "id": 143,
+    "category": "F — Power Transfer",
+    "question": "A transmission oil drain plug magnet has a small paste-like coating. No chunks are found. What is most accurate?",
+    "options": [
+      "Fine paste can be normal wear, but excessive metal needs investigation",
+      "Any paste means immediate engine replacement",
+      "Paste proves coolant contamination",
+      "Paste means clutch cable failure"
+    ],
+    "answer": 0,
+    "explanation": "Magnets collect fine ferrous wear particles. Small paste may be normal depending on service interval. Chunks or excessive metal indicate damage. ---"
+  },
+  {
+    "id": 144,
+    "category": "F — Power Transfer",
+    "question": "A rider reports a clunk when selecting first gear from neutral. Which cause is most likely if the clunk is excessive and the bike moves forward?",
+    "options": [
+      "Clutch drag",
+      "Low final drive backlash only",
+      "Worn headlight relay",
+      "Low tire pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Some first-gear engagement noise may be normal. Excessive clunk with bike movement suggests clutch is not fully releasing. Check clutch adjustment, oil, plates, and basket. ---"
+  },
+  {
+    "id": 145,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle has a rumble that changes when the clutch lever is pulled in. What diagnostic principle is being used?",
+    "options": [
+      "Changing which rotating parts are loaded or spinning",
+      "Changing tire pressure",
+      "Changing coolant mixture",
+      "Changing headlight resistance"
+    ],
+    "answer": 0,
+    "explanation": "Pulling the clutch changes power flow. Noise changes help isolate clutch, primary, input shaft, or transmission parts. This is a useful diagnostic observation. ---"
+  },
+  {
+    "id": 146,
+    "category": "F — Power Transfer",
+    "question": "A clutch master cylinder return port is blocked. What symptom can occur as the bike warms up?",
+    "options": [
+      "Clutch may slip due to trapped hydraulic pressure",
+      "Final drive oil becomes milky",
+      "Shift drum wears faster only",
+      "Chain slack increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "A blocked return port can hold pressure in the clutch hydraulic system. As fluid expands with heat, it may partially release the clutch. This can cause slip without worn plates. ---"
+  },
+  {
+    "id": 147,
+    "category": "F — Power Transfer",
+    "question": "A hydraulic clutch slave cylinder leaks. What symptom is most likely?",
+    "options": [
+      "Reduced release travel and clutch drag",
+      "Stronger clutch release",
+      "More charging voltage",
+      "Less final drive backlash"
+    ],
+    "answer": 0,
+    "explanation": "Fluid loss or air entry reduces hydraulic movement. The clutch may not disengage fully. Leaks must be repaired and system bled. ---"
+  },
+  {
+    "id": 148,
+    "category": "F — Power Transfer",
+    "question": "A chain-drive motorcycle has rapid wear on one side of the rear sprocket teeth. What should be checked?",
+    "options": [
+      "Rear wheel alignment and chain line",
+      "Radiator cap pressure",
+      "Starter relay",
+      "Brake fluid age"
+    ],
+    "answer": 0,
+    "explanation": "Side wear indicates the chain may not run straight. Misalignment loads sprocket teeth unevenly. Wheel alignment, sprocket condition, and swingarm parts should be inspected. ---"
+  },
+  {
+    "id": 149,
+    "category": "F — Power Transfer",
+    "question": "A front sprocket retaining nut is loose. What is the main risk?",
+    "options": [
+      "Sprocket movement, spline damage, or loss of drive",
+      "Better chain alignment",
+      "Lower chain wear",
+      "Stronger clutch engagement"
+    ],
+    "answer": 0,
+    "explanation": "The sprocket must be secured to the output shaft. Movement can damage splines and chain alignment. Torque and locking method are safety-critical. ---"
+  },
+  {
+    "id": 150,
+    "category": "F — Power Transfer",
+    "question": "After final drive service, the technician forgets to refill oil. The bike is road-tested briefly and develops a howl. What has likely occurred?",
+    "options": [
+      "Gear and bearing damage from oil starvation",
+      "Better gear break-in",
+      "Brake pad glazing only",
+      "Clutch cable stretch only"
+    ],
+    "answer": 0,
+    "explanation": "Final drive gears and bearings need lubricant immediately. Running without oil causes heat and wear quickly. The unit must be inspected before further operation."
+  },
+  {
+    "id": 151,
+    "category": "F — Power Transfer",
+    "question": "After replacing clutch plates, the clutch lever feels normal, but the motorcycle stalls when first gear is selected. What should be checked first?",
+    "options": [
+      "Clutch plate installation order, release travel, and plate separation",
+      "Battery resting voltage only",
+      "Front tire pressure only",
+      "Cooling fan operation only"
+    ],
+    "answer": 0,
+    "explanation": "Stalling when selecting gear can happen if the clutch is dragging badly. The lever may feel normal even if the plate stack or release mechanism is wrong. Check plate order, stack height, release travel, and basket movement. ---"
+  },
+  {
+    "id": 152,
+    "category": "F — Power Transfer",
+    "question": "A customer says the motorcycle slips only after riding for 20 minutes. Cold operation is normal. What is the most likely area to inspect?",
+    "options": [
+      "Clutch free play, oil type, clutch springs, and heat-related plate condition",
+      "Rear brake light bulb",
+      "Fuel tank cap colour",
+      "Front fork preload"
+    ],
+    "answer": 0,
+    "explanation": "Heat can reduce clutch holding ability or change free play. Oil and weak springs may cause slip only when hot. Hot-condition testing is needed to confirm the fault. ---"
+  },
+  {
+    "id": 153,
+    "category": "F — Power Transfer",
+    "question": "A hydraulic clutch works correctly after bleeding, but the lever slowly loses pressure overnight. No external leak is visible. What is most likely?",
+    "options": [
+      "Internal master cylinder bypass or hidden hydraulic leak",
+      "Worn final drive splines",
+      "Hooked rear sprocket",
+      "Incorrect tire size"
+    ],
+    "answer": 0,
+    "explanation": "Hydraulic pressure should remain consistent. Internal seal bypass can lose pressure without obvious external fluid loss. Master cylinder and slave cylinder sealing should be checked. ---"
+  },
+  {
+    "id": 154,
+    "category": "F — Power Transfer",
+    "question": "A wet clutch motorcycle was stored for a long time. When started, it jumps forward as first gear is selected with the lever pulled. What is likely?",
+    "options": [
+      "Clutch plates stuck together",
+      "Shift drum broken",
+      "Final drive oil overfilled",
+      "Rear sprocket hooked"
+    ],
+    "answer": 0,
+    "explanation": "Wet clutch plates can stick after storage. This prevents the clutch from releasing even with the lever pulled. Plate condition, oil condition, and release operation should be checked. ---"
+  },
+  {
+    "id": 155,
+    "category": "F — Power Transfer",
+    "question": "A rider complains of clutch grab just as the motorcycle begins to move. The clutch basket has visible grooves. What is the best conclusion?",
+    "options": [
+      "Basket notching may prevent smooth plate movement",
+      "Gear backlash is too small",
+      "Final drive vent is blocked",
+      "Chain master link is reversed"
+    ],
+    "answer": 0,
+    "explanation": "Clutch plates need to slide smoothly in the basket. Grooves can make plates release suddenly instead of progressively. This causes grabbing or uneven engagement. ---"
+  },
+  {
+    "id": 156,
+    "category": "F — Power Transfer",
+    "question": "A technician replaces friction plates but reuses weak clutch springs. The clutch still slips. Why?",
+    "options": [
+      "Springs may not provide enough clamping force",
+      "New plates always cause drag",
+      "Chain slack controls clutch pressure",
+      "Final drive oil controls spring force"
+    ],
+    "answer": 0,
+    "explanation": "Friction plates need spring pressure to hold torque. Weak springs allow the clutch pack to slip even with new plates. Spring free length and pressure should be checked. ---"
+  },
+  {
+    "id": 157,
+    "category": "F — Power Transfer",
+    "question": "A clutch is difficult to pull, and the cable routing was recently changed. What should be checked?",
+    "options": [
+      "Cable routing, lubrication, bends, and lever pivot condition",
+      "Final drive backlash",
+      "Shift dog undercut",
+      "Rear sprocket tooth count"
+    ],
+    "answer": 0,
+    "explanation": "Poor cable routing increases friction. Sharp bends or dry cables make the lever heavy. Cable movement should be smooth from lock to lock. ---"
+  },
+  {
+    "id": 158,
+    "category": "F — Power Transfer",
+    "question": "A rider reports clutch engagement point changes when the handlebars are turned. What is most likely?",
+    "options": [
+      "Cable routing or free play changes with steering movement",
+      "Countershaft bearing failure",
+      "Final drive oil contamination",
+      "Transmission gear pitting"
+    ],
+    "answer": 0,
+    "explanation": "Handlebar movement can pull or bend the clutch cable. This changes free play and engagement point. Cable routing must allow full steering movement without tension changes. ---"
+  },
+  {
+    "id": 159,
+    "category": "F — Power Transfer",
+    "question": "A primary chain was adjusted correctly cold, but becomes noisy after warming up. What should be considered?",
+    "options": [
+      "Thermal expansion, adjustment position, and chain/tensioner wear",
+      "Brake rotor runout",
+      "Battery charge rate",
+      "Cooling fan relay"
+    ],
+    "answer": 0,
+    "explanation": "Primary drive parts can change clearance with temperature. A marginal chain or tensioner may become noisy hot. Check slack using the manufacturer’s specified condition. ---"
+  },
+  {
+    "id": 160,
+    "category": "F — Power Transfer",
+    "question": "A primary drive makes a grinding noise after cover installation. The noise was absent before the cover was installed. What should be checked?",
+    "options": [
+      "Cover clearance, gasket thickness, fastener length, and component interference",
+      "Fuel injector voltage",
+      "Brake pad thickness",
+      "Tire balance"
+    ],
+    "answer": 0,
+    "explanation": "The fault appeared after the cover was installed. Incorrect gasket, bolts, or clearance can cause parts to contact the cover. Interference must be corrected before running. ---"
+  },
+  {
+    "id": 161,
+    "category": "F — Power Transfer",
+    "question": "A primary case contains plastic debris after service. What is the most likely source?",
+    "options": [
+      "Chain tensioner shoe or guide wear",
+      "Spark plug boot",
+      "Radiator cap seal",
+      "Tire valve stem"
+    ],
+    "answer": 0,
+    "explanation": "Plastic debris in a primary case often comes from guides or tensioner shoes. If ignored, debris can circulate and damage parts. The chain, shoe, sprockets, and oil passages should be inspected. ---"
+  },
+  {
+    "id": 162,
+    "category": "F — Power Transfer",
+    "question": "A belt drive motorcycle has a squeak that changes with belt tension. What should be checked?",
+    "options": [
+      "Belt tension, pulley alignment, pulley wear, and contamination",
+      "Fuel pressure",
+      "Valve clearance",
+      "Coolant strength"
+    ],
+    "answer": 0,
+    "explanation": "Belt noise often relates to tension or tracking. Pulley wear or contamination can also cause squeak. The belt should not be lubricated unless specified. ---"
+  },
+  {
+    "id": 163,
+    "category": "F — Power Transfer",
+    "question": "A belt has correct tension but rubs the pulley flange. What is most likely wrong?",
+    "options": [
+      "Pulley alignment or rear wheel alignment",
+      "Battery polarity",
+      "Clutch fluid boiling point",
+      "Shift lever rubber"
+    ],
+    "answer": 0,
+    "explanation": "A belt should track correctly on the pulley. Flange rubbing means the belt is walking sideways. Alignment and pulley condition must be checked. ---"
+  },
+  {
+    "id": 164,
+    "category": "F — Power Transfer",
+    "question": "A rider complains of a loud clunk when rolling on and off the throttle. Chain slack is correct. What else should be inspected?",
+    "options": [
+      "Cush drive rubbers, sprocket carrier, engine mounts, and driveline play",
+      "Brake fluid moisture only",
+      "Front fork oil only",
+      "Headlight switch only"
+    ],
+    "answer": 0,
+    "explanation": "A clunk can come from other driveline play besides chain slack. Worn cush rubbers or sprocket carrier bearings can create lash. Mounts and sprocket fasteners should also be inspected. ---"
+  },
+  {
+    "id": 165,
+    "category": "F — Power Transfer",
+    "question": "A chain-drive motorcycle has jerky low-speed throttle response. The chain has tight links. What is the best repair?",
+    "options": [
+      "Replace or service the chain and inspect sprockets",
+      "Tighten the chain until the links straighten",
+      "Add brake fluid to the chain",
+      "Ignore because tight links improve strength"
+    ],
+    "answer": 0,
+    "explanation": "Tight links do not articulate smoothly. They create uneven power transfer and wear sprockets. Rust, damaged O-rings, or lack of lubrication may be the cause. ---"
+  },
+  {
+    "id": 166,
+    "category": "F — Power Transfer",
+    "question": "A chain makes a knocking sound once per wheel revolution. What should be inspected?",
+    "options": [
+      "Tight link, damaged sprocket tooth, master link, and chain alignment",
+      "Radiator fan only",
+      "Starter relay only",
+      "Fuel injector only"
+    ],
+    "answer": 0,
+    "explanation": "A repeating noise once per rotation often points to one damaged area. The chain, master link, and sprockets should be inspected closely. Do not adjust tension until damage is identified. ---"
+  },
+  {
+    "id": 167,
+    "category": "F — Power Transfer",
+    "question": "After rear tire replacement, chain slack is uneven and alignment marks do not match. What is the best action?",
+    "options": [
+      "Recheck axle position, spacer placement, chain alignment, and slack",
+      "Replace the battery",
+      "Adjust valve clearance",
+      "Bleed front brakes only"
+    ],
+    "answer": 0,
+    "explanation": "Rear wheel service affects chain alignment and slack. Wrong spacers or axle position can misalign the rear wheel. A final drive check is required before riding. ---"
+  },
+  {
+    "id": 168,
+    "category": "F — Power Transfer",
+    "question": "A chain master link clip is missing after a ride. What should be done?",
+    "options": [
+      "Stop use and replace/inspect the master link and chain",
+      "Ride slowly to the shop",
+      "Tighten the rear axle only",
+      "Lubricate the chain heavily and continue"
+    ],
+    "answer": 0,
+    "explanation": "A missing clip can allow the chain to separate. Chain failure can lock the wheel or damage cases. The master link must be repaired before riding. ---"
+  },
+  {
+    "id": 169,
+    "category": "F — Power Transfer",
+    "question": "A rider hears a whining noise in every gear that changes with road speed, not engine rpm. What should be inspected?",
+    "options": [
+      "Final drive, chain/belt/shaft components, rear wheel bearings, and tire",
+      "Valve clearance only",
+      "Ignition coil only",
+      "Fuel cap vent only"
+    ],
+    "answer": 0,
+    "explanation": "Road-speed noise points to parts rotating with the rear wheel. Final drive and wheel components should be inspected. Engine rpm-related faults would change with engine speed instead. ---"
+  },
+  {
+    "id": 170,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle jumps out of gear only during engine braking, not acceleration. What should be considered?",
+    "options": [
+      "Gear dog wear/contact pattern on coast side and shift fork position",
+      "Brake fluid level",
+      "Front tire pressure",
+      "Battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Gear dogs are loaded differently on acceleration and deceleration. Coast-side wear can cause jump-out during engine braking. Inspect gear engagement surfaces and fork control. ---"
+  },
+  {
+    "id": 171,
+    "category": "F — Power Transfer",
+    "question": "A transmission refuses to shift above second gear after the bike was dropped. What should be checked before splitting the cases?",
+    "options": [
+      "External shift lever, linkage, footpeg bracket, and shaft movement",
+      "Final drive gear contact pattern first",
+      "Crankshaft runout first",
+      "Fuel pump flow first"
+    ],
+    "answer": 0,
+    "explanation": "Crash damage can bend external shift parts. External binding may stop full shift shaft travel. Always check accessible causes before internal teardown. ---"
+  },
+  {
+    "id": 172,
+    "category": "F — Power Transfer",
+    "question": "A shift lever is installed one spline too high. What symptom can occur?",
+    "options": [
+      "Incomplete shift travel due to rider or linkage interference",
+      "Overcharging battery",
+      "Clutch spring weakness",
+      "Final drive overheating"
+    ],
+    "answer": 0,
+    "explanation": "Lever position affects foot movement and shift travel. Interference can prevent full shifts. Improper lever position can mimic transmission failure. ---"
+  },
+  {
+    "id": 173,
+    "category": "F — Power Transfer",
+    "question": "A customer reports missed upshifts only when wearing riding boots. What should be checked first?",
+    "options": [
+      "Shift lever position and linkage adjustment",
+      "Piston ring clearance",
+      "Final drive seal depth",
+      "Cooling system pressure"
+    ],
+    "answer": 0,
+    "explanation": "Boot size can affect foot clearance and shift movement. Lever position may not allow full upward travel. Simple ergonomic adjustment should be checked first. ---"
+  },
+  {
+    "id": 174,
+    "category": "F — Power Transfer",
+    "question": "A shift shaft is slightly bent after a fall. What symptom may occur?",
+    "options": [
+      "Binding, poor return, or incomplete shifts",
+      "Stronger clutch engagement",
+      "Better gear selection",
+      "Lower chain wear"
+    ],
+    "answer": 0,
+    "explanation": "The shift shaft must rotate freely. A bend can create binding through the engine case or linkage. This can cause missed shifts or no return. ---"
+  },
+  {
+    "id": 175,
+    "category": "F — Power Transfer",
+    "question": "A transmission makes noise only in third gear under light load. What does this suggest?",
+    "options": [
+      "Wear or damage in third gear pair, bushing, or engagement parts",
+      "Clutch cable routing only",
+      "Brake pad contamination only",
+      "Fuel pump voltage only"
+    ],
+    "answer": 0,
+    "explanation": "Noise in one gear usually points to components used in that gear. Gear teeth, bushings, and engagement dogs should be inspected. Broad bearing faults are more likely to affect multiple gears. ---"
+  },
+  {
+    "id": 176,
+    "category": "F — Power Transfer",
+    "question": "A gearbox has metal chunks on the drain plug magnet. What should be done?",
+    "options": [
+      "Stop operation and inspect internal gears/bearings",
+      "Change oil and ride normally",
+      "Add chain lubricant to the oil",
+      "Lower tire pressure"
+    ],
+    "answer": 0,
+    "explanation": "Metal chunks indicate serious internal damage. Continuing to ride can cause lockup or further failure. The transmission must be inspected. ---"
+  },
+  {
+    "id": 177,
+    "category": "F — Power Transfer",
+    "question": "A transmission bearing outer race spins in the case. What is the concern?",
+    "options": [
+      "Case bore wear and loss of bearing support",
+      "Better bearing lubrication",
+      "Lower gear noise",
+      "Stronger gear engagement"
+    ],
+    "answer": 0,
+    "explanation": "Bearings must fit tightly in their bores. A spinning race damages the case and changes shaft alignment. The case may require repair or replacement. ---"
+  },
+  {
+    "id": 178,
+    "category": "F — Power Transfer",
+    "question": "After transmission assembly, the shift drum rotates but one fork does not move smoothly. What should be inspected?",
+    "options": [
+      "Fork pin, drum groove, fork straightness, and guide shaft",
+      "Battery terminal",
+      "Radiator fan fuse",
+      "Tire valve core"
+    ],
+    "answer": 0,
+    "explanation": "Fork movement depends on the pin, drum groove, and guide shaft. A bent fork or damaged guide can bind. Smooth movement should be confirmed before final assembly. ---"
+  },
+  {
+    "id": 179,
+    "category": "F — Power Transfer",
+    "question": "A gear engages fully on the bench but jumps out under road load. Why can bench testing miss the fault?",
+    "options": [
+      "Road torque loads the gear dogs and engagement surfaces",
+      "Bench testing increases oil pressure",
+      "Bench testing proves every gear is perfect",
+      "Road load only affects tires"
+    ],
+    "answer": 0,
+    "explanation": "Worn dogs may look engaged without load. Torque can force damaged engagement surfaces apart. Road-load symptoms are important diagnostic evidence. ---"
+  },
+  {
+    "id": 180,
+    "category": "F — Power Transfer",
+    "question": "A rider complains the motorcycle “locks” momentarily during shifts. What dangerous transmission fault should be considered?",
+    "options": [
+      "Gear dogs engaging two gears or shift mechanism malfunction",
+      "Low headlight voltage",
+      "Weak brake light switch",
+      "Overfilled fuel tank"
+    ],
+    "answer": 0,
+    "explanation": "Transmission lock can occur if engagement is incorrect. Shift mechanism or assembly faults can be serious. The motorcycle should not be ridden until diagnosed. ---"
+  },
+  {
+    "id": 181,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive motorcycle has a vibration that is worst at a certain speed and worse under load. The U-joint has a tight spot. What should be done?",
+    "options": [
+      "Replace/service the U-joint or shaft assembly as specified",
+      "Add thicker engine oil",
+      "Adjust clutch free play only",
+      "Replace turn signal relay"
+    ],
+    "answer": 0,
+    "explanation": "U-joints should move smoothly through their range. A tight spot creates vibration and driveline stress. Failure can damage the final drive or cause loss of drive. ---"
+  },
+  {
+    "id": 182,
+    "category": "F — Power Transfer",
+    "question": "A final drive housing is very hot after a short ride. Brake is not dragging. What should be checked?",
+    "options": [
+      "Oil level/type, bearing preload, gear backlash, and internal damage",
+      "Fuel level only",
+      "Front fork oil only",
+      "Headlight aim only"
+    ],
+    "answer": 0,
+    "explanation": "Heat indicates friction or lubrication failure. If brakes are not dragging, final drive internals must be checked. Wrong oil, tight preload, or gear setup can overheat the unit. ---"
+  },
+  {
+    "id": 183,
+    "category": "F — Power Transfer",
+    "question": "A final drive oil leak appears only after long highway rides. What is a likely cause?",
+    "options": [
+      "Vent restriction or heat-related pressure buildup",
+      "Low tire pressure only",
+      "Weak clutch springs",
+      "Bad brake light switch"
+    ],
+    "answer": 0,
+    "explanation": "Long rides heat the final drive oil and air. A restricted vent can build pressure and push oil past seals. Vent and oil level should be checked. ---"
+  },
+  {
+    "id": 184,
+    "category": "F — Power Transfer",
+    "question": "A shaft-drive motorcycle has splines that look pointed instead of square. What does this mean?",
+    "options": [
+      "Severe spline wear and possible loss of drive",
+      "Correct break-in wear",
+      "Better torque transfer",
+      "Proper lubrication"
+    ],
+    "answer": 0,
+    "explanation": "Healthy splines have enough tooth width to carry torque. Pointed splines are worn and can strip. The mating spline should also be inspected. ---"
+  },
+  {
+    "id": 185,
+    "category": "F — Power Transfer",
+    "question": "After final drive service, a technician uses general-purpose grease on splines instead of specified spline lubricant. What is the concern?",
+    "options": [
+      "Grease may not resist fretting and high load",
+      "It improves spline life always",
+      "It changes tire pressure",
+      "It increases brake friction"
+    ],
+    "answer": 0,
+    "explanation": "Splines need lubricant suited for high pressure and small movement. Wrong grease can squeeze out or fail under load. Specified spline lubricant should be used. ---"
+  },
+  {
+    "id": 186,
+    "category": "F — Power Transfer",
+    "question": "A final drive seal is installed too deep and blocks an oil passage or drain path. What can happen?",
+    "options": [
+      "Lubrication or leakage problems",
+      "Higher compression",
+      "Better seal life always",
+      "Lower gear temperature automatically"
+    ],
+    "answer": 0,
+    "explanation": "Seal depth can be critical in some assemblies. Incorrect installation may block oil flow or place the lip on a worn shaft area. Seal installation should follow the service manual. ---"
+  },
+  {
+    "id": 187,
+    "category": "F — Power Transfer",
+    "question": "A CVT scooter has poor takeoff and a burning smell from the transmission cover. What should be inspected?",
+    "options": [
+      "Belt slip, clutch shoes, variator, and cooling airflow",
+      "Fuel injector spray only",
+      "Brake fluid level only",
+      "Valve timing only"
+    ],
+    "answer": 0,
+    "explanation": "Burning smell near a CVT often indicates belt or clutch slip. Poor takeoff points to engagement or ratio problems. The CVT cover airflow and components should be inspected. ---"
+  },
+  {
+    "id": 188,
+    "category": "F — Power Transfer",
+    "question": "A CVT belt exploded inside the cover. What should be done before installing a new belt?",
+    "options": [
+      "Remove debris and inspect variator, clutch, pulleys, and cover damage",
+      "Install a new belt without cleaning",
+      "Add engine coolant to the CVT",
+      "Oil the new belt heavily"
+    ],
+    "answer": 0,
+    "explanation": "Belt debris can jam pulleys or damage seals. A failed pulley or clutch may have caused the belt failure. All CVT components should be inspected. ---"
+  },
+  {
+    "id": 189,
+    "category": "F — Power Transfer",
+    "question": "A CVT scooter has high rpm but low speed after roller replacement. What could be wrong?",
+    "options": [
+      "Incorrect roller weight, roller installation, belt wear, or variator assembly",
+      "Low brake fluid",
+      "Wrong spark plug colour",
+      "Final drive backlash only"
+    ],
+    "answer": 0,
+    "explanation": "Roller weight affects CVT shift rpm. Incorrect assembly can stop the variator from changing ratio. Belt width and pulley movement should be checked. ---"
+  },
+  {
+    "id": 190,
+    "category": "F — Power Transfer",
+    "question": "A CVT clutch bell is blue and the shoes are glazed. What does this indicate?",
+    "options": [
+      "Overheating from slipping or dragging",
+      "Correct clutch break-in",
+      "Better friction material",
+      "Low battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Blue colour shows heat. Glazing means friction surfaces overheated or slipped. Clutch engagement, springs, contamination, and belt condition should be checked. ---"
+  },
+  {
+    "id": 191,
+    "category": "F — Power Transfer",
+    "question": "After a clutch service, the engine starts only in neutral and not in gear with clutch pulled. What system may have been disturbed?",
+    "options": [
+      "Clutch switch or starter interlock circuit",
+      "Final drive gear backlash",
+      "Primary chain tensioner",
+      "Shift fork thickness"
+    ],
+    "answer": 0,
+    "explanation": "Many motorcycles use a clutch switch for starting in gear. Clutch service may disturb the switch or wiring. Interlock operation should be verified. ---"
+  },
+  {
+    "id": 192,
+    "category": "F — Power Transfer",
+    "question": "A rider complains of a grinding feel when shifting, but the clutch disengages correctly. External linkage is dry and binding. What is the best first repair?",
+    "options": [
+      "Service and lubricate/repair the external linkage",
+      "Split the engine cases immediately",
+      "Replace final drive gears",
+      "Replace the radiator cap"
+    ],
+    "answer": 0,
+    "explanation": "Binding linkage can prevent clean shift movement. External faults should be corrected before internal teardown. A proper road test should confirm the result. ---"
+  },
+  {
+    "id": 193,
+    "category": "F — Power Transfer",
+    "question": "A motorcycle has a new chain, but the chain adjusters are at very different positions side to side. What should be verified?",
+    "options": [
+      "Wheel alignment, spacer placement, swingarm marks, and axle seating",
+      "Spark plug gap",
+      "Brake fluid type",
+      "Coolant thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Uneven adjuster positions can indicate misalignment or assembly error. Spacer mistakes can also change wheel position. Accurate alignment protects handling and chain life. ---"
+  },
+  {
+    "id": 194,
+    "category": "F — Power Transfer",
+    "question": "A chain is adjusted correctly, but sprocket carrier bearing has play. What symptom can occur?",
+    "options": [
+      "Chain alignment changes and driveline clunk",
+      "Higher oil pressure",
+      "Better chain life",
+      "Stronger clutch springs"
+    ],
+    "answer": 0,
+    "explanation": "The sprocket carrier supports chain load. Bearing play lets the sprocket move. This causes clunking, wear, and alignment changes. ---"
+  },
+  {
+    "id": 195,
+    "category": "F — Power Transfer",
+    "question": "A cush drive rubber set is worn. What symptom is most likely?",
+    "options": [
+      "Driveline lash or clunk during throttle changes",
+      "Low coolant level",
+      "Overcharging battery",
+      "Tight valve clearance"
+    ],
+    "answer": 0,
+    "explanation": "Cush rubbers absorb torque pulses. Worn rubbers allow excessive movement. Throttle on/off transitions may feel harsh or noisy. ---"
+  },
+  {
+    "id": 196,
+    "category": "F — Power Transfer",
+    "question": "A rider reports vibration after replacing chain and sprockets. The chain has the correct slack. What should be checked?",
+    "options": [
+      "Chain alignment, sprocket runout, tight links, and wheel balance",
+      "Cooling fan relay only",
+      "Fuel cap vent only",
+      "Brake fluid colour only"
+    ],
+    "answer": 0,
+    "explanation": "Correct slack does not prove correct installation. Misalignment, sprocket runout, or stiff links can create vibration. Wheel service should also be verified. ---"
+  },
+  {
+    "id": 197,
+    "category": "F — Power Transfer",
+    "question": "A transmission oil is drained and smells burnt. What does this suggest?",
+    "options": [
+      "Overheating from clutch/gear/bearing friction or wrong lubricant",
+      "Correct oil condition",
+      "Low tire pressure",
+      "Weak ignition coil"
+    ],
+    "answer": 0,
+    "explanation": "Burnt smell indicates excessive heat. Friction, wrong oil, slipping clutch, or bearing problems may cause it. Internal parts and lubricant specification should be checked. ---"
+  },
+  {
+    "id": 198,
+    "category": "F — Power Transfer",
+    "question": "A rider reports the motorcycle surges at steady speed. Engine runs smoothly, but chain slack varies greatly around the wheel rotation. What is likely?",
+    "options": [
+      "Uneven chain wear causing driveline surge",
+      "MAP sensor fault only",
+      "Radiator cap fault only",
+      "Brake fluid contamination only"
+    ],
+    "answer": 0,
+    "explanation": "Tight and loose chain spots create uneven power transfer. This can feel like surging even if the engine is smooth. Chain and sprockets should be inspected together. ---"
+  },
+  {
+    "id": 199,
+    "category": "F — Power Transfer",
+    "question": "A final drive unit was filled above specification. What can happen during riding?",
+    "options": [
+      "Foaming, heat, or oil forced out the vent/seals",
+      "Better gear lubrication always",
+      "Lower housing pressure",
+      "More accurate backlash"
+    ],
+    "answer": 0,
+    "explanation": "Overfilling can cause oil aeration and pressure issues. Expanding oil may exit through the vent or seals. Correct oil quantity and level are important. ---"
+  },
+  {
+    "id": 200,
+    "category": "F — Power Transfer",
+    "question": "After power transfer repair, a technician notices the rear wheel does not spin freely on the stand. What should be checked before road testing?",
+    "options": [
+      "Chain/belt tension, wheel alignment, brake drag, spacer placement, and bearing preload",
+      "Seat latch only",
+      "Headlight brightness only",
+      "Fuel level only"
+    ],
+    "answer": 0,
+    "explanation": "Binding rear wheel can come from drive, brake, or bearing assembly errors. Road testing could damage parts or cause loss of control. The cause must be found before the motorcycle is ridden."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerImportantInstallProductsQuestions =
+  shuffleArray(motorcycleTechnicianPowerTransferQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "architectural-sheet-metal-worker",
+  tradeTitle: "Motorcycle Technician",
+  sectionTitle: "F. Maintains Power Transfer",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerImportantInstallProductsQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerImportantInstallProductsQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

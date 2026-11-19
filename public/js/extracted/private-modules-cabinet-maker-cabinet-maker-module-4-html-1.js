@@ -1,0 +1,2696 @@
+const cabinetmakerOnsiteAssemblyInstallationQuestions = [
+  {
+    "id": 1,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "What should be checked before cutting an access hole in a cabinet on site?",
+    "options": [
+      "Hidden services and required clearance",
+      "Finish colour only",
+      "Drawer pull style",
+      "Shelf-pin size"
+    ],
+    "answer": 0,
+    "explanation": "Plumbing, wiring, or other services may be hidden behind panels. Locations must be verified before cutting."
+  },
+  {
+    "id": 2,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "Why are finished surfaces protected before site modification?",
+    "options": [
+      "To prevent scratches, chips, and dust damage",
+      "To make cutting faster",
+      "To hide layout lines",
+      "To avoid measuring"
+    ],
+    "answer": 0,
+    "explanation": "Site work can damage finished cabinetry. Tape, pads, and protective coverings help preserve quality."
+  },
+  {
+    "id": 3,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "What is the purpose of scribing a filler strip?",
+    "options": [
+      "To fit it to an irregular wall or floor",
+      "To make it random size",
+      "To replace fastening",
+      "To remove cabinet alignment"
+    ],
+    "answer": 0,
+    "explanation": "Scribing transfers the wall or floor shape to the part. This creates a cleaner finished fit."
+  },
+  {
+    "id": 4,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "Why should scribe cuts be made gradually?",
+    "options": [
+      "Over-cutting creates visible gaps",
+      "It makes walls straighter",
+      "It replaces sanding",
+      "It eliminates layout"
+    ],
+    "answer": 0,
+    "explanation": "Removed material cannot easily be replaced. Gradual fitting allows better control."
+  },
+  {
+    "id": 5,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "A site cut is close to a finished cabinet edge. What helps reduce chip-out?",
+    "options": [
+      "Sharp blade, tape, and backing support",
+      "Dull blade",
+      "More force",
+      "No support"
+    ],
+    "answer": 0,
+    "explanation": "Finished edges need controlled cutting. Tape, sharp tools, and support reduce chipping."
+  },
+  {
+    "id": 6,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "What should be done if an access hole weakens a cabinet panel?",
+    "options": [
+      "Add reinforcement if required",
+      "Ignore it",
+      "Cut the hole larger",
+      "Remove the panel completely"
+    ],
+    "answer": 0,
+    "explanation": "Large openings can reduce cabinet strength. Reinforcement may be needed around the cutout."
+  },
+  {
+    "id": 7,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "What is the best tool choice principle for site modification?",
+    "options": [
+      "Use tools that control cut quality and protect the finish",
+      "Use the fastest tool only",
+      "Use dull tools to avoid overcutting",
+      "Use tools without layout marks"
+    ],
+    "answer": 0,
+    "explanation": "Site cuts must be accurate and clean. Tool choice affects finish protection and fit."
+  },
+  {
+    "id": 8,
+    "category": "Set 1 - Task 16. Modifies Products to Site Conditions",
+    "question": "A scribed panel fits the wall but pushes the cabinet out of plumb. What is wrong?",
+    "options": [
+      "The fit is forcing the cabinet alignment",
+      "The cabinet is stronger",
+      "The wall is repaired",
+      "The reveal is automatically correct"
+    ],
+    "answer": 0,
+    "explanation": "Scribing should not distort the cabinet. The cabinet must remain level, plumb, and square.  ---"
+  },
+  {
+    "id": 9,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What must be checked before fastening base cabinets permanently?",
+    "options": [
+      "Level, plumb, square, alignment, and support",
+      "Finish smell",
+      "Drawer pull colour",
+      "Tool brand"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets must be properly positioned before fastening. Errors affect doors, drawers, and countertops."
+  },
+  {
+    "id": 10,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why are shims used during cabinet installation?",
+    "options": [
+      "To support and align cabinets on uneven surfaces",
+      "To replace screws",
+      "To weaken the cabinet",
+      "To change finish colour"
+    ],
+    "answer": 0,
+    "explanation": "Floors and walls are often uneven. Shims keep cabinets level, plumb, and stable."
+  },
+  {
+    "id": 11,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is the risk of fastening wall cabinets without proper backing?",
+    "options": [
+      "Cabinets may pull loose under load",
+      "Doors close better",
+      "Countertops level themselves",
+      "Finish cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets need secure structural fastening. Drywall alone is not enough for loaded cabinets."
+  },
+  {
+    "id": 12,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should base cabinets be level before countertop installation?",
+    "options": [
+      "Countertop seams and support depend on level cabinets",
+      "Finish dries faster",
+      "Hinges become stronger",
+      "Shelves become thicker"
+    ],
+    "answer": 0,
+    "explanation": "Countertops need flat, stable support. Uneven cabinets can cause open seams or stress."
+  },
+  {
+    "id": 13,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "A wall cabinet door swings open by itself after installation. What is likely wrong?",
+    "options": [
+      "Cabinet is not plumb",
+      "Hinge is too decorative",
+      "Finish is too hard",
+      "Shelf is too deep"
+    ],
+    "answer": 0,
+    "explanation": "Out-of-plumb cabinets affect door movement. Installation alignment should be corrected before final adjustment."
+  },
+  {
+    "id": 14,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be verified before installing cabinets around appliances?",
+    "options": [
+      "Appliance clearances and manufacturer requirements",
+      "Finish sheen only",
+      "Screw colour",
+      "Drawer pull brand"
+    ],
+    "answer": 0,
+    "explanation": "Appliances require proper space, ventilation, and service access. Cabinet openings must match requirements."
+  },
+  {
+    "id": 15,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should countertop seams be dry-fitted before bonding?",
+    "options": [
+      "To confirm fit, alignment, and support",
+      "To make seams larger",
+      "To replace adhesive",
+      "To avoid checking level"
+    ],
+    "answer": 0,
+    "explanation": "Dry fitting reveals problems before permanent assembly. Seam issues should be corrected before adhesive is applied."
+  },
+  {
+    "id": 16,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is a common cause of uneven countertop seams?",
+    "options": [
+      "Cabinets not level or poor support",
+      "Drawer pull colour",
+      "Finish smell",
+      "Shelf-pin spacing"
+    ],
+    "answer": 0,
+    "explanation": "Countertops rely on the cabinet run for support. Uneven bases can open or misalign seams."
+  },
+  {
+    "id": 17,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be checked after installing drawers on site?",
+    "options": [
+      "Smooth operation, alignment, and clearances",
+      "Finish container size",
+      "Wall paint colour",
+      "Glue bottle label"
+    ],
+    "answer": 0,
+    "explanation": "Installation may shift cabinet alignment. Drawers should be tested and adjusted before handover."
+  },
+  {
+    "id": 18,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is the purpose of fastening cabinets to each other before final wall fastening?",
+    "options": [
+      "To align faces and maintain a continuous run",
+      "To avoid levelling",
+      "To make cabinets heavier",
+      "To hide defects"
+    ],
+    "answer": 0,
+    "explanation": "Joining cabinets helps create a straight, consistent run. It also improves alignment between units."
+  },
+  {
+    "id": 19,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should wall cabinets be installed into studs or blocking?",
+    "options": [
+      "To provide structural support",
+      "To improve stain colour",
+      "To replace cabinet backs",
+      "To avoid measuring"
+    ],
+    "answer": 0,
+    "explanation": "Loaded wall cabinets are heavy. Secure backing prevents failure."
+  },
+  {
+    "id": 20,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be checked before cutting a countertop opening for a sink?",
+    "options": [
+      "Sink template, cabinet clearance, and support",
+      "Door pull size",
+      "Shelf-pin depth",
+      "Finish sheen"
+    ],
+    "answer": 0,
+    "explanation": "Sink cutouts must match the fixture and cabinet below. Poor planning can weaken or ruin the top."
+  },
+  {
+    "id": 21,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "A base cabinet rocks on the floor before fastening. What should be done?",
+    "options": [
+      "Shim and support it properly",
+      "Fasten it while rocking",
+      "Remove the back",
+      "Shorten the doors"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets must be stable before fastening. Rocking can twist the case and affect operation."
+  },
+  {
+    "id": 22,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be done before handover after cabinet installation?",
+    "options": [
+      "Clean, inspect, and verify operation",
+      "Leave protective dust inside drawers",
+      "Remove adjustment screws",
+      "Ignore minor rubbing"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection confirms function and appearance. Cleanup is part of professional completion."
+  },
+  {
+    "id": 23,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should cabinet fillers be installed carefully?",
+    "options": [
+      "They finish gaps and maintain reveal appearance",
+      "They replace wall fastening",
+      "They make cabinets unstable",
+      "They hide all layout errors"
+    ],
+    "answer": 0,
+    "explanation": "Fillers close spaces at walls or appliances. Poor filler work is highly visible."
+  },
+  {
+    "id": 24,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What may happen if a cabinet run is pulled tight to a bowed wall?",
+    "options": [
+      "Cabinets may twist or go out of alignment",
+      "Doors align better automatically",
+      "Countertop support improves",
+      "Drawers become smoother"
+    ],
+    "answer": 0,
+    "explanation": "Forcing cabinets to uneven walls can distort them. Shimming and scribing should maintain alignment."
+  },
+  {
+    "id": 25,
+    "category": "Set 1 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be checked when installing tall cabinets?",
+    "options": [
+      "Plumb, level, anchoring, and clearance",
+      "Finish smell only",
+      "Shelf colour",
+      "Glue type"
+    ],
+    "answer": 0,
+    "explanation": "Tall cabinets can show alignment errors clearly. They must also be safely anchored.  ---"
+  },
+  {
+    "id": 26,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why are control lines important when installing wall panels?",
+    "options": [
+      "They maintain alignment and consistent reveals",
+      "They replace fasteners",
+      "They hide all wall defects",
+      "They eliminate measuring"
+    ],
+    "answer": 0,
+    "explanation": "Control lines give a consistent reference across the site. They prevent reveal drift."
+  },
+  {
+    "id": 27,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be checked before installing long moulding runs?",
+    "options": [
+      "Wall/ceiling straightness and joint locations",
+      "Drawer slide rating",
+      "Glue bottle size",
+      "Cabinet shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Long mouldings show wall and ceiling irregularities. Joint planning improves appearance."
+  },
+  {
+    "id": 28,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is the purpose of a scarf joint in long trim runs?",
+    "options": [
+      "To create a cleaner joint between lengths",
+      "To replace fastening",
+      "To weaken the trim",
+      "To apply finish"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints provide more contact area and a cleaner transition than butt joints. They are common in long mouldings."
+  },
+  {
+    "id": 29,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should prefinished mouldings be handled carefully?",
+    "options": [
+      "Surface damage is difficult to repair on site",
+      "Finish becomes stronger when scratched",
+      "Nail holes disappear automatically",
+      "Scratches improve adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished surfaces can chip or scratch easily. Protection reduces visible damage."
+  },
+  {
+    "id": 30,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be done if wall panels do not fit because of site obstructions?",
+    "options": [
+      "Stop and coordinate before modifying",
+      "Force panels into place",
+      "Cut randomly",
+      "Ignore the obstruction"
+    ],
+    "answer": 0,
+    "explanation": "Obstructions may affect design, services, or structure. Changes should be approved before cutting."
+  },
+  {
+    "id": 31,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is the main purpose of scribing moulding or panels on site?",
+    "options": [
+      "To fit irregular surfaces cleanly",
+      "To remove fasteners",
+      "To increase gaps",
+      "To avoid layout"
+    ],
+    "answer": 0,
+    "explanation": "Scribing transfers irregular site surfaces to the workpiece. This creates a better fit."
+  },
+  {
+    "id": 32,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should millwork be acclimatized before installation?",
+    "options": [
+      "To reduce movement after installation",
+      "To change wood species",
+      "To stop all expansion permanently",
+      "To remove finish"
+    ],
+    "answer": 0,
+    "explanation": "Wood products adjust to site humidity and temperature. Acclimatization helps prevent later gaps or warping."
+  },
+  {
+    "id": 33,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A wall panel reveal is consistent at the bottom but wider at the top. What should be checked?",
+    "options": [
+      "Panel plumb and wall condition",
+      "Finish sheen",
+      "Drawer pull length",
+      "Glue spread"
+    ],
+    "answer": 0,
+    "explanation": "Out-of-plumb panels or walls affect reveal size. Alignment should be checked before fastening."
+  },
+  {
+    "id": 34,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should trim fasteners be placed carefully?",
+    "options": [
+      "To avoid splits and visible damage",
+      "To make trim weaker",
+      "To avoid holding power",
+      "To increase sanding marks"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect fastener placement can split moulding or leave visible defects. Pilot holes may be needed."
+  },
+  {
+    "id": 35,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be checked before final fastening of wall panels?",
+    "options": [
+      "Alignment, reveals, level, plumb, and fit",
+      "Finish container size",
+      "Tool colour",
+      "Glue smell"
+    ],
+    "answer": 0,
+    "explanation": "Final fastening locks panels in place. Alignment and fit must be correct first."
+  },
+  {
+    "id": 36,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A long crown moulding run has gaps at the ceiling. What should be considered?",
+    "options": [
+      "Ceiling variation and scribing",
+      "Drawer slide style",
+      "Glue colour",
+      "Cabinet back thickness"
+    ],
+    "answer": 0,
+    "explanation": "Ceilings may not be straight. Moulding may need adjustment or scribing."
+  },
+  {
+    "id": 37,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is the risk of installing millwork before site conditions are stable?",
+    "options": [
+      "Movement, gaps, or finish problems",
+      "Better fitting",
+      "Stronger fastening",
+      "Less acclimatization need"
+    ],
+    "answer": 0,
+    "explanation": "Temperature and humidity affect wood products. Unstable conditions can cause movement after installation."
+  },
+  {
+    "id": 38,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should installation labels be maintained until parts are installed?",
+    "options": [
+      "To prevent wrong location or orientation",
+      "To hide defects",
+      "To avoid drawings",
+      "To make parts interchangeable"
+    ],
+    "answer": 0,
+    "explanation": "Custom millwork may be sequenced or fitted. Labels help preserve correct installation order."
+  },
+  {
+    "id": 39,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A moulding mitre opens after installation. What is a likely cause?",
+    "options": [
+      "Poor fit, movement, or inadequate fastening",
+      "Correct acclimatization",
+      "Perfect joint support",
+      "Good cutting accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Mitres require accurate cutting and stable installation. Movement can open the joint."
+  },
+  {
+    "id": 40,
+    "category": "Set 1 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why are reveals important in architectural millwork installation?",
+    "options": [
+      "They control the finished visual alignment",
+      "They replace structural fastening",
+      "They hide all mistakes",
+      "They remove the need for layout"
+    ],
+    "answer": 0,
+    "explanation": "Reveals create consistent shadow lines. Uneven reveals are very noticeable.  ---"
+  },
+  {
+    "id": 41,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "What should be done if a cabinet does not fit due to an unexpected pipe?",
+    "options": [
+      "Verify and coordinate modification before cutting",
+      "Cut a large hole immediately",
+      "Ignore the pipe",
+      "Remove cabinet sides"
+    ],
+    "answer": 0,
+    "explanation": "Services must not be altered or damaged without coordination. Modification should be controlled."
+  },
+  {
+    "id": 42,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "A countertop overhang exceeds support recommendations. What can happen?",
+    "options": [
+      "Sagging or cracking",
+      "Better strength",
+      "Less stress",
+      "Faster installation"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported overhangs can fail. Support must follow material and manufacturer requirements."
+  },
+  {
+    "id": 43,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "Why should installed cabinets be checked after countertops are placed?",
+    "options": [
+      "Countertop weight can affect alignment and drawer operation",
+      "Finish colour changes",
+      "Hinges become unnecessary",
+      "Screws loosen automatically"
+    ],
+    "answer": 0,
+    "explanation": "Added weight may shift or deflect cabinets. Doors and drawers should be rechecked."
+  },
+  {
+    "id": 44,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "What should be done if a wall cabinet feels secure but is not fastened to backing?",
+    "options": [
+      "Refasten into proper structural support",
+      "Leave it because it feels tight",
+      "Add caulking only",
+      "Use shorter screws"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets need secure anchoring. Temporary tightness does not prove load capacity."
+  },
+  {
+    "id": 45,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "Why should site work be cleaned before final handover?",
+    "options": [
+      "It shows completion and removes dust/debris from the product",
+      "It replaces inspection",
+      "It hides poor fit",
+      "It removes adjustment need"
+    ],
+    "answer": 0,
+    "explanation": "Clean work is part of professional installation. Dust or debris can also affect operation."
+  },
+  {
+    "id": 46,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "A cabinet installer notices doors rubbing after fastening cabinets together. What should be checked?",
+    "options": [
+      "Cabinet alignment and door adjustment",
+      "Finish smell",
+      "Wall paint brand",
+      "Screw colour"
+    ],
+    "answer": 0,
+    "explanation": "Fastening can shift cabinet alignment slightly. Door operation should be checked and adjusted."
+  },
+  {
+    "id": 47,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "Why should fasteners be selected according to substrate?",
+    "options": [
+      "Different wall materials require different holding methods",
+      "All walls hold the same",
+      "Fasteners affect stain colour",
+      "Substrate does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Studs, concrete, masonry, and drywall require different anchors or screws. Correct fastening ensures safety."
+  },
+  {
+    "id": 48,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "A scribed filler is cut too small. What is the likely result?",
+    "options": [
+      "Visible gap",
+      "Stronger fit",
+      "Better reveal",
+      "No issue"
+    ],
+    "answer": 0,
+    "explanation": "Over-cutting scribe material leaves gaps that are difficult to hide. Gradual trimming prevents this."
+  },
+  {
+    "id": 49,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "What should be checked when installing cabinets on uneven floors?",
+    "options": [
+      "Level line and shim support",
+      "Finish sheen",
+      "Door pull colour",
+      "Glue bottle label"
+    ],
+    "answer": 0,
+    "explanation": "Uneven floors require a level reference and shimming. This keeps cabinet runs aligned."
+  },
+  {
+    "id": 50,
+    "category": "Set 1 - Mixed On-Site Installation Review",
+    "question": "What is the final purpose of on-site adjustment?",
+    "options": [
+      "To ensure fit, function, and appearance meet requirements",
+      "To hide all mistakes",
+      "To replace fabrication accuracy",
+      "To avoid inspection"
+    ],
+    "answer": 0,
+    "explanation": "Final adjustments complete the installation. Doors, drawers, reveals, and fit should meet expected quality."
+  },
+  {
+    "id": 51,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A cabinet installer arrives on site and discovers the wall bows inward behind a tall filler panel. What should be done?",
+    "options": [
+      "Scribe and trim the filler to match the wall",
+      "Force the panel tight to the wall",
+      "Leave a large visible gap",
+      "Remove cabinet fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Walls are often uneven. Scribing transfers the wall shape to the filler for a cleaner fit."
+  },
+  {
+    "id": 52,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A finished end panel must be trimmed on site near a visible edge. What is the best practice?",
+    "options": [
+      "Use a sharp blade and protect the finished face",
+      "Use a dull blade to avoid overcutting",
+      "Cut freehand quickly",
+      "Remove all protective covering first"
+    ],
+    "answer": 0,
+    "explanation": "Finished panels chip easily. Sharp tools and surface protection help maintain appearance quality."
+  },
+  {
+    "id": 53,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "While cutting a sink opening, the installer notices plumbing directly below the cut area. What should happen next?",
+    "options": [
+      "Stop and verify clearance before continuing",
+      "Continue cutting slowly",
+      "Cut a larger opening",
+      "Ignore the obstruction"
+    ],
+    "answer": 0,
+    "explanation": "Plumbing or services may be damaged if locations are not confirmed. The opening must be coordinated first."
+  },
+  {
+    "id": 54,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A scribed filler fits the wall tightly but twists the cabinet run out of alignment. What caused the problem?",
+    "options": [
+      "The filler was forcing cabinet movement",
+      "The wall became straighter",
+      "The countertop shrank",
+      "The cabinets are too level"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets must remain level and aligned. Scribing should fit the wall without distorting the cabinet position."
+  },
+  {
+    "id": 55,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A worker cuts laminate countertop material too aggressively and chips the visible edge. What likely caused this?",
+    "options": [
+      "Incorrect blade or poor cutting support",
+      "Too much shimming",
+      "Excess cabinet fastening",
+      "Over-tightened hinges"
+    ],
+    "answer": 0,
+    "explanation": "Laminate requires sharp tooling and proper support. Incorrect cutting methods cause chip-out."
+  },
+  {
+    "id": 56,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A finished cabinet side gets scratched during a site modification. What should have been done first?",
+    "options": [
+      "Protect the surface before working",
+      "Remove all masking immediately",
+      "Cut without layout marks",
+      "Work faster"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions can easily damage finished surfaces. Protective covering helps prevent scratches and dents."
+  },
+  {
+    "id": 57,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A filler strip was over-scribed and now has a visible gap. What is the main cause?",
+    "options": [
+      "Too much material was removed",
+      "The wall straightened overnight",
+      "The cabinet shrank suddenly",
+      "The floor became level"
+    ],
+    "answer": 0,
+    "explanation": "Scribing requires gradual trimming. Overcutting creates gaps that are difficult to repair."
+  },
+  {
+    "id": 58,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "An installer cuts an access hole that weakens the cabinet side significantly. What should be done?",
+    "options": [
+      "Reinforce the affected area if required",
+      "Ignore it because the hole fits",
+      "Remove more material",
+      "Leave unsupported"
+    ],
+    "answer": 0,
+    "explanation": "Large cutouts can weaken cabinet structure. Reinforcement may be needed to maintain strength."
+  },
+  {
+    "id": 59,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A cabinet modification exposes raw particleboard edges near a sink. What should be done?",
+    "options": [
+      "Seal or protect exposed edges from moisture",
+      "Leave them exposed",
+      "Sand them rougher",
+      "Drill more holes nearby"
+    ],
+    "answer": 0,
+    "explanation": "Exposed particleboard absorbs moisture easily. Sealing helps prevent swelling and damage."
+  },
+  {
+    "id": 60,
+    "category": "Set 2 - Task 16. Modifies Products to Site Conditions",
+    "question": "A site measurement differs from the approved shop drawing by 12 mm. What should the installer do?",
+    "options": [
+      "Verify and resolve before modifying cabinets",
+      "Ignore the measurement difference",
+      "Force the cabinet to fit",
+      "Trim random parts"
+    ],
+    "answer": 0,
+    "explanation": "Field conditions sometimes differ from drawings. Changes should be confirmed before cutting finished products.  ---"
+  },
+  {
+    "id": 61,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "Base cabinets are installed on an uneven floor and countertop seams later separate. What likely caused this?",
+    "options": [
+      "Cabinets were not level and properly shimmed",
+      "Hinges were adjusted incorrectly",
+      "Finish was too glossy",
+      "Drawer slides were loose"
+    ],
+    "answer": 0,
+    "explanation": "Countertops require flat support. Uneven cabinet runs can stress seams and joints."
+  },
+  {
+    "id": 62,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A wall cabinet pulls away slightly after loading dishes inside. What installation issue likely occurred?",
+    "options": [
+      "Improper fastening into structural backing",
+      "The shelves were too clean",
+      "The countertop was too level",
+      "The doors were adjusted"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets must be anchored securely into studs or blocking. Drywall alone is not adequate support."
+  },
+  {
+    "id": 63,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "During installation, doors on a cabinet run no longer align evenly. What should be checked first?",
+    "options": [
+      "Cabinet level, plumb, and fastening alignment",
+      "Finish sheen",
+      "Wall paint colour",
+      "Shelf-pin size"
+    ],
+    "answer": 0,
+    "explanation": "Cabinet alignment affects door reveals. Level and plumb should be verified before door adjustment."
+  },
+  {
+    "id": 64,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "An installer joins cabinets together before levelling them individually. What problem may occur?",
+    "options": [
+      "The entire run may remain twisted or uneven",
+      "The cabinets become stronger automatically",
+      "Countertops self-level",
+      "Drawer slides adjust themselves"
+    ],
+    "answer": 0,
+    "explanation": "Each cabinet should first be positioned correctly. Connecting misaligned cabinets transfers the problem through the run."
+  },
+  {
+    "id": 65,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A sink cutout is positioned too close to the front rail of the cabinet. What risk is created?",
+    "options": [
+      "Weakening support around the opening",
+      "Stronger countertop support",
+      "Easier faucet installation",
+      "Better seam alignment"
+    ],
+    "answer": 0,
+    "explanation": "Cutouts require enough remaining material for strength. Poor placement can weaken the cabinet or countertop."
+  },
+  {
+    "id": 66,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A tall pantry cabinet leans forward slightly after installation. What should be corrected?",
+    "options": [
+      "Plumb alignment and anchoring",
+      "Shelf spacing",
+      "Finish cure time",
+      "Drawer hardware"
+    ],
+    "answer": 0,
+    "explanation": "Tall cabinets must be safely anchored and plumb. Leaning cabinets affect appearance and safety."
+  },
+  {
+    "id": 67,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "An installer forces cabinets tightly against a crooked wall without shims. What may result?",
+    "options": [
+      "Cabinet twisting and reveal problems",
+      "Better alignment automatically",
+      "Stronger countertops",
+      "Improved drawer action"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets should remain straight while gaps are handled with fillers or scribing. Forcing cabinets causes distortion."
+  },
+  {
+    "id": 68,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "After countertop installation, drawers rub against the countertop underside. What likely changed?",
+    "options": [
+      "Cabinet alignment or support shifted under load",
+      "The finish became thicker",
+      "Drawer slides expanded permanently",
+      "The wall became straighter"
+    ],
+    "answer": 0,
+    "explanation": "Added countertop weight can slightly shift cabinets. Drawer clearances should be rechecked afterward."
+  },
+  {
+    "id": 69,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "An installer uses short screws to secure wall cabinets into studs. What risk exists?",
+    "options": [
+      "Insufficient holding strength",
+      "Better cabinet flexibility",
+      "Improved reveal adjustment",
+      "Faster hinge installation"
+    ],
+    "answer": 0,
+    "explanation": "Correct fastener length is important for load support. Short screws may fail under weight."
+  },
+  {
+    "id": 70,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A countertop seam appears flush at the front but open at the back. What should be checked?",
+    "options": [
+      "Cabinet level and countertop support",
+      "Finish sheen",
+      "Wall paint texture",
+      "Shelf spacing"
+    ],
+    "answer": 0,
+    "explanation": "Uneven support or twisting can affect seam alignment. The cabinet run should be checked first."
+  },
+  {
+    "id": 71,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A worker installs cabinets before flooring is complete. What issue may occur later?",
+    "options": [
+      "Appliance heights and toe-kick alignment may change",
+      "Countertops become lighter",
+      "Hinges self-adjust",
+      "Shelves expand permanently"
+    ],
+    "answer": 0,
+    "explanation": "Finished floor height affects cabinet and appliance relationships. Installation sequencing matters."
+  },
+  {
+    "id": 72,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A dishwasher opening is too narrow after installation. What likely caused the problem?",
+    "options": [
+      "Appliance clearance was not verified",
+      "Countertop colour changed",
+      "Cabinet doors were too level",
+      "Drawer pulls were oversized"
+    ],
+    "answer": 0,
+    "explanation": "Appliance dimensions and required clearances must be checked before fastening cabinets permanently."
+  },
+  {
+    "id": 73,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A cabinet run looks level, but countertop overhang varies noticeably. What should be checked?",
+    "options": [
+      "Cabinet alignment and positioning relative to the wall",
+      "Shelf-pin depth",
+      "Finish curing",
+      "Door style"
+    ],
+    "answer": 0,
+    "explanation": "Uneven positioning affects countertop overhang appearance. Alignment should be corrected before final fastening."
+  },
+  {
+    "id": 74,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "An installer fastens cabinets tightly before checking drawer operation. What problem may result?",
+    "options": [
+      "Misalignment may require rework afterward",
+      "Drawers automatically improve",
+      "Countertops self-adjust",
+      "Hinges become stronger"
+    ],
+    "answer": 0,
+    "explanation": "Operation should be checked during installation. Fastening can shift cabinet alignment."
+  },
+  {
+    "id": 75,
+    "category": "Set 2 - Task 17. Installs Cabinets and Countertops",
+    "question": "A cabinet installer notices the wall bows outward midway through a run. What is the best solution?",
+    "options": [
+      "Shim and maintain a straight cabinet line",
+      "Bend cabinets to follow the wall exactly",
+      "Remove cabinet backs",
+      "Cut all fillers oversized"
+    ],
+    "answer": 0,
+    "explanation": "Cabinet runs should stay visually straight. Uneven walls are corrected with shims and fillers.  ---"
+  },
+  {
+    "id": 76,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Crown moulding joints fit tightly on the bench but open after installation. What likely caused this?",
+    "options": [
+      "Uneven walls or ceilings affecting fit",
+      "Excess hinge adjustment",
+      "Too many drawer slides",
+      "Countertop movement"
+    ],
+    "answer": 0,
+    "explanation": "Site conditions often differ from shop conditions. Crown moulding must adapt to ceiling and wall variation."
+  },
+  {
+    "id": 77,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A wall panel reveal gradually widens across the room. What likely happened?",
+    "options": [
+      "Control lines were not maintained",
+      "Panels expanded instantly",
+      "Fasteners were too short",
+      "Finish colour changed"
+    ],
+    "answer": 0,
+    "explanation": "Consistent reveals depend on accurate reference lines. Small layout errors become visible over long runs."
+  },
+  {
+    "id": 78,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "An installer nails prefinished trim without protecting the hammer face. What defect may occur?",
+    "options": [
+      "Surface dents or finish damage",
+      "Stronger joints",
+      "Improved alignment",
+      "Better sheen"
+    ],
+    "answer": 0,
+    "explanation": "Finished trim is easily damaged during installation. Tools and handling must protect visible surfaces."
+  },
+  {
+    "id": 79,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A long panel installation starts square but finishes out of alignment. What should have been checked repeatedly?",
+    "options": [
+      "Level and control line reference",
+      "Shelf thickness",
+      "Finish viscosity",
+      "Drawer pull spacing"
+    ],
+    "answer": 0,
+    "explanation": "Long installations require continuous reference checks. Small errors compound over distance."
+  },
+  {
+    "id": 80,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "An installer forces a wall panel against an uneven surface until it bows. What issue may result?",
+    "options": [
+      "Distortion and visible reveal problems",
+      "Improved appearance",
+      "Stronger fastening",
+      "Better seam alignment"
+    ],
+    "answer": 0,
+    "explanation": "Panels should remain flat and aligned. Uneven surfaces should be handled with scribing or adjustment."
+  },
+  {
+    "id": 81,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A scarf joint in trim becomes highly visible after finishing touch-up. What likely caused this?",
+    "options": [
+      "Poor joint location or fit",
+      "Excess cabinet shimming",
+      "Countertop expansion",
+      "Incorrect drawer slides"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints should be planned in less visible areas and cut accurately. Poor joints remain noticeable after finishing."
+  },
+  {
+    "id": 82,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "An installer places fasteners too close to the edge of hardwood trim. What may happen?",
+    "options": [
+      "Splitting",
+      "Better holding power",
+      "Stronger finish adhesion",
+      "Reduced reveal"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners near edges can split hardwood mouldings. Proper placement and pilot holes reduce this risk."
+  },
+  {
+    "id": 83,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Wall panels fit correctly at installation but gaps appear weeks later. What may have caused this?",
+    "options": [
+      "Material movement from unstable site conditions",
+      "Improved wall alignment",
+      "Excess sanding",
+      "Stronger fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Millwork can move with humidity changes. Installation should occur in stable environmental conditions."
+  },
+  {
+    "id": 84,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A worker removes identification labels before installation. What issue may occur?",
+    "options": [
+      "Panels may be installed in the wrong sequence or location",
+      "Fasteners become weaker",
+      "Finish cures slower",
+      "Countertops shift"
+    ],
+    "answer": 0,
+    "explanation": "Custom millwork often depends on sequence and orientation. Labels prevent installation errors."
+  },
+  {
+    "id": 85,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A wall panel corner joint looks tight at the top but open at the bottom. What should be checked?",
+    "options": [
+      "Plumb alignment and floor level",
+      "Finish sheen",
+      "Shelf-pin depth",
+      "Cabinet colour"
+    ],
+    "answer": 0,
+    "explanation": "Uneven floors or out-of-plumb installation affect corner joints. Alignment should be verified first."
+  },
+  {
+    "id": 86,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "An installer nails trim directly through a visible finished face unnecessarily. What quality issue may result?",
+    "options": [
+      "Visible repairs and reduced appearance quality",
+      "Stronger reveal alignment",
+      "Improved stain absorption",
+      "Better acclimatization"
+    ],
+    "answer": 0,
+    "explanation": "Visible fastening should be minimized whenever possible. Repair work is often noticeable."
+  },
+  {
+    "id": 87,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A large wall panel scratches while being lifted into place. What should have been done?",
+    "options": [
+      "Use proper handling protection and support",
+      "Remove all packaging early",
+      "Slide the panel across the floor",
+      "Carry it by one corner only"
+    ],
+    "answer": 0,
+    "explanation": "Large finished panels are easily damaged during handling. Protective methods reduce risk."
+  },
+  {
+    "id": 88,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A moulding joint closes tightly before fastening but opens afterward. What likely happened?",
+    "options": [
+      "Fastening shifted the joint alignment",
+      "The trim expanded instantly",
+      "The finish cured too quickly",
+      "The wall became level"
+    ],
+    "answer": 0,
+    "explanation": "Fastening pressure can move trim during installation. Alignment should be maintained while securing the joint."
+  },
+  {
+    "id": 89,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A panel reveal is correct at eye level but uneven near the floor. What should be checked?",
+    "options": [
+      "Floor level and panel positioning",
+      "Finish smell",
+      "Shelf spacing",
+      "Screw colour"
+    ],
+    "answer": 0,
+    "explanation": "Uneven floors affect reveal appearance. Installation should compensate for floor variation."
+  },
+  {
+    "id": 90,
+    "category": "Set 2 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A site-installed panel vibrates or flexes when touched. What may be missing?",
+    "options": [
+      "Adequate fastening or backing support",
+      "Additional finish",
+      "Larger reveals",
+      "Countertop support"
+    ],
+    "answer": 0,
+    "explanation": "Panels must be securely fastened and supported. Loose installation affects quality and durability.  ---"
+  },
+  {
+    "id": 91,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A cabinet installer discovers a floor drops 18 mm across the kitchen. What should be done first?",
+    "options": [
+      "Establish a level reference line",
+      "Cut toe kicks randomly",
+      "Fasten all cabinets immediately",
+      "Adjust doors first"
+    ],
+    "answer": 0,
+    "explanation": "A level reference line guides cabinet height and shimming. It ensures consistent installation."
+  },
+  {
+    "id": 92,
+    "category": "Set 2 - Mixed  Review",
+    "question": "An installer notices countertop seams shifting while tightening connectors. What should be checked?",
+    "options": [
+      "Cabinet support and seam alignment pressure",
+      "Finish sheen",
+      "Wall paint",
+      "Drawer labels"
+    ],
+    "answer": 0,
+    "explanation": "Uneven support or over-tightening can pull seams out of alignment. The countertop should remain properly supported."
+  },
+  {
+    "id": 93,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A cabinet run is perfectly level but visually appears crooked against the wall. What principle applies?",
+    "options": [
+      "Visual alignment may require balancing wall variation",
+      "Cabinets should follow every wall defect exactly",
+      "Countertops will hide all problems",
+      "Plumb does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Installers sometimes balance visual appearance against irregular site conditions. Straight runs are usually preferred visually."
+  },
+  {
+    "id": 94,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A worker drills through a hidden wire while modifying a cabinet. What should have happened first?",
+    "options": [
+      "Services should have been located and verified",
+      "The cabinet should have been painted",
+      "Hinges should have been adjusted",
+      "More shims should have been added"
+    ],
+    "answer": 0,
+    "explanation": "Hidden electrical or plumbing services must be identified before cutting or drilling."
+  },
+  {
+    "id": 95,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A countertop overhang varies because cabinets were not aligned consistently. What should have been checked during installation?",
+    "options": [
+      "Cabinet positioning relative to the reference line",
+      "Finish sample",
+      "Shelf colour",
+      "Drawer pull style"
+    ],
+    "answer": 0,
+    "explanation": "Cabinet alignment directly affects countertop appearance. Consistent reference layout is important."
+  },
+  {
+    "id": 96,
+    "category": "Set 2 - Mixed  Review",
+    "question": "An installer notices a cabinet side bow after fastening to an uneven wall. What caused this?",
+    "options": [
+      "The cabinet was forced to match the wall",
+      "The hinges were over-adjusted",
+      "The countertop was too thick",
+      "The finish cured unevenly"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets should remain straight and square. Uneven walls should be corrected with fillers or shims."
+  },
+  {
+    "id": 97,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A moulding run appears straight, but mitres open slightly after a few days. What is a possible cause?",
+    "options": [
+      "Material movement or unstable site conditions",
+      "Excess countertop support",
+      "Correct acclimatization",
+      "Stronger fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Wood movement after installation can open joints. Stable environmental conditions reduce movement."
+  },
+  {
+    "id": 98,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A worker installs panels before the building HVAC system is operating. What risk exists?",
+    "options": [
+      "Future movement or finish issues",
+      "Better panel stability",
+      "Stronger adhesive bond",
+      "Easier scribing"
+    ],
+    "answer": 0,
+    "explanation": "Humidity and temperature may not yet be controlled. Millwork should acclimatize under stable conditions."
+  },
+  {
+    "id": 99,
+    "category": "Set 2 - Mixed  Review",
+    "question": "An installer uses random shims stacked loosely under cabinets. What problem may occur?",
+    "options": [
+      "Instability and cabinet movement",
+      "Better countertop support",
+      "Easier door adjustment",
+      "Reduced installation time"
+    ],
+    "answer": 0,
+    "explanation": "Shims must provide stable support. Loose or uneven shimming affects long-term alignment."
+  },
+  {
+    "id": 100,
+    "category": "Set 2 - Mixed  Review",
+    "question": "A cabinet installation looks correct visually, but doors and drawers bind during operation. What should be checked?",
+    "options": [
+      "Cabinet square, level, and plumb alignment",
+      "Finish smell",
+      "Wall colour",
+      "Shelf depth only"
+    ],
+    "answer": 0,
+    "explanation": "Functional checks are as important as appearance. Misalignment affects hardware operation and reveals."
+  },
+  {
+    "id": 101,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "Before cutting a finished cabinet for plumbing access, what is the best first step?",
+    "options": [
+      "Verify exact pipe location",
+      "Cut a large opening",
+      "Remove cabinet doors only",
+      "Sand the finished surface"
+    ],
+    "answer": 0,
+    "explanation": "Hidden services must be located before cutting. This prevents damage to plumbing, wiring, or finished cabinet parts."
+  },
+  {
+    "id": 102,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "A scribe filler has a tight wall fit but uneven cabinet reveal. What should be corrected?",
+    "options": [
+      "Balance scribe fit with reveal alignment",
+      "Add more caulking only",
+      "Force the cabinet sideways",
+      "Cut the filler shorter"
+    ],
+    "answer": 0,
+    "explanation": "Scribing must create a clean wall fit without ruining visual lines. Reveals and cabinet alignment still need to remain correct."
+  },
+  {
+    "id": 103,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "What is the main risk of using a dull blade for site cuts on finished panels?",
+    "options": [
+      "Chipping and rough edges",
+      "Better control",
+      "Less dust",
+      "Stronger cut edge"
+    ],
+    "answer": 0,
+    "explanation": "Dull blades tear fibres and chip finished surfaces. Sharp tooling gives cleaner site modifications."
+  },
+  {
+    "id": 104,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "A cabinet access cut exposes raw MDF near a wet area. What should be done?",
+    "options": [
+      "Seal the exposed edge",
+      "Leave it raw",
+      "Sand it rougher",
+      "Cut it larger"
+    ],
+    "answer": 0,
+    "explanation": "MDF absorbs moisture easily. Exposed edges near water should be sealed to prevent swelling."
+  },
+  {
+    "id": 105,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "A filler strip is cut too small during scribing. What is the likely result?",
+    "options": [
+      "Visible gap",
+      "Stronger fit",
+      "Better cabinet alignment",
+      "Easier fastening"
+    ],
+    "answer": 0,
+    "explanation": "Once too much material is removed, it is difficult to correct. Scribe cuts should be gradual and controlled."
+  },
+  {
+    "id": 106,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "What should be used to reduce chip-out when cutting laminate on site?",
+    "options": [
+      "Tape, sharp blade, and backing support",
+      "Dull blade and high force",
+      "No support",
+      "Random cutting direction"
+    ],
+    "answer": 0,
+    "explanation": "Laminate chips easily during site cutting. Tape and support help protect the finished face."
+  },
+  {
+    "id": 107,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "A cabinet side is weakened by a large access opening. What may be required?",
+    "options": [
+      "Reinforcement around the opening",
+      "More sanding only",
+      "Larger opening",
+      "Removing all fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Large cutouts reduce structural strength. Reinforcement may be needed to maintain cabinet integrity."
+  },
+  {
+    "id": 108,
+    "category": "Set 3 - Task 16. Modifies Products to Site Conditions",
+    "question": "An installer discovers wiring behind a panel where a hole must be cut. What should happen?",
+    "options": [
+      "Stop and coordinate before cutting",
+      "Cut carefully around it without telling anyone",
+      "Push the wire aside",
+      "Cut a bigger hole"
+    ],
+    "answer": 0,
+    "explanation": "Hidden wiring is a safety hazard. The installer should stop and confirm a safe approved method.  ---"
+  },
+  {
+    "id": 109,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is the purpose of establishing a level line before installing base cabinets?",
+    "options": [
+      "To create a consistent installation reference",
+      "To replace shims",
+      "To hide uneven floors",
+      "To avoid measuring cabinet height"
+    ],
+    "answer": 0,
+    "explanation": "Floors may not be level. A level reference line helps cabinets align correctly across the run."
+  },
+  {
+    "id": 110,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A base cabinet is level at the front but unsupported at the back. What is the risk?",
+    "options": [
+      "Cabinet distortion and countertop support problems",
+      "Better drawer operation",
+      "Stronger cabinet base",
+      "Improved hinge adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets need full stable support. Unsupported areas can twist or sag under load."
+  },
+  {
+    "id": 111,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should be checked before fastening wall cabinets?",
+    "options": [
+      "Stud or backing location",
+      "Door pull colour",
+      "Finish smell",
+      "Shelf-pin size"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets must be fastened into structural support. Drywall alone does not provide safe holding strength."
+  },
+  {
+    "id": 112,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A wall cabinet is level but not plumb. What problem can occur?",
+    "options": [
+      "Doors may swing or gaps may be uneven",
+      "Countertop seam improves",
+      "Shelves become stronger",
+      "Finish dries faster"
+    ],
+    "answer": 0,
+    "explanation": "Plumb affects door movement and reveal consistency. Level alone is not enough."
+  },
+  {
+    "id": 113,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "Cabinets are fastened tightly to a bowed wall. What is the likely result?",
+    "options": [
+      "Cabinet case distortion",
+      "Better alignment",
+      "Stronger drawers",
+      "Improved countertop seams"
+    ],
+    "answer": 0,
+    "explanation": "Forcing cabinets to match a bowed wall can twist the cases. Shims and fillers should maintain a straight cabinet line."
+  },
+  {
+    "id": 114,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should cabinets be clamped together before fastening to each other?",
+    "options": [
+      "To align faces and edges",
+      "To replace wall fastening",
+      "To avoid levelling",
+      "To hide poor scribing"
+    ],
+    "answer": 0,
+    "explanation": "Clamping holds cabinet faces flush while screws are installed. This creates a straight, clean run."
+  },
+  {
+    "id": 115,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A countertop seam is tight during dry fit but opens when fastened. What should be checked?",
+    "options": [
+      "Cabinet support and levelness",
+      "Drawer pull location",
+      "Wall paint colour",
+      "Finish compatibility"
+    ],
+    "answer": 0,
+    "explanation": "Countertop seams depend on stable support. Uneven or unsupported cabinets can pull seams open."
+  },
+  {
+    "id": 116,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is the risk of installing cabinets before confirming appliance dimensions?",
+    "options": [
+      "Appliance may not fit",
+      "Doors become stronger",
+      "Countertop overhang improves",
+      "Finish cures faster"
+    ],
+    "answer": 0,
+    "explanation": "Appliances require exact openings and clearances. These must be confirmed before final fastening."
+  },
+  {
+    "id": 117,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A tall cabinet is plumb side-to-side but leans forward. What should be corrected?",
+    "options": [
+      "Front-to-back plumb and anchoring",
+      "Door pull size",
+      "Shelf colour",
+      "Glue type"
+    ],
+    "answer": 0,
+    "explanation": "Tall cabinets must be plumb in both directions. They also need secure anchoring for safety."
+  },
+  {
+    "id": 118,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A drawer works before installation but binds after the cabinet is fastened. What should be checked?",
+    "options": [
+      "Cabinet square and slide alignment",
+      "Finish sheen",
+      "Shelf material species",
+      "Handle style"
+    ],
+    "answer": 0,
+    "explanation": "Fastening can twist a cabinet if it is not shimmed correctly. Drawer operation depends on square, parallel openings."
+  },
+  {
+    "id": 119,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should countertop overhang be checked during installation?",
+    "options": [
+      "To ensure appearance and support requirements",
+      "To change cabinet height",
+      "To avoid seams",
+      "To replace fastening"
+    ],
+    "answer": 0,
+    "explanation": "Overhang affects appearance and strength. Excessive overhang may require support brackets."
+  },
+  {
+    "id": 120,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A sink cutout is made without checking the cabinet below. What problem may occur?",
+    "options": [
+      "Cutout may interfere with rails or supports",
+      "Finish becomes stronger",
+      "Doors self-adjust",
+      "Drawers become smoother"
+    ],
+    "answer": 0,
+    "explanation": "Sink openings must clear the cabinet structure and plumbing. Templates and cabinet layout should be checked first."
+  },
+  {
+    "id": 121,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A cabinet installer uses shims only at the front of base cabinets. What is missing?",
+    "options": [
+      "Full support under load-bearing areas",
+      "Finish touch-up",
+      "Door adjustment only",
+      "Extra caulking"
+    ],
+    "answer": 0,
+    "explanation": "Base cabinets need stable support at front and back. Incomplete shimming can cause twisting or sagging."
+  },
+  {
+    "id": 122,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "Wall cabinets are installed at the correct height but not aligned with each other. What should have been used?",
+    "options": [
+      "Layout/control line and clamping",
+      "More caulking",
+      "Shorter screws",
+      "Dull drill bit"
+    ],
+    "answer": 0,
+    "explanation": "Control lines maintain height and alignment. Clamping cabinets together helps keep faces flush."
+  },
+  {
+    "id": 123,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "A cabinet run is level, but the doors show uneven reveals after installation. What should be checked?",
+    "options": [
+      "Cabinet square, plumb, and hinge adjustment",
+      "Finish colour",
+      "Floor tile pattern",
+      "Shelf thickness only"
+    ],
+    "answer": 0,
+    "explanation": "Reveals depend on cabinet geometry and hinge setup. Installation alignment must be correct before final adjustment."
+  },
+  {
+    "id": 124,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should final cabinet operation be checked after installation?",
+    "options": [
+      "Site fastening can affect doors and drawers",
+      "Finish colour changes operation",
+      "Hardware becomes unnecessary",
+      "Countertops self-adjust"
+    ],
+    "answer": 0,
+    "explanation": "Installation can shift or twist cabinets. Doors, drawers, and hardware should be tested before handover."
+  },
+  {
+    "id": 125,
+    "category": "Set 3 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is the best final step before customer handover?",
+    "options": [
+      "Clean, inspect, adjust, and verify function",
+      "Remove all labels and leave dust",
+      "Skip door adjustment",
+      "Hide minor defects"
+    ],
+    "answer": 0,
+    "explanation": "Professional handover requires clean, functional, inspected work. Final adjustment reduces callbacks.  ---"
+  },
+  {
+    "id": 126,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should wall panel installation begin from a control line?",
+    "options": [
+      "To prevent cumulative alignment errors",
+      "To replace fasteners",
+      "To avoid checking plumb",
+      "To hide damaged panels"
+    ],
+    "answer": 0,
+    "explanation": "Control lines keep reveals and panel positions consistent. Without them, errors drift across the wall."
+  },
+  {
+    "id": 127,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A moulding mitre fits in the shop but opens on site. What is likely?",
+    "options": [
+      "Wall angle or site condition differs",
+      "Finish is too thin",
+      "Fasteners are too clean",
+      "Shelf spacing is wrong"
+    ],
+    "answer": 0,
+    "explanation": "Site walls may not be square or straight. Mitres often need fitting to actual site conditions."
+  },
+  {
+    "id": 128,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be checked before installing prefinished wall panels?",
+    "options": [
+      "Sequence, orientation, and protection",
+      "Glue bottle colour",
+      "Drawer slide rating",
+      "Table saw fence"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished panels can be damaged or installed out of order. Sequence and protection are critical."
+  },
+  {
+    "id": 129,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A long trim run has a gap at the wall. What should be considered?",
+    "options": [
+      "Scribing or wall irregularity",
+      "More hinge adjustment",
+      "Shorter nails only",
+      "Finish thinner"
+    ],
+    "answer": 0,
+    "explanation": "Walls are often uneven. Trim may need scribing or careful fastening to reduce visible gaps."
+  },
+  {
+    "id": 130,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should trim pieces be acclimatized before installation?",
+    "options": [
+      "To reduce movement after installation",
+      "To make fasteners shorter",
+      "To remove finish",
+      "To change profile shape"
+    ],
+    "answer": 0,
+    "explanation": "Wood trim moves with humidity changes. Acclimatization helps reduce open joints later."
+  },
+  {
+    "id": 131,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A prefinished moulding splits near the end while nailing. What should be done?",
+    "options": [
+      "Predrill or adjust fastener placement",
+      "Use larger nails",
+      "Nail closer to the end",
+      "Ignore the split"
+    ],
+    "answer": 0,
+    "explanation": "Hardwood and thin trim can split near ends. Pilot holes and correct fastener placement reduce splitting."
+  },
+  {
+    "id": 132,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A wall panel reveal is narrow at the top and wide at the bottom. What should be checked?",
+    "options": [
+      "Plumb and level of panel and adjacent surfaces",
+      "Finish sheen",
+      "Shelf-pin depth",
+      "Door pull size"
+    ],
+    "answer": 0,
+    "explanation": "Reveal variation usually indicates alignment problems. Panels must be checked for plumb and level."
+  },
+  {
+    "id": 133,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A panel is forced against a wavy wall and its face distorts. What was ignored?",
+    "options": [
+      "Product must remain flat and true",
+      "Fasteners replace alignment",
+      "More force improves fit",
+      "Scribing is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Millwork should not be distorted to fit poor site conditions. Shimming or scribing should control the fit."
+  },
+  {
+    "id": 134,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is the purpose of using reveal spacers during panel installation?",
+    "options": [
+      "To maintain consistent gap widths",
+      "To replace layout",
+      "To force panels tight",
+      "To reduce fastener strength"
+    ],
+    "answer": 0,
+    "explanation": "Spacers help keep reveals even and repeatable. Consistent reveals improve finished appearance."
+  },
+  {
+    "id": 135,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A panel installer removes labels before checking the layout. What is the risk?",
+    "options": [
+      "Wrong panel sequence or orientation",
+      "Stronger fastening",
+      "Better finish protection",
+      "Easier alignment"
+    ],
+    "answer": 0,
+    "explanation": "Labels identify location and order. Removing them too early can cause installation errors."
+  },
+  {
+    "id": 136,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A wall panel joint is tight but not flush. What should be corrected?",
+    "options": [
+      "Panel alignment and backing support",
+      "Finish colour",
+      "Hinge screw type",
+      "Countertop overhang"
+    ],
+    "answer": 0,
+    "explanation": "Joints must be both tight and flush. Uneven backing or poor alignment can create steps."
+  },
+  {
+    "id": 137,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should moulding joint locations be planned?",
+    "options": [
+      "To reduce visible joints and improve appearance",
+      "To increase random cuts",
+      "To avoid fastening",
+      "To replace layout lines"
+    ],
+    "answer": 0,
+    "explanation": "Joint locations affect visual quality. Planning places joints in less noticeable or structurally better locations."
+  },
+  {
+    "id": 138,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A millwork panel is installed before the site HVAC is operating. What is the risk?",
+    "options": [
+      "Later movement or finish problems",
+      "Better acclimatization",
+      "Stronger joints",
+      "Less shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Unstable temperature and humidity can affect wood products. Proper site conditions are important."
+  },
+  {
+    "id": 139,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "A scarf joint opens after fastening. What should be checked?",
+    "options": [
+      "Joint fit, adhesive, fastener placement, and movement",
+      "Drawer alignment",
+      "Finish smell",
+      "Shelf depth"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints need accurate fit and stable fastening. Movement or poor joint support can open the seam."
+  },
+  {
+    "id": 140,
+    "category": "Set 3 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be done before final fastening of architectural panels?",
+    "options": [
+      "Check alignment, reveals, fit, and surface condition",
+      "Remove all spacers permanently first",
+      "Ignore wall condition",
+      "Apply extra caulking"
+    ],
+    "answer": 0,
+    "explanation": "Final fastening locks the panel in place. Fit and visual alignment must be correct first.  ---"
+  },
+  {
+    "id": 141,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A cabinet is level but not square after fastening. What is the likely problem?",
+    "options": [
+      "Uneven shimming or wall fastening distortion",
+      "Finish is too thick",
+      "Shelf pins are too short",
+      "Door pulls are heavy"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets can twist if shimmed or fastened unevenly. Level alone does not confirm square."
+  },
+  {
+    "id": 142,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A countertop seam keeps opening after adjustment. What should be checked?",
+    "options": [
+      "Substrate support and cabinet alignment",
+      "Door handle style",
+      "Finish sample colour",
+      "Shelf material"
+    ],
+    "answer": 0,
+    "explanation": "Repeated seam opening often means the support is unstable or uneven. The base must be corrected first."
+  },
+  {
+    "id": 143,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A wall cabinet is mounted securely, but screws missed the studs. What must be done?",
+    "options": [
+      "Refasten into proper backing",
+      "Leave it if it feels secure",
+      "Add caulk at the top",
+      "Remove shelves only"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets must be anchored into structural support. Feeling secure initially does not ensure load safety."
+  },
+  {
+    "id": 144,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A finished panel chips while being drilled for site hardware. What should have been used?",
+    "options": [
+      "Backing block, sharp bit, and controlled drilling",
+      "More force",
+      "Dull bit",
+      "No support"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces need backing and sharp tools. Controlled drilling prevents breakout."
+  },
+  {
+    "id": 145,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A cabinet installer ignores a small floor slope across a long run. What can happen?",
+    "options": [
+      "Cabinet heights and countertop alignment may drift",
+      "Doors become stronger",
+      "Drawers run smoother",
+      "Fillers disappear"
+    ],
+    "answer": 0,
+    "explanation": "Small slopes accumulate over long runs. A level reference line prevents drift."
+  },
+  {
+    "id": 146,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A moulding run is straight but appears uneven because the ceiling waves. What is the best approach?",
+    "options": [
+      "Plan scribe or visual adjustment",
+      "Force moulding to the ceiling everywhere",
+      "Leave large gaps randomly",
+      "Remove all fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Installation must balance straight lines with site irregularities. Scribing or planned adjustment improves appearance."
+  },
+  {
+    "id": 147,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A cabinet door rubs after final fastening but did not rub before. What should be checked first?",
+    "options": [
+      "Cabinet alignment after fastening",
+      "Door colour",
+      "Finish brand",
+      "Pull length"
+    ],
+    "answer": 0,
+    "explanation": "Fastening can shift a cabinet slightly. Alignment should be corrected before hardware adjustment."
+  },
+  {
+    "id": 148,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A site-installed filler is tight at the wall but uneven at the cabinet face. What is the issue?",
+    "options": [
+      "Poor scribe and reveal control",
+      "Better wall fit",
+      "Stronger fastening",
+      "Correct installation"
+    ],
+    "answer": 0,
+    "explanation": "Fillers must fit the wall and align with cabinet faces. Both fit and appearance matter."
+  },
+  {
+    "id": 149,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "A worker installs finished millwork without floor protection and damages the surface. What practice was missed?",
+    "options": [
+      "Site protection",
+      "More glue",
+      "Extra screws",
+      "Cabinet levelling"
+    ],
+    "answer": 0,
+    "explanation": "Finished millwork and surrounding floors need protection during installation. Site protection prevents damage claims."
+  },
+  {
+    "id": 150,
+    "category": "Set 3 - Mixed Real Exam Review",
+    "question": "What is the best indicator of a complete on-site installation?",
+    "options": [
+      "Product is secure, aligned, functional, clean, and inspected",
+      "Cabinets are only unpacked",
+      "Screws are hidden only",
+      "Tools are removed only"
+    ],
+    "answer": 0,
+    "explanation": "Completion includes safety, appearance, operation, and cleanup. A professional installation is checked before handover."
+  },
+  {
+    "id": 151,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "What does “scribe” mean in cabinet installation?",
+    "options": [
+      "Fitting a part to an uneven wall or floor",
+      "Painting a cabinet",
+      "Installing drawer slides",
+      "Cutting shelf holes"
+    ],
+    "answer": 0,
+    "explanation": "Scribing transfers the shape of an uneven surface onto a cabinet part. This helps create a tight, clean fit."
+  },
+  {
+    "id": 152,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "Why are access holes cut in cabinets on site?",
+    "options": [
+      "To allow pipes, wires, or services to pass through",
+      "To reduce cabinet strength intentionally",
+      "To make shelves decorative",
+      "To remove hinges"
+    ],
+    "answer": 0,
+    "explanation": "Access holes are often needed for plumbing, electrical, or ventilation. They must be planned carefully."
+  },
+  {
+    "id": 153,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "What should be checked before cutting into a cabinet on site?",
+    "options": [
+      "Hidden pipes, wires, and clearances",
+      "Door colour only",
+      "Handle style only",
+      "Wall paint brand"
+    ],
+    "answer": 0,
+    "explanation": "Hidden services can be damaged during cutting. Always verify before making site cuts."
+  },
+  {
+    "id": 154,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "Why should finished cabinet surfaces be protected during site work?",
+    "options": [
+      "To prevent scratches and chips",
+      "To make cutting harder",
+      "To hide layout mistakes",
+      "To reduce cabinet height"
+    ],
+    "answer": 0,
+    "explanation": "Finished surfaces are easily damaged. Protection keeps the product looking new."
+  },
+  {
+    "id": 155,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "What tool is commonly used to mark an uneven wall shape onto a filler?",
+    "options": [
+      "Compass or scribing tool",
+      "Spray gun",
+      "Nail set",
+      "Moisture meter only"
+    ],
+    "answer": 0,
+    "explanation": "A scribing tool transfers wall irregularities onto the filler. The filler is then trimmed to fit."
+  },
+  {
+    "id": 156,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "Why should scribe cuts be trimmed slowly?",
+    "options": [
+      "Too much removed material creates gaps",
+      "It changes the wall shape",
+      "It removes the need for fasteners",
+      "It makes cabinets heavier"
+    ],
+    "answer": 0,
+    "explanation": "You can always remove more material, but you cannot easily put it back. Gradual trimming improves fit."
+  },
+  {
+    "id": 157,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "What is the purpose of sealing a raw cut edge near water?",
+    "options": [
+      "To prevent swelling from moisture",
+      "To make the edge rougher",
+      "To weaken the cabinet",
+      "To change hinge movement"
+    ],
+    "answer": 0,
+    "explanation": "Raw MDF or particleboard absorbs water easily. Sealing helps prevent swelling and damage."
+  },
+  {
+    "id": 158,
+    "category": "Set 4 - Task 16. Modifies Products to Site Conditions",
+    "question": "What can happen if a large access hole is cut without support?",
+    "options": [
+      "The cabinet side may become weak",
+      "The cabinet becomes stronger",
+      "Doors adjust automatically",
+      "Countertop becomes lighter"
+    ],
+    "answer": 0,
+    "explanation": "Large cutouts remove material and reduce strength. Reinforcement may be needed.  ---"
+  },
+  {
+    "id": 159,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What does “level” mean in cabinet installation?",
+    "options": [
+      "Horizontal and even",
+      "Straight up and down",
+      "Same colour",
+      "Fully finished"
+    ],
+    "answer": 0,
+    "explanation": "Level means horizontal. Base cabinets and countertops must be level for proper function."
+  },
+  {
+    "id": 160,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What does “plumb” mean?",
+    "options": [
+      "Straight up and down",
+      "Flat on the floor",
+      "Same length",
+      "Covered with finish"
+    ],
+    "answer": 0,
+    "explanation": "Plumb means vertical. Wall and tall cabinets must be plumb for doors to work correctly."
+  },
+  {
+    "id": 161,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What does “square” mean?",
+    "options": [
+      "Corners are at 90 degrees",
+      "Surface is glossy",
+      "Cabinet is heavy",
+      "Doors are painted"
+    ],
+    "answer": 0,
+    "explanation": "Square means the corners are true 90-degree angles. Out-of-square cabinets cause alignment problems."
+  },
+  {
+    "id": 162,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why are shims used under cabinets?",
+    "options": [
+      "To level and support cabinets",
+      "To replace screws",
+      "To make cabinets crooked",
+      "To change door style"
+    ],
+    "answer": 0,
+    "explanation": "Floors are often uneven. Shims help support cabinets and keep them level."
+  },
+  {
+    "id": 163,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What should cabinets be fastened into for strong support?",
+    "options": [
+      "Studs or proper backing",
+      "Paint only",
+      "Caulking only",
+      "Wallpaper"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets need structural support. Drywall alone cannot safely hold loaded cabinets."
+  },
+  {
+    "id": 164,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should base cabinets be level before installing countertops?",
+    "options": [
+      "Countertops need flat and even support",
+      "Doors become darker",
+      "Handles install faster",
+      "Shelves become longer"
+    ],
+    "answer": 0,
+    "explanation": "Uneven cabinets can cause countertop seams to open or tops to crack. Level support is important."
+  },
+  {
+    "id": 165,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is a filler strip used for?",
+    "options": [
+      "To close gaps between cabinets and walls",
+      "To replace cabinet doors",
+      "To support hinges only",
+      "To paint shelves"
+    ],
+    "answer": 0,
+    "explanation": "Fillers finish spaces where cabinets meet walls or appliances. They improve appearance and fit."
+  },
+  {
+    "id": 166,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should wall cabinets be securely fastened?",
+    "options": [
+      "They carry weight when loaded",
+      "They are only decorative",
+      "They do not need support",
+      "They hang from doors"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets hold dishes and other heavy items. Poor fastening can cause failure."
+  },
+  {
+    "id": 167,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is checked after installing cabinet doors?",
+    "options": [
+      "Gaps, alignment, and smooth operation",
+      "Floor colour",
+      "Tool brand",
+      "Wall texture only"
+    ],
+    "answer": 0,
+    "explanation": "Doors must open and close properly. Reveals and alignment should be even."
+  },
+  {
+    "id": 168,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is checked after installing drawers?",
+    "options": [
+      "Smooth sliding and even front gaps",
+      "Cabinet smell",
+      "Wall paint brand",
+      "Countertop colour only"
+    ],
+    "answer": 0,
+    "explanation": "Drawers should move smoothly without rubbing. Front gaps should be consistent."
+  },
+  {
+    "id": 169,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should cabinets be clamped together before screwing them together?",
+    "options": [
+      "To keep faces flush and aligned",
+      "To make them heavier",
+      "To avoid levelling",
+      "To hide damage"
+    ],
+    "answer": 0,
+    "explanation": "Clamping holds cabinets in correct position. This helps make a straight, clean cabinet run."
+  },
+  {
+    "id": 170,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is a countertop overhang?",
+    "options": [
+      "The amount the top extends past the cabinet",
+      "The thickness of the drawer",
+      "The depth of a screw hole",
+      "The height of a wall cabinet"
+    ],
+    "answer": 0,
+    "explanation": "Overhang is the part of the countertop extending beyond the cabinet face or side. It must be even and supported."
+  },
+  {
+    "id": 171,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should appliance openings be measured before final fastening?",
+    "options": [
+      "To make sure appliances will fit",
+      "To choose finish colour",
+      "To reduce cabinet strength",
+      "To avoid installing doors"
+    ],
+    "answer": 0,
+    "explanation": "Appliances need correct width, height, depth, and clearance. Checking first prevents rework."
+  },
+  {
+    "id": 172,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is a datum or reference line used for during installation?",
+    "options": [
+      "To keep cabinets aligned at a consistent height",
+      "To paint walls",
+      "To sharpen tools",
+      "To hide gaps"
+    ],
+    "answer": 0,
+    "explanation": "A reference line gives a consistent installation guide. It is useful when floors are uneven."
+  },
+  {
+    "id": 173,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "Why should countertops be dry-fitted before final fastening?",
+    "options": [
+      "To check fit and seams before permanent installation",
+      "To make seams wider",
+      "To avoid support",
+      "To replace adhesive"
+    ],
+    "answer": 0,
+    "explanation": "Dry fitting allows corrections before the top is attached. It helps avoid permanent mistakes."
+  },
+  {
+    "id": 174,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What can happen if a cabinet is not plumb?",
+    "options": [
+      "Doors may swing open or close by themselves",
+      "Finish becomes stronger",
+      "Shelves become thicker",
+      "Countertop becomes shorter"
+    ],
+    "answer": 0,
+    "explanation": "Door movement is affected by cabinet alignment. Plumb cabinets help doors operate correctly."
+  },
+  {
+    "id": 175,
+    "category": "Set 4 - Task 17. Installs Cabinets and Countertops",
+    "question": "What is final adjustment in cabinet installation?",
+    "options": [
+      "Setting doors, drawers, gaps, and operation correctly",
+      "Cutting all parts smaller",
+      "Removing all screws",
+      "Painting the wall"
+    ],
+    "answer": 0,
+    "explanation": "Final adjustment ensures the finished installation looks and works properly. It reduces callbacks.  ---"
+  },
+  {
+    "id": 176,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is architectural millwork?",
+    "options": [
+      "Built-in woodwork such as panels, trim, and mouldings",
+      "Only rough framing lumber",
+      "Concrete forming only",
+      "Plumbing work"
+    ],
+    "answer": 0,
+    "explanation": "Architectural millwork includes custom interior woodwork. Examples include wall panels, reception desks, trim, and mouldings."
+  },
+  {
+    "id": 177,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is moulding used for?",
+    "options": [
+      "Decoration, transitions, and covering joints",
+      "Holding plumbing pipes",
+      "Replacing cabinet backs",
+      "Cutting countertops"
+    ],
+    "answer": 0,
+    "explanation": "Mouldings improve appearance and cover transitions. They are common at walls, ceilings, and cabinets."
+  },
+  {
+    "id": 178,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is a reveal?",
+    "options": [
+      "A consistent gap or shadow line between parts",
+      "A type of screw",
+      "A glue brush",
+      "A saw blade"
+    ],
+    "answer": 0,
+    "explanation": "Reveals are intentional gaps used for appearance. They should be even and consistent."
+  },
+  {
+    "id": 179,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why are control lines used for wall panels?",
+    "options": [
+      "To keep panels straight and aligned",
+      "To remove fasteners",
+      "To sand panels",
+      "To change panel thickness"
+    ],
+    "answer": 0,
+    "explanation": "Control lines guide installation. They help prevent uneven reveals and drifting layouts."
+  },
+  {
+    "id": 180,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What is a scarf joint?",
+    "options": [
+      "An angled joint used to join long trim pieces",
+      "A type of drawer slide",
+      "A cabinet hinge",
+      "A sanding defect"
+    ],
+    "answer": 0,
+    "explanation": "Scarf joints join moulding lengths with an angled cut. They look cleaner than simple butt joints."
+  },
+  {
+    "id": 181,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should moulding joints be tight?",
+    "options": [
+      "Open joints are visible and look poor",
+      "They reduce measuring",
+      "They improve wall movement",
+      "They hide dust"
+    ],
+    "answer": 0,
+    "explanation": "Mouldings are visible finish work. Poor joints reduce appearance quality."
+  },
+  {
+    "id": 182,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should prefinished trim be handled carefully?",
+    "options": [
+      "It can scratch, chip, or dent",
+      "It cannot be damaged",
+      "It becomes stronger when dropped",
+      "It does not need protection"
+    ],
+    "answer": 0,
+    "explanation": "Prefinished trim is already coated. Damage is harder to repair after installation."
+  },
+  {
+    "id": 183,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should wall panels be acclimatized before installation?",
+    "options": [
+      "To reduce movement after installation",
+      "To make them heavier",
+      "To remove the finish",
+      "To change the wall colour"
+    ],
+    "answer": 0,
+    "explanation": "Wood products adjust to site humidity and temperature. Acclimatization reduces gaps and warping."
+  },
+  {
+    "id": 184,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be checked before installing wall panels?",
+    "options": [
+      "Layout, sequence, plumb, level, and wall condition",
+      "Only tool colour",
+      "Only drawer slides",
+      "Only finish smell"
+    ],
+    "answer": 0,
+    "explanation": "Panel installation depends on layout and site conditions. Checking first prevents mistakes."
+  },
+  {
+    "id": 185,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should panel labels stay on until installation?",
+    "options": [
+      "To identify correct location and orientation",
+      "To hide scratches",
+      "To make panels stronger",
+      "To replace fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Custom panels may not be interchangeable. Labels prevent wrong placement."
+  },
+  {
+    "id": 186,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What can happen if moulding is nailed too close to the end?",
+    "options": [
+      "It may split",
+      "It becomes longer",
+      "It bends straighter",
+      "It improves finish"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners near the end can split trim. Pilot holes may be needed."
+  },
+  {
+    "id": 187,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What does “acclimatization” mean?",
+    "options": [
+      "Letting material adjust to site conditions",
+      "Painting material before cutting",
+      "Soaking wood in water",
+      "Removing all packaging forever"
+    ],
+    "answer": 0,
+    "explanation": "Wood changes with humidity and temperature. Acclimatization helps reduce later movement."
+  },
+  {
+    "id": 188,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why should millwork not be forced against uneven walls?",
+    "options": [
+      "It can bend or distort",
+      "It becomes stronger",
+      "Gaps disappear permanently",
+      "Fasteners improve finish"
+    ],
+    "answer": 0,
+    "explanation": "Forcing panels can cause bowing or reveal problems. Scribing and shimming are better methods."
+  },
+  {
+    "id": 189,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "What should be done before final fastening of wall panels?",
+    "options": [
+      "Check fit, alignment, reveals, and surface condition",
+      "Remove all supports randomly",
+      "Ignore gaps",
+      "Apply extra dust"
+    ],
+    "answer": 0,
+    "explanation": "Final fastening locks panels in place. Corrections are easier before fastening."
+  },
+  {
+    "id": 190,
+    "category": "Set 4 - Task 18. Installs Architectural Millwork Products and Mouldings",
+    "question": "Why is site cleanliness important after installation?",
+    "options": [
+      "It shows professional completion and prevents damage",
+      "It replaces inspection",
+      "It hides defects",
+      "It changes cabinet height"
+    ],
+    "answer": 0,
+    "explanation": "Clean installation shows quality workmanship. Dust and debris can damage or interfere with moving parts.  ---"
+  },
+  {
+    "id": 191,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What is the main goal of on-site installation?",
+    "options": [
+      "Secure, aligned, functional, finished work",
+      "Fast cutting only",
+      "Hiding all mistakes",
+      "Avoiding measurements"
+    ],
+    "answer": 0,
+    "explanation": "Installation must meet function, safety, and appearance requirements. Final fit matters."
+  },
+  {
+    "id": 192,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "Why are shims cut flush after installation?",
+    "options": [
+      "To keep the installation neat and avoid interference",
+      "To weaken cabinets",
+      "To remove support",
+      "To change cabinet colour"
+    ],
+    "answer": 0,
+    "explanation": "Shims support cabinets but should not stick out. Flush trimming improves appearance and function."
+  },
+  {
+    "id": 193,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What is caulking used for in small finished gaps?",
+    "options": [
+      "To seal and improve appearance",
+      "To hold wall cabinets structurally",
+      "To replace screws",
+      "To level cabinets"
+    ],
+    "answer": 0,
+    "explanation": "Caulking is used for small gaps only. It should not hide major fitting errors."
+  },
+  {
+    "id": 194,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "Why should doors and drawers be tested after installation?",
+    "options": [
+      "To confirm proper operation",
+      "To choose wall paint",
+      "To remove hinges",
+      "To check shop temperature"
+    ],
+    "answer": 0,
+    "explanation": "Installation can affect alignment. Testing ensures the product works correctly."
+  },
+  {
+    "id": 195,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What is the purpose of final inspection?",
+    "options": [
+      "To find defects before handover",
+      "To avoid cleaning",
+      "To remove all labels only",
+      "To hide damage"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection checks appearance, function, and safety. It helps prevent callbacks."
+  },
+  {
+    "id": 196,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What can happen if cabinets are installed without proper support?",
+    "options": [
+      "They may sag, twist, or fail",
+      "They become stronger",
+      "Drawers work better",
+      "Countertops level themselves"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets need proper support from floors, walls, and fasteners. Poor support causes movement and failure."
+  },
+  {
+    "id": 197,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What is the purpose of using the correct fastener for the wall type?",
+    "options": [
+      "To ensure secure attachment",
+      "To change wood grain",
+      "To reduce cabinet quality",
+      "To avoid layout"
+    ],
+    "answer": 0,
+    "explanation": "Different wall materials require different fasteners or anchors. Correct fastening prevents failure."
+  },
+  {
+    "id": 198,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "Why should installation drawings be reviewed on site?",
+    "options": [
+      "To confirm locations, dimensions, and details",
+      "To replace tools",
+      "To avoid measuring",
+      "To change finish colour"
+    ],
+    "answer": 0,
+    "explanation": "Drawings guide site installation. They help confirm cabinet positions and details."
+  },
+  {
+    "id": 199,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "What should be done if a finished part is damaged during installation?",
+    "options": [
+      "Report and repair or replace as required",
+      "Hide it from the client",
+      "Ignore it",
+      "Cover it with dust"
+    ],
+    "answer": 0,
+    "explanation": "Damage affects final quality. It should be addressed before handover."
+  },
+  {
+    "id": 200,
+    "category": "Set 4 - Basic Mixed Review",
+    "question": "Why is professional cleanup important after installation?",
+    "options": [
+      "It completes the job and shows workmanship quality",
+      "It replaces adjustment",
+      "It hides poor alignment",
+      "It removes need for inspection"
+    ],
+    "answer": 0,
+    "explanation": "Cleanup leaves the site ready for use. It is part of professional trade practice."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCabinetmakerOnsiteAssemblyInstallationQuestions =
+  shuffleArray(cabinetmakerOnsiteAssemblyInstallationQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "cabinetmaker",
+  tradeTitle: "Cabinetmaker",
+  sectionTitle: "G. Performs On-site Assembly and Installation",
+  questionTimeSeconds: 90,
+  questions: shuffledCabinetmakerOnsiteAssemblyInstallationQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCabinetmakerOnsiteAssemblyInstallationQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

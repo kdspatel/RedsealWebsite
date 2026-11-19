@@ -1,0 +1,2696 @@
+const painterDecoratorSectionCQuestions = [
+  {
+    "id": 1,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Before painting a bedroom wall, what should be done first?",
+    "options": [
+      "Apply finish coat immediately",
+      "Inspect and prepare the surface",
+      "Add water to the paint",
+      "Remove all light fixtures only"
+    ],
+    "answer": 1,
+    "explanation": "Surface condition must be checked before painting. Dirt, holes, cracks, or loose paint can cause poor results. Good preparation is the base of a good finish."
+  },
+  {
+    "id": 2,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why is primer used on new drywall?",
+    "options": [
+      "To make the wall glossy",
+      "To seal the surface and control porosity",
+      "To make paint dry slower",
+      "To remove sanding marks automatically"
+    ],
+    "answer": 1,
+    "explanation": "New drywall and joint compound absorb paint unevenly. Primer seals the surface and helps create uniform finish. It also improves adhesion of finish coats."
+  },
+  {
+    "id": 3,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has grease near a kitchen stove. What should be done before painting?",
+    "options": [
+      "Paint over it with semi-gloss",
+      "Sand it into the wall",
+      "Clean and degrease the surface",
+      "Apply wallpaper paste"
+    ],
+    "answer": 2,
+    "explanation": "Grease prevents paint from bonding properly. It must be removed before sanding or coating. Painting over grease can cause peeling or fisheyes."
+  },
+  {
+    "id": 4,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should paint be stirred before use?",
+    "options": [
+      "Pigments and solids may settle",
+      "Stirring weakens the paint",
+      "It removes all VOCs",
+      "It changes latex paint into oil paint"
+    ],
+    "answer": 0,
+    "explanation": "Paint components can separate during storage. Stirring restores uniform colour, sheen, and consistency. Unmixed paint can give uneven results."
+  },
+  {
+    "id": 5,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What is the main purpose of masking?",
+    "options": [
+      "To protect areas not being painted",
+      "To make paint thicker",
+      "To speed up drying",
+      "To replace surface preparation"
+    ],
+    "answer": 0,
+    "explanation": "Masking protects trim, glass, floors, hardware, and adjacent surfaces. It helps create clean lines. Poor masking can lead to extra cleanup and rework."
+  },
+  {
+    "id": 6,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Which finish usually hides wall defects best?",
+    "options": [
+      "High gloss",
+      "Semi-gloss",
+      "Flat",
+      "Metallic"
+    ],
+    "answer": 2,
+    "explanation": "Flat paint reflects less light than glossy paint. It hides minor surface defects better. Glossy finishes show imperfections more clearly."
+  },
+  {
+    "id": 7,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Which finish is usually easier to clean?",
+    "options": [
+      "Flat",
+      "Chalky finish",
+      "Higher sheen finish",
+      "Unprimed drywall"
+    ],
+    "answer": 2,
+    "explanation": "Higher sheen coatings are generally more washable. Semi-gloss and gloss are common on trim, doors, and high-use areas. The surface must be well prepared because sheen shows defects."
+  },
+  {
+    "id": 8,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A bathroom ceiling has mildew stains. What should be done before repainting?",
+    "options": [
+      "Paint over it immediately",
+      "Clean/treat the mildew and address moisture",
+      "Apply more caulk only",
+      "Use dry sanding only"
+    ],
+    "answer": 1,
+    "explanation": "Mildew must be removed before painting. Moisture or poor ventilation should also be corrected. A mildew-resistant coating may be suitable."
+  },
+  {
+    "id": 9,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should a product data sheet be read before using a coating?",
+    "options": [
+      "It gives application rules and limits",
+      "It only shows the store price",
+      "It replaces PPE",
+      "It gives wallpaper patterns"
+    ],
+    "answer": 0,
+    "explanation": "Product data sheets give spread rate, dry time, recoat time, thinning, and conditions. Following them helps prevent failure. They are important for both quality and safety."
+  },
+  {
+    "id": 10,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A dark red paint is being applied over a white wall. What may help coverage?",
+    "options": [
+      "Clear water",
+      "Tinted primer",
+      "Dirty roller",
+      "Skipping primer"
+    ],
+    "answer": 1,
+    "explanation": "Deep colours often need tinted primer or extra coats. A proper undercoat improves hiding. It helps produce a richer and more even final colour."
+  },
+  {
+    "id": 11,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should patched drywall be spot-primed?",
+    "options": [
+      "To seal different porosity",
+      "To make patches rougher",
+      "To remove all paint",
+      "To prevent sanding"
+    ],
+    "answer": 0,
+    "explanation": "Patches absorb paint differently than surrounding surfaces. Spot priming helps prevent flashing. It creates a more even finish."
+  },
+  {
+    "id": 12,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What does “coverage” or “spread rate” tell the painter?",
+    "options": [
+      "How much area a coating covers",
+      "How heavy a ladder is",
+      "How wide masking tape is",
+      "How long a brush handle is"
+    ],
+    "answer": 0,
+    "explanation": "Spread rate tells how much surface can be coated per gallon or litre. It helps estimate material quantity. It also relates to correct film thickness."
+  },
+  {
+    "id": 13,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should floors and furniture be covered before painting?",
+    "options": [
+      "To protect from drips, dust, and splatter",
+      "To make paint smell stronger",
+      "To increase paint drying time",
+      "To replace masking"
+    ],
+    "answer": 0,
+    "explanation": "Drop sheets protect property from damage. They also help keep the work area clean. Good protection is part of professional preparation."
+  },
+  {
+    "id": 14,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What should be done to glossy old paint before repainting?",
+    "options": [
+      "Clean and dull the surface",
+      "Paint directly without prep",
+      "Apply oil to it",
+      "Wet it with water only"
+    ],
+    "answer": 0,
+    "explanation": "Glossy surfaces may not give good adhesion. Cleaning removes contaminants and sanding creates tooth. This helps the new coating bond."
+  },
+  {
+    "id": 15,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why is lighting important before final painting?",
+    "options": [
+      "It helps reveal defects and missed preparation",
+      "It cures paint instantly",
+      "It changes primer into finish coat",
+      "It removes dust automatically"
+    ],
+    "answer": 0,
+    "explanation": "Good lighting shows scratches, dents, ridges, and holidays. Defects are easier to repair before final coat. Inspection lighting improves quality."
+  },
+  {
+    "id": 16,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A public hallway must stay open during painting. What should be planned?",
+    "options": [
+      "Barricades, signs, safe access, and ventilation",
+      "Blocking all exits",
+      "Leaving open paint cans in the walkway",
+      "Removing all warning signs"
+    ],
+    "answer": 0,
+    "explanation": "Public areas need extra safety control. Wet paint, odour, tools, and trip hazards must be managed. Safe access must be maintained."
+  },
+  {
+    "id": 17,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why might low-VOC paint be chosen for an occupied office?",
+    "options": [
+      "To reduce odour and occupant exposure",
+      "To increase fire hazard",
+      "To make paint fail faster",
+      "To avoid ventilation completely"
+    ],
+    "answer": 0,
+    "explanation": "Low-VOC coatings reduce fumes and odour. They are useful in occupied or sensitive areas. Ventilation and scheduling are still important."
+  },
+  {
+    "id": 18,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What should be checked before painting exterior surfaces?",
+    "options": [
+      "Weather, moisture, temperature, and surface condition",
+      "Wallpaper repeat",
+      "Indoor furniture only",
+      "Brush colour"
+    ],
+    "answer": 0,
+    "explanation": "Exterior coatings are affected by sun, wind, rain, temperature, and moisture. Bad conditions can cause poor drying or failure. The substrate must also be dry and sound."
+  },
+  {
+    "id": 19,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should paint cans of the same colour be boxed together?",
+    "options": [
+      "To reduce shade variation",
+      "To make paint thinner",
+      "To remove primer",
+      "To increase drying time"
+    ],
+    "answer": 0,
+    "explanation": "Different cans may vary slightly in colour. Boxing mixes them into one uniform batch. This is important on large visible surfaces."
+  },
+  {
+    "id": 20,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has a water stain. What should be done before finish painting?",
+    "options": [
+      "Seal with suitable stain-blocking primer after fixing leak",
+      "Apply only water-based finish paint",
+      "Ignore it if dry",
+      "Sand the stain only"
+    ],
+    "answer": 0,
+    "explanation": "Water stains can bleed through finish coats. The moisture source must be corrected first. A stain-blocking primer helps stop bleed-through."
+  },
+  {
+    "id": 21,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Which coating property is important in a school hallway?",
+    "options": [
+      "Washability and abrasion resistance",
+      "Poor hiding",
+      "Low durability",
+      "Slowest drying only"
+    ],
+    "answer": 0,
+    "explanation": "School hallways receive traffic, touching, and cleaning. Durable washable coatings are preferred. The coating must match service conditions."
+  },
+  {
+    "id": 22,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should a sample or mock-up be made for a special colour or finish?",
+    "options": [
+      "To confirm appearance before full application",
+      "To replace preparation",
+      "To avoid client approval",
+      "To make paint dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Samples show actual colour, sheen, texture, and method. They help avoid misunderstandings. They are useful before large or decorative jobs."
+  },
+  {
+    "id": 23,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What is the risk of using the wrong primer?",
+    "options": [
+      "Poor adhesion, staining, or coating failure",
+      "Better bonding every time",
+      "Faster sanding",
+      "Stronger colour hiding always"
+    ],
+    "answer": 0,
+    "explanation": "Primers are chosen for the substrate and problem. Wood, drywall, metal, stains, and masonry may need different primers. Wrong primer can cause failure."
+  },
+  {
+    "id": 24,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A room has strong odour restrictions. What should be considered?",
+    "options": [
+      "Low-odour coating, ventilation, and scheduling",
+      "Strong solvent coating only",
+      "No ventilation",
+      "Painting during busiest time"
+    ],
+    "answer": 0,
+    "explanation": "Odour can affect occupants and building use. Low-odour coatings and proper ventilation reduce disruption. Scheduling can protect people nearby."
+  },
+  {
+    "id": 25,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Before applying paint over old alkyd enamel, what is usually needed?",
+    "options": [
+      "Cleaning, dulling, and possibly bonding primer",
+      "Water only",
+      "No preparation",
+      "More alkyd smell"
+    ],
+    "answer": 0,
+    "explanation": "Old alkyd enamel is often glossy and hard. Latex coatings may not bond unless prepared correctly. A bonding primer may be required."
+  },
+  {
+    "id": 26,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What does maintaining a wet edge help prevent?",
+    "options": [
+      "Lap marks",
+      "Rust",
+      "Efflorescence",
+      "Wallpaper shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Lap marks occur when wet paint overlaps paint that has started drying. Keeping a wet edge helps sections blend. This is important on large walls."
+  },
+  {
+    "id": 27,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies paint too thick on a vertical door. What defect may occur?",
+    "options": [
+      "Runs or sags",
+      "Better hiding only",
+      "Faster curing",
+      "No brush marks"
+    ],
+    "answer": 0,
+    "explanation": "Heavy paint flows downward under gravity. Runs and sags show poor film control. Thin even coats help prevent this."
+  },
+  {
+    "id": 28,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Paint is applied too thin over a dark colour. What is likely?",
+    "options": [
+      "Poor hiding",
+      "Better durability",
+      "More DFT",
+      "No second coat needed"
+    ],
+    "answer": 0,
+    "explanation": "Thin paint may not cover the old colour. Poor hiding creates patchy appearance. Proper spread rate and additional coats may be needed."
+  },
+  {
+    "id": 29,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should recoat time be followed?",
+    "options": [
+      "To allow proper drying and adhesion",
+      "To make paint fail",
+      "To remove need for primer",
+      "To reduce cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Recoating too soon can trap moisture or solvent. Recoating too late may affect adhesion for some coatings. Product instructions should be followed."
+  },
+  {
+    "id": 30,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is back-rolling?",
+    "options": [
+      "Rolling over sprayed coating to even it out and work it in",
+      "Rolling dry walls only",
+      "Cleaning a roller sleeve",
+      "Rolling paint back into the can"
+    ],
+    "answer": 0,
+    "explanation": "Back-rolling improves uniform coverage on porous or textured surfaces. It helps work coating into the surface. It also reduces holidays."
+  },
+  {
+    "id": 31,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall shows shiny and dull patches after drying. What is this called?",
+    "options": [
+      "Flashing",
+      "Rusting",
+      "Mill scale",
+      "Blushing"
+    ],
+    "answer": 0,
+    "explanation": "Flashing means uneven sheen or appearance. It often happens from uneven porosity or poor priming. Proper sealing helps prevent it."
+  },
+  {
+    "id": 32,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What are “holidays” in paint application?",
+    "options": [
+      "Missed or undercoated spots",
+      "Paid days off",
+      "Smooth finish areas",
+      "Correctly coated edges"
+    ],
+    "answer": 0,
+    "explanation": "Holidays are gaps or missed areas in the coating. They leave the surface unprotected or visible. They must be touched up or recoated."
+  },
+  {
+    "id": 33,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should exterior painting be avoided before rain?",
+    "options": [
+      "Rain can damage uncured paint",
+      "Rain improves adhesion",
+      "Rain replaces primer",
+      "Rain removes lap marks"
+    ],
+    "answer": 0,
+    "explanation": "Fresh paint needs time to dry and cure. Rain can wash, spot, or weaken the coating. Weather must be checked before exterior work."
+  },
+  {
+    "id": 34,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What can happen if paint is applied in direct hot sun?",
+    "options": [
+      "Rapid drying and lap marks",
+      "Longer open time",
+      "Better levelling always",
+      "Slower curing only"
+    ],
+    "answer": 0,
+    "explanation": "Hot sun causes paint to dry quickly. Fast drying reduces flow and working time. This can create lap marks and poor finish."
+  },
+  {
+    "id": 35,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should roller pressure be consistent?",
+    "options": [
+      "To keep texture and film build even",
+      "To create more lines",
+      "To reduce hiding",
+      "To make paint dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Uneven pressure leaves roller marks and different texture. Consistent pressure gives a uniform finish. Proper roller loading also matters."
+  },
+  {
+    "id": 36,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What causes brush marks in finish paint?",
+    "options": [
+      "Overbrushing or poor brush/product flow",
+      "Proper wet edge",
+      "Correct tool choice",
+      "Good surface preparation only"
+    ],
+    "answer": 0,
+    "explanation": "Brushing paint after it begins to set leaves marks. A poor brush can also create ridges. Correct tools and technique help paint level."
+  },
+  {
+    "id": 37,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A roller leaves lint in wet paint. What is the likely cause?",
+    "options": [
+      "Poor roller sleeve or not prepared correctly",
+      "Correct tool selection",
+      "Paint is too clean",
+      "Wall is too smooth only"
+    ],
+    "answer": 0,
+    "explanation": "Some roller sleeves shed fibres. Pre-washing or using better sleeve quality may help. Lint causes finish defects."
+  },
+  {
+    "id": 38,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should dust be controlled while paint dries?",
+    "options": [
+      "Dust can settle into wet paint",
+      "Dust improves finish",
+      "Dust replaces sanding",
+      "Dust increases sheen"
+    ],
+    "answer": 0,
+    "explanation": "Dust particles can become trapped in the coating. They create roughness or nibs. Clean work areas improve final quality."
+  },
+  {
+    "id": 39,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is the main purpose of caulking before painting?",
+    "options": [
+      "Seal gaps and improve appearance",
+      "Replace finish paint",
+      "Remove rust",
+      "Make surfaces glossy"
+    ],
+    "answer": 0,
+    "explanation": "Caulk fills small joints and cracks. It improves appearance and helps block moisture or air. It must be applied to clean, dry surfaces."
+  },
+  {
+    "id": 40,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should caulk be allowed to dry before painting?",
+    "options": [
+      "Wet caulk can crack, smear, or affect adhesion",
+      "Paint cures caulk instantly",
+      "Wet caulk improves finish",
+      "Dry time does not matter"
+    ],
+    "answer": 0,
+    "explanation": "Caulk needs time to skin or cure. Painting too soon can cause cracking or tackiness. Follow the manufacturer’s dry time."
+  },
+  {
+    "id": 41,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What does “hiding power” mean?",
+    "options": [
+      "Ability of paint to cover the surface below",
+      "Ability of paint to smell less",
+      "Ability of primer to dry faster",
+      "Ability of tape to stick"
+    ],
+    "answer": 0,
+    "explanation": "Hiding power is how well paint covers old colour or surface contrast. Poor hiding may require primer or extra coats. Colour change affects hiding."
+  },
+  {
+    "id": 42,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls a large wall in random sections. What defect may happen?",
+    "options": [
+      "Lap marks and uneven sheen",
+      "Better blending",
+      "Less material use",
+      "No holidays"
+    ],
+    "answer": 0,
+    "explanation": "Random rolling can let areas dry before blending. This creates lap marks and patchiness. A planned sequence gives better results."
+  },
+  {
+    "id": 43,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should paint be applied at the recommended spread rate?",
+    "options": [
+      "To achieve proper film build",
+      "To use less paint only",
+      "To make paint smell stronger",
+      "To remove need for primer"
+    ],
+    "answer": 0,
+    "explanation": "Spread rate affects coating thickness. Too thin gives poor hiding and protection. Too thick can cause runs or slow drying."
+  },
+  {
+    "id": 44,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painted wall has picture framing around edges. What may have caused it?",
+    "options": [
+      "Cut-in and rolled areas dried differently",
+      "Wall was too smooth",
+      "Paint was boxed properly",
+      "Primer was applied evenly"
+    ],
+    "answer": 0,
+    "explanation": "Picture framing happens when edges look different from rolled areas. It can result from dry cut-in areas or different film build. Cutting-in and rolling should be coordinated."
+  },
+  {
+    "id": 45,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why is back-brushing useful on rough exterior wood?",
+    "options": [
+      "It works coating into cracks and grain",
+      "It removes all coating",
+      "It creates holidays",
+      "It makes the paint dry instantly"
+    ],
+    "answer": 0,
+    "explanation": "Rough wood has pores, cracks, and texture. Back-brushing improves contact and penetration. It helps reduce missed spots."
+  },
+  {
+    "id": 46,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why should decorative finishes be tested on a sample board?",
+    "options": [
+      "To confirm colour, texture, and technique",
+      "To avoid surface preparation",
+      "To remove need for tools",
+      "To make the finish permanent before approval"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes depend on hand technique and layering. Samples show the final appearance before full work. They help set client expectations."
+  },
+  {
+    "id": 47,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "What is a glaze used for in decorative painting?",
+    "options": [
+      "To create depth, shading, or translucent colour effects",
+      "To strip old paint",
+      "To clean brushes",
+      "To prime bare metal"
+    ],
+    "answer": 0,
+    "explanation": "Glaze is usually translucent. It allows base colours to show through while adding effect. It is used for decorative finishes."
+  },
+  {
+    "id": 48,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why do metallic finishes require careful application?",
+    "options": [
+      "They show roller direction and surface defects easily",
+      "They hide all defects",
+      "They never need primer",
+      "They cannot be damaged"
+    ],
+    "answer": 0,
+    "explanation": "Metallic particles reflect light directionally. Uneven technique can cause stripes or lap marks. Smooth surface preparation is important."
+  },
+  {
+    "id": 49,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A decorative finish looks different from one wall section to another. What is the likely cause?",
+    "options": [
+      "Inconsistent technique",
+      "Correct preparation",
+      "Good sample matching",
+      "Perfect timing"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes depend heavily on consistent hand movement, pressure, and timing. Different technique creates visible variation. Practice and sample approval help prevent this."
+  },
+  {
+    "id": 50,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why might a clear protective coat be applied over a decorative finish?",
+    "options": [
+      "To protect it from wear and cleaning",
+      "To remove the effect",
+      "To make it impossible to clean",
+      "To replace the base coat"
+    ],
+    "answer": 0,
+    "explanation": "Decorative effects may be fragile. A compatible clear coat protects the surface. It improves durability in areas that may be touched or cleaned."
+  },
+  {
+    "id": 51,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has shiny patches after patching and sanding. What should be done before finish painting?",
+    "options": [
+      "Apply finish paint directly",
+      "Spot-prime patched areas",
+      "Wet the wall with water",
+      "Use a darker colour only"
+    ],
+    "answer": 1,
+    "explanation": "Patched areas absorb paint differently than surrounding surfaces. Spot priming helps seal the repair. This prevents flashing and uneven sheen."
+  },
+  {
+    "id": 52,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A client wants semi-gloss paint on a rough plaster wall. What should the painter explain?",
+    "options": [
+      "Semi-gloss will hide roughness",
+      "Semi-gloss may show defects clearly",
+      "Semi-gloss needs no primer",
+      "Semi-gloss cannot be used indoors"
+    ],
+    "answer": 1,
+    "explanation": "Higher sheen reflects more light. Roughness, scratches, and patch marks become more visible. Better preparation is needed for higher sheen finishes."
+  },
+  {
+    "id": 53,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Which primer is most important when painting over smoke stains?",
+    "options": [
+      "Clear water",
+      "Stain-blocking primer",
+      "Wall covering adhesive",
+      "Wood conditioner"
+    ],
+    "answer": 1,
+    "explanation": "Smoke stains can bleed through regular paint. A stain-blocking primer seals discolouration and odour. Cleaning should also be done before priming."
+  },
+  {
+    "id": 54,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A room is occupied during repainting. What should be considered first?",
+    "options": [
+      "Odour, ventilation, access, and occupant safety",
+      "Only colour choice",
+      "Only brush size",
+      "Only roller tray size"
+    ],
+    "answer": 0,
+    "explanation": "Occupied buildings require planning to protect people. Low-odour products and ventilation may be needed. Signs and barriers help control access."
+  },
+  {
+    "id": 55,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should paint not be selected by colour alone?",
+    "options": [
+      "Coating performance must match the service condition",
+      "Colour controls all durability",
+      "All paints perform the same",
+      "Primer is never required"
+    ],
+    "answer": 0,
+    "explanation": "Different areas need different durability, washability, and moisture resistance. A hallway, bathroom, and office may require different coatings. Colour does not determine performance by itself."
+  },
+  {
+    "id": 56,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has small nail holes before painting. What should be done?",
+    "options": [
+      "Paint over them",
+      "Fill, sand smooth, clean, and prime as needed",
+      "Cover with masking tape",
+      "Wet with thinner"
+    ],
+    "answer": 1,
+    "explanation": "Holes must be repaired before coating. Sanding smooths the repair. Priming prevents patched spots from flashing."
+  },
+  {
+    "id": 57,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What does “compatibility” mean when repainting?",
+    "options": [
+      "New coating will bond and perform over the existing coating",
+      "Paint colour matches furniture",
+      "Paint dries at any temperature",
+      "Primer is never needed"
+    ],
+    "answer": 0,
+    "explanation": "Some coatings do not bond well over certain old finishes. Incompatible products may lift, wrinkle, or peel. Testing or bonding primer may be required."
+  },
+  {
+    "id": 58,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has glossy old paint and fingerprints. What is the correct preparation?",
+    "options": [
+      "Paint immediately",
+      "Clean, dull-sand, dust off, then coat",
+      "Add water to paint",
+      "Apply caulk over the wall"
+    ],
+    "answer": 1,
+    "explanation": "Fingerprints and oils reduce adhesion. Glossy paint also needs tooth for bonding. Cleaning and dulling improve coating performance."
+  },
+  {
+    "id": 59,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should environmental conditions be checked before painting?",
+    "options": [
+      "Temperature and humidity affect drying and curing",
+      "They only affect worker comfort",
+      "They replace primer",
+      "They remove need for cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Cold, heat, or humidity can cause poor drying and defects. Coatings must be applied within product limits. Conditions affect adhesion, cure, and appearance."
+  },
+  {
+    "id": 60,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is coating a concrete block wall in a washroom. Which property is important?",
+    "options": [
+      "Moisture resistance",
+      "Poor washability",
+      "Low hiding only",
+      "Weak adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Washrooms are exposed to moisture and cleaning. The coating must resist humidity and mildew. Surface preparation and primer selection are also important."
+  },
+  {
+    "id": 61,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why is sanding dust removed before painting?",
+    "options": [
+      "Dust can reduce adhesion and create rough finish",
+      "Dust improves primer bond",
+      "Dust replaces sealer",
+      "Dust increases hiding power"
+    ],
+    "answer": 0,
+    "explanation": "Dust forms a weak layer between coating and surface. It can also create nibs in the finish. Vacuuming or wiping is required before coating."
+  },
+  {
+    "id": 62,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter opens a can and finds skin on top of the paint. What should be done?",
+    "options": [
+      "Stir the skin into the paint",
+      "Remove skin and strain paint if usable",
+      "Spray it directly",
+      "Add sand to the paint"
+    ],
+    "answer": 1,
+    "explanation": "Paint skin can create lumps and defects. It should not be mixed into the coating. Straining helps remove small particles before application."
+  },
+  {
+    "id": 63,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should masking tape be chosen carefully?",
+    "options": [
+      "Wrong tape can bleed, fail, or damage surfaces",
+      "All tapes work the same",
+      "Tape replaces primer",
+      "Tape controls paint sheen"
+    ],
+    "answer": 0,
+    "explanation": "Different surfaces and coatings need different tapes. Too aggressive tape may lift paint. Poor tape can allow paint bleed or leave residue."
+  },
+  {
+    "id": 64,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A finish coat will be applied over a primer after a long delay. What should be checked?",
+    "options": [
+      "Dust, contamination, and recoat requirements",
+      "Only primer colour",
+      "Only room size",
+      "Only brush cost"
+    ],
+    "answer": 0,
+    "explanation": "Primed surfaces can collect dust, grease, or damage. Some primers have recoat limits. Cleaning or sanding may be needed before finish coating."
+  },
+  {
+    "id": 65,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why is a moisture problem corrected before painting?",
+    "options": [
+      "Moisture can cause blistering, peeling, and staining",
+      "Moisture improves adhesion",
+      "Moisture makes paint more washable",
+      "Moisture replaces primer"
+    ],
+    "answer": 0,
+    "explanation": "Moisture behind paint can push coating off the surface. It can also cause mildew or stains. The source of moisture must be fixed first."
+  },
+  {
+    "id": 66,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is repainting a high-traffic commercial stairwell. Which coating quality matters most?",
+    "options": [
+      "Durability and cleanability",
+      "Weak film strength",
+      "Low scrub resistance",
+      "Poor adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Stairwells receive wear, scuffs, and cleaning. A durable washable coating is more suitable. The finish must match the service conditions."
+  },
+  {
+    "id": 67,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What is the purpose of reading the SDS?",
+    "options": [
+      "To understand hazards, PPE, first aid, and handling",
+      "To choose wall colour",
+      "To calculate room area only",
+      "To find wallpaper repeat"
+    ],
+    "answer": 0,
+    "explanation": "SDS gives safety information for the product. It includes hazards, PPE, storage, and first aid. It should be reviewed before use."
+  },
+  {
+    "id": 68,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A surface has old peeling coating. What must be done before repainting?",
+    "options": [
+      "Remove loose coating and prepare sound edges",
+      "Paint over peeling areas",
+      "Apply more finish paint only",
+      "Cover it with clear coat"
+    ],
+    "answer": 0,
+    "explanation": "Loose coating cannot support new paint. Failed areas must be removed to a sound surface. Edges should be feather sanded and primed as needed."
+  },
+  {
+    "id": 69,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should repaired walls be inspected with side lighting?",
+    "options": [
+      "It reveals ridges, scratches, and uneven repairs",
+      "It changes paint colour permanently",
+      "It cures joint compound",
+      "It removes dust"
+    ],
+    "answer": 0,
+    "explanation": "Side lighting shows surface defects clearly. Ridges and scratches may not be visible straight on. Inspection before painting prevents visible defects later."
+  },
+  {
+    "id": 70,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is changing from a dark wall colour to white. What may be required?",
+    "options": [
+      "Proper primer and multiple finish coats",
+      "No primer and one thin coat",
+      "Water only",
+      "Clear coat first"
+    ],
+    "answer": 0,
+    "explanation": "Strong colour changes may need primer for hiding. White paint may require more than one coat. Correct undercoating improves final appearance."
+  },
+  {
+    "id": 71,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What should be done before painting over mildew-prone areas?",
+    "options": [
+      "Clean mildew and improve moisture control",
+      "Paint directly over mildew",
+      "Sand it dry without protection",
+      "Apply thinner only"
+    ],
+    "answer": 0,
+    "explanation": "Mildew is contamination and can return if moisture remains. Cleaning removes growth from the surface. Ventilation or moisture control helps prevent recurrence."
+  },
+  {
+    "id": 72,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should tools and materials be organized before painting?",
+    "options": [
+      "To improve safety, speed, and quality",
+      "To increase clutter",
+      "To make work slower",
+      "To avoid inspection"
+    ],
+    "answer": 0,
+    "explanation": "Organized work reduces trips, spills, and mistakes. It improves workflow and saves time. Professional setup supports a better finish."
+  },
+  {
+    "id": 73,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What is the risk of thinning paint more than recommended?",
+    "options": [
+      "Poor hiding, weak film, and reduced performance",
+      "Better durability",
+      "Higher solids content",
+      "Stronger adhesion always"
+    ],
+    "answer": 0,
+    "explanation": "Over-thinning reduces film build and hiding. It can affect drying, durability, and coverage. Product instructions must be followed."
+  },
+  {
+    "id": 74,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should exterior wood be dry before painting?",
+    "options": [
+      "Moisture can cause peeling or blistering",
+      "Wet wood improves paint bond",
+      "Paint dries faster on wet wood",
+      "Primer removes all moisture"
+    ],
+    "answer": 0,
+    "explanation": "Moisture in wood can move outward and lift paint. Wet wood may shrink after coating. Dryness should meet product requirements."
+  },
+  {
+    "id": 75,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter finds chalky old exterior paint. What should be done?",
+    "options": [
+      "Clean/remove chalk and prime if required",
+      "Paint directly over chalk",
+      "Add chalk to primer",
+      "Wet it and coat immediately"
+    ],
+    "answer": 0,
+    "explanation": "Chalk is a weak powdery layer. New coating may bond to chalk instead of the wall. Cleaning and proper primer improve adhesion."
+  },
+  {
+    "id": 76,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls a wall and presses hard when the roller gets dry. What defect may happen?",
+    "options": [
+      "Roller lines and uneven texture",
+      "Better hiding",
+      "More uniform film",
+      "Less flashing always"
+    ],
+    "answer": 0,
+    "explanation": "Excess pressure squeezes paint out unevenly. A dry roller leaves lines and skips. Reloading the roller maintains film build."
+  },
+  {
+    "id": 77,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should paint be applied in manageable sections?",
+    "options": [
+      "To maintain a wet edge",
+      "To make lap marks",
+      "To slow the job only",
+      "To avoid coverage"
+    ],
+    "answer": 0,
+    "explanation": "Manageable sections help blend wet paint into wet paint. This reduces lap marks. Large areas need a planned sequence."
+  },
+  {
+    "id": 78,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painted surface develops small bubbles soon after application. What may be a cause?",
+    "options": [
+      "Moisture, heat, or overworking",
+      "Perfect surface preparation",
+      "Correct application only",
+      "Proper curing"
+    ],
+    "answer": 0,
+    "explanation": "Bubbles can form from trapped moisture or air. Heat can draw vapour through the surface. Overworking can also introduce air."
+  },
+  {
+    "id": 79,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should paint not be applied below recommended temperature?",
+    "options": [
+      "It may not dry, cure, or form a proper film",
+      "It becomes more durable",
+      "It hides better always",
+      "It needs no primer"
+    ],
+    "answer": 0,
+    "explanation": "Cold conditions slow drying and film formation. Coating may remain soft or fail to bond. Temperature limits must be followed."
+  },
+  {
+    "id": 80,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What causes lap marks?",
+    "options": [
+      "Overlapping paint that has started to dry",
+      "Proper wet edge",
+      "Correct coverage",
+      "Clean surface only"
+    ],
+    "answer": 0,
+    "explanation": "Lap marks occur when wet paint is applied over partially dried paint. This creates different sheen or colour density. Maintaining wet edge prevents them."
+  },
+  {
+    "id": 81,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall has poor hiding after one coat. What is the proper action?",
+    "options": [
+      "Apply another coat after correct dry time",
+      "Add water and spread thinner",
+      "Leave it unfinished",
+      "Sand off all paint immediately"
+    ],
+    "answer": 0,
+    "explanation": "Some colours and surfaces need multiple coats. Recoat time must be followed. Proper film build improves hiding."
+  },
+  {
+    "id": 82,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should final brush strokes follow the grain on wood trim?",
+    "options": [
+      "To improve appearance and reduce visible brush marks",
+      "To increase rust protection",
+      "To remove primer",
+      "To create cross-grain scratches"
+    ],
+    "answer": 0,
+    "explanation": "Brushing with the grain gives a smoother appearance. Cross-grain marks are more visible. This is important on doors, trim, and woodwork."
+  },
+  {
+    "id": 83,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A roller creates heavy ridges at the edge of each pass. What should the painter do?",
+    "options": [
+      "Feather the edges and use even pressure",
+      "Press harder",
+      "Use less paint until dry",
+      "Stop stirring paint"
+    ],
+    "answer": 0,
+    "explanation": "Heavy roller edges create lines. Feathering and even pressure blend the paint. Correct roller loading also helps."
+  },
+  {
+    "id": 84,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is the purpose of cutting-in?",
+    "options": [
+      "Painting edges and corners where rollers cannot reach neatly",
+      "Cutting drywall",
+      "Removing old paint with a knife",
+      "Cutting paint with water"
+    ],
+    "answer": 0,
+    "explanation": "Cutting-in covers corners, trim edges, and ceiling lines. It creates neat borders. It should be blended with rolling when possible."
+  },
+  {
+    "id": 85,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies second coat too soon. What may happen?",
+    "options": [
+      "Wrinkling, soft film, or poor cure",
+      "Better hardness",
+      "Faster full cure always",
+      "Stronger adhesion always"
+    ],
+    "answer": 0,
+    "explanation": "The first coat may not be ready. Recoating too soon can trap moisture or solvent. This can cause wrinkling or soft coating."
+  },
+  {
+    "id": 86,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is “touch-up” difficulty mainly affected by?",
+    "options": [
+      "Colour, sheen, texture, age, and lighting",
+      "Brush handle colour",
+      "Ladder height",
+      "Paint can shape"
+    ],
+    "answer": 0,
+    "explanation": "Touch-ups may show even with the same colour. Sheen and roller texture affect appearance. Aged paint may not match fresh paint."
+  },
+  {
+    "id": 87,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why is back-rolling after spraying useful on porous walls?",
+    "options": [
+      "It pushes coating into pores and evens coverage",
+      "It removes all coating",
+      "It increases overspray",
+      "It creates missed spots"
+    ],
+    "answer": 0,
+    "explanation": "Spray alone may not work coating into pores. Back-rolling improves contact and uniformity. It can reduce pinholes and holidays."
+  },
+  {
+    "id": 88,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painted ceiling shows roller stop marks. What is likely the cause?",
+    "options": [
+      "Stopping in the middle and losing wet edge",
+      "Too much surface preparation",
+      "Correct rolling pattern",
+      "Proper paint loading"
+    ],
+    "answer": 0,
+    "explanation": "Ceilings show dry edges and lap marks easily. Work should continue to natural breaks when possible. Consistent rolling direction helps appearance."
+  },
+  {
+    "id": 89,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why is paint mixed from bottom to top in the can?",
+    "options": [
+      "Heavy solids may settle at the bottom",
+      "Paint only dries at the top",
+      "Colour is only at the surface",
+      "Primer floats away permanently"
+    ],
+    "answer": 0,
+    "explanation": "Pigments and solids settle during storage. Mixing from bottom restores uniform material. This prevents colour and sheen variation."
+  },
+  {
+    "id": 90,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A finish coat is being applied in a dusty construction area. What should be done?",
+    "options": [
+      "Control dust before painting",
+      "Paint faster through the dust",
+      "Add dust to the paint",
+      "Use more pressure on roller"
+    ],
+    "answer": 0,
+    "explanation": "Dust can settle into wet paint. It causes roughness and contamination. The area should be cleaned and dust sources controlled."
+  },
+  {
+    "id": 91,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should caulk joints not be overfilled?",
+    "options": [
+      "Excess caulk is difficult to tool and may look messy",
+      "More caulk always performs better",
+      "Caulk replaces paint",
+      "Overfilled caulk dries instantly"
+    ],
+    "answer": 0,
+    "explanation": "Proper bead size helps adhesion and appearance. Too much caulk can smear and collect dirt. Tooling shapes the joint correctly."
+  },
+  {
+    "id": 92,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A fresh exterior coating is exposed to heavy dew overnight. What may occur?",
+    "options": [
+      "Surfactant leaching or spotting",
+      "Better gloss",
+      "Stronger cure",
+      "More adhesion always"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can affect fresh paint before full cure. It may cause streaks, spots, or leaching. Weather and dew conditions should be considered."
+  },
+  {
+    "id": 93,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should paint be feathered during touch-up?",
+    "options": [
+      "To blend edges into surrounding finish",
+      "To make patch larger and obvious",
+      "To remove all paint",
+      "To increase brush marks"
+    ],
+    "answer": 0,
+    "explanation": "Feathering reduces hard edges around touch-up areas. It helps the repair blend with existing coating. Sheen and texture still affect visibility."
+  },
+  {
+    "id": 94,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Which problem can happen if paint is overworked after it starts drying?",
+    "options": [
+      "Drag marks and poor levelling",
+      "Better flow",
+      "Faster hiding",
+      "Smoother finish always"
+    ],
+    "answer": 0,
+    "explanation": "Paint loses flow as it dries. Brushing or rolling too late disturbs the film. This causes marks and uneven texture."
+  },
+  {
+    "id": 95,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is the best way to avoid roller splatter?",
+    "options": [
+      "Use proper roller loading and speed",
+      "Spin roller as fast as possible",
+      "Thin paint heavily",
+      "Press extremely hard"
+    ],
+    "answer": 0,
+    "explanation": "Overloaded rollers and fast rolling cause splatter. Smooth, controlled rolling reduces mess. Correct roller sleeve also matters."
+  },
+  {
+    "id": 96,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A metallic finish is applied with random roller direction. What defect is likely?",
+    "options": [
+      "Visible directional streaking",
+      "Better uniformity",
+      "No reflection change",
+      "Complete hiding of defects"
+    ],
+    "answer": 0,
+    "explanation": "Metallic particles reflect light based on direction. Random roller direction creates visible streaks. Consistent technique is important."
+  },
+  {
+    "id": 97,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why should decorative glaze have enough open time?",
+    "options": [
+      "To allow blending and working the effect",
+      "To make it dry instantly",
+      "To remove all texture",
+      "To stop colour from showing"
+    ],
+    "answer": 0,
+    "explanation": "Glaze must stay workable long enough to create effects. If it dries too fast, lap marks and harsh lines appear. Temperature and humidity affect open time."
+  },
+  {
+    "id": 98,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A faux finish looks too strong compared with the approved sample. What was likely not controlled?",
+    "options": [
+      "Colour strength, technique, or application amount",
+      "Ladder height",
+      "Wall outlet location",
+      "Primer label only"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes depend on controlled technique and material amount. Small changes can greatly affect appearance. Approved samples should guide the work."
+  },
+  {
+    "id": 99,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why should specialty finishes be protected in high-contact areas?",
+    "options": [
+      "They may wear or mark without a protective coating",
+      "They cannot be touched",
+      "They never need cleaning",
+      "They are stronger without topcoat"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes may be more delicate than standard paint. A compatible clear coat can improve durability. Protection depends on use and manufacturer recommendations."
+  },
+  {
+    "id": 100,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why is consistent lighting important when applying decorative finishes?",
+    "options": [
+      "It helps maintain uniform appearance and see defects",
+      "It cures glaze instantly",
+      "It removes colour variation",
+      "It replaces sample approval"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes change appearance with lighting. Good lighting helps keep pattern and coverage consistent. It also reveals lap marks and uneven effects."
+  },
+  {
+    "id": 101,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is asked to apply latex finish paint over old glossy alkyd enamel in a commercial office. What is the best preparation?",
+    "options": [
+      "Paint directly because latex bonds to everything",
+      "Clean, dull-sand, remove dust, and use suitable bonding primer if required",
+      "Apply water to soften the alkyd",
+      "Add extra thinner to the latex paint"
+    ],
+    "answer": 1,
+    "explanation": "Glossy alkyd enamel can be hard and slick. Cleaning removes oils, and sanding creates tooth. A bonding primer may be needed to prevent peeling."
+  },
+  {
+    "id": 102,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has repaired patches, nicotine stains, and glossy old paint. What preparation plan is most complete?",
+    "options": [
+      "Apply one coat of finish paint",
+      "Clean, sand/dull, spot-prime patches and stains, then finish coat",
+      "Add water to paint and roll heavily",
+      "Apply caulk over the full wall"
+    ],
+    "answer": 1,
+    "explanation": "Different problems require different preparation. Nicotine may bleed, patches may flash, and gloss needs dulling. Proper preparation prevents adhesion and appearance failure."
+  },
+  {
+    "id": 103,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter notices that drywall compound repairs are still cool and soft. What should happen?",
+    "options": [
+      "Prime immediately",
+      "Wait until compound is fully dry before sanding and priming",
+      "Apply finish paint to seal it",
+      "Use a heat gun very close to the wall"
+    ],
+    "answer": 1,
+    "explanation": "Wet compound can shrink, smear, or fail under coating. It must dry before sanding and priming. Painting too early can cause flashing or cracking."
+  },
+  {
+    "id": 104,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A public clinic requires repainting during working hours. Which factor is most important during planning?",
+    "options": [
+      "Strongest solvent smell",
+      "Occupant safety, odour control, ventilation, access, and scheduling",
+      "Painting all exits first",
+      "Leaving tools in hallways for faster access"
+    ],
+    "answer": 1,
+    "explanation": "Occupied healthcare areas require extra care. Odour, trip hazards, wet paint, dust, and public access must be controlled. Scheduling may reduce exposure and disruption."
+  },
+  {
+    "id": 105,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is estimating paint for a large corridor. Why is spread rate important?",
+    "options": [
+      "It tells the brush size",
+      "It helps estimate material and correct film build",
+      "It replaces primer selection",
+      "It shows wall covering pattern repeat"
+    ],
+    "answer": 1,
+    "explanation": "Spread rate shows how much area the coating covers. Applying beyond spread rate can make the film too thin. Correct film build improves durability and hiding."
+  },
+  {
+    "id": 106,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A dark blue paint is specified over a bright red wall. What is most likely required?",
+    "options": [
+      "No primer and one thin coat",
+      "Suitable primer and possibly multiple finish coats",
+      "Only clear coat",
+      "Sanding without cleaning"
+    ],
+    "answer": 1,
+    "explanation": "Strong colour changes can be difficult to hide. A tinted primer can improve coverage. Multiple coats may be needed for full colour depth."
+  },
+  {
+    "id": 107,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter chooses flat paint for a busy stairwell because it hides defects. What is the concern?",
+    "options": [
+      "Flat paint may lack durability and cleanability for high traffic",
+      "Flat paint is always the strongest finish",
+      "Flat paint cannot be used indoors",
+      "Flat paint requires no preparation"
+    ],
+    "answer": 0,
+    "explanation": "Stairwells receive scuffs, hand contact, and cleaning. A more washable and durable coating may be better. Coating choice must match service conditions."
+  },
+  {
+    "id": 108,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is preparing a previously painted surface with silicone contamination. What defect is most likely if it is not removed?",
+    "options": [
+      "Fisheyes or crawling",
+      "Better flow",
+      "Improved adhesion",
+      "Higher hiding power"
+    ],
+    "answer": 0,
+    "explanation": "Silicone repels many coatings. Paint may pull away and form craters. Contamination must be removed or isolated properly."
+  },
+  {
+    "id": 109,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall was washed with cleaner but not rinsed properly. What is the main risk?",
+    "options": [
+      "Cleaner residue can interfere with adhesion",
+      "Paint will dry instantly",
+      "Primer will become unnecessary",
+      "The wall will become more porous"
+    ],
+    "answer": 0,
+    "explanation": "Some cleaners leave residues. Residue can act as a bond breaker under paint. Rinsing or neutralizing may be required."
+  },
+  {
+    "id": 110,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A room has repaired drywall under strong side lighting. What level of preparation is most important?",
+    "options": [
+      "Rough sanding only",
+      "Smooth repairs with careful inspection before finish coat",
+      "One heavy finish coat",
+      "Skipping primer to reduce sheen"
+    ],
+    "answer": 1,
+    "explanation": "Side lighting reveals ridges, scratches, and uneven patches. Finish paint often makes defects more visible. Inspection before painting prevents rework."
+  },
+  {
+    "id": 111,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter finds that old paint is strongly chalked on an exterior wall. What is the best preparation?",
+    "options": [
+      "Paint over the chalk",
+      "Wash/remove chalk and use suitable primer if required",
+      "Add chalk to the new paint",
+      "Apply gloss finish directly"
+    ],
+    "answer": 1,
+    "explanation": "Chalking is a weak powdery layer. Paint bonded to chalk may peel or wash off. Cleaning and correct primer improve adhesion."
+  },
+  {
+    "id": 112,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should a mock-up be made before applying a specialty finish in a hotel lobby?",
+    "options": [
+      "To confirm colour, texture, sheen, and client approval",
+      "To avoid surface preparation",
+      "To replace product data sheets",
+      "To make the finish dry faster"
+    ],
+    "answer": 0,
+    "explanation": "Specialty finishes depend on technique and lighting. A mock-up shows the real appearance before full work. It reduces disputes and costly rework."
+  },
+  {
+    "id": 113,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter opens a can of paint that has frozen and thawed. What should be checked?",
+    "options": [
+      "Whether product condition is still usable according to manufacturer guidance",
+      "Whether the can colour is still bright",
+      "Whether adding water fixes all damage",
+      "Whether it can be used only on ceilings"
+    ],
+    "answer": 0,
+    "explanation": "Freezing can damage some coatings. The paint may become lumpy, separated, or unreliable. Questionable material should not be used without confirmation."
+  },
+  {
+    "id": 114,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A surface has water stains from an old leak. The leak is repaired. What is still needed before finish painting?",
+    "options": [
+      "Stain-blocking primer",
+      "More water on the stain",
+      "Clear coat only",
+      "No preparation if dry"
+    ],
+    "answer": 0,
+    "explanation": "Water stains can bleed through regular paint. The source must be fixed first, then stains sealed. A proper stain-blocking primer prevents discoloration."
+  },
+  {
+    "id": 115,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should paint be boxed on a long continuous wall?",
+    "options": [
+      "To blend slight colour differences between containers",
+      "To increase drying time",
+      "To lower adhesion",
+      "To remove the need for stirring"
+    ],
+    "answer": 0,
+    "explanation": "Different cans can vary slightly in shade. Boxing creates one uniform batch. This prevents visible colour changes across the wall."
+  },
+  {
+    "id": 116,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A coating data sheet says “do not thin.” The painter thins it anyway to improve rolling. What is the risk?",
+    "options": [
+      "Reduced film build, hiding, and performance",
+      "Better durability every time",
+      "Higher solids content",
+      "Faster full cure without risk"
+    ],
+    "answer": 0,
+    "explanation": "Thinning changes the designed coating properties. It can reduce DFT, hiding, and durability. Manufacturer limits must be followed."
+  },
+  {
+    "id": 117,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A commercial kitchen wall has grease and steam exposure. Which coating properties matter most?",
+    "options": [
+      "Washability, adhesion, moisture resistance, and stain resistance",
+      "Poor scrub resistance",
+      "Lowest hiding power",
+      "Maximum odour"
+    ],
+    "answer": 0,
+    "explanation": "Kitchens expose coatings to grease, cleaning, and humidity. Surface cleaning is critical before painting. The coating must match the service environment."
+  },
+  {
+    "id": 118,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "What is the purpose of checking compatibility before repainting?",
+    "options": [
+      "To prevent lifting, wrinkling, peeling, or poor bond",
+      "To choose room furniture",
+      "To remove the need for cleaning",
+      "To make paint smell stronger"
+    ],
+    "answer": 0,
+    "explanation": "New coatings may react with old coatings. Poor compatibility can cause adhesion or solvent-lifting problems. Testing or primer may be required."
+  },
+  {
+    "id": 119,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has many small defects but will receive high-gloss paint. What should the painter expect?",
+    "options": [
+      "High gloss will hide the defects",
+      "High gloss will make defects more visible",
+      "High gloss removes the need for sanding",
+      "High gloss seals holes automatically"
+    ],
+    "answer": 1,
+    "explanation": "High gloss reflects light strongly. Scratches, dents, and patch marks become more visible. Preparation must be very smooth."
+  },
+  {
+    "id": 120,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is preparing to spray in a furnished office. What must be done before spraying?",
+    "options": [
+      "Protect and mask adjacent surfaces, control ventilation, and restrict access",
+      "Spray quickly before covering furniture",
+      "Open all coating containers in the room",
+      "Use no masking if paint is water-based"
+    ],
+    "answer": 0,
+    "explanation": "Spraying creates overspray and airborne mist. Furniture, floors, electronics, and occupants need protection. Ventilation and access control are part of preparation."
+  },
+  {
+    "id": 121,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls a large wall but stops halfway for lunch. A visible line appears later. What caused it?",
+    "options": [
+      "Loss of wet edge",
+      "Too much primer",
+      "Good application sequence",
+      "Correct hiding power"
+    ],
+    "answer": 0,
+    "explanation": "The paint dried before the next section was blended. This creates lap marks or sheen differences. Large walls should be painted to natural breaks."
+  },
+  {
+    "id": 122,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall develops picture framing around cut-in areas. What is a common cause?",
+    "options": [
+      "Cut-in and rolled areas dried at different times or film builds",
+      "Perfect blending",
+      "Too much wall washing",
+      "Correct wet edge"
+    ],
+    "answer": 0,
+    "explanation": "Brush and roller textures can differ. If cut-in dries before rolling, the edges may appear different. Cutting and rolling should be coordinated."
+  },
+  {
+    "id": 123,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies a heavy coat to avoid applying a second coat. What defect is most likely?",
+    "options": [
+      "Runs, sags, slow drying, or wrinkling",
+      "Better cure",
+      "Perfect hiding without risk",
+      "Stronger film always"
+    ],
+    "answer": 0,
+    "explanation": "Excessive wet film can flow downward. It may trap water or solvent and dry poorly. Correct spread rate is safer than one heavy coat."
+  },
+  {
+    "id": 124,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A finish dries rough with small particles. What should be done before recoating?",
+    "options": [
+      "Lightly sand, clean, and recoat",
+      "Paint directly over the particles",
+      "Add water and roll again",
+      "Apply caulk to the rough areas"
+    ],
+    "answer": 0,
+    "explanation": "Dust nibs or debris must be removed. Recoating over particles keeps the finish rough. Cleaning after sanding is required."
+  },
+  {
+    "id": 125,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies exterior latex paint late in the day, and heavy dew forms before it dries. What may occur?",
+    "options": [
+      "Surfactant leaching, spotting, or poor film formation",
+      "Stronger adhesion",
+      "Better gloss only",
+      "No possible defect"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can affect uncured paint. Dew may cause streaks, spots, or slow drying. Exterior painting must consider overnight conditions."
+  },
+  {
+    "id": 126,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why is back-brushing useful after spraying rough exterior siding?",
+    "options": [
+      "It works coating into grain, cracks, and texture",
+      "It removes all coating",
+      "It increases holidays",
+      "It makes paint dry instantly"
+    ],
+    "answer": 0,
+    "explanation": "Spray can miss low areas on rough surfaces. Back-brushing improves contact and penetration. This helps durability and uniform coverage."
+  },
+  {
+    "id": 127,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls too fast and the paint splatters heavily. What should be corrected?",
+    "options": [
+      "Roller speed, loading, and technique",
+      "Wall colour only",
+      "Primer type only",
+      "Room height"
+    ],
+    "answer": 0,
+    "explanation": "Fast rolling and overloaded sleeves cause splatter. Controlled speed gives better finish and less mess. The correct sleeve also helps."
+  },
+  {
+    "id": 128,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A high-build coating is applied below the minimum recommended temperature. What is the risk?",
+    "options": [
+      "Poor film formation, slow cure, or adhesion failure",
+      "Faster cure",
+      "Better levelling",
+      "No recoat limit"
+    ],
+    "answer": 0,
+    "explanation": "Low temperature slows drying and cure. Some coatings cannot form a proper film when too cold. Product temperature limits must be followed."
+  },
+  {
+    "id": 129,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies finish paint over uncured caulk. What may happen?",
+    "options": [
+      "Cracking, tackiness, or poor adhesion",
+      "Better sealing",
+      "Faster cure of the caulk",
+      "No visible issue ever"
+    ],
+    "answer": 0,
+    "explanation": "Caulk needs proper skin or cure time. Paint applied too early can crack or remain tacky. Manufacturer instructions should be followed."
+  },
+  {
+    "id": 130,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is the best way to reduce lap marks on a large wall?",
+    "options": [
+      "Maintain wet edge and work in planned sections",
+      "Paint random patches",
+      "Use a dry roller",
+      "Stop in the centre of the wall often"
+    ],
+    "answer": 0,
+    "explanation": "Lap marks form when paint overlaps partially dried paint. A planned sequence keeps edges wet. Natural breaks help control large surfaces."
+  },
+  {
+    "id": 131,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter sees bubbles forming on a sun-heated exterior wall. What should be suspected?",
+    "options": [
+      "Heat or moisture vapour pushing through the coating",
+      "Correct application",
+      "Stronger adhesion",
+      "Too much wall covering adhesive"
+    ],
+    "answer": 0,
+    "explanation": "Heat can draw moisture or air through the substrate. This can blister fresh coating. Surface temperature and moisture should be checked."
+  },
+  {
+    "id": 132,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A semi-gloss trim finish shows brush marks. What practice helps avoid this?",
+    "options": [
+      "Use suitable brush, avoid overworking, and maintain wet edge",
+      "Brush after the paint becomes tacky",
+      "Use a dirty brush",
+      "Apply very thick paint"
+    ],
+    "answer": 0,
+    "explanation": "Semi-gloss shows tool marks easily. Overworking drying paint leaves ridges. Proper tools and timing improve levelling."
+  },
+  {
+    "id": 133,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies paint with a roller that is too dry. What result is likely?",
+    "options": [
+      "Skips, thin film, and poor hiding",
+      "Better wet edge",
+      "Higher DFT",
+      "More uniform sheen"
+    ],
+    "answer": 0,
+    "explanation": "A dry roller does not carry enough paint. Thin areas may show through after drying. The roller should be loaded correctly."
+  },
+  {
+    "id": 134,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A coating is applied much thicker than the spread rate allows. What is one possible result?",
+    "options": [
+      "Slow drying or sagging",
+      "Stronger film with no risk",
+      "Lower material cost",
+      "Better touch-up always"
+    ],
+    "answer": 0,
+    "explanation": "Excess film build can sag or dry slowly. It may also wrinkle or trap solvent/water. Spread rate controls proper thickness."
+  },
+  {
+    "id": 135,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter notices roller lint in a wet finish. What is the best immediate action?",
+    "options": [
+      "Remove lint if possible, correct roller issue, and continue properly",
+      "Ignore it until final inspection",
+      "Add more lint for consistency",
+      "Thin paint heavily"
+    ],
+    "answer": 0,
+    "explanation": "Lint becomes visible in the finish. The roller sleeve may be poor quality or not prepared. Correcting the tool prevents more defects."
+  },
+  {
+    "id": 136,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A second coat is applied after the maximum recoat time on a hard glossy coating. What may be needed?",
+    "options": [
+      "Surface abrasion or preparation for adhesion",
+      "No action ever",
+      "More water in the paint",
+      "Apply only in direct sun"
+    ],
+    "answer": 0,
+    "explanation": "Some coatings become too hard or slick after recoat window. The next coat may not bond well without abrasion. Product data sheets define the requirement."
+  },
+  {
+    "id": 137,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall shows uneven sheen where repairs were made. What is the likely cause?",
+    "options": [
+      "Repairs were not sealed evenly",
+      "Paint was stirred too much",
+      "Wall was too clean",
+      "Roller was too new"
+    ],
+    "answer": 0,
+    "explanation": "Repairs can absorb paint differently. This creates flashing or patchy sheen. Spot priming helps equalize porosity."
+  },
+  {
+    "id": 138,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why should final rolling strokes be kept consistent on a wall?",
+    "options": [
+      "To create uniform texture and sheen",
+      "To create random lap marks",
+      "To reduce hiding power",
+      "To leave more holidays"
+    ],
+    "answer": 0,
+    "explanation": "Roller direction and pressure affect texture. Inconsistent final strokes may show in side light. Uniform technique improves appearance."
+  },
+  {
+    "id": 139,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies paint outside in strong wind. What are the main risks?",
+    "options": [
+      "Fast drying, dust contamination, and poor control",
+      "Longer open time",
+      "Better levelling",
+      "Less contamination"
+    ],
+    "answer": 0,
+    "explanation": "Wind increases drying speed and carries dust. It can also spread overspray or splatter. Conditions should be controlled before painting."
+  },
+  {
+    "id": 140,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A caulk bead separates from one side of the joint after painting. What likely caused it?",
+    "options": [
+      "Dirty, wet, or unsound joint surface",
+      "Too much paint colourant",
+      "Proper cleaning",
+      "Correct joint preparation"
+    ],
+    "answer": 0,
+    "explanation": "Caulk needs clean, dry joint sides. Contamination prevents adhesion. Joint preparation is as important as caulk selection."
+  },
+  {
+    "id": 141,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter is applying paint in a high-humidity room. What problem may occur?",
+    "options": [
+      "Slow drying and possible finish defects",
+      "Instant cure",
+      "Better sanding",
+      "Lower odour always"
+    ],
+    "answer": 0,
+    "explanation": "High humidity slows water or solvent evaporation. Coatings may stay tacky or develop defects. Ventilation and product limits should be checked."
+  },
+  {
+    "id": 142,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A freshly painted door sticks to the frame after closing too soon. What was the likely issue?",
+    "options": [
+      "Paint was not dry or cured enough before closing",
+      "Paint was too old only",
+      "Surface was too clean",
+      "Primer was fully cured"
+    ],
+    "answer": 0,
+    "explanation": "Fresh paint can remain soft after it is dry to touch. Closing doors too soon can cause blocking. Adequate drying and cure time are needed."
+  },
+  {
+    "id": 143,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "Why is “dry to touch” not the same as “fully cured”?",
+    "options": [
+      "Full hardness and resistance develop later",
+      "Dry to touch means maximum durability",
+      "Curing only affects colour",
+      "Fully cured paint stays wet"
+    ],
+    "answer": 0,
+    "explanation": "Paint can feel dry before it reaches full strength. Washability and hardness may develop over days or weeks. Early cleaning or contact can damage the film."
+  },
+  {
+    "id": 144,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter touches up a wall with the same paint but the spot still shows. Why?",
+    "options": [
+      "Texture, sheen, age, or lighting may differ",
+      "Same paint always disappears perfectly",
+      "Touch-up paint cannot dry",
+      "Wall paint becomes primer"
+    ],
+    "answer": 0,
+    "explanation": "Touch-ups depend on more than colour. Aged paint, roller texture, and sheen differences can show. Sometimes repainting corner-to-corner gives better results."
+  },
+  {
+    "id": 145,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "What is the safest way to handle a missed spot after the coat dries?",
+    "options": [
+      "Touch up or recoat according to product and finish requirements",
+      "Ignore it if small",
+      "Rub with dirty rag",
+      "Cover with tape permanently"
+    ],
+    "answer": 0,
+    "explanation": "Missed spots leave uneven appearance and low protection. Repair method depends on sheen, coating, and surface. Proper blending prevents visible patches."
+  },
+  {
+    "id": 146,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A metallic coating appears striped after rolling. What is the most likely cause?",
+    "options": [
+      "Inconsistent roller direction or overlap",
+      "Correct technique",
+      "Too much surface cleaning",
+      "Proper mock-up matching"
+    ],
+    "answer": 0,
+    "explanation": "Metallic particles reflect light directionally. Random roller direction creates visible striping. Consistent application technique is critical."
+  },
+  {
+    "id": 147,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A decorative glaze dries before the painter can blend it. What condition may have caused this?",
+    "options": [
+      "High temperature, low humidity, or poor timing",
+      "Too much open time",
+      "Correct working conditions",
+      "Proper sample approval"
+    ],
+    "answer": 0,
+    "explanation": "Glaze needs open time to work the effect. Heat or low humidity can dry it too fast. Working conditions and area size must be controlled."
+  },
+  {
+    "id": 148,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why should the same applicator or same technique be used across a decorative wall?",
+    "options": [
+      "Decorative finishes show differences in hand technique",
+      "It reduces all preparation needs",
+      "It prevents paint from drying",
+      "It removes colour from glaze"
+    ],
+    "answer": 0,
+    "explanation": "Pressure, motion, timing, and tool angle affect the effect. Different applicators may produce different patterns. Consistency is important for uniform appearance."
+  },
+  {
+    "id": 149,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A specialty finish is applied over a poorly sealed porous surface. What is likely?",
+    "options": [
+      "Uneven absorption and patchy appearance",
+      "Perfect uniform finish",
+      "Better colour control",
+      "No need for base coat"
+    ],
+    "answer": 0,
+    "explanation": "Porous areas absorb material differently. Decorative finishes show unevenness easily. A proper base coat or sealer improves consistency."
+  },
+  {
+    "id": 150,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "Why should a clear protective coat be tested before applying over a decorative finish?",
+    "options": [
+      "It may change colour, sheen, or disturb the effect",
+      "It always improves without changing appearance",
+      "It replaces the base coat",
+      "It removes the need for curing"
+    ],
+    "answer": 0,
+    "explanation": "Clear coats can darken, lift, or change decorative finishes. Testing confirms compatibility and appearance. The approved sample should include the full system."
+  },
+  {
+    "id": 151,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is repainting a hospital hallway that must stay open to staff. What is the best preparation plan?",
+    "options": [
+      "Paint during busiest time with strong solvent paint",
+      "Use low-odour coating, signs, barriers, ventilation, and safe access plan",
+      "Block the hallway completely without notice",
+      "Leave wet paint unmarked"
+    ],
+    "answer": 1,
+    "explanation": "Occupied institutional areas require planning for safety, odour, and access. Low-odour products, ventilation, and warning signs protect people. Work must not create unsafe travel paths."
+  },
+  {
+    "id": 152,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has glossy paint, dust, and hand oils near a door frame. What should be done before repainting?",
+    "options": [
+      "Paint directly over it",
+      "Clean, dull-sand, remove dust, and prime if required",
+      "Apply only more gloss paint",
+      "Wet the wall with clean water and paint immediately"
+    ],
+    "answer": 1,
+    "explanation": "Oils and dust reduce adhesion. Glossy paint usually needs dulling to create tooth. Primer may be needed depending on the new coating system."
+  },
+  {
+    "id": 153,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter finds small bubbles in old paint around a bathroom ceiling fan. What should be checked first?",
+    "options": [
+      "Paint colour",
+      "Moisture and ventilation problem",
+      "Roller nap size",
+      "Masking tape width"
+    ],
+    "answer": 1,
+    "explanation": "Bubbles near bathroom fans often suggest moisture or poor ventilation. Painting without fixing the cause may lead to repeat failure. Moisture must be controlled before coating."
+  },
+  {
+    "id": 154,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A commercial wall has marker stains. What is the best preparation before finish paint?",
+    "options": [
+      "Paint directly with flat paint",
+      "Clean and use suitable stain-blocking primer",
+      "Sand only the stain lightly and ignore it",
+      "Apply water to dilute the marker"
+    ],
+    "answer": 1,
+    "explanation": "Marker stains can bleed through regular paint. Cleaning removes surface residue. A stain-blocking primer prevents staining from returning."
+  },
+  {
+    "id": 155,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A client wants a very dark colour in a room with many repaired patches. What is important?",
+    "options": [
+      "Skip primer because dark paint hides everything",
+      "Seal repairs and consider tinted primer",
+      "Add water to the dark paint",
+      "Use only one thin coat"
+    ],
+    "answer": 1,
+    "explanation": "Repairs can flash if not sealed. Dark colours may need tinted primer for better hiding. Proper preparation helps the final colour look even."
+  },
+  {
+    "id": 156,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is repainting walls in a restaurant kitchen. What surface problem is most likely before painting?",
+    "options": [
+      "Grease contamination",
+      "Mill scale",
+      "Wallpaper shrinkage",
+      "Wood grain raising"
+    ],
+    "answer": 0,
+    "explanation": "Restaurant kitchens often have grease and food residue. Grease prevents coating adhesion. Degreasing is essential before sanding or painting."
+  },
+  {
+    "id": 157,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has old paint that wrinkles when a test patch of new coating is applied. What does this show?",
+    "options": [
+      "The new coating is compatible",
+      "Possible solvent sensitivity or incompatibility",
+      "The wall is too dry",
+      "The colour is too light"
+    ],
+    "answer": 1,
+    "explanation": "Wrinkling during a test patch suggests the new coating is attacking the old coating. Compatibility must be confirmed before full application. A different primer or coating system may be needed."
+  },
+  {
+    "id": 158,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter finds that a primer has been left exposed for several weeks before finish coating. What should be checked?",
+    "options": [
+      "Whether it collected dirt, chalking, damage, or exceeded recoat time",
+      "Only the primer colour",
+      "Whether the roller tray is clean",
+      "Whether the room is quiet"
+    ],
+    "answer": 0,
+    "explanation": "Exposed primer can collect contamination or degrade. Some primers have maximum recoat times. Cleaning, sanding, or repriming may be required."
+  },
+  {
+    "id": 159,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A classroom wall is frequently washed by custodial staff. Which finish is usually more suitable?",
+    "options": [
+      "Flat finish with poor scrub resistance",
+      "Durable washable eggshell, satin, or semi-gloss coating",
+      "Unsealed primer only",
+      "Chalky old paint"
+    ],
+    "answer": 1,
+    "explanation": "Classrooms need coatings that resist cleaning and hand contact. Washability and abrasion resistance are important. The final sheen should match appearance and durability needs."
+  },
+  {
+    "id": 160,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is preparing to apply paint in a room with poor lighting. Why is temporary lighting useful?",
+    "options": [
+      "It helps hide defects",
+      "It reveals sanding marks, misses, and surface defects",
+      "It makes paint dry instantly",
+      "It replaces primer"
+    ],
+    "answer": 1,
+    "explanation": "Poor lighting can hide surface problems. Temporary lighting helps inspect repairs and coverage. Good visibility improves final quality."
+  },
+  {
+    "id": 161,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A wall has a chalky residue after washing. What should happen before painting?",
+    "options": [
+      "Paint immediately",
+      "Continue cleaning or use suitable primer if specified",
+      "Add chalk to the paint",
+      "Use only clear coat"
+    ],
+    "answer": 1,
+    "explanation": "Chalk residue is a weak layer. Coating over chalk may lead to adhesion failure. The surface must be sound and properly sealed."
+  },
+  {
+    "id": 162,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter is working in an office with computers and furniture nearby. What is the best protection before spraying?",
+    "options": [
+      "Spray carefully without covering anything",
+      "Mask, cover, contain overspray, and protect equipment",
+      "Open windows only",
+      "Move spray gun faster"
+    ],
+    "answer": 1,
+    "explanation": "Overspray can damage electronics, furniture, floors, and glass. Masking and containment are required. Ventilation and access control should also be planned."
+  },
+  {
+    "id": 163,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "Why should old loose caulk be removed before repainting trim joints?",
+    "options": [
+      "New caulk bonds best to loose caulk",
+      "Loose caulk can fail under new paint",
+      "Paint permanently repairs loose caulk",
+      "Caulk does not affect painting"
+    ],
+    "answer": 1,
+    "explanation": "Loose caulk is not a sound base. New caulk needs clean, dry joint surfaces. Failed caulk can crack and ruin the finish."
+  },
+  {
+    "id": 164,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter must paint over a repaired water stain. The leak is fixed. What is the next important step?",
+    "options": [
+      "Apply finish paint only",
+      "Use appropriate stain-blocking primer",
+      "Wet the stain again",
+      "Sand through the drywall paper"
+    ],
+    "answer": 1,
+    "explanation": "Water stains can bleed through finish paint. A stain-blocking primer seals the discoloration. The source of moisture must be corrected first."
+  },
+  {
+    "id": 165,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter chooses paint for a children’s playroom. Which coating feature is most useful?",
+    "options": [
+      "Washability and low odour",
+      "Poor scrub resistance",
+      "Maximum solvent smell",
+      "Weak adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Playrooms need coatings that can be cleaned. Low odour is helpful for occupied or sensitive spaces. Durability and safety both matter."
+  },
+  {
+    "id": 166,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter finds sanding dust on a wall after repairs. What should happen before priming?",
+    "options": [
+      "Prime over it quickly",
+      "Vacuum or wipe dust from the surface",
+      "Add water to dust",
+      "Roll thicker paint"
+    ],
+    "answer": 1,
+    "explanation": "Sanding dust prevents primer from bonding. It also creates roughness in the finish. Dust removal is required before coating."
+  },
+  {
+    "id": 167,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A client asks for one coat only over a strong colour change. What should the painter explain?",
+    "options": [
+      "One coat always covers any colour",
+      "Proper primer and multiple coats may be required",
+      "Paint should be heavily thinned",
+      "Sanding removes colour difference"
+    ],
+    "answer": 1,
+    "explanation": "Strong colour changes often need primer and more than one coat. Coverage depends on hiding power and film build. The finish must meet appearance standards, not just coat count."
+  },
+  {
+    "id": 168,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter opens several cans of the same colour for one long wall. What should be done?",
+    "options": [
+      "Use cans one at a time without mixing",
+      "Box the paint together",
+      "Add different thinner to each can",
+      "Use the darkest can first"
+    ],
+    "answer": 1,
+    "explanation": "Boxing blends slight colour differences between cans. This prevents shade changes across large walls. It is especially important on continuous visible surfaces."
+  },
+  {
+    "id": 169,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A surface was cleaned with TSP substitute but remains slippery. What does this suggest?",
+    "options": [
+      "The surface is ready",
+      "Residue or contamination may remain",
+      "Paint will bond better",
+      "Primer is unnecessary"
+    ],
+    "answer": 1,
+    "explanation": "Slipperiness may mean residue, grease, or cleaner remains. Residues can interfere with adhesion. The surface should be rinsed or cleaned properly."
+  },
+  {
+    "id": 170,
+    "category": "C — Task 11: Prepares for Application",
+    "question": "A painter must choose coating for a washroom ceiling. Which issue should be considered?",
+    "options": [
+      "Moisture and mildew resistance",
+      "Blast profile",
+      "Wood toner colour",
+      "Wallpaper repeat"
+    ],
+    "answer": 0,
+    "explanation": "Washroom ceilings are exposed to humidity. Moisture can cause peeling and mildew. A suitable coating and ventilation help durability."
+  },
+  {
+    "id": 171,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls a wall from top to bottom but leaves dry edges between passes. What is likely?",
+    "options": [
+      "Lap marks",
+      "Better hiding",
+      "Improved wet edge",
+      "Less texture"
+    ],
+    "answer": 0,
+    "explanation": "Dry edges do not blend well with fresh paint. Overlapping partially dried paint creates lap marks. Maintaining a wet edge reduces this defect."
+  },
+  {
+    "id": 172,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A finish coat sags on a vertical wall shortly after application. What should be checked?",
+    "options": [
+      "Excess film build and application technique",
+      "Wallpaper run number",
+      "Wood species",
+      "Door hardware size"
+    ],
+    "answer": 0,
+    "explanation": "Sags usually happen when too much coating is applied. Wrong roller, brush, or spray technique can also cause heavy film. Correct spread rate prevents sagging."
+  },
+  {
+    "id": 173,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies paint in a cold stairwell below product limits. What is the main risk?",
+    "options": [
+      "Poor drying and film formation",
+      "Faster curing",
+      "Better adhesion",
+      "Higher sheen always"
+    ],
+    "answer": 0,
+    "explanation": "Cold temperatures slow drying and curing. Some coatings will not form a proper film. Application must follow temperature limits."
+  },
+  {
+    "id": 174,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter is brushing trim and notices the paint dragging. What is the best response?",
+    "options": [
+      "Keep brushing until smooth",
+      "Stop overworking and maintain proper wet edge",
+      "Brush faster after it becomes tacky",
+      "Add dust to reduce drag"
+    ],
+    "answer": 1,
+    "explanation": "Dragging means paint is starting to set or tool technique is wrong. Overworking makes brush marks worse. Proper timing and wet edge improve levelling."
+  },
+  {
+    "id": 175,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A roller leaves heavy lines at both edges. What is the best correction?",
+    "options": [
+      "Use even pressure and feather the edges",
+      "Press harder on the roller edges",
+      "Let the roller dry out",
+      "Stop stirring paint"
+    ],
+    "answer": 0,
+    "explanation": "Edge lines come from uneven pressure or overloaded roller. Feathering blends the paint into the surface. Proper loading and technique prevent ridges."
+  },
+  {
+    "id": 176,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies a second coat while the first coat is still soft. What defect may occur?",
+    "options": [
+      "Wrinkling or poor cure",
+      "Better adhesion",
+      "More uniform cure",
+      "Stronger film immediately"
+    ],
+    "answer": 0,
+    "explanation": "Recoating too soon can trap water or solvent. The lower coat may remain soft and wrinkle. Recoat times must be followed."
+  },
+  {
+    "id": 177,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall shows holidays after the first coat. What does the painter need to do?",
+    "options": [
+      "Correct missed areas or apply required additional coat",
+      "Ignore if the colour is close",
+      "Sand only the ceiling",
+      "Add thinner to the dry wall"
+    ],
+    "answer": 0,
+    "explanation": "Holidays are missed or undercoated spots. They affect appearance and protection. They must be corrected according to the coating system."
+  },
+  {
+    "id": 178,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter back-rolls sprayed paint on block wall. Why?",
+    "options": [
+      "To push coating into pores and improve uniformity",
+      "To remove all paint from the wall",
+      "To create dry spray",
+      "To make the paint thinner"
+    ],
+    "answer": 0,
+    "explanation": "Concrete block is porous and textured. Back-rolling improves contact in low spots. It helps reduce pinholes and holidays."
+  },
+  {
+    "id": 179,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter paints exterior siding just before strong wind and dust. What defect may occur?",
+    "options": [
+      "Dust contamination and poor appearance",
+      "Better adhesion",
+      "Smoother finish",
+      "Reduced drying speed"
+    ],
+    "answer": 0,
+    "explanation": "Wind can blow dust into wet paint. It can also cause rapid drying and lap marks. Exterior painting should be planned around conditions."
+  },
+  {
+    "id": 180,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A semi-gloss door finish sticks to weatherstripping after drying overnight. What is this called?",
+    "options": [
+      "Blocking",
+      "Blushing",
+      "Efflorescence",
+      "Mill scale"
+    ],
+    "answer": 0,
+    "explanation": "Blocking is sticking between painted surfaces. Paint may be dry to touch but not cured enough. Adequate cure time helps prevent it."
+  },
+  {
+    "id": 181,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A fresh paint film is damaged by cleaning too soon. What was misunderstood?",
+    "options": [
+      "Dry to touch is not full cure",
+      "Paint cures immediately when dry to touch",
+      "Washing improves fresh paint",
+      "Cure only affects colour"
+    ],
+    "answer": 0,
+    "explanation": "Paint may feel dry before reaching full hardness. Washability develops after proper curing. Early cleaning can damage the film."
+  },
+  {
+    "id": 182,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter rolls a ceiling and changes direction randomly. What may result?",
+    "options": [
+      "Uneven texture and visible roller marks",
+      "Better uniformity",
+      "More hiding power",
+      "No lap marks"
+    ],
+    "answer": 0,
+    "explanation": "Direction and pressure affect ceiling appearance. Random rolling can show in light. Consistent final strokes improve uniform finish."
+  },
+  {
+    "id": 183,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter sees foaming while rolling paint. What could be the cause?",
+    "options": [
+      "Overworking, wrong roller, or excessive speed",
+      "Proper slow rolling",
+      "Paint fully cured",
+      "Wall covering paste"
+    ],
+    "answer": 0,
+    "explanation": "Fast rolling can introduce air. Some roller sleeves or coatings foam more easily. Technique should be adjusted to reduce bubbles."
+  },
+  {
+    "id": 184,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A freshly painted exterior surface develops blisters after sun exposure. What should be investigated?",
+    "options": [
+      "Moisture under coating or heat-related vapour pressure",
+      "Wallpaper adhesive failure",
+      "Too much masking tape",
+      "Wood stain colour"
+    ],
+    "answer": 0,
+    "explanation": "Heat can draw vapour through the substrate. Trapped moisture or air can form blisters. The cause must be corrected before repainting."
+  },
+  {
+    "id": 185,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter touches up a satin wall and the spot is visible. What is one likely reason?",
+    "options": [
+      "Sheen or texture difference",
+      "The paint cannot dry",
+      "The wall is too new only",
+      "Primer is always darker"
+    ],
+    "answer": 0,
+    "explanation": "Satin finishes can show touch-ups. Texture, sheen, age, and lighting affect appearance. Sometimes repainting the whole wall is better."
+  },
+  {
+    "id": 186,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A roller sleeve is too short-nap for a rough textured surface. What is likely?",
+    "options": [
+      "Missed low spots and poor coverage",
+      "Excessive penetration",
+      "Perfect film build",
+      "No need for second coat"
+    ],
+    "answer": 0,
+    "explanation": "Short nap may not reach low areas of texture. The coating can miss depressions. Tool selection must match surface texture."
+  },
+  {
+    "id": 187,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter removes masking tape long after paint fully hardens. What can happen?",
+    "options": [
+      "Paint edge may tear or lift",
+      "Tape will always remove cleanly",
+      "Paint becomes stronger at edge",
+      "Tape removes dust only"
+    ],
+    "answer": 0,
+    "explanation": "Hardened paint can bridge over tape. Removing tape late may tear the paint film. Tape should be removed at the proper time."
+  },
+  {
+    "id": 188,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter applies caulk over a dusty joint. What defect is likely?",
+    "options": [
+      "Caulk separation or poor adhesion",
+      "Stronger joint bond",
+      "Faster cure only",
+      "Better paint hiding"
+    ],
+    "answer": 0,
+    "explanation": "Dust prevents caulk from bonding to joint surfaces. The joint must be clean and dry. Poor caulk adhesion leads to cracks and separation."
+  },
+  {
+    "id": 189,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A wall has roller lap marks after drying. What is the best prevention next time?",
+    "options": [
+      "Maintain wet edge and avoid overrolling drying paint",
+      "Roll random areas first",
+      "Use a dry roller",
+      "Paint only in direct sun"
+    ],
+    "answer": 0,
+    "explanation": "Lap marks happen when paint overlaps partially dry areas. Overrolling drying paint makes them worse. Wet edge and planned sequence help prevent them."
+  },
+  {
+    "id": 190,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter uses a very high sheen paint on poorly sanded trim. What will likely happen?",
+    "options": [
+      "Sanding scratches will show clearly",
+      "High sheen will hide scratches",
+      "Paint will not dry",
+      "Trim becomes self-levelling perfectly"
+    ],
+    "answer": 0,
+    "explanation": "High sheen reflects light and highlights defects. Poor sanding becomes visible after coating. Smooth preparation is required."
+  },
+  {
+    "id": 191,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A newly painted wall has surfactant streaks after humid overnight conditions. What should be understood?",
+    "options": [
+      "Moisture affected the uncured paint film",
+      "Paint was fully cured immediately",
+      "Streaks are always primer failure",
+      "Extra sanding caused rust"
+    ],
+    "answer": 0,
+    "explanation": "Humidity, dew, or condensation can draw surfactants to the surface. This often appears as streaks or shiny marks. Fresh paint should be protected from moisture."
+  },
+  {
+    "id": 192,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter is applying paint to trim and repeatedly dips the brush too deeply. What issue can result?",
+    "options": [
+      "Drips, runs, and poor brush control",
+      "Better cutting-in",
+      "Faster drying",
+      "Less cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Overloading the brush causes drips and heavy application. Good brush control requires proper loading. Excess paint also increases runs and mess."
+  },
+  {
+    "id": 193,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A coating dries with uneven colour because the painter did not stir during use. What likely happened?",
+    "options": [
+      "Pigments settled during application",
+      "The wall absorbed oxygen",
+      "Primer changed the room temperature",
+      "Tape removed colour"
+    ],
+    "answer": 0,
+    "explanation": "Pigments and solids can settle in the can. Without stirring, colour and sheen may vary. Paint should be mixed properly during use."
+  },
+  {
+    "id": 194,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter is applying paint on a hot wall surface. What problem can occur?",
+    "options": [
+      "Paint dries too fast to level properly",
+      "Paint stays wet forever",
+      "Primer becomes unnecessary",
+      "Hiding power doubles automatically"
+    ],
+    "answer": 0,
+    "explanation": "Hot surfaces reduce open time. Paint may not flow out before drying. Lap marks, brush marks, and poor adhesion may occur."
+  },
+  {
+    "id": 195,
+    "category": "C — Task 12: Applies Paints and Coatings",
+    "question": "A painter finds that paint is sagging only near inside corners. What may be the cause?",
+    "options": [
+      "Excess paint loaded in corners during cutting-in",
+      "Perfect film control",
+      "Too little paint everywhere",
+      "Surface is too dry only"
+    ],
+    "answer": 0,
+    "explanation": "Corners can collect extra paint from brush or roller. Heavy buildup can sag. Controlled cutting-in prevents excess film."
+  },
+  {
+    "id": 196,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A Venetian-style finish is approved on a sample, but the wall looks different because a different tool was used. What lesson applies?",
+    "options": [
+      "Tool choice affects decorative finish appearance",
+      "Decorative finishes always look the same",
+      "Samples are unnecessary",
+      "Tool marks never show"
+    ],
+    "answer": 0,
+    "explanation": "Decorative finishes depend on tool type, pressure, and technique. Changing tools can change texture and sheen. The approved method should be repeated."
+  },
+  {
+    "id": 197,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A glaze finish has dark lap lines. What likely happened?",
+    "options": [
+      "The glaze dried before blending between sections",
+      "The surface was too smooth only",
+      "Primer was too compatible",
+      "The painter used enough open time"
+    ],
+    "answer": 0,
+    "explanation": "Glaze needs workable open time. If one section dries before the next is blended, lap lines appear. Work area size and conditions must be controlled."
+  },
+  {
+    "id": 198,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A specialty texture finish is applied over loose old paint. What is the main risk?",
+    "options": [
+      "The finish may fail with the loose old coating",
+      "Thick texture fixes all loose paint",
+      "Adhesion improves automatically",
+      "Loose paint becomes primer"
+    ],
+    "answer": 0,
+    "explanation": "Specialty finishes still need a sound surface. Loose old paint cannot support new material. Unsound coating must be removed before application."
+  },
+  {
+    "id": 199,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A decorative finish will be used in a busy reception area. What should be considered?",
+    "options": [
+      "Protective clear coat or durable finish system",
+      "Leaving it unsealed always",
+      "Using weak base coat",
+      "Avoiding sample approval"
+    ],
+    "answer": 0,
+    "explanation": "Busy areas receive touching, cleaning, and wear. Decorative finishes may need extra protection. Any clear coat should be tested for appearance and compatibility."
+  },
+  {
+    "id": 200,
+    "category": "C — Task 13: Applies Decorative/Specialty Finishes",
+    "question": "A metallic finish shows every patch mark on a wall. What should have been done?",
+    "options": [
+      "Better surface preparation and proper base coat",
+      "Less sanding and no primer",
+      "Apply over dust for texture",
+      "Use random roller direction"
+    ],
+    "answer": 0,
+    "explanation": "Metallic finishes reflect light and highlight defects. Patch marks, ridges, and uneven porosity can show clearly. Smooth prep and proper base coat are essential."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledPainterDecoratorSectionCQuestions =
+  shuffleArray(painterDecoratorSectionCQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "painter-and-decorator",
+  tradeTitle: "Painter and Decorator",
+  sectionTitle: "Section C — Paints, Coatings and Finishes",
+  questionTimeSeconds: 90,
+  questions: shuffledPainterDecoratorSectionCQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledPainterDecoratorSectionCQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

@@ -1,0 +1,6 @@
+Red Seal Practice reference-theme redesign
+- Navy navigation, white content surfaces, blue-to-purple primary actions
+- Responsive homepage hero using existing trades image collage
+- Unified cards, forms, auth pages, FAQ, article pages, trade pages, tests and account views
+- Existing routes, payment logic, test access and backend files preserved
+- Main theme: public/css/reference-pro-theme.css

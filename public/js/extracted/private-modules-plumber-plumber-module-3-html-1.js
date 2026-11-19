@@ -1,0 +1,2696 @@
+const redSealPlumberSectionEPracticeQuestions = [
+  {
+    "id": 1,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the main purpose of a plumbing fixture?",
+    "options": [
+      "To receive water or waste and connect to the plumbing system",
+      "To increase gas pressure",
+      "To support roof drains",
+      "To heat hydronic water"
+    ],
+    "answer": 0,
+    "explanation": "Plumbing fixtures include sinks, toilets, tubs, showers, and similar equipment. They use water, discharge waste, or both. They must be connected safely to supply and drainage systems."
+  },
+  {
+    "id": 2,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why must a toilet be secured firmly to the floor?",
+    "options": [
+      "To prevent rocking and seal failure",
+      "To increase flush pressure",
+      "To reduce water temperature",
+      "To improve vent height"
+    ],
+    "answer": 0,
+    "explanation": "A rocking toilet can damage the closet seal. This can cause leaks and odours. The toilet must be stable before use."
+  },
+  {
+    "id": 3,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a closet flange?",
+    "options": [
+      "Connect and secure the toilet to the drainage system",
+      "Reduce water pressure",
+      "Heat the toilet tank",
+      "Vent the water heater"
+    ],
+    "answer": 0,
+    "explanation": "The closet flange connects the toilet outlet to the drain. It also provides a fastening point for the toilet. Correct height and alignment are important."
+  },
+  {
+    "id": 4,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A toilet flange is too low below the finished floor. What can happen?",
+    "options": [
+      "Poor seal and leakage",
+      "Better flushing",
+      "Higher water pressure",
+      "More hot water"
+    ],
+    "answer": 0,
+    "explanation": "The toilet seal needs proper compression. A low flange may not seal correctly. Wastewater or sewer gas can escape."
+  },
+  {
+    "id": 5,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a lavatory trap?",
+    "options": [
+      "Hold a water seal against sewer gas",
+      "Increase faucet pressure",
+      "Heat the water",
+      "Remove hardness minerals"
+    ],
+    "answer": 0,
+    "explanation": "The trap holds water in its bend. This water seal blocks sewer gases. The trap must be installed correctly and remain accessible."
+  },
+  {
+    "id": 6,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A slip-joint trap leaks. What should be checked first?",
+    "options": [
+      "Washer position and joint alignment",
+      "Gas pressure",
+      "Roof drain size",
+      "Water heater thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Slip joints seal with washers and proper alignment. Misaligned or damaged washers can leak. Overtightening can also damage the joint."
+  },
+  {
+    "id": 7,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should wall-hung fixtures have proper carriers or supports?",
+    "options": [
+      "Finished walls alone may not hold the load",
+      "They need more water pressure",
+      "They do not need traps",
+      "They must be lower than floor drains"
+    ],
+    "answer": 0,
+    "explanation": "Wall-hung fixtures carry user and water loads. Proper carriers transfer weight to the structure. Poor support can cause leaks and wall damage."
+  },
+  {
+    "id": 8,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the usual concern if a sink is installed without proper support?",
+    "options": [
+      "Movement, leaks, or fixture damage",
+      "Higher water flow",
+      "Better drainage",
+      "Less need for venting"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures must be stable during use. Movement stresses supply and drain connections. Proper mounting prevents leaks and damage."
+  },
+  {
+    "id": 9,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should faucet aerators be removed or protected during initial flushing?",
+    "options": [
+      "Debris can clog them",
+      "They increase sewer gas",
+      "They reduce trap seal",
+      "They heat water"
+    ],
+    "answer": 0,
+    "explanation": "New piping can contain dirt, chips, and flux. Aerators have small screens that clog easily. Flushing protects fixtures and valves."
+  },
+  {
+    "id": 10,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A faucet has hot water on the right and cold on the left. What is the concern?",
+    "options": [
+      "Reversed supplies can confuse users and create scald risk",
+      "Water pressure increases",
+      "Drainage improves",
+      "The trap seal becomes deeper"
+    ],
+    "answer": 0,
+    "explanation": "Hot is normally on the left and cold on the right. Reversed supplies can surprise users. This may increase scald risk."
+  },
+  {
+    "id": 11,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a fixture supply stop?",
+    "options": [
+      "Shut off water to one fixture",
+      "Vent the fixture drain",
+      "Increase water hardness",
+      "Clean the sewer"
+    ],
+    "answer": 0,
+    "explanation": "Fixture stops allow local isolation. A fixture can be repaired without shutting off the whole building. They should remain accessible."
+  },
+  {
+    "id": 12,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture stop is hidden behind a fixed cabinet panel. What is wrong?",
+    "options": [
+      "It is not accessible for service",
+      "It improves appearance",
+      "It increases water pressure",
+      "It prevents water hammer"
+    ],
+    "answer": 0,
+    "explanation": "Shutoff valves must be reachable. Hidden valves delay emergency shutoff and repairs. Accessibility is part of proper installation."
+  },
+  {
+    "id": 13,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should a dishwasher drain hose have a high loop or air gap where required?",
+    "options": [
+      "To reduce backflow from the sink drain",
+      "To increase electrical power",
+      "To heat wash water",
+      "To increase water pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sink wastewater can backflow into the dishwasher. A high loop or air gap helps prevent contamination. Code and manufacturer instructions must be followed."
+  },
+  {
+    "id": 14,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A dishwasher is not secured and tips forward when opened. What is the problem?",
+    "options": [
+      "It is not properly anchored",
+      "The drain is too large",
+      "The trap is too deep",
+      "The vent is too high"
+    ],
+    "answer": 0,
+    "explanation": "Dishwashers must be secured to the cabinet or structure. Movement can damage supply, drain, or electrical connections. Manufacturer installation instructions should be followed."
+  },
+  {
+    "id": 15,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A washing machine standpipe overflows during drain cycle. What should be checked?",
+    "options": [
+      "Standpipe size, trap, venting, and blockage",
+      "Water heater burner",
+      "Toilet flange bolts",
+      "Roof flashing"
+    ],
+    "answer": 0,
+    "explanation": "Washing machines discharge water quickly. The standpipe and drain must handle the flow. Blockage or poor venting can cause overflow."
+  },
+  {
+    "id": 16,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should washing machine supply hoses be inspected?",
+    "options": [
+      "Damaged hoses can burst and flood the building",
+      "They control sewer gas",
+      "They remove hardness",
+      "They increase venting"
+    ],
+    "answer": 0,
+    "explanation": "Hoses operate under pressure. Cracked, bulging, or old hoses can fail. Regular inspection helps prevent water damage."
+  },
+  {
+    "id": 17,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A bathtub leaks only when filled high. What should be checked?",
+    "options": [
+      "Overflow gasket and waste assembly",
+      "Gas regulator",
+      "Roof drain strainer",
+      "Water softener timer"
+    ],
+    "answer": 0,
+    "explanation": "High water reaches the overflow connection. A loose or damaged overflow gasket can leak. Testing should include the waste and overflow."
+  },
+  {
+    "id": 18,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A tub drain leaks during normal draining. What is a likely cause?",
+    "options": [
+      "Loose drain shoe, gasket, or connection",
+      "High gas pressure",
+      "Cold water condensation",
+      "Low water hardness"
+    ],
+    "answer": 0,
+    "explanation": "Tub drains rely on sealed connections. Loose fittings or damaged gaskets can leak. The assembly should be tested after installation."
+  },
+  {
+    "id": 19,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why is shower valve rough-in depth important?",
+    "options": [
+      "Trim and handle may not fit correctly",
+      "Drain slope will increase",
+      "Water will soften automatically",
+      "Fixture support becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Shower valves are designed for a finished wall thickness. If set too deep or too shallow, trim may not fit. Incorrect depth often causes rework."
+  },
+  {
+    "id": 20,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of an anti-scald or temperature-control shower valve?",
+    "options": [
+      "Reduce risk of sudden hot water burns",
+      "Increase sewer slope",
+      "Remove air from drains",
+      "Increase fixture weight"
+    ],
+    "answer": 0,
+    "explanation": "Temperature-control valves help protect users. They reduce scald risk from pressure or temperature changes. They must be installed and adjusted correctly."
+  },
+  {
+    "id": 21,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower valve is installed with hot and cold reversed. What can happen?",
+    "options": [
+      "Temperature control may not work properly",
+      "Drainage becomes faster",
+      "Trap seal increases",
+      "Water pressure disappears"
+    ],
+    "answer": 0,
+    "explanation": "Shower valves require correct hot and cold connections. Reversed supplies can affect operation and safety. It may create scalding or comfort problems."
+  },
+  {
+    "id": 22,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should a fixture be tested after installation?",
+    "options": [
+      "To confirm supply, drainage, operation, and leak-free joints",
+      "To increase pipe size",
+      "To remove water treatment",
+      "To reduce fixture supports"
+    ],
+    "answer": 0,
+    "explanation": "Final testing confirms the fixture works correctly. Leaks should be found before the job is finished. Both supply and drain sides should be checked."
+  },
+  {
+    "id": 23,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink drains slowly after installation. What should be checked first?",
+    "options": [
+      "Trap alignment, blockage, and venting",
+      "Gas appliance input",
+      "Water heater anode",
+      "Roof drain size"
+    ],
+    "answer": 0,
+    "explanation": "Slow drainage can come from misalignment or blockage. Poor venting can also reduce drainage performance. The trap and branch should be inspected."
+  },
+  {
+    "id": 24,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink tailpiece barely enters the trap adapter. What is the concern?",
+    "options": [
+      "Joint may separate or leak",
+      "Water pressure will increase",
+      "Trap seal will double",
+      "Hot water will arrive faster"
+    ],
+    "answer": 0,
+    "explanation": "Slip-joint connections require proper insertion. Insufficient engagement can leak or pull apart. Drain components should be properly aligned."
+  },
+  {
+    "id": 25,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a water heater T&P relief valve?",
+    "options": [
+      "Relieve unsafe temperature or pressure",
+      "Increase hot water temperature",
+      "Remove hardness minerals",
+      "Vent sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "T&P means temperature and pressure. The valve opens under unsafe conditions. It is a critical safety device."
+  },
+  {
+    "id": 26,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why must a T&P relief discharge pipe terminate safely?",
+    "options": [
+      "Discharge may be hot and pressurized",
+      "It increases heater efficiency",
+      "It removes all sediment",
+      "It prevents hard water"
+    ],
+    "answer": 0,
+    "explanation": "Relief discharge can scald or injure people. The pipe must not be capped or restricted. It must terminate according to requirements."
+  },
+  {
+    "id": 27,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater relief discharge pipe is capped. Why is this dangerous?",
+    "options": [
+      "The valve cannot relieve pressure safely",
+      "It increases efficiency",
+      "It improves recovery rate",
+      "It stops corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Relief valves must discharge freely. Capping the pipe can create an explosion hazard. Safety discharge must never be blocked."
+  },
+  {
+    "id": 28,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why is water heater sediment draining sometimes performed?",
+    "options": [
+      "To remove sediment buildup from the tank",
+      "To increase sewer venting",
+      "To soften water permanently",
+      "To reduce fixture count"
+    ],
+    "answer": 0,
+    "explanation": "Sediment can settle in water heaters. It can reduce efficiency and cause noise. Draining may be part of maintenance."
+  },
+  {
+    "id": 29,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a water heater anode rod?",
+    "options": [
+      "Help reduce tank corrosion",
+      "Increase drain slope",
+      "Remove sewer gas",
+      "Increase water pressure"
+    ],
+    "answer": 0,
+    "explanation": "The anode rod sacrifices itself to protect the tank. It helps reduce corrosion of steel tanks. It may need inspection or replacement."
+  },
+  {
+    "id": 30,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture is installed out of level. What can result?",
+    "options": [
+      "Poor drainage, poor appearance, or seal problems",
+      "Higher pressure",
+      "Better operation",
+      "Lower water temperature"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures should be level and stable. Out-of-level installation can affect drainage and seals. It can also create customer complaints. ## E15 — Water Treatment Systems"
+  },
+  {
+    "id": 31,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the main purpose of a water softener?",
+    "options": [
+      "Remove hardness minerals",
+      "Heat water",
+      "Increase sewer slope",
+      "Vent fixtures"
+    ],
+    "answer": 0,
+    "explanation": "Water softeners mainly remove calcium and magnesium. These minerals cause hardness and scale. Softening improves fixture and equipment performance."
+  },
+  {
+    "id": 32,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does “hard water” commonly cause?",
+    "options": [
+      "Scale buildup",
+      "Sewer gas",
+      "Water hammer",
+      "Reduced pipe support"
+    ],
+    "answer": 0,
+    "explanation": "Hard water contains calcium and magnesium. These minerals form scale. Scale can affect heaters, valves, and fixtures."
+  },
+  {
+    "id": 33,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does gpg mean in water treatment?",
+    "options": [
+      "Grains per gallon",
+      "Gallons per gas",
+      "Grade per gallon",
+      "Gauge pressure gradient"
+    ],
+    "answer": 0,
+    "explanation": "gpg means grains per gallon. It is a common hardness unit. It is used for softener sizing."
+  },
+  {
+    "id": 34,
+    "category": "E15 — Water Treatment Systems",
+    "question": "To convert hardness from gpg to ppm, multiply by:",
+    "options": [
+      "3.28",
+      "8.33",
+      "17.12",
+      "100"
+    ],
+    "answer": 2,
+    "explanation": "The common conversion is gpg × 17.12 = ppm. This helps compare hardness values. It is often used in water treatment calculations."
+  },
+  {
+    "id": 35,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water test shows 10 gpg hardness. Approximately how many ppm is this?",
+    "options": [
+      "100 ppm",
+      "171 ppm",
+      "250 ppm",
+      "500 ppm"
+    ],
+    "answer": 1,
+    "explanation": "10 × 17.12 = 171.2 ppm. The closest answer is 171 ppm. This shows moderate to high hardness."
+  },
+  {
+    "id": 36,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does TDS stand for?",
+    "options": [
+      "Total dissolved solids",
+      "Trap drain slope",
+      "Thermal distribution system",
+      "Tube diameter size"
+    ],
+    "answer": 0,
+    "explanation": "TDS means total dissolved solids. It measures dissolved minerals and salts. High TDS may require special treatment."
+  },
+  {
+    "id": 37,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does a sediment filter remove?",
+    "options": [
+      "Particles such as sand, rust, and dirt",
+      "Sewer gas",
+      "Water temperature",
+      "Pipe supports"
+    ],
+    "answer": 0,
+    "explanation": "Sediment filters remove suspended particles. They protect fixtures and treatment equipment. They must be replaced or cleaned."
+  },
+  {
+    "id": 38,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A filter has low flow after months of use. What is likely?",
+    "options": [
+      "The filter is clogged",
+      "Water pressure is too high",
+      "Drain slope is wrong",
+      "Trap seal is dry"
+    ],
+    "answer": 0,
+    "explanation": "Filters collect particles over time. As they plug, pressure drop increases. Cleaning or replacement restores flow."
+  },
+  {
+    "id": 39,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the purpose of a carbon filter?",
+    "options": [
+      "Improve taste and odour by removing some chemicals",
+      "Increase water pressure",
+      "Heat water",
+      "Vent sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "Carbon filters can reduce chlorine taste and odours. They may also reduce some organic compounds. They require regular replacement."
+  },
+  {
+    "id": 40,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does reverse osmosis mainly reduce?",
+    "options": [
+      "Dissolved solids using a membrane",
+      "Drainage slope",
+      "Water heater temperature",
+      "Sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "RO systems use a membrane to reduce dissolved material. They often need pre-filters. Membranes must be maintained."
+  },
+  {
+    "id": 41,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the purpose of a UV disinfection unit?",
+    "options": [
+      "Inactivate microorganisms using ultraviolet light",
+      "Remove pipe supports",
+      "Increase water hardness",
+      "Heat water"
+    ],
+    "answer": 0,
+    "explanation": "UV light can inactivate bacteria and other organisms. Water must be clear enough for UV to work. Lamp and sleeve maintenance are important."
+  },
+  {
+    "id": 42,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV lamp is burned out. What is the issue?",
+    "options": [
+      "Disinfection may not occur",
+      "Water pressure doubles",
+      "Hardness is removed",
+      "Filter flow increases"
+    ],
+    "answer": 0,
+    "explanation": "UV systems require an operating lamp. If the lamp fails, microorganisms may pass through. Lamp status should be monitored."
+  },
+  {
+    "id": 43,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why must a UV sleeve be clean?",
+    "options": [
+      "So UV light can reach the water",
+      "To increase water pressure",
+      "To remove salt",
+      "To reduce pipe size"
+    ],
+    "answer": 0,
+    "explanation": "Scale or dirt blocks UV light. Reduced light transmission lowers disinfection performance. Sleeves require cleaning or replacement."
+  },
+  {
+    "id": 44,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why is water testing important before selecting treatment equipment?",
+    "options": [
+      "Treatment depends on actual water quality",
+      "It increases pressure",
+      "It reduces pipe length",
+      "It replaces installation instructions"
+    ],
+    "answer": 0,
+    "explanation": "Different problems need different treatment. Testing identifies hardness, iron, bacteria, TDS, or other issues. Correct selection depends on test results."
+  },
+  {
+    "id": 45,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is too small for the household demand. What can happen?",
+    "options": [
+      "Hard water may pass through",
+      "Drainage improves",
+      "Water pressure always increases",
+      "Bacteria are removed automatically"
+    ],
+    "answer": 0,
+    "explanation": "Undersized softeners run out of capacity too soon. They may regenerate too often. Hardness leakage can occur."
+  },
+  {
+    "id": 46,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the purpose of softener regeneration?",
+    "options": [
+      "Restore the resin’s ability to remove hardness",
+      "Heat the water",
+      "Vent sewer gas",
+      "Increase pipe slope"
+    ],
+    "answer": 0,
+    "explanation": "Resin becomes loaded with hardness minerals. Regeneration uses brine to recharge the resin. Without regeneration, softening stops."
+  },
+  {
+    "id": 47,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A brine tank is empty of salt. What will happen?",
+    "options": [
+      "The softener may not regenerate properly",
+      "Water pressure will double",
+      "TDS will become zero",
+      "Drainage will stop"
+    ],
+    "answer": 0,
+    "explanation": "Salt is needed to make brine. Brine regenerates the softener resin. Without salt, hardness removal is reduced."
+  },
+  {
+    "id": 48,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why should treatment system backwash discharge go to an approved drain with protection?",
+    "options": [
+      "To prevent contamination and handle waste water safely",
+      "To increase hardness",
+      "To heat water",
+      "To remove the need for filters"
+    ],
+    "answer": 0,
+    "explanation": "Backwash water can contain sediment and contaminants. It must discharge safely. Air gaps may be required to prevent cross-connection."
+  },
+  {
+    "id": 49,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why are bypass valves useful on water treatment systems?",
+    "options": [
+      "They allow service without shutting off all water",
+      "They remove hardness by themselves",
+      "They increase drain slope",
+      "They disinfect water"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment needs maintenance. Bypass valves keep water available during service. They also allow equipment isolation."
+  },
+  {
+    "id": 50,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment unit is installed backwards. What is the likely problem?",
+    "options": [
+      "Poor treatment or equipment damage",
+      "Better flow always",
+      "No pressure drop",
+      "Automatic regeneration"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment has a required flow direction. Reverse installation can reduce performance. It may damage internal parts or media."
+  },
+  {
+    "id": 51,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A toilet rocks after installation. What is the biggest concern?",
+    "options": [
+      "Closet seal failure and leakage",
+      "Increased flush pressure",
+      "Better bowl refill",
+      "Lower water use"
+    ],
+    "answer": 0,
+    "explanation": "A rocking toilet can damage the wax or gasket seal. This may allow wastewater or sewer gas to escape. The fixture must be stable and properly secured."
+  },
+  {
+    "id": 52,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A closet flange is installed below the finished floor. What problem may occur?",
+    "options": [
+      "Poor seal compression",
+      "Higher tank pressure",
+      "Better flushing",
+      "Less need for bolts"
+    ],
+    "answer": 0,
+    "explanation": "Toilet seals need proper compression between bowl and flange. A low flange may not seal correctly. Leaks and odours can result."
+  },
+  {
+    "id": 53,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A wall-hung lavatory is fastened only to drywall. What is the main risk?",
+    "options": [
+      "Fixture may pull loose from the wall",
+      "Faucet pressure will increase",
+      "Trap seal will improve",
+      "Drainage will speed up"
+    ],
+    "answer": 0,
+    "explanation": "Wall-hung fixtures need proper backing or carriers. Drywall alone cannot support fixture and user loads. Poor support causes movement, leaks, and damage."
+  },
+  {
+    "id": 54,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A lavatory trap leaks at the slip nut. What should be checked first?",
+    "options": [
+      "Washer position, alignment, and nut tightness",
+      "Gas pressure",
+      "Water heater anode",
+      "Roof drain size"
+    ],
+    "answer": 0,
+    "explanation": "Slip-joint traps seal with washers and alignment. A twisted or damaged washer can leak. Overtightening may also damage the joint."
+  },
+  {
+    "id": 55,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink tailpiece barely enters the trap adapter. What is the concern?",
+    "options": [
+      "Joint may separate or leak",
+      "Water pressure will rise",
+      "Trap seal becomes deeper",
+      "Drainage improves"
+    ],
+    "answer": 0,
+    "explanation": "Slip-joint connections need enough insertion. Too little engagement can pull apart during use. This can cause leaks inside cabinets."
+  },
+  {
+    "id": 56,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should supply lines be flushed before final faucet operation?",
+    "options": [
+      "To remove debris that can clog cartridges and aerators",
+      "To increase pipe rating",
+      "To reduce drain slope",
+      "To remove fixture supports"
+    ],
+    "answer": 0,
+    "explanation": "New piping can contain chips, flux, and dirt. Debris can damage cartridges and clog aerators. Flushing protects fixtures before use."
+  },
+  {
+    "id": 57,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Hot and cold supplies are reversed at a faucet. What is the main hazard?",
+    "options": [
+      "User confusion and possible scalding",
+      "Lower flow rate",
+      "Improved temperature balance",
+      "Better drainage"
+    ],
+    "answer": 0,
+    "explanation": "Users expect hot on the left and cold on the right. Reversed supplies can surprise the user. This may increase scald risk."
+  },
+  {
+    "id": 58,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why must fixture supply stops remain accessible?",
+    "options": [
+      "To isolate fixtures for repair or emergency",
+      "To increase flow automatically",
+      "To remove hardness minerals",
+      "To vent the fixture trap"
+    ],
+    "answer": 0,
+    "explanation": "Stops allow local water shutoff. They reduce shutdown area during repairs. Hidden stops delay service and leak control."
+  },
+  {
+    "id": 59,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A dishwasher drain hose has no high loop or air gap where required. What can happen?",
+    "options": [
+      "Sink wastewater may backflow into the dishwasher",
+      "Dishwasher voltage will increase",
+      "Wash water will become hotter",
+      "Drainage slope will improve"
+    ],
+    "answer": 0,
+    "explanation": "Dishwasher drains must be protected from backflow. Sink waste can contaminate the dishwasher. High loops or air gaps are common protection methods."
+  },
+  {
+    "id": 60,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A dishwasher tips forward when the rack is pulled out. What is wrong?",
+    "options": [
+      "It is not properly secured",
+      "The drain is oversized",
+      "The trap seal is too deep",
+      "The water is too soft"
+    ],
+    "answer": 0,
+    "explanation": "Dishwashers must be anchored as required. Movement can damage supply, drain, or electrical connections. Manufacturer instructions should be followed."
+  },
+  {
+    "id": 61,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A washing machine standpipe overflows during discharge. What should be checked?",
+    "options": [
+      "Standpipe size, trap, venting, and blockage",
+      "Water heater thermostat only",
+      "Roof drain leader only",
+      "Faucet aerator only"
+    ],
+    "answer": 0,
+    "explanation": "Washing machines discharge water quickly. An undersized, blocked, or poorly vented drain can overflow. Standpipe height and trap arrangement must be correct."
+  },
+  {
+    "id": 62,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should washing machine supply hoses be inspected regularly?",
+    "options": [
+      "They can burst and flood the building",
+      "They remove hardness",
+      "They increase vent capacity",
+      "They stop sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "Supply hoses are under pressure. Bulged, cracked, or old hoses may fail suddenly. Inspection and replacement prevent water damage."
+  },
+  {
+    "id": 63,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A bathtub leaks only when filled above the overflow opening. What is the most likely problem?",
+    "options": [
+      "Overflow gasket or connection leak",
+      "Faucet aerator blockage",
+      "Toilet flange height",
+      "Water softener regeneration"
+    ],
+    "answer": 0,
+    "explanation": "The overflow is only tested when water reaches it. A loose or damaged overflow gasket can leak behind the tub. Waste-and-overflow assemblies must be tested."
+  },
+  {
+    "id": 64,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A tub drain leaks only while draining. What should be checked?",
+    "options": [
+      "Drain shoe, gasket, and waste connections",
+      "Gas regulator pressure",
+      "Water heater dip tube",
+      "Roof vent flashing"
+    ],
+    "answer": 0,
+    "explanation": "Drain leaks often occur at the shoe or trap connection. Loose nuts or bad gaskets allow water escape. The assembly should be leak-tested during flow."
+  },
+  {
+    "id": 65,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why is shower valve rough-in depth important?",
+    "options": [
+      "Trim may not fit or operate correctly",
+      "Sewer venting will improve",
+      "Water pressure will always rise",
+      "Trap seal will become deeper"
+    ],
+    "answer": 0,
+    "explanation": "Shower valves are set for finished wall thickness. If too deep or shallow, trim and handle may not fit. This commonly causes rework."
+  },
+  {
+    "id": 66,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower valve has hot and cold reversed. What can happen?",
+    "options": [
+      "Temperature control may not work safely",
+      "Drainage will improve",
+      "Trap seal will increase",
+      "Water heater recovery will improve"
+    ],
+    "answer": 0,
+    "explanation": "Many shower valves depend on correct hot/cold connection. Reverse piping can affect pressure-balancing or thermostatic operation. Scald protection may be compromised."
+  },
+  {
+    "id": 67,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of an anti-scald shower valve?",
+    "options": [
+      "Reduce risk of sudden hot water burns",
+      "Increase drain flow",
+      "Soften water",
+      "Remove sediment from tank"
+    ],
+    "answer": 0,
+    "explanation": "Anti-scald valves limit dangerous temperature changes. They protect users from pressure or temperature fluctuations. They must be installed and adjusted correctly."
+  },
+  {
+    "id": 68,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture is installed out of level. What can result?",
+    "options": [
+      "Poor drainage, bad appearance, or seal problems",
+      "Higher water pressure",
+      "Better operation",
+      "Reduced need for support"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures should be level and stable. Out-of-level fixtures may drain poorly or leak. They can also create appearance and customer complaints."
+  },
+  {
+    "id": 69,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why should a fixture be tested after installation?",
+    "options": [
+      "To verify supply, drainage, operation, and leaks",
+      "To increase fixture weight",
+      "To remove venting",
+      "To avoid flushing"
+    ],
+    "answer": 0,
+    "explanation": "Final testing confirms complete fixture operation. Both water supply and drainage should be checked. Leaks should be corrected before turnover."
+  },
+  {
+    "id": 70,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater T&P relief valve discharge pipe is capped. Why is this dangerous?",
+    "options": [
+      "Pressure cannot discharge safely",
+      "Water heats faster",
+      "Tank corrosion stops",
+      "Water becomes softened"
+    ],
+    "answer": 0,
+    "explanation": "Relief valves are safety devices. Capping discharge can create dangerous overpressure. Discharge piping must never be blocked."
+  },
+  {
+    "id": 71,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a T&P relief valve on a water heater?",
+    "options": [
+      "Relieve unsafe temperature or pressure",
+      "Increase storage capacity",
+      "Remove water hardness",
+      "Vent sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "T&P means temperature and pressure. The valve opens if unsafe conditions occur. It protects the tank from rupture."
+  },
+  {
+    "id": 72,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why must a water heater relief discharge terminate safely?",
+    "options": [
+      "Discharge may be hot and pressurized",
+      "It improves tank recovery",
+      "It removes scale permanently",
+      "It prevents all corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Relief discharge can scald or injure people. The pipe must direct discharge safely. It must not be restricted or hidden unsafely."
+  },
+  {
+    "id": 73,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What is the purpose of a water heater anode rod?",
+    "options": [
+      "Help protect the tank from corrosion",
+      "Increase drain slope",
+      "Raise water pressure",
+      "Remove sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "The anode rod sacrifices itself to protect steel tank surfaces. It slows corrosion inside the water heater. It may need inspection or replacement."
+  },
+  {
+    "id": 74,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "Why is draining sediment from a tank-type water heater sometimes needed?",
+    "options": [
+      "Sediment can reduce efficiency and cause noise",
+      "It increases water hardness",
+      "It removes the T&P valve",
+      "It stops venting"
+    ],
+    "answer": 0,
+    "explanation": "Minerals and debris can settle in the tank. Sediment reduces heat transfer and may cause rumbling. Maintenance helps extend heater life."
+  },
+  {
+    "id": 75,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A refrigerator water line has no accessible shutoff valve. What is the issue?",
+    "options": [
+      "Leak or service cannot be isolated quickly",
+      "Water becomes colder",
+      "Drainage improves",
+      "Filter lasts forever"
+    ],
+    "answer": 0,
+    "explanation": "Appliance water lines should have service shutoffs. Leaks must be isolated quickly. Hidden shutoffs increase water damage risk."
+  },
+  {
+    "id": 76,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A refrigerator water line is routed behind hot equipment. What is the concern?",
+    "options": [
+      "Heat may damage tubing or fittings",
+      "Water will freeze",
+      "Drainage will stop",
+      "Trap seal will dry out"
+    ],
+    "answer": 0,
+    "explanation": "Appliance tubing must be protected from heat. Heat can weaken plastic tubing and fittings. Hidden leaks can cause major damage."
+  },
+  {
+    "id": 77,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink drain is forced into alignment under stress. What is likely?",
+    "options": [
+      "Leakage from stressed joints",
+      "Better trap seal",
+      "Faster drainage",
+      "Higher water pressure"
+    ],
+    "answer": 0,
+    "explanation": "Drain assemblies should align naturally. Forced joints stress washers and nuts. Leaks may appear after use."
+  },
+  {
+    "id": 78,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial sink is installed without proper wall backing. What is likely?",
+    "options": [
+      "Fixture movement and connection leaks",
+      "Higher hot water temperature",
+      "More vent capacity",
+      "Less water use"
+    ],
+    "answer": 0,
+    "explanation": "Commercial fixtures can carry heavy loads. Backing or carriers support the fixture. Movement can damage water and waste connections."
+  },
+  {
+    "id": 79,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "What must be checked when installing a fixture before wall finishes are complete?",
+    "options": [
+      "Finished wall or floor thickness",
+      "Gas manifold pressure",
+      "Roof drain area",
+      "Septic field size"
+    ],
+    "answer": 0,
+    "explanation": "Fixture rough-ins often reference finished surfaces. Tile, drywall, or flooring changes final dimensions. Ignoring finishes causes misalignment."
+  },
+  {
+    "id": 80,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater is installed without considering service access. What is the problem?",
+    "options": [
+      "Future maintenance and replacement become difficult",
+      "Water heats faster",
+      "Pressure reduces automatically",
+      "Tank corrosion stops"
+    ],
+    "answer": 0,
+    "explanation": "Water heaters need service access for valves, anodes, drains, and replacement. Blocked access increases labour and damage risk. Equipment layout should include maintainability. ## E15 — Water Treatment Systems"
+  },
+  {
+    "id": 81,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water softener is selected without a hardness test. What is the problem?",
+    "options": [
+      "Softener capacity may be wrong",
+      "Water pressure always improves",
+      "Drainage slope changes",
+      "UV light becomes stronger"
+    ],
+    "answer": 0,
+    "explanation": "Softener sizing depends on hardness and usage. Without test data, capacity may be too small or too large. Water testing guides correct selection."
+  },
+  {
+    "id": 82,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does gpg measure in water treatment?",
+    "options": [
+      "Water hardness",
+      "Drainage slope",
+      "Gas pressure",
+      "Electrical current"
+    ],
+    "answer": 0,
+    "explanation": "gpg means grains per gallon. It is a hardness unit. It is commonly used for softener sizing."
+  },
+  {
+    "id": 83,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A hardness result is 12 gpg. What is the approximate ppm?",
+    "options": [
+      "120 ppm",
+      "171 ppm",
+      "205 ppm",
+      "300 ppm"
+    ],
+    "answer": 2,
+    "explanation": "Use gpg × 17.12. 12 × 17.12 = 205.44 ppm. The closest answer is 205 ppm."
+  },
+  {
+    "id": 84,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener brine tank is empty of salt. What will happen?",
+    "options": [
+      "Resin may not regenerate properly",
+      "Water pressure will double",
+      "Hardness will become zero forever",
+      "Drainage will stop"
+    ],
+    "answer": 0,
+    "explanation": "Salt is required to make brine. Brine regenerates the resin. Without salt, the softener loses capacity."
+  },
+  {
+    "id": 85,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener regenerates but water remains hard. What should be checked?",
+    "options": [
+      "Salt bridge, brine draw, bypass valve, and resin condition",
+      "Sewer cleanout only",
+      "Shower trap only",
+      "Water heater vent only"
+    ],
+    "answer": 0,
+    "explanation": "Regeneration may fail if brine is not drawn. Bypass valves may be open or resin may be exhausted. Troubleshooting must follow the treatment system."
+  },
+  {
+    "id": 86,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the purpose of softener regeneration?",
+    "options": [
+      "Restore resin hardness-removal capacity",
+      "Increase drain slope",
+      "Heat domestic water",
+      "Remove sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "Softener resin becomes loaded with hardness minerals. Regeneration uses brine to recharge the resin. This restores softening ability."
+  },
+  {
+    "id": 87,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does TDS stand for?",
+    "options": [
+      "Total dissolved solids",
+      "Trap drain slope",
+      "Tank discharge setting",
+      "Thermal distribution system"
+    ],
+    "answer": 0,
+    "explanation": "TDS means total dissolved solids. It refers to dissolved minerals and salts in water. High TDS may require special treatment."
+  },
+  {
+    "id": 88,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What does a sediment filter remove?",
+    "options": [
+      "Sand, rust, and suspended particles",
+      "Sewer gas",
+      "Water temperature",
+      "Fixture supports"
+    ],
+    "answer": 0,
+    "explanation": "Sediment filters remove particles from water. They protect valves, cartridges, and treatment equipment. Filters need cleaning or replacement."
+  },
+  {
+    "id": 89,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A cartridge filter causes low flow after several months. What is most likely?",
+    "options": [
+      "Cartridge is clogged",
+      "Water is too soft",
+      "Drain slope is wrong",
+      "UV lamp is too bright"
+    ],
+    "answer": 0,
+    "explanation": "Filters collect debris over time. A clogged cartridge creates pressure drop. Replacement restores flow."
+  },
+  {
+    "id": 90,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the main purpose of a carbon filter?",
+    "options": [
+      "Reduce taste, odour, and some chemicals",
+      "Increase water hardness",
+      "Heat water",
+      "Vent drains"
+    ],
+    "answer": 0,
+    "explanation": "Activated carbon commonly reduces chlorine taste and odour. It can also reduce some organic compounds. Carbon media must be replaced as required."
+  },
+  {
+    "id": 91,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the main purpose of reverse osmosis?",
+    "options": [
+      "Reduce dissolved solids using a membrane",
+      "Increase hardness",
+      "Add chlorine",
+      "Heat water"
+    ],
+    "answer": 0,
+    "explanation": "Reverse osmosis uses membrane separation. It reduces many dissolved substances. Pre-filters and membrane maintenance are important."
+  },
+  {
+    "id": 92,
+    "category": "E15 — Water Treatment Systems",
+    "question": "An RO system has very low production. What should be checked?",
+    "options": [
+      "Pre-filters, membrane, pressure, and storage tank",
+      "Toilet flange",
+      "Roof drain",
+      "Shower valve depth"
+    ],
+    "answer": 0,
+    "explanation": "RO production depends on pressure and membrane condition. Clogged pre-filters reduce flow. A failed tank can also reduce delivery."
+  },
+  {
+    "id": 93,
+    "category": "E15 — Water Treatment Systems",
+    "question": "What is the purpose of UV water treatment?",
+    "options": [
+      "Inactivate microorganisms",
+      "Remove hardness minerals",
+      "Increase TDS",
+      "Raise water pressure"
+    ],
+    "answer": 0,
+    "explanation": "UV light damages microorganisms so they cannot reproduce. It does not remove minerals or sediment. Water clarity and lamp condition affect performance."
+  },
+  {
+    "id": 94,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV sleeve is coated with scale. What is the concern?",
+    "options": [
+      "UV light may not reach the water properly",
+      "Water pressure will rise",
+      "Hardness removal improves",
+      "Filter flow doubles"
+    ],
+    "answer": 0,
+    "explanation": "Scale blocks UV light transmission. Reduced light exposure lowers disinfection effectiveness. The sleeve must be cleaned or replaced."
+  },
+  {
+    "id": 95,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why should water be tested before installing treatment equipment?",
+    "options": [
+      "Correct treatment depends on actual water conditions",
+      "Testing increases pipe size",
+      "Testing replaces installation instructions",
+      "Testing removes all bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Different contaminants need different treatment. Testing identifies hardness, iron, bacteria, TDS, and other issues. Equipment selection should match the water problem."
+  },
+  {
+    "id": 96,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment unit backwash drain is directly connected to drainage piping without an air gap. What is the concern?",
+    "options": [
+      "Cross-connection contamination risk",
+      "Better backwash flow",
+      "Higher water pressure",
+      "Less maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Drain lines can be exposed to contamination. A direct connection can allow backflow into treatment equipment. An air gap protects potable water."
+  },
+  {
+    "id": 97,
+    "category": "E15 — Water Treatment Systems",
+    "question": "Why are bypass valves installed on water treatment equipment?",
+    "options": [
+      "To isolate equipment for service while maintaining water supply",
+      "To remove hardness by themselves",
+      "To heat water",
+      "To vent sewer gas"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment needs maintenance. Bypass valves allow repairs without shutting all water off. They also help during troubleshooting."
+  },
+  {
+    "id": 98,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A filter is installed backwards. What can happen?",
+    "options": [
+      "Poor filtration or equipment damage",
+      "Better treatment",
+      "No pressure drop",
+      "Longer filter life always"
+    ],
+    "answer": 0,
+    "explanation": "Filters have required flow direction. Reverse flow may bypass media or damage components. Flow arrows must be followed."
+  },
+  {
+    "id": 99,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is too small for household demand. What will likely happen?",
+    "options": [
+      "Hardness leakage between regenerations",
+      "Perfect soft water forever",
+      "Increased sewer slope",
+      "No salt use"
+    ],
+    "answer": 0,
+    "explanation": "Undersized softeners run out of capacity quickly. Hard water may pass before the next regeneration. Sizing must consider hardness and water use."
+  },
+  {
+    "id": 100,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water treatment system is installed with no service clearance. What is the problem?",
+    "options": [
+      "Maintenance, media replacement, or repairs become difficult",
+      "Treatment improves",
+      "Water pressure doubles",
+      "Drainage becomes faster"
+    ],
+    "answer": 0,
+    "explanation": "Treatment units need access for filters, valves, lamps, and media. Poor clearance makes service difficult. Serviceability should be planned during installation."
+  },
+  {
+    "id": 101,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A toilet leaks at the base only when flushed, but not while sitting unused. What is the most likely problem?",
+    "options": [
+      "Failed closet seal or flange connection",
+      "High water pressure",
+      "Water heater relief valve leak",
+      "Softener regeneration problem"
+    ],
+    "answer": 0,
+    "explanation": "A leak during flushing points to the waste connection. The closet seal, flange height, or flange condition may be wrong. The toilet should be reset and tested."
+  },
+  {
+    "id": 102,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A closet flange is cracked where the bolts fasten. What is the concern?",
+    "options": [
+      "Toilet may move and damage the seal",
+      "Flush volume will increase",
+      "Tank refill will stop",
+      "Trap seal will become deeper"
+    ],
+    "answer": 0,
+    "explanation": "Closet bolts secure the toilet to the flange. A cracked flange can allow movement. Movement can cause leaks and sewer gas odours."
+  },
+  {
+    "id": 103,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A wall-hung urinal leaks after use, and the carrier is loose. What is the most likely cause?",
+    "options": [
+      "Fixture movement stressing the waste connection",
+      "Excess water hardness only",
+      "Roof vent blockage only",
+      "Water heater thermostat failure"
+    ],
+    "answer": 0,
+    "explanation": "Wall-hung fixtures require solid support. Movement can break seals or loosen connections. The carrier and waste connection must be corrected."
+  },
+  {
+    "id": 104,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A lavatory trap is aligned under tension because the wall outlet is offset. What is the likely long-term result?",
+    "options": [
+      "Slip-joint leakage",
+      "Better drainage",
+      "Higher trap seal",
+      "Reduced odour risk"
+    ],
+    "answer": 0,
+    "explanation": "Trap parts should align without force. Tension can distort washers and nuts. Leaks often appear after use or vibration."
+  },
+  {
+    "id": 105,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A faucet cartridge fails shortly after installation on a new piping system. What was most likely missed?",
+    "options": [
+      "Flushing debris before fixture startup",
+      "Installing a larger trap",
+      "Increasing drain slope",
+      "Reducing water heater temperature only"
+    ],
+    "answer": 0,
+    "explanation": "New piping often contains chips, flux, or dirt. Debris can damage cartridges and seats. Lines should be flushed before final fixture operation."
+  },
+  {
+    "id": 106,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A single-handle faucet allows warm water to appear in the cold line when unused. What should be suspected?",
+    "options": [
+      "Internal crossflow through cartridge or check failure",
+      "Septic field overload",
+      "Sewer vent blockage",
+      "Low trap seal depth"
+    ],
+    "answer": 0,
+    "explanation": "Some fixtures can cross-connect hot and cold. Failed cartridges or checks allow migration between supplies. This can cause temperature complaints elsewhere."
+  },
+  {
+    "id": 107,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A dishwasher drain is connected before the sink trap in a way that allows sewer gas into the dishwasher. What is wrong?",
+    "options": [
+      "Drain connection location is incorrect",
+      "Water pressure is too low",
+      "Dishwasher is over-secured",
+      "Water is too soft"
+    ],
+    "answer": 0,
+    "explanation": "Dishwasher drains must connect in an approved manner. Wrong drain connection can expose appliance to sewer gas. Manufacturer and code requirements must be followed."
+  },
+  {
+    "id": 108,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A dishwasher drain hose is connected without a high loop or air gap, and the sink backs up. What can happen?",
+    "options": [
+      "Dirty sink water can enter the dishwasher",
+      "Dishwasher pressure will increase safely",
+      "Trap seal will become stronger",
+      "The faucet will lose pressure"
+    ],
+    "answer": 0,
+    "explanation": "Sink backup can flow into a low dishwasher hose. A high loop or air gap helps protect the appliance. This prevents contamination of dishes and appliance interior."
+  },
+  {
+    "id": 109,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A washing machine standpipe is sealed airtight around the drain hose. What is the concern?",
+    "options": [
+      "Siphonage or drainage problems",
+      "Better discharge control",
+      "Higher water pressure",
+      "Lower flood risk in all cases"
+    ],
+    "answer": 0,
+    "explanation": "A standpipe needs an air break. A sealed connection can create siphoning or poor drainage. The washer drain must be installed correctly."
+  },
+  {
+    "id": 110,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A washing machine standpipe is too short. What problem may occur?",
+    "options": [
+      "Overflow during discharge",
+      "Increased trap seal depth",
+      "Higher water temperature",
+      "Better venting"
+    ],
+    "answer": 0,
+    "explanation": "Standpipe height helps contain washer discharge. If too short, water can overflow during pump-out. Standpipe height must meet requirements."
+  },
+  {
+    "id": 111,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A bathtub waste-and-overflow leaks only when the overflow opening is used. What is the best test method?",
+    "options": [
+      "Fill tub to overflow level and inspect connections",
+      "Run only the faucet for five seconds",
+      "Test only the lavatory drain",
+      "Check water heater pressure only"
+    ],
+    "answer": 0,
+    "explanation": "The overflow connection leaks only when water reaches it. Testing must include the overflow path. Inspection below or behind the tub may be needed."
+  },
+  {
+    "id": 112,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower valve is roughed in before tile, but finished tile adds extra wall thickness. What can result?",
+    "options": [
+      "Trim may not reach or seal correctly",
+      "Drainage will improve",
+      "Water becomes softer",
+      "Trap seal increases"
+    ],
+    "answer": 0,
+    "explanation": "Shower valves have finished-wall depth limits. Tile thickness affects final trim position. Incorrect rough-in depth can require rework."
+  },
+  {
+    "id": 113,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A pressure-balancing shower valve is installed but the cold inlet is partially blocked. What symptom may occur?",
+    "options": [
+      "Reduced hot flow or unstable temperature",
+      "Better anti-scald function always",
+      "Increased drain flow",
+      "No water at the toilet"
+    ],
+    "answer": 0,
+    "explanation": "Pressure-balancing valves react to supply pressure changes. A restriction can cause the valve to limit the opposite side. Temperature and flow problems can result."
+  },
+  {
+    "id": 114,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A thermostatic shower valve outlet temperature is too high after installation. What should be done?",
+    "options": [
+      "Adjust and verify maximum outlet temperature",
+      "Remove the cartridge permanently",
+      "Increase hot water pressure",
+      "Install a smaller trap"
+    ],
+    "answer": 0,
+    "explanation": "Thermostatic valves require final adjustment. Maximum outlet temperature must be checked. This reduces scalding risk."
+  },
+  {
+    "id": 115,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture is installed before final floor height is known. What is the risk?",
+    "options": [
+      "Final rough-in elevation may be incorrect",
+      "Water pressure will rise",
+      "Drain venting will increase",
+      "Fixture will self-level"
+    ],
+    "answer": 0,
+    "explanation": "Fixture rough-ins often reference finished surfaces. Flooring thickness affects flange and outlet positions. Ignoring final height causes fit and seal problems."
+  },
+  {
+    "id": 116,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink with a deep bowl is installed on an existing rough-in. The trap arm now slopes upward to the wall. What is the issue?",
+    "options": [
+      "Drainage will be poor because flow must rise",
+      "Trap seal is protected better",
+      "Fixture pressure increases",
+      "Venting becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Fixture drains must flow by gravity. A trap arm cannot slope upward toward the wall. The rough-in or fixture arrangement must be corrected."
+  },
+  {
+    "id": 117,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial sink drain repeatedly clogs at the strainer outlet. What should be checked?",
+    "options": [
+      "Food solids handling, basket strainer, and drain sizing/layout",
+      "Gas burner setting",
+      "Water heater anode rod only",
+      "Shower valve cartridge"
+    ],
+    "answer": 0,
+    "explanation": "Commercial sinks often discharge solids and grease. Strainers and proper drainage layout reduce clogs. User practices may also affect performance."
+  },
+  {
+    "id": 118,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater T&P relief valve is replaced with one having a higher pressure rating than allowed. What is the danger?",
+    "options": [
+      "Tank may overpressure before valve opens",
+      "Hot water recovery improves",
+      "Scale disappears",
+      "Sediment stops forming"
+    ],
+    "answer": 0,
+    "explanation": "Relief valves must match equipment requirements. A valve rated too high may not protect the tank. This creates a serious safety hazard."
+  },
+  {
+    "id": 119,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A T&P discharge pipe is reduced in size downstream. What is the concern?",
+    "options": [
+      "Relief flow may be restricted",
+      "Discharge becomes safer",
+      "Water temperature lowers automatically",
+      "Pressure relief improves"
+    ],
+    "answer": 0,
+    "explanation": "Relief discharge piping must not restrict flow. Reducing pipe size can limit discharge capacity. This can make the safety valve ineffective."
+  },
+  {
+    "id": 120,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A T&P discharge pipe terminates in a concealed ceiling space. What is wrong?",
+    "options": [
+      "Discharge may cause hidden damage and unsafe conditions",
+      "It improves safety by hiding hot water",
+      "It reduces pressure faster",
+      "It prevents scalding completely"
+    ],
+    "answer": 0,
+    "explanation": "Relief discharge must be visible and safe. A concealed termination can hide valve operation. Hot water can damage building materials."
+  },
+  {
+    "id": 121,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater drain valve is clogged with sediment. What does this indicate?",
+    "options": [
+      "Sediment accumulation in the tank",
+      "Excess drain slope",
+      "Fixture trap failure",
+      "Sewer backflow"
+    ],
+    "answer": 0,
+    "explanation": "Minerals and debris settle at the tank bottom. Sediment can clog drain valves and reduce efficiency. Maintenance may be required."
+  },
+  {
+    "id": 122,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater anode rod is completely consumed. What is the likely concern?",
+    "options": [
+      "Tank corrosion protection is reduced",
+      "Water pressure increases",
+      "Drainage improves",
+      "Fixture stops working immediately"
+    ],
+    "answer": 0,
+    "explanation": "Anode rods protect steel tanks from corrosion. When consumed, the tank is more vulnerable. Inspection and replacement can extend tank life."
+  },
+  {
+    "id": 123,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater is installed in a pan but the pan drain is capped. What is the issue?",
+    "options": [
+      "Pan cannot safely remove leakage",
+      "Tank efficiency doubles",
+      "Hot water temperature drops",
+      "Anode rod lasts forever"
+    ],
+    "answer": 0,
+    "explanation": "A drain pan is intended to collect and drain leakage. A capped drain defeats the pan’s purpose. Leakage may still damage the building."
+  },
+  {
+    "id": 124,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A temperature-limiting device is installed but not tested at the farthest fixture. What is the concern?",
+    "options": [
+      "Delivered temperature may still be unsafe",
+      "Drainage will stop",
+      "Pipe support will fail",
+      "Water hardness will rise"
+    ],
+    "answer": 0,
+    "explanation": "Final outlet temperature must be verified. Piping heat loss and mixing conditions affect delivery. Testing confirms scald protection."
+  },
+  {
+    "id": 125,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture supply hose is kinked after installation. What problem can occur?",
+    "options": [
+      "Restricted flow or hose damage",
+      "Better shutoff operation",
+      "More drainage capacity",
+      "Reduced scald risk"
+    ],
+    "answer": 0,
+    "explanation": "Kinks reduce flow area. They can weaken hose material. Damaged hoses may leak or burst."
+  },
+  {
+    "id": 126,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture is mounted tightly against a wall with no access to concealed connections. What is the problem?",
+    "options": [
+      "Future leak repair and service are difficult",
+      "Fixture flow improves",
+      "Water temperature becomes stable",
+      "Drainage is guaranteed"
+    ],
+    "answer": 0,
+    "explanation": "Connections need inspection and service access. Hidden leaks can damage finishes. Fixture layout should allow maintenance."
+  },
+  {
+    "id": 127,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial appliance has a water connection and chemical detergent system. What must be considered?",
+    "options": [
+      "Backflow protection for chemical contamination risk",
+      "Larger toilet flange",
+      "Extra roof venting",
+      "Lower drain slope"
+    ],
+    "answer": 0,
+    "explanation": "Chemical systems can contaminate potable water. Backflow protection must match the hazard. This is a common inspection concern."
+  },
+  {
+    "id": 128,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater expansion tank is installed on the hot outlet instead of the required location. What is the best action?",
+    "options": [
+      "Check manufacturer/code requirements and correct if needed",
+      "Leave it because any location works",
+      "Remove the T&P valve",
+      "Increase heater temperature"
+    ],
+    "answer": 0,
+    "explanation": "Expansion tank location affects performance and approval. Manufacturer instructions and code must be followed. Incorrect placement can cause pressure problems."
+  },
+  {
+    "id": 129,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture has a slow leak at a compression supply connection. What is a likely cause?",
+    "options": [
+      "Misaligned tube, damaged ferrule, or improper tightening",
+      "Too much drain slope",
+      "Septic field overload",
+      "UV lamp failure"
+    ],
+    "answer": 0,
+    "explanation": "Compression fittings need clean alignment and proper tightening. A damaged ferrule may not seal. Overtightening can also cause leaks."
+  },
+  {
+    "id": 130,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture manufacturer requires a specific minimum supply pressure. What happens if pressure is lower?",
+    "options": [
+      "Fixture may not perform correctly",
+      "Drainage becomes faster",
+      "Water becomes softer",
+      "Trap seal doubles"
+    ],
+    "answer": 0,
+    "explanation": "Some fixtures need minimum pressure or flow. Low pressure affects operation and user satisfaction. Manufacturer requirements must be checked. ## E15 — Water Treatment Systems"
+  },
+  {
+    "id": 131,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is installed before a sediment filter on water with visible sand. What is the concern?",
+    "options": [
+      "Sand can foul valves and resin",
+      "Softener will regenerate better",
+      "TDS becomes zero",
+      "Water pressure doubles"
+    ],
+    "answer": 0,
+    "explanation": "Sediment can damage softener control valves. It may also foul the resin bed. Pre-filtration may be required."
+  },
+  {
+    "id": 132,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is sized only by pipe diameter and not by hardness or usage. What is wrong?",
+    "options": [
+      "Capacity may not match actual demand",
+      "Pipe diameter controls hardness removal completely",
+      "It will always be oversized",
+      "Regeneration becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Softener sizing depends on hardness and water volume. Pipe size alone does not determine capacity. Wrong sizing causes hardness leakage or wasteful regeneration."
+  },
+  {
+    "id": 133,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener uses too much salt and regenerates too often. What should be checked?",
+    "options": [
+      "Hardness setting, timer/meter, leakage, and programming",
+      "Shower valve depth",
+      "Sewer cleanout location",
+      "T&P discharge pipe"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect programming can waste salt. A leak or high usage may trigger extra regeneration. Settings should match water test and demand."
+  },
+  {
+    "id": 134,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener brine tank forms a salt bridge. What is the result?",
+    "options": [
+      "Brine may not form correctly",
+      "Resin becomes new",
+      "Water pressure always rises",
+      "UV disinfection improves"
+    ],
+    "answer": 0,
+    "explanation": "A salt bridge leaves a hollow space under the salt. Water cannot dissolve enough salt. Regeneration becomes ineffective."
+  },
+  {
+    "id": 135,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener drain line is connected directly to a sanitary drain without an air gap. What is the concern?",
+    "options": [
+      "Backflow contamination",
+      "Better regeneration",
+      "Higher hardness removal",
+      "Lower salt use"
+    ],
+    "answer": 0,
+    "explanation": "Drain lines can be exposed to sewage. A direct connection creates cross-connection risk. An air gap protects the potable system."
+  },
+  {
+    "id": 136,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A carbon filter is left in service far beyond its rated capacity. What can happen?",
+    "options": [
+      "Reduced contaminant removal and possible taste/odour return",
+      "Water pressure always increases",
+      "Hardness becomes zero",
+      "Drainage stops"
+    ],
+    "answer": 0,
+    "explanation": "Carbon media becomes exhausted over time. Once exhausted, it no longer removes target contaminants well. Maintenance schedules should be followed."
+  },
+  {
+    "id": 137,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A cartridge filter is installed after a UV system on water containing sediment. What is the concern?",
+    "options": [
+      "Sediment may block UV light before filtration",
+      "UV becomes stronger",
+      "Filter lasts forever",
+      "Hardness removal improves"
+    ],
+    "answer": 0,
+    "explanation": "UV needs clear water to work properly. Sediment can shield microorganisms. Filtration is usually needed before UV treatment."
+  },
+  {
+    "id": 138,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV system is installed but the lamp status alarm is ignored. What is the risk?",
+    "options": [
+      "Water may pass without disinfection",
+      "Water pressure increases",
+      "Softener resin regenerates faster",
+      "TDS becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "UV treatment depends on lamp operation. A failed lamp may not disinfect water. Alarms must be investigated promptly."
+  },
+  {
+    "id": 139,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV sleeve is cleaned, but the water still has high turbidity. What is the issue?",
+    "options": [
+      "Suspended particles may still protect microorganisms from UV",
+      "UV removes all particles automatically",
+      "Water pressure is too high",
+      "Softener salt is low"
+    ],
+    "answer": 0,
+    "explanation": "Turbid water blocks or scatters UV light. Microorganisms can hide behind particles. Pre-filtration or source treatment may be required."
+  },
+  {
+    "id": 140,
+    "category": "E15 — Water Treatment Systems",
+    "question": "An RO system drain line is directly connected to a waste pipe. What is the concern?",
+    "options": [
+      "Cross-connection without proper air gap",
+      "Increased membrane life",
+      "Higher storage volume",
+      "Better taste"
+    ],
+    "answer": 0,
+    "explanation": "RO drain water must discharge safely. A direct waste connection can allow contamination. An approved air gap protects the potable system."
+  },
+  {
+    "id": 141,
+    "category": "E15 — Water Treatment Systems",
+    "question": "An RO system produces water slowly after a filter change. What should be checked?",
+    "options": [
+      "Feed pressure, pre-filters, membrane, and storage tank pressure",
+      "Toilet flange height",
+      "Shower valve rough-in",
+      "Water heater anode rod only"
+    ],
+    "answer": 0,
+    "explanation": "RO output depends on pressure and membrane condition. A clogged filter or wrong tank pressure reduces production. The full system should be checked."
+  },
+  {
+    "id": 142,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment system is installed backwards even though it does not leak. What is still the problem?",
+    "options": [
+      "Treatment performance may be incorrect",
+      "It automatically works both ways",
+      "Water pressure becomes ideal",
+      "Service is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment is often directional. Reverse flow may bypass media or damage internals. Flow arrows must be followed."
+  },
+  {
+    "id": 143,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener bypass valve is accidentally left in bypass after service. What will users notice?",
+    "options": [
+      "Hard water symptoms return",
+      "Water pressure becomes zero",
+      "UV alarm activates",
+      "RO storage tank bursts"
+    ],
+    "answer": 0,
+    "explanation": "Bypass sends water around the softener. Hardness minerals will not be removed. Scale, spotting, or soap issues may return."
+  },
+  {
+    "id": 144,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water test shows iron staining, but only a softener is installed without confirming iron level. What is the concern?",
+    "options": [
+      "Iron may foul resin or need additional treatment",
+      "Softener will remove all contaminants automatically",
+      "TDS becomes zero",
+      "UV disinfection improves"
+    ],
+    "answer": 0,
+    "explanation": "Iron can stain fixtures and foul softener resin. Some iron conditions require special treatment. Water testing guides proper equipment selection."
+  },
+  {
+    "id": 145,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment system requires a minimum backwash flow rate, but supply flow is too low. What happens?",
+    "options": [
+      "Media may not clean properly",
+      "Water becomes softer forever",
+      "Drainage slope increases",
+      "Filter pressure drop disappears"
+    ],
+    "answer": 0,
+    "explanation": "Backwash must lift and clean the media bed. Low flow leaves debris trapped. Treatment performance declines over time."
+  },
+  {
+    "id": 146,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A filter housing is installed where the cartridge cannot be removed. What is the installation problem?",
+    "options": [
+      "Lack of service clearance",
+      "Too much flow capacity",
+      "Better filtration",
+      "No pressure drop"
+    ],
+    "answer": 0,
+    "explanation": "Filters require cartridge replacement. Without clearance, routine maintenance becomes difficult. Service access must be planned."
+  },
+  {
+    "id": 147,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water treatment unit is installed on a hot water line though rated only for cold water. What is the concern?",
+    "options": [
+      "Heat may damage the unit or media",
+      "Treatment improves",
+      "Flow doubles",
+      "Hardness becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment has temperature ratings. Hot water can damage housings, seals, or media. Equipment must match service conditions."
+  },
+  {
+    "id": 148,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A pressure drop across a sediment filter increases over time. What does this indicate?",
+    "options": [
+      "Filter loading/clogging",
+      "Better water quality only",
+      "Water hammer",
+      "Backflow failure"
+    ],
+    "answer": 0,
+    "explanation": "Filters collect particles during use. As the filter loads, resistance increases. Pressure gauges help show when service is needed."
+  },
+  {
+    "id": 149,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water softener is installed without checking drain capacity for regeneration flow. What may happen?",
+    "options": [
+      "Drain overflow during regeneration",
+      "Better brine draw",
+      "Hardness removal improves",
+      "TDS becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Regeneration discharges water to drain. The drain must handle flow safely. Undersized or restricted drains can overflow."
+  },
+  {
+    "id": 150,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment system improves taste but bacteria test remains unsafe. What is the issue?",
+    "options": [
+      "Taste treatment does not guarantee disinfection",
+      "Carbon filters kill all bacteria",
+      "Softening removes all microorganisms",
+      "Hardness testing proves water is safe"
+    ],
+    "answer": 0,
+    "explanation": "Different treatment devices solve different problems. Taste improvement does not prove microbiological safety. Bacteria require approved disinfection and testing."
+  },
+  {
+    "id": 151,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A toilet tank keeps refilling every few minutes even when nobody uses it. What is the most likely cause?",
+    "options": [
+      "Flapper or flush valve leak",
+      "Blocked roof vent",
+      "Low sewer slope",
+      "Failed anode rod"
+    ],
+    "answer": 0,
+    "explanation": "A leaking flapper lets tank water escape into the bowl. The fill valve then refills the tank repeatedly. This wastes water and should be repaired."
+  },
+  {
+    "id": 152,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A toilet flush is weak even though the tank fills to the correct level. What should be checked?",
+    "options": [
+      "Bowl rim holes, trapway blockage, and flush valve operation",
+      "Water heater thermostat",
+      "UV lamp sleeve",
+      "Softener brine tank"
+    ],
+    "answer": 0,
+    "explanation": "Weak flushing can result from restricted bowl passages or trapway. The flush valve must also release water properly. Fixture performance depends on both tank and bowl condition."
+  },
+  {
+    "id": 153,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A flushometer toilet continues running after each flush. What is the likely service area?",
+    "options": [
+      "Diaphragm/piston assembly and control stop",
+      "Tub overflow gasket",
+      "RO membrane",
+      "Water heater anode rod"
+    ],
+    "answer": 0,
+    "explanation": "Flushometers use internal diaphragms or pistons to control flow. Debris or wear can prevent proper closing. The control stop and parts should be serviced safely."
+  },
+  {
+    "id": 154,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A flushometer valve does not deliver enough water to clear the bowl. What should be checked first?",
+    "options": [
+      "Control stop opening, inlet pressure, and diaphragm/piston condition",
+      "Trap primer location",
+      "Water softener salt level",
+      "Roof drain size"
+    ],
+    "answer": 0,
+    "explanation": "Flushometers need correct pressure and volume. A partly closed control stop or worn parts can reduce flush. The fixture and valve must be matched."
+  },
+  {
+    "id": 155,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sensor faucet does not operate, but manual water supply is available. What should be checked?",
+    "options": [
+      "Power source, sensor, solenoid, and supply stop",
+      "Sewer invert",
+      "Septic field grade",
+      "Water heater pan drain"
+    ],
+    "answer": 0,
+    "explanation": "Sensor faucets depend on electrical/electronic controls. A failed battery, transformer, sensor, or solenoid can stop flow. The water supply stop should also be confirmed open."
+  },
+  {
+    "id": 156,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A faucet has very low flow on both hot and cold sides after building maintenance. What is the first simple check?",
+    "options": [
+      "Aerator or inlet screens for debris",
+      "Septic tank outlet baffle",
+      "Roof vent terminal",
+      "Boiler relief valve"
+    ],
+    "answer": 0,
+    "explanation": "Debris often moves after water shutdowns. Aerators and inlet screens clog easily. Cleaning them can restore fixture flow."
+  },
+  {
+    "id": 157,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial faucet has a loose spout base and water leaks below the deck. What should be checked?",
+    "options": [
+      "Mounting hardware, O-rings, and spout seals",
+      "Sewer slope only",
+      "UV filter lamp",
+      "Water heater dip tube"
+    ],
+    "answer": 0,
+    "explanation": "Loose spouts can allow water to enter under the fixture. O-rings and seals may wear or be displaced. Mounting and seal condition must be corrected."
+  },
+  {
+    "id": 158,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A lavatory pop-up drain leaks into the cabinet when the basin is full. What is likely leaking?",
+    "options": [
+      "Drain flange or overflow/drain connection",
+      "T&P valve",
+      "Softener bypass",
+      "Curb stop"
+    ],
+    "answer": 0,
+    "explanation": "A full basin tests the drain flange and overflow path. Leaks may appear around the drain body or gasket. The assembly must be sealed and tested."
+  },
+  {
+    "id": 159,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A sink basin does not hold water when the stopper is closed. What is the likely problem?",
+    "options": [
+      "Stopper linkage adjustment or stopper seal",
+      "High water pressure",
+      "Water heater relief discharge",
+      "Carbon filter exhaustion"
+    ],
+    "answer": 0,
+    "explanation": "Pop-up stoppers rely on linkage adjustment and sealing. If misadjusted, the stopper will not seat. A worn seal can also allow leakage."
+  },
+  {
+    "id": 160,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A urinal gives off odour even though it flushes. What should be checked?",
+    "options": [
+      "Trap seal, flushing action, seal at outlet, and cleanliness",
+      "Hot water recirculation pump",
+      "Water heater element",
+      "RO storage tank pressure"
+    ],
+    "answer": 0,
+    "explanation": "Odour can come from poor trap seal or waste connection leakage. Insufficient flushing can leave urine salts. Cleaning and fixture sealing are important."
+  },
+  {
+    "id": 161,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A waterless urinal has odour complaints after cleaning staff use strong cleaner. What may have happened?",
+    "options": [
+      "Sealant liquid or cartridge was damaged/removed",
+      "Water pressure became too low",
+      "T&P valve opened",
+      "Softener regenerated too often"
+    ],
+    "answer": 0,
+    "explanation": "Waterless urinals depend on cartridges or sealing liquid. Wrong cleaners can damage the system. Manufacturer maintenance instructions must be followed."
+  },
+  {
+    "id": 162,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower drain leaks around the strainer body after installation. What is the likely issue?",
+    "options": [
+      "Improper gasket, sealant, or drain body tightening",
+      "Wrong water heater anode",
+      "Softener brine failure",
+      "Faucet aerator clog"
+    ],
+    "answer": 0,
+    "explanation": "Shower drains must seal to the receptor or membrane. Gaskets and sealants must be installed correctly. Leak testing should be done before finishes are closed."
+  },
+  {
+    "id": 163,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower base flexes when stepped on and later leaks at the drain. What was likely missing?",
+    "options": [
+      "Proper support under the base",
+      "Larger supply pipe",
+      "More softener salt",
+      "Bigger T&P valve"
+    ],
+    "answer": 0,
+    "explanation": "Shower bases must be supported as required. Flexing stresses the drain seal. Movement can cause leaks over time."
+  },
+  {
+    "id": 164,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A tub spout continues to drip while the shower is running. What is the likely cause?",
+    "options": [
+      "Diverter not sealing properly",
+      "UV sleeve scaling",
+      "Softener bypass open",
+      "Water heater pan leak"
+    ],
+    "answer": 0,
+    "explanation": "A diverter directs water to the shower riser. If it does not seal, water continues through the spout. Worn or dirty diverters can cause bypass flow."
+  },
+  {
+    "id": 165,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A shower head has poor spray pattern after pipe work. What is a likely cause?",
+    "options": [
+      "Debris clogging the screen or nozzles",
+      "Trap arm too long",
+      "Septic field overload",
+      "T&P discharge restriction"
+    ],
+    "answer": 0,
+    "explanation": "Construction debris can clog shower head screens. Mineral scale can also block nozzles. Cleaning or flushing may restore spray."
+  },
+  {
+    "id": 166,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A handheld shower hose can hang below the flood level of a tub. What is the concern?",
+    "options": [
+      "Backflow/cross-connection risk",
+      "Better rinsing only",
+      "More trap seal",
+      "Hot water recovery"
+    ],
+    "answer": 0,
+    "explanation": "A hose that can be submerged creates a cross-connection. Contaminated water can be siphoned back. Vacuum breaker or approved protection may be required."
+  },
+  {
+    "id": 167,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A bidet seat is connected directly to potable water without required protection. What is the concern?",
+    "options": [
+      "Backflow contamination risk",
+      "Low drain slope",
+      "Water heater corrosion",
+      "Filter clogging only"
+    ],
+    "answer": 0,
+    "explanation": "Bidet fixtures can create a cross-connection. Potable water must be protected from contamination. Approved backflow protection must be used."
+  },
+  {
+    "id": 168,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial ice machine drain is directly connected to the sanitary drainage system. What is the main concern?",
+    "options": [
+      "Backflow contamination of ice machine",
+      "Better drainage",
+      "More ice production",
+      "Lower water hardness"
+    ],
+    "answer": 0,
+    "explanation": "Food and ice equipment drains often require indirect waste. A direct connection can allow sewage backup contamination. Air gap/indirect drainage protects health."
+  },
+  {
+    "id": 169,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A food prep sink has no indirect waste where required. Why is this a problem?",
+    "options": [
+      "Sewage backup could contaminate food-contact equipment",
+      "Faucet pressure will drop",
+      "Drainage will always improve",
+      "Hot water will be too cold"
+    ],
+    "answer": 0,
+    "explanation": "Food-related fixtures may need indirect drainage. This separates the fixture from sanitary backup risk. It protects public health."
+  },
+  {
+    "id": 170,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A floor-mounted mop sink has no wall protection behind the faucet area. What is the practical concern?",
+    "options": [
+      "Splash damage and sanitation issues",
+      "Higher water pressure",
+      "Less need for trap",
+      "Water softener failure"
+    ],
+    "answer": 0,
+    "explanation": "Mop sinks are exposed to splashing and cleaning chemicals. Wall protection helps maintain sanitation and protects finishes. Commercial fixture installation must consider use conditions."
+  },
+  {
+    "id": 171,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A service sink faucet has a threaded hose outlet. What protection is commonly important?",
+    "options": [
+      "Vacuum breaker/backflow protection",
+      "Larger drain trap",
+      "T&P valve",
+      "UV light"
+    ],
+    "answer": 0,
+    "explanation": "Hose outlets can be submerged in buckets. This creates back siphonage risk. Approved vacuum breaker protection is commonly required."
+  },
+  {
+    "id": 172,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater is installed without a drain pan in a location where leakage can damage finished space. What is the concern?",
+    "options": [
+      "Leakage may cause property damage",
+      "Water will not heat",
+      "T&P valve cannot open",
+      "Anode rod will fail immediately"
+    ],
+    "answer": 0,
+    "explanation": "Drain pans help collect leakage where damage is likely. They need a proper drain route. Installation must protect the building."
+  },
+  {
+    "id": 173,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater temperature setting is raised after installation. What must be considered at fixtures?",
+    "options": [
+      "Scald protection and delivered temperature",
+      "Sewer pipe slope",
+      "RO membrane pressure",
+      "Toilet flange bolts"
+    ],
+    "answer": 0,
+    "explanation": "Higher storage temperature increases scald risk. Mixing or limiting devices may be needed. Fixture outlet temperature should be verified."
+  },
+  {
+    "id": 174,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater makes popping noises during firing. What is a common cause?",
+    "options": [
+      "Sediment buildup in the tank",
+      "Low drain slope",
+      "Dirty aerator",
+      "Wrong trap primer"
+    ],
+    "answer": 0,
+    "explanation": "Sediment can trap water and steam bubbles at the bottom. This causes popping or rumbling sounds. Flushing or service may be required."
+  },
+  {
+    "id": 175,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A water heater installed in a garage is exposed to vehicle impact. What should be considered?",
+    "options": [
+      "Physical protection from impact",
+      "Larger aerator",
+      "Water softener brine level",
+      "Shower trim depth"
+    ],
+    "answer": 0,
+    "explanation": "Equipment in vehicle areas can be damaged by impact. Protection may be required by code or site conditions. Damaged water heaters or piping can leak or become unsafe."
+  },
+  {
+    "id": 176,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture manufacturer specifies a maximum supply pressure. What can happen if it is exceeded?",
+    "options": [
+      "Valve or fixture damage and leakage",
+      "Better performance always",
+      "Softer water",
+      "Improved drain flow"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures and valves have pressure limits. Excess pressure can damage seals and cartridges. Pressure control protects equipment."
+  },
+  {
+    "id": 177,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A public lavatory sensor faucet runs continuously. What is a likely cause?",
+    "options": [
+      "Sensor/solenoid fault or debris in valve",
+      "Septic field failure",
+      "T&P valve discharge",
+      "Tub overflow leak"
+    ],
+    "answer": 0,
+    "explanation": "Sensor faucets depend on a solenoid closing properly. Debris can hold the valve open. Sensor or control failure can also cause continuous flow."
+  },
+  {
+    "id": 178,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A commercial fixture requires a carrier, but only wood blocking is installed. What should be checked?",
+    "options": [
+      "Manufacturer load/support requirements",
+      "Water hardness only",
+      "Softener drain flow",
+      "UV lamp age"
+    ],
+    "answer": 0,
+    "explanation": "Commercial wall fixtures may require rated carriers. Blocking may not meet structural loading. Support must match fixture and use."
+  },
+  {
+    "id": 179,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A hand sink is installed too far from required point of use in a commercial space. What is the issue?",
+    "options": [
+      "It may not meet health/use requirements",
+      "Water pressure will rise",
+      "Trap seal will improve",
+      "RO production will increase"
+    ],
+    "answer": 0,
+    "explanation": "Commercial handwashing fixtures may have location requirements. Fixture placement affects sanitation and usability. Plans and local requirements must be followed."
+  },
+  {
+    "id": 180,
+    "category": "E14 — Plumbing Fixtures and Appliances",
+    "question": "A fixture is connected to a drain without checking the manufacturer’s minimum trap size. What can happen?",
+    "options": [
+      "Poor drainage or non-compliant installation",
+      "Water becomes hotter",
+      "Supply pressure increases",
+      "Filter life doubles"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures have drainage requirements. An undersized trap or drain can cause slow drainage. Manufacturer and code sizing must be checked. ## E15 — Water Treatment Systems"
+  },
+  {
+    "id": 181,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A sediment filter housing is installed before the main shutoff valve. What is the service problem?",
+    "options": [
+      "Filter cannot be isolated easily for cartridge change",
+      "Filter removes more sediment",
+      "Water pressure doubles",
+      "Softener resin improves"
+    ],
+    "answer": 0,
+    "explanation": "Filters need isolation for maintenance. Cartridge changes require depressurizing the housing. Proper valve placement improves serviceability."
+  },
+  {
+    "id": 182,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A filter housing has no pressure relief button and no drain valve nearby. What is the concern during service?",
+    "options": [
+      "It may be difficult to depressurize safely",
+      "It will filter better",
+      "It will soften water",
+      "It will disinfect water"
+    ],
+    "answer": 0,
+    "explanation": "Filter housings are pressurized during operation. Safe service requires isolation and pressure relief. Poor service design can cause spills or injury."
+  },
+  {
+    "id": 183,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A pressure gauge before and after a filter shows a large pressure difference. What does this indicate?",
+    "options": [
+      "Filter is loaded or restricted",
+      "UV lamp is too bright",
+      "Softener salt is too high",
+      "Drain is oversized"
+    ],
+    "answer": 0,
+    "explanation": "Pressure drop across a filter increases as it clogs. Differential pressure helps schedule service. A restricted filter reduces flow."
+  },
+  {
+    "id": 184,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A carbon filter is installed to remove chlorine before a UV system. What must be considered?",
+    "options": [
+      "Loss of disinfectant residual after carbon filtration",
+      "Higher sewer slope",
+      "Toilet flange height",
+      "Water heater anode length"
+    ],
+    "answer": 0,
+    "explanation": "Carbon can remove chlorine residual. Downstream water may need protection from microbial growth. System design and maintenance are important."
+  },
+  {
+    "id": 185,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener drain line is run uphill and traps water. What can happen?",
+    "options": [
+      "Poor regeneration discharge or brine draw problems",
+      "Better salt use",
+      "Hardness removal increases",
+      "UV light improves"
+    ],
+    "answer": 0,
+    "explanation": "Softener drain lines must discharge properly. Restrictions or trapped water can affect regeneration. Manufacturer drain requirements must be followed."
+  },
+  {
+    "id": 186,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is installed after the water heater. What is the issue?",
+    "options": [
+      "It will not protect the water heater from scale",
+      "It will soften water better",
+      "It will remove all bacteria",
+      "It will increase TDS removal"
+    ],
+    "answer": 0,
+    "explanation": "Softeners are usually installed before equipment needing protection. If installed after the heater, the heater still receives hard water. Scale protection is reduced."
+  },
+  {
+    "id": 187,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A customer complains of salty taste after softener regeneration. What should be checked?",
+    "options": [
+      "Brine rinse cycle, drain flow, and control settings",
+      "Shower trap seal",
+      "Water heater T&P valve",
+      "Toilet flush valve only"
+    ],
+    "answer": 0,
+    "explanation": "Salty taste can occur if brine is not rinsed properly. Restricted drain flow or wrong settings may cause it. The regeneration cycle must complete correctly."
+  },
+  {
+    "id": 188,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener uses excessive water during regeneration. What may be wrong?",
+    "options": [
+      "Control valve programming or malfunction",
+      "UV sleeve scale only",
+      "RO tank pressure only",
+      "Faucet aerator debris"
+    ],
+    "answer": 0,
+    "explanation": "Regeneration water use is controlled by valve settings. A malfunctioning control can overrun cycles. Programming should match system capacity."
+  },
+  {
+    "id": 189,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV system is installed on water with iron staining. What problem can iron cause?",
+    "options": [
+      "Fouling of quartz sleeve and reduced UV transmission",
+      "More UV output",
+      "Lower hardness always",
+      "Higher drain capacity"
+    ],
+    "answer": 0,
+    "explanation": "Iron can coat the UV sleeve. Coating blocks UV light from reaching water. Pre-treatment may be needed."
+  },
+  {
+    "id": 190,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A UV unit is installed but the flow rate exceeds the unit rating. What is the issue?",
+    "options": [
+      "Water may not receive enough UV exposure",
+      "Disinfection improves automatically",
+      "Hardness removal increases",
+      "Pressure drop disappears"
+    ],
+    "answer": 0,
+    "explanation": "UV disinfection requires contact exposure. Too much flow reduces exposure time. Unit size must match flow rate."
+  },
+  {
+    "id": 191,
+    "category": "E15 — Water Treatment Systems",
+    "question": "An RO system storage tank feels full but delivers very little water. What should be checked?",
+    "options": [
+      "Tank air charge and bladder condition",
+      "Toilet flange height",
+      "Shower cartridge only",
+      "Floor drain trap"
+    ],
+    "answer": 0,
+    "explanation": "RO tanks use air pressure to deliver water. Wrong air charge or bladder failure reduces drawdown. Tank pressure must be checked correctly."
+  },
+  {
+    "id": 192,
+    "category": "E15 — Water Treatment Systems",
+    "question": "An RO faucet has good initial flow then quickly slows to a trickle. What is likely?",
+    "options": [
+      "Storage tank or membrane production issue",
+      "Sewer vent blockage",
+      "Water heater relief leak",
+      "Tub overflow gasket"
+    ],
+    "answer": 0,
+    "explanation": "Initial flow may come from stored water. If storage or production is poor, flow drops quickly. Tank pressure, filters, and membrane should be checked."
+  },
+  {
+    "id": 193,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment system is installed without unions or service bypass. What problem occurs later?",
+    "options": [
+      "Service requires larger shutdown or cutting pipe",
+      "Treatment improves",
+      "Pressure drop disappears",
+      "Hardness becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Treatment equipment requires maintenance. Unions and bypasses allow removal and service. Poor serviceability increases time and disruption."
+  },
+  {
+    "id": 194,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A backwashing filter drain is too small. What can happen during backwash?",
+    "options": [
+      "Drain overflow or poor backwash performance",
+      "Better filter cleaning",
+      "Lower pressure drop forever",
+      "RO production increases"
+    ],
+    "answer": 0,
+    "explanation": "Backwash requires a specific discharge flow. A small drain can overflow or restrict flow. Restricted backwash reduces media cleaning."
+  },
+  {
+    "id": 195,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water test identifies bacteria, but a sediment filter is installed as the only treatment. What is the problem?",
+    "options": [
+      "Sediment filtration does not disinfect water",
+      "Sediment filters kill all bacteria",
+      "Bacteria means hardness only",
+      "TDS will become zero"
+    ],
+    "answer": 0,
+    "explanation": "Sediment filters remove particles, not microorganisms reliably. Bacteria require approved disinfection treatment. Water should be retested after treatment."
+  },
+  {
+    "id": 196,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment unit is installed outside in freezing conditions without protection. What can happen?",
+    "options": [
+      "Housing or components may crack",
+      "Treatment improves",
+      "Water becomes sterile",
+      "Salt use stops"
+    ],
+    "answer": 0,
+    "explanation": "Water inside equipment expands when frozen. Filter housings and valves can crack. Freeze protection is required."
+  },
+  {
+    "id": 197,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is installed on water containing chlorine at high levels. What should be considered?",
+    "options": [
+      "Resin compatibility and possible degradation",
+      "Sewer slope",
+      "Shower valve rough-in",
+      "Water heater drain pan"
+    ],
+    "answer": 0,
+    "explanation": "High disinfectant levels can damage some resins. Manufacturer limits should be checked. Pre-treatment may be needed."
+  },
+  {
+    "id": 198,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A treatment system has no sample taps before and after equipment. What is the disadvantage?",
+    "options": [
+      "Performance testing and troubleshooting are harder",
+      "Water becomes softer",
+      "Flow automatically increases",
+      "Drainage improves"
+    ],
+    "answer": 0,
+    "explanation": "Sample taps help compare untreated and treated water. They confirm equipment performance. They also help diagnose treatment failure."
+  },
+  {
+    "id": 199,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A softener is regenerated but the drain flow is much lower than specified. What is the concern?",
+    "options": [
+      "Inadequate backwash and poor resin cleaning",
+      "Lower salt use with perfect operation",
+      "Better hardness removal",
+      "UV lamp failure"
+    ],
+    "answer": 0,
+    "explanation": "Backwash flow expands and cleans the resin bed. Low drain flow can leave debris in the resin. Softener performance may decline."
+  },
+  {
+    "id": 200,
+    "category": "E15 — Water Treatment Systems",
+    "question": "A water treatment system removes odour but stains remain on fixtures. What does this suggest?",
+    "options": [
+      "The treatment does not address all water quality problems",
+      "Odour treatment removes all minerals",
+      "Stains are always from sewer gas",
+      "No further testing is needed"
+    ],
+    "answer": 0,
+    "explanation": "Water may have multiple issues, such as iron, manganese, hardness, or sulphur. One treatment method may solve only one problem. Further testing helps select complete treatment."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledRedSealPlumberSectionEPracticeQuestions =
+  shuffleArray(redSealPlumberSectionEPracticeQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "red-seal-plumber",
+  tradeTitle: "Red Seal Plumber",
+  sectionTitle: "Section E — Fixtures, Appliances and Water Treatment Systems",
+  questionTimeSeconds: 90,
+  questions: shuffledRedSealPlumberSectionEPracticeQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledRedSealPlumberSectionEPracticeQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

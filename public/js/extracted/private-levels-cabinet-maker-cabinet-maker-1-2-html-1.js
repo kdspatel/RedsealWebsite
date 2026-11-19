@@ -1,0 +1,1135 @@
+const cabinetmakerLevel1Set1Questions = [
+      {
+            "id": 1,
+            "category": "A1. Maintain safe work environment",
+            "question": "What is the safest action before changing a saw blade?",
+            "options": [
+                  "Leave the machine plugged in",
+                  "Lock out and isolate the power",
+                  "Hold the blade by hand",
+                  "Raise the blade fully"
+            ],
+            "answer": 1,
+            "explanation": "Power must be isolated before servicing. This prevents accidental startup."
+      },
+      {
+            "id": 2,
+            "category": "A1. Maintain safe work environment",
+            "question": "What should be done with oily rags in a cabinet shop?",
+            "options": [
+                  "Leave them on the bench",
+                  "Store them in an approved metal container",
+                  "Put them beside lumber",
+                  "Hang them near heaters"
+            ],
+            "answer": 1,
+            "explanation": "Oily rags can self-heat and ignite. Approved containers reduce fire risk."
+      },
+      {
+            "id": 3,
+            "category": "A2. Use PPE and safety equipment",
+            "question": "What PPE protects against airborne wood dust?",
+            "options": [
+                  "Safety boots",
+                  "Respirator or dust mask",
+                  "Knee pads",
+                  "Hard hat only"
+            ],
+            "answer": 1,
+            "explanation": "Dust masks and respirators reduce inhalation hazards. Wood dust can irritate lungs and cause long-term health issues."
+      },
+      {
+            "id": 4,
+            "category": "A2. Use PPE and safety equipment",
+            "question": "When should hearing protection be worn?",
+            "options": [
+                  "Only during lunch",
+                  "Around loud machinery",
+                  "Only when painting",
+                  "Only outside"
+            ],
+            "answer": 1,
+            "explanation": "Machinery can exceed safe noise levels. Hearing protection prevents permanent hearing damage."
+      },
+      {
+            "id": 5,
+            "category": "B1. Use hand, portable power, and pneumatic tools",
+            "question": "What tool is used to check if an edge is square to a face?",
+            "options": [
+                  "Combination square",
+                  "Block plane",
+                  "Nail set",
+                  "Pry bar"
+            ],
+            "answer": 0,
+            "explanation": "A combination square checks 90-degree accuracy. It is commonly used during layout and inspection."
+      },
+      {
+            "id": 6,
+            "category": "B1. Use hand, portable power, and pneumatic tools",
+            "question": "What is the purpose of a countersink bit?",
+            "options": [
+                  "To sharpen screws",
+                  "To allow screw heads to sit flush or below the surface",
+                  "To remove glue",
+                  "To cut curves"
+            ],
+            "answer": 1,
+            "explanation": "Countersinking creates a tapered recess. This prevents screw heads from protruding."
+      },
+      {
+            "id": 7,
+            "category": "B1. Use hand, portable power, and pneumatic tools",
+            "question": "What should be checked on a pneumatic tool before use?",
+            "options": [
+                  "Air pressure and safety mechanism",
+                  "Paint colour",
+                  "Handle length only",
+                  "Brand name"
+            ],
+            "answer": 0,
+            "explanation": "Correct pressure and working safety devices are essential. Overpressure or faulty triggers can cause injury."
+      },
+      {
+            "id": 8,
+            "category": "B1. Use hand, portable power, and pneumatic tools",
+            "question": "What is a block plane commonly used for?",
+            "options": [
+                  "Cutting sheet goods",
+                  "Trimming and easing edges",
+                  "Applying laminate",
+                  "Drilling holes"
+            ],
+            "answer": 1,
+            "explanation": "Block planes are used for fine trimming. They are useful for chamfers and fitting parts."
+      },
+      {
+            "id": 9,
+            "category": "B2. Use stationary power tools",
+            "question": "What machine is commonly used to cut sheet goods accurately?",
+            "options": [
+                  "Panel saw",
+                  "Drill press",
+                  "Lathe",
+                  "Edge sander"
+            ],
+            "answer": 0,
+            "explanation": "Panel saws are designed for large sheet materials. They improve accuracy and material support."
+      },
+      {
+            "id": 10,
+            "category": "B2. Use stationary power tools",
+            "question": "What is the purpose of a drill press depth stop?",
+            "options": [
+                  "To control hole depth",
+                  "To change drill colour",
+                  "To hold sandpaper",
+                  "To reduce table height"
+            ],
+            "answer": 0,
+            "explanation": "A depth stop limits drilling depth. It helps make consistent holes."
+      },
+      {
+            "id": 11,
+            "category": "B2. Use stationary power tools",
+            "question": "What does blade sharpness affect?",
+            "options": [
+                  "Cut quality and safety",
+                  "Wall colour",
+                  "Glue type",
+                  "Clamp style"
+            ],
+            "answer": 0,
+            "explanation": "Dull blades cause burning, tear-out, and extra force. This increases risk and reduces accuracy."
+      },
+      {
+            "id": 12,
+            "category": "B2. Use stationary power tools",
+            "question": "Why should guards remain in place on machines?",
+            "options": [
+                  "To decorate the machine",
+                  "To protect the operator from moving parts",
+                  "To slow production",
+                  "To increase dust"
+            ],
+            "answer": 1,
+            "explanation": "Guards reduce contact with blades and cutters. They are key safety devices."
+      },
+      {
+            "id": 13,
+            "category": "B2. Use stationary power tools",
+            "question": "What is the purpose of dust collection on stationary machines?",
+            "options": [
+                  "To improve air quality and visibility",
+                  "To make boards heavier",
+                  "To replace PPE",
+                  "To sharpen cutters"
+            ],
+            "answer": 0,
+            "explanation": "Dust collection removes chips and fine dust. It improves safety, cleanliness, and machine performance."
+      },
+      {
+            "id": 14,
+            "category": "C1. Interpret prints and drawings",
+            "question": "What does a hidden line on a drawing usually show?",
+            "options": [
+                  "Visible front edge",
+                  "Feature not visible from the current view",
+                  "Glue line only",
+                  "Finish colour"
+            ],
+            "answer": 1,
+            "explanation": "Hidden lines show edges or features behind the surface. They help interpret construction details."
+      },
+      {
+            "id": 15,
+            "category": "C1. Interpret prints and drawings",
+            "question": "What does a section view show?",
+            "options": [
+                  "The object as if cut through",
+                  "Only the paint colour",
+                  "Only the hardware list",
+                  "The delivery route"
+            ],
+            "answer": 0,
+            "explanation": "Section views reveal internal construction. They are useful for joinery and material thickness details."
+      },
+      {
+            "id": 16,
+            "category": "C1. Interpret prints and drawings",
+            "question": "What information is commonly found in a title block?",
+            "options": [
+                  "Drawing name, scale, date, and project information",
+                  "Sandpaper grit only",
+                  "Blade size only",
+                  "Glue open time only"
+            ],
+            "answer": 0,
+            "explanation": "The title block identifies the drawing. It provides important project and revision information."
+      },
+      {
+            "id": 17,
+            "category": "C1. Interpret prints and drawings",
+            "question": "What does an elevation drawing show?",
+            "options": [
+                  "Front or side view of a cabinet or millwork item",
+                  "Only the top edge",
+                  "A tool list only",
+                  "A safety manual"
+            ],
+            "answer": 0,
+            "explanation": "Elevations show vertical faces. They help identify appearance, openings, and hardware locations."
+      },
+      {
+            "id": 18,
+            "category": "C1. Interpret prints and drawings",
+            "question": "Why are dimensions on drawings more reliable than scaling with a ruler?",
+            "options": [
+                  "Dimensions are the intended sizes",
+                  "Rulers are never used",
+                  "Paper colour changes size",
+                  "Scaling is always exact"
+            ],
+            "answer": 0,
+            "explanation": "Printed drawings may shrink or enlarge. Written dimensions should be followed."
+      },
+      {
+            "id": 19,
+            "category": "C2. Plan projects",
+            "question": "What is the purpose of a material list?",
+            "options": [
+                  "To identify required materials and quantities",
+                  "To replace drawings",
+                  "To select lunch time",
+                  "To sharpen blades"
+            ],
+            "answer": 0,
+            "explanation": "A material list helps order and prepare materials. It reduces waste and delays."
+      },
+      {
+            "id": 20,
+            "category": "C2. Plan projects",
+            "question": "Why should work be sequenced before starting a project?",
+            "options": [
+                  "To reduce mistakes and improve efficiency",
+                  "To avoid reading drawings",
+                  "To increase handling damage",
+                  "To skip inspections"
+            ],
+            "answer": 0,
+            "explanation": "Proper sequencing prevents rework. It organizes machining, assembly, and finishing steps."
+      },
+      {
+            "id": 21,
+            "category": "C2. Plan projects",
+            "question": "What should be checked before ordering hardware?",
+            "options": [
+                  "Application, size, finish, and load requirements",
+                  "Worker height",
+                  "Sawdust colour",
+                  "Shop radio volume"
+            ],
+            "answer": 0,
+            "explanation": "Hardware must suit the design and function. Incorrect hardware can cause installation or performance issues."
+      },
+      {
+            "id": 22,
+            "category": "C2. Plan projects",
+            "question": "Why is acclimatization important for wood products?",
+            "options": [
+                  "Wood movement is affected by moisture and environment",
+                  "It changes wood species",
+                  "It removes the need for glue",
+                  "It makes tools sharper"
+            ],
+            "answer": 0,
+            "explanation": "Wood expands and contracts with moisture. Acclimatizing reduces later movement problems."
+      },
+      {
+            "id": 23,
+            "category": "C3. Create designs",
+            "question": "What is ergonomics concerned with in cabinet design?",
+            "options": [
+                  "User comfort, reach, and function",
+                  "Blade sharpening only",
+                  "Glue colour only",
+                  "Dust bin size only"
+            ],
+            "answer": 0,
+            "explanation": "Ergonomics improves usability. It considers how people interact with cabinets and furniture."
+      },
+      {
+            "id": 24,
+            "category": "C3. Create designs",
+            "question": "Why are clearances important in cabinet design?",
+            "options": [
+                  "They allow doors and drawers to operate properly",
+                  "They increase sawdust",
+                  "They replace hinges",
+                  "They hide all errors"
+            ],
+            "answer": 0,
+            "explanation": "Proper clearance prevents binding. It also allows hardware and moving parts to function."
+      },
+      {
+            "id": 25,
+            "category": "C4. Perform layout",
+            "question": "What is a story pole used for?",
+            "options": [
+                  "Transferring repeated measurements accurately",
+                  "Applying finish",
+                  "Cutting curves",
+                  "Mixing adhesive"
+            ],
+            "answer": 0,
+            "explanation": "A story pole records layout marks. It helps repeat dimensions without errors."
+      },
+      {
+            "id": 26,
+            "category": "C4. Perform layout",
+            "question": "Why should reference edges be clearly marked?",
+            "options": [
+                  "To keep layout consistent",
+                  "To make the part heavier",
+                  "To hide damage",
+                  "To avoid measuring"
+            ],
+            "answer": 0,
+            "explanation": "Reference edges guide machining and assembly. Consistency improves accuracy."
+      },
+      {
+            "id": 27,
+            "category": "C4. Perform layout",
+            "question": "What is the purpose of centre marks in layout?",
+            "options": [
+                  "To locate holes, hardware, or symmetrical parts",
+                  "To show waste only",
+                  "To identify glue type",
+                  "To mark finish colour"
+            ],
+            "answer": 0,
+            "explanation": "Centre marks help position parts accurately. They are common for drilling and hardware installation."
+      },
+      {
+            "id": 28,
+            "category": "C4. Perform layout",
+            "question": "Why should layout marks be light but visible?",
+            "options": [
+                  "They guide work without causing finishing problems",
+                  "They replace cuts",
+                  "They increase sanding scratches",
+                  "They make glue stronger"
+            ],
+            "answer": 0,
+            "explanation": "Heavy marks may be hard to remove. Clear light marks help work accurately."
+      },
+      {
+            "id": 29,
+            "category": "C4. Perform layout",
+            "question": "What should be done if a drawing and site condition do not match?",
+            "options": [
+                  "Clarify before proceeding",
+                  "Guess and cut the parts",
+                  "Ignore the drawing",
+                  "Install anyway"
+            ],
+            "answer": 0,
+            "explanation": "Differences must be resolved before work continues. This prevents costly mistakes."
+      },
+      {
+            "id": 30,
+            "category": "D1. Handle materials, supplies, and products",
+            "question": "Why should veneered panels be handled carefully?",
+            "options": [
+                  "Veneer surfaces can chip or scratch easily",
+                  "They cannot be cut",
+                  "They are always waterproof",
+                  "They do not need support"
+            ],
+            "answer": 0,
+            "explanation": "Veneer is thin and decorative. Damage may be difficult to repair."
+      },
+      {
+            "id": 31,
+            "category": "D4. Select hardware",
+            "question": "What does overlay mean for cabinet doors?",
+            "options": [
+                  "How much the door covers the cabinet opening or frame",
+                  "The colour of the hinge",
+                  "The thickness of glue",
+                  "The type of sanding"
+            ],
+            "answer": 0,
+            "explanation": "Overlay affects hinge selection and door spacing. It is important for proper fit."
+      },
+      {
+            "id": 32,
+            "category": "D4. Select hardware",
+            "question": "What is a soft-close mechanism used for?",
+            "options": [
+                  "To reduce slamming of doors or drawers",
+                  "To increase cutting speed",
+                  "To sharpen tools",
+                  "To glue panels"
+            ],
+            "answer": 0,
+            "explanation": "Soft-close hardware slows final movement. It improves function and reduces impact."
+      },
+      {
+            "id": 33,
+            "category": "D5. Select adhesives and sealants",
+            "question": "What adhesive is commonly used for general wood assembly?",
+            "options": [
+                  "PVA glue",
+                  "Motor oil",
+                  "Wax",
+                  "Paint thinner"
+            ],
+            "answer": 0,
+            "explanation": "PVA glue is widely used for wood joints. It is suitable for many interior cabinetmaking applications.\nNo questions assigned to this section."
+      },
+      {
+            "id": 34,
+            "category": "F1. Breakout solid wood",
+            "question": "What should be identified before cutting rough lumber?",
+            "options": [
+                  "Knots, checks, warp, and grain direction",
+                  "Paint colour",
+                  "Clamp brand",
+                  "Shop temperature only"
+            ],
+            "answer": 0,
+            "explanation": "Defects affect usable yield. Grain direction affects machining quality."
+      },
+      {
+            "id": 35,
+            "category": "F1. Breakout solid wood",
+            "question": "What does “rough cutting” mean?",
+            "options": [
+                  "Cutting material slightly oversized before final machining",
+                  "Applying finish",
+                  "Installing drawers",
+                  "Sanding only"
+            ],
+            "answer": 0,
+            "explanation": "Rough cutting allows later trimming to final size. It helps remove defects and square parts."
+      },
+      {
+            "id": 36,
+            "category": "F1. Breakout solid wood",
+            "question": "Why is grain direction important when machining solid wood?",
+            "options": [
+                  "It affects tear-out and surface quality",
+                  "It changes tool colour",
+                  "It removes all defects",
+                  "It replaces measurement"
+            ],
+            "answer": 0,
+            "explanation": "Cutting against the grain can cause tear-out. Reading grain improves results."
+      },
+      {
+            "id": 37,
+            "category": "F1. Breakout solid wood",
+            "question": "What defect is a split along the grain called?",
+            "options": [
+                  "Check",
+                  "Overlay",
+                  "Reveal",
+                  "Kerf"
+            ],
+            "answer": 0,
+            "explanation": "A check is a separation in wood, usually along the grain. It may reduce usable material."
+      },
+      {
+            "id": 38,
+            "category": "F2. Dress solid wood",
+            "question": "Why is one face jointed before planing thickness?",
+            "options": [
+                  "A flat reference face is needed",
+                  "It makes the board longer",
+                  "It removes the need for layout",
+                  "It changes the species"
+            ],
+            "answer": 0,
+            "explanation": "The planer copies the reference face. A flat face helps produce accurate thickness."
+      },
+      {
+            "id": 39,
+            "category": "F2. Dress solid wood",
+            "question": "What is tear-out?",
+            "options": [
+                  "Wood fibres torn below the surface during cutting",
+                  "Glue squeezing out",
+                  "Paint drying too fast",
+                  "A type of hinge"
+            ],
+            "answer": 0,
+            "explanation": "Tear-out leaves a rough damaged surface. Sharp cutters and correct feed direction reduce it."
+      },
+      {
+            "id": 40,
+            "category": "F2. Dress solid wood",
+            "question": "What is the purpose of an outfeed table on a jointer?",
+            "options": [
+                  "To support the work after it passes the cutterhead",
+                  "To store glue",
+                  "To hold finish cans",
+                  "To measure moisture only"
+            ],
+            "answer": 0,
+            "explanation": "The outfeed table supports the newly cut surface. Incorrect setup can cause taper or poor results."
+      },
+      {
+            "id": 41,
+            "category": "F2. Dress solid wood",
+            "question": "What causes planer snipe?",
+            "options": [
+                  "Poor support or machine setup at board ends",
+                  "Too much finish",
+                  "Wrong hinge type",
+                  "Excess sanding dust"
+            ],
+            "answer": 0,
+            "explanation": "Snipe is a deeper cut near the end. Proper support and machine adjustment help reduce it."
+      },
+      {
+            "id": 42,
+            "category": "F2. Dress solid wood",
+            "question": "Why should stock be inspected after dressing?",
+            "options": [
+                  "To confirm straightness, squareness, and defects",
+                  "To avoid assembly",
+                  "To remove all layout marks",
+                  "To change hardware"
+            ],
+            "answer": 0,
+            "explanation": "Inspection ensures the part is ready for further machining. Problems should be corrected early."
+      },
+      {
+            "id": 43,
+            "category": "F3. Shape solid wood",
+            "question": "What is the purpose of a router table fence?",
+            "options": [
+                  "To guide the workpiece accurately past the cutter",
+                  "To apply glue",
+                  "To sharpen router bits",
+                  "To hold sandpaper"
+            ],
+            "answer": 0,
+            "explanation": "The fence controls position during routing. It improves accuracy and safety."
+      },
+      {
+            "id": 44,
+            "category": "F4. Breakout sheet materials",
+            "question": "What should be considered when cutting sheet goods?",
+            "options": [
+                  "Grain, face side, defects, and cutting sequence",
+                  "Worker’s shoe size",
+                  "Glue drying time only",
+                  "Wall colour"
+            ],
+            "answer": 0,
+            "explanation": "Proper planning reduces waste and surface damage. Face orientation matters for finished parts."
+      },
+      {
+            "id": 45,
+            "category": "F4. Breakout sheet materials",
+            "question": "Why should panels be supported during cutting?",
+            "options": [
+                  "To prevent binding, breakage, and kickback",
+                  "To increase dust",
+                  "To bend the sheet",
+                  "To dull the blade"
+            ],
+            "answer": 0,
+            "explanation": "Large panels can sag or pinch the blade. Support improves safety and accuracy."
+      },
+      {
+            "id": 46,
+            "category": "F5. Machine sheet materials",
+            "question": "What blade feature helps reduce chipping in melamine?",
+            "options": [
+                  "High tooth count and proper tooth geometry",
+                  "Missing teeth",
+                  "Rusted plate",
+                  "Loose arbor"
+            ],
+            "answer": 0,
+            "explanation": "Fine-tooth blades give cleaner cuts. Proper blade selection reduces chip-out."
+      },
+      {
+            "id": 47,
+            "category": "F6. Machine joints",
+            "question": "What is a rabbet joint?",
+            "options": [
+                  "A recess cut along the edge of a board",
+                  "A round sanding pad",
+                  "A type of finish",
+                  "A clamp handle"
+            ],
+            "answer": 0,
+            "explanation": "A rabbet receives another part or panel. It is common in cabinet backs and casework."
+      },
+      {
+            "id": 48,
+            "category": "F6. Machine joints",
+            "question": "What is the purpose of a tongue-and-groove joint?",
+            "options": [
+                  "To align and connect edges",
+                  "To apply paint",
+                  "To sharpen chisels",
+                  "To reduce board thickness only"
+            ],
+            "answer": 0,
+            "explanation": "The tongue fits into the groove. This provides alignment and joint strength."
+      },
+      {
+            "id": 49,
+            "category": "F6. Machine joints",
+            "question": "Why are sharp cutters important when machining joints?",
+            "options": [
+                  "They produce cleaner cuts and safer operation",
+                  "They increase tear-out",
+                  "They remove layout needs",
+                  "They make glue unnecessary"
+            ],
+            "answer": 0,
+            "explanation": "Sharp cutters require less force. They improve fit and surface quality."
+      },
+      {
+            "id": 50,
+            "category": "F6. Machine joints",
+            "question": "What is the purpose of a shoulder cut on a tenon?",
+            "options": [
+                  "To create a clean stop and bearing surface",
+                  "To apply stain",
+                  "To remove sanding dust",
+                  "To hold drawer slides"
+            ],
+            "answer": 0,
+            "explanation": "Shoulders help parts seat tightly and squarely. Poor shoulders leave gaps."
+      },
+      {
+            "id": 51,
+            "category": "F6. Machine joints",
+            "question": "Why should machining setups be tested on scrap material?",
+            "options": [
+                  "To confirm accuracy before cutting final parts",
+                  "To waste blades",
+                  "To avoid measuring",
+                  "To remove guards"
+            ],
+            "answer": 0,
+            "explanation": "Test cuts verify fit and setup. They help prevent mistakes on finished material."
+      },
+      {
+            "id": 52,
+            "category": "F7. Perform sanding",
+            "question": "What is the purpose of sanding between machining and finishing?",
+            "options": [
+                  "To remove marks and prepare the surface",
+                  "To make joints loose",
+                  "To add defects",
+                  "To remove all grain"
+            ],
+            "answer": 0,
+            "explanation": "Sanding removes machining marks and scratches. It prepares the surface for finish."
+      },
+      {
+            "id": 53,
+            "category": "I1. Arrange materials for laminating",
+            "question": "Why should laminations be arranged before glue is applied?",
+            "options": [
+                  "To confirm order, grain, and fit",
+                  "To avoid clamping",
+                  "To increase glue waste",
+                  "To hide defects only"
+            ],
+            "answer": 0,
+            "explanation": "Pre-arranging avoids confusion during glue-up. It helps maintain appearance and accuracy."
+      },
+      {
+            "id": 54,
+            "category": "I2. Apply adhesive for laminating",
+            "question": "What happens if too little adhesive is used in lamination?",
+            "options": [
+                  "Weak bond or dry spots",
+                  "Stronger bond",
+                  "Faster machining",
+                  "Better sanding only"
+            ],
+            "answer": 0,
+            "explanation": "Insufficient adhesive prevents full contact. This can cause delamination."
+      },
+      {
+            "id": 55,
+            "category": "I3. Clamp pieces together",
+            "question": "What can result from excessive clamp pressure?",
+            "options": [
+                  "Starved glue joint",
+                  "Better colour match",
+                  "Increased board length",
+                  "Automatic squareness"
+            ],
+            "answer": 0,
+            "explanation": "Too much pressure can squeeze out too much glue. A starved joint may fail."
+      },
+      {
+            "id": 56,
+            "category": "I3. Clamp pieces together",
+            "question": "Why should cauls be used in some glue-ups?",
+            "options": [
+                  "To distribute pressure and keep parts flat",
+                  "To replace glue",
+                  "To sharpen tools",
+                  "To add finish"
+            ],
+            "answer": 0,
+            "explanation": "Cauls spread clamping force. They help prevent bowing and uneven pressure."
+      },
+      {
+            "id": 57,
+            "category": "K1. Select laminate sheets",
+            "question": "What is high-pressure laminate commonly used for?",
+            "options": [
+                  "Durable decorative surfaces",
+                  "Structural framing only",
+                  "Sharpening tools",
+                  "Welding metal"
+            ],
+            "answer": 0,
+            "explanation": "HPL provides a durable, cleanable surface. It is common on countertops and cabinets."
+      },
+      {
+            "id": 58,
+            "category": "K1. Select laminate sheets",
+            "question": "Why should laminate colour and pattern be checked before cutting?",
+            "options": [
+                  "To ensure it matches the job requirements",
+                  "To increase waste",
+                  "To change thickness",
+                  "To improve air pressure"
+            ],
+            "answer": 0,
+            "explanation": "Colour or pattern mismatch can ruin appearance. It should be verified before fabrication."
+      },
+      {
+            "id": 59,
+            "category": "K2. Prepare laminate sheets and substrates",
+            "question": "Why is contact cement commonly used for plastic laminate?",
+            "options": [
+                  "It bonds quickly when both coated surfaces meet",
+                  "It stays wet forever",
+                  "It only works on metal",
+                  "It replaces trimming"
+            ],
+            "answer": 0,
+            "explanation": "Contact cement bonds on contact after proper drying. Correct positioning is important."
+      },
+      {
+            "id": 60,
+            "category": "K2. Prepare laminate sheets and substrates",
+            "question": "Why are spacer sticks used when applying laminate?",
+            "options": [
+                  "To position laminate before contact",
+                  "To sand the surface",
+                  "To remove adhesive",
+                  "To drill holes"
+            ],
+            "answer": 0,
+            "explanation": "Spacer sticks prevent early contact. They allow careful alignment before bonding."
+      },
+      {
+            "id": 61,
+            "category": "L1. Assemble cabinet components",
+            "question": "What should be checked before fastening cabinet parts together?",
+            "options": [
+                  "Fit, alignment, and orientation",
+                  "Music volume",
+                  "Paint brand only",
+                  "Delivery address only"
+            ],
+            "answer": 0,
+            "explanation": "Parts must be correctly oriented before fastening. This prevents assembly errors."
+      },
+      {
+            "id": 62,
+            "category": "L1. Assemble cabinet components",
+            "question": "Why are cabinet diagonals measured during assembly?",
+            "options": [
+                  "To check for square",
+                  "To select glue colour",
+                  "To measure humidity only",
+                  "To sharpen tools"
+            ],
+            "answer": 0,
+            "explanation": "Equal diagonals usually indicate square. This is important for doors and drawers."
+      },
+      {
+            "id": 63,
+            "category": "L1. Assemble cabinet components",
+            "question": "What is the purpose of a cabinet back?",
+            "options": [
+                  "To add rigidity and maintain square",
+                  "To replace doors",
+                  "To hide all defects",
+                  "To remove the need for shelves"
+            ],
+            "answer": 0,
+            "explanation": "Cabinet backs stiffen the case. They help keep the cabinet from racking."
+      },
+      {
+            "id": 64,
+            "category": "L1. Assemble cabinet components",
+            "question": "Why should glue squeeze-out be cleaned promptly?",
+            "options": [
+                  "It can affect finishing and appearance",
+                  "It improves staining",
+                  "It makes joints loose",
+                  "It sharpens scrapers"
+            ],
+            "answer": 0,
+            "explanation": "Dried glue can resist stain and finish. Cleaning early reduces rework."
+      },
+      {
+            "id": 65,
+            "category": "L1. Assemble cabinet components",
+            "question": "What is the purpose of a face frame?",
+            "options": [
+                  "To provide front structure and finished appearance",
+                  "To replace the cabinet box",
+                  "To cut panels",
+                  "To store clamps"
+            ],
+            "answer": 0,
+            "explanation": "Face frames stiffen and finish the front of a cabinet. They also support some door hardware."
+      },
+      {
+            "id": 66,
+            "category": "L1. Assemble cabinet components",
+            "question": "Why are assembly jigs useful?",
+            "options": [
+                  "They improve repeatability and accuracy",
+                  "They replace safety rules",
+                  "They remove the need for drawings",
+                  "They increase mistakes"
+            ],
+            "answer": 0,
+            "explanation": "Jigs hold parts consistently. They improve speed and reduce variation."
+      },
+      {
+            "id": 67,
+            "category": "L1. Assemble cabinet components",
+            "question": "What should be checked after cabinet assembly?",
+            "options": [
+                  "Square, level, fit, and surface damage",
+                  "Shoe size",
+                  "Glue smell only",
+                  "Wall paint only"
+            ],
+            "answer": 0,
+            "explanation": "Final checks identify issues before installation or finishing. Early correction saves time."
+      },
+      {
+            "id": 68,
+            "category": "L2. Assemble furniture components",
+            "question": "Why is dry fitting important before furniture glue-up?",
+            "options": [
+                  "It confirms joint fit and clamping method",
+                  "It replaces adhesive",
+                  "It removes grain",
+                  "It increases gaps"
+            ],
+            "answer": 0,
+            "explanation": "Dry fitting shows problems before glue is applied. It helps plan the assembly sequence."
+      },
+      {
+            "id": 69,
+            "category": "L2. Assemble furniture components",
+            "question": "What causes a loose mortise-and-tenon joint?",
+            "options": [
+                  "Poor fit or incorrect machining",
+                  "Correct clamping",
+                  "Proper glue spread",
+                  "Accurate shoulders"
+            ],
+            "answer": 0,
+            "explanation": "Joint strength depends on proper fit. Loose joints may fail or rack."
+      },
+      {
+            "id": 70,
+            "category": "L2. Assemble furniture components",
+            "question": "Why should furniture frames be assembled on a flat surface?",
+            "options": [
+                  "To prevent twist and misalignment",
+                  "To increase glue drying time",
+                  "To make parts darker",
+                  "To avoid measuring"
+            ],
+            "answer": 0,
+            "explanation": "A flat surface helps keep assemblies true. Twisted frames can rock or bind."
+      },
+      {
+            "id": 71,
+            "category": "L2. Assemble furniture components",
+            "question": "What is racking in furniture or cabinet assembly?",
+            "options": [
+                  "A frame shifting out of square",
+                  "A type of finish",
+                  "A sanding pattern",
+                  "A hinge adjustment"
+            ],
+            "answer": 0,
+            "explanation": "Racking means the assembly is distorted. It can affect strength and operation."
+      },
+      {
+            "id": 72,
+            "category": "L2. Assemble furniture components",
+            "question": "Why should fasteners be selected carefully in furniture assembly?",
+            "options": [
+                  "They must suit material thickness and load",
+                  "They only affect colour",
+                  "They replace all joinery",
+                  "They make sanding unnecessary"
+            ],
+            "answer": 0,
+            "explanation": "Incorrect fasteners can split parts or fail. Selection depends on material and application."
+      },
+      {
+            "id": 73,
+            "category": "L3. Combine cabinet and furniture components into final assemblies",
+            "question": "What is the purpose of adjusting cabinet doors after installation?",
+            "options": [
+                  "To achieve even reveals and proper operation",
+                  "To change door material",
+                  "To remove hinges",
+                  "To increase scratches"
+            ],
+            "answer": 0,
+            "explanation": "Door adjustment controls gaps and alignment. It ensures smooth operation."
+      },
+      {
+            "id": 74,
+            "category": "L3. Combine cabinet and furniture components into final assemblies",
+            "question": "Why should drawers be checked after installation?",
+            "options": [
+                  "To confirm smooth travel and proper alignment",
+                  "To avoid using slides",
+                  "To remove the cabinet back",
+                  "To change wood grain"
+            ],
+            "answer": 0,
+            "explanation": "Drawers must open and close smoothly. Alignment affects function and appearance."
+      },
+      {
+            "id": 75,
+            "category": "N1. Repair imperfections",
+            "question": "What is the purpose of wood filler?",
+            "options": [
+                  "To repair small holes, dents, or defects",
+                  "To sharpen blades",
+                  "To glue all joints",
+                  "To cut veneer"
+            ],
+            "answer": 0,
+            "explanation": "Wood filler corrects minor imperfections. It helps prepare the surface for finishing."
+      },
+      {
+            "id": 76,
+            "category": "N1. Repair imperfections",
+            "question": "Why should dents be raised or filled before finishing?",
+            "options": [
+                  "Finish can highlight surface defects",
+                  "Finish hides all damage",
+                  "Dents improve adhesion",
+                  "Dents make sanding easier"
+            ],
+            "answer": 0,
+            "explanation": "Surface defects often become more visible after finish. Repairs should be done first."
+      },
+      {
+            "id": 77,
+            "category": "N2. Prepare parts for finishing",
+            "question": "Why should surfaces be cleaned before applying finish?",
+            "options": [
+                  "Dust and oil can cause finish defects",
+                  "Dirt improves bonding",
+                  "Cleaning changes wood thickness",
+                  "Oil always improves stain"
+            ],
+            "answer": 0,
+            "explanation": "Contaminants can cause poor adhesion or rough finish. Clean surfaces produce better results."
+      },
+      {
+            "id": 78,
+            "category": "N2. Prepare parts for finishing",
+            "question": "Why is end grain often sealed or sanded carefully?",
+            "options": [
+                  "It absorbs finish differently than face grain",
+                  "It cannot accept finish",
+                  "It is always plastic",
+                  "It does not move"
+            ],
+            "answer": 0,
+            "explanation": "End grain absorbs more finish or stain. Proper preparation helps create an even appearance."
+      },
+      {
+            "id": 79,
+            "category": "N3. Perform final sanding for surfaces",
+            "question": "What is the result of sanding across the grain?",
+            "options": [
+                  "Visible scratches may appear after finishing",
+                  "The surface becomes waterproof",
+                  "Glue bonds instantly",
+                  "Wood stops moving"
+            ],
+            "answer": 0,
+            "explanation": "Cross-grain scratches are often highlighted by stain or finish. Sanding with the grain reduces visible marks."
+      },
+      {
+            "id": 80,
+            "category": "N3. Perform final sanding for surfaces",
+            "question": "Why should sandpaper be changed when it becomes clogged?",
+            "options": [
+                  "Clogged paper scratches and cuts poorly",
+                  "It makes finish stronger",
+                  "It removes moisture",
+                  "It replaces dust collection"
+            ],
+            "answer": 0,
+            "explanation": "Clogged abrasive loses cutting ability. It can burnish the surface or leave uneven scratches."
+      }
+];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledCabinetmakerLevel1Set1Questions =
+      cabinetmakerLevel1Set1Questions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "cabinetmaker",
+      tradeTitle: "Cabinetmaker",
+      sectionTitle: "Harmonized Level 1 – Quiz Set 2",
+      questionTimeSeconds: 90,
+      questions: shuffledCabinetmakerLevel1Set1Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledCabinetmakerLevel1Set1Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

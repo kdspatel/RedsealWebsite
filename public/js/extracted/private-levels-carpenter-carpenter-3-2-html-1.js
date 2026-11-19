@@ -1,0 +1,1396 @@
+const carpenterHarmonizedLevel3Set2Questions = [
+  {
+    "id": 1,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A truss package shows a special girder truss with extra plies, but the roof plan only shows a single line. What should be followed?",
+    "options": [
+      "The single line only",
+      "The approved truss layout and engineered details",
+      "The carpenter’s standard spacing",
+      "The sheathing layout only"
+    ],
+    "answer": 1,
+    "explanation": "Engineered truss drawings give specific structural requirements. Girder trusses may require special plies, bearings, and connectors. The approved layout must be checked before installation."
+  },
+  {
+    "id": 2,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A cabinet elevation shows upper cabinets aligned with a bulkhead, but site measurement shows the bulkhead is lower than drawn. What should you do?",
+    "options": [
+      "Cut cabinets without checking",
+      "Force the cabinets into the space",
+      "Verify dimensions and request clarification",
+      "Install cabinets crooked to fit"
+    ],
+    "answer": 2,
+    "explanation": "Site conditions can differ from drawings. Cabinet installation depends on accurate finished dimensions. Clarification prevents damage, poor fit, and rework."
+  },
+  {
+    "id": 3,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A concrete formwork drawing shows pour rate limits. Why is that important?",
+    "options": [
+      "Pour rate affects form pressure",
+      "Pour rate affects cabinet colour",
+      "Pour rate replaces bracing",
+      "Pour rate only affects lunch timing"
+    ],
+    "answer": 0,
+    "explanation": "Faster pours increase lateral pressure on forms. Exceeding limits can cause bulging or failure. Formwork instructions must be followed exactly."
+  },
+  {
+    "id": 4,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A stair drawing gives finished floor to finished floor height. Why is this better than rough framing height?",
+    "options": [
+      "Stairs are based on final walking surfaces",
+      "Rough framing is always more accurate",
+      "Finished flooring does not affect stairs",
+      "Stair forms ignore floor elevations"
+    ],
+    "answer": 0,
+    "explanation": "Stair rise must be measured between finished levels. Flooring thickness changes final riser heights. Ignoring finishes can create unsafe uneven risers."
+  },
+  {
+    "id": 5,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A note says “coordinate cabinet backing with millwork drawings.” What does this mean?",
+    "options": [
+      "Install backing only where convenient",
+      "Check cabinet/millwork locations before closing walls",
+      "Use drywall anchors for all cabinets",
+      "Ignore backing until cabinets arrive"
+    ],
+    "answer": 1,
+    "explanation": "Cabinets need solid support behind finished walls. Backing must be installed before wall surfaces are closed. Coordination prevents weak fastening and rework."
+  },
+  {
+    "id": 6,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A roof detail shows both ice barrier and metal flashing at the eave. Why must the sequence be checked?",
+    "options": [
+      "Wrong layering can trap or direct water inside",
+      "Flashing sequence only affects appearance",
+      "Ice barrier replaces all roofing",
+      "Metal flashing replaces rafters"
+    ],
+    "answer": 0,
+    "explanation": "Roof water-control layers must lap correctly. Incorrect sequence can create hidden leaks. Details show how materials shed water together."
+  },
+  {
+    "id": 7,
+    "category": "B1 — Use Construction Drawings and Specifications",
+    "question": "A drawing uses the abbreviation “o.c.” for fasteners in roof sheathing. What does this control?",
+    "options": [
+      "Fastener spacing centre to centre",
+      "Outside corner only",
+      "Open ceiling height",
+      "Offset concrete line"
+    ],
+    "answer": 0,
+    "explanation": "o.c. means on-centre. Fastener spacing affects structural performance. Incorrect spacing can reduce shear or uplift resistance."
+  },
+  {
+    "id": 8,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A trench is deeper than expected and workers must enter it. What must be considered first?",
+    "options": [
+      "Excavation protection requirements",
+      "Cabinet door swing",
+      "Roof shingle colour",
+      "Interior trim profile"
+    ],
+    "answer": 0,
+    "explanation": "Deeper trenches have higher collapse risk. Protection may require shoring, sloping, or shielding. Worker entry must not occur until safe."
+  },
+  {
+    "id": 9,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A roof design is changed on site to remove a structural support. What is the correct response?",
+    "options": [
+      "Continue if it looks strong",
+      "Get approval from the designer or authority before changing",
+      "Add more nails randomly",
+      "Cover the change with sheathing"
+    ],
+    "answer": 1,
+    "explanation": "Structural changes affect load paths and code compliance. Only qualified approval can confirm the change is safe. Unauthorized changes can cause failure or inspection rejection."
+  },
+  {
+    "id": 10,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A concrete stair form creates risers that vary by noticeable amounts. What is the main issue?",
+    "options": [
+      "Unsafe stair geometry",
+      "Better concrete drainage",
+      "Improved finish appearance",
+      "Stronger formwork"
+    ],
+    "answer": 0,
+    "explanation": "Uneven risers cause trip hazards. Stair dimensions are commonly regulated for safety. Forms must be corrected before concrete placement."
+  },
+  {
+    "id": 11,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A fire-rated wall detail requires specific board layers and fastener spacing. Why can’t it be changed freely?",
+    "options": [
+      "The rating depends on the tested assembly",
+      "Fire ratings only affect paint",
+      "Any board works the same",
+      "Fastener spacing is decorative"
+    ],
+    "answer": 0,
+    "explanation": "Fire-rated assemblies perform as complete systems. Changing materials or fastening can reduce rating. The listed or approved detail must be followed."
+  },
+  {
+    "id": 12,
+    "category": "B2 — Interpret Building Codes and Bylaws",
+    "question": "A guard around a stair opening is installed but has large openings. What code concern does this create?",
+    "options": [
+      "Opening size and fall protection",
+      "Roof ventilation",
+      "Concrete slump",
+      "Cabinet fastening"
+    ],
+    "answer": 0,
+    "explanation": "Guards must prevent falls and unsafe passage through openings. Height, strength, and opening limits may apply. A guard must be safe, not just present."
+  },
+  {
+    "id": 13,
+    "category": "C1 — Use Hand Tools",
+    "question": "When laying out concrete stair forms, which tool helps verify equal tread and riser layout repeatedly?",
+    "options": [
+      "Framing square",
+      "Nail set",
+      "Paint scraper",
+      "Cabinet pull template"
+    ],
+    "answer": 0,
+    "explanation": "A framing square is used for accurate stair layout. Repeated riser and tread marks must be consistent. Small layout errors become permanent after concrete placement."
+  },
+  {
+    "id": 14,
+    "category": "C1 — Use Hand Tools",
+    "question": "A finish panel must fit tightly against a wavy wall. Which tool or technique is most appropriate?",
+    "options": [
+      "Scribe and plane/cut to the line",
+      "Hammer the panel flat",
+      "Leave a large open gap",
+      "Use concrete nails"
+    ],
+    "answer": 0,
+    "explanation": "Scribing transfers the wall irregularity to the panel. Planing or cutting to the line creates a tight fit. This is common in cabinet and finish work."
+  },
+  {
+    "id": 15,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "You need many identical cabinet face-frame parts. What setup improves accuracy?",
+    "options": [
+      "Stop block on a mitre saw",
+      "Freehand table saw cutting",
+      "Random tape marks",
+      "Cutting without a fence"
+    ],
+    "answer": 0,
+    "explanation": "A stop block gives repeatable lengths. It reduces measuring error on multiple pieces. Work must still be safely held during cutting."
+  },
+  {
+    "id": 16,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A cabinet panel pinches the table saw blade near the end of the cut. What danger increases?",
+    "options": [
+      "Kickback",
+      "Better cut quality",
+      "Lower blade speed",
+      "More accurate ripping"
+    ],
+    "answer": 0,
+    "explanation": "Pinching traps the blade. This can throw material back toward the operator. Fence alignment, support, and feed control are critical."
+  },
+  {
+    "id": 17,
+    "category": "C3 — Use Stationary Power Tools",
+    "question": "A planer is used on expensive finish stock. What setup reduces tear-out risk?",
+    "options": [
+      "Sharp knives, light passes, and correct grain direction",
+      "Deep cuts and fast feed only",
+      "Feed against instructions",
+      "Remove dust collection"
+    ],
+    "answer": 0,
+    "explanation": "Finish stock requires controlled machining. Dull knives and heavy cuts cause tear-out. Reading the grain improves surface quality."
+  },
+  {
+    "id": 18,
+    "category": "E2 — Use Rigging and Hoisting Equipment",
+    "question": "A roof truss bundle is long and flexible. What is a key rigging concern?",
+    "options": [
+      "Use proper pick points to prevent bending and loss of control",
+      "Lift from one end only",
+      "Stand under the centre",
+      "Use damaged slings for light control"
+    ],
+    "answer": 0,
+    "explanation": "Long loads can bend, swing, or twist. Correct pick points keep the load balanced. Workers must stay clear of suspended loads."
+  },
+  {
+    "id": 19,
+    "category": "E2 — Use Rigging and Hoisting Equipment",
+    "question": "A sling tag is missing and the load weight is unknown. What should happen?",
+    "options": [
+      "Do not use the sling or lift until capacity and load are confirmed",
+      "Use it for a quick lift",
+      "Double the speed of the lift",
+      "Assume it is strong enough"
+    ],
+    "answer": 0,
+    "explanation": "Rigging capacity must be known. Missing tags make safe working load uncertain. Unknown load weight can overload the rigging."
+  },
+  {
+    "id": 20,
+    "category": "F3 — Apply Excavation and Shoring Practices",
+    "question": "A trench is beside a driveway where equipment is operating. What extra hazard exists?",
+    "options": [
+      "Vibration and surcharge loads can affect trench stability",
+      "Equipment makes trench walls stronger",
+      "Vehicle weight has no effect",
+      "Only cabinet layout is affected"
+    ],
+    "answer": 0,
+    "explanation": "Nearby equipment adds load and vibration. These can increase trench collapse risk. Excavation protection must account for nearby loads."
+  },
+  {
+    "id": 21,
+    "category": "F3 — Apply Excavation and Shoring Practices",
+    "question": "Water begins collecting in the bottom of an excavation. What is the concern?",
+    "options": [
+      "Soil stability may be reduced",
+      "The trench becomes safer",
+      "Shoring is no longer needed",
+      "Forms become stronger automatically"
+    ],
+    "answer": 0,
+    "explanation": "Water can weaken soil and increase collapse risk. It can also hide unsafe footing conditions. Drainage or pumping may be required before work continues."
+  },
+  {
+    "id": 22,
+    "category": "F3 — Apply Excavation and Shoring Practices",
+    "question": "A worker is asked to enter an unprotected trench to “just grab a tool.” What is the safest answer?",
+    "options": [
+      "Do not enter until the trench is made safe",
+      "Enter quickly and leave",
+      "Crawl low to avoid collapse",
+      "Stand near the wall only"
+    ],
+    "answer": 0,
+    "explanation": "Trench collapse can occur suddenly. Short entry time does not make it safe. Protection must be in place before entry."
+  },
+  {
+    "id": 23,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "Concrete for an exterior stair is exposed to freezing weather. What concrete property is especially important?",
+    "options": [
+      "Freeze-thaw durability",
+      "Cabinet grade finish",
+      "Roof pitch",
+      "Door swing clearance"
+    ],
+    "answer": 0,
+    "explanation": "Exterior concrete may freeze when wet. Air entrainment and proper curing improve durability. Poor concrete can scale or crack."
+  },
+  {
+    "id": 24,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "A worker wants to add water to make concrete flow into tight stair forms. What is the risk?",
+    "options": [
+      "Reduced strength and increased shrinkage",
+      "Better durability always",
+      "Stronger reinforcement",
+      "Less form pressure always"
+    ],
+    "answer": 0,
+    "explanation": "Extra water changes the mix design. High water content weakens concrete. Use approved placement methods instead."
+  },
+  {
+    "id": 25,
+    "category": "G1 — Use Concrete Types, Materials, Additives and Treatments",
+    "question": "Why should concrete be cured after finishing?",
+    "options": [
+      "Hydration needs moisture and proper temperature",
+      "Concrete gains strength by drying only",
+      "Curing replaces reinforcement",
+      "Curing weakens the slab"
+    ],
+    "answer": 0,
+    "explanation": "Concrete gains strength through hydration. Curing helps retain moisture. Poor curing reduces durability and surface quality."
+  },
+  {
+    "id": 26,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "A tall wall is poured quickly with a very fluid mix. What formwork demand increases?",
+    "options": [
+      "Lateral pressure",
+      "Roof ventilation",
+      "Cabinet backing",
+      "Door reveal"
+    ],
+    "answer": 0,
+    "explanation": "Fluid concrete acts strongly against form faces. Fast pour rates increase pressure. Forms must be rated for the planned pour."
+  },
+  {
+    "id": 27,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "Why must ties, walers, and braces be compatible in a form system?",
+    "options": [
+      "They work together to resist concrete pressure",
+      "They are only decorative",
+      "They reduce concrete strength",
+      "They replace reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Form components act as a system. A weak or mismatched part can fail. Manufacturer or engineered instructions must be followed."
+  },
+  {
+    "id": 28,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "ICF walls require careful concrete placement because:",
+    "options": [
+      "Overfilling or poor bracing can cause forms to bulge or blow out",
+      "ICF blocks cannot move",
+      "ICF forms need no reinforcement",
+      "Concrete is not used in ICF"
+    ],
+    "answer": 0,
+    "explanation": "ICF forms are lightweight before concrete hardens. Concrete pressure can distort or break them. Lift height, vibration, and bracing matter."
+  },
+  {
+    "id": 29,
+    "category": "G2 — Select Concrete Forming Systems",
+    "question": "Why is form face material important for architectural concrete?",
+    "options": [
+      "It affects the finished concrete surface",
+      "It changes roof load",
+      "It replaces curing",
+      "It controls stair code only"
+    ],
+    "answer": 0,
+    "explanation": "Concrete copies the form surface. Damaged or dirty forms leave marks. Architectural finishes require careful form selection."
+  },
+  {
+    "id": 30,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A footing form is the correct width but not centred under the wall line. What is the issue?",
+    "options": [
+      "Load may not transfer as designed",
+      "Concrete becomes stronger",
+      "Reinforcement is unnecessary",
+      "Wall thickness increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "Footings must align with supported loads. Off-centre walls can create uneven bearing. Layout must be checked before pouring."
+  },
+  {
+    "id": 31,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "Why are vertical wall forms checked for plumb before concrete placement?",
+    "options": [
+      "Concrete hardens in the shape and position of the forms",
+      "Concrete corrects leaning forms automatically",
+      "Plumb affects only paint",
+      "Wall forms do not need bracing"
+    ],
+    "answer": 0,
+    "explanation": "A leaning form creates a leaning wall. Concrete pressure can make errors worse. Plumb and bracing must be verified."
+  },
+  {
+    "id": 32,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A form tie pattern is changed to save time. What is the danger?",
+    "options": [
+      "Forms may bulge or fail under pressure",
+      "Concrete will cure faster",
+      "Wall finish improves",
+      "Rebar cover increases automatically"
+    ],
+    "answer": 0,
+    "explanation": "Tie spacing is part of the form design. Changing spacing changes load resistance. Unsafe modifications can cause blowouts."
+  },
+  {
+    "id": 33,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A footing excavation bottom has loose disturbed soil. What should happen before the pour?",
+    "options": [
+      "Remove or correct unsuitable material",
+      "Pour over it immediately",
+      "Add extra water",
+      "Cover it with cardboard"
+    ],
+    "answer": 0,
+    "explanation": "Footings need firm bearing. Loose soil can settle under load. The base must be inspected and corrected."
+  },
+  {
+    "id": 34,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "A wall sleeve is installed at the wrong elevation. What problem can result?",
+    "options": [
+      "Services may not align after concrete hardens",
+      "Concrete becomes stronger",
+      "Forms become easier to strip",
+      "Roof framing improves"
+    ],
+    "answer": 0,
+    "explanation": "Sleeves and embeds must match future work. Wrong elevation causes service conflicts. Corrections after concrete hardens are difficult."
+  },
+  {
+    "id": 35,
+    "category": "G3 — Build Footing and Vertical Formwork",
+    "question": "Why should wall forms be monitored during the pour?",
+    "options": [
+      "Pressure can move forms before the pour is complete",
+      "Forms cannot move once concrete starts",
+      "Monitoring only affects colour",
+      "Bracing is useless during placement"
+    ],
+    "answer": 0,
+    "explanation": "Form pressure changes during placement. Bulging, leakage, or movement can develop. Early detection prevents failure."
+  },
+  {
+    "id": 36,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "A slab-on-grade form is set level, but the base below varies greatly in depth. What is the concern?",
+    "options": [
+      "Slab thickness and support may be inconsistent",
+      "Roof framing becomes stronger",
+      "Cabinet doors align better",
+      "Concrete no longer shrinks"
+    ],
+    "answer": 0,
+    "explanation": "Slab thickness affects strength and performance. Uneven base can cause settlement or weak areas. Base grade must be prepared before placement."
+  },
+  {
+    "id": 37,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "Suspended slab shores are installed on soft soil without pads. What can happen?",
+    "options": [
+      "Shores may settle under load",
+      "Shores become stronger",
+      "Slab camber improves automatically",
+      "Concrete becomes lighter"
+    ],
+    "answer": 0,
+    "explanation": "Shores need firm bearing. Soft soil can compress under wet concrete weight. Mud sills or pads may be required."
+  },
+  {
+    "id": 38,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "Why is slab reinforcement lifted or supported before placing concrete?",
+    "options": [
+      "Reinforcement must be in the designed position",
+      "Rebar works best lying on the ground",
+      "Chairs replace concrete",
+      "Reinforcement controls only colour"
+    ],
+    "answer": 0,
+    "explanation": "Rebar or mesh must be located within the slab. Wrong position reduces structural performance. Supports maintain cover during placement."
+  },
+  {
+    "id": 39,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "A suspended slab form has correct decking but missing edge protection. What is the main hazard?",
+    "options": [
+      "Fall hazard for workers",
+      "Better access",
+      "Stronger formwork",
+      "Improved curing"
+    ],
+    "answer": 0,
+    "explanation": "Suspended work areas expose workers to falls. Edge protection is part of safe access. Formwork safety includes both structure and worker protection."
+  },
+  {
+    "id": 40,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "Why must slab edge forms be braced?",
+    "options": [
+      "Fresh concrete can push them out of line",
+      "Bracing reduces concrete strength",
+      "Bracing replaces screeding",
+      "Edge forms do not move"
+    ],
+    "answer": 0,
+    "explanation": "Even low slab forms receive pressure. Unbraced forms can bow or move. Accurate slab dimensions depend on secure forms."
+  },
+  {
+    "id": 41,
+    "category": "G4 — Build Slab-On-Grade Forms and Suspended Slab Forms",
+    "question": "A slab surface must slope to a drain. What must forms and screed guides control?",
+    "options": [
+      "Correct elevation and slope",
+      "Cabinet height",
+      "Roof truss spacing",
+      "Door backset"
+    ],
+    "answer": 0,
+    "explanation": "Drainage depends on accurate slope. Forms and guides establish finished elevations. Incorrect slope causes ponding."
+  },
+  {
+    "id": 42,
+    "category": "G5 — Install Reinforcement and Embedded Items",
+    "question": "Rebar is placed too close to the concrete surface. What is the main risk?",
+    "options": [
+      "Corrosion and reduced durability",
+      "More concrete cover",
+      "Better fire protection",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Insufficient cover exposes steel to moisture and air. This can cause corrosion and cracking. Correct cover protects reinforcement."
+  },
+  {
+    "id": 43,
+    "category": "G5 — Install Reinforcement and Embedded Items",
+    "question": "Anchor bolts are installed without a template and shift during placement. What is the likely result?",
+    "options": [
+      "Sill plates may not fit correctly",
+      "Concrete becomes waterproof",
+      "Wall forms become plumb",
+      "Rebar cover improves"
+    ],
+    "answer": 0,
+    "explanation": "Anchor bolts must align with plates and holes. Templates help maintain spacing and location. Misplaced bolts cause rework."
+  },
+  {
+    "id": 44,
+    "category": "G5 — Install Reinforcement and Embedded Items",
+    "question": "Why must rebar be clean enough for concrete placement?",
+    "options": [
+      "Contaminants can reduce bond with concrete",
+      "Dirt increases bond always",
+      "Oil improves rebar performance",
+      "Rusted-through steel is acceptable"
+    ],
+    "answer": 0,
+    "explanation": "Concrete must bond to reinforcement. Oil, mud, or heavy contamination can interfere. Rebar condition should be checked before pouring."
+  },
+  {
+    "id": 45,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "A concrete stair has total rise of 1050 mm and 6 risers. What is each riser?",
+    "options": [
+      "150 mm",
+      "175 mm",
+      "200 mm",
+      "225 mm"
+    ],
+    "answer": 1,
+    "explanation": "1050 ÷ 6 = 175 mm. Each riser must be equal. Check code limits before forming."
+  },
+  {
+    "id": 46,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "Concrete stair side forms are not braced tightly. What can happen during the pour?",
+    "options": [
+      "Treads and risers can move out of shape",
+      "Concrete becomes stronger",
+      "Stair dimensions correct themselves",
+      "Reinforcement disappears"
+    ],
+    "answer": 0,
+    "explanation": "Fresh concrete pushes on stair forms. Movement changes stair geometry. Forms must be strong and braced."
+  },
+  {
+    "id": 47,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "Why should stair forms be checked diagonally and dimensionally?",
+    "options": [
+      "To confirm square, width, and alignment",
+      "To check roof pitch",
+      "To measure cabinet reveals",
+      "To reduce curing time"
+    ],
+    "answer": 0,
+    "explanation": "Stair forms control final concrete shape. Out-of-square forms create poor fit and unsafe edges. Concrete errors are difficult to repair."
+  },
+  {
+    "id": 48,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "A stair landing form is lower than required. What can result?",
+    "options": [
+      "Incorrect final rise or drainage issue",
+      "Stronger landing",
+      "Better handrail support automatically",
+      "Less need for reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Landing elevation affects stair geometry. Wrong height can create uneven risers. Exterior landings may also need proper drainage."
+  },
+  {
+    "id": 49,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "Why should concrete stair nosing forms be securely fastened?",
+    "options": [
+      "Loose nosing forms can shift and create unsafe edges",
+      "Nosing forms are decorative only",
+      "They replace rebar",
+      "They control roof ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Nosing details shape the walking edge. Movement creates inconsistent stair profiles. Secure forms improve safety and finish."
+  },
+  {
+    "id": 50,
+    "category": "G6 — Build Concrete Stair Forms",
+    "question": "Concrete stair forms leak paste at riser joints. What can this cause?",
+    "options": [
+      "Honeycombing or poor edge finish",
+      "Stronger edges",
+      "Better curing",
+      "Higher slump"
+    ],
+    "answer": 0,
+    "explanation": "Paste loss leaves voids and rough surfaces. Tight joints improve finish quality. Leaking forms should be corrected before or during placement safely."
+  },
+  {
+    "id": 51,
+    "category": "G8 — Install Specialized Formwork",
+    "question": "A proprietary flying form system is missing a locking pin. What should happen?",
+    "options": [
+      "Do not use until the correct component is installed",
+      "Replace the pin with scrap wire",
+      "Use it only for light concrete",
+      "Ignore it if braced nearby"
+    ],
+    "answer": 0,
+    "explanation": "Proprietary systems rely on specific components. Missing parts can reduce capacity or safety. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 52,
+    "category": "G8 — Install Specialized Formwork",
+    "question": "Why must specialized formwork be inspected before each use?",
+    "options": [
+      "Damage or missing parts can cause failure",
+      "Inspection only changes colour",
+      "Formwork cannot wear out",
+      "It replaces engineering"
+    ],
+    "answer": 0,
+    "explanation": "Repeated use can damage parts. Pins, ties, braces, and panels must be sound. Inspection prevents unsafe assembly."
+  },
+  {
+    "id": 53,
+    "category": "H6 — Build Roof Systems",
+    "question": "A rafter span is longer than shown on the plan. What should be done?",
+    "options": [
+      "Stop and verify required size/design",
+      "Use the same rafter anyway",
+      "Add shingles only",
+      "Cut the rafter shorter after installation"
+    ],
+    "answer": 0,
+    "explanation": "Span affects rafter strength and deflection. Longer spans may require larger members or support. Structural changes must be verified."
+  },
+  {
+    "id": 54,
+    "category": "H6 — Build Roof Systems",
+    "question": "A roof has 8:12 slope. What does the 12 represent?",
+    "options": [
+      "Horizontal run",
+      "Vertical rise",
+      "Rafter thickness",
+      "Ridge height only"
+    ],
+    "answer": 0,
+    "explanation": "Roof slope is rise over run. In 8:12, 8 is rise and 12 is run. This ratio is used for rafter layout."
+  },
+  {
+    "id": 55,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why is common rafter length longer than its horizontal run?",
+    "options": [
+      "It follows the slope of the roof",
+      "It is always doubled",
+      "It includes concrete depth",
+      "It ignores rise"
+    ],
+    "answer": 0,
+    "explanation": "Rafter length is the sloped distance. Run is horizontal distance only. Rise and run form a right triangle."
+  },
+  {
+    "id": 56,
+    "category": "H6 — Build Roof Systems",
+    "question": "A birdsmouth cut removes too much material from a rafter. What is the risk?",
+    "options": [
+      "Reduced rafter strength at bearing",
+      "Better bearing strength",
+      "Stronger roof sheathing",
+      "Improved ventilation"
+    ],
+    "answer": 0,
+    "explanation": "Overcutting weakens the rafter. The bearing area must remain structurally sound. Notching limits must be respected."
+  },
+  {
+    "id": 57,
+    "category": "H6 — Build Roof Systems",
+    "question": "A ridge beam is installed but has no post or load path below one end. What is the issue?",
+    "options": [
+      "Loads are not properly supported",
+      "The beam becomes decorative",
+      "Roof load disappears",
+      "Sheathing carries all beam load"
+    ],
+    "answer": 0,
+    "explanation": "Ridge beams carry structural loads. Those loads must transfer to supports and foundation. Missing load path can cause sagging or failure."
+  },
+  {
+    "id": 58,
+    "category": "H6 — Build Roof Systems",
+    "question": "Trusses are installed without required permanent bracing. What can happen?",
+    "options": [
+      "Trusses may buckle or fail under load",
+      "Roof becomes stronger",
+      "Sheathing becomes unnecessary",
+      "Bracing only affects appearance"
+    ],
+    "answer": 0,
+    "explanation": "Truss bracing stabilizes compression members. Permanent bracing is part of the engineered system. Omitting it can cause structural failure."
+  },
+  {
+    "id": 59,
+    "category": "H6 — Build Roof Systems",
+    "question": "A truss is cut to fit around a duct. What is the correct concern?",
+    "options": [
+      "The truss design has been compromised",
+      "Cutting improves load sharing",
+      "Ducts always control truss design",
+      "Sheathing repairs the cut"
+    ],
+    "answer": 0,
+    "explanation": "Trusses cannot be altered without approval. Every web and chord has a purpose. Modifications require engineered repair."
+  },
+  {
+    "id": 60,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why is roof sheathing fastening pattern important?",
+    "options": [
+      "It resists uplift and transfers loads",
+      "It only affects appearance",
+      "Nails are optional",
+      "It replaces rafters"
+    ],
+    "answer": 0,
+    "explanation": "Sheathing acts as a roof diaphragm. Fasteners transfer wind and lateral loads. Wrong nailing reduces performance."
+  },
+  {
+    "id": 61,
+    "category": "H6 — Build Roof Systems",
+    "question": "Roof sheathing edges are unsupported between rafters where clips are required. What is the problem?",
+    "options": [
+      "Panel edges may deflect or fail",
+      "Roof becomes stronger",
+      "Shingles support the edge",
+      "No issue exists"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported edges can move under load. Clips or blocking provide support. Sheathing instructions must be followed."
+  },
+  {
+    "id": 62,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why is attic ventilation blocked by insulation a problem?",
+    "options": [
+      "It can trap moisture and heat",
+      "It improves airflow",
+      "It strengthens rafters",
+      "It replaces vapour control"
+    ],
+    "answer": 0,
+    "explanation": "Blocked ventilation reduces airflow. Moisture can condense in the attic. Baffles help keep airflow open."
+  },
+  {
+    "id": 63,
+    "category": "H6 — Build Roof Systems",
+    "question": "A hip roof has jack rafters. What do jack rafters frame into?",
+    "options": [
+      "Hip or valley rafters",
+      "Door jambs",
+      "Cabinet fillers",
+      "Concrete forms"
+    ],
+    "answer": 0,
+    "explanation": "Jack rafters are shortened rafters. They connect to hips or valleys. They transfer roof loads to main roof members."
+  },
+  {
+    "id": 64,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why is roof overhang framing important?",
+    "options": [
+      "It supports soffit, fascia, and roof-edge loads",
+      "It replaces the main roof structure",
+      "It controls cabinet height",
+      "It cures concrete"
+    ],
+    "answer": 0,
+    "explanation": "Overhangs carry fascia, soffit, and edge materials. They also affect roof drainage and appearance. Framing must be straight and secure."
+  },
+  {
+    "id": 65,
+    "category": "H6 — Build Roof Systems",
+    "question": "A valley is framed without proper support below. What is the concern?",
+    "options": [
+      "Concentrated roof loads may not transfer safely",
+      "Valleys carry no loads",
+      "Flashing supports all loads",
+      "Shingles make it structural"
+    ],
+    "answer": 0,
+    "explanation": "Valley rafters can carry significant loads. They need proper bearing and support. Load path must be continuous."
+  },
+  {
+    "id": 66,
+    "category": "H6 — Build Roof Systems",
+    "question": "What is the role of collar ties when required?",
+    "options": [
+      "Help resist separation near the ridge",
+      "Replace rafter ties always",
+      "Support concrete stairs",
+      "Replace roof sheathing"
+    ],
+    "answer": 0,
+    "explanation": "Collar ties are near the upper roof area. They can help resist uplift or separation. They are not the same as low rafter ties."
+  },
+  {
+    "id": 67,
+    "category": "H6 — Build Roof Systems",
+    "question": "A roof deck is not flat because rafters are crowned randomly. What is the result?",
+    "options": [
+      "Wavy roof surface and difficult roofing installation",
+      "Stronger roof automatically",
+      "Better drainage always",
+      "No visual effect"
+    ],
+    "answer": 0,
+    "explanation": "Rafter alignment affects roof plane quality. Uneven framing telegraphs through sheathing and roofing. Straightening should occur before sheathing."
+  },
+  {
+    "id": 68,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why should roof openings be planned before cutting sheathing and framing?",
+    "options": [
+      "Loads, flashing, and layout must be coordinated",
+      "Openings need no framing",
+      "Cutting first is safest",
+      "Flashing is optional"
+    ],
+    "answer": 0,
+    "explanation": "Roof openings interrupt structure and water control. Headers and flashing may be required. Planning prevents leaks and weak framing."
+  },
+  {
+    "id": 69,
+    "category": "H6 — Build Roof Systems",
+    "question": "A rafter tail line is uneven. What finish problem can result?",
+    "options": [
+      "Wavy fascia and soffit line",
+      "Stronger ridge",
+      "Better truss bracing",
+      "Improved stair layout"
+    ],
+    "answer": 0,
+    "explanation": "Rafter tails establish roof edge alignment. Uneven tails make fascia look wavy. Finish quality depends on accurate framing."
+  },
+  {
+    "id": 70,
+    "category": "H6 — Build Roof Systems",
+    "question": "What is the purpose of roof blocking at panel edges?",
+    "options": [
+      "Support sheathing edges and provide fastening",
+      "Replace rafters",
+      "Increase roof slope",
+      "Reduce dead load to zero"
+    ],
+    "answer": 0,
+    "explanation": "Blocking supports edges where needed. It provides nailing and reduces panel movement. It may also help transfer loads."
+  },
+  {
+    "id": 71,
+    "category": "H6 — Build Roof Systems",
+    "question": "Why must roof connectors use specified nails or fasteners?",
+    "options": [
+      "Connector capacity depends on approved fasteners",
+      "Any screw is stronger",
+      "Fasteners only affect appearance",
+      "Connector holes are decorative"
+    ],
+    "answer": 0,
+    "explanation": "Metal connectors are tested with specific fasteners. Wrong fasteners can reduce capacity. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 72,
+    "category": "H6 — Build Roof Systems",
+    "question": "A roof system has no clear path for wind uplift to the foundation. What is missing?",
+    "options": [
+      "Continuous load path",
+      "Cabinet blocking",
+      "Concrete curing",
+      "Interior trim reveal"
+    ],
+    "answer": 0,
+    "explanation": "Wind uplift must transfer through connectors. Roof, walls, floors, and foundation must be tied together. A broken load path increases failure risk."
+  },
+  {
+    "id": 73,
+    "category": "H6 — Build Roof Systems",
+    "question": "A roof has different slopes meeting at one area. What must be carefully coordinated?",
+    "options": [
+      "Framing geometry, valleys/hips, and flashing",
+      "Cabinet handles only",
+      "Door casing profile",
+      "Concrete air content"
+    ],
+    "answer": 0,
+    "explanation": "Mixed slopes create complex intersections. Framing lengths and angles must fit correctly. Water control at intersections is critical."
+  },
+  {
+    "id": 74,
+    "category": "I2 — Install Doors and Hardware",
+    "question": "A prehung door is installed in an opening that is plumb but out of square. What can happen?",
+    "options": [
+      "Uneven reveals and binding",
+      "Better latch alignment",
+      "Stronger jambs",
+      "Perfect operation"
+    ],
+    "answer": 0,
+    "explanation": "Door frames require square openings. Out-of-square openings distort the door unit. Reveals and operation will suffer."
+  },
+  {
+    "id": 75,
+    "category": "I2 — Install Doors and Hardware",
+    "question": "A hinge screw spins without tightening. What is the best repair approach?",
+    "options": [
+      "Restore solid fastening into wood or framing",
+      "Paint over the screw",
+      "Leave it loose",
+      "Remove the hinge"
+    ],
+    "answer": 0,
+    "explanation": "Hinges need strong fastening. Loose screws allow sagging and misalignment. Repair must provide solid screw holding."
+  },
+  {
+    "id": 76,
+    "category": "I2 — Install Doors and Hardware",
+    "question": "An exterior door threshold is unsupported at one end. What can result?",
+    "options": [
+      "Movement, leakage, or damage",
+      "Better drainage always",
+      "Stronger latch",
+      "Improved roof slope"
+    ],
+    "answer": 0,
+    "explanation": "Thresholds need firm support. Movement can break seals and allow water entry. Exterior openings must be supported and flashed."
+  },
+  {
+    "id": 77,
+    "category": "I2 — Install Doors and Hardware",
+    "question": "A door reveal is perfect before fastening but changes after screws are tightened. What likely happened?",
+    "options": [
+      "Jamb was pulled out of alignment without proper shimming",
+      "Door slab shrank instantly",
+      "Roof truss moved",
+      "Concrete settled immediately"
+    ],
+    "answer": 0,
+    "explanation": "Fasteners can distort jambs. Shims support the frame at fastening points. Reveals should be checked during fastening."
+  },
+  {
+    "id": 78,
+    "category": "I2 — Install Doors and Hardware",
+    "question": "A lockset latch does not fully engage the strike. What should be checked first?",
+    "options": [
+      "Door alignment and strike position",
+      "Roof underlayment",
+      "Concrete form pressure",
+      "Cabinet scribe line"
+    ],
+    "answer": 0,
+    "explanation": "Latch problems often come from misalignment. Hinges, reveals, and strike location should be checked. The door must latch without force."
+  },
+  {
+    "id": 79,
+    "category": "I5 — Install Interior Finishes",
+    "question": "A baseboard is installed over a wavy floor without scribing. What is the likely result?",
+    "options": [
+      "Uneven gaps at the bottom",
+      "Better finish quality",
+      "Stronger wall framing",
+      "Improved ceiling grid"
+    ],
+    "answer": 0,
+    "explanation": "Floors are often not perfectly flat. Scribing improves fit to irregular surfaces. Finish carpentry requires consistent reveal lines."
+  },
+  {
+    "id": 80,
+    "category": "I5 — Install Interior Finishes",
+    "question": "Why should finish nails be set below the trim surface?",
+    "options": [
+      "To allow filling and produce a smooth finish",
+      "To weaken trim",
+      "To replace adhesive",
+      "To split the wood intentionally"
+    ],
+    "answer": 0,
+    "explanation": "Nail heads left proud show through finish. Setting allows putty or filler. Careful setting prevents surface damage."
+  },
+  {
+    "id": 81,
+    "category": "I5 — Install Interior Finishes",
+    "question": "A casing mitre opens after installation. What is a likely cause?",
+    "options": [
+      "Poor fit, movement, or incorrect fastening",
+      "Concrete slump",
+      "Roof uplift",
+      "Excavation depth"
+    ],
+    "answer": 0,
+    "explanation": "Mitres need accurate cuts and fastening. Wood movement can also open joints. Good fit and fastening improve finish quality."
+  },
+  {
+    "id": 82,
+    "category": "I6 — Install Cabinets",
+    "question": "Why is the high point of the floor found before base cabinet installation?",
+    "options": [
+      "Cabinets can be levelled from the highest point",
+      "It changes roof slope",
+      "It replaces wall layout",
+      "It reduces cabinet weight"
+    ],
+    "answer": 0,
+    "explanation": "Floors are rarely perfectly level. Starting from the high point prevents cabinets from running uphill. Shimming brings the rest to level."
+  },
+  {
+    "id": 83,
+    "category": "I6 — Install Cabinets",
+    "question": "A wall cabinet is fastened only to drywall. What is the danger?",
+    "options": [
+      "It may pull away under load",
+      "It becomes stronger",
+      "Doors align better",
+      "Countertop becomes level"
+    ],
+    "answer": 0,
+    "explanation": "Wall cabinets carry significant load. Drywall alone is not structural support. Fasteners must hit studs or backing."
+  },
+  {
+    "id": 84,
+    "category": "I6 — Install Cabinets",
+    "question": "Cabinet boxes are installed level but not aligned with each other. What finish issue occurs?",
+    "options": [
+      "Uneven reveals and countertop problems",
+      "Better drawer operation",
+      "Stronger wall backing",
+      "Improved floor flatness"
+    ],
+    "answer": 0,
+    "explanation": "Cabinets must align as a system. Small errors show at doors, drawers, and countertops. Final appearance depends on consistent lines."
+  },
+  {
+    "id": 85,
+    "category": "I6 — Install Cabinets",
+    "question": "Why should cabinet openings for plumbing be cut carefully?",
+    "options": [
+      "Oversized or wrong holes weaken appearance and may expose gaps",
+      "Holes do not matter",
+      "Plumbing cuts replace fasteners",
+      "Larger holes make cabinets stronger"
+    ],
+    "answer": 0,
+    "explanation": "Service openings must fit accurately. Poor cuts look unprofessional and may reduce support. Measure locations before cutting."
+  },
+  {
+    "id": 86,
+    "category": "I6 — Install Cabinets",
+    "question": "A long countertop seam is planned over an unsupported cabinet span. What is the concern?",
+    "options": [
+      "Seam may lack support and fail or separate",
+      "Countertop becomes stronger",
+      "Cabinets no longer need levelling",
+      "Doors align automatically"
+    ],
+    "answer": 0,
+    "explanation": "Countertops need support at seams and spans. Unsupported seams can crack or open. Cabinet layout must support countertop requirements."
+  },
+  {
+    "id": 87,
+    "category": "I6 — Install Cabinets",
+    "question": "Why are filler panels sometimes needed beside appliances?",
+    "options": [
+      "To provide clearance and complete the layout",
+      "To replace appliance power",
+      "To support roof framing",
+      "To reduce cabinet strength"
+    ],
+    "answer": 0,
+    "explanation": "Appliances need clearance for doors and ventilation. Fillers close gaps and protect adjacent cabinets. They improve both function and appearance."
+  },
+  {
+    "id": 88,
+    "category": "I6 — Install Cabinets",
+    "question": "A drawer rubs after cabinet installation. What should be checked?",
+    "options": [
+      "Cabinet square, level, and hardware adjustment",
+      "Concrete curing",
+      "Roof sheathing clips",
+      "Trench slope"
+    ],
+    "answer": 0,
+    "explanation": "Drawer operation depends on cabinet alignment. Out-of-square boxes can bind slides. Hardware may need final adjustment."
+  },
+  {
+    "id": 89,
+    "category": "I6 — Install Cabinets",
+    "question": "Why should cabinet installation be coordinated with finished flooring?",
+    "options": [
+      "Flooring thickness affects heights and appliance clearances",
+      "Flooring has no effect",
+      "Cabinets replace flooring",
+      "Flooring controls roof pitch"
+    ],
+    "answer": 0,
+    "explanation": "Finished floor elevation affects cabinet and appliance fit. Toe kicks, dishwasher clearance, and countertop height can be affected. Coordination prevents trapped appliances or wrong heights."
+  },
+  {
+    "id": 90,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Wood flooring is delivered to a cold damp site and installed immediately. What is the risk?",
+    "options": [
+      "Movement, cupping, gaps, or buckling",
+      "Stronger flooring",
+      "Less moisture change",
+      "Perfect acclimation"
+    ],
+    "answer": 0,
+    "explanation": "Wood flooring reacts to moisture and temperature. Acclimation helps reduce movement after installation. Site conditions must meet product requirements."
+  },
+  {
+    "id": 91,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "A subfloor has high ridges before resilient flooring. What should happen?",
+    "options": [
+      "Correct flatness before installation",
+      "Install flooring to hide it",
+      "Add more nails only",
+      "Ignore if room is small"
+    ],
+    "answer": 0,
+    "explanation": "Thin flooring shows substrate defects. Ridges can telegraph through the surface. Subfloor preparation is essential."
+  },
+  {
+    "id": 92,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "A floating floor has no expansion gap at doorways. What may happen?",
+    "options": [
+      "Buckling or binding",
+      "Better movement",
+      "Stronger door frame",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Floating floors move as a system. Expansion gaps prevent compression. Transitions must allow movement."
+  },
+  {
+    "id": 93,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Drywall is installed with unsupported edges. What can result?",
+    "options": [
+      "Cracking or weak joints",
+      "Stronger seams",
+      "Better finish",
+      "No fastening needed"
+    ],
+    "answer": 0,
+    "explanation": "Board edges need backing or framing. Unsupported edges move and crack. Backing must be installed before board placement."
+  },
+  {
+    "id": 94,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Why should ceiling grid be squared before panels are installed?",
+    "options": [
+      "Panels will not fit properly in a racked grid",
+      "Panels make the grid square automatically",
+      "Grid square affects only colour",
+      "Hangers are unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Ceiling panels rely on square grid openings. A racked grid creates gaps and poor appearance. Layout must be checked before loading panels."
+  },
+  {
+    "id": 95,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "A ceiling hanger wire is attached to ductwork. What is wrong?",
+    "options": [
+      "Ductwork may not be approved structural support",
+      "Ductwork always supports ceilings",
+      "Hanger wires are decorative",
+      "Panels support themselves"
+    ],
+    "answer": 0,
+    "explanation": "Ceiling systems must hang from approved structure. Mechanical components may not carry ceiling loads. Incorrect support can fail."
+  },
+  {
+    "id": 96,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Tile is installed over a wood floor that deflects under foot traffic. What is the risk?",
+    "options": [
+      "Cracked tile or grout",
+      "Stronger bond",
+      "Better flexibility",
+      "No risk"
+    ],
+    "answer": 0,
+    "explanation": "Tile needs a stiff substrate. Movement causes cracking and bond failure. Subfloor stiffness must be verified."
+  },
+  {
+    "id": 97,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Why are movement joints used in large interior finish areas?",
+    "options": [
+      "To accommodate expansion and building movement",
+      "To make cracks random",
+      "To replace fasteners",
+      "To stop all moisture"
+    ],
+    "answer": 0,
+    "explanation": "Materials expand, contract, and move. Movement joints reduce stress buildup. Without them, finishes may crack or buckle."
+  },
+  {
+    "id": 98,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "A wall panel system is installed before checking backing for fixtures. What can happen?",
+    "options": [
+      "Fixtures may lack secure attachment",
+      "Wall panels become structural beams",
+      "Backing is never needed",
+      "Fixtures attach safely to air space"
+    ],
+    "answer": 0,
+    "explanation": "Fixtures need solid backing. Once panels are installed, missing backing is hard to fix. Coordination prevents rework."
+  },
+  {
+    "id": 99,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "Why is moisture testing important before some flooring installations?",
+    "options": [
+      "Excess moisture can cause flooring failure",
+      "Moisture always improves flooring",
+      "Testing replaces adhesive",
+      "Wet subfloors are ideal"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can cause swelling, cupping, or adhesive failure. Manufacturers often set moisture limits. Testing protects the installation."
+  },
+  {
+    "id": 100,
+    "category": "I7 — Install Interior Floor, Ceiling and Wall Systems",
+    "question": "A ceiling access panel is covered by finish work. What is the problem?",
+    "options": [
+      "Required service access is blocked",
+      "Finish work becomes stronger",
+      "Ceiling grid becomes unnecessary",
+      "Mechanical systems need no access"
+    ],
+    "answer": 0,
+    "explanation": "Access panels allow maintenance of hidden services. Covering them causes rework and service problems. Finishes must be coordinated with mechanical and electrical systems."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledCarpenterHarmonizedLevel3Set2Questions =
+  shuffleArray(carpenterHarmonizedLevel3Set2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "carpenter-harmonized",
+  tradeTitle: "Carpenter Harmonized",
+  sectionTitle: "Level 3 – Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledCarpenterHarmonizedLevel3Set2Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledCarpenterHarmonizedLevel3Set2Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

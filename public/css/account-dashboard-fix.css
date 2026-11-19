@@ -1,0 +1,32 @@
+
+/* Dashboard contrast and layout correction. Loaded after shared theme files. */
+.page-account .rsp7-dashboard-hero {
+  background: linear-gradient(135deg, #6c1216 0%, #ca2129 58%, #ca2129 100%) !important;
+  border: 1px solid rgba(202,33,41,.28) !important;
+  color: #fff !important;
+}
+.page-account .rsp7-dashboard-hero h1,
+.page-account .rsp7-dashboard-hero > div > p,
+.page-account .rsp7-readiness strong,
+.page-account .rsp7-readiness p,
+.page-account #dashboardReadinessScore,
+.page-account #dashboardReadinessText { color: #fff !important; opacity: 1 !important; }
+.page-account .rsp7-dashboard-hero .pill {
+  background: rgba(255,255,255,.14) !important;
+  border-color: rgba(255,255,255,.35) !important;
+  color: #fff !important;
+}
+.page-account .rsp7-dashboard-hero-actions .primary {
+  background: #fff !important;
+  color: #b81e26 !important;
+}
+.page-account .rsp7-dashboard-hero-actions .ghost {
+  background: rgba(255,255,255,.08) !important;
+  border-color: rgba(255,255,255,.5) !important;
+  color: #fff !important;
+}
+.page-account .rsp7-readiness {
+  background: rgba(36,42,48,.28) !important;
+  border-color: rgba(255,255,255,.28) !important;
+}
+.page-account .rsp7-readiness-ring:after { background: #82151b !important; }

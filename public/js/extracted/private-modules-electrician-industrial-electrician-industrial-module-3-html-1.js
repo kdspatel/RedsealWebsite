@@ -1,0 +1,2696 @@
+const industrialElectricianSectionCQuestions = [
+  {
+    "id": 1,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "What is the main purpose of a raceway?",
+    "options": [
+      "To mechanically protect and route conductors",
+      "To increase motor speed",
+      "To store electrical energy",
+      "To replace overcurrent protection"
+    ],
+    "answer": 0,
+    "explanation": "Raceways protect conductors from physical damage.\nThey also provide an organized path for wiring.\nExamples include EMT, rigid conduit, and PVC conduit."
+  },
+  {
+    "id": 2,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "EMT stands for:",
+    "options": [
+      "Electrical metallic tubing",
+      "Emergency motor transformer",
+      "External meter terminal",
+      "Electrical measuring tool"
+    ],
+    "answer": 0,
+    "explanation": "EMT is a common metallic raceway.\nIt is used to protect and route conductors.\nIt must be properly supported and connected."
+  },
+  {
+    "id": 3,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why are bushings used on raceway ends?",
+    "options": [
+      "To protect conductor insulation from sharp edges",
+      "To increase voltage",
+      "To reduce motor slip",
+      "To change AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Raceway ends can damage insulation.\nBushings provide a smooth surface.\nDamaged insulation can lead to faults."
+  },
+  {
+    "id": 4,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable installed in a wet location must be:",
+    "options": [
+      "Rated for wet locations",
+      "Rated for dry locations only",
+      "Unmarked",
+      "Installed without protection"
+    ],
+    "answer": 0,
+    "explanation": "Cable insulation must match the environment.\nWet locations require suitable cable types.\nIncorrect cable can fail or create shock hazards."
+  },
+  {
+    "id": 5,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "What can happen if conductors are pulled with excessive tension?",
+    "options": [
+      "Insulation or conductor damage",
+      "Higher power factor",
+      "Better grounding",
+      "Lower current flow always"
+    ],
+    "answer": 0,
+    "explanation": "Excessive pulling force can stretch conductors.\nIt can also scrape or tear insulation.\nDamaged conductors should not be energized."
+  },
+  {
+    "id": 6,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why must raceways be properly supported?",
+    "options": [
+      "To prevent sagging and mechanical damage",
+      "To increase frequency",
+      "To reduce transformer impedance",
+      "To reverse motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "Supports keep raceways secure.\nUnsupported raceways can loosen or sag.\nThis can damage conductors and fittings."
+  },
+  {
+    "id": 7,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor has 90°C insulation but lands on 75°C terminals. Which temperature rating usually limits the termination?",
+    "options": [
+      "75°C",
+      "90°C",
+      "100°C",
+      "Room temperature only"
+    ],
+    "answer": 0,
+    "explanation": "The lowest applicable rating controls.\nTerminals must not be overheated.\nConductor ampacity must be applied correctly."
+  },
+  {
+    "id": 8,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "What is the purpose of an electrical enclosure?",
+    "options": [
+      "To protect wiring and equipment from contact and environment",
+      "To increase voltage",
+      "To act as a motor shaft",
+      "To replace fuses"
+    ],
+    "answer": 0,
+    "explanation": "Enclosures protect people from energized parts.\nThey also protect equipment from dust, moisture, and damage.\nCovers must be installed."
+  },
+  {
+    "id": 9,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A box with live splices is missing its cover. What is the hazard?",
+    "options": [
+      "Exposed energized parts and damage risk",
+      "Better ventilation only",
+      "Lower voltage",
+      "Improved power factor"
+    ],
+    "answer": 0,
+    "explanation": "Covers prevent accidental contact.\nThey also keep debris and moisture out.\nMissing covers create unsafe conditions."
+  },
+  {
+    "id": 10,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Cable tray is used mainly to:",
+    "options": [
+      "Support and route cables",
+      "Increase current rating automatically",
+      "Replace all raceways",
+      "Convert AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Cable tray supports groups of cables.\nIt provides an organized wiring path.\nCables must be suitable for tray use."
+  },
+  {
+    "id": 11,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Overfilled cable tray can cause:",
+    "options": [
+      "Overheating and maintenance problems",
+      "Lower conductor temperature always",
+      "Better airflow always",
+      "Zero voltage drop"
+    ],
+    "answer": 0,
+    "explanation": "Too many cables restrict heat dissipation.\nOverfilling also makes maintenance difficult.\nTray fill and cable ratings must be followed."
+  },
+  {
+    "id": 12,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why is bend radius important when installing cable?",
+    "options": [
+      "Sharp bends can damage insulation and conductors",
+      "It changes voltage to DC",
+      "It increases motor horsepower",
+      "It replaces cable supports"
+    ],
+    "answer": 0,
+    "explanation": "Cable has a minimum bend radius.\nBending too tightly stresses insulation and conductors.\nDamage may cause future faults."
+  },
+  {
+    "id": 13,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable gland at an enclosure entry provides:",
+    "options": [
+      "Strain relief and environmental sealing",
+      "Motor speed control",
+      "Ground rod resistance measurement",
+      "Transformer cooling only"
+    ],
+    "answer": 0,
+    "explanation": "Cable glands secure cables entering enclosures.\nThey can help maintain enclosure ratings.\nLoose glands can allow moisture and cable movement."
+  },
+  {
+    "id": 14,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit supplies power to:",
+    "options": [
+      "Final outlets or equipment",
+      "Utility transmission lines only",
+      "Transformer oil only",
+      "Ground rods only"
+    ],
+    "answer": 0,
+    "explanation": "Branch circuits feed loads such as receptacles, lights, and equipment.\nThey start at the final overcurrent device.\nThey must be sized for the load."
+  },
+  {
+    "id": 15,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle must be rated for the circuit’s:",
+    "options": [
+      "Voltage and current",
+      "Paint colour",
+      "Room size only",
+      "Motor RPM"
+    ],
+    "answer": 0,
+    "explanation": "Devices must match electrical ratings.\nUnderrated devices can overheat or arc.\nEnvironmental rating also matters."
+  },
+  {
+    "id": 16,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A 120 V-rated switch installed on a 347 V circuit is unsafe because:",
+    "options": [
+      "The voltage rating is too low",
+      "The switch becomes stronger",
+      "Current becomes zero",
+      "The circuit becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Devices must be rated for applied voltage.\nUnderrated devices can arc or fail.\nAlways check nameplate ratings."
+  },
+  {
+    "id": 17,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A loose receptacle terminal can cause:",
+    "options": [
+      "Heating and arcing",
+      "Better voltage regulation",
+      "Lower resistance",
+      "Perfect grounding"
+    ],
+    "answer": 0,
+    "explanation": "Loose connections increase resistance.\nCurrent through resistance creates heat.\nArcing can damage equipment and start fires."
+  },
+  {
+    "id": 18,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Why should switches normally open the ungrounded conductor?",
+    "options": [
+      "To de-energize the load safely when switched off",
+      "To keep the load energized",
+      "To increase power factor",
+      "To remove grounding"
+    ],
+    "answer": 0,
+    "explanation": "Switching the neutral can leave the load energized.\nThis creates shock risk during service.\nThe ungrounded conductor should be interrupted."
+  },
+  {
+    "id": 19,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A GFCI receptacle is used mainly to protect against:",
+    "options": [
+      "Shock from ground-fault leakage",
+      "Motor overspeed",
+      "Transformer overload only",
+      "Low lighting level"
+    ],
+    "answer": 0,
+    "explanation": "GFCIs detect current imbalance.\nLeakage to ground causes a trip.\nThey reduce shock hazard."
+  },
+  {
+    "id": 20,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle tester shows open ground. What does this usually mean?",
+    "options": [
+      "Missing or broken bonding path",
+      "Correct wiring",
+      "Too much voltage",
+      "Reverse motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "An open ground means the equipment bond may be absent.\nFault current may not clear properly.\nThe circuit should be repaired."
+  },
+  {
+    "id": 21,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Correct receptacle polarity is important because:",
+    "options": [
+      "It keeps intended live and neutral parts correctly connected",
+      "It increases motor speed",
+      "It changes AC to DC",
+      "It removes all shock risk"
+    ],
+    "answer": 0,
+    "explanation": "Reversed polarity can energize parts unexpectedly.\nThis creates service and shock hazards.\nCorrect polarity improves safety."
+  },
+  {
+    "id": 22,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A three-phase receptacle-fed machine runs backward. What should be checked?",
+    "options": [
+      "Phase sequence",
+      "Ground rod depth",
+      "Cable tray height",
+      "Lighting ballast"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor direction depends on phase order.\nWrong sequence reverses rotation.\nRotation must be verified before use."
+  },
+  {
+    "id": 23,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "HID lamps usually require:",
+    "options": [
+      "A ballast or suitable control gear",
+      "A DC battery only",
+      "A motor starter only",
+      "A CT cabinet"
+    ],
+    "answer": 0,
+    "explanation": "HID lamps need starting and current control.\nBallasts regulate lamp current.\nWrong ballast can damage the lamp."
+  },
+  {
+    "id": 24,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "An AFCI is designed mainly to detect:",
+    "options": [
+      "Hazardous arcing conditions",
+      "Low hydraulic pressure",
+      "Motor speed",
+      "Transformer oil level"
+    ],
+    "answer": 0,
+    "explanation": "AFCI means arc-fault circuit interrupter.\nIt detects certain arcing faults.\nIt helps reduce fire risk."
+  },
+  {
+    "id": 25,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A device installed outdoors should be:",
+    "options": [
+      "Suitable for outdoor/wet location use",
+      "Rated for dry indoor use only",
+      "Installed without a cover",
+      "Unmarked"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor devices face moisture and temperature changes.\nThey need proper environmental ratings.\nImproper devices can fail or become unsafe."
+  },
+  {
+    "id": 26,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Why should branch circuit conductors be identified?",
+    "options": [
+      "To prevent misconnection and aid troubleshooting",
+      "To increase conductor length",
+      "To reduce voltage to zero",
+      "To replace circuit protection"
+    ],
+    "answer": 0,
+    "explanation": "Identification helps locate circuits.\nIt reduces wiring mistakes.\nIt supports safe maintenance and lockout."
+  },
+  {
+    "id": 27,
+    "category": "Task 18 — HVAC systems",
+    "question": "HVAC stands for:",
+    "options": [
+      "Heating, ventilation and air conditioning",
+      "High voltage alternating current",
+      "Hydraulic valve automatic control",
+      "Heat voltage ampere circuit"
+    ],
+    "answer": 0,
+    "explanation": "HVAC systems control indoor air comfort and quality.\nElectricians wire power and controls.\nCommon devices include thermostats, contactors, and sensors."
+  },
+  {
+    "id": 28,
+    "category": "Task 18 — HVAC systems",
+    "question": "A 24 V HVAC control circuit is commonly supplied by:",
+    "options": [
+      "Control transformer",
+      "CT cabinet",
+      "Ground rod",
+      "Receptacle tester"
+    ],
+    "answer": 0,
+    "explanation": "HVAC controls often operate at low voltage.\nA transformer steps line voltage down to control voltage.\nThermostats and relays use this voltage."
+  },
+  {
+    "id": 29,
+    "category": "Task 18 — HVAC systems",
+    "question": "A thermostat is used to:",
+    "options": [
+      "Sense temperature and control heating/cooling equipment",
+      "Measure ground resistance",
+      "Reverse phase rotation",
+      "Test insulation resistance"
+    ],
+    "answer": 0,
+    "explanation": "Thermostats respond to temperature changes.\nThey control heating or cooling circuits.\nThey may control relays or contactors."
+  },
+  {
+    "id": 30,
+    "category": "Task 18 — HVAC systems",
+    "question": "A contactor in an HVAC unit is used to:",
+    "options": [
+      "Switch power to a compressor, fan, or heater",
+      "Store refrigerant",
+      "Measure room humidity only",
+      "Increase voltage automatically"
+    ],
+    "answer": 0,
+    "explanation": "HVAC loads can draw high current.\nA contactor allows low-voltage controls to switch larger loads.\nThe coil and contacts are separate parts."
+  },
+  {
+    "id": 31,
+    "category": "Task 18 — HVAC systems",
+    "question": "DDC in HVAC controls means:",
+    "options": [
+      "Direct digital control",
+      "Double disconnect contactor",
+      "Dry duct cable",
+      "Direct diode circuit"
+    ],
+    "answer": 0,
+    "explanation": "DDC systems use electronic controllers.\nThey read sensors and control outputs.\nThey are common in building automation."
+  },
+  {
+    "id": 32,
+    "category": "Task 18 — HVAC systems",
+    "question": "A damper actuator is used to:",
+    "options": [
+      "Move an air damper",
+      "Test a motor winding",
+      "Increase transformer kVA",
+      "Store battery energy"
+    ],
+    "answer": 0,
+    "explanation": "Dampers control airflow.\nActuators move dampers based on control signals.\nThey are common in HVAC systems."
+  },
+  {
+    "id": 33,
+    "category": "Task 18 — HVAC systems",
+    "question": "A control fuse in an HVAC unit opens repeatedly. What should be suspected?",
+    "options": [
+      "Shorted control wiring or coil",
+      "Correct operation",
+      "Perfect insulation",
+      "Higher airflow only"
+    ],
+    "answer": 0,
+    "explanation": "A fuse opens due to excessive current.\nShorted wiring or a failed coil can cause this.\nThe circuit should be tested before replacing fuses repeatedly."
+  },
+  {
+    "id": 34,
+    "category": "Task 18 — HVAC systems",
+    "question": "An economizer in an HVAC system is used to:",
+    "options": [
+      "Use outside air when conditions are suitable",
+      "Increase motor overload setting",
+      "Reverse compressor rotation",
+      "Store electrical energy"
+    ],
+    "answer": 0,
+    "explanation": "Economizers reduce mechanical cooling demand.\nThey use outdoor air when temperature conditions allow.\nControls operate dampers based on sensors."
+  },
+  {
+    "id": 35,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "Electric heaters convert electrical energy into:",
+    "options": [
+      "Heat",
+      "Hydraulic pressure",
+      "Mechanical rotation only",
+      "Data signals"
+    ],
+    "answer": 0,
+    "explanation": "Resistance elements heat when current flows.\nElectrical energy becomes thermal energy.\nHeaters must be properly controlled and protected."
+  },
+  {
+    "id": 36,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A thermostat in a heating circuit is normally used for:",
+    "options": [
+      "Temperature control",
+      "Phase rotation testing",
+      "Grounding electrode testing",
+      "CT ratio correction"
+    ],
+    "answer": 0,
+    "explanation": "The thermostat calls for heat when temperature is low.\nIt opens or closes the control circuit.\nIt is a normal operating control."
+  },
+  {
+    "id": 37,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A high-limit control protects a heater from:",
+    "options": [
+      "Overheating",
+      "Low voltage only",
+      "Incorrect phase rotation",
+      "Low light level"
+    ],
+    "answer": 0,
+    "explanation": "High-limits open when temperature is unsafe.\nThey protect equipment and surroundings.\nThey are safety controls."
+  },
+  {
+    "id": 38,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 5 kW heater connected to 240 V draws approximately:",
+    "options": [
+      "10.4 A",
+      "20.8 A",
+      "40 A",
+      "120 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = P ÷ E).\n(5000 ÷ 240 = 20.8A).\nSingle-phase heater current uses watts divided by volts."
+  },
+  {
+    "id": 39,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "Why is an airflow switch used with a duct heater?",
+    "options": [
+      "To prove airflow before energizing heat",
+      "To reverse fan rotation",
+      "To increase heater resistance",
+      "To measure ground fault current"
+    ],
+    "answer": 0,
+    "explanation": "Duct heaters need airflow to remove heat.\nNo airflow can cause overheating.\nThe airflow switch is a safety interlock."
+  },
+  {
+    "id": 40,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A contactor is used with a heater because:",
+    "options": [
+      "The thermostat may not be rated to switch full heater current",
+      "Heaters cannot use contactors",
+      "Contactors reduce heat to zero",
+      "It removes need for overcurrent protection"
+    ],
+    "answer": 0,
+    "explanation": "Thermostats are often control devices.\nContactors switch larger heater loads.\nThis protects the thermostat contacts."
+  },
+  {
+    "id": 41,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "An open heater element will usually show:",
+    "options": [
+      "Infinite resistance",
+      "Zero resistance always",
+      "Perfect heating",
+      "Correct current flow"
+    ],
+    "answer": 0,
+    "explanation": "An open element has no continuity.\nIt cannot pass current.\nThe heater will not produce heat from that element."
+  },
+  {
+    "id": 42,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Emergency lighting is intended to operate when:",
+    "options": [
+      "Normal power fails",
+      "Motor speed increases",
+      "Power factor improves",
+      "HVAC cooling starts"
+    ],
+    "answer": 0,
+    "explanation": "Emergency lighting helps occupants exit safely.\nIt operates during loss of normal lighting power.\nBatteries or emergency power may supply it."
+  },
+  {
+    "id": 43,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Exit signs are used to:",
+    "options": [
+      "Identify safe exit paths",
+      "Increase motor current",
+      "Measure voltage drop",
+      "Cool transformers"
+    ],
+    "answer": 0,
+    "explanation": "Exit signs guide people during emergencies.\nThey must remain visible and operational.\nThey are part of life-safety systems."
+  },
+  {
+    "id": 44,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "An emergency light fails during a battery test. What is likely?",
+    "options": [
+      "Battery, charger, lamp, or wiring problem",
+      "Correct operation",
+      "Wrong motor rotation",
+      "Transformer impedance issue"
+    ],
+    "answer": 0,
+    "explanation": "Emergency lights should operate during testing.\nFailure means the unit cannot perform during an outage.\nThe cause must be repaired."
+  },
+  {
+    "id": 45,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Why must emergency lighting systems be tested?",
+    "options": [
+      "To confirm they work during power failure",
+      "To increase building voltage",
+      "To reduce conductor size",
+      "To adjust motor speed"
+    ],
+    "answer": 0,
+    "explanation": "Batteries and lamps can fail over time.\nTesting verifies operation.\nReliable emergency lighting is critical for life safety."
+  },
+  {
+    "id": 46,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote emergency lighting head does not turn on. What should be checked?",
+    "options": [
+      "Lamp/head, wiring, and battery unit output",
+      "Motor overload setting",
+      "Phase rotation only",
+      "Cathodic protection anode"
+    ],
+    "answer": 0,
+    "explanation": "Remote heads depend on wiring and battery output.\nA failed lamp or open wire can stop operation.\nTesting should follow the emergency lighting circuit."
+  },
+  {
+    "id": 47,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "Cathodic protection is used mainly to prevent:",
+    "options": [
+      "Corrosion",
+      "Overvoltage",
+      "Motor slip",
+      "Arc flash only"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection protects metal from corrosion.\nIt is used on buried or submerged structures.\nExamples include tanks and pipelines."
+  },
+  {
+    "id": 48,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A sacrificial anode protects steel because it:",
+    "options": [
+      "Corrodes instead of the steel",
+      "Increases AC voltage",
+      "Replaces a fuse",
+      "Stops all current flow"
+    ],
+    "answer": 0,
+    "explanation": "Sacrificial anodes are more active metals.\nThey corrode preferentially.\nThis helps protect the steel structure."
+  },
+  {
+    "id": 49,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "Impressed-current cathodic protection uses:",
+    "options": [
+      "An external DC power source",
+      "A motor starter only",
+      "A lighting ballast",
+      "A phase rotation meter"
+    ],
+    "answer": 0,
+    "explanation": "Impressed-current systems use DC current.\nThe DC source drives protective current to the structure.\nThey are used where sacrificial anodes are not enough."
+  },
+  {
+    "id": 50,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "If a cathodic protection cable connection opens, what can happen?",
+    "options": [
+      "Protection may be lost",
+      "Motor speed increases",
+      "Transformer voltage doubles",
+      "Emergency lights turn on"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection needs electrical continuity.\nAn open connection stops protective current flow.\nThe protected metal may begin corroding."
+  },
+  {
+    "id": 51,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor is being pulled through conduit with several bends. What is the main reason to control pulling tension?",
+    "options": [
+      "To prevent insulation and conductor damage",
+      "To increase circuit voltage",
+      "To improve motor slip",
+      "To reduce breaker rating"
+    ],
+    "answer": 0,
+    "explanation": "Excessive pulling tension can stretch conductors.\nIt can also scrape or tear insulation.\nDamaged insulation can lead to faults."
+  },
+  {
+    "id": 52,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why are bushings installed on conduit ends?",
+    "options": [
+      "To protect conductor insulation from sharp edges",
+      "To increase conductor ampacity",
+      "To reduce voltage drop to zero",
+      "To reverse phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "Raceway ends can have sharp edges.\nBushings provide a smooth protective surface.\nThis prevents insulation damage during pulling."
+  },
+  {
+    "id": 53,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable is installed outdoors in a wet location. What must be verified?",
+    "options": [
+      "The cable is rated for wet locations",
+      "The cable is rated for dry locations only",
+      "The cable has no markings",
+      "The cable is smaller than required"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can damage unsuitable insulation.\nWet locations require approved cable types.\nThe cable rating must match the environment."
+  },
+  {
+    "id": 54,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor with 90°C insulation is terminated on equipment rated 75°C. Which rating usually limits ampacity at the termination?",
+    "options": [
+      "75°C",
+      "90°C",
+      "100°C",
+      "Ambient light level"
+    ],
+    "answer": 0,
+    "explanation": "The lowest applicable temperature rating controls.\nTerminals must not be overheated.\nAmpacity must be applied using the proper termination rating."
+  },
+  {
+    "id": 55,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why must raceways be supported at proper intervals?",
+    "options": [
+      "To prevent sagging, loosening, and mechanical damage",
+      "To increase voltage",
+      "To lower power factor",
+      "To change AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "Raceways must remain mechanically secure.\nPoor support can damage conductors and fittings.\nProper support improves safety and reliability."
+  },
+  {
+    "id": 56,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable tray is overfilled with power cables. What is the main concern?",
+    "options": [
+      "Overheating and difficult maintenance",
+      "Lower conductor temperature always",
+      "Better airflow",
+      "Reduced voltage automatically"
+    ],
+    "answer": 0,
+    "explanation": "Too many cables restrict heat dissipation.\nOverfilled trays are harder to inspect and maintain.\nCable tray fill requirements must be followed."
+  },
+  {
+    "id": 57,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable gland is loose where a cable enters a washdown enclosure. What is the concern?",
+    "options": [
+      "Loss of strain relief and environmental seal",
+      "Improved ventilation",
+      "Higher voltage rating",
+      "Lower current draw"
+    ],
+    "answer": 0,
+    "explanation": "Cable glands secure and seal cable entries.\nLoose glands allow movement and moisture entry.\nThis can damage wiring and equipment."
+  },
+  {
+    "id": 58,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why is minimum bend radius important for cable installation?",
+    "options": [
+      "Tight bends can damage insulation and conductors",
+      "Tight bends increase transformer kVA",
+      "Tight bends improve grounding",
+      "Tight bends reduce current to zero"
+    ],
+    "answer": 0,
+    "explanation": "Sharp bends stress the cable.\nDamage may not be visible immediately.\nFollowing bend radius protects cable life."
+  },
+  {
+    "id": 59,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "An enclosure cover is missing from a box containing splices. What is the hazard?",
+    "options": [
+      "Exposed wiring and possible contact with energized parts",
+      "Higher power factor",
+      "Lower available fault current",
+      "Better cooling only"
+    ],
+    "answer": 0,
+    "explanation": "Covers protect people from live parts.\nThey also protect wiring from debris and moisture.\nMissing covers are unsafe."
+  },
+  {
+    "id": 60,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A metallic enclosure has unused open knockouts. What should be done?",
+    "options": [
+      "Close them with approved plugs or covers",
+      "Leave them open for cooling",
+      "Cover them with paper",
+      "Ignore them if voltage is low"
+    ],
+    "answer": 0,
+    "explanation": "Open knockouts allow debris and moisture inside.\nThey can also expose live parts.\nApproved closures maintain enclosure protection."
+  },
+  {
+    "id": 61,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Why are power and control conductors sometimes separated?",
+    "options": [
+      "To reduce electrical interference and simplify troubleshooting",
+      "To increase fault current",
+      "To eliminate bonding",
+      "To make motors run faster"
+    ],
+    "answer": 0,
+    "explanation": "Power conductors can induce noise in control wiring.\nControl circuits may be sensitive to interference.\nSeparation improves reliability."
+  },
+  {
+    "id": 62,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor is installed in an area with oil and chemicals. What must be checked?",
+    "options": [
+      "Insulation and jacket suitability",
+      "Motor horsepower only",
+      "Panel label font",
+      "Room lighting level"
+    ],
+    "answer": 0,
+    "explanation": "Chemicals can attack insulation or jackets.\nThe conductor must be rated for the environment.\nUnsuitable cable can fail prematurely."
+  },
+  {
+    "id": 63,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A raceway enters an enclosure without proper fitting. What is a likely issue?",
+    "options": [
+      "Poor mechanical protection and possible loss of enclosure rating",
+      "Higher frequency",
+      "Better conductor support",
+      "Reduced voltage"
+    ],
+    "answer": 0,
+    "explanation": "Fittings secure the raceway to the enclosure.\nThey protect conductors at the entry point.\nIncorrect fittings may allow moisture or movement."
+  },
+  {
+    "id": 64,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A device rated 250 V is installed on a 600 V circuit. What is wrong?",
+    "options": [
+      "Voltage rating is too low",
+      "Current will become zero",
+      "Device will operate better",
+      "Grounding improves automatically"
+    ],
+    "answer": 0,
+    "explanation": "Devices must be rated for circuit voltage.\nUnderrated devices can arc or fail.\nAlways check voltage and current ratings."
+  },
+  {
+    "id": 65,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A loose terminal on a receptacle can cause:",
+    "options": [
+      "Heating and arcing",
+      "Lower resistance",
+      "Better current flow",
+      "Correct polarity automatically"
+    ],
+    "answer": 0,
+    "explanation": "Loose connections create resistance.\nCurrent through resistance produces heat.\nArcing can damage devices and start fires."
+  },
+  {
+    "id": 66,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Why should a switch open the ungrounded conductor instead of the neutral?",
+    "options": [
+      "To prevent the load from remaining energized when switched off",
+      "To increase lamp brightness",
+      "To reduce conductor ampacity",
+      "To reverse polarity automatically"
+    ],
+    "answer": 0,
+    "explanation": "Switching the neutral can leave live parts energized.\nThis creates a shock hazard during service.\nThe ungrounded conductor should be interrupted."
+  },
+  {
+    "id": 67,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle tester shows an open ground. What should be suspected?",
+    "options": [
+      "Missing or broken bonding path",
+      "Correct wiring",
+      "Too much power factor correction",
+      "High motor speed"
+    ],
+    "answer": 0,
+    "explanation": "An open ground means the equipment bond may be absent.\nFault current may not clear properly.\nThis condition must be corrected."
+  },
+  {
+    "id": 68,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A three-phase plug-connected machine runs backward after installation. What is the likely cause?",
+    "options": [
+      "Incorrect phase sequence",
+      "Open grounding conductor only",
+      "Low room temperature",
+      "Incorrect receptacle colour"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor rotation depends on phase order.\nWrong sequence reverses rotation.\nPhase sequence must be verified."
+  },
+  {
+    "id": 69,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A GFCI trips when a tool becomes wet. What is the likely reason?",
+    "options": [
+      "Leakage current to ground",
+      "Correct motor slip",
+      "Higher transformer efficiency",
+      "Proper insulation condition"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can create leakage paths.\nA GFCI detects imbalance between outgoing and returning current.\nThe tool should be inspected."
+  },
+  {
+    "id": 70,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "What is the main purpose of an AFCI?",
+    "options": [
+      "Detect hazardous arcing conditions",
+      "Detect motor RPM",
+      "Measure transformer oil level",
+      "Reverse phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "AFCI means arc-fault circuit interrupter.\nIt detects certain arcing patterns.\nIt helps reduce fire hazards."
+  },
+  {
+    "id": 71,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "HID lighting usually requires:",
+    "options": [
+      "Ballast or suitable control gear",
+      "DC battery only",
+      "Motor overload relay only",
+      "Ground rod only"
+    ],
+    "answer": 0,
+    "explanation": "HID lamps require controlled starting and operating current.\nBallasts regulate the lamp current.\nWrong control gear can damage the lamp."
+  },
+  {
+    "id": 72,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A cracked receptacle face is found in an industrial area. What should be done?",
+    "options": [
+      "Replace it with a properly rated device",
+      "Tape it permanently",
+      "Leave it if it still works",
+      "Increase breaker size"
+    ],
+    "answer": 0,
+    "explanation": "Cracked devices may expose live parts.\nThey may also lose mechanical strength.\nDamaged devices must be replaced."
+  },
+  {
+    "id": 73,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Correct receptacle polarity is important because:",
+    "options": [
+      "Incorrect polarity can energize parts expected to be neutral",
+      "It increases motor horsepower",
+      "It eliminates all shock risk",
+      "It changes AC into DC"
+    ],
+    "answer": 0,
+    "explanation": "Reversed polarity creates service hazards.\nParts expected to be de-energized may be live.\nCorrect wiring improves safety."
+  },
+  {
+    "id": 74,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit device installed outdoors must be selected for:",
+    "options": [
+      "Voltage, current, and environmental rating",
+      "Paint colour only",
+      "Room name only",
+      "Motor RPM only"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor devices face moisture and temperature changes.\nThey must match electrical ratings and location conditions.\nIncorrect devices can fail or shock users."
+  },
+  {
+    "id": 75,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "Why should terminal screws be tightened to proper torque?",
+    "options": [
+      "To prevent loose connections and overheating",
+      "To increase voltage",
+      "To reduce frequency",
+      "To improve room lighting"
+    ],
+    "answer": 0,
+    "explanation": "Loose terminals create high resistance.\nHigh resistance causes heat under load.\nProper torque gives reliable connections."
+  },
+  {
+    "id": 76,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit conductor is not identified at the termination. What is the main problem?",
+    "options": [
+      "Increased chance of misconnection and unsafe troubleshooting",
+      "Higher voltage automatically",
+      "Better load balance",
+      "Lower current draw"
+    ],
+    "answer": 0,
+    "explanation": "Conductor identification helps verify circuits.\nUnidentified wires create errors during maintenance.\nCorrect identification supports safe work."
+  },
+  {
+    "id": 77,
+    "category": "Task 18 — HVAC systems",
+    "question": "A 24 V thermostat circuit is dead, but line voltage is present at the HVAC unit. What should be checked?",
+    "options": [
+      "Control transformer and low-voltage fuse",
+      "Ground rod depth",
+      "Motor coupling alignment",
+      "Exit sign battery"
+    ],
+    "answer": 0,
+    "explanation": "HVAC controls commonly use 24 V.\nA transformer and fuse supply the control circuit.\nIf either fails, the thermostat circuit may be dead."
+  },
+  {
+    "id": 78,
+    "category": "Task 18 — HVAC systems",
+    "question": "A contactor coil is energized, but the compressor does not start. What should be checked?",
+    "options": [
+      "Load-side voltage, contacts, overloads, and compressor circuit",
+      "Thermostat cover colour",
+      "Wall paint",
+      "Ground rod spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Coil operation does not prove load power.\nContacts may be burned or overloads may be open.\nThe power circuit must be tested safely."
+  },
+  {
+    "id": 79,
+    "category": "Task 18 — HVAC systems",
+    "question": "What does DDC mean in HVAC controls?",
+    "options": [
+      "Direct digital control",
+      "Double disconnect circuit",
+      "Dry duct cable",
+      "Direct diode control"
+    ],
+    "answer": 0,
+    "explanation": "DDC systems use digital controllers.\nThey read sensors and control outputs.\nThey are common in building automation."
+  },
+  {
+    "id": 80,
+    "category": "Task 18 — HVAC systems",
+    "question": "A damper actuator receives a control signal but the damper does not move. What should be checked?",
+    "options": [
+      "Actuator power, control signal, linkage, and damper binding",
+      "CT ratio only",
+      "Emergency lighting battery",
+      "Receptacle polarity only"
+    ],
+    "answer": 0,
+    "explanation": "Damper operation needs both electrical and mechanical function.\nThe actuator may lack power or signal.\nThe linkage or damper may be jammed."
+  },
+  {
+    "id": 81,
+    "category": "Task 18 — HVAC systems",
+    "question": "An HVAC control fuse opens when cooling is called. What is likely?",
+    "options": [
+      "Shorted control wiring or coil in the cooling circuit",
+      "Correct operation",
+      "High airflow only",
+      "Proper thermostat operation"
+    ],
+    "answer": 0,
+    "explanation": "A fuse opens due to excessive current.\nIf it opens during a cooling call, that circuit section is suspect.\nThe coil and wiring should be checked."
+  },
+  {
+    "id": 82,
+    "category": "Task 18 — HVAC systems",
+    "question": "An economizer is used in HVAC systems to:",
+    "options": [
+      "Use outdoor air for cooling when conditions allow",
+      "Increase motor overload setting",
+      "Reverse compressor rotation",
+      "Store electrical energy"
+    ],
+    "answer": 0,
+    "explanation": "Economizers reduce mechanical cooling demand.\nThey use outdoor air when temperature conditions are suitable.\nDampers and sensors control operation."
+  },
+  {
+    "id": 83,
+    "category": "Task 18 — HVAC systems",
+    "question": "A rooftop HVAC unit has 600 V power and 24 V controls. What device commonly supplies the 24 V controls?",
+    "options": [
+      "Control transformer",
+      "Phase rotation meter",
+      "CT cabinet",
+      "Cable tray"
+    ],
+    "answer": 0,
+    "explanation": "A transformer steps down line voltage.\nHVAC thermostats and relays often use 24 V.\nControl voltage must be verified during troubleshooting."
+  },
+  {
+    "id": 84,
+    "category": "Task 18 — HVAC systems",
+    "question": "A contactor chatters when energized. What is a common cause?",
+    "options": [
+      "Low coil voltage",
+      "Correct operation",
+      "Perfect contacts",
+      "Too much airflow"
+    ],
+    "answer": 0,
+    "explanation": "A coil needs rated voltage to hold firmly.\nLow voltage causes weak magnetic pull.\nChatter can damage contacts and coils."
+  },
+  {
+    "id": 85,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 10 kW, 600 V, three-phase heater draws approximately how much current?",
+    "options": [
+      "9.6 A",
+      "16.7 A",
+      "28.9 A",
+      "60 A"
+    ],
+    "answer": 0,
+    "explanation": "Use (I = P ÷ (\\sqrt3 × E)).\n(10,000 ÷ (1.732 × 600) ≈ 9.6A).\nThree-phase current uses line voltage and √3."
+  },
+  {
+    "id": 86,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 7.5 kW, 600 V single-phase heater draws approximately:",
+    "options": [
+      "7.5 A",
+      "12.5 A",
+      "20.8 A",
+      "45 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = P ÷ E).\n(7500 ÷ 600 = 12.5A).\nSingle-phase current is watts divided by volts."
+  },
+  {
+    "id": 87,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "What is the purpose of a high-limit switch in an electric heating system?",
+    "options": [
+      "Prevent overheating",
+      "Increase heater wattage",
+      "Reverse fan rotation",
+      "Convert AC to DC"
+    ],
+    "answer": 0,
+    "explanation": "A high-limit opens when temperature becomes unsafe.\nIt protects equipment and surroundings.\nIt is a safety control."
+  },
+  {
+    "id": 88,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "Why is an airflow proving switch used with a duct heater?",
+    "options": [
+      "To prevent heater operation without airflow",
+      "To increase element resistance",
+      "To reduce fan speed automatically",
+      "To test phase rotation"
+    ],
+    "answer": 0,
+    "explanation": "Duct heaters need airflow to remove heat.\nWithout airflow, the heater can overheat.\nThe airflow switch is a safety interlock."
+  },
+  {
+    "id": 89,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater contactor coil is energized, but the heater does not warm. What should be checked?",
+    "options": [
+      "Load-side voltage, contacts, and heater elements",
+      "Room paint colour",
+      "Ground rod depth",
+      "Ethernet cable type"
+    ],
+    "answer": 0,
+    "explanation": "Coil operation only proves the control circuit.\nThe load circuit or elements may still be open.\nVoltage and continuity tests help locate the fault."
+  },
+  {
+    "id": 90,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater element reads infinite resistance on an ohmmeter. What does this mean?",
+    "options": [
+      "The element is open",
+      "The element is shorted",
+      "The element is operating normally",
+      "The element has correct current flow"
+    ],
+    "answer": 0,
+    "explanation": "Infinite resistance means no continuity.\nAn open element will not heat.\nThe element or connection must be repaired."
+  },
+  {
+    "id": 91,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A thermostat controls a contactor instead of switching heater current directly because:",
+    "options": [
+      "Heater current may exceed thermostat contact rating",
+      "Thermostats only work on DC",
+      "Contactors prevent all heating",
+      "Heaters never need control"
+    ],
+    "answer": 0,
+    "explanation": "Thermostats often control low-current circuits.\nContactors switch the larger heater load.\nThis protects the thermostat contacts."
+  },
+  {
+    "id": 92,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Emergency lights fail immediately when tested. What is most likely?",
+    "options": [
+      "Battery, charger, lamp, or wiring problem",
+      "Correct operation",
+      "Wrong motor rotation",
+      "High power factor"
+    ],
+    "answer": 0,
+    "explanation": "Emergency lights should operate when normal power fails.\nImmediate failure indicates a problem.\nThe unit should be repaired or replaced."
+  },
+  {
+    "id": 93,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Emergency lighting must operate during:",
+    "options": [
+      "Normal power failure",
+      "Motor overload only",
+      "Phase rotation testing",
+      "HVAC cooling call only"
+    ],
+    "answer": 0,
+    "explanation": "Emergency lighting supports safe evacuation.\nIt must operate when normal lighting is lost.\nBattery or emergency supply must be maintained."
+  },
+  {
+    "id": 94,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote emergency lighting head does not turn on during test. What should be checked?",
+    "options": [
+      "Lamp/head, wiring, and battery unit output",
+      "Motor FLA",
+      "CT polarity",
+      "Heater airflow only"
+    ],
+    "answer": 0,
+    "explanation": "Remote heads rely on wiring and battery output.\nA failed lamp or open conductor can stop operation.\nTesting should follow the circuit path."
+  },
+  {
+    "id": 95,
+    "category": "Task 20 — Exit and Emergency Lighting Systems",
+    "question": "Why must exit signs remain illuminated or backed up?",
+    "options": [
+      "To guide occupants during emergencies",
+      "To improve motor efficiency",
+      "To reduce transformer noise",
+      "To cool conductors"
+    ],
+    "answer": 0,
+    "explanation": "Exit signs identify safe egress routes.\nThey must be visible during emergency conditions.\nBackup power keeps them operating during outages."
+  },
+  {
+    "id": 96,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Emergency lighting works for only a few seconds during a test. What is the likely issue?",
+    "options": [
+      "Weak battery or charger problem",
+      "Correct full operation",
+      "Wrong phase sequence",
+      "Open heater element"
+    ],
+    "answer": 0,
+    "explanation": "Short runtime often indicates poor battery capacity.\nThe charger may also not be maintaining the battery.\nEmergency equipment must be serviced."
+  },
+  {
+    "id": 97,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "Cathodic protection is most commonly used to protect:",
+    "options": [
+      "Buried tanks and pipelines from corrosion",
+      "Motors from overload",
+      "Lamps from flicker",
+      "Transformers from noise"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection reduces metal corrosion.\nIt is used on buried or submerged metal structures.\nExamples include tanks, pipelines, and marine structures."
+  },
+  {
+    "id": 98,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "In sacrificial anode protection, the anode:",
+    "options": [
+      "Corrodes instead of the protected metal",
+      "Stops all current flow",
+      "Converts AC to DC",
+      "Replaces overcurrent protection"
+    ],
+    "answer": 0,
+    "explanation": "The sacrificial anode is more active metal.\nIt corrodes preferentially.\nThis helps protect the steel structure."
+  },
+  {
+    "id": 99,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "Impressed-current cathodic protection requires:",
+    "options": [
+      "External DC power source",
+      "Standard light switch only",
+      "HVAC thermostat only",
+      "Phase rotation meter"
+    ],
+    "answer": 0,
+    "explanation": "Impressed-current systems use a DC supply.\nThe DC current protects the structure from corrosion.\nIt is used where sacrificial anodes are not enough."
+  },
+  {
+    "id": 100,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A cathodic protection cable connection is open. What can happen?",
+    "options": [
+      "Protective current may stop flowing",
+      "Motor speed increases",
+      "Heater output doubles",
+      "Exit signs turn on"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection requires electrical continuity.\nAn open connection can stop protective current.\nThe structure may begin corroding."
+  },
+  {
+    "id": 101,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor pull is completed through a long raceway run. The insulation looks fine at both ends, but pulling tension exceeded the manufacturer’s limit. What is the hidden concern?",
+    "options": [
+      "Internal conductor or insulation damage may have occurred",
+      "The conductor ampacity automatically increases",
+      "Voltage drop becomes zero",
+      "The raceway becomes non-metallic"
+    ],
+    "answer": 0,
+    "explanation": "Excessive pulling tension can stretch conductors or damage insulation internally.\nDamage may not be visible at the termination point.\nA damaged conductor can fail later under load or voltage stress."
+  },
+  {
+    "id": 102,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A 90°C conductor is used only because the terminal says 75°C maximum. What is the exam trap?",
+    "options": [
+      "The 75°C terminal rating usually limits ampacity at the connection",
+      "The 90°C insulation always allows full 90°C ampacity",
+      "The terminal rating applies only to DC circuits",
+      "The conductor cannot be used at all"
+    ],
+    "answer": 0,
+    "explanation": "The weakest temperature-rated part controls the connection.\nUsing 90°C insulation does not mean the terminal can operate at 90°C.\nTermination temperature ratings must be respected."
+  },
+  {
+    "id": 103,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable rated for wet locations is installed in a corrosive chemical area. Why might it still be unsuitable?",
+    "options": [
+      "Wet rating does not always mean chemical resistance",
+      "Wet-rated cable cannot carry current",
+      "Chemical areas reduce voltage to zero",
+      "Corrosion only affects motors"
+    ],
+    "answer": 0,
+    "explanation": "Environmental ratings are specific.\nA cable may resist moisture but not oils, solvents, or chemicals.\nThe jacket and insulation must match the actual environment."
+  },
+  {
+    "id": 104,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A metallic raceway enters a washdown enclosure through a loose fitting. The circuit works normally. What is still wrong?",
+    "options": [
+      "The enclosure seal and mechanical protection may be compromised",
+      "The circuit must become single-phase",
+      "The conductor ampacity doubles",
+      "The voltage rating becomes higher"
+    ],
+    "answer": 0,
+    "explanation": "Washdown enclosures depend on proper fittings and seals.\nLoose fittings can allow water entry and conductor movement.\nWorking electrically does not prove the installation is safe."
+  },
+  {
+    "id": 105,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A raceway system has a sharp cut end but conductors pulled through without obvious damage. Why is a bushing still required?",
+    "options": [
+      "Insulation can be damaged during pulling or vibration later",
+      "Bushings increase circuit voltage",
+      "Bushings replace overcurrent protection",
+      "Bushings reduce motor slip"
+    ],
+    "answer": 0,
+    "explanation": "Sharp raceway edges can cut insulation.\nDamage can happen during installation or later from movement.\nBushings protect conductors at raceway ends."
+  },
+  {
+    "id": 106,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable tray contains power conductors and sensitive control cables bundled tightly together. What is the hidden risk?",
+    "options": [
+      "Heating and induced electrical noise",
+      "Automatic power factor correction",
+      "Lower available fault current",
+      "Perfect signal quality"
+    ],
+    "answer": 0,
+    "explanation": "Bundling power cables can reduce heat dissipation.\nPower conductors can induce noise into control wiring.\nSeparation and correct tray fill improve reliability."
+  },
+  {
+    "id": 107,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable is bent sharply near a motor terminal box to make it fit. The insulation does not crack. What is still a problem?",
+    "options": [
+      "Minimum bend radius may be violated",
+      "Cable resistance becomes zero",
+      "Motor rotation reverses",
+      "Voltage becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Cable damage is not always visible.\nSharp bends can stress insulation and conductor strands.\nMinimum bend radius protects cable life and reliability."
+  },
+  {
+    "id": 108,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A metal enclosure in a dusty industrial area has unused knockouts left open “for cooling.” What is the best answer?",
+    "options": [
+      "Openings must be closed with approved closures",
+      "Open knockouts improve safety",
+      "Dust cannot affect energized parts",
+      "Openings reduce grounding needs"
+    ],
+    "answer": 0,
+    "explanation": "Open knockouts allow dust, debris, and moisture into the enclosure.\nThey can also expose energized parts.\nApproved closures maintain enclosure protection."
+  },
+  {
+    "id": 109,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable gland grips the outer jacket but does not maintain the enclosure rating. What is the installation issue?",
+    "options": [
+      "The gland may provide strain relief but not proper environmental sealing",
+      "Strain relief automatically means weatherproof",
+      "Environmental sealing is never required",
+      "The cable becomes low voltage only"
+    ],
+    "answer": 0,
+    "explanation": "Cable glands can have different ratings and functions.\nA gland must be suitable for the enclosure environment.\nMechanical grip alone does not prove sealing protection."
+  },
+  {
+    "id": 110,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "Control wiring is installed in the same raceway as high-current motor conductors. Later, random false signals occur. What is most likely?",
+    "options": [
+      "Induced noise or interference from power conductors",
+      "Control wiring has too much voltage rating",
+      "Motor current is too balanced",
+      "Raceways prevent all interference"
+    ],
+    "answer": 0,
+    "explanation": "High-current and switching circuits can induce noise.\nLow-level control signals are more sensitive.\nSeparation, shielding, and grounding practices reduce false signals."
+  },
+  {
+    "id": 111,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor insulation is nicked, and the installer tapes it because “only the outer layer is damaged.” What is the concern?",
+    "options": [
+      "Field repair may not restore insulation rating or reliability",
+      "Tape always equals factory insulation",
+      "Nicks increase ampacity",
+      "Damage improves heat dissipation"
+    ],
+    "answer": 0,
+    "explanation": "Insulation damage can become a future fault.\nRepairs must be approved and suitable for voltage and environment.\nReplacement may be required depending on damage."
+  },
+  {
+    "id": 112,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A raceway support is installed far beyond the required spacing, but the conduit has not fallen. What is the hidden problem?",
+    "options": [
+      "Vibration or load may loosen fittings and damage conductors over time",
+      "Long spacing increases voltage",
+      "Supports are only decorative",
+      "Conductors become self-supporting forever"
+    ],
+    "answer": 0,
+    "explanation": "Support rules protect against mechanical strain.\nIndustrial vibration can loosen unsupported raceways.\nFailure may happen later, not immediately."
+  },
+  {
+    "id": 113,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable tray is used as a convenient walkway during installation. What is the best exam answer?",
+    "options": [
+      "It can damage tray, cables, and supports",
+      "It improves cable seating",
+      "It increases tray ampacity",
+      "It verifies bonding automatically"
+    ],
+    "answer": 0,
+    "explanation": "Cable tray is designed to support cables, not workers unless specifically rated.\nMechanical damage can affect cable insulation and tray supports.\nSafe access equipment should be used."
+  },
+  {
+    "id": 114,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A switch is installed in the neutral conductor. The light turns off normally. What is the hidden hazard?",
+    "options": [
+      "The load may remain energized even when switched off",
+      "The circuit becomes safer",
+      "Current becomes zero everywhere",
+      "Polarity no longer matters"
+    ],
+    "answer": 0,
+    "explanation": "Opening the neutral may stop current but leave live parts energized.\nA worker may think the load is safe to touch.\nSwitches should open the ungrounded conductor."
+  },
+  {
+    "id": 115,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle tester shows correct polarity but open ground. Why is this still unsafe?",
+    "options": [
+      "Fault current may not have an effective bonding path",
+      "Correct polarity removes need for grounding",
+      "The breaker rating automatically increases",
+      "Neutral will always clear faults safely"
+    ],
+    "answer": 0,
+    "explanation": "Polarity and bonding are separate safety issues.\nAn open ground can leave exposed metal energized during a fault.\nThe bonding path must be repaired."
+  },
+  {
+    "id": 116,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A 250 V device is installed on a 600 V circuit but carries only a small current. What is the exam trap?",
+    "options": [
+      "Voltage rating is still insufficient",
+      "Small current makes voltage rating irrelevant",
+      "Device rating depends only on load current",
+      "It is safe if the breaker is small"
+    ],
+    "answer": 0,
+    "explanation": "Device insulation and spacing must handle system voltage.\nLow current does not make an underrated voltage device safe.\nBoth voltage and current ratings matter."
+  },
+  {
+    "id": 117,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle terminal is slightly loose and feeding a small continuous load. Why can it still fail?",
+    "options": [
+      "Resistance heating can worsen over time",
+      "Small loads cannot heat terminals",
+      "Loose terminals improve flexibility",
+      "Arcing only happens on three-phase circuits"
+    ],
+    "answer": 0,
+    "explanation": "Loose connections create resistance.\nHeat can oxidize and further loosen the connection.\nThis can lead to arcing and device failure."
+  },
+  {
+    "id": 118,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A three-phase machine runs backward from one receptacle but correctly from another. What is most likely different?",
+    "options": [
+      "Phase sequence at the receptacles",
+      "Ground rod resistance",
+      "Lamp ballast type",
+      "Room temperature"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase rotation depends on phase order.\nDifferent receptacles can have different phase sequence if wired differently.\nRotation should be checked before operating equipment."
+  },
+  {
+    "id": 119,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A GFCI trips when a heater is energized in a damp area. The heater still produces heat briefly. What is most likely?",
+    "options": [
+      "Leakage current to ground exists",
+      "The GFCI is measuring temperature",
+      "The heater has no electrical issue possible",
+      "The ground fault improves operation"
+    ],
+    "answer": 0,
+    "explanation": "A heater can still heat while leaking some current.\nA GFCI trips on imbalance, not on whether the load works.\nMoisture or insulation breakdown should be checked."
+  },
+  {
+    "id": 120,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "An AFCI trips, but a standard breaker did not trip before replacement. What does this suggest?",
+    "options": [
+      "The circuit may have arcing characteristics not seen as simple overcurrent",
+      "AFCIs only trip on overload current",
+      "Standard breakers detect all arc faults equally",
+      "AFCI means automatic frequency current indicator"
+    ],
+    "answer": 0,
+    "explanation": "AFCIs detect certain arcing patterns.\nA standard breaker may not respond if current is not high enough.\nThe circuit should be inspected for damaged wiring or loose connections."
+  },
+  {
+    "id": 121,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "An HID fixture cycles on and off after warming up. Which issue is most likely?",
+    "options": [
+      "Lamp/ballast compatibility or failing lamp/ballast",
+      "Correct operation always",
+      "Wrong phase rotation",
+      "Open grounding electrode"
+    ],
+    "answer": 0,
+    "explanation": "HID systems depend on proper ballast and lamp operation.\nCycling can happen with aging lamps or ballast problems.\nThe fixture components must match ratings."
+  },
+  {
+    "id": 122,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit trips only when a cord-connected tool is flexed near the plug. What should be suspected?",
+    "options": [
+      "Damaged cord or plug connection",
+      "Correct operation",
+      "Transformer tap issue",
+      "Wrong lamp type"
+    ],
+    "answer": 0,
+    "explanation": "Flexing can expose broken strands or damaged insulation.\nIntermittent shorts or opens may occur.\nThe cord and plug should be repaired or replaced."
+  },
+  {
+    "id": 123,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle is weather-resistant but the box cover is not suitable for wet locations. What is the hidden problem?",
+    "options": [
+      "The complete installation may not be weatherproof",
+      "Device rating alone makes the whole installation suitable",
+      "Covers are not part of location rating",
+      "Rain improves grounding"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor installations require all components to suit the environment.\nA rated receptacle does not compensate for an unsuitable cover or box.\nThe full assembly must protect against moisture."
+  },
+  {
+    "id": 124,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit supplies equipment with a high inrush current. Which device issue can occur if selected poorly?",
+    "options": [
+      "Nuisance tripping during startup",
+      "Automatic voltage increase",
+      "Grounding failure only",
+      "Perfect selectivity always"
+    ],
+    "answer": 0,
+    "explanation": "Some loads draw high current briefly when starting.\nProtective devices must allow normal inrush while still protecting the circuit.\nLoad type matters when selecting devices."
+  },
+  {
+    "id": 125,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A technician labels a circuit only at the panel, not at the equipment. Why can this still be a problem?",
+    "options": [
+      "Field identification may be unclear during service or lockout",
+      "Panel labels always identify every field device perfectly",
+      "Equipment labels are only decorative",
+      "Labels change voltage rating"
+    ],
+    "answer": 0,
+    "explanation": "Safe work requires correct identification at the equipment being serviced.\nPanel-only labels may not prevent field confusion.\nBoth ends should be identified where required."
+  },
+  {
+    "id": 126,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle has correct voltage, but its contacts are worn and loose. Why should it be replaced?",
+    "options": [
+      "Loose contact pressure causes heat and arcing",
+      "Voltage reading proves it is safe",
+      "Worn contacts increase grounding",
+      "Low contact pressure lowers current to zero"
+    ],
+    "answer": 0,
+    "explanation": "A voltage test does not prove mechanical contact quality.\nLoose contacts create resistance under load.\nThis can overheat plugs and receptacles."
+  },
+  {
+    "id": 127,
+    "category": "Task 18 — HVAC systems",
+    "question": "An HVAC unit has 600 V at the disconnect, but the thermostat display is blank. What should be checked?",
+    "options": [
+      "Control transformer, low-voltage fuse, and control wiring",
+      "Compressor rotation only",
+      "Outdoor air temperature only",
+      "Cable tray fill"
+    ],
+    "answer": 0,
+    "explanation": "Thermostats and controls commonly use low voltage.\nLine voltage at the unit does not prove control voltage exists.\nThe low-voltage circuit should be traced."
+  },
+  {
+    "id": 128,
+    "category": "Task 18 — HVAC systems",
+    "question": "A compressor contactor coil pulls in, but the compressor receives only two phases. What is the danger?",
+    "options": [
+      "Compressor motor may single-phase and overheat",
+      "Compressor will run more efficiently",
+      "Control voltage becomes 24 V automatically",
+      "Thermostat becomes a fuse"
+    ],
+    "answer": 0,
+    "explanation": "Missing one phase can damage a three-phase motor.\nThe contactor or fuse may have an open phase.\nLine and load voltages must be checked."
+  },
+  {
+    "id": 129,
+    "category": "Task 18 — HVAC systems",
+    "question": "A DDC controller output shows 100%, but the valve actuator does not move. What is the best troubleshooting idea?",
+    "options": [
+      "Check output signal, actuator power, wiring, and mechanical linkage",
+      "Replace the building transformer immediately",
+      "Reverse incoming phases",
+      "Increase breaker size"
+    ],
+    "answer": 0,
+    "explanation": "A controller command does not prove actuator movement.\nThe signal, power, and mechanical connection must all work.\nBoth electrical and mechanical faults are possible."
+  },
+  {
+    "id": 130,
+    "category": "Task 18 — HVAC systems",
+    "question": "An economizer damper opens during poor outdoor air conditions because its sensor failed. What is the issue?",
+    "options": [
+      "Bad sensor input can cause wrong control decisions",
+      "Economizers do not use sensors",
+      "Damper position never affects HVAC operation",
+      "DDC controllers only work manually"
+    ],
+    "answer": 0,
+    "explanation": "DDC systems rely on sensor inputs.\nIncorrect outdoor air data can command wrong damper position.\nSensor calibration and wiring should be checked."
+  },
+  {
+    "id": 131,
+    "category": "Task 18 — HVAC systems",
+    "question": "A contactor chatters only when the blower starts. Control voltage is normal before startup. What should be measured?",
+    "options": [
+      "Coil voltage during blower startup",
+      "Wall temperature only",
+      "Damper blade colour",
+      "Ground rod resistance only"
+    ],
+    "answer": 0,
+    "explanation": "Starting current can cause voltage drop.\nA coil may chatter only under actual load conditions.\nMeasurements must be taken during the fault."
+  },
+  {
+    "id": 132,
+    "category": "Task 18 — HVAC systems",
+    "question": "A rooftop unit control fuse blows only when heat is called, not cooling. What does this indicate?",
+    "options": [
+      "Fault is likely in the heating control branch",
+      "Main supply is always wrong",
+      "Cooling circuit must be shorted",
+      "Thermostat cannot be involved"
+    ],
+    "answer": 0,
+    "explanation": "The timing of fuse operation identifies the affected circuit.\nIf it fails only on heat call, heat wiring or coil is suspect.\nTroubleshooting should isolate that branch."
+  },
+  {
+    "id": 133,
+    "category": "Task 18 — HVAC systems",
+    "question": "A damper actuator has correct voltage but stalls because the damper shaft is seized. What does this show?",
+    "options": [
+      "Electrical supply can be correct while mechanical fault prevents operation",
+      "Correct voltage proves the damper moves",
+      "Actuators never fail mechanically",
+      "Seized dampers increase airflow"
+    ],
+    "answer": 0,
+    "explanation": "HVAC controls include electrical and mechanical parts.\nVoltage at an actuator does not guarantee movement.\nLinkage and damper binding must be checked."
+  },
+  {
+    "id": 134,
+    "category": "Task 18 — HVAC systems",
+    "question": "A 24 V thermostat cable is run beside high-voltage motor leads and gives false calls. What is likely?",
+    "options": [
+      "Electrical interference induced into the control cable",
+      "Correct thermostat operation",
+      "Motor leads reduce control voltage to zero always",
+      "Thermostat wires cannot pick up noise"
+    ],
+    "answer": 0,
+    "explanation": "Low-voltage control cables can be affected by nearby power conductors.\nFalse signals can occur from noise or induced voltage.\nSeparation and proper wiring methods help."
+  },
+  {
+    "id": 135,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A duct heater contactor closes, but the high-limit trips shortly after. Airflow is low. What is most likely?",
+    "options": [
+      "Insufficient airflow is causing overheating",
+      "Heater elements are too cold",
+      "High-limit is used for phase rotation",
+      "Thermostat is definitely shorted"
+    ],
+    "answer": 0,
+    "explanation": "Duct heaters need airflow to remove heat.\nLow airflow causes temperature rise and high-limit operation.\nFilters, fan operation, and airflow switch should be checked."
+  },
+  {
+    "id": 136,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater element reads very low resistance to the metal frame. What is the concern?",
+    "options": [
+      "Ground fault risk",
+      "Open circuit only",
+      "Correct operation",
+      "Higher efficiency"
+    ],
+    "answer": 0,
+    "explanation": "A heater element should not leak significantly to the frame.\nLow resistance to metal indicates insulation breakdown.\nEnergizing can trip protection or create shock hazard."
+  },
+  {
+    "id": 137,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A thermostat is rated for 2 A, but the heater load draws 30 A. What must be used?",
+    "options": [
+      "Contactor or relay rated for the heater load",
+      "Larger thermostat knob",
+      "Smaller heater wire only",
+      "No control device"
+    ],
+    "answer": 0,
+    "explanation": "Thermostat contacts cannot safely switch large heater current.\nA contactor lets a small control circuit switch a larger load.\nDevice ratings must match load current."
+  },
+  {
+    "id": 138,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 600 V, 3-phase heater draws 15 A. What is approximate heater power?",
+    "options": [
+      "9 kW",
+      "15.6 kW",
+      "25.9 kW",
+      "45 kW"
+    ],
+    "answer": 1,
+    "explanation": "Use (P = \\sqrt3 × E × I).\n(1.732 × 600 × 15 ≈ 15,588W).\nThat is about 15.6 kW."
+  },
+  {
+    "id": 139,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater contactor is energized, but one heater stage remains cold. What should be checked?",
+    "options": [
+      "Individual element, fuse, contact, or connection for that stage",
+      "Phase rotation only",
+      "Thermostat location only",
+      "Exit sign battery"
+    ],
+    "answer": 0,
+    "explanation": "One cold stage points to a branch fault.\nA fuse, contact, element, or connection may be open.\nTesting should isolate the failed stage."
+  },
+  {
+    "id": 140,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater high-limit has tripped. The operator wants to bypass it to keep production running. What is the correct answer?",
+    "options": [
+      "Do not bypass; find and correct the overheating cause",
+      "Bypass it because it is only a nuisance device",
+      "Increase heater voltage",
+      "Remove airflow switch too"
+    ],
+    "answer": 0,
+    "explanation": "High-limits are safety devices.\nBypassing them can cause fire or equipment damage.\nThe cause of overheating must be repaired."
+  },
+  {
+    "id": 141,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 240 V heater is accidentally connected to 120 V. What happens to power output approximately?",
+    "options": [
+      "It drops to one-quarter rated power",
+      "It doubles",
+      "It remains the same",
+      "It becomes three-phase"
+    ],
+    "answer": 0,
+    "explanation": "Resistance heater power varies with voltage squared.\nHalf voltage gives one-quarter power.\nThe heater may operate weakly, not normally."
+  },
+  {
+    "id": 142,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "An emergency lighting unit works when tested but fails again after a short outage later. What hidden issue is likely?",
+    "options": [
+      "Battery cannot hold charge under real load",
+      "Phase rotation is wrong",
+      "Exit signs use three-phase motors",
+      "GFCI is measuring light level"
+    ],
+    "answer": 0,
+    "explanation": "A brief test may not prove full battery capacity.\nWeak batteries can fail during longer outages.\nBattery load testing may be required."
+  },
+  {
+    "id": 143,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote emergency head is connected with reversed polarity on a DC emergency circuit. What may happen?",
+    "options": [
+      "It may fail to operate if polarity-sensitive",
+      "It will always become brighter",
+      "It changes AC to DC",
+      "It charges the battery faster"
+    ],
+    "answer": 0,
+    "explanation": "Some emergency lighting heads use polarity-sensitive components.\nReversed DC polarity can prevent operation.\nPolarity should be verified during installation."
+  },
+  {
+    "id": 144,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "An exit sign is lit on normal power but goes dark during a power failure. What is the likely problem?",
+    "options": [
+      "Battery/charger/emergency supply failure",
+      "Lamp is too bright",
+      "Phase sequence is correct",
+      "HVAC thermostat is open"
+    ],
+    "answer": 0,
+    "explanation": "Exit signs must remain illuminated during outages.\nIf normal operation is okay but emergency operation fails, backup supply is suspect.\nBattery and charger should be checked."
+  },
+  {
+    "id": 145,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A monthly test is skipped because the building has never lost power. What is the exam answer?",
+    "options": [
+      "Testing is still required because failures can exist unnoticed",
+      "Testing is only needed after an outage",
+      "Batteries improve if never tested",
+      "Emergency lights do not require maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Batteries, lamps, and chargers can fail without obvious signs.\nRegular testing confirms operation before an emergency.\nLife-safety systems require maintenance."
+  },
+  {
+    "id": 146,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote head cable is too small and very long. What problem may occur during emergency operation?",
+    "options": [
+      "Voltage drop causing dim or failed lights",
+      "Higher battery voltage",
+      "Better illumination",
+      "Automatic charging"
+    ],
+    "answer": 0,
+    "explanation": "Long small conductors have resistance.\nVoltage drop can reduce lamp output.\nEmergency lighting circuits must deliver proper voltage to heads."
+  },
+  {
+    "id": 147,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A buried steel tank has sacrificial anodes, but the bonding lead to the tank is broken. What is the result?",
+    "options": [
+      "Protective current path is interrupted",
+      "Tank becomes better protected",
+      "Anodes stop corroding and steel is protected forever",
+      "Voltage becomes AC"
+    ],
+    "answer": 0,
+    "explanation": "Sacrificial anode systems need electrical continuity to the structure.\nA broken lead prevents protective current flow.\nThe tank may corrode."
+  },
+  {
+    "id": 148,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "An impressed-current cathodic protection rectifier output is zero. What should be checked?",
+    "options": [
+      "AC supply, rectifier, DC output circuit, and connections",
+      "Motor rotation only",
+      "HVAC thermostat only",
+      "Exit sign arrows only"
+    ],
+    "answer": 0,
+    "explanation": "Impressed-current systems need a DC source.\nZero output may be from power loss, rectifier failure, or open circuit.\nConnections and output should be tested safely."
+  },
+  {
+    "id": 149,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A sacrificial anode system is installed, but the anode metal is not more active than the protected structure. What is the issue?",
+    "options": [
+      "It may not corrode preferentially to protect the structure",
+      "It will produce three-phase power",
+      "It becomes an emergency light battery",
+      "It increases motor horsepower"
+    ],
+    "answer": 0,
+    "explanation": "Sacrificial anodes must be more active than the protected metal.\nThey corrode instead of the structure.\nWrong material reduces or eliminates protection."
+  },
+  {
+    "id": 150,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A cathodic protection system is overdriven with too much current. What is a possible concern?",
+    "options": [
+      "Coating damage or unwanted effects on the protected structure",
+      "Better protection with no downside",
+      "Motor phase reversal",
+      "Emergency lights become brighter"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection current must be controlled.\nToo much current can create unwanted side effects.\nSystems require proper testing and adjustment."
+  },
+  {
+    "id": 151,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conduit run is installed in an area where forklifts regularly pass close to the wall. What is the main reason to select a stronger raceway or add protection?",
+    "options": [
+      "To protect conductors from mechanical damage",
+      "To increase circuit frequency",
+      "To lower the load current",
+      "To improve lamp colour"
+    ],
+    "answer": 0,
+    "explanation": "Raceways must protect wiring from physical damage.\nIndustrial traffic can crush or strike raceways.\nExtra mechanical protection may be required."
+  },
+  {
+    "id": 152,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor is difficult to pull through a raceway, and the installer wants to use lubricant. What must be verified?",
+    "options": [
+      "Lubricant is compatible with the conductor insulation",
+      "Lubricant increases voltage rating",
+      "Lubricant replaces bushings",
+      "Lubricant removes need for supports"
+    ],
+    "answer": 0,
+    "explanation": "Some lubricants can damage insulation.\nOnly approved pulling lubricant should be used.\nCompatibility protects long-term conductor reliability."
+  },
+  {
+    "id": 153,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A junction box is too small for the number of conductors and splices. What problem can result?",
+    "options": [
+      "Damaged conductors and poor heat dissipation",
+      "Increased transformer efficiency",
+      "Lower voltage automatically",
+      "Correct box fill always"
+    ],
+    "answer": 0,
+    "explanation": "Overcrowded boxes stress conductors and connections.\nSplices need adequate space.\nBox fill must be suitable for the wiring inside."
+  },
+  {
+    "id": 154,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A metallic raceway is used in a corrosive outdoor area without suitable protection. What is the likely long-term issue?",
+    "options": [
+      "Corrosion can weaken the raceway and bonding path",
+      "Raceway becomes non-conductive safely",
+      "Voltage increases",
+      "Conductors stop carrying current"
+    ],
+    "answer": 0,
+    "explanation": "Corrosion can damage raceways and fittings.\nIt can also reduce bonding continuity.\nRaceway material must suit the environment."
+  },
+  {
+    "id": 155,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable tray run crosses an expansion joint in a building. What must be considered?",
+    "options": [
+      "Mechanical movement and bonding continuity",
+      "Motor slip",
+      "Receptacle polarity only",
+      "Thermostat setpoint"
+    ],
+    "answer": 0,
+    "explanation": "Expansion joints allow building movement.\nTray and cables must tolerate movement safely.\nBonding continuity may need jumpers."
+  },
+  {
+    "id": 156,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A conductor jacket is rated for sunlight resistance. Why does this matter?",
+    "options": [
+      "UV exposure can damage unsuitable cable jackets",
+      "Sunlight lowers circuit voltage to zero",
+      "UV exposure improves insulation",
+      "Sunlight changes AC into DC"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor cables may be exposed to UV radiation.\nUnsuitable jackets can crack or deteriorate.\nSunlight-resistant cable is needed where exposed."
+  },
+  {
+    "id": 157,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A raceway is used as the only support for a heavy light fixture. What should be checked?",
+    "options": [
+      "Whether the raceway and fittings are approved to support the fixture",
+      "Whether the lamp colour is correct",
+      "Whether the circuit is three-phase",
+      "Whether the motor rotation is correct"
+    ],
+    "answer": 0,
+    "explanation": "Raceways are not automatically structural supports.\nFixtures may require independent support.\nImproper support can cause mechanical failure."
+  },
+  {
+    "id": 158,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable is installed in an enclosure but has no strain relief at the entry. What is the concern?",
+    "options": [
+      "Movement may stress terminals and insulation",
+      "Voltage becomes safer",
+      "The enclosure becomes larger",
+      "Current automatically decreases"
+    ],
+    "answer": 0,
+    "explanation": "Strain relief prevents cable movement from pulling on connections.\nLoose entries can damage conductors.\nCable glands or proper fittings protect the wiring."
+  },
+  {
+    "id": 159,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "An enclosure is rated for dust protection, but the cover screws are missing. What is the problem?",
+    "options": [
+      "The enclosure rating may no longer be maintained",
+      "Dust protection improves",
+      "Voltage rating doubles",
+      "Conductors become self-protected"
+    ],
+    "answer": 0,
+    "explanation": "Covers and fasteners are part of the enclosure rating.\nMissing screws can allow dust or moisture entry.\nThe enclosure must be complete to protect equipment."
+  },
+  {
+    "id": 160,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A cable has damage where it exits a tray and enters a conduit. What was likely missing?",
+    "options": [
+      "Proper protection at the transition point",
+      "Higher voltage",
+      "More lamp wattage",
+      "A thermostat"
+    ],
+    "answer": 0,
+    "explanation": "Cable transitions can create abrasion points.\nEdges and fittings must protect the cable.\nMechanical protection prevents insulation damage."
+  },
+  {
+    "id": 161,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A control cable shield is cut off and left unterminated, although the drawing shows shield grounding. What problem may occur?",
+    "options": [
+      "Increased electrical noise on the control signal",
+      "Higher motor horsepower",
+      "Better signal quality always",
+      "Lower conductor temperature only"
+    ],
+    "answer": 0,
+    "explanation": "Shields reduce electrical interference.\nThey must be terminated as designed.\nImproper shielding can cause false signals."
+  },
+  {
+    "id": 162,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "A raceway contains more conductors than originally planned. What should be reviewed?",
+    "options": [
+      "Fill, ampacity adjustment, and heat dissipation",
+      "Paint colour",
+      "Motor bearing type",
+      "Exit sign arrow direction"
+    ],
+    "answer": 0,
+    "explanation": "More conductors can increase heat.\nRaceway fill and ampacity rules may apply.\nOvercrowding can damage conductors."
+  },
+  {
+    "id": 163,
+    "category": "Task 16 — Raceways, cables, conductors and enclosures",
+    "question": "An electrician finds water inside an outdoor junction box. What should be checked first?",
+    "options": [
+      "Box rating, covers, seals, fittings, and drainage/source of entry",
+      "Motor slip only",
+      "Fire alarm horn setting",
+      "Transformer tap only"
+    ],
+    "answer": 0,
+    "explanation": "Water entry indicates the enclosure system is compromised.\nSeals, fittings, and covers must suit the location.\nMoisture can cause corrosion and faults."
+  },
+  {
+    "id": 164,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle is warm under load, but the load current is below the breaker rating. What should be suspected?",
+    "options": [
+      "Loose or worn device connection",
+      "Correct operation always",
+      "Breaker too small only",
+      "Ground rod too deep"
+    ],
+    "answer": 0,
+    "explanation": "Heat can come from resistance at the device.\nA circuit can be below breaker rating and still have a bad connection.\nThe device and terminals should be inspected."
+  },
+  {
+    "id": 165,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A machine has a 600 V plug, but the receptacle is wired with only two phases and no proper equipment bond. What are the issues?",
+    "options": [
+      "Wrong supply arrangement and missing bonding path",
+      "Higher motor efficiency",
+      "Correct installation for all machines",
+      "Lower shock risk"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase equipment needs the correct phase conductors.\nThe equipment bonding path is essential for fault clearing.\nBoth power and safety connections must be correct."
+  },
+  {
+    "id": 166,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A lighting circuit flickers when a nearby motor starts. What may be the cause?",
+    "options": [
+      "Voltage dip from motor starting current",
+      "Correct lighting operation",
+      "Open cathodic protection anode",
+      "Thermostat short"
+    ],
+    "answer": 0,
+    "explanation": "Motors draw high current during starting.\nThis can cause a temporary voltage drop.\nLighting may flicker during the dip."
+  },
+  {
+    "id": 167,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A cord cap ground pin has been cut off to fit an old receptacle. What is the main hazard?",
+    "options": [
+      "Loss of equipment bonding connection",
+      "Higher current capacity",
+      "Better fit means safer operation",
+      "Motor rotation improves"
+    ],
+    "answer": 0,
+    "explanation": "The ground pin connects equipment metal to the bonding path.\nRemoving it can leave equipment unsafe during faults.\nThe correct receptacle and cord cap must be used."
+  },
+  {
+    "id": 168,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit breaker trips only when two specific loads run together. What is most likely?",
+    "options": [
+      "Combined load exceeds circuit capacity",
+      "Breaker detects phase rotation",
+      "GFCI always trips on overload only",
+      "Neutral becomes oversized"
+    ],
+    "answer": 0,
+    "explanation": "Each load may be acceptable alone.\nTogether they may overload the branch circuit.\nLoad calculation and circuit rating should be checked."
+  },
+  {
+    "id": 169,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A receptacle in a dusty shop has no cover plate. What is the concern?",
+    "options": [
+      "Dust and contact exposure can create hazards",
+      "Cover plates increase voltage",
+      "Dust always improves insulation",
+      "The breaker rating becomes higher"
+    ],
+    "answer": 0,
+    "explanation": "Cover plates protect terminals and device openings.\nDust can enter and contribute to tracking or failure.\nThe proper cover should be installed."
+  },
+  {
+    "id": 170,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A three-phase saw operates correctly, but after a receptacle replacement it runs backward. What happened?",
+    "options": [
+      "Two phases were likely interchanged",
+      "Ground and neutral were correctly bonded",
+      "Voltage became DC",
+      "The motor lost all slip"
+    ],
+    "answer": 0,
+    "explanation": "Changing phase order reverses three-phase motors.\nReplacing a receptacle can accidentally swap phases.\nRotation should be tested after replacement."
+  },
+  {
+    "id": 171,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A load is switched off, but a voltmeter still reads voltage at the load because only the neutral was switched. What is the fault?",
+    "options": [
+      "Switch is installed in the grounded conductor",
+      "Switch is too large",
+      "Load current is too low",
+      "Device is overprotected"
+    ],
+    "answer": 0,
+    "explanation": "The ungrounded conductor remains live if only neutral is opened.\nThis creates shock hazard.\nSwitching should interrupt the ungrounded conductor."
+  },
+  {
+    "id": 172,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A device is rated for indoor dry use and installed in a food processing washdown area. What is wrong?",
+    "options": [
+      "Environmental rating is unsuitable",
+      "Device will automatically become waterproof",
+      "Current will become zero",
+      "Washdown areas need no covers"
+    ],
+    "answer": 0,
+    "explanation": "Washdown areas expose devices to water and cleaning chemicals.\nDry-location devices may fail or shock users.\nEquipment must suit the environment."
+  },
+  {
+    "id": 173,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "An HID lamp starts, warms up, then goes out and restarts repeatedly. What should be checked?",
+    "options": [
+      "Lamp age, ballast, and compatibility",
+      "Ground rod depth",
+      "Motor slip",
+      "Emergency battery polarity"
+    ],
+    "answer": 0,
+    "explanation": "HID cycling often indicates lamp or ballast issues.\nComponents must be compatible.\nAging lamps can fail after warm-up."
+  },
+  {
+    "id": 174,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A plug-connected machine trips a GFCI immediately, but works on a non-GFCI circuit. What does this suggest?",
+    "options": [
+      "Ground leakage may be present",
+      "GFCI increases motor speed",
+      "Non-GFCI proves the machine is safe",
+      "Phase sequence is correct"
+    ],
+    "answer": 0,
+    "explanation": "A GFCI detects leakage current.\nA load can appear to work while leaking current.\nThe machine should be inspected."
+  },
+  {
+    "id": 175,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A branch circuit has aluminum conductors. What is important at terminations?",
+    "options": [
+      "Use terminals and methods suitable for aluminum",
+      "Use any copper-only device",
+      "Leave terminals loose",
+      "Ignore oxidation"
+    ],
+    "answer": 0,
+    "explanation": "Aluminum requires compatible terminals and preparation.\nImproper terminations can overheat.\nManufacturer instructions must be followed."
+  },
+  {
+    "id": 176,
+    "category": "Task 17 — Branch circuitry and devices",
+    "question": "A device box is recessed too far behind a finished wall. What can this affect?",
+    "options": [
+      "Device support and protection from exposed combustible material",
+      "Motor starting current",
+      "Transformer kVA",
+      "Cathodic protection current"
+    ],
+    "answer": 0,
+    "explanation": "Boxes must properly align with finished surfaces.\nDeep recesses can expose material and weaken support.\nProper extensions or corrections may be needed."
+  },
+  {
+    "id": 177,
+    "category": "Task 18 — HVAC systems",
+    "question": "A rooftop unit fan runs, but the compressor does not. The thermostat is calling for cooling. What should be checked?",
+    "options": [
+      "Compressor contactor, safeties, overloads, and control signal",
+      "Exit sign battery",
+      "Cathodic anode",
+      "Receptacle cover plate"
+    ],
+    "answer": 0,
+    "explanation": "Cooling circuits may include pressure switches and safeties.\nThe fan can run while compressor control is interrupted.\nTrace the compressor control and power circuit."
+  },
+  {
+    "id": 178,
+    "category": "Task 18 — HVAC systems",
+    "question": "A low-voltage thermostat cable is shorted. What will likely happen to the control transformer fuse?",
+    "options": [
+      "It may open",
+      "It will increase voltage",
+      "It will reverse compressor rotation",
+      "It will improve cooling"
+    ],
+    "answer": 0,
+    "explanation": "A short circuit draws excessive current.\nThe control fuse protects the transformer and wiring.\nThe short should be found before replacing fuses repeatedly."
+  },
+  {
+    "id": 179,
+    "category": "Task 18 — HVAC systems",
+    "question": "An HVAC pressure switch is open and prevents compressor operation. What is its purpose?",
+    "options": [
+      "Protect system from unsafe pressure conditions",
+      "Increase compressor speed",
+      "Replace the thermostat",
+      "Measure room light"
+    ],
+    "answer": 0,
+    "explanation": "Pressure switches protect refrigerant systems.\nThey can stop operation under high or low pressure conditions.\nBypassing them can damage equipment."
+  },
+  {
+    "id": 180,
+    "category": "Task 18 — HVAC systems",
+    "question": "A DDC controller reads 0–10 V from a humidity sensor. What type of signal is this?",
+    "options": [
+      "Analog input",
+      "Discrete output",
+      "Ground fault signal",
+      "Phase rotation signal"
+    ],
+    "answer": 0,
+    "explanation": "A 0–10 V signal varies with measured value.\nThe controller scales it to humidity.\nAnalog inputs are common in HVAC controls."
+  },
+  {
+    "id": 181,
+    "category": "Task 18 — HVAC systems",
+    "question": "A damper actuator is powered, but it rotates opposite of the required direction. What should be checked?",
+    "options": [
+      "Control wiring, actuator direction setting, and linkage",
+      "Ground rod length",
+      "Heater element resistance only",
+      "Emergency lighting charger"
+    ],
+    "answer": 0,
+    "explanation": "Actuators may have direction settings or wiring options.\nIncorrect linkage can also reverse action.\nThe actuator must match the control sequence."
+  },
+  {
+    "id": 182,
+    "category": "Task 18 — HVAC systems",
+    "question": "An HVAC unit has intermittent operation caused by a loose low-voltage terminal. Why is this hard to find?",
+    "options": [
+      "The fault may only appear with vibration or movement",
+      "Loose terminals always fail continuously",
+      "Low-voltage circuits cannot be intermittent",
+      "HVAC controls do not use terminals"
+    ],
+    "answer": 0,
+    "explanation": "Loose control wiring can open and close randomly.\nVibration from fans or compressors can trigger the fault.\nPhysical inspection and tug testing may help."
+  },
+  {
+    "id": 183,
+    "category": "Task 18 — HVAC systems",
+    "question": "A building automation system commands heating and cooling at the same time. What is likely?",
+    "options": [
+      "Control logic, sensor, or output problem",
+      "Correct energy-saving operation always",
+      "Emergency lighting failure",
+      "Cathodic protection fault"
+    ],
+    "answer": 0,
+    "explanation": "Heating and cooling should normally be coordinated.\nBad sensors or logic can command both.\nDDC programming and outputs should be checked."
+  },
+  {
+    "id": 184,
+    "category": "Task 18 — HVAC systems",
+    "question": "A fan motor in an HVAC unit is replaced, and airflow is weak. Voltage is correct. What should be checked?",
+    "options": [
+      "Rotation, belt/pulley, fan blade, and speed settings",
+      "Exit sign lamp",
+      "Branch circuit label only",
+      "Cathodic protection cable"
+    ],
+    "answer": 0,
+    "explanation": "Correct voltage does not prove correct airflow.\nWrong rotation or mechanical setup can reduce airflow.\nFan and motor configuration must be verified."
+  },
+  {
+    "id": 185,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A duct heater does not energize because the airflow switch is open. What does this prevent?",
+    "options": [
+      "Heater operation without airflow",
+      "Motor rotation reversal",
+      "Exit sign failure",
+      "Cathodic corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Airflow removes heat from the duct heater.\nWithout airflow, temperature can rise dangerously.\nThe airflow switch is a safety interlock."
+  },
+  {
+    "id": 186,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater element is shorted to the metal frame. What protection may operate?",
+    "options": [
+      "Ground fault or overcurrent protection",
+      "Thermostat only",
+      "Exit sign battery",
+      "HVAC economizer"
+    ],
+    "answer": 0,
+    "explanation": "A short to frame creates a fault path.\nBonding allows fault current to return to source.\nProtection should open the circuit."
+  },
+  {
+    "id": 187,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 600 V three-phase heater has one open element. What is likely?",
+    "options": [
+      "Reduced heat output and possible unbalanced current",
+      "Higher heat output",
+      "Perfect operation",
+      "Motor speed increase"
+    ],
+    "answer": 0,
+    "explanation": "An open element removes part of the heating load.\nThree-phase heater current may become unbalanced.\nThe faulty element should be found and replaced."
+  },
+  {
+    "id": 188,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A thermostat is located directly above a heater. What issue can occur?",
+    "options": [
+      "Short cycling or inaccurate temperature control",
+      "Higher heater voltage",
+      "Correct room sensing always",
+      "Ground fault protection improvement"
+    ],
+    "answer": 0,
+    "explanation": "Heat near the thermostat can give false readings.\nThe thermostat may shut off too soon.\nSensor location affects control accuracy."
+  },
+  {
+    "id": 189,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater contactor has welded contacts. What may happen?",
+    "options": [
+      "Heater may remain energized when control circuit is off",
+      "Heater cannot ever energize",
+      "Thermostat becomes more accurate",
+      "Current becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Welded contacts can remain closed mechanically.\nThe load may stay on even if the coil is off.\nThis is dangerous and requires repair."
+  },
+  {
+    "id": 190,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A heater high-limit trips repeatedly after reset. What should be done?",
+    "options": [
+      "Find and correct the overheating cause",
+      "Bypass the high-limit",
+      "Increase heater voltage",
+      "Remove the airflow switch"
+    ],
+    "answer": 0,
+    "explanation": "Repeated high-limit trips indicate a real problem.\nPoor airflow, failed controls, or blocked ducts may be present.\nSafety devices should not be bypassed."
+  },
+  {
+    "id": 191,
+    "category": "Task 19 — Electric heating systems and controls",
+    "question": "A 480 V single-phase heater draws 12 A. What is the approximate power?",
+    "options": [
+      "2.5 kW",
+      "5.8 kW",
+      "10 kW",
+      "20.8 kW"
+    ],
+    "answer": 1,
+    "explanation": "Use (P = E × I).\n(480 × 12 = 5760W).\nThat is about 5.8 kW."
+  },
+  {
+    "id": 192,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote emergency light is dim during testing, but the main unit lamps are bright. What should be checked?",
+    "options": [
+      "Remote head wiring voltage drop and lamp condition",
+      "Motor rotation",
+      "Thermostat location",
+      "Cathodic anode material"
+    ],
+    "answer": 0,
+    "explanation": "Remote heads may be affected by long wire runs.\nVoltage drop can reduce brightness.\nThe remote lamp/head may also be faulty."
+  },
+  {
+    "id": 193,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "An exit sign is on, but the charging indicator is off. What should be checked?",
+    "options": [
+      "Charger circuit and battery connection",
+      "Motor overload setting",
+      "Duct heater airflow",
+      "Cable tray fill"
+    ],
+    "answer": 0,
+    "explanation": "Exit signs with batteries require charging.\nA missing charge indicator may show charger or battery issue.\nBackup operation should be tested."
+  },
+  {
+    "id": 194,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Emergency lights turn on during normal operation even though utility power is present. What may be wrong?",
+    "options": [
+      "Sensing circuit or normal supply connection problem",
+      "Correct operation always",
+      "Motor phase sequence error",
+      "Heater element open"
+    ],
+    "answer": 0,
+    "explanation": "Emergency units turn on when they sense loss of normal power.\nIf normal power is present, sensing wiring or supply may be faulty.\nThe unit should be checked."
+  },
+  {
+    "id": 195,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "Why should emergency lighting batteries be load-tested instead of only visually inspected?",
+    "options": [
+      "A battery can look normal but fail under load",
+      "Visual inspection always proves capacity",
+      "Load testing reverses polarity",
+      "Batteries improve without testing"
+    ],
+    "answer": 0,
+    "explanation": "Battery capacity is proven under load.\nVisual appearance may not show weak cells.\nLoad testing confirms emergency runtime."
+  },
+  {
+    "id": 196,
+    "category": "Task 20 — Exit and emergency lighting systems",
+    "question": "A remote emergency head works only when its cable is moved. What is likely?",
+    "options": [
+      "Loose connection or broken conductor",
+      "Correct operation",
+      "Wrong phase rotation",
+      "Good wiring condition"
+    ],
+    "answer": 0,
+    "explanation": "Movement-sensitive operation indicates intermittent wiring.\nA loose terminal or broken conductor may be present.\nThe circuit should be repaired before relying on it."
+  },
+  {
+    "id": 197,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A buried pipeline has sacrificial anodes installed, but test readings show poor protection. What should be checked?",
+    "options": [
+      "Anode condition, connections, and soil/contact conditions",
+      "Lighting ballast only",
+      "HVAC thermostat only",
+      "Emergency light charger only"
+    ],
+    "answer": 0,
+    "explanation": "Sacrificial protection depends on anode material and connection.\nPoor contact or consumed anodes reduce protection.\nTesting helps verify corrosion control."
+  },
+  {
+    "id": 198,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "In impressed-current cathodic protection, the rectifier output is adjusted too low. What can happen?",
+    "options": [
+      "Structure may be underprotected",
+      "Structure becomes overprotected always",
+      "Motor speed doubles",
+      "Exit signs fail"
+    ],
+    "answer": 0,
+    "explanation": "Protective current must be sufficient.\nToo little current may allow corrosion.\nSystem readings determine correct adjustment."
+  },
+  {
+    "id": 199,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "A sacrificial anode is heavily consumed after years of service. What is the correct response?",
+    "options": [
+      "Replace or service the anode system",
+      "Remove all anodes permanently",
+      "Reverse motor rotation",
+      "Increase lighting voltage"
+    ],
+    "answer": 0,
+    "explanation": "Sacrificial anodes are designed to corrode over time.\nOnce consumed, they cannot protect effectively.\nMaintenance restores protection."
+  },
+  {
+    "id": 200,
+    "category": "Task 21 — Cathodic protection systems",
+    "question": "Why is DC used in cathodic protection systems?",
+    "options": [
+      "Corrosion protection depends on controlled current direction",
+      "AC always prevents corrosion better",
+      "DC is only used for lighting",
+      "DC removes need for connections"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection uses current flow to make the structure cathodic.\nDC provides controlled polarity.\nCorrect polarity is essential for protection."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledIndustrialElectricianSectionCQuestions =
+  shuffleArray(industrialElectricianSectionCQuestions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "industrial-electrician",
+  tradeTitle: "Industrial Electrician",
+  sectionTitle: "Section C — Wiring Systems",
+  questionTimeSeconds: 90,
+  questions: shuffledIndustrialElectricianSectionCQuestions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledIndustrialElectricianSectionCQuestions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

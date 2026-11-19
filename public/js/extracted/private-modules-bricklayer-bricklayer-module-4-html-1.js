@@ -1,0 +1,2611 @@
+const bricklayerSectionGPerformsRestorationQuestions = [
+  {
+    "id": 1,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be identified before rebuilding damaged masonry?",
+    "options": [
+      "Cause of the damage",
+      "Colour of the scaffold",
+      "Worker glove size",
+      "Brand of wheelbarrow"
+    ],
+    "answer": 0,
+    "explanation": "The cause of failure must be understood first. If the cause remains, the repair may fail again. Moisture, movement, corrosion, or poor support may be involved."
+  },
+  {
+    "id": 2,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A section of masonry is loose above the repair area. What should be done before removing units below it?",
+    "options": [
+      "Support or stabilize the loose masonry",
+      "Pull the lower units out quickly",
+      "Cover the area with plastic",
+      "Wet the wall only"
+    ],
+    "answer": 0,
+    "explanation": "Loose masonry can collapse during removal. Temporary support protects workers and the structure. Stability must be checked before repair work begins."
+  },
+  {
+    "id": 3,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement masonry units match the original units?",
+    "options": [
+      "For appearance and compatibility",
+      "To make the repair obvious",
+      "To reduce mortar use completely",
+      "To avoid cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Matching units help the repair blend in. Size, texture, colour, and absorption can affect performance. Compatibility is important in restoration work."
+  },
+  {
+    "id": 4,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason removes damaged brick and surrounding good brick is breaking. What should be changed?",
+    "options": [
+      "Use more controlled removal methods",
+      "Remove all nearby brick immediately",
+      "Hit the wall harder",
+      "Ignore the extra damage"
+    ],
+    "answer": 0,
+    "explanation": "Restoration should preserve sound existing masonry. Aggressive removal can damage good units. Controlled tools and methods reduce unnecessary repair."
+  },
+  {
+    "id": 5,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should original bond pattern be matched during rebuilding?",
+    "options": [
+      "To maintain appearance and wall continuity",
+      "To make the repair weaker",
+      "To avoid laying full units",
+      "To remove head joints"
+    ],
+    "answer": 0,
+    "explanation": "Bond pattern affects how the wall looks. It also helps the repair connect visually with existing work. A mismatched bond can make the repair stand out."
+  },
+  {
+    "id": 6,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the main risk of rebuilding a wall without fixing water entry?",
+    "options": [
+      "Damage may return",
+      "Mortar colour will improve",
+      "The wall becomes waterproof",
+      "Bricks become stronger"
+    ],
+    "answer": 0,
+    "explanation": "Water is a common cause of masonry failure. If water entry is not corrected, deterioration may continue. Restoration must address the source of damage."
+  },
+  {
+    "id": 7,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A hidden steel lintel is found rusted during restoration. What should the mason do?",
+    "options": [
+      "Report it for assessment",
+      "Cover it with mortar quickly",
+      "Ignore it because it is hidden",
+      "Cut it out without direction"
+    ],
+    "answer": 0,
+    "explanation": "Rusted steel can lose strength. It can also expand and crack surrounding masonry. The condition should be reviewed before covering."
+  },
+  {
+    "id": 8,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should salvaged masonry units be cleaned before reuse?",
+    "options": [
+      "Old mortar can prevent proper fit and bond",
+      "Dirt improves mortar bond",
+      "Cleaning makes units weaker",
+      "Salvaged units need no mortar"
+    ],
+    "answer": 0,
+    "explanation": "Old mortar changes the size and fit of units. Clean surfaces bond better with new mortar. Units should also be checked for cracks or damage."
+  },
+  {
+    "id": 9,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt section is not tied into the existing wall properly. What is the concern?",
+    "options": [
+      "Weak connection between new and old work",
+      "Better colour blending",
+      "Faster curing",
+      "Stronger cleaning action"
+    ],
+    "answer": 0,
+    "explanation": "New masonry must connect properly to existing masonry. Poor tie-in can cause cracking or separation. The repair should follow approved bond or anchoring methods."
+  },
+  {
+    "id": 10,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should temporary bracing be used during rebuilding when required?",
+    "options": [
+      "To support unstable masonry",
+      "To decorate the work area",
+      "To replace mortar",
+      "To speed up collapse"
+    ],
+    "answer": 0,
+    "explanation": "Removing masonry can reduce wall stability. Bracing helps hold the structure during repair. It protects workers and the building."
+  },
+  {
+    "id": 11,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall bulge is repaired without investigating the cause. What is the problem?",
+    "options": [
+      "The bulge may return",
+      "The wall will become stronger automatically",
+      "The repair will always match",
+      "Mortar will not be needed"
+    ],
+    "answer": 0,
+    "explanation": "Bulging may be caused by moisture, movement, or failed ties. Repairing only the surface may not solve the issue. The underlying cause must be addressed."
+  },
+  {
+    "id": 12,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should deteriorated masonry be removed only as far as necessary?",
+    "options": [
+      "To preserve sound original work",
+      "To make the repair larger",
+      "To increase waste",
+      "To remove all historic material"
+    ],
+    "answer": 0,
+    "explanation": "Restoration aims to keep good existing masonry. Unnecessary removal can damage the structure and appearance. Controlled repair preserves original work."
+  },
+  {
+    "id": 13,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A replacement brick is the right colour but smaller than the original. What may happen?",
+    "options": [
+      "Joint sizes may not match",
+      "The wall will become waterproof",
+      "The mortar will cure faster",
+      "The brick will stretch into place"
+    ],
+    "answer": 0,
+    "explanation": "Unit size affects joint thickness and coursing. Wrong size can make the repair obvious. Replacement units should match size as well as colour."
+  },
+  {
+    "id": 14,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement mortar be compatible with existing masonry?",
+    "options": [
+      "Incompatible mortar can damage old units",
+      "Hardest mortar is always best",
+      "Mortar type affects only smell",
+      "Old masonry needs no mortar"
+    ],
+    "answer": 0,
+    "explanation": "Older masonry may be softer than modern units. Mortar that is too hard can cause spalling or cracking. Compatible mortar improves repair durability."
+  },
+  {
+    "id": 15,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A parapet is rebuilt but failed flashing is left in place. What is likely?",
+    "options": [
+      "Moisture damage may return",
+      "The parapet becomes permanently waterproof",
+      "Mortar colour will improve",
+      "Flashing is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Failed flashing can allow water into masonry. Rebuilding without correcting flashing may repeat the failure. Moisture-control details are part of restoration."
+  },
+  {
+    "id": 16,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be checked when rebuilding around an opening?",
+    "options": [
+      "Lintel condition and support",
+      "Worker shoe type",
+      "Scaffold colour",
+      "Mortar bucket shape"
+    ],
+    "answer": 0,
+    "explanation": "Openings depend on proper support. Damaged or rusted lintels may cause cracking. Support conditions should be checked before rebuilding."
+  },
+  {
+    "id": 17,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A replacement stone has a different texture from the original wall. What is the main concern?",
+    "options": [
+      "The repair may be visually obvious",
+      "The stone will not need mortar",
+      "The wall becomes lighter",
+      "The scaffold must be taller"
+    ],
+    "answer": 0,
+    "explanation": "Texture affects how restoration blends with existing work. A mismatch can stand out even if colour is close. Stone selection is important for appearance."
+  },
+  {
+    "id": 18,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should rebuilt masonry be protected from weather while curing?",
+    "options": [
+      "Fresh mortar can be damaged by rain, freezing, or rapid drying",
+      "Weather always improves repairs",
+      "Mortar does not need curing",
+      "Protection only changes colour"
+    ],
+    "answer": 0,
+    "explanation": "Fresh repair mortar needs proper curing conditions. Rain can wash joints, and freezing can damage bond. Protection improves long-term repair quality."
+  },
+  {
+    "id": 19,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall begins shifting while units are being removed. What should happen?",
+    "options": [
+      "Stop and stabilize the wall",
+      "Remove units faster",
+      "Push the wall by hand",
+      "Fill the gap with dust"
+    ],
+    "answer": 0,
+    "explanation": "Movement indicates instability. Continuing can cause collapse or injury. The wall must be supported before work continues."
+  },
+  {
+    "id": 20,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should a sample panel sometimes be built before major restoration?",
+    "options": [
+      "To confirm appearance, materials, and workmanship",
+      "To avoid using drawings",
+      "To test scaffold height only",
+      "To replace final repair work"
+    ],
+    "answer": 0,
+    "explanation": "A sample panel shows how the repair will look. It helps confirm mortar colour, unit match, and joint profile. Approval prevents large-scale mismatch."
+  },
+  {
+    "id": 21,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt wall section is stronger than surrounding old masonry because very hard mortar was used. What can this cause?",
+    "options": [
+      "Stress and damage to older units",
+      "Better compatibility always",
+      "Less need for movement joints",
+      "Instant waterproofing"
+    ],
+    "answer": 0,
+    "explanation": "Hard mortar can be incompatible with softer old units. Stress may transfer into the masonry units. Compatible mortar should be selected."
+  },
+  {
+    "id": 22,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be done with cracked salvaged bricks before reuse?",
+    "options": [
+      "Inspect and reject if unsuitable",
+      "Use them in all visible areas",
+      "Soak them in oil",
+      "Break them into mortar"
+    ],
+    "answer": 0,
+    "explanation": "Salvaged units may have hidden damage. Cracks can affect appearance and durability. Only suitable units should be reused."
+  },
+  {
+    "id": 23,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should removal tools be selected carefully in restoration?",
+    "options": [
+      "To prevent damage to sound masonry",
+      "To make demolition louder",
+      "To remove all old materials",
+      "To avoid PPE"
+    ],
+    "answer": 0,
+    "explanation": "Restoration requires controlled removal. Wrong tools can damage surrounding units. Tool choice affects repair quality."
+  },
+  {
+    "id": 24,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A repair area contains hidden debris inside the wall cavity. What should be done?",
+    "options": [
+      "Remove debris as required",
+      "Leave it for extra support",
+      "Add water to it",
+      "Cover it with sealer"
+    ],
+    "answer": 0,
+    "explanation": "Debris can trap moisture or block drainage. It may also prevent proper rebuilding. Hidden areas should be cleaned when exposed."
+  },
+  {
+    "id": 25,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should rebuilt work match the original joint profile?",
+    "options": [
+      "To blend with existing appearance",
+      "To avoid curing",
+      "To make mortar weaker",
+      "To remove cleaning needs"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile is visible in finished masonry. A different profile can make the repair stand out. Matching profile improves restoration quality."
+  },
+  {
+    "id": 26,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is repointing?",
+    "options": [
+      "Removing deteriorated mortar and replacing it",
+      "Painting masonry units",
+      "Installing scaffold planks",
+      "Cutting new openings"
+    ],
+    "answer": 0,
+    "explanation": "Repointing restores failed mortar joints. Old deteriorated mortar is removed to proper depth. New compatible mortar is installed."
+  },
+  {
+    "id": 27,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should joints be cleaned after raking out old mortar?",
+    "options": [
+      "Dust and debris reduce new mortar bond",
+      "Dust improves adhesion",
+      "Cleaning weakens joints",
+      "Debris replaces mortar"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs clean contact surfaces. Dust and loose particles can prevent bonding. Cleaning improves repair durability."
+  },
+  {
+    "id": 28,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What can happen if repointing is too shallow?",
+    "options": [
+      "New mortar may fail early",
+      "The joint becomes stronger",
+      "The brick becomes waterproof",
+      "Tooling becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs enough depth to bond. Shallow pointing may detach or weather quickly. Proper joint preparation is required."
+  },
+  {
+    "id": 29,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should repointing mortar be tooled to match existing joints?",
+    "options": [
+      "To maintain appearance and shed water properly",
+      "To make joints hollow",
+      "To weaken the repair",
+      "To avoid curing"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile affects both appearance and durability. Matching the existing wall helps the repair blend in. Proper tooling compacts the mortar."
+  },
+  {
+    "id": 30,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is efflorescence?",
+    "options": [
+      "White salt deposit on masonry",
+      "A type of brick bond",
+      "A scaffold part",
+      "A mortar mixing tool"
+    ],
+    "answer": 0,
+    "explanation": "Efflorescence is salt left on the surface. It is usually caused by moisture carrying salts through masonry. The moisture source should be investigated."
+  },
+  {
+    "id": 31,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is cleaned, but efflorescence returns after rain. What should be checked?",
+    "options": [
+      "Moisture source",
+      "Brick packaging",
+      "Worker schedule",
+      "Scaffold tag"
+    ],
+    "answer": 0,
+    "explanation": "Efflorescence usually returns when moisture continues moving. Cleaning removes deposits but not the cause. Water entry or drainage should be investigated."
+  },
+  {
+    "id": 32,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should cleaners be tested before full application?",
+    "options": [
+      "They may stain or damage masonry",
+      "Testing removes the need for PPE",
+      "Cleaners always work the same",
+      "Testing weakens the wall"
+    ],
+    "answer": 0,
+    "explanation": "Masonry materials react differently to cleaners. A test area confirms the result. Testing helps prevent permanent damage."
+  },
+  {
+    "id": 33,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A pressure washer damages the face of soft brick. What was likely wrong?",
+    "options": [
+      "Cleaning method was too aggressive",
+      "Brick was too clean",
+      "Mortar was too fresh",
+      "Wall ties were missing"
+    ],
+    "answer": 0,
+    "explanation": "Soft masonry can be damaged by high pressure. Cleaning methods must match material condition. Gentle methods should be tried first."
+  },
+  {
+    "id": 34,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should nearby glass and metal be protected during chemical cleaning?",
+    "options": [
+      "Cleaners may stain or damage them",
+      "Glass improves cleaner strength",
+      "Metal protects masonry",
+      "Cleaning chemicals only affect brick"
+    ],
+    "answer": 0,
+    "explanation": "Some cleaners react with glass, metal, and finishes. Overspray or runoff can cause damage. Protection should be installed before cleaning."
+  },
+  {
+    "id": 35,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the safest cleaning principle for old masonry?",
+    "options": [
+      "Start with the gentlest effective method",
+      "Start with the strongest acid",
+      "Use high pressure first",
+      "Clean without testing"
+    ],
+    "answer": 0,
+    "explanation": "Old masonry may be soft or fragile. Aggressive cleaning can cause permanent damage. The gentlest effective method protects original material."
+  },
+  {
+    "id": 36,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should masonry be dry enough before applying sealer?",
+    "options": [
+      "Moisture may be trapped or sealer may not bond",
+      "Wet masonry always seals better",
+      "Sealer removes all water",
+      "Dampness improves every sealer"
+    ],
+    "answer": 0,
+    "explanation": "Many sealers require dry surface conditions. Moisture can prevent penetration or adhesion. Trapped moisture may cause future problems."
+  },
+  {
+    "id": 37,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What can happen if sealer is applied over dust?",
+    "options": [
+      "Poor adhesion or uneven penetration",
+      "Better waterproofing",
+      "Dust becomes structural",
+      "Sealer cures instantly"
+    ],
+    "answer": 0,
+    "explanation": "Dust blocks sealer contact with masonry. The sealer may not penetrate or bond properly. The surface should be clean before application."
+  },
+  {
+    "id": 38,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should repaired joints be protected from rapid drying?",
+    "options": [
+      "Mortar needs moisture for proper curing",
+      "Rapid drying always improves bond",
+      "Drying removes all shrinkage",
+      "Protection is only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs moisture to cure. Rapid drying can reduce bond and strength. Protection improves repair durability."
+  },
+  {
+    "id": 39,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointed joint cracks soon after repair. What could be a cause?",
+    "options": [
+      "Poor curing, wrong mortar, or movement",
+      "Proper preparation",
+      "Correct mortar compatibility",
+      "Good moisture protection"
+    ],
+    "answer": 0,
+    "explanation": "Early cracking can come from drying, incompatibility, or movement. The cause should be investigated. Repair methods may need adjustment."
+  },
+  {
+    "id": 40,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is tuckpointing mainly associated with?",
+    "options": [
+      "Creating a fine finished joint appearance",
+      "Installing steel lintels",
+      "Cutting block cells",
+      "Building scaffold platforms"
+    ],
+    "answer": 0,
+    "explanation": "Tuckpointing is a decorative joint treatment. It can make joints appear finer and more uniform. It differs from basic repointing."
+  },
+  {
+    "id": 41,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should old mortar be removed to a proper depth before repointing?",
+    "options": [
+      "To give new mortar enough bonding area",
+      "To make the wall weaker",
+      "To avoid tooling",
+      "To remove all brick edges"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs space to bond and perform. Shallow removal can lead to early failure. Depth should follow project requirements."
+  },
+  {
+    "id": 42,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall cleaner causes limestone to etch. What was likely missed?",
+    "options": [
+      "Compatibility testing",
+      "Scaffold inspection",
+      "Brick blending",
+      "Tool cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Limestone can react with some cleaners. Testing shows whether the cleaner is safe. Cleaner selection must match the masonry material."
+  },
+  {
+    "id": 43,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What should be done before applying a masonry sealer?",
+    "options": [
+      "Check surface cleanliness, dryness, and product instructions",
+      "Apply over dirt quickly",
+      "Wet the wall heavily",
+      "Use any product available"
+    ],
+    "answer": 0,
+    "explanation": "Sealers have specific application requirements. Poor surface condition can cause failure. Instructions must be followed."
+  },
+  {
+    "id": 44,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should sealers be compatible with the masonry material?",
+    "options": [
+      "Wrong sealer may trap moisture or change appearance",
+      "Any sealer works on any wall",
+      "Sealer type affects only smell",
+      "Compatibility is only for paint"
+    ],
+    "answer": 0,
+    "explanation": "Some sealers can darken masonry or trap moisture. Compatibility affects durability and appearance. Product selection must match the wall."
+  },
+  {
+    "id": 45,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker uses a grinder to rake joints and damages brick edges. What is the problem?",
+    "options": [
+      "The method is damaging the masonry",
+      "Brick edges are not important",
+      "Damage improves repointing",
+      "Wider joints are always better"
+    ],
+    "answer": 0,
+    "explanation": "Joint removal should protect masonry units. Damaged edges create poor appearance and weak areas. Tools must be controlled carefully."
+  },
+  {
+    "id": 46,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should fresh repointing be protected from freezing?",
+    "options": [
+      "Freezing can damage curing mortar",
+      "Freezing improves mortar strength",
+      "Ice replaces curing water safely",
+      "Cold weather makes joints stronger"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs proper temperature to cure. Freezing can damage bond and strength. Cold-weather protection may be required."
+  },
+  {
+    "id": 47,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A cleaned wall appears blotchy after drying. What could be the cause?",
+    "options": [
+      "Uneven cleaning, moisture, or material variation",
+      "Perfect cleaning only",
+      "Correct sealer always",
+      "Proper colour blending only"
+    ],
+    "answer": 0,
+    "explanation": "Blotchy appearance can come from uneven cleaning. Moisture and masonry variation can also affect appearance. Testing helps predict results."
+  },
+  {
+    "id": 48,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should cleaning runoff be controlled?",
+    "options": [
+      "It may damage surfaces or enter drains improperly",
+      "It always improves landscaping",
+      "It makes mortar stronger",
+      "It replaces rinsing"
+    ],
+    "answer": 0,
+    "explanation": "Cleaning runoff can contain chemicals and debris. It may stain surfaces or harm the environment. Runoff should be managed according to site requirements."
+  },
+  {
+    "id": 49,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointed joint is finished with a different profile than the existing wall. What is likely?",
+    "options": [
+      "The repair will be noticeable",
+      "The repair will disappear",
+      "The mortar will become waterproof",
+      "The wall will become stronger only"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile affects the wall’s appearance. A mismatch can make repairs stand out. Matching existing work is important in restoration."
+  },
+  {
+    "id": 50,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should repaired masonry be inspected after completion?",
+    "options": [
+      "To confirm appearance, bond, joint finish, and cleanliness",
+      "To avoid quality control",
+      "To remove all protection",
+      "To change the design"
+    ],
+    "answer": 0,
+    "explanation": "Inspection confirms the repair meets requirements. It checks both appearance and workmanship. Defects should be corrected before the work is accepted."
+  },
+  {
+    "id": 51,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the main purpose of masonry restoration?",
+    "options": [
+      "To repair or preserve existing masonry",
+      "To remove all old masonry",
+      "To replace scaffold systems",
+      "To change all wall designs"
+    ],
+    "answer": 0,
+    "explanation": "Restoration repairs existing masonry. It aims to preserve useful original material. It should correct defects without unnecessary damage."
+  },
+  {
+    "id": 52,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be checked before rebuilding a damaged wall section?",
+    "options": [
+      "Cause of damage",
+      "Tool colour",
+      "Worker age",
+      "Mortar bucket size"
+    ],
+    "answer": 0,
+    "explanation": "The cause of damage must be known. Water, movement, impact, or corrosion may be involved. Repairs may fail again if the cause remains."
+  },
+  {
+    "id": 53,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What does “salvaged masonry unit” mean?",
+    "options": [
+      "A unit removed from existing work for possible reuse",
+      "A new unit from a sealed pallet",
+      "A unit used only for scaffolding",
+      "A unit made from fresh mortar"
+    ],
+    "answer": 0,
+    "explanation": "Salvaged units come from existing masonry. They may be reused if suitable. They must be cleaned and inspected first."
+  },
+  {
+    "id": 54,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why are salvaged units inspected before reuse?",
+    "options": [
+      "To check for cracks, contamination, and suitability",
+      "To make them heavier",
+      "To remove all colour variation",
+      "To avoid using mortar"
+    ],
+    "answer": 0,
+    "explanation": "Reused units can have hidden defects. Cracks or old contamination can affect performance. Only sound units should be reused."
+  },
+  {
+    "id": 55,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the purpose of matching replacement units?",
+    "options": [
+      "To maintain appearance and compatibility",
+      "To make the repair obvious",
+      "To reduce wall stability",
+      "To eliminate joint tooling"
+    ],
+    "answer": 0,
+    "explanation": "Replacement units should match size and appearance. Absorption and strength should also be compatible. Good matching improves restoration quality."
+  },
+  {
+    "id": 56,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Which property is important when selecting replacement brick for old masonry?",
+    "options": [
+      "Absorption rate",
+      "Scaffold colour",
+      "Worker preference",
+      "Mixer size"
+    ],
+    "answer": 0,
+    "explanation": "Absorption affects mortar bond and moisture behaviour. A poor match can affect performance. Replacement units should be compatible with the existing wall."
+  },
+  {
+    "id": 57,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement mortar not be too hard for old soft brick?",
+    "options": [
+      "It can damage softer masonry units",
+      "It always improves restoration",
+      "It removes moisture problems",
+      "It makes joints invisible"
+    ],
+    "answer": 0,
+    "explanation": "Hard mortar can place stress on soft brick. The brick may spall or deteriorate. Compatible mortar is important in restoration."
+  },
+  {
+    "id": 58,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is a bond pattern?",
+    "options": [
+      "The arrangement of masonry units in a wall",
+      "The colour of mortar",
+      "A scaffold safety tag",
+      "A type of cleaner"
+    ],
+    "answer": 0,
+    "explanation": "Bond pattern shows how units are laid. Restoration should match existing bond. Matching bond helps the repair blend in."
+  },
+  {
+    "id": 59,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should the original bond pattern be matched during rebuilding?",
+    "options": [
+      "For appearance and wall continuity",
+      "To make the repair weaker",
+      "To avoid using replacement units",
+      "To remove all head joints"
+    ],
+    "answer": 0,
+    "explanation": "Bond pattern is visible in finished masonry. A mismatch makes repairs stand out. It also helps maintain continuity with existing work."
+  },
+  {
+    "id": 60,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is a joint profile?",
+    "options": [
+      "The finished shape of a mortar joint",
+      "The height of scaffold",
+      "The size of a mortar mixer",
+      "The length of a brick pallet"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile is the shape left after tooling. Common profiles include concave, flush, and raked. Restoration should match the existing profile."
+  },
+  {
+    "id": 61,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should rebuilt masonry match the existing joint profile?",
+    "options": [
+      "To blend with the original wall",
+      "To avoid curing",
+      "To make mortar weaker",
+      "To block moisture inside"
+    ],
+    "answer": 0,
+    "explanation": "Joint profile affects wall appearance. A different profile makes repairs noticeable. Matching helps maintain the original look."
+  },
+  {
+    "id": 62,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is a common cause of masonry deterioration?",
+    "options": [
+      "Moisture penetration",
+      "Clean tools",
+      "Proper curing",
+      "Accurate layout"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can damage masonry over time. It can cause freeze-thaw damage and efflorescence. Water sources should be corrected during restoration."
+  },
+  {
+    "id": 63,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What can rusting steel do to surrounding masonry?",
+    "options": [
+      "Expand and crack the masonry",
+      "Make masonry waterproof",
+      "Reduce wall movement completely",
+      "Improve mortar bond"
+    ],
+    "answer": 0,
+    "explanation": "Steel expands as it corrodes. This expansion can crack or displace masonry. Rusted lintels or anchors should be assessed."
+  },
+  {
+    "id": 64,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the purpose of temporary support during restoration?",
+    "options": [
+      "To prevent unstable masonry from moving or collapsing",
+      "To make walls decorative",
+      "To replace mortar permanently",
+      "To avoid inspection"
+    ],
+    "answer": 0,
+    "explanation": "Removing units can weaken existing masonry. Temporary support protects the wall and workers. It is used until repair work is secure."
+  },
+  {
+    "id": 65,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is controlled demolition in restoration?",
+    "options": [
+      "Careful removal of damaged materials",
+      "Removing all masonry as fast as possible",
+      "Breaking sound units intentionally",
+      "Cutting without planning"
+    ],
+    "answer": 0,
+    "explanation": "Controlled removal protects sound masonry. It limits damage to surrounding areas. Restoration work should be precise and careful."
+  },
+  {
+    "id": 66,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should sound original masonry be preserved when possible?",
+    "options": [
+      "It maintains the structure and character of the building",
+      "It makes repairs more obvious",
+      "It increases waste",
+      "It prevents matching"
+    ],
+    "answer": 0,
+    "explanation": "Restoration aims to retain useful original work. Preserving sound masonry keeps historical and visual value. Unnecessary removal can cause damage."
+  },
+  {
+    "id": 67,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be done with loose masonry above a repair area?",
+    "options": [
+      "Stabilize or support it before removal below",
+      "Ignore it",
+      "Pull out lower units quickly",
+      "Cover it with sealer"
+    ],
+    "answer": 0,
+    "explanation": "Loose masonry may fall during repair. Support prevents collapse and injury. Stability must be checked first."
+  },
+  {
+    "id": 68,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the risk of rebuilding without correcting failed flashing?",
+    "options": [
+      "Water damage may return",
+      "Mortar becomes stronger",
+      "Wall colour improves",
+      "Bricks stop absorbing water"
+    ],
+    "answer": 0,
+    "explanation": "Flashing controls moisture movement. Failed flashing can continue to allow water entry. The new repair may deteriorate again."
+  },
+  {
+    "id": 69,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be checked when rebuilding parapets?",
+    "options": [
+      "Coping, flashing, drainage, and stability",
+      "Worker lunch time",
+      "Scaffold paint colour",
+      "Mortar bucket weight"
+    ],
+    "answer": 0,
+    "explanation": "Parapets are exposed to weather. They need good moisture-control details. Stability and support must also be considered."
+  },
+  {
+    "id": 70,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the purpose of a sample panel in restoration?",
+    "options": [
+      "To confirm appearance and workmanship before full repair",
+      "To replace all drawings",
+      "To test scaffold wheels",
+      "To avoid matching materials"
+    ],
+    "answer": 0,
+    "explanation": "Sample panels show the final look. They help check unit match, mortar colour, and joint profile. Approval prevents large mismatched repairs."
+  },
+  {
+    "id": 71,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement stone be shaped before setting?",
+    "options": [
+      "To fit properly and maintain joint appearance",
+      "To weaken the stone",
+      "To avoid using mortar",
+      "To remove texture"
+    ],
+    "answer": 0,
+    "explanation": "Stone must fit the opening or wall pattern. Poor shaping creates wide or uneven joints. Proper fit improves appearance and stability."
+  },
+  {
+    "id": 72,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What can happen if a replacement unit is too strong or too dense compared with the original wall?",
+    "options": [
+      "It may be incompatible with surrounding masonry",
+      "It will always improve the repair",
+      "It removes need for mortar",
+      "It stops all moisture movement"
+    ],
+    "answer": 0,
+    "explanation": "Different material properties can cause stress or moisture imbalance. Compatibility matters in restoration. Replacement units should match the existing wall as closely as practical."
+  },
+  {
+    "id": 73,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What does “tooth-in” mean in masonry repair?",
+    "options": [
+      "Interlocking new masonry with existing units",
+      "Cutting a straight vertical joint only",
+      "Painting old brick",
+      "Cleaning mortar stains"
+    ],
+    "answer": 0,
+    "explanation": "Toothing-in connects new work to old work. It helps maintain bond and appearance. It is used where appropriate for rebuilding."
+  },
+  {
+    "id": 74,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should masonry not be removed below unstable work without support?",
+    "options": [
+      "It can cause collapse",
+      "It improves access safely",
+      "It makes the repair smaller",
+      "It increases mortar bond"
+    ],
+    "answer": 0,
+    "explanation": "Masonry above may rely on lower units for support. Removing lower units can make it unstable. Temporary support may be needed first."
+  },
+  {
+    "id": 75,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What should be done if unexpected structural damage is found during restoration?",
+    "options": [
+      "Stop and report it for direction",
+      "Cover it quickly",
+      "Continue with normal mortar",
+      "Hide it behind new units"
+    ],
+    "answer": 0,
+    "explanation": "Structural damage can affect safety. It may require engineering or supervisor direction. It should not be hidden by repair work."
+  },
+  {
+    "id": 76,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is repointing?",
+    "options": [
+      "Renewing deteriorated mortar joints",
+      "Replacing scaffold planks",
+      "Painting brick faces",
+      "Installing wall ties only"
+    ],
+    "answer": 0,
+    "explanation": "Repointing removes failed mortar. New compatible mortar is installed. It improves appearance and weather resistance."
+  },
+  {
+    "id": 77,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is raking out?",
+    "options": [
+      "Removing old mortar from joints",
+      "Washing brick faces only",
+      "Installing new brick units",
+      "Lifting scaffold frames"
+    ],
+    "answer": 0,
+    "explanation": "Raking out prepares joints for repointing. Deteriorated mortar is removed to proper depth. The joint is then cleaned before new mortar is placed."
+  },
+  {
+    "id": 78,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should joints be cleaned after raking out?",
+    "options": [
+      "To remove dust and improve bond",
+      "To make joints weaker",
+      "To fill them with debris",
+      "To avoid tooling"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs clean joint surfaces. Dust and loose particles reduce bond. Cleaning improves the life of the repair."
+  },
+  {
+    "id": 79,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the risk of repointing over loose old mortar?",
+    "options": [
+      "New mortar may not bond properly",
+      "The joint becomes stronger",
+      "Loose mortar improves adhesion",
+      "Tooling becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Loose old mortar is a weak base. New mortar may separate with the old material. Joints should be cleaned to sound material."
+  },
+  {
+    "id": 80,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the purpose of compatible repointing mortar?",
+    "options": [
+      "To work properly with existing masonry",
+      "To make the wall look new only",
+      "To remove moisture control",
+      "To replace all units"
+    ],
+    "answer": 0,
+    "explanation": "Mortar must match the masonry’s needs. Compatibility affects bond, movement, and durability. Wrong mortar can damage existing units."
+  },
+  {
+    "id": 81,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is tuckpointing?",
+    "options": [
+      "A decorative joint finishing method",
+      "A scaffold tying method",
+      "A type of concrete block",
+      "A grout consolidation tool"
+    ],
+    "answer": 0,
+    "explanation": "Tuckpointing creates a fine joint appearance. It is often used for decorative restoration. It is different from basic joint filling."
+  },
+  {
+    "id": 82,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is efflorescence caused by?",
+    "options": [
+      "Moisture carrying salts to the surface",
+      "Too much scaffold bracing",
+      "Clean tools",
+      "Proper dry storage"
+    ],
+    "answer": 0,
+    "explanation": "Water dissolves salts inside masonry. As water evaporates, salts remain on the surface. Moisture movement is the key cause."
+  },
+  {
+    "id": 83,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What does efflorescence usually look like?",
+    "options": [
+      "White powdery deposit",
+      "Black steel anchor",
+      "Green scaffold tag",
+      "Brown wood plank"
+    ],
+    "answer": 0,
+    "explanation": "Efflorescence commonly appears white. It may look powdery or crystalline. It often indicates moisture movement."
+  },
+  {
+    "id": 84,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the first principle of cleaning historic or soft masonry?",
+    "options": [
+      "Use the gentlest effective method",
+      "Use the strongest acid first",
+      "Use maximum pressure first",
+      "Skip testing"
+    ],
+    "answer": 0,
+    "explanation": "Soft or historic masonry is easily damaged. Gentle methods reduce surface loss. Testing confirms the method is safe."
+  },
+  {
+    "id": 85,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why is a test patch used before cleaning masonry?",
+    "options": [
+      "To confirm cleaning effect and avoid damage",
+      "To permanently replace cleaning",
+      "To weaken the wall",
+      "To remove PPE needs"
+    ],
+    "answer": 0,
+    "explanation": "A test patch shows how the wall reacts. It checks for staining, etching, or damage. Testing helps select the safest method."
+  },
+  {
+    "id": 86,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What can high-pressure washing do to soft brick?",
+    "options": [
+      "Erode or damage the face",
+      "Strengthen the face",
+      "Improve the brick permanently",
+      "Remove all need for repointing"
+    ],
+    "answer": 0,
+    "explanation": "Soft brick can be damaged by high pressure. The face can erode or become rough. Pressure must match the material condition."
+  },
+  {
+    "id": 87,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should acid cleaners be used carefully on stone?",
+    "options": [
+      "Some stones can be etched or damaged",
+      "Acid always improves stone",
+      "Stone cannot react with chemicals",
+      "Acid replaces sealing"
+    ],
+    "answer": 0,
+    "explanation": "Acid can react with certain stones such as limestone. Etching can permanently damage the surface. Compatibility must be checked first."
+  },
+  {
+    "id": 88,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should glass and metal be protected during cleaning?",
+    "options": [
+      "Cleaners may stain or corrode them",
+      "They improve cleaner strength",
+      "They absorb salts from brick",
+      "They replace rinsing"
+    ],
+    "answer": 0,
+    "explanation": "Chemical cleaners can damage adjacent materials. Glass, metal, trim, and plants may need protection. Protection prevents unintended damage."
+  },
+  {
+    "id": 89,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the purpose of rinsing after chemical cleaning?",
+    "options": [
+      "To remove cleaner residue",
+      "To make chemicals stronger",
+      "To add salts to the wall",
+      "To avoid neutralization"
+    ],
+    "answer": 0,
+    "explanation": "Cleaner residue can continue reacting. Rinsing removes chemicals from the surface. Proper rinsing protects the masonry."
+  },
+  {
+    "id": 90,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is a masonry sealer used for?",
+    "options": [
+      "To reduce water penetration where appropriate",
+      "To replace damaged bricks",
+      "To remove old mortar",
+      "To support scaffold loads"
+    ],
+    "answer": 0,
+    "explanation": "Some sealers reduce water absorption. They must be compatible with the masonry. They should be applied according to instructions."
+  },
+  {
+    "id": 91,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should masonry be clean before sealing?",
+    "options": [
+      "Dirt can block penetration or adhesion",
+      "Dirt improves sealer bond",
+      "Sealer works only on dusty walls",
+      "Cleaning is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Sealers need contact with the masonry surface. Dust or dirt can prevent proper performance. Cleaning improves penetration and uniformity."
+  },
+  {
+    "id": 92,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should masonry be dry enough before sealing?",
+    "options": [
+      "Moisture can be trapped or block sealer penetration",
+      "Wet masonry always seals better",
+      "Sealer removes all trapped water",
+      "Dampness improves every product"
+    ],
+    "answer": 0,
+    "explanation": "Many sealers require dry surfaces. Moisture can prevent penetration or adhesion. Trapped moisture may cause damage later."
+  },
+  {
+    "id": 93,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What can an incompatible sealer cause?",
+    "options": [
+      "Trapped moisture or appearance changes",
+      "Stronger brick units always",
+      "Better mortar bond",
+      "Automatic structural repair"
+    ],
+    "answer": 0,
+    "explanation": "Some sealers trap water in the wall. Others can darken or stain masonry. Product compatibility must be checked."
+  },
+  {
+    "id": 94,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should cleaning runoff be controlled?",
+    "options": [
+      "It may damage nearby surfaces or drains",
+      "It strengthens the wall",
+      "It replaces rinsing",
+      "It improves plant growth always"
+    ],
+    "answer": 0,
+    "explanation": "Runoff can contain chemicals and debris. It may stain surfaces or enter drains improperly. Runoff control is part of safe cleaning."
+  },
+  {
+    "id": 95,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is spalling?",
+    "options": [
+      "Breaking or flaking of the masonry surface",
+      "A type of scaffold guardrail",
+      "A mortar mixing method",
+      "A brick colour blend"
+    ],
+    "answer": 0,
+    "explanation": "Spalling is surface loss or flaking. It may be caused by moisture, freezing, salts, or hard mortar. The cause should be investigated."
+  },
+  {
+    "id": 96,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the main concern with repointing during freezing conditions?",
+    "options": [
+      "Fresh mortar may be damaged before curing",
+      "Mortar will become stronger",
+      "Joints will tool themselves",
+      "Freezing removes all water safely"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs proper curing temperature. Freezing can damage bond and strength. Cold-weather protection may be required."
+  },
+  {
+    "id": 97,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the purpose of protecting fresh repointing from sun and wind?",
+    "options": [
+      "To prevent rapid drying",
+      "To make mortar dry instantly",
+      "To remove curing needs",
+      "To change brick size"
+    ],
+    "answer": 0,
+    "explanation": "Sun and wind can dry mortar too fast. Rapid drying reduces bond and durability. Fresh repairs may need curing protection."
+  },
+  {
+    "id": 98,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What should be checked if stains return after cleaning?",
+    "options": [
+      "Source of moisture or contamination",
+      "Scaffold height only",
+      "Mortar board size",
+      "Worker schedule"
+    ],
+    "answer": 0,
+    "explanation": "Recurring stains often have an ongoing cause. Moisture, rust, or salts may continue moving. Cleaning alone may not solve the problem."
+  },
+  {
+    "id": 99,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should mortar colour samples be allowed to cure before approval?",
+    "options": [
+      "Mortar colour changes as it dries and cures",
+      "Wet mortar is always final colour",
+      "Curing removes all colour difference",
+      "Colour does not matter in restoration"
+    ],
+    "answer": 0,
+    "explanation": "Mortar can lighten or change after drying. Approval should be based on cured appearance. This prevents mismatched repointing."
+  },
+  {
+    "id": 100,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What should final restoration inspection include?",
+    "options": [
+      "Joint finish, cleanliness, match, and defects",
+      "Worker lunch schedule",
+      "Scaffold brand only",
+      "Tool storage colour"
+    ],
+    "answer": 0,
+    "explanation": "Finished restoration must meet appearance and quality requirements. Joints, cleaning, and material match should be checked. Defects should be corrected before acceptance."
+  },
+  {
+    "id": 101,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "During restoration, a mason finds that the brick face is spalling below a leaking window sill. What should be addressed before replacing the bricks?",
+    "options": [
+      "The colour of the scaffold",
+      "The water source at the sill",
+      "The size of the mortar board",
+      "The type of broom used"
+    ],
+    "answer": 1,
+    "explanation": "Spalling below a sill often indicates water entry. Replacing brick without fixing the leak may lead to repeat damage. Restoration should correct the cause, not only the visible damage."
+  },
+  {
+    "id": 102,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A replacement brick matches the colour but absorbs water much faster than the original brick. What is the concern?",
+    "options": [
+      "It may behave differently with mortar and moisture",
+      "It will always be stronger",
+      "It will need no joint tooling",
+      "It will stop wall movement"
+    ],
+    "answer": 0,
+    "explanation": "Absorption affects bond and moisture movement. A poor absorption match can affect durability. Replacement units should be compatible, not only similar in colour."
+  },
+  {
+    "id": 103,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason is removing damaged brick from a historic wall. Which method is best?",
+    "options": [
+      "Break surrounding brick to create working space",
+      "Remove units carefully to protect sound masonry",
+      "Use the largest hammer available",
+      "Remove all brick from the wall face"
+    ],
+    "answer": 1,
+    "explanation": "Restoration aims to preserve sound original work. Careless removal can damage good masonry. Controlled removal protects the wall and reduces repair size."
+  },
+  {
+    "id": 104,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt section uses correct brick but the mortar joints are wider than the existing wall. What is the likely result?",
+    "options": [
+      "The repair will be visually noticeable",
+      "The wall will cure faster",
+      "The brick will become waterproof",
+      "The repair will need no cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Joint width strongly affects appearance. Even correct brick can look wrong with different joints. Restoration repairs should match existing joint size and profile."
+  },
+  {
+    "id": 105,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall has cracked because a steel lintel expanded from rust. What should be repaired?",
+    "options": [
+      "Only the cracked brick face",
+      "The rusted lintel condition and damaged masonry",
+      "Only the mortar colour",
+      "Only the scaffold access"
+    ],
+    "answer": 1,
+    "explanation": "Rusting steel expands and cracks masonry. If the steel problem remains, cracking can return. Both the cause and damaged masonry must be addressed."
+  },
+  {
+    "id": 106,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "When tooth-in repair is used, what is the main purpose?",
+    "options": [
+      "To interlock new work with existing masonry",
+      "To make a straight saw-cut repair only",
+      "To remove all original units",
+      "To avoid matching brick"
+    ],
+    "answer": 0,
+    "explanation": "Toothing-in connects new masonry to existing work. It helps maintain bond and visual continuity. It must be done carefully to avoid damaging sound units."
+  },
+  {
+    "id": 107,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A replacement stone is the correct size but has a very different surface finish. What should the mason consider?",
+    "options": [
+      "Surface finish affects the final appearance",
+      "Surface finish never matters",
+      "Mortar will hide the finish",
+      "The stone will change texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "Stone texture affects how a repair blends in. Different finishes catch light differently. Matching surface finish is important in restoration."
+  },
+  {
+    "id": 108,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason removes loose brick and discovers the wall cavity is full of old mortar debris. What is the best action?",
+    "options": [
+      "Leave debris for extra support",
+      "Remove debris where required",
+      "Add more debris for packing",
+      "Seal the cavity shut"
+    ],
+    "answer": 1,
+    "explanation": "Debris can trap moisture and block drainage. It may also interfere with proper rebuilding. Exposed cavities should be cleaned as required."
+  },
+  {
+    "id": 109,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt area is completed using a different bond pattern from the original. What is the main problem?",
+    "options": [
+      "It may not blend with the existing wall",
+      "Mortar will not cure",
+      "Cleaning becomes impossible",
+      "The wall becomes fireproof"
+    ],
+    "answer": 0,
+    "explanation": "Bond pattern is one of the most visible wall features. A mismatch makes repair work stand out. Restoration should follow the original pattern unless directed otherwise."
+  },
+  {
+    "id": 110,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should hidden anchors or ties be inspected when exposed during restoration?",
+    "options": [
+      "They may be corroded, missing, or loose",
+      "They always improve with age",
+      "They are only decorative",
+      "They replace mortar joints"
+    ],
+    "answer": 0,
+    "explanation": "Hidden metal components can deteriorate over time. Failed anchors or ties can affect wall stability. Inspection allows problems to be corrected before covering."
+  },
+  {
+    "id": 111,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall section is rebuilt, but the original movement joint is accidentally bridged with new masonry. What can happen?",
+    "options": [
+      "Movement stress may crack the repair",
+      "The joint becomes more flexible",
+      "Water drainage improves",
+      "The wall becomes lighter"
+    ],
+    "answer": 0,
+    "explanation": "Movement joints must remain functional. Bridging them restrains movement. This can cause cracking near the repaired area."
+  },
+  {
+    "id": 112,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason is replacing damaged units in a wall with soft historic brick. Which mortar is usually more appropriate?",
+    "options": [
+      "A compatible softer mortar specified for the wall",
+      "The hardest mortar available",
+      "Pure cement paste only",
+      "No mortar at all"
+    ],
+    "answer": 0,
+    "explanation": "Historic soft brick can be damaged by hard mortar. Compatible mortar allows the wall to perform properly. The specified repair mortar should be used."
+  },
+  {
+    "id": 113,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt section is exposed to heavy rain before the mortar has cured. What is the risk?",
+    "options": [
+      "Fresh joints may wash out or weaken",
+      "The wall becomes stronger",
+      "Rain replaces curing control",
+      "The bricks become larger"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar is vulnerable to rain damage. Rain can wash cement paste from joints. New restoration work should be protected as needed."
+  },
+  {
+    "id": 114,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason finds that old bricks removed from a wall are coated with salts and old mortar. What should happen before reuse?",
+    "options": [
+      "Inspect and clean them properly",
+      "Use them immediately",
+      "Paint the salts into the wall",
+      "Mix them into mortar"
+    ],
+    "answer": 0,
+    "explanation": "Salvaged units must be sound and clean. Old mortar and salts can affect bond and performance. Unsuitable units should not be reused."
+  },
+  {
+    "id": 115,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why is it important to document unexpected conditions during restoration?",
+    "options": [
+      "They may affect repair method, cost, or safety",
+      "Documentation replaces repair work",
+      "It changes brick colour",
+      "It avoids all inspections"
+    ],
+    "answer": 0,
+    "explanation": "Restoration often reveals hidden conditions. Documenting them helps supervisors decide next steps. It also supports proper repair records."
+  },
+  {
+    "id": 116,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason is rebuilding a parapet wall. Which detail is especially important for long-term performance?",
+    "options": [
+      "Moisture control at coping and flashing",
+      "Worker glove colour",
+      "Mortar board shape",
+      "Scaffold wheel size"
+    ],
+    "answer": 0,
+    "explanation": "Parapets are highly exposed to weather. Poor coping or flashing allows water entry. Good moisture control reduces future deterioration."
+  },
+  {
+    "id": 117,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall has failed because of foundation settlement. What is the concern with simply replacing cracked bricks?",
+    "options": [
+      "Cracking may return if movement continues",
+      "The repair will always solve settlement",
+      "Mortar will stop the foundation moving",
+      "Settlement improves bond"
+    ],
+    "answer": 0,
+    "explanation": "Foundation movement is an underlying cause. Replacing masonry alone does not stop movement. The source of settlement should be reviewed."
+  },
+  {
+    "id": 118,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A repair area is small but highly visible at the front entrance. What matters most?",
+    "options": [
+      "Matching materials, joint profile, and workmanship",
+      "Using the fastest method only",
+      "Avoiding all cleaning",
+      "Using any available units"
+    ],
+    "answer": 0,
+    "explanation": "Highly visible repairs must blend with existing work. Material match and joint finish are critical. Poor workmanship will be noticeable."
+  },
+  {
+    "id": 119,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason removes a damaged brick and notices the back-up masonry is deteriorated. What should be done?",
+    "options": [
+      "Report and repair as directed before closing the wall",
+      "Cover it immediately with the new face brick",
+      "Ignore it because it is hidden",
+      "Fill the space with dry debris"
+    ],
+    "answer": 0,
+    "explanation": "Hidden backing deterioration can affect the repair. Covering it may trap a defect inside the wall. The condition should be assessed before rebuilding."
+  },
+  {
+    "id": 120,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should rebuilt masonry be allowed to cure properly before aggressive cleaning?",
+    "options": [
+      "Fresh mortar can be damaged by early cleaning",
+      "Cleaning improves fresh mortar strength immediately",
+      "Mortar should be cleaned before it sets",
+      "Curing does not affect restoration"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs time to gain strength. Aggressive cleaning too early can damage joints. Cleaning should be timed according to the repair material."
+  },
+  {
+    "id": 121,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason rakes out joints for repointing and leaves dust in the joint. What is the likely result?",
+    "options": [
+      "Poor bond of new mortar",
+      "Stronger repointing",
+      "Better joint colour",
+      "Less need for curing"
+    ],
+    "answer": 0,
+    "explanation": "Dust blocks contact between old masonry and new mortar. Repointing requires clean joint surfaces. Joints should be brushed or cleaned before filling."
+  },
+  {
+    "id": 122,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker uses a grinder to remove old mortar and chips the brick edges. What is the issue?",
+    "options": [
+      "The masonry units are being damaged",
+      "The joint is now stronger",
+      "Wider damaged joints are always better",
+      "Brick damage improves bond"
+    ],
+    "answer": 0,
+    "explanation": "Restoration should avoid damaging sound masonry. Chipped edges affect appearance and durability. Joint removal tools must be controlled carefully."
+  },
+  {
+    "id": 123,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointing mortar looks correct while wet but dries much lighter. What should have been done?",
+    "options": [
+      "Approved a cured sample first",
+      "Used the wall immediately",
+      "Added more water after tooling",
+      "Skipped the sample panel"
+    ],
+    "answer": 0,
+    "explanation": "Mortar colour changes during drying and curing. A cured sample gives a better final match. Samples help prevent large mismatched repairs."
+  },
+  {
+    "id": 124,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Which condition is most important before applying new repointing mortar?",
+    "options": [
+      "Joints cleaned to proper depth and free of loose material",
+      "Joints filled with dust",
+      "Brick faces painted",
+      "Wall soaked with oil"
+    ],
+    "answer": 0,
+    "explanation": "Proper joint preparation gives bonding area. Loose debris weakens the repair. Clean joints improve repointing durability."
+  },
+  {
+    "id": 125,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is cleaned with acid and the nearby aluminum frames stain. What was likely missed?",
+    "options": [
+      "Protection of adjacent materials",
+      "More acid strength",
+      "Faster cleaning speed",
+      "Removing all mortar first"
+    ],
+    "answer": 0,
+    "explanation": "Chemical cleaners can attack metal. Adjacent surfaces should be protected before cleaning. Cleaner runoff and overspray must be controlled."
+  },
+  {
+    "id": 126,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has efflorescence that returns every few weeks. What is the best next step?",
+    "options": [
+      "Investigate moisture source",
+      "Scrub harder only",
+      "Apply paint immediately",
+      "Ignore it as normal"
+    ],
+    "answer": 0,
+    "explanation": "Efflorescence is related to moisture movement. If it returns, moisture is likely still present. The source should be corrected, not only cleaned."
+  },
+  {
+    "id": 127,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A cleaner is safe for clay brick but not recommended for limestone trim. What should the mason do?",
+    "options": [
+      "Protect limestone or use an approved method",
+      "Clean everything with the same product",
+      "Increase cleaner strength",
+      "Skip rinsing"
+    ],
+    "answer": 0,
+    "explanation": "Different masonry materials react differently. Limestone can be damaged by some cleaners. Cleaning methods must match all affected materials."
+  },
+  {
+    "id": 128,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker applies sealer to a wall that still contains trapped moisture. What is the risk?",
+    "options": [
+      "Moisture may be trapped inside the masonry",
+      "The wall will dry faster",
+      "The sealer will repair cracks",
+      "The masonry becomes structural steel"
+    ],
+    "answer": 0,
+    "explanation": "Some sealers reduce evaporation. If moisture is trapped, damage may occur later. Wall moisture condition must be suitable before sealing."
+  },
+  {
+    "id": 129,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A newly repointed wall is exposed to strong sun and wind. What is the concern?",
+    "options": [
+      "Rapid drying can reduce mortar bond and strength",
+      "Sun and wind always improve curing",
+      "Mortar colour will always match better",
+      "Tooling becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs moisture for proper curing. Strong sun and wind can dry it too quickly. Protection or curing procedures may be needed."
+  },
+  {
+    "id": 130,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason notices that old mortar is harder than the brick. What risk exists during raking out?",
+    "options": [
+      "Brick edges may be damaged during removal",
+      "Mortar will remove itself",
+      "Brick will become stronger",
+      "Repointing is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Hard mortar can be difficult to remove safely. Soft brick can chip or break during raking. Careful tool selection is important."
+  },
+  {
+    "id": 131,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointed joint is filled only at the surface, leaving a void behind. What is the problem?",
+    "options": [
+      "The repair may fail and allow moisture entry",
+      "The joint becomes stronger",
+      "The wall becomes lighter in a good way",
+      "It improves drainage through the face"
+    ],
+    "answer": 0,
+    "explanation": "Repointing must fill the prepared joint. Surface-only filling can detach or leak. Full contact improves durability."
+  },
+  {
+    "id": 132,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has dark biological staining. What should be considered before cleaning?",
+    "options": [
+      "Identify stain type and choose suitable cleaning method",
+      "Use strongest acid immediately",
+      "Grind the entire wall face",
+      "Seal the stain without cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Different stains need different cleaning methods. Wrong cleaners can damage masonry or fail to remove stains. Testing and identification improve results."
+  },
+  {
+    "id": 133,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should cleaning begin from the bottom and work upward when using some wet cleaning methods?",
+    "options": [
+      "To reduce streaking from dirty runoff",
+      "To make the wall weaker",
+      "To increase acid burn",
+      "To avoid rinsing"
+    ],
+    "answer": 0,
+    "explanation": "Cleaning direction can affect streaking. Pre-wetting and working method help control runoff marks. Manufacturer instructions should be followed."
+  },
+  {
+    "id": 134,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker pressure washes masonry and forces water deep into open joints. What can happen?",
+    "options": [
+      "Moisture may enter the wall and cause damage",
+      "The wall will dry instantly",
+      "Repointing becomes unnecessary",
+      "Efflorescence is permanently stopped"
+    ],
+    "answer": 0,
+    "explanation": "High pressure can drive water into masonry. Open joints increase water entry risk. Cleaning should be matched to wall condition."
+  },
+  {
+    "id": 135,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A sealer darkens the test patch more than expected. What should be done?",
+    "options": [
+      "Get approval or choose another product before full application",
+      "Apply it to the whole wall immediately",
+      "Add sand to the sealer",
+      "Ignore the colour change"
+    ],
+    "answer": 0,
+    "explanation": "Sealers can alter masonry appearance. A test patch helps reveal these changes. Unexpected appearance should be approved before full use."
+  },
+  {
+    "id": 136,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A joint is raked out too deep and loosens nearby units. What is the concern?",
+    "options": [
+      "Wall stability and unit support may be affected",
+      "The repair is automatically stronger",
+      "More depth is always better",
+      "Loose units improve mortar bond"
+    ],
+    "answer": 0,
+    "explanation": "Excessive removal can disturb masonry units. The wall may need stabilization or repair. Joint removal should follow required depth and method."
+  },
+  {
+    "id": 137,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker applies new mortar to a joint without pre-dampening where required. What can happen?",
+    "options": [
+      "Existing masonry may draw water out too fast",
+      "Mortar will become stronger automatically",
+      "The joint will never shrink",
+      "Brick colour will improve"
+    ],
+    "answer": 0,
+    "explanation": "Dry masonry can absorb water from fresh mortar. This can reduce bond and curing. Pre-dampening may be required depending on conditions."
+  },
+  {
+    "id": 138,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A cleaned masonry wall has cleaner residue left in the joints. What is the risk?",
+    "options": [
+      "Residue can continue reacting or cause staining",
+      "Residue improves mortar strength",
+      "Cleaner residue replaces sealer",
+      "It makes joints waterproof"
+    ],
+    "answer": 0,
+    "explanation": "Chemical residue can damage masonry or joints. It may cause stains or future deterioration. Proper rinsing and neutralizing procedures are important."
+  },
+  {
+    "id": 139,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason repoints only the face of a deep deteriorated joint. Why is this poor practice?",
+    "options": [
+      "Deteriorated mortar remains behind the repair",
+      "It improves bond behind the face",
+      "It prevents all moisture movement",
+      "It makes the wall stronger than new"
+    ],
+    "answer": 0,
+    "explanation": "Old failed mortar must be removed to proper depth. Leaving it behind creates a weak repair. The new mortar needs solid backing and contact."
+  },
+  {
+    "id": 140,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has rust stains below an embedded metal element. What should be investigated?",
+    "options": [
+      "Corrosion source",
+      "Scaffold height",
+      "Mortar board size",
+      "Brick pallet count"
+    ],
+    "answer": 0,
+    "explanation": "Rust stains often come from corroding metal. Cleaning alone may not stop the stain from returning. The source should be corrected where possible."
+  },
+  {
+    "id": 141,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason notices that the new repointing mortar is harder than the old brick. What is the concern?",
+    "options": [
+      "It may damage the masonry over time",
+      "It will always last longer safely",
+      "It removes the need for cleaning",
+      "It makes efflorescence impossible"
+    ],
+    "answer": 0,
+    "explanation": "Hard mortar can stress softer brick. The masonry unit may deteriorate before the mortar. Compatible mortar is essential in restoration."
+  },
+  {
+    "id": 142,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is sealed before all repointing repairs are complete. What problem can occur?",
+    "options": [
+      "Later mortar may not bond or sealer may interfere",
+      "Repointing becomes easier",
+      "Sealer creates new joints",
+      "The wall no longer needs repairs"
+    ],
+    "answer": 0,
+    "explanation": "Sealers can change surface absorption and adhesion. Repairs should usually be completed before sealing. Work sequence affects quality."
+  },
+  {
+    "id": 143,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A chemical cleaner is mixed stronger than the manufacturer recommends. What is the risk?",
+    "options": [
+      "Masonry or adjacent materials may be damaged",
+      "Cleaning always becomes safer",
+      "Rinsing is no longer needed",
+      "PPE becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Stronger cleaners can attack masonry surfaces. They may also harm nearby materials. Manufacturer dilution instructions should be followed."
+  },
+  {
+    "id": 144,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should repointing mortar be packed firmly into the joint?",
+    "options": [
+      "To ensure full contact and reduce voids",
+      "To leave hollow spaces",
+      "To make the joint weaker",
+      "To avoid tooling"
+    ],
+    "answer": 0,
+    "explanation": "Firm packing creates good contact with existing masonry. Voids reduce durability and can allow moisture. Proper placement improves the repair."
+  },
+  {
+    "id": 145,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has many hairline cracks but no loose units. What should be done before choosing a repair?",
+    "options": [
+      "Determine whether cracks are active or stable",
+      "Fill all cracks with random mortar",
+      "Paint immediately",
+      "Pressure wash at maximum pressure"
+    ],
+    "answer": 0,
+    "explanation": "Active cracks may continue moving. Stable cracks may need different repair methods. Cause and movement should be understood first."
+  },
+  {
+    "id": 146,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason uses a sealer that does not allow vapour transmission on a damp masonry wall. What is the concern?",
+    "options": [
+      "Moisture may be trapped inside",
+      "The wall will breathe better",
+      "Efflorescence will always stop forever",
+      "Mortar will become flexible"
+    ],
+    "answer": 0,
+    "explanation": "Masonry often needs to release moisture vapour. Non-breathable sealers can trap water. Trapped moisture can cause deterioration."
+  },
+  {
+    "id": 147,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointed wall is not misted or protected in hot weather. What may happen?",
+    "options": [
+      "Mortar may dry before proper curing",
+      "Mortar becomes stronger immediately",
+      "Joint colour becomes perfect",
+      "The wall no longer absorbs water"
+    ],
+    "answer": 0,
+    "explanation": "Hot weather can dry new mortar too quickly. Poor curing can reduce strength and bond. Fresh repointing may need moisture protection."
+  },
+  {
+    "id": 148,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should cleaning equipment be tested before full use?",
+    "options": [
+      "Pressure, nozzle, or method may damage the surface",
+      "Testing makes walls weaker",
+      "All equipment works the same",
+      "Testing replaces PPE"
+    ],
+    "answer": 0,
+    "explanation": "Equipment setup affects cleaning force. Wrong pressure or nozzle can damage masonry. Testing helps choose a safe method."
+  },
+  {
+    "id": 149,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repair looks good immediately but turns patchy after several days. What could be the cause?",
+    "options": [
+      "Mortar colour change during curing",
+      "Perfect material match",
+      "Proper curing only",
+      "Identical absorption everywhere"
+    ],
+    "answer": 0,
+    "explanation": "Mortar and masonry appearance can change as they dry. Curing conditions and material absorption affect final colour. Samples should be evaluated after curing."
+  },
+  {
+    "id": 150,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What is the best reason to inspect restored masonry after the first weather exposure?",
+    "options": [
+      "Some leaks, staining, or defects appear only after weathering",
+      "Weather always fixes defects",
+      "Inspection is only needed before rain",
+      "Sealer removes all problems permanently"
+    ],
+    "answer": 0,
+    "explanation": "Rain and temperature can reveal hidden issues. Stains, leaks, or poor joints may show after exposure. Follow-up inspection helps confirm repair performance."
+  },
+  {
+    "id": 151,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason is rebuilding a small section of old brickwork. The new brick matches the colour but is thicker than the existing brick. What will this most likely affect?",
+    "options": [
+      "Joint size and wall alignment",
+      "Scaffold load rating",
+      "Chemical cleaner strength",
+      "Tool handle length"
+    ],
+    "answer": 0,
+    "explanation": "Unit size affects coursing and joint thickness. Thicker brick may not line up with existing work. Replacement units should match size as well as colour."
+  },
+  {
+    "id": 152,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Which condition should be corrected before rebuilding a damaged parapet?",
+    "options": [
+      "Failed coping or flashing detail",
+      "Clean scaffold platform",
+      "Sharp trowel edge",
+      "Full mortar board"
+    ],
+    "answer": 0,
+    "explanation": "Parapets are exposed to water and weather. Failed coping or flashing can cause repeat damage. Moisture control must be fixed during restoration."
+  },
+  {
+    "id": 153,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A repaired area looks flat and strong, but the brick bond does not match the old wall. What is the main defect?",
+    "options": [
+      "Poor visual integration with existing masonry",
+      "Too much scaffold access",
+      "Better water resistance",
+      "Reduced cleaning time"
+    ],
+    "answer": 0,
+    "explanation": "Bond pattern is highly visible in masonry walls. A mismatch can make a repair stand out. Restoration should match the existing pattern when required."
+  },
+  {
+    "id": 154,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "During rebuilding, the mason finds a loose backup wall behind the face brick. What is the best action?",
+    "options": [
+      "Cover it before anyone sees it",
+      "Report and stabilize or repair as directed",
+      "Fill the space with broken brick only",
+      "Use harder face brick"
+    ],
+    "answer": 1,
+    "explanation": "Loose backup masonry can affect wall support. Covering it hides a serious defect. The condition should be assessed before closing the wall."
+  },
+  {
+    "id": 155,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should replacement mortar in restoration not be selected by strength only?",
+    "options": [
+      "Compatibility with existing units is also critical",
+      "Strength is the only factor that matters",
+      "Colour never matters in restoration",
+      "Mortar type cannot affect old masonry"
+    ],
+    "answer": 0,
+    "explanation": "Old masonry may be soft or porous. A mortar that is too hard can damage the units. Compatibility, workability, colour, and durability all matter."
+  },
+  {
+    "id": 156,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason is rebuilding around an old window opening. The steel lintel is hidden but rust stains are visible below it. What should be suspected?",
+    "options": [
+      "Possible lintel corrosion",
+      "Perfect lintel condition",
+      "Too much joint tooling",
+      "Good drainage performance"
+    ],
+    "answer": 0,
+    "explanation": "Rust stains often come from corroding steel. A rusting lintel can expand and crack masonry. The lintel should be inspected when exposed."
+  },
+  {
+    "id": 157,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall section is removed and the exposed cavity contains wet insulation. What is the best restoration response?",
+    "options": [
+      "Ignore it because insulation is hidden",
+      "Report the moisture condition and correct as directed",
+      "Rebuild quickly before it dries",
+      "Pack mortar against it"
+    ],
+    "answer": 1,
+    "explanation": "Wet insulation can indicate water entry. Moisture trapped in the wall can continue damage. The source and damaged materials should be addressed."
+  },
+  {
+    "id": 158,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason wants to reuse old brick from the wall. Which brick should be rejected?",
+    "options": [
+      "Sound brick with cleaned faces",
+      "Brick with deep cracks and soft edges",
+      "Brick matching colour and size",
+      "Brick free of old mortar"
+    ],
+    "answer": 1,
+    "explanation": "Deep cracks and soft edges reduce suitability. Damaged brick may fail or look poor. Salvaged units must be inspected before reuse."
+  },
+  {
+    "id": 159,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A repaired wall section is toothed into the existing wall. What is the purpose of this method?",
+    "options": [
+      "To interlock new work with old work",
+      "To create a straight vertical separation",
+      "To remove all bond pattern",
+      "To avoid matching materials"
+    ],
+    "answer": 0,
+    "explanation": "Toothing-in helps connect new and existing masonry. It can improve appearance and continuity. It must be done without damaging sound units."
+  },
+  {
+    "id": 160,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason finds that the old wall has a lime-rich soft mortar. What should the repair mortar likely be?",
+    "options": [
+      "Compatible with the existing softer mortar and units",
+      "The hardest cement mortar available",
+      "Pure cement paste only",
+      "Any leftover mortar from site"
+    ],
+    "answer": 0,
+    "explanation": "Restoration mortar must suit the existing wall. Hard mortar can damage softer historic masonry. The specified compatible mortar should be used."
+  },
+  {
+    "id": 161,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A damaged wall was caused by freeze-thaw action. What condition most likely contributed to the damage?",
+    "options": [
+      "Moisture entering and freezing in masonry",
+      "Too much accurate layout",
+      "Clean mortar joints",
+      "Correct wall protection"
+    ],
+    "answer": 0,
+    "explanation": "Water expands when it freezes. Repeated freezing can break masonry faces and joints. Moisture control is important in repairs."
+  },
+  {
+    "id": 162,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason replaces a few bricks but leaves loose adjacent bricks in place. What is the likely problem?",
+    "options": [
+      "The repair area may remain unstable",
+      "Mortar colour will improve",
+      "The wall becomes fully restored",
+      "Cleaning will be easier"
+    ],
+    "answer": 0,
+    "explanation": "Loose adjacent units can affect repair stability. Restoration should include all unstable material in the repair area. Soundness should be checked before completion."
+  },
+  {
+    "id": 163,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Before rebuilding begins, why are photographs or notes often useful?",
+    "options": [
+      "To document original pattern and conditions",
+      "To replace all drawings",
+      "To avoid inspections",
+      "To change mortar type"
+    ],
+    "answer": 0,
+    "explanation": "Documentation helps match original work. It records bond pattern, joint profile, and damage. It also helps communicate unexpected conditions."
+  },
+  {
+    "id": 164,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A replacement stone matches the wall visually but has poor bearing when set. What is the concern?",
+    "options": [
+      "It may rock, settle, or crack",
+      "It will blend perfectly and perform well",
+      "It will need no mortar",
+      "It improves drainage"
+    ],
+    "answer": 0,
+    "explanation": "Appearance alone is not enough. Stone must have proper bearing and fit. Poor support can lead to movement or failure."
+  },
+  {
+    "id": 165,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Why should fresh rebuilt work be covered overnight in cold weather?",
+    "options": [
+      "To protect mortar from freezing damage",
+      "To make bricks absorb more water",
+      "To remove the need for curing",
+      "To hide the repair permanently"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar can be damaged before it gains strength. Freezing affects bond and durability. Cold-weather protection helps the repair cure properly."
+  },
+  {
+    "id": 166,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason rebuilds a section with matching units but does not align the courses with the existing wall. What is the main issue?",
+    "options": [
+      "Coursing mismatch",
+      "Better structure",
+      "Cleaner wall face",
+      "Stronger scaffold"
+    ],
+    "answer": 0,
+    "explanation": "Coursing must line up with surrounding masonry. A mismatch will be visible and may affect openings. Restoration requires careful alignment."
+  },
+  {
+    "id": 167,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A wall is being rebuilt after vehicle impact. What should be checked besides the visibly broken units?",
+    "options": [
+      "Hidden cracking or displacement around the impact area",
+      "Colour of safety vests",
+      "Mortar board size",
+      "Tool box weight"
+    ],
+    "answer": 0,
+    "explanation": "Impact can damage more than the visible area. Adjacent units or backup wall may be displaced. The surrounding wall should be assessed."
+  },
+  {
+    "id": 168,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason notices old wall ties are corroded when the wall face is opened. What is the concern?",
+    "options": [
+      "Veneer support may be reduced",
+      "Mortar colour will change",
+      "Cleaning will be easier",
+      "Brick absorption improves"
+    ],
+    "answer": 0,
+    "explanation": "Wall ties support veneer and resist movement. Corroded ties may not hold properly. They should be reported and replaced as directed."
+  },
+  {
+    "id": 169,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "What is the main reason to rebuild only after the wall is made stable?",
+    "options": [
+      "Worker safety and repair quality",
+      "Faster mortar staining",
+      "More difficult access",
+      "Less accurate layout"
+    ],
+    "answer": 0,
+    "explanation": "Unstable masonry can collapse during work. Stability protects workers and prevents further damage. Good repairs require a secure base."
+  },
+  {
+    "id": 170,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A sample panel is approved, but the mason later changes sand source without checking. What may change?",
+    "options": [
+      "Mortar colour and texture",
+      "Scaffold height",
+      "Brick length only",
+      "Tool handle size"
+    ],
+    "answer": 0,
+    "explanation": "Sand affects mortar colour and texture. Changing materials can make the repair no longer match. Approved sample conditions should be maintained."
+  },
+  {
+    "id": 171,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt section is cleaned aggressively immediately after laying. What could happen?",
+    "options": [
+      "Fresh mortar joints may be damaged",
+      "Mortar becomes stronger instantly",
+      "Old bricks become waterproof",
+      "Bond pattern improves"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs time to gain strength. Aggressive cleaning can wash or erode joints. Cleaning should be timed properly."
+  },
+  {
+    "id": 172,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A mason rebuilds a cracked section caused by root movement, but the roots remain active. What is likely?",
+    "options": [
+      "Cracking may return",
+      "Wall movement will stop automatically",
+      "Mortar will become flexible enough",
+      "The repair will never move"
+    ],
+    "answer": 0,
+    "explanation": "The cause of movement must be addressed. If roots continue to move the wall, damage can return. Restoration should address underlying causes."
+  },
+  {
+    "id": 173,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "Which condition makes a salvaged brick more suitable for reuse?",
+    "options": [
+      "Clean, sound, and matching the original work",
+      "Deep cracks and heavy contamination",
+      "Soft crumbling edges",
+      "Unknown chemical staining"
+    ],
+    "answer": 0,
+    "explanation": "Reused units must be durable and compatible. Clean, sound units bond better with new mortar. Matching appearance helps the repair blend in."
+  },
+  {
+    "id": 174,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A repair requires replacing only the outer wythe. What must be protected during removal?",
+    "options": [
+      "Backup wall, ties, and surrounding sound units",
+      "Empty mortar bags",
+      "Scaffold tag colour",
+      "Lunch area"
+    ],
+    "answer": 0,
+    "explanation": "Removing one wythe can disturb wall components. Sound backup and ties are important for performance. Careful removal prevents extra damage."
+  },
+  {
+    "id": 175,
+    "category": "Task 19 — Rebuilds Masonry Work",
+    "question": "A rebuilt section looks good but water still enters during rain. What does this suggest?",
+    "options": [
+      "Moisture-control issue was not fully corrected",
+      "Brick colour caused the leak",
+      "Mortar was too visible",
+      "Cleaning was too gentle"
+    ],
+    "answer": 0,
+    "explanation": "Appearance alone does not prove performance. Leaks indicate water path or flashing problems may remain. Moisture details should be investigated."
+  },
+  {
+    "id": 176,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason rakes out joints and finds some areas are much deeper because mortar is missing. What should be done?",
+    "options": [
+      "Pack new mortar firmly to the required depth",
+      "Fill only the surface",
+      "Leave deep areas hollow",
+      "Add dust before pointing"
+    ],
+    "answer": 0,
+    "explanation": "Deep voids need proper filling for durability. Surface-only pointing can fail early. Mortar should be packed into prepared joints."
+  },
+  {
+    "id": 177,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Which cleaning method is usually safest to try first on fragile old masonry?",
+    "options": [
+      "Gentlest effective method",
+      "Strongest acid wash",
+      "Maximum pressure washing",
+      "Dry grinding the whole face"
+    ],
+    "answer": 0,
+    "explanation": "Fragile masonry can be damaged easily. Starting gently reduces surface loss. Testing confirms whether the method is effective."
+  },
+  {
+    "id": 178,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has black stains near metal fasteners. What is the best first step?",
+    "options": [
+      "Identify the stain source",
+      "Use stronger acid immediately",
+      "Seal over the stain",
+      "Paint the whole wall"
+    ],
+    "answer": 0,
+    "explanation": "Stains can come from metal corrosion or other sources. Cleaning without identifying the cause may fail. The source should be corrected where possible."
+  },
+  {
+    "id": 179,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointed area dries with rough, open joints. What may have been missed?",
+    "options": [
+      "Proper tooling and compaction",
+      "Scaffold inspection only",
+      "Brick pallet blending",
+      "Saw blade selection"
+    ],
+    "answer": 0,
+    "explanation": "Tooling compacts and shapes fresh mortar. Rough open joints can hold water and look poor. Joint finish is important in restoration."
+  },
+  {
+    "id": 180,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A cleaner test patch causes no damage but also does not remove the stain. What should be done?",
+    "options": [
+      "Select another approved method and retest",
+      "Clean the whole wall anyway",
+      "Increase pressure without checking",
+      "Skip cleaning completely"
+    ],
+    "answer": 0,
+    "explanation": "A test patch checks safety and effectiveness. If it does not work, another method is needed. Retesting prevents damage and poor results."
+  },
+  {
+    "id": 181,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker applies sealer to only part of a wall and stops. What is the likely appearance risk?",
+    "options": [
+      "Uneven sheen or colour difference",
+      "Stronger mortar joints",
+      "Improved bond pattern",
+      "Cleaner scaffold"
+    ],
+    "answer": 0,
+    "explanation": "Sealers can change surface appearance. Partial application may create visible differences. Application should follow a planned stopping point."
+  },
+  {
+    "id": 182,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should fresh repointing mortar be protected from direct hot sun?",
+    "options": [
+      "It can dry too quickly",
+      "It will never cure in shade",
+      "Sun makes joints waterproof instantly",
+      "Hot sun removes need for tooling"
+    ],
+    "answer": 0,
+    "explanation": "Rapid drying can reduce curing quality. Fresh mortar needs controlled moisture. Protection helps develop bond and strength."
+  },
+  {
+    "id": 183,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A chemical cleaner is used without pre-wetting where required. What can happen?",
+    "options": [
+      "Cleaner may be absorbed too deeply or unevenly",
+      "Cleaner becomes harmless",
+      "Mortar gets stronger",
+      "Stains disappear permanently every time"
+    ],
+    "answer": 0,
+    "explanation": "Pre-wetting can control chemical absorption. Skipping it may cause uneven cleaning or damage. Manufacturer instructions should be followed."
+  },
+  {
+    "id": 184,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason notices repointing mortar is shrinking away from joint edges. What could be a cause?",
+    "options": [
+      "Poor mix, too much water, or poor curing",
+      "Perfect batching only",
+      "Correct joint preparation",
+      "Proper moisture control"
+    ],
+    "answer": 0,
+    "explanation": "Excess water and poor curing can cause shrinkage. Weak bond at edges can open gaps. Mixing and curing should be controlled."
+  },
+  {
+    "id": 185,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "What does a raked joint profile do compared with a concave joint?",
+    "options": [
+      "It sets the joint back from the face",
+      "It always sheds water better",
+      "It removes the mortar joint",
+      "It changes brick size"
+    ],
+    "answer": 0,
+    "explanation": "A raked joint is recessed from the wall face. Joint profile affects appearance and weathering. Profiles should match existing work or specifications."
+  },
+  {
+    "id": 186,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is repointed with mortar that matches colour but not texture. What is the likely issue?",
+    "options": [
+      "Repair may still be visible",
+      "Texture never matters",
+      "Mortar will become invisible",
+      "Wall strength will always increase"
+    ],
+    "answer": 0,
+    "explanation": "Texture affects the appearance of mortar joints. A colour match alone may not blend well. Sand type and tooling influence texture."
+  },
+  {
+    "id": 187,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker leaves cleaner residue on the wall overnight. What is the concern?",
+    "options": [
+      "Continued reaction or staining",
+      "Stronger masonry",
+      "Better sealer bond",
+      "Faster drying only"
+    ],
+    "answer": 0,
+    "explanation": "Chemical residue can keep reacting with masonry. It may stain or damage surfaces. Proper rinsing is part of safe cleaning."
+  },
+  {
+    "id": 188,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is sealed but later develops blistering or white deposits. What could this indicate?",
+    "options": [
+      "Moisture trapped behind or under the sealer",
+      "Perfect sealer compatibility",
+      "No moisture movement",
+      "Correct cleaning every time"
+    ],
+    "answer": 0,
+    "explanation": "Sealers can trap moisture if misused. Moisture pressure or salts may appear later. Surface condition and sealer type should be reviewed."
+  },
+  {
+    "id": 189,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason wants to repoint during rain because the wall is already wet. What is the concern?",
+    "options": [
+      "Rain can wash fresh mortar and affect curing",
+      "Rain always improves bond",
+      "Wet walls need no joint cleaning",
+      "Mortar sets instantly in rain"
+    ],
+    "answer": 0,
+    "explanation": "Fresh repointing can be damaged by rain. Excess water can weaken or wash joints. Weather protection may be needed."
+  },
+  {
+    "id": 190,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A worker uses a wire brush on soft stone and scratches the surface. What was wrong?",
+    "options": [
+      "Tool was too aggressive for the material",
+      "Stone should always be wire brushed",
+      "Scratches improve appearance",
+      "Cleaning was not needed"
+    ],
+    "answer": 0,
+    "explanation": "Soft stone can be damaged by harsh tools. Cleaning tools must match the material. Testing helps prevent surface damage."
+  },
+  {
+    "id": 191,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A joint is raked out but old mortar remains stuck on the sides. Why is this a problem?",
+    "options": [
+      "New mortar may not bond evenly",
+      "It makes the repair stronger",
+      "It replaces cleaning",
+      "It improves colour match"
+    ],
+    "answer": 0,
+    "explanation": "New mortar needs clean joint surfaces. Old loose or weak material reduces bond. Joints should be cleaned before pointing."
+  },
+  {
+    "id": 192,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason applies a breathable sealer to one wall but not the adjoining return. What should be considered?",
+    "options": [
+      "Visual uniformity and water behaviour across the area",
+      "Scaffold height only",
+      "Mortar bucket size",
+      "Brick packaging"
+    ],
+    "answer": 0,
+    "explanation": "Sealers can change appearance and water absorption. Stopping points should be planned carefully. Uneven treatment can be visible or affect performance."
+  },
+  {
+    "id": 193,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "Why should repointing repairs be misted or cured when required?",
+    "options": [
+      "To support proper mortar hydration",
+      "To wash out joints",
+      "To remove all colour variation instantly",
+      "To make joints hollow"
+    ],
+    "answer": 0,
+    "explanation": "Mortar needs moisture to cure. Controlled curing improves bond and strength. Curing must not damage the joint surface."
+  },
+  {
+    "id": 194,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall has soft mortar but hard brick. Which removal method should still be controlled?",
+    "options": [
+      "Any method that may damage brick edges",
+      "Only hand brushing",
+      "Only water rinsing",
+      "None, because brick is hard"
+    ],
+    "answer": 0,
+    "explanation": "Even hard brick can be chipped by careless tools. Restoration removal should protect surrounding units. Tool control affects final appearance."
+  },
+  {
+    "id": 195,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A repointing joint is finished flush where the old wall has concave joints. What is the main issue?",
+    "options": [
+      "Joint profile mismatch",
+      "Better matching",
+      "Less visible repair",
+      "Stronger scaffold"
+    ],
+    "answer": 0,
+    "explanation": "Flush and concave joints look different. A profile mismatch makes repairs visible. Restoration should match existing joint finish."
+  },
+  {
+    "id": 196,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A wall is cleaned before repointing, but open joints allow water into the wall. What should be considered?",
+    "options": [
+      "Cleaning method and water control",
+      "More pressure only",
+      "More chemical strength",
+      "Ignoring open joints"
+    ],
+    "answer": 0,
+    "explanation": "Open joints can allow water entry during cleaning. Excess water may cause damage or efflorescence. Cleaning should be planned around wall condition."
+  },
+  {
+    "id": 197,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason repoints with correct mortar but does not compact it into the joint. What may happen?",
+    "options": [
+      "Voids and early failure",
+      "Better weather resistance",
+      "Stronger brick faces",
+      "Automatic curing"
+    ],
+    "answer": 0,
+    "explanation": "Mortar must be packed firmly into joints. Voids reduce bond and durability. Proper placement is as important as correct material."
+  },
+  {
+    "id": 198,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A cleaner removes dirt but also lightens the brick face unevenly. What should have prevented this?",
+    "options": [
+      "Test patch and approved method selection",
+      "Stronger cleaner only",
+      "Skipping rinse",
+      "Using no protection"
+    ],
+    "answer": 0,
+    "explanation": "Test patches reveal colour changes and damage. Uneven lightening can make the wall patchy. Approved cleaning methods prevent unwanted results."
+  },
+  {
+    "id": 199,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A mason sees small cracks in new repointing after a hot windy day. What is a likely cause?",
+    "options": [
+      "Rapid drying shrinkage",
+      "Perfect curing",
+      "Too much shade protection",
+      "Proper moisture control"
+    ],
+    "answer": 0,
+    "explanation": "Hot wind can dry mortar too quickly. Rapid drying can cause shrinkage cracking. Fresh work should be protected and cured as required."
+  },
+  {
+    "id": 200,
+    "category": "Task 20 — Repairs and Cleans Existing Masonry Work",
+    "question": "A restored wall is accepted visually, but the supervisor asks for a final water-shedding check. Why?",
+    "options": [
+      "Restoration must perform, not only look correct",
+      "Appearance is the only requirement",
+      "Water always improves masonry",
+      "Inspection replaces all repairs"
+    ],
+    "answer": 0,
+    "explanation": "A repair must resist water properly. Good appearance does not guarantee performance. Final checks help confirm long-term restoration quality."
+  }
+];
+
+window.quizQuestions = bricklayerSectionGPerformsRestorationQuestions;
+window.tradeQuizQuestions = bricklayerSectionGPerformsRestorationQuestions;
+window.questions = bricklayerSectionGPerformsRestorationQuestions;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const pill = document.getElementById("totalQuestionsPill");
+  if (pill) pill.textContent = "Questions: " + bricklayerSectionGPerformsRestorationQuestions.length;
+});

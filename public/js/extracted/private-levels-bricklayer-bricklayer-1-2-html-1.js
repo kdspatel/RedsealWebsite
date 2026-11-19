@@ -1,0 +1,1396 @@
+const bricklayerHarmonizedLevel1PracticeMockExamSet2Questions = [
+  {
+    "id": 1,
+    "category": "A1 — Manage Workplace Hazards",
+    "question": "While setting up for masonry work, you notice loose electrical cords crossing the walkway. What should you do first?",
+    "options": [
+      "Step over them carefully",
+      "Move or protect the cords and report the hazard",
+      "Ignore them if nobody trips",
+      "Cover them with broken brick"
+    ],
+    "answer": 1,
+    "explanation": "Loose cords create a trip hazard. They can also be damaged by carts or foot traffic. The hazard should be controlled and reported before work continues."
+  },
+  {
+    "id": 2,
+    "category": "A1 — Manage Workplace Hazards",
+    "question": "A worker is dry cutting concrete block indoors without dust control. What is the main hazard?",
+    "options": [
+      "Silica dust exposure",
+      "Frost damage",
+      "Too much lighting",
+      "Low mortar strength"
+    ],
+    "answer": 0,
+    "explanation": "Concrete and masonry cutting can release respirable silica dust. Silica dust can cause serious lung disease. Dust control and respiratory protection may be required."
+  },
+  {
+    "id": 3,
+    "category": "A1 — Manage Workplace Hazards",
+    "question": "Which condition is most likely to cause a struck-by injury on a masonry site?",
+    "options": [
+      "Properly stacked materials",
+      "Falling tools from scaffold",
+      "Clean floor area",
+      "Correctly stored PPE"
+    ],
+    "answer": 1,
+    "explanation": "Falling tools can strike workers below. Tools and materials must be secured on elevated work areas. Exclusion zones may be needed under overhead work."
+  },
+  {
+    "id": 4,
+    "category": "A1 — Manage Workplace Hazards",
+    "question": "What is the safest action when a pallet of blocks appears unstable?",
+    "options": [
+      "Keep working beside it",
+      "Climb on it to inspect it",
+      "Stay clear and notify the supervisor",
+      "Push it over quickly"
+    ],
+    "answer": 2,
+    "explanation": "An unstable pallet may collapse without warning. Workers should not stand near or climb on it. The hazard must be reported and corrected safely."
+  },
+  {
+    "id": 5,
+    "category": "A1 — Manage Workplace Hazards",
+    "question": "A masonry worker feels dizzy during hot weather. What should happen?",
+    "options": [
+      "Continue working faster",
+      "Move to shade, drink water, and report symptoms",
+      "Remove all PPE immediately and keep working",
+      "Ignore it until the shift ends"
+    ],
+    "answer": 1,
+    "explanation": "Dizziness can be a sign of heat stress. Early action can prevent heat exhaustion or heat stroke. The worker should rest, hydrate, cool down, and report it."
+  },
+  {
+    "id": 6,
+    "category": "A2 — Apply OHS Regulations and WorkSafeBC Standards",
+    "question": "Which statement best describes a worker’s safety responsibility?",
+    "options": [
+      "Safety is only the employer’s job",
+      "Workers must follow safe work procedures",
+      "Workers only need safety training after injury",
+      "Safety rules apply only to apprentices"
+    ],
+    "answer": 1,
+    "explanation": "Workers have responsibilities under workplace safety rules. They must follow safe procedures and use required equipment. They must also report hazards and unsafe conditions."
+  },
+  {
+    "id": 7,
+    "category": "A2 — Apply OHS Regulations and WorkSafeBC Standards",
+    "question": "Before using unfamiliar equipment, a worker should:",
+    "options": [
+      "Guess how it works",
+      "Ask for instruction or training",
+      "Let another apprentice explain casually",
+      "Use it only for a few minutes"
+    ],
+    "answer": 1,
+    "explanation": "Equipment must be used only by trained or instructed workers. Incorrect use can cause injury or damage. Training helps ensure the tool is used safely and correctly."
+  },
+  {
+    "id": 8,
+    "category": "A2 — Apply OHS Regulations and WorkSafeBC Standards",
+    "question": "Why are workplace inspections performed?",
+    "options": [
+      "To find hazards before injuries happen",
+      "To slow down production only",
+      "To replace PPE",
+      "To check worker lunch times"
+    ],
+    "answer": 0,
+    "explanation": "Inspections identify unsafe conditions early. Hazards can then be corrected before incidents occur. Regular inspections are part of good safety practice."
+  },
+  {
+    "id": 9,
+    "category": "A3 — Use Fall Protection Systems and Equipment",
+    "question": "A worker’s harness has damaged stitching. What should be done?",
+    "options": [
+      "Tape the stitching",
+      "Use it carefully",
+      "Remove it from service",
+      "Share it with another worker"
+    ],
+    "answer": 2,
+    "explanation": "Damaged fall protection equipment may fail in a fall. It should not be repaired casually on site. It must be removed from service and replaced or inspected by a competent person."
+  },
+  {
+    "id": 10,
+    "category": "A3 — Use Fall Protection Systems and Equipment",
+    "question": "What is the purpose of an anchor point in a fall protection system?",
+    "options": [
+      "To store tools",
+      "To connect the worker’s fall arrest system",
+      "To support mortar boards only",
+      "To mark scaffold height"
+    ],
+    "answer": 1,
+    "explanation": "The anchor point connects the worker to the fall protection system. It must be strong enough for the intended use. A weak anchor can fail during a fall."
+  },
+  {
+    "id": 11,
+    "category": "A3 — Use Fall Protection Systems and Equipment",
+    "question": "Which action is unsafe when working near an unprotected edge?",
+    "options": [
+      "Using guardrails",
+      "Wearing approved fall protection",
+      "Leaning out past the edge to reach materials",
+      "Keeping the area organized"
+    ],
+    "answer": 2,
+    "explanation": "Leaning past an edge increases fall risk. Workers should not overreach from elevated areas. Proper access, positioning, or fall protection must be used."
+  },
+  {
+    "id": 12,
+    "category": "A4 — Use Personal Protective Equipment",
+    "question": "When handling wet mortar, which PPE helps protect the skin?",
+    "options": [
+      "Chemical-resistant gloves",
+      "Baseball cap",
+      "Dusty cloth rag",
+      "Open-toe shoes"
+    ],
+    "answer": 0,
+    "explanation": "Wet mortar is alkaline and can irritate or burn skin. Gloves help prevent direct contact. PPE must match the hazard being handled."
+  },
+  {
+    "id": 13,
+    "category": "A4 — Use Personal Protective Equipment",
+    "question": "Why are steel-toe boots required on masonry sites?",
+    "options": [
+      "To improve walking speed",
+      "To protect feet from dropped materials",
+      "To keep mortar wet",
+      "To replace housekeeping"
+    ],
+    "answer": 1,
+    "explanation": "Bricks, blocks, and tools can crush feet if dropped. Steel-toe boots reduce the chance of serious foot injury. They are standard PPE for construction work."
+  },
+  {
+    "id": 14,
+    "category": "A5 — Use Fire Safety Procedures",
+    "question": "Which practice helps prevent fires near flammable materials?",
+    "options": [
+      "Keeping ignition sources away",
+      "Smoking beside fuel containers",
+      "Storing oily rags near heaters",
+      "Blocking fire extinguishers"
+    ],
+    "answer": 0,
+    "explanation": "Fire prevention starts by separating fuel and ignition sources. Flammable materials should be stored properly. Fire extinguishers and exits must remain accessible."
+  },
+  {
+    "id": 15,
+    "category": "A5 — Use Fire Safety Procedures",
+    "question": "What should you do if a fire extinguisher has a missing inspection tag?",
+    "options": [
+      "Assume it works",
+      "Report it for inspection or replacement",
+      "Hide it in storage",
+      "Use it as a door stop"
+    ],
+    "answer": 1,
+    "explanation": "Fire extinguishers must be ready for emergency use. A missing tag may mean it has not been inspected. It should be reported so the equipment can be checked."
+  },
+  {
+    "id": 16,
+    "category": "A6 — Apply GHS/WHMIS",
+    "question": "What does a flame pictogram warn about?",
+    "options": [
+      "Flammable material",
+      "Loud noise",
+      "Heavy lifting",
+      "Sharp edge"
+    ],
+    "answer": 0,
+    "explanation": "The flame symbol identifies products that may catch fire. They must be kept away from heat, sparks, and open flames. Storage and handling instructions should be checked on the SDS."
+  },
+  {
+    "id": 17,
+    "category": "A6 — Apply GHS/WHMIS",
+    "question": "Where should a worker look for first-aid information for a hazardous product?",
+    "options": [
+      "Safety Data Sheet",
+      "Tape measure",
+      "Brick packaging only",
+      "Scaffold tag"
+    ],
+    "answer": 0,
+    "explanation": "The SDS contains first-aid measures for hazardous products. It also explains exposure symptoms and emergency actions. Workers should know how to access SDS information."
+  },
+  {
+    "id": 18,
+    "category": "B1 — Use Hand Tools and Measuring Equipment",
+    "question": "Which tool is best for checking if a corner is square?",
+    "options": [
+      "Framing square",
+      "Margin trowel",
+      "Joiner",
+      "Mason’s hammer only"
+    ],
+    "answer": 0,
+    "explanation": "A framing square checks 90-degree corners. Square corners are important for accurate layout. Incorrect corners can affect the whole wall alignment."
+  },
+  {
+    "id": 19,
+    "category": "B1 — Use Hand Tools and Measuring Equipment",
+    "question": "What is the main use of a masonry hammer?",
+    "options": [
+      "Striking and trimming masonry units",
+      "Measuring wall height",
+      "Mixing grout",
+      "Cleaning safety glasses"
+    ],
+    "answer": 0,
+    "explanation": "A masonry hammer can chip or trim brick and block. It is also used with care for small adjustments. Eye protection is needed because chips can fly."
+  },
+  {
+    "id": 20,
+    "category": "B1 — Use Hand Tools and Measuring Equipment",
+    "question": "A chalk line is mainly used to:",
+    "options": [
+      "Mark straight layout lines",
+      "Cut concrete blocks",
+      "Finish mortar joints",
+      "Lift heavy loads"
+    ],
+    "answer": 0,
+    "explanation": "A chalk line creates long, straight reference marks. These lines help with layout and alignment. Accurate layout reduces errors during construction."
+  },
+  {
+    "id": 21,
+    "category": "B1 — Use Hand Tools and Measuring Equipment",
+    "question": "Why should measuring tools be kept clean and undamaged?",
+    "options": [
+      "To maintain accuracy",
+      "To make them look new only",
+      "To increase mortar strength",
+      "To reduce curing time"
+    ],
+    "answer": 0,
+    "explanation": "Damaged measuring tools can give wrong readings. Incorrect measurements can cause layout mistakes. Clean, accurate tools support quality workmanship."
+  },
+  {
+    "id": 22,
+    "category": "B1 — Use Hand Tools and Measuring Equipment",
+    "question": "What is a margin trowel commonly used for?",
+    "options": [
+      "Small mortar work and tight areas",
+      "Hoisting pallets",
+      "Cutting scaffold planks",
+      "Measuring wall height"
+    ],
+    "answer": 0,
+    "explanation": "A margin trowel is useful in tight spaces. It can place, mix, or clean small amounts of mortar. It is not designed for lifting or structural support."
+  },
+  {
+    "id": 23,
+    "category": "B2 — Use Power Tools",
+    "question": "What is the safest way to start using a power tool?",
+    "options": [
+      "Inspect it and follow the manufacturer’s instructions",
+      "Remove guards for better visibility",
+      "Use it without training",
+      "Hold the cord while cutting"
+    ],
+    "answer": 0,
+    "explanation": "Inspection helps identify damage before use. Manufacturer instructions explain safe operation. Training and correct setup reduce tool-related injuries."
+  },
+  {
+    "id": 24,
+    "category": "B2 — Use Power Tools",
+    "question": "A masonry saw blade is cracked. What should be done?",
+    "options": [
+      "Use it slowly",
+      "Replace it before use",
+      "Turn it around",
+      "Cover the crack with tape"
+    ],
+    "answer": 1,
+    "explanation": "A cracked blade can break apart during operation. Flying fragments can seriously injure workers. Damaged blades must be replaced, not repaired with tape."
+  },
+  {
+    "id": 25,
+    "category": "B2 — Use Power Tools",
+    "question": "Why should a worker avoid wearing loose clothing around rotating tools?",
+    "options": [
+      "It may get caught in moving parts",
+      "It makes the tool quieter",
+      "It improves dust control",
+      "It protects the blade"
+    ],
+    "answer": 0,
+    "explanation": "Loose clothing can become entangled in rotating parts. Entanglement can pull the worker into the tool. Close-fitting clothing and secured hair are safer."
+  },
+  {
+    "id": 26,
+    "category": "B2 — Use Power Tools",
+    "question": "What should be done if a power tool sparks or smells like burning?",
+    "options": [
+      "Keep using it until it stops",
+      "Turn it off, unplug it, and report it",
+      "Pour water on it immediately",
+      "Hide it from the supervisor"
+    ],
+    "answer": 1,
+    "explanation": "Sparks or burning smells may indicate electrical failure. The tool could shock, burn, or injure the user. It should be removed from service and reported."
+  },
+  {
+    "id": 27,
+    "category": "B3 — Use Ladders, Scaffolds, and Elevated Platforms",
+    "question": "When climbing a ladder, the worker should maintain:",
+    "options": [
+      "Three points of contact",
+      "One hand only",
+      "No contact while carrying blocks",
+      "Both hands full of tools"
+    ],
+    "answer": 0,
+    "explanation": "Three points of contact improve stability. This means two hands and one foot or two feet and one hand. Tools should be carried safely using proper methods."
+  },
+  {
+    "id": 28,
+    "category": "B3 — Use Ladders, Scaffolds, and Elevated Platforms",
+    "question": "What is a scaffold tag used for?",
+    "options": [
+      "To indicate scaffold status or safety information",
+      "To decorate the scaffold",
+      "To mark lunch areas",
+      "To replace guardrails"
+    ],
+    "answer": 0,
+    "explanation": "Scaffold tags communicate inspection and use status. They help workers know whether the scaffold is safe to use. A tag does not replace inspection or proper setup."
+  },
+  {
+    "id": 29,
+    "category": "B3 — Use Ladders, Scaffolds, and Elevated Platforms",
+    "question": "Which scaffold condition is unsafe?",
+    "options": [
+      "Fully planked platform",
+      "Proper guardrails",
+      "Missing planks or gaps in platform",
+      "Proper access ladder"
+    ],
+    "answer": 2,
+    "explanation": "Missing planks create fall and trip hazards. Workers need a complete and secure working platform. Defective scaffold conditions must be corrected before use."
+  },
+  {
+    "id": 30,
+    "category": "B3 — Use Ladders, Scaffolds, and Elevated Platforms",
+    "question": "Why should scaffold load limits be followed?",
+    "options": [
+      "Overloading may cause collapse",
+      "It keeps mortar wet",
+      "It makes blocks lighter",
+      "It replaces fall protection"
+    ],
+    "answer": 0,
+    "explanation": "Scaffolds are designed for specific load capacities. Excessive weight can damage or collapse the structure. Materials and workers must stay within safe load limits."
+  },
+  {
+    "id": 31,
+    "category": "B4 — Use Rigging and Hoisting Equipment",
+    "question": "What does the rated capacity of a sling tell you?",
+    "options": [
+      "The maximum safe load under specified conditions",
+      "The colour of the sling",
+      "The age of the operator",
+      "The height of the building"
+    ],
+    "answer": 0,
+    "explanation": "Rated capacity identifies how much the sling can safely lift. Capacity depends on sling type and lifting angle. Exceeding capacity can cause rigging failure."
+  },
+  {
+    "id": 32,
+    "category": "B4 — Use Rigging and Hoisting Equipment",
+    "question": "Which action is correct before hoisting masonry materials?",
+    "options": [
+      "Secure the load to prevent shifting",
+      "Lift loose blocks without restraint",
+      "Stand under the load to guide it",
+      "Use damaged rigging carefully"
+    ],
+    "answer": 0,
+    "explanation": "Loads must be secured before lifting. Loose materials can fall during hoisting. Workers must stay clear of suspended loads."
+  },
+  {
+    "id": 33,
+    "category": "B4 — Use Rigging and Hoisting Equipment",
+    "question": "Why are tag lines sometimes used during lifting?",
+    "options": [
+      "To help control the load from a safe distance",
+      "To increase the load weight",
+      "To replace the crane operator",
+      "To tie workers to the load"
+    ],
+    "answer": 0,
+    "explanation": "Tag lines help control swinging or rotation. They allow workers to guide the load without standing beneath it. They must be used safely and kept clear of pinch points."
+  },
+  {
+    "id": 34,
+    "category": "C1 — Use Mathematics",
+    "question": "A wall is 5 m long and 2.4 m high. What is its area?",
+    "options": [
+      "7.4 m²",
+      "10 m²",
+      "12 m²",
+      "24 m²"
+    ],
+    "answer": 2,
+    "explanation": "Wall area is found by multiplying length by height. 5 m × 2.4 m = 12 m². This area can be used to estimate materials."
+  },
+  {
+    "id": 35,
+    "category": "C1 — Use Mathematics",
+    "question": "If a block is 400 mm long, how many blocks are needed for one 4 m course, ignoring joints?",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "First convert 4 m to 4,000 mm. 4,000 mm ÷ 400 mm = 10 blocks. Joint allowance may change the real site quantity."
+  },
+  {
+    "id": 36,
+    "category": "C1 — Use Mathematics",
+    "question": "Convert 750 mm to metres.",
+    "options": [
+      "0.075 m",
+      "0.75 m",
+      "7.5 m",
+      "75 m"
+    ],
+    "answer": 1,
+    "explanation": "There are 1,000 millimetres in 1 metre. 750 ÷ 1,000 = 0.75 m. Unit conversion is important for drawings and layout."
+  },
+  {
+    "id": 37,
+    "category": "C1 — Use Mathematics",
+    "question": "A worker needs 120 bricks and adds 10% waste. How many bricks should be ordered?",
+    "options": [
+      "122",
+      "130",
+      "132",
+      "140"
+    ],
+    "answer": 2,
+    "explanation": "Ten percent of 120 is 12. 120 + 12 = 132 bricks. Waste allowance covers cuts, breakage, and selection."
+  },
+  {
+    "id": 38,
+    "category": "C1 — Use Mathematics",
+    "question": "A mortar mix uses 1 part cement and 4 parts sand. What fraction of the total mix is cement?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/5",
+      "4/5"
+    ],
+    "answer": 2,
+    "explanation": "The total parts are 1 + 4 = 5. Cement is 1 part out of 5 total parts. So the cement fraction is 1/5."
+  },
+  {
+    "id": 39,
+    "category": "C1 — Use Mathematics",
+    "question": "If each bag of mortar covers 40 blocks, how many bags are needed for 180 blocks?",
+    "options": [
+      "3",
+      "4",
+      "4.5, so order 5",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "180 ÷ 40 = 4.5 bags. You cannot normally order half a bag for site use. Round up to 5 bags to complete the work."
+  },
+  {
+    "id": 40,
+    "category": "C1 — Use Mathematics",
+    "question": "A wall has 15 courses. Each course is 200 mm high. What is the wall height?",
+    "options": [
+      "1,500 mm",
+      "2,000 mm",
+      "3,000 mm",
+      "4,000 mm"
+    ],
+    "answer": 2,
+    "explanation": "Multiply the number of courses by course height. 15 × 200 mm = 3,000 mm. That equals 3 metres."
+  },
+  {
+    "id": 41,
+    "category": "C1 — Use Mathematics",
+    "question": "A rectangular opening is 1 m wide and 2 m high. What area must be deducted from the wall area?",
+    "options": [
+      "1 m²",
+      "2 m²",
+      "3 m²",
+      "4 m²"
+    ],
+    "answer": 1,
+    "explanation": "Opening area is width multiplied by height. 1 m × 2 m = 2 m². Openings are deducted when estimating wall materials."
+  },
+  {
+    "id": 42,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "On a drawing, what does an elevation view usually show?",
+    "options": [
+      "The vertical face of a wall",
+      "The inside of a cement bag",
+      "A worker’s schedule",
+      "A tool repair list"
+    ],
+    "answer": 0,
+    "explanation": "Elevations show vertical faces of construction. They can show wall height, openings, and finishes. Bricklayers use them to understand wall appearance and layout."
+  },
+  {
+    "id": 43,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "Which document would most likely state the required mortar type?",
+    "options": [
+      "Project specification",
+      "Coffee receipt",
+      "Scaffold plank label",
+      "Worker time sheet"
+    ],
+    "answer": 0,
+    "explanation": "Specifications describe material requirements. Mortar type may be listed there for performance and compatibility. Workers should follow project documents rather than guess."
+  },
+  {
+    "id": 44,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "What does a symbol legend on a drawing explain?",
+    "options": [
+      "Meaning of drawing symbols",
+      "Worker vacation dates",
+      "Cement bag weight only",
+      "Weather conditions"
+    ],
+    "answer": 0,
+    "explanation": "Drawings use symbols to save space and show information. A legend explains what those symbols mean. Checking the legend helps prevent misreading the drawing."
+  },
+  {
+    "id": 45,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "If a dimension is missing on a drawing, what is the correct action?",
+    "options": [
+      "Scale it roughly and build it",
+      "Ask for clarification before proceeding",
+      "Choose any dimension",
+      "Ignore the missing information"
+    ],
+    "answer": 1,
+    "explanation": "Missing dimensions can lead to costly mistakes. The worker should ask the supervisor or appropriate authority. Clarification protects quality and avoids rework."
+  },
+  {
+    "id": 46,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "What does a section drawing usually show?",
+    "options": [
+      "A cut-through view of construction details",
+      "Only the worker’s name",
+      "Material invoice numbers",
+      "Lunch location"
+    ],
+    "answer": 0,
+    "explanation": "Sections show what the construction looks like if cut through. They help explain hidden layers and connections. This is useful for flashing, cavities, and wall assemblies."
+  },
+  {
+    "id": 47,
+    "category": "C2 — Use Drawings, Specifications and Documentation",
+    "question": "Why should revisions on drawings be checked?",
+    "options": [
+      "New revisions may change the work requirements",
+      "Revisions only change paper colour",
+      "They are never important",
+      "They replace all measurements"
+    ],
+    "answer": 0,
+    "explanation": "Updated drawings may contain important changes. Using an old drawing can cause incorrect installation. Workers should confirm they are using the current revision."
+  },
+  {
+    "id": 48,
+    "category": "C3 — Use Communication Techniques",
+    "question": "A supervisor gives instructions that seem unclear. What should the worker do?",
+    "options": [
+      "Ask questions to confirm understanding",
+      "Guess the meaning",
+      "Ignore the instructions",
+      "Let another trade decide"
+    ],
+    "answer": 0,
+    "explanation": "Asking questions prevents misunderstandings. Clear communication reduces mistakes and unsafe actions. It is better to clarify before starting work."
+  },
+  {
+    "id": 49,
+    "category": "C3 — Use Communication Techniques",
+    "question": "Why is clear communication important when multiple trades work nearby?",
+    "options": [
+      "It helps coordinate work and avoid conflicts",
+      "It makes PPE unnecessary",
+      "It replaces drawings",
+      "It increases noise levels"
+    ],
+    "answer": 0,
+    "explanation": "Different trades can affect each other’s work areas. Communication helps manage access, safety, and sequencing. Poor coordination can create delays and hazards."
+  },
+  {
+    "id": 50,
+    "category": "C5 — Handle Materials",
+    "question": "What is the best way to move a heavy load over a long distance?",
+    "options": [
+      "Use a cart, dolly, or mechanical aid",
+      "Carry it alone without stopping",
+      "Drag it across finished floors",
+      "Throw it closer to the work area"
+    ],
+    "answer": 0,
+    "explanation": "Mechanical aids reduce strain on the body. They also improve control of the load. Proper handling helps prevent injuries and material damage."
+  },
+  {
+    "id": 51,
+    "category": "C5 — Handle Materials",
+    "question": "Why should masonry units be protected from mud and contamination?",
+    "options": [
+      "Contamination can affect bond and appearance",
+      "Dirt makes them stronger",
+      "Mud replaces mortar",
+      "Contamination improves sealing"
+    ],
+    "answer": 0,
+    "explanation": "Dirty units may not bond properly with mortar. Contamination can also stain finished masonry. Materials should be stored clean and protected."
+  },
+  {
+    "id": 52,
+    "category": "C5 — Handle Materials",
+    "question": "What should be considered when stacking materials on scaffold?",
+    "options": [
+      "Scaffold capacity and even distribution",
+      "Only the colour of the blocks",
+      "Whether materials look neat from far away",
+      "How fast mortar dries"
+    ],
+    "answer": 0,
+    "explanation": "Scaffold platforms have load limits. Uneven or excessive loads can create instability. Materials must be placed safely and within capacity."
+  },
+  {
+    "id": 53,
+    "category": "C5 — Handle Materials",
+    "question": "Why should damaged masonry units be separated from good units?",
+    "options": [
+      "To avoid using them in finished work by mistake",
+      "To make the pile taller",
+      "To hide the damage",
+      "To reduce cleanup"
+    ],
+    "answer": 0,
+    "explanation": "Damaged units can affect wall quality and appearance. Separating them helps workers choose suitable materials. Some damaged units may be used only for cuts if acceptable."
+  },
+  {
+    "id": 54,
+    "category": "C6 — Lay Out Wall and Coursing",
+    "question": "What is the purpose of setting out corner leads first?",
+    "options": [
+      "They provide guides for line and course height",
+      "They replace the foundation",
+      "They remove the need for mortar",
+      "They are only decorative"
+    ],
+    "answer": 0,
+    "explanation": "Corner leads establish accurate reference points. Lines can be stretched between them for straight courses. Accurate leads help maintain level, plumb, and bond."
+  },
+  {
+    "id": 55,
+    "category": "C6 — Lay Out Wall and Coursing",
+    "question": "Why is joint thickness included in coursing calculations?",
+    "options": [
+      "Mortar joints add to total wall height and length",
+      "Joints do not affect layout",
+      "Joints replace masonry units",
+      "Joints are always zero"
+    ],
+    "answer": 0,
+    "explanation": "Masonry layout includes both units and mortar joints. Ignoring joint thickness can cause layout errors. Correct coursing helps match openings and elevations."
+  },
+  {
+    "id": 56,
+    "category": "C6 — Lay Out Wall and Coursing",
+    "question": "What is the result of poor coursing around window openings?",
+    "options": [
+      "Uneven cuts or misaligned courses",
+      "Stronger flashing",
+      "Faster scaffold setup",
+      "Better dust control"
+    ],
+    "answer": 0,
+    "explanation": "Poor coursing can create awkward cuts. It may also make courses fail to line up with openings. Planning coursing improves appearance and efficiency."
+  },
+  {
+    "id": 57,
+    "category": "C6 — Lay Out Wall and Coursing",
+    "question": "What is a benchmark used for in layout work?",
+    "options": [
+      "A fixed reference elevation",
+      "A type of mortar mixer",
+      "A scaffold plank",
+      "A cleaning brush"
+    ],
+    "answer": 0,
+    "explanation": "A benchmark provides a known elevation. Workers use it to transfer heights accurately. It helps keep construction consistent across the site."
+  },
+  {
+    "id": 58,
+    "category": "C6 — Lay Out Wall and Coursing",
+    "question": "Why should diagonal measurements be compared when laying out a rectangle?",
+    "options": [
+      "To check if the layout is square",
+      "To measure mortar colour",
+      "To count safety signs",
+      "To test cement strength"
+    ],
+    "answer": 0,
+    "explanation": "Equal diagonals indicate a rectangle is square. If diagonals differ, corners may not be 90 degrees. Checking squareness prevents alignment problems later."
+  },
+  {
+    "id": 59,
+    "category": "D1 — Prepare the Site",
+    "question": "What should be checked before placing materials near the wall line?",
+    "options": [
+      "Access, safety, and layout clearance",
+      "Only the brand of bricks",
+      "The colour of the wheelbarrow",
+      "The worker’s phone battery"
+    ],
+    "answer": 0,
+    "explanation": "Materials should not block access or layout lines. Poor placement can create trip hazards or slow production. Good site preparation supports safe and efficient work."
+  },
+  {
+    "id": 60,
+    "category": "D1 — Prepare the Site",
+    "question": "Why is housekeeping important during masonry work?",
+    "options": [
+      "It reduces trips, slips, and clutter",
+      "It replaces fall protection",
+      "It makes mortar stronger",
+      "It removes the need for drawings"
+    ],
+    "answer": 0,
+    "explanation": "Debris and clutter increase the risk of injury. Clean work areas allow safer movement and material handling. Housekeeping should be maintained throughout the job."
+  },
+  {
+    "id": 61,
+    "category": "D2 — Install Envelope Materials",
+    "question": "Where is flashing usually installed in masonry wall systems?",
+    "options": [
+      "At locations where water must be directed out",
+      "In the middle of every brick",
+      "On top of worker boots",
+      "Inside toolboxes only"
+    ],
+    "answer": 0,
+    "explanation": "Flashing collects and redirects water. It is commonly used above openings and at base locations. Correct installation helps prevent water damage."
+  },
+  {
+    "id": 62,
+    "category": "D2 — Install Envelope Materials",
+    "question": "Why should flashing be lapped correctly?",
+    "options": [
+      "To prevent water from running behind it",
+      "To make it shorter",
+      "To hide it completely",
+      "To increase wall weight"
+    ],
+    "answer": 0,
+    "explanation": "Correct laps direct water toward the outside. Incorrect laps can allow water to enter the wall system. Flashing must be installed in the proper direction."
+  },
+  {
+    "id": 63,
+    "category": "D2 — Install Envelope Materials",
+    "question": "What is the purpose of a vapour or air barrier in a wall system?",
+    "options": [
+      "To control air or moisture movement",
+      "To support scaffold loads",
+      "To replace masonry ties",
+      "To sharpen tools"
+    ],
+    "answer": 0,
+    "explanation": "Barriers help control air leakage and moisture movement. They are part of the building envelope system. Damage or gaps can reduce wall performance."
+  },
+  {
+    "id": 64,
+    "category": "D2 — Install Envelope Materials",
+    "question": "Why should insulation be kept dry before installation?",
+    "options": [
+      "Wet insulation may lose performance",
+      "Wet insulation becomes stronger",
+      "Water makes insulation fireproof",
+      "Wet insulation replaces flashing"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can reduce insulation effectiveness. Wet materials can also contribute to mould or damage. Envelope materials should be stored and installed properly."
+  },
+  {
+    "id": 65,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "Why should mortar ingredients be measured consistently?",
+    "options": [
+      "To maintain predictable strength and workability",
+      "To make every batch a different colour",
+      "To reduce the need for mixing",
+      "To eliminate cement"
+    ],
+    "answer": 0,
+    "explanation": "Consistent proportions help produce consistent mortar. Poor batching can affect bond, strength, and appearance. The mix should follow the required specification."
+  },
+  {
+    "id": 66,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "What is the danger of using mortar after it has become too stiff?",
+    "options": [
+      "It may not bond properly",
+      "It becomes waterproof automatically",
+      "It gets stronger without reworking",
+      "It replaces grout"
+    ],
+    "answer": 0,
+    "explanation": "Mortar that is too stiff may not spread or bond well. Adding water improperly may weaken the mix. Mortar should be used within its workable time."
+  },
+  {
+    "id": 67,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "Why should mortar boards be kept clean?",
+    "options": [
+      "To prevent contamination of fresh mortar",
+      "To increase wall height",
+      "To replace trowels",
+      "To dry mortar faster"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, old mortar, or debris can contaminate fresh mortar. Contaminated mortar may affect bond and appearance. Clean equipment supports better workmanship."
+  },
+  {
+    "id": 68,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "What is the purpose of grout consolidation?",
+    "options": [
+      "To remove voids and ensure full placement",
+      "To make grout dry before placement",
+      "To remove cement from grout",
+      "To weaken reinforcement"
+    ],
+    "answer": 0,
+    "explanation": "Consolidation helps grout fill spaces completely. Voids can reduce performance around reinforcement. Proper placement improves the finished masonry system."
+  },
+  {
+    "id": 69,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "What does a rich mortar mix usually contain more of?",
+    "options": [
+      "Cementitious material",
+      "Broken brick",
+      "Water only",
+      "Air space only"
+    ],
+    "answer": 0,
+    "explanation": "A rich mix has more cementitious material compared to sand. It may have higher strength but may not suit all masonry units. Mortar type should match the project requirements."
+  },
+  {
+    "id": 70,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "Why should mortar joints not be left hollow unless specified?",
+    "options": [
+      "Hollow joints can reduce bond and weather resistance",
+      "Hollow joints always increase strength",
+      "Hollow joints replace flashing",
+      "Hollow joints make PPE unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Full joints help bond masonry units together. They also reduce pathways for water entry. Joint requirements should follow drawings and specifications."
+  },
+  {
+    "id": 71,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "What is the purpose of tooling mortar joints?",
+    "options": [
+      "To compact and finish the joint",
+      "To remove all mortar from the wall",
+      "To weaken the bond",
+      "To increase scaffold height"
+    ],
+    "answer": 0,
+    "explanation": "Tooling compresses the joint surface. It improves appearance and weather resistance. Timing is important for a clean, durable finish."
+  },
+  {
+    "id": 72,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "Why should bonding surfaces be cleaned before applying bonding agent?",
+    "options": [
+      "Dirt can prevent proper adhesion",
+      "Dirt improves bonding",
+      "Cleaning removes the need for product instructions",
+      "Cleaning makes the wall shorter"
+    ],
+    "answer": 0,
+    "explanation": "Dust, oil, or loose material can weaken adhesion. A clean surface allows the bonding agent to work properly. Manufacturer directions should be followed."
+  },
+  {
+    "id": 73,
+    "category": "D3 — Use Mortars, Grouts and Bonding Agents",
+    "question": "What should be checked before using a packaged mortar product?",
+    "options": [
+      "Manufacturer instructions and expiry condition",
+      "Worker shoe size",
+      "Scaffold colour",
+      "Tool belt brand"
+    ],
+    "answer": 0,
+    "explanation": "Packaged products may have specific mixing instructions. Old or damaged bags may not perform correctly. Following directions helps achieve the intended result."
+  },
+  {
+    "id": 74,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is the main function of a partition masonry wall?",
+    "options": [
+      "Divide spaces without carrying major structural loads",
+      "Support the entire roof structure",
+      "Replace the foundation",
+      "Act as a crane support"
+    ],
+    "answer": 0,
+    "explanation": "Partition walls commonly separate interior spaces. They are not intended to carry major loads from above. They still must be built straight, stable, and secure."
+  },
+  {
+    "id": 75,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should the first unit at a corner be placed carefully?",
+    "options": [
+      "It helps set the wall line and height",
+      "It is not important",
+      "It replaces all later measurements",
+      "It makes mortar unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Corners act as important reference points. Mistakes at the corner can affect the whole wall. Careful placement helps maintain accuracy."
+  },
+  {
+    "id": 76,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What does “plumb” mean in masonry wall construction?",
+    "options": [
+      "Perfectly vertical",
+      "Perfectly wet",
+      "Fully painted",
+      "Completely hollow"
+    ],
+    "answer": 0,
+    "explanation": "Plumb means straight up and down. Walls that are not plumb may lean or look poor. Plumb is checked with a level or plumb tool."
+  },
+  {
+    "id": 77,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What does “level” mean in masonry?",
+    "options": [
+      "Horizontal and even",
+      "Vertical only",
+      "Mixed with water",
+      "Covered with sealer"
+    ],
+    "answer": 0,
+    "explanation": "Level means even across a horizontal plane. Each course should be checked for level. Level courses help maintain proper wall height and appearance."
+  },
+  {
+    "id": 78,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why are head joints filled when laying brick or block?",
+    "options": [
+      "To create bond and seal between units",
+      "To leave open air gaps",
+      "To reduce wall strength",
+      "To store water inside the wall"
+    ],
+    "answer": 0,
+    "explanation": "Filled head joints help bond adjacent units. They also reduce water and air passage through the wall. Incomplete joints can weaken quality and appearance."
+  },
+  {
+    "id": 79,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is the proper response if a course is found out of level while mortar is still soft?",
+    "options": [
+      "Correct it immediately",
+      "Wait until the next day",
+      "Paint over it",
+      "Add more blocks on top"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar allows adjustments before it sets. Waiting can make correction difficult or impossible. Early correction helps prevent the error from continuing upward."
+  },
+  {
+    "id": 80,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is the purpose of spreading an even mortar bed?",
+    "options": [
+      "To support units evenly",
+      "To create weak spots",
+      "To avoid using a line",
+      "To make units slide off"
+    ],
+    "answer": 0,
+    "explanation": "An even bed joint supports the masonry unit properly. Uneven mortar can cause poor alignment. Consistent bedding improves strength and appearance."
+  },
+  {
+    "id": 81,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should excess mortar be cut off neatly?",
+    "options": [
+      "To keep the wall clean and prevent smears",
+      "To weaken the joint",
+      "To remove all bonding material",
+      "To make the wall shorter"
+    ],
+    "answer": 0,
+    "explanation": "Excess mortar can stain or smear masonry faces. Removing it while workable improves the finished appearance. Clean work reduces later cleaning effort."
+  },
+  {
+    "id": 82,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why are movement joints needed in some masonry walls?",
+    "options": [
+      "To allow expansion, contraction, or shrinkage movement",
+      "To hold lunch containers",
+      "To eliminate all mortar joints",
+      "To replace scaffolding"
+    ],
+    "answer": 0,
+    "explanation": "Masonry can move due to temperature and moisture changes. Movement joints help reduce uncontrolled cracking. They must be placed according to drawings or specifications."
+  },
+  {
+    "id": 83,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What can happen if wall ties are installed incorrectly?",
+    "options": [
+      "Veneer may not be properly connected to backing",
+      "Mortar becomes stronger",
+      "Bricks become waterproof",
+      "Scaffold capacity increases"
+    ],
+    "answer": 0,
+    "explanation": "Wall ties connect veneer masonry to the supporting wall. Incorrect installation can reduce stability. Tie spacing and placement must follow requirements."
+  },
+  {
+    "id": 84,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is stack bond?",
+    "options": [
+      "A pattern where vertical joints line up",
+      "A pattern with no mortar",
+      "A type of scaffold",
+      "A type of grout pump"
+    ],
+    "answer": 0,
+    "explanation": "In stack bond, vertical joints align in straight lines. It may require reinforcement depending on design. It differs from running bond where joints are staggered."
+  },
+  {
+    "id": 85,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should a mason avoid disturbing freshly laid units?",
+    "options": [
+      "Movement can break the bond",
+      "Movement makes them stronger",
+      "Units must be shaken after laying",
+      "Disturbing units removes the need for tooling"
+    ],
+    "answer": 0,
+    "explanation": "Fresh units depend on mortar contact for bond. Moving them after placement can weaken that bond. If disturbed, they may need to be relaid properly."
+  },
+  {
+    "id": 86,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is the purpose of using closure units near openings or corners?",
+    "options": [
+      "To complete the bond pattern and fit layout",
+      "To replace lintels",
+      "To remove flashing",
+      "To avoid measuring"
+    ],
+    "answer": 0,
+    "explanation": "Closure units help the wall fit the required dimension. They also maintain the bond pattern. Correct closures improve both strength and appearance."
+  },
+  {
+    "id": 87,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is a lintel commonly used for?",
+    "options": [
+      "Supporting masonry above an opening",
+      "Mixing mortar",
+      "Cleaning brick faces",
+      "Measuring scaffold width"
+    ],
+    "answer": 0,
+    "explanation": "A lintel spans over doors, windows, or other openings. It supports masonry above the opening. Proper bearing and placement are important."
+  },
+  {
+    "id": 88,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should masonry work be protected from freezing?",
+    "options": [
+      "Freezing can damage fresh mortar before it gains strength",
+      "Freezing always improves bonding",
+      "Ice replaces water in the mix safely",
+      "Cold weather eliminates curing needs"
+    ],
+    "answer": 0,
+    "explanation": "Fresh mortar needs proper conditions to cure. Freezing can stop hydration and damage bond strength. Cold-weather protection may be required."
+  },
+  {
+    "id": 89,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What can result from using units with very different colours in one visible wall area?",
+    "options": [
+      "Patchy appearance",
+      "Stronger structure automatically",
+      "Better drainage",
+      "More accurate coursing"
+    ],
+    "answer": 0,
+    "explanation": "Colour variation can create an uneven finished look. Units are often blended from different pallets. Blending helps create a more uniform appearance."
+  },
+  {
+    "id": 90,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should the wall face be brushed at the correct time?",
+    "options": [
+      "To remove loose mortar without smearing",
+      "To wash out all joints",
+      "To weaken the bond",
+      "To replace chemical cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Brushing too early can smear mortar. Brushing too late may leave hardened residue. Correct timing helps produce a clean finish."
+  },
+  {
+    "id": 91,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What does it mean to “rack back” masonry?",
+    "options": [
+      "Step the masonry back at the end of unfinished work",
+      "Remove all mortar joints",
+      "Stack tools on scaffold",
+      "Build without a line"
+    ],
+    "answer": 0,
+    "explanation": "Racking back creates a stepped end for future bonding. It is better than leaving a straight vertical weak joint in some cases. It helps tie new work into existing work."
+  },
+  {
+    "id": 92,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should vertical reinforcement be kept in the correct position?",
+    "options": [
+      "To perform as designed inside the wall",
+      "To make the wall lighter",
+      "To replace mortar completely",
+      "To speed up cleaning only"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement must be positioned correctly to work properly. If misplaced, it may not provide the required strength. Spacers or supports may be used where required."
+  },
+  {
+    "id": 93,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What should be done when rain is expected before mortar has cured?",
+    "options": [
+      "Protect the fresh masonry from water damage",
+      "Flood the wall with water",
+      "Remove all covers",
+      "Stop checking line and level"
+    ],
+    "answer": 0,
+    "explanation": "Heavy rain can wash out fresh mortar joints. Protection helps preserve bond and appearance. Weather conditions must be considered during masonry work."
+  },
+  {
+    "id": 94,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "Why should cavity mortar droppings be controlled during veneer work?",
+    "options": [
+      "They can block drainage paths",
+      "They improve air flow",
+      "They replace wall ties",
+      "They strengthen flashing laps"
+    ],
+    "answer": 0,
+    "explanation": "Mortar droppings can collect in the cavity. Blocked drainage can trap water inside the wall system. Cavity cleanliness is important for envelope performance."
+  },
+  {
+    "id": 95,
+    "category": "E1 — Build Non Load-Bearing Masonry Walls",
+    "question": "What is the purpose of checking bond pattern as the wall is built?",
+    "options": [
+      "To maintain correct alignment and appearance",
+      "To avoid using mortar",
+      "To replace measurements",
+      "To increase dust exposure"
+    ],
+    "answer": 0,
+    "explanation": "Bond errors can be difficult to fix later. Regular checking keeps the wall consistent. Correct bond supports both appearance and wall performance."
+  },
+  {
+    "id": 96,
+    "category": "H3 — Clean and Seal Masonry Surfaces",
+    "question": "Why should high-pressure washing be used carefully on masonry?",
+    "options": [
+      "It can damage joints or masonry surfaces",
+      "It always improves old mortar",
+      "It replaces repointing",
+      "It makes walls waterproof forever"
+    ],
+    "answer": 0,
+    "explanation": "Excessive pressure can erode mortar joints. It can also damage soft brick or stone surfaces. Cleaning methods should match the masonry condition."
+  },
+  {
+    "id": 97,
+    "category": "H3 — Clean and Seal Masonry Surfaces",
+    "question": "What should be done before sealing a previously stained masonry wall?",
+    "options": [
+      "Clean and prepare the surface properly",
+      "Seal over dirt immediately",
+      "Wet the wall heavily and seal at once",
+      "Apply sealer only to the mortar board"
+    ],
+    "answer": 0,
+    "explanation": "Sealers need a clean surface to work properly. Stains or dirt may become trapped under the sealer. Surface preparation affects the final result."
+  },
+  {
+    "id": 98,
+    "category": "H3 — Clean and Seal Masonry Surfaces",
+    "question": "Why is identifying the type of stain important before cleaning masonry?",
+    "options": [
+      "Different stains require different cleaning methods",
+      "All stains are cleaned the same way",
+      "Stains improve wall strength",
+      "Stains remove the need for PPE"
+    ],
+    "answer": 0,
+    "explanation": "Rust, efflorescence, organic stains, and mortar stains differ. Using the wrong cleaner may be ineffective or damaging. A test area helps confirm the cleaning method."
+  },
+  {
+    "id": 99,
+    "category": "H3 — Clean and Seal Masonry Surfaces",
+    "question": "What is a risk of applying sealer to damp masonry?",
+    "options": [
+      "Poor penetration or trapped moisture",
+      "Stronger bond every time",
+      "Automatic crack repair",
+      "Better colour matching"
+    ],
+    "answer": 0,
+    "explanation": "Damp surfaces can prevent proper sealer penetration. Moisture may become trapped behind the sealer. The surface should meet manufacturer requirements before application."
+  },
+  {
+    "id": 100,
+    "category": "H3 — Clean and Seal Masonry Surfaces",
+    "question": "Why should surrounding materials be protected during masonry cleaning?",
+    "options": [
+      "Cleaners can damage glass, metal, plants, or finishes",
+      "Protection makes cleaning unnecessary",
+      "Cleaners only affect brick",
+      "Protection weakens the masonry"
+    ],
+    "answer": 0,
+    "explanation": "Masonry cleaners may affect nearby materials. Glass, metal, vegetation, and painted surfaces can be damaged. Masking, wetting, or shielding may be required."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledBricklayerHarmonizedLevel1PracticeMockExamSet2Questions =
+  shuffleArray(bricklayerHarmonizedLevel1PracticeMockExamSet2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "bricklayer",
+  tradeTitle: "Bricklayer",
+  sectionTitle: "Harmonized Level 1 – Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledBricklayerHarmonizedLevel1PracticeMockExamSet2Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledBricklayerHarmonizedLevel1PracticeMockExamSet2Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

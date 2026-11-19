@@ -1,0 +1,1396 @@
+const sheetMetalWorkerLevel1Set1Questions = [
+  {
+    "id": 1,
+    "category": "A2 - Use drawings and specifications",
+    "question": "A gas piping plan shows a 2-inch main line, but the equipment schedule shows a new high-input boiler added later. What should be done before installation?",
+    "options": [
+      "Install the 2-inch line exactly as drawn",
+      "Recalculate total connected load and verify pipe size",
+      "Reduce appliance input",
+      "Ignore the schedule"
+    ],
+    "answer": 1,
+    "explanation": "Drawings and schedules must be checked together. Added input can change gas flow requirements. Pipe sizing must be verified before installation."
+  },
+  {
+    "id": 2,
+    "category": "A2 - Use drawings and specifications",
+    "question": "A specification requires all gas valves to be accessible, but the drawing places one above a fixed ceiling. What is the best response?",
+    "options": [
+      "Install it as shown without concern",
+      "Remove the valve",
+      "Request clarification and ensure accessibility",
+      "Hide the valve behind insulation"
+    ],
+    "answer": 2,
+    "explanation": "Accessibility is important for service and emergency shutoff. Conflicts between drawings and specs must be resolved. Do not install a non-accessible safety component."
+  },
+  {
+    "id": 3,
+    "category": "A4 - Use technical instruments and testers",
+    "question": "A technician measures gas pressure before the burner starts and gets correct static pressure. During ignition, the pressure drops too low. What does this indicate?",
+    "options": [
+      "Static pressure alone is enough",
+      "Supply, regulator, or piping capacity may be inadequate",
+      "Venting is oversized",
+      "Flame rod is dirty"
+    ],
+    "answer": 1,
+    "explanation": "Pressure must be checked under operating load. A large pressure drop shows flow restriction or undersizing. Static pressure does not prove capacity."
+  },
+  {
+    "id": 4,
+    "category": "A4 - Use technical instruments and testers",
+    "question": "Which instrument is most suitable for checking voltage drop across a closed safety switch?",
+    "options": [
+      "Manometer",
+      "Digital voltmeter",
+      "Combustion analyzer",
+      "Tachometer"
+    ],
+    "answer": 1,
+    "explanation": "Voltage drop is an electrical measurement. A voltmeter checks voltage across contacts or wiring. High voltage drop shows resistance in a closed path."
+  },
+  {
+    "id": 5,
+    "category": "A4 - Use technical instruments and testers",
+    "question": "A combustion analyzer shows high CO but the technician suspects the probe is not fully in the flue stream. What should be done?",
+    "options": [
+      "Accept the reading immediately",
+      "Reposition the probe and retest correctly",
+      "Ignore CO readings",
+      "Increase gas pressure"
+    ],
+    "answer": 1,
+    "explanation": "Probe placement affects combustion readings. The sample must represent actual flue gas. Incorrect testing can lead to wrong conclusions."
+  },
+  {
+    "id": 6,
+    "category": "A5 - Use codes, regulations, and standards",
+    "question": "A code table gives one requirement, but local inspection authority requires a stricter method. What should be followed?",
+    "options": [
+      "The less strict method",
+      "The inspector’s lunch preference",
+      "The AHJ requirement when applicable",
+      "No requirement"
+    ],
+    "answer": 2,
+    "explanation": "The authority having jurisdiction enforces local requirements. Local rules may be stricter than minimum code. Compliance must satisfy the AHJ."
+  },
+  {
+    "id": 7,
+    "category": "A5 - Use codes, regulations, and standards",
+    "question": "Why must appliance installation instructions be kept available on site?",
+    "options": [
+      "They replace all codes",
+      "They provide approved installation and setup requirements",
+      "They are only for sales",
+      "They are used only after failure"
+    ],
+    "answer": 1,
+    "explanation": "Manufacturer instructions are part of the approved installation. They include venting, clearances, wiring, and setup data. They must be followed along with code."
+  },
+  {
+    "id": 8,
+    "category": "A6 - Organize work and maintain records",
+    "question": "A technician adjusts a burner but records no combustion readings. What is the problem?",
+    "options": [
+      "There is no proof of final safe operation",
+      "Records are never useful",
+      "Gas pressure automatically proves combustion",
+      "The appliance cannot run"
+    ],
+    "answer": 0,
+    "explanation": "Adjustments must be verified by measurements. Combustion records provide evidence of safe operation. They also create a baseline for future service."
+  },
+  {
+    "id": 9,
+    "category": "B2 - Apply combustion theory",
+    "question": "A burner flame is blue but CO reading is still high. What does this prove?",
+    "options": [
+      "Flame colour alone does not prove safe combustion",
+      "CO analyzer is always wrong",
+      "Blue flame always means zero CO",
+      "Gas pressure must be too low"
+    ],
+    "answer": 0,
+    "explanation": "Visual flame checks are limited. CO can exist even with a blue flame. Combustion must be confirmed by instruments."
+  },
+  {
+    "id": 10,
+    "category": "B2 - Apply combustion theory",
+    "question": "Which condition is most likely to produce soot?",
+    "options": [
+      "Complete combustion",
+      "Excessive clean air",
+      "Incomplete combustion with poor air-fuel mixing",
+      "Low nitrogen content"
+    ],
+    "answer": 2,
+    "explanation": "Soot is unburned carbon. It forms when combustion lacks air or proper mixing. Soot often accompanies CO production."
+  },
+  {
+    "id": 11,
+    "category": "B2 - Apply combustion theory",
+    "question": "A burner has too much primary air. Which symptom may occur?",
+    "options": [
+      "Soft yellow flame",
+      "Flame lifting or instability",
+      "No oxygen in flue gas",
+      "Zero draft"
+    ],
+    "answer": 1,
+    "explanation": "Too much air can increase mixture velocity. The flame may lift or become noisy. Air adjustment affects flame stability."
+  },
+  {
+    "id": 12,
+    "category": "B2 - Apply combustion theory",
+    "question": "Why is carbon monoxide dangerous?",
+    "options": [
+      "It smells strongly",
+      "It reduces oxygen carrying ability of blood",
+      "It is visible as blue smoke",
+      "It is heavier than propane"
+    ],
+    "answer": 1,
+    "explanation": "CO binds to hemoglobin in blood. It prevents oxygen transport in the body. It is colourless and odourless."
+  },
+  {
+    "id": 13,
+    "category": "B2 - Apply combustion theory",
+    "question": "A burner has delayed ignition. Which condition could cause it?",
+    "options": [
+      "Weak pilot or improper ignition source",
+      "Too much record keeping",
+      "Oversized relief valve",
+      "Correct flame signal only"
+    ],
+    "answer": 0,
+    "explanation": "Delayed ignition occurs when gas is not lit immediately. Weak ignition, dirty burners, or poor gas pressure may cause it. It can result in a dangerous ignition boom."
+  },
+  {
+    "id": 14,
+    "category": "B2 - Apply combustion theory",
+    "question": "What is the purpose of excess air in combustion?",
+    "options": [
+      "To ensure enough oxygen for complete burning",
+      "To remove the need for venting",
+      "To increase CO intentionally",
+      "To cool gas pressure regulators only"
+    ],
+    "answer": 0,
+    "explanation": "Some extra air is needed for complete combustion. Too little air creates CO and soot. Too much air reduces efficiency."
+  },
+  {
+    "id": 15,
+    "category": "B3 - Apply draft theory",
+    "question": "A chimney works better after warming up. Why?",
+    "options": [
+      "Hot flue gases are lighter and rise better",
+      "Cold air rises faster",
+      "Draft is unrelated to temperature",
+      "Gas pressure controls chimney height"
+    ],
+    "answer": 0,
+    "explanation": "Natural draft depends on density difference. Hot gases are lighter than surrounding air. Warm vents usually draft better than cold vents."
+  },
+  {
+    "id": 16,
+    "category": "B3 - Apply draft theory",
+    "question": "What does continuous spillage at a draft hood indicate?",
+    "options": [
+      "Normal operation",
+      "Unsafe venting condition",
+      "Correct combustion air",
+      "Perfect chimney draft"
+    ],
+    "answer": 1,
+    "explanation": "Spillage means flue gases are entering the space. This can expose occupants to CO. Vent blockage, negative pressure, or poor draft must be checked."
+  },
+  {
+    "id": 17,
+    "category": "B3 - Apply draft theory",
+    "question": "A building has strong negative pressure. Which appliance is most at risk?",
+    "options": [
+      "Sealed direct-vent appliance only",
+      "Natural draft appliance",
+      "Electric resistance heater",
+      "Non-fuel appliance"
+    ],
+    "answer": 1,
+    "explanation": "Natural draft appliances depend on room pressure and chimney draft. Negative pressure can reverse or weaken draft. This may cause spillage."
+  },
+  {
+    "id": 18,
+    "category": "B4 - Interpret heating, cooling and process systems",
+    "question": "A heat exchanger separates flue gas from supply air. What is the danger if it cracks?",
+    "options": [
+      "Combustion products may enter air stream",
+      "Gas pressure drops to zero always",
+      "Voltage doubles",
+      "Pump flow increases"
+    ],
+    "answer": 0,
+    "explanation": "Heat exchangers transfer heat without mixing gases. Cracks can allow flue products into occupied air. This can create CO hazards."
+  },
+  {
+    "id": 19,
+    "category": "B4 - Interpret heating, cooling and process systems",
+    "question": "A process system needs constant temperature, but the burner is only on/off and oversized. What may happen?",
+    "options": [
+      "Temperature swings and short cycling",
+      "Perfect control",
+      "No need for safety controls",
+      "Lower input automatically"
+    ],
+    "answer": 0,
+    "explanation": "Oversized on/off equipment can overshoot the setpoint. Short cycling increases wear and poor control. Modulation may be better for process loads."
+  },
+  {
+    "id": 20,
+    "category": "B5 - Apply knowledge of mechanical safety devices",
+    "question": "A pressure relief valve opens repeatedly on a hot water boiler. What should be checked?",
+    "options": [
+      "Expansion tank and system pressure",
+      "Flame rod only",
+      "Pipe paint",
+      "Thermostat display brightness"
+    ],
+    "answer": 0,
+    "explanation": "Repeated relief discharge indicates abnormal pressure. Expansion tank failure is a common cause. Relief valves should not be capped or ignored."
+  },
+  {
+    "id": 21,
+    "category": "B6 - Apply alternate-fuel theory",
+    "question": "Why do propane systems often require different burner orifices than natural gas?",
+    "options": [
+      "Propane has different heating value and pressure characteristics",
+      "Propane is not flammable",
+      "Natural gas is liquid at room temperature",
+      "Propane requires no air"
+    ],
+    "answer": 0,
+    "explanation": "Propane contains more energy per volume than natural gas. Burner inputs must be controlled by correct orifice and pressure. Improper conversion is unsafe."
+  },
+  {
+    "id": 22,
+    "category": "B6 - Apply alternate-fuel theory",
+    "question": "CNG means:",
+    "options": [
+      "Cold nitrogen gas",
+      "Compressed natural gas",
+      "Carbon neutral gas",
+      "Combustion nozzle gauge"
+    ],
+    "answer": 1,
+    "explanation": "CNG is compressed natural gas. It is stored at high pressure. Pressure regulation is required before appliance use."
+  },
+  {
+    "id": 23,
+    "category": "C1 - Principles of electricity and electronics",
+    "question": "A 120 V circuit has a resistance of 60 Ω. What current flows?",
+    "options": [
+      "0.5 A",
+      "2 A",
+      "60 A",
+      "7200 A"
+    ],
+    "answer": 1,
+    "explanation": "Current equals voltage divided by resistance. 120 ÷ 60 = 2 amps. Ohm’s law is used often in troubleshooting."
+  },
+  {
+    "id": 24,
+    "category": "C1 - Principles of electricity and electronics",
+    "question": "A control transformer is overloaded. What symptom may occur?",
+    "options": [
+      "Low secondary voltage",
+      "Higher gas pressure",
+      "Stronger draft",
+      "More combustion air"
+    ],
+    "answer": 0,
+    "explanation": "Excess load pulls transformer voltage down. Controls may chatter or fail to energize. Total VA load must be within transformer rating."
+  },
+  {
+    "id": 25,
+    "category": "C1 - Principles of electricity and electronics",
+    "question": "What happens to total resistance when resistors are added in series?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It becomes zero",
+      "It becomes unrelated to current"
+    ],
+    "answer": 1,
+    "explanation": "Series resistance adds together. More resistance reduces current for the same voltage. This affects circuit operation."
+  },
+  {
+    "id": 26,
+    "category": "C1 - Principles of electricity and electronics",
+    "question": "What is the purpose of a capacitor in many motor circuits?",
+    "options": [
+      "Assist starting or running characteristics",
+      "Measure CO",
+      "Regulate gas pressure",
+      "Prove draft"
+    ],
+    "answer": 0,
+    "explanation": "Capacitors create phase shift in some motors. They help starting torque or running efficiency. A failed capacitor can prevent motor start."
+  },
+  {
+    "id": 27,
+    "category": "C2 - Use electrical wiring diagrams and schematics",
+    "question": "On a ladder diagram, power flows from L1 through safeties to a gas valve coil. If the valve does not energize, what is the best method?",
+    "options": [
+      "Jump all safeties permanently",
+      "Trace voltage step-by-step through the circuit",
+      "Replace gas pipe",
+      "Increase air shutter opening"
+    ],
+    "answer": 1,
+    "explanation": "Ladder diagrams show the control sequence. Step-by-step voltage testing finds where power is lost. Safety switches should not be bypassed permanently."
+  },
+  {
+    "id": 28,
+    "category": "C2 - Use electrical wiring diagrams and schematics",
+    "question": "A normally closed limit switch is shown open during testing. What may be true?",
+    "options": [
+      "It has tripped or failed open",
+      "It is operating normally under safe temperature",
+      "It proves gas pressure",
+      "It increases current"
+    ],
+    "answer": 0,
+    "explanation": "Normally closed limits should pass current under normal safe conditions. If open, they may be tripped or defective. The cause must be found before resetting or replacing."
+  },
+  {
+    "id": 29,
+    "category": "C2 - Use electrical wiring diagrams and schematics",
+    "question": "A schematic shows a relay coil and separate relay contacts. What does energizing the coil do?",
+    "options": [
+      "Mechanically changes contact position",
+      "Increases gas pressure",
+      "Measures flame current",
+      "Opens the vent"
+    ],
+    "answer": 0,
+    "explanation": "A relay uses an electromagnetic coil. When energized, it moves contacts. This allows one circuit to control another."
+  },
+  {
+    "id": 30,
+    "category": "C2 - Use electrical wiring diagrams and schematics",
+    "question": "A load is shown connected directly across L1 and neutral after all safeties. What does this mean?",
+    "options": [
+      "It receives full control voltage when safeties close",
+      "It receives no voltage ever",
+      "It is connected to gas pressure",
+      "It is a venting component"
+    ],
+    "answer": 0,
+    "explanation": "Loads operate when the circuit path is complete. Safeties must close before voltage reaches the load. This is common in burner controls."
+  },
+  {
+    "id": 31,
+    "category": "C3 - Use the Canadian Electrical Code",
+    "question": "Why must wire ampacity be correct for the load?",
+    "options": [
+      "To prevent overheating",
+      "To reduce CO₂",
+      "To increase draft",
+      "To improve flame colour"
+    ],
+    "answer": 0,
+    "explanation": "Undersized wire can overheat under load. Overheating can damage insulation and cause fire. Code rules protect wiring and equipment."
+  },
+  {
+    "id": 32,
+    "category": "C3 - Use the Canadian Electrical Code",
+    "question": "What is the purpose of overcurrent protection?",
+    "options": [
+      "Protect conductors and equipment from excessive current",
+      "Increase motor speed",
+      "Control gas pressure",
+      "Measure oxygen"
+    ],
+    "answer": 0,
+    "explanation": "Fuses and breakers open during overloads or faults. They help prevent overheating and fire. They must be properly rated."
+  },
+  {
+    "id": 33,
+    "category": "C5 - Apply three phase motor theory",
+    "question": "A three-phase motor draws equal current on all phases but higher than FLA. What could cause this?",
+    "options": [
+      "Mechanical overload",
+      "Perfect light load",
+      "Correct no-load operation",
+      "No voltage applied"
+    ],
+    "answer": 0,
+    "explanation": "Balanced but high current often indicates excessive load. Bearings, belts, fans, or pumps may be overloaded. Running above FLA can overheat the motor."
+  },
+  {
+    "id": 34,
+    "category": "C5 - Apply three phase motor theory",
+    "question": "Why is phase rotation important on a combustion air fan?",
+    "options": [
+      "Wrong rotation can reduce airflow",
+      "It changes gas type",
+      "It eliminates need for purge",
+      "It lowers boiler pressure"
+    ],
+    "answer": 0,
+    "explanation": "Fan blades are designed for one rotation direction. Wrong rotation may still move some air but not enough. This can affect purge and combustion."
+  },
+  {
+    "id": 35,
+    "category": "C5 - Apply three phase motor theory",
+    "question": "What does an overload relay normally protect?",
+    "options": [
+      "Motor from sustained overcurrent",
+      "Gas pipe from corrosion",
+      "Vent from condensation",
+      "Flame rod from soot"
+    ],
+    "answer": 0,
+    "explanation": "Overload relays trip when motor current is too high too long. They protect windings from heat damage. They are reset only after cause is checked."
+  },
+  {
+    "id": 36,
+    "category": "C5 - Apply three phase motor theory",
+    "question": "If a three-phase motor loses one phase while running, what may happen?",
+    "options": [
+      "It may continue running but overheat",
+      "It always stops instantly without damage",
+      "It becomes DC",
+      "It increases efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Running single-phased causes abnormal current. The motor may overheat quickly. Protection should disconnect the motor."
+  },
+  {
+    "id": 37,
+    "category": "C6 - Apply VFD and ECM technology",
+    "question": "What does a VFD primarily control to vary AC motor speed?",
+    "options": [
+      "Frequency",
+      "Gas pressure",
+      "Chimney draft",
+      "Water hardness"
+    ],
+    "answer": 0,
+    "explanation": "Motor speed is related to supply frequency. VFDs vary frequency and voltage. This allows speed control and energy savings."
+  },
+  {
+    "id": 38,
+    "category": "C6 - Apply VFD and ECM technology",
+    "question": "Why is minimum speed important on a VFD combustion fan?",
+    "options": [
+      "It ensures enough air for safe combustion",
+      "It reduces all CO testing",
+      "It removes safety switches",
+      "It prevents gas flow"
+    ],
+    "answer": 0,
+    "explanation": "Too-low fan speed can reduce air supply. Combustion and purge may become unsafe. Minimum speed must be set according to burner requirements."
+  },
+  {
+    "id": 39,
+    "category": "C6 - Apply VFD and ECM technology",
+    "question": "An ECM motor has power but no command signal. What will it likely do?",
+    "options": [
+      "Not run",
+      "Run at full fire gas pressure",
+      "Open the gas valve",
+      "Prove flame"
+    ],
+    "answer": 0,
+    "explanation": "ECM motors often need a control input. Power alone may not start them. Signal wiring and control board output must be checked."
+  },
+  {
+    "id": 40,
+    "category": "C6 - Apply VFD and ECM technology",
+    "question": "Why can shielded cable be recommended with VFDs?",
+    "options": [
+      "To reduce electrical noise",
+      "To increase BTU rating",
+      "To increase gas flow",
+      "To remove grounding"
+    ],
+    "answer": 0,
+    "explanation": "VFDs create high-frequency switching noise. Shielding helps reduce interference. Proper grounding is also required."
+  },
+  {
+    "id": 41,
+    "category": "C7 - Apply wiring practices",
+    "question": "Why should wire terminals be tightened to the correct torque?",
+    "options": [
+      "Loose or over-tightened terminals can fail",
+      "It changes gas heating value",
+      "It improves chimney draft",
+      "It removes need for fuses"
+    ],
+    "answer": 0,
+    "explanation": "Loose terminals heat and arc. Over-tightened terminals can damage conductors. Correct torque improves reliability and safety."
+  },
+  {
+    "id": 42,
+    "category": "C7 - Apply wiring practices",
+    "question": "A wire splice is made outside an electrical box. Why is this wrong?",
+    "options": [
+      "Splices must be protected in approved enclosures",
+      "It improves cooling",
+      "It increases voltage",
+      "It lowers current safely"
+    ],
+    "answer": 0,
+    "explanation": "Boxes protect splices from damage and contact. They also contain sparks or heat from faults. Exposed splices are unsafe."
+  },
+  {
+    "id": 43,
+    "category": "C7 - Apply wiring practices",
+    "question": "What is the purpose of labeling wires during service?",
+    "options": [
+      "Prevents miswiring during reassembly",
+      "Increases flame signal",
+      "Measures gas pressure",
+      "Reduces vent length"
+    ],
+    "answer": 0,
+    "explanation": "Labels help identify conductors. Miswiring can damage controls or defeat safeties. Good organization reduces errors."
+  },
+  {
+    "id": 44,
+    "category": "C7 - Apply wiring practices",
+    "question": "Why must low-voltage control wiring be protected from physical damage?",
+    "options": [
+      "Damage can cause shorts, opens, or unsafe operation",
+      "It raises manifold pressure",
+      "It increases CO₂",
+      "It changes pipe size"
+    ],
+    "answer": 0,
+    "explanation": "Damaged control wiring can interrupt safety circuits. Shorts may energize equipment unexpectedly. Protection improves reliability and safety."
+  },
+  {
+    "id": 45,
+    "category": "C8 - Troubleshoot electrical circuits",
+    "question": "A burner motor does not start. Voltage is present at the motor terminals. What should be checked next?",
+    "options": [
+      "Motor, capacitor if applicable, overload, and mechanical load",
+      "Gas pipe colour",
+      "Combustion air grille paint",
+      "Boiler nameplate font"
+    ],
+    "answer": 0,
+    "explanation": "Voltage at the motor means the control path may be complete. The fault may be in the motor or mechanical load. Starting components should also be checked."
+  },
+  {
+    "id": 46,
+    "category": "C8 - Troubleshoot electrical circuits",
+    "question": "A safety switch has 0 V across it during normal operation. What does this usually mean?",
+    "options": [
+      "It is closed with little voltage drop",
+      "It is definitely open",
+      "It has no wires",
+      "It controls gas pressure directly"
+    ],
+    "answer": 0,
+    "explanation": "A closed switch should have very little voltage across it. Voltage across an open switch is usually higher. Voltage drop testing helps locate faults."
+  },
+  {
+    "id": 47,
+    "category": "C8 - Troubleshoot electrical circuits",
+    "question": "A circuit breaker trips immediately when reset. What should the technician do?",
+    "options": [
+      "Find the short or ground fault before resetting again",
+      "Install a larger breaker",
+      "Tape the breaker on",
+      "Bypass the load"
+    ],
+    "answer": 0,
+    "explanation": "Immediate trip suggests high fault current. Repeated resetting can damage equipment or create hazard. The fault must be located and repaired."
+  },
+  {
+    "id": 48,
+    "category": "C8 - Troubleshoot electrical circuits",
+    "question": "A flame safeguard locks out after trial for ignition, but flame is visible. What should be checked?",
+    "options": [
+      "Flame signal, grounding, sensor position, and polarity if applicable",
+      "Water hardness only",
+      "Vent paint colour",
+      "Pipe hanger spacing only"
+    ],
+    "answer": 0,
+    "explanation": "Visible flame does not guarantee proven flame. The control must receive a proper flame signal. Grounding and sensor placement are common causes."
+  },
+  {
+    "id": 49,
+    "category": "C9 - Apply communication and networking technology",
+    "question": "A building automation system reports “offline” for one boiler only. What is a likely cause?",
+    "options": [
+      "Address, wiring, power, or communication setting issue",
+      "Gas pressure too high only",
+      "Flame colour too blue",
+      "Boiler water too clean"
+    ],
+    "answer": 0,
+    "explanation": "One offline device suggests local communication problems. Addressing, wiring, power, and settings should be checked. Network troubleshooting must be systematic."
+  },
+  {
+    "id": 50,
+    "category": "C9 - Apply communication and networking technology",
+    "question": "Why is trend logging useful?",
+    "options": [
+      "It shows operating patterns over time",
+      "It replaces all service work",
+      "It increases manifold pressure",
+      "It proves pipe threads"
+    ],
+    "answer": 0,
+    "explanation": "Trends show temperatures, faults, runtimes, and cycling. They help diagnose intermittent problems. They do not replace field verification."
+  },
+  {
+    "id": 51,
+    "category": "C9 - Apply communication and networking technology",
+    "question": "A communication cable is run beside ignition wires. What may happen?",
+    "options": [
+      "Interference and false signals",
+      "Better data quality",
+      "Higher gas pressure",
+      "More stable flame automatically"
+    ],
+    "answer": 0,
+    "explanation": "Ignition wires create electrical noise. Communication signals are sensitive to interference. Proper separation and shielding reduce problems."
+  },
+  {
+    "id": 52,
+    "category": "C9 - Apply communication and networking technology",
+    "question": "A remote terminal unit is used mainly to:",
+    "options": [
+      "Connect field devices to a monitoring/control system",
+      "Regulate gas pressure",
+      "Prove flame directly",
+      "Store propane"
+    ],
+    "answer": 0,
+    "explanation": "RTUs gather field inputs and send control outputs. They communicate with a central control system. They are common in automation and monitoring."
+  },
+  {
+    "id": 53,
+    "category": "D1 - Size piping and tubing systems",
+    "question": "Two boilers fire correctly alone, but both starve when firing together. What is the likely issue?",
+    "options": [
+      "Total gas supply capacity is inadequate",
+      "Flame rods are too clean",
+      "Vent connector is too shiny",
+      "Thermostat is satisfied"
+    ],
+    "answer": 0,
+    "explanation": "Each appliance may operate alone because demand is lower. Combined firing increases gas flow requirement. Pipe, meter, and regulator capacity must be checked."
+  },
+  {
+    "id": 54,
+    "category": "D1 - Size piping and tubing systems",
+    "question": "Why is allowable pressure drop important in pipe sizing?",
+    "options": [
+      "Appliance inlet pressure must remain within required range",
+      "It determines wire colour",
+      "It controls boiler water level",
+      "It replaces pressure testing"
+    ],
+    "answer": 0,
+    "explanation": "Gas appliances need proper inlet pressure. Excess pressure drop can cause poor combustion or lockout. Pipe size must limit pressure loss."
+  },
+  {
+    "id": 55,
+    "category": "D1 - Size piping and tubing systems",
+    "question": "MMBH means:",
+    "options": [
+      "Thousand BTU/h",
+      "Million BTU/h",
+      "Milliamps per hour",
+      "Main manual burner handle"
+    ],
+    "answer": 1,
+    "explanation": "MMBH means million BTU per hour. It is used for large appliance input ratings. Correct acronym understanding prevents sizing errors."
+  },
+  {
+    "id": 56,
+    "category": "D2 - Select regulators, valves, and valve train components",
+    "question": "A line pressure regulator is installed downstream of equipment not rated for high inlet pressure. What is wrong?",
+    "options": [
+      "Equipment upstream may be overpressurized",
+      "Pressure will always be safe",
+      "Venting will improve",
+      "Combustion air increases"
+    ],
+    "answer": 0,
+    "explanation": "Regulators must protect downstream components. Equipment exposed to excessive pressure can fail. Regulator location matters."
+  },
+  {
+    "id": 57,
+    "category": "D2 - Select regulators, valves, and valve train components",
+    "question": "Why is regulator lock-up pressure important?",
+    "options": [
+      "It shows outlet pressure when flow stops",
+      "It measures combustion air only",
+      "It proves flame signal",
+      "It sets chimney draft"
+    ],
+    "answer": 0,
+    "explanation": "Lock-up pressure is no-flow outlet pressure. Excessive lock-up can overpressure downstream controls. It should be checked during setup."
+  },
+  {
+    "id": 58,
+    "category": "D2 - Select regulators, valves, and valve train components",
+    "question": "A gas valve is selected with too low a pressure rating. What is the risk?",
+    "options": [
+      "Valve may leak or fail under system pressure",
+      "Combustion becomes perfect",
+      "It improves flame signal",
+      "It reduces need for regulator"
+    ],
+    "answer": 0,
+    "explanation": "Components must be rated for pressure exposure. Underrated valves are unsafe. Always verify ratings before installation."
+  },
+  {
+    "id": 59,
+    "category": "D2 - Select regulators, valves, and valve train components",
+    "question": "Why are manual shutoff valves installed ahead of appliances?",
+    "options": [
+      "To isolate equipment for service or emergency",
+      "To increase gas input",
+      "To control draft",
+      "To measure CO"
+    ],
+    "answer": 0,
+    "explanation": "Manual valves allow gas supply isolation. They are needed for service and safety. They must be accessible."
+  },
+  {
+    "id": 60,
+    "category": "D2 - Select regulators, valves, and valve train components",
+    "question": "A high-low gas pressure switch combination protects against:",
+    "options": [
+      "Gas pressure outside safe operating range",
+      "Dirty filters only",
+      "Low boiler water only",
+      "Excess thermostat demand"
+    ],
+    "answer": 0,
+    "explanation": "Burners require gas pressure within limits. Too high or too low pressure can be unsafe. Pressure switches prevent operation outside range."
+  },
+  {
+    "id": 61,
+    "category": "D3 - Plan propane system installations",
+    "question": "Why must propane regulators and relief vents be protected from water, ice, and damage?",
+    "options": [
+      "Blockage or damage can prevent safe pressure control",
+      "Ice improves regulation",
+      "Water increases BTU value",
+      "Relief vents are decorative"
+    ],
+    "answer": 0,
+    "explanation": "Regulators must breathe and relieve safely. Ice or damage can block vents or affect operation. Protection must still allow proper venting."
+  },
+  {
+    "id": 62,
+    "category": "D4 - Size venting systems",
+    "question": "Which factor affects natural draft vent sizing?",
+    "options": [
+      "Appliance input, vent height, lateral length, and temperature",
+      "Wire insulation colour",
+      "Gas valve brand only",
+      "Room paint"
+    ],
+    "answer": 0,
+    "explanation": "Vent sizing depends on heat and flow. Height and horizontal runs affect draft. Appliance type and input must be considered."
+  },
+  {
+    "id": 63,
+    "category": "D4 - Size venting systems",
+    "question": "Why can low flue gas temperature cause condensation?",
+    "options": [
+      "Flue gases cool below dew point",
+      "Gas pressure is too high",
+      "Voltage is too low",
+      "Flame rod is too long"
+    ],
+    "answer": 0,
+    "explanation": "Combustion produces water vapour. When flue gas cools below dew point, condensate forms. Condensate can corrode unsuitable vent materials."
+  },
+  {
+    "id": 64,
+    "category": "D5 - Size air supply systems",
+    "question": "What is make-up air?",
+    "options": [
+      "Air supplied to replace air removed or consumed",
+      "Gas added to propane",
+      "Flue gas recycled into burner only",
+      "Electrical grounding air"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust and combustion remove air from a space. Make-up air replaces that air. It helps prevent negative pressure."
+  },
+  {
+    "id": 65,
+    "category": "D5 - Size air supply systems",
+    "question": "A louver has only 60% free area. What does this mean?",
+    "options": [
+      "Gross opening must be larger than required free area",
+      "Opening can be smaller",
+      "Airflow doubles",
+      "Combustion air is not required"
+    ],
+    "answer": 0,
+    "explanation": "Louvers block part of the opening. Required free area is the actual open area. Gross opening must account for louver restriction."
+  },
+  {
+    "id": 66,
+    "category": "D6 - Select gas-fired appliances",
+    "question": "Why must altitude be considered when selecting or setting up gas appliances?",
+    "options": [
+      "Air density changes with altitude",
+      "Gravity stops combustion",
+      "Natural gas becomes liquid",
+      "Venting is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Higher altitude has less dense air. Combustion and input may need derating or adjustment. Manufacturer instructions must be followed."
+  },
+  {
+    "id": 67,
+    "category": "D6 - Select gas-fired appliances",
+    "question": "A replacement appliance has lower efficiency and higher flue temperature than the old condensing unit. What must be checked?",
+    "options": [
+      "Venting compatibility",
+      "Thermostat colour",
+      "Flame rod length only",
+      "Pipe label font"
+    ],
+    "answer": 0,
+    "explanation": "Different appliances may require different vent materials. High temperature may damage plastic condensing vent. Venting must match appliance category and listing."
+  },
+  {
+    "id": 68,
+    "category": "D7 - Select burners",
+    "question": "An atmospheric burner depends mainly on:",
+    "options": [
+      "Gas pressure and natural air entrainment",
+      "VFD fan speed",
+      "Hydraulic pump flow",
+      "Boiler water pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Atmospheric burners use gas flow to draw in primary air. They do not use a combustion blower. Pressure and air openings affect performance."
+  },
+  {
+    "id": 69,
+    "category": "D7 - Select burners",
+    "question": "A forced-draft burner requires proof of:",
+    "options": [
+      "Airflow before fuel is admitted",
+      "Paint condition",
+      "Building occupancy",
+      "Gas meter age"
+    ],
+    "answer": 0,
+    "explanation": "Forced-draft burners rely on fan-supplied air. Airflow must be proven before ignition. This prevents unsafe fuel release."
+  },
+  {
+    "id": 70,
+    "category": "D7 - Select burners",
+    "question": "What is burner turndown?",
+    "options": [
+      "Ratio of maximum firing rate to minimum stable firing rate",
+      "Distance from burner to wall",
+      "Vent connector slope",
+      "Gas pipe thread depth"
+    ],
+    "answer": 0,
+    "explanation": "Turndown describes firing range. Higher turndown allows better load matching. Minimum fire must remain stable and safe."
+  },
+  {
+    "id": 71,
+    "category": "D8 - Select flame safeguards",
+    "question": "What is the purpose of flame rectification?",
+    "options": [
+      "To prove flame using small DC current through flame",
+      "To measure gas pressure",
+      "To control water temperature",
+      "To open vent dampers manually"
+    ],
+    "answer": 0,
+    "explanation": "Flame conducts current better in one direction. Controls detect this tiny DC signal. Good grounding is essential."
+  },
+  {
+    "id": 72,
+    "category": "D8 - Select flame safeguards",
+    "question": "A pilot flame proves, but main flame fails and gas continues to flow. What is the concern?",
+    "options": [
+      "Main flame safeguard failure or unsafe sequence",
+      "Normal operation",
+      "Correct MTFI",
+      "Low water pressure only"
+    ],
+    "answer": 0,
+    "explanation": "Fuel must shut off if main flame is not proven. Continuing gas flow can create explosion hazard. Flame safeguard timing is critical."
+  },
+  {
+    "id": 73,
+    "category": "D8 - Select flame safeguards",
+    "question": "PTFI means:",
+    "options": [
+      "Pilot trial for ignition",
+      "Pressure test fuel inlet",
+      "Primary transformer fault input",
+      "Pipe thread final inspection"
+    ],
+    "answer": 0,
+    "explanation": "PTFI is the time allowed to prove pilot flame. Failure to prove pilot should stop fuel. It is part of burner safety timing."
+  },
+  {
+    "id": 74,
+    "category": "D8 - Select flame safeguards",
+    "question": "MTFI means:",
+    "options": [
+      "Main trial for ignition",
+      "Motor terminal field input",
+      "Manual test flame indicator",
+      "Minimum tubing flow index"
+    ],
+    "answer": 0,
+    "explanation": "MTFI is the time allowed to prove main flame. It limits unburned gas release. If main flame fails, fuel shuts off."
+  },
+  {
+    "id": 75,
+    "category": "D9 - Select combustion, safety and operating controls",
+    "question": "What is the difference between operating and safety controls?",
+    "options": [
+      "Operating controls manage normal demand; safety controls stop unsafe operation",
+      "Safety controls are optional",
+      "Operating controls replace flame safeguards",
+      "There is no difference"
+    ],
+    "answer": 0,
+    "explanation": "Operating controls cycle equipment normally. Safety controls respond to dangerous conditions. Both are required for safe operation."
+  },
+  {
+    "id": 76,
+    "category": "D9 - Select combustion, safety and operating controls",
+    "question": "Why are manual reset safety controls used?",
+    "options": [
+      "To force investigation after an unsafe trip",
+      "To make reset automatic",
+      "To increase gas input",
+      "To eliminate service records"
+    ],
+    "answer": 0,
+    "explanation": "Manual reset means someone must inspect before restart. Repeated trips indicate a problem. Resetting without investigation is unsafe."
+  },
+  {
+    "id": 77,
+    "category": "D9 - Select combustion, safety and operating controls",
+    "question": "A combustion air switch is stuck closed before the fan starts. What should the control do?",
+    "options": [
+      "Detect unsafe false proof and prevent start if designed",
+      "Start normally always",
+      "Open gas valve immediately",
+      "Increase fan speed automatically"
+    ],
+    "answer": 0,
+    "explanation": "Safety circuits should prove switch operation sequence. A stuck-closed air switch can falsely prove airflow. Controls may check open-before-close status."
+  },
+  {
+    "id": 78,
+    "category": "D10 - Select electrical components",
+    "question": "A contactor is selected for a motor load. Which rating matters?",
+    "options": [
+      "Voltage, current, horsepower/load type, and coil voltage",
+      "Gas BTU only",
+      "Vent diameter only",
+      "Pipe material only"
+    ],
+    "answer": 0,
+    "explanation": "Contactors must handle the load they switch. Motor loads have high starting current. Coil voltage must match the control circuit."
+  },
+  {
+    "id": 79,
+    "category": "D10 - Select electrical components",
+    "question": "Why are disconnect switches required near equipment?",
+    "options": [
+      "To isolate power for service and safety",
+      "To regulate manifold pressure",
+      "To measure CO",
+      "To increase draft"
+    ],
+    "answer": 0,
+    "explanation": "Disconnects allow equipment to be safely de-energized. They protect service personnel. Lockout procedures depend on reliable isolation."
+  },
+  {
+    "id": 80,
+    "category": "E2 - Install regulators, valves, and valve train components",
+    "question": "A gas regulator is installed without checking flow direction arrow. What is the risk?",
+    "options": [
+      "Incorrect pressure control",
+      "Better lockup",
+      "Higher efficiency",
+      "Stronger flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Regulators are directional. Reverse installation may stop or miscontrol gas flow. Always check markings before installation."
+  },
+  {
+    "id": 81,
+    "category": "E2 - Install regulators, valves, and valve train components",
+    "question": "Why must downstream piping be leak-tested after installing a valve train?",
+    "options": [
+      "New joints or components may leak",
+      "Leak tests are only for old pipe",
+      "Flame colour proves no leaks",
+      "Voltage testing proves no leaks"
+    ],
+    "answer": 0,
+    "explanation": "Any new gas joint can leak. Leak testing verifies system tightness. Operating tests do not replace leak tests."
+  },
+  {
+    "id": 82,
+    "category": "E3 - Install LPG, LNG and CNG vaporizing and mixing systems",
+    "question": "Why is pressure regulation critical in CNG systems?",
+    "options": [
+      "Storage pressure is much higher than appliance pressure",
+      "CNG has no pressure",
+      "CNG burns without air",
+      "CNG is always liquid indoors"
+    ],
+    "answer": 0,
+    "explanation": "CNG is stored at high pressure. Appliances need much lower controlled pressure. Proper regulation protects equipment."
+  },
+  {
+    "id": 83,
+    "category": "E3 - Install LPG, LNG and CNG vaporizing and mixing systems",
+    "question": "A vaporizer is exposed to conditions below its design temperature. What can happen?",
+    "options": [
+      "Insufficient vapour production",
+      "Higher output always",
+      "No effect",
+      "Flame safeguard improves"
+    ],
+    "answer": 0,
+    "explanation": "Vaporization depends on heat transfer. Cold conditions can reduce vapour supply. Fuel pressure may drop during demand."
+  },
+  {
+    "id": 84,
+    "category": "E4 - Install venting systems",
+    "question": "Why must venting systems be installed with approved materials?",
+    "options": [
+      "Flue gas temperature, pressure, and condensate can damage wrong materials",
+      "Any pipe works for flue gas",
+      "Material does not affect safety",
+      "Plastic is always acceptable"
+    ],
+    "answer": 0,
+    "explanation": "Vent materials must match appliance category. Wrong materials can melt, corrode, or leak. Approved venting protects occupants."
+  },
+  {
+    "id": 85,
+    "category": "E4 - Install venting systems",
+    "question": "What is the danger of vent leakage?",
+    "options": [
+      "Combustion products may enter occupied space",
+      "Gas pressure rises safely",
+      "Flame signal improves",
+      "Boiler efficiency always increases"
+    ],
+    "answer": 0,
+    "explanation": "Flue gases may contain CO. Leaks can expose people to toxic gases. Vent joints must be sealed as required."
+  },
+  {
+    "id": 86,
+    "category": "E4 - Install venting systems",
+    "question": "Why should venting be protected from mechanical damage?",
+    "options": [
+      "Damage can cause leaks, separation, or blockage",
+      "It increases voltage",
+      "It improves gas flow",
+      "It lowers CO production"
+    ],
+    "answer": 0,
+    "explanation": "Damaged venting may not safely carry flue gases. Dents or separation can restrict or leak. Protection is important in traffic areas."
+  },
+  {
+    "id": 87,
+    "category": "E4 - Install venting systems",
+    "question": "A vent termination is too close to a fresh air intake. What is the risk?",
+    "options": [
+      "Flue gas recirculation into the building",
+      "Higher oxygen supply",
+      "Lower CO risk",
+      "Better appliance efficiency always"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust can be drawn back into air intakes. This may bring CO or corrosive gases indoors. Termination clearances prevent recirculation."
+  },
+  {
+    "id": 88,
+    "category": "E5 - Install air supply systems",
+    "question": "A mechanical room air opening is later blocked by stored materials. What can result?",
+    "options": [
+      "Poor combustion or backdrafting",
+      "Improved safety",
+      "Higher efficiency always",
+      "Less CO risk"
+    ],
+    "answer": 0,
+    "explanation": "Air openings must stay clear. Blocked air supply can starve burners. This can cause CO and venting problems."
+  },
+  {
+    "id": 89,
+    "category": "E5 - Install air supply systems",
+    "question": "What is the purpose of interlocking make-up air with exhaust fans?",
+    "options": [
+      "To ensure replacement air when exhaust operates",
+      "To increase gas pressure",
+      "To disable safety limits",
+      "To reduce appliance input"
+    ],
+    "answer": 0,
+    "explanation": "Exhaust removes air from the building. Interlocked make-up air prevents excessive negative pressure. This supports safe combustion and venting."
+  },
+  {
+    "id": 90,
+    "category": "E6 - Install draft control systems",
+    "question": "A draft control is adjusted without measuring draft. What is wrong?",
+    "options": [
+      "Adjustment is not verified",
+      "Draft controls need no testing",
+      "Gas pressure proves draft",
+      "Flame colour is enough"
+    ],
+    "answer": 0,
+    "explanation": "Draft must be measured with proper instruments. Improper adjustment can cause spillage or excessive dilution. Final operation must be verified."
+  },
+  {
+    "id": 91,
+    "category": "E8 - Install flame safeguards",
+    "question": "Why is burner grounding important for flame rectification systems?",
+    "options": [
+      "Flame signal needs a reliable return path",
+      "Grounding increases gas pressure",
+      "Grounding controls draft",
+      "Grounding replaces flame sensor"
+    ],
+    "answer": 0,
+    "explanation": "Flame rectification current returns through ground. Poor grounding causes weak or missing flame signal. Ground connections must be clean and secure."
+  },
+  {
+    "id": 92,
+    "category": "E8 - Install flame safeguards",
+    "question": "A UV scanner lens is dirty. What can happen?",
+    "options": [
+      "Nuisance flame failure lockouts",
+      "Gas pressure increase",
+      "Higher oxygen content",
+      "Better flame signal"
+    ],
+    "answer": 0,
+    "explanation": "Optical sensors need a clear view of flame. Dirt blocks radiation from reaching the scanner. Cleaning and alignment are part of maintenance."
+  },
+  {
+    "id": 93,
+    "category": "E9 - Install combustion, safety and operating controls",
+    "question": "A pressure control sensing line is plugged. What is the danger?",
+    "options": [
+      "Control may not sense actual pressure",
+      "Gas pressure becomes perfect",
+      "Flame signal increases",
+      "Draft improves"
+    ],
+    "answer": 0,
+    "explanation": "Controls rely on accurate pressure signals. A plugged sensing line can delay or prevent response. Safety or operating controls may fail to act."
+  },
+  {
+    "id": 94,
+    "category": "E9 - Install combustion, safety and operating controls",
+    "question": "Why should safety controls be tested after installation?",
+    "options": [
+      "To prove they stop equipment when required",
+      "To avoid combustion testing",
+      "To increase appliance input",
+      "To reduce documentation"
+    ],
+    "answer": 0,
+    "explanation": "Installed controls may be miswired or defective. Functional testing confirms safe shutdown action. Testing is essential before leaving equipment in service."
+  },
+  {
+    "id": 95,
+    "category": "E11 - Install boilers and ancillary equipment",
+    "question": "Why are boiler relief valves piped to a safe discharge location?",
+    "options": [
+      "To protect people from hot water or steam discharge",
+      "To increase boiler pressure",
+      "To improve flame signal",
+      "To reduce gas input"
+    ],
+    "answer": 0,
+    "explanation": "Relief discharge can be hot and forceful. Piping directs discharge safely. It must not be capped or restricted."
+  },
+  {
+    "id": 96,
+    "category": "F1 - Commission fuel/air delivery systems",
+    "question": "A burner is commissioned at low fire only because high fire is “rarely used.” What is wrong?",
+    "options": [
+      "High fire must also be verified",
+      "Low fire proves all operation",
+      "Combustion testing is unnecessary",
+      "Gas pressure cannot change"
+    ],
+    "answer": 0,
+    "explanation": "Burners must be safe across operating range. High fire may reveal airflow, pressure, or CO problems. Commissioning must cover required firing points."
+  },
+  {
+    "id": 97,
+    "category": "F1 - Commission fuel/air delivery systems",
+    "question": "Why is manifold pressure checked after regulator adjustment?",
+    "options": [
+      "To verify correct burner gas pressure",
+      "To measure oxygen directly",
+      "To prove water flow",
+      "To size vent pipe"
+    ],
+    "answer": 0,
+    "explanation": "Regulator settings affect burner input. Manifold pressure must match manufacturer requirements. Incorrect pressure can cause unsafe combustion."
+  },
+  {
+    "id": 98,
+    "category": "F4 - Perform combustion analysis",
+    "question": "Combustion analysis shows rising CO as the appliance runs longer. What should be suspected?",
+    "options": [
+      "Venting, air supply, or heat exchanger/combustion stability issue",
+      "Perfect operation",
+      "Correct air-fuel ratio always",
+      "Low electrical resistance only"
+    ],
+    "answer": 0,
+    "explanation": "CO increasing over time indicates changing combustion conditions. Draft, air supply, or overheating problems may develop as it runs. The appliance must be investigated under stable conditions."
+  },
+  {
+    "id": 99,
+    "category": "F4 - Perform combustion analysis",
+    "question": "Why must combustion be tested with doors, panels, and covers installed as designed?",
+    "options": [
+      "Airflow and combustion may change when covers are removed",
+      "Covers are only decorative",
+      "CO cannot form with covers off",
+      "Gas pressure is unrelated"
+    ],
+    "answer": 0,
+    "explanation": "Appliance panels affect airflow and pressure. Testing with covers removed may give false results. Final readings should represent normal operation."
+  },
+  {
+    "id": 100,
+    "category": "G8 - Repair and replace furnace refractory",
+    "question": "Why should refractory repairs use suitable material and curing procedures?",
+    "options": [
+      "Incorrect material or curing can fail under heat",
+      "Any cement works",
+      "Refractory controls voltage",
+      "Curing is only cosmetic"
+    ],
+    "answer": 0,
+    "explanation": "Refractory must withstand high combustion temperatures. Improper repair can crack, crumble, or damage equipment. Manufacturer-approved materials and curing are important."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledSheetMetalWorkerLevel1Set1Questions =
+  shuffleArray(sheetMetalWorkerLevel1Set1Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "gasfitter-class-a",
+  tradeTitle: "Gasfitter Class A",
+  sectionTitle: "Practice Exam Set 4",
+  questionTimeSeconds: 90,
+  questions: shuffledSheetMetalWorkerLevel1Set1Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledSheetMetalWorkerLevel1Set1Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

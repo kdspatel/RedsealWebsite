@@ -1,0 +1,1343 @@
+const constructionElectricianIPRedSealSet2Questions = [
+  {
+    "id": 1,
+    "category": "Task 1: Performs Safety-Related Functions — 2 Questions",
+    "question": "A worker verifies a disconnect is OFF, but the equipment is fed from a generator transfer system. What is the main safety concern?",
+    "options": [
+      "Backfeed may still energize the equipment",
+      "The circuit voltage will be reduced",
+      "The bonding conductor will open",
+      "The breaker rating will increase"
+    ],
+    "answer": 0,
+    "explanation": "Alternate sources such as generators, UPS systems, or stored-energy systems can energize equipment after the normal source is off. All sources must be identified, isolated, locked out, and tested before work begins."
+  },
+  {
+    "id": 2,
+    "category": "Task 1: Performs Safety-Related Functions — 2 Questions",
+    "question": "During energized troubleshooting, the worker’s gloves are electrically rated but visibly damaged. What should be done?",
+    "options": [
+      "Use them only for quick testing",
+      "Remove them from service",
+      "Cover the damage with tape",
+      "Wear cotton gloves over them"
+    ],
+    "answer": 1,
+    "explanation": "Damaged electrical PPE cannot be trusted to protect against shock. Insulating gloves must be inspected and in acceptable condition before use."
+  },
+  {
+    "id": 3,
+    "category": "Task 2: Uses Tools and Equipment — 2 Questions",
+    "question": "A technician measures current on a motor feeder by clamping around one phase conductor. What is being measured?",
+    "options": [
+      "Line current",
+      "Line voltage",
+      "Apparent power directly",
+      "Ground resistance"
+    ],
+    "answer": 0,
+    "explanation": "A clamp meter senses the magnetic field around one conductor. Clamping one phase conductor gives the current flowing in that line."
+  },
+  {
+    "id": 4,
+    "category": "Task 2: Uses Tools and Equipment — 2 Questions",
+    "question": "A multimeter is accidentally placed in amperes mode across a live voltage source. What is the likely hazard?",
+    "options": [
+      "Meter fuse may blow or a fault may occur",
+      "Correct voltage will be displayed",
+      "The circuit becomes de-energized safely",
+      "Resistance will be measured accurately"
+    ],
+    "answer": 0,
+    "explanation": "Amps mode has very low internal resistance and is meant to be connected in series. Placing it across a source can create a short circuit and damage the meter or injure the worker."
+  },
+  {
+    "id": 5,
+    "category": "Task 3: Organizes Work — 2 Questions",
+    "question": "A drawing package includes revision 4 electrical drawings and revision 2 mechanical drawings. A conduit route conflicts with new ductwork shown only on site. What should the electrician do?",
+    "options": [
+      "Coordinate through proper procedure before installing",
+      "Install according to memory",
+      "Cut through the ductwork",
+      "Ignore the conflict until inspection"
+    ],
+    "answer": 0,
+    "explanation": "Field conflicts must be resolved before installation to avoid unsafe work and rework. Coordination confirms the correct route, clearance, and responsibility."
+  },
+  {
+    "id": 6,
+    "category": "Task 3: Organizes Work — 2 Questions",
+    "question": "A material list calls for standard fittings, but the specification requires corrosion-resistant fittings in the area. What should be followed?",
+    "options": [
+      "Specification or approved substitution",
+      "The cheaper material",
+      "The material already delivered",
+      "Apprentice preference"
+    ],
+    "answer": 0,
+    "explanation": "Specifications define required installation materials and methods. Changing specified material requires proper approval because suitability and safety may be affected."
+  },
+  {
+    "id": 7,
+    "category": "Task 4: Fabricates and Installs Support Components — 2 Questions",
+    "question": "A trapeze support carries multiple conduits and is anchored into weak material. What is the most important concern?",
+    "options": [
+      "Load-bearing capacity",
+      "Wire colour",
+      "Power factor",
+      "Neutral current"
+    ],
+    "answer": 0,
+    "explanation": "Supports must safely carry the installed raceway and conductor load. Weak anchoring can fail, damaging wiring systems and creating injury hazards."
+  },
+  {
+    "id": 8,
+    "category": "Task 4: Fabricates and Installs Support Components — 2 Questions",
+    "question": "A support bracket has sharp edges where cables pass nearby. What should be done?",
+    "options": [
+      "Remove or protect sharp edges",
+      "Pull cables tighter",
+      "Increase breaker size",
+      "Leave it if cables are insulated"
+    ],
+    "answer": 0,
+    "explanation": "Sharp metal edges can cut cable jackets and insulation over time. Mechanical protection prevents future faults and shock hazards."
+  },
+  {
+    "id": 9,
+    "category": "Task 5: Commissions and Decommissions Electrical Systems — 2 Questions",
+    "question": "During commissioning, a three-phase pump starts but flow is nearly zero. What should be checked first?",
+    "options": [
+      "Rotation direction",
+      "Exit sign battery",
+      "Receptacle polarity",
+      "Cable tray width"
+    ],
+    "answer": 0,
+    "explanation": "Many pumps will run but not pump correctly if rotation is reversed. Phase sequence should be verified before final operation."
+  },
+  {
+    "id": 10,
+    "category": "Task 5: Commissions and Decommissions Electrical Systems — 2 Questions",
+    "question": "A decommissioned circuit is left connected at the panel but disconnected in the field. What is the main hazard?",
+    "options": [
+      "Conductors may become unexpectedly energized",
+      "Voltage will be reduced to zero permanently",
+      "The breaker becomes oversized",
+      "Current becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Abandoned or disconnected conductors must be isolated and identified. Leaving them connected can create shock hazards during future work."
+  },
+  {
+    "id": 11,
+    "category": "Task 6: Uses Communication and Mentoring Techniques — 1 Question",
+    "question": "An apprentice keeps using the wrong meter function for testing. What is the best journeyperson response?",
+    "options": [
+      "Demonstrate correct meter setup and explain the hazard",
+      "Take the meter away permanently",
+      "Let them continue to learn from mistakes",
+      "Tell them only to work faster"
+    ],
+    "answer": 0,
+    "explanation": "Incorrect meter use can create serious hazards and damage equipment. Effective mentoring corrects the method and explains why it matters."
+  },
+  {
+    "id": 12,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment — 4 Questions",
+    "question": "A 120/208 V three-phase service is measured. What voltage should be expected line-to-neutral?",
+    "options": [
+      "120 V",
+      "208 V",
+      "347 V",
+      "600 V"
+    ],
+    "answer": 0,
+    "explanation": "In a 120/208 V wye system, 208 V is line-to-line. Line-to-neutral voltage is 120 V."
+  },
+  {
+    "id": 13,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment — 4 Questions",
+    "question": "A meter CT is installed around two conductors carrying equal opposite current. What is the likely reading?",
+    "options": [
+      "Near zero",
+      "Double current",
+      "Line voltage",
+      "Ground resistance"
+    ],
+    "answer": 0,
+    "explanation": "Equal opposite currents create magnetic fields that cancel. A CT or clamp must surround the intended conductor arrangement only."
+  },
+  {
+    "id": 14,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment — 4 Questions",
+    "question": "A service disconnect enclosure has moisture entry. What is the main concern?",
+    "options": [
+      "Corrosion, tracking, and fault risk",
+      "Improved cooling",
+      "Lower current draw",
+      "Better grounding"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can damage insulation, terminals, and metal parts. It can cause corrosion, leakage current, and electrical faults."
+  },
+  {
+    "id": 15,
+    "category": "Task 7: Consumer/Supply Services and Metering Equipment — 4 Questions",
+    "question": "A three-phase service has voltages of 600 V, 599 V, and 575 V line-to-line. What should be suspected?",
+    "options": [
+      "Voltage imbalance",
+      "Perfect service voltage",
+      "Open neutral only",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "One voltage is noticeably lower than the others. Voltage imbalance can cause motor heating and equipment problems."
+  },
+  {
+    "id": 16,
+    "category": "Task 8: Protection Devices — 4 Questions",
+    "question": "A fuse opens repeatedly after replacement when a motor starts. What should be checked before installing another fuse?",
+    "options": [
+      "Faults, motor starting current, and fuse rating/type",
+      "Paint colour",
+      "Exit sign direction",
+      "Panel label font"
+    ],
+    "answer": 0,
+    "explanation": "Repeated fuse operation means the cause must be found. Installing more fuses without troubleshooting can damage equipment and create hazards."
+  },
+  {
+    "id": 17,
+    "category": "Task 8: Protection Devices — 4 Questions",
+    "question": "An overload relay trips after a motor runs for 20 minutes. What type of condition does this suggest?",
+    "options": [
+      "Sustained overload or heating condition",
+      "Instant short circuit only",
+      "Open control circuit only",
+      "Correct no-load operation"
+    ],
+    "answer": 0,
+    "explanation": "Overload devices respond to heating from excessive current over time. Mechanical load, low voltage, motor condition, and overload setting should be checked."
+  },
+  {
+    "id": 18,
+    "category": "Task 8: Protection Devices — 4 Questions",
+    "question": "A breaker is replaced with a higher ampere rating to stop tripping. What is the danger?",
+    "options": [
+      "Conductors may no longer be protected",
+      "Voltage will become safer",
+      "The circuit becomes more efficient",
+      "Ground fault current disappears"
+    ],
+    "answer": 0,
+    "explanation": "Overcurrent devices must match conductor and equipment ratings. Increasing breaker size without proper assessment can cause overheating and fire hazards."
+  },
+  {
+    "id": 19,
+    "category": "Task 8: Protection Devices — 4 Questions",
+    "question": "A surge protective device is installed without proper bonding. What is affected?",
+    "options": [
+      "Surge path effectiveness",
+      "Lamp brightness only",
+      "Motor speed only",
+      "Panel schedule accuracy"
+    ],
+    "answer": 0,
+    "explanation": "Surge protection needs a low-impedance path to divert transient energy. Poor bonding can reduce protection and allow damaging voltage rise."
+  },
+  {
+    "id": 20,
+    "category": "Task 9: Power Distribution Equipment — 4 Questions",
+    "question": "A panelboard has several breakers installed from a different manufacturer not listed for the panel. What is the concern?",
+    "options": [
+      "Compatibility and approval may be invalid",
+      "Voltage will drop to zero",
+      "Breakers will always trip faster",
+      "Bonding becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Breakers must be approved and suitable for the specific panel. Incorrect breakers may not fit, connect, or interrupt safely."
+  },
+  {
+    "id": 21,
+    "category": "Task 9: Power Distribution Equipment — 4 Questions",
+    "question": "A bus connection shows discoloration during inspection. What should be suspected?",
+    "options": [
+      "Overheating from poor connection or overload",
+      "Better conductivity",
+      "Normal operation always",
+      "Reduced fault current"
+    ],
+    "answer": 0,
+    "explanation": "Discoloration is a sign of heating. Possible causes include loose connections, overload, or damaged contact surfaces."
+  },
+  {
+    "id": 22,
+    "category": "Task 9: Power Distribution Equipment — 4 Questions",
+    "question": "A distribution panel has no circuit directory. What problem does this create?",
+    "options": [
+      "Difficult and unsafe circuit identification",
+      "Higher power factor",
+      "Lower service voltage",
+      "Improved troubleshooting"
+    ],
+    "answer": 0,
+    "explanation": "Accurate identification helps workers isolate the correct circuit. Poor labelling increases troubleshooting time and safety risk."
+  },
+  {
+    "id": 23,
+    "category": "Task 9: Power Distribution Equipment — 4 Questions",
+    "question": "A feeder is connected with phase sequence changed from the drawings. What must be verified before energizing motors?",
+    "options": [
+      "Phase rotation",
+      "Ground rod depth",
+      "Receptacle colour",
+      "Emergency battery voltage"
+    ],
+    "answer": 0,
+    "explanation": "Three-phase motor direction depends on phase sequence. Wrong rotation can damage pumps, fans, compressors, and machinery."
+  },
+  {
+    "id": 24,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems — 2 Questions",
+    "question": "A UPS output remains energized after input power is off. What does this indicate?",
+    "options": [
+      "Battery/inverter backup is operating",
+      "The UPS is safe to service",
+      "The output is de-energized",
+      "The grounding conductor opened"
+    ],
+    "answer": 0,
+    "explanation": "UPS systems are designed to continue supplying power during input loss. Stored energy must be isolated and verified before service."
+  },
+  {
+    "id": 25,
+    "category": "Task 10: Power Conditioning, UPS and Surge Suppression Systems — 2 Questions",
+    "question": "A power conditioner overheats in an enclosed room with poor airflow. What is the likely cause?",
+    "options": [
+      "Inadequate ventilation",
+      "Too much neutral isolation",
+      "Low ground resistance",
+      "Correct operation only"
+    ],
+    "answer": 0,
+    "explanation": "Power conditioning equipment produces heat and needs ventilation. Excess temperature shortens component life and may cause failure."
+  },
+  {
+    "id": 26,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems — 4 Questions",
+    "question": "A metal enclosure has a bonding conductor present but the lug is loose. What is the concern?",
+    "options": [
+      "Fault path may be unreliable",
+      "Current becomes DC",
+      "Voltage disappears",
+      "Equipment becomes double insulated"
+    ],
+    "answer": 0,
+    "explanation": "Bonding connections must be mechanically and electrically secure. Loose bonding can prevent protective devices from operating during a fault."
+  },
+  {
+    "id": 27,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems — 4 Questions",
+    "question": "A ground fault detector alarms on an ungrounded system. Why is this urgent even though production continues?",
+    "options": [
+      "A second fault could create a phase-to-phase fault",
+      "First faults are always harmless",
+      "The detector lowers voltage",
+      "Neutral current is cancelled"
+    ],
+    "answer": 0,
+    "explanation": "Ungrounded systems may continue operating after the first ground fault. A second fault on another phase can cause serious damage and danger."
+  },
+  {
+    "id": 28,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems — 4 Questions",
+    "question": "A bonding conductor is used as a normal current-carrying neutral. What is the problem?",
+    "options": [
+      "Exposed metal parts may carry load current",
+      "It improves safety",
+      "It increases insulation rating",
+      "It lowers harmonic current"
+    ],
+    "answer": 0,
+    "explanation": "Bonding conductors are for fault current, not normal load current. Using them as neutrals can energize exposed metal parts."
+  },
+  {
+    "id": 29,
+    "category": "Task 11: Bonding, Grounding and Ground Fault Protection and Detection Systems — 4 Questions",
+    "question": "A ground electrode conductor is damaged during construction. What should be done?",
+    "options": [
+      "Repair or replace using approved methods",
+      "Leave it if equipment works",
+      "Paint over the damage",
+      "Use a data cable instead"
+    ],
+    "answer": 0,
+    "explanation": "Grounding conductors must be continuous and reliable. Damage can affect grounding performance and safety."
+  },
+  {
+    "id": 30,
+    "category": "Task 12: Power Generation and Conversion Systems — 2 Questions",
+    "question": "A generator voltage is correct at no load but drops sharply when a large compressor starts. What is most likely?",
+    "options": [
+      "Starting current exceeds generator/regulator capability",
+      "Ground rod is too long",
+      "Receptacle polarity is wrong",
+      "The frequency is too high only"
+    ],
+    "answer": 0,
+    "explanation": "Compressors and motors can draw high inrush current. An undersized generator or poor regulation can cause voltage collapse."
+  },
+  {
+    "id": 31,
+    "category": "Task 12: Power Generation and Conversion Systems — 2 Questions",
+    "question": "A rectifier output is lower than expected and has excessive ripple. What component group should be checked?",
+    "options": [
+      "Diodes and filter capacitors",
+      "Cable tray supports",
+      "Motor bearings",
+      "Ground rods"
+    ],
+    "answer": 0,
+    "explanation": "Rectifier diodes create DC, and capacitors smooth ripple. Failure in either area can lower DC quality."
+  },
+  {
+    "id": 32,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems — 2 Questions",
+    "question": "A PV combiner is opened, but the array conductors remain live in sunlight. What is the reason?",
+    "options": [
+      "PV modules generate when illuminated",
+      "The breaker increases voltage",
+      "The neutral is bonded",
+      "The inverter stores all voltage"
+    ],
+    "answer": 0,
+    "explanation": "PV source circuits can remain energized whenever light reaches the modules. Isolation and testing must account for solar generation."
+  },
+  {
+    "id": 33,
+    "category": "Task 13: Renewable Energy Generating and Storage Systems — 2 Questions",
+    "question": "A battery bank has exposed terminals during installation. What is the main hazard?",
+    "options": [
+      "High short-circuit current",
+      "No electrical energy",
+      "Low available current only",
+      "No polarity requirement"
+    ],
+    "answer": 0,
+    "explanation": "Batteries can deliver very high current into a short circuit. Tools, jewelry, and conductive parts must be controlled."
+  },
+  {
+    "id": 34,
+    "category": "Task 14: High-Voltage Systems — 2 Questions",
+    "question": "A high-voltage disconnect is open, but stored charge may remain on connected cables. What is required?",
+    "options": [
+      "Test and ground/discharge as required by procedure",
+      "Assume it is safe",
+      "Remove warning signs",
+      "Use only a low-voltage tester"
+    ],
+    "answer": 0,
+    "explanation": "High-voltage cables and equipment can retain stored energy. Approved testing, grounding, and discharge procedures protect workers."
+  },
+  {
+    "id": 35,
+    "category": "Task 14: High-Voltage Systems — 2 Questions",
+    "question": "A high-voltage enclosure has compromised interlocks. What is the correct action?",
+    "options": [
+      "Do not operate until corrected by qualified procedure",
+      "Bypass them permanently",
+      "Remove the enclosure cover",
+      "Use it if no one is nearby"
+    ],
+    "answer": 0,
+    "explanation": "Interlocks are safety devices that prevent unsafe access or operation. Defeating or ignoring them can expose workers to lethal energy."
+  },
+  {
+    "id": 36,
+    "category": "Task 15: Transformers — 4 Questions",
+    "question": "A 150 kVA, 600 V three-phase transformer primary current is closest to:",
+    "options": [
+      "72 A",
+      "108 A",
+      "144 A",
+      "250 A"
+    ],
+    "answer": 2,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 150,000 ÷ (1.732 × 600) = **144 A**."
+  },
+  {
+    "id": 37,
+    "category": "Task 15: Transformers — 4 Questions",
+    "question": "A 45 kVA, 208 V three-phase transformer secondary current is closest to:",
+    "options": [
+      "72 A",
+      "100 A",
+      "125 A",
+      "216 A"
+    ],
+    "answer": 2,
+    "explanation": "Use **I = VA ÷ (√3 × E)**. 45,000 ÷ (1.732 × 208) = **125 A**."
+  },
+  {
+    "id": 38,
+    "category": "Task 15: Transformers — 4 Questions",
+    "question": "A transformer secondary voltage is low only when load is connected. What is most likely?",
+    "options": [
+      "Overload, loose connection, or excessive voltage drop",
+      "Open primary",
+      "Normal no-load condition",
+      "Ground rod too deep"
+    ],
+    "answer": 0,
+    "explanation": "Voltage sag under load indicates voltage is being lost in the source or circuit path. Load size, conductor run, tap setting, and terminations should be checked."
+  },
+  {
+    "id": 39,
+    "category": "Task 15: Transformers — 4 Questions",
+    "question": "A transformer enclosure is not bonded. What is the danger during an internal fault?",
+    "options": [
+      "Enclosure may remain energized",
+      "Transformer becomes more efficient",
+      "Secondary voltage disappears safely",
+      "Current becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Bonding provides a fault-current path back to the source. Without it, exposed metal can become a shock hazard."
+  },
+  {
+    "id": 40,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A long conduit run has no pull point and several bends. What is the main installation concern?",
+    "options": [
+      "Excessive pulling tension",
+      "Lower voltage",
+      "Better conductor protection",
+      "Reduced conductor length"
+    ],
+    "answer": 0,
+    "explanation": "Too many bends and long pulls increase friction and tension. This can damage insulation or stretch conductors."
+  },
+  {
+    "id": 41,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A raceway is installed in a corrosive area using unsuitable fittings. What is the likely result?",
+    "options": [
+      "Corrosion and loss of mechanical/electrical integrity",
+      "Better bonding",
+      "Higher ampacity",
+      "Lower fault current"
+    ],
+    "answer": 0,
+    "explanation": "Fittings must suit the environment. Corrosion can weaken support, damage threads, and reduce bonding reliability."
+  },
+  {
+    "id": 42,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A cable enters a metal box without a connector. What is the issue?",
+    "options": [
+      "Cable is not secured or protected from sharp edges",
+      "Voltage becomes too high",
+      "Current becomes zero",
+      "Box becomes nonconductive"
+    ],
+    "answer": 0,
+    "explanation": "Connectors protect cable from abrasion and secure it to the enclosure. Missing connectors can cause insulation damage and strain."
+  },
+  {
+    "id": 43,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "Conductors are pulled with no lubricant through a difficult raceway and insulation is scraped. What must happen?",
+    "options": [
+      "Replace or repair conductors using approved methods",
+      "Energize briefly to test",
+      "Cover damage with paint",
+      "Increase breaker size"
+    ],
+    "answer": 0,
+    "explanation": "Damaged insulation can cause shorts or ground faults. The wiring must be corrected before energizing."
+  },
+  {
+    "id": 44,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A junction box cover is missing in an accessible ceiling. What is the concern?",
+    "options": [
+      "Exposed splices or live parts may be accessible",
+      "Better cooling",
+      "Lower impedance",
+      "Improved inspection"
+    ],
+    "answer": 0,
+    "explanation": "Covers protect wiring connections and contain faults. Missing covers create shock and fire hazards."
+  },
+  {
+    "id": 45,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A conductor is terminated under a lug not rated for that conductor material. What is the concern?",
+    "options": [
+      "Poor connection and overheating",
+      "Better conductivity",
+      "Lower voltage always",
+      "Correct termination"
+    ],
+    "answer": 0,
+    "explanation": "Terminals must be suitable for the conductor material. Using incompatible lugs can cause corrosion, loosening, and heat."
+  },
+  {
+    "id": 46,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A cable tray is overloaded beyond its support rating. What can happen?",
+    "options": [
+      "Structural failure and cable damage",
+      "Lower current",
+      "Better ventilation",
+      "Higher insulation rating"
+    ],
+    "answer": 0,
+    "explanation": "Cable tray systems must be installed within mechanical ratings. Overloading can deform supports and damage cables."
+  },
+  {
+    "id": 47,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "Conductors are installed in an enclosure with sharp knockout burrs. What is the hazard?",
+    "options": [
+      "Insulation damage",
+      "Better grounding",
+      "Reduced heat",
+      "Higher power factor"
+    ],
+    "answer": 0,
+    "explanation": "Sharp edges can cut insulation during installation or vibration. Bushings and proper finishing protect conductors."
+  },
+  {
+    "id": 48,
+    "category": "Task 16: Raceways, Conductors, Cables and Enclosures — 9 Questions",
+    "question": "A flexible raceway to vibrating equipment is pulled tight with no slack. What is the concern?",
+    "options": [
+      "Vibration may damage fittings or conductors",
+      "Current will decrease",
+      "Voltage will increase",
+      "Bonding becomes unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Equipment movement requires suitable flexible connection and strain relief. A tight raceway can fail mechanically over time."
+  },
+  {
+    "id": 49,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A receptacle tester shows open ground on a metal box installation. What should be checked?",
+    "options": [
+      "Bonding continuity to the device and box",
+      "Line voltage only",
+      "Lamp wattage",
+      "Transformer tap"
+    ],
+    "answer": 0,
+    "explanation": "An open ground indication means the bonding path may be missing or broken. Bonding continuity must be restored for fault protection."
+  },
+  {
+    "id": 50,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A lighting circuit trips only when a certain switch is turned on. What is the likely area to investigate?",
+    "options": [
+      "Switched leg, luminaire, or connected load",
+      "Service mast only",
+      "Ground electrode only",
+      "CT polarity only"
+    ],
+    "answer": 0,
+    "explanation": "If tripping occurs only when the switch is operated, the fault is likely downstream of that switch. The load and switched conductor should be inspected."
+  },
+  {
+    "id": 51,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A receptacle face is cracked and exposes internal parts. What should be done?",
+    "options": [
+      "Replace the device",
+      "Cover it with tape permanently",
+      "Leave it if it works",
+      "Paint over it"
+    ],
+    "answer": 0,
+    "explanation": "Damaged devices can expose energized parts and fail mechanically. They must be replaced with suitable approved devices."
+  },
+  {
+    "id": 52,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A 20 A receptacle circuit is repeatedly overloaded by portable heaters. What is the correct response?",
+    "options": [
+      "Reduce load or provide proper dedicated circuits",
+      "Install a larger breaker",
+      "Tape the breaker on",
+      "Remove bonding"
+    ],
+    "answer": 0,
+    "explanation": "Overloads must be corrected by load management or proper circuit installation. Increasing overcurrent protection without proper wiring is unsafe."
+  },
+  {
+    "id": 53,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A lighting contactor coil burns out shortly after installation. The coil is rated 120 V but supplied with 347 V. What caused the failure?",
+    "options": [
+      "Incorrect coil voltage",
+      "Low load current",
+      "Correct operation",
+      "Open neutral only"
+    ],
+    "answer": 0,
+    "explanation": "Control coils must match the applied voltage. Supplying excessive voltage overheats and destroys the coil."
+  },
+  {
+    "id": 54,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A dimmer is installed on a load type not listed as compatible. What may occur?",
+    "options": [
+      "Flicker, overheating, or failure",
+      "Better dimming always",
+      "Lower circuit current always",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "Dimmers must be matched to load type and rating. Incompatible devices can malfunction or overheat."
+  },
+  {
+    "id": 55,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A luminaire flickers only when the building vibrates from nearby equipment. What is likely?",
+    "options": [
+      "Loose connection or failing lamp/driver",
+      "Correct operation",
+      "High grounding resistance only",
+      "CT failure"
+    ],
+    "answer": 0,
+    "explanation": "Vibration-related flicker often points to an intermittent connection or component. Terminations and luminaire components should be inspected safely."
+  },
+  {
+    "id": 56,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A multiwire branch circuit has an open neutral. What can happen to line-to-neutral loads?",
+    "options": [
+      "Abnormal voltages may appear across loads",
+      "All loads safely turn off",
+      "Voltage becomes exactly 120 V everywhere",
+      "Current becomes zero in all conductors"
+    ],
+    "answer": 0,
+    "explanation": "An open shared neutral can place loads in series across line voltage. This may overvoltage some loads and damage equipment."
+  },
+  {
+    "id": 57,
+    "category": "Task 17: Branch Circuitry and Devices — 9 Questions",
+    "question": "A receptacle installed outdoors has a cover suitable only when not in use. The cord will remain plugged in. What is the issue?",
+    "options": [
+      "Cover must be suitable for use while connected",
+      "Voltage becomes lower",
+      "Breaker will not trip",
+      "GFCI is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Outdoor devices must be protected for the actual use condition. A cord left connected requires protection while in use."
+  },
+  {
+    "id": 58,
+    "category": "Task 18: HVAC Systems — 4 Questions",
+    "question": "A rooftop unit control transformer secondary fuse blows when thermostat wiring is connected. What is likely?",
+    "options": [
+      "Short in control wiring or control device",
+      "Correct operation",
+      "Open compressor winding only",
+      "Low refrigerant only"
+    ],
+    "answer": 0,
+    "explanation": "A fuse that opens when control wiring is connected indicates excessive control-circuit current. The thermostat cable, safeties, and devices should be checked."
+  },
+  {
+    "id": 59,
+    "category": "Task 18: HVAC Systems — 4 Questions",
+    "question": "A contactor coil is rated 24 V, but the transformer secondary drops to 15 V when the coil is connected. What should be suspected?",
+    "options": [
+      "Weak transformer, overloaded control circuit, or high-resistance connection",
+      "Correct operation",
+      "Coil voltage is too high",
+      "Compressor is oversized only"
+    ],
+    "answer": 0,
+    "explanation": "Voltage collapsing under load indicates the source or circuit path cannot supply required current. Transformer capacity, wiring, and connections should be verified."
+  },
+  {
+    "id": 60,
+    "category": "Task 18: HVAC Systems — 4 Questions",
+    "question": "An HVAC disconnect is mounted where the technician cannot reach it safely from the service position. What is the issue?",
+    "options": [
+      "Disconnect accessibility",
+      "Low voltage",
+      "Poor power factor only",
+      "Wrong thermostat setting"
+    ],
+    "answer": 0,
+    "explanation": "Disconnects must be accessible for safe service and maintenance. Poor placement delays isolation and increases risk."
+  },
+  {
+    "id": 61,
+    "category": "Task 18: HVAC Systems — 4 Questions",
+    "question": "A compressor contactor pulls in and load-side voltage is correct, but compressor is silent. What should be checked?",
+    "options": [
+      "Compressor overloads, windings, and start components",
+      "Thermostat wiring only",
+      "Exit lighting battery",
+      "Data cable shielding"
+    ],
+    "answer": 0,
+    "explanation": "Correct voltage at the compressor supply means the power is reaching the load circuit. The compressor internal protection, windings, and starting components should be checked safely."
+  },
+  {
+    "id": 62,
+    "category": "Task 19: Electric Heating Systems — 4 Questions",
+    "question": "A 600 V duct heater draws 12 A on each phase at unity power factor. What is approximate three-phase power?",
+    "options": [
+      "7.2 kW",
+      "12.5 kW",
+      "20.8 kW",
+      "36.0 kW"
+    ],
+    "answer": 1,
+    "explanation": "Use **P = √3 × E × I** for unity power factor. 1.732 × 600 × 12 = **12,470 W**, or about **12.5 kW**."
+  },
+  {
+    "id": 63,
+    "category": "Task 19: Electric Heating Systems — 4 Questions",
+    "question": "A heater contactor closes, but one bank of elements stays cold. What should be checked?",
+    "options": [
+      "Element continuity and phase/feed to that bank",
+      "Ground rod depth",
+      "Exit sign battery",
+      "VFD carrier frequency"
+    ],
+    "answer": 0,
+    "explanation": "One cold bank means power or element continuity is missing for that section. Check fuses, contactor poles, terminations, and element condition."
+  },
+  {
+    "id": 64,
+    "category": "Task 19: Electric Heating Systems — 4 Questions",
+    "question": "A unit heater cycles on high limit shortly after starting. What is likely?",
+    "options": [
+      "Restricted airflow or overheating",
+      "Correct temperature control",
+      "Low load current only",
+      "Excessive grounding"
+    ],
+    "answer": 0,
+    "explanation": "High-limit cycling means heat is not being removed properly. Blocked filters, failed fan, or clearance problems can cause overheating."
+  },
+  {
+    "id": 65,
+    "category": "Task 19: Electric Heating Systems — 4 Questions",
+    "question": "A 240 V rated heater element is supplied with 120 V. What happens to heat output?",
+    "options": [
+      "It is greatly reduced",
+      "It doubles",
+      "It stays nameplate wattage",
+      "It becomes three-phase"
+    ],
+    "answer": 0,
+    "explanation": "Resistive heater power depends on voltage and resistance. Lower voltage produces much lower wattage and heat output."
+  },
+  {
+    "id": 66,
+    "category": "Task 20: Exit and Emergency Lighting Systems — 3 Questions",
+    "question": "An emergency lighting unit works during test but not during an actual outage. What should be checked?",
+    "options": [
+      "Normal supply sensing and transfer operation",
+      "Ground rod depth",
+      "Motor phase sequence",
+      "CT polarity only"
+    ],
+    "answer": 0,
+    "explanation": "If the test button works, the battery and lamps may be good. Failure during outage points to sensing, wiring, or transfer operation."
+  },
+  {
+    "id": 67,
+    "category": "Task 20: Exit and Emergency Lighting Systems — 3 Questions",
+    "question": "Exit signs are connected to a switched lighting circuit and turn off when lights are switched off. What is wrong?",
+    "options": [
+      "Exit signs must remain energized as required",
+      "They are more efficient",
+      "Battery life improves safely",
+      "Voltage becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Exit signage must remain available for occupant safety. Connecting it to an ordinary switched circuit can leave exits unmarked."
+  },
+  {
+    "id": 68,
+    "category": "Task 20: Exit and Emergency Lighting Systems — 3 Questions",
+    "question": "Emergency battery units fail a duration test. What is most likely?",
+    "options": [
+      "Weak batteries or charging system problem",
+      "Correct operation",
+      "Higher phase voltage",
+      "Wrong motor rotation"
+    ],
+    "answer": 0,
+    "explanation": "Duration testing confirms the battery can supply emergency lighting for the required time. Failure indicates battery capacity or charger issues."
+  },
+  {
+    "id": 69,
+    "category": "Task 21: Cathodic Protection Systems — 1 Question",
+    "question": "A cathodic protection test station shows no measurable protection current. What should be checked?",
+    "options": [
+      "Connections, anodes, and power source",
+      "Lighting contactor only",
+      "Transformer fan only",
+      "Fire alarm horn only"
+    ],
+    "answer": 0,
+    "explanation": "Cathodic protection requires a complete electrical path. Open leads, depleted anodes, or failed power supplies can stop protection."
+  },
+  {
+    "id": 70,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A motor starter drops out when a second motor starts nearby. What should be checked?",
+    "options": [
+      "Control voltage sag",
+      "Exit sign battery",
+      "Receptacle polarity",
+      "Fire alarm zone"
+    ],
+    "answer": 0,
+    "explanation": "Starting large loads can cause voltage dips. If control voltage drops too low, contactor coils may release."
+  },
+  {
+    "id": 71,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A start button is pressed, but the coil does not energize. Voltage is present at the stop button output but absent at the start button output. What is likely?",
+    "options": [
+      "Start contact is open or failed",
+      "Overload is reset",
+      "Main contacts are welded",
+      "Motor bearings are seized"
+    ],
+    "answer": 0,
+    "explanation": "Voltage reaches the start button but does not leave when pressed. This points to a failed contact or wiring connection at that point."
+  },
+  {
+    "id": 72,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A contactor pulls in, but the motor single-phases because one pole is burnt open. What should be replaced or repaired?",
+    "options": [
+      "Contactor power contacts",
+      "Stop button only",
+      "Pilot light only",
+      "Ground rod only"
+    ],
+    "answer": 0,
+    "explanation": "A failed pole prevents one phase from reaching the motor. This creates single phasing and can damage the motor."
+  },
+  {
+    "id": 73,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A motor starter overload trips immediately on reset even with the motor disconnected. What is likely?",
+    "options": [
+      "Overload relay or control circuit fault",
+      "Mechanical overload",
+      "Motor bearing drag",
+      "Pump blockage"
+    ],
+    "answer": 0,
+    "explanation": "If the motor is disconnected, the trip is not caused by motor load current. The overload relay, auxiliary contact, or control circuit should be checked."
+  },
+  {
+    "id": 74,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A starter coil is replaced with one rated for a higher voltage than the circuit. What is likely?",
+    "options": [
+      "Coil may not pull in reliably",
+      "Coil will always burn instantly",
+      "Motor speed doubles",
+      "Breaker rating changes"
+    ],
+    "answer": 0,
+    "explanation": "A coil rated above the supplied voltage may not develop enough magnetic force. The contactor can chatter or fail to close."
+  },
+  {
+    "id": 75,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A maintained selector switch is wired where a momentary start pushbutton should be. What problem can occur?",
+    "options": [
+      "Unsafe or unintended control operation",
+      "Better overload protection",
+      "Lower current draw",
+      "Correct operation always"
+    ],
+    "answer": 0,
+    "explanation": "Control devices must match the intended logic and function. Using maintained instead of momentary control can bypass expected start/stop behaviour."
+  },
+  {
+    "id": 76,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "An overload contact is bypassed to keep production running. What is the danger?",
+    "options": [
+      "Motor may run without overload protection",
+      "Motor becomes safer",
+      "Current becomes zero",
+      "Voltage becomes balanced"
+    ],
+    "answer": 0,
+    "explanation": "Overload protection prevents sustained overheating. Bypassing it can destroy the motor and create fire hazards."
+  },
+  {
+    "id": 77,
+    "category": "Task 22: Motor Starters and Controls — 8 Questions",
+    "question": "A control transformer secondary reads correct voltage with no load but collapses when coil circuit is connected. What should be checked?",
+    "options": [
+      "Transformer capacity, short circuits, and loose connections",
+      "Motor shaft alignment only",
+      "Exit sign arrows",
+      "Cable tray supports"
+    ],
+    "answer": 0,
+    "explanation": "Voltage collapse under load indicates excessive current or poor source strength. Shorted coils, undersized transformer, and bad connections are likely causes."
+  },
+  {
+    "id": 78,
+    "category": "Task 23: Drives — 4 Questions",
+    "question": "A VFD trips on DC bus overvoltage during rapid deceleration. What is a likely correction?",
+    "options": [
+      "Increase deceleration time or add braking equipment",
+      "Reduce motor bonding",
+      "Shorten acceleration time",
+      "Remove overload protection"
+    ],
+    "answer": 0,
+    "explanation": "Rapid deceleration can return energy to the DC bus. Braking resistors or longer deceleration time help control bus voltage."
+  },
+  {
+    "id": 79,
+    "category": "Task 23: Drives — 4 Questions",
+    "question": "A VFD is installed with motor leads much longer than recommended. What issue may occur?",
+    "options": [
+      "Reflected wave voltage stress and nuisance trips",
+      "Lower voltage stress always",
+      "Motor becomes single phase",
+      "No possible effect"
+    ],
+    "answer": 0,
+    "explanation": "Long VFD motor leads can increase voltage stress at the motor terminals. Filtering, cable selection, or installation changes may be required."
+  },
+  {
+    "id": 80,
+    "category": "Task 23: Drives — 4 Questions",
+    "question": "A drive is programmed with incorrect motor full-load current. What can result?",
+    "options": [
+      "Incorrect motor overload protection",
+      "Better speed control always",
+      "Grounding becomes unnecessary",
+      "Output becomes pure sine wave"
+    ],
+    "answer": 0,
+    "explanation": "Drives use motor nameplate data for protection and control. Wrong current settings can cause nuisance trips or insufficient protection."
+  },
+  {
+    "id": 81,
+    "category": "Task 23: Drives — 4 Questions",
+    "question": "A VFD is fed from a supply with phase loss. What may happen?",
+    "options": [
+      "Input fault or DC bus problem",
+      "Motor speed increases safely",
+      "Drive output becomes mechanical",
+      "Grounding improves"
+    ],
+    "answer": 0,
+    "explanation": "Drives need proper input power to charge the DC bus. Missing input phase can cause faults, heating, or reduced capacity."
+  },
+  {
+    "id": 82,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A three-phase motor starts slowly and draws high current. The load is hard to turn by hand. What is likely?",
+    "options": [
+      "Mechanical binding",
+      "Open stop button",
+      "Correct operation",
+      "High power factor only"
+    ],
+    "answer": 0,
+    "explanation": "A stiff driven load increases starting torque demand. The motor draws high current trying to overcome the mechanical problem."
+  },
+  {
+    "id": 83,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A motor is rated for continuous duty but is started repeatedly every few seconds. What is the concern?",
+    "options": [
+      "Starting heat buildup",
+      "Reduced heating",
+      "Better cooling",
+      "Lower current"
+    ],
+    "answer": 0,
+    "explanation": "Starting current is much higher than running current. Frequent starts can overheat windings and starter components."
+  },
+  {
+    "id": 84,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A motor has correct voltage but no rotation and a loud hum. What should be checked?",
+    "options": [
+      "Locked rotor, phase loss, or failed start components",
+      "Exit light battery",
+      "Panel schedule",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "Humming indicates the motor is energized but unable to start. Mechanical lock, single phasing, or start circuit failure can cause this."
+  },
+  {
+    "id": 85,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A motor winding insulation test shows acceptable resistance when cold but low resistance after running. What may be happening?",
+    "options": [
+      "Heat-related insulation breakdown",
+      "Better insulation when warm",
+      "Correct operation always",
+      "Lower voltage only"
+    ],
+    "answer": 0,
+    "explanation": "Some insulation faults appear only when windings heat and expand. Temperature-related failures require further testing and repair."
+  },
+  {
+    "id": 86,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A three-phase motor on a fan has correct rotation but high current after dampers are adjusted. What is likely?",
+    "options": [
+      "Airflow/load increased",
+      "Phase sequence reversed",
+      "Neutral opened",
+      "Motor became DC"
+    ],
+    "answer": 0,
+    "explanation": "Fan load changes with airflow conditions. Opening dampers can increase motor load and current."
+  },
+  {
+    "id": 87,
+    "category": "Task 24: Motors — 6 Questions",
+    "question": "A DC motor changes speed erratically, and brushes spark heavily. What should be checked?",
+    "options": [
+      "Brushes, commutator, field circuit, and load",
+      "Three-phase rotation",
+      "Exit sign charger",
+      "Fire alarm loop"
+    ],
+    "answer": 0,
+    "explanation": "DC motor performance depends on brush contact and field strength. Poor commutation or field faults can cause sparking and unstable speed."
+  },
+  {
+    "id": 88,
+    "category": "Task 25: Automated Control Systems — 3 Questions",
+    "question": "A PLC output LED turns on, but the connected relay does not energize. What should be checked?",
+    "options": [
+      "Output wiring, relay coil voltage, and common connection",
+      "PLC program only",
+      "Motor bearing grease",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "The PLC may be commanding the output, but the field circuit may be open. The relay coil, common, fuse, and terminals should be checked."
+  },
+  {
+    "id": 89,
+    "category": "Task 25: Automated Control Systems — 3 Questions",
+    "question": "A proximity sensor LED changes state, but the PLC input never changes. What is likely?",
+    "options": [
+      "Wiring, input type, or addressing problem",
+      "Motor overload only",
+      "Transformer tap only",
+      "Generator frequency"
+    ],
+    "answer": 0,
+    "explanation": "Sensor operation at the device does not prove the PLC sees the signal. Input wiring, sourcing/sinking type, terminal, and address must be verified."
+  },
+  {
+    "id": 90,
+    "category": "Task 25: Automated Control Systems — 3 Questions",
+    "question": "A machine restarts automatically after power failure without operator action. What should be reviewed?",
+    "options": [
+      "Restart logic and safety requirements",
+      "Cable tray fill only",
+      "Lamp wattage",
+      "CT polarity"
+    ],
+    "answer": 0,
+    "explanation": "Unexpected restart can injure workers or damage equipment. Control logic must meet safe restart and interlock requirements."
+  },
+  {
+    "id": 91,
+    "category": "Task 26: Signalling Systems — 4 Questions",
+    "question": "A fire alarm initiating circuit shows trouble after ceiling work. What is likely?",
+    "options": [
+      "Damaged or open field wiring",
+      "Motor overload",
+      "Wrong transformer tap",
+      "Reversed phase sequence"
+    ],
+    "answer": 0,
+    "explanation": "Renovation work can damage supervised alarm wiring. A trouble condition often indicates open, shorted, or disturbed field wiring."
+  },
+  {
+    "id": 92,
+    "category": "Task 26: Signalling Systems — 4 Questions",
+    "question": "A signal circuit device activates weakly and voltage at the device is low. What should be checked?",
+    "options": [
+      "Voltage drop and connections",
+      "Motor rotation",
+      "Generator frequency",
+      "Neutral harmonics only"
+    ],
+    "answer": 0,
+    "explanation": "Low voltage at the device can prevent proper operation. Long runs, undersized wiring, or poor terminals can cause voltage drop."
+  },
+  {
+    "id": 93,
+    "category": "Task 26: Signalling Systems — 4 Questions",
+    "question": "A supervised signalling circuit is shorted. What should the control panel indicate?",
+    "options": [
+      "Trouble or alarm depending on system design",
+      "Normal condition always",
+      "Higher battery voltage",
+      "Motor overload"
+    ],
+    "answer": 0,
+    "explanation": "Supervised systems monitor abnormal circuit conditions. A short may create trouble or alarm depending on circuit type and design."
+  },
+  {
+    "id": 94,
+    "category": "Task 26: Signalling Systems — 4 Questions",
+    "question": "A signalling device is replaced with a non-compatible model. What is the concern?",
+    "options": [
+      "System operation and approval may be affected",
+      "Voltage becomes safer",
+      "Current disappears",
+      "Cable becomes fibre optic"
+    ],
+    "answer": 0,
+    "explanation": "Signalling systems require compatible listed devices. Wrong devices may not operate correctly or meet system requirements."
+  },
+  {
+    "id": 95,
+    "category": "Task 27: Communication Systems — 3 Questions",
+    "question": "A data cable is tightly bent beyond its minimum bend radius. What can result?",
+    "options": [
+      "Signal loss or failed certification",
+      "Higher data speed",
+      "Improved shielding",
+      "Lower resistance only"
+    ],
+    "answer": 0,
+    "explanation": "Excessive bending changes cable geometry. This can degrade impedance, increase loss, and fail testing."
+  },
+  {
+    "id": 96,
+    "category": "Task 27: Communication Systems — 3 Questions",
+    "question": "Fibre optic cable has good continuity but high attenuation. What should be checked?",
+    "options": [
+      "Dirty connectors, bends, or damaged fibre",
+      "Breaker size",
+      "Motor overload setting",
+      "Ground electrode"
+    ],
+    "answer": 0,
+    "explanation": "Optical loss often comes from dirty end faces, tight bends, or fibre damage. Cleaning and proper testing are required."
+  },
+  {
+    "id": 97,
+    "category": "Task 27: Communication Systems — 3 Questions",
+    "question": "Communication cable is run parallel to high-current conductors for a long distance. What may occur?",
+    "options": [
+      "Induced noise or interference",
+      "Higher bandwidth always",
+      "Better signal quality",
+      "Reduced voltage on power conductors"
+    ],
+    "answer": 0,
+    "explanation": "High-current conductors can couple noise into communication wiring. Separation and shielding reduce interference."
+  },
+  {
+    "id": 98,
+    "category": "Task 28: Integrated Control Systems — 3 Questions",
+    "question": "A building automation system commands a damper open, but feedback remains closed. What should be checked?",
+    "options": [
+      "Actuator power, linkage, and feedback signal",
+      "CT polarity only",
+      "Lighting dimmer",
+      "Ground rod depth"
+    ],
+    "answer": 0,
+    "explanation": "Command and feedback are different signals. The actuator may lack power, be mechanically stuck, or feedback may be failed."
+  },
+  {
+    "id": 99,
+    "category": "Task 28: Integrated Control Systems — 3 Questions",
+    "question": "Multiple networked controllers fail at the same time after a panel change. What should be checked first?",
+    "options": [
+      "Shared power supply and communication trunk",
+      "Motor bearings",
+      "Exit sign arrows",
+      "Transformer oil only"
+    ],
+    "answer": 0,
+    "explanation": "Multiple device failures usually point to something common. Power, communication wiring, termination, and addressing should be checked."
+  },
+  {
+    "id": 100,
+    "category": "Task 28: Integrated Control Systems — 3 Questions",
+    "question": "An analog temperature signal reads full scale at the controller. What is a likely field cause?",
+    "options": [
+      "Open signal wire or incorrect input scaling",
+      "Motor single phasing",
+      "Generator low frequency",
+      "Breaker interrupting rating"
+    ],
+    "answer": 0,
+    "explanation": "Many analog inputs drive full scale when the signal path is open or misconfigured. Wiring, sensor type, and controller scaling should be verified."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledConstructionElectricianIPRedSealSet2Questions =
+  shuffleArray(constructionElectricianIPRedSealSet2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "construction-electrician",
+  tradeTitle: "Construction Electrician",
+  sectionTitle: "IP Red Seal Practice Exam — Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledConstructionElectricianIPRedSealSet2Questions
+});
+
+window.addEventListener("load", () => {
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+
+  if (hintBtn) hintBtn.style.display = "none";
+  if (hintBox) hintBox.classList.add("hidden");
+  if (hintText) hintText.textContent = "";
+});

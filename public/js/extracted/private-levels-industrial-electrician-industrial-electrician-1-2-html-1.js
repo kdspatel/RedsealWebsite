@@ -1,0 +1,1201 @@
+const electricianLevel1Set2Questions = [
+  {
+    "id": 1,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A 120 V circuit has two loads in series: 15 Ω and 25 Ω. What is the circuit current?",
+    "options": [
+      "2 A",
+      "3 A",
+      "4.8 A",
+      "8 A"
+    ],
+    "answer": 1,
+    "explanation": "Total series resistance is (15 + 25 = 40Ω). Using Ohm’s Law, (I = E/R). (120 ÷ 40 = 3A)."
+  },
+  {
+    "id": 2,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A 240 V heater has a resistance of 20 Ω. What is the wattage of the heater?",
+    "options": [
+      "480 W",
+      "1200 W",
+      "2880 W",
+      "4800 W"
+    ],
+    "answer": 2,
+    "explanation": "First find current: (I = 240 ÷ 20 = 12A). Then power: (P = E × I). (240 × 12 = 2880W)."
+  },
+  {
+    "id": 3,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "Three 12 Ω resistors are connected in parallel. What is the total resistance?",
+    "options": [
+      "3 Ω",
+      "4 Ω",
+      "12 Ω",
+      "36 Ω"
+    ],
+    "answer": 1,
+    "explanation": "Equal resistors in parallel divide by the number of resistors. (R_T = 12 ÷ 3). Total resistance is (4Ω)."
+  },
+  {
+    "id": 4,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A lamp rated 60 W is connected to 120 V. What current does it draw?",
+    "options": [
+      "0.25 A",
+      "0.5 A",
+      "1 A",
+      "2 A"
+    ],
+    "answer": 1,
+    "explanation": "Use (I = P/E). (I = 60 ÷ 120). The lamp draws (0.5A)."
+  },
+  {
+    "id": 5,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "Which circuit condition would most likely cause a fuse to open instantly?",
+    "options": [
+      "Normal load current",
+      "Open neutral",
+      "Short circuit",
+      "High resistance connection only"
+    ],
+    "answer": 2,
+    "explanation": "A short circuit creates a very low resistance path. Low resistance causes very high current. The fuse opens to protect the circuit."
+  },
+  {
+    "id": 6,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A conductor has high resistance because it is:",
+    "options": [
+      "Short and thick",
+      "Long and thin",
+      "Copper and large",
+      "Cool and clean"
+    ],
+    "answer": 1,
+    "explanation": "Resistance increases with conductor length. Resistance decreases as conductor cross-sectional area increases. A long, thin conductor has higher resistance."
+  },
+  {
+    "id": 7,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "Which formula correctly calculates power when current and resistance are known?",
+    "options": [
+      "(P = I^2R)",
+      "(P = IR^2)",
+      "(P = R/I)",
+      "(P = E/R)"
+    ],
+    "answer": 0,
+    "explanation": "Power can be calculated using voltage and current. When voltage is unknown, use (P = I^2R). This is derived from Ohm’s Law."
+  },
+  {
+    "id": 8,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A 10 Ω load and a 40 Ω load are connected in parallel. Which branch has more current?",
+    "options": [
+      "10 Ω branch",
+      "40 Ω branch",
+      "Both have equal current",
+      "Neither branch has current"
+    ],
+    "answer": 0,
+    "explanation": "In parallel, voltage across each branch is the same. Current is inversely related to resistance. The lower resistance branch draws more current."
+  },
+  {
+    "id": 9,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "What happens to total current in a parallel circuit when another load is added?",
+    "options": [
+      "Total current decreases",
+      "Total current increases",
+      "Source voltage becomes zero",
+      "All branch currents stop"
+    ],
+    "answer": 1,
+    "explanation": "Adding a parallel branch creates another current path. Total resistance decreases. With the same voltage, total current increases."
+  },
+  {
+    "id": 10,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A circuit has 5 A flowing through a 16 Ω resistor. What voltage is dropped across it?",
+    "options": [
+      "3.2 V",
+      "11 V",
+      "21 V",
+      "80 V"
+    ],
+    "answer": 3,
+    "explanation": "Use (E = I × R). (E = 5 × 16). Voltage drop is (80V)."
+  },
+  {
+    "id": 11,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A high-resistance connection in a circuit may cause:",
+    "options": [
+      "Excessive heat",
+      "Lower conductor temperature",
+      "Infinite current flow",
+      "Perfect circuit operation"
+    ],
+    "answer": 0,
+    "explanation": "High resistance connections create voltage drop. Current through resistance produces heat. Loose or poor connections can become fire hazards."
+  },
+  {
+    "id": 12,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "Which statement best describes an open circuit?",
+    "options": [
+      "Current is excessive",
+      "Current path is broken",
+      "Resistance is zero",
+      "Voltage source is removed from existence"
+    ],
+    "answer": 1,
+    "explanation": "An open circuit has an incomplete path. Current cannot flow through the load. Voltage may still be present at the open point."
+  },
+  {
+    "id": 13,
+    "category": "A1 - Use electrical circuit concepts",
+    "question": "A load consumes 1440 W at 120 V. What is its resistance?",
+    "options": [
+      "5 Ω",
+      "10 Ω",
+      "15 Ω",
+      "20 Ω"
+    ],
+    "answer": 1,
+    "explanation": "First find current: (I = P/E = 1440 ÷ 120 = 12A). Then (R = E/I). (120 ÷ 12 = 10Ω). --- ## A2. Analyze DC Circuits — 13 Questions"
+  },
+  {
+    "id": 14,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 24 V DC circuit has three series resistors: 2 Ω, 4 Ω, and 6 Ω. What is the current?",
+    "options": [
+      "1 A",
+      "2 A",
+      "4 A",
+      "12 A"
+    ],
+    "answer": 1,
+    "explanation": "Total resistance is (2 + 4 + 6 = 12Ω). Use (I = E/R). (24 ÷ 12 = 2A)."
+  },
+  {
+    "id": 15,
+    "category": "A2 - Analyze DC circuits",
+    "question": "In a 12 V DC circuit, a 3 Ω resistor is connected in series with a 9 Ω resistor. What is the voltage drop across the 3 Ω resistor?",
+    "options": [
+      "1 V",
+      "3 V",
+      "6 V",
+      "9 V"
+    ],
+    "answer": 1,
+    "explanation": "Total resistance is (12Ω), so current is (12 ÷ 12 = 1A). Voltage drop across 3 Ω is (E = IR). (1 × 3 = 3V)."
+  },
+  {
+    "id": 16,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 24 V source feeds two parallel resistors: 8 Ω and 12 Ω. What is the current in the 8 Ω branch?",
+    "options": [
+      "2 A",
+      "3 A",
+      "5 A",
+      "8 A"
+    ],
+    "answer": 1,
+    "explanation": "Parallel branches each receive full source voltage. Use (I = E/R) for the 8 Ω branch. (24 ÷ 8 = 3A)."
+  },
+  {
+    "id": 17,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 24 V source feeds two parallel resistors: 8 Ω and 12 Ω. What is the total current?",
+    "options": [
+      "2 A",
+      "3 A",
+      "5 A",
+      "20 A"
+    ],
+    "answer": 2,
+    "explanation": "The 8 Ω branch current is (24 ÷ 8 = 3A). The 12 Ω branch current is (24 ÷ 12 = 2A). Total current is (3 + 2 = 5A)."
+  },
+  {
+    "id": 18,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A voltmeter reads 0 V across a closed switch in a working DC circuit. What does this usually indicate?",
+    "options": [
+      "Switch is open",
+      "Switch has very low resistance",
+      "Circuit has no source",
+      "Load is shorted"
+    ],
+    "answer": 1,
+    "explanation": "A closed switch should have almost no resistance. With almost no resistance, voltage drop is near zero. This is normal for a good closed switch."
+  },
+  {
+    "id": 19,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A voltmeter reads full source voltage across an open switch. What does this indicate?",
+    "options": [
+      "The switch has voltage across the open contacts",
+      "The circuit is drawing maximum current",
+      "The load has no resistance",
+      "The source is shorted"
+    ],
+    "answer": 0,
+    "explanation": "An open switch interrupts the circuit path. The source voltage appears across the open contacts. This is expected in many control circuits."
+  },
+  {
+    "id": 20,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 6 Ω and 3 Ω resistor are connected in parallel. What is their total resistance?",
+    "options": [
+      "1 Ω",
+      "2 Ω",
+      "4.5 Ω",
+      "9 Ω"
+    ],
+    "answer": 1,
+    "explanation": "Use product-over-sum for two parallel resistors. (R_T = (6 × 3) ÷ (6 + 3)). (18 ÷ 9 = 2Ω)."
+  },
+  {
+    "id": 21,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 10 Ω resistor carries 2 A. How much power does it dissipate?",
+    "options": [
+      "20 W",
+      "40 W",
+      "100 W",
+      "200 W"
+    ],
+    "answer": 1,
+    "explanation": "Use (P = I^2R). (P = 2^2 × 10). (4 × 10 = 40W)."
+  },
+  {
+    "id": 22,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A DC circuit has a measured current lower than expected. Which fault is most likely?",
+    "options": [
+      "Short circuit",
+      "Increased resistance",
+      "Reversed meter leads only",
+      "Correct operation always"
+    ],
+    "answer": 1,
+    "explanation": "If voltage stays constant, current decreases when resistance increases. A loose connection or damaged conductor can add resistance. This reduces circuit current."
+  },
+  {
+    "id": 23,
+    "category": "A2 - Analyze DC circuits",
+    "question": "Which statement is correct about polarity in a DC circuit?",
+    "options": [
+      "Polarity constantly reverses",
+      "Polarity remains fixed",
+      "Polarity exists only in AC circuits",
+      "Polarity removes resistance"
+    ],
+    "answer": 1,
+    "explanation": "DC has a constant polarity. Current flows in one direction through the external circuit. This makes polarity important for electronic devices."
+  },
+  {
+    "id": 24,
+    "category": "A2 - Analyze DC circuits",
+    "question": "In a series DC circuit, one resistor has a higher resistance than the others. It will have:",
+    "options": [
+      "The lowest voltage drop",
+      "The highest voltage drop",
+      "Zero current",
+      "Different current than the others"
+    ],
+    "answer": 1,
+    "explanation": "Current is the same through all series components. Voltage drop is proportional to resistance. The highest resistance gets the highest voltage drop."
+  },
+  {
+    "id": 25,
+    "category": "A2 - Analyze DC circuits",
+    "question": "A 48 V circuit has a total current of 6 A. What is total circuit resistance?",
+    "options": [
+      "4 Ω",
+      "6 Ω",
+      "8 Ω",
+      "12 Ω"
+    ],
+    "answer": 2,
+    "explanation": "Use (R = E/I). (R = 48 ÷ 6). Total resistance is (8Ω)."
+  },
+  {
+    "id": 26,
+    "category": "A2 - Analyze DC circuits",
+    "question": "Kirchhoff’s Voltage Law is most useful when checking:",
+    "options": [
+      "Total voltage drops in a closed loop",
+      "Ladder height",
+      "Conduit fill only",
+      "PPE colour"
+    ],
+    "answer": 0,
+    "explanation": "KVL says voltage rises and drops around a loop balance. In a series circuit, drops equal source voltage. It is used for circuit analysis and troubleshooting. --- ## A3. Analyze Principles of Electromagnetism — 8 Questions"
+  },
+  {
+    "id": 27,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "What will happen to the magnetic field around a conductor if current doubles?",
+    "options": [
+      "It decreases by half",
+      "It increases",
+      "It disappears",
+      "It changes to resistance"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic field strength depends on current. More current produces a stronger magnetic field. This principle is used in coils, relays, and motors."
+  },
+  {
+    "id": 28,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "A solenoid pulls in weakly. Which change would most likely increase its magnetic force?",
+    "options": [
+      "Reduce coil turns",
+      "Increase current through the coil",
+      "Remove the iron core",
+      "Increase air gap"
+    ],
+    "answer": 1,
+    "explanation": "Magnetic force increases with coil current. More current creates stronger flux. A smaller air gap and iron core also help."
+  },
+  {
+    "id": 29,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "An induced voltage is greatest when a conductor moves through magnetic flux at:",
+    "options": [
+      "0 degrees",
+      "15 degrees",
+      "45 degrees",
+      "90 degrees"
+    ],
+    "answer": 3,
+    "explanation": "Maximum flux cutting occurs at right angles. More flux lines cut per second means more induced voltage. This is a basic generator principle."
+  },
+  {
+    "id": 30,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "What happens when a DC relay coil is de-energized?",
+    "options": [
+      "Magnetic field collapses",
+      "Magnetic field becomes permanent",
+      "Current doubles forever",
+      "Resistance becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Current creates the coil’s magnetic field. When current stops, the magnetic field collapses. This collapse can induce a voltage spike."
+  },
+  {
+    "id": 31,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "The direction of magnetic lines around a current-carrying conductor can be found using:",
+    "options": [
+      "Right-hand rule",
+      "Left-foot rule",
+      "Ohm’s Law only",
+      "Wattmeter rule"
+    ],
+    "answer": 0,
+    "explanation": "The right-hand rule relates current direction to magnetic field direction. Thumb points in conventional current direction. Fingers curl in the magnetic field direction."
+  },
+  {
+    "id": 32,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "Why are transformer cores often made of laminated steel?",
+    "options": [
+      "To increase eddy currents",
+      "To reduce eddy current heating",
+      "To stop mutual induction",
+      "To make DC transform normally"
+    ],
+    "answer": 1,
+    "explanation": "Changing magnetic fields can induce currents in the core. Laminations increase resistance to those currents. This reduces heat and energy loss."
+  },
+  {
+    "id": 33,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "What is mutual induction?",
+    "options": [
+      "Current through a resistor making heat",
+      "Voltage induced in one coil by changing current in another coil",
+      "Ground current through earth",
+      "Voltage drop across a switch"
+    ],
+    "answer": 1,
+    "explanation": "Mutual induction requires changing magnetic flux. One coil’s changing field links another coil. Transformers operate using this principle."
+  },
+  {
+    "id": 34,
+    "category": "A3 - Analyze principles of electromagnetism",
+    "question": "In an inductor, current change is opposed because of:",
+    "options": [
+      "Self-induction",
+      "Capacitance only",
+      "Open grounding",
+      "Mechanical friction"
+    ],
+    "answer": 0,
+    "explanation": "A changing current creates a changing magnetic field. That field induces a voltage in the same coil. The induced voltage opposes the current change. --- ## A6. Analyze Electronic Circuits — 6 Questions"
+  },
+  {
+    "id": 35,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "A silicon diode is forward biased when:",
+    "options": [
+      "Anode is positive compared with cathode",
+      "Cathode is positive compared with anode",
+      "Both terminals are grounded",
+      "It is connected only to AC neutral"
+    ],
+    "answer": 0,
+    "explanation": "Forward bias allows diode conduction. For a normal diode, the anode must be positive relative to the cathode. Reverse bias blocks current except leakage."
+  },
+  {
+    "id": 36,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "A diode in a half-wave rectifier conducts during:",
+    "options": [
+      "Both half cycles",
+      "One half cycle",
+      "No half cycles",
+      "Only when the load is open"
+    ],
+    "answer": 1,
+    "explanation": "A half-wave rectifier uses one diode. It passes only one polarity of the AC waveform. The output is pulsating DC."
+  },
+  {
+    "id": 37,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "A capacitor connected across a rectifier output is commonly used to:",
+    "options": [
+      "Smooth pulsating DC",
+      "Increase AC frequency",
+      "Create a ground fault",
+      "Remove all voltage"
+    ],
+    "answer": 0,
+    "explanation": "Capacitors store charge during voltage peaks. They discharge between peaks. This reduces ripple in the DC output."
+  },
+  {
+    "id": 38,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "A transistor used as a switch is normally operated in:",
+    "options": [
+      "Cutoff and saturation",
+      "Open and neutral only",
+      "Resistance and capacitance only",
+      "Ground and bond only"
+    ],
+    "answer": 0,
+    "explanation": "Cutoff means the transistor is off. Saturation means it is fully on. This gives switching action."
+  },
+  {
+    "id": 39,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "What is the main purpose of a resistor in series with an LED?",
+    "options": [
+      "Limit LED current",
+      "Increase LED voltage without limit",
+      "Convert DC to AC",
+      "Store charge"
+    ],
+    "answer": 0,
+    "explanation": "LEDs can be damaged by excessive current. A series resistor controls current flow. This protects the LED from burning out."
+  },
+  {
+    "id": 40,
+    "category": "A6 - Analyze electronic circuits",
+    "question": "Which device is most likely damaged by reverse polarity in a DC circuit?",
+    "options": [
+      "Incandescent lamp",
+      "Plain resistor",
+      "Polarized electrolytic capacitor",
+      "Copper conductor"
+    ],
+    "answer": 2,
+    "explanation": "Electrolytic capacitors have polarity markings. Reverse polarity can cause overheating or failure. Many electronic components require correct polarity. --- # B. PERFORM SAFETY-RELATED FUNCTIONS — 6 Questions --- ## B1. Use PPE and Safety Equipment — 2 Questions"
+  },
+  {
+    "id": 41,
+    "category": "B1 - Use personal protection equipment and safety equipment",
+    "question": "When working near energized electrical equipment, safety glasses protect mainly against:",
+    "options": [
+      "Arc flash debris and flying particles",
+      "Voltage drop",
+      "Low resistance",
+      "Neutral current"
+    ],
+    "answer": 0,
+    "explanation": "Eye protection guards against particles and debris. Electrical work may involve sparks, dust, or fragments. Safety glasses are basic required PPE."
+  },
+  {
+    "id": 42,
+    "category": "B1 - Use personal protection equipment and safety equipment",
+    "question": "Why should metal jewelry be removed before electrical work?",
+    "options": [
+      "It can conduct current and cause burns",
+      "It reduces circuit voltage",
+      "It improves resistance readings",
+      "It prevents grounding from working"
+    ],
+    "answer": 0,
+    "explanation": "Rings, watches, and chains are conductive. They can cause shock or severe burns if they contact live parts. Removing jewelry reduces injury risk. --- ## B2. Maintain Safe Work Environment — 2 Questions"
+  },
+  {
+    "id": 43,
+    "category": "B2 - Maintain safe work environment",
+    "question": "A temporary power cord crosses a walkway. What is the best action?",
+    "options": [
+      "Leave it because workers can step over it",
+      "Route or protect it to remove the trip hazard",
+      "Cover it with scrap cardboard only",
+      "Spray paint it yellow only"
+    ],
+    "answer": 1,
+    "explanation": "Cords across walkways create trip hazards. They can also be damaged by traffic. Proper routing or cord protection improves safety."
+  },
+  {
+    "id": 44,
+    "category": "B2 - Maintain safe work environment",
+    "question": "A worker notices water near energized tools. What should happen first?",
+    "options": [
+      "Continue carefully",
+      "Stop and control the hazard",
+      "Increase breaker size",
+      "Dry it with a metal pipe"
+    ],
+    "answer": 1,
+    "explanation": "Water increases shock risk. Energized equipment near water is dangerous. The hazard must be corrected before work continues. --- ## B3. Perform Lock-Out and Tag-Out Procedures — 2 Questions"
+  },
+  {
+    "id": 45,
+    "category": "B3 - Perform lock-out and tag-out procedures",
+    "question": "Who should remove a personal lock after lock-out is complete?",
+    "options": [
+      "Any worker nearby",
+      "The person who applied it",
+      "The apprentice only",
+      "The customer only"
+    ],
+    "answer": 1,
+    "explanation": "Personal locks identify individual worker protection. Only the worker who applied the lock should remove it. This prevents accidental energization."
+  },
+  {
+    "id": 46,
+    "category": "B3 - Perform lock-out and tag-out procedures",
+    "question": "After isolating and locking a disconnect, why must stored energy be considered?",
+    "options": [
+      "Equipment may still move or release energy",
+      "Voltage always disappears instantly everywhere",
+      "Stored energy improves safety",
+      "Lock-out tags remove pressure automatically"
+    ],
+    "answer": 0,
+    "explanation": "Stored energy may be electrical, mechanical, hydraulic, or pneumatic. Capacitors, springs, and moving parts can remain hazardous. Safe work requires releasing or controlling stored energy. --- # C. USE TOOLS AND EQUIPMENT — 3 Questions --- ## C4. Use Measuring and Testing Equipment — 3 Questions"
+  },
+  {
+    "id": 47,
+    "category": "C4 - Use measuring and testing equipment",
+    "question": "A digital meter shows “OL” while measuring resistance. What does this usually indicate?",
+    "options": [
+      "Very low resistance",
+      "Open circuit or over-range resistance",
+      "Correct voltage",
+      "Reverse current flow"
+    ],
+    "answer": 1,
+    "explanation": "“OL” often means over limit or open loop. The meter cannot measure a complete low-resistance path. This commonly indicates an open circuit."
+  },
+  {
+    "id": 48,
+    "category": "C4 - Use measuring and testing equipment",
+    "question": "Why should a meter be checked on a known live source before and after testing for absence of voltage?",
+    "options": [
+      "To prove the meter works",
+      "To increase circuit current",
+      "To discharge the load",
+      "To bypass lock-out"
+    ],
+    "answer": 0,
+    "explanation": "A faulty meter can falsely show zero voltage. Testing before confirms the meter operates. Testing after confirms it did not fail during use."
+  },
+  {
+    "id": 49,
+    "category": "C4 - Use measuring and testing equipment",
+    "question": "When using a clamp meter on a cable containing hot and neutral together, what will likely happen?",
+    "options": [
+      "It reads the total of both currents",
+      "It reads near zero under normal load",
+      "It doubles the current reading",
+      "It trips the breaker immediately"
+    ],
+    "answer": 1,
+    "explanation": "The hot and neutral magnetic fields oppose each other. If equal current flows out and back, fields cancel. Clamp around one conductor only to measure load current. --- # D. ORGANIZE WORK — 9 Questions --- ## D1. Interpret Plans, Drawings and Specifications — 7 Questions"
+  },
+  {
+    "id": 50,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A drawing note says “mount receptacles AFF.” What does AFF commonly mean?",
+    "options": [
+      "Above finished floor",
+      "Arc fault fuse",
+      "Across feeder frame",
+      "Approved final fitting"
+    ],
+    "answer": 0,
+    "explanation": "AFF means above finished floor. It gives the mounting height reference. Electricians use it to locate devices correctly."
+  },
+  {
+    "id": 51,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A reflected ceiling plan is most useful for locating:",
+    "options": [
+      "Luminaires and ceiling devices",
+      "Underground service conductors only",
+      "Ground rods only",
+      "Panel breaker torque only"
+    ],
+    "answer": 0,
+    "explanation": "Reflected ceiling plans show ceiling layouts. They help locate lights, detectors, and ceiling equipment. They are important for branch circuit installation."
+  },
+  {
+    "id": 52,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A specification requires “approved equal.” What should the electrician do before substituting material?",
+    "options": [
+      "Install any cheaper item",
+      "Confirm approval through proper channels",
+      "Ignore the specification",
+      "Use old stock automatically"
+    ],
+    "answer": 1,
+    "explanation": "“Approved equal” means substitution may be allowed. Approval must come from the proper authority or process. Unapproved substitutions can fail inspection or contract requirements."
+  },
+  {
+    "id": 53,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A riser diagram mainly shows:",
+    "options": [
+      "Vertical relationship of electrical systems",
+      "Exact paint finish",
+      "Tool storage location",
+      "Worker break areas"
+    ],
+    "answer": 0,
+    "explanation": "Riser diagrams show how systems connect between floors or levels. They help identify feeders, panels, and service paths. They are not usually detailed layout drawings."
+  },
+  {
+    "id": 54,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A circuit tag on a receptacle reads “P1-12.” What is the most likely meaning?",
+    "options": [
+      "Panel P1, circuit 12",
+      "Page 1, note 12 only",
+      "Pipe 1, fitting 12",
+      "Phase 1, voltage 12 V"
+    ],
+    "answer": 0,
+    "explanation": "Device tags often identify panel and circuit number. This helps connect and troubleshoot branch circuits. Exact project legend should always be checked."
+  },
+  {
+    "id": 55,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "Why should an electrician compare architectural, mechanical, and electrical drawings?",
+    "options": [
+      "To identify conflicts before installation",
+      "To avoid reading specifications",
+      "To reduce conductor ampacity",
+      "To change code requirements"
+    ],
+    "answer": 0,
+    "explanation": "Different trades may occupy the same spaces. Coordination avoids clashes with ducts, pipes, and structure. Finding conflicts early prevents rework."
+  },
+  {
+    "id": 56,
+    "category": "D1 - Interpret plans, drawings and specifications",
+    "question": "A detail drawing is used when:",
+    "options": [
+      "More installation information is needed than the plan view shows",
+      "The drawing scale is not needed",
+      "Code rules no longer apply",
+      "The device is not electrical"
+    ],
+    "answer": 0,
+    "explanation": "Details show enlarged or specific installation information. They may include mounting, spacing, and assembly requirements. Electricians use them for accurate installation. --- ## D2. Use Canadian Electrical Code — 2 Questions"
+  },
+  {
+    "id": 57,
+    "category": "D2 - Use Canadian Electrical Code",
+    "question": "When a CEC rule references an appendix note, the appendix is usually used to:",
+    "options": [
+      "Provide explanatory information",
+      "Replace all mandatory rules",
+      "Remove inspection requirements",
+      "Override every table"
+    ],
+    "answer": 0,
+    "explanation": "Appendix notes help explain code intent or application. They support proper understanding of rules. Mandatory requirements are found in the rules themselves."
+  },
+  {
+    "id": 58,
+    "category": "D2 - Use Canadian Electrical Code",
+    "question": "Why is it unsafe to use only memory when applying the CEC?",
+    "options": [
+      "Code rules and conditions are detailed",
+      "Code books are only decorative",
+      "Tables never contain notes",
+      "Electrical installations are all identical"
+    ],
+    "answer": 0,
+    "explanation": "Code application depends on exact wording and conditions. Tables, notes, and exceptions matter. Checking the book reduces mistakes. --- # G. USE COMMUNICATION AND MENTORING TECHNIQUES — 1 Question"
+  },
+  {
+    "id": 59,
+    "category": "G2 - Use mentoring techniques",
+    "question": "An apprentice makes an error while terminating a device. What is the best mentoring response?",
+    "options": [
+      "Correct the error, explain why, and let them redo it safely",
+      "Ignore it because mistakes do not matter",
+      "Remove them from all future learning",
+      "Publicly embarrass them"
+    ],
+    "answer": 0,
+    "explanation": "Good mentoring teaches correct method and reasoning. Feedback should improve skill and safety. Supervised practice builds competence. --- # H. INSTALL AND MAINTAIN CONSUMER/SUPPLY SERVICES AND METERING EQUIPMENT — 4 Questions --- ## H1. Install Single-Phase Consumer/Supply Services and Metering Equipment — 3 Questions"
+  },
+  {
+    "id": 60,
+    "category": "H1 - Install single-phase consumer/supply services and metering equipment",
+    "question": "In a 120/240 V single-phase three-wire service, the voltage from either line to neutral is usually:",
+    "options": [
+      "24 V",
+      "120 V",
+      "208 V",
+      "240 V"
+    ],
+    "answer": 1,
+    "explanation": "A 120/240 V service has two ungrounded conductors and a neutral. Line-to-neutral voltage is 120 V. Line-to-line voltage is 240 V."
+  },
+  {
+    "id": 61,
+    "category": "H1 - Install single-phase consumer/supply services and metering equipment",
+    "question": "The neutral conductor in a single-phase 120/240 V service carries:",
+    "options": [
+      "Only the imbalance current between line conductors",
+      "The full current of both lines added together always",
+      "No current under any condition",
+      "Ground fault current only"
+    ],
+    "answer": 0,
+    "explanation": "Balanced 120 V loads on opposite lines reduce neutral current. The neutral carries only the unbalanced portion. This is important in split-phase services."
+  },
+  {
+    "id": 62,
+    "category": "H1 - Install single-phase consumer/supply services and metering equipment",
+    "question": "Why must service conductors be protected from physical damage?",
+    "options": [
+      "They are ahead of many branch circuit protective devices",
+      "They carry no current",
+      "They are always low energy",
+      "They are not part of the electrical system"
+    ],
+    "answer": 0,
+    "explanation": "Service conductors can carry large available fault current. Damage can create severe shock or fire hazards. Mechanical protection is essential. --- ## H3. Maintain Single-Phase Services and Metering Equipment — 1 Question"
+  },
+  {
+    "id": 63,
+    "category": "H3 - Maintain single-phase services and metering equipment",
+    "question": "A meter socket shows pitting and heat marks on the jaws. What is the most likely concern?",
+    "options": [
+      "Poor contact causing overheating",
+      "Excessively clean connection",
+      "Correct operation always",
+      "Low voltage communication fault only"
+    ],
+    "answer": 0,
+    "explanation": "Loose or damaged meter jaws create resistance. Resistance under load causes heat and arcing. This condition requires correction by qualified persons. --- # I. INSTALL AND MAINTAIN PROTECTION DEVICES — 3 Questions --- ## I2. Install Ground Fault, Arc Fault and Surge Protection Devices — 3 Questions"
+  },
+  {
+    "id": 64,
+    "category": "I2 - Install ground fault, arc fault and surge protection devices",
+    "question": "A GFCI trips when 5 mA leaks from hot to ground. Why?",
+    "options": [
+      "It senses imbalance between hot and neutral",
+      "It senses conductor colour",
+      "It measures room temperature",
+      "It detects only overloads"
+    ],
+    "answer": 0,
+    "explanation": "A GFCI compares current leaving and returning. Leakage creates an imbalance. The device trips to reduce shock hazard."
+  },
+  {
+    "id": 65,
+    "category": "I2 - Install ground fault, arc fault and surge protection devices",
+    "question": "An AFCI is designed mainly to reduce risk from:",
+    "options": [
+      "Dangerous arcing faults",
+      "Normal inrush current only",
+      "Low water pressure",
+      "Correctly bonded boxes"
+    ],
+    "answer": 0,
+    "explanation": "Arcing can create high temperatures and fire risk. AFCIs detect certain arc signatures. They open the circuit when dangerous arcing is detected."
+  },
+  {
+    "id": 66,
+    "category": "I2 - Install ground fault, arc fault and surge protection devices",
+    "question": "A surge protective device installed with long lead lengths is less effective because:",
+    "options": [
+      "Added lead impedance increases let-through voltage",
+      "It lowers system frequency",
+      "It turns AC into DC",
+      "It removes neutral current"
+    ],
+    "answer": 0,
+    "explanation": "Surge currents rise very quickly. Long conductors add impedance. Short, straight leads improve surge protection performance. --- # J. INSTALL AND MAINTAIN LOW VOLTAGE DISTRIBUTION SYSTEMS — 2 Questions --- ## J1. Install Low Voltage Distribution Equipment — 2 Questions"
+  },
+  {
+    "id": 67,
+    "category": "J1 - Install low voltage distribution equipment",
+    "question": "A distribution panel has 208 V line-to-line on a three-phase wye system. What is the approximate line-to-neutral voltage?",
+    "options": [
+      "24 V",
+      "120 V",
+      "208 V",
+      "347 V"
+    ],
+    "answer": 1,
+    "explanation": "In a wye system, line voltage equals phase voltage times (\sqrt3). (208 ÷ 1.732 ≈ 120V). This is common in commercial distribution."
+  },
+  {
+    "id": 68,
+    "category": "J1 - Install low voltage distribution equipment",
+    "question": "Why must equipment interrupting ratings be suitable for the installation?",
+    "options": [
+      "Available fault current may exceed device capability",
+      "It makes labels look better",
+      "It lowers normal load current",
+      "It eliminates grounding requirements"
+    ],
+    "answer": 0,
+    "explanation": "Protective devices must safely interrupt fault current. If the rating is too low, failure can be violent. Interrupting rating must match system fault levels. --- # L. INSTALL AND MAINTAIN BONDING, GROUNDING AND GROUND FAULT DETECTION SYSTEMS — 2 Questions --- ## L1. Install Grounding and Bonding Systems — 2 Questions"
+  },
+  {
+    "id": 69,
+    "category": "L1 - Install grounding and bonding systems",
+    "question": "A metal box is not bonded. What is the main danger if a hot conductor contacts it?",
+    "options": [
+      "The box may remain energized",
+      "The voltage becomes zero instantly",
+      "The breaker always trips faster",
+      "The neutral becomes oversized"
+    ],
+    "answer": 0,
+    "explanation": "Bonding provides a low-impedance fault path. Without bonding, metal parts can become live. This creates shock hazard."
+  },
+  {
+    "id": 70,
+    "category": "L1 - Install grounding and bonding systems",
+    "question": "What is the main purpose of the bonding conductor during a ground fault?",
+    "options": [
+      "Carry fault current to help operate the overcurrent device",
+      "Carry normal load current continuously",
+      "Increase conductor resistance",
+      "Replace the neutral conductor"
+    ],
+    "answer": 0,
+    "explanation": "Bonding conductors provide a fault-current path. High fault current helps trip breakers or blow fuses. This clears the dangerous condition. --- # Q. INSTALL AND MAINTAIN RACEWAYS, CABLES AND ENCLOSURES — 5 Questions --- ## Q1. Install Conductors and Cables — 2 Questions"
+  },
+  {
+    "id": 71,
+    "category": "Q1 - Install conductors and cables",
+    "question": "Why should conductors be pulled with proper lubricant when required?",
+    "options": [
+      "To reduce pulling tension and insulation damage",
+      "To increase conductor resistance",
+      "To make voltage higher",
+      "To remove bonding requirements"
+    ],
+    "answer": 0,
+    "explanation": "Pulling friction can damage conductor insulation. Approved lubricant reduces pulling force. This helps protect conductors during installation."
+  },
+  {
+    "id": 72,
+    "category": "Q1 - Install conductors and cables",
+    "question": "A conductor insulation is rated 90°C, but the termination is rated 75°C. What limits the final ampacity application?",
+    "options": [
+      "The lower-rated termination condition",
+      "The highest insulation number only",
+      "The conduit colour",
+      "The breaker handle size only"
+    ],
+    "answer": 0,
+    "explanation": "Equipment terminals have temperature limitations. The conductor must be used within the allowed termination rating. The lowest applicable rating controls the installation. --- ## Q2. Install Raceways, Boxes and Fittings — 3 Questions"
+  },
+  {
+    "id": 73,
+    "category": "Q2 - Install raceways, boxes and fittings",
+    "question": "Why should raceway bends not exceed allowed limits between pull points?",
+    "options": [
+      "Excessive bends make conductor pulling difficult and damaging",
+      "Bends increase voltage automatically",
+      "Bends reduce wire size",
+      "Bends eliminate box fill rules"
+    ],
+    "answer": 0,
+    "explanation": "Too many bends increase pulling friction. High tension can damage insulation or conductors. Pull boxes are used to manage raceway runs."
+  },
+  {
+    "id": 74,
+    "category": "Q2 - Install raceways, boxes and fittings",
+    "question": "A connector is loose where EMT enters a metal box. What is the concern?",
+    "options": [
+      "Loss of mechanical support and possible bonding continuity",
+      "Higher lamp brightness",
+      "Lower frequency",
+      "Perfect installation condition"
+    ],
+    "answer": 0,
+    "explanation": "Raceway fittings must secure the raceway. They may also maintain bonding continuity. Loose fittings can create unsafe conditions."
+  },
+  {
+    "id": 75,
+    "category": "Q2 - Install raceways, boxes and fittings",
+    "question": "Why are unused openings in boxes required to be closed?",
+    "options": [
+      "To maintain enclosure protection and safety",
+      "To allow insects to enter",
+      "To increase available fault current",
+      "To reduce grounding effectiveness"
+    ],
+    "answer": 0,
+    "explanation": "Open knockouts expose wiring and live parts. They also allow debris or moisture entry. Approved closures maintain the enclosure. --- # R. INSTALL AND MAINTAIN BRANCH CIRCUITRY — 8 Questions --- ## R1. Install Luminaires — 2 Questions"
+  },
+  {
+    "id": 76,
+    "category": "R1 - Install luminaires",
+    "question": "A luminaire installed in a damp location must be:",
+    "options": [
+      "Rated or suitable for damp locations",
+      "Installed with no box",
+      "Connected without bonding",
+      "Supported by conductors only"
+    ],
+    "answer": 0,
+    "explanation": "Damp locations expose equipment to moisture. The luminaire must be approved for that environment. Using unsuitable equipment can create shock or failure hazards."
+  },
+  {
+    "id": 77,
+    "category": "R1 - Install luminaires",
+    "question": "A heavy luminaire is installed on a standard device box not rated for its weight. What is the issue?",
+    "options": [
+      "Mechanical support may be unsafe",
+      "Voltage will double",
+      "Current will become zero",
+      "The lamp will automatically dim"
+    ],
+    "answer": 0,
+    "explanation": "Luminaires must be supported by suitable boxes or supports. Weight beyond rating can cause failure. Mechanical safety is part of electrical installation. --- ## R2. Install Wiring Devices — 3 Questions"
+  },
+  {
+    "id": 78,
+    "category": "R2 - Install wiring devices",
+    "question": "A receptacle terminal is loose after installation. What problem can this cause?",
+    "options": [
+      "Heat from high resistance",
+      "Lower resistance than copper",
+      "Perfect load balance",
+      "Reduced available voltage to zero only"
+    ],
+    "answer": 0,
+    "explanation": "Loose terminals create poor contact. Poor contact increases resistance and heating. This can damage devices or cause fire."
+  },
+  {
+    "id": 79,
+    "category": "R2 - Install wiring devices",
+    "question": "Why must a device yoke be bonded when installed in a metal box?",
+    "options": [
+      "To connect exposed metal parts to the fault path",
+      "To increase lamp brightness",
+      "To carry normal neutral current",
+      "To replace the ungrounded conductor"
+    ],
+    "answer": 0,
+    "explanation": "Metal device parts can become energized by a fault. Bonding connects them to the fault-current path. This helps trip the protective device."
+  },
+  {
+    "id": 80,
+    "category": "R2 - Install wiring devices",
+    "question": "A switch is installed in the neutral conductor instead of the ungrounded conductor. What is the hazard?",
+    "options": [
+      "The load may remain energized when switched off",
+      "The circuit becomes safer",
+      "The breaker rating increases",
+      "The voltage becomes DC"
+    ],
+    "answer": 0,
+    "explanation": "Switching the neutral can leave the load connected to live voltage. This creates shock risk during servicing. Switches should interrupt the ungrounded conductor. --- ## R3. Install Lighting Controls — 2 Questions"
+  },
+  {
+    "id": 81,
+    "category": "R3 - Install lighting controls",
+    "question": "In a three-way switch circuit, the two conductors between switches are called:",
+    "options": [
+      "Travellers",
+      "Grounds",
+      "Neutrals only",
+      "Service conductors"
+    ],
+    "answer": 0,
+    "explanation": "Travellers connect the two three-way switches. They allow the circuit path to change. This provides control from two locations."
+  },
+  {
+    "id": 82,
+    "category": "R3 - Install lighting controls",
+    "question": "A motion sensor control fails to operate an LED load correctly. What is a likely cause?",
+    "options": [
+      "Sensor is not compatible with the LED load",
+      "Ground rod is too long",
+      "Conduit is too straight",
+      "Panel label is too clear"
+    ],
+    "answer": 0,
+    "explanation": "Electronic lighting controls must match the load type. Some sensors require minimum load or neutral connection. Compatibility is important with LED lighting. --- ## R4. Install Lighting Standards — 1 Question"
+  },
+  {
+    "id": 83,
+    "category": "R4 - Install lighting standards",
+    "question": "Why is bonding important for a metal outdoor lighting pole?",
+    "options": [
+      "It may become energized during a fault",
+      "It reduces sunlight exposure",
+      "It increases lamp colour temperature",
+      "It replaces the concrete base"
+    ],
+    "answer": 0,
+    "explanation": "Metal poles are exposed conductive parts. A fault can energize the pole. Bonding helps clear the fault and reduce shock hazard. --- # AA. INSTALL AND MAINTAIN COMMUNICATION SYSTEMS — 2 Questions --- ## AA1. Install Voice/Data/Video Systems — 2 Questions"
+  },
+  {
+    "id": 84,
+    "category": "AA1 - Install voice/data/video systems",
+    "question": "Why should CAT6 cable twists be maintained close to the termination point?",
+    "options": [
+      "To reduce crosstalk and preserve performance",
+      "To increase AC voltage",
+      "To make the cable act as a fuse",
+      "To carry grounding current"
+    ],
+    "answer": 0,
+    "explanation": "Twisted pairs reduce electromagnetic interference. Untwisting too much can degrade signal quality. Proper termination helps maintain data performance."
+  },
+  {
+    "id": 85,
+    "category": "AA1 - Install voice/data/video systems",
+    "question": "What is the main concern when running communication cable parallel and close to power conductors?",
+    "options": [
+      "Electrical interference may affect signal quality",
+      "Data voltage becomes 240 V automatically",
+      "Cable colour changes",
+      "RJ45 connectors become breakers"
+    ],
+    "answer": 0,
+    "explanation": "Power conductors can create electromagnetic interference. Communication cables carry low-level signals. Separation and proper installation reduce noise problems."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledElectricianLevel1Set2Questions =
+  shuffleArray(electricianLevel1Set2Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "electrician",
+  tradeTitle: "Electrician",
+  sectionTitle: "Level 1 Practice Standardized Exam – Set 2",
+  questionTimeSeconds: 90,
+  questions: shuffledElectricianLevel1Set2Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledElectricianLevel1Set2Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

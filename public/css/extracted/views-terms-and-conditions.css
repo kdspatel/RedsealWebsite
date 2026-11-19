@@ -1,0 +1,102 @@
+
+
+/* Extracted from views/terms-and-conditions.html */
+* { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f9f8f6;
+      color: #191c20;
+      line-height: 1.7;
+    }
+
+    .navbar {
+      background: #191c20;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 42px 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #f5e9e9;
+      border-radius: 24px;
+      padding: 34px;
+      box-shadow: 0 16px 38px rgba(25,28,32,0.10);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0 0 10px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 24px;
+      border-top: 1px solid #f0e2e3;
+      padding-top: 24px;
+    }
+
+    p, li {
+      color: #3d434b;
+      font-size: 15px;
+    }
+
+    .notice {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #9a3412;
+      padding: 16px;
+      border-radius: 16px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .footer {
+      background: #191c20;
+      color: white;
+      margin-top: 50px;
+      padding: 34px 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: white;
+      font-weight: bold;
+    }
+
+    .footer-text {
+      color: #f6dfe0;
+      font-size: 13px;
+    }

@@ -1,0 +1,895 @@
+const rooferLevel1Set3Questions = [
+      {
+        id: 1,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should roof work stop or be controlled during high winds?",
+        options: ["Wind can move workers, tools, and materials unexpectedly", "Wind improves material handling", "Wind replaces fall protection", "Wind makes roof edges safer"],
+        answer: 0,
+        explanation: "High winds can blow materials off the roof.\nThey can also affect worker balance.\nWork must be planned around safe weather conditions."
+      },
+      {
+        id: 2,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should skylights be treated as fall hazards?",
+        options: ["Some skylights may not support a worker’s weight", "Skylights are always safe to walk on", "Skylights replace roof openings", "Skylights improve fall protection"],
+        answer: 0,
+        explanation: "Skylights can break or fail under weight.\nWorkers can fall through them.\nThey must be guarded or controlled like other openings."
+      },
+      {
+        id: 3,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should roof drains be kept clear during work?",
+        options: ["Blocked drains can cause ponding and slip hazards", "Blocked drains improve water control", "Drains replace roof slope", "Drains are not important during construction"],
+        answer: 0,
+        explanation: "Water can collect if drains are blocked.\nPonding creates slip hazards and roof loading concerns.\nDrains should remain clear."
+      },
+      {
+        id: 4,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should combustible materials be stored away from ignition sources?",
+        options: ["To reduce fire risk", "To make materials easier to burn", "To replace fire extinguishers", "To improve adhesion"],
+        answer: 0,
+        explanation: "Roofing work may involve hot equipment or sparks.\nCombustible materials can ignite.\nSafe storage helps prevent fires."
+      },
+      {
+        id: 5,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should workers avoid throwing tools between roof areas?",
+        options: ["Tools can strike workers or fall from the roof", "Throwing tools improves safety", "It replaces communication", "It makes tools more accurate"],
+        answer: 0,
+        explanation: "Thrown tools are uncontrolled hazards.\nThey can injure workers or people below.\nTools should be carried or passed safely."
+      },
+      {
+        id: 6,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should a fire watch be used after some hot work?",
+        options: ["Hidden ignition can appear after work stops", "Fire watch replaces all fire prevention", "Fire cannot occur after hot work ends", "Fire watch is only for paperwork"],
+        answer: 0,
+        explanation: "Hot work can ignite hidden combustible materials.\nA fire watch helps detect smoke or fire after work.\nIt is part of safe hot work practice."
+      },
+      {
+        id: 7,
+        category: "A1 — Maintain Safe Work Environment",
+        question: "Why should emergency exits remain clear during roofing work?",
+        options: ["Workers and occupants may need quick escape", "Blocking exits improves material storage", "Exits are only for visitors", "It replaces emergency planning"],
+        answer: 0,
+        explanation: "Blocked exits can delay evacuation.\nRoofing materials or debris should not obstruct emergency routes.\nClear exits support site safety."
+      },
+      {
+        id: 8,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should lanyards and lifelines be protected from sharp edges?",
+        options: ["Sharp edges can cut or weaken fall protection equipment", "Sharp edges improve anchorage", "Lifelines are not affected by edges", "It replaces harness inspection"],
+        answer: 0,
+        explanation: "Fall protection equipment can be damaged by abrasion or cuts.\nSharp roof edges are a serious hazard to lifelines.\nEdge protection helps prevent failure."
+      },
+      {
+        id: 9,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should PPE contaminated with roofing chemicals be cleaned or replaced?",
+        options: ["Chemicals can damage PPE or contact skin", "Contaminated PPE is always safer", "Chemicals improve PPE strength", "It replaces washing hands"],
+        answer: 0,
+        explanation: "Some chemicals can weaken materials or irritate skin.\nContaminated PPE may no longer protect properly.\nCleaning or replacement reduces exposure."
+      },
+      {
+        id: 10,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should face shields be used with safety glasses for some tasks?",
+        options: ["To protect the full face from splashes or flying debris", "To replace all fall protection", "To improve roof slope", "To make cutting harder"],
+        answer: 0,
+        explanation: "Safety glasses protect the eyes.\nFace shields add protection for the face.\nBoth may be needed for cutting, grinding, or hot materials."
+      },
+      {
+        id: 11,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should PPE be stored properly when not in use?",
+        options: ["To prevent damage, contamination, or deterioration", "To make PPE harder to find", "To reduce its life", "To replace inspection"],
+        answer: 0,
+        explanation: "PPE can be damaged by sunlight, chemicals, or sharp objects.\nProper storage keeps it ready for use.\nPPE should still be inspected before use."
+      },
+      {
+        id: 12,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should a respirator fit check be completed when required?",
+        options: ["To confirm the respirator seals properly", "To replace filters permanently", "To make breathing harder", "To avoid using the correct respirator"],
+        answer: 0,
+        explanation: "Respirators must seal to protect the worker.\nA poor fit allows contaminants to enter.\nFit checking helps confirm protection."
+      },
+      {
+        id: 13,
+        category: "A2 — Use Personal Protective Equipment (PPE) and Safety Equipment",
+        question: "Why should workers use heat-resistant PPE around hot asphalt or torches?",
+        options: ["Hot materials can cause severe burns", "Heat-resistant PPE increases burn risk", "Hot materials are harmless", "It replaces safe handling"],
+        answer: 0,
+        explanation: "Hot roofing materials and flames can burn skin.\nHeat-resistant PPE helps protect workers.\nSafe handling procedures are still required."
+      },
+      {
+        id: 14,
+        category: "B1 — Use Hand Tools",
+        question: "Why should pry bars be used carefully during tear-off?",
+        options: ["Excessive force can damage the deck or injure workers", "Pry bars replace all cutting tools", "Pry bars are harmless", "More force is always safer"],
+        answer: 0,
+        explanation: "Tear-off work can expose hidden hazards.\nPry bars can slip or damage substrates.\nControlled use protects workers and the roof deck."
+      },
+      {
+        id: 15,
+        category: "B1 — Use Hand Tools",
+        question: "Why should utility knife blades be retracted or covered when not in use?",
+        options: ["Exposed blades can cut workers or materials", "Exposed blades are safer", "It keeps blades dull", "It replaces tool storage"],
+        answer: 0,
+        explanation: "Sharp blades can cause cuts if left exposed.\nRetracting or covering blades prevents accidental contact.\nSafe tool handling reduces injuries."
+      },
+      {
+        id: 16,
+        category: "B2 — Use Power Tools, Pneumatic Tools, Hot-Air Welding, Induction, and Fuelled Equipment",
+        question: "Why should cords and hoses be routed away from walk paths?",
+        options: ["They can create trip hazards", "They improve worker balance", "They replace housekeeping", "They protect roof edges automatically"],
+        answer: 0,
+        explanation: "Cords and hoses across paths can trip workers.\nRouting them safely improves movement.\nThey should also be protected from damage."
+      },
+      {
+        id: 17,
+        category: "B2 — Use Power Tools, Pneumatic Tools, Hot-Air Welding, Induction, and Fuelled Equipment",
+        question: "Why should hot-air welding speed be matched with temperature?",
+        options: ["Both affect seam quality", "Speed does not affect welding", "Faster is always better", "It replaces membrane cleaning"],
+        answer: 0,
+        explanation: "Welding depends on correct heat and travel speed.\nToo fast or too slow can weaken seams.\nProper technique creates a strong weld."
+      },
+      {
+        id: 18,
+        category: "B3 — Use Hoisting, Lifting, and Rigging Equipment",
+        question: "Why should rigging equipment be inspected before lifting?",
+        options: ["Damaged rigging can fail under load", "Inspection weakens rigging", "Any rigging works if the load is small", "It replaces load balance"],
+        answer: 0,
+        explanation: "Slings, hooks, and hardware must be safe.\nDamage or wear can cause failure.\nInspection helps prevent dropped loads."
+      },
+      {
+        id: 19,
+        category: "B4 — Use Access Equipment",
+        question: "Why should ladder angle be set correctly?",
+        options: ["Incorrect angle can cause slipping or tipping", "Any angle is safe", "Steeper is always safer", "It replaces ladder feet"],
+        answer: 0,
+        explanation: "A ladder set too steep or too flat is unstable.\nCorrect angle improves climbing safety.\nThe ladder should also be secured where required."
+      },
+      {
+        id: 20,
+        category: "B4 — Use Access Equipment",
+        question: "Why should scaffold platforms be fully planked where required?",
+        options: ["Gaps can create fall or trip hazards", "Gaps improve footing", "Planking is decorative", "It replaces guardrails"],
+        answer: 0,
+        explanation: "Workers need stable platforms.\nMissing or loose planks can cause falls.\nScaffolds must be properly assembled."
+      },
+      {
+        id: 21,
+        category: "B5 — Use Hot Process Equipment",
+        question: "Why should hot asphalt be transported in approved containers?",
+        options: ["Approved containers reduce spill and burn hazards", "Any bucket works safely", "Containers replace PPE", "Hot asphalt is harmless when carried"],
+        answer: 0,
+        explanation: "Hot asphalt can cause severe burns.\nApproved containers are designed for safer handling.\nWorkers must avoid spills and splashes."
+      },
+      {
+        id: 22,
+        category: "B5 — Use Hot Process Equipment",
+        question: "Why should kettle temperature gauges be checked?",
+        options: ["Incorrect temperature can create material or fire hazards", "Temperature readings are not useful", "Hotter asphalt is always safer", "It replaces fire watch"],
+        answer: 0,
+        explanation: "Hot process materials have safe temperature ranges.\nFaulty gauges can lead to overheating.\nTemperature monitoring helps control risk."
+      },
+      {
+        id: 23,
+        category: "B6 — Use Motorized Equipment",
+        question: "Why should motorized equipment travel paths be planned?",
+        options: ["To avoid workers, edges, openings, and weak areas", "To increase blind spots", "To replace operator training", "To make equipment harder to control"],
+        answer: 0,
+        explanation: "Motorized equipment can injure workers or damage roofs.\nPlanned travel paths reduce hazards.\nOperators must know site limits and obstacles."
+      },
+      {
+        id: 24,
+        category: "C1 — Use Documentation and Reference Materials",
+        question: "Why should roof system specifications be followed?",
+        options: ["They identify required materials and installation methods", "They replace workmanship", "They are only suggestions for colour", "They make safety unnecessary"],
+        answer: 0,
+        explanation: "Specifications describe the approved roof system.\nThey help ensure the correct materials are used.\nFollowing them supports performance and warranty."
+      },
+      {
+        id: 25,
+        category: "C1 — Use Documentation and Reference Materials",
+        question: "Why should product storage instructions be reviewed?",
+        options: ["Improper storage can damage roofing materials", "Storage never affects products", "Wet storage improves all materials", "It replaces installation instructions"],
+        answer: 0,
+        explanation: "Some materials must be kept dry, shaded, or upright.\nPoor storage can reduce performance.\nInstructions help prevent material damage."
+      },
+      {
+        id: 26,
+        category: "C2 — Interpret Blueprints and Drawings",
+        question: "Why should roof edge details be reviewed?",
+        options: ["Edges are important for waterproofing and wind resistance", "Roof edges never leak", "Edge details replace field measurements", "They only show decoration"],
+        answer: 0,
+        explanation: "Roof edges are exposed to wind and water.\nDetails show how membranes and flashings terminate.\nCorrect edge work helps prevent failures."
+      },
+      {
+        id: 27,
+        category: "C2 — Interpret Blueprints and Drawings",
+        question: "Why should elevation changes be identified on roof drawings?",
+        options: ["They affect drainage, flashing, and layout", "Elevation changes never matter", "They replace insulation", "They reduce need for details"],
+        answer: 0,
+        explanation: "Changes in roof height create transitions.\nThese areas need proper flashing and drainage planning.\nIdentifying them helps avoid leaks."
+      },
+      {
+        id: 28,
+        category: "C2 — Interpret Blueprints and Drawings",
+        question: "Why should curb and penetration locations be checked before membrane layout?",
+        options: ["They affect sheet placement, flashing, and cuts", "They do not affect layout", "They replace seams", "They reduce waterproofing"],
+        answer: 0,
+        explanation: "Curbs and penetrations interrupt the roof field.\nPlanning around them reduces awkward cuts.\nIt also supports proper flashing."
+      },
+      {
+        id: 29,
+        category: "C4 — Assess Worksite Conditions",
+        question: "Why should roof surface temperature be considered?",
+        options: ["Temperature can affect adhesives, membranes, and worker safety", "Temperature never matters", "Hot surfaces improve all adhesives", "Cold surfaces always improve bonding"],
+        answer: 0,
+        explanation: "Roof materials often have application temperature limits.\nExtreme heat or cold can affect installation quality.\nTemperature also affects worker safety."
+      },
+      {
+        id: 30,
+        category: "C4 — Assess Worksite Conditions",
+        question: "Why should existing roof layers be identified?",
+        options: ["They affect removal, loading, and installation planning", "Existing layers never matter", "More layers always improve roof performance", "They replace new roofing"],
+        answer: 0,
+        explanation: "Existing layers add weight and may hide problems.\nThey affect tear-off and disposal planning.\nIdentifying them supports safe work."
+      },
+      {
+        id: 31,
+        category: "C4 — Assess Worksite Conditions",
+        question: "Why should roof access points be assessed before starting?",
+        options: ["Safe access is needed for workers, tools, and materials", "Access does not matter", "Any access method is acceptable", "It replaces fall protection"],
+        answer: 0,
+        explanation: "Roofing requires frequent movement of people and materials.\nUnsafe access increases fall and handling hazards.\nAccess planning improves safety."
+      },
+      {
+        id: 32,
+        category: "C5 — Position Equipment and Material on the Ground and on the Roof",
+        question: "Why should adhesives and chemicals be stored according to labels?",
+        options: ["Heat, cold, or ignition sources can create hazards or damage products", "Labels are not useful", "Chemicals can be stored anywhere", "It replaces safety data sheets"],
+        answer: 0,
+        explanation: "Some products are flammable or temperature-sensitive.\nImproper storage can affect performance and safety.\nLabels and safety data sheets should be followed."
+      },
+      {
+        id: 33,
+        category: "C5 — Position Equipment and Material on the Ground and on the Roof",
+        question: "Why should materials be arranged to avoid repeated lifting?",
+        options: ["To reduce strain and improve efficiency", "To increase worker fatigue", "To block paths", "To replace hoisting equipment"],
+        answer: 0,
+        explanation: "Repeated lifting can cause strains.\nGood material placement reduces unnecessary handling.\nIt also speeds work safely."
+      },
+      {
+        id: 34,
+        category: "C5 — Position Equipment and Material on the Ground and on the Roof",
+        question: "Why should material storage avoid blocking roof hatches?",
+        options: ["Workers need safe access and emergency exit routes", "Blocking hatches improves storage", "Hatches are decorative only", "It replaces ladders"],
+        answer: 0,
+        explanation: "Roof hatches are access and emergency routes.\nBlocking them can trap workers or slow response.\nStorage must keep access clear."
+      },
+      {
+        id: 35,
+        category: "C5 — Position Equipment and Material on the Ground and on the Roof",
+        question: "Why should heat-sensitive materials be shaded or protected where required?",
+        options: ["Heat can deform or damage some roofing products", "Heat improves all materials", "Protection is unnecessary", "It replaces installation instructions"],
+        answer: 0,
+        explanation: "Some membranes, adhesives, or sealants can be damaged by heat.\nStorage conditions affect product performance.\nManufacturer requirements should be followed."
+      },
+      {
+        id: 36,
+        category: "C6 — Prepare Material Disposal Systems",
+        question: "Why should disposal chutes be secured properly?",
+        options: ["Loose chutes can shift, spill debris, or fall", "Loose chutes improve disposal", "Chutes replace barricades", "They are not hazardous"],
+        answer: 0,
+        explanation: "Disposal chutes carry debris from height.\nThey must be stable and controlled.\nSecure chutes protect workers and the public."
+      },
+      {
+        id: 37,
+        category: "C6 — Prepare Material Disposal Systems",
+        question: "Why should debris not be allowed to accumulate near roof edges?",
+        options: ["It can fall or create trip hazards", "It improves edge protection", "It replaces guardrails", "It makes cleanup easier"],
+        answer: 0,
+        explanation: "Loose debris near edges can fall below.\nIt also creates trip hazards for workers.\nDebris should be collected and removed safely."
+      },
+      {
+        id: 38,
+        category: "C8 — Use Roofing Math",
+        question: "A roof section is 12 m long and 4 m wide. What is the area?",
+        options: ["16 m²", "24 m²", "48 m²", "96 m²"],
+        answer: 2,
+        explanation: "Area equals length multiplied by width.\n12 m × 4 m = 48 m².\nThis helps estimate materials."
+      },
+      {
+        id: 39,
+        category: "C8 — Use Roofing Math",
+        question: "If 5% waste is added to 80 m², what total area should be estimated?",
+        options: ["82 m²", "84 m²", "85 m²", "90 m²"],
+        answer: 1,
+        explanation: "5% of 80 m² is 4 m².\n80 m² + 4 m² = 84 m².\nWaste allowance helps cover cuts and overlaps."
+      },
+      {
+        id: 40,
+        category: "C8 — Use Roofing Math",
+        question: "If each panel is 1.2 m by 2.4 m, what is the area of one panel?",
+        options: ["2.88 m²", "3.6 m²", "4.8 m²", "1.2 m²"],
+        answer: 0,
+        explanation: "Multiply length by width.\n1.2 m × 2.4 m = 2.88 m².\nPanel area is useful for material estimating."
+      },
+      {
+        id: 41,
+        category: "D1 — Use Communication Techniques",
+        question: "Why should hand signals be agreed on before hoisting materials?",
+        options: ["Noise and distance can make verbal communication difficult", "Hand signals replace rigging inspection", "Signals are unnecessary", "They increase confusion"],
+        answer: 0,
+        explanation: "Hoisting often occurs over distance or around equipment noise.\nClear hand signals help coordinate safe lifts.\nThe crew should understand signals before work starts."
+      },
+      {
+        id: 42,
+        category: "E1 — Protect Surrounding Area",
+        question: "Why should gutters and downspouts be protected during tear-off?",
+        options: ["Debris can clog or damage them", "Damage improves drainage", "Gutters are not affected by roofing", "It replaces cleanup"],
+        answer: 0,
+        explanation: "Tear-off debris can enter gutters.\nClogged or damaged drainage can cause water problems.\nProtection reduces cleanup and repairs."
+      },
+      {
+        id: 43,
+        category: "E1 — Protect Surrounding Area",
+        question: "Why should vehicles near the building be moved or protected?",
+        options: ["Falling debris can damage them", "Vehicles improve roof access", "Protection is never needed", "It replaces debris control"],
+        answer: 0,
+        explanation: "Roofing debris can fall or be blown from the roof.\nVehicles below can be damaged.\nMoving or protecting them prevents claims and hazards."
+      },
+      {
+        id: 44,
+        category: "E2 — Remove Loose Debris",
+        question: "Why should dust and loose material be removed before priming?",
+        options: ["Primer needs a clean surface to bond", "Dust improves primer performance", "Primer replaces cleaning", "Loose material makes surfaces stronger"],
+        answer: 0,
+        explanation: "Primers bond best to clean surfaces.\nLoose dirt prevents proper contact.\nCleaning improves adhesion."
+      },
+      {
+        id: 45,
+        category: "E2 — Remove Loose Debris",
+        question: "Why should loose debris be bagged or contained?",
+        options: ["To prevent it from spreading or blowing away", "To increase cleanup time", "To hide debris on the roof", "To replace disposal planning"],
+        answer: 0,
+        explanation: "Loose debris can blow off the roof or block drains.\nContaining it keeps the site safer.\nIt also makes disposal easier."
+      },
+      {
+        id: 46,
+        category: "E3 — Remove Roofing and Flashings",
+        question: "Why should roof removal be done in manageable sections?",
+        options: ["To limit exposure to weather and keep work controlled", "To expose the whole roof at once always", "To increase water damage risk", "To avoid planning"],
+        answer: 0,
+        explanation: "Opening too much roof can expose the building to rain.\nWorking in sections helps control debris and temporary seals.\nIt improves safety and quality."
+      },
+      {
+        id: 47,
+        category: "F2 — Clean Surface of Deck",
+        question: "Why should adhesive residue be removed or treated as required?",
+        options: ["It can interfere with new material bonding or fit", "Residue always improves bonding", "It replaces primer", "It improves drainage"],
+        answer: 0,
+        explanation: "Old adhesive may be uneven or incompatible.\nIt can affect new materials.\nSurface preparation must meet system requirements."
+      },
+      {
+        id: 48,
+        category: "F2 — Clean Surface of Deck",
+        question: "Why should loose fasteners be removed from the deck?",
+        options: ["They can puncture or damage new roofing materials", "Loose fasteners improve support", "They replace new fasteners", "They are harmless under membranes"],
+        answer: 0,
+        explanation: "Loose fasteners create sharp points and bumps.\nThey may puncture membranes or underlayments.\nDeck preparation removes these hazards."
+      },
+      {
+        id: 49,
+        category: "F4 — Dry Deck",
+        question: "Why should wet deck areas be investigated before covering?",
+        options: ["Wet areas may indicate leaks or damaged substrate", "Wet areas improve roof performance", "Investigation is unnecessary", "It replaces drainage"],
+        answer: 0,
+        explanation: "Moisture may show a problem below the surface.\nCovering wet areas can trap moisture.\nThe cause should be corrected."
+      },
+      {
+        id: 50,
+        category: "G1 — Install Support Panels",
+        question: "Why should support panels be cut accurately around penetrations?",
+        options: ["Poor cuts can leave gaps and weak support", "Gaps improve membrane flashing", "Cutting accuracy is not important", "It replaces curb flashing"],
+        answer: 0,
+        explanation: "Support panels must provide a stable surface.\nLarge gaps create weak spots.\nAccurate cutting improves fit and support."
+      },
+      {
+        id: 51,
+        category: "G1 — Install Support Panels",
+        question: "Why should loose support panels be corrected before continuing?",
+        options: ["Loose panels can move and damage the roof system", "Movement improves flexibility", "Loose panels replace insulation", "It reduces wind uplift resistance in a good way"],
+        answer: 0,
+        explanation: "The roof system needs a stable base.\nLoose panels can create movement and stress.\nThey should be secured before covering."
+      },
+      {
+        id: 52,
+        category: "G2 — Prime Substrate",
+        question: "Why should primer be compatible with the roofing system?",
+        options: ["Incompatible primer can reduce adhesion or damage materials", "Any primer works everywhere", "Primer replaces membrane flashing", "Compatibility only affects colour"],
+        answer: 0,
+        explanation: "Primers are designed for specific materials.\nWrong primer can cause poor bonding.\nManufacturer requirements must be followed."
+      },
+      {
+        id: 53,
+        category: "G3 — Apply Vapour Retarder, Vapour Barrier, and Air Barrier",
+        question: "Why should air barrier continuity be maintained?",
+        options: ["Gaps can allow air leakage through the assembly", "Air leakage improves performance", "Air barriers replace insulation completely", "Continuity is only cosmetic"],
+        answer: 0,
+        explanation: "Air barriers reduce uncontrolled air movement.\nGaps or openings reduce effectiveness.\nContinuity is important at seams and penetrations."
+      },
+      {
+        id: 54,
+        category: "G4 — Install Insulation",
+        question: "Why should insulation layers be offset when multiple layers are used?",
+        options: ["To reduce continuous thermal gaps", "To create straight gaps through all layers", "To replace fastening", "To reduce R-value"],
+        answer: 0,
+        explanation: "Offset layers reduce heat paths through board joints.\nThey also improve roof surface support.\nThis improves thermal performance."
+      },
+      {
+        id: 55,
+        category: "G4 — Install Insulation",
+        question: "Why should insulation be cut neatly around curbs and penetrations?",
+        options: ["To reduce gaps and provide proper support", "To create large voids", "To replace flashing", "To block drainage"],
+        answer: 0,
+        explanation: "Neat cuts improve insulation continuity.\nThey provide a better base for flashing work.\nLarge gaps can reduce performance."
+      },
+      {
+        id: 56,
+        category: "G4 — Install Insulation",
+        question: "Why should insulation boards be installed flat?",
+        options: ["Uneven boards can affect membrane appearance and performance", "Uneven boards improve drainage", "Flatness does not matter", "It replaces cover board"],
+        answer: 0,
+        explanation: "Membranes depend on a smooth surface.\nUneven insulation can create stress or ponding areas.\nFlat installation supports roof quality."
+      },
+      {
+        id: 57,
+        category: "G5 — Install Cover Board",
+        question: "Why should cover board be compatible with the membrane system?",
+        options: ["Incompatibility can affect adhesion or performance", "Any board works with any membrane", "Cover board replaces membrane", "Compatibility only affects weight"],
+        answer: 0,
+        explanation: "Roof systems are tested as assemblies.\nCover board material must match the membrane and adhesive method.\nCompatibility supports warranty and performance."
+      },
+      {
+        id: 58,
+        category: "G5 — Install Cover Board",
+        question: "Why should cover board layout avoid small unsupported pieces where possible?",
+        options: ["Small loose pieces can move or break under the membrane", "Small pieces always improve strength", "Layout does not matter", "It replaces fastening"],
+        answer: 0,
+        explanation: "Small pieces may not provide stable support.\nThey can shift under load or traffic.\nGood layout improves roof surface quality."
+      },
+      {
+        id: 59,
+        category: "G5 — Install Cover Board",
+        question: "Why should cover board be protected from rain before membrane installation?",
+        options: ["Wet cover board can trap moisture in the roof system", "Rain improves board strength", "Protection is unnecessary", "It replaces deck drying"],
+        answer: 0,
+        explanation: "Moisture trapped below the membrane can cause problems.\nWet boards may lose strength or affect adhesion.\nMaterials should be kept dry."
+      },
+      {
+        id: 60,
+        category: "G6 — Install Drains, Vents, Curbs, and Penetrations",
+        question: "Why should penetrations be grouped where practical?",
+        options: ["Fewer separate openings can reduce leak risk and simplify flashing", "More openings always improve waterproofing", "Grouping replaces flashing", "Penetrations do not affect roofs"],
+        answer: 0,
+        explanation: "Each penetration is a potential leak point.\nGrouping can simplify details and reduce interruptions.\nAll penetrations still need proper flashing."
+      },
+      {
+        id: 61,
+        category: "G6 — Install Drains, Vents, Curbs, and Penetrations",
+        question: "Why should curbs extend high enough above the roof surface?",
+        options: ["To reduce water entry during ponding, snow, or splash", "Lower curbs always prevent leaks", "Curb height never matters", "It replaces membrane flashing"],
+        answer: 0,
+        explanation: "Curbs must rise above expected water and snow conditions.\nLow curbs are more likely to leak.\nHeight requirements should be followed."
+      },
+      {
+        id: 62,
+        category: "G7 — Apply Ballast, Walkways, and Protective Surfaces",
+        question: "Why should protective walkways be placed near service equipment?",
+        options: ["Service traffic can damage the roof membrane", "Walkways make leaks more likely", "Service equipment eliminates foot traffic", "It replaces roof access"],
+        answer: 0,
+        explanation: "Technicians often walk to rooftop equipment.\nRepeated traffic can wear membranes.\nWalkways protect high-traffic areas."
+      },
+      {
+        id: 63,
+        category: "G8 — Install Metal Flashings",
+        question: "Why should metal flashing seams be sealed where required?",
+        options: ["Open seams can allow water entry", "Sealing seams always causes leaks", "Seams are not important", "It replaces proper laps"],
+        answer: 0,
+        explanation: "Metal flashing joints are vulnerable to water entry.\nSealant or other methods may be required.\nSeams must be detailed correctly."
+      },
+      {
+        id: 64,
+        category: "H1 — Relax Membranes",
+        question: "Why should membrane relaxation time follow manufacturer instructions?",
+        options: ["Different membranes need different time to lay flat", "Relaxation is never useful", "More tension always improves installation", "It replaces seam work"],
+        answer: 0,
+        explanation: "Membranes may hold curl or stress from rolls.\nRelaxation helps reduce wrinkles.\nInstructions give suitable time and conditions."
+      },
+      {
+        id: 65,
+        category: "H2 — Set Membranes",
+        question: "Why should membrane overlaps be planned?",
+        options: ["Overlaps affect seam location and waterproofing", "Overlaps are decorative only", "Random overlaps always work", "It replaces seam sealing"],
+        answer: 0,
+        explanation: "Seams must be placed and overlapped correctly.\nPoor overlap can create weak waterproofing points.\nPlanning improves seam quality."
+      },
+      {
+        id: 66,
+        category: "H3 — Apply Membranes Using Hot-Liquid Process",
+        question: "Why should hot-liquid membrane be applied to the specified thickness?",
+        options: ["Thickness affects waterproofing performance", "Thinner is always better", "Thickness is not important", "It replaces reinforcement"],
+        answer: 0,
+        explanation: "Hot-liquid systems need enough material to waterproof properly.\nToo thin may fail; too thick may create problems.\nSpecified thickness should be followed."
+      },
+      {
+        id: 67,
+        category: "H3 — Apply Membranes Using Hot-Liquid Process",
+        question: "Why should workers avoid carrying hot material over other workers?",
+        options: ["Spills can cause severe burns", "It improves efficiency safely", "Hot material is harmless", "It replaces communication"],
+        answer: 0,
+        explanation: "Hot roofing materials can cause serious burns.\nCarrying them over people creates unnecessary risk.\nSafe travel paths should be used."
+      },
+      {
+        id: 68,
+        category: "H3 — Apply Membranes Using Hot-Liquid Process",
+        question: "Why should hot-liquid equipment be kept clear of traffic paths?",
+        options: ["To reduce contact, spills, and burn hazards", "To block worker movement", "To improve fire risk", "To replace barricades"],
+        answer: 0,
+        explanation: "Hot equipment creates burn and fire hazards.\nKeeping it out of traffic paths reduces accidental contact.\nSafe setup improves jobsite control."
+      },
+      {
+        id: 69,
+        category: "H3 — Apply Membranes Using Hot-Liquid Process",
+        question: "Why should hot-liquid materials be protected from water contamination?",
+        options: ["Water can cause splattering or poor bonding", "Water improves hot process work", "Water replaces primer", "It reduces burn hazards"],
+        answer: 0,
+        explanation: "Water and hot materials can react dangerously.\nMoisture can cause splattering and poor adhesion.\nMaterials and substrates should be dry."
+      },
+      {
+        id: 70,
+        category: "H6 — Apply Membranes Using Cold-Applied Methods",
+        question: "Why should cold-applied products not be used below their temperature limits?",
+        options: ["Low temperature can prevent proper curing or bonding", "Cold always improves adhesion", "Temperature limits are decorative", "It replaces surface preparation"],
+        answer: 0,
+        explanation: "Cold-applied materials need suitable temperatures.\nCold conditions can slow curing or weaken bonding.\nProduct instructions should be followed."
+      },
+      {
+        id: 71,
+        category: "H6 — Apply Membranes Using Cold-Applied Methods",
+        question: "Why should adhesive coverage be checked during application?",
+        options: ["Skips or thin areas can weaken bonding", "Less adhesive is always better", "Coverage does not matter", "It replaces rolling seams"],
+        answer: 0,
+        explanation: "Adhesives must contact the required areas.\nInsufficient coverage can cause loose membrane or seam failure.\nChecking coverage improves installation quality."
+      },
+      {
+        id: 72,
+        category: "H7 — Apply Membranes Using Mechanical Fasteners",
+        question: "Why should plates be used with fasteners where required?",
+        options: ["Plates spread load and help secure the membrane or insulation", "Plates are decorative only", "Fasteners never need plates", "Plates replace membrane seams"],
+        answer: 0,
+        explanation: "Plates distribute holding force.\nThey help prevent pull-through.\nSystem requirements specify plate use."
+      },
+      {
+        id: 73,
+        category: "H7 — Apply Membranes Using Mechanical Fasteners",
+        question: "Why should fastener rows be straight and correctly spaced?",
+        options: ["Pattern affects securement and seam quality", "Random patterns always improve wind resistance", "Spacing is not important", "It replaces edge securement"],
+        answer: 0,
+        explanation: "Mechanical attachment depends on correct pattern.\nCrooked or poorly spaced fasteners can weaken the system.\nCorrect spacing supports performance."
+      },
+      {
+        id: 74,
+        category: "H10 — Install Membrane Flashings",
+        question: "Why should flashing substrates be cleaned before membrane flashing?",
+        options: ["Dirt can reduce adhesion and waterproofing", "Dirt improves bond", "Cleaning replaces primer always", "It blocks water"],
+        answer: 0,
+        explanation: "Flashing adhesion depends on clean surfaces.\nDust, oil, or debris can cause failure.\nPreparation is important at transitions."
+      },
+      {
+        id: 75,
+        category: "H10 — Install Membrane Flashings",
+        question: "Why should membrane flashing seams be checked carefully?",
+        options: ["Flashing seams are common leak points", "Seams never leak", "Checking replaces installation", "It reduces quality"],
+        answer: 0,
+        explanation: "Flashings protect edges and penetrations.\nA poor seam can let water enter.\nInspection helps ensure watertight details."
+      },
+      {
+        id: 76,
+        category: "H11 — Install Temporary Seals and Temporary Drains",
+        question: "Why should temporary seals be checked before leaving the site?",
+        options: ["To ensure the building is protected from weather", "To trap water intentionally", "To replace permanent details", "To avoid cleanup"],
+        answer: 0,
+        explanation: "Weather can change after workers leave.\nTemporary seals protect unfinished work.\nThey should be checked for gaps or weak areas."
+      },
+      {
+        id: 77,
+        category: "I1 — Install Steep Slope Underlayment",
+        question: "Why should underlayment be fastened enough to resist wind before shingles are installed?",
+        options: ["Loose underlayment can tear or blow off", "Loose underlayment improves protection", "Fastening is never needed", "It replaces shingles"],
+        answer: 0,
+        explanation: "Underlayment may be exposed before final roofing.\nWind can lift or tear it.\nProper fastening keeps it in place."
+      },
+      {
+        id: 78,
+        category: "I1 — Install Steep Slope Underlayment",
+        question: "Why should underlayment be kept smooth?",
+        options: ["Wrinkles can telegraph through or affect shingle installation", "Wrinkles improve drainage", "Underlayment should be bunched up", "It replaces ventilation"],
+        answer: 0,
+        explanation: "Smooth underlayment provides a better base.\nWrinkles can affect the finished roof.\nProper installation improves quality."
+      },
+      {
+        id: 79,
+        category: "I2 — Install Steep Slope Venting",
+        question: "Why should roof vents be located according to the ventilation design?",
+        options: ["Placement affects airflow through the attic", "Vent location never matters", "Vents replace underlayment", "All vents should be placed randomly"],
+        answer: 0,
+        explanation: "Ventilation needs proper intake and exhaust locations.\nPoor placement reduces airflow.\nDesign requirements should be followed."
+      },
+      {
+        id: 80,
+        category: "I3 — Install Steep Slope Valley Applications",
+        question: "Why should valley materials be compatible with shingles and flashings?",
+        options: ["Incompatible materials can deteriorate or corrode", "Any material works in valleys", "Compatibility only affects colour", "It replaces underlayment"],
+        answer: 0,
+        explanation: "Valleys are exposed to concentrated water flow.\nMaterials must resist weather and chemical reactions.\nCompatibility improves roof life."
+      },
+      {
+        id: 81,
+        category: "I3 — Install Steep Slope Valley Applications",
+        question: "Why should debris be kept out of valleys?",
+        options: ["Debris can block water flow and cause leaks", "Debris improves drainage", "Valleys should hold debris", "It replaces flashing"],
+        answer: 0,
+        explanation: "Valleys carry water down the roof.\nDebris can slow or redirect water.\nClean valleys reduce leak risk."
+      },
+      {
+        id: 82,
+        category: "I4 — Install Steep Slope Saddles/Crickets",
+        question: "Why should cricket flashing be integrated with surrounding roofing?",
+        options: ["Poor integration can create leak points", "Crickets do not need flashing", "Flashing should direct water behind the cricket", "It replaces slope"],
+        answer: 0,
+        explanation: "Crickets redirect water around obstructions.\nTheir flashings must tie into the roof system.\nProper integration prevents leaks."
+      },
+      {
+        id: 83,
+        category: "I5 — Install Steep Slope Penetration Flashings",
+        question: "Why should old cracked pipe boots be replaced?",
+        options: ["Cracks can allow water entry", "Cracks improve ventilation", "Boots are decorative only", "Sealant alone is always permanent"],
+        answer: 0,
+        explanation: "Pipe boots seal around roof penetrations.\nCracked rubber or damaged flashing can leak.\nReplacement restores protection."
+      },
+      {
+        id: 84,
+        category: "I5 — Install Steep Slope Penetration Flashings",
+        question: "Why should penetration flashing be installed shingle-fashion?",
+        options: ["Upper materials must shed water over lower materials", "Water should run behind flashing", "Flashing order does not matter", "It replaces fasteners"],
+        answer: 0,
+        explanation: "Roofing materials must overlap to shed water.\nIncorrect order can direct water under the roof covering.\nShingle-fashion layering prevents leaks."
+      },
+      {
+        id: 85,
+        category: "I6 — Install Steep Slope Metal Flashings and Drainage",
+        question: "Why should kick-out flashing be used where required?",
+        options: ["To direct water away from wall intersections", "To send water behind siding", "To replace gutters", "To block drainage"],
+        answer: 0,
+        explanation: "Kick-out flashing directs water away from walls.\nWithout it, water can enter behind cladding.\nIt is important at roof-wall intersections."
+      },
+      {
+        id: 86,
+        category: "J1 — Determine Type and Layout of Shingles",
+        question: "Why should shingle installation begin with a straight reference line?",
+        options: ["It helps keep courses aligned", "It replaces starter strips", "It makes rows crooked", "It prevents measuring"],
+        answer: 0,
+        explanation: "A straight reference line guides the first courses.\nSmall errors can grow across the roof.\nLayout lines improve appearance and water shedding."
+      },
+      {
+        id: 87,
+        category: "J1 — Determine Type and Layout of Shingles",
+        question: "Why should shingle layout avoid very narrow pieces at edges where possible?",
+        options: ["Narrow pieces can look poor and may be difficult to secure", "Narrow pieces are always stronger", "Layout does not affect edges", "It replaces flashing"],
+        answer: 0,
+        explanation: "Small pieces can be weak or awkward to fasten.\nPlanning layout helps balance cuts.\nThis improves appearance and durability."
+      },
+      {
+        id: 88,
+        category: "J1 — Determine Type and Layout of Shingles",
+        question: "Why should shingle bundles be stored flat and protected?",
+        options: ["Poor storage can warp or damage shingles", "Warped shingles install better", "Storage never matters", "It replaces fastening"],
+        answer: 0,
+        explanation: "Shingles can be damaged by heat, bending, or moisture.\nProper storage helps them lay flat.\nThis improves installation quality."
+      },
+      {
+        id: 89,
+        category: "J1 — Determine Type and Layout of Shingles",
+        question: "Why should roof dimensions be measured before shingle layout?",
+        options: ["To plan courses, cuts, and material quantities", "To avoid layout planning", "To replace underlayment", "To make rows uneven"],
+        answer: 0,
+        explanation: "Measurements guide shingle placement.\nThey help estimate materials and reduce awkward cuts.\nAccurate layout improves the final roof."
+      },
+      {
+        id: 90,
+        category: "J2 — Install Starter Strip and Starter Course",
+        question: "Why should starter strips be compatible with the shingle system?",
+        options: ["Compatibility affects sealing and wind resistance", "Any material works as starter", "Starter strips are decorative", "They replace fasteners"],
+        answer: 0,
+        explanation: "Starter strips work with shingles to seal the eave edge.\nIncorrect products may not bond or perform properly.\nSystem compatibility matters."
+      },
+      {
+        id: 91,
+        category: "J3 — Fasten Shingles",
+        question: "Why should pneumatic nailer depth be adjusted correctly?",
+        options: ["To avoid underdriven or overdriven nails", "To increase shingle damage", "Depth never matters", "It replaces nail placement"],
+        answer: 0,
+        explanation: "Nails must be flush with the shingle surface.\nPoor depth reduces holding power.\nAdjustment improves fastening quality."
+      },
+      {
+        id: 92,
+        category: "J3 — Fasten Shingles",
+        question: "Why should shingles not be fastened too high?",
+        options: ["High nails may miss the correct fastening area", "High nails always improve wind resistance", "Nail height does not matter", "It replaces starter strips"],
+        answer: 0,
+        explanation: "Shingles are designed with a nail zone.\nFastening too high can leave shingles poorly secured.\nCorrect nailing protects against wind damage."
+      },
+      {
+        id: 93,
+        category: "J3 — Fasten Shingles",
+        question: "Why should fasteners be corrosion-resistant where required?",
+        options: ["Rusted fasteners can lose holding strength", "Rust improves fastening", "Fastener material never matters", "It replaces flashing"],
+        answer: 0,
+        explanation: "Fasteners are exposed to moisture over time.\nCorrosion can weaken them.\nProper fastener selection improves roof durability."
+      },
+      {
+        id: 94,
+        category: "J4 — Cut Shingles",
+        question: "Why should shingles be cut from the back when recommended?",
+        options: ["It can produce cleaner cuts and protect the finished surface", "It always damages shingles", "Cutting direction never matters", "It replaces sharp blades"],
+        answer: 0,
+        explanation: "Some shingles cut cleaner from the back.\nThis can protect the visible surface.\nManufacturer recommendations should be followed."
+      },
+      {
+        id: 95,
+        category: "J4 — Cut Shingles",
+        question: "Why should cuts around penetrations allow proper flashing fit?",
+        options: ["Poor cuts can interfere with waterproofing details", "Flashing is unnecessary around penetrations", "Bigger gaps always improve sealing", "It replaces pipe boots"],
+        answer: 0,
+        explanation: "Shingles must fit around flashing correctly.\nPoor cuts can create gaps or interfere with water shedding.\nAccurate cutting supports leak prevention."
+      },
+      {
+        id: 96,
+        category: "J5 — Tab Shingles",
+        question: "Why should damaged shingle tabs be replaced?",
+        options: ["Damaged tabs can reduce water shedding and appearance", "Damage improves flexibility", "Tabs are decorative only", "It replaces flashing"],
+        answer: 0,
+        explanation: "Tabs form part of the roof’s water-shedding surface.\nBroken or torn tabs can expose vulnerable areas.\nReplacement improves performance."
+      },
+      {
+        id: 97,
+        category: "J6 — Install Metal Flashings for Shingled Roofs",
+        question: "Why should apron flashing be used at the front of a chimney or curb?",
+        options: ["To direct water onto the shingles below", "To direct water under the shingles", "To replace all step flashing", "To block drainage"],
+        answer: 0,
+        explanation: "Apron flashing protects the lower side of a vertical obstruction.\nIt sheds water onto the roof surface.\nProper lapping prevents leaks."
+      },
+      {
+        id: 98,
+        category: "J6 — Install Metal Flashings for Shingled Roofs",
+        question: "Why should back pan flashing be used behind chimneys where required?",
+        options: ["To divert water around the back of the chimney", "To hold water behind the chimney", "To replace all shingles", "To reduce drainage"],
+        answer: 0,
+        explanation: "The back side of a chimney collects water.\nBack pan flashing helps redirect that water.\nFor wide chimneys, a cricket may also be needed."
+      },
+      {
+        id: 99,
+        category: "J6 — Install Metal Flashings for Shingled Roofs",
+        question: "Why should flashing extend far enough under shingles?",
+        options: ["To prevent wind-driven rain from reaching the deck", "To expose the deck", "To replace underlayment", "To improve leaks"],
+        answer: 0,
+        explanation: "Flashing must overlap enough to shed water.\nShort flashing may allow wind-driven rain underneath.\nProper dimensions improve protection."
+      },
+      {
+        id: 100,
+        category: "J6 — Install Metal Flashings for Shingled Roofs",
+        question: "Why should sealant be used only where appropriate in flashing work?",
+        options: ["Flashing should rely mainly on proper laps and details", "Sealant alone is always permanent", "Sealant replaces all flashing", "More sealant always improves drainage"],
+        answer: 0,
+        explanation: "Sealant can deteriorate over time.\nProper metal laps and shingle-fashion installation provide durable protection.\nSealant should support, not replace, correct flashing."
+      }
+    ];
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleOptionsForQuestion(question) {
+      const correctOptionText = question.options[question.answer];
+      const shuffledOptions = shuffleArray(question.options);
+
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: shuffledOptions.findIndex(option => option === correctOptionText)
+      };
+    }
+
+    const shuffledRooferLevel1Set3Questions =
+      rooferLevel1Set3Questions.map(shuffleOptionsForQuestion);
+
+    createPremiumQuizApp({
+      tradeSlug: "roofer",
+      tradeTitle: "Roofer",
+      sectionTitle: "Harmonized Level 1 – Quiz 3",
+      questionTimeSeconds: 90,
+      questions: shuffledRooferLevel1Set3Questions
+    });
+
+    window.addEventListener("load", () => {
+      const questionTextEl = document.getElementById("quizQuestionText");
+      const hintBtn = document.getElementById("hintBtn");
+      const hintBox = document.getElementById("hintBox");
+      const hintText = document.getElementById("hintText");
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+      const nav = document.getElementById("navigator");
+      const quizOptions = document.getElementById("quizOptions");
+
+      function getCurrentQuestionObject() {
+        const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+        return shuffledRooferLevel1Set3Questions.find(q => q.question === questionText);
+      }
+
+      function resetHint() {
+        if (!hintBox || !hintText || !hintBtn) return;
+        hintBox.classList.add("hidden");
+        hintText.textContent = "";
+        hintBtn.textContent = "Show Hint";
+      }
+
+      if (hintBtn) {
+        hintBtn.addEventListener("click", () => {
+          const currentQuestion = getCurrentQuestionObject();
+          if (!currentQuestion) return;
+
+          if (hintBox.classList.contains("hidden")) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+            hintBox.classList.remove("hidden");
+            hintBtn.textContent = "Hide Hint";
+          } else {
+            resetHint();
+          }
+        });
+      }
+
+      if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+      if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+      if (nav) {
+        nav.addEventListener("click", e => {
+          if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+        });
+      }
+
+      if (quizOptions) {
+        quizOptions.addEventListener("click", () => {
+          setTimeout(() => {
+            if (!hintBox.classList.contains("hidden")) {
+              const currentQuestion = getCurrentQuestionObject();
+              if (currentQuestion) {
+                hintText.textContent = currentQuestion.explanation || "No hint available.";
+              }
+            }
+          }, 100);
+        });
+      }
+
+      resetHint();
+    });

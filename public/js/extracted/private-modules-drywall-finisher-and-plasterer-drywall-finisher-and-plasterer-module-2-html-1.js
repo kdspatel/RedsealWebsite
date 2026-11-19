@@ -1,0 +1,2696 @@
+const drywallFinisherPlastererRepairsRestoration200Questions = [
+  {
+    "id": 1,
+    "category": "Repairs – Basic Surface Repair",
+    "question": "What is the first step before repairing damaged drywall?",
+    "options": [
+      "Paint over the damage",
+      "Inspect and clean the damaged area",
+      "Apply texture immediately",
+      "Sand the entire room"
+    ],
+    "answer": 1,
+    "explanation": "The worker must understand the damage before repairing it. Cleaning also helps compound bond properly."
+  },
+  {
+    "id": 2,
+    "category": "Repairs – Basic Surface Repair",
+    "question": "Why should loose material be removed before patching?",
+    "options": [
+      "Repairs need a solid base",
+      "Loose material makes repairs stronger",
+      "Paint will hold everything together",
+      "Loose material dries faster"
+    ],
+    "answer": 0,
+    "explanation": "Loose paper, old compound, or broken drywall can cause the repair to fail. Repairs must bond to solid material."
+  },
+  {
+    "id": 3,
+    "category": "Repairs – Small Holes",
+    "question": "What is commonly used to repair a small hole in drywall?",
+    "options": [
+      "Joint compound and patch material",
+      "Roofing tar",
+      "Concrete only",
+      "Wood stain"
+    ],
+    "answer": 0,
+    "explanation": "Small holes are often repaired with patch mesh or backing and joint compound. The repair is then feathered smooth."
+  },
+  {
+    "id": 4,
+    "category": "Repairs – Small Holes",
+    "question": "Why should the edges of a small hole be cleaned before filling?",
+    "options": [
+      "To remove loose paper and dust",
+      "To make the hole larger for no reason",
+      "To stop compound from drying",
+      "To avoid sanding later"
+    ],
+    "answer": 0,
+    "explanation": "Clean edges allow compound or patch material to bond better. Loose material can cause bubbling or weak repair edges."
+  },
+  {
+    "id": 5,
+    "category": "Repairs – Surface Preparation",
+    "question": "What can happen if compound is applied over dust?",
+    "options": [
+      "Poor bonding",
+      "Stronger repair",
+      "Faster drying only",
+      "Better texture match"
+    ],
+    "answer": 0,
+    "explanation": "Dust prevents compound from sticking properly. A clean surface is important for lasting repairs."
+  },
+  {
+    "id": 6,
+    "category": "Repairs – Surface Preparation",
+    "question": "What should be done before applying compound over glossy paint?",
+    "options": [
+      "Clean and dull the surface",
+      "Apply compound without preparation",
+      "Add dust to the surface",
+      "Wet the wall heavily"
+    ],
+    "answer": 0,
+    "explanation": "Glossy paint may prevent good adhesion. Cleaning and light sanding help the compound bond."
+  },
+  {
+    "id": 7,
+    "category": "Repairs – Cracks",
+    "question": "What is a common cause of cracks in drywall joints?",
+    "options": [
+      "Movement or poor tape bond",
+      "Clean tools",
+      "Proper drying",
+      "Correct sanding"
+    ],
+    "answer": 0,
+    "explanation": "Cracks often form when drywall moves or tape does not bond properly. The cause should be checked before repair."
+  },
+  {
+    "id": 8,
+    "category": "Repairs – Cracks",
+    "question": "Why should cracks be cleaned before repairing?",
+    "options": [
+      "To remove loose material and improve bond",
+      "To make the crack invisible without compound",
+      "To avoid using tape",
+      "To make the crack wider forever"
+    ],
+    "answer": 0,
+    "explanation": "Loose material inside a crack can stop compound from bonding. Cleaning helps create a stronger repair."
+  },
+  {
+    "id": 9,
+    "category": "Repairs – Cracks",
+    "question": "What may be needed to repair a larger drywall crack?",
+    "options": [
+      "Tape or reinforcement with compound",
+      "Paint only",
+      "Water only",
+      "Sanding dust only"
+    ],
+    "answer": 0,
+    "explanation": "Larger cracks often need reinforcement to reduce the chance of cracking again. Compound alone may not be enough."
+  },
+  {
+    "id": 10,
+    "category": "Repairs – Repeated Cracks",
+    "question": "If the same crack keeps returning, what should be checked?",
+    "options": [
+      "Movement or loose drywall",
+      "Paint colour",
+      "Bucket size",
+      "Tool brand"
+    ],
+    "answer": 0,
+    "explanation": "Repeated cracks often mean there is an underlying issue. The drywall may be moving or not properly supported."
+  },
+  {
+    "id": 11,
+    "category": "Repairs – Water Damage",
+    "question": "What should be done first before repairing water-damaged drywall?",
+    "options": [
+      "Stop the source of moisture",
+      "Paint over the stain",
+      "Sand only the surface",
+      "Apply texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "If water continues to enter, the repair will fail. The moisture problem must be fixed first."
+  },
+  {
+    "id": 12,
+    "category": "Repairs – Water Damage",
+    "question": "Why should wet drywall not be covered immediately with compound?",
+    "options": [
+      "Moisture can cause repair failure",
+      "Wet drywall bonds better",
+      "Compound dries instantly on wet board",
+      "Wet drywall never damages"
+    ],
+    "answer": 0,
+    "explanation": "Wet drywall can soften, grow mold, or lose strength. It must be dried or replaced as needed."
+  },
+  {
+    "id": 13,
+    "category": "Repairs – Water Stains",
+    "question": "Why are water stains often sealed before repainting?",
+    "options": [
+      "Stains can bleed through paint",
+      "Paint always blocks stains alone",
+      "Sealer causes cracks",
+      "Stains improve finish quality"
+    ],
+    "answer": 0,
+    "explanation": "Some stains can show through new paint. A stain-blocking primer helps stop the stain from returning."
+  },
+  {
+    "id": 14,
+    "category": "Repairs – Water Damage",
+    "question": "What can happen if damaged wet drywall is left in place?",
+    "options": [
+      "It may weaken or grow mold",
+      "It becomes stronger",
+      "It never changes",
+      "It improves paint adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Moisture can damage drywall material. Badly damaged drywall may need to be removed and replaced."
+  },
+  {
+    "id": 15,
+    "category": "Repairs – Patch Repair",
+    "question": "Why should patch edges be feathered?",
+    "options": [
+      "To blend the repair into the surrounding wall",
+      "To create a raised edge",
+      "To expose the patch",
+      "To avoid primer"
+    ],
+    "answer": 0,
+    "explanation": "Feathering spreads compound thinly around the patch. This makes the repair less visible after painting."
+  },
+  {
+    "id": 16,
+    "category": "Repairs – Patch Repair",
+    "question": "What happens if patch edges are not feathered well?",
+    "options": [
+      "The repair may show after painting",
+      "The repair becomes invisible",
+      "The wall becomes stronger",
+      "Sanding is not needed"
+    ],
+    "answer": 0,
+    "explanation": "Hard edges or ridges can remain visible under paint. Feathering helps hide the repair."
+  },
+  {
+    "id": 17,
+    "category": "Repairs – Patch Repair",
+    "question": "What should be done if a patch has a low spot after drying?",
+    "options": [
+      "Apply another thin coat",
+      "Paint over it immediately",
+      "Sand the surrounding paper deeply",
+      "Wet the wall heavily"
+    ],
+    "answer": 0,
+    "explanation": "Low spots need more compound. Heavy sanding around a low spot can damage the wall."
+  },
+  {
+    "id": 18,
+    "category": "Repairs – Patch Repair",
+    "question": "What should be done if a patch has a high ridge after drying?",
+    "options": [
+      "Scrape or sand the ridge carefully",
+      "Paint over it",
+      "Add more thick compound immediately",
+      "Leave it for primer"
+    ],
+    "answer": 0,
+    "explanation": "High ridges should be smoothed before final coats. This reduces visible defects."
+  },
+  {
+    "id": 19,
+    "category": "Repairs – Compound Application",
+    "question": "Why are thin coats better than one thick repair coat?",
+    "options": [
+      "Thin coats dry better and shrink less",
+      "Thick coats always dry faster",
+      "Thin coats do not need sanding",
+      "Thick coats never crack"
+    ],
+    "answer": 0,
+    "explanation": "Thick compound can shrink, crack, or dry slowly. Several thin coats give a better repair."
+  },
+  {
+    "id": 20,
+    "category": "Repairs – Compound Application",
+    "question": "What can happen if repair compound is applied too thick?",
+    "options": [
+      "It may crack or shrink",
+      "It dries instantly",
+      "It becomes primer",
+      "It removes the need for sanding"
+    ],
+    "answer": 0,
+    "explanation": "Thick compound holds more moisture and can shrink as it dries. This can leave cracks or low spots."
+  },
+  {
+    "id": 21,
+    "category": "Repairs – Drying Time",
+    "question": "Why should repair compound dry before sanding?",
+    "options": [
+      "Wet compound can smear and clog sandpaper",
+      "Wet compound sands better",
+      "Sanding wet compound makes it stronger",
+      "Drying is not important"
+    ],
+    "answer": 0,
+    "explanation": "Compound should be fully dry before sanding. Damp compound will not sand properly."
+  },
+  {
+    "id": 22,
+    "category": "Repairs – Drying Time",
+    "question": "What can slow drying of ready-mix repair compound?",
+    "options": [
+      "High humidity or cold temperature",
+      "Warm dry air",
+      "Good ventilation",
+      "Thin coats"
+    ],
+    "answer": 0,
+    "explanation": "Ready-mix compound dries by evaporation. Damp or cold conditions slow the drying process."
+  },
+  {
+    "id": 23,
+    "category": "Repairs – Sanding",
+    "question": "Why is sanding done during drywall repair?",
+    "options": [
+      "To smooth the repaired surface",
+      "To remove all patch material",
+      "To cut drywall board",
+      "To install screws"
+    ],
+    "answer": 0,
+    "explanation": "Sanding removes ridges and blends the repair into the surrounding surface."
+  },
+  {
+    "id": 24,
+    "category": "Repairs – Sanding",
+    "question": "What can happen if you sand too much?",
+    "options": [
+      "Drywall paper or tape can be damaged",
+      "The repair becomes stronger",
+      "Compound becomes wet again",
+      "Paint is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Over-sanding can tear paper, expose tape, or damage the repair area."
+  },
+  {
+    "id": 25,
+    "category": "Repairs – Sanding",
+    "question": "Why should sanding dust be removed before priming?",
+    "options": [
+      "Dust can affect primer adhesion",
+      "Dust improves paint finish",
+      "Dust replaces sealer",
+      "Dust hides defects permanently"
+    ],
+    "answer": 0,
+    "explanation": "Primer bonds better to a clean surface. Dust can cause poor finish quality."
+  },
+  {
+    "id": 26,
+    "category": "Repairs – Primer",
+    "question": "Why should repaired areas be primed before painting?",
+    "options": [
+      "To seal the repair and reduce flashing",
+      "To replace compound",
+      "To avoid sanding",
+      "To remove all cracks forever"
+    ],
+    "answer": 0,
+    "explanation": "Primer helps the repaired area absorb paint more evenly. This reduces visible differences after painting."
+  },
+  {
+    "id": 27,
+    "category": "Repairs – Flashing",
+    "question": "What does flashing mean after painting?",
+    "options": [
+      "A visible difference in sheen or appearance",
+      "A type of screw failure",
+      "A sanding pattern only",
+      "A corner bead type"
+    ],
+    "answer": 0,
+    "explanation": "Flashing occurs when repaired areas absorb paint differently or have a different texture."
+  },
+  {
+    "id": 28,
+    "category": "Repairs – Flashing",
+    "question": "What is a common cause of repair flashing?",
+    "options": [
+      "Different texture or surface porosity",
+      "Correct primer use",
+      "Perfect texture match",
+      "Proper sealing"
+    ],
+    "answer": 0,
+    "explanation": "If a repair does not match the surrounding surface, it may show after painting."
+  },
+  {
+    "id": 29,
+    "category": "Repairs – Texture Matching",
+    "question": "Why should texture repairs match the surrounding surface?",
+    "options": [
+      "To make the repair less visible",
+      "To make the patch weaker",
+      "To increase cracks",
+      "To avoid cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Texture differences stand out after painting. Matching texture helps blend the repair."
+  },
+  {
+    "id": 30,
+    "category": "Repairs – Texture Matching",
+    "question": "What should be done before spraying texture on a repaired area?",
+    "options": [
+      "Test and adjust the texture pattern",
+      "Spray without masking",
+      "Leave the repair rough",
+      "Paint first, then patch"
+    ],
+    "answer": 0,
+    "explanation": "Testing helps match the existing texture. It also helps check spray settings before applying to the repair."
+  },
+  {
+    "id": 31,
+    "category": "Repairs – Texture Matching",
+    "question": "A repaired area is smooth but the wall has orange-peel texture. What must be done?",
+    "options": [
+      "Match the texture before final painting",
+      "Leave the patch smooth",
+      "Paint it darker",
+      "Sand the whole wall through the paper"
+    ],
+    "answer": 0,
+    "explanation": "A smooth patch on a textured wall will usually show. The texture should be blended into the surrounding wall."
+  },
+  {
+    "id": 32,
+    "category": "Repairs – Texture Matching",
+    "question": "Why is it difficult to hide a repair on a textured ceiling?",
+    "options": [
+      "The texture pattern must match",
+      "Ceilings never need primer",
+      "Texture makes repairs disappear automatically",
+      "Sanding is not allowed on ceilings"
+    ],
+    "answer": 0,
+    "explanation": "Ceiling texture differences are easy to see under light. Matching the pattern is important."
+  },
+  {
+    "id": 33,
+    "category": "Repairs – Corner Bead Repair",
+    "question": "What should be done with badly bent corner bead?",
+    "options": [
+      "Straighten or replace it before refinishing",
+      "Paint over it",
+      "Cover one side only",
+      "Sand the opposite wall"
+    ],
+    "answer": 0,
+    "explanation": "Bent bead affects the corner line. Compound alone may not hide a badly damaged bead."
+  },
+  {
+    "id": 34,
+    "category": "Repairs – Corner Bead Repair",
+    "question": "What can cause cracks along corner bead?",
+    "options": [
+      "Loose or moving bead",
+      "Correct fastening",
+      "Clean compound",
+      "Proper sanding"
+    ],
+    "answer": 0,
+    "explanation": "If the bead moves, the compound can crack along its edges. The bead must be secure."
+  },
+  {
+    "id": 35,
+    "category": "Repairs – Corner Bead Repair",
+    "question": "Why should corner bead be secured before repair compound is applied?",
+    "options": [
+      "Movement can crack the repair",
+      "Loose bead improves the finish",
+      "Paint holds the bead in place",
+      "Sanding secures the bead"
+    ],
+    "answer": 0,
+    "explanation": "Repair compound cannot stop loose bead movement. The bead must be fastened or replaced first."
+  },
+  {
+    "id": 36,
+    "category": "Repairs – Tape Repair",
+    "question": "What should be done with loose tape before refinishing?",
+    "options": [
+      "Remove or repair the loose tape",
+      "Paint over it",
+      "Wet it and leave it",
+      "Sand only the center"
+    ],
+    "answer": 0,
+    "explanation": "Loose tape will not stay hidden under paint. It must be repaired properly."
+  },
+  {
+    "id": 37,
+    "category": "Repairs – Tape Repair",
+    "question": "What can cause tape to come loose?",
+    "options": [
+      "Poor bond, dust, or lack of compound",
+      "Correct bedding",
+      "Clean surfaces",
+      "Enough compound under tape"
+    ],
+    "answer": 0,
+    "explanation": "Tape needs a clean surface and enough wet compound. Without these, it can lift."
+  },
+  {
+    "id": 38,
+    "category": "Repairs – Tape Repair",
+    "question": "What is the best repair for a small loose tape section?",
+    "options": [
+      "Cut out loose tape and patch/re-tape as needed",
+      "Paint over it",
+      "Press it dry with a knife",
+      "Cover it with dust"
+    ],
+    "answer": 0,
+    "explanation": "Loose tape should be removed or rebonded properly. Covering it does not fix the failure."
+  },
+  {
+    "id": 39,
+    "category": "Repairs – Dent Repair",
+    "question": "How is a small dent in drywall commonly repaired?",
+    "options": [
+      "Fill, feather, sand, and prime",
+      "Paint over it only",
+      "Remove the full wall sheet",
+      "Spray water on it"
+    ],
+    "answer": 0,
+    "explanation": "Small dents need compound, feathering, sanding, and primer before painting."
+  },
+  {
+    "id": 40,
+    "category": "Repairs – Dent Repair",
+    "question": "Why should a dent repair be feathered beyond the dent?",
+    "options": [
+      "To blend the repair into the wall",
+      "To make a raised patch",
+      "To expose damaged paper",
+      "To avoid primer"
+    ],
+    "answer": 0,
+    "explanation": "Feathering spreads the repair out so the patch does not show as a bump."
+  },
+  {
+    "id": 41,
+    "category": "Repairs – Impact Damage",
+    "question": "What should be done if the drywall around a hole is broken and weak?",
+    "options": [
+      "Remove weak material and create a solid repair base",
+      "Paint over the hole",
+      "Fill only with dust",
+      "Leave broken paper inside"
+    ],
+    "answer": 0,
+    "explanation": "Weak drywall cannot support a strong patch. The damaged area must be prepared properly."
+  },
+  {
+    "id": 42,
+    "category": "Repairs – Impact Damage",
+    "question": "Why might a backing piece be used behind a larger drywall patch?",
+    "options": [
+      "To support the patch",
+      "To add paint colour",
+      "To hold sanding dust",
+      "To replace primer"
+    ],
+    "answer": 0,
+    "explanation": "Larger patches often need backing to hold the patch piece securely in place."
+  },
+  {
+    "id": 43,
+    "category": "Repairs – Impact Damage",
+    "question": "What should be done after installing a patch piece?",
+    "options": [
+      "Tape and finish the patch edges",
+      "Paint immediately",
+      "Leave all gaps open",
+      "Sand before applying compound"
+    ],
+    "answer": 0,
+    "explanation": "Patch seams need tape and compound like normal drywall joints. This helps prevent cracks."
+  },
+  {
+    "id": 44,
+    "category": "Repairs – Surface Defects",
+    "question": "What are pinholes?",
+    "options": [
+      "Tiny holes in dried compound",
+      "Large cracks in framing",
+      "Screw heads only",
+      "Paint roller marks only"
+    ],
+    "answer": 0,
+    "explanation": "Pinholes are small holes often caused by trapped air in compound."
+  },
+  {
+    "id": 45,
+    "category": "Repairs – Surface Defects",
+    "question": "How are pinholes commonly repaired?",
+    "options": [
+      "Apply a tight skim coat",
+      "Paint over them immediately",
+      "Sand through the board",
+      "Add dry dust"
+    ],
+    "answer": 0,
+    "explanation": "A tight skim coat fills tiny surface holes and improves the finish."
+  },
+  {
+    "id": 46,
+    "category": "Repairs – Surface Defects",
+    "question": "What can cause bubbles in repair compound?",
+    "options": [
+      "Trapped air or poor surface bond",
+      "Correct preparation",
+      "Clean surface only",
+      "Proper drying"
+    ],
+    "answer": 0,
+    "explanation": "Bubbles may form from air, damaged paper, or poor adhesion. Surface prep is important."
+  },
+  {
+    "id": 47,
+    "category": "Repairs – Final Finish",
+    "question": "What should be checked before painting a repaired area?",
+    "options": [
+      "Smoothness, dust, texture match, and primer need",
+      "Only tool colour",
+      "Only bucket size",
+      "Nothing after sanding"
+    ],
+    "answer": 0,
+    "explanation": "Final checks help prevent visible repairs after painting."
+  },
+  {
+    "id": 48,
+    "category": "Repairs – Final Finish",
+    "question": "Why should repairs be inspected after drying?",
+    "options": [
+      "Shrinkage or defects may appear",
+      "Wet repairs always show final quality",
+      "Drying removes all defects",
+      "Inspection is not needed"
+    ],
+    "answer": 0,
+    "explanation": "Compound can shrink as it dries. Some problems are only visible after drying."
+  },
+  {
+    "id": 49,
+    "category": "Repairs – Final Finish",
+    "question": "What is the purpose of final cleanup after repair work?",
+    "options": [
+      "Remove dust and leave the area safe and clean",
+      "Hide defects with dust",
+      "Replace primer",
+      "Keep tools dirty"
+    ],
+    "answer": 0,
+    "explanation": "Cleanup improves safety and helps prepare the area for primer or paint."
+  },
+  {
+    "id": 50,
+    "category": "Repairs – Final Finish",
+    "question": "What is the main goal of drywall repair?",
+    "options": [
+      "Make the damaged area blend with the surrounding surface",
+      "Make the repair stand out",
+      "Avoid sanding completely",
+      "Cover damage with paint only"
+    ],
+    "answer": 0,
+    "explanation": "A good repair should be strong, smooth, and difficult to see after painting."
+  },
+  {
+    "id": 51,
+    "category": "Repairs – Water Damage",
+    "question": "Before repairing water-damaged drywall, what must be done first?",
+    "options": [
+      "Stop the water source",
+      "Paint over the stain",
+      "Sand the stain only",
+      "Apply texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "If water continues to enter, the repair will fail. The moisture problem must be corrected first."
+  },
+  {
+    "id": 52,
+    "category": "Repairs – Water Damage",
+    "question": "Why should wet drywall not be finished immediately?",
+    "options": [
+      "Moisture can weaken the repair and cause failure",
+      "Wet drywall bonds better",
+      "Wet drywall dries compound instantly",
+      "Wet drywall never needs repair"
+    ],
+    "answer": 0,
+    "explanation": "Wet drywall may soften, grow mold, or lose strength. It must be dried or replaced as needed."
+  },
+  {
+    "id": 53,
+    "category": "Repairs – Water Stains",
+    "question": "Why should water stains be sealed before painting?",
+    "options": [
+      "Stains can bleed through new paint",
+      "Paint always blocks stains",
+      "Sealer causes cracks",
+      "Stains improve paint colour"
+    ],
+    "answer": 0,
+    "explanation": "Water stains may show again through paint. A stain-blocking primer helps prevent this."
+  },
+  {
+    "id": 54,
+    "category": "Repairs – Water Damage",
+    "question": "A ceiling has water damage and feels soft when pressed. What is the best action?",
+    "options": [
+      "Inspect and replace damaged material if needed",
+      "Paint it immediately",
+      "Sand it only",
+      "Cover it with texture"
+    ],
+    "answer": 0,
+    "explanation": "Soft drywall may have lost strength. Damaged material should not simply be covered."
+  },
+  {
+    "id": 55,
+    "category": "Repairs – Moisture Problems",
+    "question": "What can happen if moisture remains behind a drywall repair?",
+    "options": [
+      "Mold growth or repair failure",
+      "Better adhesion",
+      "Faster drying",
+      "Stronger compound"
+    ],
+    "answer": 0,
+    "explanation": "Trapped moisture can damage drywall and cause health or finish problems."
+  },
+  {
+    "id": 56,
+    "category": "Repairs – Cracks",
+    "question": "A crack keeps coming back after repair. What should be checked?",
+    "options": [
+      "Movement, loose board, or lack of support",
+      "Paint colour",
+      "Bucket size",
+      "Sandpaper brand"
+    ],
+    "answer": 0,
+    "explanation": "Repeated cracking usually means there is an underlying movement or support issue."
+  },
+  {
+    "id": 57,
+    "category": "Repairs – Cracks",
+    "question": "What is the best repair for a crack caused by loose drywall board?",
+    "options": [
+      "Secure the board first, then repair the crack",
+      "Paint over the crack",
+      "Apply texture only",
+      "Sand the crack smooth only"
+    ],
+    "answer": 0,
+    "explanation": "If the board still moves, the crack will likely return. The cause must be corrected first."
+  },
+  {
+    "id": 58,
+    "category": "Repairs – Cracks",
+    "question": "Why is tape or mesh sometimes used in crack repairs?",
+    "options": [
+      "To reinforce the repair",
+      "To avoid compound",
+      "To make the crack larger",
+      "To remove primer"
+    ],
+    "answer": 0,
+    "explanation": "Reinforcement helps reduce future cracking, especially where movement or joint weakness exists."
+  },
+  {
+    "id": 59,
+    "category": "Repairs – Cracks",
+    "question": "A hairline crack is visible after painting. What was likely missed?",
+    "options": [
+      "Proper filling, reinforcement, or feathering",
+      "Floor protection",
+      "Tool storage",
+      "Paint tray cleaning only"
+    ],
+    "answer": 0,
+    "explanation": "Cracks must be prepared and repaired correctly before painting. Paint alone does not fix cracks."
+  },
+  {
+    "id": 60,
+    "category": "Repairs – Loose Tape",
+    "question": "Loose tape is found along a joint. What is the correct repair?",
+    "options": [
+      "Remove loose tape and re-tape or patch properly",
+      "Paint over it",
+      "Sand only the middle",
+      "Wet it and leave it"
+    ],
+    "answer": 0,
+    "explanation": "Loose tape is a bond failure. It must be repaired before finishing."
+  },
+  {
+    "id": 61,
+    "category": "Repairs – Loose Tape",
+    "question": "What commonly causes tape to come loose?",
+    "options": [
+      "Lack of compound, dust, or poor bond",
+      "Proper bedding",
+      "Clean surface",
+      "Correct drying"
+    ],
+    "answer": 0,
+    "explanation": "Tape needs enough wet compound and a clean surface to bond properly."
+  },
+  {
+    "id": 62,
+    "category": "Repairs – Loose Tape",
+    "question": "Why should loose tape not be painted over?",
+    "options": [
+      "It will likely show or fail again",
+      "Paint makes tape bond permanently",
+      "Primer repairs all tape failure",
+      "Loose tape improves texture"
+    ],
+    "answer": 0,
+    "explanation": "Paint cannot fix loose tape. The loose section must be repaired correctly."
+  },
+  {
+    "id": 63,
+    "category": "Repairs – Tape Bubbles",
+    "question": "What does a tape bubble usually indicate?",
+    "options": [
+      "Tape is not bonded properly",
+      "Tape is stronger than normal",
+      "Compound dried perfectly",
+      "The wall needs no repair"
+    ],
+    "answer": 0,
+    "explanation": "A bubble means the tape has separated from the compound or drywall surface."
+  },
+  {
+    "id": 64,
+    "category": "Repairs – Tape Bubbles",
+    "question": "What is the best repair for a dried tape bubble?",
+    "options": [
+      "Cut it out and repair the area",
+      "Paint over it",
+      "Press it with a dry knife only",
+      "Add sanding dust to it"
+    ],
+    "answer": 0,
+    "explanation": "The loose area must be removed or opened and repaired. Covering it does not fix the bond problem."
+  },
+  {
+    "id": 65,
+    "category": "Repairs – Corner Bead Damage",
+    "question": "A corner bead is cracked along both edges. What is the likely cause?",
+    "options": [
+      "Loose or moving bead",
+      "Correct fastening",
+      "Too much primer",
+      "Clean surface"
+    ],
+    "answer": 0,
+    "explanation": "Movement in corner bead often causes cracks along the edges of the bead."
+  },
+  {
+    "id": 66,
+    "category": "Repairs – Corner Bead Damage",
+    "question": "What should be done before repairing compound around loose corner bead?",
+    "options": [
+      "Secure or replace the bead",
+      "Paint it first",
+      "Sand only one side",
+      "Apply texture only"
+    ],
+    "answer": 0,
+    "explanation": "Repair compound cannot stop bead movement. The bead must be solid before refinishing."
+  },
+  {
+    "id": 67,
+    "category": "Repairs – Corner Bead Damage",
+    "question": "A metal corner bead is bent badly after impact. What is usually the best repair?",
+    "options": [
+      "Replace or straighten the bead before finishing",
+      "Paint over it",
+      "Fill one side only",
+      "Sand the drywall around it only"
+    ],
+    "answer": 0,
+    "explanation": "A bent bead affects the corner line. Compound alone may not hide the damage."
+  },
+  {
+    "id": 68,
+    "category": "Repairs – Corner Bead Damage",
+    "question": "Why must corner bead be straight before refinishing?",
+    "options": [
+      "The finished corner follows the bead line",
+      "Paint will straighten it",
+      "Sanding removes all crooked corners",
+      "Straightness does not matter"
+    ],
+    "answer": 0,
+    "explanation": "If the bead is crooked or damaged, the finished corner will also look crooked."
+  },
+  {
+    "id": 69,
+    "category": "Repairs – Patching",
+    "question": "A patch edge is visible after drying. What should be done?",
+    "options": [
+      "Apply another wider feathered coat",
+      "Paint over it immediately",
+      "Sand through the drywall paper",
+      "Add water only"
+    ],
+    "answer": 0,
+    "explanation": "Visible patch edges need more blending. A wider feathered coat helps hide the repair."
+  },
+  {
+    "id": 70,
+    "category": "Repairs – Patching",
+    "question": "Why should patch repairs be feathered wide?",
+    "options": [
+      "To blend the patch into the surrounding surface",
+      "To create a raised patch",
+      "To expose the patch edge",
+      "To avoid primer"
+    ],
+    "answer": 0,
+    "explanation": "Wide feathering makes the repair less noticeable after painting."
+  },
+  {
+    "id": 71,
+    "category": "Repairs – Patching",
+    "question": "A patch has a hollow low area after drying. What is the best correction?",
+    "options": [
+      "Apply another thin coat",
+      "Sand around it deeply",
+      "Paint it as-is",
+      "Wet it with water"
+    ],
+    "answer": 0,
+    "explanation": "Low spots need more compound. Sanding surrounding areas can damage the wall."
+  },
+  {
+    "id": 72,
+    "category": "Repairs – Patching",
+    "question": "Why should patch compound be applied in thin coats?",
+    "options": [
+      "To reduce shrinkage and cracking",
+      "To make repairs fail faster",
+      "To avoid drying",
+      "To increase bubbling"
+    ],
+    "answer": 0,
+    "explanation": "Thin coats dry more evenly and reduce the chance of cracks or low spots."
+  },
+  {
+    "id": 73,
+    "category": "Repairs – Texture Matching",
+    "question": "A repaired area is smooth but the surrounding ceiling is textured. What should be done?",
+    "options": [
+      "Match the texture before final painting",
+      "Leave it smooth",
+      "Paint it a darker colour",
+      "Sand the whole ceiling through the paper"
+    ],
+    "answer": 0,
+    "explanation": "A smooth repair on a textured ceiling will stand out. Texture must be blended to match."
+  },
+  {
+    "id": 74,
+    "category": "Repairs – Texture Matching",
+    "question": "Why should texture be tested before applying it to the repair?",
+    "options": [
+      "To match pattern and spray settings",
+      "To avoid cleaning tools",
+      "To replace primer",
+      "To make texture fail"
+    ],
+    "answer": 0,
+    "explanation": "Test spraying helps adjust thickness, pressure, and pattern before applying texture to the repair."
+  },
+  {
+    "id": 75,
+    "category": "Repairs – Texture Matching",
+    "question": "What makes texture repairs difficult to hide?",
+    "options": [
+      "Texture pattern must match the existing surface",
+      "Texture always hides every defect",
+      "Texture never needs primer",
+      "Texture repairs require no sanding"
+    ],
+    "answer": 0,
+    "explanation": "Differences in texture pattern, size, or density can make repairs visible."
+  },
+  {
+    "id": 76,
+    "category": "Repairs – Texture Matching",
+    "question": "A patch repair is visible after painting because the texture is different. What was missed?",
+    "options": [
+      "Matching the surrounding texture",
+      "Cleaning the tools only",
+      "Using a larger bucket",
+      "Sanding the floor"
+    ],
+    "answer": 0,
+    "explanation": "Texture differences are often visible after paint. Repairs should match the surrounding surface."
+  },
+  {
+    "id": 77,
+    "category": "Repairs – Flashing",
+    "question": "A repaired area looks different after painting. What is this commonly called?",
+    "options": [
+      "Flashing",
+      "Bedding",
+      "Screeding",
+      "Framing"
+    ],
+    "answer": 0,
+    "explanation": "Flashing is a visible difference in sheen or appearance caused by surface differences."
+  },
+  {
+    "id": 78,
+    "category": "Repairs – Flashing",
+    "question": "What is a common cause of flashing on repaired drywall?",
+    "options": [
+      "Different porosity or texture",
+      "Perfect primer use",
+      "Correct texture match",
+      "Uniform surface finish"
+    ],
+    "answer": 0,
+    "explanation": "Repairs may absorb paint differently from the surrounding wall if not properly sealed or blended."
+  },
+  {
+    "id": 79,
+    "category": "Repairs – Flashing",
+    "question": "How can flashing be reduced on repaired areas?",
+    "options": [
+      "Proper sanding, texture matching, and priming",
+      "Painting over dust",
+      "Skipping primer",
+      "Leaving rough edges"
+    ],
+    "answer": 0,
+    "explanation": "Repairs should be smooth, matched, clean, and sealed before paint."
+  },
+  {
+    "id": 80,
+    "category": "Repairs – Primer",
+    "question": "Why is primer important on repaired drywall?",
+    "options": [
+      "It seals the repair and evens paint absorption",
+      "It replaces compound",
+      "It fixes loose tape automatically",
+      "It removes sanding dust without cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Primer helps prevent repair areas from showing through paint."
+  },
+  {
+    "id": 81,
+    "category": "Repairs – Surface Preparation",
+    "question": "A repair is made over a dirty wall and later peels. What was likely missed?",
+    "options": [
+      "Cleaning the surface before repair",
+      "Applying more paint",
+      "Using a larger knife",
+      "Sanding after paint"
+    ],
+    "answer": 0,
+    "explanation": "Dirt and contamination prevent compound from bonding correctly."
+  },
+  {
+    "id": 82,
+    "category": "Repairs – Surface Preparation",
+    "question": "A repair is made over glossy paint and fails. What should have been done first?",
+    "options": [
+      "Clean and dull the glossy surface",
+      "Apply paint before compound",
+      "Add dust to the surface",
+      "Use water only"
+    ],
+    "answer": 0,
+    "explanation": "Glossy surfaces may need light sanding or proper preparation for compound to bond."
+  },
+  {
+    "id": 83,
+    "category": "Repairs – Surface Preparation",
+    "question": "Why should damaged drywall paper be treated before repair compound is applied?",
+    "options": [
+      "It can bubble when wet compound touches it",
+      "It makes compound stronger",
+      "It replaces tape",
+      "It prevents all sanding"
+    ],
+    "answer": 0,
+    "explanation": "Torn paper absorbs moisture and may lift. It should be cut away, sealed, or repaired properly."
+  },
+  {
+    "id": 84,
+    "category": "Repairs – Surface Preparation",
+    "question": "What should be done with crumbling drywall edges before patching?",
+    "options": [
+      "Remove weak material and create a solid edge",
+      "Fill over loose material",
+      "Paint the edge",
+      "Cover it with dust"
+    ],
+    "answer": 0,
+    "explanation": "Weak edges do not support a lasting repair. The repair needs solid material."
+  },
+  {
+    "id": 85,
+    "category": "Repairs – Sanding",
+    "question": "What can happen if a repair is over-sanded?",
+    "options": [
+      "Paper can tear or tape can be exposed",
+      "Repair becomes stronger",
+      "Compound turns into primer",
+      "Paint is no longer needed"
+    ],
+    "answer": 0,
+    "explanation": "Over-sanding damages the surface and may require another repair coat."
+  },
+  {
+    "id": 86,
+    "category": "Repairs – Sanding",
+    "question": "Why should repair sanding use controlled pressure?",
+    "options": [
+      "To smooth without damaging the surface",
+      "To remove all compound",
+      "To expose paper",
+      "To avoid primer"
+    ],
+    "answer": 0,
+    "explanation": "Controlled sanding blends the repair while protecting the drywall paper."
+  },
+  {
+    "id": 87,
+    "category": "Repairs – Sanding",
+    "question": "Why should sanding dust be cleaned from a repaired wall?",
+    "options": [
+      "Dust can affect primer and paint adhesion",
+      "Dust improves finish quality",
+      "Dust fills pinholes permanently",
+      "Dust replaces texture"
+    ],
+    "answer": 0,
+    "explanation": "Clean surfaces help primer and paint stick properly."
+  },
+  {
+    "id": 88,
+    "category": "Repairs – Pinholes",
+    "question": "What are pinholes in a repair coat?",
+    "options": [
+      "Tiny holes caused by trapped air",
+      "Large framing cracks",
+      "Screw heads only",
+      "Texture peaks only"
+    ],
+    "answer": 0,
+    "explanation": "Air bubbles in compound can leave small holes after drying."
+  },
+  {
+    "id": 89,
+    "category": "Repairs – Pinholes",
+    "question": "What is a common repair for pinholes?",
+    "options": [
+      "Apply a tight skim coat",
+      "Paint over them immediately",
+      "Sand through the wall",
+      "Add loose dust"
+    ],
+    "answer": 0,
+    "explanation": "A thin skim coat fills the small holes and improves the finish."
+  },
+  {
+    "id": 90,
+    "category": "Repairs – Pinholes",
+    "question": "How can pinholes be reduced during application?",
+    "options": [
+      "Use smooth compound and proper knife pressure",
+      "Add dried lumps to compound",
+      "Apply compound over dust",
+      "Sand while wet"
+    ],
+    "answer": 0,
+    "explanation": "Smooth compound and proper technique help prevent trapped air."
+  },
+  {
+    "id": 91,
+    "category": "Repairs – Compound Problems",
+    "question": "What can happen if repair compound is mixed with dried lumps?",
+    "options": [
+      "Scratches and drag marks",
+      "Better bond",
+      "Stronger repairs",
+      "Less sanding"
+    ],
+    "answer": 0,
+    "explanation": "Dried lumps drag through wet compound and leave marks in the repair."
+  },
+  {
+    "id": 92,
+    "category": "Repairs – Compound Problems",
+    "question": "Why should repair compound be mixed to a smooth consistency?",
+    "options": [
+      "To apply evenly and reduce defects",
+      "To make it fail faster",
+      "To increase lumps",
+      "To avoid using tools"
+    ],
+    "answer": 0,
+    "explanation": "Smooth compound spreads better and makes the repair easier to finish."
+  },
+  {
+    "id": 93,
+    "category": "Repairs – Fast-Set Materials",
+    "question": "Why is setting-type compound useful in repairs?",
+    "options": [
+      "It hardens quickly",
+      "It never hardens",
+      "It replaces paint",
+      "It removes dust"
+    ],
+    "answer": 0,
+    "explanation": "Setting-type compound is useful when repairs need faster progress or stronger fill."
+  },
+  {
+    "id": 94,
+    "category": "Repairs – Fast-Set Materials",
+    "question": "Why should fast-set compound be mixed in small batches?",
+    "options": [
+      "It has limited working time",
+      "It never sets",
+      "It turns into paint",
+      "It replaces tape"
+    ],
+    "answer": 0,
+    "explanation": "Fast-set compound hardens quickly. Small batches reduce waste."
+  },
+  {
+    "id": 95,
+    "category": "Repairs – Fast-Set Materials",
+    "question": "What happens if fast-set compound begins to harden in the pan?",
+    "options": [
+      "It should not be reworked excessively",
+      "Add water forever to keep it new",
+      "It becomes stronger when overworked",
+      "It turns into primer"
+    ],
+    "answer": 0,
+    "explanation": "Once setting begins, overworking or retempering can weaken the material."
+  },
+  {
+    "id": 96,
+    "category": "Repairs – Final Inspection",
+    "question": "Why should repairs be inspected under good lighting?",
+    "options": [
+      "Light reveals ridges, waves, and patch edges",
+      "Light makes compound stronger",
+      "Light replaces sanding",
+      "Light removes dust"
+    ],
+    "answer": 0,
+    "explanation": "Good lighting helps find defects before paint makes them more visible."
+  },
+  {
+    "id": 97,
+    "category": "Repairs – Final Inspection",
+    "question": "What should be checked before final painting of a repair?",
+    "options": [
+      "Smoothness, texture match, dust removal, and primer",
+      "Only paint colour",
+      "Only bucket size",
+      "Only tool storage"
+    ],
+    "answer": 0,
+    "explanation": "These checks help ensure the repair blends with the surrounding surface."
+  },
+  {
+    "id": 98,
+    "category": "Repairs – Final Inspection",
+    "question": "Why should repairs be checked after they dry?",
+    "options": [
+      "Shrinkage and defects may appear",
+      "Wet repairs always show final finish",
+      "Drying removes all defects",
+      "Inspection is not needed"
+    ],
+    "answer": 0,
+    "explanation": "Compound can shrink as it dries. Some defects are visible only after drying."
+  },
+  {
+    "id": 99,
+    "category": "Repairs – Final Inspection",
+    "question": "What is the goal of a good drywall repair?",
+    "options": [
+      "The repair blends into the surrounding surface",
+      "The repair stands out clearly",
+      "The repair avoids primer always",
+      "The repair has rough edges"
+    ],
+    "answer": 0,
+    "explanation": "A good repair should be strong, smooth, and hard to see after painting."
+  },
+  {
+    "id": 100,
+    "category": "Repairs – Final Inspection",
+    "question": "Before leaving a repair job, what should be done?",
+    "options": [
+      "Inspect the work and clean the area",
+      "Leave sanding dust",
+      "Hide tools behind drywall",
+      "Skip final inspection"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection and cleanup help ensure quality and job-site safety."
+  },
+  {
+    "id": 101,
+    "category": "Repairs – Crack Diagnosis",
+    "question": "A repaired drywall crack reappears within a few weeks. What is the MOST likely reason?",
+    "options": [
+      "Excess primer",
+      "Underlying movement was not corrected",
+      "Paint dried too fast",
+      "Sandpaper was too fine"
+    ],
+    "answer": 1,
+    "explanation": "If framing, drywall fastening, or structural movement continues, the crack will likely return even after finishing repairs."
+  },
+  {
+    "id": 102,
+    "category": "Repairs – Water Damage",
+    "question": "A drywall ceiling feels soft after a roof leak. What is the BEST action?",
+    "options": [
+      "Apply more compound",
+      "Replace damaged drywall if weakened",
+      "Paint over the stain",
+      "Sand the ceiling smooth"
+    ],
+    "answer": 1,
+    "explanation": "Water-damaged drywall may lose strength and sag. Severely damaged sections should be replaced."
+  },
+  {
+    "id": 103,
+    "category": "Repairs – Water Damage",
+    "question": "Why must the moisture source be repaired before refinishing drywall?",
+    "options": [
+      "Paint hides moisture permanently",
+      "Ongoing moisture will damage the repair again",
+      "Primer blocks all leaks",
+      "Wet drywall finishes better"
+    ],
+    "answer": 1,
+    "explanation": "If the leak remains, stains, mold, bubbling, and failure can return."
+  },
+  {
+    "id": 104,
+    "category": "Repairs – Tape Failure",
+    "question": "A tape repair bubbles after drying. What is the MOST likely cause?",
+    "options": [
+      "Too much sanding",
+      "Poor bonding under the tape",
+      "Correct feathering",
+      "Drywall screws"
+    ],
+    "answer": 1,
+    "explanation": "Tape bubbles happen when tape does not fully contact wet compound."
+  },
+  {
+    "id": 105,
+    "category": "Repairs – Tape Failure",
+    "question": "What is the BEST repair for loose tape discovered after painting?",
+    "options": [
+      "Paint over it again",
+      "Remove loose tape and repair properly",
+      "Sand lightly only",
+      "Spray texture over it"
+    ],
+    "answer": 1,
+    "explanation": "Loose tape is a failed bond and must be corrected before repainting."
+  },
+  {
+    "id": 106,
+    "category": "Repairs – Corner Bead",
+    "question": "A corner bead crack appears repeatedly after repair. What should be checked?",
+    "options": [
+      "Bead movement or loose fastening",
+      "Paint sheen only",
+      "Texture thickness only",
+      "Sandpaper grit only"
+    ],
+    "answer": 0,
+    "explanation": "Loose corner bead causes repeated cracking beside the bead edges."
+  },
+  {
+    "id": 107,
+    "category": "Repairs – Surface Preparation",
+    "question": "Why should glossy painted surfaces be sanded before applying compound?",
+    "options": [
+      "To improve compound adhesion",
+      "To reduce drywall strength",
+      "To remove all paint",
+      "To speed drying"
+    ],
+    "answer": 0,
+    "explanation": "Glossy surfaces reduce bonding. Light abrasion helps the compound grip the surface."
+  },
+  {
+    "id": 108,
+    "category": "Repairs – Torn Paper",
+    "question": "What can happen if torn drywall paper is not sealed before repair?",
+    "options": [
+      "Bubbling or bond failure",
+      "Stronger repair",
+      "Faster paint drying",
+      "No sanding required"
+    ],
+    "answer": 0,
+    "explanation": "Torn paper absorbs moisture and may lift when wet compound is applied."
+  },
+  {
+    "id": 109,
+    "category": "Repairs – Patch Repairs",
+    "question": "A patch repair edge remains visible after sanding. What is the BEST correction?",
+    "options": [
+      "Wider feathered finish coat",
+      "Coarser sandpaper",
+      "Paint over it",
+      "Wet the repair only"
+    ],
+    "answer": 0,
+    "explanation": "Visible edges usually need better blending rather than aggressive sanding."
+  },
+  {
+    "id": 110,
+    "category": "Repairs – Patch Repairs",
+    "question": "Why are several thin coats preferred over one thick coat?",
+    "options": [
+      "Reduced shrinkage and cracking",
+      "Faster painting only",
+      "Less need for primer",
+      "Increased bubbling"
+    ],
+    "answer": 0,
+    "explanation": "Thin coats dry more evenly and create smoother repairs."
+  },
+  {
+    "id": 111,
+    "category": "Repairs – Texture Matching",
+    "question": "Why are ceiling texture repairs difficult to hide?",
+    "options": [
+      "Texture patterns must match closely",
+      "Texture hides all defects automatically",
+      "Ceilings never require primer",
+      "Texture repairs do not need sanding"
+    ],
+    "answer": 0,
+    "explanation": "Lighting makes texture differences visible, especially on ceilings."
+  },
+  {
+    "id": 112,
+    "category": "Repairs – Texture Matching",
+    "question": "A repaired orange-peel wall section looks smoother than surrounding areas. What should be done?",
+    "options": [
+      "Match the texture pattern before painting",
+      "Sand the whole wall",
+      "Paint darker colour only",
+      "Remove all primer"
+    ],
+    "answer": 0,
+    "explanation": "Texture mismatch makes repairs stand out even if the patch is smooth."
+  },
+  {
+    "id": 113,
+    "category": "Repairs – Flashing",
+    "question": "A repair appears duller than the surrounding wall after paint. What is this called?",
+    "options": [
+      "Flashing",
+      "Bedding",
+      "Bridging",
+      "Screeding"
+    ],
+    "answer": 0,
+    "explanation": "Flashing is uneven sheen caused by different texture or porosity."
+  },
+  {
+    "id": 114,
+    "category": "Repairs – Flashing",
+    "question": "What is the BEST way to reduce flashing?",
+    "options": [
+      "Proper primer and texture matching",
+      "Skipping primer",
+      "Thick paint only",
+      "Heavy sanding after paint"
+    ],
+    "answer": 0,
+    "explanation": "Primer and proper surface preparation help paint absorb evenly."
+  },
+  {
+    "id": 115,
+    "category": "Repairs – Sanding",
+    "question": "What is a common sign of over-sanding?",
+    "options": [
+      "Exposed tape or torn drywall paper",
+      "Faster paint drying",
+      "Stronger joints",
+      "Better texture match"
+    ],
+    "answer": 0,
+    "explanation": "Excess sanding damages the repair and may require recoating."
+  },
+  {
+    "id": 116,
+    "category": "Repairs – Sanding",
+    "question": "Why should repairs be fully dry before sanding?",
+    "options": [
+      "Wet compound smears and clogs sandpaper",
+      "Wet sanding strengthens repairs",
+      "Drying weakens compound",
+      "Primer works better on wet mud"
+    ],
+    "answer": 0,
+    "explanation": "Fully dried compound sands smoother and cleaner."
+  },
+  {
+    "id": 117,
+    "category": "Repairs – Fast-Set Compound",
+    "question": "Why is setting-type compound often used for deep repairs?",
+    "options": [
+      "It hardens quickly and shrinks less",
+      "It never hardens",
+      "It eliminates all sanding",
+      "It replaces primer"
+    ],
+    "answer": 0,
+    "explanation": "Setting compounds are useful for deeper fills and faster turnaround."
+  },
+  {
+    "id": 118,
+    "category": "Repairs – Fast-Set Compound",
+    "question": "What happens if fast-set compound begins hardening in the pan?",
+    "options": [
+      "It should be discarded and remixed",
+      "Add water continuously",
+      "Paint immediately over it",
+      "Use it for texture only"
+    ],
+    "answer": 0,
+    "explanation": "Retempering can weaken setting-type compound."
+  },
+  {
+    "id": 119,
+    "category": "Repairs – Pinholes",
+    "question": "What commonly causes pinholes in a repair coat?",
+    "options": [
+      "Trapped air in compound",
+      "Proper knife pressure",
+      "Good surface prep",
+      "Thin finish coats"
+    ],
+    "answer": 0,
+    "explanation": "Air bubbles leave tiny holes after compound dries."
+  },
+  {
+    "id": 120,
+    "category": "Repairs – Pinholes",
+    "question": "What is the BEST repair method for pinholes?",
+    "options": [
+      "Tight skim coat",
+      "Thick paint only",
+      "Heavy sanding",
+      "Water spray"
+    ],
+    "answer": 0,
+    "explanation": "A thin skim coat fills small holes smoothly."
+  },
+  {
+    "id": 121,
+    "category": "Repairs – Surface Bond",
+    "question": "Compound peels from an old painted wall. What is the MOST likely issue?",
+    "options": [
+      "Poor surface preparation",
+      "Too much sanding",
+      "Proper cleaning",
+      "Correct primer use"
+    ],
+    "answer": 0,
+    "explanation": "Dirt, grease, gloss, or contamination reduce adhesion."
+  },
+  {
+    "id": 122,
+    "category": "Repairs – Surface Bond",
+    "question": "Why should sanding dust be removed before primer?",
+    "options": [
+      "Dust reduces primer adhesion",
+      "Dust strengthens paint",
+      "Dust seals the wall",
+      "Dust replaces texture"
+    ],
+    "answer": 0,
+    "explanation": "Clean surfaces improve coating performance."
+  },
+  {
+    "id": 123,
+    "category": "Repairs – Patch Support",
+    "question": "Why is backing often installed behind larger drywall patches?",
+    "options": [
+      "To support the patch and reduce movement",
+      "To hold primer only",
+      "To create texture",
+      "To reduce sanding dust"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported patches may crack or move after finishing."
+  },
+  {
+    "id": 124,
+    "category": "Repairs – Patch Seams",
+    "question": "What should be done after installing a drywall patch piece?",
+    "options": [
+      "Tape and finish the seams",
+      "Paint immediately",
+      "Leave seams open",
+      "Sand the drywall paper first"
+    ],
+    "answer": 0,
+    "explanation": "Patch seams need reinforcement like regular drywall joints."
+  },
+  {
+    "id": 125,
+    "category": "Repairs – Problem Solving",
+    "question": "A repaired crack reappears after the wall is bumped lightly. What should be checked?",
+    "options": [
+      "Board fastening or support",
+      "Paint colour",
+      "Primer brand",
+      "Texture pattern only"
+    ],
+    "answer": 0,
+    "explanation": "Loose drywall movement often causes recurring cracks."
+  },
+  {
+    "id": 126,
+    "category": "Repairs – Problem Solving",
+    "question": "A repair remains visible despite being smooth. What is the likely cause?",
+    "options": [
+      "Texture or porosity mismatch",
+      "Correct priming",
+      "Good feathering",
+      "Excess cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Surface appearance must match surrounding areas, not just smoothness."
+  },
+  {
+    "id": 127,
+    "category": "Repairs – Problem Solving",
+    "question": "Why should repairs be checked under side lighting?",
+    "options": [
+      "Side lighting reveals surface defects",
+      "It speeds drying",
+      "It strengthens compound",
+      "It removes dust automatically"
+    ],
+    "answer": 0,
+    "explanation": "Ridges and waves become more visible under angled light."
+  },
+  {
+    "id": 128,
+    "category": "Repairs – Problem Solving",
+    "question": "A worker tries to hide a poor patch with texture only. Why is this risky?",
+    "options": [
+      "Texture may still reveal ridges and defects",
+      "Texture replaces preparation",
+      "Texture removes cracks",
+      "Texture seals moisture"
+    ],
+    "answer": 0,
+    "explanation": "Poor repairs should be corrected before texture is applied."
+  },
+  {
+    "id": 129,
+    "category": "Repairs – Drying Conditions",
+    "question": "Cold temperatures mainly affect ready-mix compound by:",
+    "options": [
+      "Slowing drying time",
+      "Increasing strength immediately",
+      "Eliminating shrinkage",
+      "Removing flashing"
+    ],
+    "answer": 0,
+    "explanation": "Ready-mix dries by evaporation, which slows in cold conditions."
+  },
+  {
+    "id": 130,
+    "category": "Repairs – Drying Conditions",
+    "question": "What jobsite condition helps repairs dry properly?",
+    "options": [
+      "Warm air and ventilation",
+      "Closed humid room",
+      "Thick wet coats",
+      "Standing water nearby"
+    ],
+    "answer": 0,
+    "explanation": "Airflow and proper temperature improve evaporation."
+  },
+  {
+    "id": 131,
+    "category": "Repairs – Repair Quality",
+    "question": "What is the MOST important goal of drywall repair?",
+    "options": [
+      "Blend the repair into the surrounding surface",
+      "Make the repair visible",
+      "Avoid primer always",
+      "Eliminate sanding completely"
+    ],
+    "answer": 0,
+    "explanation": "A successful repair should be difficult to notice after painting."
+  },
+  {
+    "id": 132,
+    "category": "Repairs – Repair Quality",
+    "question": "A patch repair shows a hump after paint. What likely caused this?",
+    "options": [
+      "Poor feathering or buildup",
+      "Correct sanding",
+      "Thin finish coats",
+      "Proper texture match"
+    ],
+    "answer": 0,
+    "explanation": "Repairs must be feathered wide enough to blend smoothly."
+  },
+  {
+    "id": 133,
+    "category": "Repairs – Repair Quality",
+    "question": "What commonly causes scratches in finish compound?",
+    "options": [
+      "Dirty tools or dried lumps",
+      "Correct mixing",
+      "Smooth knife edges",
+      "Proper sanding"
+    ],
+    "answer": 0,
+    "explanation": "Contaminated tools drag through compound and leave marks."
+  },
+  {
+    "id": 134,
+    "category": "Repairs – Repair Quality",
+    "question": "Why should repair compound be mixed smoothly?",
+    "options": [
+      "To reduce drag marks and defects",
+      "To increase bubbling",
+      "To weaken the repair",
+      "To eliminate sanding entirely"
+    ],
+    "answer": 0,
+    "explanation": "Smooth compound spreads evenly and finishes better."
+  },
+  {
+    "id": 135,
+    "category": "Repairs – Repair Quality",
+    "question": "What is the BEST action if a repair coat cracks while drying?",
+    "options": [
+      "Remove loose material and recoat properly",
+      "Paint over the crack",
+      "Wet the crack only",
+      "Sand aggressively"
+    ],
+    "answer": 0,
+    "explanation": "Cracked compound usually means excessive thickness or poor preparation."
+  },
+  {
+    "id": 136,
+    "category": "Repairs – Repair Quality",
+    "question": "Why should repairs be inspected after drying?",
+    "options": [
+      "Shrinkage and defects may appear later",
+      "Wet compound always shows final quality",
+      "Drying removes all defects automatically",
+      "Inspection is unnecessary"
+    ],
+    "answer": 0,
+    "explanation": "Some defects are visible only after the repair fully dries."
+  },
+  {
+    "id": 137,
+    "category": "Repairs – Final Finish",
+    "question": "A repaired wall feels smooth but still looks uneven under paint. What is likely wrong?",
+    "options": [
+      "Surface flatness or texture mismatch",
+      "Paint colour only",
+      "Correct primer use",
+      "Too much cleaning"
+    ],
+    "answer": 0,
+    "explanation": "Paint and lighting highlight uneven surfaces and texture differences."
+  },
+  {
+    "id": 138,
+    "category": "Repairs – Final Finish",
+    "question": "What should be done before final paint after sanding?",
+    "options": [
+      "Remove dust and inspect the repair",
+      "Add more sanding dust",
+      "Skip primer",
+      "Wet the wall heavily"
+    ],
+    "answer": 0,
+    "explanation": "Dust removal and inspection improve finish quality."
+  },
+  {
+    "id": 139,
+    "category": "Repairs – Final Finish",
+    "question": "A repaired wall absorbs paint differently from the surrounding wall. What was likely missed?",
+    "options": [
+      "Primer or sealer",
+      "Sandpaper only",
+      "Texture spray only",
+      "Drywall screws only"
+    ],
+    "answer": 0,
+    "explanation": "Primer seals repairs and reduces uneven paint absorption."
+  },
+  {
+    "id": 140,
+    "category": "Repairs – Final Finish",
+    "question": "Why should texture repairs often extend beyond the patch itself?",
+    "options": [
+      "To blend texture naturally into surrounding areas",
+      "To make repairs larger unnecessarily",
+      "To remove all sanding",
+      "To replace primer"
+    ],
+    "answer": 0,
+    "explanation": "Blending texture helps prevent visible repair outlines."
+  },
+  {
+    "id": 141,
+    "category": "Repairs – Inspection",
+    "question": "What is a strong indication that a drywall repair is not fully dry?",
+    "options": [
+      "Surface feels soft or cool",
+      "Paint shines evenly",
+      "Sanding dust is white",
+      "Primer dries quickly"
+    ],
+    "answer": 0,
+    "explanation": "Damp compound often feels soft or cool and should dry longer before finishing."
+  },
+  {
+    "id": 142,
+    "category": "Repairs – Inspection",
+    "question": "What is the BEST way to identify ridges before painting?",
+    "options": [
+      "Inspect under angled lighting",
+      "Wet the wall heavily",
+      "Use thicker paint",
+      "Skip primer"
+    ],
+    "answer": 0,
+    "explanation": "Side lighting highlights surface imperfections clearly."
+  },
+  {
+    "id": 143,
+    "category": "Repairs – Inspection",
+    "question": "Why should repairs be checked by both sight and touch?",
+    "options": [
+      "Some defects are felt while others are seen",
+      "Only visual inspection matters",
+      "Touch removes ridges",
+      "Paint hides all defects"
+    ],
+    "answer": 0,
+    "explanation": "Both methods help identify uneven areas before paint."
+  },
+  {
+    "id": 144,
+    "category": "Repairs – Final Cleanup",
+    "question": "Why is cleanup important after repair work?",
+    "options": [
+      "It improves safety and finish quality",
+      "Dust improves primer bonding",
+      "Dirty tools strengthen repairs",
+      "Cleanup is optional"
+    ],
+    "answer": 0,
+    "explanation": "Dust and debris affect coatings and jobsite safety."
+  },
+  {
+    "id": 145,
+    "category": "Repairs – Final Cleanup",
+    "question": "What can happen if sanding dust remains before paint?",
+    "options": [
+      "Rough finish or poor adhesion",
+      "Stronger paint bond",
+      "Faster drying only",
+      "Less flashing"
+    ],
+    "answer": 0,
+    "explanation": "Dust contaminates paint and primer surfaces."
+  },
+  {
+    "id": 146,
+    "category": "Repairs – Advanced Scenario",
+    "question": "A patch repair continues to crack around the edges. What was MOST likely missed?",
+    "options": [
+      "Taping or reinforcing the seams",
+      "Paint thickness",
+      "Sandpaper colour",
+      "Tool cleaning only"
+    ],
+    "answer": 0,
+    "explanation": "Patch seams must be reinforced like drywall joints."
+  },
+  {
+    "id": 147,
+    "category": "Repairs – Advanced Scenario",
+    "question": "A worker fills a deep repair with one thick coat and it shrinks badly. Why?",
+    "options": [
+      "Excessive thickness causes shrinkage",
+      "Thin coats shrink more",
+      "Primer caused shrinkage",
+      "Sanding created shrinkage"
+    ],
+    "answer": 0,
+    "explanation": "Thick coats dry unevenly and lose moisture slowly."
+  },
+  {
+    "id": 148,
+    "category": "Repairs – Advanced Scenario",
+    "question": "A texture repair appears darker than surrounding texture after painting. What is likely different?",
+    "options": [
+      "Texture density or porosity",
+      "Drywall thickness",
+      "Screw spacing",
+      "Sandpaper brand"
+    ],
+    "answer": 0,
+    "explanation": "Different texture absorbs paint differently and changes appearance."
+  },
+  {
+    "id": 149,
+    "category": "Repairs – Advanced Scenario",
+    "question": "A repair area remains rough after sanding. What is the BEST correction?",
+    "options": [
+      "Apply another smooth skim coat",
+      "Paint heavily over it",
+      "Use coarser sandpaper only",
+      "Spray texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "Rough repairs often need another controlled finish coat."
+  },
+  {
+    "id": 150,
+    "category": "Repairs – Advanced Scenario",
+    "question": "What BEST describes a professional drywall repair?",
+    "options": [
+      "Strong, smooth, blended, and difficult to detect",
+      "Thick and heavily textured",
+      "Quickly painted without inspection",
+      "Visible but sealed"
+    ],
+    "answer": 0,
+    "explanation": "Professional repairs should match the surrounding surface and remain durable over time."
+  },
+  {
+    "id": 151,
+    "category": "Repairs – Scenario: Water Damage",
+    "question": "A homeowner repaired a ceiling stain twice, but the stain continues to return after painting. What is the MOST likely issue?",
+    "options": [
+      "Wrong paint colour",
+      "Moisture source was never corrected",
+      "Sandpaper was too fine",
+      "Texture was too smooth"
+    ],
+    "answer": 1,
+    "explanation": "Water damage repairs fail if the leak or moisture source is still active. The source must always be fixed first."
+  },
+  {
+    "id": 152,
+    "category": "Repairs – Scenario: Loose Tape",
+    "question": "During inspection, a repaired joint sounds hollow when tapped lightly. What does this MOST likely indicate?",
+    "options": [
+      "Proper bonding",
+      "Loose tape or poor adhesion",
+      "Good feathering",
+      "Drywall shrinkage only"
+    ],
+    "answer": 1,
+    "explanation": "Hollow sound often means tape or compound is not bonded tightly to the drywall surface."
+  },
+  {
+    "id": 153,
+    "category": "Repairs – Scenario: Corner Damage",
+    "question": "An outside corner was hit by furniture, leaving the bead bent inward. What is the BEST repair?",
+    "options": [
+      "Fill over the dent with thick compound",
+      "Straighten or replace the damaged bead",
+      "Sand the corner only",
+      "Paint the corner darker"
+    ],
+    "answer": 1,
+    "explanation": "Damaged corner bead affects the shape of the corner and usually must be repaired structurally first."
+  },
+  {
+    "id": 154,
+    "category": "Repairs – Scenario: Texture Matching",
+    "question": "A ceiling patch blends smoothly, but under lighting the repair is obvious. What is MOST likely wrong?",
+    "options": [
+      "Texture pattern does not match",
+      "Primer dried correctly",
+      "Compound was too smooth",
+      "The ceiling is too flat"
+    ],
+    "answer": 0,
+    "explanation": "Ceiling repairs are very noticeable if texture does not match surrounding surfaces."
+  },
+  {
+    "id": 155,
+    "category": "Repairs – Scenario: Flashing",
+    "question": "A repair area appears shinier than the surrounding wall after paint dries. What is this defect called?",
+    "options": [
+      "Bubbling",
+      "Flashing",
+      "Bridging",
+      "Feathering"
+    ],
+    "answer": 1,
+    "explanation": "Flashing happens when repaired areas absorb or reflect paint differently."
+  },
+  {
+    "id": 156,
+    "category": "Repairs – Scenario: Cracks",
+    "question": "A repaired crack opens again every winter. What is the MOST likely cause?",
+    "options": [
+      "Seasonal movement or framing movement",
+      "Excess primer",
+      "Sandpaper scratches",
+      "Overpainting"
+    ],
+    "answer": 0,
+    "explanation": "Temperature and humidity changes can cause movement that reopens poorly reinforced repairs."
+  },
+  {
+    "id": 157,
+    "category": "Repairs – Scenario: Soft Drywall",
+    "question": "While repairing water damage, the drywall crumbles when touched. What should be done?",
+    "options": [
+      "Paint over it",
+      "Remove damaged material and replace as needed",
+      "Sand it smooth only",
+      "Add more texture"
+    ],
+    "answer": 1,
+    "explanation": "Crumbling drywall has lost strength and cannot support a reliable repair."
+  },
+  {
+    "id": 158,
+    "category": "Repairs – Scenario: Patch Edge",
+    "question": "A repaired patch edge remains visible after three coats. What is the BEST correction?",
+    "options": [
+      "Use wider feathering beyond the repair",
+      "Sand harder only in the center",
+      "Add thicker paint",
+      "Apply texture directly on the ridge"
+    ],
+    "answer": 0,
+    "explanation": "Wider feathering spreads buildup gradually and reduces visible transitions."
+  },
+  {
+    "id": 159,
+    "category": "Repairs – Scenario: Dust Contamination",
+    "question": "Primer peels from a repaired wall section. What likely caused this?",
+    "options": [
+      "Sanding dust was left on the surface",
+      "Primer dried too slowly",
+      "Paint colour mismatch",
+      "Drywall was too smooth"
+    ],
+    "answer": 0,
+    "explanation": "Dust contamination weakens primer and paint adhesion."
+  },
+  {
+    "id": 160,
+    "category": "Repairs – Scenario: Deep Repair",
+    "question": "A worker fills a deep repair with one heavy coat of ready-mix compound. What problem is MOST likely?",
+    "options": [
+      "Shrinkage and cracking",
+      "Better strength",
+      "Faster drying",
+      "No sanding needed"
+    ],
+    "answer": 0,
+    "explanation": "Thick ready-mix applications dry unevenly and commonly shrink or crack."
+  },
+  {
+    "id": 161,
+    "category": "Repairs – Scenario: Fast-Set Compound",
+    "question": "A worker mixes a large amount of fast-set compound and cannot use it in time. What happens?",
+    "options": [
+      "It hardens in the pan",
+      "It becomes paint",
+      "It stays workable all day",
+      "It prevents sanding"
+    ],
+    "answer": 0,
+    "explanation": "Fast-set compounds have limited working times and should be mixed in manageable batches."
+  },
+  {
+    "id": 162,
+    "category": "Repairs – Scenario: Torn Paper",
+    "question": "A repair bubbles immediately after compound is applied over torn paper. What caused this?",
+    "options": [
+      "Damaged paper absorbed moisture and lifted",
+      "Compound dried too quickly",
+      "Primer was too strong",
+      "Sandpaper was too fine"
+    ],
+    "answer": 0,
+    "explanation": "Torn drywall paper should be sealed or removed before repairs."
+  },
+  {
+    "id": 163,
+    "category": "Repairs – Scenario: Loose Patch",
+    "question": "A large drywall patch flexes when pressed after installation. What was MOST likely missed?",
+    "options": [
+      "Proper backing or fastening",
+      "Texture matching",
+      "Primer application",
+      "Sanding"
+    ],
+    "answer": 0,
+    "explanation": "Large patches require secure support to prevent movement and future cracking."
+  },
+  {
+    "id": 164,
+    "category": "Repairs – Scenario: Pinholes",
+    "question": "After drying, a skim coat has hundreds of tiny holes. What is the BEST repair?",
+    "options": [
+      "Apply a tight skim coat",
+      "Sand aggressively",
+      "Paint immediately",
+      "Wet the wall heavily"
+    ],
+    "answer": 0,
+    "explanation": "Pinholes are commonly corrected with a thin, smooth skim coat."
+  },
+  {
+    "id": 165,
+    "category": "Repairs – Scenario: Paint Sheen",
+    "question": "A repair looks smooth but still reflects light differently than the wall. What is MOST likely missing?",
+    "options": [
+      "Proper primer or texture blending",
+      "More sanding scratches",
+      "Darker paint",
+      "Extra screws"
+    ],
+    "answer": 0,
+    "explanation": "Surface porosity and texture must match to avoid visible sheen differences."
+  },
+  {
+    "id": 166,
+    "category": "Repairs – Scenario: Repaired Corner",
+    "question": "A repaired outside corner still appears crooked after finishing. What likely caused this?",
+    "options": [
+      "Bead alignment was never corrected",
+      "Primer dried too fast",
+      "Compound was too thin",
+      "Sanding was too light"
+    ],
+    "answer": 0,
+    "explanation": "The final corner follows the shape of the corner bead underneath."
+  },
+  {
+    "id": 167,
+    "category": "Repairs – Scenario: Sanding",
+    "question": "A worker sands through the paper face of drywall around a repair. What should be done next?",
+    "options": [
+      "Seal or repair damaged paper before continuing",
+      "Paint over it immediately",
+      "Leave it exposed",
+      "Add texture directly"
+    ],
+    "answer": 0,
+    "explanation": "Damaged paper can bubble or fail if not repaired properly."
+  },
+  {
+    "id": 168,
+    "category": "Repairs – Scenario: Humidity",
+    "question": "A repair remains soft and damp for two days. What is the MOST likely reason?",
+    "options": [
+      "High humidity and poor airflow",
+      "Proper ventilation",
+      "Thin finish coats",
+      "Dry climate conditions"
+    ],
+    "answer": 0,
+    "explanation": "Ready-mix compounds dry by evaporation and require airflow."
+  },
+  {
+    "id": 169,
+    "category": "Repairs – Scenario: Poor Adhesion",
+    "question": "Compound peels from a wall coated with kitchen grease residue. What was missed?",
+    "options": [
+      "Proper cleaning before repair",
+      "Primer colour selection",
+      "Sandpaper grit only",
+      "Texture blending"
+    ],
+    "answer": 0,
+    "explanation": "Grease and contamination prevent proper bonding."
+  },
+  {
+    "id": 170,
+    "category": "Repairs – Scenario: Patch Cracking",
+    "question": "A square drywall patch cracks along all four edges after drying. What is MOST likely missing?",
+    "options": [
+      "Tape reinforcement on seams",
+      "Primer",
+      "Texture",
+      "Paint"
+    ],
+    "answer": 0,
+    "explanation": "Patch seams must be taped like standard drywall joints."
+  },
+  {
+    "id": 171,
+    "category": "Repairs – Scenario: Recoat Timing",
+    "question": "A second coat is applied over damp compound. What problem may result?",
+    "options": [
+      "Cracking or trapped moisture",
+      "Stronger repair",
+      "Less shrinkage",
+      "Better feathering"
+    ],
+    "answer": 0,
+    "explanation": "Damp compound under additional coats may dry unevenly and fail."
+  },
+  {
+    "id": 172,
+    "category": "Repairs – Scenario: Texture Overspray",
+    "question": "Why should nearby surfaces be protected before spraying texture?",
+    "options": [
+      "Texture overspray spreads easily",
+      "Overspray strengthens surfaces",
+      "Paint blocks texture automatically",
+      "Overspray improves adhesion"
+    ],
+    "answer": 0,
+    "explanation": "Texture spraying can affect surrounding finished surfaces if not protected."
+  },
+  {
+    "id": 173,
+    "category": "Repairs – Scenario: Sanding Scratches",
+    "question": "Primer reveals circular sanding scratches on a repair. What caused this?",
+    "options": [
+      "Coarse grit or aggressive sanding",
+      "Proper feathering",
+      "Good primer use",
+      "Smooth compound consistency"
+    ],
+    "answer": 0,
+    "explanation": "Deep sanding scratches often become more visible after primer."
+  },
+  {
+    "id": 174,
+    "category": "Repairs – Scenario: Tool Marks",
+    "question": "A finish coat contains drag lines from the knife. What is MOST likely wrong?",
+    "options": [
+      "Dirty knife or dried compound lumps",
+      "Correct knife angle",
+      "Thin compound coats",
+      "Proper mixing"
+    ],
+    "answer": 0,
+    "explanation": "Dirty tools or contaminated mud commonly leave drag marks."
+  },
+  {
+    "id": 175,
+    "category": "Repairs – Scenario: Movement",
+    "question": "A wall repair cracks only when a nearby door slams. What should be checked?",
+    "options": [
+      "Structural movement or loose board fastening",
+      "Paint sheen only",
+      "Primer colour",
+      "Texture thickness"
+    ],
+    "answer": 0,
+    "explanation": "Vibration or movement often indicates loose drywall or framing movement."
+  },
+  {
+    "id": 176,
+    "category": "Repairs – Scenario: Texture Blending",
+    "question": "Why should texture repairs extend beyond the exact patch area?",
+    "options": [
+      "To blend the repair naturally into surrounding texture",
+      "To make the repair larger unnecessarily",
+      "To avoid sanding completely",
+      "To replace priming"
+    ],
+    "answer": 0,
+    "explanation": "Texture transitions look more natural when blended gradually."
+  },
+  {
+    "id": 177,
+    "category": "Repairs – Scenario: Mold Risk",
+    "question": "Why should hidden moisture behind drywall be taken seriously?",
+    "options": [
+      "Mold and future damage may develop",
+      "Moisture improves adhesion",
+      "It prevents cracking",
+      "It strengthens drywall"
+    ],
+    "answer": 0,
+    "explanation": "Trapped moisture damages materials and creates health concerns."
+  },
+  {
+    "id": 178,
+    "category": "Repairs – Scenario: Hollow Sound",
+    "question": "A repair sounds hollow after drying. What is MOST likely wrong?",
+    "options": [
+      "Poor adhesion or unsupported area",
+      "Correct feathering",
+      "Good texture match",
+      "Proper sanding"
+    ],
+    "answer": 0,
+    "explanation": "Hollow areas often indicate weak bond or lack of support behind the repair."
+  },
+  {
+    "id": 179,
+    "category": "Repairs – Scenario: Fasteners",
+    "question": "Screw heads remain visible after paint. What likely caused this?",
+    "options": [
+      "Insufficient filling or shrinkage",
+      "Excess primer",
+      "Proper sanding",
+      "Texture mismatch only"
+    ],
+    "answer": 0,
+    "explanation": "Fastener depressions often require multiple coats."
+  },
+  {
+    "id": 180,
+    "category": "Repairs – Scenario: Repeated Bubbling",
+    "question": "A repaired tape joint bubbles again after repainting. What was MOST likely not fixed?",
+    "options": [
+      "Loose tape underneath",
+      "Primer colour",
+      "Paint sheen",
+      "Sandpaper type"
+    ],
+    "answer": 0,
+    "explanation": "Covering loose tape without repairing the bond leads to recurring failure."
+  },
+  {
+    "id": 181,
+    "category": "Repairs – Scenario: Large Ceiling Repair",
+    "question": "Why should large ceiling repairs be checked carefully before finishing?",
+    "options": [
+      "Sagging or weak backing may exist",
+      "Paint always hides defects",
+      "Ceiling repairs need no support",
+      "Texture fixes movement automatically"
+    ],
+    "answer": 0,
+    "explanation": "Unsupported ceiling patches may crack or sag later."
+  },
+  {
+    "id": 182,
+    "category": "Repairs – Scenario: Critical Lighting",
+    "question": "A wall repair looks fine normally but poor under sunlight. Why?",
+    "options": [
+      "Critical lighting exposes defects",
+      "Sunlight weakens drywall",
+      "Paint causes movement",
+      "Primer removes texture"
+    ],
+    "answer": 0,
+    "explanation": "Strong side lighting highlights ridges, waves, and texture differences."
+  },
+  {
+    "id": 183,
+    "category": "Repairs – Scenario: Heavy Texture",
+    "question": "A heavy texture repair dries with sharp peaks unlike surrounding texture. What should be adjusted?",
+    "options": [
+      "Spray settings or material consistency",
+      "Screw spacing",
+      "Paint colour",
+      "Sandpaper grit only"
+    ],
+    "answer": 0,
+    "explanation": "Texture pattern depends on pressure, distance, and mix consistency."
+  },
+  {
+    "id": 184,
+    "category": "Repairs – Scenario: Dusty Repair",
+    "question": "A repair area was not cleaned after sanding. What defect may appear after painting?",
+    "options": [
+      "Rough finish or adhesion issues",
+      "Stronger finish",
+      "Less flashing",
+      "Faster curing"
+    ],
+    "answer": 0,
+    "explanation": "Sanding dust affects primer and paint bonding."
+  },
+  {
+    "id": 185,
+    "category": "Repairs – Scenario: Hairline Cracks",
+    "question": "A repaired hairline crack becomes visible again after primer. What is MOST likely needed?",
+    "options": [
+      "Better reinforcement and filling",
+      "More paint only",
+      "Coarser sanding",
+      "Texture overspray"
+    ],
+    "answer": 0,
+    "explanation": "Hairline cracks may reopen if not reinforced properly."
+  },
+  {
+    "id": 186,
+    "category": "Repairs – Scenario: Repair Visibility",
+    "question": "A smooth repair still stands out because the wall texture is slightly different. What was missed?",
+    "options": [
+      "Accurate texture matching",
+      "Sanding",
+      "Primer",
+      "Cleaning tools"
+    ],
+    "answer": 0,
+    "explanation": "Even small texture differences can remain visible after painting."
+  },
+  {
+    "id": 187,
+    "category": "Repairs – Scenario: Wet Sanding",
+    "question": "Why is sanding damp compound a poor practice?",
+    "options": [
+      "It smears and damages the finish",
+      "It strengthens compound",
+      "It seals the repair",
+      "It removes flashing"
+    ],
+    "answer": 0,
+    "explanation": "Damp compound clogs abrasives and creates uneven surfaces."
+  },
+  {
+    "id": 188,
+    "category": "Repairs – Scenario: Ceiling Stain",
+    "question": "A repaired water stain turns yellow again after a month. What likely failed?",
+    "options": [
+      "Stain blocking",
+      "Sanding",
+      "Texture matching",
+      "Drywall fastening"
+    ],
+    "answer": 0,
+    "explanation": "Some stains bleed through regular paint without proper sealer."
+  },
+  {
+    "id": 189,
+    "category": "Repairs – Scenario: Repaired Hole",
+    "question": "A patch repair feels solid but the seams crack after drying. What was MOST likely incorrect?",
+    "options": [
+      "Patch seams were not reinforced properly",
+      "Primer dried too quickly",
+      "Paint was too glossy",
+      "Sanding was too smooth"
+    ],
+    "answer": 0,
+    "explanation": "Patch joints need tape reinforcement like standard drywall seams."
+  },
+  {
+    "id": 190,
+    "category": "Repairs – Scenario: Visible Ridges",
+    "question": "What is the BEST way to reduce visible ridges around repairs?",
+    "options": [
+      "Wider feathering and proper sanding",
+      "Thicker paint only",
+      "Coarse sanding only in the center",
+      "Extra texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "Feathering spreads the transition gradually into the surrounding surface."
+  },
+  {
+    "id": 191,
+    "category": "Repairs – Scenario: Texture Pattern",
+    "question": "A texture repair has larger droplets than the surrounding wall. What should be adjusted?",
+    "options": [
+      "Spray pressure or material thickness",
+      "Primer type",
+      "Drywall thickness",
+      "Fastener spacing"
+    ],
+    "answer": 0,
+    "explanation": "Spray settings strongly affect texture size and pattern."
+  },
+  {
+    "id": 192,
+    "category": "Repairs – Scenario: Paint Absorption",
+    "question": "A repaired area absorbs more paint than the surrounding wall. What is the BEST solution?",
+    "options": [
+      "Apply proper primer or sealer",
+      "Add more sanding scratches",
+      "Use darker paint only",
+      "Remove the texture"
+    ],
+    "answer": 0,
+    "explanation": "Primers seal porous repairs and create more even paint absorption."
+  },
+  {
+    "id": 193,
+    "category": "Repairs – Scenario: Tool Cleaning",
+    "question": "Why should repair tools be cleaned regularly during work?",
+    "options": [
+      "Dried compound creates scratches and ridges",
+      "Dirty tools improve texture",
+      "Cleaning weakens repairs",
+      "It removes the need for sanding"
+    ],
+    "answer": 0,
+    "explanation": "Clean tools help maintain smooth finish quality."
+  },
+  {
+    "id": 194,
+    "category": "Repairs – Scenario: Shrinkage",
+    "question": "A repaired area shrinks deeply after drying. What caused this MOST likely?",
+    "options": [
+      "Thick compound application",
+      "Correct thin coats",
+      "Proper drying conditions",
+      "Primer use"
+    ],
+    "answer": 0,
+    "explanation": "Thick coats contain more moisture and shrink more during drying."
+  },
+  {
+    "id": 195,
+    "category": "Repairs – Scenario: Final Inspection",
+    "question": "Why should repairs be inspected before primer is applied?",
+    "options": [
+      "Defects are easier to correct before paint",
+      "Primer fixes all problems automatically",
+      "Paint removes ridges",
+      "Dust improves finish"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection helps catch flaws before coatings highlight them."
+  },
+  {
+    "id": 196,
+    "category": "Repairs – Scenario: Sanding Pressure",
+    "question": "A worker presses too hard while sanding and exposes tape fibers. What should be done?",
+    "options": [
+      "Recoat and sand carefully after drying",
+      "Paint directly over exposed tape",
+      "Wet the tape only",
+      "Add texture immediately"
+    ],
+    "answer": 0,
+    "explanation": "Exposed tape must be covered again for proper finish quality."
+  },
+  {
+    "id": 197,
+    "category": "Repairs – Scenario: Joint Visibility",
+    "question": "A butt-joint repair remains visible after painting. What likely caused this?",
+    "options": [
+      "Repair was not feathered wide enough",
+      "Primer dried correctly",
+      "Texture matched perfectly",
+      "Paint sheen was flat"
+    ],
+    "answer": 0,
+    "explanation": "Butt joints require wider blending because they lack recessed edges."
+  },
+  {
+    "id": 198,
+    "category": "Repairs – Scenario: Improper Sequence",
+    "question": "A worker paints a repair before it is fully dry. What may happen?",
+    "options": [
+      "Peeling or finish failure",
+      "Stronger paint bond",
+      "Reduced flashing",
+      "Better texture match"
+    ],
+    "answer": 0,
+    "explanation": "Moisture trapped beneath paint can cause failure."
+  },
+  {
+    "id": 199,
+    "category": "Repairs – Scenario: Repair Standards",
+    "question": "What BEST defines a high-quality drywall repair?",
+    "options": [
+      "Strong, smooth, blended, and difficult to notice",
+      "Thick and heavily textured",
+      "Visible but painted quickly",
+      "Rough but primed"
+    ],
+    "answer": 0,
+    "explanation": "Professional repairs should blend naturally into the surrounding surface."
+  },
+  {
+    "id": 200,
+    "category": "Repairs – Scenario: Final Approval",
+    "question": "Before leaving a repair job, what should the finisher ALWAYS do?",
+    "options": [
+      "Inspect work, clean area, and confirm finish quality",
+      "Leave sanding dust behind",
+      "Skip final inspection",
+      "Cover defects with paint only"
+    ],
+    "answer": 0,
+    "explanation": "Final inspection and cleanup are essential parts of professional repair work."
+  }
+];
+
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function shuffleOptionsForQuestion(question) {
+  const correctOptionText = question.options[question.answer];
+  const shuffledOptions = shuffleArray(question.options);
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: shuffledOptions.findIndex(option => option === correctOptionText)
+  };
+}
+
+const shuffledDrywallFinisherPlastererRepairsRestoration200Questions =
+  shuffleArray(drywallFinisherPlastererRepairsRestoration200Questions).map(shuffleOptionsForQuestion);
+
+createPremiumQuizApp({
+  tradeSlug: "drywall-finisher-plasterer-repairs-restoration",
+  tradeTitle: "Drywall Finisher & Plasterer",
+  sectionTitle: "Repairs & Restoration",
+  questionTimeSeconds: 90,
+  questions: shuffledDrywallFinisherPlastererRepairsRestoration200Questions
+});
+
+window.addEventListener("load", () => {
+  const questionTextEl = document.getElementById("quizQuestionText");
+  const hintBtn = document.getElementById("hintBtn");
+  const hintBox = document.getElementById("hintBox");
+  const hintText = document.getElementById("hintText");
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  const nav = document.getElementById("navigator");
+  const quizOptions = document.getElementById("quizOptions");
+
+  function getCurrentQuestionObject() {
+    const questionText = questionTextEl ? questionTextEl.textContent.trim() : "";
+    return shuffledDrywallFinisherPlastererRepairsRestoration200Questions.find(q => q.question === questionText);
+  }
+
+  function resetHint() {
+    if (!hintBox || !hintText || !hintBtn) return;
+    hintBox.classList.add("hidden");
+    hintText.textContent = "";
+    hintBtn.textContent = "Show Hint";
+  }
+
+  if (hintBtn) {
+    hintBtn.style.display = "";
+    hintBtn.addEventListener("click", () => {
+      const currentQuestion = getCurrentQuestionObject();
+      if (!currentQuestion) return;
+
+      if (hintBox.classList.contains("hidden")) {
+        hintText.textContent = currentQuestion.explanation || "No hint available.";
+        hintBox.classList.remove("hidden");
+        hintBtn.textContent = "Hide Hint";
+      } else {
+        resetHint();
+      }
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+  if (prevBtn) prevBtn.addEventListener("click", () => setTimeout(resetHint, 100));
+
+  if (nav) {
+    nav.addEventListener("click", e => {
+      if (e.target.classList.contains("nav-btn")) setTimeout(resetHint, 100);
+    });
+  }
+
+  if (quizOptions) {
+    quizOptions.addEventListener("click", () => {
+      setTimeout(() => {
+        if (!hintBox.classList.contains("hidden")) {
+          const currentQuestion = getCurrentQuestionObject();
+          if (currentQuestion) {
+            hintText.textContent = currentQuestion.explanation || "No hint available.";
+          }
+        }
+      }, 100);
+    });
+  }
+
+  resetHint();
+});

@@ -1,0 +1,163 @@
+
+/* ===== trades / practice / mock / level / finder ===== */
+.rsp-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.rsp-badges span{background:#fff;border:1px solid #F0C9CB;color:var(--seal);font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px}
+.rsp-band{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;background:linear-gradient(135deg,#8E1017,#16191D);color:#fff;border-radius:20px;padding:32px 36px;margin-bottom:28px}
+.rsp-band .eb{font-size:12px;font-weight:700;letter-spacing:.12em;color:#FFC9CB}
+.rsp-band h2{font-size:26px;line-height:1.2;margin:8px 0;max-width:640px}
+.rsp-band p{color:#F6DCDD;max-width:640px;font-size:16px;line-height:25px}
+.rsp-band .rsp-actions a{background:#fff;color:var(--seal);border-color:#fff}
+.rsp-band .rsp-actions a.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.rsp-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:24px}
+.rsp-toolbar h2{font-size:20px;margin-bottom:2px}.rsp-toolbar p{color:var(--muted);font-size:14px}
+.rsp-toolbar .grow{flex:1 1 260px}
+.rsp-toolbar .ctrls{display:flex;gap:10px;flex:2 1 360px;flex-wrap:wrap}
+.rsp-toolbar .ctrls input,.rsp-toolbar .ctrls select{flex:1 1 200px}
+.rsp-toolbar .count,.rsp-count{color:var(--muted);font-size:14px;font-weight:600}
+.rsp-toolbar>input[type=search]{flex:1 1 280px}
+
+.rsp-grid,.practice-grid,.mock-grid,.sl-grid,#tradesGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.rsp-card-x,.rspx-trade-card,.practice-card,.mock-card,.sl-trade-card,.trade-result,.finder-card,.finder-side-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .15s,box-shadow .15s,border-color .15s}
+.rspx-trade-card:hover,.practice-card:hover,.mock-card:hover,.sl-trade-card:hover{transform:translateY(-3px);border-color:#E8B4B7;box-shadow:0 16px 36px rgba(22,25,29,.1)}
+.rspx-trade-card,.mock-card,.sl-trade-card,.practice-card{display:flex;flex-direction:column;gap:14px}
+.rspx-trade-head{display:flex;align-items:center;gap:14px}
+.rspx-trade-icon,.practice-card-icon,.mock-icon{flex:none;width:56px;height:56px;border-radius:16px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-size:28px}
+.rspx-trade-category{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--seal)}
+.rspx-trade-title,.practice-card h2,.mock-card h2,.sl-trade-card h2{font:700 21px/1.2 "Space Grotesk",sans-serif;color:var(--ink)}
+.rspx-trade-description,.practice-card p,.mock-card p,.sl-trade-card .sl-muted{color:var(--muted);font-size:15px;line-height:23px}
+.rspx-trade-features{display:flex;flex-wrap:wrap;gap:8px}
+.rspx-trade-features span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font-size:13px;color:var(--muted)}
+.rspx-trade-price{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-radius:12px;background:var(--tint)}
+.rspx-trade-price strong{color:var(--seal);font:700 20px "Space Grotesk",sans-serif}.rspx-trade-price span{color:var(--muted);font-size:13px}
+.rspx-trade-primary,.rspx-trade-buy,.practice-card>a,.mock-card-footer a,.premium-primary,.mock-primary,.phase-btn.primary,.finder-result-actions a.primary,.manage-access-btn,.finder-next{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border-radius:12px;background:var(--seal);border:1.5px solid var(--seal);color:#fff;font:600 15px Inter,sans-serif;text-align:center;cursor:pointer;text-decoration:none}
+.rspx-trade-primary:hover,.rspx-trade-buy:hover,.practice-card>a:hover,.mock-card-footer a:hover,.premium-primary:hover,.mock-primary:hover,.phase-btn.primary:hover,.finder-next:hover{background:var(--sealdark);border-color:var(--sealdark)}
+.rspx-trade-buy{background:#fff;color:var(--seal);border-color:var(--seal)}
+.rspx-trade-buy:hover{background:var(--tint);color:var(--seal)}
+.rspx-trade-buy.rspx-owned{background:var(--pass);border-color:var(--pass);color:#fff}
+.rspx-trade-links{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rspx-trade-links a{text-align:center;padding:9px 6px;border-radius:10px;background:var(--paper);border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--ink)}
+.rspx-trade-links a:hover{border-color:var(--seal);color:var(--seal)}
+.rsp-card-x.rspx-trade-card>.rspx-trade-primary{margin-top:auto}
+.rspx-trade-primary{margin-top:auto}
+.rsp7-inline-skeleton{height:320px;border-radius:18px;background:linear-gradient(90deg,#f1ede7,#faf8f5,#f1ede7);background-size:200% 100%;animation:rspsk 1.2s infinite}
+@keyframes rspsk{to{background-position:-200% 0}}
+.trade-empty-state{grid-column:1/-1;background:#fff;border:1px dashed #E8B4B7;border-radius:16px;padding:28px;text-align:center;color:var(--muted)}
+.trade-empty-state strong{display:block;color:var(--ink);font-size:18px;margin-bottom:6px}.trade-empty-state a{color:var(--seal);font-weight:600;text-decoration:underline}
+.rs-contact-request{margin-top:36px;background:var(--tint);border:1px solid #F0C9CB;border-radius:20px;padding:32px;text-align:center}
+.rs-contact-request h2{font-size:26px}.rs-contact-request p{color:var(--muted);max-width:560px;margin:10px auto 18px;font-size:16px;line-height:25px}
+.rs-contact-request a{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;background:var(--seal);color:#fff;border-radius:12px;font-weight:600}
+.rs-contact-request a:hover{background:var(--sealdark)}
+
+/* active access (logged in) */
+.active-access-section{margin-bottom:28px}
+.active-access-plan-banner{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:linear-gradient(135deg,#8E1017,#16191D);color:#fff;border-radius:18px;padding:20px 24px}
+.plan-crown{width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:22px}
+.plan-banner-copy{flex:1 1 280px}.plan-banner-copy strong{display:block;font-size:18px}.plan-banner-copy span{color:#F6DCDD;font-size:14px}
+.plan-price-chips{display:flex;gap:8px;flex-wrap:wrap}.plan-price-chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600}
+.active-access-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin:24px 0 14px}
+.active-access-heading h2{font-size:26px}.active-access-heading p{color:var(--muted)}
+.section-eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--seal)}
+.active-access-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.active-access-card{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}
+.active-access-card>a{grid-column:1/-1;text-align:center;padding:10px;border-radius:10px;background:var(--tint);color:var(--seal);font-weight:600}
+.active-access-icon{width:46px;height:46px;border-radius:14px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-size:22px}
+.active-access-card strong{display:block}.active-access-card span{font-size:13px;color:var(--muted)}
+.active-access-status{width:28px;height:28px;border-radius:50%;background:var(--pass);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.active-access-benefits{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.benefit-lead{display:flex;gap:12px;align-items:center;flex:1 1 100%}.benefit-lead strong{display:block}.benefit-lead span{font-size:14px;color:var(--muted)}
+.benefit-shield{width:40px;height:40px;border-radius:12px;background:var(--pass);color:#fff;display:flex;align-items:center;justify-content:center}
+.benefit-item{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600}
+.manage-access-btn{min-height:42px}
+
+/* practice + mock + level */
+.practice-card>a{margin-top:auto}
+.mock-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--seal);background:var(--tint);padding:4px 10px;border-radius:999px;margin-bottom:8px}
+.mock-card{gap:16px}
+.mock-card-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:14px;border-top:1px solid var(--line)}
+.mock-card-footer strong{font:700 24px "Space Grotesk",sans-serif;color:var(--seal)}
+.premium-access-strip{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px}
+.premium-access-strip>strong{display:block;font-size:15px}.premium-access-strip p{font-size:14px;line-height:21px;margin:4px 0 10px;color:var(--muted)}
+.premium-price-line{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.premium-price-main{font:700 20px "Space Grotesk",sans-serif;color:var(--ink)}.premium-price-note{font-size:13px;color:var(--muted)}
+.premium-access-actions .premium-primary{width:100%;background:#fff;color:var(--seal)}
+.premium-access-actions .premium-primary:hover{background:var(--tint);color:var(--seal);border-color:var(--seal)}
+.practice-note{margin-top:32px;background:var(--tint);border:1px solid #F0C9CB;border-radius:16px;padding:20px 24px;color:var(--ink)}
+.practice-note a{color:var(--seal);font-weight:600;text-decoration:underline}
+.sl-level-list{display:grid;gap:10px}
+.sl-level-link{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.sl-level-link:hover{border-color:var(--seal);background:var(--tint)}
+.sl-level-link span{font-weight:600;color:var(--ink)}.sl-level-link small{display:block;font-weight:400;color:var(--muted);margin-top:2px;font-size:13px}
+.sl-level-link strong{color:var(--seal);font-size:14px;white-space:nowrap}
+.sl-training-link{background:var(--paper)}
+.sl-muted{color:var(--muted)}
+.sl-points{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.sl-points span{background:#fff;border:1px solid #F0C9CB;color:var(--seal);font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px}
+
+/* mock test (quiz) */
+.mock-test-head{display:flex;justify-content:space-between;gap:24px;align-items:center;flex-wrap:wrap}
+.mock-timer{font:700 34px "Space Grotesk",sans-serif;color:var(--seal);background:#fff;border:2px solid var(--seal);border-radius:16px;padding:12px 22px;letter-spacing:.04em}
+.mock-questions{display:grid;gap:18px;margin-bottom:24px}
+.mock-question{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin:0}
+.mock-question legend{font-weight:700;font-size:18px;line-height:1.4;padding:0 6px;float:none}
+.mock-category{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--seal);background:var(--tint);padding:3px 10px;border-radius:999px;margin:6px 0 12px}
+.mock-question label{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;margin-top:8px;cursor:pointer}
+.mock-question label:hover{border-color:#E8B4B7;background:var(--tint)}
+.mock-question label:has(input:checked){border-color:var(--seal);background:var(--tint)}
+.mock-question input{margin-top:3px}
+.mock-empty{background:#fff;border:1px dashed #E8B4B7;border-radius:16px;padding:28px;text-align:center}
+.mock-result-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:36px;max-width:900px;margin:0 auto}
+.mock-result-card h1{font-size:34px}.result-lead{color:var(--muted);margin:6px 0 22px}
+.mock-result-card .eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--seal)}
+.result-overview{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+.score-ring{--c:var(--seal);width:150px;height:150px;border-radius:50%;background:conic-gradient(var(--c) calc(var(--score)*1%),var(--line) 0);display:flex;align-items:center;justify-content:center;flex:none}
+.score-ring.pass{--c:var(--pass)}
+.score-ring-inner{width:118px;height:118px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px}
+.score-ring-inner strong{font:700 32px "Space Grotesk",sans-serif}.score-ring-inner span{font-size:11px;color:var(--muted);line-height:1.2}
+.result-status{display:inline-block;padding:6px 14px;border-radius:999px;font-weight:700;font-size:14px}
+.result-status.is-pass{background:#E4F4EA;color:var(--pass)}.result-status.is-review{background:var(--tint);color:var(--seal)}
+.result-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.result-stats div{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+.result-stats strong{display:block;font:700 26px "Space Grotesk",sans-serif}.result-stats span{font-size:13px;color:var(--muted)}
+.category-results{display:grid;gap:14px;margin:14px 0 24px}
+.category-label{display:flex;justify-content:space-between;font-weight:600;margin-bottom:6px}
+.category-track{height:10px;border-radius:999px;background:var(--line);overflow:hidden}
+.category-track span{display:block;height:100%;background:var(--seal);border-radius:999px}
+.premium-result-cta{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap;background:var(--tint);border:1px solid #F0C9CB;border-radius:16px;padding:22px;margin-bottom:22px}
+.premium-result-cta h2{font-size:22px}.premium-result-cta p{color:var(--muted);margin-top:4px}
+.premium-result-cta>a,.result-actions a:not(.mock-primary){display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:12px;border:1.5px solid var(--line);background:#fff;color:var(--seal);font-weight:600}
+.result-actions{display:flex;flex-wrap:wrap;gap:12px}
+
+/* trade finder */
+.finder-main{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:24px;align-items:start}
+.finder-step-row{display:flex;justify-content:space-between;margin-bottom:10px;font-size:15px}.finder-step-row span{color:var(--muted)}
+.finder-progress-line{height:8px;border-radius:999px;background:var(--line);overflow:hidden;margin-bottom:22px}
+.finder-progress-line span{display:block;height:100%;background:var(--seal);border-radius:999px;transition:width .3s}
+.finder-question{border:0;padding:0;margin:0}.finder-question legend{font:700 24px/1.25 "Space Grotesk",sans-serif;margin-bottom:16px;padding:0}
+.finder-options{display:grid;gap:10px}
+.finder-option{display:flex;gap:14px;align-items:center;padding:14px 16px;border:1.5px solid var(--line);border-radius:14px;cursor:pointer;background:#fff;font-size:16px}
+.finder-option:hover{border-color:#E8B4B7;background:var(--tint)}
+.finder-option:has(input:checked){border-color:var(--seal);background:var(--tint)}
+.finder-option small{color:var(--muted)!important}
+.finder-option>span:nth-of-type(1){font-size:24px}
+.finder-nav{display:flex;justify-content:space-between;gap:12px;margin-top:22px}
+.finder-prev{min-height:46px;padding:0 20px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font:600 15px Inter,sans-serif;cursor:pointer}
+.finder-prev:disabled{opacity:.5;cursor:not-allowed}
+.finder-side{display:grid;gap:16px}.finder-side-card h3{font-size:18px;margin-bottom:10px}
+.finder-stat{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}.finder-stat:last-child{border:0}.finder-stat span{color:var(--muted)}
+.finder-note p{color:var(--muted);font-size:15px;line-height:23px}
+.finder-results{margin-top:24px}.finder-results h2{font-size:26px;margin-bottom:16px}
+.trade-results{display:grid;gap:14px}
+.finder-best-match{display:flex;justify-content:space-between;gap:20px;align-items:center;background:linear-gradient(135deg,#8E1017,#16191D);color:#fff;border-radius:18px;padding:26px}
+.finder-best-match span{font-size:12px;font-weight:700;letter-spacing:.12em;color:#FFC9CB}.finder-best-match h3{font-size:28px;margin:6px 0}.finder-best-match p{color:#F6DCDD}
+.finder-result-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.finder-result-actions a.primary{background:#fff;color:var(--seal);border-color:#fff}
+.finder-result-actions a.secondary{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:12px;border:1.5px solid rgba(255,255,255,.6);color:#fff;font-weight:600}
+.finder-match-score{width:96px;height:96px;border-radius:50%;background:conic-gradient(#fff var(--match),rgba(255,255,255,.2) 0);display:flex;align-items:center;justify-content:center;flex:none}
+.finder-match-score strong{width:74px;height:74px;border-radius:50%;background:#8E1017;display:flex;align-items:center;justify-content:center;font:700 20px "Space Grotesk",sans-serif}
+.trade-result .finder-result-rank{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--seal)}
+.trade-result h3{font-size:20px;margin:4px 0}.trade-result p{color:var(--muted);font-size:15px}
+.phase-btn{display:inline-flex;align-items:center;min-height:42px;padding:0 18px;border-radius:12px;border:1.5px solid var(--seal);color:var(--seal);font-weight:600;margin-top:12px}
+.official-disclaimer{margin-top:16px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--muted)}
+
+@media(max-width:1024px){.rsp-grid,.practice-grid,.mock-grid,.sl-grid,#tradesGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.active-access-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.finder-main{grid-template-columns:1fr}}
+@media(max-width:640px){.rsp-grid,.practice-grid,.mock-grid,.sl-grid,#tradesGrid,.active-access-grid{grid-template-columns:1fr}.rsp-band{padding:24px 20px}.result-stats{grid-template-columns:repeat(2,1fr)}.finder-best-match{flex-direction:column;align-items:flex-start}.mock-result-card{padding:22px 16px}.rspx-trade-links{grid-template-columns:1fr}}
